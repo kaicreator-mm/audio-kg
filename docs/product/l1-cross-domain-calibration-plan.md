@@ -50,3 +50,6 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## K01来源谱系与重大缺口校准
 [权利与谱系](../research/source-qualification-theory-qualification.md)追踪S174–272全部99记录，新增S273/274专业定位；[重大缺口与限定案例](calibration/theory-material-gap-qualification.md)补术语及感知边界，不增加原子数量或宣称七广义缺口关闭。继续跨域28个混合迁移和未证专业问题；G02 OPEN，D25不派发普通增量独立审核。
+
+## D25 混合迁移集中研究
+[逐谓词登记](calibration/domain-mixed-migration-predicate-batch.md)、[组合案例需求](calibration/domain-mixed-migration-case-demands.md)覆盖28旧槽、28新D4候选、51既有D4限定复用及16参考入口；28组112视角需求尚未执行。所有旧槽SPLIT_PROPOSED_PENDING_REVIEW，保留历史证据及残余专业谓词，不等于正式迁移关闭。相关G02/G03/G04累计审核；无新增accepted claim或G02关闭。
