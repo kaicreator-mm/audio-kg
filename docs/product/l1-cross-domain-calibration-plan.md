@@ -59,3 +59,6 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## G02累计独立审核候选（required）
 以历史CAL02深化前基线96b321a8a11fa927e4ac3e01b95e05e928f0dd50至本候选全量K01研究为累计审核范围，非仅最近增量。[130深化谓词](calibration/theory-g02-predicate-audit.md)、[158主案例](calibration/theory-g02-case-audit.md)、[63格能力](calibration/theory-g02-capability-audit.md)、[实质发现/有限见证/7项HOLD范围裁决](calibration/theory-g02-builder-findings.md)为收口入口。54旧槽、源谱系/资格、26 CQ、9局部发现题、跨域迁移及G01两P2累计核验保留。7广义缺口全部未证；Reviewer必须判断缺口是否阻断完整K01示范，不能将其默认延后。required PR不得提前合入；G02未通过不启动G03正式标准，不提前L1冻结/L2/accepted claim。25个JS数学/符号见证不等于真实工具、LLM或专业验收。
+
+## D26 完整模块推进
+G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修正并保留历史。Owner确认后续按一个完整专业模块建设、自检、独立审核、必要修订、关闭的节奏，模块中间增量不独立审核。详见[D26门禁](calibration/stage-review-gates.md)。[R1修正](calibration/theory-g02-r1-remediation.md)继续补齐全部K01核心阻断及全谓词案例，未完成不派下一次审核。G03按D1逐模块、保留依赖及G04跨域综合，不提前启动。
