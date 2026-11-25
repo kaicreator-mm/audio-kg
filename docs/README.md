@@ -52,7 +52,7 @@
 38. [学科范围对照来源](research/source-qualification-calibration.md)：S162–S173及限制。
 39. [历史案例锚点迁移](product/calibration/legacy-case-anchor-map.md)：B01–06、MTO-C01–05精确需求映射。
 
-40. [19域候选分类提案](product/calibration/domain-taxonomy-proposal.md)：四候选域、迁移和职责；未冻结。
+40. [19域原分类提案](product/calibration/domain-taxonomy-proposal.md)：G01历史审核对象；现行裁决见58。
 41. [K01 深度示范清单](product/calibration/theory-depth-inventory.md)：非均匀原子需求、具体来源及待证项。
 42. [K01 双向案例示范](product/calibration/theory-depth-cases.md)：精确原子锚点、条件和边界。
 43. [K01 深度来源资格](research/source-qualification-theory-depth.md)：S174–S190及限制。
@@ -68,11 +68,14 @@
 
 51. [G01 责任与依赖契约](product/calibration/domain-boundary-contract.md)：唯一主责、前置、反例与分类替代。
 52. [G01 原子迁移账本](product/calibration/domain-atom-migration-ledger.md)：54个旧D4候选路由。
-53. [G01 R1四项修订](product/calibration/g01-r1-remediation.md)：待独立复审。
+53. [G01 R1四项修订](product/calibration/g01-r1-remediation.md)：历史修订，R2已通过；现行裁决见58。
 
 54. [K01旧需求语义路由](product/calibration/theory-legacy-consolidation.md)：54旧槽处置候选及剩余任务。
 55. [K01原子发现索引](product/calibration/theory-atom-discovery-index.md)：102深化原子精确案例/来源入口。
 56. [K01收口案例](product/calibration/theory-consolidation-cases.md)：8组具体四视角案例。
 57. [K01七能力校准](product/calibration/theory-capability-calibration.md)：63格及TH-A01。
+
+58. [D24 19域范围及编号登记](product/calibration/domain-scope-adoption.md)：Owner裁决与35个D2，现行范围入口。
+59. [G01 原子迁移实施账本](product/calibration/domain-migration-implementation.md)：54槽、13一对一、13保留、28拆分OPEN。
 
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

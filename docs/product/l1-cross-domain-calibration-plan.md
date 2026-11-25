@@ -1,5 +1,5 @@
 # L1 全域首轮细化结束后的校准任务（DRAFT）
-Issue #3 / T01,T02；本轮结束后15个候选D1、129 D2、387 D3、774 D4需求，387主题案例需求，903能力适用性格。所有这些是库存/规划，不是内容通过数。初始每分支3主题×2需求的机械结构明显不足以作为专业完备性标准，下一阶段按专业证据重组与深化，而非继续追求同样的计数。不得提前T03或L2。
+Issue #3 / T01,T02；下文首轮统计与历史执行记录均以原15域为基线，D24已确认19域（见[编号登记](calibration/domain-scope-adoption.md)）。首轮结束后15个候选D1、129 D2、387 D3、774 D4需求，387主题案例需求，903能力适用性格。所有这些是库存/规划，不是内容通过数。初始每分支3主题×2需求的机械结构明显不足以作为专业完备性标准，下一阶段按专业证据重组与深化，而非继续追求同样的计数。不得提前T03或L2。
 
 | 校准项 | 交付与完成条件 |
 |---|---|
@@ -30,3 +30,6 @@ G01审核FAIL（2P1/2P2），[四项修订记录](calibration/g01-r1-remediation
 
 ## G01 R2合并与G02准备
 G01 R2独立PASS (#3 7173873821 / #16 7173874842)，PR #16 已合入 72682da8d76f6ccce8ec80d2777cbca7747897ea；Product范围决定仍OPEN（不分配新ID）。K01 [旧原子语义路由](calibration/theory-legacy-consolidation.md)、[原子发现索引](calibration/theory-atom-discovery-index.md)、[能力校准](calibration/theory-capability-calibration.md) 进入G02准备，156候选未正式去重；八组新增精确案例，49个深化主目标可定位，仍有53个未建精确四视角主目标。G02未达到派发门禁；继续TH-G01–07。CAL02–06及全L1未关闭。
+
+## D24 Owner确认后实施
+[登记](calibration/domain-scope-adoption.md)与[实施账本](calibration/domain-migration-implementation.md)建立K16–19、35 D2、54槽迁移（13一对一、13保留、28拆分OPEN），实施增量required review；CAL01/02扩展19域，CAL03–06按新范围校准。G02 TH-G01–07仍OPEN。

@@ -7,8 +7,8 @@
 
 ## P1 L1：细粒度知识范围与来源
 - T01 现有本体、知识工程方法、AI/工具生态核验；形成 reuse/map/extend/avoid 矩阵与证据等级。
-- T02 K01–K15 分层知识清单（章/主题/原子知识候选）、唯一 owner、依赖和遗漏/重叠分析；每域来源矩阵及 CQ 覆盖。T01/T02 可并行研究，整合时消除冲突。
-- T02 补充交付：[D0–D4 细粒度清单](../product/fine-grained-inventory.md) 的逐主题来源和唯一 owner 校准；[A01–A07 能力覆盖](../product/capability-coverage.md)（含 CQ19–26）；[案例库](../product/case-library-plan.md) 的 D2 适用性、案例候选和真实来源矩阵。研究音乐史、审美、民族音乐、乐器学、现场音频等潜在缺口；不强行冻结 15 个一级分类。
+- T02 K01–K19 分层知识清单（D24 Owner确认；原K01–K15为历史库存）（章/主题/原子知识候选）、唯一 owner、依赖和遗漏/重叠分析；每域来源矩阵及 CQ 覆盖。T01/T02 可并行研究，整合时消除冲突。
+- T02 补充交付：[D0–D4 细粒度清单](../product/fine-grained-inventory.md) 的逐主题来源和唯一 owner 校准；[A01–A07 能力覆盖](../product/capability-coverage.md)（含 CQ19–26）；[案例库](../product/case-library-plan.md) 的 D2 适用性、案例候选和真实来源矩阵。研究音乐史、审美、民族音乐、乐器学、现场音频等潜在缺口；按D24批准19域继续；L1整体不提前冻结。
 - T02 补充：[精确案例绑定及双向推理](../product/case-reasoning-contract.md)、[129 分支案例需求](../product/branch-case-inventory.md)、[首批来源资格](../research/source-qualification-wave1.md)、[六组样稿](../research/linked-case-pilot.md)。逐知识点校准正/反例、正/反向推理、边界与 UNKNOWN；评测与检索分离，真实来源与合成例分离。补齐来源及原子主题矩阵后再审。
 - T01 S004 原文阅读补充：[MTO 分析](../research/music-theory-ontology-analysis.md)；核验具体本体资产版本/许可、实际关系语义与 CQ 后才决定复用，表格疑点须专业来源校准。将音阶/和弦模式的确定性计算、拼写/根音歧义与反例纳入 T05 候选；不预先冻结实现技术。
 - T02 第一波深化：[K01/K07 D3/D4 清单](../product/foundation/fine-grained-foundation.md)、[案例映射](../product/foundation/foundation-case-map.md)、[来源资格](../research/source-qualification-foundation.md)。其余 K02–K06/K08–K15 同步以具体专业主题、原子需求、能力适用性、案例及证据状态推进；不以需求计数替代知识验收。
@@ -41,7 +41,9 @@
 | W4 | K06 声乐教学、K14 音乐教育 | W2/K05、W3/K04；声乐安全专项审核 |
 | W5 | K09 制作后期、K10 理解与评价 | W2/K08；K10 引用 W1、W3 |
 | W6 | K11 AI 模型、K12 软件工具、K15 生产管理权利 | W5；K15 可提前做独立来源研究；禁止未授权数据导入 |
-| W7 | K13 跨文化与语言、跨域工作流 | 依赖相关 W1–W6；文化来源调查从 P1 并行 |
+| W7 | K13 语言与本地化、跨域工作流 | 相关 W1–W6 及K16文化证据；按原子依赖而非整波循环 |
+| W8 | K16 音乐学及民族音乐学、K17 音乐认知 | T06；按任务引用W1、W3、W4、W5及K15 |
+| W9 | K18 电子音乐与声音设计、K19 现场音频与扩声 | T06；按任务引用W1、W2、W3、W5、W6及K15安全权限 |
 各 Wave 可拆多个独立 Task，具体依赖以审核后的 GitHub native dependency 为准。冻结前不得批量建长命实现分支。
 
 ## P4 集成与验收
@@ -59,3 +61,5 @@ T07 依赖全部内容批次：合并后的精确 SHA 上检查 D2×能力覆盖
 
 ## 质量标准
 每一 accepted 主张证据定位、语义、适用范围及 reviewer 记录完整；每一引用可解析；禁止静默合并不同学派定义、文化或模型版本；机器验证不代替专家判断；未核验不标 PASS。明确不做：应用、DAW、训练模型、生产服务和 Domain Harness 实施。
+
+D24：[编号登记](../product/calibration/domain-scope-adoption.md)、[实施账本](../product/calibration/domain-migration-implementation.md)。W8/W9为P3规划，非已冻结DAG或派发；G02先完成K01，G03覆盖其余18域（或经审明确的紧耦合模块），G04–07继续。历史波次记录不代表当前完成。

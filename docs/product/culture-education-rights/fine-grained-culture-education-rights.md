@@ -114,3 +114,5 @@ P主要、S引用支持、C条件适用。K13拥有文化/语种条件，K14拥�
 - 仍须系统校准多民族音乐、艺术历史/审美、语言及歌唱、儿童成人及差异化教学、真实生产实践、权利与治理专业来源。3×2仅为首轮清单，不限制实际知识深度。
 
 见 [第六波案例](culture-education-rights-case-map.md)、[缅甸专项](../../research/myanmar-music-language-localization.md)。
+
+D24：K13.01–.04及K13.07/.08混合历史语义按[迁移实施账本](../calibration/domain-migration-implementation.md)解释；13项一对一新原子入口为K16；保留原文及案例来源，不将历史清单当第二主责。K13.05/.06/.07/.08继续承担语言适配，混合槽待拆分。

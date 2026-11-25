@@ -41,3 +41,5 @@ P3：每个核心可操作 D4 至少有对照案例组或有审核理由的共�
 第六波案例见 [文化教育与权利案例](culture-education-rights/culture-education-rights-case-map.md)；区分文化条件、口语/歌唱、教学表现/迁移、权利对象/身份/用途与实际发布。案例合成或真实证据分别标记。
 
 K01精确案例覆盖差距见[原子发现索引](calibration/theory-atom-discovery-index.md)，新增[八组对照](calibration/theory-consolidation-cases.md)，现有49组深化主目标仅为候选，不自动覆盖所有D4。
+
+D24新35个CP需求与13个迁移原子见[实施账本](calibration/domain-migration-implementation.md)；不整体转移FG/CP，按视角重绑，正式CaseBinding/逆索引待L2。

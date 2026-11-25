@@ -91,3 +91,5 @@ P主要/S引用支持/C条件适用；K09负责制作动作与工程状态、K10
 - 需增补人声制作、效果器与实际工程、平台规范、扩声实践、复音及歌词转录、审美与听评统计专业来源；不可把本轮均匀拆分当深度充分。
 
 案例参见 [第四波案例映射](production-evaluation-case-map.md)，七能力专项参见 [制作状态与评价闭环](production-evaluation-capability-slice.md)。
+
+D24：K09.07为过渡历史入口，K19承担现场系统职责；6个旧槽均SPLIT OPEN，见[迁移实施账本](../calibration/domain-migration-implementation.md)，保留原文及ID。
