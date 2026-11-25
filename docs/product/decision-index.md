@@ -19,5 +19,7 @@
 
 | D12 | 研究建议 | 创作与演奏保留多解；硬约束与审美偏好分离；书写音与实音、记谱与播放实现分离；配器与混音、表演与修音证据分离 | [第三波清单](creative-performance/fine-grained-creative-performance.md)、[案例](creative-performance/creative-performance-case-map.md) |
 
+| D13 | 研究建议 | 制作工程、共享快照、原素材、渲染、评价证据独立识别；编辑与版本变化触发依赖复核；MIR准确率、技术音质、演唱水平和审美不可互相替代 | [第四波清单](production-evaluation/fine-grained-production-evaluation.md)、[状态闭环](production-evaluation/production-evaluation-capability-slice.md) |
+
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。

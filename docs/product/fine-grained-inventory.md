@@ -223,3 +223,6 @@
 
 ## 第三波 D3/D4 深化
 [K02/K03/K04 清单](creative-performance/fine-grained-creative-performance.md) 24 D2、72 D3、144 D4；[案例](creative-performance/creative-performance-case-map.md)。累计68/129 D2、204 D3、408 D4候选需求，未冻结或审核。
+
+## 第四波 D3/D4 深化
+[K09/K10 清单](production-evaluation/fine-grained-production-evaluation.md) 18 D2、54 D3、108 D4；[案例](production-evaluation/production-evaluation-case-map.md)及[制作状态与评价闭环](production-evaluation/production-evaluation-capability-slice.md)。累计86/129 D2、258 D3、516 D4候选需求，未冻结或审核。
