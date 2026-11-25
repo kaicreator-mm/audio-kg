@@ -83,3 +83,5 @@ K01.05的构成/功能定义为A01，分析流程为A02，具体软件能力引�
 后续音程、律制、音阶、节拍及记谱：[K01基础深化](theory-fundamentals-inventory.md)。非和弦音的独立教材有限交叉证据见[来源校准](../../research/source-qualification-theory-fundamentals.md)，其余旧待证项不自动升级。
 
 第四轮增量及旧缺口部分补证：[进阶深化](theory-advanced-inventory.md)，[来源冲突](../../research/source-qualification-theory-advanced.md)。旧ID保持；不自动提升旧待证项。
+
+原5项待证的本轮资格见[统一九项处置](theory-pending-evidence-disposition.md)，旧原文保留，不直接覆盖原来源或性质。

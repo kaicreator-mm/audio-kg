@@ -80,4 +80,9 @@
 
 60. [K01 四视角案例集中补充](product/calibration/theory-case-batch.md)：44组精确主目标，待批量专业核验；D25审核节奏见47。
 
+61. [K01证据批次来源](research/source-qualification-theory-evidence-batch.md)：S234–S257及教材差异。
+62. [9项待证资格判定](product/calibration/theory-pending-evidence-disposition.md)：限定候选与剩余缺口。
+63. [K01剩余深度批次](product/calibration/theory-evidence-depth-inventory.md)：9 D3/14 D4。
+64. [K01证据批次案例](product/calibration/theory-evidence-batch-cases.md)：27组精确样稿。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

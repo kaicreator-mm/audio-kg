@@ -67,3 +67,5 @@ DRAFT / CAL02+CAL03。基线 8b39b9555a4a1669ddb855788e263f17710f8cd3。本轮16
 下一轮先深化三和弦/四声部/对位、半音和声的具体构成与解决、曲式及集合标准形；再完成K01逐原子去重、七能力与CQ、正式案例角色和独立来源审核。此处并未关闭K01任何分支的全部深度缺口。详见[前轮深度](theory-depth-inventory.md)及[本轮四视角](theory-fundamentals-cases.md)。
 
 后续和声、对位、曲式与后调性：[进阶清单](theory-advanced-inventory.md)。G02完整模块审核须待语义校准及其余缺口处理。
+
+原3项待证及新增历史律制/切分/休止：[资格判定](theory-pending-evidence-disposition.md)、[新原子](theory-evidence-depth-inventory.md)。历史键盘律制并非全部非西方调律。
