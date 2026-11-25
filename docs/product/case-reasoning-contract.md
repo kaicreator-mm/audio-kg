@@ -35,3 +35,5 @@ P3：每个核心可操作 D4 至少有对照案例组或有审核理由的共�
 第三波案例见 [创作编配演奏案例](creative-performance/creative-performance-case-map.md)。开放创作允许多答案，表示与执行分开，必须拒绝唯一反推和错误的风格普遍化。
 
 第四波案例见 [制作与评价案例](production-evaluation/production-evaluation-case-map.md)。工具成功、工程状态、产物身份、实际质量和评价证据分别记录；不同指标任务及参数不得混用；旧候选的评价不能直接适用于新候选。
+
+第五波案例见 [AI与编排案例](ai-orchestration/ai-orchestration-case-map.md)；能力发现、权利、实际调用、产物与质量分别验证，超时不等于无副作用；模型报告和实际部署证据分离。

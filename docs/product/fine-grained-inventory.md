@@ -226,3 +226,6 @@
 
 ## 第四波 D3/D4 深化
 [K09/K10 清单](production-evaluation/fine-grained-production-evaluation.md) 18 D2、54 D3、108 D4；[案例](production-evaluation/production-evaluation-case-map.md)及[制作状态与评价闭环](production-evaluation/production-evaluation-capability-slice.md)。累计86/129 D2、258 D3、516 D4候选需求，未冻结或审核。
+
+## 第五波 D3/D4 深化
+[K11/K12 清单](ai-orchestration/fine-grained-ai-orchestration.md) 19 D2、57 D3、114 D4；[案例](ai-orchestration/ai-orchestration-case-map.md)。累计105/129 D2、315 D3、630 D4候选需求，未冻结/审核。

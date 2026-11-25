@@ -62,3 +62,5 @@ A01–A07 使用 [双向案例契约](case-reasoning-contract.md) 的精确知�
 第三波24×7适用性见 [创作编配演奏清单](creative-performance/fine-grained-creative-performance.md)；累计476格为规划。创作与表演应区分约束与偏好，保留多个可行方案。
 
 第四波18×7适用性见 [制作与评价清单](production-evaluation/fine-grained-production-evaluation.md)，累计602格为规划。新增 [制作状态与评价闭环](production-evaluation/production-evaluation-capability-slice.md) 明确对象版本、派生产物和评价证据失效、局部保护、回滚及A01–A07锚点；仍非正式schema或运行能力。
+
+第五波19×7适用性见 [AI与编排清单](ai-orchestration/fine-grained-ai-orchestration.md)；累计735格初步规划。模型控制、可编辑性、资源、权限、实际版本能力和评估证据分别确认，不能根据模型内部架构自动判断外部可调用能力。

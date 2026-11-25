@@ -36,4 +36,9 @@
 25. [制作状态与评价闭环](product/production-evaluation/production-evaluation-capability-slice.md)：七能力专项、状态候选及证据失效。
 26. [第四波来源资格](research/source-qualification-production-evaluation.md)：S086–S107（S106未使用）及缺口。
 
+27. [AI 与软件编排清单](product/ai-orchestration/fine-grained-ai-orchestration.md)：K11/K12 D3/D4、19×7适用性。
+28. [AI 与软件编排案例](product/ai-orchestration/ai-orchestration-case-map.md)：57组需求、8组四视角及综合切片。
+29. [第五波来源资格](research/source-qualification-ai-orchestration.md)：S108–S132。
+30. [模型工具证据专项](research/model-tool-evidence.md)：路线对比、十条历史论文线索核验及准入需求。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
