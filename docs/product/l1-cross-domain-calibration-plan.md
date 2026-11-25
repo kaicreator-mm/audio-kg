@@ -36,3 +36,6 @@ G01 R2独立PASS (#3 7173873821 / #16 7173874842)，PR #16 已合入 72682da8d76
 
 ## D25 集中研究检查点
 PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非阻塞P2修订纳入同批：[D24迁移需求](calibration/domain-migration-implementation.md)、[K01旧语义路由](calibration/theory-legacy-consolidation.md)及CP/CAL02导航。按[审核门禁D25](calibration/stage-review-gates.md)合并小增量及非阻塞修订，G02完整阶段审核不变。K01 [44组案例](calibration/theory-case-batch.md)补齐此前有候选规则而无主目标样稿的深化原子，93/102有精确四视角样稿，9项显式待证仍隔离。没有新增原始来源资格、未补完整旧槽和CQ、未完成G02；继续TH-G01–07及28项SPLIT。
+
+## K01证据深化批次
+[来源](../research/source-qualification-theory-evidence-batch.md) S234–S257 22正文定位/2检索；[9待证处置](calibration/theory-pending-evidence-disposition.md) 2限定候选、7仍OPEN；[新深度](calibration/theory-evidence-depth-inventory.md) 9 D3/14 D4，[27组案例](calibration/theory-evidence-batch-cases.md) 含11旧RETAIN、2限定补证及14新增。原102深化槽95有精确主目标，7待证；新增14另计。TH-G01–07未关闭，逐原子来源/适用性/权利及CQ仍需整批校准，D25不单独派审。

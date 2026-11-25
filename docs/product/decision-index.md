@@ -43,5 +43,7 @@
 
 | D25 | 用户明确决定 | 独立审核必要时或批量执行；日常研究/P2修复合并，完整模块批次及既有required门禁保留，禁止自审冒充独立PASS | [阶段门禁](calibration/stage-review-gates.md) |
 
+| D26 | 研究建议 | 对位等课堂规范保留明确教材规则集及差异；原待证需求按限定子集补证，保留广义缺口；复节奏知觉实证与理想网格、真实表演分离 | [证据处置](calibration/theory-pending-evidence-disposition.md)、[来源](../research/source-qualification-theory-evidence-batch.md) |
+
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。

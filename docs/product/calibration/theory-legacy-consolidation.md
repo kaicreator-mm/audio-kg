@@ -69,3 +69,5 @@ DRAFT / CAL02 / G02 preparation，基线 72682da8d76f6ccce8ec80d2777cbca7747897e
 | TH-G05 | 谱号/调号/变音作用范围、休止、装饰/表现记号 | 记谱语义与工具/播放分离，引用K12具体格式，保护/转换损失案例 |
 | TH-G06 | 后调性平局算法、序列表示、竞争分析及证据 | 补独立来源与计算反例；确认表示损失，不反推历史过程 |
 | TH-G07 | 逐D4来源/CQ/案例角色、63格能力与任务闭环 | 源资格、待证隔离、细化P/S/C/N/A/UNKNOWN，未见案例及G02独立审核材料；不可用索引数量替代验收 |
+
+本轮11个RETAIN旧槽逐项新增限定四视角样稿，见[证据批次案例](theory-evidence-batch-cases.md)。旧槽语义及处置不自动改变；K01.08.03.01装饰音完整范围、K01.08.01.02复杂变音作用、分析状态真实验证仍待处理。[待证处置](theory-pending-evidence-disposition.md)、[新原子](theory-evidence-depth-inventory.md)提供具体父槽入口。其他24 PARTIAL仍待逐项校准。
