@@ -3,12 +3,12 @@
 
 | 原案例文件 | 本次读回Blob | 组数 |
 |---|---|---:|
-| [theory-depth-cases.md](theory-depth-cases.md) | 60eee24f9097ffc577d8bb70ae7be2bcb3569946 | 13 |
-| [theory-fundamentals-cases.md](theory-fundamentals-cases.md) | c6b35d115241f971de5af9ea88f7653ced44a9ad | 15 |
-| [theory-advanced-cases.md](theory-advanced-cases.md) | 3844c6cb697f0838c09e4459703d738d8cf72d2c | 13 |
-| [theory-consolidation-cases.md](theory-consolidation-cases.md) | 8e9e69bc34cd14cf9f9cbc08a174bb471dc468f1 | 8 |
-| [theory-case-batch.md](theory-case-batch.md) | 2ad8d91b2658dfdc12fb3b19c6f5dc9302adff6a | 44 |
-| [theory-evidence-batch-cases.md](theory-evidence-batch-cases.md) | d47100349f83b4ca6e4c9f8808357c24659f77c9 | 27 |
+| [theory-depth-cases.md](theory-depth-cases.md) | 56461f869faed05680db2b29da2364dbcf636b5d | 13 |
+| [theory-fundamentals-cases.md](theory-fundamentals-cases.md) | 4f482da733981d21504cb50a06e12c14bbb6a1f5 | 15 |
+| [theory-advanced-cases.md](theory-advanced-cases.md) | 29c843a4583f808e2df76ede64f9ce86402ecd49 | 13 |
+| [theory-consolidation-cases.md](theory-consolidation-cases.md) | ad6175d8966390a260dfb0e1df4a3b01d28c1811 | 8 |
+| [theory-case-batch.md](theory-case-batch.md) | 7b73f6d3a7b990fbfa2f60c9d7c25444a6b5d547 | 44 |
+| [theory-evidence-batch-cases.md](theory-evidence-batch-cases.md) | 2c1b8badd53e8b31a38453b58d68abd22a618923 | 27 |
 | [theory-legacy-cq-cases.md](theory-legacy-cq-cases.md) | 9dfad90b035e314d4aecb9715cb3f487a25217d8 | 38 |
 
 | 主D4 | 精确主案例 | 行号 | 处置范围 | 条件内显式来源及历史资格 | 本次核对 |
@@ -175,3 +175,5 @@
 158组绑定唯一，123深化/35旧，632个四视角字段齐全；19旧索引无精确主案例，7广义HOLD无精确主案例。实质核查见[发现与有限验证](theory-g02-builder-findings.md)。此派生矩阵无答案复制，不视作新知识或新案例。
 
 R1：G02 FAIL后七组被点名主案例改原文件；本表更新全部7个Blob及158精确行号。原字段齐全不等于专业覆盖；仍须按每个主谓词逐分支实质核对，不能以此次点名修复判RV-02关闭。
+
+R2：七份实际当前Blob重新绑定（158原主ID/行号不变）；[逐谓词分支审查](theory-g02-r2-case-branch-review.md)解释A/L/O及剩余，替代仅以字段齐全判断覆盖。R1历史记录保留。
