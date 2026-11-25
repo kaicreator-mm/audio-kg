@@ -66,4 +66,8 @@
 49. [K01进阶案例](product/calibration/theory-advanced-cases.md)：精确D4及反例。
 50. [K01进阶来源](research/source-qualification-theory-advanced.md)：S210–S231及来源冲突TH-S01。
 
+51. [G01 责任与依赖契约](product/calibration/domain-boundary-contract.md)：唯一主责、前置、反例与分类替代。
+52. [G01 原子迁移账本](product/calibration/domain-atom-migration-ledger.md)：54个旧D4候选路由。
+53. [G01 R1四项修订](product/calibration/g01-r1-remediation.md)：待独立复审。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
