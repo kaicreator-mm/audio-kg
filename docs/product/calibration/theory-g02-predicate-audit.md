@@ -48,7 +48,7 @@
 | K01.05.04.03 | 半减七与全减七按第七音程区分 | 定义 | S184 §8.1；S184:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 传统记谱，等音集合不等于功能 | TD-K01.05.04 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
 | K01.05.05.01 | 给定调性和进行语境区分主、前属、属功能候选 | 条件性分析 | S174 §9.4；S174:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 教材功能模型，非跨文化普遍 | TB-K01.05.05.01 | SCOPED_PREDICATE；仅提出条件性候选，需上下文，拒绝唯一归因 |
 | K01.05.05.02 | 同一和弦类别随上下文功能变化；IV–I等例外 | 条件性分析 | S174 §9.4.1；S174:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 教材分类，不唯一 | TD-K01.05.05 | SCOPED_PREDICATE；仅提出条件性候选，需上下文，拒绝唯一归因 |
-| K01.05.06.01 | 在给定调内，按和弦性质及根音五度下方构造被主音化目标候选 | 方法 | S177 §17.4；S177:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 大三和弦或大小七和弦，目标为调内和弦；再核对上下文 | TD-K01.05.06 | SCOPED_PREDICATE；原措辞有方向歧义，区分分析下行五度与反向构造上行五度；当前原登记已修订；见D7→G |
+| K01.05.06.01 | 在给定调内，由待分析大三或大小七和弦根音下行纯五度查调内被主音化目标；反向由已给目标根音上行纯五度构造副属候选 | 方法 | S177 §17.4；S177:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 大三和弦或大小七和弦，目标为调内和弦；再核对上下文 | TD-K01.05.06 | SCOPED_PREDICATE；原措辞有方向歧义，区分分析下行五度与反向构造上行五度；当前原登记已修订；见D7→G |
 | K01.05.06.02 | 区分候选副属和弦与实际功能，不由孤立和弦唯一决定 | 限制 | S177 §17.4；S178 §22.2；S177:READ_LOCATOR、S178:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 需要前后进行及调性 | TB-K01.05.06.02 | SCOPED_PREDICATE；保留拒绝或缺失信息语义，不作事实推断 |
 | K01.05.07.01 | 区分平行调式借用与调性改变的候选解释 | 条件性分析 | S179 §19.1；S180 §21.6；S179:READ_LOCATOR、S180:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 以西方调性语境为限；历史二次访问失败，当前正文重读成功 | TB-K01.05.07.01 | SCOPED_PREDICATE；S179正文重读成功，本轮仍只保留指定调性借用候选；非转调充分判据 |
 | K01.05.08.01 | 记录副属、副导、借用、那不勒斯和弦、增六和弦的分类线索 | 方法 | S180 §21.6；S180:READ_LOCATOR；[原登记](theory-depth-inventory.md) | 分类表仅初筛，具体构成待逐节阅读 | TB-K01.05.08.01 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
