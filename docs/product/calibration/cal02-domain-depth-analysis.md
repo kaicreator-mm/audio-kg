@@ -42,3 +42,5 @@ DRAFT / 研究建议，基线 ea888e22c1162c3da084574285e3b12e7aefd17f；依据[
 迁移规则：未获得范围裁决前不占用K16等ID、不修改现有D1/D2权威数量；逐项记录 old ID→保留/扩展/迁移/拆分/废弃、new candidate target、来源、理由、案例/CQ/能力影响。旧ID永久可追溯，不重用语义；每一专业主张唯一owner，其他引用；核心D4基于独立知识单元及使用场景而非固定3×2。CAL02目前为第一轮诊断与候选决策，待范围校准与具体深化后再准备审核。
 
 第二检查点：[分类提案](domain-taxonomy-proposal.md)给出候选分支、迁移与职责；[K01深度示范](theory-depth-inventory.md)给出非固定粒度的具体原子需求。继续证据校准，不宣称范围冻结。
+
+G01 备选比较与职责、旧ID原子路由以[边界契约](domain-boundary-contract.md)、[迁移账本](domain-atom-migration-ledger.md)为具体提案；19域未冻结，乐器学/指挥保留重审条件。

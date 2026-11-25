@@ -239,3 +239,5 @@
 CAL02第二检查点：[19域候选分类](calibration/domain-taxonomy-proposal.md)、[K01深度增量](calibration/theory-depth-inventory.md)。原15域/129 D2/387 D3/774 D4为历史首轮基线；额外17 D3/37 D4候选单独统计，尚未消除上位需求重复或冻结，不把合计当正式节点数。
 
 CAL02 第三检查点：[K01基础深度增量](calibration/theory-fundamentals-inventory.md) 16 D3/37 D4；与PR #14的17/37候选分开追踪。历史基线不变，待正式去重。
+
+CAL02第四检查点：[进阶清单](calibration/theory-advanced-inventory.md) 14 D3/28 D4新增候选；与历史基线及前两轮增量分别追踪。阶段性审核见[门禁](calibration/stage-review-gates.md)。
