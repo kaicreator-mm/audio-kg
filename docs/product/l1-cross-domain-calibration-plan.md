@@ -18,3 +18,6 @@ Issue #3 / T01,T02；本轮结束后15个候选D1、129 D2、387 D3、774 D4需�
 
 ## CAL02 第二个局部检查点
 [19域分类提案](calibration/domain-taxonomy-proposal.md) 细化四候选D1、迁移和职责，保持原ID/权威范围不变；[K01深度示范](calibration/theory-depth-inventory.md) 新增17个D3、37个D4候选及[13组四视角案例](calibration/theory-depth-cases.md)，逐D4定位来源/待证/条件。下一轮优先补K01剩余分支及独立来源，推进四候选域研究与范围审核；CAL02–06未完成，不提前T03/L2。
+
+## CAL02 第三个局部检查点
+[K01基础深度](calibration/theory-fundamentals-inventory.md) 新增16 D3/37 D4及[15组案例](calibration/theory-fundamentals-cases.md)；[来源与交叉校准](../research/source-qualification-theory-fundamentals.md) 含15 READ_LOCATOR/4 SEARCH_ONLY及S022重读。原始与新增候选分别统计；K01仍需和声/对位/曲式/现代乐理补深及去重，CAL02–06未关闭。

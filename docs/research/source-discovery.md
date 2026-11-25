@@ -47,3 +47,5 @@ S004 更新：论文原文文本已读，具体复用与限制见 [MTO 分析](m
 第八轮：[CAL02学科对照来源 S162–S173](source-qualification-calibration.md)。9项HTML READ_LOCATOR、1项PDF文本已读截图失败、2项SEARCH_ONLY；用于范围校准，不是逐原子主张证据。
 
 第九轮：[K01深度来源 S174–S190](source-qualification-theory-depth.md) 15项HTML章节 READ_LOCATOR（同一教材谱系）、2项SEARCH_ONLY（403）；逐D4定位但未完成独立交叉验证及版本/许可冻结。
+
+第十轮：[K01基础来源 S191–S209](source-qualification-theory-fundamentals.md) 15 READ_LOCATOR、4 SEARCH_ONLY；S022同源重读不新计；独立教材交叉证据仅限已读章节及练习。
