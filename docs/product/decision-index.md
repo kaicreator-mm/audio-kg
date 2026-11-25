@@ -15,5 +15,7 @@
 | D09 | 研究建议 | 无 KG、知识、知识+正例、知识+正反双向案例对照，测试答案与检索材料隔离 | [案例契约](case-reasoning-contract.md)、[计划](../implementation/knowledge-graph-plan.md) |
 | D10 | 研究建议 | 以基础 K01/K07 优先校准 D3/D4 后扩到声乐及数字音频；不冻结 15 子域或现有 ID 语义 | [基础领域清单](foundation/fine-grained-foundation.md) |
 
+| D11 | 研究建议 | 声乐生理、声学测量与教学操作分离；特定研究不外推所有唱法；原始演唱与处理副本隔离；自动工具不作医疗诊断 | [第二波清单](vocal-digital/fine-grained-vocal-digital.md)、[案例](vocal-digital/vocal-digital-case-map.md) |
+
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。

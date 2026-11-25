@@ -12,6 +12,7 @@
 - T02 补充：[精确案例绑定及双向推理](../product/case-reasoning-contract.md)、[129 分支案例需求](../product/branch-case-inventory.md)、[首批来源资格](../research/source-qualification-wave1.md)、[六组样稿](../research/linked-case-pilot.md)。逐知识点校准正/反例、正/反向推理、边界与 UNKNOWN；评测与检索分离，真实来源与合成例分离。补齐来源及原子主题矩阵后再审。
 - T01 S004 原文阅读补充：[MTO 分析](../research/music-theory-ontology-analysis.md)；核验具体本体资产版本/许可、实际关系语义与 CQ 后才决定复用，表格疑点须专业来源校准。将音阶/和弦模式的确定性计算、拼写/根音歧义与反例纳入 T05 候选；不预先冻结实现技术。
 - T02 第一波深化：[K01/K07 D3/D4 清单](../product/foundation/fine-grained-foundation.md)、[案例映射](../product/foundation/foundation-case-map.md)、[来源资格](../research/source-qualification-foundation.md)。其余 K02–K06/K08–K15 同步以具体专业主题、原子需求、能力适用性、案例及证据状态推进；不以需求计数替代知识验收。
+- T02 第二波：[声乐与数字音频清单](../product/vocal-digital/fine-grained-vocal-digital.md)、[案例](../product/vocal-digital/vocal-digital-case-map.md)、[来源](../research/source-qualification-vocal-digital.md)。明确生理/教学/临床、原始表现/修音、数字技术/制作边界；后续逐主题校准，不以3×2为固定规则。
 - T03 L1 独立审核；依赖 T01、T02；评估是否覆盖领域，不只服务歌曲生成，确认非西方音乐与声乐边界。P0/P1 修正后冻结 scope/CQ/acceptance。
 
 ## P2 L2：语义契约与最小可用图谱
