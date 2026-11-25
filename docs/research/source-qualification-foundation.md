@@ -22,4 +22,4 @@
 | S043 | [OMT fundamentals/目录入口](https://viva.pressbooks.pub/openmusictheory/part/fundamentals/)；后续定位声部进行/对位教材 | K01.06 | SEARCH_ONLY；目录403，未定位具体专业章节 |
 | S044 | [OMT Intro to Harmony](https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony/)、[Phrase Archetypes](https://viva.pressbooks.pub/openmusictheory/chapter/phrase-archetypes-unique-forms/) | K01.05/07 | SEARCH_ONLY；未读原文 |
 
-补充：musictheory.net lessons 21/40/42 的检索摘要可见，但直接打开仅 JavaScript disabled；不能升级为 READ_LOCATOR。OMT 前轮 S021 原文读取记录保持历史状态，本轮失败不抹去此前证据，但新章节不得沿用其状态。S004 的图表疑点仍未完成视觉核对。K01.06 对位、K01.07 曲式、K01.08 详细记谱、K01.02 非西方调律及 K07.02 信号分析、K07.04 掩蔽、K07.06 房间声学、K07.07 计量标准仍有专门来源缺口；记录为 OPEN，后续逐主题校准。S038 不支持调律，若提及该来源只归听音安全；不得将同一分支的来源集合误认为每条 D4 都有证据。
+补充：musictheory.net lessons 21/40/42 的检索摘要可见，但直接打开仅 JavaScript disabled；不能升级为 READ_LOCATOR。OMT 前轮 S021 原文读取记录保持历史状态，本轮失败不抹去此前证据，但新章节不得沿用其状态。S004 的图表疑点仍未完成视觉核对。K01.06 对位、K01.07 曲式、K01.08 详细记谱、K01.02 非西方调律及 K07.02 信号分析、K07.04 掩蔽、K07.06 房间声学、K07.07 计量标准仍有专门来源缺口；记录为 OPEN，后续逐主题校准。不得将同一分支的来源集合误认为每条 D4 都有证据。
