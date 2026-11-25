@@ -12,3 +12,6 @@ Issue #3 / T01,T02；本轮结束后15个候选D1、129 D2、387 D3、774 D4需�
 | CAL07 独立审核准备 | CAL01–06的发现和处理记录、剩余gap风险、exact candidate SHA；按Issue #3和ADS派独立T03，不自行声明PASS。 |
 
 建议先CAL01与CAL02；CAL03/04可独立研究，CAL05/06在已校准范围更新；CAL07依赖前述交付。此为计划，不宣称native DAG已经物化。需实际读取和检查；当前仅首轮研究库存结束。
+
+## 首轮校准执行记录
+[CAL01基线核对](calibration/cal01-baseline-audit.md) 已进行结构读取和质量发现；[CAL02深度分析](calibration/cal02-domain-depth-analysis.md) 已完成第一轮学科对照及4个D1候选建议，未作冻结或ID迁移。已修15条D3来源/CQ范围及[历史案例锚点](calibration/legacy-case-anchor-map.md)，剩余语义/来源/能力等问题继续CAL02–06；以本轮实际证据更新计划，不机械扩数。CAL07/T03尚未启动。
