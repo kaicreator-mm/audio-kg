@@ -304,3 +304,6 @@ D4主张的具体适用条件、原文定位及D/S角色必须同时读取[当�
 
 ## 后续补证（保留本表历史机械连接口径）
 [来源谱系、版本与权利校准](source-qualification-theory-qualification.md)直接读取Hutchinson原站2017 Colophon及OMT原版声明；S273/S274为K01.04.05.03的限定补证，K01.04.07.02仅感知边界。上述96编号/184槽是历史索引的显式连接统计，不包含新增限定补证；不改变历史检索等级或资产准入。
+
+## R3当前资格补充
+[130深化谓词现行来源路由](theory-g02-r3-predicate-source-qualification.md)与[S293–298及重读](source-qualification-theory-g02-r3.md)修订历史资格解释；原184索引和96历史来源统计不是现行来源数。历史定位与本轮定向读取分开，不自动准入资产或事实。
