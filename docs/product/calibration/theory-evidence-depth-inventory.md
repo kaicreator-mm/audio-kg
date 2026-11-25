@@ -29,3 +29,5 @@ L1 DRAFT；14个新D4候选、9个新D3候选；原74 D3/156 D4保持历史身�
 | K01.04.09 | 复节奏观察与时基边界 | 1 | CQ02/17/26 |
 | K01.09.10 | 标准顺序平局约定 | 1 | CQ02/17 |
 详见[案例](theory-evidence-batch-cases.md)、[资格判定](theory-pending-evidence-disposition.md)、[来源](../../research/source-qualification-theory-evidence-batch.md)。旧槽和新原子均为待审需求，不是已冻结知识。
+
+K01.05.15主题新增第二原子、其余9个新D3见[旧语义补足](theory-legacy-cq-inventory.md)；本历史14原子不重复计数。

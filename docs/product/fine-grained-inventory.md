@@ -295,3 +295,5 @@ K01 G02准备：[旧原子语义路由](calibration/theory-legacy-consolidation.
 历史129+35=164登记入口（含5个过渡历史入口），不是已完成或活跃数量。见[编号登记](calibration/domain-scope-adoption.md)、[实施账本](calibration/domain-migration-implementation.md)。K01 G02仍OPEN。
 
 K01证据深化：[9 D3/14 D4候选](calibration/theory-evidence-depth-inventory.md)；历史与新增总候选83 D3/170 D4（未去重）；[待证处置](calibration/theory-pending-evidence-disposition.md)及[案例](calibration/theory-evidence-batch-cases.md)，不计accepted。
+
+K01旧槽语义深化：[54槽校准](calibration/theory-legacy-calibration-ledger.md)，[9新D3/14新D4](calibration/theory-legacy-cq-inventory.md)，累计92 D3/184 D4候选、尚未正式去重；旧D3/D4 ID和源保留。

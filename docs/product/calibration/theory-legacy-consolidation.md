@@ -71,3 +71,5 @@ DRAFT / CAL02 / G02 preparation，基线 72682da8d76f6ccce8ec80d2777cbca7747897e
 | TH-G07 | 逐D4来源/CQ/案例角色、63格能力与任务闭环 | 源资格、待证隔离、细化P/S/C/N/A/UNKNOWN，未见案例及G02独立审核材料；不可用索引数量替代验收 |
 
 本轮11个RETAIN旧槽逐项新增限定四视角样稿，见[证据批次案例](theory-evidence-batch-cases.md)。旧槽语义及处置不自动改变；K01.08.03.01装饰音完整范围、K01.08.01.02复杂变音作用、分析状态真实验证仍待处理。[待证处置](theory-pending-evidence-disposition.md)、[新原子](theory-evidence-depth-inventory.md)提供具体父槽入口。其他24 PARTIAL仍待逐项校准。
+
+本轮[54槽当前校准账本](theory-legacy-calibration-ledger.md)更新24 PARTIAL与19 INDEX的具体路由及剩余边界；旧语义/编号/来源保留，11 RETAIN历史样稿仍有效。新增14原子、24旧PARTIAL样稿及14新增原子样稿见[案例](theory-legacy-cq-cases.md)，非正式去重或验收。
