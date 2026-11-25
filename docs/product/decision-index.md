@@ -41,5 +41,7 @@
 
 | D24 | 用户明确决定 | 采纳G01独立审核的19域方案；K16–K19正式编号，K13语言与文化适配，保留乐器学/指挥重审条件；旧ID可追溯，实际迁移须审核，混合语义OPEN | [编号登记](calibration/domain-scope-adoption.md)、[实施账本](calibration/domain-migration-implementation.md) |
 
+| D25 | 用户明确决定 | 独立审核必要时或批量执行；日常研究/P2修复合并，完整模块批次及既有required门禁保留，禁止自审冒充独立PASS | [阶段门禁](calibration/stage-review-gates.md) |
+
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。
