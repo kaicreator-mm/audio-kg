@@ -55,3 +55,6 @@
 
 
 R2后续记录：[分支审查](theory-g02-r2-case-branch-review.md)、[15组补证](theory-g02-r2-case-branch-fixtures.md)、[残余](theory-g02-r2-legacy-residuals.md)、[对位](theory-g02-r2-counterpoint.md)、[实际64断言](theory-g02-r2-validation.md)。原R1结果保留；尚未判P1关闭或安排中间审核。
+
+## R3累计修订候选
+R3完成[七广义范围逐项收口候选](theory-g02-r3-scope-closure.md)、[33 L关联逐项](theory-g02-r3-case-links.md)、[130来源处置](../../research/theory-g02-r3-predicate-source-qualification.md)、[29有限检查及4095集合对照](theory-g02-r3-validation.md)。原RV01四核心主责仍K01，原RV02全158含R2十五缺口与R3三十三关联，RV03原方向修正及RV04原版S245身份保留。Builder完整候选提交下一次累计required review，原独立FAIL仍有效直到新Exact HEAD PASS；不预判P1解除、G02关闭或G03可开始。
