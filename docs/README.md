@@ -31,4 +31,9 @@
 21. [创作编配与演奏案例](product/creative-performance/creative-performance-case-map.md)：72组需求、6组四视角样稿及综合切片。
 22. [第三波来源资格](research/source-qualification-creative-performance.md)：S067–S085及缺口。
 
+23. [制作与评价清单](product/production-evaluation/fine-grained-production-evaluation.md)：K09/K10 D3/D4、18×7适用性。
+24. [制作与评价案例](product/production-evaluation/production-evaluation-case-map.md)：54组需求及8组四视角样稿。
+25. [制作状态与评价闭环](product/production-evaluation/production-evaluation-capability-slice.md)：七能力专项、状态候选及证据失效。
+26. [第四波来源资格](research/source-qualification-production-evaluation.md)：S086–S107（S106未使用）及缺口。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
