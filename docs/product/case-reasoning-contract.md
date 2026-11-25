@@ -37,3 +37,5 @@ P3：每个核心可操作 D4 至少有对照案例组或有审核理由的共�
 第四波案例见 [制作与评价案例](production-evaluation/production-evaluation-case-map.md)。工具成功、工程状态、产物身份、实际质量和评价证据分别记录；不同指标任务及参数不得混用；旧候选的评价不能直接适用于新候选。
 
 第五波案例见 [AI与编排案例](ai-orchestration/ai-orchestration-case-map.md)；能力发现、权利、实际调用、产物与质量分别验证，超时不等于无副作用；模型报告和实际部署证据分离。
+
+第六波案例见 [文化教育与权利案例](culture-education-rights/culture-education-rights-case-map.md)；区分文化条件、口语/歌唱、教学表现/迁移、权利对象/身份/用途与实际发布。案例合成或真实证据分别标记。

@@ -229,3 +229,6 @@
 
 ## 第五波 D3/D4 深化
 [K11/K12 清单](ai-orchestration/fine-grained-ai-orchestration.md) 19 D2、57 D3、114 D4；[案例](ai-orchestration/ai-orchestration-case-map.md)。累计105/129 D2、315 D3、630 D4候选需求，未冻结/审核。
+
+## 第六波 D3/D4 深化
+[K13/K14/K15清单](culture-education-rights/fine-grained-culture-education-rights.md) 24 D2、72 D3、144 D4；[案例](culture-education-rights/culture-education-rights-case-map.md)。累计129/129 D2、387 D3、774 D4候选需求。全域首轮库存结束，非知识完成，按[跨域校准计划](l1-cross-domain-calibration-plan.md)修正机械深度、证据及边界后再审。

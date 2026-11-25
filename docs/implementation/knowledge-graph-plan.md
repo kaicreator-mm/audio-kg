@@ -16,6 +16,8 @@
 - T02 第三波：[创作编配演奏清单](../product/creative-performance/fine-grained-creative-performance.md)、[案例](../product/creative-performance/creative-performance-case-map.md)、[来源](../research/source-qualification-creative-performance.md)。区分形式规则、任务约束、惯例、偏好；开放创作多解、具体乐器演奏限制及转换保真；下一波 K09/K10。继续逐主题校准，不以数量代替验收。
 - T02 第四波：[K09/K10清单](../product/production-evaluation/fine-grained-production-evaluation.md)、[案例](../product/production-evaluation/production-evaluation-case-map.md)、[来源](../research/source-qualification-production-evaluation.md)、[七能力状态闭环](../product/production-evaluation/production-evaluation-capability-slice.md)。明确工具结果、产物、状态、评价证据分离与依赖失效；下一波 K11/K12，K13/K14/K15后续完成。仍需逐主题来源与适用性校准。
 - T02 第五波：[K11/K12清单](../product/ai-orchestration/fine-grained-ai-orchestration.md)、[案例](../product/ai-orchestration/ai-orchestration-case-map.md)、[来源](../research/source-qualification-ai-orchestration.md)；T01 [模型工具证据专项](../research/model-tool-evidence.md) 复核十条历史论文线索，候选准入和权限/副作用/证据边界。K13/K14/K15下一波；随后仍需全域深度、来源、能力矩阵、CQ及本体复用校准。
+- T02 第六波：[文化教育与权利清单](../product/culture-education-rights/fine-grained-culture-education-rights.md)、[案例](../product/culture-education-rights/culture-education-rights-case-map.md)、[来源](../research/source-qualification-culture-education-rights.md)、[缅甸专项](../research/myanmar-music-language-localization.md)。15域首轮库存完成，但未完成深度/来源/能力验收。
+- T01/T02 后续：[全域校准计划 CAL01–07](../product/l1-cross-domain-calibration-plan.md)，以专业证据修订机械3×2清单，完成本体复用、CQ、逐格适用与案例/来源校准后才能T03；不提前冻结。
 - T03 L1 独立审核；依赖 T01、T02；评估是否覆盖领域，不只服务歌曲生成，确认非西方音乐与声乐边界。P0/P1 修正后冻结 scope/CQ/acceptance。
 
 ## P2 L2：语义契约与最小可用图谱
