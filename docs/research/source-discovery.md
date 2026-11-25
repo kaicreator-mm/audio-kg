@@ -39,3 +39,5 @@ S004 更新：论文原文文本已读，具体复用与限制见 [MTO 分析](m
 第四轮：[S067–S085 来源资格](source-qualification-creative-performance.md)，15 READ_LOCATOR、4 SEARCH_ONLY，课程及工具文档不得泛化为专业效果证据。
 
 第五轮：[第四波来源资格](source-qualification-production-evaluation.md)，18 READ_LOCATOR、1 LANDING_ONLY、2 SEARCH_ONLY，共21条；S106草稿重复去重保留空号。标准发布页不等于正文资格。
+
+第六轮：[第五波来源资格](source-qualification-ai-orchestration.md)，11 READ_LOCATOR、13 ABSTRACT_READ、1 SEARCH_ONLY，共25项。历史线索及准入见 [模型工具证据](model-tool-evidence.md)。摘要、卡片与接口文档不等于实际运行、完整许可或独立验证。
