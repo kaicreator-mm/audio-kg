@@ -30,5 +30,7 @@
 
 | D18 | 研究建议 | 新域使用候选分类与显式迁移，旧ID保留；深度以独立语义、来源及条件/案例定义，允许不同原子数，形式计算与语境解释分开 | [分类提案](calibration/domain-taxonomy-proposal.md)、[K01示范](calibration/theory-depth-inventory.md) |
 
+| D19 | 研究建议 | 频率比、律制与音名分别表示；节拍分组、名义时值、表演时间和视觉记谱/声音实现分开；引用独立教材需明确交叉证据覆盖，软件文档非理论证明 | [基础深化](calibration/theory-fundamentals-inventory.md)、[来源](../research/source-qualification-theory-fundamentals.md) |
+
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。

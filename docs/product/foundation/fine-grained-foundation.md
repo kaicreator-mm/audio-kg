@@ -89,3 +89,5 @@
 案例需求使用 [同波主题案例登记](foundation-case-map.md)，不可用分支级 CP 组或候选 ID 证明具体知识已填充。
 
 CAL02 增量见 [K01深度示范](../calibration/theory-depth-inventory.md)。保留本文件旧ID及历史语义，增量中旧入口仅作为上位索引，正式拆分及去重尚待审核。
+
+CAL02 第三检查点：[基础深度增量](../calibration/theory-fundamentals-inventory.md)，原ID保留。S022音分公式已重新定位，正式主张及原子去重仍待审。

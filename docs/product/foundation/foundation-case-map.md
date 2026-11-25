@@ -65,3 +65,5 @@
 四组共16视角；尚未独立审核或进行 LLM 消费实验。条件、参考量、量纲、估计与观测区分是验收重点。K01 B01/B02/MTO-C01–05 已有样稿/需求，保持引用、后续逐 D4 复用，不重复生成。
 
 CAL02 新增精确D4案例需求与[13组四视角示范](../calibration/theory-depth-cases.md)；不覆盖原FG/CP或提前标已完成。
+
+CAL02 基础新增案例：[四视角案例](../calibration/theory-fundamentals-cases.md)，不提前标记原FG组完成。

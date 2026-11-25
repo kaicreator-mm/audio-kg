@@ -57,4 +57,8 @@
 42. [K01 双向案例示范](product/calibration/theory-depth-cases.md)：精确原子锚点、条件和边界。
 43. [K01 深度来源资格](research/source-qualification-theory-depth.md)：S174–S190及限制。
 
+44. [K01 基础深度增量](product/calibration/theory-fundamentals-inventory.md)：音程、律制、音阶、节拍、记谱及逐D4证据。
+45. [K01 基础双向案例](product/calibration/theory-fundamentals-cases.md)：精确原子锚点及数学/符号对照。
+46. [K01 基础来源与交叉校准](research/source-qualification-theory-fundamentals.md)：S191–S209、S022重读及独立教材有限交叉证据。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
