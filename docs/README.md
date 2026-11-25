@@ -93,4 +93,7 @@
 69. [K01全量原子与CQ发现入口](product/calibration/theory-all-atom-discovery-cq.md)：184历史及深化候选，精确角色与案例入口。
 70. [K01全局CQ范围校准](product/calibration/theory-cq-scope-calibration.md)：26问边界及9个局部发现试题。
 
+71. [K01来源谱系、版本及权利校准](research/source-qualification-theory-qualification.md)：99历史来源条目谱系核查，S273–S274补证。
+72. [K01重大缺口与限定节拍案例](product/calibration/theory-material-gap-qualification.md)：术语差异、7广义待证边界及三个限定案例，不增加原子数。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

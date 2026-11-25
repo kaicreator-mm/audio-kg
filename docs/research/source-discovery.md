@@ -57,3 +57,5 @@ G01 R1补证：S232 §6.3 与 S233 乐器学原文，2 READ_LOCATOR；S212/S220�
 K01批次：[S234–S257](source-qualification-theory-evidence-batch.md) 22 READ_LOCATOR、2 SEARCH_ONLY（章节不等于独立文献）；独立原版OMT、Scholtz历史调律、PLOS实验；S022/S069/S217/S222重读不重复ID。原2e访问失败及文化/表现缺口保留。
 
 [旧语义补证 S258–S272](source-qualification-theory-legacy-cq.md) 15 READ_LOCATOR；12同教材章节/3 MusicXML4.0条目，S209同源重读；图示音域、历史装饰音表演、权利仍缺。非15份独立文献。
+
+[K01来源谱系、版本及权利校准](source-qualification-theory-qualification.md)：S174–S272原99条目（86 READ_LOCATOR/13 SEARCH_ONLY）按宿主追溯，S273–274新增READ_LOCATOR；许可声明不等于资产准入，保留旧403。
