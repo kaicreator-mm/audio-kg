@@ -45,3 +45,5 @@ S004 更新：论文原文文本已读，具体复用与限制见 [MTO 分析](m
 第七轮：[第六波来源资格](source-qualification-culture-education-rights.md)，15 READ_LOCATOR、7 ABSTRACT_READ、2 LANDING_ONLY、5 SEARCH_ONLY，共29项；[缅甸专项](myanmar-music-language-localization.md) 记录口语/歌唱和本土调律缺口。法律文本版本及项目工程门禁不可混淆。
 
 第八轮：[CAL02学科对照来源 S162–S173](source-qualification-calibration.md)。9项HTML READ_LOCATOR、1项PDF文本已读截图失败、2项SEARCH_ONLY；用于范围校准，不是逐原子主张证据。
+
+第九轮：[K01深度来源 S174–S190](source-qualification-theory-depth.md) 15项HTML章节 READ_LOCATOR（同一教材谱系）、2项SEARCH_ONLY（403）；逐D4定位但未完成独立交叉验证及版本/许可冻结。

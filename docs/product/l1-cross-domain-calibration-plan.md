@@ -15,3 +15,6 @@ Issue #3 / T01,T02；本轮结束后15个候选D1、129 D2、387 D3、774 D4需�
 
 ## 首轮校准执行记录
 [CAL01基线核对](calibration/cal01-baseline-audit.md) 已进行结构读取和质量发现；[CAL02深度分析](calibration/cal02-domain-depth-analysis.md) 已完成第一轮学科对照及4个D1候选建议，未作冻结或ID迁移。已修15条D3来源/CQ范围及[历史案例锚点](calibration/legacy-case-anchor-map.md)，剩余语义/来源/能力等问题继续CAL02–06；以本轮实际证据更新计划，不机械扩数。CAL07/T03尚未启动。
+
+## CAL02 第二个局部检查点
+[19域分类提案](calibration/domain-taxonomy-proposal.md) 细化四候选D1、迁移和职责，保持原ID/权威范围不变；[K01深度示范](calibration/theory-depth-inventory.md) 新增17个D3、37个D4候选及[13组四视角案例](calibration/theory-depth-cases.md)，逐D4定位来源/待证/条件。下一轮优先补K01剩余分支及独立来源，推进四候选域研究与范围审核；CAL02–06未完成，不提前T03/L2。
