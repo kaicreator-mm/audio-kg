@@ -55,3 +55,6 @@ case_id、title、case_kind、evidence_status、domain/topic_ids、capability_id
 
 ## 建设和审核
 L1 每 D2 主题分支至少登记适用案例类型、CQ 和候选案例，允许共享案例但要引用具体切片；缺少真实来源明确标记。L2 设计独立 Case 表达、关联知识/流程/状态/工具/评价/产物/循环、验证 fixture，试点同时含正例、反例、失败、跨域综合及证据缺失。P3 随知识分批产出案例，不能只在末期补写；真实案例须证据审核。P4 以案例重建、跨域 CQ、对照推理和负例验证作为验收，避免只计案例数。案例本身不授权真实工具执行、声音处理或发布。
+
+## 精确关联及正反向使用（本轮补充）
+按 [案例—知识绑定与双向推理契约](case-reasoning-contract.md) 和 [分支案例需求登记册](branch-case-inventory.md) 推进。例证角色与推理方向正交；每组需有 F+/F-/R+/R- 或审核的 N/A，必要的边界/UNKNOWN，正式关联 D3/D4 知识/主张及条件。已有 C01–C15/X01–X05 为高层索引，不可作为分支或知识点完成证据。首批样稿见 [linked-case-pilot](../research/linked-case-pilot.md)。
