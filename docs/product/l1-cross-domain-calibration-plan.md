@@ -53,3 +53,6 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## D25 混合迁移集中研究
 [逐谓词登记](calibration/domain-mixed-migration-predicate-batch.md)、[组合案例需求](calibration/domain-mixed-migration-case-demands.md)覆盖28旧槽、28新D4候选、51既有D4限定复用及16参考入口；28组112视角需求尚未执行。所有旧槽SPLIT_PROPOSED_PENDING_REVIEW，保留历史证据及残余专业谓词，不等于正式迁移关闭。相关G02/G03/G04累计审核；无新增accepted claim或G02关闭。
+
+## D25 K01专业与语义收敛
+[七来源资格](../research/source-qualification-theory-convergence.md)、[九组限定案例](calibration/theory-convergence-scoped-cases.md)、[语义收敛](calibration/theory-semantic-convergence.md)：184唯一槽、130深化、54旧槽；15组高重叠语义及16残余复核，7广义缺口保持开放。未达到G02完整模块验收准备条件。下一有限批对全部深化谓词及158主目标案例按主题专业证据复查，明确缺口L1范围裁决；不自动启动G03、L2。D25 recommended SKIP。

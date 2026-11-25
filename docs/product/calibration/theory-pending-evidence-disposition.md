@@ -17,3 +17,5 @@ L1 DRAFT；原102深化原子及原9条待证记录不删除、不静默改变�
 
 
 当前限定补证：[重大缺口校准](theory-material-gap-qualification.md)，K01.04.05.03从SEARCH_GAP_OPEN转为PARTIAL_OPEN，S273/S274提供作者/研究约定的限定证据，文化惯例仍OPEN；K01.04.07.02补综述及实证边界。原历史表不改，七个广义需求仍无完整主目标。
+
+本轮[收敛限定案例](theory-convergence-scoped-cases.md)补S275–277第五类/复合对位和S281后调性API/分段方法，7广义缺口仍PARTIAL_OPEN。未取得Forte/Rahn原著、全部平局规则、跨流派规范或真实演奏数据；不能把局部例题替代完整父目标。

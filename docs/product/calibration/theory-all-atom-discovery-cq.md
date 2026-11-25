@@ -242,3 +242,6 @@ DRAFT / base e6ec8aa62844fb3a3ae505662f27cf6a3dbf9c2c；当前184个历史+深�
 当前增补发现入口：[重大缺口和限定案例](theory-material-gap-qualification.md)为K01.04.05.03、K01.04.07.02的S273/S274补证入口；原索引主目标/历史证据不改变，限定案例不得充当完整原子案例。K01.03.08.03中DOM-C01历史提案编号当前路由K16；K01.04.07.02中DOM-C02历史编号当前路由K17。具体所有权见[19域范围登记](domain-scope-adoption.md)。
 
 跨域混合迁移候选入口：[逐谓词登记](domain-mixed-migration-predicate-batch.md)。K01只消费限定抽象表示及计算谓词，原生名称和文化语境由K16.07负责，测量归K07.07；不使K01.02.03.01、K01.02.06.02自动完成，不增加184槽统计。
+
+## 当前D25限定补证及去重覆盖层
+[语义收敛](theory-semantic-convergence.md)、[限定补证案例](theory-convergence-scoped-cases.md)与[来源S275–281](../../research/source-qualification-theory-convergence.md)为当前限定入口，优先查相应目标ID；184槽及158主目标绑定不变，新增9组只作子谓词证据。K01.06.07.02、K01.06.12.02、K01.09.04.03分别得到局部证据但仍EVIDENCE_OPEN广义目标；旧K01.05.01.02、K01.06.03.01/.02新增限定案例不改变旧处置。S281文档未实际运行；不能以查到入口当成语义检索验收。

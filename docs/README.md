@@ -103,3 +103,7 @@
 
 75. [28项混合语义逐谓词候选](product/calibration/domain-mixed-migration-predicate-batch.md)：28个新D4候选、51个现有D4限定复用、16个参考入口及残余谓词。
 76. [混合迁移组合案例需求](product/calibration/domain-mixed-migration-case-demands.md)：28组四视角路由需求，未执行/审核。
+
+77. [K01缺口收敛来源](research/source-qualification-theory-convergence.md)：S275–281七个正文定位及谱系/许可限制。
+78. [K01限定补证案例](product/calibration/theory-convergence-scoped-cases.md)：9组四视角、7个广义缺口、数学校验。
+79. [K01语义收敛](product/calibration/theory-semantic-convergence.md)：15个高重叠语义组及16历史残余谓词，G02仍OPEN。
