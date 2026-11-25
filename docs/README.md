@@ -94,3 +94,6 @@
 70. [K01全局CQ范围校准](product/calibration/theory-cq-scope-calibration.md)：26问边界及9个局部发现试题。
 
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
+
+71. [K01逐原子来源资格交叉索引](research/theory-source-atom-qualification.md)：184槽与96个来源编号的历史资格连接，许可/版本边界。
+72. [K01静态发现链检查](product/calibration/theory-static-discovery-check.md)：158个精确案例绑定、9条正向查询及负查询的指定入口验证；非LLM检索实测。
