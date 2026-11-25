@@ -11,4 +11,9 @@
 6. [七类能力覆盖](product/capability-coverage.md)：A01–A07 横切能力及 CQ19–CQ26。
 7. [案例库计划](product/case-library-plan.md)：分类、案例记录及跨域验收。
 
+8. [案例—知识绑定与双向推理](product/case-reasoning-contract.md)：正反方向、正反例、精确关系与 LLM 评测。
+9. [分支案例需求登记册](product/branch-case-inventory.md)：129 个候选分支案例组。
+10. [首批来源资格](research/source-qualification-wave1.md)：原文定位及本体研究增量。
+11. [首批双向案例样稿](research/linked-case-pilot.md)：六组来源支撑样稿，未执行/审核。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
