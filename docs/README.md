@@ -18,4 +18,9 @@
 
 12. [Music Theory Ontology 原文分析](research/music-theory-ontology-analysis.md)：S004 阅读、候选概念映射、推理、缺口及双向案例。
 
+13. [讨论决策索引](product/decision-index.md)：跨会话恢复入口与固化要求。
+14. [基础领域细粒度清单](product/foundation/fine-grained-foundation.md)：K01/K07 D3/D4 需求及 17×7 适用性规划。
+15. [基础领域案例映射](product/foundation/foundation-case-map.md)：51 组主题需求与 4 组计算/判断样稿。
+16. [基础领域来源资格](research/source-qualification-foundation.md)：S028–S044 来源定位与缺口。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

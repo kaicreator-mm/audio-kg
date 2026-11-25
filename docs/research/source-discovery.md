@@ -31,3 +31,5 @@
 [S021–S027 精确来源定位与本体研究](source-qualification-wave1.md)；原 S001–S020 不自动升级；S027 仅摘要。正式 claim 需固定版本、来源定位和独立审核。
 
 S004 更新：论文原文文本已读，具体复用与限制见 [MTO 分析](music-theory-ontology-analysis.md)。不等于本体资产已取得或已通过许可/兼容性验证。
+
+第二轮基础领域：[S028–S044 来源资格与缺口](source-qualification-foundation.md)。11 个原文 HTML 定位，6 个摘要级入口；仍非独立审核或正式许可/版本冻结。
