@@ -214,3 +214,6 @@
 
 ## 案例需求关联
 [分支案例需求登记册](branch-case-inventory.md) 为现有 129 个 D2 分支逐一登记 CP 组、目标 D3 标签和正反向候选题；在来源校准后迁移为 D3/D4 稳定 ID。不得用登记册代替原子清单或来源/能力覆盖验收。
+
+## 第一波 D3/D4 深化
+[K01/K07 基础清单](foundation/fine-grained-foundation.md) 已登记 17 个 D2 的 51 个 D3、102 个 D4 候选知识需求；[案例映射](foundation/foundation-case-map.md) 逐主题登记案例需求。其他子域未进行此层级深化，仍需来源校准和独立审核。

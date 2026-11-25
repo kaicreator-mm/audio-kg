@@ -27,3 +27,5 @@ P3：每个核心可操作 D4 至少有对照案例组或有审核理由的共�
 ## 当前材料
 - [分支案例需求登记册](branch-case-inventory.md)：129 个 D2 分支的候选组，不是知识填充。
 - [首批有来源的双向案例样稿](../research/linked-case-pilot.md)：六组样稿，供 L1 校准与 L2 设计；均未独立审核。
+
+第一波精确主题需求与案例入口见 [基础案例映射](foundation/foundation-case-map.md)；D4 ID 为需求锚点，具体绑定/角色须逐 claim 审核，不自动获得 accepted 状态。
