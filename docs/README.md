@@ -70,4 +70,9 @@
 52. [G01 原子迁移账本](product/calibration/domain-atom-migration-ledger.md)：54个旧D4候选路由。
 53. [G01 R1四项修订](product/calibration/g01-r1-remediation.md)：待独立复审。
 
+54. [K01旧需求语义路由](product/calibration/theory-legacy-consolidation.md)：54旧槽处置候选及剩余任务。
+55. [K01原子发现索引](product/calibration/theory-atom-discovery-index.md)：102深化原子精确案例/来源入口。
+56. [K01收口案例](product/calibration/theory-consolidation-cases.md)：8组具体四视角案例。
+57. [K01七能力校准](product/calibration/theory-capability-calibration.md)：63格及TH-A01。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

@@ -39,3 +39,5 @@ P3：每个核心可操作 D4 至少有对照案例组或有审核理由的共�
 第五波案例见 [AI与编排案例](ai-orchestration/ai-orchestration-case-map.md)；能力发现、权利、实际调用、产物与质量分别验证，超时不等于无副作用；模型报告和实际部署证据分离。
 
 第六波案例见 [文化教育与权利案例](culture-education-rights/culture-education-rights-case-map.md)；区分文化条件、口语/歌唱、教学表现/迁移、权利对象/身份/用途与实际发布。案例合成或真实证据分别标记。
+
+K01精确案例覆盖差距见[原子发现索引](calibration/theory-atom-discovery-index.md)，新增[八组对照](calibration/theory-consolidation-cases.md)，现有49组深化主目标仅为候选，不自动覆盖所有D4。
