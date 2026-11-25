@@ -8,6 +8,7 @@
 ## P1 L1：细粒度知识范围与来源
 - T01 现有本体、知识工程方法、AI/工具生态核验；形成 reuse/map/extend/avoid 矩阵与证据等级。
 - T02 K01–K15 分层知识清单（章/主题/原子知识候选）、唯一 owner、依赖和遗漏/重叠分析；每域来源矩阵及 CQ 覆盖。T01/T02 可并行研究，整合时消除冲突。
+- T02 补充交付：[D0–D4 细粒度清单](../product/fine-grained-inventory.md) 的逐主题来源和唯一 owner 校准；[A01–A07 能力覆盖](../product/capability-coverage.md)（含 CQ19–26）；[案例库](../product/case-library-plan.md) 的 D2 适用性、案例候选和真实来源矩阵。研究音乐史、审美、民族音乐、乐器学、现场音频等潜在缺口；不强行冻结 15 个一级分类。
 - T03 L1 独立审核；依赖 T01、T02；评估是否覆盖领域，不只服务歌曲生成，确认非西方音乐与声乐边界。P0/P1 修正后冻结 scope/CQ/acceptance。
 
 ## P2 L2：语义契约与最小可用图谱
@@ -16,9 +17,11 @@
 - 候选关系：is_a、part_of、requires、prerequisite_for、measured_by、produces、consumes、applies_under、has_limitation、contradicts、supported_by、supersedes、mitigates。因果、相关、流程先后、定义严格区分；每种关系 domain/range、方向、基数/传递性、逆关系、适用条件和禁止推理明确。避免无意义 related_to；不能让依赖环绕过真实约束。
 - Claim 候选字段：id、subject/predicate/object 或 proposition、kind（definition/norm/empirical/practice/preference/hypothesis）、conditions、exceptions、source refs + locator、status、review history、version；来源含作者、标题、版本、发布日期、访问日期、URI、许可、定位，证据不足或冲突不得 accepted。禁止无出处、自证循环、虚构来源。
 - T05 pilot 依赖 T04：选择乐理/声乐/数字音频各一个最小主题，拟定 3–5 条跨域 CQ，构造真实来源主张、反例、争议/UNKNOWN、错误输入样例；测试导入、查询、追溯、拒绝非法 edge/悬空 ID/缺失证据、重复、非法推理；对比表达方案。数字为试验范围，不是完成量目标。
+- T05 补充：为七类能力设计可检索语义和综合案例路径（步骤、工具能力、状态迁移、评价、可编辑产物、失败与最小修订/回滚）；验证非法迁移、能力不匹配、证据缺失；合成 fixture 不可声称真实音频效果。
 - T06 L2 独立审核，依赖 T05；冻结语义、验证入口、迁移规则、领域索引与 schema；没有实际执行结果不得宣称 pilot PASS。
 
 ## P3 按波次构建内容（均依赖 T06）
+每批同步交付细粒度知识、适用的 A01–A07 记录及案例切片/反例，填充可追溯覆盖矩阵，不把案例留到最终阶段。
 每批流程：来源资格 → 细粒度 inventory → 抽取可审查主张 → 语义编码 → 正负例及关系 → 结构/来源/CQ 验证 → 独立审核 → 修正 → 合入版本分支。任务规模按主题及风险拆分。
 | Wave | 子域 | 依赖 |
 |---|---|---|
@@ -32,7 +35,7 @@
 各 Wave 可拆多个独立 Task，具体依赖以审核后的 GitHub native dependency 为准。冻结前不得批量建长命实现分支。
 
 ## P4 集成与验收
-T07 依赖全部内容批次：合并后的精确 SHA 上检查 coverage matrix、跨域 CQ、冲突/未知、孤立节点、所有关系和引用、重复、版本/许可、安全边界、LLM 检索发现性。用固定问题与人工/独立专家评判对照，比较无 KG 与 KG 辅助回答（不是只看 token 或节点数量）。负例应能拒绝过度推断。T08 依赖 T07：独立集成审核，P0/P1 清零；记录 P2、已知局限、复现命令与验证结果；方可考虑 v0.1.0 release。
+T07 依赖全部内容批次：合并后的精确 SHA 上检查 D2×能力覆盖矩阵、案例重建、真实/合成证据区分、跨域 CQ、冲突/未知、孤立节点、所有关系和引用、重复、版本/许可、安全边界、LLM 检索发现性。用固定问题与人工/独立专家评判对照，比较无 KG 与 KG 辅助回答（不是只看 token 或节点数量）。负例应能拒绝过度推断。T08 依赖 T07：独立集成审核，P0/P1 清零；记录 P2、已知局限、复现命令与验证结果；方可考虑 v0.1.0 release。
 
 ## 建议目录（在有真实资产时创建）
 - docs/：研究、scope、architecture、implementation、validation、release
@@ -40,6 +43,7 @@ T07 依赖全部内容批次：合并后的精确 SHA 上检查 coverage matrix�
 - knowledge/：按唯一领域 owner 划分可追踪知识
 - sources/：来源注册、证据定位
 - queries/：CQ 与推理例、正负样例
+- cases/：可复用案例、综合案例及证据引用（具体结构由 L2 确定）
 - tools/ 与 tests/：必要验证/导出工具与 fixture
 单仓库原子变更；以上格式和路径需 L2 定稿；不建空目录。
 

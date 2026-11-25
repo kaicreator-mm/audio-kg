@@ -7,4 +7,8 @@
 3. [图谱建设计划](implementation/knowledge-graph-plan.md)：阶段、任务依赖、交付和门禁；不是已冻结执行 DAG。
 4. [来源发现清单](research/source-discovery.md)：已发现的来源入口与待核验线索。
 
+5. [细粒度知识覆盖清单](product/fine-grained-inventory.md)：D0–D4 分层、候选分支及边界。
+6. [七类能力覆盖](product/capability-coverage.md)：A01–A07 横切能力及 CQ19–CQ26。
+7. [案例库计划](product/case-library-plan.md)：分类、案例记录及跨域验收。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
