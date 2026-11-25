@@ -52,3 +52,6 @@
 | R1-7Z18-source-representation | [0,2,3,4,5,8,9] | [0,2,3,4,5,8,9] | PASS |
 ## 后续模块完成条件
 继续当前K01修正：全158主目标按原谓词分支分解对照，补旧残余与四核心未证部分，检查跨域精确owner、所有当前来源和条件/反例，形成完整候选后才安排一次累计复审，不复审中间增量。D26不改变G02必须完成的专业深度，不将HOLD转移或扩大非核心豁免，不导入资产或正式知识。
+
+
+R2后续记录：[分支审查](theory-g02-r2-case-branch-review.md)、[15组补证](theory-g02-r2-case-branch-fixtures.md)、[残余](theory-g02-r2-legacy-residuals.md)、[对位](theory-g02-r2-counterpoint.md)、[实际64断言](theory-g02-r2-validation.md)。原R1结果保留；尚未判P1关闭或安排中间审核。
