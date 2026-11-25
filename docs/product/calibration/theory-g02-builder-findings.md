@@ -56,3 +56,6 @@
 
 ## R1修正后入口（2026-11-26）
 原审核 #3 comment 7176330929，FAIL 2P1/2P2。历史25项见证、原七项HOLD不删；当前[P1修订状态](theory-g02-r1-remediation.md)优先解释新补证及尚待完成项目。尚未重新派发required审核；D26完整模块节奏见[门禁](stage-review-gates.md)。
+
+## R3完整候选入口
+R1–R3补齐原审核发现的主要专业范围与案例证据，R3新增[七项范围表](theory-g02-r3-scope-closure.md)、[33关联](theory-g02-r3-case-links.md)、[130来源资格](../../research/theory-g02-r3-predicate-source-qualification.md)、[实际验证](theory-g02-r3-validation.md)。Builder提交完整累计required复审，不宣称独立通过，不撤销原FAIL或预先关闭HOLD。余下实际历史风格、未访问全文、外域观测、权利及宿主执行按声明边界隔离。Reviewer主动核查RV01–04、完整模块和未完成条件。
