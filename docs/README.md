@@ -120,3 +120,13 @@
 - [种类对位](product/calibration/theory-g02-r1-species.md)
 - [高阶对位](product/calibration/theory-g02-r1-advanced-counterpoint.md)
 - [集合比较算法](product/calibration/theory-g02-r1-set-class.md)
+
+## G02 R2 分支实质补证
+- [逐谓词158主案例审查](product/calibration/theory-g02-r2-case-branch-review.md)
+- [15处具体缺口补充案例](product/calibration/theory-g02-r2-case-branch-fixtures.md)
+- [16项历史残余补证](product/calibration/theory-g02-r2-legacy-residuals.md)
+- [种类及高阶对位](product/calibration/theory-g02-r2-counterpoint.md)
+- [S288–292及旧来源重读](research/source-qualification-theory-g02-r2.md)
+- [64项有限断言](product/calibration/theory-g02-r2-validation.md)
+
+R2不改变184槽、130深化谓词和158主案例数量；新增补证为局部证据。G02 OPEN，未派中间复审。
