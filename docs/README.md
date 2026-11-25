@@ -100,3 +100,6 @@
 
 73. [K01来源谱系、版本及权利校准](research/source-qualification-theory-qualification.md)：99历史来源条目谱系核查，S273–S274补证。
 74. [K01重大缺口与限定节拍案例](product/calibration/theory-material-gap-qualification.md)：术语差异、7广义待证边界及三个限定案例，不增加原子数。
+
+75. [28项混合语义逐谓词候选](product/calibration/domain-mixed-migration-predicate-batch.md)：28个新D4候选、51个现有D4限定复用、16个参考入口及残余谓词。
+76. [混合迁移组合案例需求](product/calibration/domain-mixed-migration-case-demands.md)：28组四视角路由需求，未执行/审核。
