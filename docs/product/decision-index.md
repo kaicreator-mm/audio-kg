@@ -23,5 +23,8 @@
 
 | D14 | 研究建议 | 模型原理与精确版本的工具能力分离；规划与声学渲染、参考与训练、生成与可编辑产物、作者报告与实测、调用与业务验收分别表达；权限及缺证据fail-closed | [第五波清单](ai-orchestration/fine-grained-ai-orchestration.md)、[模型工具证据](../research/model-tool-evidence.md) |
 
+| D15 | 研究建议 | 保留音乐文化/语言原生语义与条件；口语证据不替代歌唱；学习即时表现不等于迁移；权利按对象/辖区/用途/版本核验，不以标识或生成成功推授权 | [第六波清单](culture-education-rights/fine-grained-culture-education-rights.md)、[缅甸专项](../research/myanmar-music-language-localization.md) |
+| D16 | 研究建议 | 首轮全域库存后必须按专业证据校准深度/边界/证据/CQ/七能力及本体复用，再独立审核；3×2非固定规则 | [跨域校准计划](l1-cross-domain-calibration-plan.md) |
+
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。

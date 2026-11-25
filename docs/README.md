@@ -41,4 +41,10 @@
 29. [第五波来源资格](research/source-qualification-ai-orchestration.md)：S108–S132。
 30. [模型工具证据专项](research/model-tool-evidence.md)：路线对比、十条历史论文线索核验及准入需求。
 
+31. [文化教育与权利清单](product/culture-education-rights/fine-grained-culture-education-rights.md)：K13/K14/K15 D3/D4、24×7适用性。
+32. [文化教育与权利案例](product/culture-education-rights/culture-education-rights-case-map.md)：72组需求、8组四视角及综合切片。
+33. [第六波来源资格](research/source-qualification-culture-education-rights.md)：S133–S161。
+34. [缅甸音乐与语言本地化专项](research/myanmar-music-language-localization.md)：来源、语义边界和需求链。
+35. [L1 跨域校准计划](product/l1-cross-domain-calibration-plan.md)：CAL01–07，首轮库存后进入校准而非冻结。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
