@@ -16,4 +16,6 @@
 10. [首批来源资格](research/source-qualification-wave1.md)：原文定位及本体研究增量。
 11. [首批双向案例样稿](research/linked-case-pilot.md)：六组来源支撑样稿，未执行/审核。
 
+12. [Music Theory Ontology 原文分析](research/music-theory-ontology-analysis.md)：S004 阅读、候选概念映射、推理、缺口及双向案例。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
