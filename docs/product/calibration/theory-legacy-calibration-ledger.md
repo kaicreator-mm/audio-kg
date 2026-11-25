@@ -59,3 +59,5 @@ DRAFT / base e6ec8aa62844fb3a3ae505662f27cf6a3dbf9c2c。原[54槽语义路由](t
 原语义、来源及FG/CP/CQ原记录以历史路由为准；新案例及旧组分开标主目标；SCOPED_ROUTER 不需要为宽泛上位索引强造一个等价规则，但需核对每个查询路径与条件，历史案例重绑待L2。所有尚未完整核验的领域和条件保持OPEN。本轮不改变D24归属、不完成28个跨域SPLIT。
 
 最新[语义收敛](theory-semantic-convergence.md)复核16项旧剩余谓词、15高重叠组及PR24跨域迁移候选；旧54槽处置计数不变（11 RETAIN/27 SCOPED_ROUTER/15 RESIDUAL_OPEN/1 SPLIT_BOUNDARY_OPEN），无无条件等价或删除。
+
+R2对16个原残余槽均有[逐项补证与不可推断范围](theory-g02-r2-legacy-residuals.md)，13组新局部四视角案例；不改变54槽历史处置，待完整模块累计审核。
