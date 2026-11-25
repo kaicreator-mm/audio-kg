@@ -250,3 +250,6 @@ G02候选：见[逐谓词审查](theory-g02-predicate-audit.md)、[主案例审�
 
 ## G02 R1补证发现入口
 原184槽/158主案例数量保持；G02 FAIL 后的七组主案例已直接修订，不是新增七个原子。对K01.05.08.02、K01.06.07.02、K01.06.12.02、K01.09.04.03，分别定位[等音转调](theory-g02-r1-enharmonic-modulation.md)、[种类对位](theory-g02-r1-species.md)、[高阶对位](theory-g02-r1-advanced-counterpoint.md)、[集合比较](theory-g02-r1-set-class.md)。补充案例仍是限定子证据；原HOLD不得自动关闭。R1实际状态见[修正记录](theory-g02-r1-remediation.md)。
+
+## G02 R2补证发现入口
+按原D4查询[158主案例逐谓词审查](theory-g02-r2-case-branch-review.md)、[15组缺口补证](theory-g02-r2-case-branch-fixtures.md)、[16历史残余](theory-g02-r2-legacy-residuals.md)及[对位R2](theory-g02-r2-counterpoint.md)。对位新增十度交换、完整模仿段、A5完整候选与明确缺陷分支；来源见[S288–292及重读](../../research/source-qualification-theory-g02-r2.md)。不增加主绑定，不自动放行HOLD或真实工具答案。
