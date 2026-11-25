@@ -235,3 +235,5 @@
 
 ## 首轮库存后的校准状态
 当前六波均已完成初始D3/D4需求盘点；各波历史统计并非当前验收。见[CAL01基线核对](calibration/cal01-baseline-audit.md)、[CAL02范围与深度](calibration/cal02-domain-depth-analysis.md)；四个D1新增候选尚未分配正式K编号，原15域、129 D2不变。逐项深化、来源、owner和CQ尚待完成。
+
+CAL02第二检查点：[19域候选分类](calibration/domain-taxonomy-proposal.md)、[K01深度增量](calibration/theory-depth-inventory.md)。原15域/129 D2/387 D3/774 D4为历史首轮基线；额外17 D3/37 D4候选单独统计，尚未消除上位需求重复或冻结，不把合计当正式节点数。

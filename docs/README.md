@@ -52,4 +52,9 @@
 38. [学科范围对照来源](research/source-qualification-calibration.md)：S162–S173及限制。
 39. [历史案例锚点迁移](product/calibration/legacy-case-anchor-map.md)：B01–06、MTO-C01–05精确需求映射。
 
+40. [19域候选分类提案](product/calibration/domain-taxonomy-proposal.md)：四候选域、迁移和职责；未冻结。
+41. [K01 深度示范清单](product/calibration/theory-depth-inventory.md)：非均匀原子需求、具体来源及待证项。
+42. [K01 双向案例示范](product/calibration/theory-depth-cases.md)：精确原子锚点、条件和边界。
+43. [K01 深度来源资格](research/source-qualification-theory-depth.md)：S174–S190及限制。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
