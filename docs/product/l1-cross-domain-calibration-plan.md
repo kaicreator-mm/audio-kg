@@ -47,3 +47,6 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## K01来源资格与静态发现链集中核对
 [逐原子资格交叉索引](../research/theory-source-atom-qualification.md)连接184槽和96个显式来源编号，保留历史正文/检索等级、同谱系与原条件；MusicXML 4.0日期和FSA声明已直接读取，Hutchinson与OMT许可仍仅线索。 [静态发现核验](calibration/theory-static-discovery-check.md)实际检查158组唯一主目标绑定、23次预期ID查找及有限数学反例，非实际LLM/数据库检索。七项广义待证未升级，逐谓词专业去重和来源充分性/权利仍未闭合；G02 OPEN，D25 recommended SKIP。下一波单独处理28项混合迁移，不将路由当等价。
+
+## K01来源谱系与重大缺口校准
+[权利与谱系](../research/source-qualification-theory-qualification.md)追踪S174–272全部99记录，新增S273/274专业定位；[重大缺口与限定案例](calibration/theory-material-gap-qualification.md)补术语及感知边界，不增加原子数量或宣称七广义缺口关闭。继续跨域28个混合迁移和未证专业问题；G02 OPEN，D25不派发普通增量独立审核。

@@ -97,3 +97,6 @@
 
 71. [K01逐原子来源资格交叉索引](research/theory-source-atom-qualification.md)：184槽与96个来源编号的历史资格连接，许可/版本边界。
 72. [K01静态发现链检查](product/calibration/theory-static-discovery-check.md)：158个精确案例绑定、9条正向查询及负查询的指定入口验证；非LLM检索实测。
+
+73. [K01来源谱系、版本及权利校准](research/source-qualification-theory-qualification.md)：99历史来源条目谱系核查，S273–S274补证。
+74. [K01重大缺口与限定节拍案例](product/calibration/theory-material-gap-qualification.md)：术语差异、7广义待证边界及三个限定案例，不增加原子数。

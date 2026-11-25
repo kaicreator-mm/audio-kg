@@ -59,3 +59,5 @@ K01批次：[S234–S257](source-qualification-theory-evidence-batch.md) 22 READ
 [旧语义补证 S258–S272](source-qualification-theory-legacy-cq.md) 15 READ_LOCATOR；12同教材章节/3 MusicXML4.0条目，S209同源重读；图示音域、历史装饰音表演、权利仍缺。非15份独立文献。
 
 [逐原子来源资格交叉索引](theory-source-atom-qualification.md)：184槽、96个不同来源编号的既有资格连接；本轮补充MusicXML4.0报告日期及许可声明直读，Hutchinson/OMT许可线索（后者正文403）。未新分配S编号、未提升原资格或导入资产。
+
+[K01来源谱系、版本及权利校准](source-qualification-theory-qualification.md)：S174–S272原99条目（86 READ_LOCATOR/13 SEARCH_ONLY）按宿主追溯，S273–274新增READ_LOCATOR；许可声明不等于资产准入，保留旧403。
