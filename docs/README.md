@@ -112,3 +112,11 @@
 81. [G02 158主目标案例审查矩阵](product/calibration/theory-g02-case-audit.md)：原案例Blob、行号、条件来源及限定范围。
 82. [G02 63格能力复核](product/calibration/theory-g02-capability-audit.md)：逐格适用性、案例及外域边界。
 83. [G02 Builder发现、有限计算与七项HOLD裁决候选](product/calibration/theory-g02-builder-findings.md)：25个实际JS见证及累计独立审核准备；G02尚未PASS。
+
+## G02 R1 实质修正
+- [R1修正账本](product/calibration/theory-g02-r1-remediation.md)
+- [原文补证与版本](research/source-qualification-theory-g02-r1.md)
+- [等音转调](product/calibration/theory-g02-r1-enharmonic-modulation.md)
+- [种类对位](product/calibration/theory-g02-r1-species.md)
+- [高阶对位](product/calibration/theory-g02-r1-advanced-counterpoint.md)
+- [集合比较算法](product/calibration/theory-g02-r1-set-class.md)
