@@ -232,3 +232,6 @@
 
 ## 第六波 D3/D4 深化
 [K13/K14/K15清单](culture-education-rights/fine-grained-culture-education-rights.md) 24 D2、72 D3、144 D4；[案例](culture-education-rights/culture-education-rights-case-map.md)。累计129/129 D2、387 D3、774 D4候选需求。全域首轮库存结束，非知识完成，按[跨域校准计划](l1-cross-domain-calibration-plan.md)修正机械深度、证据及边界后再审。
+
+## 首轮库存后的校准状态
+当前六波均已完成初始D3/D4需求盘点；各波历史统计并非当前验收。见[CAL01基线核对](calibration/cal01-baseline-audit.md)、[CAL02范围与深度](calibration/cal02-domain-depth-analysis.md)；四个D1新增候选尚未分配正式K编号，原15域、129 D2不变。逐项深化、来源、owner和CQ尚待完成。

@@ -47,4 +47,9 @@
 34. [缅甸音乐与语言本地化专项](research/myanmar-music-language-localization.md)：来源、语义边界和需求链。
 35. [L1 跨域校准计划](product/l1-cross-domain-calibration-plan.md)：CAL01–07，首轮库存后进入校准而非冻结。
 
+36. [CAL01 全域基线核对](product/calibration/cal01-baseline-audit.md)：结构检查及8项质量发现。
+37. [CAL02 学科范围与深度](product/calibration/cal02-domain-depth-analysis.md)：15域深度诊断、4个新D1候选。
+38. [学科范围对照来源](research/source-qualification-calibration.md)：S162–S173及限制。
+39. [历史案例锚点迁移](product/calibration/legacy-case-anchor-map.md)：B01–06、MTO-C01–05精确需求映射。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
