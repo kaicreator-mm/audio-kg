@@ -32,6 +32,10 @@ P = 主要知识职责；S = 支持/引用其他 owner；C = 条件适用（需�
 | K13 | P | P | S | S | P | P | P |
 | K14 | P | P | S | P | P | S | P |
 | K15 | P | P | P | P | P | P | P |
+| K16 | P | P | S | C | P | P | P |
+| K17 | P | P | S | P | P | C | P |
+| K18 | P | P | S | P | P | P | P |
+| K19 | P | P | S | P | P | P | P |
 
 ## 语义与责任边界
 - P 对应实际主题/记录/案例和可查询路径，S 引用唯一 owner，C 依据实际专业任务说明；不是每个音程定义都必须附工具或工作流。L1 逐格校准；允许 N/A（有理由）、UNKNOWN（待证）和覆盖缺口；不得以空模板宣称覆盖。
@@ -68,3 +72,5 @@ A01–A07 使用 [双向案例契约](case-reasoning-contract.md) 的精确知�
 第六波24×7适用性见 [文化教育与权利清单](culture-education-rights/fine-grained-culture-education-rights.md)；累计903格为初始规划，不是内容通过。后续CAL05明确逐格owner/具体锚点/适用证据和C/N/A/UNKNOWN理由。
 
 K01 G02准备：[63格能力校准候选及TH-A01](calibration/theory-capability-calibration.md)，逐格给专业任务/引用条件；仍待完整来源、CQ和案例证据，不视为全域CAL05关闭。
+
+D24新增4域D1矩阵来自G01已审职责映射。35×7详细D2论证待CAL05，不计入原903格；K13/K09历史矩阵待混合语义迁移及重校。[登记](calibration/domain-scope-adoption.md)。

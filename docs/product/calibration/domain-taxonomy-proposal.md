@@ -45,3 +45,6 @@ K01–K12、K14、K15 保留；K13 拟收窄为语言、文化适配与本地化
 
 ## G01 复审修订
 [责任与依赖契约](domain-boundary-contract.md) 提供唯一主责判据、条件性H/O前置和四域路由对照；[原子迁移账本](domain-atom-migration-ledger.md) 是旧D4具体候选路由的权威提案，压缩行不覆盖其原子分拆。原ID不改，新域未冻结；先经独立复审，后作Product范围裁决。
+
+
+> D24（2026-11-26）Owner已采纳G01审核的19域方案，当前编号及实施状态见[编号登记](domain-scope-adoption.md)和[实施账本](domain-migration-implementation.md)。上述历史提案及审核证据原文保留；其旧状态不覆盖D24当前决定，混合原子未迁移完成。

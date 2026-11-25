@@ -75,4 +75,7 @@
 56. [K01收口案例](product/calibration/theory-consolidation-cases.md)：8组具体四视角案例。
 57. [K01七能力校准](product/calibration/theory-capability-calibration.md)：63格及TH-A01。
 
+58. [D24 19域范围及编号登记](product/calibration/domain-scope-adoption.md)：Owner裁决与35个D2，现行范围入口。
+59. [G01 原子迁移实施账本](product/calibration/domain-migration-implementation.md)：54槽、13一对一、13保留、28拆分OPEN。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

@@ -71,3 +71,6 @@ DRAFT / REWORK；旧基线 08f1cbd9d1da6a83a293bd6b40688f51ed8957e1，响应 G01
 | K08.04/.05/.09 | 通用路由、拾音、缓冲K08；DOM-C04/信号链、网络同步引用 | 设备机制不等于场地系统验收 |
 | K07.06/.07 | 传播、校准和测量K07；DOM-C04/测量与校准引用 | 现场配置/安全验收不在物理定义中 |
 其他分支保持原归属，后续 CAL05/06 专业核对；此处按保留分支审查影响，不声明逐D4内容验收。源清单 [K13](../culture-education-rights/fine-grained-culture-education-rights.md)、[K09](../production-evaluation/fine-grained-production-evaluation.md)。
+
+
+> D24（2026-11-26）Owner已采纳G01审核的19域方案，当前编号及实施状态见[编号登记](domain-scope-adoption.md)和[实施账本](domain-migration-implementation.md)。上述历史提案及审核证据原文保留；其旧状态不覆盖D24当前决定，混合原子未迁移完成。
