@@ -56,3 +56,6 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## D25 K01专业与语义收敛
 [七来源资格](../research/source-qualification-theory-convergence.md)、[九组限定案例](calibration/theory-convergence-scoped-cases.md)、[语义收敛](calibration/theory-semantic-convergence.md)：184唯一槽、130深化、54旧槽；15组高重叠语义及16残余复核，7广义缺口保持开放。未达到G02完整模块验收准备条件。下一有限批对全部深化谓词及158主目标案例按主题专业证据复查，明确缺口L1范围裁决；不自动启动G03、L2。D25 recommended SKIP。
+
+## G02累计独立审核候选（required）
+以历史CAL02深化前基线96b321a8a11fa927e4ac3e01b95e05e928f0dd50至本候选全量K01研究为累计审核范围，非仅最近增量。[130深化谓词](calibration/theory-g02-predicate-audit.md)、[158主案例](calibration/theory-g02-case-audit.md)、[63格能力](calibration/theory-g02-capability-audit.md)、[实质发现/有限见证/7项HOLD范围裁决](calibration/theory-g02-builder-findings.md)为收口入口。54旧槽、源谱系/资格、26 CQ、9局部发现题、跨域迁移及G01两P2累计核验保留。7广义缺口全部未证；Reviewer必须判断缺口是否阻断完整K01示范，不能将其默认延后。required PR不得提前合入；G02未通过不启动G03正式标准，不提前L1冻结/L2/accepted claim。25个JS数学/符号见证不等于真实工具、LLM或专业验收。
