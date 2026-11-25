@@ -253,3 +253,6 @@ G02候选：见[逐谓词审查](theory-g02-predicate-audit.md)、[主案例审�
 
 ## G02 R2补证发现入口
 按原D4查询[158主案例逐谓词审查](theory-g02-r2-case-branch-review.md)、[15组缺口补证](theory-g02-r2-case-branch-fixtures.md)、[16历史残余](theory-g02-r2-legacy-residuals.md)及[对位R2](theory-g02-r2-counterpoint.md)。对位新增十度交换、完整模仿段、A5完整候选与明确缺陷分支；来源见[S288–292及重读](../../research/source-qualification-theory-g02-r2.md)。不增加主绑定，不自动放行HOLD或真实工具答案。
+
+## G02 R3收口发现入口
+7项历史HOLD及13个局部补证按原ID查[范围裁决候选](theory-g02-r3-scope-closure.md)，原L类33项查[精确关联](theory-g02-r3-case-links.md)，130深化来源查[当前资格](../../research/theory-g02-r3-predicate-source-qualification.md)；原184/158主绑定不变。查到候选不等于已接受事实或实际检索运行。完整模块required独立复审判定是否解除旧阻断；未知跨域仍UNKNOWN。
