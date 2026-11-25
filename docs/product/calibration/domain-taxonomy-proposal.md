@@ -1,4 +1,7 @@
 # CAL02 分类调整提案：19个一级领域候选
+
+> D24（2026-11-26）Owner已采纳G01审核的19域方案，当前编号及实施状态见[编号登记](domain-scope-adoption.md)和[实施账本](domain-migration-implementation.md)。上述历史提案及审核证据原文保留；其旧状态不覆盖D24当前决定，混合原子未迁移完成。
+
 DRAFT / PROPOSED，基线 96b321a8a11fa927e4ac3e01b95e05e928f0dd50。依据[深度分析](cal02-domain-depth-analysis.md)和 S162–173；不是Owner决定，不分配正式K16–19，不改变现有权威清单。只有范围裁决及审核通过后才按迁移表落地；不存在已完成的新域内容。
 
 ## 拟调整的一级领域
@@ -46,5 +49,3 @@ K01–K12、K14、K15 保留；K13 拟收窄为语言、文化适配与本地化
 ## G01 复审修订
 [责任与依赖契约](domain-boundary-contract.md) 提供唯一主责判据、条件性H/O前置和四域路由对照；[原子迁移账本](domain-atom-migration-ledger.md) 是旧D4具体候选路由的权威提案，压缩行不覆盖其原子分拆。原ID不改，新域未冻结；先经独立复审，后作Product范围裁决。
 
-
-> D24（2026-11-26）Owner已采纳G01审核的19域方案，当前编号及实施状态见[编号登记](domain-scope-adoption.md)和[实施账本](domain-migration-implementation.md)。上述历史提案及审核证据原文保留；其旧状态不覆盖D24当前决定，混合原子未迁移完成。

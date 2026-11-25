@@ -234,7 +234,7 @@
 [K13/K14/K15清单](culture-education-rights/fine-grained-culture-education-rights.md) 24 D2、72 D3、144 D4；[案例](culture-education-rights/culture-education-rights-case-map.md)。累计129/129 D2、387 D3、774 D4候选需求。全域首轮库存结束，非知识完成，按[跨域校准计划](l1-cross-domain-calibration-plan.md)修正机械深度、证据及边界后再审。
 
 ## 首轮库存后的校准状态
-当前六波均已完成初始D3/D4需求盘点；各波历史统计并非当前验收。见[CAL01基线核对](calibration/cal01-baseline-audit.md)、[CAL02范围与深度](calibration/cal02-domain-depth-analysis.md)；四个D1新增候选尚未分配正式K编号，原15域、129 D2不变。逐项深化、来源、owner和CQ尚待完成。
+当前六波均已完成初始D3/D4需求盘点；各波历史统计并非当前验收。见[CAL01基线核对](calibration/cal01-baseline-audit.md)、[CAL02范围与深度](calibration/cal02-domain-depth-analysis.md)；当时四个D1候选未编号，原15域/129 D2为历史基线；现D24已批准19域。逐项深化、来源、owner和CQ尚待完成。
 
 CAL02第二检查点：[19域候选分类](calibration/domain-taxonomy-proposal.md)、[K01深度增量](calibration/theory-depth-inventory.md)。原15域/129 D2/387 D3/774 D4为历史首轮基线；额外17 D3/37 D4候选单独统计，尚未消除上位需求重复或冻结，不把合计当正式节点数。
 
@@ -242,7 +242,7 @@ CAL02 第三检查点：[K01基础深度增量](calibration/theory-fundamentals-
 
 CAL02第四检查点：[进阶清单](calibration/theory-advanced-inventory.md) 14 D3/28 D4新增候选；与历史基线及前两轮增量分别追踪。阶段性审核见[门禁](calibration/stage-review-gates.md)。
 
-K01 G02准备：[旧原子语义路由](calibration/theory-legacy-consolidation.md)与[102深化原子发现索引](calibration/theory-atom-discovery-index.md)；总156候选未去重。新域Product裁决未完成，保持15域权威及19候选。
+K01 G02准备：[旧原子语义路由](calibration/theory-legacy-consolidation.md)与[102深化原子发现索引](calibration/theory-atom-discovery-index.md)；总156候选未去重。当时新域Product裁决未完成；当前以D24批准19域为准，见下方新增分支。
 
 ## D24 新增分支
 ### K16

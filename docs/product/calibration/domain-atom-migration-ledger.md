@@ -1,4 +1,7 @@
 # G01 候选原子迁移路由账本
+
+> D24（2026-11-26）Owner已采纳G01审核的19域方案，当前编号及实施状态见[编号登记](domain-scope-adoption.md)和[实施账本](domain-migration-implementation.md)。上述历史提案及审核证据原文保留；其旧状态不覆盖D24当前决定，混合原子未迁移完成。
+
 DRAFT / REWORK；旧基线 08f1cbd9d1da6a83a293bd6b40688f51ed8957e1，响应 G01-RV-02。逐一读回K13全部24 D3及K09.07三个D3的两个旧D4，共54槽位，包含KEEP以防漏掉混合语义。以下旧ID永久保留、未执行迁移，现时仍由旧清单解释；候选目标为旧分支ID或 DOM-Cxx/分支名称，不是新正式ID。SPLIT 按等号后的语义逐一分拆成唯一owner，分号分隔目标；REF是引用而非新主张。MIGRATE只在单一语义迁移；KEEP原主责保留。若一个目标列出多个旧分支，以各分支现有语义为选择条件，在实施前逐条指定唯一D4；未能消歧则UNKNOWN，不自动复制。原文来源/CQ保留证据索引，不代表已验证；迁移后重新验证具体适用性、案例角色、能力与证据失效。每个旧原子链接到现存FG和CP，不将整组全部移给单一域；正式实施须对每视角重绑、验证逆索引及别名历史。新增目标未批准前只记候选。
 | old D4 | 原语义（逐行读回） | 类型 | 候选owner/具体子语义及引用 | 原来源 | 原案例/CQ及能力影响 |
 |---|---|---|---|---|---|
@@ -72,5 +75,3 @@ DRAFT / REWORK；旧基线 08f1cbd9d1da6a83a293bd6b40688f51ed8957e1，响应 G01
 | K07.06/.07 | 传播、校准和测量K07；DOM-C04/测量与校准引用 | 现场配置/安全验收不在物理定义中 |
 其他分支保持原归属，后续 CAL05/06 专业核对；此处按保留分支审查影响，不声明逐D4内容验收。源清单 [K13](../culture-education-rights/fine-grained-culture-education-rights.md)、[K09](../production-evaluation/fine-grained-production-evaluation.md)。
 
-
-> D24（2026-11-26）Owner已采纳G01审核的19域方案，当前编号及实施状态见[编号登记](domain-scope-adoption.md)和[实施账本](domain-migration-implementation.md)。上述历史提案及审核证据原文保留；其旧状态不覆盖D24当前决定，混合原子未迁移完成。
