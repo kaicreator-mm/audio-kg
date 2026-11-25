@@ -55,3 +55,5 @@ S004 更新：论文原文文本已读，具体复用与限制见 [MTO 分析](m
 G01 R1补证：S232 §6.3 与 S233 乐器学原文，2 READ_LOCATOR；S212/S220重读。见[进阶来源](source-qualification-theory-advanced.md)。
 
 K01批次：[S234–S257](source-qualification-theory-evidence-batch.md) 22 READ_LOCATOR、2 SEARCH_ONLY（章节不等于独立文献）；独立原版OMT、Scholtz历史调律、PLOS实验；S022/S069/S217/S222重读不重复ID。原2e访问失败及文化/表现缺口保留。
+
+[旧语义补证 S258–S272](source-qualification-theory-legacy-cq.md) 15 READ_LOCATOR；12同教材章节/3 MusicXML4.0条目，S209同源重读；图示音域、历史装饰音表演、权利仍缺。非15份独立文献。

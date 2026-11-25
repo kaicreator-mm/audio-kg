@@ -85,4 +85,12 @@
 63. [K01剩余深度批次](product/calibration/theory-evidence-depth-inventory.md)：9 D3/14 D4。
 64. [K01证据批次案例](product/calibration/theory-evidence-batch-cases.md)：27组精确样稿。
 
+65. [K01旧槽校准账本](product/calibration/theory-legacy-calibration-ledger.md)：54旧槽处置和剩余边界。
+66. [K01旧语义补足](product/calibration/theory-legacy-cq-inventory.md)：9新D3/14新D4及既有主题增量。
+67. [K01旧语义案例](product/calibration/theory-legacy-cq-cases.md)：38组四视角。
+68. [旧语义补证来源](research/source-qualification-theory-legacy-cq.md)：S258–S272。
+
+69. [K01全量原子与CQ发现入口](product/calibration/theory-all-atom-discovery-cq.md)：184历史及深化候选，精确角色与案例入口。
+70. [K01全局CQ范围校准](product/calibration/theory-cq-scope-calibration.md)：26问边界及9个局部发现试题。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

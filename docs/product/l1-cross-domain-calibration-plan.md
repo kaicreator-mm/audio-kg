@@ -39,3 +39,8 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## K01证据深化批次
 [来源](../research/source-qualification-theory-evidence-batch.md) S234–S257 22正文定位/2检索；[9待证处置](calibration/theory-pending-evidence-disposition.md) 2限定候选、7仍OPEN；[新深度](calibration/theory-evidence-depth-inventory.md) 9 D3/14 D4，[27组案例](calibration/theory-evidence-batch-cases.md) 含11旧RETAIN、2限定补证及14新增。原102深化槽95有精确主目标，7待证；新增14另计。TH-G01–07未关闭，逐原子来源/适用性/权利及CQ仍需整批校准，D25不单独派审。
+
+## K01旧槽语义与证据集中校准
+[54槽当前账本](calibration/theory-legacy-calibration-ledger.md)逐项处置，旧槽完整保留，24 PARTIAL及19 INDEX均复核；[14新原子/9新D3](calibration/theory-legacy-cq-inventory.md)、[38组案例](calibration/theory-legacy-cq-cases.md)、[15来源条目](../research/source-qualification-theory-legacy-cq.md)。K01现92 D3/184 D4候选，未正式去重或独立验收；7个原广义待证仍OPEN，28项跨域混合迁移未变。继续逐原子CQ精度及全量发现索引、权利/版本资格；D25集中审核。
+
+当前[184槽统一发现与CQ](calibration/theory-all-atom-discovery-cq.md)、[26问范围及9条发现试题](calibration/theory-cq-scope-calibration.md)替代仅历史102槽作为当前入口。35旧槽/123深化槽有158个精确主目标样稿；19旧INDEX以路由处理，7广义待证缺直接样稿。D/S区分全局子问题和支持；9局部问题仍为候选，未增加正式CQ。逐条源版本、权利、实测及专业缺口仍待整批审核，不宣称CAL06全域完成。
