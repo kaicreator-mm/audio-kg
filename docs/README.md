@@ -107,3 +107,8 @@
 77. [K01缺口收敛来源](research/source-qualification-theory-convergence.md)：S275–281七个正文定位及谱系/许可限制。
 78. [K01限定补证案例](product/calibration/theory-convergence-scoped-cases.md)：9组四视角、7个广义缺口、数学校验。
 79. [K01语义收敛](product/calibration/theory-semantic-convergence.md)：15个高重叠语义组及16历史残余谓词，G02仍OPEN。
+
+80. [G02 130深化谓词审查账本](product/calibration/theory-g02-predicate-audit.md)：逐项语义、原定位、适用与证据隔离。
+81. [G02 158主目标案例审查矩阵](product/calibration/theory-g02-case-audit.md)：原案例Blob、行号、条件来源及限定范围。
+82. [G02 63格能力复核](product/calibration/theory-g02-capability-audit.md)：逐格适用性、案例及外域边界。
+83. [G02 Builder发现、有限计算与七项HOLD裁决候选](product/calibration/theory-g02-builder-findings.md)：25个实际JS见证及累计独立审核准备；G02尚未PASS。
