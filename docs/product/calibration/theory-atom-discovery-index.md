@@ -112,3 +112,5 @@ DRAFT；基线 72682da8d76f6ccce8ec80d2777cbca7747897ea。54个旧槽、102个�
 本轮44组精确案例：[集中补充](theory-case-batch.md)。PR19时93/102深化原子有精确主目标样稿、9/102明确待证；原54旧槽另处理。覆盖是样稿关联数量，不是来源资格或G02验收。当前索引未完成逐原子CQ精度校准。
 
 本轮[九项资格判定](theory-pending-evidence-disposition.md)保留原9条历史待证标签，2项限定候选有TE样稿，7项广义需求仍OPEN。原102深化槽现95精确案例主目标；[新14原子](theory-evidence-depth-inventory.md)及11旧RETAIN样稿另计，均见[27组案例](theory-evidence-batch-cases.md)。不声称完整K01或正式去重。
+
+当前全量184个槽（含本表历史102槽）与局部CQ/精确案例索引见[统一入口](theory-all-atom-discovery-cq.md)，原索引作为历史校准证据保留，不与统一入口重复维护当前状态。
