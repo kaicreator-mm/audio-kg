@@ -65,3 +65,6 @@ G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修
 
 ## G02 R2完整模块推进
 [158主案例逐谓词审查](calibration/theory-g02-r2-case-branch-review.md)记录110直接候选、33需关联、15具体缺口；[15组补证](calibration/theory-g02-r2-case-branch-fixtures.md)逐项对应原缺口，不是15新原子。[16历史残余](calibration/theory-g02-r2-legacy-residuals.md)、[高阶对位](calibration/theory-g02-r2-counterpoint.md)、[S288–292](../research/source-qualification-theory-g02-r2.md)、[64有限检查](calibration/theory-g02-r2-validation.md)为P1修正证据。下一步集中核对7广义HOLD逐范围证据、全部当前谓词的精确来源资格与关联充分性（含L类依赖及源冲突）；不重复机械点数或已通过有限计算。G02仍OPEN，D26仅在完整候选准备完毕后派一次累计复审，G03不提前启动。
+
+## G02 R3完整模块候选
+[七广义需求](calibration/theory-g02-r3-scope-closure.md)逐项专业范围、[33关联](calibration/theory-g02-r3-case-links.md)、[130来源资格](../research/theory-g02-r3-predicate-source-qualification.md)、[实际有限复算](calibration/theory-g02-r3-validation.md)组成R1–R3累计候选。13新局部补证不增加184槽/158主目标；来源登记区分历史67行与有本轮定向63行（非所有原文重读）。Builder判断具备完整模块独立复审的提交条件，并非专业PASS；原G02 FAIL、七历史HOLD保留，由独立Reviewer裁决是否足以解除阻断。按D26只派一次累计required复审；G03未启动。
