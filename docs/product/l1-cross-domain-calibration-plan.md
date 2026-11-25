@@ -62,3 +62,6 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## D26 完整模块推进
 G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修正并保留历史。Owner确认后续按一个完整专业模块建设、自检、独立审核、必要修订、关闭的节奏，模块中间增量不独立审核。详见[D26门禁](calibration/stage-review-gates.md)。[R1修正](calibration/theory-g02-r1-remediation.md)继续补齐全部K01核心阻断及全谓词案例，未完成不派下一次审核。G03按D1逐模块、保留依赖及G04跨域综合，不提前启动。
+
+## G02 R2完整模块推进
+[158主案例逐谓词审查](calibration/theory-g02-r2-case-branch-review.md)记录110直接候选、33需关联、15具体缺口；[15组补证](calibration/theory-g02-r2-case-branch-fixtures.md)逐项对应原缺口，不是15新原子。[16历史残余](calibration/theory-g02-r2-legacy-residuals.md)、[高阶对位](calibration/theory-g02-r2-counterpoint.md)、[S288–292](../research/source-qualification-theory-g02-r2.md)、[64有限检查](calibration/theory-g02-r2-validation.md)为P1修正证据。下一步集中核对7广义HOLD逐范围证据、全部当前谓词的精确来源资格与关联充分性（含L类依赖及源冲突）；不重复机械点数或已通过有限计算。G02仍OPEN，D26仅在完整候选准备完毕后派一次累计复审，G03不提前启动。
