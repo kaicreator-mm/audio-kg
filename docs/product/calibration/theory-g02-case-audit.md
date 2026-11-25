@@ -7,7 +7,7 @@
 | [theory-fundamentals-cases.md](theory-fundamentals-cases.md) | 4f482da733981d21504cb50a06e12c14bbb6a1f5 | 15 |
 | [theory-advanced-cases.md](theory-advanced-cases.md) | 29c843a4583f808e2df76ede64f9ce86402ecd49 | 13 |
 | [theory-consolidation-cases.md](theory-consolidation-cases.md) | ad6175d8966390a260dfb0e1df4a3b01d28c1811 | 8 |
-| [theory-case-batch.md](theory-case-batch.md) | 7b73f6d3a7b990fbfa2f60c9d7c25444a6b5d547 | 44 |
+| [theory-case-batch.md](theory-case-batch.md) | d2fc7c8dced00b5bd1342e9ad8b28260f52de9ab | 44 |
 | [theory-evidence-batch-cases.md](theory-evidence-batch-cases.md) | 2c1b8badd53e8b31a38453b58d68abd22a618923 | 27 |
 | [theory-legacy-cq-cases.md](theory-legacy-cq-cases.md) | 9dfad90b035e314d4aecb9715cb3f487a25217d8 | 38 |
 
@@ -41,7 +41,7 @@
 | K01.03.05.01 | [TD2-K01.03.05.01](theory-fundamentals-cases.md) | L9 | SCOPED_MAIN_SAMPLE | S193:READ_LOCATOR、S194:READ_LOCATOR；与主索引显式S交集S193、S194 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.05.02 | [TB-K01.03.05.02](theory-case-batch.md) | L28 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.06.01 | [TD2-K01.03.06.01](theory-fundamentals-cases.md) | L10 | SCOPED_MAIN_SAMPLE | S194:READ_LOCATOR、S195:READ_LOCATOR；与主索引显式S交集S194 | 四视角齐全；限明确条件、原文待独立复核 |
-| K01.03.06.02 | [TB-K01.03.06.02](theory-case-batch.md) | L29 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR、S194:READ_LOCATOR；与主索引显式S交集S195、S194 | 四视角齐全；限明确条件、原文待独立复核 |
+| K01.03.06.02 | [TB-K01.03.06.02](theory-case-batch.md) | L29 | SCOPED_MAIN_SAMPLE | S297:R3_READ_LOCATOR；S195:READ_LOCATOR、S194:READ_LOCATOR；与主索引显式S交集S195、S194 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.07.01 | [TD2-K01.03.07.01](theory-fundamentals-cases.md) | L11 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR；与主索引显式S交集S195 | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.03.07.02 | [TC-K01.03.07.02](theory-consolidation-cases.md) | L6 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR、S193:READ_LOCATOR；与主索引显式S交集S195、S193 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.08.01 | [TB-K01.03.08.01](theory-case-batch.md) | L30 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR；与主索引显式S交集S195 | 四视角齐全；限明确条件、原文待独立复核 |
@@ -179,3 +179,6 @@ R1：G02 FAIL后七组被点名主案例改原文件；本表更新全部7个Blo
 R2：七份实际当前Blob重新绑定（158原主ID/行号不变）；[逐谓词分支审查](theory-g02-r2-case-branch-review.md)解释A/L/O及剩余，替代仅以字段齐全判断覆盖。R1历史记录保留。
 
 R2初检的15个具体缺口均有[对应补充见证](theory-g02-r2-case-branch-fixtures.md)，非新主案例，未证明全部专业条件充分。
+
+
+R3更新theory-case-batch.md源条件Blob；[33关联逐项核对](theory-g02-r3-case-links.md)与R2缺口补证并读，不增加主目标数。
