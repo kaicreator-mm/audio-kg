@@ -58,3 +58,5 @@ A01–A07 使用 [双向案例契约](case-reasoning-contract.md) 的精确知�
 第一波分支级适用性分析见 [K01/K07 基础清单](foundation/fine-grained-foundation.md)。17×7 为初步规划，未证明 119 格内容或来源齐备。
 
 第二波27×7初步适用性见 [声乐与数字音频清单](vocal-digital/fine-grained-vocal-digital.md)；累计308格规划非验收，仍需逐格具体证据及案例。
+
+第三波24×7适用性见 [创作编配演奏清单](creative-performance/fine-grained-creative-performance.md)；累计476格为规划。创作与表演应区分约束与偏好，保留多个可行方案。

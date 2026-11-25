@@ -220,3 +220,6 @@
 
 ## 第二波 D3/D4 深化
 [K05/K06/K08 清单](vocal-digital/fine-grained-vocal-digital.md) 27 D2、81 D3、162 D4 需求；[案例映射](vocal-digital/vocal-digital-case-map.md)同步。累计44/129 D2、132 D3、264 D4，未冻结或审核。
+
+## 第三波 D3/D4 深化
+[K02/K03/K04 清单](creative-performance/fine-grained-creative-performance.md) 24 D2、72 D3、144 D4；[案例](creative-performance/creative-performance-case-map.md)。累计68/129 D2、204 D3、408 D4候选需求，未冻结或审核。

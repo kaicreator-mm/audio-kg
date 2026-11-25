@@ -31,3 +31,5 @@ P3：每个核心可操作 D4 至少有对照案例组或有审核理由的共�
 第一波精确主题需求与案例入口见 [基础案例映射](foundation/foundation-case-map.md)；D4 ID 为需求锚点，具体绑定/角色须逐 claim 审核，不自动获得 accepted 状态。
 
 第二波案例见 [声乐与数字音频案例](vocal-digital/vocal-digital-case-map.md)，区分原始演唱、估计、处理副本与真实复测，不反推歌手能力或作健康诊断。
+
+第三波案例见 [创作编配演奏案例](creative-performance/creative-performance-case-map.md)。开放创作允许多答案，表示与执行分开，必须拒绝唯一反推和错误的风格普遍化。

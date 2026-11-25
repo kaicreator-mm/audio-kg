@@ -27,4 +27,8 @@
 18. [声乐与数字音频案例](product/vocal-digital/vocal-digital-case-map.md)：81组需求、6组四视角样稿及综合切片。
 19. [第二波来源资格](research/source-qualification-vocal-digital.md)：S045–S066 原文/摘要/发现与缺口。
 
+20. [创作编配与演奏清单](product/creative-performance/fine-grained-creative-performance.md)：K02/K03/K04 D3/D4、24×7适用性。
+21. [创作编配与演奏案例](product/creative-performance/creative-performance-case-map.md)：72组需求、6组四视角样稿及综合切片。
+22. [第三波来源资格](research/source-qualification-creative-performance.md)：S067–S085及缺口。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

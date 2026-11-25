@@ -35,3 +35,5 @@ S004 更新：论文原文文本已读，具体复用与限制见 [MTO 分析](m
 第二轮基础领域：[S028–S044 来源资格与缺口](source-qualification-foundation.md)。11 个原文 HTML 定位，6 个摘要级入口；仍非独立审核或正式许可/版本冻结。
 
 第三轮：[S045–S066 来源资格](source-qualification-vocal-digital.md)，16 READ_LOCATOR、2 ABSTRACT_READ、4 SEARCH_ONLY。缺口保留。
+
+第四轮：[S067–S085 来源资格](source-qualification-creative-performance.md)，15 READ_LOCATOR、4 SEARCH_ONLY，课程及工具文档不得泛化为专业效果证据。
