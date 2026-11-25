@@ -14,3 +14,5 @@
 - S286 [Gran MTO 30.2](https://www.mtosmt.org/issues/mto.24.30.2/mto.24.30.2.gran.php), DOI 10.30535/mto.30.2.4；摘要、guide intervals以及§4.4–4.5。不是所有历史卡农规则；未复核其全谱例。
 - S232 [Inverted Triads](https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html) 实际页面§6.3入口；S282 [Packing](https://mta.ca/pc-set/pages/pc-table/packed.html) 六组差异重读，确证7-z18左向列表0234589；旧R1明确算法计算0123589，两者同T5I轨道，仍不据此宣称原目录完全核验。
 - 原版OMT [Basic notation](https://openmusictheory.github.io/basicNotation.html) 正文重读，谱号与变音名称。Hutchinson错误路径 QuartalHarmony/QuartalAndQuintalHarmony/SlashChords/Polychords 未能打开；不计正文。Polychords小写路径随后正文读取成功，登记S291；以成功的QuintalHarmony及S232为准。OnMusic词条直接访问超时，仅搜索线索，未作为证据。S217 §30.2规则1–7再次正文重读。
+
+同轮重读S260/262/263（§26.6相邻间距、§26.12重复、§26.3平行五八度）；S248下方对位2–3悬留；S251直拍切分；S220结构功能；S269赋格章节正文。S286 §3.7–3.8补查上声部四度条件。均沿用旧编号，不把重读计作新增来源或版权准入。15组案例中含合成段级示例和字段示意，不能当作真实作品分析或宿主执行。
