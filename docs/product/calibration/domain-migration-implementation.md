@@ -1,5 +1,5 @@
 # G01 分类实施账本：第一批无歧义迁移
-D24实施已合入PR #18（16b66ec0f81ad60ebab99732becf5d24e09c62f2），R2实施独立PASS，以下保留原实施状态及历史基线；13项一对一需求入口已集成、28 SPLIT_OPEN未完成。本轮仅修订案例需求，待批量核验。原基线 fabb8c22dbc60280dc49673d78f2fa4ebb697710；[Owner裁决及编号](domain-scope-adoption.md)，[原54槽账本](domain-atom-migration-ledger.md)保持原文。13个MIGRATE分配一对一新原子需求ID（原语义完整保留），13个KEEP保留原ID，28个SPLIT只转换D2路由，逐谓词消歧仍OPEN。新ID仅在本PR审核合入后成为当前L1需求入口；旧ID永久可解析，作为历史别名不复制主责。多分支路由不自动等价，REF不是新主张。保留来源及历史FG/CP/CQ/能力影响，按具体视角重新绑定而非整组迁移；正式CaseBinding/逆索引待L2。来源未重新核验，不提升证据。
+D24实施已合入PR #18（16b66ec0f81ad60ebab99732becf5d24e09c62f2），PR #18实施独立PASS，以下保留原实施状态及历史基线；13项一对一需求入口已集成、28 SPLIT_OPEN未完成。本轮仅修订案例需求，待批量核验。原基线 fabb8c22dbc60280dc49673d78f2fa4ebb697710；[Owner裁决及编号](domain-scope-adoption.md)，[原54槽账本](domain-atom-migration-ledger.md)保持原文。13个MIGRATE分配一对一新原子需求ID（原语义完整保留），13个KEEP保留原ID，28个SPLIT只转换D2路由，逐谓词消歧仍OPEN。新ID仅在本PR审核合入后成为当前L1需求入口；旧ID永久可解析，作为历史别名不复制主责。多分支路由不自动等价，REF不是新主张。保留来源及历史FG/CP/CQ/能力影响，按具体视角重新绑定而非整组迁移；正式CaseBinding/逆索引待L2。来源未重新核验，不提升证据。
 | old D4 | 原语义 | 类型 | 新D4 / 状态 | 具体路由（仅替换候选分支名） | 原来源 | 原案例/CQ及能力影响 |
 |---|---|---|---|---|---|---|
 | K13.01.01.01 | 记录时期地域社群与传承方式 | MIGRATE | K16.02.01.01 / ONE_TO_ONE_CANDIDATE | K16.02=时期地域社群及传承证据；K13.06 REF本地化 | S133/S134/S135/S140 | FG-K13.01.01 / CP-K13.01；CQ18/CQ26/CQ13；A01/A05来源及语境；A02/A06研究或适配产物按任务 |
