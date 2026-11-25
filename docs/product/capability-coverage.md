@@ -66,3 +66,5 @@ A01–A07 使用 [双向案例契约](case-reasoning-contract.md) 的精确知�
 第五波19×7适用性见 [AI与编排清单](ai-orchestration/fine-grained-ai-orchestration.md)；累计735格初步规划。模型控制、可编辑性、资源、权限、实际版本能力和评估证据分别确认，不能根据模型内部架构自动判断外部可调用能力。
 
 第六波24×7适用性见 [文化教育与权利清单](culture-education-rights/fine-grained-culture-education-rights.md)；累计903格为初始规划，不是内容通过。后续CAL05明确逐格owner/具体锚点/适用证据和C/N/A/UNKNOWN理由。
+
+K01 G02准备：[63格能力校准候选及TH-A01](calibration/theory-capability-calibration.md)，逐格给专业任务/引用条件；仍待完整来源、CQ和案例证据，不视为全域CAL05关闭。

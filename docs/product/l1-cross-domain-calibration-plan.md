@@ -27,3 +27,6 @@ Issue #3 / T01,T02；本轮结束后15个候选D1、129 D2、387 D3、774 D4需�
 
 ## G01 R1修订
 G01审核FAIL（2P1/2P2），[四项修订记录](calibration/g01-r1-remediation.md) 已提交Builder候选，必须独立复审；G01仍HOLD，G02仍OPEN。
+
+## G01 R2合并与G02准备
+G01 R2独立PASS (#3 7173873821 / #16 7173874842)，PR #16 已合入 72682da8d76f6ccce8ec80d2777cbca7747897ea；Product范围决定仍OPEN（不分配新ID）。K01 [旧原子语义路由](calibration/theory-legacy-consolidation.md)、[原子发现索引](calibration/theory-atom-discovery-index.md)、[能力校准](calibration/theory-capability-calibration.md) 进入G02准备，156候选未正式去重；八组新增精确案例，49个深化主目标可定位，仍有53个未建精确四视角主目标。G02未达到派发门禁；继续TH-G01–07。CAL02–06及全L1未关闭。
