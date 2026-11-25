@@ -5,7 +5,7 @@
 |---|---|---|
 | G02-B01 | K01.05.06.01把分析与构造方向写在同句有歧义 | S177 §17.4重读；从副属根下行纯五度查被主音化目标，反向从目标根上行纯五度构造。保持实际功能需上下文，不把候选当已发生转调。 |
 | G02-B02 | S179二次访问失败历史限制影响当前借用候选 | 本轮重新打开[§19.1](https://musictheory.pugetsound.edu/mt21c/ModeMixtureSection.html)成功；原历史记录保留，K01.05.07.01与TB案例条件同步更新。 |
-| G02-B03 | TD3-K01.06.11.01只有正确拒绝不协和的例，未给正向满足纵向条件的候选 | 增加C4–E4协和三度、C4–D4二度对照；S217 [§30.2](https://musictheory.pugetsound.edu/mt21c/FirstSpecies.html)和S245 [Beginning and Ending](https://viva.pressbooks.pub/openmusictheory/chapter/first-species-counterpoint/)重读；严格只检查局部。 |
+| G02-B03 | TD3-K01.06.11.01只有正确拒绝不协和的例，未给正向满足纵向条件的候选 | 增加C4–E4协和三度、C4–D4二度对照；S217 [§30.2](https://musictheory.pugetsound.edu/mt21c/FirstSpecies.html)和S245 [原版 Beginning and Ending](https://openmusictheory.github.io/firstSpecies.html)正文重读；2e VIVA不同版本，前次403未核，不作为S245证据；严格只检查局部。 |
 | G02-B04 | 158主目标数容易被理解为完整专业目标覆盖，派生矩阵曾重复完整题干答案 | 改为原Blob/行号及范围路由；不复制答案、不将宽目标局部样稿升级；L2必须隔离题目答案。 |
 | G02-B05 | K01.09.10.01历史候选枚举不完整（PR25修正） | 再验全部三种平局、两约定首级结果；不补造后续tie规则。 |
 | G02-B06 | 130行历史来源与当前补证可能不同，S编号存在不代表逐谓词充分 | 7 HOLD、2 LIMITED、旧残余、术语及源谱系明确分离，评审需查当前补证与原文；不自动准入。 |
