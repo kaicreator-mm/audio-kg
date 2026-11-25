@@ -23,4 +23,8 @@
 15. [基础领域案例映射](product/foundation/foundation-case-map.md)：51 组主题需求与 4 组计算/判断样稿。
 16. [基础领域来源资格](research/source-qualification-foundation.md)：S028–S044 来源定位与缺口。
 
+17. [声乐与数字音频清单](product/vocal-digital/fine-grained-vocal-digital.md)：K05/K06/K08 D3/D4、27×7适用性。
+18. [声乐与数字音频案例](product/vocal-digital/vocal-digital-case-map.md)：81组需求、6组四视角样稿及综合切片。
+19. [第二波来源资格](research/source-qualification-vocal-digital.md)：S045–S066 原文/摘要/发现与缺口。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。
