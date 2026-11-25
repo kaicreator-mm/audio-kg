@@ -22,7 +22,7 @@
 | K01.03.05.01 | 以平行大调为参考，自然小调降低3、6、7级；也可按有序步长构造 | 条件性定义 | S193 §7.2–7.3；S194 §3.1；S193:READ_LOCATOR、S194:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 西方常规小调与拼写 | TD2-K01.03.05.01 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
 | K01.03.05.02 | 和声小调相对自然小调升高7级；保留调号与临时变音 | 条件性定义 | S194 §3.1 图像描述；S195 Table31.9.4；S194:READ_LOCATOR、S195:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 不表示每个小调乐句都必须含升7 | TB-K01.03.05.02 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
 | K01.03.06.01 | 传统教材上行旋律小调相对自然小调升6、7级；下行按自然小调描述 | 条件性定义 | S194 §3.1；S194:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 教学模型而非所有真实旋律 | TD2-K01.03.06.01 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
-| K01.03.06.02 | 爵士音阶表的旋律小调使用1 2 ♭3 4 5 6 7的集合定义；方向规则另行限定 | 术语差异 | S195 Table31.9.4；S194；S195:READ_LOCATOR、S194:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 不把古典练习规则强加爵士 | TB-K01.03.06.02 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
+| K01.03.06.02 | 爵士音阶表的旋律小调使用1 2 ♭3 4 5 6 7的集合定义；方向规则另行限定 | 术语差异 | S195 Table31.9.4；S194；S297 §6.6；S297:READ_LOCATOR（R3）；S195:READ_LOCATOR、S194:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 不把古典练习规则强加爵士 | TB-K01.03.06.02 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
 | K01.03.07.01 | 给定主音构造Dorian/Lydian/Mixolydian的音级关系 | 条件性定义 | S195 Table31.9.4；S195:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 西方七声音阶、指定主音 | TD2-K01.03.07.01 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
 | K01.03.07.02 | 区分以音级集合描述音阶与以语境识别调式中心；同集合不唯一决定中心 | 限制 | S195 表；S193 §7.2；逻辑推导；S195:READ_LOCATOR、S193:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 需要旋律/和声/强调等证据 | TC-K01.03.07.02 | SCOPED_PREDICATE；保留拒绝或缺失信息语义，不作事实推断 |
 | K01.03.08.01 | 按作者定义构造小调五声音阶及其增加降五级/升四级的蓝调音阶 | 条件性定义 | S195 §31.9.1；S195:READ_LOCATOR；[原登记](theory-fundamentals-inventory.md) | 仅此爵士教学模型，不等于实际连续音高或所有五声体系 | TB-K01.03.08.01 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
@@ -134,3 +134,5 @@
 | K01.09.10.01 | 标准顺序平局首级约定 | 条件性方法 | S222 §33.2脚注重读；S223原定位；S222:READ_LOCATOR、S223:READ_LOCATOR；[原登记](theory-evidence-depth-inventory.md) | 仅当相同最小跨度且首级比较已分胜负，明确Forte/Rahn约定，后续平局不判 | TE-K01.09.10.01 | SCOPED_PREDICATE；限定教材或定义条件；不推广跨风格 |
 
 合计130：SCOPED_PREDICATE 114；SCOPED_DISTINCT_OR_PARENT 7；HOLD_BROAD 7；LIMITED_ROUTER 2。无删除、无新增ID或accepted claim。历史54槽仍见[旧账本](theory-legacy-calibration-ledger.md)，不与130行相加为独立知识数。当前[来源重读与异常修正](theory-g02-builder-findings.md)优先解释旧S179访问限制及第一类局部案例。专业充分性由累计独立审核判定。
+
+R3当前来源处置以[130逐谓词资格](../../research/theory-g02-r3-predicate-source-qualification.md)和[七项范围收口](theory-g02-r3-scope-closure.md)为补充；历史HOLD和原覆盖边界不删，独立审核判定是否满足G02。
