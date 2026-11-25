@@ -130,3 +130,11 @@
 - [64项有限断言](product/calibration/theory-g02-r2-validation.md)
 
 R2不改变184槽、130深化谓词和158主案例数量；新增补证为局部证据。G02 OPEN，未派中间复审。
+
+## G02 R3 完整模块收口候选
+- [七项广义范围裁决候选及13补证组](product/calibration/theory-g02-r3-scope-closure.md)
+- [33项案例精确关联](product/calibration/theory-g02-r3-case-links.md)
+- [130深化谓词当前来源资格](research/theory-g02-r3-predicate-source-qualification.md)
+- [S293–298及定向原文](research/source-qualification-theory-g02-r3.md)
+- [实际29项及4095集合对照](product/calibration/theory-g02-r3-validation.md)
+R1–R3为完整K01修订候选；旧FAIL/HOLD留存，非已通过。D26下仅派一次累计required独立复审，确认专业充分性和残余边界，G03继续阻塞。
