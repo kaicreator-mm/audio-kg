@@ -78,4 +78,6 @@
 58. [D24 19域范围及编号登记](product/calibration/domain-scope-adoption.md)：Owner裁决与35个D2，现行范围入口。
 59. [G01 原子迁移实施账本](product/calibration/domain-migration-implementation.md)：54槽、13一对一、13保留、28拆分OPEN。
 
+60. [K01 四视角案例集中补充](product/calibration/theory-case-batch.md)：44组精确主目标，待批量专业核验；D25审核节奏见47。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

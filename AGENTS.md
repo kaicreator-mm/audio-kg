@@ -11,3 +11,5 @@
 8. 每轮讨论得出的可复用分析和决定必须更新对应 GitHub 权威文档，并按 docs/product/decision-index.md 维护恢复入口；区分用户决定、研究建议和待证主张。不得将聊天结论直接提升为已核验专业知识。
 
 9. 按 [阶段独立审核门禁](docs/product/calibration/stage-review-gates.md) 执行：完整阶段/专业模块必须进行独立Exact HEAD审核，P0/P1修复复审后才能合并要求审核的阶段候选PR、关闭或将其作为下游权威；小研究增量仍按适用ADS policy自检及记录。不得自审冒充独立审核。
+
+10. 按D25合并低风险研究、普通P2修订及相邻完整模块的独立审核；必要/required阶段和阻断项保留，勿每个小增量重复派审。参见[门禁](docs/product/calibration/stage-review-gates.md)。

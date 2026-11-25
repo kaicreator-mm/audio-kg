@@ -4,7 +4,7 @@ Issue #3 / T01,T02；下文首轮统计与历史执行记录均以原15域为基
 | 校准项 | 交付与完成条件 |
 |---|---|
 | CAL01 结构与覆盖核对 | 跨六波真实读取清单/案例/来源/CQ，查重、悬空、owner、ID语义、ID迁移、分支及能力缺漏；按精确SHA留结果。 |
-| CAL02 领域边界与深度 | 以专业课程/教材/标准/学术与实际职业实践对照15子域，重点音乐史/民族音乐与美学/心理学、乐器学/指挥、现场音频、无障碍、版权与数据治理；判断独立D1或现有分支扩展。证据驱动拆合，不按3×2。 |
+| CAL02 领域边界与深度 | 以专业课程/教材/标准/学术与实际职业实践对照当前19域（原15域为历史首轮基线），重点音乐史/民族音乐与美学/心理学、乐器学/指挥、现场音频、无障碍、版权与数据治理；判断独立D1或现有分支扩展。证据驱动拆合，不按3×2。 |
 | CAL03 来源资格 | 逐D3及核心D4标精确来源位置、版本、适用性、证据种类、权利及缺证据；发现/摘要不替代正文，不把厂商文档当效果证据；优先补非西方、声乐健康、模型、许可及教学。 |
 | CAL04 语义复用 | MTO、Music Ontology、Polifonia、SKOS/PROV/SHACL等实际资产及许可/语义/CQ，形成reuse/map/extend/avoid矩阵；保持L2技术决策未冻结。 |
 | CAL05 七能力及案例 | 每D2×A01–07明确P/S/C/N/A/UNKNOWN理由、唯一owner、具体需求与案例；核心D4明确F+/F-/R+/R-需求及边界、跨域精确关系、独立评测与检索隔离。至少一个有真实可核查来源的七能力跨域案例需求；未执行不标实测。 |
@@ -33,3 +33,6 @@ G01 R2独立PASS (#3 7173873821 / #16 7173874842)，PR #16 已合入 72682da8d76
 
 ## D24 Owner确认后实施
 [登记](calibration/domain-scope-adoption.md)与[实施账本](calibration/domain-migration-implementation.md)建立K16–19、35 D2、54槽迁移（13一对一、13保留、28拆分OPEN），实施增量required review；CAL01/02扩展19域，CAL03–06按新范围校准。G02 TH-G01–07仍OPEN。
+
+## D25 集中研究检查点
+PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非阻塞P2修订纳入同批：[D24迁移需求](calibration/domain-migration-implementation.md)、[K01旧语义路由](calibration/theory-legacy-consolidation.md)及CP/CAL02导航。按[审核门禁D25](calibration/stage-review-gates.md)合并小增量及非阻塞修订，G02完整阶段审核不变。K01 [44组案例](calibration/theory-case-batch.md)补齐此前有候选规则而无主目标样稿的深化原子，93/102有精确四视角样稿，9项显式待证仍隔离。没有新增原始来源资格、未补完整旧槽和CQ、未完成G02；继续TH-G01–07及28项SPLIT。
