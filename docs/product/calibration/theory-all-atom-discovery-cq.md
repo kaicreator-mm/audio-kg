@@ -245,3 +245,5 @@ DRAFT / base e6ec8aa62844fb3a3ae505662f27cf6a3dbf9c2c；当前184个历史+深�
 
 ## 当前D25限定补证及去重覆盖层
 [语义收敛](theory-semantic-convergence.md)、[限定补证案例](theory-convergence-scoped-cases.md)与[来源S275–281](../../research/source-qualification-theory-convergence.md)为当前限定入口，优先查相应目标ID；184槽及158主目标绑定不变，新增9组只作子谓词证据。K01.06.07.02、K01.06.12.02、K01.09.04.03分别得到局部证据但仍EVIDENCE_OPEN广义目标；旧K01.05.01.02、K01.06.03.01/.02新增限定案例不改变旧处置。S281文档未实际运行；不能以查到入口当成语义检索验收。
+
+G02候选：见[逐谓词审查](theory-g02-predicate-audit.md)、[主案例审查](theory-g02-case-audit.md)、[实质核查与门禁](theory-g02-builder-findings.md)。历史状态不删；7个广义HOLD和2个限定候选必须在查询入口先显示证据边界，D/S关联本身不能放行答案。S179已重读；S217/S245的首音约束分开。158是精确主目标案例数而非全目标完整覆盖数。
