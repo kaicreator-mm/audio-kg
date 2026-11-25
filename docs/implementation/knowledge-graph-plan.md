@@ -10,6 +10,7 @@
 - T02 K01–K15 分层知识清单（章/主题/原子知识候选）、唯一 owner、依赖和遗漏/重叠分析；每域来源矩阵及 CQ 覆盖。T01/T02 可并行研究，整合时消除冲突。
 - T02 补充交付：[D0–D4 细粒度清单](../product/fine-grained-inventory.md) 的逐主题来源和唯一 owner 校准；[A01–A07 能力覆盖](../product/capability-coverage.md)（含 CQ19–26）；[案例库](../product/case-library-plan.md) 的 D2 适用性、案例候选和真实来源矩阵。研究音乐史、审美、民族音乐、乐器学、现场音频等潜在缺口；不强行冻结 15 个一级分类。
 - T02 补充：[精确案例绑定及双向推理](../product/case-reasoning-contract.md)、[129 分支案例需求](../product/branch-case-inventory.md)、[首批来源资格](../research/source-qualification-wave1.md)、[六组样稿](../research/linked-case-pilot.md)。逐知识点校准正/反例、正/反向推理、边界与 UNKNOWN；评测与检索分离，真实来源与合成例分离。补齐来源及原子主题矩阵后再审。
+- T01 S004 原文阅读补充：[MTO 分析](../research/music-theory-ontology-analysis.md)；核验具体本体资产版本/许可、实际关系语义与 CQ 后才决定复用，表格疑点须专业来源校准。将音阶/和弦模式的确定性计算、拼写/根音歧义与反例纳入 T05 候选；不预先冻结实现技术。
 - T03 L1 独立审核；依赖 T01、T02；评估是否覆盖领域，不只服务歌曲生成，确认非西方音乐与声乐边界。P0/P1 修正后冻结 scope/CQ/acceptance。
 
 ## P2 L2：语义契约与最小可用图谱
