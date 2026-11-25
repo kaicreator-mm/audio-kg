@@ -3,12 +3,12 @@
 
 | 原案例文件 | 本次读回Blob | 组数 |
 |---|---|---:|
-| [theory-depth-cases.md](theory-depth-cases.md) | cd987b777ba47afac604bc777348b50377c19dd9 | 13 |
-| [theory-fundamentals-cases.md](theory-fundamentals-cases.md) | 891933c1fef53f47cf118c42ba363dea04b5b44b | 15 |
-| [theory-advanced-cases.md](theory-advanced-cases.md) | 7aaf4fa6be6bfd965360c992c6e3b36921744499 | 13 |
-| [theory-consolidation-cases.md](theory-consolidation-cases.md) | 92ccb593e7ad2abd93055d71ff532ea410707319 | 8 |
+| [theory-depth-cases.md](theory-depth-cases.md) | 60eee24f9097ffc577d8bb70ae7be2bcb3569946 | 13 |
+| [theory-fundamentals-cases.md](theory-fundamentals-cases.md) | c6b35d115241f971de5af9ea88f7653ced44a9ad | 15 |
+| [theory-advanced-cases.md](theory-advanced-cases.md) | 3844c6cb697f0838c09e4459703d738d8cf72d2c | 13 |
+| [theory-consolidation-cases.md](theory-consolidation-cases.md) | 8e9e69bc34cd14cf9f9cbc08a174bb471dc468f1 | 8 |
 | [theory-case-batch.md](theory-case-batch.md) | 2ad8d91b2658dfdc12fb3b19c6f5dc9302adff6a | 44 |
-| [theory-evidence-batch-cases.md](theory-evidence-batch-cases.md) | b8b562c8f5fd95e8808682658f4a01dd543f8336 | 27 |
+| [theory-evidence-batch-cases.md](theory-evidence-batch-cases.md) | d47100349f83b4ca6e4c9f8808357c24659f77c9 | 27 |
 | [theory-legacy-cq-cases.md](theory-legacy-cq-cases.md) | 9dfad90b035e314d4aecb9715cb3f487a25217d8 | 38 |
 
 | 主D4 | 精确主案例 | 行号 | 处置范围 | 条件内显式来源及历史资格 | 本次核对 |
@@ -29,7 +29,7 @@
 | K01.02.05.01 | [TB-K01.02.05.01](theory-case-batch.md) | L26 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.02.05.02 | [TD2-K01.02.05.02](theory-fundamentals-cases.md) | L7 | SCOPED_MAIN_SAMPLE | S192:READ_LOCATOR、S022:READ_LOCATOR_HISTORICAL；与主索引显式S交集S192、S022 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.02.05.03 | [TB-K01.02.05.03](theory-case-batch.md) | L27 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
-| K01.02.06.01 | [TD2-K01.02.06.01](theory-fundamentals-cases.md) | L8 | SCOPED_MAIN_SAMPLE | S133:READ_LOCATOR、S022:READ_LOCATOR_HISTORICAL；与主索引显式S交集S133、S022 | 四视角齐全；限明确条件、原文待独立复核 |
+| K01.02.06.01 | [TD2-K01.02.06.01](theory-fundamentals-cases.md) | L8 | SCOPED_MAIN_SAMPLE | S133:READ_LOCATOR、S022:READ_LOCATOR_HISTORICAL；与主索引显式S交集S133、S022 | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.02.07.01 | [TE-K01.02.07.01](theory-evidence-batch-cases.md) | L24 | SCOPED_MAIN_SAMPLE | S244:READ_LOCATOR；与主索引显式S交集S244 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.02.07.02 | [TE-K01.02.07.02](theory-evidence-batch-cases.md) | L25 | SCOPED_MAIN_SAMPLE | S244:READ_LOCATOR；与主索引显式S交集S244 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.01.01 | [TE-K01.03.01.01](theory-evidence-batch-cases.md) | L8 | RETAIN | S004:TEXT_READ_HISTORICAL；与主索引显式S交集S004 | 四视角齐全；不升级旧宽目标覆盖 |
@@ -42,10 +42,10 @@
 | K01.03.05.02 | [TB-K01.03.05.02](theory-case-batch.md) | L28 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.06.01 | [TD2-K01.03.06.01](theory-fundamentals-cases.md) | L10 | SCOPED_MAIN_SAMPLE | S194:READ_LOCATOR、S195:READ_LOCATOR；与主索引显式S交集S194 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.06.02 | [TB-K01.03.06.02](theory-case-batch.md) | L29 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR、S194:READ_LOCATOR；与主索引显式S交集S195、S194 | 四视角齐全；限明确条件、原文待独立复核 |
-| K01.03.07.01 | [TD2-K01.03.07.01](theory-fundamentals-cases.md) | L11 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR；与主索引显式S交集S195 | 四视角齐全；限明确条件、原文待独立复核 |
+| K01.03.07.01 | [TD2-K01.03.07.01](theory-fundamentals-cases.md) | L11 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR；与主索引显式S交集S195 | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.03.07.02 | [TC-K01.03.07.02](theory-consolidation-cases.md) | L6 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR、S193:READ_LOCATOR；与主索引显式S交集S195、S193 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.08.01 | [TB-K01.03.08.01](theory-case-batch.md) | L30 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR；与主索引显式S交集S195 | 四视角齐全；限明确条件、原文待独立复核 |
-| K01.03.08.02 | [TD2-K01.03.08.02](theory-fundamentals-cases.md) | L12 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR；与主索引显式S交集S195 | 四视角齐全；限明确条件、原文待独立复核 |
+| K01.03.08.02 | [TD2-K01.03.08.02](theory-fundamentals-cases.md) | L12 | SCOPED_MAIN_SAMPLE | S195:READ_LOCATOR；与主索引显式S交集S195 | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.03.08.03 | [TB-K01.03.08.03](theory-case-batch.md) | L31 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.03.09.01 | [TL-K01.03.09.01](theory-legacy-cq-cases.md) | L30 | SCOPED_MAIN_SAMPLE | S259:READ_LOCATOR；与主索引显式S交集S259 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.04.01.02 | [TL-K01.04.01.02](theory-legacy-cq-cases.md) | L10 | RESIDUAL_OPEN | S196:READ_LOCATOR、S199:READ_LOCATOR；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；不升级旧宽目标覆盖 |
@@ -103,7 +103,7 @@
 | K01.06.07.01 | [TE-K01.06.07.01](theory-evidence-batch-cases.md) | L16 | LIMITED_CANDIDATE | S217:READ_LOCATOR、S245:OTHER_ORIGINAL_QUALIFICATION；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；仅限局部证据 |
 | K01.06.08.01 | [TB-K01.06.08.01](theory-case-batch.md) | L43 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.06.08.02 | [TC-K01.06.08.02](theory-consolidation-cases.md) | L9 | SCOPED_MAIN_SAMPLE | S212:READ_LOCATOR；与主索引显式S交集S212 | 四视角齐全；限明确条件、原文待独立复核 |
-| K01.06.08.03 | [TC-K01.06.08.03](theory-consolidation-cases.md) | L10 | SCOPED_MAIN_SAMPLE | S212:READ_LOCATOR；与主索引显式S交集S212 | 四视角齐全；限明确条件、原文待独立复核 |
+| K01.06.08.03 | [TC-K01.06.08.03](theory-consolidation-cases.md) | L10 | SCOPED_MAIN_SAMPLE | S212:READ_LOCATOR；与主索引显式S交集S212 | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.06.09.01 | [TD3-K01.06.09.01](theory-advanced-cases.md) | L8 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.06.09.02 | [TB-K01.06.09.02](theory-case-batch.md) | L44 | SCOPED_MAIN_SAMPLE | S213:READ_LOCATOR；与主索引显式S交集S213 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.06.10.01 | [TD3-K01.06.10.01](theory-advanced-cases.md) | L9 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
@@ -122,19 +122,19 @@
 | K01.06.17.01 | [TL-K01.06.17.01](theory-legacy-cq-cases.md) | L38 | SCOPED_MAIN_SAMPLE | S264:READ_LOCATOR、S265:READ_LOCATOR；与主索引显式S交集S264、S265 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.06.17.02 | [TL-K01.06.17.02](theory-legacy-cq-cases.md) | L39 | SCOPED_MAIN_SAMPLE | S266:READ_LOCATOR；与主索引显式S交集S266 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.06.18.01 | [TL-K01.06.18.01](theory-legacy-cq-cases.md) | L40 | SCOPED_MAIN_SAMPLE | S269:READ_LOCATOR；与主索引显式S交集S269 | 四视角齐全；限明确条件、原文待独立复核 |
-| K01.07.01.01 | [TE-K01.07.01.01](theory-evidence-batch-cases.md) | L11 | RETAIN | S069:OTHER_ORIGINAL_QUALIFICATION、S239:OTHER_ORIGINAL_QUALIFICATION；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；不升级旧宽目标覆盖 |
+| K01.07.01.01 | [TE-K01.07.01.01](theory-evidence-batch-cases.md) | L11 | RETAIN | S069:OTHER_ORIGINAL_QUALIFICATION、S239:OTHER_ORIGINAL_QUALIFICATION；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.07.01.02 | [TL-K01.07.01.02](theory-legacy-cq-cases.md) | L19 | SCOPED_ROUTER | S069:OTHER_ORIGINAL_QUALIFICATION、S239:OTHER_ORIGINAL_QUALIFICATION、S220:READ_LOCATOR；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；不升级旧宽目标覆盖 |
 | K01.07.02.01 | [TL-K01.07.02.01](theory-legacy-cq-cases.md) | L20 | SCOPED_ROUTER | S175:READ_LOCATOR、S238:READ_LOCATOR；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；不升级旧宽目标覆盖 |
 | K01.07.03.01 | [TL-K01.07.03.01](theory-legacy-cq-cases.md) | L21 | RESIDUAL_OPEN | S219:READ_LOCATOR、S221:READ_LOCATOR、S269:READ_LOCATOR；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；不升级旧宽目标覆盖 |
 | K01.07.03.02 | [TL-K01.07.03.02](theory-legacy-cq-cases.md) | L22 | SCOPED_ROUTER | S185:READ_LOCATOR、S219:READ_LOCATOR；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；不升级旧宽目标覆盖 |
-| K01.07.04.01 | [TD-K01.07.04](theory-depth-cases.md) | L12 | SCOPED_MAIN_SAMPLE | S175:READ_LOCATOR；与主索引显式S交集S175 | 四视角齐全；限明确条件、原文待独立复核 |
+| K01.07.04.01 | [TD-K01.07.04](theory-depth-cases.md) | L12 | SCOPED_MAIN_SAMPLE | S175:READ_LOCATOR；与主索引显式S交集S175 | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.07.04.02 | [TB-K01.07.04.02](theory-case-batch.md) | L19 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.07.05.01 | [TD-K01.07.05](theory-depth-cases.md) | L13 | SCOPED_MAIN_SAMPLE | S185:READ_LOCATOR；与主索引显式S交集S185 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.07.05.02 | [TB-K01.07.05.02](theory-case-batch.md) | L20 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.07.06.01 | [TB-K01.07.06.01](theory-case-batch.md) | L46 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.07.06.02 | [TD3-K01.07.06.02](theory-advanced-cases.md) | L12 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.07.07.01 | [TB-K01.07.07.01](theory-case-batch.md) | L47 | SCOPED_MAIN_SAMPLE | S220:READ_LOCATOR；与主索引显式S交集S220 | 四视角齐全；限明确条件、原文待独立复核 |
-| K01.07.07.02 | [TD3-K01.07.07.02](theory-advanced-cases.md) | L13 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；限明确条件、原文待独立复核 |
+| K01.07.07.02 | [TD3-K01.07.07.02](theory-advanced-cases.md) | L13 | SCOPED_MAIN_SAMPLE | 无显式S编号，沿用主目标定位/题定数学/项目合同；与主索引显式S交集无（需查原登记/补证） | 四视角齐全；R1被点名分支具体化，专业复核待定 |
 | K01.07.08.01 | [TE-K01.07.08.01](theory-evidence-batch-cases.md) | L26 | SCOPED_MAIN_SAMPLE | S238:READ_LOCATOR、S175:READ_LOCATOR；与主索引显式S交集S238、S175 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.07.08.02 | [TE-K01.07.08.02](theory-evidence-batch-cases.md) | L27 | SCOPED_MAIN_SAMPLE | S238:READ_LOCATOR；与主索引显式S交集S238 | 四视角齐全；限明确条件、原文待独立复核 |
 | K01.07.09.01 | [TL-K01.07.09.01](theory-legacy-cq-cases.md) | L41 | SCOPED_MAIN_SAMPLE | S269:READ_LOCATOR；与主索引显式S交集S269 | 四视角齐全；限明确条件、原文待独立复核 |
@@ -173,3 +173,5 @@
 | K01.09.10.01 | [TE-K01.09.10.01](theory-evidence-batch-cases.md) | L31 | SCOPED_MAIN_SAMPLE | S222:READ_LOCATOR；与主索引显式S交集S222 | 四视角齐全；限明确条件、原文待独立复核 |
 
 158组绑定唯一，123深化/35旧，632个四视角字段齐全；19旧索引无精确主案例，7广义HOLD无精确主案例。实质核查见[发现与有限验证](theory-g02-builder-findings.md)。此派生矩阵无答案复制，不视作新知识或新案例。
+
+R1：G02 FAIL后七组被点名主案例改原文件；本表更新全部7个Blob及158精确行号。原字段齐全不等于专业覆盖；仍须按每个主谓词逐分支实质核对，不能以此次点名修复判RV-02关闭。
