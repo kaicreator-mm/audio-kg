@@ -32,5 +32,8 @@
 
 | D19 | 研究建议 | 频率比、律制与音名分别表示；节拍分组、名义时值、表演时间和视觉记谱/声音实现分开；引用独立教材需明确交叉证据覆盖，软件文档非理论证明 | [基础深化](calibration/theory-fundamentals-inventory.md)、[来源](../research/source-qualification-theory-fundamentals.md) |
 
+| D20 | 研究执行决定（响应用户阶段审核问题） | 完整领域分类、专业模块、跨域校准、L1/L2、正式内容与最终集成均设置独立阶段审核；小增量自检不替代；Exact HEAD、P0/P1修复复审、结果回写 | [阶段审核门禁](calibration/stage-review-gates.md) |
+| D21 | 研究建议 | 来源本身可能冲突，保留疑点与独立可复算见证；作者课堂约束与通用音乐事实分离 | [进阶来源](../research/source-qualification-theory-advanced.md) |
+
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。

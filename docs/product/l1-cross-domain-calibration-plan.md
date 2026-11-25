@@ -21,3 +21,6 @@ Issue #3 / T01,T02；本轮结束后15个候选D1、129 D2、387 D3、774 D4需�
 
 ## CAL02 第三个局部检查点
 [K01基础深度](calibration/theory-fundamentals-inventory.md) 新增16 D3/37 D4及[15组案例](calibration/theory-fundamentals-cases.md)；[来源与交叉校准](../research/source-qualification-theory-fundamentals.md) 含15 READ_LOCATOR/4 SEARCH_ONLY及S022重读。原始与新增候选分别统计；K01仍需和声/对位/曲式/现代乐理补深及去重，CAL02–06未关闭。
+
+## CAL02 第四个局部检查点与审核门禁
+[阶段审核门禁 G01–07](calibration/stage-review-gates.md) 要求在完整专业阶段进行独立审核，当前G01分类候选进入required review，G02完整K01仍OPEN。[进阶清单](calibration/theory-advanced-inventory.md) 新增14 D3/28 D4、[13组案例](calibration/theory-advanced-cases.md)，[来源冲突](../research/source-qualification-theory-advanced.md) 需审。分类审核不替代全域T03；未获有效独立审核不合并本阶段收口PR、不迁移正式ID。

@@ -61,4 +61,9 @@
 45. [K01 基础双向案例](product/calibration/theory-fundamentals-cases.md)：精确原子锚点及数学/符号对照。
 46. [K01 基础来源与交叉校准](research/source-qualification-theory-fundamentals.md)：S191–S209、S022重读及独立教材有限交叉证据。
 
+47. [阶段独立审核门禁](product/calibration/stage-review-gates.md)：G01–G07与首个分类审核。
+48. [K01进阶深度](product/calibration/theory-advanced-inventory.md)：和声、对位、曲式、后调性。
+49. [K01进阶案例](product/calibration/theory-advanced-cases.md)：精确D4及反例。
+50. [K01进阶来源](research/source-qualification-theory-advanced.md)：S210–S231及来源冲突TH-S01。
+
 所有后续 accepted claim 必须在来源清单基础上进一步核验具体原文定位，不以这些文档本身作为专业事实证据。

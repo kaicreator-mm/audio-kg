@@ -49,3 +49,5 @@ S004 更新：论文原文文本已读，具体复用与限制见 [MTO 分析](m
 第九轮：[K01深度来源 S174–S190](source-qualification-theory-depth.md) 15项HTML章节 READ_LOCATOR（同一教材谱系）、2项SEARCH_ONLY（403）；逐D4定位但未完成独立交叉验证及版本/许可冻结。
 
 第十轮：[K01基础来源 S191–S209](source-qualification-theory-fundamentals.md) 15 READ_LOCATOR、4 SEARCH_ONLY；S022同源重读不新计；独立教材交叉证据仅限已读章节及练习。
+
+第十一轮：[K01进阶来源 S210–S231](source-qualification-theory-advanced.md) 17 READ_LOCATOR、5 SEARCH_ONLY；其中16个章节同一教材谱系、1个工具文档。TH-S01正文/表格冲突及复算单列，不作独立审核通过。
