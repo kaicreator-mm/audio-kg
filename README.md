@@ -3,6 +3,7 @@
 音乐与声乐领域的可追溯、可推理知识图谱。知识资产先行，面向人、LLM 和未来音乐领域应用，不依赖任何特定模型或 SDK。
 
 - 主线：[Issue #1](https://github.com/kaicreator-mm/audio-kg/issues/1)
+- 当前 L1 研究：[Issue #3](https://github.com/kaicreator-mm/audio-kg/issues/3)
 - [文档入口](docs/README.md)
 - [Agent 入口](AGENTS.md)
 - [ADS pin](.dev-standard/VERSION)
