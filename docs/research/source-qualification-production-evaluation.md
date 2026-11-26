@@ -21,7 +21,7 @@ DRAFT；2026-11-26。READ_LOCATOR 表示读取到官方HTML相关位置；LANDIN
 | S100 | Essentia [Algorithms overview](https://essentia.upf.edu/algorithms_overview.html) Extractors | K10.01–03/07 | READ_LOCATOR；页面2.1-beta6-dev；描述提取器用途，不证明精度或可直接部署 |
 | S101 | mir_eval 0.8.2 [beat](https://mir-eval.readthedocs.io/stable/api/beat.html) Metrics / f_measure | K10.02/09 | READ_LOCATOR；默认0.07秒匹配窗，其他指标不同；不视为专业演奏的普遍容差 |
 | S102 | mir_eval 0.8.2 [chord](https://mir-eval.readthedocs.io/stable/api/chord.html) root / triads / *_inv / weighted_accuracy examples | K10.03/09 | READ_LOCATOR；不同标签匹配和时长加权，不证明音乐功能或非西方语义 |
-| S103 | mir_eval 0.8.2 [key](https://mir-eval.readthedocs.io/latest/api/key.html) Conventions / validate_key / weighted_score | K10.03 | READ_LOCATOR；major/minor约定及X/other处理须具体核对；下降五度开关会改变计分，不支持全文化调式评价 |
+| S103 | mir_eval [key](https://mir-eval.readthedocs.io/latest/api/key.html)（历史latest链接；版本纠正见S510） Conventions / validate_key / weighted_score | K10.03 | READ_LOCATOR；major/minor约定及X/other处理须具体核对；下降五度开关仅在含该参数的版本适用；2026-11-26 S510实际重读stable0.8.2无此参数、latest0.9.0dev有此参数；不支持全文化调式评价 |
 | S104 | mir_eval 0.8.2 [transcription](https://mir-eval.readthedocs.io/stable/api/transcription.html) onset_precision_recall_f1 signature | K10.04/09 | READ_LOCATOR；onset默认0.05秒，注意不同音符任务定义，不泛化成歌词或复音识别全部指标 |
 | S105 | mir_eval 0.8.2 [segment](https://mir-eval.readthedocs.io/stable/api/segment.html) Metrics / detection / deviation / pairwise | K10.05/09 | READ_LOCATOR；区分边界及标签，分区假设和窗口；不能证明音乐结构唯一 |
 | S107 | ITU-R [BS系列推荐目录](https://www.itu.int/rec/R-REC-BS) BS.1284、BS.1534 | K10.09 | SEARCH_ONLY；搜索摘要入口；待逐个规范核验，不能作为盲评/随机化详细规则证据 |
