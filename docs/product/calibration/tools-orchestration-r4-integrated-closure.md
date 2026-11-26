@@ -62,3 +62,6 @@ DRAFT / #56；不是软件/Harness实现或真实生产任务。以下为原创�
 19. callback budget: true
 20. tool pages: true
 执行的是原创对象比较、数值、有限依赖闭包及拓扑、门禁分支和回执一致性；不代表真实DAW/MCP操作或许可。R1历史15，R2实际20，R3实际10，R4实际20，共65记录（本轮50）。R2 dependency仅长度检查，R4 actual closure补充。源资格保留S539/S547 SEARCH_LEAD，S548镜像及截图失败；S545固定tag五blob，S546动态VST3、S549 MEI5.1。无CI/accepted claim/L1 freeze。D24八SPLIT_OPEN、历史#28/#32/#35/#38/#41/#46/#49/#52/#55均不关闭。
+
+## R6 独立审核修订入口
+保持R4历史20检查及11项变异；追加源坐标/长度/身份/配置回执反例 [RV04](tools-orchestration-r6-review-remediation.md#L23)；两具名模型资格 [RV01](tools-orchestration-r6-review-remediation.md#L4)；多轨时钟 [RV02](tools-orchestration-r6-review-remediation.md#L17)；失败经验 [RV03](tools-orchestration-r6-review-remediation.md#L20)。R6检查见修订文档；不声称历史检查已重跑或审核已通过。
