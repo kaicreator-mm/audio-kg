@@ -163,3 +163,6 @@
 - docs/research/source-qualification-vocal-science-r2.md: `e5756f278d97ccc943f59eb64ee76125db5708b0`
 - docs/research/source-qualification-vocal-science-r1.md: `be51b7d2da1c88fb039b3a067c3a80b450282f58`
 - docs/research/source-qualification-vocal-science-r3.md: `3221291710e4e802a312697b736236d939149a4b`
+
+## 原格式复核补记
+上述9项为检测器只认Markdown表格的假阳性：实际重读 source-qualification-arrangement-r3.md，R4定向补证以列表保存，精确L28 S369、L29 S370、L30 S371、L31 S372、L32 S373 均匹配（实际源正文限定保留）。因此本组448/448明确定位正确；原初结果保留为检测记录，不修改源级别。后续检测允许表格及以“- Sxxx”起始的资格记录。
