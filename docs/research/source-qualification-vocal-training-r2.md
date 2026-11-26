@@ -1,0 +1,14 @@
+# K06 R2 专项来源资格
+2026-11-26；仅原创概括；无曲目、音频、表格或练习原文复制。正文、摘要、案例和内部教学策略分离，均未作本项目真实教学验证。
+| ID | 来源及实际定位 | 资格与范围 |
+|---|---|---|
+| S435 | Nix 2017, [Best Practices: Exercise Physiology and Motor Learning Principles in Voice Training](https://www.nats.org/_Library/JOS_On_Point/JOS-074-2-2017-215_-_Best_Practices-Exercise_Physiology_-_Nix.pdf), Table 1，印刷217–218页，实际零基2/3截图及文字 | READ_LOCATOR；区分练习组织、反馈时间/频率、KR结果与KP过程信息、注意焦点和完整曲目回归；作者明确嗓音专项研究有限。仅采条件化教学分类，不照搬剂量、动作、触碰、效果结论或其他运动/言语治疗证据。 |
+| S436 | NATS [Revised Lesson Observation Form](https://www.nats.org/_Library/Science_Informed_Voice_Pedagogy_Resource/Revised_Lesson_Observation_Form.pdf)，实际零基1/2截图和文字 | READ_LOCATOR；观察练习目的、音区、示范、课程节奏、音色/连音/起收音/咬字/表达等，表明确优秀课不必包含全部项目；教学观察工具非验证过的学生能力量表，不采固定学习类型或复制评分表。 |
+| S437 | [Principles of Motor Learning in Classical Singing Teaching](https://pubmed.ncbi.nlm.nih.gov/30712882/) Method/Results/Conclusion | ABSTRACT_READ；澳洲两音乐院校4名教师、8名成年学生、8节课观察研究，反馈/示范等行为分类；不证明哪种行为有因果效果或普遍适用。 |
+| S438 | [The role of voiced consonant duration in sung vowel-consonant and consonant-vowel recognition](https://dspace.ut.ee/items/6960bfc9-c129-436f-99ad-f6275543d7e2)，机构库摘要 | ABSTRACT_READ；42名感知实验参与者，指定/m,n,l,v/与VC/CV、音高、混响及伴奏条件；近说话音高无混响无伴奏结果与混响VC遮蔽不同。不可推所有语种辅音时值或咬字处方，不导入具体实验音频。 |
+| S439 | [Making myself understood: perceived factors affecting the intelligibility of sung text](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00809/full)，Introduction/Discussion/Limitations | READ_LOCATOR；受访者对歌唱文本可懂度的看法，演唱者、词曲、环境、听者等因素及相互关系；调查意见不等实测效应，不能把未理解归因为咬字本身。 |
+| S440 | Michael 2024 [Don't Throw the Baby Out with the Bathwater: The Muscular Basis for Register Adjustment](https://www.nats.org/_Library/JOS_On_Point/JOS-080-5-2024-543.pdf)，Definition of Register，印刷544页、零基1实际截图/文字 | READ_LOCATOR；声区定义历史分歧、听觉/共鸣与喉机制不同层级，作者经验与临床示例非受控疗效；只引用术语和个体观察条件，肌肉机制以K05为准，不采动作处方/病例/临床操作或未看媒体。 |
+| S441 | [Vocal Vibrato Characteristics in Historical and Contemporary Opera, Operetta, and Schlager](https://pubmed.ncbi.nlm.nih.gov/37080891/)，Abstract Methods/Results | ABSTRACT_READ；51商业录音、两首共同材料、三类风格和录音年代，作者报告rate/extent与风格年代F0相关；分离/拟合算法和历史录音混杂，非各风格必然阈值，不获取音乐素材。 |
+| S442 | Scherer et al. 2017 [The expression of emotion in the singing voice: Acoustic patterns in vocal performance](https://pubmed.ncbi.nlm.nih.gov/29092548/)，Abstract | ABSTRACT_READ；8名专业歌剧歌者用无意义文本唱音阶并表达指定情绪，研究声学与表达目标的统计关系；非歌手真实心情、情绪识别通用有效性或指定曲目演绎规则。 |
+| S443 | [Intelligibility of sung vowels](https://pubmed.ncbi.nlm.nih.gov/24698886/)、[Does Vibrato Define Genre or Vice Versa?](https://www.sciencedirect.com/science/article/pii/S0892199725000943)、[Acoustic spectral feedback in vocal learning](https://pmc.ncbi.nlm.nih.gov/articles/PMC13537971/) | SEARCH_ONLY；网页空壳、403、验证码，未以检索摘要补事实；S431此前失败保留。 |
+S435/436/440实际PDF定向阅读和截图，并非完整论文全图表核验。S438/441/442/437仅摘要，不能以未读正文提升。S436补VT21/23专业教学观察入口；S439/438补VT12/13咬字条件；S440补VT15/16；S441补颤音风格，S442补表达。安全继承已审核K05的S046/050/411/412，不采临床动作，研究和教学观察不等治疗。
