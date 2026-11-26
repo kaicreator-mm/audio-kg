@@ -168,3 +168,7 @@ K03 [#30](https://github.com/kaicreator-mm/audio-kg/issues/30)：
 - [来源资格](research/source-qualification-arrangement-r1.md)：S332–335同谱系正文定位及旧来源重读。
 - [有限见证](product/calibration/arrangement-r1-validation.md)：18项实际JS断言，非运行时/专业PASS。
 仅内部checkpoint；K03仍OPEN，未完成48旧槽收敛、全部八分支、56能力格及CQ；不得提前派审或合并。
+
+
+## G03-K03 R2专业深化
+[23新增专业候选与四视角](product/calibration/arrangement-r2-knowledge-cases.md)、[S336–348来源资格/方法记录](research/source-qualification-arrangement-r2.md)、[48旧槽部分路由](product/calibration/arrangement-r2-legacy-routing.md)、[30实际有限检查](product/calibration/arrangement-r2-validation.md)。累计32主案例；48旧槽均PARTIAL_LINK，不视为语义闭合。K03仍OPEN，后续补音色/乐器与手型限制、完整节奏组与地域案例、编曲修订及交换损失、七能力/CQ和专业收敛，不提前送审。
