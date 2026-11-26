@@ -93,13 +93,13 @@
 - CQ-K10-03 怎样评价拍点、层级、速度与连续性？ [EV04](evaluation-r1-knowledge-cases.md#L8)、[EV05](evaluation-r1-knowledge-cases.md#L9)、[EV06](evaluation-r1-knowledge-cases.md#L10)、[EV31](evaluation-r2-knowledge-cases.md#L8)、[EV32](evaluation-r2-knowledge-cases.md#L9)、[EV33](evaluation-r2-knowledge-cases.md#L10)。
 - CQ-K10-04 怎样比较和弦、调性、词汇覆盖和版本？ [EV07](evaluation-r1-knowledge-cases.md#L11)、[EV08](evaluation-r1-knowledge-cases.md#L12)、[EV09](evaluation-r1-knowledge-cases.md#L13)、[EV34](evaluation-r2-knowledge-cases.md#L11)、[EV35](evaluation-r2-knowledge-cases.md#L12)、[EV36](evaluation-r2-knowledge-cases.md#L13)。
 - CQ-K10-05 怎样评价音符、乐器及多声部转录？ [EV10](evaluation-r1-knowledge-cases.md#L14)、[EV11](evaluation-r1-knowledge-cases.md#L15)、[EV37](evaluation-r2-knowledge-cases.md#L14)、[EV38](evaluation-r2-knowledge-cases.md#L15)。
-- CQ-K10-06 怎样评价歌词文本/时间与可编辑输出？ [EV12](evaluation-r1-knowledge-cases.md#L16)、[EV39](evaluation-r2-knowledge-cases.md#L16)。
+- CQ-K10-06 怎样评价歌词文本/时间与可编辑输出？ [EV12](evaluation-r1-knowledge-cases.md#L16)、[EV39](evaluation-r2-knowledge-cases.md#L16)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 同ID内容/词音关系变化反例。
 - CQ-K10-07 怎样评价分段、重复与多层结构？ [EV13](evaluation-r1-knowledge-cases.md#L17)、[EV14](evaluation-r1-knowledge-cases.md#L18)、[EV15](evaluation-r1-knowledge-cases.md#L19)、[EV40](evaluation-r2-knowledge-cases.md#L17)、[EV41](evaluation-r2-knowledge-cases.md#L18)、[EV42](evaluation-r2-knowledge-cases.md#L19)。
 - CQ-K10-08 怎样区分演唱误差、估计误差、语言/反馈？ [EV16](evaluation-r1-knowledge-cases.md#L20)、[EV17](evaluation-r1-knowledge-cases.md#L21)、[EV18](evaluation-r1-knowledge-cases.md#L22)、[EV43](evaluation-r2-knowledge-cases.md#L20)、[EV44](evaluation-r2-knowledge-cases.md#L21)、[EV45](evaluation-r2-knowledge-cases.md#L22)。
 - CQ-K10-09 怎样评价技术质量、响度和主观损伤？ [EV19](evaluation-r1-knowledge-cases.md#L23)、[EV20](evaluation-r1-knowledge-cases.md#L24)、[EV21](evaluation-r1-knowledge-cases.md#L25)、[EV46](evaluation-r2-knowledge-cases.md#L23)、[EV47](evaluation-r2-knowledge-cases.md#L24)、[EV48](evaluation-r2-knowledge-cases.md#L25)。
 - CQ-K10-10 怎样处理音乐性、文化和多维权衡？ [EV22](evaluation-r1-knowledge-cases.md#L26)、[EV23](evaluation-r1-knowledge-cases.md#L27)、[EV24](evaluation-r1-knowledge-cases.md#L28)、[EV49](evaluation-r2-knowledge-cases.md#L26)、[EV50](evaluation-r2-knowledge-cases.md#L27)、[EV51](evaluation-r2-knowledge-cases.md#L28)。
 - CQ-K10-11 怎样设计评价协议与统计单位？ [EV25](evaluation-r1-knowledge-cases.md#L29)、[EV26](evaluation-r1-knowledge-cases.md#L30)、[EV52](evaluation-r2-knowledge-cases.md#L29)、[EV53](evaluation-r2-knowledge-cases.md#L30)。
-- CQ-K10-12 怎样绑定报告和防止数据泄漏？ [EV27](evaluation-r1-knowledge-cases.md#L31)、[EV54](evaluation-r2-knowledge-cases.md#L31)。
+- CQ-K10-12 怎样绑定报告和防止数据泄漏？ [EV27](evaluation-r1-knowledge-cases.md#L31)、[EV54](evaluation-r2-knowledge-cases.md#L31)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 版本缺失或报告与实际内容不符须重新验证。
 CQ18 D0/S0没有真实曲目或缅甸证据；CQ13/25静态发现及评测报告语义，非实际检索；K16/K17文化机制、K13语言、K15权利、K12工具。
 
 组合发现：[EX01](evaluation-r4-integrated-closure.md#L5) CQ11/22/23；[EX02](evaluation-r4-integrated-closure.md#L6) CQ06/08/10/11/22/26；[KC-E10](evaluation-r4-integrated-closure.md#L7) CQ11/21/22/24/25；非新增主D4或实际检索。
