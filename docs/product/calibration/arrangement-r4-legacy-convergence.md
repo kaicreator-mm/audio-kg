@@ -1,8 +1,8 @@
 # K03 R4 48历史槽收敛候选
-保留[R2 PARTIAL_LINK历史账本](arrangement-r2-legacy-routing.md)，不修改历史。此表是Builder逐项语义组合和路由候选，不等同原槽一对一等价、不代表独立PASS。ROUTER_CANDIDATE表示原广义需求可通过现有较窄谓词发现；BOUNDED_COMPOSITION表示须联合案例和显式限制判定专业范围，不允许仅靠链接。未测实际能力、文化、评价、版权或宿主不转accepted claim。HS原始版本分类细分仍是待补源入口；不是现有四机制案例的已证条件。是否需要独立补证由后续累计收口判定。
+保留[R2 PARTIAL_LINK历史账本](arrangement-r2-legacy-routing.md)，不修改历史。此表是Builder逐项语义组合和路由候选，不等同原槽一对一等价、不代表独立PASS。ROUTER_CANDIDATE表示原广义需求可通过现有较窄谓词发现；BOUNDED_COMPOSITION表示须联合案例和显式限制判定专业范围，不允许仅靠链接。未测实际能力、文化、评价、版权或宿主不转accepted claim。HS 2011限定分类补证见R5 AX01/S374；2017/2021增补未读。以下保留R4候选分类，R5补证及逐项范围裁决见末尾。
 | 原D4 | 原需求 | 候选处置 | 具体联合入口 | 限定范围/待证 |
 |---|---|---|---|---|
-| K03.01.01.01 | 发声机制及乐器族 | BOUNDED_COMPOSITION | [AR10/K03.01.01.03](arrangement-r2-knowledge-cases.md#L5)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7) | 发声体与有/无确定音高是不同分类轴；鼓/镲不强制同机制；原始HS细分与版本仍待校准。 |
+| K03.01.01.01 | 发声机制及乐器族 | BOUNDED_COMPOSITION | [AR10/K03.01.01.03](arrangement-r2-knowledge-cases.md#L5)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7) | 发声体与有/无确定音高是不同分类轴；鼓/镲不强制同机制；2011版已由AX01限定补证；后续增补及未查具体器物仍未知。 |
 | K03.01.01.02 | 具体乐器与型号语境 | ROUTER_CANDIDATE | [AR11/K03.01.01.04](arrangement-r2-knowledge-cases.md#L6)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7) | 家族/型号/移调和打击对象具体；特殊历史配置不外推。 |
 | K03.01.02.01 | 书写音与实际音的映射 | ROUTER_CANDIDATE | [AR01/K03.01.02.03](arrangement-r1-knowledge-cases.md#L5)；[AR02/K03.01.02.04](arrangement-r1-knowledge-cases.md#L6)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 现代具体变体的书写到实音；旧谱例外要求约定。 |
 | K03.01.02.02 | 移调方向和音名拼写 | ROUTER_CANDIDATE | [AR01/K03.01.02.03](arrangement-r1-knowledge-cases.md#L5)；[AR02/K03.01.02.04](arrangement-r1-knowledge-cases.md#L6)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 音名/偏移及八度记谱；不同变体须核。 |
@@ -52,3 +52,19 @@
 | K03.08.03.02 | 保护原谱并验证替代版本 | ROUTER_CANDIDATE | [AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27) | 保护原谱、局部候选、拒绝回写及回滚。 |
 
 48唯一旧槽，13组合候选，其余路由候选。当前全部候选，不将计数作专业通过。
+
+## R5 联合范围逐项候选裁决
+- K03.01.01.01：SUFFICIENT_SCOPED_CANDIDATE（[AX01](arrangement-r5-integrated-closure.md#L5)）。机制/分类与编配属性分离；2011实际编码及拾音器反例足以支持本期限定实体分类，非最新版完整本体。
+- K03.01.03.01：SUFFICIENT_SCOPED_CANDIDATE（AR34/35/37/51）。低区长笛、跨区与拨弓/相对力度均能决定候选；实际音色/掩蔽待试听，不外推声压。
+- K03.01.03.02：SUFFICIENT_SCOPED_CANDIDATE（AR35/54/60）。以同音高时值的不同技法/力度投影反例决定保留记谱和声库映射；实际patch未知时拒绝声称验证。
+- K03.02.01.01：SUFFICIENT_SCOPED_CANDIDATE（AR03/04/34/39 + AX02）。具体短笛下限、个体上限、低区投射及定音鼓改调，分别检验物理、实用、注册与序列；不要求每款型号。
+- K03.02.03.02：SUFFICIENT_SCOPED_CANDIDATE（AR34/35/36/52）。替代声部/技法可能改变目标音色，保留硬约束并重听，不将候选效果填为实测。
+- K03.03.02.02：SUFFICIENT_SCOPED_CANDIDATE（AR16/34/51/52/60 + KC-A03）。谱面音区和层数可直接核；同一听感可来自混音，先限定编配修订，再依实测排除其他原因。
+- K03.06.01.01：SUFFICIENT_SCOPED_CANDIDATE（AR27/28/46/47/48）。明确构造爵士小组低音/鼓/键盘角色，完整两小节son clave及限定reggae特征；Nelayan与Kamasan具体文化反例；不把特征当全流派真实性。
+- K03.06.03.01：SUFFICIENT_SCOPED_CANDIDATE（AR29/50/52）。硬条件筛选、版本绑定、缺测/分歧和再评价路径；真实听众质量由K10后续实测。
+- K03.06.03.02：SUFFICIENT_SCOPED_CANDIDATE（AR29/50/52）。保留两种合格候选，反馈不齐拒绝自动采用，合成反馈仅给出专业操作条件。
+- K03.07.01.02：SUFFICIENT_SCOPED_CANDIDATE（AR34/51/52/60 + KC-A03）。对照层进和相对力度记号，选择保主线的配器方案；实际动态范围不等记号。
+- K03.07.03.02：SUFFICIENT_SCOPED_CANDIDATE（AR32/50/52/55 + KC-A03）。特定反馈触发局部背景修正，保留原版和受保护主线，派生/试听失效，新评价未知则不采用。
+- K03.08.02.02：SUFFICIENT_SCOPED_CANDIDATE（AR08/35/54/59/60）。音名、奏法、力度和乐器身份的不同投影反例；规范可表达不等真实往返。
+- K03.08.03.01：SUFFICIENT_SCOPED_CANDIDATE（AR09/53/54/55/60 + KC-A03）。源/派生版本、游标、损失、失效与回转拒绝；未运行真实库/DAW。
+[AX02](arrangement-r5-integrated-closure.md#L6)，[KC-A03](arrangement-r5-integrated-closure.md#L7)。上述为Builder裁决提议，不是独立PASS；35路由、13组合均须累计审核。
