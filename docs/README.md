@@ -156,3 +156,6 @@ K02 OPEN，未达到完整模块审核条件；其余G03模块、G04/G05及L2未
 
 ## G03-K02 R4 完整候选
 [七残余与9组定向补证](product/calibration/composition-r4-scope-closure.md)、[16组合及7残余精确入口](product/calibration/composition-r4-closure-links.md)、[S323–327及来源限制](research/source-qualification-composition-r4.md)、[16实际有限核查](product/calibration/composition-r4-validation.md)。原64主案例、48旧需求、56能力、26CQ/14局部题保持；R3审查、现行发现与能力表并读R4补证。K02完整模块Builder候选，待required独立审核；未合并、未启动K03。
+
+## G03-K02 R5有限修正
+独立审核[R4 FAIL](https://github.com/kaicreator-mm/audio-kg/issues/27#issuecomment-7187211961)，七分支SUFFICIENT_SCOPED，K02.06一个P1及两个P2。已完成[具体普通话/粤语创作补证](product/calibration/composition-r5-tone-language-remediation.md)、[修正记录](product/calibration/composition-r5-remediation-record.md)、[S328–331及定向重读](research/source-qualification-composition-r5.md)、[28实际有限检查](product/calibration/composition-r5-validation.md)。保留64主案例与48历史槽；旧FAIL不改写，有限独立复审待完成。不启动K03。
