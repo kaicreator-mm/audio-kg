@@ -242,3 +242,16 @@ K11 [#53](https://github.com/kaicreator-mm/audio-kg/issues/53)：[30主案例](p
 
 ## G03-K11 R4 完整模块Builder候选
 [EX01/EX02/KC-A11](product/calibration/ai-models-r4-integrated-closure.md)。累计60主D4/240期望四视角、30D3、60历史槽、70原能力68P2S、26CQ/12局部发现、S523–537共15来源、58有限检查（R1历史14/R2–4本轮44）；1150精确逐行链接预检0错配。S117撤回、两项D24迁移及历史P2 OPEN。无实际模型、音频、语言、权利、设备、CI、accepted claims或L1 freeze。D26完整模块required独立审核候选，K12仍阻塞。
+
+
+## G03-K11收尾 / G03-K12 R1
+K11 独立PASS [#53](https://github.com/kaicreator-mm/audio-kg/issues/53#issuecomment-7197321090) / [PR54](https://github.com/kaicreator-mm/audio-kg/pull/54#issuecomment-7197322748)，受审fa74231d21d163ef5bfa47d5b13b717e1101d233，合并0daf659617a69de488255dd96d83bfbf8d9f18a8差异0；#53关闭，三P2 [#55](https://github.com/kaicreator-mm/audio-kg/issues/55) OPEN。
+K12 [#56](https://github.com/kaicreator-mm/audio-kg/issues/56)：[27主案例及15有限检查](product/calibration/tools-orchestration-r1-knowledge-cases.md)、[S538–544来源](research/source-qualification-tools-orchestration-r1.md)。九D2/27D3/108期望四视角；54旧槽/63P/26CQ及八D24入向路由、综合任务待收口。S539 CLAP仅线索，固定tag访问失败，其他动态文档未固定二进制；MusicXML4.0及MCP2025-06-18固定文档定位、DAWproject历史宿主版本。无实际工具、音频、权限、CI、accepted claims/L1 freeze。R1内部checkpoint，不中间审核。
+
+
+## G03-K12 R2–R4 完整模块Builder候选
+[27新增专业案例](product/calibration/tools-orchestration-r2-knowledge-cases.md)、[S545–549来源补证](research/source-qualification-tools-orchestration-r2.md)、[54历史槽/八入向迁移](product/calibration/tools-orchestration-r3-legacy-convergence.md)、[63原P能力格](product/calibration/tools-orchestration-r3-capability-calibration.md)、[54原子/26CQ/12局部发现](product/calibration/tools-orchestration-r3-discovery-cq.md)、[EX01/EX02/KC-TO12综合任务](product/calibration/tools-orchestration-r4-integrated-closure.md)。累计54主D4/216非空四视角、27D3、九D2各6；54原槽ID/文字/顺序一致（27路由/27限定组合），63原P；八D24入向SPLIT_OPEN保持，原库存abe31a43795ac0a47ea31df5a3b7046015cf8b73、账本516ea2e35f527e05778c9a32316cba887b4896ac不变。S538–549十二来源登记，S539/S547仅SEARCH_LEAD；S545实际CLAP1.2.6五固定blob补S539，S546动态VST3开发者文档，S548 SMF1.0镜像正文及4张PDF截图（零基4/5/6/13；3/15失败），S549 MEI5.1具体章节；TO37明确TO10的SMF metrical默认tempo与SMPTE边界。65有限检查记录（R1历史15/R2–R4本轮50），R3/R4链接预检1144、0错配，来源集合一致；R4实际11种保护反例、依赖闭包、拓扑、回执绑定、权限/UNKNOWN/重复写边界。实际软件、插件、MCP、模型、音频、权利、听评及标准符合均未执行；不宣称accepted claim、L1 freeze、CI PASS。#28/#32/#35/#38/#41/#46/#49/#52/#55仍OPEN。D26完整模块required独立审核候选，K13仍阻塞。
+
+
+## G03-K12 R6 审核修订候选
+完整审核FAIL（P1=1/P2=3）[Issue #56](https://github.com/kaicreator-mm/audio-kg/issues/56#issuecomment-7197902796) / [PR57](https://github.com/kaicreator-mm/audio-kg/pull/57#issuecomment-7197907532)，受审210070897f736b4479311edfaef907903d91a90e。R6 [四项修订](product/calibration/tools-orchestration-r6-review-remediation.md)、[S550–552补证](research/source-qualification-tools-orchestration-r6.md)：固定MusicGen Melody模型卡/原作者DiffSinger Opencpop B具名发布包与固定源码，文档候选/拒绝/待证；多轨delta/format2/-29；条件经验资格；mask长度/坐标/配置与输出内容版本绑定。54原子/54旧槽/63P/26CQ/12局部/8历史SPLIT_OPEN不变。R6实际20有限检查，历史65保留，共85记录；仍需受影响范围独立复审，未通过不得合入或启动K13。实际权重、设备、许可、运行、音频、CI、accepted claims及L1 freeze未验证，历史P2不关闭。
