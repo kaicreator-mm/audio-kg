@@ -58,3 +58,6 @@
 | K03.08 | A05 | P | 字段等价、损失及未知实际渲染 | [AR08/K03.08.02.03](arrangement-r1-knowledge-cases.md#L12)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |
 | K03.08 | A06 | P | 保留可编辑原谱/标记与映射 | [AR07/K03.08.01.03](arrangement-r1-knowledge-cases.md#L11)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定研究候选，非实际工作流/软件/专业审核。 |
 | K03.08 | A07 | P | 失效/回转拒绝→原谱恢复→再生成 | [AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定研究候选，非实际工作流/软件/专业审核。 |
+
+
+联合补证：K03.01 A01/02/05 [AX01](arrangement-r5-integrated-closure.md#L5)；K03.02/03 A01/02/05/07 [AX02](arrangement-r5-integrated-closure.md#L6)；全域贯穿七能力 [KC-A03](arrangement-r5-integrated-closure.md#L7)，具体四小节事件及合成反馈/停止。A03仍S，实际工具与权限未知，不声称执行。
