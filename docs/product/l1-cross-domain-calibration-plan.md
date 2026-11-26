@@ -95,3 +95,7 @@ R4完整模块独立审核FAIL（0P0/1P1/2P2），七分支限定充分、K02.06
 
 ## G04 R7 — 累计审核FAIL后的修订及完整复审
 原R6 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203270001) 0已发现P0/2P1且累计审核未覆盖完整范围。现行[复审合同](calibration/g04-r7-cumulative-remediation-review-candidate.md)：[XC01-R2](calibration/g04-r7-xc01-protection-remediation.md) 60/60有限探针；[26CQ语义发现](calibration/g04-r7-cq-semantic-discovery.md)、[48有限推演](calibration/g04-r7-cq-semantic-validation.md)；[36项历史发现工作单](calibration/g04-r7-cumulative-findings-docket.md)、[19域审查工作单](calibration/g04-r7-domain-review-docket.md)。28组合回读且12组语义补强；15 OPEN及28 SPLIT_OPEN保持。构建者候选，不替代原未完成的累计独立审核；最终Exact HEAD见#78/PR79派审回执。CAL07/G05/T03/L2继续阻塞。无真实音频、LLM/DB、CI或accepted claims。
+
+
+## G04 R8 — 独立参考/修订证据、离线CQ及累计实质回读
+R7 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203815238) 两残余P1，累计部分未完。现行[完整复审合同](calibration/g04-r8-cumulative-review-candidate.md)、[XC01-R3](calibration/g04-r8-xc01-independent-evidence.md)70/70、[CQ补证](calibration/g04-r8-cq-semantic-remediation.md)24/24、[26问范围](calibration/g04-r8-formal-cq-scope-reconciliation.md)。实际七角色案例与源、19域1113格、34修订主原子80来源引用/317反链、28 NEW/51 REUSE/16 REF现行入口、K16–19原函数40/33/49/44真值重放。原15 Issue及28 SPLIT_OPEN保持。独立Reviewer可按exact SHA/blob复用不受影响的既有独立证据，但仍须完整阶段裁决，明确实质缺口与最小补救；不降低G04门禁。无新全量外部全文、实际运行、accepted claims或L1冻结；CAL07/G05/T03/L2阻塞。
