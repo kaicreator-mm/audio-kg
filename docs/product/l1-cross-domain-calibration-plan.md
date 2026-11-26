@@ -56,3 +56,15 @@ PR #18 exact PASS已合入 16b66ec0f81ad60ebab99732becf5d24e09c62f2；两项非�
 
 ## D25 K01专业与语义收敛
 [七来源资格](../research/source-qualification-theory-convergence.md)、[九组限定案例](calibration/theory-convergence-scoped-cases.md)、[语义收敛](calibration/theory-semantic-convergence.md)：184唯一槽、130深化、54旧槽；15组高重叠语义及16残余复核，7广义缺口保持开放。未达到G02完整模块验收准备条件。下一有限批对全部深化谓词及158主目标案例按主题专业证据复查，明确缺口L1范围裁决；不自动启动G03、L2。D25 recommended SKIP。
+
+## G02累计独立审核候选（required）
+以历史CAL02深化前基线96b321a8a11fa927e4ac3e01b95e05e928f0dd50至本候选全量K01研究为累计审核范围，非仅最近增量。[130深化谓词](calibration/theory-g02-predicate-audit.md)、[158主案例](calibration/theory-g02-case-audit.md)、[63格能力](calibration/theory-g02-capability-audit.md)、[实质发现/有限见证/7项HOLD范围裁决](calibration/theory-g02-builder-findings.md)为收口入口。54旧槽、源谱系/资格、26 CQ、9局部发现题、跨域迁移及G01两P2累计核验保留。7广义缺口全部未证；Reviewer必须判断缺口是否阻断完整K01示范，不能将其默认延后。required PR不得提前合入；G02未通过不启动G03正式标准，不提前L1冻结/L2/accepted claim。25个JS数学/符号见证不等于真实工具、LLM或专业验收。
+
+## D26 完整模块推进
+G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修正并保留历史。Owner确认后续按一个完整专业模块建设、自检、独立审核、必要修订、关闭的节奏，模块中间增量不独立审核。详见[D26门禁](calibration/stage-review-gates.md)。[R1修正](calibration/theory-g02-r1-remediation.md)继续补齐全部K01核心阻断及全谓词案例，未完成不派下一次审核。G03按D1逐模块、保留依赖及G04跨域综合，不提前启动。
+
+## G02 R2完整模块推进
+[158主案例逐谓词审查](calibration/theory-g02-r2-case-branch-review.md)记录110直接候选、33需关联、15具体缺口；[15组补证](calibration/theory-g02-r2-case-branch-fixtures.md)逐项对应原缺口，不是15新原子。[16历史残余](calibration/theory-g02-r2-legacy-residuals.md)、[高阶对位](calibration/theory-g02-r2-counterpoint.md)、[S288–292](../research/source-qualification-theory-g02-r2.md)、[64有限检查](calibration/theory-g02-r2-validation.md)为P1修正证据。下一步集中核对7广义HOLD逐范围证据、全部当前谓词的精确来源资格与关联充分性（含L类依赖及源冲突）；不重复机械点数或已通过有限计算。G02仍OPEN，D26仅在完整候选准备完毕后派一次累计复审，G03不提前启动。
+
+## G02 R3完整模块候选
+[七广义需求](calibration/theory-g02-r3-scope-closure.md)逐项专业范围、[33关联](calibration/theory-g02-r3-case-links.md)、[130来源资格](../research/theory-g02-r3-predicate-source-qualification.md)、[实际有限复算](calibration/theory-g02-r3-validation.md)组成R1–R3累计候选。13新局部补证不增加184槽/158主目标；来源登记区分历史67行与有本轮定向63行（非所有原文重读）。Builder判断具备完整模块独立复审的提交条件，并非专业PASS；原G02 FAIL、七历史HOLD保留，由独立Reviewer裁决是否足以解除阻断。按D26只派一次累计required复审；G03未启动。

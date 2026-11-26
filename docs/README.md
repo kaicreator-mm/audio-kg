@@ -107,3 +107,34 @@
 77. [K01缺口收敛来源](research/source-qualification-theory-convergence.md)：S275–281七个正文定位及谱系/许可限制。
 78. [K01限定补证案例](product/calibration/theory-convergence-scoped-cases.md)：9组四视角、7个广义缺口、数学校验。
 79. [K01语义收敛](product/calibration/theory-semantic-convergence.md)：15个高重叠语义组及16历史残余谓词，G02仍OPEN。
+
+80. [G02 130深化谓词审查账本](product/calibration/theory-g02-predicate-audit.md)：逐项语义、原定位、适用与证据隔离。
+81. [G02 158主目标案例审查矩阵](product/calibration/theory-g02-case-audit.md)：原案例Blob、行号、条件来源及限定范围。
+82. [G02 63格能力复核](product/calibration/theory-g02-capability-audit.md)：逐格适用性、案例及外域边界。
+83. [G02 Builder发现、有限计算与七项HOLD裁决候选](product/calibration/theory-g02-builder-findings.md)：25个实际JS见证及累计独立审核准备；G02尚未PASS。
+
+## G02 R1 实质修正
+- [R1修正账本](product/calibration/theory-g02-r1-remediation.md)
+- [原文补证与版本](research/source-qualification-theory-g02-r1.md)
+- [等音转调](product/calibration/theory-g02-r1-enharmonic-modulation.md)
+- [种类对位](product/calibration/theory-g02-r1-species.md)
+- [高阶对位](product/calibration/theory-g02-r1-advanced-counterpoint.md)
+- [集合比较算法](product/calibration/theory-g02-r1-set-class.md)
+
+## G02 R2 分支实质补证
+- [逐谓词158主案例审查](product/calibration/theory-g02-r2-case-branch-review.md)
+- [15处具体缺口补充案例](product/calibration/theory-g02-r2-case-branch-fixtures.md)
+- [16项历史残余补证](product/calibration/theory-g02-r2-legacy-residuals.md)
+- [种类及高阶对位](product/calibration/theory-g02-r2-counterpoint.md)
+- [S288–292及旧来源重读](research/source-qualification-theory-g02-r2.md)
+- [64项有限断言](product/calibration/theory-g02-r2-validation.md)
+
+R2不改变184槽、130深化谓词和158主案例数量；新增补证为局部证据。G02 OPEN，未派中间复审。
+
+## G02 R3 完整模块收口候选
+- [七项广义范围裁决候选及13补证组](product/calibration/theory-g02-r3-scope-closure.md)
+- [33项案例精确关联](product/calibration/theory-g02-r3-case-links.md)
+- [130深化谓词当前来源资格](research/theory-g02-r3-predicate-source-qualification.md)
+- [S293–298及定向原文](research/source-qualification-theory-g02-r3.md)
+- [实际29项及4095集合对照](product/calibration/theory-g02-r3-validation.md)
+R1–R3为完整K01修订候选；旧FAIL/HOLD留存，非已通过。D26下仅派一次累计required独立复审，确认专业充分性和残余边界，G03继续阻塞。

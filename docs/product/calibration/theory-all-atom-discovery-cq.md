@@ -245,3 +245,14 @@ DRAFT / base e6ec8aa62844fb3a3ae505662f27cf6a3dbf9c2c；当前184个历史+深�
 
 ## 当前D25限定补证及去重覆盖层
 [语义收敛](theory-semantic-convergence.md)、[限定补证案例](theory-convergence-scoped-cases.md)与[来源S275–281](../../research/source-qualification-theory-convergence.md)为当前限定入口，优先查相应目标ID；184槽及158主目标绑定不变，新增9组只作子谓词证据。K01.06.07.02、K01.06.12.02、K01.09.04.03分别得到局部证据但仍EVIDENCE_OPEN广义目标；旧K01.05.01.02、K01.06.03.01/.02新增限定案例不改变旧处置。S281文档未实际运行；不能以查到入口当成语义检索验收。
+
+G02候选：见[逐谓词审查](theory-g02-predicate-audit.md)、[主案例审查](theory-g02-case-audit.md)、[实质核查与门禁](theory-g02-builder-findings.md)。历史状态不删；7个广义HOLD和2个限定候选必须在查询入口先显示证据边界，D/S关联本身不能放行答案。S179已重读；S217/S245的首音约束分开。158是精确主目标案例数而非全目标完整覆盖数。
+
+## G02 R1补证发现入口
+原184槽/158主案例数量保持；G02 FAIL 后的七组主案例已直接修订，不是新增七个原子。对K01.05.08.02、K01.06.07.02、K01.06.12.02、K01.09.04.03，分别定位[等音转调](theory-g02-r1-enharmonic-modulation.md)、[种类对位](theory-g02-r1-species.md)、[高阶对位](theory-g02-r1-advanced-counterpoint.md)、[集合比较](theory-g02-r1-set-class.md)。补充案例仍是限定子证据；原HOLD不得自动关闭。R1实际状态见[修正记录](theory-g02-r1-remediation.md)。
+
+## G02 R2补证发现入口
+按原D4查询[158主案例逐谓词审查](theory-g02-r2-case-branch-review.md)、[15组缺口补证](theory-g02-r2-case-branch-fixtures.md)、[16历史残余](theory-g02-r2-legacy-residuals.md)及[对位R2](theory-g02-r2-counterpoint.md)。对位新增十度交换、完整模仿段、A5完整候选与明确缺陷分支；来源见[S288–292及重读](../../research/source-qualification-theory-g02-r2.md)。不增加主绑定，不自动放行HOLD或真实工具答案。
+
+## G02 R3收口发现入口
+7项历史HOLD及13个局部补证按原ID查[范围裁决候选](theory-g02-r3-scope-closure.md)，原L类33项查[精确关联](theory-g02-r3-case-links.md)，130深化来源查[当前资格](../../research/theory-g02-r3-predicate-source-qualification.md)；原184/158主绑定不变。查到候选不等于已接受事实或实际检索运行。完整模块required独立复审判定是否解除旧阻断；未知跨域仍UNKNOWN。
