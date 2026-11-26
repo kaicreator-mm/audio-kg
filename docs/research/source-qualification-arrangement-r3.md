@@ -8,7 +8,7 @@
 | S352 | Hugill [Violins: Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco | pizz后恢复弓奏需明确指示，非真实回放证据；同S073谱系。 |
 | S353 | Spitfire [Keyswitching In BBC Symphony Orchestra Discover](https://support.spitfireaudio.com/en/articles/11815966-keyswitching-in-bbc-symphony-orchestra-discover), 2025-07-21 | 该产品用音符触发技法；具体版本/patch映射/宿主未运行，不能推所有音源。 |
 | S354 | Hugill [Flute construction](https://www.andrewhugill.com/OrchestraManual/flute_construction.html), 开头 bass flute 演示描述 | 呼吸与发音困难为文字入口，视频未看；具体数值来自AR36题设，不是来源。 |
-| S355 | Hugill [Clarinets: Effects](https://andrewhugill.com/OrchestraManual/clarinet_effects.html), Tremolo | 跨换区需谨慎，具体速度上限来自题设；A4/B4常规书写边界需后续独立核定。 |
+| S355 | Hugill [Clarinets: Effects](https://andrewhugill.com/OrchestraManual/clarinet_effects.html), Tremolo | 跨换区需谨慎，具体速度上限来自题设；A4→B4跨越B♭4/B4常规边界，S369/370正文补证。 |
 | S356 | Hugill [Violins: Left Hand](https://andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato及左手条目 | 具体演奏动作和解释依赖；不证明跨弦速度。 |
 | S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |
 | S358 | S349同一来源角色段落 | 分配合同依据；非独立文献编号，保留为具体定位记录。 |
@@ -23,3 +23,10 @@
 | S367 | MusicXML4.0 [backup](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/backup/), description | 多声部/谱表游标协调、正duration及边界；规范非实际解析器。 |
 | S368 | MusicXML4.0 [technical](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/technical/), description/content | 乐器技法标记可独立表示；具体pizz/arco文字状态见S352；S078 MIDI-Compatible Part 正文重读区分记谱与播放；不推全部转换损失。 |
 S347 §14.6/14.6.1正文定向重读，未读图谱，S364给文字位置。S358/S362/S363为重复定位或内部模型，20编号不等20独立文献（17新增外部定位）。Hugill同旧谱系，MusicXML同规范，S350/359同资源库。未核原始HS分类及所有乐器、真实演奏/听评和许可。
+
+## R4定向补证
+- S369 University of New South Wales, Joe Wolfe等，[Clarinet acoustics: an introduction](https://www.phys.unsw.edu.au/jw/clarinetacoustics.html)，Sound spectrum / break段；明确书写A♯4/B4边界、指法和音色变化，不证明给定速度上限。
+- S370 Timbre and Orchestration Resource [The Clarinet Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/clarinet-family)，A Guide to Registers / Strengths and Limitations / Bass Clarinet；传统困难在现代专业演奏中可减轻，clarion命名边界与S369的clarino不完全一致；不强行统一；本案只用跨B♭4/B4。低音单簧管高音谱与历史低音谱约定不同。
+- S371 MusicXML4.0 [Percussion](https://www.w3.org/2021/06/musicxml40/tutorial/percussion/)，Unpitched Notes / Multiple Instruments Per Part；谱位、实际打击乐身份、MIDI控制值不等；图谱例未核。
+- S372 MusicXML4.0 [staff](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/staff/)，description；一part多staff，顶谱表编号1；规范未执行。
+- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。
