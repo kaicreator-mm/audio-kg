@@ -3,9 +3,9 @@
 | ID | 来源及实际定位 | 资格与限制 |
 |---|---|---|
 | S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |
-| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |
+| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |
 | S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |
-| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |
+| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |
 | S475 | [librosa 0.11.0 phase_vocoder](https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html) 简化实现及rate | READ_LOCATOR；速度参数、STFT输入，明确未处理瞬态及可能伪影；不承诺商用质量或工具可用。 |
 | S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |
 | S477 | [Audacity Change Speed and Pitch](https://manual.audacityteam.org/man/change_speed.html) speed multiplier/selection length | READ_LOCATOR；变速同时变调和时长，保调/变调为不同任务，开发版页面未固定实际安装。 |
