@@ -58,6 +58,7 @@ function runXC03(){
   // Known unauthorized attempted operation outranks workflow shape and report validity.
   if(x.events.some(e=>e.epoch!==x.permission.epoch||e.plan!==x.plan||e.version!==x.planVersion||!x.permission.scope.includes(e.mode)||e.capture||e.store||e.upload))return {state:"STOP"};
   const grant=grants[x.permission.epoch];
+  if(grant&&x.events.some(e=>!grant.scope.includes(e.mode)))return {state:"STOP"};
   if(!grant||!equal(x.permission,grant)||x.role!=="editor")return {state:"PENDING_REVALIDATION"};
   const expected=x.workflow==="offline"?["B"]:x.workflow==="rehearsal"?["B","P"]:null;
   if(!expected||!equal(x.events.map(e=>e.id),expected))return {state:"UNKNOWN"};
@@ -80,11 +81,11 @@ function runXC03(){
   if(x.workflow==="offline"){
     const s=structural[receipt.evidenceId];
     if(!s||s.candidate!==revisionKey(x)||s.scope!=="symbolic-protection")return {state:"PENDING_REVALIDATION"};
-    return {state:"OFFLINE_DRAFT_ONLY",measurement:"NOT_PERFORMED"};
+    return {state:"OFFLINE_DRAFT_ONLY",measurement:"NOT_PERFORMED",candidate:revisionKey(x),report:reportKey(x),structuralEvidence:receipt.evidenceId};
   }
   if(receipt.evidenceId!==x.measurement.estimateId)return {state:"PENDING_REVALIDATION"};
   const e=estimates[receipt.evidenceId],c=(a,b)=>1200*Math.log2(a/b);
-  return {state:Math.abs(c(e.hz,reference.hz))>1e-9?"REVIEW_MEASUREMENT":"STATIC_CANDIDATE_ONLY",referenceId:reference.id,estimateId:e.id,estimateError:c(e.hz,reference.hz),actualGoalError:c(reference.hz,original.target.musicHz),estimatedGoalError:c(e.hz,original.target.musicHz)};
+  return {state:Math.abs(c(e.hz,reference.hz))>1e-9?"REVIEW_MEASUREMENT":"STATIC_CANDIDATE_ONLY",candidate:revisionKey(x),report:reportKey(x),referenceId:reference.id,estimateId:e.id,estimateError:c(e.hz,reference.hz),actualGoalError:c(reference.hz,original.target.musicHz),estimatedGoalError:c(e.hz,original.target.musicHz)};
  }
  // Mutating a report to echo current input does not register evidence.
  function forge(x){if(x.report){x.report.binding=copy(revision(x));x.report.measurement=copy(x.measurement??null);x.report.revisionKey=revisionKey(x)}}
@@ -145,8 +146,11 @@ function runXC03(){
  t("offline unknown host",offline,x=>x.host="H2","PENDING_REVALIDATION",true);
  t("offline fabricated measurement",offline,x=>x.measurement=copy(candidate.measurement),"UNKNOWN",true);
  t("offline scope escalation",offline,x=>x.permission.scope.push("live-listen"),"PENDING_REVALIDATION",true);
+ t("offline escalated scope and attempted P",offline,x=>{x.permission.scope.push("live-listen");x.events.push({...candidate.events[1],epoch:"O1",plan:"F0",version:"p0"})},"STOP",true);
+ t("unregistered reference and evidence",candidate,x=>{x.measurement.referenceId="OBS-A-02";x.measurement.estimateId="EST-unknown"},"UNKNOWN",true);
+ t("arbitrary new receipt evidence",candidate,x=>x.report.evidenceId="EST-fake","PENDING_REVALIDATION",true);
  if(a.estimateError!==0||Math.abs(a.actualGoalError-165.0042285)>1e-6||b.estimatedGoalError!==0||b.actualGoalError!==a.actualGoalError||Math.abs(b.estimateError+a.actualGoalError)>1e-9)throw Error("independent measurement outputs");
- return {fixtures,baseline:a,wrong:b,offline:assess(offline)};
+ return {fixtures,baseline:a,revised:assess(revised),wrong:b,offline:assess(offline),traceInput:{revisionKey:revisionKey(candidate),reportKey:reportKey(candidate),source:candidate.source,clock:copy(candidate.clock),target:copy(candidate.target),notes:copy(candidate.actualNotes),lyrics:copy(candidate.actualLyrics),events:copy(candidate.events),permission:copy(candidate.permission),host:candidate.host,plan:candidate.plan,planVersion:candidate.planVersion,protectedCue:copy(candidate.protectedCue),envelope:copy(candidate.envelope),evidence:copy(candidate.report)}};
 }
 
 console.log(runXC03());
@@ -221,5 +225,8 @@ console.log(runXC03());
 | offline unknown host | PENDING_REVALIDATION | PENDING_REVALIDATION |
 | offline fabricated measurement | UNKNOWN | UNKNOWN |
 | offline scope escalation | PENDING_REVALIDATION | PENDING_REVALIDATION |
+| offline escalated scope and attempted P | STOP | STOP |
+| unregistered reference and evidence | UNKNOWN | UNKNOWN |
+| arbitrary new receipt evidence | PENDING_REVALIDATION | PENDING_REVALIDATION |
 
-实际 67/67。独立参考相关输出：基准 {"state":"STATIC_CANDIDATE_ONLY","referenceId":"OBS-A-01","estimateId":"EST-2","estimateError":0,"actualGoalError":165.00422849992202,"estimatedGoalError":165.00422849992202}；错误估计 {"state":"REVIEW_MEASUREMENT","referenceId":"OBS-A-01","estimateId":"EST-4","estimateError":-165.00422849992196,"actualGoalError":165.00422849992202,"estimatedGoalError":0}；离线 {"state":"OFFLINE_DRAFT_ONLY","measurement":"NOT_PERFORMED"}。
+实际 70/70。独立参考相关输出：基准 {"state":"STATIC_CANDIDATE_ONLY","candidate":"C/c2","report":"R2/r2","referenceId":"OBS-A-01","estimateId":"EST-2","estimateError":0,"actualGoalError":165.00422849992202,"estimatedGoalError":165.00422849992202}；错误估计 {"state":"REVIEW_MEASUREMENT","candidate":"C/c4","report":"R4/r4","referenceId":"OBS-A-01","estimateId":"EST-4","estimateError":-165.00422849992196,"actualGoalError":165.00422849992202,"estimatedGoalError":0}；离线 {"state":"OFFLINE_DRAFT_ONLY","measurement":"NOT_PERFORMED","candidate":"C/c6","report":"R6/r6","structuralEvidence":"STRUCT-6"}。另输出绑定c2/R2的题设追溯输入供R8c逐阶段检查。已知O1授权中无P，即使提交的scope被扩大也STOP；没有尝试P的虚假scope仍PENDING。
