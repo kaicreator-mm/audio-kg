@@ -13,7 +13,7 @@ DRAFT；2026-11-26。本轮使用原始论文摘要、HTML原文、官方模型�
 | S114 | ACE-Step 1.5 [arXiv:2602.00744](https://arxiv.org/abs/2602.00744) Abstract、§3.3 | K11.03/05/08/09/10 K12.05/07 | READ_LOCATOR；LM规划与DiT、mask及source latent多任务；LoRA、速度、资源和语言为作者报告，未验证 |
 | S115 | Qwen-Music Technical Report [arXiv:2607.11699v2](https://arxiv.org/abs/2607.11699v2) Abstract | K11.02/03/05 K12.05 | ABSTRACT_READ；文本生成歌曲/cover及tokenizer/LLM/render三组件，接口/权重/支持语种未知 |
 | S116 | Stable Audio 3 [arXiv:2605.17991v1](https://arxiv.org/abs/2605.17991v1) Abstract | K11.01–03/05/09 | ABSTRACT_READ；可变长音频latent diffusion、inpainting与语义声学autoencoder；发布范围、资源、许可另核 |
-| S117 | SaMoye [arXiv:2407.07728](https://arxiv.org/abs/2407.07728) Abstract | K11.01/06/07 | ABSTRACT_READ；SVC内容/音色/音高解耦研究；SVS不可由SVC论文直接证明，身份授权/权重/数据待查 |
+| S117 | SaMoye [arXiv:2407.07728](https://arxiv.org/abs/2407.07728) 历史摘要；2026-11-26重读最新v5撤回状态，见S534 | K11.01/06/07 | WITHDRAWN_STATUS；2024-11-15作者撤回，历史摘要仅用于追踪，不得支持有效技术、性能或能力；S529另有SVC任务机制证据，具体权重/语言/授权待验。 |
 | S118 | HT Demucs [arXiv:2211.08553v1](https://arxiv.org/abs/2211.08553v1) Abstract | K11.07/10 | ABSTRACT_READ；时间/频谱混合网络，作者报告额外训练数据改变结果；不混比训练条件 |
 | S119 | Music Transformer [Google Research publication](https://research.google/pubs/music-transformer-generating-music-with-long-term-structure/) title / abstract search | K11.04 | SEARCH_ONLY；本次返回页面导航，摘要检索可见；具体架构/长结构实验待核 |
 | S120 | LoRA [arXiv:2106.09685v2](https://arxiv.org/abs/2106.09685v2) Abstract | K11.08 | ABSTRACT_READ；冻结基座并注入低秩更新的研究，原论文非音乐模型适配性能证据 |
