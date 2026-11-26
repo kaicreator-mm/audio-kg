@@ -17,3 +17,6 @@ DRAFT / T01+T02；来源见 [第六波来源](source-qualification-culture-educa
 
 ## 必须补的证据
 传统各乐器/音律、地区及不同民族音乐；当地音乐教学、现代歌曲制作、歌词语音与演唱观察；本地语种模型具体版本、真实授权例和母语评价。优先获取S144正文、Chiarofonte论文相关章节、独立本地资料及跨语种评估；如需引入录音、歌词、声库先核验许可。禁止从少量英文资料翻译生成整套缅甸乐理，无证据处标UNKNOWN。
+
+## G03-K02 R2 证据更新
+S144已成功读取正文，不再仅摘要线索；[实际来源资格](source-qualification-composition-r2.md)和[CO-35–38词曲案例](../product/calibration/composition-r2-knowledge-cases.md)提供特定传统伴奏与声调、跨语言对照及UNKNOWN条件。现代缅语歌曲语料、母语评审和真实音频仍缺；不从1981历史tone two编号映射现代四/五调分类。K13完整专业模块尚未启动。

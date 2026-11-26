@@ -68,3 +68,19 @@ G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修
 
 ## G02 R3完整模块候选
 [七广义需求](calibration/theory-g02-r3-scope-closure.md)逐项专业范围、[33关联](calibration/theory-g02-r3-case-links.md)、[130来源资格](../research/theory-g02-r3-predicate-source-qualification.md)、[实际有限复算](calibration/theory-g02-r3-validation.md)组成R1–R3累计候选。13新局部补证不增加184槽/158主目标；来源登记区分历史67行与有本轮定向63行（非所有原文重读）。Builder判断具备完整模块独立复审的提交条件，并非专业PASS；原G02 FAIL、七历史HOLD保留，由独立Reviewer裁决是否足以解除阻断。按D26只派一次累计required复审；G03未启动。
+
+## G02完整示范通过与G03首模块
+独立审核 [#3 7185749616](https://github.com/kaicreator-mm/audio-kg/issues/3#issuecomment-7185749616) / [PR26 7185750647](https://github.com/kaicreator-mm/audio-kg/pull/26#issuecomment-7185750647) PASS exact 71ad9338d199961635505f548557a156a4ceb1ef，合并 1461b7b0e1c84bcc7f98c8662806d00a8bed479c；compare files0。0P0/0P1/2非阻断P2，七广义SUFFICIENT_SCOPED，RV01–04 CLOSE_SCOPED。RV05/06单独登记#28并在相关有限批次前于正式主张准入前修订，不挪用旧PASS。G02关闭范围仅完整K01 L1 demonstrator；不是L1冻结。#3仍为L1父任务。
+按stage-review-gates D26以完整D1为审核单位，首先[ #27 K02音乐创作](https://github.com/kaicreator-mm/audio-kg/issues/27)。R1已提交[24个细化知识与案例](calibration/composition-r1-knowledge-cases.md)、[48旧槽路由](calibration/composition-r1-legacy-routing.md)（35 PARTIAL_LINK/13 OPEN）、[8来源定位](../research/source-qualification-composition-r1.md)、[17有限断言](calibration/composition-r1-validation.md)。不以计数验收，余下声调语言/创作方法/迭代/关联语义/七能力/CQ仍需完整专业建设。本PR只服务K02完整模块；不发中间独立审，不启动K03。无native dependency write，文字依赖不等于DAG冻结。
+
+## G03-K02 R2深化检查点
+[29新知识与案例](calibration/composition-r2-knowledge-cases.md)覆盖原13 OPEN，累计53候选主案例；[旧48槽](calibration/composition-r2-legacy-routing.md)逐行关联并保留历史语义；[S307–319及S144](../research/source-qualification-composition-r2.md)实际正文定位；[56能力格](calibration/composition-r2-capability-calibration.md)、[全26 CQ及8局部发现题](calibration/composition-r2-discovery-cq.md)、[31有限断言及CO48定向补验](calibration/composition-r2-validation.md)。下一批按八分支逐专业深度及具体案例源资格、重叠谓词/旧槽剩余、CQ D/S/能力的实质关联收敛；当前不视为完整模块验收，K02 OPEN，K03未启动。D26不派小复审。
+
+## G03-K02 R3收敛检查点
+本轮[11个专业补证](calibration/composition-r3-knowledge-cases.md)，原53逐项与新增11一并形成[64谓词来源/条件审查](calibration/composition-r3-predicate-audit.md)（35P专业限定候选/16L组合或缺口/13C项目合同，不是通过数）。[48旧槽语义收敛](calibration/composition-r3-legacy-convergence.md)41路由/7残余，原ID不删。[现行64索引及26CQ](calibration/composition-r3-discovery-cq.md)和[56能力格](calibration/composition-r3-capability-calibration.md)修正直接与支持关系；[17实际有限验证](calibration/composition-r3-validation.md)含全16种seed的4类碰撞。S320–322实际正文，S144/S307–309及S067/S070/S302–305定向重读，不冒称历史全文齐备。下一批集中7残余：风格具体条件、非英语韵律及重音、不同终止策略、完整歌曲大型结构、声调语言取舍与母语证据边界；核16L实际补证，整模块达标才派一次required累计审核。无L1冻结、accepted claim、真实音频/工具/LLM或K03启动。
+
+## G03-K02 R4完整模块收口候选
+[七残余范围与9组补证](calibration/composition-r4-scope-closure.md)及[16 L/7残余精确组合](calibration/composition-r4-closure-links.md)在不新增主ID的条件下补足风格、完整短型形式、非英语音拍、声调、词曲适配及评价设计。[S323–327](../research/source-qualification-composition-r4.md)含专业教材及跨语言研究正文，S325截图访问拒绝但PDF文本可读；[16实际有限核查](calibration/composition-r4-validation.md)保留修正及边界。累计64深化候选/48历史需求/56七能力格/26全域CQ/14局部题。R3历史35P/16L/13C与41路由/7残余不改写成通过数；R4提供逐项范围裁决候选，由独立Reviewer决定完整专业充分性。现代缅语母语、真实演唱/音频/软件/LLM、资产许可未验证；K02自身创作构造、取舍、修改及停止条件不得移出。本轮完成完整候选的自检后按D26派一次required审核；K03仍未启动，无accepted claim或L1冻结。
+
+## G03-K02 R5审核修正候选
+R4完整模块独立审核FAIL（0P0/1P1/2P2），七分支限定充分、K02.06声调语言具体创作应用HOLD。按Reviewer范围修复RV01–03：[R5普通话/粤语实际词汇及声明表层规则、M↑/M↓、冻结/改词/授权/拒绝、多解](calibration/composition-r5-tone-language-remediation.md)，[精确修正记录](calibration/composition-r5-remediation-record.md)，[S328–331及原来源](../research/source-qualification-composition-r5.md)，[28有限检查](calibration/composition-r5-validation.md)。不重做已证无影响分支，64/48/56/26/14保持。R5为Builder修复候选，实际现代缅语、母语评价、音频、宿主和LLM未运行；不提前合并、关闭或启动K03。新Exact HEAD仅按RV01–03及受影响路径required复审。

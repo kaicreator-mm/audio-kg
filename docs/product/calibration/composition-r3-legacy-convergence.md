@@ -1,0 +1,59 @@
+# K02 R3：48历史需求语义收敛候选
+从R2全部48行逐一裁决：ROUTER为上位需求通过细化案例发现，非sameAs、非删除、非独立PASS；RESIDUAL为仍有明确本域范围或前置证据缺口。原ID、原始来源及CQ沿R1/R2历史账本保留。外域实际事实未证不自动成为K02阻断，但K02自身创作决策必须补足限定条件后由Reviewer裁决。当前41 ROUTER/7 RESIDUAL，非验收通过数量。
+| 原D4 | 原谓词 | 当前候选处置 | 精确专业证据 | 剩余及边界 |
+|---|---|---|---|---|
+| K02.01.01.01 | 主题受众用途与表达意图 | ROUTER | [CO-01](composition-r1-knowledge-cases.md) L5；[CO-02](composition-r1-knowledge-cases.md) L6 | 目标与验收是上位发现入口，细化题设分别承担；未真实采集用户反馈。 |
+| K02.01.01.02 | 目标优先级和可验收要求 | ROUTER | [CO-01](composition-r1-knowledge-cases.md) L5；[CO-02](composition-r1-knowledge-cases.md) L6 | 目标与验收是上位发现入口，细化题设分别承担；未真实采集用户反馈。 |
+| K02.01.02.01 | 既有旋律文本及权利边界 | ROUTER | [CO-03](composition-r1-knowledge-cases.md) L7；[CO-27](composition-r2-knowledge-cases.md) L7 | 素材身份/授权条件与编制/时长/音域分责；K15、K03、K06实际条件另证。 |
+| K02.01.02.02 | 时长编制音域等限制 | ROUTER | [CO-03](composition-r1-knowledge-cases.md) L7；[CO-27](composition-r2-knowledge-cases.md) L7 | 素材身份/授权条件与编制/时长/音域分责；K15、K03、K06实际条件另证。 |
+| K02.01.03.01 | 风格惯例及用户偏好区分 | RESIDUAL | [CO-04](composition-r1-knowledge-cases.md) L8；[CO-28](composition-r2-knowledge-cases.md) L8；[CO-64](composition-r3-knowledge-cases.md) L15 | 具体流派惯例的选取仍须来源及更多体裁对照；多方案/假设已具体化。 |
+| K02.01.03.02 | 多方案比较和明确假设 | ROUTER | [CO-04](composition-r1-knowledge-cases.md) L8；[CO-28](composition-r2-knowledge-cases.md) L8；[CO-64](composition-r3-knowledge-cases.md) L15 | 具体流派惯例的选取仍须来源及更多体裁对照；多方案/假设已具体化。 |
+| K02.02.01.01 | 语句重音韵脚和节奏 | ROUTER | [CO-05](composition-r1-knowledge-cases.md) L9；[CO-06](composition-r1-knowledge-cases.md) L10；[CO-54](composition-r3-knowledge-cases.md) L5；[CO-55](composition-r3-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语三韵类、句长韵式、错置与分句分别；非英语的具体韵律体系仍须本域限定、K13前置。 |
+| K02.02.01.02 | 语言特定规则与修辞例外 | RESIDUAL | [CO-05](composition-r1-knowledge-cases.md) L9；[CO-06](composition-r1-knowledge-cases.md) L10；[CO-54](composition-r3-knowledge-cases.md) L5；[CO-55](composition-r3-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语三韵类、句长韵式、错置与分句分别；非英语的具体韵律体系仍须本域限定、K13前置。 |
+| K02.02.02.01 | 视角意象和主题一致性 | ROUTER | [CO-07](composition-r1-knowledge-cases.md) L11；[CO-29](composition-r2-knowledge-cases.md) L9 | 人物/叙述/意象与信息推进保留不同目标；真实听众不由文本推出。 |
+| K02.02.02.02 | 信息推进及段落功能 | ROUTER | [CO-07](composition-r1-knowledge-cases.md) L11；[CO-29](composition-r2-knowledge-cases.md) L9 | 人物/叙述/意象与信息推进保留不同目标；真实听众不由文本推出。 |
+| K02.02.03.01 | 隐喻重复对比等表达手段 | ROUTER | [CO-08](composition-r1-knowledge-cases.md) L12；[CO-30](composition-r2-knowledge-cases.md) L10 | 隐喻、重复、对比及语义冲突具体；不能把艺术取舍当普遍语义错误。 |
+| K02.02.03.02 | 区分艺术选择与语义错误 | ROUTER | [CO-08](composition-r1-knowledge-cases.md) L12；[CO-30](composition-r2-knowledge-cases.md) L10 | 隐喻、重复、对比及语义冲突具体；不能把艺术取舍当普遍语义错误。 |
+| K02.03.01.01 | 音高运动与乐句轮廓 | ROUTER | [CO-09](composition-r1-knowledge-cases.md) L13；[CO-27](composition-r2-knowledge-cases.md) L7 | 轮廓与音域/音程条件拆开；可唱实证K06，实际乐器K03。 |
+| K02.03.01.02 | 音域音程与演奏条件 | ROUTER | [CO-09](composition-r1-knowledge-cases.md) L13；[CO-27](composition-r2-knowledge-cases.md) L7 | 轮廓与音域/音程条件拆开；可唱实证K06，实际乐器K03。 |
+| K02.03.02.01 | 时值重音与重复变化 | ROUTER | [CO-10](composition-r1-knowledge-cases.md) L14；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-26](composition-r2-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 节奏起点/时值/拍层与语句分组区分；实际表演时间K04。 |
+| K02.03.02.02 | 停顿和乐句分组 | ROUTER | [CO-10](composition-r1-knowledge-cases.md) L14；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-26](composition-r2-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 节奏起点/时值/拍层与语句分组区分；实际表演时间K04。 |
+| K02.03.03.01 | 终止感与上下文 | ROUTER | [CO-11](composition-r1-knowledge-cases.md) L15；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-58](composition-r3-knowledge-cases.md) L9 | 已具不同形式结尾候选；更多流派的结束策略仍需具体案例，非同一听感。 |
+| K02.03.03.02 | 不同终止策略及适用风格 | RESIDUAL | [CO-11](composition-r1-knowledge-cases.md) L15；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-58](composition-r3-knowledge-cases.md) L9 | 已具不同形式结尾候选；更多流派的结束策略仍需具体案例，非同一听感。 |
+| K02.04.01.01 | 核心材料与片段层级 | ROUTER | [CO-12](composition-r1-knowledge-cases.md) L16；[CO-59](composition-r3-knowledge-cases.md) L10 | 素材及辨别特征、hook候选/实测显著区分；不能仅由相似性判定。 |
+| K02.04.01.02 | 可辨特征及多解 | ROUTER | [CO-12](composition-r1-knowledge-cases.md) L16；[CO-59](composition-r3-knowledge-cases.md) L10 | 素材及辨别特征、hook候选/实测显著区分；不能仅由相似性判定。 |
+| K02.04.02.01 | 移调增减时值倒影逆行等操作 | ROUTER | [CO-13](composition-r1-knowledge-cases.md) L17；[CO-14](composition-r1-knowledge-cases.md) L18；[CO-15](composition-r1-knowledge-cases.md) L19；[CO-16](composition-r1-knowledge-cases.md) L20 | 严格/调内倒影、时值、音序与事件、扩展和片段分别有明确输入。 |
+| K02.04.02.02 | 明确保留特征与变换参数 | ROUTER | [CO-13](composition-r1-knowledge-cases.md) L17；[CO-14](composition-r1-knowledge-cases.md) L18；[CO-15](composition-r1-knowledge-cases.md) L19；[CO-16](composition-r1-knowledge-cases.md) L20 | 严格/调内倒影、时值、音序与事件、扩展和片段分别有明确输入。 |
+| K02.04.03.01 | 重复模进分割扩展和对比 | ROUTER | [CO-16](composition-r1-knowledge-cases.md) L20；[CO-17](composition-r1-knowledge-cases.md) L21；[CO-31](composition-r2-knowledge-cases.md) L11；[CO-59](composition-r3-knowledge-cases.md) L10 | 发展手法/连续性判断的符号条件，真实听觉评价另归K10/K17。 |
+| K02.04.03.02 | 跨段材料连续性评价 | ROUTER | [CO-16](composition-r1-knowledge-cases.md) L20；[CO-17](composition-r1-knowledge-cases.md) L21；[CO-31](composition-r2-knowledge-cases.md) L11；[CO-59](composition-r3-knowledge-cases.md) L10 | 发展手法/连续性判断的符号条件，真实听觉评价另归K10/K17。 |
+| K02.05.01.01 | 主歌副歌桥段等条件性角色 | RESIDUAL | [CO-18](composition-r1-knowledge-cases.md) L22；[CO-19](composition-r1-knowledge-cases.md) L23；[CO-20](composition-r1-knowledge-cases.md) L24；[CO-60](composition-r3-knowledge-cases.md) L11 | 具体大型段落形式需更多完整词曲组合，原OMT仅指定流行框架；不强制必副歌。 |
+| K02.05.01.02 | 不强制普遍曲式 | ROUTER | [CO-18](composition-r1-knowledge-cases.md) L22；[CO-19](composition-r1-knowledge-cases.md) L23；[CO-20](composition-r1-knowledge-cases.md) L24；[CO-60](composition-r3-knowledge-cases.md) L11 | 具体大型段落形式需更多完整词曲组合，原OMT仅指定流行框架；不强制必副歌。 |
+| K02.05.02.01 | 和声节奏旋律密度与表达关系 | ROUTER | [CO-32](composition-r2-knowledge-cases.md) L12；[CO-33](composition-r2-knowledge-cases.md) L13；[CO-59](composition-r3-knowledge-cases.md) L10 | 密度与和声对照、实际听评缺失状态；不填虚构感知分。 |
+| K02.05.02.02 | 主观听感及语境 | ROUTER | [CO-32](composition-r2-knowledge-cases.md) L12；[CO-33](composition-r2-knowledge-cases.md) L13；[CO-59](composition-r3-knowledge-cases.md) L10 | 密度与和声对照、实际听评缺失状态；不填虚构感知分。 |
+| K02.05.03.01 | 过渡动机连接和重复层次 | ROUTER | [CO-20](composition-r1-knowledge-cases.md) L24；[CO-34](composition-r2-knowledge-cases.md) L14；[CO-60](composition-r3-knowledge-cases.md) L11 | 过渡新增时长/引用、复现/边界与功能，非仅标签。 |
+| K02.05.03.02 | 结构一致性及预期变化 | ROUTER | [CO-20](composition-r1-knowledge-cases.md) L24；[CO-34](composition-r2-knowledge-cases.md) L14；[CO-60](composition-r3-knowledge-cases.md) L11 | 过渡新增时长/引用、复现/边界与功能，非仅标签。 |
+| K02.06.01.01 | 单音节多音与多音节分配 | ROUTER | [CO-21](composition-r1-knowledge-cases.md) L25；[CO-22](composition-r1-knowledge-cases.md) L26；[CO-61](composition-r3-knowledge-cases.md) L12 | 一对一/延展/elision及遍次、歌词行分开，实际宿主待K12。 |
+| K02.06.01.02 | 记录延音和区间对齐 | ROUTER | [CO-21](composition-r1-knowledge-cases.md) L25；[CO-22](composition-r1-knowledge-cases.md) L26；[CO-61](composition-r3-knowledge-cases.md) L12 | 一对一/延展/elision及遍次、歌词行分开，实际宿主待K12。 |
+| K02.06.02.01 | 语言重音与音乐重音关系 | ROUTER | [CO-23](composition-r1-knowledge-cases.md) L27；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语重音与显著性、切分及句法错位分离；非英语具体条件依语种与原生证据。 |
+| K02.06.02.02 | 语种风格及有意偏离 | RESIDUAL | [CO-23](composition-r1-knowledge-cases.md) L27；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语重音与显著性、切分及句法错位分离；非英语具体条件依语种与原生证据。 |
+| K02.06.03.01 | 特定语种声调和旋律约束需求 | RESIDUAL | [CO-35](composition-r2-knowledge-cases.md) L15；[CO-36](composition-r2-knowledge-cases.md) L16；[CO-37](composition-r2-knowledge-cases.md) L17；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-62](composition-r3-knowledge-cases.md) L13 | 特定历史传统及粤语研究为限定候选；现代缅语实际词曲/语义听辨未知。K02仍负责取舍和改词，K13/K16提供原生资料、K10评价。 |
+| K02.06.03.02 | 语义可懂及母语评价 | RESIDUAL | [CO-35](composition-r2-knowledge-cases.md) L15；[CO-36](composition-r2-knowledge-cases.md) L16；[CO-37](composition-r2-knowledge-cases.md) L17；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-62](composition-r3-knowledge-cases.md) L13 | 特定历史传统及粤语研究为限定候选；现代缅语实际词曲/语义听辨未知。K02仍负责取舍和改词，K13/K16提供原生资料、K10评价。 |
+| K02.07.01.01 | 先定义核心乐句再选和声 | ROUTER | [CO-39](composition-r2-knowledge-cases.md) L19；[CO-40](composition-r2-knowledge-cases.md) L20；[CO-64](composition-r3-knowledge-cases.md) L15 | 旋律先行的多和声、成员与非成员条件，不能从成品反推创作史。 |
+| K02.07.01.02 | 记录候选及适用性 | ROUTER | [CO-39](composition-r2-knowledge-cases.md) L19；[CO-40](composition-r2-knowledge-cases.md) L20；[CO-64](composition-r3-knowledge-cases.md) L15 | 旋律先行的多和声、成员与非成员条件，不能从成品反推创作史。 |
+| K02.07.02.01 | groove或和声起点与限制 | ROUTER | [CO-41](composition-r2-knowledge-cases.md) L21；[CO-42](composition-r2-knowledge-cases.md) L22；[CO-43](composition-r2-knowledge-cases.md) L23；[CO-64](composition-r3-knowledge-cases.md) L15 | 节奏/和声/track起点不同，固定输入/替代路线明确；非普遍流程。 |
+| K02.07.02.02 | 保持目标及可替代路径 | ROUTER | [CO-41](composition-r2-knowledge-cases.md) L21；[CO-42](composition-r2-knowledge-cases.md) L22；[CO-43](composition-r2-knowledge-cases.md) L23；[CO-64](composition-r3-knowledge-cases.md) L15 | 节奏/和声/track起点不同，固定输入/替代路线明确；非普遍流程。 |
+| K02.07.03.01 | 规则生成与随机选择的区别 | ROUTER | [CO-44](composition-r2-knowledge-cases.md) L24；[CO-45](composition-r2-knowledge-cases.md) L25；[CO-46](composition-r2-knowledge-cases.md) L26；[CO-47](composition-r2-knowledge-cases.md) L27；[CO-48](composition-r2-knowledge-cases.md) L28；[CO-63](composition-r3-knowledge-cases.md) L14 | 规则、种子碰撞、过程技法；实际工具版本、评价与作者史不可反推。 |
+| K02.07.03.02 | 记录随机种子约束与审美评价 | ROUTER | [CO-44](composition-r2-knowledge-cases.md) L24；[CO-45](composition-r2-knowledge-cases.md) L25；[CO-46](composition-r2-knowledge-cases.md) L26；[CO-47](composition-r2-knowledge-cases.md) L27；[CO-48](composition-r2-knowledge-cases.md) L28；[CO-63](composition-r3-knowledge-cases.md) L14 | 规则、种子碰撞、过程技法；实际工具版本、评价与作者史不可反推。 |
+| K02.08.01.01 | 作品候选版本及素材依赖 | ROUTER | [CO-49](composition-r2-knowledge-cases.md) L29；[CO-50](composition-r2-knowledge-cases.md) L30；[CO-61](composition-r3-knowledge-cases.md) L12 | 创作候选与素材、歌词/音符/段落源对象；真实工程快照K09。 |
+| K02.08.01.02 | 可编辑歌词乐谱的标识 | ROUTER | [CO-49](composition-r2-knowledge-cases.md) L29；[CO-50](composition-r2-knowledge-cases.md) L30；[CO-61](composition-r3-knowledge-cases.md) L12 | 创作候选与素材、歌词/音符/段落源对象；真实工程快照K09。 |
+| K02.08.02.01 | 明确目标段落与保护范围 | ROUTER | [CO-24](composition-r1-knowledge-cases.md) L28；[CO-51](composition-r2-knowledge-cases.md) L31 | 受保护范围及受影响依赖区分；不虚报实际回滚或读写。 |
+| K02.08.02.02 | 记录关联失效和变更影响 | ROUTER | [CO-24](composition-r1-knowledge-cases.md) L28；[CO-51](composition-r2-knowledge-cases.md) L31 | 受保护范围及受影响依赖区分；不虚报实际回滚或读写。 |
+| K02.08.03.01 | 按目标及评价条件比较 | ROUTER | [CO-52](composition-r2-knowledge-cases.md) L32；[CO-53](composition-r2-knowledge-cases.md) L33 | 硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。 |
+| K02.08.03.02 | 人工确认回滚与停止 | ROUTER | [CO-52](composition-r2-knowledge-cases.md) L32；[CO-53](composition-r2-knowledge-cases.md) L33 | 硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。 |
+本轮不新增同义旧条目；64个细化候选与48历史槽合计112个索引需求位，不等于112条独立专业事实。下一批优先上述7项残余的完整具体例、语义去重及能力/CQ关系校准；保留历史来源与语言未知。
+
+R4七原RESIDUAL逐一关联[具体补证与候选裁决](composition-r4-closure-links.md)，保持48原ID及41/7历史分类；非全语言/风格已证，K02核心创作决策保留，外部实际观察UNKNOWN。待独立完整模块审核。
+
+
+## R5 RV01修正
+K02.06.03.01原独立HOLD，补[R5-M/Y](composition-r5-tone-language-remediation.md)具体普通话与香港粤语问候hook：读法、表层调、调尾、音符、语义、固定/改曲、拒绝、多解；K02.06.03.02原评估合同SUFFICIENT_SCOPED，补R5-R版本及实际评审UNKNOWN的联动。其余六原残余的独立限定裁决保留；R5待复审，不提前宣布关闭。
