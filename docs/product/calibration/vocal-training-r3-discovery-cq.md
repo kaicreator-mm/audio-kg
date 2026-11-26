@@ -104,3 +104,5 @@
 - CQ-K06-11 如何复测并区分即时、保持、迁移？ [VT25](vocal-training-r1-knowledge-cases.md#L29)、[VT26](vocal-training-r1-knowledge-cases.md#L30)、[VT27](vocal-training-r1-knowledge-cases.md#L31)、[VT52](vocal-training-r2-knowledge-cases.md#L26)、[VT53](vocal-training-r2-knowledge-cases.md#L27)、[VT54](vocal-training-r2-knowledge-cases.md#L28)。
 - CQ-K06-12 何时暂停、转介及拒绝自动恢复？ [VT28](vocal-training-r1-knowledge-cases.md#L32)、[VT29](vocal-training-r1-knowledge-cases.md#L33)、[VT30](vocal-training-r1-knowledge-cases.md#L34)、[VT55](vocal-training-r2-knowledge-cases.md#L29)、[VT56](vocal-training-r2-knowledge-cases.md#L30)、[VT57](vocal-training-r2-knowledge-cases.md#L31)。
 CQ18仅S434限定的传统理论文字，不宣称听过或转录实际曲例；S416语言学不等歌唱证据。未运行图谱/LLM、音频、软件或真实人体。
+
+组合发现：[VX06-1](vocal-training-r4-integrated-closure.md#L5)（CQ06/15/22/24）；[VX06-2](vocal-training-r4-integrated-closure.md#L6)（CQ04/16/18/26）；[KC-V06](vocal-training-r4-integrated-closure.md#L7)（CQ04/06/15/19/21/22/24/25）。不增加57主谓词计数或真实运行证据。
