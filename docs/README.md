@@ -159,3 +159,12 @@ K02 OPEN，未达到完整模块审核条件；其余G03模块、G04/G05及L2未
 
 ## G03-K02 R5有限修正
 独立审核[R4 FAIL](https://github.com/kaicreator-mm/audio-kg/issues/27#issuecomment-7187211961)，七分支SUFFICIENT_SCOPED，K02.06一个P1及两个P2。已完成[具体普通话/粤语创作补证](product/calibration/composition-r5-tone-language-remediation.md)、[修正记录](product/calibration/composition-r5-remediation-record.md)、[S328–331及定向重读](research/source-qualification-composition-r5.md)、[28实际有限检查](product/calibration/composition-r5-validation.md)。保留64主案例与48历史槽；旧FAIL不改写，有限独立复审待完成。不启动K03。
+
+
+## G03-K02 收尾 / G03-K03 R1
+K02完整模块R6独立PASS [#27](https://github.com/kaicreator-mm/audio-kg/issues/27#issuecomment-7187551776) / [PR29](https://github.com/kaicreator-mm/audio-kg/pull/29#issuecomment-7187552934)，受审HEAD 2bbcc9fd8b13642af2c18984f5bf16d197366e8a；已合并 f649d5734751967e10f6f027e7c76dce7df78ab6（文件差异0），#27关闭。保留历史R4 FAIL、真实听评/宿主等限制和K01 #28待办。
+K03 [#30](https://github.com/kaicreator-mm/audio-kg/issues/30)：
+- [乐器约束与分谱R1](product/calibration/arrangement-r1-knowledge-cases.md)：9个限定D4候选和四视角。
+- [来源资格](research/source-qualification-arrangement-r1.md)：S332–335同谱系正文定位及旧来源重读。
+- [有限见证](product/calibration/arrangement-r1-validation.md)：18项实际JS断言，非运行时/专业PASS。
+仅内部checkpoint；K03仍OPEN，未完成48旧槽收敛、全部八分支、56能力格及CQ；不得提前派审或合并。
