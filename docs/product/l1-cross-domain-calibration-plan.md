@@ -75,3 +75,6 @@ G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修
 
 ## G03-K02 R2深化检查点
 [29新知识与案例](calibration/composition-r2-knowledge-cases.md)覆盖原13 OPEN，累计53候选主案例；[旧48槽](calibration/composition-r2-legacy-routing.md)逐行关联并保留历史语义；[S307–319及S144](../research/source-qualification-composition-r2.md)实际正文定位；[56能力格](calibration/composition-r2-capability-calibration.md)、[全26 CQ及8局部发现题](calibration/composition-r2-discovery-cq.md)、[31有限断言及CO48定向补验](calibration/composition-r2-validation.md)。下一批按八分支逐专业深度及具体案例源资格、重叠谓词/旧槽剩余、CQ D/S/能力的实质关联收敛；当前不视为完整模块验收，K02 OPEN，K03未启动。D26不派小复审。
+
+## G03-K02 R3收敛检查点
+本轮[11个专业补证](calibration/composition-r3-knowledge-cases.md)，原53逐项与新增11一并形成[64谓词来源/条件审查](calibration/composition-r3-predicate-audit.md)（35P专业限定候选/16L组合或缺口/13C项目合同，不是通过数）。[48旧槽语义收敛](calibration/composition-r3-legacy-convergence.md)41路由/7残余，原ID不删。[现行64索引及26CQ](calibration/composition-r3-discovery-cq.md)和[56能力格](calibration/composition-r3-capability-calibration.md)修正直接与支持关系；[17实际有限验证](calibration/composition-r3-validation.md)含全16种seed的4类碰撞。S320–322实际正文，S144/S307–309及S067/S070/S302–305定向重读，不冒称历史全文齐备。下一批集中7残余：风格具体条件、非英语韵律及重音、不同终止策略、完整歌曲大型结构、声调语言取舍与母语证据边界；核16L实际补证，整模块达标才派一次required累计审核。无L1冻结、accepted claim、真实音频/工具/LLM或K03启动。
