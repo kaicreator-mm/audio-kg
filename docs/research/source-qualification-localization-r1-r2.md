@@ -1,0 +1,12 @@
+# K13 R1–R2 来源资格
+DRAFT #58；新登记S553–556，既有S137–144/S550–551边界保留。原始语料、谱例、声音、个人资料不导入。
+| ID | 原文及定位 | 资格 |
+|---|---|---|
+| S553 | Unicode 17.0.0 [Core Specification Chapter 16 §16.3.1](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-16/) Ordering of Syllable Components, Table16-4, Spacing；实际HTML L303–327及导言 | READ_LOCATOR；编码/显示顺序、规范化、书写体系与现代缅语范围；不证明音系、分词或歌唱读音。 |
+| S554 | James Gruber [Perceptual Cues to Lexical Tone in Burmese](https://journals.linguisticsociety.org/proceedings/index.php/ExtendedAbs/article/download/557/468/618) §1–3，实际PDF零基0/1截图、文本L4–37 | READ_LOCATOR；孤立音节感知实验、单说话人刺激/10听者、不同F0/时长/发声类型条件；160/180为未改变录音辨识作者报告，非全部刺激或歌唱、人群泛化。 |
+| S555 | Štěpánková & Rosa 2025 [Song Lyrics Adaptations](https://aclanthology.org/2025.nlp4dh-1.11.pdf) DOI10.18653/v1/2025.nlp4dh-1.11，实际PDF零基0/2/8（印117/119/125），§1,2.2–2.5 Eq2–5,§6/Limitations | READ_LOCATOR；英捷文本到文本，无旋律输入，五维操作化与韵脚Jaccard/音节距离、偏好差异，研究数据许可限制；不证明实唱、缅语或权利。补S143摘要；不下载数据。 |
+| S556 | Guo et al. 2022 [Automatic Song Translation for Tonal Languages](https://aclanthology.org/2022.findings-acl.60/) Abstract, DOI10.18653/v1/2022.findings-acl.60 | ABSTRACT_READ；英汉基准、语义/可唱性/可懂性及音调与旋律关联，作者报告，非全文或缅语实测；具体方法及评价待R3核验。 |
+既有S144当前READ_LOCATOR（原S144历史SEARCH_ONLY在composition-r2已纠正）：本轮重读 [Garfias 1981](https://symposium.music.org/21/articles/speech-and-melodic-contour-interdependence-in-burmese-music) L24–29及L104–116，词曲制约、传统基本形式、历史tone two/dyan与作者可懂性解释。未读谱例图、原录音，不强行等价现代声调，不外推全部缅甸音乐。S137 Watkins2001 p293历史正文截图证据继承；S139仅摘要不同分析；S138本轮直接打开验证壳，未升级；S142本轮403，五维用S555操作化补证，保留历史失败；S550/S551仅K12文档能力卡，不提升缅语能力。S141仍历史检索线索，不据此证明社群授权。实际语言、音频、母语判断、文化/权利、模型及工具均未验证。
+
+## R4 既有来源的定向补证（不新增ID）
+S137 Watkins 2001 本轮实际重新读取原PDF零基1/2（印292/293）截图：辅音清浊/送气区分、复合词接合引发部分浊化或首音节弱化，非弱化音节四调；p293短/长、发声类型、音高线索与连读条件。个案口语描述，不强制唱法。S556从R1摘要扩展：本轮实际[原PDF](https://aclanthology.org/2022.findings-acl.60.pdf)零基2（印731）截图，正文§2.2/3.1/3.3.2–3.3.3/4.3/5.4.2文本；作者分别处理音节内轮廓、音节间方向、词界休止，以及按音符或既有音符组分配音节；§5.4.2五首样本、五名音乐学校学生评价并演唱，作者评估非本项目实测，英汉模型/标注及候选度量不适用缅语未经证实。保留R1历史ABSTRACT_READ；当前限定READ_LOCATOR（截图仅印731，其余正文文本），不复制歌曲、图例或歌词。
