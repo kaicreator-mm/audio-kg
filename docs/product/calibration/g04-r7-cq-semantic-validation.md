@@ -9,13 +9,15 @@ function runCQ(xc){
  const out=[];const eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);const ok=(q,n,a,b)=>{if(!eq(a,b))throw Error(q+" "+n+" "+JSON.stringify(a)+" != "+JSON.stringify(b));out.push([q,n,JSON.stringify(a)])};
  const r6=x=>Math.round(x*1e6)/1e6,valid=x=>typeof x==="number"&&Number.isFinite(x)&&x>0;
  const cents=(a,b)=>valid(a)&&valid(b)?r6(1200*Math.log2(a/b)):null;
- const q1=(a,b,context,rawName)=>({cents:cents(a,b),absolute:valid(b)?a:null,culturalName:context==="documented-exact"&&rawName?rawName:"UNKNOWN"});
+ const q1=(a,b,context,rawName)=>({cents:cents(a,b),absolute:valid(a)&&valid(b)?a:null,culturalName:context==="documented-exact"&&rawName?rawName:"UNKNOWN"});
  ok("CQ01","non-12TET ratio",q1(330,220,"unknown",null),{cents:701.955001,absolute:330,culturalName:"UNKNOWN"});
  ok("CQ01","invalid ratio",cents(0,220),null);
  ok("CQ01","19EDO approximate mapping collision",[1,2,3].map(n=>Math.round(12*n/19)),[1,1,2]);
  const q2=(chord,key,context)=>chord!=="D7"?"OUT_OF_SCOPE":key==="G"&&context==="tonic-confirmed"?"V7":key==="C"&&context==="tonicize-G-return-C"?"V7/V_CANDIDATE":"UNKNOWN";
  ok("CQ02","C vs G context",[q2("D7","C","tonicize-G-return-C"),q2("D7","G","tonic-confirmed")],["V7/V_CANDIDATE","V7"]);
  ok("CQ02","isolated chord",q2("D7",null,null),"UNKNOWN");
+ const form=x=>x.state==="RESIDUAL_OPEN"||!x.evidence?"UNKNOWN":x.scope==="limited"?"SCOPED_FORM_CANDIDATE":"UNKNOWN";
+ ok("CQ02","residual form cannot become full answer",[form({state:"RESIDUAL_OPEN",evidence:true}),form({scope:"limited",evidence:true})],["UNKNOWN","SCOPED_FORM_CANDIDATE"]);
  const q3=(type,w)=>type==="Bb"?w.map(n=>n-2):type==="A"?w.map(n=>n-3):null;
  ok("CQ03","ordinary Bb sounding unison",q3("Bb",[74,76,78,81]),[72,74,76,79]);
  ok("CQ03","written same fails",eq(q3("Bb",[72,74,76,79]),[72,74,76,79]),false);
@@ -49,18 +51,18 @@ function runCQ(xc){
  ok("CQ11","same squared distance distinct distributions",[fad(1,1),fad(0,4)],[1,1]);
  const comparable=(a,b)=>a.ref&&a.embedding&&a.protocol&&b.ref===a.ref&&b.embedding===a.embedding&&b.protocol===a.protocol;
  ok("CQ11","missing/mismatched protocols",[!!comparable({ref:"R",embedding:"E",protocol:"P"},{ref:"R",embedding:"E",protocol:"Q"}),!!comparable({ref:"R"},{ref:"R"})],[false,false]);
- const q12=x=>x.permission==="revoked"?"STOP":x.permission!=="confirmed"?"UNKNOWN":!x.meaning||!x.melody?"REJECT":!x.languageEvidence?"OFFLINE_DRAFT_ONLY":"SCOPED_ADAPTATION_CANDIDATE";
+ const q12=x=>x.permission==="revoked"?"STOP":x.permission!=="confirmed"?"UNKNOWN":x.meaning==null||x.melody==null?"UNKNOWN":!x.meaning||!x.melody?"REJECT":!x.languageEvidence?"OFFLINE_DRAFT_ONLY":"SCOPED_ADAPTATION_CANDIDATE";
  ok("CQ12","adaptation constraints and authorization",[q12({permission:"confirmed",meaning:true,melody:true,languageEvidence:true}),q12({permission:"confirmed",meaning:false,melody:true,languageEvidence:true}),q12({permission:"confirmed",meaning:true,melody:true}),q12({permission:"unknown"})],["SCOPED_ADAPTATION_CANDIDATE","REJECT","OFFLINE_DRAFT_ONLY","UNKNOWN"]);
  const q13=x=>!x.locator||!x.version?"UNKNOWN":x.kind==="programme"?"PLAN_ONLY":x.kind==="recollection"?"RECOLLECTION_ONLY":x.kind==="research"?"INTERPRETATION_ONLY":"UNKNOWN";
  ok("CQ13","source kinds",["programme","recollection","research"].map(kind=>q13({kind,locator:"p1",version:"v1"})),["PLAN_ONLY","RECOLLECTION_ONLY","INTERPRETATION_ONLY"]);
  ok("CQ13","missing original locator",q13({kind:"programme",version:"v1"}),"UNKNOWN");
- const q14=x=>!x.version||!x.receiptVersion||!x.hard?"UNKNOWN":x.version!==x.receiptVersion?"PENDING_REVALIDATION":x.hard==="verified"?"SCOPED_CANDIDATE":"REJECT";
+ const q14=x=>!x.version||!x.receiptVersion||!x.hard||x.hard==="unknown"?"UNKNOWN":x.version!==x.receiptVersion?"PENDING_REVALIDATION":x.hard==="verified"?"SCOPED_CANDIDATE":"REJECT";
  ok("CQ14","H1 vs H2 and unknown capability",[q14({version:"H1",receiptVersion:"H1",hard:"verified"}),q14({version:"H2",receiptVersion:"H1",hard:"verified"}),q14({version:"H2",receiptVersion:"H2"})],["SCOPED_CANDIDATE","PENDING_REVALIDATION","UNKNOWN"]);
  const q15=x=>!x.lineage||x.exposed==null||x.equalContent==null?"UNKNOWN":x.exposed||x.equalContent?"EXPOSED":"LIMITED_UNSEEN_CANDIDATE";
  ok("CQ15","new item versus preview and alias",[q15({lineage:"L1",exposed:false,equalContent:false}),q15({lineage:"L1",exposed:true,equalContent:false}),q15({lineage:"L1",exposed:false,equalContent:true}),q15({lineage:"L1",equalContent:false})],["LIMITED_UNSEEN_CANDIDATE","EXPOSED","EXPOSED","UNKNOWN"]);
  const lookup=n=>xc.fixtures.find(x=>x[0]===n)?.[1];
  ok("CQ16","actual XC01-R2 protection regression",[lookup("stipulated baseline"),lookup("same note ID different pitch"),lookup("duration 3000 and fresh report"),lookup("cue independence unknown"),lookup("outside curve changed")],["STATIC_CANDIDATE_ONLY","REJECT_PROTECTION","REJECT_PROTECTION","UNKNOWN","REJECT_PROTECTION"]);
- const q17=x=>x.state==="EVIDENCE_OPEN"?"UNKNOWN":x.kind==="definition"&&x.conditions===true?"SCOPED_CALCULATION":x.kind==="conditional"&&x.conditions===true?"SCOPED_CANDIDATE":"NOT_UNCONDITIONAL_RULE";
+ const q17=x=>["EVIDENCE_OPEN","RESIDUAL_OPEN"].includes(x.state)?"UNKNOWN":x.kind==="definition"&&x.conditions===true?"SCOPED_CALCULATION":x.kind==="conditional"&&x.conditions===true?"SCOPED_CANDIDATE":"NOT_UNCONDITIONAL_RULE";
  ok("CQ17","relationship typing",[{kind:"definition",conditions:true},{kind:"conditional",conditions:true},{kind:"empirical",conditions:true},{kind:"cultural",state:"EVIDENCE_OPEN"}].map(q17),["SCOPED_CALCULATION","SCOPED_CANDIDATE","NOT_UNCONDITIONAL_RULE","UNKNOWN"]);
  const q18=x=>!x.source||!x.performer||!x.context?"UNKNOWN":x.scope==="instance"?"SCOPED_INSTANCE":"REJECT_GENERALIZATION";
  ok("CQ18","source-specific tradition",[q18({source:"S577",performer:"example",context:"harp",scope:"instance"}),q18({source:"S577",performer:"example",context:"harp",scope:"all-Myanmar"}),q18({source:"S585"})],["SCOPED_INSTANCE","REJECT_GENERALIZATION","UNKNOWN"]);
@@ -76,8 +78,10 @@ function runCQ(xc){
  ok("CQ23","explicit identity loss despite same text/pitch",[q23(original,{...original},true),q23(original,{note:"N",word:"W"},true),q23(original,null,false)],["SCOPED_PRESERVED","LOSS","UNKNOWN"]);
  const q24=(flags,version,siteSafety)=>siteSafety!==true?"STOP":version!=="v19"||!Number.isInteger(flags)?"UNKNOWN":[["inputUnderflow",1],["inputOverflow",2],["outputUnderflow",4],["outputOverflow",8],["primingOutput",16]].filter(([_,v])=>(flags&v)!==0).map(x=>x[0]);
  ok("CQ24","multibit flags not root cause",[q24(6,"v19",true),q24(16,"v19",true),q24(6,null,true),q24(6,"v19",null)],[["inputOverflow","outputUnderflow"],["primingOutput"],"UNKNOWN","STOP"]);
- const q25=x=>!x.caseId||!x.sourceId||!x.inputId||!x.role||!x.reportBinding?"UNKNOWN":x.reportBinding!==x.inputId?"PENDING_REVALIDATION":"SCOPED_TRACE";
- ok("CQ25","traceable chain",[q25({caseId:"X",sourceId:"S",inputId:"c2",role:"K09",reportBinding:"c2"}),q25({caseId:"X",sourceId:"S",inputId:"c2",role:"K09",reportBinding:"c1"}),q25({caseId:"X",inputId:"c2",role:"K09",reportBinding:"c2"})],["SCOPED_TRACE","PENDING_REVALIDATION","UNKNOWN"]);
+ const q25=x=>!x.caseId||!x.sourceId||!x.sourceVersion||!x.locator||!x.role||!x.inputs||!x.reportBinding?"UNKNOWN":!eq(x.reportBinding,x.inputs)?"PENDING_REVALIDATION":"SCOPED_TRACE";
+ const trace={caseId:"X",sourceId:"S",sourceVersion:"v1",locator:"L5",role:"K09",inputs:{candidate:"c2",notePitch:60,clock:"t1"},reportBinding:{candidate:"c2",notePitch:60,clock:"t1"}};
+ ok("CQ25","traceable chain and changed content",[q25(trace),q25({...trace,inputs:{...trace.inputs,notePitch:62}}),q25({...trace,locator:null})],["SCOPED_TRACE","PENDING_REVALIDATION","UNKNOWN"]);
+ ok("CQ25","actual XC01-R2 binding and identity",[lookup("report different content"),lookup("old scope binding"),lookup("missing report ID")],["PENDING_REVALIDATION","PENDING_REVALIDATION","PENDING_REVALIDATION"]);
  const q26=(a,b)=>a&&b&&a.n>0&&b.n>0?{overall:r6((a.k+b.k)/(a.n+b.n)),b:r6(b.k/b.n),unseen:"UNKNOWN"}:null;
  ok("CQ26","stratified outcome",q26({n:90,k:81},{n:10,k:3}),{overall:.84,b:.3,unseen:"UNKNOWN"});
  ok("CQ26","zero group denominator",q26({n:90,k:81},{n:0,k:0}),null);
@@ -93,6 +97,7 @@ console.log(runCQ(runXC02()));
 | CQ01 | 19EDO approximate mapping collision | [1,1,2] |
 | CQ02 | C vs G context | ["V7/V_CANDIDATE","V7"] |
 | CQ02 | isolated chord | "UNKNOWN" |
+| CQ02 | residual form cannot become full answer | ["UNKNOWN","SCOPED_FORM_CANDIDATE"] |
 | CQ03 | ordinary Bb sounding unison | [72,74,76,79] |
 | CQ03 | written same fails | false |
 | CQ03 | unknown instrument | null |
@@ -131,8 +136,9 @@ console.log(runCQ(runXC02()));
 | CQ22 | missing reference | null |
 | CQ23 | explicit identity loss despite same text/pitch | ["SCOPED_PRESERVED","LOSS","UNKNOWN"] |
 | CQ24 | multibit flags not root cause | [["inputOverflow","outputUnderflow"],["primingOutput"],"UNKNOWN","STOP"] |
-| CQ25 | traceable chain | ["SCOPED_TRACE","PENDING_REVALIDATION","UNKNOWN"] |
+| CQ25 | traceable chain and changed content | ["SCOPED_TRACE","PENDING_REVALIDATION","UNKNOWN"] |
+| CQ25 | actual XC01-R2 binding and identity | ["PENDING_REVALIDATION","PENDING_REVALIDATION","PENDING_REVALIDATION"] |
 | CQ26 | stratified outcome | {"overall":0.84,"b":0.3,"unseen":"UNKNOWN"} |
 | CQ26 | zero group denominator | null |
 
-实际 46/46，覆盖26个CQ的至少一个可计算或可判别分支；原60项复用不累加为独立覆盖。本轮不是独立PASS。
+实际 48/48，覆盖26个CQ的至少一个可计算或可判别分支；原60项复用不累加为独立覆盖。本轮不是独立PASS。
