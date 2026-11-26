@@ -86,3 +86,5 @@ Task #39；原[第二波库存](../vocal-digital/fine-grained-vocal-digital.md)2
 - K06.09.02.02：SUFFICIENT_SCOPED_CANDIDATE；记录报告事实、任务中断及授权，不猜测病名。 限定于[VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)、[VT56/K06.09.02.04](vocal-training-r2-knowledge-cases.md#L30)，不推实际效果、健康或普遍规则。
 - K06.09.03.02：SUFFICIENT_SCOPED_CANDIDATE；恢复前置、教学条件及风险优先；无自动医疗放行。 限定于[VT28/K06.09.01.03](vocal-training-r1-knowledge-cases.md#L32)、[VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)、[VT55/K06.09.01.04](vocal-training-r2-knowledge-cases.md#L29)、[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31)，不推实际效果、健康或普遍规则。
 K05科学机制与临床证据、K06教学流程、K08采集/处理、K10评价、K12工具、K13特定语言、K14长期学习、K15权利、K16文化、K17认知主责保持；真实当地声乐、经验/流派完整性未知。
+
+联合证据：.01.02.02/.03.01.02/.03.02.02/.03.03.02/.08.02.02→[VX06-1](vocal-training-r4-integrated-closure.md#L5)；.04.01.02/.04.02.02/.04.03.02/.06.01.02/.06.02.02/.06.03.02/.07.01.02/.07.02.02/.07.03.02→[VX06-2](vocal-training-r4-integrated-closure.md#L6)；.01.01.02/.08.01.02/.08.03.02/.09.01.02/.09.02.02/.09.03.02→[KC-V06](vocal-training-r4-integrated-closure.md#L7)（所有简写前缀K06）。限定组合，不新增历史槽或接受主张。
