@@ -82,3 +82,5 @@
 - K09.09.01.02：SUFFICIENT_SCOPED_CANDIDATE；共享源保护、依赖与授权版本、备份。[MP22/K09.09.01.03](production-r1-knowledge-cases.md#L26)；[MP46/K09.09.01.04](production-r2-knowledge-cases.md#L26)。仅题设与来源限定，不是实际工程、工具、听评或权限验证。
 - K09.09.02.02：SUFFICIENT_SCOPED_CANDIDATE；客观与主观报告独立，增益数学非实际等响。[MP23/K09.09.02.03](production-r1-knowledge-cases.md#L27)；[MP47/K09.09.02.04](production-r2-knowledge-cases.md#L27)。仅题设与来源限定，不是实际工程、工具、听评或权限验证。
 - K09.09.03.02：SUFFICIENT_SCOPED_CANDIDATE；依赖失效、失败证据、人工确认和撤回停止。[MP24/K09.09.03.03](production-r1-knowledge-cases.md#L28)；[MP48/K09.09.03.04](production-r2-knowledge-cases.md#L28)。仅题设与来源限定，不是实际工程、工具、听评或权限验证。
+
+组合补证：[PX01](production-r4-integrated-closure.md#L5) K09.01–03；[PX02](production-r4-integrated-closure.md#L6) K09.03–06；[KC-P09](production-r4-integrated-closure.md#L7) K09.01–06/.08–09；不新增主D4、旧槽或关闭迁移。
