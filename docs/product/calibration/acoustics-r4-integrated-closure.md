@@ -40,4 +40,4 @@ A01物理模型、谱与听觉边界；A02确认场型/来源/条件→离线分
 11. unknown exposure no playback — true
 12. offline-only no new listening authorization — true
 仅对数学、条件和对象测试；未运行真实软件或图谱/LLM、设备、音频、听音或医疗。
-12. H1/H2 complete argmax sets [600] / [200,400] (not only first max) — true
+13. H1/H2 complete argmax sets [600] / [200,400] (not only first max) — true
