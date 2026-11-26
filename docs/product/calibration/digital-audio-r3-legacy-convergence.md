@@ -85,3 +85,5 @@
 - K08.09.01.02：SUFFICIENT_SCOPED_CANDIDATE；可靠时间戳、队列及端到端延迟不唯一。[DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)。仅题设和来源条件，不是实际产品/工具/听评/许可验证。
 - K08.09.02.02：SUFFICIENT_SCOPED_CANDIDATE；有界非阻塞队列、满时策略/记录、离线任务。[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)。仅题设和来源条件，不是实际产品/工具/听评/许可验证。
 - K08.09.03.02：SUFFICIENT_SCOPED_CANDIDATE；保留日志、配置单变量及复测，补值非真值。[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31)。仅题设和来源条件，不是实际产品/工具/听评/许可验证。
+
+组合补证：[DX01](digital-audio-r4-integrated-closure.md#L5)覆盖K08.01–03；[DX02](digital-audio-r4-integrated-closure.md#L6)覆盖K08.04–06/.09；[KC-D08](digital-audio-r4-integrated-closure.md#L7)覆盖K08.02/.03/.06–08；不新增旧槽或接受主张。
