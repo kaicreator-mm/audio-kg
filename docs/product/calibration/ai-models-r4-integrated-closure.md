@@ -50,3 +50,8 @@ R1历史14、R2本轮20、R3本轮10、R4本轮14，累计58有限检查，本�
 
 ## 累计引用检查
 首次预检正则错误地跨行捕获4处含方括号的普通文本；改用不跨行、不嵌套方括号的链接模式后，实际核对R3/R4 1150个精确逐行链接目标ID，0错配。最终提交后再回读。不是专业语义审核。
+
+
+## G04 R2b 累计校准补充
+KC-A11 R2b 当前报告必须绑定 source S1、condition P1、model W1、target T1、permissionEpoch E1、mask [1,3)、clock 120BPM/tm1、duration 2s、output Y1、protocol Q1。C1相同受保护字段与合成候选许可仅作有限资格；单独改变duration、clock、target均REJECT_PROTECTION，不能由新报告绕过；报告任一绑定不一致PENDING_REVALIDATION。当前授权撤回STOP，实际播放安全未知不得试听；模型/资源/版本/真实质量待证为PENDING而非保护失败。参考[AM05](ai-models-r1-knowledge-cases.md#L9)/[AM35](ai-models-r2-knowledge-cases.md#L23)解码重建、[AM58](ai-models-r2-knowledge-cases.md#L46)固定S537版本。
+原R4有限检查为历史记录，不能替代新条件的独立核验。
