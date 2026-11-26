@@ -1,0 +1,17 @@
+# K05 R2 专业来源资格
+2026-11-26；实际网页正文、摘要和检索失败分开。仅原创概括，不复制论文/音频/影像；许可未核定。
+| ID | 定位 | 证据限制 |
+|---|---|---|
+| S045（重读） | Zhang 2016 [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC5412481/)，II vocal fold anatomy；III energy transfer/eigenmode synchronization | 实际HTML；body-cover二层分组与另有三层方案，垂直相位差及气流供能模型；不是组织诊断或固定肌肉-F0关系。 |
+| S413 | Patel et al. 2018 [Recommended Protocols for Instrumental Assessment of Voice](https://pubs.asha.org/doi/10.1044/2018_AJSLP-17-0009)，Acoustic Assessment / Aerodynamic Assessment / Discussion / endoscopic imaging | READ_LOCATOR；专业协议及专家共识，CPP与传统扰动指标适用条件、校准、间接声门下压/平均流量估计的有效前提；不复制操作流程或套用临床阈值到歌唱。 |
+| S414 | [Titze nonlinear source-filter coupling](https://pmc.ncbi.nlm.nih.gov/articles/PMC2811547/)；[Zhang 2023 computational model](https://pmc.ncbi.nlm.nih.gov/articles/PMC10589054/)；[resonance strategies](https://pubmed.ncbi.nlm.nih.gov/21361458/) | SEARCH_ONLY：PMC验证码、PubMed不可读；检索仅为后续阅读线索，不提升证据。VS41依S408正文和合成条件。 |
+| S415 | University of Kansas [Vowel Sounds](https://opentext.ku.edu/amenglishpronunciation/chapter/chapter-1/)，high-low/front-back/(un)rounded正文 | READ_LOCATOR；相对构音描述，英语教学语境，未看视频/图/听音频；不采用其简化紧张度或任何语言统一音值。 |
+| S416 | [Voice register in Mon: experiments in production and perception](https://pmc.ncbi.nlm.nih.gov/articles/PMC12140161/)，Abstract, Introduction, §2/§3概览与结论 | READ_LOCATOR；17名所研Burma Mon语音生产者，另有感知实验；F0与音质共同变化、个体差异，感知多依F0但歧义时其他线索有作用。非所有孟语/缅语及歌唱；不转录原始素材。 |
+| S417 | S048复用，合成区间交/并及不同观测标签记录 | 内部方法，非新独立来源；不将人群频率范围作为真实个体常数。 |
+| S418 | Watkins 1997 [Can phonation types be reliably measured from sound spectra? Some data from Wa and Burmese](https://soas-repository.worktribe.com/output/452268)，机构库摘要 | ABSTRACT_READ；作者报告谱指标在两种语言中的辨别局限，声道塑形混淆；原全文未读；非歌唱/所有方言结论。 |
+| S419 | Essentials of Linguistics 2e [4.3 Contrastive distribution and minimal pairs](https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/4-3-contrastive-distribution-and-minimal-pairs/)，Comparing distributions | READ_LOCATOR；最小对立及证据限制；同S404教材，实际页面标CC BY-NC-SA4.0，仅原创概括，不复制教材例。3.5页面仍403。 |
+| S420 | Praat [Voice 2. Jitter](https://praat.org/manual/Voice_2__Jitter.html) / [Voice 3. Shimmer](https://praat.org/manual/Voice_3__Shimmer.html)，local定义 | READ_LOCATOR；相邻有效周期/幅度平均绝对差归一化；工具页面数值阈值不采纳，实际版本、脉冲提取、过滤和运行未核。 |
+| S421 | Praat [PowerCepstrum: Get peak prominence](https://praat.org/manual/PowerCepstrum__Get_peak_prominence___.html)，definition | READ_LOCATOR；峰值与趋势线差，算法条件相关；不等HNR/声压或临床分级；同S409/S420工具谱系。 |
+| S422 | Nanjundeswaran et al. 2015 [Vocal Fatigue Index development and validation](https://pubmed.ncbi.nlm.nih.gov/25795356/)，Abstract | ABSTRACT_READ；自报量表开发，报告疲劳/不适/休息后变化等因素，不复制问卷、不给分数或阈值、非损伤诊断；Hunter consensus PMC7210446验证码不升级。 |
+| S423 | [Variability of Electroglottographic Glottal Closed Quotients](https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/647227)，EGG limitations / criterion level | READ_LOCATOR；接触相关阻抗不等绝对面积、不能精确确定开闭时刻，阈值差异影响商；不作人体正常范围或设备使用指导。 |
+S413支持VS35/50/52/57的协议条件。S414检索线索未用于肯定具体研究结果，S417内部复用，S418/S422摘要。缺失基频心理声学PMC2606789/PMC9868815验证码，R1 VS10的感知只作待专项证据的候选，数学已定义；后续补证。S045的气动与源滤波综述支撑VS42，S413仅观测区分。S411严重呼吸困难转当地紧急医疗；S046/050/412非医学处方。未执行临床或实际软件/音频，未获取真实语料。
