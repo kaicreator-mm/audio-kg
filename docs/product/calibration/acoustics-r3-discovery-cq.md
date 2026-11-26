@@ -97,3 +97,5 @@
 - CQ-K07-11 如何区分播放链、暴露用途、未知风险与授权？ [AC24](acoustics-r1-knowledge-cases.md#L28)、[AC25](acoustics-r1-knowledge-cases.md#L29)、[AC48](acoustics-r2-knowledge-cases.md#L26)、[AC49](acoustics-r2-knowledge-cases.md#L27)。
 - CQ-K07-12 何时失效、复测、停止或转介？ [AC17](acoustics-r1-knowledge-cases.md#L21)、[AC26](acoustics-r1-knowledge-cases.md#L30)、[AC41](acoustics-r2-knowledge-cases.md#L19)、[AC48](acoustics-r2-knowledge-cases.md#L26)、[AC49](acoustics-r2-knowledge-cases.md#L27)、[AC50](acoustics-r2-knowledge-cases.md#L28)。
 CQ18 D0/S0，未获取真实非西方/缅甸音乐实例，不强套物理模型作为文化证据。S465仅标准版本元数据；S466未绑定事实。未运行图谱/LLM、音频工具或听觉实验。
+
+组合发现：[AX01](acoustics-r4-integrated-closure.md#L5)（CQ01/05/07/17）；[AX02](acoustics-r4-integrated-closure.md#L6)（CQ08/11/22/24/26）；[KC-A07](acoustics-r4-integrated-closure.md#L7)（CQ07/08/19/21/22/24/25）。不计入50主谓词或实际运行证据。
