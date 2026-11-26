@@ -25,14 +25,14 @@ function runXC02(){
  const envValid=e=>e&&e.mode==="linear"&&e.unit==="dB"&&e.timeUnit==="ms"&&Array.isArray(e.points)&&e.points.length>=2&&e.points.every((p,i)=>Array.isArray(p)&&p.length===2&&p.every(finite)&&(i===0||p[0]>e.points[i-1][0]))&&e.points[0][0]===0&&e.points.at(-1)[0]===2000;
  const outsideEqual=(e,o)=>{let [a,b]=spec.authorizedSpan;let ts=[...new Set([...e.points,...o.points].map(p=>p[0]).concat([a,b]))].filter(t=>t<=a||t>=b);return ts.every(t=>Math.abs(interp(e.points,t)-interp(o.points,t))<1e-10)};
  const content=x=>({durationMs:x.durationMs,clock:x.clock,target:x.target,notes:x.actualNotes,lyrics:x.actualLyrics,protectedCue:x.protectedCue,editableCue:x.editableCue,envelope:x.envelope});
- const binding=x=>({candidateId:x.candidateId,candidateVersion:x.candidateVersion,source:x.source,condition:x.condition,host:x.host,model:x.model,protocol:x.protocol,permissionEpoch:x.permission?.epoch,plan:x.plan,planVersion:x.planVersion,events:x.events,content:content(x),measurement:x.measurement});
+ const binding=x=>({candidateId:x.candidateId,candidateVersion:x.candidateVersion,source:x.source,condition:x.condition,host:x.host,model:x.model,protocol:x.protocol,permissionEpoch:x.permission?.epoch,permissionScope:x.permission?.scope,safety:x.safety,cueIndependent:x.cueIndependent,plan:x.plan,planVersion:x.planVersion,events:x.events,content:content(x),measurement:x.measurement});
  const candidate={...spec,permission:copy(permission),safety:"confirmed",candidateId:"C",candidateVersion:"c2",durationMs:2000,clock:copy(original.clock),target:copy(original.target),actualNotes:copy(original.notes),actualLyrics:copy(original.lyrics),protectedCue:copy(original.protectedCue),editableCue:{...original.editableCue,payload:"revised-beat4"},cueIndependent:true,envelope:{...original.envelope,points:[[0,0],[400,4],[1000,0],[1100,2],[1200,0],[2000,0]]},events:[{id:"B",mode:"edit-offline",epoch:"E1",plan:"F1",version:"p1",timing:"before",enabled:true,capture:false,store:false,upload:false},{id:"P",mode:"live-listen",epoch:"E1",plan:"F1",version:"p1",timing:"during",enabled:true,capture:false,store:false,upload:false}],measurement:{voice:"A",clock:"t1",window:[0,500],referenceHz:220,estimatedHz:220,musicHz:200,valid:true}};
  const reportFor=x=>({id:"R2",version:"r2",binding:copy(binding(x)),result:"LIMITED_SYNTHETIC_MEASUREMENT"});
  candidate.report=reportFor(candidate);
  function assess(x){
-  if(x.emergency===true||x.symptom===true||x.permission?.status==="revoked"||x.events?.some(e=>e.revoked===true))return "STOP";
+  if(x.emergency===true||x.symptom===true||x.permission?.status==="revoked"||(Array.isArray(x.events)&&x.events.some(e=>e?.revoked===true)))return "STOP";
   if(x.permission?.status!=="confirmed"||x.safety!=="confirmed"||!token(x.permission.epoch)||!Array.isArray(x.permission.scope))return "UNKNOWN";
-  if(!Array.isArray(x.events)||x.events.length!==2||!equal(x.events.map(e=>e.id),["B","P"]))return "UNKNOWN";
+  if(!Array.isArray(x.events)||x.events.length!==2||!equal(x.events.map(e=>e?.id),["B","P"]))return "UNKNOWN";
   if(x.events.some((e,i)=>!token(e.epoch)||!token(e.plan)||!token(e.version)||!token(e.mode)||typeof e.enabled!=="boolean"||["capture","store","upload"].some(k=>typeof e[k]!=="boolean")))return "UNKNOWN";
   if(x.events.some((e,i)=>e.epoch!==x.permission.epoch||e.plan!==x.plan||e.version!==x.planVersion||!x.permission.scope.includes(e.mode)||e.mode!==["edit-offline","live-listen"][i]||e.timing!==["before","during"][i]||!e.enabled||e.capture||e.store||e.upload))return "STOP";
   if(!finite(x.durationMs)||!known(x.clock)||!known(x.target)||!Array.isArray(x.actualNotes)||!Array.isArray(x.actualLyrics)||!known(x.protectedCue)||!known(x.editableCue)||!known(x.envelope)||typeof x.cueIndependent!=="boolean")return "UNKNOWN";
@@ -98,6 +98,10 @@ function runXC02(){
  t("wrong estimate despite goal match",x=>x.measurement.estimatedHz=200,"REVIEW_MEASUREMENT",true);
  t("unknown permission",x=>x.permission.status="unknown","UNKNOWN");
  t("old report cannot authenticate changed measurement",x=>x.measurement.estimatedHz=200,"PENDING_REVALIDATION");
+ t("malformed events",x=>x.events="bad","UNKNOWN");
+ t("null event",x=>x.events[0]=null,"UNKNOWN");
+ t("old scope binding",x=>x.permission.scope.push("unused"),"PENDING_REVALIDATION");
+ t("wrong cue independence binding",x=>x.report.binding.cueIndependent=false,"PENDING_REVALIDATION");
  const cents=1200*Math.log2(220/200);
  if(Math.abs(cents-165.0042285)>1e-6)throw Error("music cents");
  return {fixtures,cents};
@@ -163,5 +167,9 @@ console.log(runXC02());
 | wrong estimate despite goal match | REVIEW_MEASUREMENT | REVIEW_MEASUREMENT |
 | unknown permission | UNKNOWN | UNKNOWN |
 | old report cannot authenticate changed measurement | PENDING_REVALIDATION | PENDING_REVALIDATION |
+| malformed events | UNKNOWN | UNKNOWN |
+| null event | UNKNOWN | UNKNOWN |
+| old scope binding | PENDING_REVALIDATION | PENDING_REVALIDATION |
+| wrong cue independence binding | PENDING_REVALIDATION | PENDING_REVALIDATION |
 
-实际 56/56；目标偏差 165.004228 cents。原始独立审核的3个空/缺身份反例及2个保护内容/时长覆盖反例均有对应回归。其余为扩展边界；不称独立PASS。
+实际 60/60；目标偏差 165.004228 cents。原始独立审核的3个空/缺身份反例及2个保护内容/时长覆盖反例均有对应回归。其余为扩展边界；不称独立PASS。
