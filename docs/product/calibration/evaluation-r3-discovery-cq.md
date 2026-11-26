@@ -101,3 +101,5 @@
 - CQ-K10-11 怎样设计评价协议与统计单位？ [EV25](evaluation-r1-knowledge-cases.md#L29)、[EV26](evaluation-r1-knowledge-cases.md#L30)、[EV52](evaluation-r2-knowledge-cases.md#L29)、[EV53](evaluation-r2-knowledge-cases.md#L30)。
 - CQ-K10-12 怎样绑定报告和防止数据泄漏？ [EV27](evaluation-r1-knowledge-cases.md#L31)、[EV54](evaluation-r2-knowledge-cases.md#L31)。
 CQ18 D0/S0没有真实曲目或缅甸证据；CQ13/25静态发现及评测报告语义，非实际检索；K16/K17文化机制、K13语言、K15权利、K12工具。
+
+组合发现：[EX01](evaluation-r4-integrated-closure.md#L5) CQ11/22/23；[EX02](evaluation-r4-integrated-closure.md#L6) CQ06/08/10/11/22/26；[KC-E10](evaluation-r4-integrated-closure.md#L7) CQ11/21/22/24/25；非新增主D4或实际检索。
