@@ -153,3 +153,6 @@ K02 OPEN，未达到完整模块审核条件；其余G03模块、G04/G05及L2未
 
 ## G03-K02 R3专业收敛
 [11定向补证](product/calibration/composition-r3-knowledge-cases.md)、[64谓词逐项审查](product/calibration/composition-r3-predicate-audit.md)、[48旧槽语义裁决](product/calibration/composition-r3-legacy-convergence.md)、[现行64主案例/CQ](product/calibration/composition-r3-discovery-cq.md)、[56能力格](product/calibration/composition-r3-capability-calibration.md)、[3新增来源及定向重读](research/source-qualification-composition-r3.md)、[实际17有限断言](product/calibration/composition-r3-validation.md)。64新候选+48旧需求槽，41旧路由/7残余。K02仍OPEN，不视为完整模块验收；不派小审核。
+
+## G03-K02 R4 完整候选
+[七残余与9组定向补证](product/calibration/composition-r4-scope-closure.md)、[16组合及7残余精确入口](product/calibration/composition-r4-closure-links.md)、[S323–327及来源限制](research/source-qualification-composition-r4.md)、[16实际有限核查](product/calibration/composition-r4-validation.md)。原64主案例、48旧需求、56能力、26CQ/14局部题保持；R3审查、现行发现与能力表并读R4补证。K02完整模块Builder候选，待required独立审核；未合并、未启动K03。
