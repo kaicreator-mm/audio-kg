@@ -81,3 +81,6 @@ G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修
 
 ## G03-K02 R4完整模块收口候选
 [七残余范围与9组补证](calibration/composition-r4-scope-closure.md)及[16 L/7残余精确组合](calibration/composition-r4-closure-links.md)在不新增主ID的条件下补足风格、完整短型形式、非英语音拍、声调、词曲适配及评价设计。[S323–327](../research/source-qualification-composition-r4.md)含专业教材及跨语言研究正文，S325截图访问拒绝但PDF文本可读；[16实际有限核查](calibration/composition-r4-validation.md)保留修正及边界。累计64深化候选/48历史需求/56七能力格/26全域CQ/14局部题。R3历史35P/16L/13C与41路由/7残余不改写成通过数；R4提供逐项范围裁决候选，由独立Reviewer决定完整专业充分性。现代缅语母语、真实演唱/音频/软件/LLM、资产许可未验证；K02自身创作构造、取舍、修改及停止条件不得移出。本轮完成完整候选的自检后按D26派一次required审核；K03仍未启动，无accepted claim或L1冻结。
+
+## G03-K02 R5审核修正候选
+R4完整模块独立审核FAIL（0P0/1P1/2P2），七分支限定充分、K02.06声调语言具体创作应用HOLD。按Reviewer范围修复RV01–03：[R5普通话/粤语实际词汇及声明表层规则、M↑/M↓、冻结/改词/授权/拒绝、多解](calibration/composition-r5-tone-language-remediation.md)，[精确修正记录](calibration/composition-r5-remediation-record.md)，[S328–331及原来源](../research/source-qualification-composition-r5.md)，[28有限检查](calibration/composition-r5-validation.md)。不重做已证无影响分支，64/48/56/26/14保持。R5为Builder修复候选，实际现代缅语、母语评价、音频、宿主和LLM未运行；不提前合并、关闭或启动K03。新Exact HEAD仅按RV01–03及受影响路径required复审。
