@@ -30,3 +30,6 @@ S347 §14.6/14.6.1正文定向重读，未读图谱，S364给文字位置。S358
 - S371 MusicXML4.0 [Percussion](https://www.w3.org/2021/06/musicxml40/tutorial/percussion/)，Unpitched Notes / Multiple Instruments Per Part；谱位、实际打击乐身份、MIDI控制值不等；图谱例未核。
 - S372 MusicXML4.0 [staff](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/staff/)，description；一part多staff，顶谱表编号1；规范未执行。
 - S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。
+
+- S374 ICOM MUSIC [Classification of Musical Instruments](https://icom-music.mini.icom.museum/resources/classification-of-musical-instruments/)；实际打开其2011修订[PDF](https://icom-music.mini.icom.museum/wp-content/uploads/sites/86/2025/10/H-S_20classification_20final_20version_20_282013_29_20without_20editorial_20markings-2_SW.pdf)，正文封面标2011-07-08，p3未改造的拾音声学乐器归1–4而非自动归5，p4 111.142碰击镲、111.13缅甸槽形碰击器；p3/p4实际截图核验。不是2025新版（URL日期为上传路径）；ICOM列2017/2021增补，本轮未读其正文，禁止声称最新完整分类或复制全部分类。保留原S336访问历史，具体分类依据升级限定为2011正文。
+- S375 Timbre and Orchestration Resource [Drums](https://timbreandorchestration.org/isfee/extreme-orchestration/percussion/drums)，Timpani & Roto-toms；多个鼓分配及改调留时，5秒为教材建议而非通用极限；具体鼓范围及速度题定，真实演奏待核。
