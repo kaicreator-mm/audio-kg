@@ -65,3 +65,5 @@
 | K06.09 | A05 | P | 不得以音准/模型分否决风险，非医疗评级 | [VT28/K06.09.01.03](vocal-training-r1-knowledge-cases.md#L32)；[VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)；[VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |
 | K06.09 | A06 | S | 支持必要授权的事实记录，不建立个人临床档案 | [VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)；[VT56/K06.09.02.04](vocal-training-r2-knowledge-cases.md#L30)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |
 | K06.09 | A07 | P | 暂停→专业决定及本人同意→重新核教学条件 | [VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)；[VT55/K06.09.01.04](vocal-training-r2-knowledge-cases.md#L29)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |
+
+[KC-V06](vocal-training-r4-integrated-closure.md#L7)覆盖七能力任务与保护状态；[VX06-1](vocal-training-r4-integrated-closure.md#L5)补A05/A07反馈与保持；[VX06-2](vocal-training-r4-integrated-closure.md#L6)补A01/A05/A06语言、风格及技法边界。48P/15S不变。
