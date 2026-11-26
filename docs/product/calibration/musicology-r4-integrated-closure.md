@@ -19,7 +19,7 @@ S577仅特定琴师的Hnyìnloùn报告E比西方记谱E低约56 cents、B比西
 题设第二条新资料记录同一器物同条件16弦：与S578 13弦记录构成待核冲突；不同器物/说明则非直接冲突。新来源改变具体解释时保留旧记录版本与竞争解释，重新评价影响范围；不删除原材料、不以新发表自动胜出。现有材料只能作为指定任务的描述性研究输入；无真实参与者自述、具体曲目底层音频、现时现场社群规则、真实许可证，输出相应UNKNOWN。K13负责词曲适配及母语核验，K15负责具体权利，K12执行权限，K10评价，K17机制，均不由K16推断通过。
  
 ## 实际有限可重放JS
-此函数是本轮实际执行的合成判别器。仅对上述固定证据类型、对象和条件进行显式检查，不作为通用历史推理/许可/生产系统。物件/资料/权限题设为独立输入，任何“候选”不等真实事实或许可；没有实际材料运行。
+此函数是本轮实际执行的合成判别器。仅对上述固定证据类型、对象、条件及已抄录的限定事实字段和值进行显式匹配（不是从原文自动抽取或证明真值），不作为通用历史推理/许可/生产系统。物件/资料/权限题设为独立输入，任何“候选”不等真实事实或许可；没有实际材料运行。
 ```javascript
 function runK16Finite(){
  const eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
@@ -32,12 +32,12 @@ function runK16Finite(){
  function ordered(a,b){if(!Number.isInteger(a)||!Number.isInteger(b))return "UNKNOWN";return a<b?"BEFORE":a===b?"SAME_DATE":"AFTER"}
  function influence(x){if(ordered(x.earlier,x.later)!=="BEFORE"||x.contact!==true||x.specificRelationEvidence!==true||x.independentAlternativeRuledOut!==true)return "UNKNOWN";return "SUPPORTED_CANDIDATE_ONLY"}
  function classifyEvidence(x){if(x.kind==="program"&&x.query==="planned_event")return "SUPPORTS_PLAN";if(x.kind==="program"&&x.query==="actual_event")return "UNKNOWN";if(x.kind==="retrospective_interview"&&x.query==="narrator_memory")return "SUPPORTS_MEMORY_RECORD";if(x.kind==="retrospective_interview"&&x.query==="actual_event")return "CORROBORATE";if(x.kind==="interpretation"&&x.query==="participant_quote")return "UNKNOWN";return "REVIEW_SCOPE"}
- function support(e,claim){return !!e&&!!claim&&e.id===claim.evidenceId&&e.subject===claim.subject&&e.condition===claim.condition&&Array.isArray(e.predicates)&&e.predicates.includes(claim.predicate)}
- const catalogEvidence={id:"S576",subject:"SFW40492",condition:"catalog_fields",predicates:["recorded","released","track_count","catalog_genre","listed_instrument","listed_language"]};
- const tuningEvidence={id:"S577",subject:"U-Myint-Maung-Hnyinloun-example",condition:"reported_harp_tuning_example",predicates:["reported_E_offset","reported_B_offset","reference_convention","reported_variation"]};
- const absEvidence={id:"S575",subject:"Ferguson-summary",condition:"historical_abstract",predicates:["reported_advocacy","reported_criticism"]};
- const statsEvidence={id:"S582",subject:"NHS-60-societies",condition:"ethnographic_sample",predicates:["song_reported_each"]};
- const claim=(e,p,over={})=>({evidenceId:e.id,subject:e.subject,condition:e.condition,predicate:p,...over});
+ function support(e,claim){return !!e&&!!claim&&e.id===claim.evidenceId&&e.subject===claim.subject&&e.condition===claim.condition&&!!e.facts&&Object.hasOwn(e.facts,claim.predicate)&&Object.hasOwn(claim,"value")&&claim.value!==undefined&&eq(e.facts[claim.predicate],claim.value)}
+ const catalogEvidence={id:"S576",subject:"SFW40492",condition:"catalog_fields",facts:{recorded:2000,released:2003,track_count:9,catalog_genre:"World",listed_instrument:["Arched harp","Bells","Clappers","Lead vocals"],listed_language:"Burmese (bama saka)"}};
+ const tuningEvidence={id:"S577",subject:"U-Myint-Maung-Hnyinloun-example",condition:"reported_harp_tuning_example",facts:{reported_E_offset:-56,reported_B_offset:-62,reference_convention:"notated-highest-G-not-fixed-Hz",reported_variation:true}};
+ const absEvidence={id:"S575",subject:"Ferguson-summary",condition:"historical_abstract",facts:{reported_advocacy:"learning-view-reported",reported_criticism:"derivative-view-reported"}};
+ const statsEvidence={id:"S582",subject:"NHS-60-societies",condition:"ethnographic_sample",facts:{song_reported_each:60}};
+ const claim=(e,p,over={})=>({evidenceId:e.id,subject:e.subject,condition:e.condition,predicate:p,value:e.facts[p],...over});
  const allows=(grant,request)=>!!grant&&!!request&&grant.verified===true&&typeof grant.subject==="string"&&grant.subject.length>0&&["subject","object","action","purpose","audience","epoch"].every(k=>typeof grant[k]==="string"&&grant[k].length>0&&grant[k]===request[k]);
  const rules={subject:"RESEARCHER-A",object:"INTERVIEW-1",action:"internal_read",purpose:"historical_research",audience:"internal",epoch:"R1",verified:true};
  const request={...rules};delete request.verified;
@@ -85,7 +85,11 @@ function runK16Finite(){
  ["unverified grant denied",researchGate({...rules,verified:false},request,true,true)==="STOP_OR_PENDING"],
  ["public metadata conditional only",metadataPolicy({publicCatalog:true,sensitive:false,fieldApproved:true})==="PUBLIC_METADATA_CANDIDATE_ONLY"],
  ["sensitive/unknown/not approved metadata withheld",[ {sensitive:true,fieldApproved:true},{sensitive:null,fieldApproved:true},{sensitive:false,fieldApproved:null}].every(x=>metadataPolicy({publicCatalog:true,...x})==="RESTRICT_OR_PENDING")],
- ["no identity inference predicate",!support(catalogEvidence,claim(catalogEvidence,"individual_ethnicity"))&&!support(tuningEvidence,claim(tuningEvidence,"individual_religion"))]
+ ["no identity inference predicate",!support(catalogEvidence,claim(catalogEvidence,"individual_ethnicity"))&&!support(tuningEvidence,claim(tuningEvidence,"individual_religion"))],
+ ["wrong reported value not supported",!support(catalogEvidence,claim(catalogEvidence,"recorded",{value:2003}))&&!support(tuningEvidence,claim(tuningEvidence,"reported_E_offset",{value:0}))&&!support(statsEvidence,claim(statsEvidence,"song_reported_each",{value:600}))],
+ ["missing/unknown value not supported",!support(catalogEvidence,claim(catalogEvidence,"recorded",{value:undefined}))&&!support(catalogEvidence,claim(catalogEvidence,"recorded",{value:null}))],
+ ["evidence ID mismatch denied",!support(catalogEvidence,claim(catalogEvidence,"recorded",{evidenceId:"S579"}))],
+ ["abstract interpretation value remains report",!support(absEvidence,claim(absEvidence,"reported_advocacy",{value:"all-listeners-agree"}))]
  ];
  return checks;
 }
@@ -128,4 +132,8 @@ console.log(runK16Finite());
 34. public metadata conditional only: true
 35. sensitive/unknown/not approved metadata withheld: true
 36. no identity inference predicate: true
-36/36 有限检查实际通过（含定向结构/谓词与合成算术；无真实田野、历史事实额外证明、真实许可证/音频/运行、CI或accepted claims）。源定位与专业结论仍由独立Reviewer复核。
+37. wrong reported value not supported: true
+38. missing/unknown value not supported: true
+39. evidence ID mismatch denied: true
+40. abstract interpretation value remains report: true
+40/40 有限检查实际通过（原36断言重跑与新增4项取值/来源身份检查；无重复累计）。包括合成判别和有限算术，未实际验证田野、历史事实额外证明、真实许可证/音频/运行、CI或accepted claims。源定位与专业结论仍由独立Reviewer复核。
