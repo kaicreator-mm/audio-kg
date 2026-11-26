@@ -8,7 +8,7 @@
 - CQ15：[ED01/02](music-education-r1-knowledge-cases.md#L5)、[ED13/14](music-education-r1-knowledge-cases.md#L17)、[VT01](vocal-training-r1-knowledge-cases.md#L5)目标决定观察及练习；节奏第3事件提前.5拍用对应细分反馈、复测局部再全句，连接问题包含跨小节边界；不同经验、风格、可达性、许可及安全再选择，不规定普适剂量。迁移另按ED47。
 - CQ19：O1/F0仅B，P未授权不执行；H1题设可核时允许符号草案，测量NOT_PERFORMED。E1/F1是不同题设排练分支，不能替代。未知宿主不执行；停、替代、证据缺口分开。
 - CQ21：[MP01](production-r1-knowledge-cases.md#L5)、[MP25](production-r2-knowledge-cases.md#L5)明确依赖图M1→R1/R2→B1/B2→Q1/Q2及Mix→MasterReport；只改R1失效B1/Q1/Mix/MasterReport，R2/B2/Q2保持；覆盖源M1影响两支而且违反保护；同内容移路径只在重新连接成功时保持身份，不能当文件可用证明。
-- CQ25：从A07结果沿前置回访A05/A06至A01，实际七角色矩阵、原案例和源记录见R8b；每阶段实际题设输入输出而不是假ID，缺少角色/来源/主责则UNKNOWN。路径结构通过不证明外部源事实或真实业务效果；其他失败/离线流程需各自证据，不能复制排练结果。
+- CQ25：从A07结果沿前置回访A05/A06至A01，实际七角色矩阵、原案例和源记录见R8b；每条边携带R8a c2/R2题设实际输入输出、保护字段与独立观测结果，缺少角色/来源/主责、边断裂或实际值变化则UNKNOWN；不同c3结果不能沿用c2历史。路径结构通过不证明外部源事实或真实业务效果；其他失败/离线流程需各自证据，不能复制排练结果。
 
 ```js
 function runR8CQ(xc,route){
@@ -43,25 +43,46 @@ function runR8CQ(xc,route){
  const state=x=>x.permission==="revoked"?"STOP":x.sharedKnown!==true?"UNKNOWN":x.replaceOriginal?"REJECT_PROTECTION":x.sameContent&&x.relinked===true?"PATH_RELINK_ONLY":x.editR1?"LOCAL_REVISION":"PENDING_REVALIDATION";
  ok("CQ21 preserve source and protected sibling",[{sharedKnown:true,replaceOriginal:true},{sharedKnown:true,sameContent:true,relinked:true},{sharedKnown:true,editR1:true},{sharedKnown:false},{permission:"revoked"}].map(state),["REJECT_PROTECTION","PATH_RELINK_ONLY","LOCAL_REVISION","UNKNOWN","STOP"]);
  ok("CQ21 revision/evidence cannot be self-renewed",[lookup("same c2 same R2 new content rewritten"),lookup("new arbitrary c7 and R7 strings"),lookup("new evidence qualified revision"),lookup("registered revision but old receipt")],["PENDING_REVALIDATION","PENDING_REVALIDATION","STATIC_CANDIDATE_ONLY","PENDING_REVALIDATION"]);
- // Reverse visit from result to each stage and its actual captured evidence, not only ID strings.
+ // Reverse visit from an actual qualified result, using the exact captured route and step data.
  const steps=[["A01",[]],["A02",["A01"]],["A03",["A02"]],["A04",["A01","A03"]],["A05",["A02","A04"]],["A06",["A01","A04"]],["A07",["A05","A06"]]];
- function trace(rows,verdict){
-  if(!verdict||verdict.state!=="STATIC_CANDIDATE_ONLY")return "PENDING_OR_NOT_APPLICABLE";
+ const inp=xc.traceInput;
+ const artifacts={
+ A01:{source:inp.source,clock:inp.clock,notes:inp.notes,lyrics:inp.lyrics},
+ A02:{permission:inp.permission,events:inp.events,plan:inp.plan,version:inp.planVersion},
+ A03:{host:inp.host,scope:inp.permission.scope,actualRun:false},
+ A04:{candidate:inp.revisionKey,envelope:inp.envelope,protectedCue:inp.protectedCue},
+ A05:{candidate:xc.baseline.candidate,report:xc.baseline.report,reference:xc.baseline.referenceId,estimate:xc.baseline.estimateId,actualGoalError:xc.baseline.actualGoalError,estimateError:xc.baseline.estimateError},
+ A06:{candidate:inp.revisionKey,notes:inp.notes,lyrics:inp.lyrics,envelope:inp.envelope},
+ A07:{candidate:inp.revisionKey,report:inp.reportKey,evidence:inp.evidence.evidenceId,result:xc.baseline.state,release:false}};
+ // Each edge carries the predecessor's actual finite artifact, not a free-form ID.
+ const history=steps.map(([id,deps])=>({id,output:artifacts[id],inputs:deps.map(d=>({id:d,artifact:artifacts[d]}))}));
+ function trace(rows,history,verdict){
+  if(!verdict||verdict.state!=="STATIC_CANDIDATE_ONLY"||verdict.candidate!==inp.revisionKey||verdict.report!==inp.reportKey||verdict.estimateId!==inp.evidence.evidenceId)return "PENDING_OR_NOT_APPLICABLE";
   let seen=new Set(),path=[];
-  function visit(id){if(seen.has(id))return true;const s=steps.find(x=>x[0]===id),r=rows.find(x=>x.ability===id);if(!s||!r||r.role!=="P"||!r.input||!r.output||!r.caseBlob||!r.matrixBlob||!r.discoveryBlob||!r.caseRecord?.includes(r.d4)||!r.caseRecord.includes(r.caseId)||!r.sourceRecords?.length||r.sourceRecords.length!==r.sources.length||r.sourceRecords.some((v,i)=>v.id!==r.sources[i].id||v.file!==r.sources[i].file||v.line!==r.sources[i].line||!v.blob||!v.record.includes(v.id)))return false;for(const dep of s[1])if(!visit(dep))return false;seen.add(id);path.push(id);return true}
+  function visit(id){
+   if(seen.has(id))return true;
+   const s=steps.find(x=>x[0]===id),r=rows.find(x=>x.ability===id),original=route.find(x=>x.ability===id),node=history.find(x=>x.id===id);
+   if(!s||!r||!original||!eq(r,original)||r.role!=="P"||!r.input||!r.output||!r.caseBlob||!r.matrixBlob||!r.discoveryBlob||!r.caseRecord?.includes(r.d4)||!r.caseRecord.includes(r.caseId)||!r.sourceRecords?.length||r.sourceRecords.length!==r.sources.length||r.sourceRecords.some((v,i)=>v.id!==r.sources[i].id||v.file!==r.sources[i].file||v.line!==r.sources[i].line||!v.blob||!v.record.includes(v.id)))return false;
+   if(!node||!eq(node.output,artifacts[id])||!eq(node.inputs.map(v=>v.id),s[1])||node.inputs.some(v=>!eq(v.artifact,history.find(n=>n.id===v.id)?.output)))return false;
+   for(const dep of s[1])if(!visit(dep))return false;
+   seen.add(id);path.push(id);return true
+  }
   return visit("A07")?path:"UNKNOWN";
  }
- ok("CQ25 actual seven-role reverse trace",trace(route,xc.baseline),["A01","A02","A03","A04","A05","A06","A07"]);
- ok("CQ25 missing role",trace(route.filter(x=>x.ability!=="A05"),xc.baseline),"UNKNOWN");
- ok("CQ25 missing source record",trace(route.map(x=>x.ability==="A03"?{...x,sourceRecords:[]}:x),xc.baseline),"UNKNOWN");
- ok("CQ25 support not primary",trace(route.map(x=>x.ability==="A01"?{...x,role:"S"}:x),xc.baseline),"UNKNOWN");
- ok("CQ25 wrong estimate or offline result is not rehearsal success",[trace(route,xc.wrong),trace(route,xc.offline)],["PENDING_OR_NOT_APPLICABLE","PENDING_OR_NOT_APPLICABLE"]);
+ ok("CQ25 actual seven-role reverse trace",trace(route,history,xc.baseline),["A01","A02","A03","A04","A05","A06","A07"]);
+ ok("CQ25 missing role",trace(route.filter(x=>x.ability!=="A05"),history,xc.baseline),"UNKNOWN");
+ ok("CQ25 missing source record",trace(route.map(x=>x.ability==="A03"?{...x,sourceRecords:[]}:x),history,xc.baseline),"UNKNOWN");
+ ok("CQ25 support not primary",trace(route.map(x=>x.ability==="A01"?{...x,role:"S"}:x),history,xc.baseline),"UNKNOWN");
+ ok("CQ25 changed actual upstream output",trace(route,history.map(x=>x.id==="A04"?{...x,output:{...x.output,candidate:"C/c3"}}:x),xc.baseline),"UNKNOWN");
+ ok("CQ25 missing actual predecessor edge",trace(route,history.map(x=>x.id==="A07"?{...x,inputs:x.inputs.slice(0,1)}:x),xc.baseline),"UNKNOWN");
+ ok("CQ25 changed reference value",trace(route,history.map(x=>x.id==="A05"?{...x,output:{...x.output,actualGoalError:0}}:x),xc.baseline),"UNKNOWN");
+ ok("CQ25 wrong estimate or offline or newer revision is not old rehearsal evidence",[trace(route,history,xc.wrong),trace(route,history,xc.offline),trace(route,history,xc.revised)],["PENDING_OR_NOT_APPLICABLE","PENDING_OR_NOT_APPLICABLE","PENDING_OR_NOT_APPLICABLE"]);
  return out;
 }
 console.log(runR8CQ(runXC03(), route));
 ```
 
-复现：先从R8a提取runXC03、从R8b-2 JSON读取route，执行本函数。实际 21/21 条：
+复现：先从R8a提取runXC03、从R8b-2 JSON读取route，执行本函数。实际 24/24 条：
 
 | 检查 | 实际输出 |
 |---|---|
@@ -85,4 +106,7 @@ console.log(runR8CQ(runXC03(), route));
 | CQ25 missing role | "UNKNOWN" |
 | CQ25 missing source record | "UNKNOWN" |
 | CQ25 support not primary | "UNKNOWN" |
-| CQ25 wrong estimate or offline result is not rehearsal success | ["PENDING_OR_NOT_APPLICABLE","PENDING_OR_NOT_APPLICABLE"] |
+| CQ25 changed actual upstream output | "UNKNOWN" |
+| CQ25 missing actual predecessor edge | "UNKNOWN" |
+| CQ25 changed reference value | "UNKNOWN" |
+| CQ25 wrong estimate or offline or newer revision is not old rehearsal evidence | ["PENDING_OR_NOT_APPLICABLE","PENDING_OR_NOT_APPLICABLE","PENDING_OR_NOT_APPLICABLE"] |
