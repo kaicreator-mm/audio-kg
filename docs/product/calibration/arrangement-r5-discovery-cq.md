@@ -106,3 +106,5 @@ D表示在题设下能回答该CQ的一个明确限定子问题；S是支持/条
 - CQ-K03-10 未知声库许可/版本能否直接调用：AR35/49/55，K12/K15前置未知则拒绝生产操作。
 
 上述十局部问及全域CQ均只静态索引，未运行图谱、检索模型或听评。
+
+补证：CQ-K03-11 未改造声学乐器加拾音器是否自动归5？[AX01](arrangement-r5-integrated-closure.md#L5)/S374 2011条件；CQ-K03-12 定音鼓在范围但改调时间不足？[AX02](arrangement-r5-integrated-closure.md#L6)/S375；CQ19/21/23/24/25组合见[KC-A03](arrangement-r5-integrated-closure.md#L7)。上述为组合，不增加60主索引或D/S统计。
