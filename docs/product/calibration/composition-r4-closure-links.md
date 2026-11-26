@@ -11,9 +11,9 @@
 | K02.06.01.03 | [CO-21](composition-r1-knowledge-cases.md) L25 | [CO-61](composition-r3-knowledge-cases.md) L12 | 实际text分片及elision字段与音节分组，原延展一对多仍单独核。 |
 | K02.06.02.03 | [CO-23](composition-r1-knowledge-cases.md) L27 | [CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8；[R4-X05](composition-r4-scope-closure.md) L20 | 词重音与音乐显著性、句界及切分分开；日语设置不能强制英语规则。 |
 | K02.01.03.04 | [CO-28](composition-r2-knowledge-cases.md) L8 | [CO-64](composition-r3-knowledge-cases.md) L15；[R4-X01](composition-r4-scope-closure.md) L6；[R4-X02](composition-r4-scope-closure.md) L7 | 和弦成员约束仅题设；经过音、属七性质及风格收束区别。 |
-| K02.06.03.03 | [CO-35](composition-r2-knowledge-cases.md) L15 | [R4-X06](composition-r4-scope-closure.md) L21；[R4-X07](composition-r4-scope-closure.md) L22 | 三类方向含双平/斜向，源分类模型依语言；实际文字读法缺失时UNKNOWN。 |
+| K02.06.03.03 | [CO-35](composition-r2-knowledge-cases.md) L15 | [R4-X06](composition-r4-scope-closure.md) L21；[R4-X07](composition-r4-scope-closure.md) L22 | 三类方向含双平/斜向，源分类模型依语言；原例匿名，R5-M/Y补具体语种文字、已声明读法、调尾与创作选择；实际读法不明仍UNKNOWN。 |
 | K02.06.03.04 | [CO-36](composition-r2-knowledge-cases.md) L16 | [CO-62](composition-r3-knowledge-cases.md) L13；[R4-X06](composition-r4-scope-closure.md) L21 | 原文特定传统dyan观察与跨语种比较分离；现代缅语未知，不转移核心创作取舍。 |
-| K02.06.03.05 | [CO-37](composition-r2-knowledge-cases.md) L17 | [R4-X07](composition-r4-scope-closure.md) L22；[R4-X08](composition-r4-scope-closure.md) L23 | 具体普通话改词三/五音节、语气取舍及实际变调未知；固定旋律条件明确。 |
+| K02.06.03.05 | [CO-37](composition-r2-knowledge-cases.md) L17 | [R4-X07](composition-r4-scope-closure.md) L22；[R4-X08](composition-r4-scope-closure.md) L23 | 原X07具体词数、语气取舍但变调未知；R5-M/Y/R补可判定语言规则、改词/改曲授权与保留未知。 |
 | K02.06.02.04 | [CO-38](composition-r2-knowledge-cases.md) L18 | [CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8；[R4-X07](composition-r4-scope-closure.md) L22；[R4-X08](composition-r4-scope-closure.md) L23 | 明确对齐、偏离和实际评价设计/停止；无母语实测不声称接受。 |
 | K02.07.03.04 | [CO-45](composition-r2-knowledge-cases.md) L25 | [CO-63](composition-r3-knowledge-cases.md) L14 | 确定性及seed碰撞，实际穷举；工具文档非运行，原断言限定具体seed。 |
 | K02.04.01.04 | [CO-59](composition-r3-knowledge-cases.md) L10 | [R4-X08](composition-r4-scope-closure.md) L23；[CO-40](composition-r2-knowledge-cases.md) L20 | 复现位置及研究条件、实际评价协议与未运行区分，不由次数预测记忆率。 |
@@ -29,3 +29,5 @@
 | K02.06.03.01 | [R4-X06](composition-r4-scope-closure.md) L21；[R4-X07](composition-r4-scope-closure.md) L22 | 多语种研究与固定旋律创作路径 |
 | K02.06.03.02 | [R4-X07](composition-r4-scope-closure.md) L22；[R4-X08](composition-r4-scope-closure.md) L23 | 实际评价设计、未验/不采用 |
 16 L均有具体联合证据；7残余均有明确本域限定范围与外部实证边界。R3其余35 P和13 C保持其原语义。待独立审核判断是否达到完整模块专业深度，不由此声称原条目已接受或跨域事实已证。
+
+R5补证位置及原独立裁决见[有限修正](composition-r5-remediation-record.md)。仅CO35/37及K02.06.03.01应用链为阻断范围，K02.06.03.02评价合同原充分但其上游应用链需复核。14 scoped不重做；两项HOLD待独立裁决。
