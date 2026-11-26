@@ -49,3 +49,5 @@
 
 ## 后续固化要求
 每轮讨论中出现的可复用结论（新来源、知识范围/粒度、例证、约束、决策、方法、风险/缺口），写入对应权威文档；必要时补索引。不得只保留在 chat，也不得把未经核验的讨论当成专业事实。记录 source/locator、D3/D4/CQ/案例 ID、证据状态、冲突与未解决事项。重大决定注明用户明确要求、推导建议或待审核提案，不能静默提升为冻结要求。研究 checkpoint 在 Issue/PR 写回 exact SHA、验证状态和限制。
+
+| D28 | 用户明确决定（阶段门禁文档D26） | 按完整D1模块连续建设、自检、一次独立专业审核、必要修订、合并，不在中间小增量派审；保留G02/G03/G04–07 required及exact-SHA。此处D28是决策登记编号，stage-review-gates中D26是局部门禁节奏编号，不覆盖本表既有D26语义。 | [完整模块节奏](calibration/stage-review-gates.md)、[校准计划](l1-cross-domain-calibration-plan.md) |
