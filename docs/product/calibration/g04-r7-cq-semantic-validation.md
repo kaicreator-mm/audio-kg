@@ -142,3 +142,7 @@ console.log(runCQ(runXC02()));
 | CQ26 | zero group denominator | null |
 
 实际 48/48，覆盖26个CQ的至少一个可计算或可判别分支；原60项复用不累加为独立覆盖。本轮不是独立PASS。
+
+
+## R8 现行证据
+原函数保留历史。CQ19原排练正例不满足仅离线条件，CQ06/21/25的参考及版本证据有残余。现行[XC01-R3](g04-r8-xc01-independent-evidence.md)、[R8c](g04-r8-cq-semantic-remediation.md)才用于本批复审，不以原48/48冒充新证据。
