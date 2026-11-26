@@ -84,7 +84,7 @@
 ## 12局部发现问题
 - CQ-K09-01 怎样区分工程对象、素材身份和独立备份？ [MP01](production-r1-knowledge-cases.md#L5)、[MP03](production-r1-knowledge-cases.md#L7)、[MP25](production-r2-knowledge-cases.md#L5)、[MP27](production-r2-knowledge-cases.md#L7)。
 - CQ-K09-02 怎样核主路径、发送点、侧链与依赖？ [MP02](production-r1-knowledge-cases.md#L6)、[MP12](production-r1-knowledge-cases.md#L16)、[MP26](production-r2-knowledge-cases.md#L6)、[MP36](production-r2-knowledge-cases.md#L16)。
-- CQ-K09-03 怎样保护局部剪辑、交叉淡化和自动化？ [MP04](production-r1-knowledge-cases.md#L8)、[MP06](production-r1-knowledge-cases.md#L10)、[MP28](production-r2-knowledge-cases.md#L8)、[MP30](production-r2-knowledge-cases.md#L10)。
+- CQ-K09-03 怎样保护局部剪辑、交叉淡化和自动化？ [MP04](production-r1-knowledge-cases.md#L8)、[MP06](production-r1-knowledge-cases.md#L10)、[MP28](production-r2-knowledge-cases.md#L8)、[MP30](production-r2-knowledge-cases.md#L10)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 比较实际区外曲线而非单看ID或刷新报告。
 - CQ-K09-04 怎样对齐拍、绝对时间、音频/MIDI与延迟？ [MP05](production-r1-knowledge-cases.md#L9)、[MP29](production-r2-knowledge-cases.md#L9)。
 - CQ-K09-05 怎样保留原take、合成段、时值、和声及颤音？ [MP07](production-r1-knowledge-cases.md#L11)、[MP08](production-r1-knowledge-cases.md#L12)、[MP31](production-r2-knowledge-cases.md#L11)、[MP32](production-r2-knowledge-cases.md#L12)。
 - CQ-K09-06 怎样选择齿音、EQ、动态及时间效果？ [MP09](production-r1-knowledge-cases.md#L13)、[MP10](production-r1-knowledge-cases.md#L14)、[MP11](production-r1-knowledge-cases.md#L15)、[MP33](production-r2-knowledge-cases.md#L13)、[MP34](production-r2-knowledge-cases.md#L14)、[MP35](production-r2-knowledge-cases.md#L15)。
@@ -93,7 +93,7 @@
 - CQ-K09-09 怎样选择交付层级、对齐和独立重现？ [MP19](production-r1-knowledge-cases.md#L23)、[MP20](production-r1-knowledge-cases.md#L24)、[MP21](production-r1-knowledge-cases.md#L25)、[MP43](production-r2-knowledge-cases.md#L23)、[MP44](production-r2-knowledge-cases.md#L24)、[MP45](production-r2-knowledge-cases.md#L25)。
 - CQ-K09-10 怎样实施保护原件的局部修订？ [MP22](production-r1-knowledge-cases.md#L26)、[MP46](production-r2-knowledge-cases.md#L26)。
 - CQ-K09-11 怎样做受控A/B与客观/人工评价？ [MP23](production-r1-knowledge-cases.md#L27)、[MP47](production-r2-knowledge-cases.md#L27)。
-- CQ-K09-12 怎样拒绝候选、回滚及停止？ [MP24](production-r1-knowledge-cases.md#L28)、[MP48](production-r2-knowledge-cases.md#L28)。
+- CQ-K09-12 怎样拒绝候选、回滚及停止？ [MP24](production-r1-knowledge-cases.md#L28)、[MP48](production-r2-knowledge-cases.md#L28)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 区分保护失败、缺证、回执失效、撤回。
 CQ18 D0/S0；CQ13/25仅静态追踪。K19现场任务不是本域评价或操作权威。
 
 组合发现：[PX01](production-r4-integrated-closure.md#L5) CQ16/19/21；[PX02](production-r4-integrated-closure.md#L6) CQ08/19/20/22；[KC-P09](production-r4-integrated-closure.md#L7) CQ16/21/23/24/25；非新增主D4或实际检索。
