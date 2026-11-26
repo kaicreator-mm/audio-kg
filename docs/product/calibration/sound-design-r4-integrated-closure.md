@@ -18,10 +18,10 @@ S611根音/键域/力度区间与循环分别保存，velocity0是note-off，重
 其他owner：K01/K13真实旋律和适配、K08数字实现、K09工程、K10真实评价、K12工具执行、K15真实权利/治理、K07/K19安全/现场，均未由本模块合成结果获得真实证据。重新合格需按变化重新建立场景而非放宽本验证。实际不执行音频、硬件、MIDI或宿主。
 
 ## 实际可重放有限JS见证
-以下函数是实际执行的同一函数；固定原创数值及题设标记。数学与条件检查非通用DSP/音频库、通用授权/验收或真实宿主输出。routing的delays输入为题设已声明合格延迟节点，不测延迟大小、环路增益或稳定性；表插值仅一周期示例；SD-J1只允许指定素材和两参数范围，新标记不等实际内容摘要，receipt及g是题设证据、并非真实观察。所有拒绝与合格均限定本例。
+以下函数是实际执行的同一函数；固定原创数值及题设标记。数学与条件检查非通用DSP/音频库、通用授权/验收或真实宿主输出。routing的delays输入为题设已声明合格延迟节点，不测延迟大小、环路增益或稳定性；表插值仅一周期示例；SD-J1只允许指定素材和两参数范围，新标记不等实际内容摘要，receipt及g是题设证据、并非真实观察。所有拒绝与合格均限定本例。G04 #74修正：固定JSON型命名映射比较键集合和值，不比较插入顺序；数组（音符/路径等）顺序保留。实际修改仅cutoff/depth值变动。历史44项结果保存在原受审6715ca2b6f177600098bdb2f1c58b87656674334（R4 blob cc9491d905d2bcec05833f395e02f66c1fb9e930），本轮实际重放原44及修订后49（原44+5新增），不累计为93。
 ```javascript
 function runK18Finite(){
- const eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b),cp=x=>JSON.parse(JSON.stringify(x)),close=(a,b)=>Math.abs(a-b)<1e-9,finite=Number.isFinite;
+ const eq=(a,b)=>{if(a===b)return true;if(a===null||b===null||typeof a!=="object"||typeof b!=="object"||Array.isArray(a)!==Array.isArray(b))return false;if(Array.isArray(a))return a.length===b.length&&a.every((v,i)=>eq(v,b[i]));const keys=Object.keys(a);return keys.length===Object.keys(b).length&&keys.every(k=>Object.hasOwn(b,k)&&eq(a[k],b[k]))},cp=x=>JSON.parse(JSON.stringify(x)),close=(a,b)=>Math.abs(a-b)<1e-9,finite=Number.isFinite;
  function harmonicGrid(f,fs,n){if(!finite(f)||f<=0||!finite(fs)||fs<=0||!Number.isSafeInteger(n)||n<1||n>1024)return null;return Array.from({length:n},(_,i)=>f*(i+1)).filter(v=>v<fs/2)}
  function peakBound(a){return Array.isArray(a)&&a.length&&a.every(finite)?a.reduce((s,v)=>s+Math.abs(v),0):null}
  function linearFilter(a,g){return Array.isArray(a)&&Array.isArray(g)&&a.length>0&&a.length===g.length&&a.every(v=>finite(v)&&v>=0)&&g.every(v=>finite(v)&&v>=0)?a.map((v,i)=>v*g[i]):null}
@@ -50,7 +50,7 @@ function runK18Finite(){
  function sameKeys(a,k){return !!a&&typeof a==="object"&&Object.keys(a).length===k.length&&k.every(s=>Object.hasOwn(a,s))}
  function exact(a,b){return sameKeys(a,keys)&&sameKeys(b,keys)&&keys.every(k=>eq(a[k],b[k]))}
  // Only cutoff and depth may change, plus a new patch/output marker after edit.
- function allowedCandidate(c){if(!sameKeys(c,keys)||!sameKeys(c.params,paramKeys))return false;const fixed=keys.filter(k=>!["params","patch","output"].includes(k));if(!fixed.every(k=>eq(c[k],base[k]))||c.params.gain!==base.params.gain||!finite(c.params.cutoffHz)||c.params.cutoffHz<200||c.params.cutoffHz>2000||!finite(c.params.depth)||c.params.depth<0||c.params.depth>1)return false;const changed=!eq(c.params,base.params);return changed?c.patch==="PATCH2"&&c.output==="D2":c.patch===base.patch&&c.output===base.output}
+ function allowedCandidate(c){if(!sameKeys(c,keys)||!sameKeys(c.params,paramKeys))return false;const fixed=keys.filter(k=>!["params","patch","output"].includes(k));if(!fixed.every(k=>eq(c[k],base[k]))||c.params.gain!==base.params.gain||!finite(c.params.cutoffHz)||c.params.cutoffHz<200||c.params.cutoffHz>2000||!finite(c.params.depth)||c.params.depth<0||c.params.depth>1)return false;const changed=c.params.cutoffHz!==base.params.cutoffHz||c.params.depth!==base.params.depth;return changed?c.patch==="PATCH2"&&c.output==="D2":c.patch===base.patch&&c.output===base.output}
  function receipt(c){return {identity:cp(c),kind:"SYNTHETIC_STIPULATION",technical:true,musical:true,protectedContent:true,editable:true,depsVerified:true,reopened:true,reviewCurrent:true}}
  function gate(c,q,g){if(!allowedCandidate(c))return "OUTSIDE_FIXTURE";if(!g||g.syntheticOnly!==true||g.actualOutput!==false||g.rights!==true||g.safety!==true)return "STOP_OR_PENDING";if(!q||!exact(c,q.identity)||q.kind!=="SYNTHETIC_STIPULATION"||!["technical","musical","protectedContent","editable","depsVerified","reopened","reviewCurrent"].every(k=>q[k]===true))return "NOT_READY";return "SYNTHETIC_CANDIDATE_ONLY"}
  const g={syntheticOnly:true,actualOutput:false,rights:true,safety:true};
@@ -99,13 +99,20 @@ function runK18Finite(){
  ["protected gain and parameter bounds",[{gain:.7},{cutoffHz:50},{depth:1.1},{extra:1}].every(o=>{const c={...cp(edit),params:{...edit.params,...o}};return gate(c,receipt(c),g)==="OUTSIDE_FIXTURE"})],
  ["missing actual dependency verification or reopen or review refuses",["depsVerified","reopened","reviewCurrent","editable","protectedContent","technical","musical"].every(k=>gate(edit,{...receipt(edit),[k]:null},g)==="NOT_READY")],
  ["synthetic rights safety and output flags independently bound",["syntheticOnly","rights","safety"].every(k=>gate(edit,receipt(edit),{...g,[k]:null})==="STOP_OR_PENDING")&&gate(edit,receipt(edit),{...g,actualOutput:true})==="STOP_OR_PENDING"],
- ["all current receipt identity fields exact",keys.every(k=>gate(edit,{...receipt(edit),identity:{...cp(edit),[k]:"changed"}},g)==="NOT_READY")]
+ ["all current receipt identity fields exact",keys.every(k=>gate(edit,{...receipt(edit),identity:{...cp(edit),[k]:"changed"}},g)==="NOT_READY")],
+
+ ["order-only base map same marker accepted",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000}};return gate(c,receipt(c),g)==="SYNTHETIC_CANDIDATE_ONLY"})()],
+ ["order-only base map new marker rejected",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000},patch:"PATCH2",output:"D2"};return gate(c,receipt(c),g)==="OUTSIDE_FIXTURE"})()],
+ ["same semantic receipt with reordered params and top keys accepted",(()=>{const q=receipt(edit);q.identity=Object.fromEntries(Object.entries(q.identity).reverse());q.identity.params={gain:.5,depth:.3,cutoffHz:800};return gate(edit,q,g)==="SYNTHETIC_CANDIDATE_ONLY"})()],
+ ["ordered notes and graph cannot be reversed",["notes","graph"].every(k=>{const c={...cp(edit),[k]:[...edit[k]].reverse()};return gate(c,receipt(c),g)==="OUTSIDE_FIXTURE"})],
+ ["receipt ordered arrays still exact",["notes","graph"].every(k=>{const q=receipt(edit);q.identity[k].reverse();return gate(edit,q,g)==="NOT_READY"})]
+
  ];
  return tests;
 }
 console.log(runK18Finite());
 ```
-## 实际结果
+## G04 实际结果
 1. partial amplitude bound: true
 2. linear steady response: true
 3. strict Nyquist harmonic screening: true
@@ -150,4 +157,9 @@ console.log(runK18Finite());
 42. missing actual dependency verification or reopen or review refuses: true
 43. synthetic rights safety and output flags independently bound: true
 44. all current receipt identity fields exact: true
-44/44 实际有限检查通过。不以断言数代专业完整性；没有真实生成、音频、听评、宿主/硬件、权限、CI、accepted claims或L1 freeze。
+45. order-only base map same marker accepted: true
+46. order-only base map new marker rejected: true
+47. same semantic receipt with reordered params and top keys accepted: true
+48. ordered notes and graph cannot be reversed: true
+49. receipt ordered arrays still exact: true
+49/49 实际有限检查通过，历史审核不改变；当前修订待G04独立核验。非通用JSON canonical hash、真实DSP、宿主、音频、权限或accepted claims。
