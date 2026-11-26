@@ -99,3 +99,9 @@
 CQ18 D0/S0，未获取真实非西方/缅甸音乐实例，不强套物理模型作为文化证据。S465仅标准版本元数据；S466未绑定事实。未运行图谱/LLM、音频工具或听觉实验。
 
 组合发现：[AX01](acoustics-r4-integrated-closure.md#L5)（CQ01/05/07/17）；[AX02](acoustics-r4-integrated-closure.md#L6)（CQ08/11/22/24/26）；[KC-A07](acoustics-r4-integrated-closure.md#L7)（CQ07/08/19/21/22/24/25）。不计入50主谓词或实际运行证据。
+
+## G04 R3 新原子候选补录（不改原50项历史统计）
+| D4 | 主案例 | 区分语义 | 来源 | D | S |
+|---|---|---|---|---|---|
+| K07.06.04.01 | [AC51](acoustics-g04-feedback-path-case.md#L5) | 回路物理路径可达不等实际振荡；未知与反例 | [S033](../../research/source-qualification-foundation.md#L12)；[S096](../../research/source-qualification-production-evaluation.md#L17) | CQ07 | CQ13/CQ19/CQ22/CQ24/CQ25 |
+- CQ-K07-13 扬声器到拾音器的物理闭环何时只能判可能路径？[AC51](acoustics-g04-feedback-path-case.md#L5)，K19现场诊断[LS25](live-sound-r2-knowledge-cases.md#L9)独立。CQ07 D+1、CQ13/19/22/24/25 S各+1，现行主发现行51；原50行CQ统计历史保留。本候选待G04独立核验。
