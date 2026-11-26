@@ -101,3 +101,5 @@
 - CQ-K08-11 怎样核混合源、分离误差和指标？ [DA22](digital-audio-r1-knowledge-cases.md#L26)、[DA23](digital-audio-r1-knowledge-cases.md#L27)、[DA24](digital-audio-r1-knowledge-cases.md#L28)、[DA49](digital-audio-r2-knowledge-cases.md#L26)、[DA50](digital-audio-r2-knowledge-cases.md#L27)、[DA51](digital-audio-r2-knowledge-cases.md#L28)。
 - CQ-K08-12 怎样核缓冲/期限/欠载溢出？ [DA25](digital-audio-r1-knowledge-cases.md#L29)、[DA26](digital-audio-r1-knowledge-cases.md#L30)、[DA27](digital-audio-r1-knowledge-cases.md#L31)、[DA52](digital-audio-r2-knowledge-cases.md#L29)、[DA53](digital-audio-r2-knowledge-cases.md#L30)、[DA54](digital-audio-r2-knowledge-cases.md#L31)。
 CQ18 D0/S0，没有真实非西方/缅甸曲目证据；CQ13/25静态追踪非实际图谱/LLM。
+
+组合发现：[DX01](digital-audio-r4-integrated-closure.md#L5)（CQ07/08/20/23）、[DX02](digital-audio-r4-integrated-closure.md#L6)（CQ19/21/24）、[KC-D08](digital-audio-r4-integrated-closure.md#L7)（CQ10/16/22/25），非新增主D4或实际运行。
