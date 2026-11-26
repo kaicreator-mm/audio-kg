@@ -4,7 +4,7 @@ DRAFT #72；S603–617 新增，原S164等历史资格不升格。仅理论、�
 |---|---|---|
 | S603 | [W3C Web Audio API 2021-06-17](https://www.w3.org/TR/2021/REC-webaudio-20210617/) §1.26/1.28 L8558–8596、§rendering loop L9793–9843 | READ_LOCATOR 固定REC；PeriodicWave Fourier正弦/余弦系数与归一化、DC清零；有DelayNode的环路拆解，剩余环路静音、最小一render quantum，AudioParam输入合并。非通用所有宿主行为或浏览器实际测试。 |
 | S604 | [Csound7 moogladder](https://csound.com/manual/opcodes/moogladder/) L225–247 | READ_LOCATOR；输入/截止/共振及历史状态；高共振可能混叠，特定单位及算法不泛化所有滤波器。 |
-| S605 | Chowning 1973 [AES书目](https://aes.org/publications/elibrary/elibrary-page/?id=1954) L219–254；1977 CMJ重印[UVic PDF](https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf) 零基0/1截图（封面/印46），L30–47 | READ_LOCATOR_LIMITED；载波、调制频率、峰值频偏，图1边带与调制深度；原1973 JAES21(7)526–534、1977 CMJ1(2)46–54重印。未验证后续全部页/Bessel数值或现代实现。 |
+| S605 | Chowning 1973 [AES书目](https://aes.org/publications/elibrary/elibrary-page/?id=1954) L219–254；1977 CMJ重印[UVic PDF](https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf) 零基0/1/2截图（封面/印46/47），L30–74 | READ_LOCATOR_LIMITED；载波、调制频率、峰值频偏，图1边带与调制深度、印47公式1/2与Bessel系数/相位；原1973 JAES21(7)526–534、1977 CMJ1(2)46–54重印。未验证后续全部页或计算Bessel数值或现代实现。 |
 | S606 | [Csound7 foscil](https://csound.com/manual/opcodes/foscil/) L219–246 | READ_LOCATOR；kcps×xcar、kcps×xmod、调制指数、周期表guard point。其特定实现说明不当通用基频/听感判据。 |
 | S607 | [Max7 Test Tone](https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01) L51–65；[Csound7 tablei](https://csound.com/manual/opcodes/tablei/) L233–249 | READ_LOCATOR；周期表读相位、线性插值，原始/归一化索引及wrap/guard；插值非抗混叠保证。 |
 | S608 | [Ableton Live12 Instrument Reference](https://www.ableton.com/en/live-manual/12/live-instrument-reference/) §31.13 L1855–1884/1915–1984/1986–2021 | READ_LOCATOR；波表位置与调音、导入RAW、加法/乘法调制中性值0/1、包络循环/释放、LFO Hz/拍、MIDI矩阵及unison。特定宿主语义，未实际运行。 |
@@ -17,4 +17,4 @@ DRAFT #72；S603–617 新增，原S164等历史资格不升格。仅理论、�
 | S615 | [MIDI Association MIDI1.0消息](https://midi.org/summary-of-midi-1-0-messages) L62–87/113–118 | READ_LOCATOR；7-bit CC/压力、14-bit bend中心8192/接收端灵敏度，channel mode与时钟；非完整协议/实际设备支持，不从发送推实际状态。 |
 | S616 | [librosa 0.11.0 spectral_centroid](https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html) L11–16/28–72 | READ_LOCATOR；幅度谱权重、Hz、FFT/窗/帧对齐，零和本模块UNKNOWN而非声称库返回；描述符不是美感/身份。 |
 | S617 | [ITU-R BS.1534-3 (10/2015)](https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en) L7–12 | READ_SCOPE_ONLY；中等质量音频系统主观评价的具名规范入口。实际方法全文本轮未读，不宣称音色偏好试验等于MUSHRA；K10既有S516全文资格不升级。 |
-CCRM Stanford检索被robots拒绝，未登记其未读内容为证据。仅原创数值与合成条件，不使用现有版权乐曲、录音或插件。K07物理/安全、K08通用DSP、K09制作、K10测评、K12工具执行、K15权利治理、K19现场扩声分别负责。
+CCRMA Stanford检索被robots拒绝，未登记其未读内容为证据。仅原创数值与合成条件，不使用现有版权乐曲、录音或插件。K07物理/安全、K08通用DSP、K09制作、K10测评、K12工具执行、K15权利治理、K19现场扩声分别负责。
