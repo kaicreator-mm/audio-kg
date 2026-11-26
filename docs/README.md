@@ -150,3 +150,6 @@ K02 OPEN，未达到完整模块审核条件；其余G03模块、G04/G05及L2未
 
 ## G03-K02 R2深化
 [29新专业候选与四视角](product/calibration/composition-r2-knowledge-cases.md)、[13新增来源及S144正文更新](research/source-qualification-composition-r2.md)、[48旧槽当前路由](product/calibration/composition-r2-legacy-routing.md)、[56能力格](product/calibration/composition-r2-capability-calibration.md)、[53主案例与26CQ索引](product/calibration/composition-r2-discovery-cq.md)、[实际有限验证](product/calibration/composition-r2-validation.md)。累计53新D4候选和48历史槽（含路由）；原13 OPEN均已有候选证据，不等于通过。K02仍OPEN，待完整专业收敛；不派中间审核。
+
+## G03-K02 R3专业收敛
+[11定向补证](product/calibration/composition-r3-knowledge-cases.md)、[64谓词逐项审查](product/calibration/composition-r3-predicate-audit.md)、[48旧槽语义裁决](product/calibration/composition-r3-legacy-convergence.md)、[现行64主案例/CQ](product/calibration/composition-r3-discovery-cq.md)、[56能力格](product/calibration/composition-r3-capability-calibration.md)、[3新增来源及定向重读](research/source-qualification-composition-r3.md)、[实际17有限断言](product/calibration/composition-r3-validation.md)。64新候选+48旧需求槽，41旧路由/7残余。K02仍OPEN，不视为完整模块验收；不派小审核。
