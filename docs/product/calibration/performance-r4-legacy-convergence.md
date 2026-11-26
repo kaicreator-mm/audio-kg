@@ -52,3 +52,24 @@ Task #33；原库存[第三波清单](../creative-performance/fine-grained-creat
 | K04.08.03.02 | 改进及反馈闭环 | BOUNDED_COMPOSITION | [PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 问题→授权最小修订→复测/回滚，旧证据保留。 |
 
 30路由、18联合范围候选。原始48需求均有具体入口；联合范围按实际案例中的硬条件、候选原因、复测及停止判断，非专业PASS。尤其安全不以速度通过替代身体状况，北印度循环只作为明确条件下的时序/交接反例，现场许可与技术实现不由K04推断。完整模块只承诺限定专业任务的知识深度，不宣称全器型、全历史流派、真实缅甸曲目或实际测量覆盖。
+
+## R5 联合范围Builder裁决（待独立审核）
+- K04.01.01.02：SUFFICIENT_SCOPED_CANDIDATE，PF02/12/13/51/54。同符号/实音不同具体动作，结合相邻音与实际声学；保留观察条件。
+- K04.01.02.02：SUFFICIENT_SCOPED_CANDIDATE，PF03/19/52；[PX02](performance-r5-integrated-closure.md#L7)。个体能力与健康停止规则分离；不诊断/长期处方。
+- K04.01.03.02：SUFFICIENT_SCOPED_CANDIDATE，PF04/20/52。慢速与目标条件不同；现场独立观察/采集对齐后才能缩小根因。
+- K04.02.02.02：SUFFICIENT_SCOPED_CANDIDATE，PF07/08/22/53。限定swing、角色及细分，不用经验比值判所有表现。
+- K04.03.01.02：SUFFICIENT_SCOPED_CANDIDATE，PF11/23/24。相对谱记、播放标量与实际SPL/增益分开。
+- K04.03.02.02：SUFFICIENT_SCOPED_CANDIDATE，PF10/11/23/25。同器乐同链比较键/踏板等条件；跨器乐/音响不外推。
+- K04.03.03.02：SUFFICIENT_SCOPED_CANDIDATE，PF11/25/26/30。作用区间、演奏意图、源/派生和真实测量参考分别。
+- K04.04.02.02：SUFFICIENT_SCOPED_CANDIDATE，PF27/28/29。具体历史法式短颤、Quantz倚音例与共同延长，不采一律。
+- K04.04.03.02：SUFFICIENT_SCOPED_CANDIDATE，PF10/25/30/31。触键音色/力度/时序的候选组合及声部保护，效果未知。
+- K04.05.01.02：SUFFICIENT_SCOPED_CANDIDATE，PF14/15/36/55；[PX01](performance-r5-integrated-closure.md#L6)。西方和声素材/强拍及北印度循环是不同条件，不相互替代。
+- K04.05.03.01：SUFFICIENT_SCOPED_CANDIDATE，PF34/35/55；[PX01](performance-r5-integrated-closure.md#L6)。按明确动机、节奏/和声目标筛选并保留人工评价；真实风格质量待证。
+- K04.05.03.02：SUFFICIENT_SCOPED_CANDIDATE，PF14/34/35；[PX01](performance-r5-integrated-closure.md#L6)。区分违规硬条件和偏好差异/缺测，非唯一序列。
+- K04.06.02.02：SUFFICIENT_SCOPED_CANDIDATE，PF37/38/39/59；[KC-P04](performance-r5-integrated-closure.md#L8)。可视/可听及路径/时钟前置，未知不扣延迟。
+- K04.06.03.02：SUFFICIENT_SCOPED_CANDIDATE，PF18/39/50/60；[KC-P04](performance-r5-integrated-closure.md#L8)。版本化反馈→源/到达分因→同条件复测，保留原记录。
+- K04.07.03.02：SUFFICIENT_SCOPED_CANDIDATE，PF04/18/44；[KC-P04](performance-r5-integrated-closure.md#L8)。当前任务表现不等长期迁移，未复测不采用。
+- K04.08.01.02：SUFFICIENT_SCOPED_CANDIDATE，PF43/45/46/59；[KC-P04](performance-r5-integrated-closure.md#L8)。人员/谱版/提示/监听/场地资源明确，安全与授权未确认拒绝。
+- K04.08.02.02：SUFFICIENT_SCOPED_CANDIDATE，PF38/39/47/48/60；[PX02](performance-r5-integrated-closure.md#L7)；[KC-P04](performance-r5-integrated-closure.md#L8)。音乐角色、异常沟通及技术负责人的权限分离，禁止用现场风险代替安全评估。
+- K04.08.03.02：SUFFICIENT_SCOPED_CANDIDATE，PF44/49/50/60；[KC-P04](performance-r5-integrated-closure.md#L8)。局部变更/配置隔离，旧证据失效、复测失败回滚/停止。
+18联合项均只对本期限定专业任务提议充分；30路由仍非等价。所有实际表演、听评、工具及健康判断不被提升。
