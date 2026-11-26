@@ -17,7 +17,7 @@
 | K02.04.02.03 | [CO-13](composition-r1-knowledge-cases.md) L17 | [S070](../../research/source-qualification-creative-performance.md) | P | real/tonal inversion限定C4轴，音程质量变化可复算；不是一般集合倒影替代书写。 |
 | K02.04.02.04 | [CO-14](composition-r1-knowledge-cases.md) L18 | [S070](../../research/source-qualification-creative-performance.md) | P | 严格比例、部分时值变更；作者diminution较宽义保留。 |
 | K02.04.02.05 | [CO-15](composition-r1-knowledge-cases.md) L19 | [S070](../../research/source-qualification-creative-performance.md) | P | 来源定义音符顺序逆转；事件整体逆行属于声明模型，不扩张原定义。 |
-| K02.04.03.03 | [CO-16](composition-r1-knowledge-cases.md) L20 | [S069](../../research/source-qualification-creative-performance.md)、[S070](../../research/source-qualification-creative-performance.md) | P | 装饰、尾扩展、截取、严格移调明确；D经过属性需和声，CO64。 |
+| K02.04.03.03 | [CO-16](composition-r1-knowledge-cases.md) L20 | [S069](../../research/source-qualification-creative-performance.md)、[S070](../../research/source-qualification-creative-performance.md) | P | 装饰、尾扩展、截取、严格移调明确；候选A中插入D4的非和弦/经过属性需和声条件，CO64；候选D是严格+2移调。 |
 | K02.04.03.04 | [CO-17](composition-r1-knowledge-cases.md) L21 | [S301](../../research/source-qualification-composition-r1.md)、[S314](../../research/source-qualification-composition-r2.md) | L | 12拍sentence-like而非标准八小节；CO31具体分割加速，仍非完整古典形式作曲全覆盖。 |
 | K02.05.01.03 | [CO-18](composition-r1-knowledge-cases.md) L22 | [S302](../../research/source-qualification-composition-r1.md)、[S303](../../research/source-qualification-composition-r1.md) | L | 原OMT框架的分节/AABA/VC；原模块只有概括身份，待完整多种形式具体谱面/词曲组合；CO60补辅助功能。 |
 | K02.05.01.04 | [CO-19](composition-r1-knowledge-cases.md) L23 | [S302](../../research/source-qualification-composition-r1.md)、[S304](../../research/source-qualification-composition-r1.md) | P | simple/super-simple共享和声/旋律的必要条件；不能仅由共享断言段落功能。 |
@@ -36,9 +36,9 @@
 | K02.05.02.03 | [CO-32](composition-r2-knowledge-cases.md) L12 | [S312](../../research/source-qualification-composition-r2.md)、[S314](../../research/source-qualification-composition-r2.md) | P | 密度与和声改变，不能唯一归因张力；没有音量/真实听感证据。 |
 | K02.05.02.04 | [CO-33](composition-r2-knowledge-cases.md) L13 | [S312](../../research/source-qualification-composition-r2.md) | C | 对照输入已具体化，两组差异；独立变量是设计，未实际听评。 |
 | K02.05.03.04 | [CO-34](composition-r2-knowledge-cases.md) L14 | [S303](../../research/source-qualification-composition-r1.md)、[S304](../../research/source-qualification-composition-r1.md)、[S070](../../research/source-qualification-creative-performance.md) | P | 2拍新增、三度级数而非半音严格移调；ii-V-I候选，功能需要全曲。 |
-| K02.06.03.03 | [CO-35](composition-r2-knowledge-cases.md) L15 | [S307](../../research/source-qualification-composition-r2.md) | L | 题定匿名目标5/3/3，方向指标不是实际粤语词或听辨；语义与母语条件保留。 |
+| K02.06.03.03 | [CO-35](composition-r2-knowledge-cases.md) L15 | [S307](../../research/source-qualification-composition-r2.md) | L | 原题匿名目标5/3/3；R5-M/Y具体普通话/粤语读法、调尾、固定旋律与创作决定补证，参见[RV01](composition-r5-tone-language-remediation.md)；实际听辨未知，待有限独立复审。 |
 | K02.06.03.04 | [CO-36](composition-r2-knowledge-cases.md) L16 | [S144](../../research/source-qualification-composition-r2.md) | L | 原作者历史tone two与dyan观察；CO62补传统模式与原语音名，不以现代四/五声分类替代。 |
-| K02.06.03.05 | [CO-37](composition-r2-knowledge-cases.md) L17 | [S307](../../research/source-qualification-composition-r2.md)、[S308](../../research/source-qualification-composition-r2.md)、[S309](../../research/source-qualification-composition-r2.md) | L | 匿名3/4音节的固定旋律条件；缺具体翻译文本、母语评价；不能宣称真实跨语言翻唱完成。 |
+| K02.06.03.05 | [CO-37](composition-r2-knowledge-cases.md) L17 | [S307](../../research/source-qualification-composition-r2.md)、[S308](../../research/source-qualification-composition-r2.md)、[S309](../../research/source-qualification-composition-r2.md) | L | 原题匿名3/4音节；R5-M/Y/R补具体真实字词、改词/申请改曲、保护音符、语义和语音预筛；实际母语评价未知，待有限独立复审。 |
 | K02.06.02.04 | [CO-38](composition-r2-knowledge-cases.md) L18 | [S307](../../research/source-qualification-composition-r2.md)、[S308](../../research/source-qualification-composition-r2.md)、[S321](../../research/source-qualification-composition-r3.md) | L | 补实时时位，显著重音和语音辨认区别；CO56/57，听评仍NOT_RUN。 |
 | K02.07.01.03 | [CO-39](composition-r2-knowledge-cases.md) L19 | [S310](../../research/source-qualification-composition-r2.md) | P | 实际两套和声成员；A末G-C、B末Em-F，不自动唯一判中心。 |
 | K02.07.01.04 | [CO-40](composition-r2-knowledge-cases.md) L20 | [S310](../../research/source-qualification-composition-r2.md)、[S312](../../research/source-qualification-composition-r2.md) | P | 单音重复与轮廓变化；相对独立性作为候选设计，不保证记忆性，CO59。 |
@@ -69,3 +69,6 @@
 计数：{"P":35,"C":13,"L":16}。尚需真实语言材料/更广专业范围的条件裁决、48历史槽的残余/重叠及能力/CQ关联充分性，不因分类结束即派审核。
 
 R4当前收口：[全部16 L组合精确关系](composition-r4-closure-links.md)与[9补证组](composition-r4-scope-closure.md)，含完整布鲁斯、歌曲结构、非英语韵律与语言适配；S323–327及读取限制见[来源](../../research/source-qualification-composition-r4.md)。原P/L/C是Builder历史分类，不宣称独立通过；R4不增加主ID。
+
+
+R5当前来源S328–331及原S327/S307定向定位见[来源](../../research/source-qualification-composition-r5.md)。R4独立审核7分支充分、CO35/37 HOLD；不将历史P/L/C改写成新PASS。
