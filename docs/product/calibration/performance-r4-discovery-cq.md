@@ -107,3 +107,5 @@ D只表示对给定限定子问题可直接回答，S为条件/支持，非整CQ
 - CQ-K04-11 排练低速成功能否标原速PASS？PF04/18/42/44，恢复原任务同条件复测。
 - CQ-K04-12 现场监听缺失如何修订？PF45–50/59/60，安全停止、负责人确认、保护原始及版本、复测。
 没有真实检索或LLM回答运行。
+
+联合补证发现入口：[PX01](performance-r5-integrated-closure.md#L6)（CQ02/22/26），[PX02](performance-r5-integrated-closure.md#L7)（CQ19/26，非医疗诊断），[KC-P04](performance-r5-integrated-closure.md#L8)（CQ19/21/22/24/25）；不增加60主谓词/26 CQ统计。
