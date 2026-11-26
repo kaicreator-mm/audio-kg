@@ -1,0 +1,14 @@
+# K06 R1 来源资格
+2026-11-26；实际定位和访问失败分开；原创概括，不复制练习、图谱、录音或歌词。
+| ID | 来源与定位 | 证据限制 |
+|---|---|---|
+| S051（重读） | Berglin/Pfordresher/Demorest 2022 [The effect of visual and auditory feedback on adult poor-pitch remediation](https://journals.sagepub.com/doi/full/10.1177/03057356211026730)，Method Participants/Materials, Results/Table1, Discussion | READ_LOCATOR；75名纳入分析、三条件短期前后测，视觉辅助效果对4音模仿较明显，个体差异、纳入阈值分析敏感性、自导练习动机与装置限制；不采纳研究训练时长/评分阈值为通用要求，不宣称长期迁移。 |
+| S427 | Blanco/Tassani/Ramirez 2021 [Effects of Visual and Auditory Feedback in Violin and Singing Voice Pitch Matching Tasks](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.684693/full)，Introduction/Methods/Discussion timbral similarity and retention | READ_LOCATOR；比较视觉结果反馈及相似音色的听觉辅助，辅助时改善与撤除后保持不同；研究特定任务，非所有人或长期训练效果。PMC8297736验证码，实际读Frontiers正文。 |
+| S428 | NATS [Code of Ethics](https://www.nats.org/code-of-ethics.html)，2018 II.3–8, III.3 | READ_LOCATOR；专业教学关系、个体差异、隐私、诚实评价及与其他专业者协作；组织伦理非普遍法律或医疗协议，许可和风险另核。 |
+| S429 | Duke et al. 2015 [The Effect of Traditional Singing Warm-Up Versus Semioccluded Vocal Tract Exercises](https://pubmed.ncbi.nlm.nih.gov/25770376/)，Abstract | ABSTRACT_READ；13名男歌者，受试内对照，未发现热身条件在SPR及PPE的显著差异；不等证实等效、普遍有效或无风险。 |
+| S430 | Portillo et al. 2018 [Comparison of Effects Produced by Physiological Versus Traditional Vocal Warm-up in Contemporary Commercial Music Singers](https://pubmed.ncbi.nlm.nih.gov/28579159/)，Abstract | ABSTRACT_READ；30名，随机两组，组间未发现显著差异，主观与客观终点须分开；不据摘要推组织疲劳诊断，不采用15分钟为教学剂量。 |
+| S431 | 2025 scoping review PMID41058356、2026 choir RCT PMID41896048、Sundberg sung tone onset PMID16564674、vowel intelligibility PMID24698886、S052 PMC5010534、S053/S054相关论文 | SEARCH_ONLY；PubMed空壳/PMC验证码/ScienceDirect403；不从检索片段提取确定效果或起音规则，后续另找可读原文。 |
+| S432 | NATS [Science-Informed Voice Pedagogy Resources](https://www.nats.org/cgi/page.cgi/Science-Informed_Voice_Pedagogy_Resources.html)，How to Use These Resources/Downloadable Resources | READ_LOCATOR；明确为可发展的教学资源索引，含声区观察、声学测量、课例记录与rubric等入口；未读所列全部附件，不把索引当动作或效果证据。 |
+| S433 | NATS [Guidance for using VoceVista Video Pro to measure vibrato](https://www.nats.org/_Library/Science_Informed_Voice_Pedagogy_Resource/Guidance_for_using_VoceVista_Video_Pro_to_measure_vibrato.pdf)，PDF p1实际截图/文字 | READ_LOCATOR；稳定单音窗、速率与extent区分、频率/幅度调制，工具版本与真实运行未知；项目明示合成半峰/峰峰约定，不采用经验阈值。 |
+| S434 | Schachter 2015 [Structural Levels in South Indian Music](https://mtosmt.org/issues/mto.15.21.4/mto.15.21.4.schachter.html)，§25–27 | READ_LOCATOR；Karnatak gamaka/svara关系、滑音与传统约束；实际未听源曲目，不复制谱例，不普遍化印度或缅甸唱法，不声称实际rāga示范。 |
+既有S045/046/047/048/049/050/085/352/377/379/404/409/411/412/416/424按K04/K05资格引用，未重复提升。S352/379/377是器乐/合奏支持，非声乐教学实证；VT21/23需专项补。S431为检索线索而非案例事实来源。研究及NATS教学资源与临床处理权威分开；全部合成、真实许可/学员/音频/设备未验证。
