@@ -229,3 +229,16 @@ K10 [#50](https://github.com/kaicreator-mm/audio-kg/issues/50)：[27主案例](p
 
 ## G03-K10 R2–R4 完整模块Builder候选
 [27新增主案例](product/calibration/evaluation-r2-knowledge-cases.md)、[S518–522来源](research/source-qualification-evaluation-r2.md)、[19有限检查](product/calibration/evaluation-r2-validation.md)、[54历史槽及16入向迁移/引用](product/calibration/evaluation-r3-legacy-convergence.md)、[63原角色](product/calibration/evaluation-r3-capability-calibration.md)、[54谓词/26CQ/12局部题](product/calibration/evaluation-r3-discovery-cq.md)、[EX01/EX02/KC-E10](product/calibration/evaluation-r4-integrated-closure.md)。累计54主D4/216期望四视角、27 D3、九D2各6；54旧槽ID/文字/次序一致（27路由/27限定组合），63原能力45P/18S；16条原D24含K10路由行原状态/路由保持，原账本未修改，不新增迁移主D4或关闭SPLIT_OPEN。49实际有限JS检查(18+19+12)，911精确链接（776案例/110来源/9组合/16迁移）回读0错配，CQ统计及源集合一致。CQ18 D0/S0、CQ13/25静态追踪，CQ25另有评价报告身份子问题，非实际图谱。S508–522连续15编号，S511/522摘要、S512–514镜像、S517搜索线索，S516/S518规范对应实际PDF截图；S517原正文失败保留、S522仅仓储摘要，非真实缅甸/艺术偏好研究。原[case map](product/production-evaluation/production-evaluation-case-map.md)仅FG-K10.03.03一行及[来源](research/source-qualification-production-evaluation.md)仅S103一行纠正stable0.8.2无第三参数、latest0.9.0dev有allow_descending_fifths，不改原需求ID和其它K09/K10内容。无实际MIR库/模型/音频/演唱/录制/播放/听评/测量/数据集/许可/标准符合/accepted claims/L1 freeze/CI PASS。#28/#32/#35/#38/#41/#46/#49 OPEN。D26累计required独立审核候选，K11阻塞。
+
+## G03-K10 收尾 / G03-K11 R1
+K10 独立PASS [#50](https://github.com/kaicreator-mm/audio-kg/issues/50#issuecomment-7196508482) / [PR51](https://github.com/kaicreator-mm/audio-kg/pull/51#issuecomment-7196509752)，受审HEAD 89e6bbe967e3c4f8935b765d72e473a128975377，合并 00ca25554829c16015a1b1e0b57db629699a6c60（文件差异0），#50关闭；三非阻断P2 [#52](https://github.com/kaicreator-mm/audio-kg/issues/52) OPEN，与#28/#32/#35/#38/#41/#46/#49在相关批次/G04校准；16入向原状态12 SPLIT_OPEN/4 RETAIN不变。
+K11 [#53](https://github.com/kaicreator-mm/audio-kg/issues/53)：[30主案例](product/calibration/ai-models-r1-knowledge-cases.md)、[S523–534来源](research/source-qualification-ai-models-r1.md)、[14有限检查](product/calibration/ai-models-r1-validation.md)。十D2各3/30D3/120期望四视角；原60旧槽/70能力68P2S及26CQ待收敛。MusicGen v3 PDF零基2/3/4、DiffSinger AAAI2022 PDF零基0/1，EnCodec/Flow Matching/YuE/ACE-Step/LoRA/SVCC2023对应定位；Music Transformer/MoE/蒸馏摘要；S534明确SaMoye最新v5于2024-11-15撤回，原[来源S117](research/source-qualification-ai-orchestration.md)一行资格改WITHDRAWN_STATUS保留历史ID，新案例无S117有效引用，后续逐槽核历史引用，S529替代任务机制证据。S124未固定revision、S123/S115/116/121/122/125既有资格不升级；作者速度/语言/基准不当实际能力。未实际训练、下载权重、推理、GPU/音频/听评/许可/语言或标准验证，D24入向两SPLIT_OPEN不关闭，无accepted claims/L1 freeze/CI PASS。R1内部checkpoint，不中间审核。
+
+## G03-K11 R2
+[30新增主案例、S535–537来源及20有限检查](product/calibration/ai-models-r2-knowledge-cases.md)。累计60主D4/240期望四视角、30D3、10D2；R3旧槽/能力/CQ发现与R4综合收口仍待完成；无实际模型、音频、授权、独立PASS或L1 freeze。R2内部checkpoint，不派中间审核。
+
+## G03-K11 R3
+[60旧槽及两项迁移](product/calibration/ai-models-r3-legacy-convergence.md)、[70格能力](product/calibration/ai-models-r3-capability-calibration.md)、[60主原子/26CQ/12局部发现](product/calibration/ai-models-r3-discovery-cq.md)。原S117来源说明尾段纠正撤回状态，不改变历史需求和编号；D24两项SPLIT_OPEN不变。10实际有限结构检查，R4综合保护任务及累计精确链接检查待完成。内部checkpoint，未审核。
+
+## G03-K11 R4 完整模块Builder候选
+[EX01/EX02/KC-A11](product/calibration/ai-models-r4-integrated-closure.md)。累计60主D4/240期望四视角、30D3、60历史槽、70原能力68P2S、26CQ/12局部发现、S523–537共15来源、58有限检查（R1历史14/R2–4本轮44）；1150精确逐行链接预检0错配。S117撤回、两项D24迁移及历史P2 OPEN。无实际模型、音频、语言、权利、设备、CI、accepted claims或L1 freeze。D26完整模块required独立审核候选，K12仍阻塞。
