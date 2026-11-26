@@ -49,3 +49,7 @@ for(const [name,patch,expected] of fixtures) {
 | invalid measurement | UNKNOWN | UNKNOWN |
 | different estimate | REVIEW_MEASUREMENT | REVIEW_MEASUREMENT |
 实际 15/15。正面候选仍为STATIC_CANDIDATE_ONLY；禁止转为执行授权或accepted claim。CQ04/06/13/16/19–26可由各D4发现入口进入，不测真实LLM。全部28旧槽复合候选另见R3d，不声称28项真实回放。
+
+
+## R7 现行替代见证
+原XC01仅为R5历史证据；[R6独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203270001)已指出版本与保护内容缺陷。现行审核对象改为[XC01-R2 / R7a](g04-r7-xc01-protection-remediation.md)，不得以原15/15替代修订见证。
