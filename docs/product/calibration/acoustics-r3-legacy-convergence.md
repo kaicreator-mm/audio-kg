@@ -77,3 +77,5 @@ Task #42；原[基础领域库存](../foundation/fine-grained-foundation.md)24 D
 - K07.08.02.02：SUFFICIENT_SCOPED_CANDIDATE；控制风险；突发听力下降立即就医，不自测或放行。 关联[AC17/K07.05.03.03](acoustics-r1-knowledge-cases.md#L21)、[AC25/K07.08.02.03](acoustics-r1-knowledge-cases.md#L29)、[AC41/K07.05.03.04](acoustics-r2-knowledge-cases.md#L19)、[AC49/K07.08.02.04](acoustics-r2-knowledge-cases.md#L27)；仅相应模型、资格和题设，真实声场/听觉/仪器/合规/临床均未知。
 - K07.08.03.02：SUFFICIENT_SCOPED_CANDIDATE；偏好/客观变化分离，失效/撤回/风险停止。 关联[AC24/K07.08.01.03](acoustics-r1-knowledge-cases.md#L28)、[AC26/K07.08.03.03](acoustics-r1-knowledge-cases.md#L30)、[AC48/K07.08.01.04](acoustics-r2-knowledge-cases.md#L26)、[AC50/K07.08.03.04](acoustics-r2-knowledge-cases.md#L28)；仅相应模型、资格和题设，真实声场/听觉/仪器/合规/临床均未知。
 K07一般物理/感知/计量，K01音乐语义、K05嗓音科学、K08采集及DSP、K10评价、K12工具、K15权利、K17认知、K19场地业务独立；不执行危险听音。
+
+补充联合证据：[AX01](acoustics-r4-integrated-closure.md#L5)覆盖K07.01–03；[AX02](acoustics-r4-integrated-closure.md#L6)覆盖K07.04/.05/.07/.08；[KC-A07](acoustics-r4-integrated-closure.md#L7)覆盖K07.02/.03/.06/.07/.08的联合模型、证据条件和保护；不新增旧槽或接受主张。
