@@ -87,3 +87,5 @@ Task #36；实际原[第二波库存](../vocal-digital/fine-grained-vocal-digita
 - K05.09.03.02：SUFFICIENT_SCOPED_CANDIDATE；作者报告与独立复现/版本证据分开；旧结论失效需复核。 共同条件为[VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)、[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)、[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)、[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9)。不由声学或合成值推出真实人体或临床结论。
 
 专业范围不等全部发声类型、全部人群/语种或临床程序；不可获得的真实数据/未知不强制补作实际人体试验。K05只保留科学及嗓音专项测量知识，不改K06、K07、K08、K10、K12、K13、K14、K15、K17权威。
+
+联合证据补强：K05.03.01.02/.04.01.02/.04.03.02/.05.01.02/.05.02.02→[VX01](vocal-science-r5-integrated-closure.md#L6)；K05.08.01.02/.08.02.02/.08.03.02→[VX02](vocal-science-r5-integrated-closure.md#L7)；K05.06.02.02/.07.01.02/.07.02.02/.07.03.02/.09.01.02/.09.02.02/.09.03.02→[KC-V05](vocal-science-r5-integrated-closure.md#L8)。均仅限定候选，不扩大54槽裁决。
