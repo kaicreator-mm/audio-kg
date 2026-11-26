@@ -173,3 +173,7 @@ console.log(runXC02());
 | wrong cue independence binding | PENDING_REVALIDATION | PENDING_REVALIDATION |
 
 实际 60/60；目标偏差 165.004228 cents。原始独立审核的3个空/缺身份反例及2个保护内容/时长覆盖反例均有对应回归。其余为扩展边界；不称独立PASS。
+
+
+## R8 现行替代
+R7独立复审FAIL（PR79 #7203815238）：独立参考和版本证据残余。原代码及结果保留历史；现行见[XC01-R3](g04-r8-xc01-independent-evidence.md)，固定独立观察、不可变修订/证据、离线授权替代。不得以原60/60证明R8或独立通过。
