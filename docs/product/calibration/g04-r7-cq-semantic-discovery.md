@@ -43,3 +43,7 @@
 - [K01.02.06.02](theory-all-atom-discovery-cq.md#L30) / [历史资格](../../research/theory-source-atom-qualification.md#L128)：EVIDENCE_OPEN。已审G02 [R3-T01/02](theory-g02-r3-scope-closure.md#L15)提供限定的19EDO公式和非双射映射，不足以决定原生调律名或全部体系。非12TET数学子问题可以答，真实文化/历史对应UNKNOWN；不把整个旧宽需求视为无知识或完整通过。
 - [K01.07.03.01](theory-all-atom-discovery-cq.md#L193) / [TL-K01.07.03.01](theory-legacy-cq-cases.md#L21) / [原资格](../../research/theory-source-atom-qualification.md#L287)：RESIDUAL_OPEN。现行路由仅支持明确的形式谓词，不凭部分案例宣布全部曲式和跨文化层级覆盖。
 - 实际回读 9 个目标行；48个直接选中主案例见[上](g04-r7-cq-case-readback-1.md)/[下](g04-r7-cq-case-readback-2.md)，另有音分案例与待证路径。原选中50个唯一D4（包含K01待证ID）保留，额外显式链接的残余ID不混计为主案例。所有49个有主案例的选中ID均实际读取；另外一项保留EVIDENCE_OPEN及限定补例。未重新读取全部外部出版物。
+
+
+## R8 现行限定语义
+CQ06/08/10/15/19/21/25 的补证见[R8c](g04-r8-cq-semantic-remediation.md)，26正式问题的限定回答及残余见[R8d](g04-r8-formal-cq-scope-reconciliation.md)。R7的排练候选不作为仅离线CQ19正例；O1/F0与E1/F1明确分开。
