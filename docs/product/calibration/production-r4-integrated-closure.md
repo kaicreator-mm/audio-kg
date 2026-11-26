@@ -27,3 +27,7 @@ A01工程/制作/指标条件；A02授权与目标→核原始/依赖→局部�
 12. candidate not accepted without actual evidence and human confirmation — true
 13. withdrawal stops and protection overrides score — true
 上述仅有限JS对象、数学与规则见证，不是实际授权执行、DAW运行、文件导出、标准符合、人体听评、LLM或图谱。
+
+## G04 R2b 累计校准补充
+KC-P09 R2b：A引用[MP30](production-r2-knowledge-cases.md#L10)，授权局部点(11,2)与全局插值模式分开，区外t2=2/t6=8/3/t15=0保护；B/C引用[MP11](production-r1-knowledge-cases.md#L15)与[MP35](production-r2-knowledge-cases.md#L15)，同干声起点与不同尾音不得视为等价，实际保护范围/干延迟另核；D引用[MP40](production-r2-knowledge-cases.md#L20)，严格门控、完整块、无有效块不可用、20kHz带限仪表容差不扩大峰限。有限数字非真实合规、连续等价或听感。
+原R4有限检查为历史记录，不能替代新条件的独立核验。
