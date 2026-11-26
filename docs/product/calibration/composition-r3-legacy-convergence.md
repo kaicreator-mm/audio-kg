@@ -51,3 +51,5 @@
 | K02.08.03.01 | 按目标及评价条件比较 | ROUTER | [CO-52](composition-r2-knowledge-cases.md) L32；[CO-53](composition-r2-knowledge-cases.md) L33 | 硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。 |
 | K02.08.03.02 | 人工确认回滚与停止 | ROUTER | [CO-52](composition-r2-knowledge-cases.md) L32；[CO-53](composition-r2-knowledge-cases.md) L33 | 硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。 |
 本轮不新增同义旧条目；64个细化候选与48历史槽合计112个索引需求位，不等于112条独立专业事实。下一批优先上述7项残余的完整具体例、语义去重及能力/CQ关系校准；保留历史来源与语言未知。
+
+R4七原RESIDUAL逐一关联[具体补证与候选裁决](composition-r4-closure-links.md)，保持48原ID及41/7历史分类；非全语言/风格已证，K02核心创作决策保留，外部实际观察UNKNOWN。待独立完整模块审核。
