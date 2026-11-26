@@ -172,3 +172,6 @@ console.log(runFiniteR6());
 43. work layer and other action separate: true
 44. source baseline retained: true
 44/44 本轮实际检查通过，历史53记录保留，合计97记录（旧脚本未重跑）。不是实际权限、真实生产、听评或规范符合性。独立限定复审NOT_RUN。
+
+## R7独立复审与R8后续状态
+R7 [#64 7200552196](https://github.com/kaicreator-mm/audio-kg/issues/64#issuecomment-7200552196) at bd14cfccadda6acf242e3886e345f0990b694d7d：原RV01/02/03均CLOSED_SCOPED，原44/44函数实际独立重放；整体FAIL，新K15-R7-RV-01 P1，候选source/reference/backing与静态授权对象未组合。上文R6函数与原结果原样保留为历史，不再作为现行谓词。[R8现行修订及重放](production-governance-r8-object-binding-remediation.md)；仅新P1待复审。
