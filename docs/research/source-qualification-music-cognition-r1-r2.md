@@ -1,0 +1,21 @@
+# K17 R1–R2 专业来源资格
+DRAFT #69；新增S587–602；历史S166/S167/S169保持原资格。仅指定文献及定位，不作临床诊断、疗效、实时脑状态或个体预测；无实际实验、数据下载、音频或模型运行。
+| ID | 来源及实际定位 | 资格与限制 |
+|---|---|---|
+| S587 | Repp 2005 [Sensorimotor synchronization: a review of the tapping literature](https://pubmed.ncbi.nlm.nih.gov/16615317/) L238–240 | ABSTRACT_ONLY；敲击、负平均异步、变异、相位/周期校正的理论区分，未读完整综述，不由行为单独定脑机制。 |
+| S588 | Repp & Su 2013 [SMS review](https://link.springer.com/content/pdf/10.3758/s13423-012-0371-2.pdf) 零基0截图（印403）及L13–14 | READ_LOCATOR_LIMITED；综述外部节奏与运动同步、敲击/其他动作/人际/神经研究范围，不替代原2005全文，不从综述入口判效应量。PubMed入口验证壳。 |
+| S589 | Repp, Keller & Jacoby 2012 [Quantifying phase correction](https://pubmed.ncbi.nlm.nih.gov/22305349/) L218–220/244 | ABSTRACT_ONLY；三类范式固定节拍器/相位扰动/适应节拍器，校正参数估计依范式与模型，未复核全文或报告具体参数。 |
+| S590 | Dowling 1978 [Scale and contour](https://bpb-us-e2.wpmucdn.com/labs.utdallas.edu/dist/f/100/files/2021/03/1978-2.pdf) 零基0截图（印341）及L6–16 | READ_LOCATOR_LIMITED；调性标准刺激与同轮廓比较的识别混淆，精确移调、调性应答与无调性条件不同；二成分模型为解释，不把历史理论泛化。文本提取作者误作Bowling，截图为Dowling。 |
+| S591 | Sauvé, Satkunarajah & Zendel 2023 [Tracking emergence of a pitch hierarchy](https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2023.1027259/full) L269–300 | READ_LOCATOR；probe-tone方法、两种Bohlen–Pierce人工语法30分钟暴露前后结果未支持语法学习，延长暴露是作者建议。Krumhansl/Kessler1982原PubMed只有书目无摘要，方法属二手回顾。 |
+| S592 | Saffran等1999 [Statistical learning of tone sequences](https://infantlearning.waisman.wisc.edu/wp-content/uploads/sites/70/2017/02/Saffran_etal1999.pdf) L18–25；零基0截图404，ScienceDirect403，PubMed壳 | TEXT_LOCATOR_LIMITED；抽取摘要成人与8月龄婴儿对人工音流统计分段结果，S591 L297二手回顾成人任务；不证明通用音乐语法掌握或同一测试量表，不用未核图表。 |
+| S593 | [OECS Signal Detection Theory](https://oecs.mit.edu/pub/608a12kc/release/1/?readingCollection=9dd2a47d) L24–26/71–106/141/157–161 | READ_LOCATOR；旧新二分类的命中/虚报各自分母，等方差高斯SDT d'=z(H)-z(F)，极端率修正可选；本模块预先限定无边界修正则UNKNOWN，避免任意替代或无分母计算。 |
+| S594 | Koreimann, Gula & Vitouch 2014 [Inattentional deafness in music](https://cognition.aau.at/download/Publikationen/Gula/Koreimann_etal_2014.pdf) 零基0截图（印304）L9–26 | READ_LOCATOR_LIMITED；计定音鼓vs只听，意外电吉他，研究1分析115人，研究2 47人更显著刺激；音乐经验未消除该效应。不是听力诊断或所有注意任务。 |
+| S595 | Pearce & Wiggins 2012 [Auditory expectation](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1756-8765.2012.01214.x) L121–136/163/200–201/235–254 | READ_LOCATOR；信息量/预测熵、长期训练语料与当前旋律、当时单声部限制，分组预测与人工边界比较不完美；模型条件概率非个体脑状态。 |
+| S596 | Juslin & Västfjäll 2008 [Emotional responses to music](https://pubmed.ncbi.nlm.nih.gov/18826699/) L240–242 | ABSTRACT_ONLY；作者提出认知评估之外六机制（脑干反射、评价条件化、情绪感染、意象、情景记忆、音乐期待），非穷尽或已证每次机制，区分机制假设与观测。 |
+| S597 | Salimpoor等2011 [Anatomically distinct dopamine release](https://www.zlab.mcgill.ca/publications/docs/salimpoor_2011_nn.pdf) 零基0/5截图（印257/262），L7–19/205–216 | READ_LOCATOR；筛选10人、两PET数据因不适排除，分析8；PET配体结合变化为估计，fMRI时序功能差异，不是逐时直接测多巴胺。偏好自选刺激、neutral对照匹配非完全；非日常个体、疗效或操控。Nature入口失败。 |
+| S598 | McDermott等2016 [Indifference to dissonance](https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf) 零基0/1截图（印547/548）及L8–24 | READ_LOCATOR；两研究特定Tsimane'及玻利维亚城市/乡镇、美国样本，愉悦评分、粗糙偏好和区分任务不等价。研究1群体差异与经验关联，不以未显著差异证明严格相等或民族本质，也不推缅甸。Nature入口失败。 |
+| S599 | Jacoby & McDermott 2017 [Integer ratio priors](https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby17) L5–15 | ABSTRACT_ONLY；迭代再现的两/三间隔简单节奏、美国与亚马孙样本，整数比峰值权重经验差异，非普遍最优节奏、直接神经测量。DOI全文403。 |
+| S600 | Jacoby等2024 [Rhythm priors in 15 countries](https://www.repository.cam.ac.uk/items/9a7b5d5c-7e18-444b-a2c9-9518b0e03e87) L45–47/69–75；[作者摘要](https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby24) L5–13 | ABSTRACT_ONLY；39组15国迭代再现、所有受测组峰值小整数比但权重变化；组非国家全体，重复摘要非独立研究，PMC验证壳，未读完整数据和刺激。 |
+| S601 | Lakens 2013 [Effect sizes primer](https://pmc.ncbi.nlm.nih.gov/articles/PMC3840331/) L101/110–130/137–162/288–289 | READ_LOCATOR；独立组d_s与配对d_z差值标准差、报告标准化分母及不确定性，不将p值/固定效应大小阈值作实用或等效结论。 |
+| S602 | [Memory for musical tones: impact of tonality and false memories](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00582/full) L367–394（引言/Table1） | READ_LOCATOR_LIMITED；西方调性语境及probe tone二手说明、启动/期待与记忆研究入口；本轮仅定位引言，不宣称已复核其自身试验结果。PMC壳。 |
+不将S592有限文本、S587/589/596/599/600摘要提升为全文；本地化K13、评价K10、听觉安全K07、教学K14、文化史K16、工具K12、权利K15保留主责。所有数值案例为明确标注合成或限定来源报道，不复制作品/录音。

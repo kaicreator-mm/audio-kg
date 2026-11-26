@@ -1,0 +1,54 @@
+# K17 R3 — 七能力49格候选
+DRAFT #69。原域级K17 P/P/S/P/P/C/P保持（[能力覆盖](../capability-coverage.md)）；新D2格35P/7S/7C。A03仅工具/测量资格、执行K12；A06仅在需要可编辑刺激表示、方案或研究记录时适用，不代表实际音频/软件；A04记录状态不代产品事务。
+| D2 | 能力 | 角色 | 专业任务 | 精确案例入口 |
+|---|---|---|---|---|
+| K17.01 | A01 | P | 刺激、运动、配对与校正 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC02/K17.01.02.01](music-cognition-r1-knowledge-cases.md#L6)；[MC03/K17.01.03.01](music-cognition-r1-knowledge-cases.md#L7)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) |
+| K17.01 | A02 | P | 选择任务、时间同步与扰动 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC02/K17.01.02.01](music-cognition-r1-knowledge-cases.md#L6)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) |
+| K17.01 | A03 | S | 计时工具语义、实际设备K12 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) |
+| K17.01 | A04 | P | 刺激/动作/时钟记录及条件 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC02/K17.01.02.01](music-cognition-r1-knowledge-cases.md#L6)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) |
+| K17.01 | A05 | P | 偏向与变异分开 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) |
+| K17.01 | A06 | C | 条件化可编辑时标，不是DAW | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC03/K17.01.03.01](music-cognition-r1-knowledge-cases.md#L7) |
+| K17.01 | A07 | P | 延迟/漏配对/模型替代复核 | [MC02/K17.01.02.01](music-cognition-r1-knowledge-cases.md#L6)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) |
+| K17.02 | A01 | P | 轮廓、音程、调性与熟悉 | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9)；[MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10)；[MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11)；[MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12) |
+| K17.02 | A02 | P | 选择probe-tone/学习实验 | [MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10)；[MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11) |
+| K17.02 | A03 | S | 模型概率/刺激表示资格 | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9)；[MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12) |
+| K17.02 | A04 | P | 语境/曝光/刺激版本 | [MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10)；[MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11) |
+| K17.02 | A05 | P | 契合、识别、概率区别 | [MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10)；[MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12) |
+| K17.02 | A06 | C | 可编辑刺激表示和语境记录 | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9)；[MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10) |
+| K17.02 | A07 | P | 人工语法负结果与反例 | [MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11)；[MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12) |
+| K17.03 | A01 | P | 编码、识别、回忆、保持 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13)；[MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15)；[MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) |
+| K17.03 | A02 | P | 曝光→延迟→识别/回忆 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15)；[MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) |
+| K17.03 | A03 | S | 实验标签/SDT计算资格 | [MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15) |
+| K17.03 | A04 | P | 曝光历史和任务身份 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15)；[MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) |
+| K17.03 | A05 | P | 命中/虚报、保持及限制 | [MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14)；[MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) |
+| K17.03 | A06 | C | 项目/诱饵记录，不是实谱 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15) |
+| K17.03 | A07 | P | 虚报、再暴露与对照排查 | [MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15)；[MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) |
+| K17.04 | A01 | P | 选择性注意、期待/不确定性 | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19)；[MC16/K17.04.04.01](music-cognition-r1-knowledge-cases.md#L20) |
+| K17.04 | A02 | P | 注意指令及模型预测流程 | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19) |
+| K17.04 | A03 | S | 模型历史条件及语料边界 | [MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19) |
+| K17.04 | A04 | P | 刺激/注意/预测上下文状态 | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19) |
+| K17.04 | A05 | P | 报告与分组证据、信息量 | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18)；[MC16/K17.04.04.01](music-cognition-r1-knowledge-cases.md#L20) |
+| K17.04 | A06 | C | 条件化可编辑上下文 | [MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19) |
+| K17.04 | A07 | P | 漏报、未来泄漏、边界错误 | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19)；[MC16/K17.04.04.01](music-cognition-r1-knowledge-cases.md#L20) |
+| K17.05 | A01 | P | 感知/体验/奖励与机制候选 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC18/K17.05.02.01](music-cognition-r2-knowledge-cases.md#L6)；[MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) |
+| K17.05 | A02 | P | 分报告与测量、独立审批 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) |
+| K17.05 | A03 | S | 测量资格及非实际设备 | [MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) |
+| K17.05 | A04 | P | 时点/刺激/熟悉度记录 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7) |
+| K17.05 | A05 | P | 相关/主观与生理不等价 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) |
+| K17.05 | A06 | C | 条件化量表和记录 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) |
+| K17.05 | A07 | P | 替代机制/伪迹/对照复查 | [MC18/K17.05.02.01](music-cognition-r2-knowledge-cases.md#L6)；[MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) |
+| K17.06 | A01 | P | 经验、群体、个体外推 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |
+| K17.06 | A02 | P | 核目标样本、任务等价 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |
+| K17.06 | A03 | S | 实验范式/语言支持资格 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11) |
+| K17.06 | A04 | P | 样本组/经历与条件版本 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |
+| K17.06 | A05 | P | 群体分布、非等效、混杂 | [MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |
+| K17.06 | A06 | C | 条件化样本记录、保护身份 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |
+| K17.06 | A07 | P | 外推拒绝与补证 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11) |
+| K17.07 | A01 | P | 设计、统计、证据状态 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14)；[MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17)；[MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) |
+| K17.07 | A02 | P | 冻结方案、对照、伦理停点 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17)；[MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) |
+| K17.07 | A03 | S | 分析工具与版本/输入资格 | [MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) |
+| K17.07 | A04 | P | 刺激/方案/数据/报告失效 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) |
+| K17.07 | A05 | P | 单位/配对/区间与拒绝 | [MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14)；[MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) |
+| K17.07 | A06 | C | 条件化可编辑实验协议 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17)；[MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) |
+| K17.07 | A07 | P | 混杂/失效/缺失再核 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) |
+未实施真实参与者、设备、临床或软件。
