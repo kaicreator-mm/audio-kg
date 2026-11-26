@@ -1,0 +1,20 @@
+# K18 R1–R2 来源资格
+DRAFT #72；S603–617 新增，原S164等历史资格不升格。仅理论、具名文档与有限候选，不声明实际宿主运行、声音、硬件安全、听评、许可或标准符合。Csound 7、Live 12、Max 7/8、Rack 2为文档族，未锁实际二进制。固定 Web Audio 2021 REC、librosa0.11.0版本与历史论文区分动态厂商页面。
+| ID | 来源与实际定位 | 资格/边界 |
+|---|---|---|
+| S603 | [W3C Web Audio API 2021-06-17](https://www.w3.org/TR/2021/REC-webaudio-20210617/) §1.26/1.28 L8558–8596、§rendering loop L9793–9843 | READ_LOCATOR 固定REC；PeriodicWave Fourier正弦/余弦系数与归一化、DC清零；有DelayNode的环路拆解，剩余环路静音、最小一render quantum，AudioParam输入合并。非通用所有宿主行为或浏览器实际测试。 |
+| S604 | [Csound7 moogladder](https://csound.com/manual/opcodes/moogladder/) L225–247 | READ_LOCATOR；输入/截止/共振及历史状态；高共振可能混叠，特定单位及算法不泛化所有滤波器。 |
+| S605 | Chowning 1973 [AES书目](https://aes.org/publications/elibrary/elibrary-page/?id=1954) L219–254；1977 CMJ重印[UVic PDF](https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf) 零基0/1截图（封面/印46），L30–47 | READ_LOCATOR_LIMITED；载波、调制频率、峰值频偏，图1边带与调制深度；原1973 JAES21(7)526–534、1977 CMJ1(2)46–54重印。未验证后续全部页/Bessel数值或现代实现。 |
+| S606 | [Csound7 foscil](https://csound.com/manual/opcodes/foscil/) L219–246 | READ_LOCATOR；kcps×xcar、kcps×xmod、调制指数、周期表guard point。其特定实现说明不当通用基频/听感判据。 |
+| S607 | [Max7 Test Tone](https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01) L51–65；[Csound7 tablei](https://csound.com/manual/opcodes/tablei/) L233–249 | READ_LOCATOR；周期表读相位、线性插值，原始/归一化索引及wrap/guard；插值非抗混叠保证。 |
+| S608 | [Ableton Live12 Instrument Reference](https://www.ableton.com/en/live-manual/12/live-instrument-reference/) §31.13 L1855–1884/1915–1984/1986–2021 | READ_LOCATOR；波表位置与调音、导入RAW、加法/乘法调制中性值0/1、包络循环/释放、LFO Hz/拍、MIDI矩阵及unison。特定宿主语义，未实际运行。 |
+| S609 | [Csound7 grain](https://csound.com/manual/opcodes/grain/) L240–252/327–345；[fog](https://csound.com/manual/opcodes/fog/) L249–252 | READ_LOCATOR；颗粒密度/长度、grain pitch及源表采样率，fog读起点与粒内读速率分开；不是任意颗粒引擎参数单位。 |
+| S610 | [Csound7 pluck](https://csound.com/manual/opcodes/pluck/) L253；[wgpluck2](https://csound.com/manual/opcodes/wgpluck2/) L233–245；[wguide1](https://csound.com/manual/opcodes/wguide1/) L214–240 | READ_LOCATOR；Karplus-Strong离散延迟误差、重采样实现；拨弦点/拾音位置/损耗反射系数严格0–1；激励/延迟/低通/反馈。未实测或泛化真实弦乐器。 |
+| S611 | [SFZ basics](https://sfzformat.com/tutorials/basics/) L181–207/251–277；[lovel/hivel](https://sfzformat.com/opcodes/hivel/) L42–44；[loop_mode](https://sfzformat.com/opcodes/loopmode/) L55–69 | READ_LOCATOR；根音/键域/力度层、velocity0 note-off、循环默认值及特定播放器one_shot区别，未验具体播放器或样本权利。 |
+| S612 | [Csound7 adsr](https://csound.com/manual/opcodes/adsr/) L251–253；[madsr](https://csound.com/manual/opcodes/madsr/) L244–257 | READ_LOCATOR；固定音符长度adsr与MIDI note-off触发释放madsr区别，madsr时间不能为0；非所有ADSR实现。 |
+| S613 | [VCV Rack Voltage Standards](https://vcvrack.com/manual/VoltageStandards) L37/65/70–82 | READ_LOCATOR；1V/oct模型及primary polyphony、mono广播/不足多声道补0等Rack约定，明确非实际Eurorack所有模块规范。 |
+| S614 | [VCV Module Presets](https://vcvrack.com/manual/Presets) L38–50；[Versioning](https://vcvrack.com/manual/Version) L40–48；[Max8 pattrstorage](https://docs.cycling74.com/legacy/max8/refpages/pattrstorage) L173–179/470–471 | READ_LOCATOR；模块预设参数/内部JSON不能包含patch storage文件；Rack主版本及minor方向；Max8匹配client path及保存模式。非完整可重开保证。 |
+| S615 | [MIDI Association MIDI1.0消息](https://midi.org/summary-of-midi-1-0-messages) L62–87/113–118 | READ_LOCATOR；7-bit CC/压力、14-bit bend中心8192/接收端灵敏度，channel mode与时钟；非完整协议/实际设备支持，不从发送推实际状态。 |
+| S616 | [librosa 0.11.0 spectral_centroid](https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html) L11–16/28–72 | READ_LOCATOR；幅度谱权重、Hz、FFT/窗/帧对齐，零和本模块UNKNOWN而非声称库返回；描述符不是美感/身份。 |
+| S617 | [ITU-R BS.1534-3 (10/2015)](https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en) L7–12 | READ_SCOPE_ONLY；中等质量音频系统主观评价的具名规范入口。实际方法全文本轮未读，不宣称音色偏好试验等于MUSHRA；K10既有S516全文资格不升级。 |
+CCRM Stanford检索被robots拒绝，未登记其未读内容为证据。仅原创数值与合成条件，不使用现有版权乐曲、录音或插件。K07物理/安全、K08通用DSP、K09制作、K10测评、K12工具执行、K15权利治理、K19现场扩声分别负责。
