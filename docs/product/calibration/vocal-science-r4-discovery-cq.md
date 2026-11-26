@@ -44,12 +44,12 @@ D表示限定子问题直接知识，S是支持/条件；不宣称回答整CQ。
 | K05.04.01.04 | [VS40](vocal-science-r2-knowledge-cases.md#L14) | 滤波可改变最小输出周期 | [S405](../../research/source-qualification-vocal-science-r1.md#L13)；[S045](../../research/source-qualification-vocal-science-r2.md#L5) | CQ05/CQ07 | CQ17/CQ26/CQ13/CQ25 |
 | K05.04.02.05 | [VS41](vocal-science-r2-knowledge-cases.md#L15) | R1与F0/谐波相对关系 | [S408](../../research/source-qualification-vocal-science-r1.md#L16) | CQ05/CQ07 | CQ17/CQ26/CQ13/CQ25 |
 | K05.04.03.04 | [VS42](vocal-science-r2-knowledge-cases.md#L16) | 源波形与外部谱的耦合区分 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S425](../../research/source-qualification-vocal-science-r3.md#L5) | CQ05/CQ07 | CQ17/CQ26/CQ13/CQ25 |
-| K05.05.01.04 | [VS43](vocal-science-r2-knowledge-cases.md#L17) | 孟语音系register与歌唱机制 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S416](../../research/source-qualification-vocal-science-r2.md#L9) | CQ05/CQ18 | CQ04/CQ06/CQ17/CQ26/CQ13/CQ25 |
+| K05.05.01.04 | [VS43](vocal-science-r2-knowledge-cases.md#L17) | 孟语音系register与歌唱机制 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S416](../../research/source-qualification-vocal-science-r2.md#L9) | CQ05 | CQ04/CQ06/CQ17/CQ26/CQ13/CQ25/CQ18 |
 | K05.05.02.04 | [VS44](vocal-science-r2-knowledge-cases.md#L18) | 可达舒适机制三类范围 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S417](../../research/source-qualification-vocal-science-r2.md#L10) | CQ05/CQ06 | CQ17/CQ26/CQ13/CQ25 |
 | K05.05.03.04 | [VS45](vocal-science-r2-knowledge-cases.md#L19) | 音色差异的样本和任务条件 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S416](../../research/source-qualification-vocal-science-r2.md#L9)；[S426](../../research/source-qualification-vocal-science-r3.md#L6) | CQ05/CQ26 | CQ17/CQ18/CQ13/CQ25 |
 | K05.06.01.04 | [VS46](vocal-science-r2-knowledge-cases.md#L20) | 最小对立与音位边界 | [S419](../../research/source-qualification-vocal-science-r2.md#L12)；[S049](../../research/source-qualification-vocal-science-r1.md#L9) | CQ04 | CQ05/CQ18/CQ23/CQ26/CQ13/CQ25 |
 | K05.06.02.04 | [VS47](vocal-science-r2-knowledge-cases.md#L21) | 元辅音和清浊非同一维度 | [S404](../../research/source-qualification-vocal-science-r1.md#L12)；[S415](../../research/source-qualification-vocal-science-r2.md#L8) | CQ04/CQ07 | CQ05/CQ06/CQ22/CQ23/CQ13/CQ25 |
-| K05.06.03.04 | [VS48](vocal-science-r2-knowledge-cases.md#L22) | 语言register多线索及语种差异 | [S416](../../research/source-qualification-vocal-science-r2.md#L9)；[S418](../../research/source-qualification-vocal-science-r2.md#L11) | CQ04/CQ18 | CQ05/CQ17/CQ26/CQ13/CQ25 |
+| K05.06.03.04 | [VS48](vocal-science-r2-knowledge-cases.md#L22) | 语言register多线索及语种差异 | [S416](../../research/source-qualification-vocal-science-r2.md#L9)；[S418](../../research/source-qualification-vocal-science-r2.md#L11) | CQ04 | CQ05/CQ17/CQ26/CQ13/CQ25/CQ18 |
 | K05.07.01.04 | [VS49](vocal-science-r2-knowledge-cases.md#L23) | 采样/窗与估计前置 | [S409](../../research/source-qualification-vocal-science-r1.md#L17)；[S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ07 | CQ05/CQ06/CQ14/CQ20/CQ22/CQ13/CQ25 |
 | K05.07.02.04 | [VS50](vocal-science-r2-knowledge-cases.md#L24) | 局部jitter/shimmer定义 | [S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S420](../../research/source-qualification-vocal-science-r2.md#L13) | CQ07/CQ22 | CQ05/CQ06/CQ14/CQ20/CQ24/CQ13/CQ25 |
 | K05.07.02.05 | [VS51](vocal-science-r2-knowledge-cases.md#L25) | CPP及趋势线定义 | [S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S421](../../research/source-qualification-vocal-science-r2.md#L14) | CQ07/CQ22 | CQ05/CQ14/CQ20/CQ24/CQ13/CQ25 |
@@ -89,7 +89,7 @@ D表示限定子问题直接知识，S是支持/条件；不宣称回答整CQ。
 | CQ15 | 0 | 5 | 支持教学目标/练习的安全与观测前置，不制定个体练习 |
 | CQ16 | 0 | 1 | 局部修改的原始/派生电平区分，实际工程编辑K08/09 |
 | CQ17 | 4 | 41 | 定义/模型/生理/统计与语音实践证据层级 |
-| CQ18 | 2 | 7 | 孟语、缅语/佤语研究的限定语言学反例；非真实歌唱/全域文化 |
+| CQ18 | 0 | 9 | 只支持孟语与缅语/佤语语言学术语和证据差异；无真实非西方歌唱音乐证据，不标D |
 | CQ19 | 0 | 5 | 支持非临床观测前置和风险停止/转介，K06主责教学 |
 | CQ20 | 0 | 13 | 支持测量工具能力与拒绝前置，不执行临床或软件 |
 | CQ21 | 2 | 2 | 科学证据、原始/派生及分析版本、时标失效 |
@@ -113,3 +113,5 @@ D表示限定子问题直接知识，S是支持/条件；不宣称回答整CQ。
 - CQ-K05-11 EGG和频闪影像是否直接得到接触面积或每周期运动？VS28/56/57/65；间接测量与同步。
 - CQ-K05-12 研究结果能否移植为缅语歌唱规则？VS29/30/45/48/58–60/63；语种、人群、方法和复现身份。
 局部题含静态ID入口，主索引精确行；真实检索/LLM、人体、音频及软件未执行。
+
+组合发现入口：[VX01](vocal-science-r5-integrated-closure.md#L6)（CQ05/07/17）；[VX02](vocal-science-r5-integrated-closure.md#L7)（CQ06/24/26）；[KC-V05](vocal-science-r5-integrated-closure.md#L8)（CQ04/06/07/21/22/24/25），不增加66主谓词计数。CQ18全部仅S/UNKNOWN，避免将语言学研究标非西方音乐实证。
