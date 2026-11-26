@@ -85,14 +85,14 @@ DRAFT；48主D4静态入口，具体法律版本/来源条件见登记；非图�
 | ID | 问题 | 入口 | 限定 |
 |---|---|---|---|
 | CQ-K15-01 | 署名角色能否证明所有权？ | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5) | 具体贡献与授权主体独立 |
-| CQ-K15-02 | 操作、评审、发布权限是否相同？ | [GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6) | 行动、主体和范围 |
-| CQ-K15-03 | 如何确认交付完整？ | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8) | 硬对象、条件和授权 |
-| CQ-K15-04 | 素材变化影响哪些下游？ | [GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9) | 依赖及回读 |
+| CQ-K15-02 | 操作、评审、发布权限是否相同？ | [GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6) |行动、授权人/被授权主体/操作者及委托、项目与范围独立 |
+| CQ-K15-03 | 如何确认交付完整？ | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8) |四类交付物身份、保护旋律、编辑依赖及当前回执 |
+| CQ-K15-04 | 素材变化影响哪些下游？ | [GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9) |内容依赖与验收依赖；N/P/ENV变更使Q/D待复核 |
 | CQ-K15-05 | 同名/同hash/同码能否判同一录音？ | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11) | 作品、资源、文件及时基分开 |
-| CQ-K15-06 | 技术PASS能否发布？ | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14) | 权利/安全/交付硬门禁 |
+| CQ-K15-06 | 技术PASS能否发布？ | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14) |权利/安全/交付及当前精确回执、旋律、工程重开证据的同一硬门禁 |
 | CQ-K15-07 | 翻唱要核什么权利？ | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17) | 作品/录音/表演及具体行为 |
 | CQ-K15-08 | NC ND SA如何区分？ | [GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | 具体版本和行为/例外 |
-| CQ-K15-09 | 录音许可是否等于声音同意？ | [GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21) | 用途/对象/受众/期限和位置 |
+| CQ-K15-09 | 录音许可是否等于声音同意？ | [GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21) |对象/用途/项目/被授权主体/操作者及委托、受众/期限和位置 |
 | CQ-K15-10 | 撤回后能否直接删除所有历史？ | [GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | 法律/合同/请求与依赖/已发行 |
 | CQ-K15-11 | 派生数据是否自动无权利风险？ | [GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | 来源、风险及未知 |
 | CQ-K15-12 | 发行消息和实际发布是否相同？ | [GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27) | deal与权利、外部状态独立 |
@@ -108,3 +108,5 @@ DRAFT；48主D4静态入口，具体法律版本/来源条件见登记；非图�
 8. 12 local: true
 9. source locators: true
 10. 8 inbound split: true
+
+R6三项修订见[有限见证](production-governance-r6-review-remediation.md)；主原子与发现F+同步更新，26 CQ/12局部问题、源ID及原角色不新增或改变。
