@@ -1,0 +1,10 @@
+# K14 R1 来源资格：音乐教育与学习证据
+DRAFT #61；新增S557–561；既有S145–151的证据等级保持并定向补读。只原创概括和有限符号例，不复制教材谱例、音频、学习者资料或真实量规。
+| ID | 原文及定位 | 资格 |
+|---|---|---|
+| S557 | [EEF Feedback toolkit](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/Feedback) 实际HTML L26–40 Key findings/How effective | READ_LOCATOR；任务、过程、自我调节反馈，时点及来源多样，效果有异质性乃至负效应；学校教育通用综述，不是特定音乐技能因果或固定频率。 |
+| S558 | [EEF Metacognition and Self-Regulated Learning](https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/metacognition) 实际HTML L33–37 | READ_LOCATOR；计划/监控/评价及课程内具体策略，指导报告入口；未读链接PDF，不将之视为音乐学习试验。 |
+| S559 | [Open Music Theory Protonotation](https://openmusictheory.github.io/protonotation.html) 实际HTML L5–32 | READ_LOCATOR；相对音级、拍/节奏、休止与未辨识空白、转换五线谱须补主音/谱号/拍值；指定教学表示非普遍乐谱、无成效试验。 |
+| S560 | [Carter & Grahn 2016](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01251/full) DOI10.3389/fpsyg.2016.01251，实际HTML L371–396/441–469/534–542 | READ_LOCATOR；10位较有经验单簧管手，每曲累计12分钟，交替块3分钟，同被试交叉顺序平衡，初读/即时/次日同曲与三位专业评审；结果依评审和材料、许多比较未显著。不是未见曲迁移试验或普适策略剂量。 |
+| S561 | Integrated Aural Skills 2019–20 [Intervals](https://intmus.github.io/intas19-20/01-introduction-to-intervals/dictation.html) L225–251；[Sight Singing](https://intmus.github.io/intas19-20/01-introduction-to-intervals/sight-singing.html) L230–248；[Rhythmic Dictation](https://intmus.github.io/intas19-20/03-introduction-to-melodic-dictation/dictation.html) L225–242；[Melodic Dictation](https://intmus.github.io/intas19-20/03-introduction-to-melodic-dictation/dictation2.html) L225–241；[Harmonic Dictation](https://intmus.github.io/intas19-20/09-introduction-to-harmonic-dictation/dictation.html) L225–241 | READ_LOCATOR；大学课程特定任务、移动唱名、上下文音程、节拍分组、给主和弦及旋律听写、外声部及罗马数字；不普适调性法则、教学效应或真实测试。教材CC BY-NC-SA声明，未复用内容资产。 |
+S145 本轮重读正文L73–78（艺术过程与连接）；S149 课程目录实际读取并由S561细化。S148 2025教材出版描述16章和CC BY-NC-SA4.0许可记录，本轮未下载全文。S150 本轮实际CAST UDL主页L48–141，7.1自主、7.3乐趣、8.1目标/8.2挑战与支持/8.5行动反馈、2.2符号解码、3.4迁移、4.2/5.1–5.3/6.4监控，框架不是音乐效果研究。S151 本轮正文L77–84，MCA用于学生学习，不作教师质量评价，广泛修改影响信效度，未读实际量规PDF。S146仅摘要；S147历史访问失败不升级。实际教材与课程设计不等于真实学习、诊断、临床或教师效能证据。
