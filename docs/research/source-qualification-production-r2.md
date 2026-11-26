@@ -12,4 +12,5 @@
 | S504 | [Melodyne5 Assistant Quick Start](https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_QuickStart_assistant?env=live) Editing | READ_LOCATOR；音高、位置、时长、调制、共振峰等独立可编辑对象，非真实运行或音质验证。 |
 | S505 | [Ardour Panning](https://manual.ardour.org/mixing/panning/) 与 [Mono Panner](https://manual.ardour.org/mixing/panning/mono_panner/) | READ_LOCATOR；单输入双输出和多声道分配、位置与宽度区分；自建等功率算例不宣称Ardour曲线。 |
 | S506 | [Ardour Balance Control](https://manual.ardour.org/mixing/panning/balance_control/) centered/linear attenuation | READ_LOCATOR；双通道平衡与单输入声像不同，具体宿主文档；不推听感。 |
+| S507 | [ITU-R BS.1770-5 Annex1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) 实际PDF截图零基3/7/8印刷2/6/7，式2/4–7及适用布局 | READ_LOCATOR；K频权、各通道均方/权重、400ms窗75%重叠、绝对−70 LKFS和相对−10 LU门控后能量平均；Annex1最多五主声道、LFE排除，其他布局参照适用附录。不复制系数、不实现完整仪表；S483为同规范Annex2，不算独立规范。 |
 S483既有BS.1770-5 Annex2真峰正文资格继承；S098仍LANDING_ONLY，完整听评协议K10。没有下载测试音频、运行DAW/插件、测量仪表或核许可。
