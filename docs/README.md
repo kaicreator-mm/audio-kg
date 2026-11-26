@@ -239,3 +239,6 @@ K11 [#53](https://github.com/kaicreator-mm/audio-kg/issues/53)：[30主案例](p
 
 ## G03-K11 R3
 [60旧槽及两项迁移](product/calibration/ai-models-r3-legacy-convergence.md)、[70格能力](product/calibration/ai-models-r3-capability-calibration.md)、[60主原子/26CQ/12局部发现](product/calibration/ai-models-r3-discovery-cq.md)。原S117来源说明尾段纠正撤回状态，不改变历史需求和编号；D24两项SPLIT_OPEN不变。10实际有限结构检查，R4综合保护任务及累计精确链接检查待完成。内部checkpoint，未审核。
+
+## G03-K11 R4 完整模块Builder候选
+[EX01/EX02/KC-A11](product/calibration/ai-models-r4-integrated-closure.md)。累计60主D4/240期望四视角、30D3、60历史槽、70原能力68P2S、26CQ/12局部发现、S523–537共15来源、58有限检查（R1历史14/R2–4本轮44）；1150精确逐行链接预检0错配。S117撤回、两项D24迁移及历史P2 OPEN。无实际模型、音频、语言、权利、设备、CI、accepted claims或L1 freeze。D26完整模块required独立审核候选，K12仍阻塞。
