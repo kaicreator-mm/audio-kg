@@ -1,0 +1,15 @@
+# K10 R1 音乐理解与评价来源资格
+2026-11-26。实际重读S099/101/102/104/105的mir_eval stable页面，均显示0.8.2；melody conventions/metrics、beat f_measure及预处理、chord根音/词汇/转位、transcription note matching、segment边界/标签。未运行库。S100/S023/S051等继承原资格。S098旧LANDING_ONLY和S107 SEARCH_ONLY不覆盖新正文；S103原版本标记需要校正，见S510（不改历史记录，后续收敛旧case map时明确限定）。
+| ID | 来源与定位 | 资格与限制 |
+|---|---|---|
+| S508 | [mir_eval multipitch stable](https://mir-eval.readthedocs.io/stable/api/multipitch.html) 0.8.2 Conventions/Metrics | READ_LOCATOR；每帧多F0集合，空数组无活动F0，Hz/秒、半音距离及chroma；时间对齐/重采样细节待专项，不宣称库实测。 |
+| S509 | [mir_eval hierarchy stable](https://mir-eval.readthedocs.io/stable/api/hierarchy.html) 0.8.2 Conventions/T-measure/L-measure | READ_LOCATOR；多层区间和标签，层级指标与平面分段不同，完整时间范围和参数，未运行。 |
+| S510 | [mir_eval key stable](https://mir-eval.readthedocs.io/stable/api/key.html) 0.8.2 weighted_score；[latest](https://mir-eval.readthedocs.io/latest/api/key.html) 0.9.0dev weighted_score | READ_LOCATOR；实际页面0.8.2签名两参数，向上五度0.5；0.9.0dev第三参数allow_descending_fifths可改变向下五度评分。原S103将latest与0.8.2并列的旧版本标记不能作为稳定版参数证据；原FG-K10.03.03的开关例只绑定0.9.0dev文档或后续核实的具体实现，待R3明确收敛。不从网页推已安装版本，未知/other、文化调式适用性另核。 |
+| S511 | [OpenMIC-2018 paper record](https://zenodo.org/records/1492445) Description, version v1, 2018 | ABSTRACT_READ；20类乐器的部分标注，多标签任务。未读论文PDF、下载素材或核每条许可，不能将未标注当负例或声部追踪证据。 |
+| S512 | [MIREX2026 Lyrics-to-Audio Alignment 镜像](https://futuremirex.com/mirex/wiki/2026:Lyrics-to-Audio_Alignment) 2026-11-26快照 Description/Evaluation/Output | MIRROR_READ_LOCATOR；原站502；给歌词词级对齐，时间边界与误差/窗口评价，0.3s仅任务口径；镜像非原站实时权威，原实现/数据集/语言分词与许可待核。 |
+| S513 | [MIREX2026 Lyrics Transcription 镜像](https://futuremirex.com/mirex/wiki/2026:Lyrics_Transcription) 2026-11-24快照 Evaluation | MIRROR_READ_LOCATOR；原站超时；WER/CER及格式标注指标区别，未读示例歌词内容作知识或复制，未获取音频、实现/评分和语种适用性待核。 |
+| S514 | [MIREX2026 Audio-to-Score Transcription 镜像](https://futuremirex.com/mirex/wiki/2026:Audio-to-Score_Transcription) 2026-11-25快照 Evaluation | MIRROR_READ_LOCATOR；原站超时；符号文本与音乐转录的多维评价（音高/声部/节拍/时值等），该届部分指标不启用；非完整MV2H实现/实际比赛结果或跨格式通用性。 |
+| S515 | [Solo music performance assessment criteria: a systematic review](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1467434/full) 2024, literature background and assessment categories | READ_LOCATOR；准确性/技术/表达/发音及评价差异、量规和文化/风格条件；不作普遍教学标准、医学或单一总分；本轮非系统重审全部原研究。 |
+| S516 | [ITU-R BS.1534-3 (2015)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1534-3-201510-I!!PDF-E.pdf) 实际截图零基8/9/10/16，印刷7/8/9/15，§5.1–5.4/9.1–9.2 | READ_LOCATOR；MUSHRA中等/较大技术损伤、公开参考/隐藏参考/低中锚点、双盲、多刺激、听者训练、0–100连续质量尺度、统计及功效；不同实验锚点不能随意重标，非无参考或艺术审美标准，不声称完整BS.1116/BS.1534实施。 |
+| S517 | [Cross-cultural comparison of rhythm priors in 15 countries](https://www.nature.com/articles/s41562-023-01800-9) 2024 | SEARCH_ONLY；实际打开身份验证跳转失败，不采用实证数值/文化普遍结论；待合法可读原文，K17机制/K16文化解释不重复。 |
+S484 SI-SDR投影尺度限制、S497/498/507/483响度门控与峰值保留原资格，#46/#49后续问题OPEN；本轮不关闭。未执行真实识别、转录、测量、听评、用户声音、许可、数据集或库版本测试；所有案例原创合成。
