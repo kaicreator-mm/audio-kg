@@ -172,3 +172,7 @@ K03 [#30](https://github.com/kaicreator-mm/audio-kg/issues/30)：
 
 ## G03-K03 R2专业深化
 [23新增专业候选与四视角](product/calibration/arrangement-r2-knowledge-cases.md)、[S336–348来源资格/方法记录](research/source-qualification-arrangement-r2.md)、[48旧槽部分路由](product/calibration/arrangement-r2-legacy-routing.md)、[30实际有限检查](product/calibration/arrangement-r2-validation.md)。累计32主案例；48旧槽均PARTIAL_LINK，不视为语义闭合。K03仍OPEN，后续补音色/乐器与手型限制、完整节奏组与地域案例、编曲修订及交换损失、七能力/CQ和专业收敛，不提前送审。
+
+
+## G03-K03 R3–R5 批量收口候选
+[R3 23主候选](product/calibration/arrangement-r3-knowledge-cases.md)、[R4 5主候选](product/calibration/arrangement-r4-knowledge-cases.md)、[S349–375来源与限制](research/source-qualification-arrangement-r3.md)、[R3有限检查](product/calibration/arrangement-r3-validation.md)、[48旧槽收敛及13联合范围](product/calibration/arrangement-r4-legacy-convergence.md)、[60逐谓词/CQ26及12局部题](product/calibration/arrangement-r5-discovery-cq.md)、[56能力格](product/calibration/arrangement-r5-capability-calibration.md)、[AX01/AX02/KC-A03贯穿补证](product/calibration/arrangement-r5-integrated-closure.md)。累计60主案例、48历史槽（35路由/13联合范围候选）、56能力、26 CQ；待完整模块累计专业独立审核，不代表accepted claims、L1 freeze、真实演奏/DAW/LLM/图谱及素材许可。K04保持阻塞。
