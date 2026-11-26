@@ -58,3 +58,5 @@
 | K07.08 | A05 | P | 区分偏好、物理变化、暴露未知及急症，不作放行 | [AC25/K07.08.02.03](acoustics-r1-knowledge-cases.md#L29)；[AC26/K07.08.03.03](acoustics-r1-knowledge-cases.md#L30)；[AC49/K07.08.02.04](acoustics-r2-knowledge-cases.md#L27)；[AC50/K07.08.03.04](acoustics-r2-knowledge-cases.md#L28) | K07限定专业语义；非真实执行/独立PASS。 |
 | K07.08 | A06 | S | 支持条件/对照/反馈记录，实际可编辑素材和格式K08/K12 | [AC26/K07.08.03.03](acoustics-r1-knowledge-cases.md#L30)；[AC48/K07.08.01.04](acoustics-r2-knowledge-cases.md#L26)；[AC50/K07.08.03.04](acoustics-r2-knowledge-cases.md#L28) | 引用支持，具体owner见任务知识，不迁移执行权。 |
 | K07.08 | A07 | P | 限定改分析参数、保护原件、重新核条件；撤回或风险停止 | [AC26/K07.08.03.03](acoustics-r1-knowledge-cases.md#L30)；[AC49/K07.08.02.04](acoustics-r2-knowledge-cases.md#L27)；[AC50/K07.08.03.04](acoustics-r2-knowledge-cases.md#L28) | K07限定专业语义；非真实执行/独立PASS。 |
+
+组合支撑：[KC-A07](acoustics-r4-integrated-closure.md#L7)七能力限定分析，[AX01](acoustics-r4-integrated-closure.md#L5)波/谱/响应条件及[AX02](acoustics-r4-integrated-closure.md#L6)听觉、计量、暴露与安全边界；原56格27P/14S/15C不变。
