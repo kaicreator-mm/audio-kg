@@ -7,18 +7,18 @@ S564 RIN2.1入口与§1/5.1：一次创作或修改构成studio event，一项de
 
 ## EX02 — 法律版本、许可文本、同意、数据风险各自判定
 [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25)
-S566 Myanmar2019 No.15，2023-10-31生效据EU IP Helpdesk和Myanmar MOI报道；未读通知原件/缅文对照/最新修法判例。§18作品经济权（复制、翻译改编、传播等），§20作者精神权与经济权分开；§34经济权可部分转移并书面签字，相关权利转移另有相关人员同意条件；§37–39表演者/录音制作者经济及表演者精神权不同；§24个人部分复制有条件且整体或实质部分乐谱排除，§27教学部分复制有目的/公平/署名及数字课包受限网络条件，§41相关权利特定例外（科学研究复制、面对面教学等）不自动覆盖作品或任意训练发布；§86公有领域仍须尊重作者姓名/完整性边界，旧作品不等新录音权利届满。真正适用需辖区、事实、期限、主体与合同另核，不能从本例判AI训练或实际授权。S567仅依有效BY-NC-ND4.0无其他许可/例外：非商业原版分享需满足署名等，非商业制作/复制改编不授权分享改编；必要技术修改不自动构成改编；人格/隐私等未普遍授予，有限放弃/不主张条款也不替代具体授权。BY-SA4.0分享改编需满足适用兼容许可及署名等，不可限制获许可权利。§6违约终止/发现后30日内补救自补救日恢复（或明确恢复），停止分发本身不终止合规许可。S568美国2024报告印41–42为政策建议，提出知情同意、期限和新使用/已合法制作发行的区分，不作为当前美国法律或缅甸法律。S569 NIST RMF1.0 Map4.1第三方数据/IP风险、Measure2.10隐私、Manage1.1/1.3/3.1–3.2 go/no-go及风险治理；自愿风险框架不是法律。声音身份/录音权/作品权/数据权限分别核，源变化影响后代不证明自动版权继承、训练遗忘或必须销毁。真实法律和许可未知必须保留。
+S566 Myanmar2019 No.15，2023-10-31生效据EU IP Helpdesk和Myanmar MOI报道；未读通知原件/缅文对照/最新修法判例。§18作品经济权（复制、翻译改编、传播等），§20作者精神权与经济权分开；§34经济权可部分转移并书面签字，相关权利转移另有相关人员同意条件；§37–39表演者/录音制作者经济及表演者精神权不同；§24个人部分复制有条件且整体或实质部分乐谱排除，§27教学部分复制有目的/公平/署名及数字课包受限网络条件，§41针对§37–40及42相关权利，第(2)项专为科学研究的复制，第(3)项专为面对面教学的复制且排除已作为教学材料发布的表演与录音制品；末尾要求不与正常利用冲突且不不合理损害权利人合法利益；普通录音仅可在所有条件另证时进入例外候选，已发布教学录音不能仅依第(3)项，作品权及其他行为/权利另核，不自动覆盖训练发布；§86公有领域仍须尊重作者姓名/完整性边界，旧作品不等新录音权利届满。真正适用需辖区、事实、期限、主体与合同另核，不能从本例判AI训练或实际授权。S567仅依有效BY-NC-ND4.0无其他许可/例外：非商业原版分享需满足署名等，非商业制作/复制改编不授权分享改编；必要技术修改不自动构成改编；人格/隐私等未普遍授予，有限放弃/不主张条款也不替代具体授权。BY-SA4.0分享改编需满足适用兼容许可及署名等，不可限制获许可权利。§6违约终止/发现后30日内补救自补救日恢复（或明确恢复），停止分发本身不终止合规许可。S568美国2024报告印41–42为政策建议，提出知情同意、期限和新使用/已合法制作发行的区分，不作为当前美国法律或缅甸法律。S569 NIST RMF1.0 Map4.1第三方数据/IP风险、Measure2.10隐私、Manage1.1/1.3/3.1–3.2 go/no-go及风险治理；自愿风险框架不是法律。声音身份/录音权/作品权/数据权限分别核，源变化影响后代不证明自动版权继承、训练遗忘或必须销毁。真实法律和许可未知必须保留。
 
 ## KC-GV15 — LOC-A01授权同旋律缅语版本的生产治理
-原LOC-A01需要保持指定旋律并交付缅语版本和可编辑歌词/谱面/工程；K13负责语种理解和词曲适配证据。本题虚构内部研究项目J，W1作品，N1谱，L1译稿，VREF1参考音，B1伴奏、V1生成候选声部、ST1歌声stem、M1混音、P1@1工程。初始仅三个题设授权：G-W W1 translate、G-V VREF1 local_inference、G-B B1 local_mix，MM/内部受众/E1/半开时间[10,100)，grantor P-W/P-V/P-B均题设已核且各自仅该动作；其他新录制、复制、生成输出使用、训练/外传/公开发布未自动许可。时刻50的三个请求仅通过对应有限范围谓词，不是整套生产许可；生成前仍须按实际所有必要对象/行为核权利链、安全、工具和语种。编辑工程师仅edit、评审者仅review、发行者仅publish角色资格，角色能力不替代权利授权。不同对象、用途、地域/受众、期限、epoch及未知证据均拒绝。 
-依赖W/VREF/B为源；L依W；V依L/VREF；M依V/B；ST依V；Q依M/ST；D依Q及当前权利；本例DAG仅为内容影响模型，权限为独立动态门禁，D未实际执行。VREF变化影响VREF/V/M/ST/Q/D；L变化影响L/V/M/ST/Q/D，独立B仍需复核当前资格；回滚旧V若依同失效VREF，不能恢复授权。保留原文件和历史报告。回执绑定源W1、译稿L1、谱N1、歌声V1、伴奏B1、工程P1@1、混音M1、stem ST1、格式48k-WAV、当前权利epoch E1、配置C1、评价量规Q1及输出内容标记D1。D1为合成摘要标记，实际内容摘要需计算；报告条件变更重验。
+原LOC-A01需要保持指定旋律并交付缅语版本和可编辑歌词/谱面/工程；K13负责语种理解和词曲适配证据。本题虚构内部研究项目J、被授权主体ORG-J，W1作品、N1谱、L1译稿、VREF1参考音、B1伴奏、V1生成候选声部、ST1歌声stem、M1混音、P1@1工程。初始仅三个题设授权：G-W W1 translate、G-V VREF1 local_inference、G-B B1 local_mix，均绑定项目J、被授权主体ORG-J、获准实际操作者OP-E及其题设已核委托/身份、MM/内部受众/E1/半开时间[10,100)，grantor P-W/P-V/P-B均题设已核且各自仅该动作。项目、主体、操作者及有效委托、授权人、受众、对象、动作、地域、时间和epoch均分别核，不从角色或受众推身份授权。时刻50三请求通过有限范围谓词而非整套生产许可；新录制、复制、输出使用、训练/外传/公开发布等未自动许可。编辑、独立评审、发行角色不继承许可；生成前另核全部必要真实权利、安全、工具和语种。跨项目/主体/操作者、缺失委托或未知证据停止。
+内容依赖：W/N/VREF/B/ENV为源，L依W；V依L/N/VREF；M依V/B；ST依V；P依N/L/V/M/ST/B/ENV（ENV为编辑依赖/插件状态与环境）。验收依赖Q依N/L/M/ST/P/ENV，D依Q及当前动态权利与安全。此为合成依赖模型，非调度器；P后置改动不必改变既有音频，却使Q/D待复核。N变更到达V/M/ST/P/Q/D，P变更到达Q/D，ENV变更到达P/Q/D；VREF/L变更及独立B原规则保留。当前候选身份包含W1、L1、N1及保护旋律基线、V1、VREF1、B1、P1@1、M1、ST1、ENV1、格式48k-WAV、J/ORG-J/OP-E、授权epoch E1、配置C1、量规Q1、输出内容标记D1、四类交付对象身份及内容标记（合成）。强制同一放行谓词同时检查全部硬项、保护旋律逐事件核对、当前工程依赖清单完整且重开/编辑性证据为真、当前候选完整身份和全部验收回执精确匹配、Q/D无未复核失效；旧Q即使音频不变亦不得沿用。当前真实权利/安全仍是独立门禁。具体[R6修订及有限见证](production-governance-r6-review-remediation.md)；不把合成标记当实际hash或真实重开。
 | 候选 | 条件 | 处置 |
 |---|---|---|
 | C1 | 三个范围请求均匹配 | 仅有限用途范围谓词通过，非实际生成/发行许可 |
-| C2 | 参考无同意、改其他用途/声样/地区/受众或已过期 | STOP_OR_PENDING |
+| C2 | 参考无同意、跨项目/被授权主体/操作者或委托不明、改其他用途/声样/地区/受众或已过期 | STOP_OR_PENDING |
 | C3 | 技术/音乐评分高，权利/安全未知 | STOP_OR_PENDING |
-| C4 | WAV合格但可编辑工程、谱词或授权证据任何缺失 | NOT_READY |
-| C5 | 技术、音乐、当前全部权利、安全、独立评审、四种必交对象均题设为真 | SYNTHETIC_CANDIDATE_ONLY；不证明任何真实权利或交付 |
+| C4 | WAV合格但可编辑工程、谱词或授权证据缺失；或N/P变化、保护旋律错误、工程依赖缺失/重开未知、旧回执或Q/D待复核（即使四类文件都在且音频不变） | NOT_READY |
+| C5 | 技术、音乐、当前全部必要权利、安全、独立评审、四类必交对象身份、保护旋律、当前工程依赖与重开/编辑性、当前精确回执及失效复核均题设合格 | SYNTHETIC_CANDIDATE_ONLY；不证明真实权利或交付 |
 | C6 | 只发送发行请求、ACK存在但未实际回读，或回读版本/地域不符 | UNKNOWN_PENDING |
 另设独立的虚构公开发行合同（不继承内部G-W/G-V/G-B）：REL1 的deal为MM、stream、subscription、[100,200)；时刻150仅该deal范围符合，另核所有实际许可和审批。预购、实际外部状态分别记录；发送/ACK均不等实际可访问，题设验证接收及对应版本REL1@1/地域MM的外部观察只证明该有限对象状态。MM撤下请求不自动取消其他地域，撤下回读未知须保持PENDING。既有发行的法律状态与新用途停止独立。
 | 能力 | 任务动作 | 入口 |
@@ -31,7 +31,7 @@ S566 Myanmar2019 No.15，2023-10-31生效据EU IP Helpdesk和Myanmar MOI报道�
 | A06 编 | 贡献/交付/素材/数据/归档记录，不代合同或真实声音制作 | [GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26) |
 | A07 循 | 修订、回滚、撤回/争议、复核及停止 | [GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) |
 
-## 实际有限JS检查
+## 历史R4实际有限JS检查（原53累计记录中的25；R5发现组合缺口，现行谓词以R6为准，不重称旧检查证明修订）
 1. 48 linked cases: true
 2. role separation: true
 3. three distinct grants: true
@@ -58,3 +58,5 @@ S566 Myanmar2019 No.15，2023-10-31生效据EU IP Helpdesk和Myanmar MOI报道�
 24. scope takedown not global: true
 25. frame clock: true
 25/25本轮实际有限检查，R1–R2 18/R3 10/R4 25共53记录。均为虚构对象算术/结构/条件分支，非实际生产、合同、许可、声音、数据、模型、发行、CI、标准符合、accepted claims、L1 freeze。八D24 SPLIT_OPEN及历史#28/#32/#35/#38/#41/#46/#49/#52/#55/#60/#63 OPEN，未隐式关闭。完整模块候选待独立审核。
+
+R5完整审核 FAIL（1 P1/2 P2）见[#64审核](https://github.com/kaicreator-mm/audio-kg/issues/64#issuecomment-7200034924)，R6替换现行组合合同；以上25项原测试记录保留为历史，不作为修订独立审核结果。
