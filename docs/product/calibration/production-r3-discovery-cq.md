@@ -95,3 +95,5 @@
 - CQ-K09-11 怎样做受控A/B与客观/人工评价？ [MP23](production-r1-knowledge-cases.md#L27)、[MP47](production-r2-knowledge-cases.md#L27)。
 - CQ-K09-12 怎样拒绝候选、回滚及停止？ [MP24](production-r1-knowledge-cases.md#L28)、[MP48](production-r2-knowledge-cases.md#L28)。
 CQ18 D0/S0；CQ13/25仅静态追踪。K19现场任务不是本域评价或操作权威。
+
+组合发现：[PX01](production-r4-integrated-closure.md#L5) CQ16/19/21；[PX02](production-r4-integrated-closure.md#L6) CQ08/19/20/22；[KC-P09](production-r4-integrated-closure.md#L7) CQ16/21/23/24/25；非新增主D4或实际检索。
