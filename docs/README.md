@@ -297,3 +297,7 @@ G04 [#78](https://github.com/kaicreator-mm/audio-kg/issues/78) 开始，[R1现�
 
 ## G04 R6 全域累计审核候选（Builder）
 [#78](https://github.com/kaicreator-mm/audio-kg/issues/78) / [PR79](https://github.com/kaicreator-mm/audio-kg/pull/79)；[累计交付与独立审查合同](product/calibration/g04-r6-cumulative-review-candidate.md)。36个P2发现均进入实际修订，15 Issue仍OPEN；28 NEW/51 REUSE/16 REF目标核对和28组合候选，全部旧SPLIT_OPEN保持；19域159活跃D2/1084发现行、1929明确来源引用定位、1113活跃能力格、26CQ精确映射、七能力XC01有限合成验证。源访问、许可冲突、专业外推、历史见证未全面重跑等限制见累计合同；没有真实音频/LLM/DB/CI/权限/accepted claims或L1 freeze。G04须一次完整required独立审核，最终exact HEAD见#78/PR79同一派审回执；CAL07/G05/T03/L2仍阻塞。
+
+
+## G04 R7 — 累计审核FAIL后的修订及完整复审
+原R6 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203270001) 0已发现P0/2P1且累计审核未覆盖完整范围。现行[复审合同](product/calibration/g04-r7-cumulative-remediation-review-candidate.md)：[XC01-R2](product/calibration/g04-r7-xc01-protection-remediation.md) 60/60有限探针；[26CQ语义发现](product/calibration/g04-r7-cq-semantic-discovery.md)、[48有限推演](product/calibration/g04-r7-cq-semantic-validation.md)；[36项历史发现工作单](product/calibration/g04-r7-cumulative-findings-docket.md)、[19域审查工作单](product/calibration/g04-r7-domain-review-docket.md)。28组合回读且12组语义补强；15 OPEN及28 SPLIT_OPEN保持。构建者候选，不替代原未完成的累计独立审核；最终Exact HEAD见#78/PR79派审回执。CAL07/G05/T03/L2继续阻塞。无真实音频、LLM/DB、CI或accepted claims。
