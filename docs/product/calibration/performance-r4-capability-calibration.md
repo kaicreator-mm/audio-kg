@@ -58,3 +58,5 @@
 | K04.08 | A05 | P | 真实安全/演奏与版本证据，未知停用 | [PF46/K04.08.01.04](performance-r2-knowledge-cases.md#L32)；[PF48/K04.08.02.04](performance-r2-knowledge-cases.md#L34)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13) | 限定任务/符号评价及真实评价条件，不填真实结果。 |
 | K04.08 | A06 | S | 支持setlist、日志与音乐提示，技术产物由K19 | [PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 支持记录要求，不取得他域编辑/技术主责。 |
 | K04.08 | A07 | P | 异常→分因/授权→复测/回滚 | [PF47/K04.08.02.03](performance-r2-knowledge-cases.md#L33)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 具体知识候选，非实际运行或专业PASS。 |
+
+贯穿七能力 [KC-P04](performance-r5-integrated-closure.md#L8)；K04.05 A01/05 [PX01](performance-r5-integrated-closure.md#L6)；K04.01/.08 A02/05/07 [PX02](performance-r5-integrated-closure.md#L7)。保持42P/14S，实际运行/评价未验证。
