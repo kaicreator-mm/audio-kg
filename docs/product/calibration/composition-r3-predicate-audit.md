@@ -67,3 +67,5 @@
 | K02.07.03.08 | [CO-63](composition-r3-knowledge-cases.md) L14 | [S316](../../research/source-qualification-composition-r2.md) | C | 原创低位输出模型穷举16种seed，S316只作工具机制参照。 |
 | K02.07.02.06 | [CO-64](composition-r3-knowledge-cases.md) L15 | [S310](../../research/source-qualification-composition-r2.md)、[S315](../../research/source-qualification-composition-r2.md) | P | 明确题定弱位D级进与F#反例；K01非和弦音理论，创作条件仍依规则集。 |
 计数：{"P":35,"C":13,"L":16}。尚需真实语言材料/更广专业范围的条件裁决、48历史槽的残余/重叠及能力/CQ关联充分性，不因分类结束即派审核。
+
+R4当前收口：[全部16 L组合精确关系](composition-r4-closure-links.md)与[9补证组](composition-r4-scope-closure.md)，含完整布鲁斯、歌曲结构、非英语韵律与语言适配；S323–327及读取限制见[来源](../../research/source-qualification-composition-r4.md)。原P/L/C是Builder历史分类，不宣称独立通过；R4不增加主ID。
