@@ -65,3 +65,5 @@
 | K05.09 | A05 | P | 实测/模型/感知、对照与外推证据判定 | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)；[VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |
 | K05.09 | A06 | S | 支持实验协议、观测/报告及数据表示，真实工具及个人数据不实现 | [VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |
 | K05.09 | A07 | P | 版本或观测变更→核受影响证据→复核/UNKNOWN | [VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |
+
+贯穿A01–07 [KC-V05](vocal-science-r5-integrated-closure.md#L8)；源与机制的A01/05 [VX01](vocal-science-r5-integrated-closure.md#L6)；K05.08 A02/05/07 [VX02](vocal-science-r5-integrated-closure.md#L7)。保留27P/18S/18C；无实际业务、临床或工具运行。
