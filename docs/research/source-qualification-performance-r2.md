@@ -1,0 +1,21 @@
+# K04 R2 来源资格与限制
+2026-11-26 实际公开正文定位，除明示访问失败；原创概括，不复制谱图、声音或教材。具体数值题设不当作经验阈值。
+| ID | 来源及位置 | 支持与限制 |
+|---|---|---|
+| S382 | Ross W. Duffin, Case Western Reserve University, [Baroque Ornamentation I](https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/), Trill / Methods of Performance | 多种法式agréments及短颤音候选；非全巴洛克规则，谱图未看。 |
+| S383 | University of Debrecen, [Introduction to Keyboard Music Practice in the Early Music Era](https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation), ornaments / appoggiatura / trill | 明示历史时期与语境、Quantz长倚音比例、连续长颤音例外；二手教学引述非原始Quantz全文，未看图谱。 |
+| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |
+| S385 | [Essentials in Conducting, ch.3](https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3), release / hold | 历史教材的释放时刻和延长后提示；网页文本可读、谱图暂不可用，不推广所有手势约定。 |
+| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |
+| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |
+| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |
+| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |
+| S390 | Smithsonian archive, [North Indian Classical Music: Shujaat Khan, sitar](https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/), tala / gat / sawal-jawab | 档案演出介绍中的循环与互动；不采纳其中广义起源/72母音阶等概括，不听录音不声称转录。 |
+| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |
+| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |
+| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |
+| S394 | W3C MusicXML4.0 [fermata](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/), description/attributes | 形状、方向和标记，不规定实际延长时值；实际释放参见S385。 |
+| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |
+| S396 | UK Musicians' Union [Hearing Protection for Musicians](https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection), If you are exposed to risk | 职业风险报告及退出危险环境；英国组织语境，不作其他地区法律建议。 |
+| S397 | WHO [WHO releases new standard to tackle rising threat of hearing loss](https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss), six recommendations / preventable risk | 2022新闻正文，场所/活动听力保护措施；不是个体职业暴露认证，未读取完整技术标准，不采用无测量条件的数字。 |
+S085/S352/S376–381及S359/373/S080/S082沿用既有资格；未重复计入新增。S391不支持临床安全，PF19停用为项目保守安全规则；待补专门演奏者健康证据。S389不直接支持听评采用规则，PF35是题设决策条件。Ontario职业安全页403、PMC8500175验证码、Pressbooks上轮403不提升资格。未检验真实演出、录音、版权及宿主实现。
