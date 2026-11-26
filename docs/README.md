@@ -176,3 +176,7 @@ K03 [#30](https://github.com/kaicreator-mm/audio-kg/issues/30)：
 
 ## G03-K03 R3–R5 批量收口候选
 [R3 23主候选](product/calibration/arrangement-r3-knowledge-cases.md)、[R4 5主候选](product/calibration/arrangement-r4-knowledge-cases.md)、[S349–375来源与限制](research/source-qualification-arrangement-r3.md)、[R3有限检查](product/calibration/arrangement-r3-validation.md)、[48旧槽收敛及13联合范围](product/calibration/arrangement-r4-legacy-convergence.md)、[60逐谓词/CQ26及12局部题](product/calibration/arrangement-r5-discovery-cq.md)、[56能力格](product/calibration/arrangement-r5-capability-calibration.md)、[AX01/AX02/KC-A03贯穿补证](product/calibration/arrangement-r5-integrated-closure.md)。累计60主案例、48历史槽（35路由/13联合范围候选）、56能力、26 CQ；待完整模块累计专业独立审核，不代表accepted claims、L1 freeze、真实演奏/DAW/LLM/图谱及素材许可。K04保持阻塞。
+
+## G03-K03 收尾 / G03-K04 R1
+K03累计独立PASS [#30](https://github.com/kaicreator-mm/audio-kg/issues/30#issuecomment-7188882484) / [PR31](https://github.com/kaicreator-mm/audio-kg/pull/31#issuecomment-7188883910)，受审HEAD 18d6fe1eb92403a9df4e25f97962437fbe736a35；合并 ea0c3d2bcfcc1cf21c6bb641974c5fd820bf7b2e（文件差异0）。#30关闭，两个非阻断P2 [#32](https://github.com/kaicreator-mm/audio-kg/issues/32) OPEN，待相关批次/G04累计审核，不改变已审K03；#28仍OPEN。
+K04 [#33](https://github.com/kaicreator-mm/audio-kg/issues/33)：[18主候选及四视角](product/calibration/performance-r1-knowledge-cases.md)、[S376–381及S085/S352重读](research/source-qualification-performance-r1.md)、[15实际有限断言](product/calibration/performance-r1-validation.md)。R1仅内部checkpoint；尚缺完整8分支、48旧槽收敛、56能力格/CQ、现场与地域证据；不送审或合并。
