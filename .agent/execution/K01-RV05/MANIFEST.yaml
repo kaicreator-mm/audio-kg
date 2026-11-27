@@ -1,0 +1,34 @@
+{
+  "pack_id": "audio-kg-v010-K01-RV05-g1",
+  "task_id": "K01-RV05",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "09e480edff0ea45f0b4e6bab2dd4dc28db792b44",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/issues/115",
+  "branch": "task/v0.1.0-k01-rv05-formal",
+  "parent_issue": "#115",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-batch-k01-rv05-builder",
+  "generated_at": "2026-11-27T13:11:02.198993+00:00",
+  "dependency_completion": [
+    "K01@09e480edff0ea45f0b4e6bab2dd4dc28db792b44"
+  ],
+  "material_paths": [
+    "knowledge/K01/",
+    "cases/K01/",
+    "tests/knowledge/K01/",
+    "docs/validation/K01/"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}
