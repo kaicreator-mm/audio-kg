@@ -7,7 +7,7 @@ const t=(name,ok)=>{if(!ok)throw Error(name);results.push([name,true]);};
 const ref=r=>r.id+'@'+r.revision,root=process.cwd();
 const cp='knowledge/K04/controller-input.json',pin='30bf9b44905bd1f0c4e9121261da389293d3adbb';
 const input=read(cp),pack=read(input.entries[1].pack),manifest=read(input.entries[1].manifest),ledger=read('cases/K04/frozen-input-ledger.json'),domain=read('knowledge/K04/domain-workflows.json'),roles=read('queries/K04/capability-index.json'),legacy=read('queries/K04/legacy-routes.json'),provenance=read('sources/K04/provenance.json'),frozen=read('ontology/l1-anchor-tree.json'),reader=openCandidateReader(root,input.entries),records=new Map(pack.records.map(r=>[ref(r),r]));
-for(const [p,h] of [[cp,pin],['cases/K04/frozen-input-ledger.json','a0d019977ff8a29c91c7cfb751a1f75cef114db9'],['knowledge/K04/domain-workflows.json','a651ceef612b017477abab1ca5898cf9c6c53e62']])t('exact pin '+p,gitBlob(fs.readFileSync(p))===h);
+for(const [p,h] of [[cp,pin],['cases/K04/frozen-input-ledger.json','a0d019977ff8a29c91c7cfb751a1f75cef114db9'],['knowledge/K04/domain-workflows.json','00c82859932bb30bf3c3dd9b021588fdcddc2356']])t('exact pin '+p,gitBlob(fs.readFileSync(p))===h);
 const cache=new Map();function anchor(a){if(!a||a.commit!==frozen.commit)return false;if(!cache.has(a.file)){const b=fs.readFileSync(a.file),h=frozen.paths[a.file]||spawnSync('git',['rev-parse',frozen.commit+':'+a.file],{encoding:'utf8'}).stdout.trim();if(gitBlob(b)!==h)throw Error('frozen '+a.file);cache.set(a.file,{h,lines:b.toString().split('\n')});}const p=cache.get(a.file);return p.h===a.blob&&p.lines[a.line-1]===a.row;}
 const byD=new Map(ledger.rows.map(r=>[r.d4,r]));
 t('60 primary candidate rows, no acceptance',pack.inventory.length===60&&pack.records.length===514&&reader.summary().acceptedClaims===0&&reader.summary().counts.claims===192);
@@ -68,6 +68,21 @@ const live={authorization:true,monitor:true,scoreVersionConfirmed:true,visible:t
 const wfInputs={ACTION:{health,capacity,events},TIME:{ioi:[500,600],unit:'quarter',a,b:v2,target:20,tol:15},DYNAMICS:{gain:{sameTake:true,clipped:false,a:[1,2],b:[2,4]},dynamic:{amplitudes:[1,2],monotonic:true,sameChain:true}},ARTICULATION:{articulation:{ioi:500,duration:200},release:{bpm:120,onset:0,beats:2,unit:'quarter',extraBeats:0}},IMPROVISE:{motif,preference},ENSEMBLE:{shared,path},REHEARSE:{budget,retest},LIVE:{health,live,edit,monitor}};
 t('eight bounded workflows all linked',domain.workflows.length===8&&domain.workflows.every(f=>f.steps.length&&f.steps.every(s=>s.claims.every(id=>records.has(id)))));
 for(const [id,x] of Object.entries(wfInputs)){const out=w.replay(domain,'K04-WF-'+id,x);t('actual workflow '+id,out.outcome==='BOUNDED_CANDIDATE'&&out.actual==='UNKNOWN_NOT_EXECUTED');for(const key of Object.keys(x)){const o=w.replay(domain,'K04-WF-'+id,{...x,[key]:undefined});t('missing workflow '+id+' '+key,o.outcome!=='BOUNDED_CANDIDATE');}}
+// R2 RV01: computed descriptive values are not hard-constraint acceptance.
+const time1=w.replay(domain,'K04-WF-TIME',{...wfInputs.TIME,b:v1});
+const time2=w.replay(domain,'K04-WF-TIME',wfInputs.TIME);
+t('R2 frozen KC-P04 v1 hard role rejection retains residual',time1.outcome==='REJECT_STOP'&&time1.trace.at(-1).state==='INVALID_CONSTRAINT'&&eq(time1.trace.at(-1).value.residual,[0,0,20,60,0,0,0,0])&&time1.trace.at(-1).value.all===false);
+t('R2 frozen KC-P04 v2 bounded positive only',time2.outcome==='BOUNDED_CANDIDATE'&&time2.actual==='UNKNOWN_NOT_EXECUTED'&&time2.trace.at(-1).value.all===true);
+const pathFail={...path,b:1040,received:1090,target:0,tolerance:20};
+const pathOut=w.replay(domain,'K04-WF-ENSEMBLE',{shared,path:pathFail});
+t('R2 path descriptive calculation unchanged',w.pathSeparation(pathFail).state==='KNOWN_VALID'&&w.pathSeparation(pathFail).value.sourcePass===false);
+t('R2 known path hard failure rejects',pathOut.outcome==='REJECT_STOP'&&pathOut.trace.length===2&&pathOut.trace.at(-1).value.source===40&&pathOut.trace.at(-1).value.sourcePass===false);
+const off={...shared,follower:shared.follower.map((e,i)=>i===0?{...e,ms:10}:e)};
+const offOut=w.replay(domain,'K04-WF-ENSEMBLE',{shared:off,path});
+t('R2 shared main hard failure stops before path',offOut.outcome==='REJECT_STOP'&&offOut.trace.length===1&&eq(offOut.trace[0].value.residual,[10,0]));
+t('R2 missing clock stays unknown not positive or hard rejection',w.replay(domain,'K04-WF-ENSEMBLE',{shared,path:{...path,sameClock:false}}).outcome==='UNKNOWN_STOP');
+t('R2 duplicate subevent ID rejects',w.replay(domain,'K04-WF-ENSEMBLE',{shared:{...shared,follower:[...shared.follower,{...shared.follower[1]}]},path}).outcome==='REJECT_STOP');
+t('R2 boundary inclusive and outside independently',w.replay(domain,'K04-WF-TIME',{...wfInputs.TIME,b:a.map(e=>({...e,ms:e.ms+35}))}).outcome==='BOUNDED_CANDIDATE'&&w.replay(domain,'K04-WF-TIME',{...wfInputs.TIME,b:a.map(e=>({...e,ms:e.ms+36}))}).outcome==='REJECT_STOP');
 t('health stop first even absent later inputs',w.replay(domain,'K04-WF-LIVE',{health:{hearingRisk:true}}).outcome==='STOP_AND_REFER');
 for(const r of domain.stateRules)t('state rule '+r.from+' '+r.event,w.transition(domain,r.from,r.event)===r.to);
 t('unsupported state transition remains unknown',w.transition(domain,'DRAFT','ADOPT')==='UNKNOWN_UNSUPPORTED_TRANSITION');
