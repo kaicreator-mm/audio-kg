@@ -1,0 +1,298 @@
+{
+  "version": "audio-kg-l2-profile/1",
+  "status": "CANDIDATE_RESEARCH_ONLY",
+  "sourceAuthority": "l2-semantic-contract-candidate.md; no accepted claims",
+  "knowledge": {
+    "records": {
+      "Source": {
+        "required": [
+          "id",
+          "revision",
+          "type",
+          "title",
+          "version",
+          "uri",
+          "locator",
+          "grade",
+          "rights",
+          "author",
+          "publicationDate",
+          "accessDate",
+          "registration"
+        ],
+        "optional": []
+      },
+      "Claim": {
+        "required": [
+          "id",
+          "revision",
+          "type",
+          "owner",
+          "topic",
+          "d4",
+          "kind",
+          "statement",
+          "context",
+          "status",
+          "cq",
+          "limits",
+          "review"
+        ],
+        "optional": []
+      },
+      "Context": {
+        "required": [
+          "id",
+          "revision",
+          "type",
+          "condition"
+        ],
+        "optional": []
+      },
+      "Evidence": {
+        "required": [
+          "id",
+          "revision",
+          "type",
+          "kind",
+          "sources",
+          "anchor",
+          "limits"
+        ],
+        "optional": [
+          "caseAnchor"
+        ]
+      },
+      "CaseGroup": {
+        "required": [
+          "id",
+          "revision",
+          "type",
+          "owner",
+          "topic",
+          "d4",
+          "kind",
+          "status"
+        ],
+        "optional": []
+      },
+      "CaseView": {
+        "required": [
+          "id",
+          "revision",
+          "type",
+          "group",
+          "direction",
+          "polarity",
+          "question",
+          "context",
+          "limit",
+          "example",
+          "explanation",
+          "evidenceKind"
+        ],
+        "optional": []
+      }
+    },
+    "collections": {
+      "claims": "Claim",
+      "contexts": "Context",
+      "evidence": "Evidence",
+      "groups": "CaseGroup",
+      "views": "CaseView"
+    },
+    "relationshipTypes": {
+      "supported_by": {
+        "from": "Claim",
+        "to": "Evidence",
+        "inverse": "supports",
+        "meaning": "qualified evidence; not proof of truth"
+      },
+      "applies_under": {
+        "from": "Claim",
+        "to": "Context",
+        "inverse": "applicable_records",
+        "meaning": "condition; no automatic acceptance"
+      },
+      "requires": {
+        "from": "Claim",
+        "to": "Claim",
+        "inverse": "required_by",
+        "meaning": "necessary not sufficient; acyclic"
+      },
+      "references": {
+        "from": "Claim",
+        "to": "Claim",
+        "inverse": "referenced_by",
+        "meaning": "navigation; not hard dependency"
+      }
+    },
+    "binding": {
+      "roles": [
+        "PRIMARY_TARGET",
+        "REQUIRES"
+      ],
+      "primaryPerView": 1,
+      "views": [
+        [
+          "FORWARD",
+          "POSITIVE"
+        ],
+        [
+          "FORWARD",
+          "NEGATIVE"
+        ],
+        [
+          "REVERSE",
+          "POSITIVE"
+        ],
+        [
+          "REVERSE",
+          "NEGATIVE"
+        ],
+        [
+          "REVERSE",
+          "BOUNDARY"
+        ],
+        [
+          "REVERSE",
+          "UNKNOWN"
+        ]
+      ]
+    },
+    "claimKinds": [
+      "definition",
+      "norm",
+      "empirical",
+      "practice",
+      "preference",
+      "hypothesis"
+    ],
+    "claimStatus": "CANDIDATE",
+    "sourceGrades": [
+      "READ_LOCATOR",
+      "REGISTERED_LIMITED"
+    ],
+    "rights": "UNKNOWN_NO_IMPORT"
+  },
+  "workflow": {
+    "recordTypes": [
+      "Step",
+      "Constraint",
+      "Observation",
+      "Evaluation",
+      "Context",
+      "Artifact",
+      "Grant",
+      "ToolVersion",
+      "ModelVersion"
+    ],
+    "relationships": {
+      "prerequisite_for": {
+        "from": [
+          "Step"
+        ],
+        "to": [
+          "Step"
+        ],
+        "dependency": "to_depends_on_from",
+        "meaning": "predecessor, not causality"
+      },
+      "requires": {
+        "from": [
+          "Step"
+        ],
+        "to": [
+          "Constraint"
+        ],
+        "dependency": "from_depends_on_to",
+        "meaning": "must satisfy constraint"
+      },
+      "consumes": {
+        "from": [
+          "Step"
+        ],
+        "to": [
+          "Artifact",
+          "Observation",
+          "Evaluation"
+        ],
+        "dependency": "from_depends_on_to",
+        "meaning": "bound input/receipt, no actual execution"
+      },
+      "produces": {
+        "from": [
+          "Step"
+        ],
+        "to": [
+          "Artifact",
+          "Evaluation"
+        ],
+        "dependency": "to_depends_on_from",
+        "meaning": "synthetic output, not real effect"
+      },
+      "validates_against": {
+        "from": [
+          "Observation",
+          "Evaluation"
+        ],
+        "to": [
+          "Constraint",
+          "Artifact",
+          "Observation",
+          "Evaluation"
+        ],
+        "dependency": "from_depends_on_to",
+        "meaning": "qualification not derived_from"
+      },
+      "applies_under": {
+        "from": [
+          "Step",
+          "Observation",
+          "Evaluation"
+        ],
+        "to": [
+          "Context"
+        ],
+        "dependency": "from_depends_on_to",
+        "meaning": "applicability"
+      },
+      "governed_by": {
+        "from": [
+          "Step"
+        ],
+        "to": [
+          "Grant"
+        ],
+        "dependency": "from_depends_on_to",
+        "meaning": "grant required, role not authorization"
+      },
+      "qualifies_tool": {
+        "from": [
+          "Step"
+        ],
+        "to": [
+          "ToolVersion"
+        ],
+        "dependency": "from_depends_on_to",
+        "meaning": "version scope not execution"
+      },
+      "qualifies_model": {
+        "from": [
+          "Step"
+        ],
+        "to": [
+          "ModelVersion"
+        ],
+        "dependency": "from_depends_on_to",
+        "meaning": "version scope not efficacy"
+      }
+    }
+  },
+  "limits": {
+    "profile": "Executable pilot subset only; remaining logical relation/record kinds are future validation obligations; no general schema engine or production runtime",
+    "admission": "Candidate only; accepted status is not a validator action",
+    "graph": "Fixed synthetic registered R8a/R9 witness, exact payload comparison plus typed edges",
+    "assessment": "Independent input and rubric outside public query tree; no claim of prevention of all semantic leakage"
+  }
+}
