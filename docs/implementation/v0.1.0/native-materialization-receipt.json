@@ -1,0 +1,399 @@
+{
+  "kind": "NATIVE_DAG_MATERIALIZATION_HISTORICAL_RECEIPT",
+  "nonAuthoritativeCurrentStatus": true,
+  "version": "v0.1.0",
+  "planningRef": "48459608548ee13c330641b20cca2d585cc290f3",
+  "taskPackBlob": "1960c56436a37004031d84f9b8dd4646330f5fcd",
+  "planningIssue": 85,
+  "versionIssue": 1,
+  "milestone": 1,
+  "issueCreationJob": "job_01M8E4YP5X004774B2PWD0DFGJ",
+  "nativeWriteAndReadbackJob": "job_01M8E50ZVK009AMR5N5N44YV9D",
+  "actual": {
+    "nativeVerified": true,
+    "edgeCount": 60,
+    "tasks": 22,
+    "evidence": [
+      {
+        "task": "F00",
+        "number": 86,
+        "blocked_by": [
+          {
+            "number": 83,
+            "state": "closed"
+          }
+        ]
+      },
+      {
+        "task": "K01",
+        "number": 87,
+        "blocked_by": [
+          {
+            "number": 86,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K07",
+        "number": 88,
+        "blocked_by": [
+          {
+            "number": 86,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K05",
+        "number": 89,
+        "blocked_by": [
+          {
+            "number": 87,
+            "state": "open"
+          },
+          {
+            "number": 88,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K08",
+        "number": 90,
+        "blocked_by": [
+          {
+            "number": 87,
+            "state": "open"
+          },
+          {
+            "number": 88,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K02",
+        "number": 91,
+        "blocked_by": [
+          {
+            "number": 87,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K03",
+        "number": 92,
+        "blocked_by": [
+          {
+            "number": 91,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K04",
+        "number": 93,
+        "blocked_by": [
+          {
+            "number": 87,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K06",
+        "number": 94,
+        "blocked_by": [
+          {
+            "number": 89,
+            "state": "open"
+          },
+          {
+            "number": 93,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K14",
+        "number": 95,
+        "blocked_by": [
+          {
+            "number": 94,
+            "state": "open"
+          },
+          {
+            "number": 91,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K09",
+        "number": 96,
+        "blocked_by": [
+          {
+            "number": 90,
+            "state": "open"
+          },
+          {
+            "number": 92,
+            "state": "open"
+          },
+          {
+            "number": 93,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K10",
+        "number": 97,
+        "blocked_by": [
+          {
+            "number": 96,
+            "state": "open"
+          },
+          {
+            "number": 89,
+            "state": "open"
+          },
+          {
+            "number": 91,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K15",
+        "number": 98,
+        "blocked_by": [
+          {
+            "number": 96,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K11",
+        "number": 99,
+        "blocked_by": [
+          {
+            "number": 97,
+            "state": "open"
+          },
+          {
+            "number": 98,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K12",
+        "number": 100,
+        "blocked_by": [
+          {
+            "number": 99,
+            "state": "open"
+          },
+          {
+            "number": 98,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K16",
+        "number": 101,
+        "blocked_by": [
+          {
+            "number": 87,
+            "state": "open"
+          },
+          {
+            "number": 91,
+            "state": "open"
+          },
+          {
+            "number": 98,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K17",
+        "number": 102,
+        "blocked_by": [
+          {
+            "number": 88,
+            "state": "open"
+          },
+          {
+            "number": 97,
+            "state": "open"
+          },
+          {
+            "number": 95,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K13",
+        "number": 103,
+        "blocked_by": [
+          {
+            "number": 100,
+            "state": "open"
+          },
+          {
+            "number": 101,
+            "state": "open"
+          },
+          {
+            "number": 102,
+            "state": "open"
+          },
+          {
+            "number": 94,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K18",
+        "number": 104,
+        "blocked_by": [
+          {
+            "number": 100,
+            "state": "open"
+          },
+          {
+            "number": 91,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "K19",
+        "number": 105,
+        "blocked_by": [
+          {
+            "number": 100,
+            "state": "open"
+          },
+          {
+            "number": 93,
+            "state": "open"
+          },
+          {
+            "number": 88,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "T07",
+        "number": 106,
+        "blocked_by": [
+          {
+            "number": 87,
+            "state": "open"
+          },
+          {
+            "number": 88,
+            "state": "open"
+          },
+          {
+            "number": 89,
+            "state": "open"
+          },
+          {
+            "number": 90,
+            "state": "open"
+          },
+          {
+            "number": 91,
+            "state": "open"
+          },
+          {
+            "number": 92,
+            "state": "open"
+          },
+          {
+            "number": 93,
+            "state": "open"
+          },
+          {
+            "number": 94,
+            "state": "open"
+          },
+          {
+            "number": 95,
+            "state": "open"
+          },
+          {
+            "number": 96,
+            "state": "open"
+          },
+          {
+            "number": 97,
+            "state": "open"
+          },
+          {
+            "number": 98,
+            "state": "open"
+          },
+          {
+            "number": 99,
+            "state": "open"
+          },
+          {
+            "number": 100,
+            "state": "open"
+          },
+          {
+            "number": 101,
+            "state": "open"
+          },
+          {
+            "number": 102,
+            "state": "open"
+          },
+          {
+            "number": 103,
+            "state": "open"
+          },
+          {
+            "number": 104,
+            "state": "open"
+          },
+          {
+            "number": 105,
+            "state": "open"
+          }
+        ]
+      },
+      {
+        "task": "T08",
+        "number": 107,
+        "blocked_by": [
+          {
+            "number": 106,
+            "state": "open"
+          }
+        ]
+      }
+    ]
+  },
+  "admission": {
+    "mode": "SINGLE_WRITER_ADMISSION",
+    "operator": "chatgpt-web:audio-kg-g07-planner",
+    "session": "audio-kg-g07-20261127",
+    "scope": "only F00 #86 builder protected key; other workers do not claim F00; no concurrent scheduler exposed",
+    "generation": 1
+  },
+  "limitations": "Snapshot not live status; future ready-set uses actual GitHub native dependencies, merge and dispatch facts."
+}
