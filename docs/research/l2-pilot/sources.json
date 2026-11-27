@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S022",
+    "revision": 1,
+    "type": "Source",
+    "title": "UNSW teaching resource",
+    "version": "UNKNOWN",
+    "uri": "https://newt.phys.unsw.edu.au/jw/notes.html",
+    "locator": "frequency ratio / cents",
+    "grade": "READ_LOCATOR",
+    "rights": "UNKNOWN_NO_IMPORT",
+    "author": "UNKNOWN_IF_NOT_IN_TITLE",
+    "publicationDate": "UNKNOWN",
+    "accessDate": "UNKNOWN_PREVIOUS_L1_REGISTRATION",
+    "registration": {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/research/source-qualification-theory-evidence-batch.md",
+      "blob": "a7a46230795d016b20fb981f85352854d1f89d35",
+      "line": 30,
+      "row": "- S022（[UNSW原文](https://newt.phys.unsw.edu.au/jw/notes.html)）参考音/半音频率和音分公式重读，A4=440是约定而非普遍事实。"
+    }
+  },
+  {
+    "id": "S409",
+    "revision": 1,
+    "type": "Source",
+    "title": "Praat documentation",
+    "version": "UNKNOWN",
+    "uri": "https://praat.org/manual/how_to_choose_a_pitch_analysis_method.html",
+    "locator": "Measuring intonation / unwanted octave drops/rises",
+    "grade": "REGISTERED_LIMITED",
+    "rights": "UNKNOWN_NO_IMPORT",
+    "author": "UNKNOWN_IF_NOT_IN_TITLE",
+    "publicationDate": "UNKNOWN",
+    "accessDate": "UNKNOWN_PREVIOUS_L1_REGISTRATION",
+    "registration": {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/research/source-qualification-vocal-science-r1.md",
+      "blob": "be51b7d2da1c88fb039b3a067c3a80b450282f58",
+      "line": 17,
+      "row": "| S409 | Praat [how to choose a pitch analysis method](https://praat.org/manual/how_to_choose_a_pitch_analysis_method.html)，Measuring intonation/ unwanted octave drops/rises | 方法/自相似、参数与噪声导致候选错误；实际软件版本/运行未核；不把工具推荐直接套歌唱。 |"
+    }
+  },
+  {
+    "id": "S413",
+    "revision": 1,
+    "type": "Source",
+    "title": "Patel et al. 2018",
+    "version": "2018",
+    "uri": "https://pubs.asha.org/doi/10.1044/2018_AJSLP-17-0009",
+    "locator": "Acoustic Assessment / Aerodynamic Assessment; protocol boundary",
+    "grade": "READ_LOCATOR",
+    "rights": "UNKNOWN_NO_IMPORT",
+    "author": "UNKNOWN_IF_NOT_IN_TITLE",
+    "publicationDate": "UNKNOWN",
+    "accessDate": "UNKNOWN_PREVIOUS_L1_REGISTRATION",
+    "registration": {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/research/source-qualification-vocal-science-r2.md",
+      "blob": "e5756f278d97ccc943f59eb64ee76125db5708b0",
+      "line": 6,
+      "row": "| S413 | Patel et al. 2018 [Recommended Protocols for Instrumental Assessment of Voice](https://pubs.asha.org/doi/10.1044/2018_AJSLP-17-0009)，Acoustic Assessment / Aerodynamic Assessment / Discussion / endoscopic imaging | READ_LOCATOR；专业协议及专家共识，CPP与传统扰动指标适用条件、校准、间接声门下压/平均流量估计的有效前提；R2c实际定向核查：原HTML摘要可见、后续定位403；同论文[PhenX会议存档PDF](https://phenx-portal.s3.amazonaws.com/public/phenx-content/ERP/ERP7/Nov.27.2018_Meeting/06_Patel_et_al-2018-American_Journal_of_Speech-Language_Pathology.pdf)零基11/12截图（印898/899，Signal Criteria、Data Analysis、Fig2，文本L378–386/420–421）。/p/压力稳定、口流近零、相邻闭塞压力峰线性插值，间接平均估计的前提；不宣称与原下载字节相同，不复制人体操作流程或套用临床阈值到歌唱。 |"
+    }
+  },
+  {
+    "id": "S474",
+    "revision": 1,
+    "type": "Source",
+    "title": "librosa 0.11.0",
+    "version": "0.11.0",
+    "uri": "https://librosa.org/doc/0.11.0/generated/librosa.stft.html",
+    "locator": "STFT parameters / output, L8–41",
+    "grade": "READ_LOCATOR",
+    "rights": "UNKNOWN_NO_IMPORT",
+    "author": "UNKNOWN_IF_NOT_IN_TITLE",
+    "publicationDate": "UNKNOWN",
+    "accessDate": "UNKNOWN_PREVIOUS_L1_REGISTRATION",
+    "registration": {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/research/source-qualification-digital-audio-r1.md",
+      "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+      "line": 8,
+      "row": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |"
+    }
+  }
+]
