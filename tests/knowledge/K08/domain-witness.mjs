@@ -9,6 +9,22 @@ export function parseRiff(b){
 }
 export function fixture(){const b=Buffer.alloc(60);b.write('RIFF');b.writeUInt32LE(52,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(48000,24);b.writeUInt32LE(96000,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('JUNK',36);b.writeUInt32LE(3,40);b.write('data',48);b.writeUInt32LE(4,52);b.writeInt16LE(1000,56);b.writeInt16LE(-1000,58);return b;}
 const dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),finite=a=>Array.isArray(a)&&a.length>0&&a.every(Number.isFinite);
+function dotChecked(a,b){
+ let sum=0,correction=0,underflow=false;
+ for(let i=0;i<a.length;i++){
+  const x=a[i],y=b[i],product=x*y;
+  if(product===0&&x!==0&&y!==0)underflow=true;
+  const next=sum+product;
+  const delta=Math.abs(sum)>=Math.abs(product)?(sum-next)+product:(product-next)+sum;
+  const corrected=correction+delta;
+  if(delta!==0&&corrected===correction)underflow=true;
+  correction=corrected;sum=next;
+  if(!Number.isFinite(sum)||!Number.isFinite(correction))return {value:NaN,underflow:true};
+ }
+ const value=sum+correction;
+ if(correction!==0&&value===sum)underflow=true;
+ return {value,underflow};
+}
 // Typed mathematical outcomes avoid conflating a perfect fit with undefined input.
 export function sdr(s,y){
  const state=(state,db=null)=>({state,db});
@@ -19,7 +35,7 @@ export function sdr(s,y){
  if(ss===0||ys===0)return state('UNDEFINED_ZERO');
  const u=s.map(v=>v/ss),w=y.map(v=>v/ys);
  if(u.some((v,i)=>v===0&&s[i]!==0)||w.some((v,i)=>v===0&&y[i]!==0))return state('NUMERIC_RANGE');
- const sn=dot(u,u),a=dot(u,w)/sn,p=u.map(v=>v*a),e=w.map((v,i)=>v-p[i]),pn=dot(p,p),en=dot(e,e);
+ const sn=dot(u,u),cross=dotChecked(u,w);if(cross.underflow)return state('NUMERIC_RANGE');const a=cross.value/sn,p=u.map(v=>v*a),e=w.map((v,i)=>v-p[i]),pn=dot(p,p),en=dot(e,e);
  if(!Number.isFinite(pn)||!Number.isFinite(en))return state('NUMERIC_RANGE');
  if(pn===0)return state(a===0?'NEGATIVE_INFINITY':'NUMERIC_RANGE');
  if(en===0)return state(e.every(v=>v===0)?'PERFECT':'NUMERIC_RANGE');
@@ -69,6 +85,8 @@ export function checks(t){
  t('P2-01 distinguish perfect, negative infinity and undefined',sdr([1,0],[1,0]).state==='PERFECT'&&sdr([1,0],[-2,0]).state==='PERFECT'&&sdr([1,0],[0,1]).state==='NEGATIVE_INFINITY'&&sdr([1,0],[0,0]).state==='UNDEFINED_ZERO'&&sdr([1,0],[1]).state==='INVALID_INPUT');
  t('R3 nonzero scale normalization, not silence',sdr([1,0],[1e-200,1e-200]).state==='FINITE'&&close(sdr([1,0],[1e-200,1e-200]).db,0)&&sdr([1e-200,0],[1e-200,0]).state==='PERFECT'&&sdr([1e300,0],[1e300,1e300]).state==='FINITE'&&close(sdr([1e300,0],[1e300,1e300]).db,0));
  t('R3 numeric range explicit',sdr([1,0],[1,1e-200]).state==='NUMERIC_RANGE'&&sdr([1e300,1e-300],[1,0]).state==='NUMERIC_RANGE'&&sdr([1,0],[0,1e-300]).state==='NEGATIVE_INFINITY'&&sdr([0,0],[1e-300,0]).state==='UNDEFINED_ZERO');
+ t('R3 nonzero dot product underflow is not orthogonality', [1e-160,1e-170,1e-200,1e-250].every(v=>sdr([1,v,0],[0,v,1]).state==='NUMERIC_RANGE')&&sdr([1,1],[1,-1]).state==='NEGATIVE_INFINITY'&&sdr([1,0],[0,1]).state==='NEGATIVE_INFINITY'&&sdr([1,1e-16],[1,1]).state==='NUMERIC_RANGE');
+ t('R3 compensated dot retains representable cancellation',sdr([1,1,1],[1,-1,1e-15]).state==='FINITE');
  t('P2-02 empty and nonempty mask no-op distinct',repair({...x,mask:[]},{...y,samples:x.samples})==='NO_OP'&&repair(x,{...y,samples:x.samples})==='NO_OP'&&repair({...x,mask:[]},y)==='REJECT');
  t('P2-03 all direction and priming bits',eq(f(31).events.map(e=>e.direction),['INPUT_UNDERFLOW','INPUT_OVERFLOW','OUTPUT_UNDERFLOW','OUTPUT_OVERFLOW','PRIMING_OUTPUT'])&&f(16).events[0].meaning==='STARTUP_PRIMING_NOT_XRUN'&&f(0).events.length===0);
  t('P2-03 fixed vs unspecified input semantics',f(1).events[0].meaning==='INPUT_ZERO_INSERTED'&&f(1,'UNSPECIFIED').events[0].meaning==='INPUT_ALL_ZERO'&&f(2).events[0].meaning!==f(2,'UNSPECIFIED').events[0].meaning);

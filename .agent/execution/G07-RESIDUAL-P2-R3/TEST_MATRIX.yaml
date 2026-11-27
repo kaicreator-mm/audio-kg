@@ -1,0 +1,18 @@
+K06:
+  malformed_series: [null, undefined, 42, "x", [], {}, {id: "x", records: null, events: []}, {id: "x", records: [], events: null}]
+  precedence: [emergency_referral, symptom_stop, pause, malformed_reject]
+K08:
+  dot_underflow: [1e-160, 1e-170, 1e-200, 1e-250]
+  distinguish: [true_orthogonality, underflowed_nonzero_dot, zero_vector, perfect_fit, finite_regular]
+K03:
+  pitch: [normal, C-1, unsafe_integer_octave, 400_digit_octave]
+  retune: [exact_threshold, just_below, negative_gap, finite_endpoint_subtraction_overflow, derived_seconds_overflow]
+regressions:
+  - pilot
+  - f00
+  - k07
+  - cq
+  - k01
+  - k04
+  - cq2
+  - legacy

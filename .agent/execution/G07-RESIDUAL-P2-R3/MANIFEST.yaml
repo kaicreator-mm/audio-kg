@@ -1,0 +1,40 @@
+{
+  "pack_id": "audio-kg-v010-G07-RESIDUAL-P2-R3-g1",
+  "task_id": "G07-RESIDUAL-P2-R3",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "325d4205e609db0ecca09ebb051a03e5f7f487ee",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/issues/129",
+  "branch": "task/v0.1.0-residual-p2-r3",
+  "parent_issue": "#129",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-residual-p2-r3-builder",
+  "generated_at": "2026-11-27T16:40:20.753733+00:00",
+  "dependency_completion": [
+    "K06@d01a7edf9c4b322c916b5fbd8f13434cb48619ec",
+    "K02-K08-P2@7a2444f2d3a74bdc6635deaf05fd79fafc0184af",
+    "K03@325d4205e609db0ecca09ebb051a03e5f7f487ee"
+  ],
+  "material_paths": [
+    "tests/knowledge/K06/",
+    "tests/knowledge/K08/",
+    "tests/knowledge/K03/",
+    "docs/validation/K06/",
+    "docs/validation/K08/",
+    "docs/validation/K03/",
+    "docs/product/calibration/",
+    "docs/validation/G07-RESIDUAL-P2-R3/"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}
