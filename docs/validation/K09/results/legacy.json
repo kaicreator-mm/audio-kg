@@ -1,0 +1,391 @@
+{
+  "status": "LEGACY_URI_FIXTURE_ONLY",
+  "checks": 95,
+  "passed": 95,
+  "results": [
+    [
+      "all 11 actual bare HTTPS source IDs validated at exact frozen row",
+      true
+    ],
+    [
+      "wrong exact URI S049",
+      true
+    ],
+    [
+      "wrong exact URI S055",
+      true
+    ],
+    [
+      "wrong exact URI S057",
+      true
+    ],
+    [
+      "wrong exact URI S056",
+      true
+    ],
+    [
+      "wrong exact URI S061",
+      true
+    ],
+    [
+      "wrong exact URI S064",
+      true
+    ],
+    [
+      "wrong exact URI S058",
+      true
+    ],
+    [
+      "wrong exact URI S060",
+      true
+    ],
+    [
+      "wrong exact URI S063",
+      true
+    ],
+    [
+      "wrong exact URI S066",
+      true
+    ],
+    [
+      "wrong exact URI S065",
+      true
+    ],
+    [
+      "same file wrong source anchor",
+      true
+    ],
+    [
+      "URI prefix not accepted",
+      true
+    ],
+    [
+      "qualification URI must be exact",
+      true
+    ],
+    [
+      "source rights cannot be upgraded",
+      true
+    ],
+    [
+      "tampered row text",
+      true
+    ],
+    [
+      "R2 actual 22 frozen status rows and all exact URI tokens",
+      true
+    ],
+    [
+      "R2 S045 REGISTERED_LIMITED https://pubmed.ncbi.nlm.nih.gov/27794319/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S045 ABSTRACT_READ https://pubmed.ncbi.nlm.nih.gov/27794319/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S045 READ_LOCATOR https://pubmed.ncbi.nlm.nih.gov/27794319/ rejected",
+      true
+    ],
+    [
+      "R2 S045 REGISTERED_LIMITED https://pmc.ncbi.nlm.nih.gov/articles/PMC5412481/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S045 ABSTRACT_READ https://pmc.ncbi.nlm.nih.gov/articles/PMC5412481/ rejected",
+      true
+    ],
+    [
+      "R2 S045 READ_LOCATOR https://pmc.ncbi.nlm.nih.gov/articles/PMC5412481/ rejected",
+      true
+    ],
+    [
+      "R2 S046 REGISTERED_LIMITED https://www.nidcd.nih.gov/health/taking-care-your-voice accepted conservatively",
+      true
+    ],
+    [
+      "R2 S046 ABSTRACT_READ https://www.nidcd.nih.gov/health/taking-care-your-voice rejected",
+      true
+    ],
+    [
+      "R2 S046 READ_LOCATOR https://www.nidcd.nih.gov/health/taking-care-your-voice accepted conservatively",
+      true
+    ],
+    [
+      "R2 S047 REGISTERED_LIMITED https://www.asha.org/practice-portal/clinical-topics/voice-disorders/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S047 ABSTRACT_READ https://www.asha.org/practice-portal/clinical-topics/voice-disorders/ rejected",
+      true
+    ],
+    [
+      "R2 S047 READ_LOCATOR https://www.asha.org/practice-portal/clinical-topics/voice-disorders/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S048 REGISTERED_LIMITED https://pubmed.ncbi.nlm.nih.gov/18538982/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S048 ABSTRACT_READ https://pubmed.ncbi.nlm.nih.gov/18538982/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S048 READ_LOCATOR https://pubmed.ncbi.nlm.nih.gov/18538982/ rejected",
+      true
+    ],
+    [
+      "R2 S049 REGISTERED_LIMITED https://www.internationalphoneticassociation.org/content/chart accepted conservatively",
+      true
+    ],
+    [
+      "R2 S049 ABSTRACT_READ https://www.internationalphoneticassociation.org/content/chart rejected",
+      true
+    ],
+    [
+      "R2 S049 READ_LOCATOR https://www.internationalphoneticassociation.org/content/chart accepted conservatively",
+      true
+    ],
+    [
+      "R2 S050 REGISTERED_LIMITED https://www.nidcd.nih.gov/health/hoarseness accepted conservatively",
+      true
+    ],
+    [
+      "R2 S050 ABSTRACT_READ https://www.nidcd.nih.gov/health/hoarseness rejected",
+      true
+    ],
+    [
+      "R2 S050 READ_LOCATOR https://www.nidcd.nih.gov/health/hoarseness accepted conservatively",
+      true
+    ],
+    [
+      "R2 S051 REGISTERED_LIMITED https://journals.sagepub.com/doi/10.1177/03057356211026730 accepted conservatively",
+      true
+    ],
+    [
+      "R2 S051 ABSTRACT_READ https://journals.sagepub.com/doi/10.1177/03057356211026730 rejected",
+      true
+    ],
+    [
+      "R2 S051 READ_LOCATOR https://journals.sagepub.com/doi/10.1177/03057356211026730 accepted conservatively",
+      true
+    ],
+    [
+      "R2 S052 REGISTERED_LIMITED https://pubmed.ncbi.nlm.nih.gov/26948385/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S052 ABSTRACT_READ https://pubmed.ncbi.nlm.nih.gov/26948385/ rejected",
+      true
+    ],
+    [
+      "R2 S052 READ_LOCATOR https://pubmed.ncbi.nlm.nih.gov/26948385/ rejected",
+      true
+    ],
+    [
+      "R2 S052 REGISTERED_LIMITED https://pmc.ncbi.nlm.nih.gov/articles/PMC5010534/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S052 ABSTRACT_READ https://pmc.ncbi.nlm.nih.gov/articles/PMC5010534/ rejected",
+      true
+    ],
+    [
+      "R2 S052 READ_LOCATOR https://pmc.ncbi.nlm.nih.gov/articles/PMC5010534/ rejected",
+      true
+    ],
+    [
+      "R2 S053 REGISTERED_LIMITED https://pubmed.ncbi.nlm.nih.gov/21895105/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S053 ABSTRACT_READ https://pubmed.ncbi.nlm.nih.gov/21895105/ rejected",
+      true
+    ],
+    [
+      "R2 S053 READ_LOCATOR https://pubmed.ncbi.nlm.nih.gov/21895105/ rejected",
+      true
+    ],
+    [
+      "R2 S054 REGISTERED_LIMITED https://pmc.ncbi.nlm.nih.gov/articles/PMC11966169/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S054 ABSTRACT_READ https://pmc.ncbi.nlm.nih.gov/articles/PMC11966169/ rejected",
+      true
+    ],
+    [
+      "R2 S054 READ_LOCATOR https://pmc.ncbi.nlm.nih.gov/articles/PMC11966169/ rejected",
+      true
+    ],
+    [
+      "R2 S054 REGISTERED_LIMITED https://pubmed.ncbi.nlm.nih.gov/19022619/ accepted conservatively",
+      true
+    ],
+    [
+      "R2 S054 ABSTRACT_READ https://pubmed.ncbi.nlm.nih.gov/19022619/ rejected",
+      true
+    ],
+    [
+      "R2 S054 READ_LOCATOR https://pubmed.ncbi.nlm.nih.gov/19022619/ rejected",
+      true
+    ],
+    [
+      "R2 S055 REGISTERED_LIMITED https://www.dspguide.com/ch3/2.htm accepted conservatively",
+      true
+    ],
+    [
+      "R2 S055 ABSTRACT_READ https://www.dspguide.com/ch3/2.htm rejected",
+      true
+    ],
+    [
+      "R2 S055 READ_LOCATOR https://www.dspguide.com/ch3/2.htm accepted conservatively",
+      true
+    ],
+    [
+      "R2 S056 REGISTERED_LIMITED https://wap.dspguide.com/ch3/1.htm accepted conservatively",
+      true
+    ],
+    [
+      "R2 S056 ABSTRACT_READ https://wap.dspguide.com/ch3/1.htm rejected",
+      true
+    ],
+    [
+      "R2 S056 READ_LOCATOR https://wap.dspguide.com/ch3/1.htm accepted conservatively",
+      true
+    ],
+    [
+      "R2 S057 REGISTERED_LIMITED https://manual.audacityteam.org/man/sample_rates.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S057 ABSTRACT_READ https://manual.audacityteam.org/man/sample_rates.html rejected",
+      true
+    ],
+    [
+      "R2 S057 READ_LOCATOR https://manual.audacityteam.org/man/sample_rates.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S058 REGISTERED_LIMITED https://www.ffmpeg.org/ffmpeg-resampler.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S058 ABSTRACT_READ https://www.ffmpeg.org/ffmpeg-resampler.html rejected",
+      true
+    ],
+    [
+      "R2 S058 READ_LOCATOR https://www.ffmpeg.org/ffmpeg-resampler.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S059 REGISTERED_LIMITED https://librosa.org/doc/main/api/generated/librosa.stft.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S059 ABSTRACT_READ https://librosa.org/doc/main/api/generated/librosa.stft.html rejected",
+      true
+    ],
+    [
+      "R2 S059 READ_LOCATOR https://librosa.org/doc/main/api/generated/librosa.stft.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S060 REGISTERED_LIMITED https://manual.audacityteam.org/man/playing_and_recording.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S060 ABSTRACT_READ https://manual.audacityteam.org/man/playing_and_recording.html rejected",
+      true
+    ],
+    [
+      "R2 S060 READ_LOCATOR https://manual.audacityteam.org/man/playing_and_recording.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S061 REGISTERED_LIMITED https://manual.audacityteam.org/man/faq_recording_troubleshooting.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S061 ABSTRACT_READ https://manual.audacityteam.org/man/faq_recording_troubleshooting.html rejected",
+      true
+    ],
+    [
+      "R2 S061 READ_LOCATOR https://manual.audacityteam.org/man/faq_recording_troubleshooting.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S062 REGISTERED_LIMITED https://www.shure.com/en-US/docs/education/microphone-techniques-for-recording accepted conservatively",
+      true
+    ],
+    [
+      "R2 S062 ABSTRACT_READ https://www.shure.com/en-US/docs/education/microphone-techniques-for-recording rejected",
+      true
+    ],
+    [
+      "R2 S062 READ_LOCATOR https://www.shure.com/en-US/docs/education/microphone-techniques-for-recording rejected",
+      true
+    ],
+    [
+      "R2 S063 REGISTERED_LIMITED https://manual.audacityteam.org/man/noise_reduction.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S063 ABSTRACT_READ https://manual.audacityteam.org/man/noise_reduction.html rejected",
+      true
+    ],
+    [
+      "R2 S063 READ_LOCATOR https://manual.audacityteam.org/man/noise_reduction.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S064 REGISTERED_LIMITED https://sigsep.github.io/datasets/musdb.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S064 ABSTRACT_READ https://sigsep.github.io/datasets/musdb.html rejected",
+      true
+    ],
+    [
+      "R2 S064 READ_LOCATOR https://sigsep.github.io/datasets/musdb.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S065 REGISTERED_LIMITED https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S065 ABSTRACT_READ https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html rejected",
+      true
+    ],
+    [
+      "R2 S065 READ_LOCATOR https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S066 REGISTERED_LIMITED https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S066 ABSTRACT_READ https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html rejected",
+      true
+    ],
+    [
+      "R2 S066 READ_LOCATOR https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html accepted conservatively",
+      true
+    ],
+    [
+      "R2 S045 abstract grade cannot bind blocked PMC as accessed URI",
+      true
+    ],
+    [
+      "tampered frozen file rejected",
+      true
+    ]
+  ],
+  "limits": [
+    "exact legacy table only",
+    "no professional source admission or actual external reread"
+  ]
+}
