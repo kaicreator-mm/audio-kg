@@ -51,15 +51,16 @@ for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25"]){
 test("eval id not retrievable",retrieve(pack,sources,assessment.cases[0].id).claims.length===0);
 const publicTree=fs.mkdtempSync(path.join(os.tmpdir(),"audio-kg-public-query-"));
 try{
- const paths=[dir+"pack.json",dir+"sources.json",dir+"semantic-profile.json",dir+"knowledge-pilot.mjs",dir+"retrieve.mjs",dir+"workflow-pilot.mjs",dir+"witness-pilot.mjs",...["g04-r8-xc01-independent-evidence.md","g04-r8-seven-role-evidence.md","g04-r9-cq25-full-evidence-trace.md"].map(x=>cal+x),...sources.map(x=>x.registration.file),...pack.evidence.flatMap(x=>[x.anchor.file,...(x.caseAnchor?[x.caseAnchor.file]:[])]),...pack.migrations.map(x=>x.anchor.file)];
+ const paths=[dir+"pack.json",dir+"sources.json",dir+"semantic-profile.json",dir+"qualification-manifest.json",dir+"knowledge-pilot.mjs",dir+"retrieve.mjs",dir+"workflow-pilot.mjs",dir+"witness-pilot.mjs",...["g04-r8-xc01-independent-evidence.md","g04-r8-seven-role-evidence.md","g04-r9-cq25-full-evidence-trace.md"].map(x=>cal+x),...sources.map(x=>x.registration.file),...pack.evidence.flatMap(x=>[x.anchor.file,...(x.caseAnchor?[x.caseAnchor.file]:[])]),...pack.migrations.map(x=>x.anchor.file)];
  for(const f of new Set(paths)){const dest=path.join(publicTree,f);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(f,dest);}
  test("public-only tree excludes input/rubric",!fs.existsSync(path.join(publicTree,dir+"assessment.json"))&&!fs.existsSync(path.join(publicTree,dir+"assessment-input.json")));
- for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25",assessment.cases[0].id]){
+ for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25","K05.07.01.05","CL-PITCH@1","CL-WINDOW@1",assessment.cases[0].id]){
   const proc=spawnSync(process.execPath,[dir+"retrieve.mjs",q],{cwd:publicTree,encoding:"utf8",timeout:10000});
   const result=proc.status===0?JSON.parse(proc.stdout):null;
   test("public process "+q,proc.status===0&&eq(result.knowledge,retrieve(pack,sources,q))&&!proc.stdout.includes(assessment.marker)&&assessment.cases.every(x=>!proc.stdout.includes(x.id)&&!proc.stdout.includes(JSON.stringify(x.expected))));
   if(q==="CQ21"||q==="CQ25")test("public typed workflow "+q,result.workflow?.state==="STATIC_CANDIDATE_ONLY"&&result.workflow.release===false&&result.workflow.trace.primary.length===7&&result.workflow.graph.records.length===21&&result.workflow.graph.edges.length===42&&result.workflow.affectedIfCandidateChanges.includes("E-RECEIPT@2"));
   else test("no unrelated workflow "+q,result.workflow===null);
+  if(q==="CQ21"||q==="CQ25"){const {witness,routeData,support}=loadActualWitness();const again=runWorkflowPilot(witness,routeData,support,{graph:result.workflow.graph,verdict:result.workflow.trace.result});test("actual public exported graph requery "+q,eq(again.replay,result.workflow.trace)&&again.graphDigest===result.workflow.graphDigest&&result.workflow.graphKind==="COMPLETE_SYNTHETIC_REPLAY_ENVELOPE");}
  }
 }finally{fs.rmSync(publicTree,{recursive:true,force:true});}
 
@@ -91,11 +92,46 @@ reject("illegal whole slot alias",p=>{p.migrations[1].type="alias_of";p.migratio
 reject("swap migration role",p=>p.migrations[1].targets[0].role="REUSE");
 reject("drop migration target",p=>p.migrations[1].targets.pop());
 reject("stale migration status",p=>p.migrations[1].state="ACCEPTED");
+// Actual independent G06 counterexamples and additional coordinated mutations.
+reject("RV01 fabricated locator version and author",(p,s)=>Object.assign(s.find(x=>x.id==="S022"),{locator:"Nonexistent section 999: frequency subtraction",version:"FABRICATED-2099",author:"FABRICATED"}));
+reject("RV01 substring URI",(p,s)=>s.find(x=>x.id==="S022").uri="https://newt.phys.unsw.edu.au");
+reject("RV01 false statement same revision",p=>p.claims.find(x=>x.id==="CL-CENTS").statement="音分等于两个频率的Hz差，不需要参考音。");
+reject("RV01 false context same revision",p=>p.contexts.find(x=>x.id==="CTX-CENTS").condition="负频率或零频率同样适用，无需参考频率。");
+reject("RV01 false case same revision",p=>p.views.find(x=>x.id==="CENTS-FP").explanation="正比频率升高也不改变音分。");
+reject("RV01 coordinated statement condition case",p=>{p.claims[0].statement="Hz subtraction";p.contexts[0].condition="Any frequency";p.views[0].explanation="Subtraction";});
+reject("RV01 unqualified new claim revision",p=>{p.claims[0].revision=2;for(const e of p.edges){if(e.from==="CL-CENTS@1")e.from="CL-CENTS@2";if(e.to==="CL-CENTS@1")e.to="CL-CENTS@2";}for(const b of p.bindings)if(b.claim==="CL-CENTS@1")b.claim="CL-CENTS@2";});
+reject("RV01 same-revision evidence scope drift",p=>p.evidence[0].limits="All tuning systems proven");
+reject("RV01 stale source revision", (p,s)=>{s.find(x=>x.id==="S413").revision=1;for(const e of p.evidence)e.sources=e.sources.map(x=>x==="S413@2"?"S413@1":x);});
+reject("RV01 fabricate date while locator unchanged",(p,s)=>s.find(x=>x.id==="S022").publicationDate="2099");
+reject("RV01 changed case input same revision",p=>p.views[0].example.observed=0);
+reject("RV02 both H edges and all support bindings deleted",p=>{p.edges=p.edges.filter(e=>!["REQ-MATH","REQ-WINDOW"].includes(e.id));p.bindings=p.bindings.filter(b=>b.role==="PRIMARY_TARGET");});
+reject("RV02 window H edge and support bindings deleted",p=>{p.edges=p.edges.filter(e=>e.id!=="REQ-WINDOW");p.bindings=p.bindings.filter(b=>!(b.role==="REQUIRES"&&b.claim==="CL-WINDOW@1"));});
+reject("RV02 one view missing support",p=>p.bindings=p.bindings.filter(b=>b.id!=="B-PITCH-RN-WINDOW"));
+reject("RV02 downgrade H to O",p=>{p.edges.find(e=>e.id==="REQ-WINDOW").type="references";p.bindings=p.bindings.filter(b=>!(b.role==="REQUIRES"&&b.claim==="CL-WINDOW@1"));});
+reject("RV02 stale provider ref",p=>p.edges.find(e=>e.id==="REQ-WINDOW").to="CL-WINDOW@2");
+reject("RV02 dependency condition mismatch",p=>p.edges.find(e=>e.id==="REQ-MATH").condition="CTX-CENTS@1");
+reject("RV02 binding condition mismatch",p=>p.bindings.find(b=>b.id==="B-PITCH-FP-WINDOW").condition="CTX-WINDOW@1");
+for(const q of ["K05.07.01.05","CL-PITCH@1","CQ06","CQ25"]){
+ const p=retrieve(pack,sources,q),x=p.claims.find(c=>c.id==="CL-PITCH@1");
+ test("RV02 precise H closure "+q,x&&["CL-CENTS@1","CL-WINDOW@1"].every(id=>p.claims.some(c=>c.id===id&&c.status==="CANDIDATE")&&x.relations.some(e=>e.to===id&&e.type==="requires"&&e.required===true&&e.condition.id==="CTX-PITCH@1"&&e.targetContext.id===p.claims.find(c=>c.id===id).contextRef&&e.logicalConverse===false&&e.qualification.limits)));
+ test("RV02 scoped support evidence "+q,p.claims.every(c=>c.applicability==="CONDITIONAL_NOT_ESTABLISHED_BY_RETRIEVAL"&&c.evidence.every(e=>e.limits&&e.relation.qualification.limits&&e.sources.every(s=>s.qualification.scope&&s.qualification.limits&&s.registration.blob)))&&p.claims.filter(c=>c.id!=="CL-PITCH@1").every(c=>c.cases.filter(v=>v.id.startsWith("PITCH-")).length===6&&c.cases.filter(v=>v.id.startsWith("PITCH-")).every(v=>v.role==="REQUIRES"&&v.condition.id==="CTX-PITCH@1")));
+}
+const windowOnly=retrieve(pack,sources,"CL-WINDOW@1");
+test("RV02 O does not expand closure",eq(windowOnly.claims.map(c=>c.id),["CL-WINDOW@1"])&&windowOnly.claims[0].relations.some(e=>e.id==="REF-PITCH-USE"&&!e.required&&e.logicalConverse===false)&&windowOnly.claims[0].incomingNavigation.some(e=>e.id==="REQ-WINDOW"&&e.direction==="INCOMING_LOOKUP_ONLY"));
+const withoutO=clone(pack);withoutO.edges=withoutO.edges.filter(e=>e.id!=="REF-PITCH-USE");
+test("RV02 optional navigation removal not mandatory failure",validate(withoutO,sources).map.size===35&&retrieve(withoutO,sources,"CL-WINDOW@1").claims.length===1);
+const src=retrieve(pack,sources,"CL-PITCH@1").claims[0].evidence.flatMap(e=>e.sources).find(s=>s.id==="S413@2");
+test("RV01 alternate PDF provenance distinct from original publisher",src.author==="Patel et al."&&src.publicationDate==="2018"&&src.version==="UNKNOWN"&&src.qualification.accessedUri!==src.uri&&src.qualification.locatorKind==="L1_ALTERNATE_PDF_LOCATOR");
+test("RV01 positive qualified S022",retrieve(pack,sources,"CL-CENTS@1").claims[0].evidence[0].sources[0].uri==="https://newt.phys.unsw.edu.au/jw/notes.html");
 // Re-execute actual frozen G04 witness, not its logged output. Integrate its result as a bounded CQ25 trace.
 const {witness,routeData,support}=loadActualWitness();
 test("R8a actual replay",witness.old.fixtures.length===70&&witness.old.fixtures.every(x=>x[1]===x[2]));
 test("R9 actual replay",witness.trace.checks.length===44&&witness.trace.checks.every(x=>x[1]===true));
 const t=witness.trace.positive;
+const historic=(name,state)=>witness.old.fixtures.some(x=>x[0]===name&&x[1]===state&&x[2]===state);
+test("bounded offline alternative",historic("offline-only positive","OFFLINE_DRAFT_ONLY")&&historic("offline-only with attempted live-listen","STOP")&&witness.old.offline.measurement==="NOT_PERFORMED");
+test("bounded revision failure and revalidation",historic("registered revision but old receipt","PENDING_REVALIDATION")&&historic("registered revision but old estimate","PENDING_REVALIDATION")&&historic("new evidence qualified revision","STATIC_CANDIDATE_ONLY"));
+test("bounded failure prohibits release",historic("qualified wrong estimate","REVIEW_MEASUREMENT")&&historic("protected cue payload","REJECT_PROTECTION")&&historic("revocation between phases","STOP"));
 test("CQ25 seven stages",eq(t.primary,["A01","A02","A03","A04","A05","A06","A07"]));
 test("CQ25 support/evidence",eq([...t.support].sort(),["S-A11","S-GV02","S-V06"])&&eq([...t.evidence].sort(),["E-EST","E-OBS","E-RECEIPT"]));
 const computed=evaluate("pitch",{reference:t.reference.hz,estimate:t.estimate.hz,target:t.context.target.musicHz,valid:t.reference.valid,identity:t.context.voice,referenceIdentity:t.reference.voice,estimateIdentity:t.estimate.voice,clock:t.context.clock.id,referenceClock:t.reference.clock,estimateClock:t.estimate.clock,window:t.context.window,referenceWindow:t.reference.window,estimateWindow:t.estimate.window,referenceKind:t.reference.source,estimateKind:t.estimate.source});
