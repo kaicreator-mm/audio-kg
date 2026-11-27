@@ -1,0 +1,1289 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "d4": "K04.01.01.01",
+      "historicalRequirement": "按乐器区分发音及动作",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.01.01.03",
+        "K04.01.01.04",
+        "K04.01.01.05",
+        "K04.04.01.05"
+      ],
+      "unresolved": [],
+      "limits": "具体弓/拨、吐奏、选弦及左手动作，同音高不等动作。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 5,
+        "row": "| K04.01.01.01 | 按乐器区分发音及动作 | ROUTER_CANDIDATE | [PF01/K04.01.01.03](performance-r1-knowledge-cases.md#L5)；[PF02/K04.01.01.04](performance-r1-knowledge-cases.md#L6)；[PF51/K04.01.01.05](performance-r3-knowledge-cases.md#L5)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 具体弓/拨、吐奏、选弦及左手动作，同音高不等动作。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF01@1",
+        "K04-CL-PF02@1",
+        "K04-CL-PF51@1",
+        "K04-CL-PF54@1"
+      ]
+    },
+    {
+      "d4": "K04.01.01.02",
+      "historicalRequirement": "奏法适用范围与可观察结果",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.01.01.04",
+        "K04.04.01.03",
+        "K04.04.01.04",
+        "K04.01.01.05",
+        "K04.04.01.05"
+      ],
+      "unresolved": [],
+      "limits": "动作、时值、声音结果、乐器和记号范围分别确认，非普遍声学断言。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 6,
+        "row": "| K04.01.01.02 | 奏法适用范围与可观察结果 | BOUNDED_COMPOSITION | [PF02/K04.01.01.04](performance-r1-knowledge-cases.md#L6)；[PF12/K04.04.01.03](performance-r1-knowledge-cases.md#L16)；[PF13/K04.04.01.04](performance-r1-knowledge-cases.md#L17)；[PF51/K04.01.01.05](performance-r3-knowledge-cases.md#L5)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 动作、时值、声音结果、乐器和记号范围分别确认，非普遍声学断言。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF02@1",
+        "K04-CL-PF12@1",
+        "K04-CL-PF13@1",
+        "K04-CL-PF51@1",
+        "K04-CL-PF54@1"
+      ]
+    },
+    {
+      "d4": "K04.01.02.01",
+      "historicalRequirement": "速度音区和动作序列限制",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.01.02.03",
+        "K04.01.02.04",
+        "K04.01.02.05"
+      ],
+      "unresolved": [],
+      "limits": "攻击速率、跨弦动作与个体条件；音区/力度题设已确认，不能由单音推整句。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 7,
+        "row": "| K04.01.02.01 | 速度音区和动作序列限制 | ROUTER_CANDIDATE | [PF03/K04.01.02.03](performance-r1-knowledge-cases.md#L7)；[PF19/K04.01.02.04](performance-r2-knowledge-cases.md#L5)；[PF52/K04.01.02.05](performance-r3-knowledge-cases.md#L6) | 攻击速率、跨弦动作与个体条件；音区/力度题设已确认，不能由单音推整句。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF03@1",
+        "K04-CL-PF19@1",
+        "K04-CL-PF52@1"
+      ]
+    },
+    {
+      "d4": "K04.01.02.02",
+      "historicalRequirement": "个体差异和安全边界",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.01.02.03",
+        "K04.01.02.04",
+        "K04.01.02.05"
+      ],
+      "unresolved": [],
+      "limits": "个体能力、症状停止当前测试及专业转介；S399–401表述冲突已分层，长期恢复不自动裁决。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 8,
+        "row": "| K04.01.02.02 | 个体差异和安全边界 | BOUNDED_COMPOSITION | [PF03/K04.01.02.03](performance-r1-knowledge-cases.md#L7)；[PF19/K04.01.02.04](performance-r2-knowledge-cases.md#L5)；[PF52/K04.01.02.05](performance-r3-knowledge-cases.md#L6) | 个体能力、症状停止当前测试及专业转介；S399–401表述冲突已分层，长期恢复不自动裁决。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF03@1",
+        "K04-CL-PF19@1",
+        "K04-CL-PF52@1"
+      ]
+    },
+    {
+      "d4": "K04.01.03.01",
+      "historicalRequirement": "区分乐谱任务与真实表现",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.01.03.03",
+        "K04.01.03.04",
+        "K04.04.01.05"
+      ],
+      "unresolved": [],
+      "limits": "原谱任务、原始演奏观察及采集记录分离。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 9,
+        "row": "| K04.01.03.01 | 区分乐谱任务与真实表现 | ROUTER_CANDIDATE | [PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 原谱任务、原始演奏观察及采集记录分离。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF04@1",
+        "K04-CL-PF20@1",
+        "K04-CL-PF54@1"
+      ]
+    },
+    {
+      "d4": "K04.01.03.02",
+      "historicalRequirement": "保留候选原因与验证条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.01.03.03",
+        "K04.01.03.04",
+        "K04.01.02.05"
+      ],
+      "unresolved": [],
+      "limits": "缺音/失误保留动作、录音、能力及身体状态候选，需实际验证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 10,
+        "row": "| K04.01.03.02 | 保留候选原因与验证条件 | BOUNDED_COMPOSITION | [PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6)；[PF52/K04.01.02.05](performance-r3-knowledge-cases.md#L6) | 缺音/失误保留动作、录音、能力及身体状态候选，需实际验证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF04@1",
+        "K04-CL-PF20@1",
+        "K04-CL-PF52@1"
+      ]
+    },
+    {
+      "d4": "K04.02.01.01",
+      "historicalRequirement": "拍单位和局部速度变化",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.02.01.03",
+        "K04.02.01.05"
+      ],
+      "unresolved": [],
+      "limits": "明确主拍单位，局部IOI与速度互换。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 11,
+        "row": "| K04.02.01.01 | 拍单位和局部速度变化 | ROUTER_CANDIDATE | [PF05/K04.02.01.03](performance-r1-knowledge-cases.md#L9)；[PF21/K04.02.01.05](performance-r2-knowledge-cases.md#L7) | 明确主拍单位，局部IOI与速度互换。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF05@1",
+        "K04-CL-PF21@1"
+      ]
+    },
+    {
+      "d4": "K04.02.01.02",
+      "historicalRequirement": "谱面标记与实现区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.02.01.03",
+        "K04.02.01.04",
+        "K04.02.01.05"
+      ],
+      "unresolved": [],
+      "limits": "允许表达速度变化；规范播放参数并非实际演奏。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 12,
+        "row": "| K04.02.01.02 | 谱面标记与实现区别 | ROUTER_CANDIDATE | [PF05/K04.02.01.03](performance-r1-knowledge-cases.md#L9)；[PF06/K04.02.01.04](performance-r1-knowledge-cases.md#L10)；[PF21/K04.02.01.05](performance-r2-knowledge-cases.md#L7) | 允许表达速度变化；规范播放参数并非实际演奏。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF05@1",
+        "K04-CL-PF06@1",
+        "K04-CL-PF21@1"
+      ]
+    },
+    {
+      "d4": "K04.02.02.01",
+      "historicalRequirement": "事件时序和共享参照",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.02.02.03",
+        "K04.02.02.04",
+        "K04.02.03.03",
+        "K04.02.02.05",
+        "K04.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "IOI、细分、共同参照及角色时序，区分发声时长。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 13,
+        "row": "| K04.02.02.01 | 事件时序和共享参照 | ROUTER_CANDIDATE | [PF07/K04.02.02.03](performance-r1-knowledge-cases.md#L11)；[PF08/K04.02.02.04](performance-r1-knowledge-cases.md#L12)；[PF09/K04.02.03.03](performance-r1-knowledge-cases.md#L13)；[PF53/K04.02.02.05](performance-r3-knowledge-cases.md#L7)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11) | IOI、细分、共同参照及角色时序，区分发声时长。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF07@1",
+        "K04-CL-PF08@1",
+        "K04-CL-PF09@1",
+        "K04-CL-PF53@1",
+        "K04-CL-PF57@1"
+      ]
+    },
+    {
+      "d4": "K04.02.02.02",
+      "historicalRequirement": "风格性时差与错误区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.02.02.03",
+        "K04.02.02.04",
+        "K04.02.03.04",
+        "K04.02.02.05"
+      ],
+      "unresolved": [],
+      "limits": "限定swing及正反拍目标；偏差是否错误依题设，不把摘要当普遍定律。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 14,
+        "row": "| K04.02.02.02 | 风格性时差与错误区别 | BOUNDED_COMPOSITION | [PF07/K04.02.02.03](performance-r1-knowledge-cases.md#L11)；[PF08/K04.02.02.04](performance-r1-knowledge-cases.md#L12)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8)；[PF53/K04.02.02.05](performance-r3-knowledge-cases.md#L7) | 限定swing及正反拍目标；偏差是否错误依题设，不把摘要当普遍定律。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF07@1",
+        "K04-CL-PF08@1",
+        "K04-CL-PF22@1",
+        "K04-CL-PF53@1"
+      ]
+    },
+    {
+      "d4": "K04.02.03.01",
+      "historicalRequirement": "区分同步和表达弹性",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.02.01.04",
+        "K04.02.03.03",
+        "K04.06.01.03",
+        "K04.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "共同rubato、同起与互补/细分，分别核相对偏差。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 15,
+        "row": "| K04.02.03.01 | 区分同步和表达弹性 | ROUTER_CANDIDATE | [PF06/K04.02.01.04](performance-r1-knowledge-cases.md#L10)；[PF09/K04.02.03.03](performance-r1-knowledge-cases.md#L13)；[PF16/K04.06.01.03](performance-r1-knowledge-cases.md#L20)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11) | 共同rubato、同起与互补/细分，分别核相对偏差。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF06@1",
+        "K04-CL-PF09@1",
+        "K04-CL-PF16@1",
+        "K04-CL-PF57@1"
+      ]
+    },
+    {
+      "d4": "K04.02.03.02",
+      "historicalRequirement": "根据声部角色评估偏差",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.02.02.04",
+        "K04.02.03.04",
+        "K04.06.03.04",
+        "K04.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "领奏/跟奏及计划偏移，源端/到达差与角色分别处理。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 16,
+        "row": "| K04.02.03.02 | 根据声部角色评估偏差 | ROUTER_CANDIDATE | [PF08/K04.02.02.04](performance-r1-knowledge-cases.md#L12)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11) | 领奏/跟奏及计划偏移，源端/到达差与角色分别处理。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF08@1",
+        "K04-CL-PF22@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF57@1"
+      ]
+    },
+    {
+      "d4": "K04.03.01.01",
+      "historicalRequirement": "相对力度语义和具体实现",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.03.01.03",
+        "K04.03.03.04",
+        "K04.04.03.03",
+        "K04.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "相对力度、主次角色、渐强与动作实现目标；需试奏。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 17,
+        "row": "| K04.03.01.01 | 相对力度语义和具体实现 | ROUTER_CANDIDATE | [PF23/K04.03.01.03](performance-r2-knowledge-cases.md#L9)；[PF26/K04.03.03.04](performance-r2-knowledge-cases.md#L12)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 相对力度、主次角色、渐强与动作实现目标；需试奏。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF23@1",
+        "K04-CL-PF26@1",
+        "K04-CL-PF30@1",
+        "K04-CL-PF58@1"
+      ]
+    },
+    {
+      "d4": "K04.03.01.02",
+      "historicalRequirement": "区分力度记号与物理SPL",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.03.03.03",
+        "K04.03.01.03",
+        "K04.03.01.04"
+      ],
+      "unresolved": [],
+      "limits": "记号、软件播放标量与测量/SPL分离；同mf不是声级。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 18,
+        "row": "| K04.03.01.02 | 区分力度记号与物理SPL | BOUNDED_COMPOSITION | [PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF23/K04.03.01.03](performance-r2-knowledge-cases.md#L9)；[PF24/K04.03.01.04](performance-r2-knowledge-cases.md#L10) | 记号、软件播放标量与测量/SPL分离；同mf不是声级。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF11@1",
+        "K04-CL-PF23@1",
+        "K04-CL-PF24@1"
+      ]
+    },
+    {
+      "d4": "K04.03.02.01",
+      "historicalRequirement": "动作音色与力度相互作用",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.03.02.03",
+        "K04.03.02.04",
+        "K04.01.01.05"
+      ],
+      "unresolved": [],
+      "limits": "触键、踏板/释放、选弦与音色目标；同音符或键速不等完整动作。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 19,
+        "row": "| K04.03.02.01 | 动作音色与力度相互作用 | ROUTER_CANDIDATE | [PF10/K04.03.02.03](performance-r1-knowledge-cases.md#L14)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11)；[PF51/K04.01.01.05](performance-r3-knowledge-cases.md#L5) | 触键、踏板/释放、选弦与音色目标；同音符或键速不等完整动作。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF10@1",
+        "K04-CL-PF25@1",
+        "K04-CL-PF51@1"
+      ]
+    },
+    {
+      "d4": "K04.03.02.02",
+      "historicalRequirement": "按乐器和录音条件描述",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.03.02.03",
+        "K04.03.03.03",
+        "K04.03.01.03",
+        "K04.03.02.04"
+      ],
+      "unresolved": [],
+      "limits": "乐器/录音条件保持，比较真实动作与音响而非跨条件归因。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 20,
+        "row": "| K04.03.02.02 | 按乐器和录音条件描述 | BOUNDED_COMPOSITION | [PF10/K04.03.02.03](performance-r1-knowledge-cases.md#L14)；[PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF23/K04.03.01.03](performance-r2-knowledge-cases.md#L9)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11) | 乐器/录音条件保持，比较真实动作与音响而非跨条件归因。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF10@1",
+        "K04-CL-PF11@1",
+        "K04-CL-PF23@1",
+        "K04-CL-PF25@1"
+      ]
+    },
+    {
+      "d4": "K04.03.03.01",
+      "historicalRequirement": "渐强渐弱及段落关系",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.03.03.03",
+        "K04.03.03.04",
+        "K04.04.03.03",
+        "K04.04.03.04"
+      ],
+      "unresolved": [],
+      "limits": "渐强范围、乐句力度轨迹与段落目标，不强制线性。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 21,
+        "row": "| K04.03.03.01 | 渐强渐弱及段落关系 | ROUTER_CANDIDATE | [PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF26/K04.03.03.04](performance-r2-knowledge-cases.md#L12)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17) | 渐强范围、乐句力度轨迹与段落目标，不强制线性。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF11@1",
+        "K04-CL-PF26@1",
+        "K04-CL-PF30@1",
+        "K04-CL-PF31@1"
+      ]
+    },
+    {
+      "d4": "K04.03.03.02",
+      "historicalRequirement": "记录演奏意图和测量参考",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.03.03.03",
+        "K04.03.02.04",
+        "K04.03.03.04",
+        "K04.04.03.03"
+      ],
+      "unresolved": [],
+      "limits": "原始take、角色、意图和相同采集参考；派生增益不作演奏事实。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 22,
+        "row": "| K04.03.03.02 | 记录演奏意图和测量参考 | BOUNDED_COMPOSITION | [PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11)；[PF26/K04.03.03.04](performance-r2-knowledge-cases.md#L12)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16) | 原始take、角色、意图和相同采集参考；派生增益不作演奏事实。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF11@1",
+        "K04-CL-PF25@1",
+        "K04-CL-PF26@1",
+        "K04-CL-PF30@1"
+      ]
+    },
+    {
+      "d4": "K04.04.01.01",
+      "historicalRequirement": "articulation与实际时值关系",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.04.01.03",
+        "K04.04.01.04",
+        "K04.04.01.05"
+      ],
+      "unresolved": [],
+      "limits": "articulation、实际发声/时位及动作分离；时长阈值题定。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 23,
+        "row": "| K04.04.01.01 | articulation与实际时值关系 | ROUTER_CANDIDATE | [PF12/K04.04.01.03](performance-r1-knowledge-cases.md#L16)；[PF13/K04.04.01.04](performance-r1-knowledge-cases.md#L17)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | articulation、实际发声/时位及动作分离；时长阈值题定。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF12@1",
+        "K04-CL-PF13@1",
+        "K04-CL-PF54@1"
+      ]
+    },
+    {
+      "d4": "K04.04.01.02",
+      "historicalRequirement": "乐器特定指法弓法等限制",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.01.01.03",
+        "K04.01.01.04",
+        "K04.04.01.04",
+        "K04.01.01.05",
+        "K04.04.01.05"
+      ],
+      "unresolved": [],
+      "limits": "分弓/同弓、拨弓、吐奏与选弦，明确不同乐器动作。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 24,
+        "row": "| K04.04.01.02 | 乐器特定指法弓法等限制 | ROUTER_CANDIDATE | [PF01/K04.01.01.03](performance-r1-knowledge-cases.md#L5)；[PF02/K04.01.01.04](performance-r1-knowledge-cases.md#L6)；[PF13/K04.04.01.04](performance-r1-knowledge-cases.md#L17)；[PF51/K04.01.01.05](performance-r3-knowledge-cases.md#L5)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 分弓/同弓、拨弓、吐奏与选弦，明确不同乐器动作。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF01@1",
+        "K04-CL-PF02@1",
+        "K04-CL-PF13@1",
+        "K04-CL-PF51@1",
+        "K04-CL-PF54@1"
+      ]
+    },
+    {
+      "d4": "K04.04.02.01",
+      "historicalRequirement": "装饰音和延长记号的条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.04.02.03",
+        "K04.04.02.04",
+        "K04.04.02.05"
+      ],
+      "unresolved": [],
+      "limits": "短颤、历史长倚音及延长/共同释放具体时位。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 25,
+        "row": "| K04.04.02.01 | 装饰音和延长记号的条件 | ROUTER_CANDIDATE | [PF27/K04.04.02.03](performance-r2-knowledge-cases.md#L13)；[PF28/K04.04.02.04](performance-r2-knowledge-cases.md#L14)；[PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15) | 短颤、历史长倚音及延长/共同释放具体时位。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF27@1",
+        "K04-CL-PF28@1",
+        "K04-CL-PF29@1"
+      ]
+    },
+    {
+      "d4": "K04.04.02.02",
+      "historicalRequirement": "不同历史风格及实现差异",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.04.02.03",
+        "K04.04.02.04",
+        "K04.04.02.05"
+      ],
+      "unresolved": [],
+      "limits": "不同装饰类型/历史约定；资料记录例外，不强制定长。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 26,
+        "row": "| K04.04.02.02 | 不同历史风格及实现差异 | BOUNDED_COMPOSITION | [PF27/K04.04.02.03](performance-r2-knowledge-cases.md#L13)；[PF28/K04.04.02.04](performance-r2-knowledge-cases.md#L14)；[PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15) | 不同装饰类型/历史约定；资料记录例外，不强制定长。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF27@1",
+        "K04-CL-PF28@1",
+        "K04-CL-PF29@1"
+      ]
+    },
+    {
+      "d4": "K04.04.03.01",
+      "historicalRequirement": "记号范围与表达目标",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.04.03.03",
+        "K04.04.03.04",
+        "K04.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "作用对象、区间及表达目标明确。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 27,
+        "row": "| K04.04.03.01 | 记号范围与表达目标 | ROUTER_CANDIDATE | [PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 作用对象、区间及表达目标明确。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF30@1",
+        "K04-CL-PF31@1",
+        "K04-CL-PF58@1"
+      ]
+    },
+    {
+      "d4": "K04.04.03.02",
+      "historicalRequirement": "乐句音色速度力度协同",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.03.02.03",
+        "K04.03.02.04",
+        "K04.04.03.03",
+        "K04.04.03.04"
+      ],
+      "unresolved": [],
+      "limits": "音色动作、局部时序、力度联合选择；真实听评待证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 28,
+        "row": "| K04.04.03.02 | 乐句音色速度力度协同 | BOUNDED_COMPOSITION | [PF10/K04.03.02.03](performance-r1-knowledge-cases.md#L14)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17) | 音色动作、局部时序、力度联合选择；真实听评待证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF10@1",
+        "K04-CL-PF25@1",
+        "K04-CL-PF30@1",
+        "K04-CL-PF31@1"
+      ]
+    },
+    {
+      "d4": "K04.05.01.01",
+      "historicalRequirement": "动机音阶和声等可选资源",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.05.01.03",
+        "K04.05.01.04",
+        "K04.05.01.06"
+      ],
+      "unresolved": [],
+      "limits": "和弦音阶、趋近音、原创动机与变形，具体强弱拍。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 29,
+        "row": "| K04.05.01.01 | 动机音阶和声等可选资源 | ROUTER_CANDIDATE | [PF14/K04.05.01.03](performance-r1-knowledge-cases.md#L18)；[PF15/K04.05.01.04](performance-r1-knowledge-cases.md#L19)；[PF55/K04.05.01.06](performance-r3-knowledge-cases.md#L9) | 和弦音阶、趋近音、原创动机与变形，具体强弱拍。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF14@1",
+        "K04-CL-PF15@1",
+        "K04-CL-PF55@1"
+      ]
+    },
+    {
+      "d4": "K04.05.01.02",
+      "historicalRequirement": "自由度与风格前提",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.05.01.03",
+        "K04.05.01.04",
+        "K04.05.01.05",
+        "K04.05.01.06"
+      ],
+      "unresolved": [],
+      "limits": "指定自由度、北印度循环与风格条件，不强制西方和声。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 30,
+        "row": "| K04.05.01.02 | 自由度与风格前提 | BOUNDED_COMPOSITION | [PF14/K04.05.01.03](performance-r1-knowledge-cases.md#L18)；[PF15/K04.05.01.04](performance-r1-knowledge-cases.md#L19)；[PF36/K04.05.01.05](performance-r2-knowledge-cases.md#L22)；[PF55/K04.05.01.06](performance-r3-knowledge-cases.md#L9) | 指定自由度、北印度循环与风格条件，不强制西方和声。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF14@1",
+        "K04-CL-PF15@1",
+        "K04-CL-PF36@1",
+        "K04-CL-PF55@1"
+      ]
+    },
+    {
+      "d4": "K04.05.02.01",
+      "historicalRequirement": "聆听应答和角色变化",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.05.02.03",
+        "K04.05.02.04",
+        "K04.05.02.05"
+      ],
+      "unresolved": [],
+      "limits": "问答、trading fours、北印度限定循环互动，保留多个回应。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 31,
+        "row": "| K04.05.02.01 | 聆听应答和角色变化 | ROUTER_CANDIDATE | [PF32/K04.05.02.03](performance-r2-knowledge-cases.md#L18)；[PF33/K04.05.02.04](performance-r2-knowledge-cases.md#L19)；[PF56/K04.05.02.05](performance-r3-knowledge-cases.md#L10) | 问答、trading fours、北印度限定循环互动，保留多个回应。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF32@1",
+        "K04-CL-PF33@1",
+        "K04-CL-PF56@1"
+      ]
+    },
+    {
+      "d4": "K04.05.02.02",
+      "historicalRequirement": "保留合奏约束与实时选择",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.05.02.04",
+        "K04.05.01.05",
+        "K04.05.02.05"
+      ],
+      "unresolved": [],
+      "limits": "共同交接和实时许可；未确认不延长，循环相位保护。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 32,
+        "row": "| K04.05.02.02 | 保留合奏约束与实时选择 | ROUTER_CANDIDATE | [PF33/K04.05.02.04](performance-r2-knowledge-cases.md#L19)；[PF36/K04.05.01.05](performance-r2-knowledge-cases.md#L22)；[PF56/K04.05.02.05](performance-r3-knowledge-cases.md#L10) | 共同交接和实时许可；未确认不延长，循环相位保护。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF33@1",
+        "K04-CL-PF36@1",
+        "K04-CL-PF56@1"
+      ]
+    },
+    {
+      "d4": "K04.05.03.01",
+      "historicalRequirement": "连贯性变化和风格适配",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.05.03.03",
+        "K04.05.03.04",
+        "K04.05.01.06"
+      ],
+      "unresolved": [],
+      "limits": "硬条件、动机连贯/变化的人工评估问题，不虚构听评。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 33,
+        "row": "| K04.05.03.01 | 连贯性变化和风格适配 | BOUNDED_COMPOSITION | [PF34/K04.05.03.03](performance-r2-knowledge-cases.md#L20)；[PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21)；[PF55/K04.05.01.06](performance-r3-knowledge-cases.md#L9) | 硬条件、动机连贯/变化的人工评估问题，不虚构听评。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF34@1",
+        "K04-CL-PF35@1",
+        "K04-CL-PF55@1"
+      ]
+    },
+    {
+      "d4": "K04.05.03.02",
+      "historicalRequirement": "区分技术错误与审美选择",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.05.01.03",
+        "K04.05.03.03",
+        "K04.05.03.04"
+      ],
+      "unresolved": [],
+      "limits": "技术约束与审美分开，多候选及评价缺失UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 34,
+        "row": "| K04.05.03.02 | 区分技术错误与审美选择 | BOUNDED_COMPOSITION | [PF14/K04.05.01.03](performance-r1-knowledge-cases.md#L18)；[PF34/K04.05.03.03](performance-r2-knowledge-cases.md#L20)；[PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21) | 技术约束与审美分开，多候选及评价缺失UNKNOWN。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF14@1",
+        "K04-CL-PF34@1",
+        "K04-CL-PF35@1"
+      ]
+    },
+    {
+      "d4": "K04.06.01.01",
+      "historicalRequirement": "声部时间参照和共同目标",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.02.01.04",
+        "K04.06.01.03",
+        "K04.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "共同参照与目标，按拍ID而非数组序号比较。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 35,
+        "row": "| K04.06.01.01 | 声部时间参照和共同目标 | ROUTER_CANDIDATE | [PF06/K04.02.01.04](performance-r1-knowledge-cases.md#L10)；[PF16/K04.06.01.03](performance-r1-knowledge-cases.md#L20)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11) | 共同参照与目标，按拍ID而非数组序号比较。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF06@1",
+        "K04-CL-PF16@1",
+        "K04-CL-PF57@1"
+      ]
+    },
+    {
+      "d4": "K04.06.01.02",
+      "historicalRequirement": "同步与有意偏差区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.02.02.04",
+        "K04.02.03.03",
+        "K04.06.01.03",
+        "K04.02.03.04",
+        "K04.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "允许有意偏移和互补细分，非所有异步均失败。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 36,
+        "row": "| K04.06.01.02 | 同步与有意偏差区别 | ROUTER_CANDIDATE | [PF08/K04.02.02.04](performance-r1-knowledge-cases.md#L12)；[PF09/K04.02.03.03](performance-r1-knowledge-cases.md#L13)；[PF16/K04.06.01.03](performance-r1-knowledge-cases.md#L20)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11) | 允许有意偏移和互补细分，非所有异步均失败。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF08@1",
+        "K04-CL-PF09@1",
+        "K04-CL-PF16@1",
+        "K04-CL-PF22@1",
+        "K04-CL-PF57@1"
+      ]
+    },
+    {
+      "d4": "K04.06.02.01",
+      "historicalRequirement": "听觉与视觉提示的候选作用",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.06.02.03",
+        "K04.07.01.03",
+        "K04.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "入口前视觉/听觉共同提示及动态对象，非普遍必须视觉。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 37,
+        "row": "| K04.06.02.01 | 听觉与视觉提示的候选作用 | ROUTER_CANDIDATE | [PF37/K04.06.02.03](performance-r2-knowledge-cases.md#L23)；[PF40/K04.07.01.03](performance-r2-knowledge-cases.md#L26)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 入口前视觉/听觉共同提示及动态对象，非普遍必须视觉。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF37@1",
+        "K04-CL-PF40@1",
+        "K04-CL-PF58@1"
+      ]
+    },
+    {
+      "d4": "K04.06.02.02",
+      "historicalRequirement": "环境及监听延迟条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.06.02.03",
+        "K04.06.02.04",
+        "K04.06.03.04",
+        "K04.08.01.05"
+      ],
+      "unresolved": [],
+      "limits": "可见性、信号到达和校准路径，实际环境待确认。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 38,
+        "row": "| K04.06.02.02 | 环境及监听延迟条件 | BOUNDED_COMPOSITION | [PF37/K04.06.02.03](performance-r2-knowledge-cases.md#L23)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13) | 可见性、信号到达和校准路径，实际环境待确认。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF37@1",
+        "K04-CL-PF38@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF59@1"
+      ]
+    },
+    {
+      "d4": "K04.06.03.01",
+      "historicalRequirement": "区分局部表现与系统延迟",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.06.03.03",
+        "K04.06.02.04",
+        "K04.06.03.04",
+        "K04.08.03.05"
+      ],
+      "unresolved": [],
+      "limits": "局部相位、共同速度、传输及设备配置区分，不自动归责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 39,
+        "row": "| K04.06.03.01 | 区分局部表现与系统延迟 | ROUTER_CANDIDATE | [PF17/K04.06.03.03](performance-r1-knowledge-cases.md#L21)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 局部相位、共同速度、传输及设备配置区分，不自动归责。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF17@1",
+        "K04-CL-PF38@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF60@1"
+      ]
+    },
+    {
+      "d4": "K04.06.03.02",
+      "historicalRequirement": "共同复测和反馈",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.07.03.03",
+        "K04.06.03.04",
+        "K04.08.03.04",
+        "K04.08.03.05"
+      ],
+      "unresolved": [],
+      "limits": "共同基准与修订后重新测量，旧评价失效。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 40,
+        "row": "| K04.06.03.02 | 共同复测和反馈 | BOUNDED_COMPOSITION | [PF18/K04.07.03.03](performance-r1-knowledge-cases.md#L22)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 共同基准与修订后重新测量，旧评价失效。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF18@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF50@1",
+        "K04-CL-PF60@1"
+      ]
+    },
+    {
+      "d4": "K04.07.01.01",
+      "historicalRequirement": "起拍速度动态结构提示",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.07.01.03",
+        "K04.07.01.04",
+        "K04.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "入口、释放、动态和共同拍/段落指示，约定明确。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 41,
+        "row": "| K04.07.01.01 | 起拍速度动态结构提示 | ROUTER_CANDIDATE | [PF40/K04.07.01.03](performance-r2-knowledge-cases.md#L26)；[PF41/K04.07.01.04](performance-r2-knowledge-cases.md#L27)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 入口、释放、动态和共同拍/段落指示，约定明确。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF40@1",
+        "K04-CL-PF41@1",
+        "K04-CL-PF58@1"
+      ]
+    },
+    {
+      "d4": "K04.07.01.02",
+      "historicalRequirement": "乐队语境与手势约定",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.06.02.03",
+        "K04.07.01.03",
+        "K04.07.01.04",
+        "K04.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "不同乐队手势协议与可见性；历史教材非全球通则。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 42,
+        "row": "| K04.07.01.02 | 乐队语境与手势约定 | ROUTER_CANDIDATE | [PF37/K04.06.02.03](performance-r2-knowledge-cases.md#L23)；[PF40/K04.07.01.03](performance-r2-knowledge-cases.md#L26)；[PF41/K04.07.01.04](performance-r2-knowledge-cases.md#L27)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 不同乐队手势协议与可见性；历史教材非全球通则。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF37@1",
+        "K04-CL-PF40@1",
+        "K04-CL-PF41@1",
+        "K04-CL-PF58@1"
+      ]
+    },
+    {
+      "d4": "K04.07.02.01",
+      "historicalRequirement": "定义目标片段难点和重复条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.01.03.03",
+        "K04.07.02.03",
+        "K04.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "全段基线→局部节奏/音高→全段复测，目标不偷换。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 43,
+        "row": "| K04.07.02.01 | 定义目标片段难点和重复条件 | ROUTER_CANDIDATE | [PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF42/K04.07.02.03](performance-r2-knowledge-cases.md#L28)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30) | 全段基线→局部节奏/音高→全段复测，目标不偷换。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF04@1",
+        "K04-CL-PF42@1",
+        "K04-CL-PF44@1"
+      ]
+    },
+    {
+      "d4": "K04.07.02.02",
+      "historicalRequirement": "组织角色及资源",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.07.02.04",
+        "K04.08.01.03",
+        "K04.08.01.04"
+      ],
+      "unresolved": [],
+      "limits": "分组角色、预算、复测资源，时间为题设。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 44,
+        "row": "| K04.07.02.02 | 组织角色及资源 | ROUTER_CANDIDATE | [PF43/K04.07.02.04](performance-r2-knowledge-cases.md#L29)；[PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF46/K04.08.01.04](performance-r2-knowledge-cases.md#L32) | 分组角色、预算、复测资源，时间为题设。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF43@1",
+        "K04-CL-PF45@1",
+        "K04-CL-PF46@1"
+      ]
+    },
+    {
+      "d4": "K04.07.03.01",
+      "historicalRequirement": "基线记录复测与版本",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.07.03.03",
+        "K04.07.03.04",
+        "K04.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "同谱版/速度/参照的基线、反馈、复测、回滚。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 45,
+        "row": "| K04.07.03.01 | 基线记录复测与版本 | ROUTER_CANDIDATE | [PF18/K04.07.03.03](performance-r1-knowledge-cases.md#L22)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36) | 同谱版/速度/参照的基线、反馈、复测、回滚。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF18@1",
+        "K04-CL-PF44@1",
+        "K04-CL-PF50@1"
+      ]
+    },
+    {
+      "d4": "K04.07.03.02",
+      "historicalRequirement": "即时表现和长期能力区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.01.03.03",
+        "K04.07.03.03",
+        "K04.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "单次慢速/当前片段改善不证长期迁移；S082不证剂量。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 46,
+        "row": "| K04.07.03.02 | 即时表现和长期能力区别 | BOUNDED_COMPOSITION | [PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF18/K04.07.03.03](performance-r1-knowledge-cases.md#L22)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30) | 单次慢速/当前片段改善不证长期迁移；S082不证剂量。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF04@1",
+        "K04-CL-PF18@1",
+        "K04-CL-PF44@1"
+      ]
+    },
+    {
+      "d4": "K04.08.01.01",
+      "historicalRequirement": "曲目谱面编制和现场条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.08.01.03",
+        "K04.08.01.04",
+        "K04.08.01.05"
+      ],
+      "unresolved": [],
+      "limits": "曲目谱版、人员、站位、舞台监听及代表段检查。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 47,
+        "row": "| K04.08.01.01 | 曲目谱面编制和现场条件 | ROUTER_CANDIDATE | [PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF46/K04.08.01.04](performance-r2-knowledge-cases.md#L32)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13) | 曲目谱版、人员、站位、舞台监听及代表段检查。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF45@1",
+        "K04-CL-PF46@1",
+        "K04-CL-PF59@1"
+      ]
+    },
+    {
+      "d4": "K04.08.01.02",
+      "historicalRequirement": "候选方案及资源前置",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.07.02.04",
+        "K04.08.01.03",
+        "K04.08.01.04",
+        "K04.08.01.05"
+      ],
+      "unresolved": [],
+      "limits": "授权替代、资源/提示与安全前置，不靠旧录音室结论。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 48,
+        "row": "| K04.08.01.02 | 候选方案及资源前置 | BOUNDED_COMPOSITION | [PF43/K04.07.02.04](performance-r2-knowledge-cases.md#L29)；[PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF46/K04.08.01.04](performance-r2-knowledge-cases.md#L32)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13) | 授权替代、资源/提示与安全前置，不靠旧录音室结论。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF43@1",
+        "K04-CL-PF45@1",
+        "K04-CL-PF46@1",
+        "K04-CL-PF59@1"
+      ]
+    },
+    {
+      "d4": "K04.08.02.01",
+      "historicalRequirement": "舞台监听提示和异常沟通",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.06.02.03",
+        "K04.08.02.03",
+        "K04.08.02.04",
+        "K04.08.01.05"
+      ],
+      "unresolved": [],
+      "limits": "现场提示、监听缺失、异常沟通、停止协议。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 49,
+        "row": "| K04.08.02.01 | 舞台监听提示和异常沟通 | ROUTER_CANDIDATE | [PF37/K04.06.02.03](performance-r2-knowledge-cases.md#L23)；[PF47/K04.08.02.03](performance-r2-knowledge-cases.md#L33)；[PF48/K04.08.02.04](performance-r2-knowledge-cases.md#L34)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13) | 现场提示、监听缺失、异常沟通、停止协议。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF37@1",
+        "K04-CL-PF47@1",
+        "K04-CL-PF48@1",
+        "K04-CL-PF59@1"
+      ]
+    },
+    {
+      "d4": "K04.08.02.02",
+      "historicalRequirement": "区分音乐演出与扩声职责",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.06.02.04",
+        "K04.06.03.04",
+        "K04.08.02.03",
+        "K04.08.02.04",
+        "K04.08.03.05"
+      ],
+      "unresolved": [],
+      "limits": "音乐协同与扩声/链路工程区分，安全优先。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 50,
+        "row": "| K04.08.02.02 | 区分音乐演出与扩声职责 | BOUNDED_COMPOSITION | [PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF47/K04.08.02.03](performance-r2-knowledge-cases.md#L33)；[PF48/K04.08.02.04](performance-r2-knowledge-cases.md#L34)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 音乐协同与扩声/链路工程区分，安全优先。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF38@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF47@1",
+        "K04-CL-PF48@1",
+        "K04-CL-PF60@1"
+      ]
+    },
+    {
+      "d4": "K04.08.03.01",
+      "historicalRequirement": "记录真实表现和设备环境",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K04.08.03.03",
+        "K04.08.03.05"
+      ],
+      "unresolved": [],
+      "limits": "原始源/到达、曲目版本、环境和设备记录，缺失原因UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 51,
+        "row": "| K04.08.03.01 | 记录真实表现和设备环境 | ROUTER_CANDIDATE | [PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 原始源/到达、曲目版本、环境和设备记录，缺失原因UNKNOWN。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF49@1",
+        "K04-CL-PF60@1"
+      ]
+    },
+    {
+      "d4": "K04.08.03.02",
+      "historicalRequirement": "改进及反馈闭环",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K04.07.03.04",
+        "K04.08.03.03",
+        "K04.08.03.04",
+        "K04.08.03.05"
+      ],
+      "unresolved": [],
+      "limits": "问题→授权最小修订→复测/回滚，旧证据保留。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-legacy-convergence.md",
+        "blob": "f27093cdf0b0e5670bb1568fa6d37b8ffe62bfb6",
+        "line": 52,
+        "row": "| K04.08.03.02 | 改进及反馈闭环 | BOUNDED_COMPOSITION | [PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 问题→授权最小修订→复测/回滚，旧证据保留。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K04-CL-PF44@1",
+        "K04-CL-PF49@1",
+        "K04-CL-PF50@1",
+        "K04-CL-PF60@1"
+      ]
+    }
+  ],
+  "splitRoutes": [
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 13,
+        "row": "| K13.03.03.01 | 传统证据与实际技法 | K16.03.01.01 | K04.04.02.02 K06.07.01.01 | — | 变体/实践必须有主体和条件 | [MX-K13.03.03.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 20,
+        "row": "| K13.07.01.01 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | 曲种/器物/场合不得混同 | [MX-K13.07.01.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 31,
+        "row": "| K09.07.02.01 | 主扩监听、通用路由和协作目标 | K19.05.01.01 | K08.04.01.01 K08.04.03.01 K04.06.02.01 | K12.01 | 主扩与监听独立服务目标，非通用总线等价 | [MX-K09.07.02.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    }
+  ],
+  "historicalFinding": 35,
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}
