@@ -4,8 +4,11 @@
     {
       "d4": "K14.01.01.01",
       "historicalRequirement": "区分知识理解技能和迁移目标",
-      "disposition": "[K14.01.01](../culture-education-rights/fine-grained-culture-education-rights.md#L31)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.01.01.03",
+        "K14.01.01.04"
+      ],
       "unresolved": [],
       "limits": "知识/技能/迁移独立目标",
       "anchor": {
@@ -16,13 +19,35 @@
         "row": "| K14.01.01.01 | 区分知识理解技能和迁移目标 | [K14.01.01](../culture-education-rights/fine-grained-culture-education-rights.md#L31) | ROUTER_CANDIDATE | [ED01/K14.01.01.03](music-education-r1-knowledge-cases.md#L5)；[ED25/K14.01.01.04](music-education-r2-knowledge-cases.md#L5) | 知识/技能/迁移独立目标 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.01.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L31"
+      },
+      "routeLinks": [
+        {
+          "label": "ED01/K14.01.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L5",
+          "targetD4": "K14.01.01.03"
+        },
+        {
+          "label": "ED25/K14.01.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L5",
+          "targetD4": "K14.01.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED01@1",
+        "K14-CL-ED25@1"
+      ]
     },
     {
       "d4": "K14.01.01.02",
       "historicalRequirement": "设定可观察的成功条件",
-      "disposition": "[K14.01.01](../culture-education-rights/fine-grained-culture-education-rights.md#L31)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.01.01.03",
+        "K14.01.01.04"
+      ],
       "unresolved": [],
       "limits": "可观察独立条件，课程完成不代掌握",
       "anchor": {
@@ -33,13 +58,35 @@
         "row": "| K14.01.01.02 | 设定可观察的成功条件 | [K14.01.01](../culture-education-rights/fine-grained-culture-education-rights.md#L31) | BOUNDED_COMPOSITION | [ED01/K14.01.01.03](music-education-r1-knowledge-cases.md#L5)；[ED25/K14.01.01.04](music-education-r2-knowledge-cases.md#L5) | 可观察独立条件，课程完成不代掌握 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.01.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L31"
+      },
+      "routeLinks": [
+        {
+          "label": "ED01/K14.01.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L5",
+          "targetD4": "K14.01.01.03"
+        },
+        {
+          "label": "ED25/K14.01.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L5",
+          "targetD4": "K14.01.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED01@1",
+        "K14-CL-ED25@1"
+      ]
     },
     {
       "d4": "K14.01.02.01",
       "historicalRequirement": "区分结果反馈策略反馈及示范",
-      "disposition": "[K14.01.02](../culture-education-rights/fine-grained-culture-education-rights.md#L32)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.01.02.03",
+        "K14.01.02.04"
+      ],
       "unresolved": [],
       "limits": "结果/策略/示范反馈",
       "anchor": {
@@ -50,13 +97,35 @@
         "row": "| K14.01.02.01 | 区分结果反馈策略反馈及示范 | [K14.01.02](../culture-education-rights/fine-grained-culture-education-rights.md#L32) | ROUTER_CANDIDATE | [ED02/K14.01.02.03](music-education-r1-knowledge-cases.md#L6)；[ED26/K14.01.02.04](music-education-r2-knowledge-cases.md#L6) | 结果/策略/示范反馈 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.01.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L32"
+      },
+      "routeLinks": [
+        {
+          "label": "ED02/K14.01.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L6",
+          "targetD4": "K14.01.02.03"
+        },
+        {
+          "label": "ED26/K14.01.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L6",
+          "targetD4": "K14.01.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED02@1",
+        "K14-CL-ED26@1"
+      ]
     },
     {
       "d4": "K14.01.02.02",
       "historicalRequirement": "明确反馈时间条件和可采取行动",
-      "disposition": "[K14.01.02](../culture-education-rights/fine-grained-culture-education-rights.md#L32)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.01.02.03",
+        "K14.01.02.04"
+      ],
       "unresolved": [],
       "limits": "时点、可行动重试与验证",
       "anchor": {
@@ -67,13 +136,35 @@
         "row": "| K14.01.02.02 | 明确反馈时间条件和可采取行动 | [K14.01.02](../culture-education-rights/fine-grained-culture-education-rights.md#L32) | BOUNDED_COMPOSITION | [ED02/K14.01.02.03](music-education-r1-knowledge-cases.md#L6)；[ED26/K14.01.02.04](music-education-r2-knowledge-cases.md#L6) | 时点、可行动重试与验证 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.01.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L32"
+      },
+      "routeLinks": [
+        {
+          "label": "ED02/K14.01.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L6",
+          "targetD4": "K14.01.02.03"
+        },
+        {
+          "label": "ED26/K14.01.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L6",
+          "targetD4": "K14.01.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED02@1",
+        "K14-CL-ED26@1"
+      ]
     },
     {
       "d4": "K14.01.03.01",
       "historicalRequirement": "分解目标安排难度与对照",
-      "disposition": "[K14.01.03](../culture-education-rights/fine-grained-culture-education-rights.md#L33)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.01.03.03",
+        "K14.01.03.04"
+      ],
       "unresolved": [],
       "limits": "分解、难度和练习对照",
       "anchor": {
@@ -84,13 +175,35 @@
         "row": "| K14.01.03.01 | 分解目标安排难度与对照 | [K14.01.03](../culture-education-rights/fine-grained-culture-education-rights.md#L33) | ROUTER_CANDIDATE | [ED03/K14.01.03.03](music-education-r1-knowledge-cases.md#L7)；[ED27/K14.01.03.04](music-education-r2-knowledge-cases.md#L7) | 分解、难度和练习对照 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.01.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L33"
+      },
+      "routeLinks": [
+        {
+          "label": "ED03/K14.01.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L7",
+          "targetD4": "K14.01.03.03"
+        },
+        {
+          "label": "ED27/K14.01.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L7",
+          "targetD4": "K14.01.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED03@1",
+        "K14-CL-ED27@1"
+      ]
     },
     {
       "d4": "K14.01.03.02",
       "historicalRequirement": "区分自我调节研究及教学建议",
-      "disposition": "[K14.01.03](../culture-education-rights/fine-grained-culture-education-rights.md#L33)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.01.03.03",
+        "K14.01.03.04"
+      ],
       "unresolved": [],
       "limits": "自我调节与因果边界",
       "anchor": {
@@ -101,13 +214,35 @@
         "row": "| K14.01.03.02 | 区分自我调节研究及教学建议 | [K14.01.03](../culture-education-rights/fine-grained-culture-education-rights.md#L33) | BOUNDED_COMPOSITION | [ED03/K14.01.03.03](music-education-r1-knowledge-cases.md#L7)；[ED27/K14.01.03.04](music-education-r2-knowledge-cases.md#L7) | 自我调节与因果边界 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.01.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L33"
+      },
+      "routeLinks": [
+        {
+          "label": "ED03/K14.01.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L7",
+          "targetD4": "K14.01.03.03"
+        },
+        {
+          "label": "ED27/K14.01.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L7",
+          "targetD4": "K14.01.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED03@1",
+        "K14-CL-ED27@1"
+      ]
     },
     {
       "d4": "K14.02.01.01",
       "historicalRequirement": "将乐理定义关联听觉和实践",
-      "disposition": "[K14.02.01](../culture-education-rights/fine-grained-culture-education-rights.md#L34)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.02.01.03",
+        "K14.02.01.04"
+      ],
       "unresolved": [],
       "limits": "听觉/概念/记谱/实践分离",
       "anchor": {
@@ -118,13 +253,35 @@
         "row": "| K14.02.01.01 | 将乐理定义关联听觉和实践 | [K14.02.01](../culture-education-rights/fine-grained-culture-education-rights.md#L34) | ROUTER_CANDIDATE | [ED04/K14.02.01.03](music-education-r1-knowledge-cases.md#L8)；[ED28/K14.02.01.04](music-education-r2-knowledge-cases.md#L8) | 听觉/概念/记谱/实践分离 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.02.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L34"
+      },
+      "routeLinks": [
+        {
+          "label": "ED04/K14.02.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L8",
+          "targetD4": "K14.02.01.03"
+        },
+        {
+          "label": "ED28/K14.02.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L8",
+          "targetD4": "K14.02.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED04@1",
+        "K14-CL-ED28@1"
+      ]
     },
     {
       "d4": "K14.02.01.02",
       "historicalRequirement": "明确前置知识与误解",
-      "disposition": "[K14.02.01](../culture-education-rights/fine-grained-culture-education-rights.md#L34)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.02.01.03",
+        "K14.02.01.04"
+      ],
       "unresolved": [],
       "limits": "先修/误解，等音歧义",
       "anchor": {
@@ -135,13 +292,35 @@
         "row": "| K14.02.01.02 | 明确前置知识与误解 | [K14.02.01](../culture-education-rights/fine-grained-culture-education-rights.md#L34) | BOUNDED_COMPOSITION | [ED04/K14.02.01.03](music-education-r1-knowledge-cases.md#L8)；[ED28/K14.02.01.04](music-education-r2-knowledge-cases.md#L8) | 先修/误解，等音歧义 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.02.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L34"
+      },
+      "routeLinks": [
+        {
+          "label": "ED04/K14.02.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L8",
+          "targetD4": "K14.02.01.03"
+        },
+        {
+          "label": "ED28/K14.02.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L8",
+          "targetD4": "K14.02.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED04@1",
+        "K14-CL-ED28@1"
+      ]
     },
     {
       "d4": "K14.02.02.01",
       "historicalRequirement": "区分音名节奏谱号和演奏实现",
-      "disposition": "[K14.02.02](../culture-education-rights/fine-grained-culture-education-rights.md#L35)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.02.02.03",
+        "K14.02.02.04"
+      ],
       "unresolved": [],
       "limits": "谱号/音名/节奏/实现",
       "anchor": {
@@ -152,13 +331,35 @@
         "row": "| K14.02.02.01 | 区分音名节奏谱号和演奏实现 | [K14.02.02](../culture-education-rights/fine-grained-culture-education-rights.md#L35) | ROUTER_CANDIDATE | [ED05/K14.02.02.03](music-education-r1-knowledge-cases.md#L9)；[ED29/K14.02.02.04](music-education-r2-knowledge-cases.md#L9) | 谱号/音名/节奏/实现 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.02.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L35"
+      },
+      "routeLinks": [
+        {
+          "label": "ED05/K14.02.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L9",
+          "targetD4": "K14.02.02.03"
+        },
+        {
+          "label": "ED29/K14.02.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L9",
+          "targetD4": "K14.02.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED05@1",
+        "K14-CL-ED29@1"
+      ]
     },
     {
       "d4": "K14.02.02.02",
       "historicalRequirement": "按目标难度设计逐项任务",
-      "disposition": "[K14.02.02](../culture-education-rights/fine-grained-culture-education-rights.md#L35)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.02.02.03",
+        "K14.02.02.04"
+      ],
       "unresolved": [],
       "limits": "提示及相对绝对信息",
       "anchor": {
@@ -169,13 +370,35 @@
         "row": "| K14.02.02.02 | 按目标难度设计逐项任务 | [K14.02.02](../culture-education-rights/fine-grained-culture-education-rights.md#L35) | BOUNDED_COMPOSITION | [ED05/K14.02.02.03](music-education-r1-knowledge-cases.md#L9)；[ED29/K14.02.02.04](music-education-r2-knowledge-cases.md#L9) | 提示及相对绝对信息 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.02.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L35"
+      },
+      "routeLinks": [
+        {
+          "label": "ED05/K14.02.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L9",
+          "targetD4": "K14.02.02.03"
+        },
+        {
+          "label": "ED29/K14.02.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L9",
+          "targetD4": "K14.02.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED05@1",
+        "K14-CL-ED29@1"
+      ]
     },
     {
       "d4": "K14.02.03.01",
       "historicalRequirement": "连接和声节拍结构与创作",
-      "disposition": "[K14.02.03](../culture-education-rights/fine-grained-culture-education-rights.md#L36)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.02.03.03",
+        "K14.02.03.04"
+      ],
       "unresolved": [],
       "limits": "和声节拍结构到创作",
       "anchor": {
@@ -186,13 +409,35 @@
         "row": "| K14.02.03.01 | 连接和声节拍结构与创作 | [K14.02.03](../culture-education-rights/fine-grained-culture-education-rights.md#L36) | ROUTER_CANDIDATE | [ED06/K14.02.03.03](music-education-r1-knowledge-cases.md#L10)；[ED30/K14.02.03.04](music-education-r2-knowledge-cases.md#L10) | 和声节拍结构到创作 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.02.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L36"
+      },
+      "routeLinks": [
+        {
+          "label": "ED06/K14.02.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L10",
+          "targetD4": "K14.02.03.03"
+        },
+        {
+          "label": "ED30/K14.02.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L10",
+          "targetD4": "K14.02.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED06@1",
+        "K14-CL-ED30@1"
+      ]
     },
     {
       "d4": "K14.02.03.02",
       "historicalRequirement": "评估对新材料的迁移",
-      "disposition": "[K14.02.03](../culture-education-rights/fine-grained-culture-education-rights.md#L36)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.02.03.03",
+        "K14.02.03.04"
+      ],
       "unresolved": [],
       "limits": "未见材料与开放选择",
       "anchor": {
@@ -203,13 +448,35 @@
         "row": "| K14.02.03.02 | 评估对新材料的迁移 | [K14.02.03](../culture-education-rights/fine-grained-culture-education-rights.md#L36) | BOUNDED_COMPOSITION | [ED06/K14.02.03.03](music-education-r1-knowledge-cases.md#L10)；[ED30/K14.02.03.04](music-education-r2-knowledge-cases.md#L10) | 未见材料与开放选择 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.02.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L36"
+      },
+      "routeLinks": [
+        {
+          "label": "ED06/K14.02.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L10",
+          "targetD4": "K14.02.03.03"
+        },
+        {
+          "label": "ED30/K14.02.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L10",
+          "targetD4": "K14.02.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED06@1",
+        "K14-CL-ED30@1"
+      ]
     },
     {
       "d4": "K14.03.01.01",
       "historicalRequirement": "区分参考音音程方向及上下文",
-      "disposition": "[K14.03.01](../culture-education-rights/fine-grained-culture-education-rights.md#L37)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.03.01.03",
+        "K14.03.01.04"
+      ],
       "unresolved": [],
       "limits": "音程大小方向/上下文",
       "anchor": {
@@ -220,13 +487,35 @@
         "row": "| K14.03.01.01 | 区分参考音音程方向及上下文 | [K14.03.01](../culture-education-rights/fine-grained-culture-education-rights.md#L37) | ROUTER_CANDIDATE | [ED07/K14.03.01.03](music-education-r1-knowledge-cases.md#L11)；[ED31/K14.03.01.04](music-education-r2-knowledge-cases.md#L11) | 音程大小方向/上下文 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.03.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L37"
+      },
+      "routeLinks": [
+        {
+          "label": "ED07/K14.03.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L11",
+          "targetD4": "K14.03.01.03"
+        },
+        {
+          "label": "ED31/K14.03.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L11",
+          "targetD4": "K14.03.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED07@1",
+        "K14-CL-ED31@1"
+      ]
     },
     {
       "d4": "K14.03.01.02",
       "historicalRequirement": "设计听辨难度和干扰条件",
-      "disposition": "[K14.03.01](../culture-education-rights/fine-grained-culture-education-rights.md#L37)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.03.01.03",
+        "K14.03.01.04"
+      ],
       "unresolved": [],
       "limits": "受控干扰与真实听辨",
       "anchor": {
@@ -237,13 +526,35 @@
         "row": "| K14.03.01.02 | 设计听辨难度和干扰条件 | [K14.03.01](../culture-education-rights/fine-grained-culture-education-rights.md#L37) | BOUNDED_COMPOSITION | [ED07/K14.03.01.03](music-education-r1-knowledge-cases.md#L11)；[ED31/K14.03.01.04](music-education-r2-knowledge-cases.md#L11) | 受控干扰与真实听辨 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.03.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L37"
+      },
+      "routeLinks": [
+        {
+          "label": "ED07/K14.03.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L11",
+          "targetD4": "K14.03.01.03"
+        },
+        {
+          "label": "ED31/K14.03.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L11",
+          "targetD4": "K14.03.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED07@1",
+        "K14-CL-ED31@1"
+      ]
     },
     {
       "d4": "K14.03.02.01",
       "historicalRequirement": "区分音级唱名旋律读谱与记忆",
-      "disposition": "[K14.03.02](../culture-education-rights/fine-grained-culture-education-rights.md#L38)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.03.02.03",
+        "K14.03.02.04"
+      ],
       "unresolved": [],
       "limits": "移动/固定唱名与记忆",
       "anchor": {
@@ -254,13 +565,35 @@
         "row": "| K14.03.02.01 | 区分音级唱名旋律读谱与记忆 | [K14.03.02](../culture-education-rights/fine-grained-culture-education-rights.md#L38) | ROUTER_CANDIDATE | [ED08/K14.03.02.03](music-education-r1-knowledge-cases.md#L12)；[ED32/K14.03.02.04](music-education-r2-knowledge-cases.md#L12) | 移动/固定唱名与记忆 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.03.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L38"
+      },
+      "routeLinks": [
+        {
+          "label": "ED08/K14.03.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L12",
+          "targetD4": "K14.03.02.03"
+        },
+        {
+          "label": "ED32/K14.03.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L12",
+          "targetD4": "K14.03.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED08@1",
+        "K14-CL-ED32@1"
+      ]
     },
     {
       "d4": "K14.03.02.02",
       "historicalRequirement": "记录参考调律与有意移调",
-      "disposition": "[K14.03.02](../culture-education-rights/fine-grained-culture-education-rights.md#L38)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.03.02.03",
+        "K14.03.02.04"
+      ],
       "unresolved": [],
       "limits": "调律、主音、移调、陌生谱",
       "anchor": {
@@ -271,13 +604,35 @@
         "row": "| K14.03.02.02 | 记录参考调律与有意移调 | [K14.03.02](../culture-education-rights/fine-grained-culture-education-rights.md#L38) | BOUNDED_COMPOSITION | [ED08/K14.03.02.03](music-education-r1-knowledge-cases.md#L12)；[ED32/K14.03.02.04](music-education-r2-knowledge-cases.md#L12) | 调律、主音、移调、陌生谱 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.03.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L38"
+      },
+      "routeLinks": [
+        {
+          "label": "ED08/K14.03.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L12",
+          "targetD4": "K14.03.02.03"
+        },
+        {
+          "label": "ED32/K14.03.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L12",
+          "targetD4": "K14.03.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED08@1",
+        "K14-CL-ED32@1"
+      ]
     },
     {
       "d4": "K14.03.03.01",
       "historicalRequirement": "区分根音性质转位节奏和记谱任务",
-      "disposition": "[K14.03.03](../culture-education-rights/fine-grained-culture-education-rights.md#L39)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.03.03.03",
+        "K14.03.03.04"
+      ],
       "unresolved": [],
       "limits": "根/性质/转位/外声部",
       "anchor": {
@@ -288,13 +643,35 @@
         "row": "| K14.03.03.01 | 区分根音性质转位节奏和记谱任务 | [K14.03.03](../culture-education-rights/fine-grained-culture-education-rights.md#L39) | ROUTER_CANDIDATE | [ED09/K14.03.03.03](music-education-r1-knowledge-cases.md#L13)；[ED33/K14.03.03.04](music-education-r2-knowledge-cases.md#L13) | 根/性质/转位/外声部 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.03.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L39"
+      },
+      "routeLinks": [
+        {
+          "label": "ED09/K14.03.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L13",
+          "targetD4": "K14.03.03.03"
+        },
+        {
+          "label": "ED33/K14.03.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L13",
+          "targetD4": "K14.03.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED09@1",
+        "K14-CL-ED33@1"
+      ]
     },
     {
       "d4": "K14.03.03.02",
       "historicalRequirement": "按可观测维度评分并允许等效表达",
-      "disposition": "[K14.03.03](../culture-education-rights/fine-grained-culture-education-rights.md#L39)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.03.03.03",
+        "K14.03.03.04"
+      ],
       "unresolved": [],
       "limits": "分项任务及许可等价",
       "anchor": {
@@ -305,13 +682,35 @@
         "row": "| K14.03.03.02 | 按可观测维度评分并允许等效表达 | [K14.03.03](../culture-education-rights/fine-grained-culture-education-rights.md#L39) | BOUNDED_COMPOSITION | [ED09/K14.03.03.03](music-education-r1-knowledge-cases.md#L13)；[ED33/K14.03.03.04](music-education-r2-knowledge-cases.md#L13) | 分项任务及许可等价 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.03.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L39"
+      },
+      "routeLinks": [
+        {
+          "label": "ED09/K14.03.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L13",
+          "targetD4": "K14.03.03.03"
+        },
+        {
+          "label": "ED33/K14.03.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L13",
+          "targetD4": "K14.03.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED09@1",
+        "K14-CL-ED33@1"
+      ]
     },
     {
       "d4": "K14.04.01.01",
       "historicalRequirement": "区分脉冲节拍层级和重音",
-      "disposition": "[K14.04.01](../culture-education-rights/fine-grained-culture-education-rights.md#L40)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.04.01.03",
+        "K14.04.01.04"
+      ],
       "unresolved": [],
       "limits": "脉冲/拍单位/层级",
       "anchor": {
@@ -322,13 +721,35 @@
         "row": "| K14.04.01.01 | 区分脉冲节拍层级和重音 | [K14.04.01](../culture-education-rights/fine-grained-culture-education-rights.md#L40) | ROUTER_CANDIDATE | [ED10/K14.04.01.03](music-education-r1-knowledge-cases.md#L14)；[ED34/K14.04.01.04](music-education-r2-knowledge-cases.md#L14) | 脉冲/拍单位/层级 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.04.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L40"
+      },
+      "routeLinks": [
+        {
+          "label": "ED10/K14.04.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L14",
+          "targetD4": "K14.04.01.03"
+        },
+        {
+          "label": "ED34/K14.04.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L14",
+          "targetD4": "K14.04.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED10@1",
+        "K14-CL-ED34@1"
+      ]
     },
     {
       "d4": "K14.04.01.02",
       "historicalRequirement": "选择适合的节拍示范及速度",
-      "disposition": "[K14.04.01](../culture-education-rights/fine-grained-culture-education-rights.md#L40)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.04.01.03",
+        "K14.04.01.04"
+      ],
       "unresolved": [],
       "limits": "分组、速度和重音",
       "anchor": {
@@ -339,13 +760,35 @@
         "row": "| K14.04.01.02 | 选择适合的节拍示范及速度 | [K14.04.01](../culture-education-rights/fine-grained-culture-education-rights.md#L40) | BOUNDED_COMPOSITION | [ED10/K14.04.01.03](music-education-r1-knowledge-cases.md#L14)；[ED34/K14.04.01.04](music-education-r2-knowledge-cases.md#L14) | 分组、速度和重音 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.04.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L40"
+      },
+      "routeLinks": [
+        {
+          "label": "ED10/K14.04.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L14",
+          "targetD4": "K14.04.01.03"
+        },
+        {
+          "label": "ED34/K14.04.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L14",
+          "targetD4": "K14.04.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED10@1",
+        "K14-CL-ED34@1"
+      ]
     },
     {
       "d4": "K14.04.02.01",
       "historicalRequirement": "区分时值符号与事件时序",
-      "disposition": "[K14.04.02](../culture-education-rights/fine-grained-culture-education-rights.md#L41)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.04.02.03",
+        "K14.04.02.04"
+      ],
       "unresolved": [],
       "limits": "时值与事件时序",
       "anchor": {
@@ -356,13 +799,35 @@
         "row": "| K14.04.02.01 | 区分时值符号与事件时序 | [K14.04.02](../culture-education-rights/fine-grained-culture-education-rights.md#L41) | ROUTER_CANDIDATE | [ED11/K14.04.02.03](music-education-r1-knowledge-cases.md#L15)；[ED35/K14.04.02.04](music-education-r2-knowledge-cases.md#L15) | 时值与事件时序 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.04.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L41"
+      },
+      "routeLinks": [
+        {
+          "label": "ED11/K14.04.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L15",
+          "targetD4": "K14.04.02.03"
+        },
+        {
+          "label": "ED35/K14.04.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L15",
+          "targetD4": "K14.04.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED11@1",
+        "K14-CL-ED35@1"
+      ]
     },
     {
       "d4": "K14.04.02.02",
       "historicalRequirement": "分离听辨演奏和记谱评分",
-      "disposition": "[K14.04.02](../culture-education-rights/fine-grained-culture-education-rights.md#L41)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.04.02.03",
+        "K14.04.02.04"
+      ],
       "unresolved": [],
       "limits": "休止、未知、听辨与演奏记谱分离",
       "anchor": {
@@ -373,13 +838,35 @@
         "row": "| K14.04.02.02 | 分离听辨演奏和记谱评分 | [K14.04.02](../culture-education-rights/fine-grained-culture-education-rights.md#L41) | BOUNDED_COMPOSITION | [ED11/K14.04.02.03](music-education-r1-knowledge-cases.md#L15)；[ED35/K14.04.02.04](music-education-r2-knowledge-cases.md#L15) | 休止、未知、听辨与演奏记谱分离 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.04.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L41"
+      },
+      "routeLinks": [
+        {
+          "label": "ED11/K14.04.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L15",
+          "targetD4": "K14.04.02.03"
+        },
+        {
+          "label": "ED35/K14.04.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L15",
+          "targetD4": "K14.04.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED11@1",
+        "K14-CL-ED35@1"
+      ]
     },
     {
       "d4": "K14.04.03.01",
       "historicalRequirement": "按切分复拍与复节奏逐步调整难度",
-      "disposition": "[K14.04.03](../culture-education-rights/fine-grained-culture-education-rights.md#L42)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.04.03.03",
+        "K14.04.03.04"
+      ],
       "unresolved": [],
       "limits": "切分、复拍、复节奏",
       "anchor": {
@@ -390,13 +877,35 @@
         "row": "| K14.04.03.01 | 按切分复拍与复节奏逐步调整难度 | [K14.04.03](../culture-education-rights/fine-grained-culture-education-rights.md#L42) | ROUTER_CANDIDATE | [ED12/K14.04.03.03](music-education-r1-knowledge-cases.md#L16)；[ED36/K14.04.03.04](music-education-r2-knowledge-cases.md#L16) | 切分、复拍、复节奏 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.04.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L42"
+      },
+      "routeLinks": [
+        {
+          "label": "ED12/K14.04.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L16",
+          "targetD4": "K14.04.03.03"
+        },
+        {
+          "label": "ED36/K14.04.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L16",
+          "targetD4": "K14.04.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED12@1",
+        "K14-CL-ED36@1"
+      ]
     },
     {
       "d4": "K14.04.03.02",
       "historicalRequirement": "记录速度变化和迁移复测",
-      "disposition": "[K14.04.03](../culture-education-rights/fine-grained-culture-education-rights.md#L42)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.04.03.03",
+        "K14.04.03.04"
+      ],
       "unresolved": [],
       "limits": "变一难度维度、复测迁移",
       "anchor": {
@@ -407,13 +916,35 @@
         "row": "| K14.04.03.02 | 记录速度变化和迁移复测 | [K14.04.03](../culture-education-rights/fine-grained-culture-education-rights.md#L42) | BOUNDED_COMPOSITION | [ED12/K14.04.03.03](music-education-r1-knowledge-cases.md#L16)；[ED36/K14.04.03.04](music-education-r2-knowledge-cases.md#L16) | 变一难度维度、复测迁移 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.04.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L42"
+      },
+      "routeLinks": [
+        {
+          "label": "ED12/K14.04.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L16",
+          "targetD4": "K14.04.03.03"
+        },
+        {
+          "label": "ED36/K14.04.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L16",
+          "targetD4": "K14.04.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED12@1",
+        "K14-CL-ED36@1"
+      ]
     },
     {
       "d4": "K14.05.01.01",
       "historicalRequirement": "识别目标乐句动作序列与难点",
-      "disposition": "[K14.05.01](../culture-education-rights/fine-grained-culture-education-rights.md#L43)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.05.01.03",
+        "K14.05.01.04"
+      ],
       "unresolved": [],
       "limits": "目标乐句、难点及边界",
       "anchor": {
@@ -424,13 +955,35 @@
         "row": "| K14.05.01.01 | 识别目标乐句动作序列与难点 | [K14.05.01](../culture-education-rights/fine-grained-culture-education-rights.md#L43) | ROUTER_CANDIDATE | [ED13/K14.05.01.03](music-education-r1-knowledge-cases.md#L17)；[ED37/K14.05.01.04](music-education-r2-knowledge-cases.md#L17) | 目标乐句、难点及边界 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.05.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L43"
+      },
+      "routeLinks": [
+        {
+          "label": "ED13/K14.05.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L17",
+          "targetD4": "K14.05.01.03"
+        },
+        {
+          "label": "ED37/K14.05.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L17",
+          "targetD4": "K14.05.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED13@1",
+        "K14-CL-ED37@1"
+      ]
     },
     {
       "d4": "K14.05.01.02",
       "historicalRequirement": "按个体条件分解训练任务",
-      "disposition": "[K14.05.01](../culture-education-rights/fine-grained-culture-education-rights.md#L43)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.05.01.03",
+        "K14.05.01.04"
+      ],
       "unresolved": [],
       "limits": "个体技术/安全与全句复核",
       "anchor": {
@@ -441,13 +994,35 @@
         "row": "| K14.05.01.02 | 按个体条件分解训练任务 | [K14.05.01](../culture-education-rights/fine-grained-culture-education-rights.md#L43) | BOUNDED_COMPOSITION | [ED13/K14.05.01.03](music-education-r1-knowledge-cases.md#L17)；[ED37/K14.05.01.04](music-education-r2-knowledge-cases.md#L17) | 个体技术/安全与全句复核 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.05.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L43"
+      },
+      "routeLinks": [
+        {
+          "label": "ED13/K14.05.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L17",
+          "targetD4": "K14.05.01.03"
+        },
+        {
+          "label": "ED37/K14.05.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L17",
+          "targetD4": "K14.05.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED13@1",
+        "K14-CL-ED37@1"
+      ]
     },
     {
       "d4": "K14.05.02.01",
       "historicalRequirement": "区分慢练分段交替和完整演奏候选",
-      "disposition": "[K14.05.02](../culture-education-rights/fine-grained-culture-education-rights.md#L44)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.05.02.03",
+        "K14.05.02.04"
+      ],
       "unresolved": [],
       "limits": "慢练/分段/交替/完整",
       "anchor": {
@@ -458,13 +1033,35 @@
         "row": "| K14.05.02.01 | 区分慢练分段交替和完整演奏候选 | [K14.05.02](../culture-education-rights/fine-grained-culture-education-rights.md#L44) | ROUTER_CANDIDATE | [ED14/K14.05.02.03](music-education-r1-knowledge-cases.md#L18)；[ED38/K14.05.02.04](music-education-r2-knowledge-cases.md#L18) | 慢练/分段/交替/完整 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.05.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L44"
+      },
+      "routeLinks": [
+        {
+          "label": "ED14/K14.05.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L18",
+          "targetD4": "K14.05.02.03"
+        },
+        {
+          "label": "ED38/K14.05.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L18",
+          "targetD4": "K14.05.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED14@1",
+        "K14-CL-ED38@1"
+      ]
     },
     {
       "d4": "K14.05.02.02",
       "historicalRequirement": "记录策略适用条件及实际反馈",
-      "disposition": "[K14.05.02](../culture-education-rights/fine-grained-culture-education-rights.md#L44)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.05.02.03",
+        "K14.05.02.04"
+      ],
       "unresolved": [],
       "limits": "实际研究条件与不一致性",
       "anchor": {
@@ -475,13 +1072,35 @@
         "row": "| K14.05.02.02 | 记录策略适用条件及实际反馈 | [K14.05.02](../culture-education-rights/fine-grained-culture-education-rights.md#L44) | BOUNDED_COMPOSITION | [ED14/K14.05.02.03](music-education-r1-knowledge-cases.md#L18)；[ED38/K14.05.02.04](music-education-r2-knowledge-cases.md#L18) | 实际研究条件与不一致性 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.05.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L44"
+      },
+      "routeLinks": [
+        {
+          "label": "ED14/K14.05.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L18",
+          "targetD4": "K14.05.02.03"
+        },
+        {
+          "label": "ED38/K14.05.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L18",
+          "targetD4": "K14.05.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED14@1",
+        "K14-CL-ED38@1"
+      ]
     },
     {
       "d4": "K14.05.03.01",
       "historicalRequirement": "区分即时演奏保持和新任务迁移",
-      "disposition": "[K14.05.03](../culture-education-rights/fine-grained-culture-education-rights.md#L45)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.05.03.03",
+        "K14.05.03.04"
+      ],
       "unresolved": [],
       "limits": "即时、保持及迁移",
       "anchor": {
@@ -492,13 +1111,35 @@
         "row": "| K14.05.03.01 | 区分即时演奏保持和新任务迁移 | [K14.05.03](../culture-education-rights/fine-grained-culture-education-rights.md#L45) | ROUTER_CANDIDATE | [ED15/K14.05.03.03](music-education-r1-knowledge-cases.md#L19)；[ED39/K14.05.03.04](music-education-r2-knowledge-cases.md#L19) | 即时、保持及迁移 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.05.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L45"
+      },
+      "routeLinks": [
+        {
+          "label": "ED15/K14.05.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L19",
+          "targetD4": "K14.05.03.03"
+        },
+        {
+          "label": "ED39/K14.05.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L19",
+          "targetD4": "K14.05.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED15@1",
+        "K14-CL-ED39@1"
+      ]
     },
     {
       "d4": "K14.05.03.02",
       "historicalRequirement": "定义重复测试与情境变化",
-      "disposition": "[K14.05.03](../culture-education-rights/fine-grained-culture-education-rights.md#L45)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.05.03.03",
+        "K14.05.03.04"
+      ],
       "unresolved": [],
       "limits": "复测间隔、材料、提示与暴露",
       "anchor": {
@@ -509,13 +1150,35 @@
         "row": "| K14.05.03.02 | 定义重复测试与情境变化 | [K14.05.03](../culture-education-rights/fine-grained-culture-education-rights.md#L45) | BOUNDED_COMPOSITION | [ED15/K14.05.03.03](music-education-r1-knowledge-cases.md#L19)；[ED39/K14.05.03.04](music-education-r2-knowledge-cases.md#L19) | 复测间隔、材料、提示与暴露 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.05.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L45"
+      },
+      "routeLinks": [
+        {
+          "label": "ED15/K14.05.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L19",
+          "targetD4": "K14.05.03.03"
+        },
+        {
+          "label": "ED39/K14.05.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L19",
+          "targetD4": "K14.05.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED15@1",
+        "K14-CL-ED39@1"
+      ]
     },
     {
       "d4": "K14.06.01.01",
       "historicalRequirement": "按目标前置和阶段定义教学顺序",
-      "disposition": "[K14.06.01](../culture-education-rights/fine-grained-culture-education-rights.md#L46)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.06.01.03",
+        "K14.06.01.04"
+      ],
       "unresolved": [],
       "limits": "前置、目标与阶段",
       "anchor": {
@@ -526,13 +1189,35 @@
         "row": "| K14.06.01.01 | 按目标前置和阶段定义教学顺序 | [K14.06.01](../culture-education-rights/fine-grained-culture-education-rights.md#L46) | ROUTER_CANDIDATE | [ED16/K14.06.01.03](music-education-r1-knowledge-cases.md#L20)；[ED40/K14.06.01.04](music-education-r2-knowledge-cases.md#L20) | 前置、目标与阶段 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.06.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L46"
+      },
+      "routeLinks": [
+        {
+          "label": "ED16/K14.06.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L20",
+          "targetD4": "K14.06.01.03"
+        },
+        {
+          "label": "ED40/K14.06.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L20",
+          "targetD4": "K14.06.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED16@1",
+        "K14-CL-ED40@1"
+      ]
     },
     {
       "d4": "K14.06.01.02",
       "historicalRequirement": "区分共同目标和个别学习路径",
-      "disposition": "[K14.06.01](../culture-education-rights/fine-grained-culture-education-rights.md#L46)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.06.01.03",
+        "K14.06.01.04"
+      ],
       "unresolved": [],
       "limits": "共同目标与个别路径",
       "anchor": {
@@ -543,13 +1228,35 @@
         "row": "| K14.06.01.02 | 区分共同目标和个别学习路径 | [K14.06.01](../culture-education-rights/fine-grained-culture-education-rights.md#L46) | BOUNDED_COMPOSITION | [ED16/K14.06.01.03](music-education-r1-knowledge-cases.md#L20)；[ED40/K14.06.01.04](music-education-r2-knowledge-cases.md#L20) | 共同目标与个别路径 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.06.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L46"
+      },
+      "routeLinks": [
+        {
+          "label": "ED16/K14.06.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L20",
+          "targetD4": "K14.06.01.03"
+        },
+        {
+          "label": "ED40/K14.06.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L20",
+          "targetD4": "K14.06.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED16@1",
+        "K14-CL-ED40@1"
+      ]
     },
     {
       "d4": "K14.06.02.01",
       "historicalRequirement": "识别材料呈现和动作表达障碍",
-      "disposition": "[K14.06.02](../culture-education-rights/fine-grained-culture-education-rights.md#L47)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.06.02.03",
+        "K14.06.02.04"
+      ],
       "unresolved": [],
       "limits": "呈现/表达障碍",
       "anchor": {
@@ -560,13 +1267,35 @@
         "row": "| K14.06.02.01 | 识别材料呈现和动作表达障碍 | [K14.06.02](../culture-education-rights/fine-grained-culture-education-rights.md#L47) | ROUTER_CANDIDATE | [ED17/K14.06.02.03](music-education-r1-knowledge-cases.md#L21)；[ED41/K14.06.02.04](music-education-r2-knowledge-cases.md#L21) | 呈现/表达障碍 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.06.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L47"
+      },
+      "routeLinks": [
+        {
+          "label": "ED17/K14.06.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L21",
+          "targetD4": "K14.06.02.03"
+        },
+        {
+          "label": "ED41/K14.06.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L21",
+          "targetD4": "K14.06.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED17@1",
+        "K14-CL-ED41@1"
+      ]
     },
     {
       "d4": "K14.06.02.02",
       "historicalRequirement": "提供替代呈现或表达并核对测量目标",
-      "disposition": "[K14.06.02](../culture-education-rights/fine-grained-culture-education-rights.md#L47)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.06.02.03",
+        "K14.06.02.04"
+      ],
       "unresolved": [],
       "limits": "辅助是否保持构念与可比",
       "anchor": {
@@ -577,13 +1306,35 @@
         "row": "| K14.06.02.02 | 提供替代呈现或表达并核对测量目标 | [K14.06.02](../culture-education-rights/fine-grained-culture-education-rights.md#L47) | BOUNDED_COMPOSITION | [ED17/K14.06.02.03](music-education-r1-knowledge-cases.md#L21)；[ED41/K14.06.02.04](music-education-r2-knowledge-cases.md#L21) | 辅助是否保持构念与可比 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.06.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L47"
+      },
+      "routeLinks": [
+        {
+          "label": "ED17/K14.06.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L21",
+          "targetD4": "K14.06.02.03"
+        },
+        {
+          "label": "ED41/K14.06.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L21",
+          "targetD4": "K14.06.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED17@1",
+        "K14-CL-ED41@1"
+      ]
     },
     {
       "d4": "K14.06.03.01",
       "historicalRequirement": "依据学习证据修改难度和支撑",
-      "disposition": "[K14.06.03](../culture-education-rights/fine-grained-culture-education-rights.md#L48)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.06.03.03",
+        "K14.06.03.04"
+      ],
       "unresolved": [],
       "limits": "证据驱动支撑和难度",
       "anchor": {
@@ -594,13 +1345,35 @@
         "row": "| K14.06.03.01 | 依据学习证据修改难度和支撑 | [K14.06.03](../culture-education-rights/fine-grained-culture-education-rights.md#L48) | ROUTER_CANDIDATE | [ED18/K14.06.03.03](music-education-r1-knowledge-cases.md#L22)；[ED42/K14.06.03.04](music-education-r2-knowledge-cases.md#L22) | 证据驱动支撑和难度 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.06.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L48"
+      },
+      "routeLinks": [
+        {
+          "label": "ED18/K14.06.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L22",
+          "targetD4": "K14.06.03.03"
+        },
+        {
+          "label": "ED42/K14.06.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L22",
+          "targetD4": "K14.06.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED18@1",
+        "K14-CL-ED42@1"
+      ]
     },
     {
       "d4": "K14.06.03.02",
       "historicalRequirement": "记录内容版本和测量条件变化",
-      "disposition": "[K14.06.03](../culture-education-rights/fine-grained-culture-education-rights.md#L48)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.06.03.03",
+        "K14.06.03.04"
+      ],
       "unresolved": [],
       "limits": "版本变化、撤提示复测",
       "anchor": {
@@ -611,13 +1384,35 @@
         "row": "| K14.06.03.02 | 记录内容版本和测量条件变化 | [K14.06.03](../culture-education-rights/fine-grained-culture-education-rights.md#L48) | BOUNDED_COMPOSITION | [ED18/K14.06.03.03](music-education-r1-knowledge-cases.md#L22)；[ED42/K14.06.03.04](music-education-r2-knowledge-cases.md#L22) | 版本变化、撤提示复测 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.06.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L48"
+      },
+      "routeLinks": [
+        {
+          "label": "ED18/K14.06.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L22",
+          "targetD4": "K14.06.03.03"
+        },
+        {
+          "label": "ED42/K14.06.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L22",
+          "targetD4": "K14.06.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED18@1",
+        "K14-CL-ED42@1"
+      ]
     },
     {
       "d4": "K14.07.01.01",
       "historicalRequirement": "区分反馈改进与阶段成就判定",
-      "disposition": "[K14.07.01](../culture-education-rights/fine-grained-culture-education-rights.md#L49)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.07.01.03",
+        "K14.07.01.04"
+      ],
       "unresolved": [],
       "limits": "形成性反馈/终结性判定",
       "anchor": {
@@ -628,13 +1423,35 @@
         "row": "| K14.07.01.01 | 区分反馈改进与阶段成就判定 | [K14.07.01](../culture-education-rights/fine-grained-culture-education-rights.md#L49) | ROUTER_CANDIDATE | [ED19/K14.07.01.03](music-education-r1-knowledge-cases.md#L23)；[ED43/K14.07.01.04](music-education-r2-knowledge-cases.md#L23) | 形成性反馈/终结性判定 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.07.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L49"
+      },
+      "routeLinks": [
+        {
+          "label": "ED19/K14.07.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L23",
+          "targetD4": "K14.07.01.03"
+        },
+        {
+          "label": "ED43/K14.07.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L23",
+          "targetD4": "K14.07.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED19@1",
+        "K14-CL-ED43@1"
+      ]
     },
     {
       "d4": "K14.07.01.02",
       "historicalRequirement": "定义任务量规和参考条件",
-      "disposition": "[K14.07.01](../culture-education-rights/fine-grained-culture-education-rights.md#L49)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.07.01.03",
+        "K14.07.01.04"
+      ],
       "unresolved": [],
       "limits": "量规与参考条件",
       "anchor": {
@@ -645,13 +1462,35 @@
         "row": "| K14.07.01.02 | 定义任务量规和参考条件 | [K14.07.01](../culture-education-rights/fine-grained-culture-education-rights.md#L49) | BOUNDED_COMPOSITION | [ED19/K14.07.01.03](music-education-r1-knowledge-cases.md#L23)；[ED43/K14.07.01.04](music-education-r2-knowledge-cases.md#L23) | 量规与参考条件 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.07.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L49"
+      },
+      "routeLinks": [
+        {
+          "label": "ED19/K14.07.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L23",
+          "targetD4": "K14.07.01.03"
+        },
+        {
+          "label": "ED43/K14.07.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L23",
+          "targetD4": "K14.07.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED19@1",
+        "K14-CL-ED43@1"
+      ]
     },
     {
       "d4": "K14.07.02.01",
       "historicalRequirement": "分离技术正确表现和开放创作",
-      "disposition": "[K14.07.02](../culture-education-rights/fine-grained-culture-education-rights.md#L50)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.07.02.03",
+        "K14.07.02.04"
+      ],
       "unresolved": [],
       "limits": "硬技术与开放表现",
       "anchor": {
@@ -662,13 +1501,35 @@
         "row": "| K14.07.02.01 | 分离技术正确表现和开放创作 | [K14.07.02](../culture-education-rights/fine-grained-culture-education-rights.md#L50) | ROUTER_CANDIDATE | [ED20/K14.07.02.03](music-education-r1-knowledge-cases.md#L24)；[ED44/K14.07.02.04](music-education-r2-knowledge-cases.md#L24) | 硬技术与开放表现 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.07.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L50"
+      },
+      "routeLinks": [
+        {
+          "label": "ED20/K14.07.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L24",
+          "targetD4": "K14.07.02.03"
+        },
+        {
+          "label": "ED44/K14.07.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L24",
+          "targetD4": "K14.07.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED20@1",
+        "K14-CL-ED44@1"
+      ]
     },
     {
       "d4": "K14.07.02.02",
       "historicalRequirement": "记录评审分歧版本及公平性",
-      "disposition": "[K14.07.02](../culture-education-rights/fine-grained-culture-education-rights.md#L50)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.07.02.03",
+        "K14.07.02.04"
+      ],
       "unresolved": [],
       "limits": "分歧/公平/量规版本",
       "anchor": {
@@ -679,13 +1540,35 @@
         "row": "| K14.07.02.02 | 记录评审分歧版本及公平性 | [K14.07.02](../culture-education-rights/fine-grained-culture-education-rights.md#L50) | BOUNDED_COMPOSITION | [ED20/K14.07.02.03](music-education-r1-knowledge-cases.md#L24)；[ED44/K14.07.02.04](music-education-r2-knowledge-cases.md#L24) | 分歧/公平/量规版本 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.07.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L50"
+      },
+      "routeLinks": [
+        {
+          "label": "ED20/K14.07.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L24",
+          "targetD4": "K14.07.02.03"
+        },
+        {
+          "label": "ED44/K14.07.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L24",
+          "targetD4": "K14.07.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED20@1",
+        "K14-CL-ED44@1"
+      ]
     },
     {
       "d4": "K14.07.03.01",
       "historicalRequirement": "区分学生学习证据与教师效果",
-      "disposition": "[K14.07.03](../culture-education-rights/fine-grained-culture-education-rights.md#L51)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.07.03.03",
+        "K14.07.03.04"
+      ],
       "unresolved": [],
       "limits": "分数解释/用途与教师效果",
       "anchor": {
@@ -696,13 +1579,35 @@
         "row": "| K14.07.03.01 | 区分学生学习证据与教师效果 | [K14.07.03](../culture-education-rights/fine-grained-culture-education-rights.md#L51) | ROUTER_CANDIDATE | [ED21/K14.07.03.03](music-education-r1-knowledge-cases.md#L25)；[ED45/K14.07.03.04](music-education-r2-knowledge-cases.md#L25) | 分数解释/用途与教师效果 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.07.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L51"
+      },
+      "routeLinks": [
+        {
+          "label": "ED21/K14.07.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L25",
+          "targetD4": "K14.07.03.03"
+        },
+        {
+          "label": "ED45/K14.07.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L25",
+          "targetD4": "K14.07.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED21@1",
+        "K14-CL-ED45@1"
+      ]
     },
     {
       "d4": "K14.07.03.02",
       "historicalRequirement": "记录样本难度及替代解释",
-      "disposition": "[K14.07.03](../culture-education-rights/fine-grained-culture-education-rights.md#L51)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.07.03.03",
+        "K14.07.03.04"
+      ],
       "unresolved": [],
       "limits": "样本难度及替代解释",
       "anchor": {
@@ -713,13 +1618,35 @@
         "row": "| K14.07.03.02 | 记录样本难度及替代解释 | [K14.07.03](../culture-education-rights/fine-grained-culture-education-rights.md#L51) | BOUNDED_COMPOSITION | [ED21/K14.07.03.03](music-education-r1-knowledge-cases.md#L25)；[ED45/K14.07.03.04](music-education-r2-knowledge-cases.md#L25) | 样本难度及替代解释 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.07.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L51"
+      },
+      "routeLinks": [
+        {
+          "label": "ED21/K14.07.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L25",
+          "targetD4": "K14.07.03.03"
+        },
+        {
+          "label": "ED45/K14.07.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L25",
+          "targetD4": "K14.07.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED21@1",
+        "K14-CL-ED45@1"
+      ]
     },
     {
       "d4": "K14.08.01.01",
       "historicalRequirement": "记录目标任务时长策略及结果",
-      "disposition": "[K14.08.01](../culture-education-rights/fine-grained-culture-education-rights.md#L52)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.08.01.03",
+        "K14.08.01.04"
+      ],
       "unresolved": [],
       "limits": "任务、时长、策略、结果",
       "anchor": {
@@ -730,13 +1657,35 @@
         "row": "| K14.08.01.01 | 记录目标任务时长策略及结果 | [K14.08.01](../culture-education-rights/fine-grained-culture-education-rights.md#L52) | ROUTER_CANDIDATE | [ED22/K14.08.01.03](music-education-r1-knowledge-cases.md#L26)；[ED46/K14.08.01.04](music-education-r2-knowledge-cases.md#L26) | 任务、时长、策略、结果 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.08.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L52"
+      },
+      "routeLinks": [
+        {
+          "label": "ED22/K14.08.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L26",
+          "targetD4": "K14.08.01.03"
+        },
+        {
+          "label": "ED46/K14.08.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L26",
+          "targetD4": "K14.08.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED22@1",
+        "K14-CL-ED46@1"
+      ]
     },
     {
       "d4": "K14.08.01.02",
       "historicalRequirement": "绑定具体材料和测量条件",
-      "disposition": "[K14.08.01](../culture-education-rights/fine-grained-culture-education-rights.md#L52)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.08.01.03",
+        "K14.08.01.04"
+      ],
       "unresolved": [],
       "limits": "材料/提示/尝试与最小数据",
       "anchor": {
@@ -747,13 +1696,35 @@
         "row": "| K14.08.01.02 | 绑定具体材料和测量条件 | [K14.08.01](../culture-education-rights/fine-grained-culture-education-rights.md#L52) | BOUNDED_COMPOSITION | [ED22/K14.08.01.03](music-education-r1-knowledge-cases.md#L26)；[ED46/K14.08.01.04](music-education-r2-knowledge-cases.md#L26) | 材料/提示/尝试与最小数据 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.08.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L52"
+      },
+      "routeLinks": [
+        {
+          "label": "ED22/K14.08.01.03",
+          "uri": "music-education-r1-knowledge-cases.md#L26",
+          "targetD4": "K14.08.01.03"
+        },
+        {
+          "label": "ED46/K14.08.01.04",
+          "uri": "music-education-r2-knowledge-cases.md#L26",
+          "targetD4": "K14.08.01.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED22@1",
+        "K14-CL-ED46@1"
+      ]
     },
     {
       "d4": "K14.08.02.01",
       "historicalRequirement": "区分当前任务复测及未见任务",
-      "disposition": "[K14.08.02](../culture-education-rights/fine-grained-culture-education-rights.md#L53)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.08.02.03",
+        "K14.08.02.04"
+      ],
       "unresolved": [],
       "limits": "同题复测及未见迁移",
       "anchor": {
@@ -764,13 +1735,35 @@
         "row": "| K14.08.02.01 | 区分当前任务复测及未见任务 | [K14.08.02](../culture-education-rights/fine-grained-culture-education-rights.md#L53) | ROUTER_CANDIDATE | [ED23/K14.08.02.03](music-education-r1-knowledge-cases.md#L27)；[ED47/K14.08.02.04](music-education-r2-knowledge-cases.md#L27) | 同题复测及未见迁移 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.08.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L53"
+      },
+      "routeLinks": [
+        {
+          "label": "ED23/K14.08.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L27",
+          "targetD4": "K14.08.02.03"
+        },
+        {
+          "label": "ED47/K14.08.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L27",
+          "targetD4": "K14.08.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED23@1",
+        "K14-CL-ED47@1"
+      ]
     },
     {
       "d4": "K14.08.02.02",
       "historicalRequirement": "维护难度版本和延迟测试",
-      "disposition": "[K14.08.02](../culture-education-rights/fine-grained-culture-education-rights.md#L53)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.08.02.03",
+        "K14.08.02.04"
+      ],
       "unresolved": [],
       "limits": "延迟、曝光、难度条件",
       "anchor": {
@@ -781,13 +1774,35 @@
         "row": "| K14.08.02.02 | 维护难度版本和延迟测试 | [K14.08.02](../culture-education-rights/fine-grained-culture-education-rights.md#L53) | BOUNDED_COMPOSITION | [ED23/K14.08.02.03](music-education-r1-knowledge-cases.md#L27)；[ED47/K14.08.02.04](music-education-r2-knowledge-cases.md#L27) | 延迟、曝光、难度条件 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.08.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L53"
+      },
+      "routeLinks": [
+        {
+          "label": "ED23/K14.08.02.03",
+          "uri": "music-education-r1-knowledge-cases.md#L27",
+          "targetD4": "K14.08.02.03"
+        },
+        {
+          "label": "ED47/K14.08.02.04",
+          "uri": "music-education-r2-knowledge-cases.md#L27",
+          "targetD4": "K14.08.02.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED23@1",
+        "K14-CL-ED47@1"
+      ]
     },
     {
       "d4": "K14.08.03.01",
       "historicalRequirement": "区分学习者自评教师反馈及工具观测",
-      "disposition": "[K14.08.03](../culture-education-rights/fine-grained-culture-education-rights.md#L54)",
-      "routes": [],
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K14.08.03.03",
+        "K14.08.03.04"
+      ],
       "unresolved": [],
       "limits": "自评/教师/工具观测",
       "anchor": {
@@ -798,13 +1813,35 @@
         "row": "| K14.08.03.01 | 区分学习者自评教师反馈及工具观测 | [K14.08.03](../culture-education-rights/fine-grained-culture-education-rights.md#L54) | ROUTER_CANDIDATE | [ED24/K14.08.03.03](music-education-r1-knowledge-cases.md#L28)；[ED48/K14.08.03.04](music-education-r2-knowledge-cases.md#L28) | 自评/教师/工具观测 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.08.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L54"
+      },
+      "routeLinks": [
+        {
+          "label": "ED24/K14.08.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L28",
+          "targetD4": "K14.08.03.03"
+        },
+        {
+          "label": "ED48/K14.08.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L28",
+          "targetD4": "K14.08.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED24@1",
+        "K14-CL-ED48@1"
+      ]
     },
     {
       "d4": "K14.08.03.02",
       "historicalRequirement": "记录下一步策略停止条件及反馈",
-      "disposition": "[K14.08.03](../culture-education-rights/fine-grained-culture-education-rights.md#L54)",
-      "routes": [],
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K14.08.03.03",
+        "K14.08.03.04"
+      ],
       "unresolved": [],
       "limits": "可行动下一步、停止、反思",
       "anchor": {
@@ -815,7 +1852,26 @@
         "row": "| K14.08.03.02 | 记录下一步策略停止条件及反馈 | [K14.08.03](../culture-education-rights/fine-grained-culture-education-rights.md#L54) | BOUNDED_COMPOSITION | [ED24/K14.08.03.03](music-education-r1-knowledge-cases.md#L28)；[ED48/K14.08.03.04](music-education-r2-knowledge-cases.md#L28) | 可行动下一步、停止、反思 |"
       },
       "equivalence": false,
-      "claimRefs": []
+      "inventoryRef": {
+        "label": "K14.08.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L54"
+      },
+      "routeLinks": [
+        {
+          "label": "ED24/K14.08.03.03",
+          "uri": "music-education-r1-knowledge-cases.md#L28",
+          "targetD4": "K14.08.03.03"
+        },
+        {
+          "label": "ED48/K14.08.03.04",
+          "uri": "music-education-r2-knowledge-cases.md#L28",
+          "targetD4": "K14.08.03.04"
+        }
+      ],
+      "claimRefs": [
+        "K14-CL-ED24@1",
+        "K14-CL-ED48@1"
+      ]
     }
   ],
   "splitRoutes": [],

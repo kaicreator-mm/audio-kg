@@ -58,6 +58,7 @@ export function checks(t){
  t('MP08 pitch centre correction preserves relative cents',close(430*(440/430),440)&&close(1200*Math.log2(1.01/1),17.23,.02));
  t('MP09 dynamic de-ess leaves non-target region',1*.5===.5&&.4===.4);
  t('MP10 static compression only above threshold',compressStatic(-11,-10,10)===-11&&compressStatic(0,-10,10)===-9);
+ t('MP10 input -9dB is 1dB above -10dB threshold and outputs -9.9dB at 10:1',Math.abs(compressStatic(-9,-10,10)+9.9)<1e-9&&Math.abs((-9)-compressStatic(-9,-10,10)-.9)<1e-9&&Math.abs(compressStatic(0,-10,10)+9)<1e-9);
  t('MP11 dry wet and tail remain separate',eq([1*.75,1*.25],[.75,.25])&&eq([0,1,0],[0,1,0]));
  t('MP12 effect order noncommutative',compressStatic(-6,-10,2)!==compressStatic(-12,-10,2)+6);
  t('MP13 multi-factor clarity not one SNR',new Set(['level','frequency','timing','monitoring']).size===4);

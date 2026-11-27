@@ -1,0 +1,30 @@
+schema: audio-kg-execution-pack/1
+task: "#135"
+version: v0.1.0
+batch: G07-R5
+branch: task/v0.1.0-g07-r5-k09-k14-semantic-projection-remediation
+base:
+  ref: PR #134 exact HEAD
+  sha: 84bda81d0ef27c2b5bf488b1d7e95065a3ad870d
+  tree: 40fae0dd7ff63ab7efe2dcfee707e19733d070f7
+prior_review:
+  issue: "#133"
+  issue_comment: 7225733783
+  pr: "#134"
+  pr_comment: 7225734406
+  verdict: FAIL
+  counts: {P0: 0, P1: 1, P2: 2, P3: 0}
+modules: [K09, K14]
+agent_freedom: F1_BOUNDED_REMEDIATION
+review_policy: required
+reviewer: OTHER_CONVERSATION_INDEPENDENT_NON_WRITER
+merge_target: version/v0.1.0
+status: BUILDER_IN_PROGRESS
+forbidden:
+  - merge PR #134
+  - change frozen L1/L2 contracts or unrelated module corpora
+  - modify historical source anchors or source documents
+  - close K09 finding #49 or K14 finding #63
+  - close any historical split-open route
+  - promote candidate claims to accepted
+  - claim actual compressor plugin, audio, host, rights, learner or teaching efficacy execution

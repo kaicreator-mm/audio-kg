@@ -15,6 +15,24 @@ auth={}
 for l in (ROOT/('knowledge/'+m+'/authoring.tsv')).read_text().splitlines():
  id,*v=l.split('\t');assert id not in auth and len(v)==9 and all(v), (id,len(v));auth[id]=v
 assert set(auth)==set(by),(set(by)-set(auth),set(auth)-set(by))
+# The exact frozen Markdown row is the authority for all six legacy-route columns.
+for legacy in ledger['legacyRoutes']:
+ verify(legacy['anchor'])
+ cols=[x.strip() for x in legacy['anchor']['row'].strip().strip('|').split('|')]
+ assert len(cols)==6 and cols[0]==legacy['d4'],legacy['d4']
+ inventoryLinks=re.findall(r'\[([^\]]+)\]\(([^)]+)\)',cols[2])
+ routeLinks=re.findall(r'\[([^\]]+)\]\(([^)]+)\)',cols[4])
+ targets=[re.search(r'/(K14(?:\.\d+){3})$',label) for label,uri in routeLinks]
+ assert len(inventoryLinks)==1 and len(routeLinks)==2 and all(targets),legacy['d4']
+ expectedTargets=[x.group(1) for x in targets]
+ assert legacy['historicalRequirement']==cols[1]
+ assert legacy['inventoryRef']==dict(label=inventoryLinks[0][0],uri=inventoryLinks[0][1])
+ assert legacy['disposition']==cols[3] and legacy['disposition'] in ('ROUTER_CANDIDATE','BOUNDED_COMPOSITION')
+ assert legacy['routes']==expectedTargets and len(set(expectedTargets))==2
+ assert legacy['routeLinks']==[dict(label=label,uri=uri,targetD4=target.group(1)) for (label,uri),target in zip(routeLinks,targets)]
+ assert legacy['limits']==cols[5] and legacy['unresolved']==[] and legacy['equivalence'] is False
+ assert all(target in byD for target in expectedTargets),legacy['d4']
+assert len(ledger['legacyRoutes'])==48
 def cid(id):return id if '@' in id else m+'-CL-'+id+'@1'
 def ctx(id):return m+'-CTX-'+id+'@1'
 def ref(r):return r['id']+'@'+str(r['revision'])

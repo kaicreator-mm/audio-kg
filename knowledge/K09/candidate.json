@@ -2736,13 +2736,13 @@
       "direction": "FORWARD",
       "polarity": "POSITIVE",
       "context": "K09-CTX-MP10@1",
-      "question": "阈−10dB、10:1、无补偿，输入−9dB是否压缩？",
+      "question": "阈−10dB、10:1、硬拐点、无补偿，输入−9dB的静态输出与增益衰减是多少？",
       "example": {
         "frozenCase": "MP10",
         "frozenWitness": "硬拐点静态压缩阈−10dB、10:1、无补偿，输入0→−9dB；低于阈值不压。EQ频带映射与动态电平映射不同。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
-        "directionSpecificProblem": "阈−10dB、10:1、无补偿，输入−9dB是否压缩？",
-        "expectedResult": "未越阈值，不按10:1缩小；静态参数不决定attack瞬态。",
+        "directionSpecificProblem": "阈−10dB、10:1、硬拐点、无补偿，输入−9dB的静态输出与增益衰减是多少？",
+        "expectedResult": "−9dB高于阈值1dB，静态输出−9.9dB，增益衰减0.9dB；冻结见证0→−9dB同样符合10:1。attack/release影响瞬态，不由静态曲线单独决定。",
         "reasoningBasis": "静态压缩传输曲线与真实瞬态输出不同，EQ频带映射也不同于动态电平映射。",
         "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
         "anchor": {
@@ -2754,7 +2754,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "限定核验依据：静态压缩传输曲线与真实瞬态输出不同，EQ频带映射也不同于动态电平映射。；本题答案：未越阈值，不按10:1缩小；静态参数不决定attack瞬态。",
+      "explanation": "限定核验依据：静态压缩传输曲线与真实瞬态输出不同，EQ频带映射也不同于动态电平映射。；本题答案：−9dB高于阈值1dB，静态输出−9.9dB，增益衰减0.9dB；冻结见证0→−9dB同样符合10:1。attack/release影响瞬态，不由静态曲线单独决定。",
       "limits": "非实际压缩插件输出。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },

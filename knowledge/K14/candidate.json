@@ -6905,13 +6905,13 @@
       "direction": "FORWARD",
       "polarity": "POSITIVE",
       "context": "K14-CTX-ED36@1",
-      "question": "4拍内onset .5持续到1.5，是否只是更快？",
+      "question": "事件区间[0.5,1.5)跨过整数拍边界1.0，是否足以断定跨过强拍？",
       "example": {
         "frozenCase": "ED36",
-        "frozenWitness": "四拍内题设切分onset .5并持续到1.5跨下一整数拍，非仅速度快；3:2网格6等分，A每2格、B每3格。先同周期单线后双线，在不同速度或未见分组复测；同时改变两个维度不唯一归因。",
+        "frozenWitness": "能确认事件区间[0.5,1.5)跨越整数拍边界1.0；未提供拍号/重音映射，强拍状态为UNKNOWN。3:2仍按六等分共同周期定义，A每2格、B每3格。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
-        "directionSpecificProblem": "4拍内onset .5持续到1.5，是否只是更快？",
-        "expectedResult": "不是，事件跨过整数强拍位置；3:2另按六等分周期定义。",
+        "directionSpecificProblem": "事件区间[0.5,1.5)跨过整数拍边界1.0，是否足以断定跨过强拍？",
+        "expectedResult": "能确认事件区间[0.5,1.5)跨越整数拍边界1.0；未提供拍号/重音映射，强拍状态为UNKNOWN。3:2仍按六等分共同周期定义，A每2格、B每3格。",
         "reasoningBasis": "切分与复节奏需以事件时位、持续和共同周期定义，不以速度或拍号替代。",
         "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
         "anchor": {
@@ -6923,7 +6923,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "限定核验依据：切分与复节奏需以事件时位、持续和共同周期定义，不以速度或拍号替代。；本题答案：不是，事件跨过整数强拍位置；3:2另按六等分周期定义。",
+      "explanation": "限定核验依据：切分与复节奏需以事件时位、持续和共同周期定义，不以速度或拍号替代。；本题答案：能确认事件区间[0.5,1.5)跨越整数拍边界1.0；未提供拍号/重音映射，强拍状态为UNKNOWN。3:2仍按六等分共同周期定义，A每2格、B每3格。",
       "limits": "不保证动作学习或合奏表现。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
