@@ -13,12 +13,17 @@ const dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),finite=a=>Array.isArray(a)&&a.len
 export function sdr(s,y){
  const state=(state,db=null)=>({state,db});
  if(!finite(s)||!finite(y)||s.length!==y.length)return state('INVALID_INPUT');
- const sn=dot(s,s),yn=dot(y,y);if(!Number.isFinite(sn)||!Number.isFinite(yn))return state('INVALID_INPUT');
- if(sn===0||yn===0)return state('UNDEFINED_ZERO');
- const a=dot(s,y)/sn,p=s.map(v=>v*a),e=y.map((v,i)=>v-p[i]),pn=dot(p,p),en=dot(e,e);
- if(!Number.isFinite(pn)||!Number.isFinite(en))return state('INVALID_INPUT');
- if(pn===0)return state('NEGATIVE_INFINITY');if(en===0)return state('PERFECT');
- const db=10*(Math.log10(pn)-Math.log10(en));return Number.isFinite(db)?state('FINITE',db):state('INVALID_INPUT');
+ // Independent scale normalization preserves SI-SDR; lost nonzero components
+ // or unrepresentable squared residuals are explicitly numerical, never silence.
+ const scale=v=>v.reduce((m,x)=>Math.max(m,Math.abs(x)),0),ss=scale(s),ys=scale(y);
+ if(ss===0||ys===0)return state('UNDEFINED_ZERO');
+ const u=s.map(v=>v/ss),w=y.map(v=>v/ys);
+ if(u.some((v,i)=>v===0&&s[i]!==0)||w.some((v,i)=>v===0&&y[i]!==0))return state('NUMERIC_RANGE');
+ const sn=dot(u,u),a=dot(u,w)/sn,p=u.map(v=>v*a),e=w.map((v,i)=>v-p[i]),pn=dot(p,p),en=dot(e,e);
+ if(!Number.isFinite(pn)||!Number.isFinite(en))return state('NUMERIC_RANGE');
+ if(pn===0)return state(a===0?'NEGATIVE_INFINITY':'NUMERIC_RANGE');
+ if(en===0)return state(e.every(v=>v===0)?'PERFECT':'NUMERIC_RANGE');
+ const db=10*(Math.log10(pn)-Math.log10(en));return Number.isFinite(db)?state('FINITE',db):state('NUMERIC_RANGE');
 }
 export function statusFlags({version,policy,mask}={}){
  const known=Number.isSafeInteger(mask)&&mask>=0&&mask<=31;
@@ -62,6 +67,8 @@ export function checks(t){
  const flags=2|4;const f=(mask,policy='FIXED',version='PortAudio-v19')=>statusFlags({mask,policy,version});
  t('DA27/54 independent status bits',eq(f(flags).events.map(e=>e.direction),['INPUT_OVERFLOW','OUTPUT_UNDERFLOW']));
  t('P2-01 distinguish perfect, negative infinity and undefined',sdr([1,0],[1,0]).state==='PERFECT'&&sdr([1,0],[-2,0]).state==='PERFECT'&&sdr([1,0],[0,1]).state==='NEGATIVE_INFINITY'&&sdr([1,0],[0,0]).state==='UNDEFINED_ZERO'&&sdr([1,0],[1]).state==='INVALID_INPUT');
+ t('R3 nonzero scale normalization, not silence',sdr([1,0],[1e-200,1e-200]).state==='FINITE'&&close(sdr([1,0],[1e-200,1e-200]).db,0)&&sdr([1e-200,0],[1e-200,0]).state==='PERFECT'&&sdr([1e300,0],[1e300,1e300]).state==='FINITE'&&close(sdr([1e300,0],[1e300,1e300]).db,0));
+ t('R3 numeric range explicit',sdr([1,0],[1,1e-200]).state==='NUMERIC_RANGE'&&sdr([1e300,1e-300],[1,0]).state==='NUMERIC_RANGE'&&sdr([1,0],[0,1e-300]).state==='NEGATIVE_INFINITY'&&sdr([0,0],[1e-300,0]).state==='UNDEFINED_ZERO');
  t('P2-02 empty and nonempty mask no-op distinct',repair({...x,mask:[]},{...y,samples:x.samples})==='NO_OP'&&repair(x,{...y,samples:x.samples})==='NO_OP'&&repair({...x,mask:[]},y)==='REJECT');
  t('P2-03 all direction and priming bits',eq(f(31).events.map(e=>e.direction),['INPUT_UNDERFLOW','INPUT_OVERFLOW','OUTPUT_UNDERFLOW','OUTPUT_OVERFLOW','PRIMING_OUTPUT'])&&f(16).events[0].meaning==='STARTUP_PRIMING_NOT_XRUN'&&f(0).events.length===0);
  t('P2-03 fixed vs unspecified input semantics',f(1).events[0].meaning==='INPUT_ZERO_INSERTED'&&f(1,'UNSPECIFIED').events[0].meaning==='INPUT_ALL_ZERO'&&f(2).events[0].meaning!==f(2,'UNSPECIFIED').events[0].meaning);

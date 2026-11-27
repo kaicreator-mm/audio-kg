@@ -38,7 +38,7 @@ function version(v){
  return [...ids].every(walk);
 }
 export function revise(x,y,request){
- const stop=state=>({state,stale:[],version:null});
+ const stop=state=>({state,affected:[],stale:[],version:null});
  if(!keys(request,['authorized','targetId','allowedFields'])||request.authorized!==true||!text(request.targetId)||!same(request.allowedFields,['lyric'])||!version(x)||!version(y))return stop('UNKNOWN_STOP');
  if(x.id===y.id||y.parent!==x.id||!same(x.evidence,y.evidence)||!['source','rights','tempo','track','harmony','binding'].every(k=>same(x[k],y[k]))||x.events.length!==y.events.length)return stop('REJECT_PROTECTION');
  const index=x.events.findIndex(e=>e.id===request.targetId);
@@ -46,8 +46,8 @@ export function revise(x,y,request){
  if(x.events[index].lyric===y.events[index].lyric)return stop('NO_OP');
  const affected=new Set(),changed='event:'+request.targetId+':lyric';
  let more=true;while(more){more=false;for(const e of x.evidence){if(!affected.has(e.id)&&e.dependencies.some(d=>d===changed||(d.startsWith('evidence:')&&affected.has(d.slice(9))))){affected.add(e.id);more=true;}}}
- const candidate=structuredClone(y);candidate.evidence=candidate.evidence.map(e=>affected.has(e.id)?{...e,state:'STALE'}:e);
- return {state:'BOUNDED_CANDIDATE',stale:x.evidence.filter(e=>affected.has(e.id)).map(e=>e.id),version:candidate};
+ const candidate=structuredClone(y);candidate.evidence=candidate.evidence.map(e=>affected.has(e.id)&&e.state!=='UNKNOWN'?{...e,state:'STALE'}:e);
+ return {state:'BOUNDED_CANDIDATE',affected:x.evidence.filter(e=>affected.has(e.id)).map(e=>e.id),stale:x.evidence.filter(e=>affected.has(e.id)&&e.state!=='UNKNOWN').map(e=>e.id),version:candidate};
 }
 export function rhyme(a,b){
  if(![a,b].every(x=>keys(x,['onset','nucleus','coda'])&&typeof x.onset==='string'&&text(x.nucleus)&&typeof x.coda==='string'))return 'UNKNOWN';
@@ -81,6 +81,9 @@ export function checks(t){
   const z=structuredClone(y);mutate(z);t('R2 reject '+name,revise(x,z,req).state!=='BOUNDED_CANDIDATE');
  }
  t('R2 reject no-op and unsupported field set',revise(x,{...x,id:'v2',parent:'v1'},req).state==='NO_OP'&&revise(x,y,{...req,targetId:'n1'}).state==='REJECT_PROTECTION'&&revise(x,y,{...req,allowedFields:['lyric','tempo']}).state==='UNKNOWN_STOP');
+ const u=structuredClone(x);u.evidence.push({id:'U',dependencies:['event:n2:lyric'],state:'UNKNOWN'},{id:'U2',dependencies:['evidence:U'],state:'UNKNOWN'},{id:'U3',dependencies:['evidence:U2'],state:'CURRENT'});
+ const uy=structuredClone(u);uy.id='v2';uy.parent='v1';uy.events[1].lyric='安';const ur=revise(u,uy,req);
+ t('R3 direct/transitive UNKNOWN remains epistemically unknown with separate affected identity',eq(ur.affected,['E1','R1','P1','U','U2','U3'])&&eq(ur.stale,['E1','R1','P1','U3'])&&eq(ur.version.evidence.slice(-3).map(e=>e.state),['UNKNOWN','UNKNOWN','STALE'])&&u.evidence.at(-1).state==='CURRENT'&&uy.evidence.at(-1).state==='CURRENT');
  const z=structuredClone(x);z.evidence[0].dependencies=['evidence:R1'];const zz=structuredClone(z);zz.id='v2';zz.parent='v1';zz.events[1].lyric='安';t('R2 dependency cycle fail closed',revise(z,zz,req).state==='UNKNOWN_STOP');
 
 }
