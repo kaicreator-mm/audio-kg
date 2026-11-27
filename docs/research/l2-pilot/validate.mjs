@@ -49,6 +49,7 @@ for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25"]){
  test("no heldout content "+q,!t.includes(assessment.marker)&&assessment.cases.every(a=>!t.includes(a.id)&&!t.includes(JSON.stringify(a.expected))));
 }
 test("eval id not retrievable",retrieve(pack,sources,assessment.cases[0].id).claims.length===0);
+test("unmatched query explicitly unknown",retrieve(pack,sources,"CL-NOT-FOUND@1").dependencyState==="UNKNOWN_NO_MATCH");
 const publicTree=fs.mkdtempSync(path.join(os.tmpdir(),"audio-kg-public-query-"));
 try{
  const paths=[dir+"pack.json",dir+"sources.json",dir+"semantic-profile.json",dir+"qualification-manifest.json",dir+"knowledge-pilot.mjs",dir+"retrieve.mjs",dir+"workflow-pilot.mjs",dir+"witness-pilot.mjs",...["g04-r8-xc01-independent-evidence.md","g04-r8-seven-role-evidence.md","g04-r9-cq25-full-evidence-trace.md"].map(x=>cal+x),...sources.map(x=>x.registration.file),...pack.evidence.flatMap(x=>[x.anchor.file,...(x.caseAnchor?[x.caseAnchor.file]:[])]),...pack.migrations.map(x=>x.anchor.file)];
@@ -61,6 +62,12 @@ try{
   if(q==="CQ21"||q==="CQ25")test("public typed workflow "+q,result.workflow?.state==="STATIC_CANDIDATE_ONLY"&&result.workflow.release===false&&result.workflow.trace.primary.length===7&&result.workflow.graph.records.length===21&&result.workflow.graph.edges.length===42&&result.workflow.affectedIfCandidateChanges.includes("E-RECEIPT@2"));
   else test("no unrelated workflow "+q,result.workflow===null);
   if(q==="CQ21"||q==="CQ25"){const {witness,routeData,support}=loadActualWitness();const again=runWorkflowPilot(witness,routeData,support,{graph:result.workflow.graph,verdict:result.workflow.trace.result});test("actual public exported graph requery "+q,eq(again.replay,result.workflow.trace)&&again.graphDigest===result.workflow.graphDigest&&result.workflow.graphKind==="COMPLETE_SYNTHETIC_REPLAY_ENVELOPE");}
+ }
+
+ // Exercise file-level pinning rather than just testing in-memory mutated records.
+ for(const file of ["qualification-manifest.json","semantic-profile.json"]){
+  const target=path.join(publicTree,dir+file),original=fs.readFileSync(target,"utf8");
+  try{fs.writeFileSync(target,original+" ");const failed=spawnSync(process.execPath,[dir+"retrieve.mjs","CQ01"],{cwd:publicTree,encoding:"utf8",timeout:10000});test("reject tampered authority file "+file,failed.status!==0&&failed.stdout.trim()==="");}finally{fs.writeFileSync(target,original);}
  }
 }finally{fs.rmSync(publicTree,{recursive:true,force:true});}
 
@@ -139,4 +146,4 @@ test("pilot calculation matches actual trace",computed.state==="VALUE"&&close(co
 test("CQ25 actual knowledge route",routeData.find(x=>x.ability==="A05").d4===pack.claims.find(x=>x.id==="CL-PITCH").d4&&retrieve(pack,sources,"CQ25").claims.some(x=>x.d4==="K05.07.01.05"));
 const wf=runWorkflowPilot(witness,routeData,support);
 for(const [name,v] of wf.tests)test("workflow: "+name,v===true);
-console.log(JSON.stringify({workflow:{records:wf.records,edges:wf.edges,checks:wf.tests.length,affected:wf.affected,trace:wf.trace,graphDigest:wf.graphDigest,limits:wf.limits},status:"RESEARCH_ONLY",node:process.version,checks:checks.length,passed:checks.filter(x=>x[1]).length,results:checks,records:ix.map.size,bindings:pack.bindings.length,heldout:assessment.cases.length,replayed:{xc:70,r9:44},trace:{state:t.result.state,primary:t.primary,support:t.support,evidence:t.evidence,result:t.result},limits:["no actual LLM/audio/tool/permission","only exercised relationship subset","no production acceptance/DB","no exhaustive migration"]},null,2));
+console.log(JSON.stringify({workflow:{records:wf.records,edges:wf.edges,checks:wf.tests.length,affected:wf.affected,trace:wf.trace,graphDigest:wf.graphDigest,boundedResolution:wf.boundedResolution,limits:wf.limits},status:"RESEARCH_ONLY",node:process.version,checks:checks.length,passed:checks.filter(x=>x[1]).length,results:checks,records:ix.map.size,bindings:pack.bindings.length,heldout:assessment.cases.length,replayed:{xc:70,r9:44},trace:{state:t.result.state,primary:t.primary,support:t.support,evidence:t.evidence,result:t.result},limits:["no actual LLM/audio/tool/permission","only exercised relationship subset","no production acceptance/DB","no exhaustive migration"]},null,2));
