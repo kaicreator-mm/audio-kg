@@ -111,7 +111,6 @@
       "type": "Evidence",
       "kind": "L1_RESEARCH_LOCATOR",
       "sources": [
-        "S022@1",
         "S409@1",
         "S413@1"
       ],
@@ -130,7 +129,8 @@
       "type": "Evidence",
       "kind": "L1_RESEARCH_LOCATOR",
       "sources": [
-        "S474@1"
+        "S474@1",
+        "S457@1"
       ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -258,7 +258,10 @@
         "reference": 220,
         "estimate": 220,
         "target": 200,
-        "valid": true
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1"
       },
       "explanation": "估计误差0，真实及估计目标偏差+165.004 cents。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -277,7 +280,10 @@
         "reference": 220,
         "estimate": 200,
         "target": 200,
-        "valid": true
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1"
       },
       "explanation": "估计相对目标0，估计误差−165.004，真实目标偏差仍+165.004。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -296,7 +302,10 @@
         "reference": 220,
         "estimate": 200,
         "target": 200,
-        "valid": true
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1"
       },
       "explanation": "先查独立参考、估计、目标与同一有效事件窗；非唯一原因。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -315,7 +324,10 @@
         "reference": null,
         "estimate": 200,
         "target": 200,
-        "valid": true
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1"
       },
       "explanation": "真实偏差/估计误差UNKNOWN；可算估计相对目标0，不能诊断。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
