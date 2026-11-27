@@ -324,3 +324,7 @@ G04 [R9独立PASS](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecommen
 
 ## G06 R2 当前复审候选（替代原 G06 试点检查点）
 原 G06 exact c394dbe34ef970a30293476418075ba158a689bd 独立 FAIL，2P1/1P2；保留 L1 冻结及 T04 表达方案候选。修复后 [R2 完整合同](architecture/g06-r2-remediation-review.md)、[现行试点](research/l2-pilot/README.md)、[实际回执](research/l2-pilot/validation-result-rv.json)，185/185，原127项全部保留 +58；合成图21记录42关系；30案例绑定，11实际输入blob匹配 tested HEAD 58135efa5a617c0e4a813bc06d9083a15372844b。精确资格身份、必要跨域依赖、完整公共合成图重放已完成 Builder 验证；独立复审待定。未冻结L2，G07仍阻塞，不做真实LLM/音频/授权/生产DB，不关闭15 OPEN/28 SPLIT_OPEN。
+
+
+## 当前正式建设阶段 G07
+[L2 冻结](architecture/l2-freeze-record.md)；G06 exact独立PASS合并后冻结有限架构；[规划DAG](implementation/v0.1.0/TASK_DAG.md)、[Task Packs](implementation/v0.1.0/TASK_PACKS.json) rev1；#85负责native materialization，#86 F00修复RV04并建立最小知识验证入口，#87–105十九域，#106综合真实LLM验证，#107最终验收。规划文件不表示当前live状态；以各Issue native依赖/metadata/claim/证据为准。历史“L2未冻结”仅对应旧检查点，G07不等于内容已接受。无生产DB/应用，15 OPEN/28 SPLIT_OPEN继续逐项约束准入。
