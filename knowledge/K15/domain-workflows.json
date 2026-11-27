@@ -1,0 +1,639 @@
+{
+  "format": "audio-kg-domain-workflows/1",
+  "owner": "K15",
+  "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+  "workflows": [
+    {
+      "id": "K15-WF-K15.01",
+      "d2": "K15.01",
+      "title": "主体、角色与授权权限",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K15-WF-K15.02",
+      "d2": "K15.02",
+      "title": "项目简报、任务协作与交付",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K15-WF-K15.03",
+      "d2": "K15.03",
+      "title": "作品、录音、素材与版本身份",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K15-WF-K15.04",
+      "d2": "K15.04",
+      "title": "质量评价与多门禁验收",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K15-WF-K15.05",
+      "d2": "K15.05",
+      "title": "作品/录音/表演权利范围",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K15-WF-K15.06",
+      "d2": "K15.06",
+      "title": "声音身份、录音与同意",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K15-WF-K15.07",
+      "d2": "K15.07",
+      "title": "数据、训练、隐私与派生风险",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K15-WF-K15.08",
+      "d2": "K15.08",
+      "title": "发行、元数据与外部状态回读",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "steps": [
+        {
+          "id": "identify-actors-objects",
+          "action": "分别识别贡献者、权利人、授权人、被授权主体、操作者及作品/录音/表演/素材/文件版本",
+          "requires": [
+            "project_brief"
+          ],
+          "produces": [
+            "actor_object_register"
+          ]
+        },
+        {
+          "id": "resolve-authority-scope",
+          "action": "核对 grantor/grantee/operator/delegation/object/action/purpose/media/territory/term/audience/version/evidence",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "scoped_authority_candidates"
+          ]
+        },
+        {
+          "id": "record-dependencies",
+          "action": "绑定工程、素材、歌词、谱面、stem、版本、质量和验收依赖",
+          "requires": [
+            "actor_object_register"
+          ],
+          "produces": [
+            "dependency_and_delivery_graph"
+          ]
+        },
+        {
+          "id": "apply-independent-gates",
+          "action": "分别核技术、音乐、权利、同意、安全、交付与独立审核门禁",
+          "requires": [
+            "scoped_authority_candidates",
+            "dependency_and_delivery_graph"
+          ],
+          "produces": [
+            "candidate_release_decision"
+          ]
+        },
+        {
+          "id": "reconcile-external-state",
+          "action": "分离发行请求、消息版本、ACK、外部可访问状态和撤下回读",
+          "requires": [
+            "candidate_release_decision"
+          ],
+          "produces": [
+            "external_status_record"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "authority_or_delegation_unknown",
+        "object_or_action_mismatch",
+        "consent_scope_unknown",
+        "rights_or_safety_unknown",
+        "dependency_or_editable_delivery_missing",
+        "stale_receipt",
+        "external_state_unobserved"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    }
+  ]
+}

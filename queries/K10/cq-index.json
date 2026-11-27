@@ -1,0 +1,607 @@
+{
+  "status": "CONDITIONAL_DISCOVERY_ONLY",
+  "questions": [
+    {
+      "id": "CQ01",
+      "type": "O",
+      "directCount": 0,
+      "supportCount": 0,
+      "question": "调律/音分理论K01；本域不另定义",
+      "scope": "调律/音分理论K01；本域不另定义",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 63,
+        "row": "| CQ01 | 0 | 0 | 调律/音分理论K01；本域不另定义 |"
+      }
+    },
+    {
+      "id": "CQ02",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 14,
+      "question": "支持和弦/调性/结构识别，不替代创作理论",
+      "scope": "支持和弦/调性/结构识别，不替代创作理论",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 64,
+        "row": "| CQ02 | 0 | 14 | 支持和弦/调性/结构识别，不替代创作理论 |"
+      }
+    },
+    {
+      "id": "CQ03",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 4,
+      "question": "支持乐器标签，配器K03",
+      "scope": "支持乐器标签，配器K03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 65,
+        "row": "| CQ03 | 0 | 4 | 支持乐器标签，配器K03 |"
+      }
+    },
+    {
+      "id": "CQ04",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 10,
+      "question": "支持拍/歌词时序，语言和创作K13/K02",
+      "scope": "支持拍/歌词时序，语言和创作K13/K02",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 66,
+        "row": "| CQ04 | 0 | 10 | 支持拍/歌词时序，语言和创作K13/K02 |"
+      }
+    },
+    {
+      "id": "CQ05",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 10,
+      "question": "支持F0/有声观测与表演评价，生理K05",
+      "scope": "支持F0/有声观测与表演评价，生理K05",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 67,
+        "row": "| CQ05 | 0 | 10 | 支持F0/有声观测与表演评价，生理K05 |"
+      }
+    },
+    {
+      "id": "CQ06",
+      "type": "D/S",
+      "directCount": 4,
+      "supportCount": 4,
+      "question": "参考/估计误差与反馈限定，训练K06",
+      "scope": "参考/估计误差与反馈限定，训练K06",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 68,
+        "row": "| CQ06 | 4 | 4 | 参考/估计误差与反馈限定，训练K06 |"
+      }
+    },
+    {
+      "id": "CQ07",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 12,
+      "question": "支持时频与观测条件，物理K07/DSP K08",
+      "scope": "支持时频与观测条件，物理K07/DSP K08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 69,
+        "row": "| CQ07 | 0 | 12 | 支持时频与观测条件，物理K07/DSP K08 |"
+      }
+    },
+    {
+      "id": "CQ08",
+      "type": "D/S",
+      "directCount": 2,
+      "supportCount": 4,
+      "question": "响度与峰值评价条件",
+      "scope": "响度与峰值评价条件",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 70,
+        "row": "| CQ08 | 2 | 4 | 响度与峰值评价条件 |"
+      }
+    },
+    {
+      "id": "CQ09",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 10,
+      "question": "支持模型任务评价，模型实现K11",
+      "scope": "支持模型任务评价，模型实现K11",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 71,
+        "row": "| CQ09 | 0 | 10 | 支持模型任务评价，模型实现K11 |"
+      }
+    },
+    {
+      "id": "CQ10",
+      "type": "D/S",
+      "directCount": 2,
+      "supportCount": 4,
+      "question": "分离/修复技术质量与目标损伤",
+      "scope": "分离/修复技术质量与目标损伤",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 72,
+        "row": "| CQ10 | 2 | 4 | 分离/修复技术质量与目标损伤 |"
+      }
+    },
+    {
+      "id": "CQ11",
+      "type": "D",
+      "directCount": 44,
+      "supportCount": 0,
+      "question": "指标、任务、技术/艺术评价和实验协议",
+      "scope": "指标、任务、技术/艺术评价和实验协议",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 73,
+        "row": "| CQ11 | 44 | 0 | 指标、任务、技术/艺术评价和实验协议 |"
+      }
+    },
+    {
+      "id": "CQ12",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 10,
+      "question": "支持翻唱转录/评价条件，不定义完整翻唱",
+      "scope": "支持翻唱转录/评价条件，不定义完整翻唱",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 74,
+        "row": "| CQ12 | 0 | 10 | 支持翻唱转录/评价条件，不定义完整翻唱 |"
+      }
+    },
+    {
+      "id": "CQ13",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 54,
+      "question": "静态来源/案例定位，无实际图谱",
+      "scope": "静态来源/案例定位，无实际图谱",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 75,
+        "row": "| CQ13 | 0 | 54 | 静态来源/案例定位，无实际图谱 |"
+      }
+    },
+    {
+      "id": "CQ14",
+      "type": "O",
+      "directCount": 0,
+      "supportCount": 0,
+      "question": "无实际版本能力验收，K12",
+      "scope": "无实际版本能力验收，K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 76,
+        "row": "| CQ14 | 0 | 0 | 无实际版本能力验收，K12 |"
+      }
+    },
+    {
+      "id": "CQ15",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 6,
+      "question": "支持演唱量规与反馈，教学K06",
+      "scope": "支持演唱量规与反馈，教学K06",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 77,
+        "row": "| CQ15 | 0 | 6 | 支持演唱量规与反馈，教学K06 |"
+      }
+    },
+    {
+      "id": "CQ16",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 8,
+      "question": "支持转录/表现/目标保护，制作K09",
+      "scope": "支持转录/表现/目标保护，制作K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 78,
+        "row": "| CQ16 | 0 | 8 | 支持转录/表现/目标保护，制作K09 |"
+      }
+    },
+    {
+      "id": "CQ17",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 6,
+      "question": "仅西方标签语义支持，理论K01",
+      "scope": "仅西方标签语义支持，理论K01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 79,
+        "row": "| CQ17 | 0 | 6 | 仅西方标签语义支持，理论K01 |"
+      }
+    },
+    {
+      "id": "CQ18",
+      "type": "O",
+      "directCount": 0,
+      "supportCount": 0,
+      "question": "无缅甸/非西方作品实证；研究摘要非真实曲目案例",
+      "scope": "无缅甸/非西方作品实证；研究摘要非真实曲目案例",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 80,
+        "row": "| CQ18 | 0 | 0 | 无缅甸/非西方作品实证；研究摘要非真实曲目案例 |"
+      }
+    },
+    {
+      "id": "CQ19",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 34,
+      "question": "评价流程、参考/协议和验证条件",
+      "scope": "评价流程、参考/协议和验证条件",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 81,
+        "row": "| CQ19 | 0 | 34 | 评价流程、参考/协议和验证条件 |"
+      }
+    },
+    {
+      "id": "CQ20",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 40,
+      "question": "指标工具参数语义，实际版本K12",
+      "scope": "指标工具参数语义，实际版本K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 82,
+        "row": "| CQ20 | 0 | 40 | 指标工具参数语义，实际版本K12 |"
+      }
+    },
+    {
+      "id": "CQ21",
+      "type": "S",
+      "directCount": 0,
+      "supportCount": 6,
+      "question": "参考/候选/划分/报告身份支持，状态owner另域",
+      "scope": "参考/候选/划分/报告身份支持，状态owner另域",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 83,
+        "row": "| CQ21 | 0 | 6 | 参考/候选/划分/报告身份支持，状态owner另域 |"
+      }
+    },
+    {
+      "id": "CQ22",
+      "type": "D",
+      "directCount": 54,
+      "supportCount": 0,
+      "question": "音乐理解/技术/艺术/多维评价",
+      "scope": "音乐理解/技术/艺术/多维评价",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 84,
+        "row": "| CQ22 | 54 | 0 | 音乐理解/技术/艺术/多维评价 |"
+      }
+    },
+    {
+      "id": "CQ23",
+      "type": "D/S",
+      "directCount": 4,
+      "supportCount": 6,
+      "question": "可编辑转录候选、粒度与损失，具体交换K12",
+      "scope": "可编辑转录候选、粒度与损失，具体交换K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 85,
+        "row": "| CQ23 | 4 | 6 | 可编辑转录候选、粒度与损失，具体交换K12 |"
+      }
+    },
+    {
+      "id": "CQ24",
+      "type": "D/S",
+      "directCount": 2,
+      "supportCount": 28,
+      "question": "复评、误差定位、拒绝与停止",
+      "scope": "复评、误差定位、拒绝与停止",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 86,
+        "row": "| CQ24 | 2 | 28 | 复评、误差定位、拒绝与停止 |"
+      }
+    },
+    {
+      "id": "CQ25",
+      "type": "D/S",
+      "directCount": 4,
+      "supportCount": 50,
+      "question": "静态追踪和评价报告身份，不是图谱执行",
+      "scope": "静态追踪和评价报告身份，不是图谱执行",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 87,
+        "row": "| CQ25 | 4 | 50 | 静态追踪和评价报告身份，不是图谱执行 |"
+      }
+    },
+    {
+      "id": "CQ26",
+      "type": "D/S",
+      "directCount": 4,
+      "supportCount": 6,
+      "question": "语种及母语评价/文化语境限定，非具体缅甸实证",
+      "scope": "语种及母语评价/文化语境限定，非具体缅甸实证",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 88,
+        "row": "| CQ26 | 4 | 6 | 语种及母语评价/文化语境限定，非具体缅甸实证 |"
+      }
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K10-01",
+      "question": "怎样区分参考、估计、F0和有声？ [EV01](evaluation-r1-knowledge-cases.md#L5)、[EV03](evaluation-r1-knowledge-cases.md#L7)、[EV28](evaluation-r2-knowledge-cases.md#L5)、[EV30](evaluation-r2-knowledge-cases.md#L7)。",
+      "caseIds": [
+        "EV01",
+        "EV03",
+        "EV28",
+        "EV30"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 91,
+        "row": "- CQ-K10-01 怎样区分参考、估计、F0和有声？ [EV01](evaluation-r1-knowledge-cases.md#L5)、[EV03](evaluation-r1-knowledge-cases.md#L7)、[EV28](evaluation-r2-knowledge-cases.md#L5)、[EV30](evaluation-r2-knowledge-cases.md#L7)。"
+      }
+    },
+    {
+      "id": "CQ-K10-02",
+      "question": "怎样评价单旋律和多F0？ [EV02](evaluation-r1-knowledge-cases.md#L6)、[EV29](evaluation-r2-knowledge-cases.md#L6)。",
+      "caseIds": [
+        "EV02",
+        "EV29"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 92,
+        "row": "- CQ-K10-02 怎样评价单旋律和多F0？ [EV02](evaluation-r1-knowledge-cases.md#L6)、[EV29](evaluation-r2-knowledge-cases.md#L6)。"
+      }
+    },
+    {
+      "id": "CQ-K10-03",
+      "question": "怎样评价拍点、层级、速度与连续性？ [EV04](evaluation-r1-knowledge-cases.md#L8)、[EV05](evaluation-r1-knowledge-cases.md#L9)、[EV06](evaluation-r1-knowledge-cases.md#L10)、[EV31](evaluation-r2-knowledge-cases.md#L8)、[EV32](evaluation-r2-knowledge-cases.md#L9)、[EV33](evaluation-r2-knowledge-cases.md#L10)。",
+      "caseIds": [
+        "EV04",
+        "EV05",
+        "EV06",
+        "EV31",
+        "EV32",
+        "EV33"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 93,
+        "row": "- CQ-K10-03 怎样评价拍点、层级、速度与连续性？ [EV04](evaluation-r1-knowledge-cases.md#L8)、[EV05](evaluation-r1-knowledge-cases.md#L9)、[EV06](evaluation-r1-knowledge-cases.md#L10)、[EV31](evaluation-r2-knowledge-cases.md#L8)、[EV32](evaluation-r2-knowledge-cases.md#L9)、[EV33](evaluation-r2-knowledge-cases.md#L10)。"
+      }
+    },
+    {
+      "id": "CQ-K10-04",
+      "question": "怎样比较和弦、调性、词汇覆盖和版本？ [EV07](evaluation-r1-knowledge-cases.md#L11)、[EV08](evaluation-r1-knowledge-cases.md#L12)、[EV09](evaluation-r1-knowledge-cases.md#L13)、[EV34](evaluation-r2-knowledge-cases.md#L11)、[EV35](evaluation-r2-knowledge-cases.md#L12)、[EV36](evaluation-r2-knowledge-cases.md#L13)。",
+      "caseIds": [
+        "EV07",
+        "EV08",
+        "EV09",
+        "EV34",
+        "EV35",
+        "EV36"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 94,
+        "row": "- CQ-K10-04 怎样比较和弦、调性、词汇覆盖和版本？ [EV07](evaluation-r1-knowledge-cases.md#L11)、[EV08](evaluation-r1-knowledge-cases.md#L12)、[EV09](evaluation-r1-knowledge-cases.md#L13)、[EV34](evaluation-r2-knowledge-cases.md#L11)、[EV35](evaluation-r2-knowledge-cases.md#L12)、[EV36](evaluation-r2-knowledge-cases.md#L13)。"
+      }
+    },
+    {
+      "id": "CQ-K10-05",
+      "question": "怎样评价音符、乐器及多声部转录？ [EV10](evaluation-r1-knowledge-cases.md#L14)、[EV11](evaluation-r1-knowledge-cases.md#L15)、[EV37](evaluation-r2-knowledge-cases.md#L14)、[EV38](evaluation-r2-knowledge-cases.md#L15)。",
+      "caseIds": [
+        "EV10",
+        "EV11",
+        "EV37",
+        "EV38"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 95,
+        "row": "- CQ-K10-05 怎样评价音符、乐器及多声部转录？ [EV10](evaluation-r1-knowledge-cases.md#L14)、[EV11](evaluation-r1-knowledge-cases.md#L15)、[EV37](evaluation-r2-knowledge-cases.md#L14)、[EV38](evaluation-r2-knowledge-cases.md#L15)。"
+      }
+    },
+    {
+      "id": "CQ-K10-06",
+      "question": "怎样评价歌词文本/时间与可编辑输出？ [EV12](evaluation-r1-knowledge-cases.md#L16)、[EV39](evaluation-r2-knowledge-cases.md#L16)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 同ID内容/词音关系变化反例。",
+      "caseIds": [
+        "EV12",
+        "EV39"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 96,
+        "row": "- CQ-K10-06 怎样评价歌词文本/时间与可编辑输出？ [EV12](evaluation-r1-knowledge-cases.md#L16)、[EV39](evaluation-r2-knowledge-cases.md#L16)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 同ID内容/词音关系变化反例。"
+      }
+    },
+    {
+      "id": "CQ-K10-07",
+      "question": "怎样评价分段、重复与多层结构？ [EV13](evaluation-r1-knowledge-cases.md#L17)、[EV14](evaluation-r1-knowledge-cases.md#L18)、[EV15](evaluation-r1-knowledge-cases.md#L19)、[EV40](evaluation-r2-knowledge-cases.md#L17)、[EV41](evaluation-r2-knowledge-cases.md#L18)、[EV42](evaluation-r2-knowledge-cases.md#L19)。",
+      "caseIds": [
+        "EV13",
+        "EV14",
+        "EV15",
+        "EV40",
+        "EV41",
+        "EV42"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 97,
+        "row": "- CQ-K10-07 怎样评价分段、重复与多层结构？ [EV13](evaluation-r1-knowledge-cases.md#L17)、[EV14](evaluation-r1-knowledge-cases.md#L18)、[EV15](evaluation-r1-knowledge-cases.md#L19)、[EV40](evaluation-r2-knowledge-cases.md#L17)、[EV41](evaluation-r2-knowledge-cases.md#L18)、[EV42](evaluation-r2-knowledge-cases.md#L19)。"
+      }
+    },
+    {
+      "id": "CQ-K10-08",
+      "question": "怎样区分演唱误差、估计误差、语言/反馈？ [EV16](evaluation-r1-knowledge-cases.md#L20)、[EV17](evaluation-r1-knowledge-cases.md#L21)、[EV18](evaluation-r1-knowledge-cases.md#L22)、[EV43](evaluation-r2-knowledge-cases.md#L20)、[EV44](evaluation-r2-knowledge-cases.md#L21)、[EV45](evaluation-r2-knowledge-cases.md#L22)。",
+      "caseIds": [
+        "EV16",
+        "EV17",
+        "EV18",
+        "EV43",
+        "EV44",
+        "EV45"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 98,
+        "row": "- CQ-K10-08 怎样区分演唱误差、估计误差、语言/反馈？ [EV16](evaluation-r1-knowledge-cases.md#L20)、[EV17](evaluation-r1-knowledge-cases.md#L21)、[EV18](evaluation-r1-knowledge-cases.md#L22)、[EV43](evaluation-r2-knowledge-cases.md#L20)、[EV44](evaluation-r2-knowledge-cases.md#L21)、[EV45](evaluation-r2-knowledge-cases.md#L22)。"
+      }
+    },
+    {
+      "id": "CQ-K10-09",
+      "question": "怎样评价技术质量、响度和主观损伤？ [EV19](evaluation-r1-knowledge-cases.md#L23)、[EV20](evaluation-r1-knowledge-cases.md#L24)、[EV21](evaluation-r1-knowledge-cases.md#L25)、[EV46](evaluation-r2-knowledge-cases.md#L23)、[EV47](evaluation-r2-knowledge-cases.md#L24)、[EV48](evaluation-r2-knowledge-cases.md#L25)。",
+      "caseIds": [
+        "EV19",
+        "EV20",
+        "EV21",
+        "EV46",
+        "EV47",
+        "EV48"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 99,
+        "row": "- CQ-K10-09 怎样评价技术质量、响度和主观损伤？ [EV19](evaluation-r1-knowledge-cases.md#L23)、[EV20](evaluation-r1-knowledge-cases.md#L24)、[EV21](evaluation-r1-knowledge-cases.md#L25)、[EV46](evaluation-r2-knowledge-cases.md#L23)、[EV47](evaluation-r2-knowledge-cases.md#L24)、[EV48](evaluation-r2-knowledge-cases.md#L25)。"
+      }
+    },
+    {
+      "id": "CQ-K10-10",
+      "question": "怎样处理音乐性、文化和多维权衡？ [EV22](evaluation-r1-knowledge-cases.md#L26)、[EV23](evaluation-r1-knowledge-cases.md#L27)、[EV24](evaluation-r1-knowledge-cases.md#L28)、[EV49](evaluation-r2-knowledge-cases.md#L26)、[EV50](evaluation-r2-knowledge-cases.md#L27)、[EV51](evaluation-r2-knowledge-cases.md#L28)。",
+      "caseIds": [
+        "EV22",
+        "EV23",
+        "EV24",
+        "EV49",
+        "EV50",
+        "EV51"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 100,
+        "row": "- CQ-K10-10 怎样处理音乐性、文化和多维权衡？ [EV22](evaluation-r1-knowledge-cases.md#L26)、[EV23](evaluation-r1-knowledge-cases.md#L27)、[EV24](evaluation-r1-knowledge-cases.md#L28)、[EV49](evaluation-r2-knowledge-cases.md#L26)、[EV50](evaluation-r2-knowledge-cases.md#L27)、[EV51](evaluation-r2-knowledge-cases.md#L28)。"
+      }
+    },
+    {
+      "id": "CQ-K10-11",
+      "question": "怎样设计评价协议与统计单位？ [EV25](evaluation-r1-knowledge-cases.md#L29)、[EV26](evaluation-r1-knowledge-cases.md#L30)、[EV52](evaluation-r2-knowledge-cases.md#L29)、[EV53](evaluation-r2-knowledge-cases.md#L30)。",
+      "caseIds": [
+        "EV25",
+        "EV26",
+        "EV52",
+        "EV53"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 101,
+        "row": "- CQ-K10-11 怎样设计评价协议与统计单位？ [EV25](evaluation-r1-knowledge-cases.md#L29)、[EV26](evaluation-r1-knowledge-cases.md#L30)、[EV52](evaluation-r2-knowledge-cases.md#L29)、[EV53](evaluation-r2-knowledge-cases.md#L30)。"
+      }
+    },
+    {
+      "id": "CQ-K10-12",
+      "question": "怎样绑定报告和防止数据泄漏？ [EV27](evaluation-r1-knowledge-cases.md#L31)、[EV54](evaluation-r2-knowledge-cases.md#L31)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 版本缺失或报告与实际内容不符须重新验证。",
+      "caseIds": [
+        "EV27",
+        "EV54"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 102,
+        "row": "- CQ-K10-12 怎样绑定报告和防止数据泄漏？ [EV27](evaluation-r1-knowledge-cases.md#L31)、[EV54](evaluation-r2-knowledge-cases.md#L31)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 版本缺失或报告与实际内容不符须重新验证。"
+      }
+    }
+  ]
+}

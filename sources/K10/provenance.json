@@ -1,0 +1,1699 @@
+{
+  "format": "audio-kg-K10-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S484",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "d4": "K10.07.01.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "uri": "https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S063",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 25,
+        "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+      },
+      "d4": "K10.07.01.03",
+      "formalUse": "REUSE_CANONICAL_PROVIDER_NO_LOCAL_URI_LINK",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 25,
+        "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+      },
+      "uri": "https://manual.audacityteam.org/man/noise_reduction.html",
+      "localUriLinkPresent": false
+    },
+    {
+      "sourceId": "S483",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "d4": "K10.07.01.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S497",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 5,
+        "row": "| S497 | [EBU R128 v5 2023](https://tech.ebu.ch/docs/r/r128.pdf) 实际PDF截图零基2/3（印刷3/4），h–m、n–v及脚注2 | READ_LOCATOR；节目目标−23.0 LUFS，实际不可达场景容差±1 LU，QC测量误差容差±0.2 LU，有意较低目标须标记；R2c再看PDF零基2/3；线性制作最大真峰−1dBTP，条m真峰测量容差±0.3dB仅20kHz带限，测量容差和分发限制是不同条件；LRA辅助，短节目不足一分钟不推荐。未完成BS.1770/3341仪表合规或测试。 |"
+      },
+      "d4": "K10.07.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K09",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 5,
+        "row": "| S497 | [EBU R128 v5 2023](https://tech.ebu.ch/docs/r/r128.pdf) 实际PDF截图零基2/3（印刷3/4），h–m、n–v及脚注2 | READ_LOCATOR；节目目标−23.0 LUFS，实际不可达场景容差±1 LU，QC测量误差容差±0.2 LU，有意较低目标须标记；R2c再看PDF零基2/3；线性制作最大真峰−1dBTP，条m真峰测量容差±0.3dB仅20kHz带限，测量容差和分发限制是不同条件；LRA辅助，短节目不足一分钟不推荐。未完成BS.1770/3341仪表合规或测试。 |"
+      },
+      "uri": "https://tech.ebu.ch/docs/r/r128.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S498",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 6,
+        "row": "| S498 | [EBU Tech3342 2023](https://tech.ebu.ch/docs/tech/tech3342.pdf) 实际PDF截图零基3/4（印刷4/5），§2/3/3.1 | READ_LOCATOR；3秒滑窗、至少2.9秒重叠，绝对−70 LUFS和相对−20 LU门控，门控后P95−P10，单位LU。不是峰均比或综合响度，短节目不稳健；有限已测量级输入算例不等实现仪表。 |"
+      },
+      "d4": "K10.07.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K09",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 6,
+        "row": "| S498 | [EBU Tech3342 2023](https://tech.ebu.ch/docs/tech/tech3342.pdf) 实际PDF截图零基3/4（印刷4/5），§2/3/3.1 | READ_LOCATOR；3秒滑窗、至少2.9秒重叠，绝对−70 LUFS和相对−20 LU门控，门控后P95−P10，单位LU。不是峰均比或综合响度，短节目不稳健；有限已测量级输入算例不等实现仪表。 |"
+      },
+      "uri": "https://tech.ebu.ch/docs/tech/tech3342.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S507",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 15,
+        "row": "| S507 | [ITU-R BS.1770-5 Annex1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) 实际PDF截图零基3/7/8印刷2/6/7，式2/4–7及适用布局 | READ_LOCATOR；K频权、各通道均方/权重、400ms窗75%重叠、R2c再看PDF零基7/8，式(3)–(7)：只计完整400ms块，两门均严格大于阈值；绝对−70 LKFS和相对−10 LU门控后能量平均；Annex1最多五主声道、LFE排除，其他布局参照适用附录。不复制系数、不实现完整仪表；S483为同规范Annex2，不算独立规范。 |"
+      },
+      "d4": "K10.07.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K09",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 15,
+        "row": "| S507 | [ITU-R BS.1770-5 Annex1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) 实际PDF截图零基3/7/8印刷2/6/7，式2/4–7及适用布局 | READ_LOCATOR；K频权、各通道均方/权重、400ms窗75%重叠、R2c再看PDF零基7/8，式(3)–(7)：只计完整400ms块，两门均严格大于阈值；绝对−70 LKFS和相对−10 LU门控后能量平均；Annex1最多五主声道、LFE排除，其他布局参照适用附录。不复制系数、不实现完整仪表；S483为同规范Annex2，不算独立规范。 |"
+      },
+      "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S483",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "d4": "K10.07.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S484",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "d4": "K10.07.01.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "uri": "https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S483",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "d4": "K10.07.01.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S063",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 25,
+        "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+      },
+      "d4": "K10.07.01.04",
+      "formalUse": "REUSE_CANONICAL_PROVIDER_NO_LOCAL_URI_LINK",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 25,
+        "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+      },
+      "uri": "https://manual.audacityteam.org/man/noise_reduction.html",
+      "localUriLinkPresent": false
+    },
+    {
+      "sourceId": "S497",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 5,
+        "row": "| S497 | [EBU R128 v5 2023](https://tech.ebu.ch/docs/r/r128.pdf) 实际PDF截图零基2/3（印刷3/4），h–m、n–v及脚注2 | READ_LOCATOR；节目目标−23.0 LUFS，实际不可达场景容差±1 LU，QC测量误差容差±0.2 LU，有意较低目标须标记；R2c再看PDF零基2/3；线性制作最大真峰−1dBTP，条m真峰测量容差±0.3dB仅20kHz带限，测量容差和分发限制是不同条件；LRA辅助，短节目不足一分钟不推荐。未完成BS.1770/3341仪表合规或测试。 |"
+      },
+      "d4": "K10.07.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K09",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 5,
+        "row": "| S497 | [EBU R128 v5 2023](https://tech.ebu.ch/docs/r/r128.pdf) 实际PDF截图零基2/3（印刷3/4），h–m、n–v及脚注2 | READ_LOCATOR；节目目标−23.0 LUFS，实际不可达场景容差±1 LU，QC测量误差容差±0.2 LU，有意较低目标须标记；R2c再看PDF零基2/3；线性制作最大真峰−1dBTP，条m真峰测量容差±0.3dB仅20kHz带限，测量容差和分发限制是不同条件；LRA辅助，短节目不足一分钟不推荐。未完成BS.1770/3341仪表合规或测试。 |"
+      },
+      "uri": "https://tech.ebu.ch/docs/r/r128.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S498",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 6,
+        "row": "| S498 | [EBU Tech3342 2023](https://tech.ebu.ch/docs/tech/tech3342.pdf) 实际PDF截图零基3/4（印刷4/5），§2/3/3.1 | READ_LOCATOR；3秒滑窗、至少2.9秒重叠，绝对−70 LUFS和相对−20 LU门控，门控后P95−P10，单位LU。不是峰均比或综合响度，短节目不稳健；有限已测量级输入算例不等实现仪表。 |"
+      },
+      "d4": "K10.07.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K09",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 6,
+        "row": "| S498 | [EBU Tech3342 2023](https://tech.ebu.ch/docs/tech/tech3342.pdf) 实际PDF截图零基3/4（印刷4/5），§2/3/3.1 | READ_LOCATOR；3秒滑窗、至少2.9秒重叠，绝对−70 LUFS和相对−20 LU门控，门控后P95−P10，单位LU。不是峰均比或综合响度，短节目不稳健；有限已测量级输入算例不等实现仪表。 |"
+      },
+      "uri": "https://tech.ebu.ch/docs/tech/tech3342.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S507",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 15,
+        "row": "| S507 | [ITU-R BS.1770-5 Annex1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) 实际PDF截图零基3/7/8印刷2/6/7，式2/4–7及适用布局 | READ_LOCATOR；K频权、各通道均方/权重、400ms窗75%重叠、R2c再看PDF零基7/8，式(3)–(7)：只计完整400ms块，两门均严格大于阈值；绝对−70 LKFS和相对−10 LU门控后能量平均；Annex1最多五主声道、LFE排除，其他布局参照适用附录。不复制系数、不实现完整仪表；S483为同规范Annex2，不算独立规范。 |"
+      },
+      "d4": "K10.07.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K09",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-r2.md",
+        "blob": "d0794c42dc219720f8770dd4887ce1c0e6d62f5b",
+        "line": 15,
+        "row": "| S507 | [ITU-R BS.1770-5 Annex1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) 实际PDF截图零基3/7/8印刷2/6/7，式2/4–7及适用布局 | READ_LOCATOR；K频权、各通道均方/权重、400ms窗75%重叠、R2c再看PDF零基7/8，式(3)–(7)：只计完整400ms块，两门均严格大于阈值；绝对−70 LKFS和相对−10 LU门控后能量平均；Annex1最多五主声道、LFE排除，其他布局参照适用附录。不复制系数、不实现完整仪表；S483为同规范Annex2，不算独立规范。 |"
+      },
+      "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S483",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "d4": "K10.07.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S099",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-evaluation.md",
+        "blob": "37e563228c793697a9c53ebec22a5826a4822055",
+        "line": 20,
+        "row": "| S099 | mir_eval 0.8.2 [melody](https://mir-eval.readthedocs.io/stable/api/melody.html) Metrics / raw_pitch_accuracy / raw_chroma_accuracy | K10.01/06/09 | READ_LOCATOR；voicing及参考估计序列，默认50音分容差与chroma折叠；仅该任务/接口，不是艺术音准通用阈值 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "melody",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/melody.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.01.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 5,
+            "row": "| K10.01.01.03 | [EV01](evaluation-r1-knowledge-cases.md#L5) | 参考/估计F0与有声分母 | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ07/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 6,
+            "row": "| K10.01.02.03 | [EV02](evaluation-r1-knowledge-cases.md#L6) | 单旋律/多F0目标 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ07/CQ09/CQ10/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 7,
+            "row": "| K10.01.03.03 | [EV03](evaluation-r1-knowledge-cases.md#L7) | 八度音高/音级区别 | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ06/CQ07/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 20,
+            "row": "| K10.06.01.03 | [EV16](evaluation-r1-knowledge-cases.md#L20) | 实际偏差与估计误差 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ06/CQ22 | CQ05/CQ07/CQ15/CQ16/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 22,
+            "row": "| K10.06.03.03 | [EV18](evaluation-r1-knowledge-cases.md#L22) | 评价反馈与安全 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S099](../../research/source-qualification-production-evaluation.md#L20) | CQ06/CQ22/CQ24 | CQ05/CQ15/CQ19/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 31,
+            "row": "| K10.09.03.03 | [EV27](evaluation-r1-knowledge-cases.md#L31) | 报告身份 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S101](../../research/source-qualification-production-evaluation.md#L22)；[S102](../../research/source-qualification-production-evaluation.md#L23)；[S104](../../research/source-qualification-production-evaluation.md#L25)；[S105](../../research/source-qualification-production-evaluation.md#L26)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 32,
+            "row": "| K10.01.01.04 | [EV28](evaluation-r2-knowledge-cases.md#L5) | 负频率候选与voicing | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ07/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 34,
+            "row": "| K10.01.03.04 | [EV30](evaluation-r2-knowledge-cases.md#L7) | RPA/RCA/VR/VFA/OA分离 | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ06/CQ07/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 47,
+            "row": "| K10.06.01.04 | [EV43](evaluation-r2-knowledge-cases.md#L20) | 实际与估计误差分离 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ06/CQ22 | CQ05/CQ07/CQ15/CQ16/CQ24/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S099 | mir_eval 0.8.2 [melody](https://mir-eval.readthedocs.io/stable/api/melody.html) Metrics / raw_pitch_accuracy / raw_chroma_accuracy | K10.01/06/09 | READ_LOCATOR；voicing及参考估计序列，默认50音分容差与chroma折叠；仅该任务/接口，不是艺术音准通用阈值 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S100",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-evaluation.md",
+        "blob": "37e563228c793697a9c53ebec22a5826a4822055",
+        "line": 21,
+        "row": "| S100 | Essentia [Algorithms overview](https://essentia.upf.edu/algorithms_overview.html) Extractors | K10.01–03/07 | READ_LOCATOR；页面2.1-beta6-dev；描述提取器用途，不证明精度或可直接部署 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Algorithms overview",
+          "uri": "https://essentia.upf.edu/algorithms_overview.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 8,
+            "row": "| K10.02.01.03 | [EV04](evaluation-r1-knowledge-cases.md#L8) | 拍/速度/下拍与onset | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 10,
+            "row": "| K10.02.03.03 | [EV06](evaluation-r1-knowledge-cases.md#L10) | 层级及相位歧义 | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 35,
+            "row": "| K10.02.01.04 | [EV31](evaluation-r2-knowledge-cases.md#L8) | 拍单位与层级 | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S100 | Essentia [Algorithms overview](https://essentia.upf.edu/algorithms_overview.html) Extractors | K10.01–03/07 | READ_LOCATOR；页面2.1-beta6-dev；描述提取器用途，不证明精度或可直接部署 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S101",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-evaluation.md",
+        "blob": "37e563228c793697a9c53ebec22a5826a4822055",
+        "line": 22,
+        "row": "| S101 | mir_eval 0.8.2 [beat](https://mir-eval.readthedocs.io/stable/api/beat.html) Metrics / f_measure | K10.02/09 | READ_LOCATOR；默认0.07秒匹配窗，其他指标不同；不视为专业演奏的普遍容差 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "beat",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/beat.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 8,
+            "row": "| K10.02.01.03 | [EV04](evaluation-r1-knowledge-cases.md#L8) | 拍/速度/下拍与onset | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 9,
+            "row": "| K10.02.02.03 | [EV05](evaluation-r1-knowledge-cases.md#L9) | 秒窗一对一匹配 | [S101](../../research/source-qualification-production-evaluation.md#L22) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 10,
+            "row": "| K10.02.03.03 | [EV06](evaluation-r1-knowledge-cases.md#L10) | 层级及相位歧义 | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 31,
+            "row": "| K10.09.03.03 | [EV27](evaluation-r1-knowledge-cases.md#L31) | 报告身份 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S101](../../research/source-qualification-production-evaluation.md#L22)；[S102](../../research/source-qualification-production-evaluation.md#L23)；[S104](../../research/source-qualification-production-evaluation.md#L25)；[S105](../../research/source-qualification-production-evaluation.md#L26)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 35,
+            "row": "| K10.02.01.04 | [EV31](evaluation-r2-knowledge-cases.md#L8) | 拍单位与层级 | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.02.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 36,
+            "row": "| K10.02.02.04 | [EV32](evaluation-r2-knowledge-cases.md#L9) | 最大二部匹配 | [S101](../../research/source-qualification-production-evaluation.md#L22) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.02.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 37,
+            "row": "| K10.02.03.04 | [EV33](evaluation-r2-knowledge-cases.md#L10) | 连续/总准确 | [S101](../../research/source-qualification-production-evaluation.md#L22) | CQ11/CQ22 | CQ04/CQ19/CQ24/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S101 | mir_eval 0.8.2 [beat](https://mir-eval.readthedocs.io/stable/api/beat.html) Metrics / f_measure | K10.02/09 | READ_LOCATOR；默认0.07秒匹配窗，其他指标不同；不视为专业演奏的普遍容差 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S102",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-evaluation.md",
+        "blob": "37e563228c793697a9c53ebec22a5826a4822055",
+        "line": 23,
+        "row": "| S102 | mir_eval 0.8.2 [chord](https://mir-eval.readthedocs.io/stable/api/chord.html) root / triads / *_inv / weighted_accuracy examples | K10.03/09 | READ_LOCATOR；不同标签匹配和时长加权，不证明音乐功能或非西方语义 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "chord",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/chord.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 11,
+            "row": "| K10.03.01.03 | [EV07](evaluation-r1-knowledge-cases.md#L11) | 根音/性质/转位 | [S102](../../research/source-qualification-production-evaluation.md#L23) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 13,
+            "row": "| K10.03.03.03 | [EV09](evaluation-r1-knowledge-cases.md#L13) | 时间加权和调性版本 | [S102](../../research/source-qualification-production-evaluation.md#L23)；[S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 31,
+            "row": "| K10.09.03.03 | [EV27](evaluation-r1-knowledge-cases.md#L31) | 报告身份 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S101](../../research/source-qualification-production-evaluation.md#L22)；[S102](../../research/source-qualification-production-evaluation.md#L23)；[S104](../../research/source-qualification-production-evaluation.md#L25)；[S105](../../research/source-qualification-production-evaluation.md#L26)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.03.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 38,
+            "row": "| K10.03.01.04 | [EV34](evaluation-r2-knowledge-cases.md#L11) | 词汇/低音及覆盖 | [S102](../../research/source-qualification-production-evaluation.md#L23) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 40,
+            "row": "| K10.03.03.04 | [EV36](evaluation-r2-knowledge-cases.md#L13) | 有效时长与stable/dev | [S102](../../research/source-qualification-production-evaluation.md#L23)；[S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S102 | mir_eval 0.8.2 [chord](https://mir-eval.readthedocs.io/stable/api/chord.html) root / triads / *_inv / weighted_accuracy examples | K10.03/09 | READ_LOCATOR；不同标签匹配和时长加权，不证明音乐功能或非西方语义 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S104",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-evaluation.md",
+        "blob": "37e563228c793697a9c53ebec22a5826a4822055",
+        "line": 25,
+        "row": "| S104 | mir_eval 0.8.2 [transcription](https://mir-eval.readthedocs.io/stable/api/transcription.html) onset_precision_recall_f1 signature | K10.04/09 | READ_LOCATOR；onset默认0.05秒，注意不同音符任务定义，不泛化成歌词或复音识别全部指标 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "transcription",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/transcription.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 14,
+            "row": "| K10.04.01.03 | [EV10](evaluation-r1-knowledge-cases.md#L14) | 起止音高及offset | [S104](../../research/source-qualification-production-evaluation.md#L25)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ16/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 31,
+            "row": "| K10.09.03.03 | [EV27](evaluation-r1-knowledge-cases.md#L31) | 报告身份 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S101](../../research/source-qualification-production-evaluation.md#L22)；[S102](../../research/source-qualification-production-evaluation.md#L23)；[S104](../../research/source-qualification-production-evaluation.md#L25)；[S105](../../research/source-qualification-production-evaluation.md#L26)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 41,
+            "row": "| K10.04.01.04 | [EV37](evaluation-r2-knowledge-cases.md#L14) | 音符边界和帧粒度 | [S104](../../research/source-qualification-production-evaluation.md#L25)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ16/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S104 | mir_eval 0.8.2 [transcription](https://mir-eval.readthedocs.io/stable/api/transcription.html) onset_precision_recall_f1 signature | K10.04/09 | READ_LOCATOR；onset默认0.05秒，注意不同音符任务定义，不泛化成歌词或复音识别全部指标 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S105",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-production-evaluation.md",
+        "blob": "37e563228c793697a9c53ebec22a5826a4822055",
+        "line": 26,
+        "row": "| S105 | mir_eval 0.8.2 [segment](https://mir-eval.readthedocs.io/stable/api/segment.html) Metrics / detection / deviation / pairwise | K10.05/09 | READ_LOCATOR；区分边界及标签，分区假设和窗口；不能证明音乐结构唯一 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "segment",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/segment.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 17,
+            "row": "| K10.05.01.03 | [EV13](evaluation-r1-knowledge-cases.md#L17) | 边界容差及端点 | [S105](../../research/source-qualification-production-evaluation.md#L26)；[S509](../../research/source-qualification-evaluation-r1.md#L6) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.05.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 18,
+            "row": "| K10.05.02.03 | [EV14](evaluation-r1-knowledge-cases.md#L18) | 重复身份与功能 | [S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 19,
+            "row": "| K10.05.03.03 | [EV15](evaluation-r1-knowledge-cases.md#L19) | 同粒度多参考边界与逐参考F1 | [S509](../../research/source-qualification-evaluation-r1.md#L6)；[S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 31,
+            "row": "| K10.09.03.03 | [EV27](evaluation-r1-knowledge-cases.md#L31) | 报告身份 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S101](../../research/source-qualification-production-evaluation.md#L22)；[S102](../../research/source-qualification-production-evaluation.md#L23)；[S104](../../research/source-qualification-production-evaluation.md#L25)；[S105](../../research/source-qualification-production-evaluation.md#L26)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 44,
+            "row": "| K10.05.01.04 | [EV40](evaluation-r2-knowledge-cases.md#L17) | 首尾政策与分区 | [S105](../../research/source-qualification-production-evaluation.md#L26)；[S509](../../research/source-qualification-evaluation-r1.md#L6) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.05.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 45,
+            "row": "| K10.05.02.04 | [EV41](evaluation-r2-knowledge-cases.md#L18) | 分组置换与空分母 | [S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 46,
+            "row": "| K10.05.03.04 | [EV42](evaluation-r2-knowledge-cases.md#L19) | 层级嵌套及预先约定多参考聚合 | [S509](../../research/source-qualification-evaluation-r1.md#L6)；[S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S105 | mir_eval 0.8.2 [segment](https://mir-eval.readthedocs.io/stable/api/segment.html) Metrics / detection / deviation / pairwise | K10.05/09 | READ_LOCATOR；区分边界及标签，分区假设和窗口；不能证明音乐结构唯一 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S508",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 5,
+        "row": "| S508 | [mir_eval multipitch stable](https://mir-eval.readthedocs.io/stable/api/multipitch.html) 0.8.2 Conventions/Metrics | READ_LOCATOR；每帧多F0集合，空数组无活动F0，Hz/秒、半音距离及chroma；时间对齐/重采样细节待专项，不宣称库实测。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "mir_eval multipitch stable",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/multipitch.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 6,
+            "row": "| K10.01.02.03 | [EV02](evaluation-r1-knowledge-cases.md#L6) | 单旋律/多F0目标 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ07/CQ09/CQ10/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 15,
+            "row": "| K10.04.02.03 | [EV11](evaluation-r1-knowledge-cases.md#L15) | 部分乐器标注与固定事件声部身份 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S508](../../research/source-qualification-evaluation-r1.md#L5)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 33,
+            "row": "| K10.01.02.04 | [EV29](evaluation-r2-knowledge-cases.md#L6) | 池化多F0匹配 | [S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ07/CQ09/CQ10/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 42,
+            "row": "| K10.04.02.04 | [EV38](evaluation-r2-knowledge-cases.md#L15) | 部分标注及匿名声部全局置换 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S519](../../research/source-qualification-evaluation-r2.md#L6)；[S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S508 | [mir_eval multipitch stable](https://mir-eval.readthedocs.io/stable/api/multipitch.html) 0.8.2 Conventions/Metrics | READ_LOCATOR；每帧多F0集合，空数组无活动F0，Hz/秒、半音距离及chroma；时间对齐/重采样细节待专项，不宣称库实测。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S509",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 6,
+        "row": "| S509 | [mir_eval hierarchy stable](https://mir-eval.readthedocs.io/stable/api/hierarchy.html) 0.8.2 Conventions/T-measure/L-measure | READ_LOCATOR；多层区间和标签，层级指标与平面分段不同，完整时间范围和参数，未运行。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "mir_eval hierarchy stable",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/hierarchy.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 17,
+            "row": "| K10.05.01.03 | [EV13](evaluation-r1-knowledge-cases.md#L17) | 边界容差及端点 | [S105](../../research/source-qualification-production-evaluation.md#L26)；[S509](../../research/source-qualification-evaluation-r1.md#L6) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 19,
+            "row": "| K10.05.03.03 | [EV15](evaluation-r1-knowledge-cases.md#L19) | 同粒度多参考边界与逐参考F1 | [S509](../../research/source-qualification-evaluation-r1.md#L6)；[S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 44,
+            "row": "| K10.05.01.04 | [EV40](evaluation-r2-knowledge-cases.md#L17) | 首尾政策与分区 | [S105](../../research/source-qualification-production-evaluation.md#L26)；[S509](../../research/source-qualification-evaluation-r1.md#L6) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 46,
+            "row": "| K10.05.03.04 | [EV42](evaluation-r2-knowledge-cases.md#L19) | 层级嵌套及预先约定多参考聚合 | [S509](../../research/source-qualification-evaluation-r1.md#L6)；[S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S509 | [mir_eval hierarchy stable](https://mir-eval.readthedocs.io/stable/api/hierarchy.html) 0.8.2 Conventions/T-measure/L-measure | READ_LOCATOR；多层区间和标签，层级指标与平面分段不同，完整时间范围和参数，未运行。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S510",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 7,
+        "row": "| S510 | [mir_eval key stable](https://mir-eval.readthedocs.io/stable/api/key.html) 0.8.2 weighted_score；[latest](https://mir-eval.readthedocs.io/latest/api/key.html) 0.9.0dev weighted_score | READ_LOCATOR；实际页面0.8.2签名两参数，向上五度0.5；0.9.0dev第三参数allow_descending_fifths可改变向下五度评分。原S103将latest与0.8.2并列的旧版本标记不能作为稳定版参数证据；原FG-K10.03.03的开关例只绑定0.9.0dev文档或后续核实的具体实现，待R3明确收敛。不从网页推已安装版本，未知/other、文化调式适用性另核。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "mir_eval key stable",
+          "uri": "https://mir-eval.readthedocs.io/stable/api/key.html"
+        },
+        {
+          "label": "latest",
+          "uri": "https://mir-eval.readthedocs.io/latest/api/key.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.03.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 12,
+            "row": "| K10.03.02.03 | [EV08](evaluation-r1-knowledge-cases.md#L12) | 调性候选与文化词汇 | [S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 13,
+            "row": "| K10.03.03.03 | [EV09](evaluation-r1-knowledge-cases.md#L13) | 时间加权和调性版本 | [S102](../../research/source-qualification-production-evaluation.md#L23)；[S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 39,
+            "row": "| K10.03.02.04 | [EV35](evaluation-r2-knowledge-cases.md#L12) | 全局/局部调性 | [S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 40,
+            "row": "| K10.03.03.04 | [EV36](evaluation-r2-knowledge-cases.md#L13) | 有效时长与stable/dev | [S102](../../research/source-qualification-production-evaluation.md#L23)；[S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S510 | [mir_eval key stable](https://mir-eval.readthedocs.io/stable/api/key.html) 0.8.2 weighted_score；[latest](https://mir-eval.readthedocs.io/latest/api/key.html) 0.9.0dev weighted_score | READ_LOCATOR；实际页面0.8.2签名两参数，向上五度0.5；0.9.0dev第三参数allow_descending_fifths可改变向下五度评分。原S103将latest与0.8.2并列的旧版本标记不能作为稳定版参数证据；原FG-K10.03.03的开关例只绑定0.9.0dev文档或后续核实的具体实现，待R3明确收敛。不从网页推已安装版本，未知/other、文化调式适用性另核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S511",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 8,
+        "row": "| S511 | [OpenMIC-2018 paper record](https://zenodo.org/records/1492445) Description, version v1, 2018 | ABSTRACT_READ；20类乐器的部分标注，多标签任务。未读论文PDF、下载素材或核每条许可，不能将未标注当负例或声部追踪证据。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "OpenMIC-2018 paper record",
+          "uri": "https://zenodo.org/records/1492445"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 15,
+            "row": "| K10.04.02.03 | [EV11](evaluation-r1-knowledge-cases.md#L15) | 部分乐器标注与固定事件声部身份 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S508](../../research/source-qualification-evaluation-r1.md#L5)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 42,
+            "row": "| K10.04.02.04 | [EV38](evaluation-r2-knowledge-cases.md#L15) | 部分标注及匿名声部全局置换 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S519](../../research/source-qualification-evaluation-r2.md#L6)；[S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S511 | [OpenMIC-2018 paper record](https://zenodo.org/records/1492445) Description, version v1, 2018 | ABSTRACT_READ；20类乐器的部分标注，多标签任务。未读论文PDF、下载素材或核每条许可，不能将未标注当负例或声部追踪证据。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S512",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 9,
+        "row": "| S512 | [MIREX2026 Lyrics-to-Audio Alignment 镜像](https://futuremirex.com/mirex/wiki/2026:Lyrics-to-Audio_Alignment) 2026-11-26快照 Description/Evaluation/Output | MIRROR_READ_LOCATOR；原站502；给歌词词级对齐，时间边界与误差/窗口评价，0.3s仅任务口径；镜像非原站实时权威，原实现/数据集/语言分词与许可待核。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "MIREX2026 Lyrics-to-Audio Alignment 镜像",
+          "uri": "https://futuremirex.com/mirex/wiki/2026:Lyrics-to-Audio_Alignment"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 16,
+            "row": "| K10.04.03.03 | [EV12](evaluation-r1-knowledge-cases.md#L16) | 文本/时间与可编辑音符歌词关系 | [S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 21,
+            "row": "| K10.06.02.03 | [EV17](evaluation-r1-knowledge-cases.md#L21) | 发音理解表达音色 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10) | CQ22/CQ26 | CQ04/CQ05/CQ06/CQ12/CQ15/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 43,
+            "row": "| K10.04.03.04 | [EV39](evaluation-r2-knowledge-cases.md#L16) | 编辑距离、稳定ID与可编辑字段保护 | [S520](../../research/source-qualification-evaluation-r2.md#L7)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S512 | [MIREX2026 Lyrics-to-Audio Alignment 镜像](https://futuremirex.com/mirex/wiki/2026:Lyrics-to-Audio_Alignment) 2026-11-26快照 Description/Evaluation/Output | MIRROR_READ_LOCATOR；原站502；给歌词词级对齐，时间边界与误差/窗口评价，0.3s仅任务口径；镜像非原站实时权威，原实现/数据集/语言分词与许可待核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S513",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 10,
+        "row": "| S513 | [MIREX2026 Lyrics Transcription 镜像](https://futuremirex.com/mirex/wiki/2026:Lyrics_Transcription) 2026-11-24快照 Evaluation | MIRROR_READ_LOCATOR；原站超时；WER/CER及格式标注指标区别，未读示例歌词内容作知识或复制，未获取音频、实现/评分和语种适用性待核。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "MIREX2026 Lyrics Transcription 镜像",
+          "uri": "https://futuremirex.com/mirex/wiki/2026:Lyrics_Transcription"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 16,
+            "row": "| K10.04.03.03 | [EV12](evaluation-r1-knowledge-cases.md#L16) | 文本/时间与可编辑音符歌词关系 | [S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 21,
+            "row": "| K10.06.02.03 | [EV17](evaluation-r1-knowledge-cases.md#L21) | 发音理解表达音色 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10) | CQ22/CQ26 | CQ04/CQ05/CQ06/CQ12/CQ15/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 43,
+            "row": "| K10.04.03.04 | [EV39](evaluation-r2-knowledge-cases.md#L16) | 编辑距离、稳定ID与可编辑字段保护 | [S520](../../research/source-qualification-evaluation-r2.md#L7)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S513 | [MIREX2026 Lyrics Transcription 镜像](https://futuremirex.com/mirex/wiki/2026:Lyrics_Transcription) 2026-11-24快照 Evaluation | MIRROR_READ_LOCATOR；原站超时；WER/CER及格式标注指标区别，未读示例歌词内容作知识或复制，未获取音频、实现/评分和语种适用性待核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S514",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 11,
+        "row": "| S514 | [MIREX2026 Audio-to-Score Transcription 镜像](https://futuremirex.com/mirex/wiki/2026:Audio-to-Score_Transcription) 2026-11-25快照 Evaluation | MIRROR_READ_LOCATOR；原站超时；符号文本与音乐转录的多维评价（音高/声部/节拍/时值等），该届部分指标不启用；非完整MV2H实现/实际比赛结果或跨格式通用性。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "MIREX2026 Audio-to-Score Transcription 镜像",
+          "uri": "https://futuremirex.com/mirex/wiki/2026:Audio-to-Score_Transcription"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 14,
+            "row": "| K10.04.01.03 | [EV10](evaluation-r1-knowledge-cases.md#L14) | 起止音高及offset | [S104](../../research/source-qualification-production-evaluation.md#L25)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ16/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 15,
+            "row": "| K10.04.02.03 | [EV11](evaluation-r1-knowledge-cases.md#L15) | 部分乐器标注与固定事件声部身份 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S508](../../research/source-qualification-evaluation-r1.md#L5)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 16,
+            "row": "| K10.04.03.03 | [EV12](evaluation-r1-knowledge-cases.md#L16) | 文本/时间与可编辑音符歌词关系 | [S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 41,
+            "row": "| K10.04.01.04 | [EV37](evaluation-r2-knowledge-cases.md#L14) | 音符边界和帧粒度 | [S104](../../research/source-qualification-production-evaluation.md#L25)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ16/CQ19/CQ20/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 43,
+            "row": "| K10.04.03.04 | [EV39](evaluation-r2-knowledge-cases.md#L16) | 编辑距离、稳定ID与可编辑字段保护 | [S520](../../research/source-qualification-evaluation-r2.md#L7)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S514 | [MIREX2026 Audio-to-Score Transcription 镜像](https://futuremirex.com/mirex/wiki/2026:Audio-to-Score_Transcription) 2026-11-25快照 Evaluation | MIRROR_READ_LOCATOR；原站超时；符号文本与音乐转录的多维评价（音高/声部/节拍/时值等），该届部分指标不启用；非完整MV2H实现/实际比赛结果或跨格式通用性。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S515",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 12,
+        "row": "| S515 | [Solo music performance assessment criteria: a systematic review](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1467434/full) 2024, literature background and assessment categories | READ_LOCATOR；准确性/技术/表达/发音及评价差异、量规和文化/风格条件；不作普遍教学标准、医学或单一总分；本轮非系统重审全部原研究。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Solo music performance assessment criteria: a systematic review",
+          "uri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1467434/full"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 20,
+            "row": "| K10.06.01.03 | [EV16](evaluation-r1-knowledge-cases.md#L20) | 实际偏差与估计误差 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ06/CQ22 | CQ05/CQ07/CQ15/CQ16/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 21,
+            "row": "| K10.06.02.03 | [EV17](evaluation-r1-knowledge-cases.md#L21) | 发音理解表达音色 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10) | CQ22/CQ26 | CQ04/CQ05/CQ06/CQ12/CQ15/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 22,
+            "row": "| K10.06.03.03 | [EV18](evaluation-r1-knowledge-cases.md#L22) | 评价反馈与安全 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S099](../../research/source-qualification-production-evaluation.md#L20) | CQ06/CQ22/CQ24 | CQ05/CQ15/CQ19/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 26,
+            "row": "| K10.08.01.03 | [EV22](evaluation-r1-knowledge-cases.md#L26) | 开放音乐目标 | [S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22 | CQ02/CQ03/CQ12/CQ16/CQ24/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 27,
+            "row": "| K10.08.02.03 | [EV23](evaluation-r1-knowledge-cases.md#L27) | 听者偏好与文化 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S517](../../research/source-qualification-evaluation-r1.md#L14) | CQ22/CQ26 | CQ12/CQ19/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 28,
+            "row": "| K10.08.03.03 | [EV24](evaluation-r1-knowledge-cases.md#L28) | 多维取舍 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ12/CQ19/CQ24/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 29,
+            "row": "| K10.09.01.03 | [EV25](evaluation-r1-knowledge-cases.md#L29) | 盲评与配对 | [S516](../../research/source-qualification-evaluation-r1.md#L13)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.09.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 30,
+            "row": "| K10.09.02.03 | [EV26](evaluation-r1-knowledge-cases.md#L30) | 分歧和效度 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ19/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 47,
+            "row": "| K10.06.01.04 | [EV43](evaluation-r2-knowledge-cases.md#L20) | 实际与估计误差分离 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ06/CQ22 | CQ05/CQ07/CQ15/CQ16/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 48,
+            "row": "| K10.06.02.04 | [EV44](evaluation-r2-knowledge-cases.md#L21) | 母语任务证据 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S520](../../research/source-qualification-evaluation-r2.md#L7) | CQ22/CQ26 | CQ04/CQ05/CQ06/CQ12/CQ15/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 49,
+            "row": "| K10.06.03.04 | [EV45](evaluation-r2-knowledge-cases.md#L22) | 观察/教学/停止 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S518](../../research/source-qualification-evaluation-r2.md#L5) | CQ06/CQ22/CQ24 | CQ05/CQ15/CQ19/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 53,
+            "row": "| K10.08.01.04 | [EV49](evaluation-r2-knowledge-cases.md#L26) | 硬软与开放量规 | [S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22 | CQ02/CQ03/CQ12/CQ16/CQ24/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 54,
+            "row": "| K10.08.02.04 | [EV50](evaluation-r2-knowledge-cases.md#L27) | 跨文化摘要边界 | [S522](../../research/source-qualification-evaluation-r2.md#L9)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ22/CQ26 | CQ12/CQ19/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 55,
+            "row": "| K10.08.03.04 | [EV51](evaluation-r2-knowledge-cases.md#L28) | Pareto与权重 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ12/CQ19/CQ24/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 57,
+            "row": "| K10.09.02.04 | [EV53](evaluation-r2-knowledge-cases.md#L30) | 配对差值方差 | [S521](../../research/source-qualification-evaluation-r2.md#L8)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22 | CQ19/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S515 | [Solo music performance assessment criteria: a systematic review](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1467434/full) 2024, literature background and assessment categories | READ_LOCATOR；准确性/技术/表达/发音及评价差异、量规和文化/风格条件；不作普遍教学标准、医学或单一总分；本轮非系统重审全部原研究。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S516",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 13,
+        "row": "| S516 | [ITU-R BS.1534-3 (2015)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1534-3-201510-I!!PDF-E.pdf) 实际截图零基8/9/10/16，印刷7/8/9/15，§5.1–5.4/9.1–9.2 | READ_LOCATOR；MUSHRA中等/较大技术损伤、公开参考/隐藏参考/低中锚点、双盲、多刺激、听者训练、0–100连续质量尺度、统计及功效；不同实验锚点不能随意重标，非无参考或艺术审美标准，不声称完整BS.1116/BS.1534实施。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "ITU-R BS.1534-3 (2015)",
+          "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1534-3-201510-I!!PDF-E.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 25,
+            "row": "| K10.07.03.03 | [EV21](evaluation-r1-knowledge-cases.md#L25) | MUSHRA任务 | [S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ08/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 28,
+            "row": "| K10.08.03.03 | [EV24](evaluation-r1-knowledge-cases.md#L28) | 多维取舍 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ12/CQ19/CQ24/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 29,
+            "row": "| K10.09.01.03 | [EV25](evaluation-r1-knowledge-cases.md#L29) | 盲评与配对 | [S516](../../research/source-qualification-evaluation-r1.md#L13)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.09.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 30,
+            "row": "| K10.09.02.03 | [EV26](evaluation-r1-knowledge-cases.md#L30) | 分歧和效度 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ19/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 31,
+            "row": "| K10.09.03.03 | [EV27](evaluation-r1-knowledge-cases.md#L31) | 报告身份 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S101](../../research/source-qualification-production-evaluation.md#L22)；[S102](../../research/source-qualification-production-evaluation.md#L23)；[S104](../../research/source-qualification-production-evaluation.md#L25)；[S105](../../research/source-qualification-production-evaluation.md#L26)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 52,
+            "row": "| K10.07.03.04 | [EV48](evaluation-r2-knowledge-cases.md#L25) | BS1116/MUSHRA选择 | [S516](../../research/source-qualification-evaluation-r1.md#L13)；[S518](../../research/source-qualification-evaluation-r2.md#L5) | CQ11/CQ22 | CQ08/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 55,
+            "row": "| K10.08.03.04 | [EV51](evaluation-r2-knowledge-cases.md#L28) | Pareto与权重 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ12/CQ19/CQ24/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 56,
+            "row": "| K10.09.01.04 | [EV52](evaluation-r2-knowledge-cases.md#L29) | 配对设计及源组 | [S518](../../research/source-qualification-evaluation-r2.md#L5)；[S516](../../research/source-qualification-evaluation-r1.md#L13)；[S521](../../research/source-qualification-evaluation-r2.md#L8) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 58,
+            "row": "| K10.09.03.04 | [EV54](evaluation-r2-knowledge-cases.md#L31) | 协议/划分与版本 | [S519](../../research/source-qualification-evaluation-r2.md#L6)；[S520](../../research/source-qualification-evaluation-r2.md#L7)；[S521](../../research/source-qualification-evaluation-r2.md#L8)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        }
+      ],
+      "scope": "| S516 | [ITU-R BS.1534-3 (2015)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1534-3-201510-I!!PDF-E.pdf) 实际截图零基8/9/10/16，印刷7/8/9/15，§5.1–5.4/9.1–9.2 | READ_LOCATOR；MUSHRA中等/较大技术损伤、公开参考/隐藏参考/低中锚点、双盲、多刺激、听者训练、0–100连续质量尺度、统计及功效；不同实验锚点不能随意重标，非无参考或艺术审美标准，不声称完整BS.1116/BS.1534实施。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S517",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r1.md",
+        "blob": "6d55fa13216f40688d02d36aada951e59fa2f0df",
+        "line": 14,
+        "row": "| S517 | [Cross-cultural comparison of rhythm priors in 15 countries](https://www.nature.com/articles/s41562-023-01800-9) 2024 | SEARCH_ONLY；实际打开身份验证跳转失败，不采用实证数值/文化普遍结论；待合法可读原文，K17机制/K16文化解释不重复。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Cross-cultural comparison of rhythm priors in 15 countries",
+          "uri": "https://www.nature.com/articles/s41562-023-01800-9"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 27,
+            "row": "| K10.08.02.03 | [EV23](evaluation-r1-knowledge-cases.md#L27) | 听者偏好与文化 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S517](../../research/source-qualification-evaluation-r1.md#L14) | CQ22/CQ26 | CQ12/CQ19/CQ24/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S517 | [Cross-cultural comparison of rhythm priors in 15 countries](https://www.nature.com/articles/s41562-023-01800-9) 2024 | SEARCH_ONLY；实际打开身份验证跳转失败，不采用实证数值/文化普遍结论；待合法可读原文，K17机制/K16文化解释不重复。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S518",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r2.md",
+        "blob": "74503e2d600cb0a5e9b30e49b76ccf5ec941aa12",
+        "line": 5,
+        "row": "| S518 | [ITU-R BS.1116-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1116-3-201502-I!!PDF-E.pdf) 2015/2023编辑修订；实际截图零基2/4/6/7印刷1/3/5/6，Scope、Annex1 §2/3/4 | READ_LOCATOR；小损伤、专家听者、双盲三刺激隐藏参考及连续五级损伤尺度、训练/时对齐/疲劳控制；不是MUSHRA中大损伤、普通ABX或无参考艺术偏好；未执行完整规范。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "ITU-R BS.1116-3",
+          "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1116-3-201502-I!!PDF-E.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 49,
+            "row": "| K10.06.03.04 | [EV45](evaluation-r2-knowledge-cases.md#L22) | 观察/教学/停止 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S518](../../research/source-qualification-evaluation-r2.md#L5) | CQ06/CQ22/CQ24 | CQ05/CQ15/CQ19/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 52,
+            "row": "| K10.07.03.04 | [EV48](evaluation-r2-knowledge-cases.md#L25) | BS1116/MUSHRA选择 | [S516](../../research/source-qualification-evaluation-r1.md#L13)；[S518](../../research/source-qualification-evaluation-r2.md#L5) | CQ11/CQ22 | CQ08/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 56,
+            "row": "| K10.09.01.04 | [EV52](evaluation-r2-knowledge-cases.md#L29) | 配对设计及源组 | [S518](../../research/source-qualification-evaluation-r2.md#L5)；[S516](../../research/source-qualification-evaluation-r1.md#L13)；[S521](../../research/source-qualification-evaluation-r2.md#L8) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ24/CQ13 |"
+          }
+        }
+      ],
+      "scope": "| S518 | [ITU-R BS.1116-3](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1116-3-201502-I!!PDF-E.pdf) 2015/2023编辑修订；实际截图零基2/4/6/7印刷1/3/5/6，Scope、Annex1 §2/3/4 | READ_LOCATOR；小损伤、专家听者、双盲三刺激隐藏参考及连续五级损伤尺度、训练/时对齐/疲劳控制；不是MUSHRA中大损伤、普通ABX或无参考艺术偏好；未执行完整规范。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S519",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r2.md",
+        "blob": "74503e2d600cb0a5e9b30e49b76ccf5ec941aa12",
+        "line": 6,
+        "row": "| S519 | [OpenMIC-2018 companion README](https://github.com/cosmir/openmic-2018/blob/master/README.md) dataset structure/Errata | READ_LOCATOR；聚合及个体标注、分区、源损坏和更正记录；未下载数据、检查实际划分或逐素材权利；S511同一研究摘要，不当独立实证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "OpenMIC-2018 companion README",
+          "uri": "https://github.com/cosmir/openmic-2018/blob/master/README.md"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 42,
+            "row": "| K10.04.02.04 | [EV38](evaluation-r2-knowledge-cases.md#L15) | 部分标注及匿名声部全局置换 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S519](../../research/source-qualification-evaluation-r2.md#L6)；[S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 58,
+            "row": "| K10.09.03.04 | [EV54](evaluation-r2-knowledge-cases.md#L31) | 协议/划分与版本 | [S519](../../research/source-qualification-evaluation-r2.md#L6)；[S520](../../research/source-qualification-evaluation-r2.md#L7)；[S521](../../research/source-qualification-evaluation-r2.md#L8)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        }
+      ],
+      "scope": "| S519 | [OpenMIC-2018 companion README](https://github.com/cosmir/openmic-2018/blob/master/README.md) dataset structure/Errata | READ_LOCATOR；聚合及个体标注、分区、源损坏和更正记录；未下载数据、检查实际划分或逐素材权利；S511同一研究摘要，不当独立实证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S520",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r2.md",
+        "blob": "74503e2d600cb0a5e9b30e49b76ccf5ec941aa12",
+        "line": 7,
+        "row": "| S520 | [NIST SCLITE documentation](https://raw.githubusercontent.com/usnistgov/SCTK/master/doc/sclite.htm) version1.5 Description/Alignment | READ_LOCATOR；参考/假设身份、对齐及计分选项（不同代价、可选词、时间对齐）；网页503后取得原仓库raw文档。自建单位代价编辑距离例非运行SCLITE，语音工具不证明歌词语种适用。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "NIST SCLITE documentation",
+          "uri": "https://raw.githubusercontent.com/usnistgov/SCTK/master/doc/sclite.htm"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 43,
+            "row": "| K10.04.03.04 | [EV39](evaluation-r2-knowledge-cases.md#L16) | 编辑距离、稳定ID与可编辑字段保护 | [S520](../../research/source-qualification-evaluation-r2.md#L7)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 48,
+            "row": "| K10.06.02.04 | [EV44](evaluation-r2-knowledge-cases.md#L21) | 母语任务证据 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S520](../../research/source-qualification-evaluation-r2.md#L7) | CQ22/CQ26 | CQ04/CQ05/CQ06/CQ12/CQ15/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 58,
+            "row": "| K10.09.03.04 | [EV54](evaluation-r2-knowledge-cases.md#L31) | 协议/划分与版本 | [S519](../../research/source-qualification-evaluation-r2.md#L6)；[S520](../../research/source-qualification-evaluation-r2.md#L7)；[S521](../../research/source-qualification-evaluation-r2.md#L8)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        }
+      ],
+      "scope": "| S520 | [NIST SCLITE documentation](https://raw.githubusercontent.com/usnistgov/SCTK/master/doc/sclite.htm) version1.5 Description/Alignment | READ_LOCATOR；参考/假设身份、对齐及计分选项（不同代价、可选词、时间对齐）；网页503后取得原仓库raw文档。自建单位代价编辑距离例非运行SCLITE，语音工具不证明歌词语种适用。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S521",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r2.md",
+        "blob": "74503e2d600cb0a5e9b30e49b76ccf5ec941aa12",
+        "line": 8,
+        "row": "| S521 | [NIST/SEMATECH handbook §7.3.1.1](https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm) paired observations | READ_LOCATOR；按配对ID差值、样本标准差、自由度与t统计；适用独立配对差值及相关推断假设；不将重复片段当独立人或自动推广。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "NIST/SEMATECH handbook §7.3.1.1",
+          "uri": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.09.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 56,
+            "row": "| K10.09.01.04 | [EV52](evaluation-r2-knowledge-cases.md#L29) | 配对设计及源组 | [S518](../../research/source-qualification-evaluation-r2.md#L5)；[S516](../../research/source-qualification-evaluation-r1.md#L13)；[S521](../../research/source-qualification-evaluation-r2.md#L8) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ24/CQ13 |"
+          }
+        },
+        {
+          "d4": "K10.09.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 57,
+            "row": "| K10.09.02.04 | [EV53](evaluation-r2-knowledge-cases.md#L30) | 配对差值方差 | [S521](../../research/source-qualification-evaluation-r2.md#L8)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22 | CQ19/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          }
+        },
+        {
+          "d4": "K10.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 58,
+            "row": "| K10.09.03.04 | [EV54](evaluation-r2-knowledge-cases.md#L31) | 协议/划分与版本 | [S519](../../research/source-qualification-evaluation-r2.md#L6)；[S520](../../research/source-qualification-evaluation-r2.md#L7)；[S521](../../research/source-qualification-evaluation-r2.md#L8)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+          }
+        }
+      ],
+      "scope": "| S521 | [NIST/SEMATECH handbook §7.3.1.1](https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm) paired observations | READ_LOCATOR；按配对ID差值、样本标准差、自由度与t统计；适用独立配对差值及相关推断假设；不将重复片段当独立人或自动推广。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S522",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-evaluation-r2.md",
+        "blob": "74503e2d600cb0a5e9b30e49b76ccf5ec941aa12",
+        "line": 9,
+        "row": "| S522 | [Jacoby等2024 Cambridge repository](https://www.repository.cam.ac.uk/items/9a7b5d5c-7e18-444b-a2c9-9518b0e03e87) Abstract，DOI 10.1038/s41562-023-01800-9 | ABSTRACT_READ；39组/15国节奏再现迭代任务，所测组有共同小整数比倾向且权重差异；不是审美偏好实验或全文化规律。原S517 Nature访问失败及PMC验证页保留；未分析正文/具体分组、没有缅甸实证。K17机制与K16文化解释另域。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Jacoby等2024 Cambridge repository",
+          "uri": "https://www.repository.cam.ac.uk/items/9a7b5d5c-7e18-444b-a2c9-9518b0e03e87"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K10.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+            "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+            "line": 54,
+            "row": "| K10.08.02.04 | [EV50](evaluation-r2-knowledge-cases.md#L27) | 跨文化摘要边界 | [S522](../../research/source-qualification-evaluation-r2.md#L9)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ22/CQ26 | CQ12/CQ19/CQ24/CQ13/CQ25 |"
+          }
+        }
+      ],
+      "scope": "| S522 | [Jacoby等2024 Cambridge repository](https://www.repository.cam.ac.uk/items/9a7b5d5c-7e18-444b-a2c9-9518b0e03e87) Abstract，DOI 10.1038/s41562-023-01800-9 | ABSTRACT_READ；39组/15国节奏再现迭代任务，所测组有共同小整数比倾向且权重差异；不是审美偏好实验或全文化规律。原S517 Nature访问失败及PMC验证页保留；未分析正文/具体分组、没有缅甸实证。K17机制与K16文化解释另域。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

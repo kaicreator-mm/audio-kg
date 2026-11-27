@@ -1,0 +1,415 @@
+{
+  "status": "HISTORICAL_MIGRATION_NAVIGATION_ONLY",
+  "rows": [
+    {
+      "sourceD4": "K13.02.03.01",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.07=仪式用途及社群规则；K15.05=具体权利许可",
+      "ownerBoundary": "具体用途许可；社群规则K16.07，非K15文化主责",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 57,
+        "row": "| [K13.02.03.01](domain-migration-implementation.md#L15) | SPLIT / — / SPLIT_OPEN | K16.07=仪式用途及社群规则；K15.05=具体权利许可 | 具体用途许可；社群规则K16.07，非K15文化主责 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.02.03.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.07=社群访问习惯；K15.05/K15.07=用途许可和数据访问；K12.06 REF执行授权",
+      "ownerBoundary": "具体许可和数据访问；访问习惯K16.07、执行K12",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV19/K15.07.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV20/K15.07.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV21/K15.07.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L25"
+        },
+        {
+          "label": "GV43/K15.07.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV44/K15.07.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV45/K15.07.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 58,
+        "row": "| [K13.02.03.02](domain-migration-implementation.md#L16) | SPLIT / — / SPLIT_OPEN | K16.07=社群访问习惯；K15.05/K15.07=用途许可和数据访问；K12.06 REF执行授权 | 具体许可和数据访问；访问习惯K16.07、执行K12 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.04.02.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.05=不从风格推身份的文化解释边界；K15.06/K15.07=身份及个人数据权限；K10.08 REF评价",
+      "ownerBoundary": "身份相关授权与个人数据，不从音色断身份；文化解释K16.05、评价K10",
+      "candidateEntry": "[GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25)",
+      "candidateLinks": [
+        {
+          "label": "GV16/K15.06.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L20"
+        },
+        {
+          "label": "GV17/K15.06.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L21"
+        },
+        {
+          "label": "GV18/K15.06.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L22"
+        },
+        {
+          "label": "GV40/K15.06.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L20"
+        },
+        {
+          "label": "GV41/K15.06.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L21"
+        },
+        {
+          "label": "GV42/K15.06.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L22"
+        },
+        {
+          "label": "GV19/K15.07.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV20/K15.07.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV21/K15.07.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L25"
+        },
+        {
+          "label": "GV43/K15.07.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV44/K15.07.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV45/K15.07.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 59,
+        "row": "| [K13.04.02.02](domain-migration-implementation.md#L26) | SPLIT / — / SPLIT_OPEN | K16.05=不从风格推身份的文化解释边界；K15.06/K15.07=身份及个人数据权限；K10.08 REF评价 | 身份相关授权与个人数据，不从音色断身份；文化解释K16.05、评价K10 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.06.03.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K13.06=原词译稿版本；K09.01/K01.08=工程/谱面保真；K15.05=授权版本；K12.04 REF交换",
+      "ownerBoundary": "授权版本；原词译稿K13、工程谱面K09/K01及交换K12",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 60,
+        "row": "| [K13.06.03.02](domain-migration-implementation.md#L40) | SPLIT / — / SPLIT_OPEN | K13.06=原词译稿版本；K09.01/K01.08=工程/谱面保真；K15.05=授权版本；K12.04 REF交换 | 授权版本；原词译稿K13、工程谱面K09/K01及交换K12 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.07.02.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.02=描述性文化事实；K15.05=当前具体作品录音改编授权规则；K13.06 REF适配，不能以史实授权",
+      "ownerBoundary": "具体作品/录音/改编授权，不以历史事实授权；K16.02史实",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 61,
+        "row": "| [K13.07.02.02](domain-migration-implementation.md#L44) | SPLIT / — / SPLIT_OPEN | K16.02=描述性文化事实；K15.05=当前具体作品录音改编授权规则；K13.06 REF适配，不能以史实授权 | 具体作品/录音/改编授权，不以历史事实授权；K16.02史实 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K09.07.01.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K19.07=现场候选及处置；K08.04/K08.05=通用增益拾音；K07.06 REF环境；K15.04 REF安全门禁",
+      "ownerBoundary": "REF安全门禁，非K15现场噪声主责；K19/K08/K07",
+      "candidateEntry": "[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16)",
+      "candidateLinks": [
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 62,
+        "row": "| [K09.07.01.02](domain-migration-implementation.md#L54) | SPLIT / — / SPLIT_OPEN | K19.07=现场候选及处置；K08.04/K08.05=通用增益拾音；K07.06 REF环境；K15.04 REF安全门禁 | REF安全门禁，非K15现场噪声主责；K19/K08/K07 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K09.07.02.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K19.03=现场安全核对；K15.01/K15.04=权限与验收责任；K07.08=听音安全；K12.06 REF工具权限",
+      "ownerBoundary": "权限及验收责任；实际现场安全K19/K07、执行权限K12",
+      "candidateEntry": "[GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7)；[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16)",
+      "candidateLinks": [
+        {
+          "label": "GV01/K15.01.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L5"
+        },
+        {
+          "label": "GV02/K15.01.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L6"
+        },
+        {
+          "label": "GV03/K15.01.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L7"
+        },
+        {
+          "label": "GV25/K15.01.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L5"
+        },
+        {
+          "label": "GV26/K15.01.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L6"
+        },
+        {
+          "label": "GV27/K15.01.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L7"
+        },
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 63,
+        "row": "| [K09.07.02.02](domain-migration-implementation.md#L56) | SPLIT / — / SPLIT_OPEN | K19.03=现场安全核对；K15.01/K15.04=权限与验收责任；K07.08=听音安全；K12.06 REF工具权限 | 权限及验收责任；实际现场安全K19/K07、执行权限K12 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7)；[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K09.07.03.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K19.09=现场停止复测和安全修订；K15.04=治理放行责任；K07.08 REF安全依据",
+      "ownerBoundary": "治理放行责任；现场停止复测K19.09、K07安全依据",
+      "candidateEntry": "[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16)",
+      "candidateLinks": [
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 64,
+        "row": "| [K09.07.03.02](domain-migration-implementation.md#L58) | SPLIT / — / SPLIT_OPEN | K19.09=现场停止复测和安全修订；K15.04=治理放行责任；K07.08 REF安全依据 | 治理放行责任；现场停止复测K19.09、K07安全依据 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    }
+  ],
+  "splitOpenCount": 8,
+  "noClaimAdmission": true
+}

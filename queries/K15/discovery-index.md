@@ -1,0 +1,54 @@
+# K15 discovery and CQ index
+
+All CQ routes are conditional discovery aids; O means external-domain routing, S means support, D means direct responsibility.
+
+| Case | D4 | Direct CQ | Support CQ | Local CQ |
+|---|---|---|---|---|
+| GV01 | K15.01.01.03 | CQ19, CQ21 |  | CQ-K15-01 |
+| GV02 | K15.01.02.03 | CQ19, CQ21 |  | CQ-K15-02 |
+| GV03 | K15.01.03.03 | CQ19, CQ21 |  |  |
+| GV04 | K15.02.01.03 | CQ19, CQ21 |  | CQ-K15-03 |
+| GV05 | K15.02.02.03 | CQ19, CQ21 |  | CQ-K15-04 |
+| GV06 | K15.02.03.03 | CQ19, CQ21 |  |  |
+| GV07 | K15.03.01.03 | CQ19, CQ21 | CQ23 | CQ-K15-05 |
+| GV08 | K15.03.02.03 | CQ19, CQ21 | CQ23 |  |
+| GV09 | K15.03.03.03 | CQ19, CQ21 | CQ23 |  |
+| GV10 | K15.04.01.03 | CQ19, CQ21, CQ22, CQ24 |  | CQ-K15-06 |
+| GV11 | K15.04.02.03 | CQ19, CQ21, CQ22, CQ24 |  |  |
+| GV12 | K15.04.03.03 | CQ19, CQ21, CQ22, CQ24 |  |  |
+| GV13 | K15.05.01.03 | CQ26 | CQ09, CQ12, CQ20 | CQ-K15-07 |
+| GV14 | K15.05.02.03 | CQ26 | CQ09, CQ12, CQ20 |  |
+| GV15 | K15.05.03.03 | CQ26 | CQ09, CQ12, CQ20 | CQ-K15-08 |
+| GV16 | K15.06.01.03 | CQ24, CQ26 | CQ09, CQ12, CQ20 |  |
+| GV17 | K15.06.02.03 | CQ24, CQ26 | CQ09, CQ12, CQ20 | CQ-K15-09 |
+| GV18 | K15.06.03.03 | CQ24, CQ26 | CQ09, CQ12, CQ20 | CQ-K15-10 |
+| GV19 | K15.07.01.03 |  | CQ09, CQ20 |  |
+| GV20 | K15.07.02.03 |  | CQ09, CQ20 |  |
+| GV21 | K15.07.03.03 |  | CQ09, CQ20 | CQ-K15-11 |
+| GV22 | K15.08.01.03 | CQ21 | CQ08, CQ23 |  |
+| GV23 | K15.08.02.03 | CQ21 | CQ08, CQ23 | CQ-K15-12 |
+| GV24 | K15.08.03.03 | CQ21 | CQ08, CQ23 |  |
+| GV25 | K15.01.01.04 | CQ19, CQ21 |  | CQ-K15-01 |
+| GV26 | K15.01.02.04 | CQ19, CQ21 |  | CQ-K15-02 |
+| GV27 | K15.01.03.04 | CQ19, CQ21 |  |  |
+| GV28 | K15.02.01.04 | CQ19, CQ21 |  | CQ-K15-03 |
+| GV29 | K15.02.02.04 | CQ19, CQ21 |  | CQ-K15-04 |
+| GV30 | K15.02.03.04 | CQ19, CQ21 |  |  |
+| GV31 | K15.03.01.04 | CQ19, CQ21 | CQ23 | CQ-K15-05 |
+| GV32 | K15.03.02.04 | CQ19, CQ21 | CQ23 |  |
+| GV33 | K15.03.03.04 | CQ19, CQ21 | CQ23 |  |
+| GV34 | K15.04.01.04 | CQ19, CQ21, CQ22, CQ24 |  | CQ-K15-06 |
+| GV35 | K15.04.02.04 | CQ19, CQ21, CQ22, CQ24 |  |  |
+| GV36 | K15.04.03.04 | CQ19, CQ21, CQ22, CQ24 |  |  |
+| GV37 | K15.05.01.04 | CQ26 | CQ09, CQ12, CQ20 | CQ-K15-07 |
+| GV38 | K15.05.02.04 | CQ26 | CQ09, CQ12, CQ20 |  |
+| GV39 | K15.05.03.04 | CQ26 | CQ09, CQ12, CQ20 | CQ-K15-08 |
+| GV40 | K15.06.01.04 | CQ24, CQ26 | CQ09, CQ12, CQ20 |  |
+| GV41 | K15.06.02.04 | CQ24, CQ26 | CQ09, CQ12, CQ20 | CQ-K15-09 |
+| GV42 | K15.06.03.04 | CQ24, CQ26 | CQ09, CQ12, CQ20 | CQ-K15-10 |
+| GV43 | K15.07.01.04 |  | CQ09, CQ20 |  |
+| GV44 | K15.07.02.04 |  | CQ09, CQ20 |  |
+| GV45 | K15.07.03.04 |  | CQ09, CQ20 | CQ-K15-11 |
+| GV46 | K15.08.01.04 | CQ21 | CQ08, CQ23 |  |
+| GV47 | K15.08.02.04 | CQ21 | CQ08, CQ23 | CQ-K15-12 |
+| GV48 | K15.08.03.04 | CQ21 | CQ08, CQ23 |  |

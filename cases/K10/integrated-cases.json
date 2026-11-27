@@ -1,0 +1,56 @@
+{
+  "status": "SYNTHETIC_COMPOSITE_NOT_ADMITTED",
+  "cases": [
+    {
+      "caseId": "EX01",
+      "association": "EV01–15/28–42；S099/101–105/508–514/519/520",
+      "forwardPositive": "明确参考、估计、任务粒度、mask、时间、词汇、版本，分别评价旋律/节奏/和声/音符/乐器/文本/结构。",
+      "forwardNegative": "八度折叠等于绝对音高、BPM等于相位、歌词文本等于对齐、边界等于功能标签。",
+      "reversePositive": "核参考/估计身份和匹配、分母/覆盖及多解。",
+      "reverseNegative": "缺参考、语境、版本或词汇不伪报；不从指标自动修改作品。",
+      "d4Links": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r4-integrated-closure.md",
+        "blob": "d5f610d7064d4f5699a27f3b9c92e4c44348daad",
+        "line": 5,
+        "row": "| EX01 识别与结构 | EV01–15/28–42；S099/101–105/508–514/519/520 | 明确参考、估计、任务粒度、mask、时间、词汇、版本，分别评价旋律/节奏/和声/音符/乐器/文本/结构。 | 八度折叠等于绝对音高、BPM等于相位、歌词文本等于对齐、边界等于功能标签。 | 核参考/估计身份和匹配、分母/覆盖及多解。 | 缺参考、语境、版本或词汇不伪报；不从指标自动修改作品。 |"
+      },
+      "status": "SYNTHETIC_COMPOSITE_NOT_ADMITTED"
+    },
+    {
+      "caseId": "EX02",
+      "association": "EV16–24/43–51；S484/515/516/518/522/497/498/507/483",
+      "forwardPositive": "实际参考与估计误差、技术质量/人类听评/艺术目标及权利安全独立。",
+      "forwardNegative": "低分即诊断、一个技术分数代表创造性、其它群体代表缅甸。",
+      "reversePositive": "核真实参考/语言/群体/协议/目标与多维权衡、实际证据。",
+      "reverseNegative": "缺真实听评/安全/权限不放行，撤回停止。",
+      "d4Links": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r4-integrated-closure.md",
+        "blob": "d5f610d7064d4f5699a27f3b9c92e4c44348daad",
+        "line": 6,
+        "row": "| EX02 表演/音质/音乐性 | EV16–24/43–51；S484/515/516/518/522/497/498/507/483 | 实际参考与估计误差、技术质量/人类听评/艺术目标及权利安全独立。 | 低分即诊断、一个技术分数代表创造性、其它群体代表缅甸。 | 核真实参考/语言/群体/协议/目标与多维权衡、实际证据。 | 缺真实听评/安全/权限不放行，撤回停止。 |"
+      },
+      "status": "SYNTHETIC_COMPOSITE_NOT_ADMITTED"
+    },
+    {
+      "caseId": "KC-E10",
+      "association": "EV01–54；S099/101/102/104/105/508/510/515/516/518–522",
+      "forwardPositive": "下述有限评价、覆盖/配对/源组及报告身份、人工确认。",
+      "forwardNegative": "改容差而复用分数、同源训练测试称独立、未知当负例、技术分数替代人类偏好。",
+      "reversePositive": "核任务协议/参考/候选/指标版本、划分、硬门禁及失效。",
+      "reverseNegative": "无真实证据仅研究候选/PENDING；越界拒绝、风险/撤回STOP。",
+      "d4Links": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r4-integrated-closure.md",
+        "blob": "d5f610d7064d4f5699a27f3b9c92e4c44348daad",
+        "line": 7,
+        "row": "| KC-E10 评价与版本闭环 | EV01–54；S099/101/102/104/105/508/510/515/516/518–522 | 下述有限评价、覆盖/配对/源组及报告身份、人工确认。 | 改容差而复用分数、同源训练测试称独立、未知当负例、技术分数替代人类偏好。 | 核任务协议/参考/候选/指标版本、划分、硬门禁及失效。 | 无真实证据仅研究候选/PENDING；越界拒绝、风险/撤回STOP。 |"
+      },
+      "status": "SYNTHETIC_COMPOSITE_NOT_ADMITTED"
+    }
+  ]
+}
