@@ -2,10 +2,29 @@
 const eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b),freeze=o=>{if(o&&typeof o==='object'){for(const v of Object.values(o))freeze(v);Object.freeze(o);}return o;};
 const keys=(o,k)=>o&&typeof o==='object'&&!Array.isArray(o)&&Object.keys(o).length===k.length&&k.every(x=>Object.hasOwn(o,x));
 const sem={C:0,D:2,E:4,F:5,G:7,A:9,B:11},letters=['C','D','E','F','G','A','B'];
-export function pitch(s){if(typeof s!=='string')return null;const m=/^([A-G])([#b]?)(-?\d+)$/.exec(s);return m?12*(Number(m[3])+1)+sem[m[1]]+(m[2]==='#'?1:m[2]==='b'?-1:0):null;}
+export function pitch(s){
+ if(typeof s!=='string')return null;
+ const m=/^([A-G])([#b]?)(-?\d+)$/.exec(s);if(!m)return null;
+ const octave=Number(m[3]);if(!Number.isSafeInteger(octave))return null;
+ const value=12*(octave+1)+sem[m[1]]+(m[2]==='#'?1:m[2]==='b'?-1:0);
+ return Number.isSafeInteger(value)?value:null;
+}
 const instrument=freeze({flute:{chrom:0,diat:0},piccolo:{chrom:12,diat:7},alto:{chrom:-5,diat:-3},bassFlute:{chrom:-12,diat:-7},bb:{chrom:-2,diat:-1},a:{chrom:-3,diat:-2},hornF:{chrom:-7,diat:-4},bassBb:{chrom:-14,diat:-8}});
-function diat(s){const m=/^([A-G])([#b]?)(-?\d+)$/.exec(s);return m?Number(m[3])*7+letters.indexOf(m[1]):null;}
-export function written(s,kind){const k=instrument[kind],p=pitch(s),d=typeof s==='string'?diat(s):null;if(!k||p===null||d===null)return null;const n=d-k.diat,oct=Math.floor(n/7),l=letters[(n%7+7)%7],delta=p-k.chrom-(12*(oct+1)+sem[l]);return Math.abs(delta)>1?null:l+(delta===1?'#':delta===-1?'b':'')+oct;}
+function diat(s){
+ const m=/^([A-G])([#b]?)(-?\d+)$/.exec(s);if(!m)return null;
+ const octave=Number(m[3]);if(!Number.isSafeInteger(octave))return null;
+ const value=octave*7+letters.indexOf(m[1]);return Number.isSafeInteger(value)?value:null;
+}
+export function written(s,kind){
+ const k=instrument[kind],p=pitch(s),d=typeof s==='string'?diat(s):null;
+ if(!k||!Number.isSafeInteger(p)||!Number.isSafeInteger(d))return null;
+ const n=d-k.diat;if(!Number.isSafeInteger(n))return null;
+ const oct=Math.floor(n/7);if(!Number.isSafeInteger(oct))return null;
+ const l=letters[(n%7+7)%7],base=12*(oct+1)+sem[l];
+ if(!Number.isSafeInteger(base))return null;
+ const delta=p-k.chrom-base;if(!Number.isSafeInteger(delta))return null;
+ return Math.abs(delta)>1?null:l+(delta===1?'#':delta===-1?'b':'')+oct;
+}
 const noteRows=[['D4','E4','F4'],['G4','F4','D4'],['E4','G4','A4'],['G4','E4','C4']],bass=['C3','G2','A2','C3'],chords=[['C3','E3','G3'],['G2','B2','D3','F3'],['A2','C3','E3'],['C3','E3','G3']];
 export const score=freeze({id:'score-v1',bpm:120,span:16,meter:'4/4',harmony:['C','G7','Am','C'],melody:noteRows.flatMap((v,i)=>v.map((p,j)=>({id:'m'+(i+1)+'n'+(j+1),pitch:p,start:i*4+j,duration:1,dynamic:i<2?'p':'mf'}))),bass:bass.map((p,i)=>({id:'bass'+(i+1),pitch:p,start:i*4,duration:4})),fills:chords.flatMap((v,i)=>v.map((p,j)=>({id:'f'+(i+1)+'-'+(j+1),pitch:p,start:i*4+3,duration:.5})))});
 const scoreKeys=['id','bpm','span','meter','harmony','melody','bass','fills'];
@@ -32,7 +51,11 @@ export function revise(a,b,request){
 }
 export function retune({bpm,previousEnd,nextStart,minSeconds,range,from,to}={}){
  if(!Number.isFinite(bpm)||bpm<=0||![previousEnd,nextStart,minSeconds].every(Number.isFinite)||minSeconds<0||!Array.isArray(range)||range.length!==2||range.some(x=>pitch(x)===null)||pitch(range[0])>pitch(range[1])||pitch(from)===null||pitch(to)===null)return 'UNKNOWN';
- return [from,to].every(x=>pitch(x)>=pitch(range[0])&&pitch(x)<=pitch(range[1]))&&(nextStart-previousEnd)*60/bpm>=minSeconds?'BOUNDED_CANDIDATE':'REJECT';
+ if(![previousEnd,nextStart,minSeconds,bpm].every(Number.isFinite))return 'UNKNOWN';
+ const beats=nextStart-previousEnd;if(!Number.isFinite(beats))return 'UNKNOWN';if(beats<0)return 'REJECT';
+ const factor=60/bpm;if(!Number.isFinite(factor))return 'UNKNOWN';
+ const seconds=beats*factor;if(!Number.isFinite(seconds)||(beats>0&&seconds===0))return 'UNKNOWN';
+ return [from,to].every(x=>pitch(x)>=pitch(range[0])&&pitch(x)<=pitch(range[1]))&&seconds>=minSeconds?'BOUNDED_CANDIDATE':'REJECT';
 }
 // Explicit 2011 classification cases only; don't infer codes from geographic location.
 export function classify2011({version,mechanism,shape,pickup,independentElectronicSource}={}){
@@ -64,6 +87,8 @@ export function checks(t){
  for(const [name,mutate] of [['melody',x=>x.melody[0].pitch='D5'],['bass',x=>x.bass[1].pitch='D3'],['harmony',x=>x.harmony[1]='G'],['tempo',x=>x.bpm=90],['other fill',x=>x.fills.splice(0,1)],['shift',x=>x.fills[0].start=2.5],['unknown',x=>x.extra=true],['no op',x=>x.fills=structuredClone(score.fills)]]){const x=structuredClone(v);mutate(x);t('KC-A03 reject '+name,revise(score,x,req).state==='REJECT');}
  t('KC-A03 reject authorization mismatch',revise(score,v,{...req,authorized:false}).state==='REJECT'&&revise(score,v,{...req,measure:3}).state==='REJECT'&&revise(score,v,{...req,targetId:'f2-2'}).state==='REJECT');
  const p={bpm:120,previousEnd:4,nextStart:12,minSeconds:5,range:['F2','C3'],from:'G2',to:'A2'};t('AX02 net retune time and range',retune(p)==='REJECT'&&retune({...p,nextStart:16})==='BOUNDED_CANDIDATE'&&retune({...p,to:'D3',nextStart:16})==='REJECT'&&retune({...p,bpm:0})==='UNKNOWN');
+ t('K03-RV01 unsafe pitch octave arithmetic fails closed',pitch('C'+'9'.repeat(400))===null&&pitch('C9007199254740992')===null&&pitch('C1000000000000000')===null&&diat('C'+'9'.repeat(400))===null&&written('C'+'9'.repeat(400),'flute')===null&&pitch('C-1')===0&&written('C4','bb')==='D4');
+ t('K03-RV01 finite endpoints with overflowing retune gap fail closed',retune({...p,previousEnd:-1e308,nextStart:1e308})==='UNKNOWN'&&retune({...p,previousEnd:0,nextStart:1e308,bpm:1})==='UNKNOWN'&&retune({...p,previousEnd:0,nextStart:Number.MIN_VALUE,bpm:1e308,minSeconds:0})==='UNKNOWN'&&retune({...p,previousEnd:5,nextStart:4})==='REJECT'&&retune({...p,previousEnd:4,nextStart:14})==='BOUNDED_CANDIDATE');
  t('AX01 classification axes and exact version',classify2011({version:'2011-07-08',mechanism:'STRING',shape:'UNMODIFIED_VIOLIN',pickup:true,independentElectronicSource:false})==='3'&&classify2011({version:'2011-07-08',mechanism:'IDIOPHONE',shape:'CLASH_CYMBALS',independentElectronicSource:false})==='111.142'&&classify2011({version:'2011-07-08',mechanism:'IDIOPHONE',shape:'TROUGH_CLAPPERS',independentElectronicSource:false})==='111.13'&&classify2011({version:'2021',mechanism:'IDIOPHONE',shape:'TROUGH_CLAPPERS',independentElectronicSource:false})===null&&classify2011({version:'2011-07-08',mechanism:'STRING',shape:'UNMODIFIED_VIOLIN',pickup:true,independentElectronicSource:true})===null);
  t('AR53 independent voice cursor',4*2-8===0&&4*2-4+8>8);
  const projection=a=>a.map(({pitch,start,duration})=>({pitch,start,duration}));const p1=[{pitch:'C5',start:0,duration:2,tech:'pizz',dynamic:'p'},{pitch:'C5',start:2,duration:2,tech:'arco',dynamic:'f'}],p2=p1.map(e=>({...e,tech:'arco',dynamic:'p'}));t('AR54/55/60 loss witness noninjective',!eq(p1,p2)&&eq(projection(p1),projection(p2)));

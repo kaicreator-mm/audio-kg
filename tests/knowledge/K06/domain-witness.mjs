@@ -69,7 +69,9 @@ export function comparePhases(q,t,records,ev,p,id){
 }
 export function compareSeries(q,t,inputs,p){
  const gateState=gate(q);if(gateState!=='CANDIDATE_ONLY')return {state:gateState};
- if(!Array.isArray(inputs)||inputs.length!==4||new Set(inputs.map(x=>x?.id)).size!==4)return {state:'REJECT_OBSERVATION'};
+ if(!Array.isArray(inputs)||inputs.length!==4)return {state:'REJECT_OBSERVATION'};
+ if(inputs.some(x=>!x||typeof x!=='object'||Array.isArray(x)||typeof x.id!=='string'||!x.id||!Array.isArray(x.records)||!Array.isArray(x.events)))return {state:'REJECT_OBSERVATION'};
+ if(new Set(inputs.map(x=>x.id)).size!==4)return {state:'REJECT_OBSERVATION'};
  const rs=inputs.map(x=>comparePhases(q,t,x.records,x.events,p,x.id));
  if(rs.some((r,i)=>r.state!=='SYNTHETIC_ONLY'||r.phase!==phaseSet[i]||r.passed===null)||new Set(rs.map(r=>r.take)).size!==4)return {state:'REJECT_OBSERVATION'};
  return {state:'SYNTHETIC_ONLY',scores:rs.map(r=>r.passed),actual:'UNKNOWN_NOT_EXECUTED'};
@@ -110,6 +112,9 @@ export function checks(t){
  const hS=readListening('hear-S'),hC=readListening('hear-C'),hearing=(r,goal)=>({goal,receipt:r,candidate:r.candidate,conditions:r.conditions,mode:'SUPPLIED_SYNTHETIC'});
  t('VT16/44 independent goal and listening',transition(q,hearing(hS,'SMOOTH'))==='MATCH_CANDIDATE'&&transition(q,hearing(hS,'CONTRAST'))==='NOT_MATCH'&&transition(q,hearing(hC,'CONTRAST'))==='MATCH_CANDIDATE'&&transition(q,{goal:'SMOOTH',sameConditions:true})==='UNKNOWN'&&transition({...q,symptom:true},hearing(hS,'SMOOTH'))==='STOP_REFER');
  t('RV01 replay and relabel rejected',obs.every((o,i)=>obs.every((v,j)=>i===j||comparePhases(q,task,o.records,v.events,plan1,v.id).state==='REJECT_OBSERVATION'))&&compareSeries(q,task,[obs[0],obs[1],obs[1],obs[3]],plan1).state==='REJECT_OBSERVATION'&&compareSeries({emergency:true},task,null,null).state==='EMERGENCY_REFERRAL');
+ const malformed=[null,undefined,42,'obs',[],{}, {...obs[1],records:null},{...obs[1],events:undefined}];
+ t('R3 malformed series entries fail closed without throwing',malformed.every(x=>compareSeries(q,task,[obs[0],obs[1],x,obs[3]],plan1).state==='REJECT_OBSERVATION')&&compareSeries(q,task,[obs[0],obs[1],undefined,obs[3]],plan1).state==='REJECT_OBSERVATION');
+ t('R3 emergency precedence survives malformed series',compareSeries({emergency:true},task,[obs[0],null,obs[2],obs[3]],plan1).state==='EMERGENCY_REFERRAL'&&compareSeries({symptom:true},task,[obs[0],null,obs[2],obs[3]],plan1).state==='STOP_REFER');
  const forged=structuredClone(obs[1]);forged.records=forged.records.map(r=>({...r,observationId:'obs-D'}));forged.events=obs[3].events;forged.id='obs-D';
  t('RV01 relabeled observation bytes rejected',cmp(forged).state==='REJECT_OBSERVATION');
  t('RV01 current epoch cannot relabel historical receipt',cmp(obs[3],reconsent).state==='REJECT_SCOPE'&&readObservation('obs-D').epoch===1);
