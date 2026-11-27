@@ -46,7 +46,7 @@ for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25"]){
 test("eval id not retrievable",retrieve(pack,sources,assessment.cases[0].id).claims.length===0);
 const publicTree=fs.mkdtempSync(path.join(os.tmpdir(),"audio-kg-public-query-"));
 try{
- const paths=[dir+"pack.json",dir+"sources.json",dir+"knowledge-pilot.mjs",dir+"retrieve.mjs",dir+"workflow-pilot.mjs",dir+"witness-pilot.mjs",...["g04-r8-xc01-independent-evidence.md","g04-r8-seven-role-evidence.md","g04-r9-cq25-full-evidence-trace.md"].map(x=>cal+x),...sources.map(x=>x.registration.file),...pack.evidence.flatMap(x=>[x.anchor.file,...(x.caseAnchor?[x.caseAnchor.file]:[])]),...pack.migrations.map(x=>x.anchor.file)];
+ const paths=[dir+"pack.json",dir+"sources.json",dir+"semantic-profile.json",dir+"knowledge-pilot.mjs",dir+"retrieve.mjs",dir+"workflow-pilot.mjs",dir+"witness-pilot.mjs",...["g04-r8-xc01-independent-evidence.md","g04-r8-seven-role-evidence.md","g04-r9-cq25-full-evidence-trace.md"].map(x=>cal+x),...sources.map(x=>x.registration.file),...pack.evidence.flatMap(x=>[x.anchor.file,...(x.caseAnchor?[x.caseAnchor.file]:[])]),...pack.migrations.map(x=>x.anchor.file)];
  for(const f of new Set(paths)){const dest=path.join(publicTree,f);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(f,dest);}
  test("public-only tree excludes input/rubric",!fs.existsSync(path.join(publicTree,dir+"assessment.json"))&&!fs.existsSync(path.join(publicTree,dir+"assessment-input.json")));
  for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25",assessment.cases[0].id]){
