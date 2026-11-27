@@ -4,7 +4,7 @@ import path from "node:path";
 import {spawnSync} from "node:child_process";
 import {openCandidateReader,gitBlob} from "../../tools/validate-knowledge.mjs";
 const root=process.cwd(), dir="tests/knowledge/fixtures/", indexPath=dir+"controller-input.json";
-const expectedIndex="52af58ca049637edbe11c2cbf58141ae4311bf52";
+const expectedIndex="356965a306773c4a555c8768d96cecad03d54972";
 const read=(r,f)=>JSON.parse(fs.readFileSync(path.join(r,f),"utf8"));
 const write=(r,f,x)=>{const p=path.join(r,f);fs.mkdirSync(path.dirname(p),{recursive:true});const t=JSON.stringify(x,null,2)+"\n";fs.writeFileSync(p,t);return gitBlob(t)};
 const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
@@ -12,6 +12,11 @@ const checks=[],test=(name,ok)=>{if(!ok)throw Error(name);checks.push([name,true
 const refuse=(name,fn,pattern)=>{let err=null;try{fn()}catch(e){err=e}test(name,err!==null&&(!pattern||pattern.test(err.message)))};
 const input=read(root,indexPath);
 test("fixed controller identity",gitBlob(fs.readFileSync(indexPath))===expectedIndex);
+const frozen=read(root,"ontology/l1-anchor-tree.json");
+const actualTree=spawnSync("git",["rev-parse",frozen.commit+"^{tree}"],{cwd:root,encoding:"utf8"});
+const actualPaths=spawnSync("git",["ls-tree","-r","-z",frozen.commit,"--","docs/research","docs/product/calibration"],{cwd:root,encoding:"utf8"});
+const expectedPaths=Object.fromEntries(actualPaths.stdout.split("\0").filter(Boolean).map(row=>{const [meta,f]=row.split("\t");return [f,meta.split(" ")[2]]}).filter(([f])=>/^docs\/research\/source-qualification-[a-z0-9-]+\.md$|^docs\/product\/calibration\/[a-z0-9-]+\.md$/.test(f)));
+test("RV01 exact frozen Git tree and complete eligible path/blob projection",actualTree.status===0&&actualTree.stdout.trim()===frozen.tree&&actualPaths.status===0&&Object.keys(expectedPaths).length===316&&Object.keys(frozen.paths).length===316&&Object.entries(expectedPaths).every(([f,b])=>frozen.paths[f]===b));
 const entries=input.entries,opts={allowFixture:true,priorRegistry:input.priorRegistry};
 const reader=openCandidateReader(root,entries,opts),summary=reader.summary();
 test("two actual anchored fixture packs",same(summary.counts,{records:42,claims:4,edges:12,bindings:42,inventory:5})&&summary.acceptedClaims===0&&summary.packs.every(p=>p.coverageMode==="FIXTURE_SUBSET"));
@@ -39,7 +44,7 @@ const c=1200*Math.log2(330/220),phase=-360*200*.00125;
 test("actual cents and period composition arithmetic",Math.abs(c-701.9550008653874)<1e-9&&1200*Math.log2((1/.0025)/(1/.005))===1200&&1200*Math.log2((1/.01)/(1/.005))===-1200);
 test("actual phase and reverse family",phase===-90&&[.00125,.00625].every(t=>Math.abs(((-360*200*t+90)%360))<1e-9));
 const tmp=fs.mkdtempSync(path.join(os.tmpdir(),"audio-kg-f00-negative-"));
-const files=new Set(["ontology/knowledge-profile.json","docs/product/calibration/g05-r1-module-evidence-reconciliation.md","docs/product/calibration/theory-all-atom-discovery-cq.md","docs/product/calibration/acoustics-r3-discovery-cq.md","tools/validate-knowledge.mjs",indexPath,input.priorRegistry.file]);
+const files=new Set(["ontology/knowledge-profile.json","ontology/l1-anchor-tree.json","docs/product/calibration/g05-r1-module-evidence-reconciliation.md","docs/product/calibration/theory-all-atom-discovery-cq.md","docs/product/calibration/acoustics-r3-discovery-cq.md","tools/validate-knowledge.mjs",indexPath,input.priorRegistry.file]);
 for(const e of entries){files.add(e.pack);files.add(e.manifest);for(const r of read(root,e.pack).records)if(r.anchor)files.add(r.anchor.file)}
 function restore(){for(const f of files){const target=path.join(tmp,f);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(root,f),target);}}
 function cli(index=indexPath,expected=expectedIndex,query){return spawnSync(process.execPath,["tools/validate-knowledge.mjs",index,expected,...(query?[query]:[])],{cwd:tmp,encoding:"utf8",timeout:10000})}
@@ -68,6 +73,64 @@ try{
  restore();fs.appendFileSync(path.join(tmp,"ontology/knowledge-profile.json")," ");refuse("profile tamper",()=>openCandidateReader(tmp,entries,opts),/exact blob mismatch/);
  restore();fs.appendFileSync(path.join(tmp,"docs/research/source-qualification-theory-evidence-batch.md")," ");refuse("frozen source bytes tamper",()=>openCandidateReader(tmp,entries,opts),/anchor blob/);
  restore();fs.appendFileSync(path.join(tmp,"docs/product/calibration/theory-all-atom-discovery-cq.md")," ");refuse("frozen discovery bytes tamper",()=>openCandidateReader(tmp,entries,opts),/discovery frozen blob/);
+ // RV01: reproduce the exact independent frozen-tree falsifiers with a fresh test-only
+ // manifest and the genuine prior qualified subject checkpoint.
+ restore();fs.appendFileSync(path.join(tmp,"ontology/l1-anchor-tree.json")," ");
+ refuse("RV01 portable frozen tree projection tamper",()=>openCandidateReader(tmp,entries,opts),/exact blob mismatch/);
+ const makeAnchor=(file,line)=>{const bytes=fs.readFileSync(path.join(tmp,file));return {commit:frozen.commit,file,blob:gitBlob(bytes),line,row:bytes.toString("utf8").split("\n")[line-1]}};
+ const invented="docs/research/source-qualification-f00-invented.md",fakeUri="https://example.invalid/fake";
+ function freshSource(p,m,anchor){
+  const s=p[0].records[0];s.revision=2;s.title="Fake Source";s.uri=fakeUri;s.locator="invented locator";s.anchor=anchor;
+  m[0].sourceQualifications[0].source="S022@2";m[0].sourceQualifications[0].accessedUri=fakeUri;
+  for(const r of p[0].records.filter(r=>r.type==="Evidence")){const old=r.id+"@1";r.revision=2;r.sources=["S022@2"];for(const e of p[0].edges)if(e.to===old)e.to=r.id+"@2";}
+ }
+ caseMutation("RV01 invented L1 source path with matching bytes and revised source", (p,m)=>{
+  fs.writeFileSync(path.join(tmp,invented),"| S022 | [Fake Source]("+fakeUri+") | READ_LOCATOR; invented source |\n");
+  freshSource(p,m,makeAnchor(invented,1));
+ },/anchor not in frozen L1 tree/,{prior:true});
+ caseMutation("RV01 modified frozen source path with candidate-supplied blob", (p,m)=>{
+  const f=p[0].records[0].anchor.file,line=p[0].records[0].anchor.line,file=path.join(tmp,f),rows=fs.readFileSync(file,"utf8").split("\n");
+  rows[line-1]="| S022 | [Fake Source]("+fakeUri+") | READ_LOCATOR; invented source |";fs.writeFileSync(file,rows.join("\n"));
+  freshSource(p,m,makeAnchor(f,line));
+ },/anchor not in frozen L1 tree/,{prior:true});
+ function freshEvidence(p,file,line){
+  const ev=p[0].records.find(r=>r.type==="Evidence"),old=ev.id+"@1";ev.revision=2;ev.anchor=makeAnchor(file,line);
+  for(const e of p[0].edges)if(e.to===old)e.to=ev.id+"@2";
+ }
+ caseMutation("RV01 invented L1 evidence path with matching row",(p,m)=>{
+  const f="docs/product/calibration/f00-invented-evidence.md";fs.writeFileSync(path.join(tmp,f),"| K01.02.04.01 | S022 | invented evidence |\n");freshEvidence(p,f,1);
+ },/anchor not in frozen L1 tree/,{prior:true});
+ caseMutation("RV01 modified frozen evidence file and matching new blob",(p,m)=>{
+  const ev=p[0].records.find(r=>r.type==="Evidence"),f=ev.anchor.file,line=ev.anchor.line,fp=path.join(tmp,f),rows=fs.readFileSync(fp,"utf8").split("\n");rows[line-1]+=" fabricated qualifier";fs.writeFileSync(fp,rows.join("\n"));freshEvidence(p,f,line);
+ },/anchor not in frozen L1 tree/,{prior:true});
+ caseMutation("RV02 freshly pinned source qualification same prior subject",(p,m)=>{m[0].sourceQualifications[0].scope="FORGED_SCOPE: universal measured musical truth";},/changed immutable prior qualification\/relationship subject S022@1/,{prior:true});
+ caseMutation("RV02 freshly pinned edge qualification same prior subject",(p,m)=>{m[0].edgeQualifications[0].limits="FORGED_LIMITS";},/changed immutable prior qualification\/relationship subject K01-CENTS@1/,{prior:true});
+ function dropWindow(p,m,downgrade=false){
+  const e=p[0].edges.find(e=>e.type==="requires"&&e.to==="K07-FREQ@1");
+  if(downgrade)e.type="references";else{p[0].edges=p[0].edges.filter(x=>x.id!==e.id);m[0].edgeQualifications=m[0].edgeQualifications.filter(q=>q.edge!==e.id);}
+  p[0].bindings=p[0].bindings.filter(b=>b.claim!=="K07-FREQ@1");m[0].obligations=m[0].obligations.filter(o=>o.edge!==e.id);
+ }
+ caseMutation("RV02 coordinated H edge binding qualification and obligation deletion",(p,m)=>dropWindow(p,m),/changed immutable prior qualification\/relationship subject K01-PERIOD-CENTS@1/,{prior:true});
+ caseMutation("RV02 coordinated H to O downgrade including obligation removal",(p,m)=>dropWindow(p,m,true),/changed immutable prior qualification\/relationship subject K01-PERIOD-CENTS@1/,{prior:true});
+ caseMutation("RV02 optional O removal under unchanged prior qualified subject",(p,m)=>{
+  const e=p[1].edges.find(x=>x.type==="references");p[1].edges=p[1].edges.filter(x=>x.id!==e.id);m[1].edgeQualifications=m[1].edgeQualifications.filter(q=>q.edge!==e.id);
+ },/changed immutable prior qualification\/relationship subject K07-FREQ@1/,{prior:true});
+ caseMutation("RV02 binding identity change under unchanged prior claim",(p,m)=>p[0].bindings[0].id="K01-B-REPLACED",/changed immutable prior qualification\/relationship subject K01-CENTS@1/,{prior:true});
+ caseMutation("RV02 remove prior claim and all its owned relationships from selected owner",(p,m)=>{
+  const cl="K07-PHASE@1",group=p[1].records.find(r=>r.type==="CaseGroup"&&r.claim===cl),g=group.id+"@1";
+  const views=p[1].records.filter(r=>r.type==="CaseView"&&r.group===g).map(r=>r.id+"@1");
+  const edges=p[1].edges.filter(e=>e.from===cl).map(e=>e.id);
+  p[1].records=p[1].records.filter(r=>![cl,g,...views].includes(r.id+"@"+r.revision));
+  p[1].edges=p[1].edges.filter(e=>!edges.includes(e.id));m[1].edgeQualifications=m[1].edgeQualifications.filter(q=>!edges.includes(q.edge));m[1].obligations=m[1].obligations.filter(o=>o.consumer!==cl);
+  p[1].bindings=p[1].bindings.filter(b=>!views.includes(b.view));const row=p[1].inventory.find(r=>r.claimRefs.includes(cl));row.claimRefs=[];row.disposition="UNKNOWN";row.reason="test-only removed subject";
+ },/missing prior qualified subject K07-PHASE/,{prior:true});
+ restore();const incomplete=read(tmp,input.priorRegistry.file);delete incomplete.subjects["S022@1"];const incompleteBlob=write(tmp,input.priorRegistry.file,incomplete);
+ refuse("RV02 record-only history cannot omit known qualified source subject",()=>openCandidateReader(tmp,entries,{allowFixture:true,priorRegistry:{file:input.priorRegistry.file,blob:incompleteBlob}}),/missing prior qualified subject checkpoint/);
+ restore();const legacy=read(tmp,input.priorRegistry.file);legacy.format="audio-kg-prior-identities/1";delete legacy.subjects;const legacyBlob=write(tmp,input.priorRegistry.file,legacy);
+ refuse("RV02 obsolete record-only checkpoint not silently accepted",()=>openCandidateReader(tmp,entries,{allowFixture:true,priorRegistry:{file:input.priorRegistry.file,blob:legacyBlob}}),/prior registry shape/);
+ // Reordering only the collections is immaterial to their identity.
+ restore();const reorder=entries.map(e=>{const p=read(tmp,e.pack),m=read(tmp,e.manifest);p.edges.reverse();p.bindings.reverse();m.edgeQualifications.reverse();m.obligations.reverse();m.packBlob=write(tmp,e.pack,p);return {...e,manifestBlob:write(tmp,e.manifest,m)}});
+ test("RV02 semantic set order independent identity",openCandidateReader(tmp,reorder,opts).summary().counts.edges===12);
  caseMutation("exact source URI not substring",p=>p[0].records[0].uri="https://newt.phys.unsw.edu.au",/source exact URI/);
  caseMutation("forged alternate access URL",(p,m)=>m[0].sourceQualifications[0].accessedUri="https://example.invalid/",/source exact URI/);
  caseMutation("forged source anchor row",p=>p[0].records[0].anchor.row+=" fake",/anchor row/);
@@ -128,12 +191,24 @@ try{
  const successor=entries.map((e,i)=>{const p=replaceRefs(ps[i]),m=replaceRefs(ms[i]);m.packBlob=write(tmp,e.pack,p);return {...e,manifestBlob:write(tmp,e.manifest,m)}});
  // The CaseGroup record changes its exact claim reference; immutable identity requires a new group revision and view refs.
  refuse("rewiring prior group without new revision rejected",()=>openCandidateReader(tmp,successor,opts),/changed immutable prior revision/);
- // A standalone source metadata revision is distinct; all affected evidence records receive a new revision too.
+ // Source change invalidates dependent evidence and claims, including case refs and downstream H/O targets.
  restore();const sp=entries.map(e=>read(tmp,e.pack)),sm=entries.map(e=>read(tmp,e.manifest));const src=sp[0].records[0];src.revision=2;src.locator+=" (explicit candidate clarification)";
- sm[0].sourceQualifications[0].source="S022@2";
+ sm[0].sourceQualifications[0].source="S022@2";sm[0].sourceQualifications[0].scope+=" Revised candidate clarification; no wider measurement claim.";
  for(const r of sp[0].records.filter(r=>r.type==="Evidence")){const old=r.id+"@1";r.revision=2;r.sources=["S022@2"];for(const e of sp[0].edges)if(e.to===old)e.to=r.id+"@2";}
- const revEntries=entries.map((e,i)=>{sm[i].packBlob=write(tmp,e.pack,sp[i]);return {...e,manifestBlob:write(tmp,e.manifest,sm[i])}});
- test("explicit new source and evidence revisions remain candidate only",openCandidateReader(tmp,revEntries,opts).retrieve("K01-CENTS@1").claims[0].evidence[0].sources[0].revision===2&&openCandidateReader(tmp,revEntries,opts).summary().acceptedClaims===0);
+ // Former positive test now requires all affected semantic subject revisions.
+ const staleClaims=entries.map((e,i)=>{sm[i].packBlob=write(tmp,e.pack,sp[i]);return {...e,manifestBlob:write(tmp,e.manifest,sm[i])}});
+ refuse("RV02 source and evidence changed without claim revision",()=>openCandidateReader(tmp,staleClaims,opts),/changed immutable prior qualification\/relationship subject/);
+ // Revise exactly the four dependent claims (including the O link target change and H downstream),
+ // their associated groups and views. Contexts and independent S031/evidence remain unchanged.
+ const revisionMap=new Map();
+ for(const r of sp.flatMap(p=>p.records))if(["Claim","CaseGroup","CaseView"].includes(r.type)){
+  const prev=r.id+"@"+r.revision;r.revision++;revisionMap.set(prev,r.id+"@"+r.revision);
+ }
+ function rewire(x){if(typeof x==="string")return revisionMap.get(x)||x;if(Array.isArray(x))return x.map(rewire);if(x&&typeof x==="object")return Object.fromEntries(Object.entries(x).map(([k,v])=>[k,rewire(v)]));return x}
+ const revEntries=entries.map((e,i)=>{const p=rewire(sp[i]),m=rewire(sm[i]);m.packBlob=write(tmp,e.pack,p);return {...e,manifestBlob:write(tmp,e.manifest,m)}});
+ const revised=openCandidateReader(tmp,revEntries,opts);
+ test("explicit new source and evidence revisions remain candidate only",revised.retrieve("K01-CENTS@2").claims[0].evidence[0].sources[0].revision===2&&revised.summary().acceptedClaims===0);
+ test("RV02 explicit affected successor closure uses exact revised subjects",same(revised.retrieve("K01-PERIOD-CENTS@2").claims.map(c=>c.ref),["K01-PERIOD-CENTS@2","K01-CENTS@2","K07-FREQ@2"])&&revised.retrieve("K01-CENTS@1").claims.length===0&&revised.retrieve("K07-PHASE@2").claims.some(c=>c.ref==="K07-FREQ@2"));
  restore();const hist=read(tmp,input.priorRegistry.file);hist.records["S022@2"]="0".repeat(64);const historyBlob=write(tmp,input.priorRegistry.file,hist);
  refuse("stale older source revision",()=>openCandidateReader(tmp,entries,{allowFixture:true,priorRegistry:{file:input.priorRegistry.file,blob:historyBlob}}),/stale prior revision/);
 }finally{fs.rmSync(tmp,{recursive:true,force:true})}

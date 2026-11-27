@@ -1,5 +1,5 @@
 {
-  "format": "audio-kg-prior-identities/1",
+  "format": "audio-kg-prior-identities/2",
   "status": "EXTERNAL_IDENTITY_CHECKPOINT",
   "records": {
     "S022@1": "0153862686c02eca54532db2dca8e2b655866c815b88e496a73c1ea44161c85c",
@@ -44,5 +44,37 @@
     "K07-VIEW-PHASE-RN@1": "70387b1047955ef34372818ca892964eb8af1f4808c903da55c49e830adffe73",
     "K07-VIEW-PHASE-BOUND@1": "2ae1b43dc2a2c09d0149ab93ce93eb679ae7a2b49a8522263f45e0eaa6f0455c",
     "K07-VIEW-PHASE-UNK@1": "d60c6167b891372544a602456f61b749b4ac39bcc68301a87680e5da449e7720"
+  },
+  "subjects": {
+    "S022@1": {
+      "kind": "Source",
+      "owner": "K01",
+      "digest": "c52b1224967aaf1dea2b529f739c680ef9990fb4bff7b22abb0ba88add97aee8"
+    },
+    "K01-CENTS@1": {
+      "kind": "Claim",
+      "owner": "K01",
+      "digest": "ecbdc277473289c38ffc67c3bfd43eaf97067d7c163e297284c9cc2d312e0c11"
+    },
+    "K01-PERIOD-CENTS@1": {
+      "kind": "Claim",
+      "owner": "K01",
+      "digest": "a244358262d356359cf4635f6e3579dbb88a41922a6ed4523444244e28bdda57"
+    },
+    "S031@1": {
+      "kind": "Source",
+      "owner": "K07",
+      "digest": "692c263628d05b60a2f064e05f1b6fe16b7ea479baa5852448b27e1336cfd8e6"
+    },
+    "K07-FREQ@1": {
+      "kind": "Claim",
+      "owner": "K07",
+      "digest": "6c0c597559839d7c20552bee6614d840bb29e38aabd9bb51ca16303eebc41618"
+    },
+    "K07-PHASE@1": {
+      "kind": "Claim",
+      "owner": "K07",
+      "digest": "ab225c533872a05855ce61a1c1f9c6e62f4319426ffd521ce12f676238dbed53"
+    }
   }
 }
