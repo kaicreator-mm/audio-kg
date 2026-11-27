@@ -21,7 +21,24 @@
         "valid": true,
         "identity": "E1",
         "referenceIdentity": "E1",
-        "estimateIdentity": "E1"
+        "estimateIdentity": "E1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
       }
     },
     {
@@ -31,7 +48,9 @@
       "input": {
         "fs": 48000,
         "win": 720,
-        "nfft": 1440
+        "nfft": 1440,
+        "realInput": true,
+        "oneSided": true
       }
     },
     {
@@ -45,7 +64,24 @@
         "valid": true,
         "identity": "E1",
         "referenceIdentity": "E1",
-        "estimateIdentity": "E1"
+        "estimateIdentity": "E1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
       }
     },
     {
