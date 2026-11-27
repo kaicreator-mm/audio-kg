@@ -16,6 +16,14 @@ function anchor(a){
  const text=read(a.file);insist(blob(text)===a.blob&&text.split("\n")[a.line-1]===a.row,"anchor content "+a.file+":"+a.line);
 }
 const profile=json(dir+"semantic-profile.json");
+// Separate, exact committed candidate manifest; never reseal from incoming data.
+const manifestText=read(dir+"qualification-manifest.json");
+insist(blob(manifestText)==="e1580c7c708881ddf7c677589d0485109e14acc0","qualification manifest identity");
+const qualification=JSON.parse(manifestText);
+insist(qualification.format==="audio-kg-pilot-qualified-subject/1"&&qualification.registrationBase===base&&qualification.status==="BUILDER_CANDIDATE_NOT_INDEPENDENT_ACCEPTANCE","qualification authority");
+const digest=x=>crypto.createHash("sha256").update(canon(x)).digest("hex");
+function qualifiedIdentity(table,key,obj){insist(Object.hasOwn(table,key)&&table[key]===digest(obj),"unqualified or changed immutable identity "+key);}
+
 insist(profile.version==="audio-kg-l2-profile/1"&&profile.status==="CANDIDATE_RESEARCH_ONLY","schema profile identity");
 const sourceFields=profile.knowledge.records.Source.required;
 const recordFields=Object.fromEntries(Object.entries(profile.knowledge.records).filter(([k])=>k!=="Source").map(([k,v])=>[k,[...v.required,...v.optional]]));
@@ -89,6 +97,26 @@ function validate(p,s){
   if(m.type==="alias_of")insist(m.state==="L1_REQUIREMENT_ALIAS_ONLY"&&cols[3]==="MIGRATE"&&m.targets.length===1&&m.targets[0].role==="ONE_TO_ONE"&&d4.test(m.targets[0].d4)&&cols[4].startsWith(m.targets[0].d4+" /"),"bad alias");
   else {insist(m.type==="split_route"&&m.state==="SPLIT_OPEN"&&cols[8]==="MX-"+m.old,"split state");const want=[];for(const [i,role] of [[4,"NEW"],[5,"REUSE"],[6,"REF"]])for(const d of cols[i].match(/K\d\d(?:\.\d\d){0,3}/g)||[])want.push({d4:d,role});insist(eq(m.targets,want),"split target/role mismatch");}
  }
+ // Exact semantic and provenance identities are separate from structure.
+ // Original source bytes above are verified; the pinned manifest binds projected fields, scopes and versions.
+ for(const [id,o] of map)qualifiedIdentity(qualification.records,id,o);
+ insist(map.size===Object.keys(qualification.records).length,"missing qualified record");
+ for(const o of s){const q=qualification.sourceQualifications[idref(o)];insist(q&&nonempty(q.scope)&&nonempty(q.limits)&&nonempty(q.locatorKind),"source lacks explicit qualification");}
+ for(const e of p.edges){qualifiedIdentity(qualification.edgeDigests,e.id,e);insist(qualification.edgeQualifications[e.id],"missing relation-specific qualification");}
+ for(const id of qualification.requiredEdges)insist(edgeIds.has(id),"missing qualified mandatory edge "+id);
+ for(const b of p.bindings)qualifiedIdentity(qualification.bindingDigests,b.id,b);
+ for(const id of qualification.requiredBindings)insist(bindIds.has(id),"missing qualified binding "+id);
+ for(const m of p.migrations)qualifiedIdentity(qualification.migrationDigests,m.old,m);
+ insist(old.size===Object.keys(qualification.migrationDigests).length,"missing qualified migration");
+ // Explicit H obligations derived from the scoped contract, not domain-wide closure.
+ for(const o of qualification.dependencyObligations){
+  const consumer=ref(o.consumer,"Claim"),provider=ref(o.provider,"Claim");
+  insist(consumer.context===o.condition&&provider.context===o.providerCondition,"obligation context drift");
+  const e=p.edges.find(e=>e.id===o.edgeId);
+  insist(e&&e.type==="requires"&&e.from===o.consumer&&e.to===o.provider&&e.condition===o.condition,"missing required dependency "+o.edgeId);
+  const vs=p.views.filter(v=>v.group===o.viewGroup);
+  insist(vs.length>0&&vs.every(v=>v.context===o.condition&&(byView.get(idref(v))||[]).some(b=>b.claim===o.provider&&b.role==="REQUIRES"&&b.condition===o.condition)),"required view support missing "+o.edgeId);
+ }
  return {map,byClaim,byView};
 }
 const cents=(a,b)=>1200*(Math.log2(a)-Math.log2(b));
@@ -106,9 +134,17 @@ function evaluate(op,x){
  throw Error("unsupported query");
 }
 function retrieve(p,s,query){
- const idx=validate(p,s);let cs=p.claims.filter(c=>c.cq.includes(query)||idref(c)===query||c.d4===query);
- const out=cs.map(c=>({id:idref(c),d4:c.d4,owner:c.owner,statement:c.statement,status:c.status,limits:c.limits,context:idx.map.get(c.context).condition,evidence:p.edges.filter(e=>e.from===idref(c)&&e.type==="supported_by").map(e=>{const ev=idx.map.get(e.to);return {anchor:ev.anchor,sources:ev.sources.map(x=>{const t=idx.map.get(x);return {id:idref(t),uri:t.uri,locator:t.locator,grade:t.grade,rights:t.rights};})};}),cases:(idx.byClaim.get(idref(c))||[]).map(b=>{const v=idx.map.get(b.view);return {id:idref(v),role:b.role,direction:v.direction,polarity:v.polarity,question:v.question,example:v.example,explanation:v.explanation,limit:v.limit,evidenceKind:v.evidenceKind};})}));
- return {status:"RESEARCH_ONLY",claims:out};
+ const idx=validate(p,s),roots=p.claims.filter(c=>c.cq.includes(query)||idref(c)===query||c.d4===query);
+ // Expand only outgoing required H edges. O navigation and inverse lookup are never inference.
+ const closure=new Map(), visiting=new Set();
+ function visit(c){const id=idref(c);if(closure.has(id))return;insist(!visiting.has(id),"dependency cycle");visiting.add(id);closure.set(id,c);for(const e of p.edges.filter(e=>e.type==="requires"&&e.from===id)){const target=idx.map.get(e.to);insist(target?.type==="Claim","unresolved required ref");visit(target);}visiting.delete(id);}
+ for(const c of roots)visit(c);
+ const ctx=id=>({id,condition:idx.map.get(id).condition});
+ const relation=(e,direction)=>({id:e.id,type:e.type,from:e.from,to:e.to,direction,condition:ctx(e.condition),...(idx.map.get(e.to)?.type==="Claim"?{targetContext:ctx(idx.map.get(e.to).context)}:{}),meaning:profile.knowledge.relationshipTypes[e.type].meaning,qualification:qualification.edgeQualifications[e.id],required:e.type==="requires",logicalConverse:false});
+ const source=t=>({id:idref(t),title:t.title,author:t.author,version:t.version,publicationDate:t.publicationDate,accessDate:t.accessDate,uri:t.uri,locator:t.locator,grade:t.grade,rights:t.rights,registration:{commit:t.registration.commit,file:t.registration.file,blob:t.registration.blob,line:t.registration.line},qualification:qualification.sourceQualifications[idref(t)]});
+ const rootIds=roots.map(idref);
+ const out=[...closure.values()].map(c=>({id:idref(c),d4:c.d4,owner:c.owner,statement:c.statement,status:c.status,limits:c.limits,context:idx.map.get(c.context).condition,contextRef:c.context,selection:rootIds.includes(idref(c))?"QUERY_ROOT":"REQUIRED_SUPPORT",applicability:"CONDITIONAL_NOT_ESTABLISHED_BY_RETRIEVAL",evidence:p.edges.filter(e=>e.from===idref(c)&&e.type==="supported_by").map(e=>{const ev=idx.map.get(e.to);return {id:idref(ev),kind:ev.kind,anchor:ev.anchor,...(ev.caseAnchor?{caseAnchor:ev.caseAnchor}:{}),limits:ev.limits,relation:relation(e,"OUTGOING"),sources:ev.sources.map(x=>source(idx.map.get(x)))};}),relations:p.edges.filter(e=>e.from===idref(c)).map(e=>relation(e,"OUTGOING")),incomingNavigation:p.edges.filter(e=>e.to===idref(c)&&["requires","references"].includes(e.type)).map(e=>relation(e,"INCOMING_LOOKUP_ONLY")),cases:(idx.byClaim.get(idref(c))||[]).map(b=>{const v=idx.map.get(b.view);return {id:idref(v),bindingId:b.id,claimRef:b.claim,role:b.role,condition:ctx(b.condition),direction:v.direction,polarity:v.polarity,question:v.question,example:v.example,explanation:v.explanation,limit:v.limit,evidenceKind:v.evidenceKind};})}));
+ return {status:"RESEARCH_ONLY",query,rootIds,dependencyState:"QUALIFIED_STRUCTURE_ONLY",claims:out};
 }
 function route(p,old){const m=p.migrations.find(x=>x.old===old);return !m?{state:"UNKNOWN"}:m.type==="alias_of"?{state:"REQUIREMENT_LOOKUP_ONLY",target:m.targets[0].d4}:{state:"SPLIT_OPEN",targets:m.targets,wholeSlotEquivalent:false};}
 function close(a,b){if(typeof a==="number"&&typeof b==="number")return Math.abs(a-b)<=1e-9;if(a&&b&&typeof a==="object"&&typeof b==="object"){let ka=Object.keys(a).sort(),kb=Object.keys(b).sort();return eq(ka,kb)&&ka.every(k=>close(a[k],b[k]));}return a===b;}
