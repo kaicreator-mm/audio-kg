@@ -1,0 +1,140 @@
+{
+  "status": "QUALIFIED_NAVIGATION_NOT_DIRECT_SUPPORTED_BY",
+  "reason": "冻结发现表使用S328–331范围，S329/S330/S331没有同一D4逐字锚；保留独立冻结证据，不提升为直接边。",
+  "targets": [
+    {
+      "d4": "K02.06.03.03",
+      "claim": "K02-CL-CO-35@1",
+      "discovery": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 39,
+        "row": "| K02.06.03.03 | [CO-35](composition-r2-knowledge-cases.md) L15 | [S307](../../research/source-qualification-composition-r2.md)、[S328–331](../../research/source-qualification-composition-r5.md) | CQ04/CQ26 | CQ12/CQ17 |"
+      },
+      "routes": [
+        {
+          "source": "S329@1",
+          "sourceAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-composition-r5.md",
+            "blob": "2917af604b4b55cdb771124a31639f5283f3ad7e",
+            "line": 6,
+            "row": "| S329 | The Open University, [Beginners' Chinese: a taster course, 2 Greetings](https://www.open.edu/openlearn/languages/beginners-chinese-taster-course/content-section-4), Expressions used for greetings | READ_LOCATOR；你好 nǐ hǎo、您好 nín hǎo、早安 zǎo ān（台湾晨间常见）、语用差异；词汇教学而非语音实验，未听嵌入音频；此处拼音为词汇标签，不作实际表层变调证据。 |"
+          },
+          "supplementalAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/composition-r5-tone-language-remediation.md",
+            "blob": "f9fd4ba3bf19c0b61801a5e989d42f67853d0233",
+            "line": 4,
+            "row": "S329给真实词语及语用；S328 p107给词汇/表层规则。选择同一个短韵律域内连续两个音节，末T3完整213（若末音采用214或低21，方向敏感性另核）。仅为本项目创作辅助比较：取每个声明表层轮廓最后数字为相对目标，按相邻两个音节方向与相邻指定音符方向比较。不是S327实际语料的同一编码方法（其T3-T3按词汇值）；口语调尾目标不等唱时必须在音符内复制整个F0。S327 §4.2 对T3起始的升向倾向及普通话宽松对应提供使用这一预筛的背景；不把O/E或总体百分比作硬阈值。无轻声音节，若改写含轻声（如“的/了”，具体语境实际调值未核）不得套固定数字，应退回语音条件检查。"
+          },
+          "role": "SUPPLEMENTAL_LOCATOR_ONLY"
+        },
+        {
+          "source": "S330@1",
+          "sourceAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-composition-r5.md",
+            "blob": "2917af604b4b55cdb771124a31639f5283f3ad7e",
+            "line": 7,
+            "row": "| S330 | Robert S. Bauer, [The Hong Kong Cantonese language: Current features and future prospects](https://www.degruyterbrill.com/document/doi/10.1515/glochi-2016-0007/html), DOI 10.1515/glochi-2016-0007, Appendix 2 item 4 | READ_LOCATOR；粤拼调号与Chao调值对应：1→55、2→25、3→33、4→21、5→23、6→22；声明使用此分析，不混同实际说话人F0、变体/合流或入声条件。 |"
+          },
+          "supplementalAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/composition-r5-tone-language-remediation.md",
+            "blob": "f9fd4ba3bf19c0b61801a5e989d42f67853d0233",
+            "line": 12,
+            "row": "S331词语、语境及粤拼；S330 Appendix2调值、S327 §1.2终点关系及S307上下文限制。此处采用声明的六调分析、非入声音节，不使用普通话三声变调；题定所列常规读法，无另指定词汇变调/连读或语气变化，若实际歌手的读法不同则重新取证，尤其注意5/2可能合流，不将规范读法当个体实测。终点比较是相邻音节尾端与相邻旋律音高，不比较音节内起伏。例如 nei5 与 hou2 都为升调，但末端分别3与5；并非因同为升调就判平。相对端点数字与半音不一一对应。"
+          },
+          "role": "SUPPLEMENTAL_LOCATOR_ONLY"
+        },
+        {
+          "source": "S331@1",
+          "sourceAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-composition-r5.md",
+            "blob": "2917af604b4b55cdb771124a31639f5283f3ad7e",
+            "line": 8,
+            "row": "| S331 | [Open Cantonese, Cantonese Life 1 Unit 0, 3 Daily Expressions](https://opencantonese.org/books/cantonese-life-1/unit-0/3-daily-expressions), Saying hello、Greeting someone according to time of day | READ_LOCATOR；你好 nei5 hou2（较正式）、早晨 zou2 san4、午安 ng5 on1（部分正式场合）、哈佬 haa1 lou2/lou3；词汇教学，非听评或实际歌唱。版本字节/逐资产权利未锁定。 |"
+          },
+          "supplementalAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/composition-r5-tone-language-remediation.md",
+            "blob": "f9fd4ba3bf19c0b61801a5e989d42f67853d0233",
+            "line": 12,
+            "row": "S331词语、语境及粤拼；S330 Appendix2调值、S327 §1.2终点关系及S307上下文限制。此处采用声明的六调分析、非入声音节，不使用普通话三声变调；题定所列常规读法，无另指定词汇变调/连读或语气变化，若实际歌手的读法不同则重新取证，尤其注意5/2可能合流，不将规范读法当个体实测。终点比较是相邻音节尾端与相邻旋律音高，不比较音节内起伏。例如 nei5 与 hou2 都为升调，但末端分别3与5；并非因同为升调就判平。相对端点数字与半音不一一对应。"
+          },
+          "role": "SUPPLEMENTAL_LOCATOR_ONLY"
+        }
+      ]
+    },
+    {
+      "d4": "K02.06.03.05",
+      "claim": "K02-CL-CO-37@1",
+      "discovery": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 41,
+        "row": "| K02.06.03.05 | [CO-37](composition-r2-knowledge-cases.md) L17 | [S307](../../research/source-qualification-composition-r2.md)、[S308](../../research/source-qualification-composition-r2.md)、[S309](../../research/source-qualification-composition-r2.md)、[S328–331](../../research/source-qualification-composition-r5.md) | CQ04 | CQ12/CQ16/CQ19/CQ26 |"
+      },
+      "routes": [
+        {
+          "source": "S329@1",
+          "sourceAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-composition-r5.md",
+            "blob": "2917af604b4b55cdb771124a31639f5283f3ad7e",
+            "line": 6,
+            "row": "| S329 | The Open University, [Beginners' Chinese: a taster course, 2 Greetings](https://www.open.edu/openlearn/languages/beginners-chinese-taster-course/content-section-4), Expressions used for greetings | READ_LOCATOR；你好 nǐ hǎo、您好 nín hǎo、早安 zǎo ān（台湾晨间常见）、语用差异；词汇教学而非语音实验，未听嵌入音频；此处拼音为词汇标签，不作实际表层变调证据。 |"
+          },
+          "supplementalAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/composition-r5-tone-language-remediation.md",
+            "blob": "f9fd4ba3bf19c0b61801a5e989d42f67853d0233",
+            "line": 4,
+            "row": "S329给真实词语及语用；S328 p107给词汇/表层规则。选择同一个短韵律域内连续两个音节，末T3完整213（若末音采用214或低21，方向敏感性另核）。仅为本项目创作辅助比较：取每个声明表层轮廓最后数字为相对目标，按相邻两个音节方向与相邻指定音符方向比较。不是S327实际语料的同一编码方法（其T3-T3按词汇值）；口语调尾目标不等唱时必须在音符内复制整个F0。S327 §4.2 对T3起始的升向倾向及普通话宽松对应提供使用这一预筛的背景；不把O/E或总体百分比作硬阈值。无轻声音节，若改写含轻声（如“的/了”，具体语境实际调值未核）不得套固定数字，应退回语音条件检查。"
+          },
+          "role": "SUPPLEMENTAL_LOCATOR_ONLY"
+        },
+        {
+          "source": "S330@1",
+          "sourceAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-composition-r5.md",
+            "blob": "2917af604b4b55cdb771124a31639f5283f3ad7e",
+            "line": 7,
+            "row": "| S330 | Robert S. Bauer, [The Hong Kong Cantonese language: Current features and future prospects](https://www.degruyterbrill.com/document/doi/10.1515/glochi-2016-0007/html), DOI 10.1515/glochi-2016-0007, Appendix 2 item 4 | READ_LOCATOR；粤拼调号与Chao调值对应：1→55、2→25、3→33、4→21、5→23、6→22；声明使用此分析，不混同实际说话人F0、变体/合流或入声条件。 |"
+          },
+          "supplementalAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/composition-r5-tone-language-remediation.md",
+            "blob": "f9fd4ba3bf19c0b61801a5e989d42f67853d0233",
+            "line": 12,
+            "row": "S331词语、语境及粤拼；S330 Appendix2调值、S327 §1.2终点关系及S307上下文限制。此处采用声明的六调分析、非入声音节，不使用普通话三声变调；题定所列常规读法，无另指定词汇变调/连读或语气变化，若实际歌手的读法不同则重新取证，尤其注意5/2可能合流，不将规范读法当个体实测。终点比较是相邻音节尾端与相邻旋律音高，不比较音节内起伏。例如 nei5 与 hou2 都为升调，但末端分别3与5；并非因同为升调就判平。相对端点数字与半音不一一对应。"
+          },
+          "role": "SUPPLEMENTAL_LOCATOR_ONLY"
+        },
+        {
+          "source": "S331@1",
+          "sourceAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-composition-r5.md",
+            "blob": "2917af604b4b55cdb771124a31639f5283f3ad7e",
+            "line": 8,
+            "row": "| S331 | [Open Cantonese, Cantonese Life 1 Unit 0, 3 Daily Expressions](https://opencantonese.org/books/cantonese-life-1/unit-0/3-daily-expressions), Saying hello、Greeting someone according to time of day | READ_LOCATOR；你好 nei5 hou2（较正式）、早晨 zou2 san4、午安 ng5 on1（部分正式场合）、哈佬 haa1 lou2/lou3；词汇教学，非听评或实际歌唱。版本字节/逐资产权利未锁定。 |"
+          },
+          "supplementalAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/composition-r5-tone-language-remediation.md",
+            "blob": "f9fd4ba3bf19c0b61801a5e989d42f67853d0233",
+            "line": 12,
+            "row": "S331词语、语境及粤拼；S330 Appendix2调值、S327 §1.2终点关系及S307上下文限制。此处采用声明的六调分析、非入声音节，不使用普通话三声变调；题定所列常规读法，无另指定词汇变调/连读或语气变化，若实际歌手的读法不同则重新取证，尤其注意5/2可能合流，不将规范读法当个体实测。终点比较是相邻音节尾端与相邻旋律音高，不比较音节内起伏。例如 nei5 与 hou2 都为升调，但末端分别3与5；并非因同为升调就判平。相对端点数字与半音不一一对应。"
+          },
+          "role": "SUPPLEMENTAL_LOCATOR_ONLY"
+        }
+      ]
+    }
+  ]
+}
