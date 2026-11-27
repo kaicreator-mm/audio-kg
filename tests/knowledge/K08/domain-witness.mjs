@@ -9,11 +9,32 @@ export function parseRiff(b){
 }
 export function fixture(){const b=Buffer.alloc(60);b.write('RIFF');b.writeUInt32LE(52,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(48000,24);b.writeUInt32LE(96000,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('JUNK',36);b.writeUInt32LE(3,40);b.write('data',48);b.writeUInt32LE(4,52);b.writeInt16LE(1000,56);b.writeInt16LE(-1000,58);return b;}
 const dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),finite=a=>Array.isArray(a)&&a.length>0&&a.every(Number.isFinite);
-export function sdr(s,y){if(!finite(s)||!finite(y)||s.length!==y.length||dot(s,s)===0||dot(y,y)===0)return null;const a=dot(s,y)/dot(s,s),p=s.map(v=>v*a),e=y.map((v,i)=>v-p[i]);if(dot(p,p)===0||dot(e,e)===0)return null;return 10*Math.log10(dot(p,p)/dot(e,e));}
+// Typed mathematical outcomes avoid conflating a perfect fit with undefined input.
+export function sdr(s,y){
+ const state=(state,db=null)=>({state,db});
+ if(!finite(s)||!finite(y)||s.length!==y.length)return state('INVALID_INPUT');
+ const sn=dot(s,s),yn=dot(y,y);if(!Number.isFinite(sn)||!Number.isFinite(yn))return state('INVALID_INPUT');
+ if(sn===0||yn===0)return state('UNDEFINED_ZERO');
+ const a=dot(s,y)/sn,p=s.map(v=>v*a),e=y.map((v,i)=>v-p[i]),pn=dot(p,p),en=dot(e,e);
+ if(!Number.isFinite(pn)||!Number.isFinite(en))return state('INVALID_INPUT');
+ if(pn===0)return state('NEGATIVE_INFINITY');if(en===0)return state('PERFECT');
+ const db=10*(Math.log10(pn)-Math.log10(en));return Number.isFinite(db)?state('FINITE',db):state('INVALID_INPUT');
+}
+export function statusFlags({version,policy,mask}={}){
+ const known=Number.isSafeInteger(mask)&&mask>=0&&mask<=31;
+ if(!known||version!=='PortAudio-v19'||!['FIXED','UNSPECIFIED'].includes(policy))return {state:'UNKNOWN',mask,events:[],loss:'UNKNOWN',cause:'UNKNOWN'};
+ const spec=[
+ [1,'INPUT_UNDERFLOW',policy==='FIXED'?'INPUT_ZERO_INSERTED':'INPUT_ALL_ZERO'],
+ [2,'INPUT_OVERFLOW',policy==='FIXED'?'INPUT_BEFORE_ONE_OR_MORE_SAMPLES_DISCARDED':'INPUT_BEFORE_FIRST_SAMPLE_DISCARDED'],
+ [4,'OUTPUT_UNDERFLOW','OUTPUT_GAP_OR_INSERTED_DATA'],
+ [8,'OUTPUT_OVERFLOW','OUTPUT_DATA_DISCARDED_NO_SPACE'],
+ [16,'PRIMING_OUTPUT','STARTUP_PRIMING_NOT_XRUN']];
+ return {state:'QUALIFIED_V19',mask,events:spec.filter(([bit])=>Boolean(mask&bit)).map(([bit,direction,meaning])=>({bit,direction,meaning})),loss:'UNKNOWN',cause:'UNKNOWN'};
+}
 export function repair(x,y){
  if(x.risk===true)return 'STOP_REFER';if(x.risk!==false||x.authorized!==true||x.scope!=='OFFLINE_SYNTHETIC'||!finite(x.samples)||!finite(y.samples)||!x.source||!x.clock||!x.layout||!Number.isFinite(x.rate)||x.rate<=0||!Array.isArray(x.mask)||x.mask.some(i=>!Number.isInteger(i)||i<0||i>=x.samples.length))return 'UNKNOWN_STOP';
  if(y.parent!==x.source||y.id===x.source||!y.id||x.clock!==y.clock||x.rate!==y.rate||x.layout!==y.layout||x.samples.length!==y.samples.length||!x.samples.every((v,i)=>x.mask.includes(i)||v===y.samples[i]))return 'REJECT';
- return 'BOUNDED_CANDIDATE';
+ return x.samples.some((v,i)=>v!==y.samples[i])?'BOUNDED_CANDIDATE':'NO_OP';
 }
 export function deadline(ms,frames,rate){if(!finite(ms)||ms.some(x=>x<0)||!Number.isInteger(frames)||frames<=0||!Number.isFinite(rate)||rate<=0)return null;const budget=1000*frames/rate;return {budget,misses:ms.filter(x=>x>budget).length,pass:ms.every(x=>x<=budget)};}
 const alias=(f,fs)=>Math.abs(((f+fs/2)%fs+fs)%fs-fs/2);
@@ -36,7 +57,14 @@ export function checks(t){
  const original=JSON.stringify(x);t('KC-D08 authorized local edit',repair(x,y)==='BOUNDED_CANDIDATE'&&JSON.stringify(x)===original);
  t('KC-D08 nonlocal clock scope risk gates',repair(x,{...y,samples:[1,0,0]})==='REJECT'&&repair(x,{...y,clock:'clkB'})==='REJECT'&&repair({...x,scope:'PLAYBACK'},y)==='UNKNOWN_STOP'&&repair({...x,risk:true,authorized:undefined},y)==='STOP_REFER');
  const error=(a,b)=>a.reduce((s,v,i)=>s+(v-b[i])**2,0);t('DA23/50 target retention not silence',error([1,0,0],[0,0,0])===1&&error([1,0,0],[.5,0,0])===.25);
- t('DA51 exact uncentered projection',close(sdr([1,0],[.8,.2]),12.0411998266)&&close(sdr([1,0],[1.6,.4]),12.0411998266)&&sdr([0,0],[1,0])===null&&sdr([1,0],[0,0])===null);
+ t('DA51 exact uncentered projection',close(sdr([1,0],[.8,.2]).db,12.0411998266)&&close(sdr([1,0],[1.6,.4]).db,12.0411998266)&&sdr([0,0],[1,0]).state==='UNDEFINED_ZERO'&&sdr([1,0],[0,0]).state==='UNDEFINED_ZERO');
  const d=deadline([1,1,1,8],256,48000);t('KC-D08 hard deadline not mean',d.misses===1&&!d.pass&&close(d.budget,5.3333333333)&&deadline([1,2],256,48000).pass);
- const flags=2|4;t('DA27/54 independent status bits',Boolean(flags&2)&&Boolean(flags&4)&&!(flags&1)&&!(flags&8));
+ const flags=2|4;const f=(mask,policy='FIXED',version='PortAudio-v19')=>statusFlags({mask,policy,version});
+ t('DA27/54 independent status bits',eq(f(flags).events.map(e=>e.direction),['INPUT_OVERFLOW','OUTPUT_UNDERFLOW']));
+ t('P2-01 distinguish perfect, negative infinity and undefined',sdr([1,0],[1,0]).state==='PERFECT'&&sdr([1,0],[-2,0]).state==='PERFECT'&&sdr([1,0],[0,1]).state==='NEGATIVE_INFINITY'&&sdr([1,0],[0,0]).state==='UNDEFINED_ZERO'&&sdr([1,0],[1]).state==='INVALID_INPUT');
+ t('P2-02 empty and nonempty mask no-op distinct',repair({...x,mask:[]},{...y,samples:x.samples})==='NO_OP'&&repair(x,{...y,samples:x.samples})==='NO_OP'&&repair({...x,mask:[]},y)==='REJECT');
+ t('P2-03 all direction and priming bits',eq(f(31).events.map(e=>e.direction),['INPUT_UNDERFLOW','INPUT_OVERFLOW','OUTPUT_UNDERFLOW','OUTPUT_OVERFLOW','PRIMING_OUTPUT'])&&f(16).events[0].meaning==='STARTUP_PRIMING_NOT_XRUN'&&f(0).events.length===0);
+ t('P2-03 fixed vs unspecified input semantics',f(1).events[0].meaning==='INPUT_ZERO_INSERTED'&&f(1,'UNSPECIFIED').events[0].meaning==='INPUT_ALL_ZERO'&&f(2).events[0].meaning!==f(2,'UNSPECIFIED').events[0].meaning);
+ t('P2-03 unknown version/policy/mask fail closed',f(31,'UNKNOWN').state==='UNKNOWN'&&f(31,'FIXED','v20').state==='UNKNOWN'&&f(32).state==='UNKNOWN'&&f(-1).state==='UNKNOWN'&&f(31).loss==='UNKNOWN'&&f(31).cause==='UNKNOWN');
+ for(let mask=0;mask<32;mask++)t('P2-03 exhaustive v19 bit preservation '+mask,f(mask).events.reduce((n,e)=>n|e.bit,0)===mask&&f(mask,'UNSPECIFIED').events.reduce((n,e)=>n|e.bit,0)===mask);
 }
