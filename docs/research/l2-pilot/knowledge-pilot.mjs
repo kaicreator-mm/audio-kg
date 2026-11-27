@@ -91,16 +91,18 @@ function validate(p,s){
  }
  return {map,byClaim,byView};
 }
-const cents=(a,b)=>1200*Math.log2(a/b);
+const cents=(a,b)=>1200*(Math.log2(a)-Math.log2(b));
 function evaluate(op,x){
  if(op==="cents")return positive(x.reference)&&positive(x.observed)?{state:"VALUE",cents:cents(x.observed,x.reference)}:{state:"UNKNOWN"};
  if(op==="pitch"){
-  if(x.valid!==true||!nonempty(x.identity)||x.referenceIdentity!==x.identity||x.estimateIdentity!==x.identity||!positive(x.estimate))return {state:"UNKNOWN_WINDOW"};
+  const interval=x=>Array.isArray(x)&&x.length===2&&x.every(Number.isFinite)&&x[1]>x[0];
+  if(x.valid!==true||!nonempty(x.identity)||x.estimateIdentity!==x.identity||!positive(x.estimate)||!nonempty(x.clock)||x.estimateClock!==x.clock||!interval(x.window)||!eq(x.estimateWindow,x.window)||x.estimateKind!=="SYNTH-ESTIMATOR")return {state:"UNKNOWN_WINDOW"};
+  if(positive(x.reference)&&(x.referenceIdentity!==x.identity||x.referenceClock!==x.clock||!eq(x.referenceWindow,x.window)||x.referenceKind!=="INDEPENDENT-SYNTH-REF"))return {state:"UNKNOWN_WINDOW"};
   const haveR=positive(x.reference),haveT=positive(x.target);
   return {state:haveR?(haveT?"VALUE":"UNKNOWN_TARGET"):"UNKNOWN_REFERENCE",estimateError:haveR?cents(x.estimate,x.reference):null,actualGoalError:haveR&&haveT?cents(x.reference,x.target):null,estimatedGoalError:haveT?cents(x.estimate,x.target):null};
  }
- if(op==="window")return positive(x.fs)&&Number.isInteger(x.win)&&Number.isInteger(x.nfft)&&x.win>0&&x.nfft>=x.win?{state:"VALUE",seconds:x.win/x.fs,gridHz:x.fs/x.nfft,bins:Math.floor(x.nfft/2)+1}:{state:"UNKNOWN"};
- if(op==="reverseGrid"){const n=x.fs/x.gridHz;return positive(x.fs)&&positive(x.gridHz)&&Number.isInteger(n)&&n>0?{state:"PARTIAL",nfft:n,win:null}:{state:"UNKNOWN"};}
+ if(op==="window")return x.realInput===true&&x.oneSided===true&&positive(x.fs)&&Number.isSafeInteger(x.win)&&Number.isSafeInteger(x.nfft)&&x.win>0&&x.nfft>=x.win?{state:"VALUE",seconds:x.win/x.fs,gridHz:x.fs/x.nfft,bins:Math.floor(x.nfft/2)+1}:{state:"UNKNOWN"};
+ if(op==="reverseGrid"){const n=x.fs/x.gridHz;return positive(x.fs)&&positive(x.gridHz)&&Number.isSafeInteger(n)&&n>0?{state:"PARTIAL",nfft:n,win:null}:{state:"UNKNOWN"};}
  throw Error("unsupported query");
 }
 function retrieve(p,s,query){
