@@ -1,0 +1,1112 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K07",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "c8a952d6e5acff3c8c8aa2406fca5b599866bd47",
+  "sourceQualifications": [
+    {
+      "source": "S031@1",
+      "scope": "周期波、频率、周期、波长和波量定义；不证明具体音源或听觉。",
+      "limits": "READ_LOCATOR；基础物理，适用周期波模型；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/university-physics-volume-1/pages/17-1-sound-waves"
+    },
+    {
+      "source": "S032@1",
+      "scope": "介质声速及温度条件；不将空气常数推广到任意介质。",
+      "limits": "READ_LOCATOR；介质和条件必须明确；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound"
+    },
+    {
+      "source": "S033@1",
+      "scope": "声压、强度、参考量及理想传播模型；非一般声场。",
+      "limits": "READ_LOCATOR；理想球面传播且忽略损耗，不能直接用于所有房间；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity"
+    },
+    {
+      "source": "S034@1",
+      "scope": "理想振动边界和驻波模态；非真实乐器或房间测量。",
+      "limits": "READ_LOCATOR；理想条件，非实测乐器模型；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/university-physics-volume-1/pages/16-6-standing-waves-and-resonance"
+    },
+    {
+      "source": "S035@1",
+      "scope": "理想空气管模态、相干叠加及边界；变量明确。",
+      "limits": "READ_LOCATOR；相干、边界条件需明确；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave"
+    },
+    {
+      "source": "S036@1",
+      "scope": "乐器物理激励与共振、谐波和泛音；不作听评结论。",
+      "limits": "READ_LOCATOR；物理模型，不是全部音色评价方法；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/university-physics-volume-1/pages/17-5-sources-of-musical-sound"
+    },
+    {
+      "source": "S037@1",
+      "scope": "群体听觉教学、物理级与感知分层；非个体诊断。",
+      "limits": "READ_LOCATOR；基础感知教学，群体描述不适合个体诊断；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/college-physics-2e/pages/17-6-hearing"
+    },
+    {
+      "source": "S038@1",
+      "scope": "一般安全听音风险控制；不提供设备比例到声压换算或个人许可。",
+      "limits": "READ_LOCATOR；一般性健康建议；设备比例非校准声压；不输出诊断；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening"
+    },
+    {
+      "source": "S045@1",
+      "scope": "嗓音源滤波耦合的边界证据；不是一般LTI模型的独立证明。",
+      "limits": "旧ABSTRACT_READ本轮升级READ_LOCATOR；多因素、气流供能、源滤波与条件耦合、刚度与应力不同；不照搬经验压力或模型参数为个体目标。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5412481/"
+    },
+    {
+      "source": "S096@1",
+      "scope": "厂商对物理反馈闭环的说明；仅可能路径，不支持实际稳定性或操作参数。",
+      "limits": "READ_LOCATOR；厂商实践资料，反馈环路与布置/增益候选；不采纳脱离条件的固定频段/增益建议，不在危险声级复现；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.shure.com/en-GB/insights/how-to-control-feedback-in-a-sound-system"
+    },
+    {
+      "source": "S424@1",
+      "scope": "谐波复音、缺失基频感知综述；不保证个体听感。",
+      "limits": "READ_LOCATOR；实际HTML，谐波复音及缺失基频感知综述，不保证所有刺激/听者；K17一般感知主责，K05仅发声观测区分。R2访问失败的其他论文不提升。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3481156/"
+    },
+    {
+      "source": "S425@1",
+      "scope": "计算声源滤波相互作用的边界；不是人体实证或练习处方。",
+      "limits": "READ_LOCATOR；PMC先前验证码，通过作者UCLA版阅读。p11截图超时，文字已读；不声称全图表核验。计算模型发现源强与输出谱的作用不同，条件/局部效应及一维流动限制；非人体实证，不采纳参数、练习或风险推论为处方。S414含同一研究的旧线索，保留历史，不双计独立来源。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.surgery.medsch.ucla.edu/spl/papers/2023JASA10_SourceFilterInteraction.pdf"
+    },
+    {
+      "source": "S447@1",
+      "scope": "ISO226公开摘要的连续纯音、人群、自由场及频率覆盖范围；无数值附录。",
+      "limits": "ABSTRACT_READ；自由行进平面波、正前方连续纯音、无听者时头中心位置声压、双耳、耳科正常18–25岁；公开范围20–12500Hz，未购买正文/附录，不生成数值曲线或宣称合规；2003版撤销。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "PUBLIC_ABSTRACT_ONLY",
+      "accessedUri": "https://www.iso.org/standard/83117.html"
+    },
+    {
+      "source": "S448@1",
+      "scope": "听觉转导通路科普；非个人临床功能诊断。",
+      "limits": "READ_LOCATOR；耳道/鼓膜/听小骨、耳蜗液体和基底膜、毛细胞转导、听神经和脑；公共科普非完整解剖及诊断指南。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.nidcd.nih.gov/health/how-do-we-hear"
+    },
+    {
+      "source": "S449@1",
+      "scope": "突然听力下降的紧急性；不作诊断或治疗指示。",
+      "limits": "READ_LOCATOR；突然听力下降须立即就医，不等待自测或假定耳垢；不从录音判病因、不采用诊断阈值或治疗说明。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.nidcd.nih.gov/health/sudden-deafness"
+    },
+    {
+      "source": "S450@1",
+      "scope": "WHO-ITU个人设备公共摘要的适用用途及周参考；不支持完整规范算法、个体许可。",
+      "limits": "READ_LOCATOR_PUBLIC_SUMMARY；个人音频设备参考暴露，成人80dB×40h/周、儿童75dB×40h/周；页面摘要不是完整标准或个体许可，不把未核定的权重/耳耦合/测量口径直接套用环境仪表。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "PUBLIC_SUMMARY_ONLY",
+      "accessedUri": "https://www.who.int/publications/i/item/9789241515276"
+    },
+    {
+      "source": "S451@1",
+      "scope": "NIOSH职业建议及测量口径；不外推当地法规或休闲许可。",
+      "limits": "READ_LOCATOR；职业噪声REL 85dBA 8h、3dB交换率，声级计/剂量计及记录条件；推荐非当地法规、不是休闲目标或无风险线。禁止实际高声级实验。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+    },
+    {
+      "source": "S452@1",
+      "scope": "NIST TN1297 §2/§5不确定度评定、协方差和标准合成；同一指南。",
+      "limits": "READ_LOCATOR；A/B为评定方法，非随机/系统误差同义；标准不确定度、协方差及修正的条件，不自动给置信区间；实际仪器未校准。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-2-classification-components-uncertainty"
+    },
+    {
+      "source": "S453@1",
+      "scope": "ISO3382-2公开摘要的普通房间测量适用范围；不是具体合规方法全文。",
+      "limits": "ABSTRACT_READ；普通房间混响测量涉及仪器、位置、处理与报告；未获取标准正文/修订全文，不能宣称ISO测量符合。演出场所需另核适用标准。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "PUBLIC_ABSTRACT_ONLY",
+      "accessedUri": "https://www.iso.org/standard/36201.html"
+    },
+    {
+      "source": "S454@1",
+      "scope": "理想房间轴向模式、路径/反射及衰减概念；不提供实际场地目标。",
+      "limits": "READ_LOCATOR；平行刚性墙轴向模式、直达/早反射/混响、Sabine近似与频带吸收；示意反射时间不是普适边界，不采用表中房间目标、材料数值或教学高音量演示。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://ocw.mit.edu/courses/21m-380-music-and-technology-recording-techniques-and-audio-production-fall-2016/d315c75efb01cb76ca897958570bab87_MIT21M_380F16_ses18_note.pdf"
+    },
+    {
+      "source": "S455@1",
+      "scope": "有限分析窗、hop、格点和表示权衡；不是FFT执行验收。",
+      "limits": "READ_LOCATOR；有限窗口、加窗、hop和频率格点/分析权衡；不采文中的典型时长作普遍参数，不当软件版本或算法验收。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.mdpi.com/2076-3417/16/2/572"
+    },
+    {
+      "source": "S456@1",
+      "scope": "公开厂商掩蔽说明中的能量与时序分类；不采具体阈值或工具结果。",
+      "limits": "READ_LOCATOR；厂商公开方法说明区分能量掩蔽与信息掩蔽、同时与时间掩蔽；不采用时间常数/固定遮蔽阈值，不证明软件执行或个人听觉。后续补原始听觉研究。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/Sound_SAS_UG/Sound/UG_SAS/masking_80383.html"
+    },
+    {
+      "source": "S457@1",
+      "scope": "矩形有限窗、补零及DFT周期性；不把主瓣宽度当普遍分辨率。",
+      "limits": "READ_LOCATOR；矩形有限观察窗的谱主瓣及零点、非整周期泄漏、补零增加格点密度非增加实际观测信息、时间平移复相位。技术文章非独立工具验证；不采用文中所有主瓣宽度表述为普遍分辨率。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.dsprelated.com/showarticle/174.php"
+    },
+    {
+      "source": "S458@1",
+      "scope": "双耳相对时间、级差、耳廓线索及多解；非个体HRTF测量。",
+      "limits": "READ_LOCATOR；相对头部方向、ITD、ILD、耳廓谱线索及距离歧义；低/高频相对作用而非硬阈值，简化几何不等实际人体HRTF、临床测量或神经机制完整论证。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://openstax.org/books/introduction-behavioral-neuroscience/pages/7-3-how-does-the-brain-process-acoustic-information"
+    },
+    {
+      "source": "S460@1",
+      "scope": "公开摘要中指定刺激的时序掩蔽研究；不泛化实验条件。",
+      "limits": "ABSTRACT_READ；1kHz目标及指定陷波噪声、不同时间条件的同时/前向掩蔽，作者报告估计滤波器形状差异；不采用实验时长/强度或推普遍听觉阈值。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "PUBLIC_ABSTRACT_ONLY",
+      "accessedUri": "https://pubmed.ncbi.nlm.nih.gov/3611508/"
+    },
+    {
+      "source": "S461@1",
+      "scope": "EDT/T20/T30拟合范围的厂商说明；非ISO全文。",
+      "limits": "READ_LOCATOR；厂商公开声学解释，EDT 10dB早期段、T20/T30从−5dB起的20/30dB段；非线性衰减各值可不同。不是ISO全文或测量实施规范，不以此声称合规。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.ecophon.com/en/about-ecophon/acoustic-knowledge/room-acoustic-descriptors/reverberation-time/"
+    },
+    {
+      "source": "S462@1",
+      "scope": "NIST公开摘要的麦克风压力场/自由场等校准边界。",
+      "limits": "ABSTRACT_READ；绕射、压力/自由场/扩散场灵敏度差异和相应校准，不能将一个校准常数无条件迁移。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "PUBLIC_ABSTRACT_ONLY",
+      "accessedUri": "https://www.nist.gov/publications/importance-free-field-calibration-microphones"
+    },
+    {
+      "source": "S463@1",
+      "scope": "物理校准链、场型、频带和前放增益适用性；非实际校准。",
+      "limits": "READ_LOCATOR；校准方法须适用声场、频率、动态范围和实际前置放大器/增益；校准周期依应用与历史；不是执行校准、完整标准或固定周期。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.nist.gov/system/files/documents/calibrations/eacous.pdf"
+    },
+    {
+      "source": "S464@1",
+      "scope": "扩展不确定度U=kuc及概率解释条件；同NIST TN1297，不双计。",
+      "limits": "READ_LOCATOR；U=kuc，约95%仅在相应正态及uc估计条件成立时；不自动把任意k=2当置信区间。S452同一指南补充，不作独立验证。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-6-expanded-uncertainty"
+    },
+    {
+      "source": "S467@1",
+      "scope": "平稳与WSS模型条件；单一有限样本不证明统计模型。",
+      "limits": "READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php"
+    },
+    {
+      "source": "S468@1",
+      "scope": "PSD及期望功率定义；离散有限枚举由项目推导，不套连续单位。",
+      "limits": "READ_LOCATOR；WSS相关函数傅里叶变换、期望功率；离散i.i.d.±1模型的归一化有限DFT期望功率由本轮独立枚举推导，不将连续时间公式直接套离散单位。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.probabilitycourse.com/chapter10/10_2_1_power_spectral_density.php"
+    },
+    {
+      "source": "S469@1",
+      "scope": "语音能量、包络调制及信息掩蔽候选及控制条件；非音乐普遍阈值。",
+      "limits": "READ_LOCATOR；能量与包络调制干扰、目标流分组/选择/语言信息，机制可共同存在，语音研究不证明所有音乐、听者或个人阈值；本轮S459 PMC仍验证码，S459不升级，S469为实际可读替代。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4905511/"
+    },
+    {
+      "source": "S470@1",
+      "scope": "文档区分物理校准与派生频权；非版本运行或IEC符合。",
+      "limits": "READ_LOCATOR；文档区分输入校准与频率加权滤波后RMS/参考量；仅支撑概念，不验证该工具版本运行、IEC符合或A权重数值，本轮题设滤波增益不是A曲线。；冻结来源资格继承，未重读或提升许可。",
+      "locatorKind": "FROZEN_READ_LOCATOR",
+      "accessedUri": "https://www.mathworks.com/help/audio/ref/splmeter-system-object.html"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K07-E-AC01-SUPPORTED-BY-K07-EV-AC01",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "非周期、时变或不同频率的相位差不能用单一固定值；相位不能唯一证明源位置。"
+    },
+    {
+      "edge": "K07-E-AC01-APPLIES-UNDER-K07-CTX-AC01",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "非周期、时变或不同频率的相位差不能用单一固定值；相位不能唯一证明源位置。"
+    },
+    {
+      "edge": "K07-E-AC01-REFERENCES-K07-CL-AC02",
+      "scope": "相位符号的专项解释",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC02-SUPPORTED-BY-K07-EV-AC02",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "源初相、设备延迟与传播路径未知时不能从相位唯一推距离。"
+    },
+    {
+      "edge": "K07-E-AC02-APPLIES-UNDER-K07-CTX-AC02",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "源初相、设备延迟与传播路径未知时不能从相位唯一推距离。"
+    },
+    {
+      "edge": "K07-E-AC03-SUPPORTED-BY-K07-EV-AC03",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "色散、非均匀介质、移动源或接收者需另建传播模型。"
+    },
+    {
+      "edge": "K07-E-AC03-APPLIES-UNDER-K07-CTX-AC03",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "色散、非均匀介质、移动源或接收者需另建传播模型。"
+    },
+    {
+      "edge": "K07-E-AC03-REFERENCES-K07-CL-AC28",
+      "scope": "传播/质点速度区别",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC04-SUPPORTED-BY-K07-EV-AC04",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "驻波、近场或阻抗未知不能将p²/(ρc)直接当净能流；不得推出听感或安全。"
+    },
+    {
+      "edge": "K07-E-AC04-APPLIES-UNDER-K07-CTX-AC04",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "驻波、近场或阻抗未知不能将p²/(ρc)直接当净能流；不得推出听感或安全。"
+    },
+    {
+      "edge": "K07-E-AC04-REFERENCES-K07-CL-AC29",
+      "scope": "驻波反例",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC04-REFERENCES-K07-CL-AC21",
+      "scope": "物理分贝参考",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC05-SUPPORTED-BY-K07-EV-AC05",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "缺谱线时不能以观测排序替代完整系列；非整数比或感知音高需独立证据。"
+    },
+    {
+      "edge": "K07-E-AC05-APPLIES-UNDER-K07-CTX-AC05",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "缺谱线时不能以观测排序替代完整系列；非整数比或感知音高需独立证据。"
+    },
+    {
+      "edge": "K07-E-AC05-REFERENCES-K07-CL-AC10",
+      "scope": "理想闭开管第一泛音",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC05-REFERENCES-K07-CL-AC13",
+      "scope": "数学周期与感知音高",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC06-SUPPORTED-BY-K07-EV-AC06",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "补零可插值频谱但不增加观测；不可将图色或格点直接视为物理声压/真实分辨力。"
+    },
+    {
+      "edge": "K07-E-AC06-APPLIES-UNDER-K07-CTX-AC06",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "补零可插值频谱但不增加观测；不可将图色或格点直接视为物理声压/真实分辨力。"
+    },
+    {
+      "edge": "K07-E-AC06-REFERENCES-K07-CL-AC07",
+      "scope": "全局幅度的时间信息边界",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC06-REFERENCES-K07-CL-AC32",
+      "scope": "时间局部窗口",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC07-SUPPORTED-BY-K07-EV-AC07",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "仅幅度不保留相位；普通裁窗平移不一定等价循环平移，不凭未知观测补造时序。"
+    },
+    {
+      "edge": "K07-E-AC07-APPLIES-UNDER-K07-CTX-AC07",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "仅幅度不保留相位；普通裁窗平移不一定等价循环平移，不凭未知观测补造时序。"
+    },
+    {
+      "edge": "K07-E-AC08-SUPPORTED-BY-K07-EV-AC08",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "单次平谱或周期形状不证明随机、白噪声或WSS；非目标确定性周期也可称噪声。"
+    },
+    {
+      "edge": "K07-E-AC08-APPLIES-UNDER-K07-CTX-AC08",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "单次平谱或周期形状不证明随机、白噪声或WSS；非目标确定性周期也可称噪声。"
+    },
+    {
+      "edge": "K07-E-AC08-REFERENCES-K07-CL-AC32",
+      "scope": "统计WSS与有限窗口",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC08-REFERENCES-K07-CL-AC35",
+      "scope": "任务相对干扰",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC09-SUPPORTED-BY-K07-EV-AC09",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "非线性、瞬态及真实乐器需独立模型与测量。"
+    },
+    {
+      "edge": "K07-E-AC09-APPLIES-UNDER-K07-CTX-AC09",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "非线性、瞬态及真实乐器需独立模型与测量。"
+    },
+    {
+      "edge": "K07-E-AC09-REFERENCES-K07-CL-AC10",
+      "scope": "边界模式",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC09-REFERENCES-K07-CL-AC34",
+      "scope": "房间轴向模式",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC10-SUPPORTED-BY-K07-EV-AC10",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "真实端部修正、非理想边界与观测谱线不能由公式直接认定。"
+    },
+    {
+      "edge": "K07-E-AC10-APPLIES-UNDER-K07-CTX-AC10",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "真实端部修正、非理想边界与观测谱线不能由公式直接认定。"
+    },
+    {
+      "edge": "K07-E-AC11-SUPPORTED-BY-K07-EV-AC11",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "声乐强耦合或非线性不一定符合独立源滤波模型；谱峰变化不能直接归因于源。"
+    },
+    {
+      "edge": "K07-E-AC11-APPLIES-UNDER-K07-CTX-AC11",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "声乐强耦合或非线性不一定符合独立源滤波模型；谱峰变化不能直接归因于源。"
+    },
+    {
+      "edge": "K07-E-AC11-REFERENCES-K07-CL-AC35",
+      "scope": "额外干扰模型",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC12-SUPPORTED-BY-K07-EV-AC12",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不得推复杂音乐、耳机、个体阈值、实际phon曲线、标准合规或安全。"
+    },
+    {
+      "edge": "K07-E-AC12-APPLIES-UNDER-K07-CTX-AC12",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不得推复杂音乐、耳机、个体阈值、实际phon曲线、标准合规或安全。"
+    },
+    {
+      "edge": "K07-E-AC12-REFERENCES-K07-CL-AC36",
+      "scope": "phon定义",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC12-REFERENCES-K07-CL-AC16",
+      "scope": "群体与个人",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC13-SUPPORTED-BY-K07-EV-AC13",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不保证任何人同音高或能辨音色；没有听评不得报告感知事实。"
+    },
+    {
+      "edge": "K07-E-AC13-APPLIES-UNDER-K07-CTX-AC13",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不保证任何人同音高或能辨音色；没有听评不得报告感知事实。"
+    },
+    {
+      "edge": "K07-E-AC13-REFERENCES-K07-CL-AC37",
+      "scope": "包络音色线索",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC14-SUPPORTED-BY-K07-EV-AC14",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "时序数值非普遍阈值；听不见不等物理成分消失，缺证不得增加声级试验。"
+    },
+    {
+      "edge": "K07-E-AC14-APPLIES-UNDER-K07-CTX-AC14",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "时序数值非普遍阈值；听不见不等物理成分消失，缺证不得增加声级试验。"
+    },
+    {
+      "edge": "K07-E-AC14-REFERENCES-K07-CL-AC38",
+      "scope": "三类机制及控制",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC15-SUPPORTED-BY-K07-EV-AC15",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不是完整神经机制、临床检查或根据音频确定个体病因的方法。"
+    },
+    {
+      "edge": "K07-E-AC15-APPLIES-UNDER-K07-CTX-AC15",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不是完整神经机制、临床检查或根据音频确定个体病因的方法。"
+    },
+    {
+      "edge": "K07-E-AC15-REFERENCES-K07-CL-AC39",
+      "scope": "双耳输入",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC16-SUPPORTED-BY-K07-EV-AC16",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不从20–12500Hz或教学近似范围推个体阈值，不鼓励高音量自测。"
+    },
+    {
+      "edge": "K07-E-AC16-APPLIES-UNDER-K07-CTX-AC16",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不从20–12500Hz或教学近似范围推个体阈值，不鼓励高音量自测。"
+    },
+    {
+      "edge": "K07-E-AC16-REFERENCES-K07-CL-AC40",
+      "scope": "人群与个体证据",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC17-SUPPORTED-BY-K07-EV-AC17",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不自行诊断、不强制继续听评或延误就医。"
+    },
+    {
+      "edge": "K07-E-AC17-APPLIES-UNDER-K07-CTX-AC17",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不自行诊断、不强制继续听评或延误就医。"
+    },
+    {
+      "edge": "K07-E-AC17-REFERENCES-K07-CL-AC41",
+      "scope": "条件/风险处理",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC18-SUPPORTED-BY-K07-EV-AC18",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "房间、多路径、方向性、近场和设备延迟另证；不唯一定位墙体。"
+    },
+    {
+      "edge": "K07-E-AC18-APPLIES-UNDER-K07-CTX-AC18",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "房间、多路径、方向性、近场和设备延迟另证；不唯一定位墙体。"
+    },
+    {
+      "edge": "K07-E-AC18-REFERENCES-K07-CL-AC42",
+      "scope": "路径几何多解",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC18-REFERENCES-K07-CL-AC19",
+      "scope": "衰减 vs 延迟峰",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC19-SUPPORTED-BY-K07-EV-AC19",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "无真实测量或标准全文，不宣称ISO符合；单点延迟不确定混响时间。"
+    },
+    {
+      "edge": "K07-E-AC19-APPLIES-UNDER-K07-CTX-AC19",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "无真实测量或标准全文，不宣称ISO符合；单点延迟不确定混响时间。"
+    },
+    {
+      "edge": "K07-E-AC20-SUPPORTED-BY-K07-EV-AC20",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "局部抵消不证明设备故障；真实定位还受双耳、路径和环境影响。"
+    },
+    {
+      "edge": "K07-E-AC20-APPLIES-UNDER-K07-CTX-AC20",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "局部抵消不证明设备故障；真实定位还受双耳、路径和环境影响。"
+    },
+    {
+      "edge": "K07-E-AC20-REFERENCES-K07-CL-AC44",
+      "scope": "双耳定位线索",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC21-SUPPORTED-BY-K07-EV-AC21",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "数字dBFS、dB HL、频权声级、LUFS另有定义，不能直接换算；声压到强度需声场阻抗。"
+    },
+    {
+      "edge": "K07-E-AC21-APPLIES-UNDER-K07-CTX-AC21",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "数字dBFS、dB HL、频权声级、LUFS另有定义，不能直接换算；声压到强度需声场阻抗。"
+    },
+    {
+      "edge": "K07-E-AC22-SUPPORTED-BY-K07-EV-AC22",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "变化的物理链不能继承校准；仅加权读数不能反推未加权波形；无实际标准认证或暴露许可。"
+    },
+    {
+      "edge": "K07-E-AC22-APPLIES-UNDER-K07-CTX-AC22",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "变化的物理链不能继承校准；仅加权读数不能反推未加权波形；无实际标准认证或暴露许可。"
+    },
+    {
+      "edge": "K07-E-AC22-REFERENCES-K07-CL-AC46",
+      "scope": "物理校准与派生报告失效",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC22-REFERENCES-K07-CL-AC23",
+      "scope": "测量不确定度",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC23-SUPPORTED-BY-K07-EV-AC23",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "样本SD不是测量误差；相关分量需协方差，扩展量的概率解释另证。"
+    },
+    {
+      "edge": "K07-E-AC23-APPLIES-UNDER-K07-CTX-AC23",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "样本SD不是测量误差；相关分量需协方差，扩展量的概率解释另证。"
+    },
+    {
+      "edge": "K07-E-AC23-REFERENCES-K07-CL-AC47",
+      "scope": "协方差及扩展不确定度",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC24-SUPPORTED-BY-K07-EV-AC24",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不因更响就认为质量更好，不做未知风险试听或自行校准。"
+    },
+    {
+      "edge": "K07-E-AC24-APPLIES-UNDER-K07-CTX-AC24",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不因更响就认为质量更好，不做未知风险试听或自行校准。"
+    },
+    {
+      "edge": "K07-E-AC24-REFERENCES-K07-CL-AC48",
+      "scope": "播放链变更",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC25-SUPPORTED-BY-K07-EV-AC25",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "参考不是绝对安全线或许可；未校准数字音量不代表暴露；未知风险先降低暴露，突然听力下降立即就医。"
+    },
+    {
+      "edge": "K07-E-AC25-APPLIES-UNDER-K07-CTX-AC25",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "参考不是绝对安全线或许可；未校准数字音量不代表暴露；未知风险先降低暴露，突然听力下降立即就医。"
+    },
+    {
+      "edge": "K07-E-AC25-REFERENCES-K07-CL-AC49",
+      "scope": "暴露数据完整性",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC26-SUPPORTED-BY-K07-EV-AC26",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "无真实听评、授权或人体试验，不以偏好评分覆盖风险。"
+    },
+    {
+      "edge": "K07-E-AC26-APPLIES-UNDER-K07-CTX-AC26",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "无真实听评、授权或人体试验，不以偏好评分覆盖风险。"
+    },
+    {
+      "edge": "K07-E-AC26-REFERENCES-K07-CL-AC50",
+      "scope": "版本与撤回失效",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC27-SUPPORTED-BY-K07-EV-AC27",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "没有额外时间证据不得唯一反推实际传播或设备延迟。"
+    },
+    {
+      "edge": "K07-E-AC27-APPLIES-UNDER-K07-CTX-AC27",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "没有额外时间证据不得唯一反推实际传播或设备延迟。"
+    },
+    {
+      "edge": "K07-E-AC27-REQUIRES-K07-CL-AC02",
+      "scope": "单频相位/延迟模周期推理依赖同频参考与相位约定。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC28-SUPPORTED-BY-K07-EV-AC28",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "非真实声压或播放，波长单独不能确定频率。"
+    },
+    {
+      "edge": "K07-E-AC28-APPLIES-UNDER-K07-CTX-AC28",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "非真实声压或播放，波长单独不能确定频率。"
+    },
+    {
+      "edge": "K07-E-AC28-REFERENCES-K07-CL-AC03",
+      "scope": "介质条件",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC29-SUPPORTED-BY-K07-EV-AC29",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "仅p²/(ρc)不能一般求净能流；非真实场地或安全判断。"
+    },
+    {
+      "edge": "K07-E-AC29-APPLIES-UNDER-K07-CTX-AC29",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "仅p²/(ρc)不能一般求净能流；非真实场地或安全判断。"
+    },
+    {
+      "edge": "K07-E-AC29-REFERENCES-K07-CL-AC04",
+      "scope": "平面渐进波平方律限定",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC30-SUPPORTED-BY-K07-EV-AC30",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "有限估计误差或不可公度频率不保证有限周期，不能推感知音高。"
+    },
+    {
+      "edge": "K07-E-AC30-APPLIES-UNDER-K07-CTX-AC30",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "有限估计误差或不可公度频率不保证有限周期，不能推感知音高。"
+    },
+    {
+      "edge": "K07-E-AC30-REQUIRES-K07-CL-AC05",
+      "scope": "指定谐波序号与完整泛音系列的判定依赖编号定义。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC31-SUPPORTED-BY-K07-EV-AC31",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不能据格点承诺近频分离或估计误差；其他窗型及方法另证。"
+    },
+    {
+      "edge": "K07-E-AC31-APPLIES-UNDER-K07-CTX-AC31",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不能据格点承诺近频分离或估计误差；其他窗型及方法另证。"
+    },
+    {
+      "edge": "K07-E-AC31-REQUIRES-K07-CL-AC06",
+      "scope": "格点加密与观察窗独立的判断依赖窗长和NFFT的区分。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC32-SUPPORTED-BY-K07-EV-AC32",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "漏事件不等不存在，泄漏不是新增源；一次估计不能证明/排除WSS。"
+    },
+    {
+      "edge": "K07-E-AC32-APPLIES-UNDER-K07-CTX-AC32",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "漏事件不等不存在，泄漏不是新增源；一次估计不能证明/排除WSS。"
+    },
+    {
+      "edge": "K07-E-AC32-REFERENCES-K07-CL-AC08",
+      "scope": "生成模型与期望谱",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC33-SUPPORTED-BY-K07-EV-AC33",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "端部修正和真实乐器另证，单峰非唯一。"
+    },
+    {
+      "edge": "K07-E-AC33-APPLIES-UNDER-K07-CTX-AC33",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "端部修正和真实乐器另证，单峰非唯一。"
+    },
+    {
+      "edge": "K07-E-AC33-REFERENCES-K07-CL-AC09",
+      "scope": "固有与驱动",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC33-REFERENCES-K07-CL-AC10",
+      "scope": "闭开管模式",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC34-SUPPORTED-BY-K07-EV-AC34",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "真实吸收、耦合和空间位置影响响应；不能从任意谱峰推模态。"
+    },
+    {
+      "edge": "K07-E-AC34-APPLIES-UNDER-K07-CTX-AC34",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "真实吸收、耦合和空间位置影响响应；不能从任意谱峰推模态。"
+    },
+    {
+      "edge": "K07-E-AC34-REFERENCES-K07-CL-AC19",
+      "scope": "模态与衰减",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC35-SUPPORTED-BY-K07-EV-AC35",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不保证源分离、去混响或唯一归因；任务相对噪声可以确定性。"
+    },
+    {
+      "edge": "K07-E-AC35-APPLIES-UNDER-K07-CTX-AC35",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不保证源分离、去混响或唯一归因；任务相对噪声可以确定性。"
+    },
+    {
+      "edge": "K07-E-AC35-REQUIRES-K07-CL-AC11",
+      "scope": "Y=HX+N的分解问题依赖LTI激励与响应区别；仅HX项适用无额外干扰的子模型，不假设整个观测无噪声。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC36-SUPPORTED-BY-K07-EV-AC36",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "未知听者和曲线数值不能计算任意频率phon，不能推出安全。"
+    },
+    {
+      "edge": "K07-E-AC36-APPLIES-UNDER-K07-CTX-AC36",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "未知听者和曲线数值不能计算任意频率phon，不能推出安全。"
+    },
+    {
+      "edge": "K07-E-AC36-REFERENCES-K07-CL-AC12",
+      "scope": "ISO公开人群条件",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC37-SUPPORTED-BY-K07-EV-AC37",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不能假定听者必可辨，不生成听评结果。"
+    },
+    {
+      "edge": "K07-E-AC37-APPLIES-UNDER-K07-CTX-AC37",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不能假定听者必可辨，不生成听评结果。"
+    },
+    {
+      "edge": "K07-E-AC37-REFERENCES-K07-CL-AC13",
+      "scope": "频谱与音色候选",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC38-SUPPORTED-BY-K07-EV-AC38",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "同SNR不能识别机制贡献或阈值；语音研究不可外推所有音乐或个人，缺证UNKNOWN。"
+    },
+    {
+      "edge": "K07-E-AC38-APPLIES-UNDER-K07-CTX-AC38",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "同SNR不能识别机制贡献或阈值；语音研究不可外推所有音乐或个人，缺证UNKNOWN。"
+    },
+    {
+      "edge": "K07-E-AC38-REFERENCES-K07-CL-AC14",
+      "scope": "独立时序分类",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC39-SUPPORTED-BY-K07-EV-AC39",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不等真实HRTF、神经模型或诊断，不能由单谱确定听觉部位。"
+    },
+    {
+      "edge": "K07-E-AC39-APPLIES-UNDER-K07-CTX-AC39",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不等真实HRTF、神经模型或诊断，不能由单谱确定听觉部位。"
+    },
+    {
+      "edge": "K07-E-AC39-REFERENCES-K07-CL-AC44",
+      "scope": "ITD/ILD线索",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC40-SUPPORTED-BY-K07-EV-AC40",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不提高声级测试个人上限，不作诊断。"
+    },
+    {
+      "edge": "K07-E-AC40-APPLIES-UNDER-K07-CTX-AC40",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不提高声级测试个人上限，不作诊断。"
+    },
+    {
+      "edge": "K07-E-AC40-REFERENCES-K07-CL-AC16",
+      "scope": "标准频率范围",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC41-SUPPORTED-BY-K07-EV-AC41",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不能平均出医学结论、不强制继续听评或自测。"
+    },
+    {
+      "edge": "K07-E-AC41-APPLIES-UNDER-K07-CTX-AC41",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不能平均出医学结论、不强制继续听评或自测。"
+    },
+    {
+      "edge": "K07-E-AC41-REFERENCES-K07-CL-AC17",
+      "scope": "突然下降停止医疗评估",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC42-SUPPORTED-BY-K07-EV-AC42",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不以一个峰值唯一推墙距；吸收、散射与实际路径未知。"
+    },
+    {
+      "edge": "K07-E-AC42-APPLIES-UNDER-K07-CTX-AC42",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不以一个峰值唯一推墙距；吸收、散射与实际路径未知。"
+    },
+    {
+      "edge": "K07-E-AC42-REFERENCES-K07-CL-AC18",
+      "scope": "自由场理想模型",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC43-SUPPORTED-BY-K07-EV-AC43",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不是实际同一曲线或ISO认证；噪声底或范围不足对应量UNKNOWN。"
+    },
+    {
+      "edge": "K07-E-AC43-APPLIES-UNDER-K07-CTX-AC43",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不是实际同一曲线或ISO认证；噪声底或范围不足对应量UNKNOWN。"
+    },
+    {
+      "edge": "K07-E-AC43-REQUIRES-K07-CL-AC19",
+      "scope": "三个衰减拟合量都使用有效斜率外推，而非反射峰。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC44-SUPPORTED-BY-K07-EV-AC44",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "正前/后等可能共享耳间差，耳廓谱和运动等证据另核，不推真实定位精度。"
+    },
+    {
+      "edge": "K07-E-AC44-APPLIES-UNDER-K07-CTX-AC44",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "正前/后等可能共享耳间差，耳廓谱和运动等证据另核，不推真实定位精度。"
+    },
+    {
+      "edge": "K07-E-AC44-REFERENCES-K07-CL-AC20",
+      "scope": "相干/非相干及位置",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC45-SUPPORTED-BY-K07-EV-AC45",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不能混合不同参考、未知时长或把缺失段视为零；非实际暴露安全。"
+    },
+    {
+      "edge": "K07-E-AC45-APPLIES-UNDER-K07-CTX-AC45",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不能混合不同参考、未知时长或把缺失段视为零；非实际暴露安全。"
+    },
+    {
+      "edge": "K07-E-AC45-REQUIRES-K07-CL-AC21",
+      "scope": "能量平均的级值必须先确定dB量定义与共同参考。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC46-SUPPORTED-BY-K07-EV-AC46",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "只有旧汇总不能反推新频权；不因改滤波就抹消原Pa，也不自动沿用换链校准。"
+    },
+    {
+      "edge": "K07-E-AC46-APPLIES-UNDER-K07-CTX-AC46",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "只有旧汇总不能反推新频权；不因改滤波就抹消原Pa，也不自动沿用换链校准。"
+    },
+    {
+      "edge": "K07-E-AC46-REQUIRES-K07-CL-AC22",
+      "scope": "校准/派生滤波报告失效必须分开物理链与报告。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC47-SUPPORTED-BY-K07-EV-AC47",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "不忽略相关性，不把任意k=2解释成精确95%或实际误差。"
+    },
+    {
+      "edge": "K07-E-AC47-APPLIES-UNDER-K07-CTX-AC47",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "不忽略相关性，不把任意k=2解释成精确95%或实际误差。"
+    },
+    {
+      "edge": "K07-E-AC47-REFERENCES-K07-CL-AC23",
+      "scope": "独立重复不确定度",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC48-SUPPORTED-BY-K07-EV-AC48",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "数字增益或设备百分比不能自动校准耳端声压；风险未知不试播。"
+    },
+    {
+      "edge": "K07-E-AC48-APPLIES-UNDER-K07-CTX-AC48",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "数字增益或设备百分比不能自动校准耳端声压；风险未知不试播。"
+    },
+    {
+      "edge": "K07-E-AC48-REFERENCES-K07-CL-AC24",
+      "scope": "比较条件",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC48-REFERENCES-K07-CL-AC46",
+      "scope": "校准链失效",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC49-SUPPORTED-BY-K07-EV-AC49",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。"
+    },
+    {
+      "edge": "K07-E-AC49-APPLIES-UNDER-K07-CTX-AC49",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。"
+    },
+    {
+      "edge": "K07-E-AC49-REQUIRES-K07-CL-AC25",
+      "scope": "暴露记录适用性需要先区分用途及真实量定义。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC49-REFERENCES-K07-CL-AC45",
+      "scope": "相对能量级",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC50-SUPPORTED-BY-K07-EV-AC50",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "无真实听音、许可、医疗或软件执行，不覆盖原件，不强制复测。"
+    },
+    {
+      "edge": "K07-E-AC50-APPLIES-UNDER-K07-CTX-AC50",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "无真实听音、许可、医疗或软件执行，不覆盖原件，不强制复测。"
+    },
+    {
+      "edge": "K07-E-AC50-REFERENCES-K07-CL-AC46",
+      "scope": "报告依赖失效",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC50-REFERENCES-K07-CL-AC48",
+      "scope": "播放链失效",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC51-SUPPORTED-BY-K07-EV-AC51",
+      "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
+      "limits": "图不全UNKNOWN；无模式闭环不等真实无风险。K19现场诊断、K15许可另证，禁止危险复现。"
+    },
+    {
+      "edge": "K07-E-AC51-APPLIES-UNDER-K07-CTX-AC51",
+      "scope": "使用该命题须验证其条件，而非由检索自动确认。",
+      "limits": "图不全UNKNOWN；无模式闭环不等真实无风险。K19现场诊断、K15许可另证，禁止危险复现。"
+    },
+    {
+      "edge": "K07-E-AC51-REFERENCES-K07-CL-AC35",
+      "scope": "响应和干扰候选",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    },
+    {
+      "edge": "K07-E-AC51-REFERENCES-K07-CL-AC42",
+      "scope": "返回路径几何条件",
+      "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K07-E-AC27-REQUIRES-K07-CL-AC02",
+      "consumer": "K07-CL-AC27@1",
+      "provider": "K07-CL-AC02@1",
+      "condition": "K07-CTX-AC27@1",
+      "providerContext": "K07-CTX-AC02@1",
+      "group": "K07-GR-AC27@1"
+    },
+    {
+      "edge": "K07-E-AC30-REQUIRES-K07-CL-AC05",
+      "consumer": "K07-CL-AC30@1",
+      "provider": "K07-CL-AC05@1",
+      "condition": "K07-CTX-AC30@1",
+      "providerContext": "K07-CTX-AC05@1",
+      "group": "K07-GR-AC30@1"
+    },
+    {
+      "edge": "K07-E-AC31-REQUIRES-K07-CL-AC06",
+      "consumer": "K07-CL-AC31@1",
+      "provider": "K07-CL-AC06@1",
+      "condition": "K07-CTX-AC31@1",
+      "providerContext": "K07-CTX-AC06@1",
+      "group": "K07-GR-AC31@1"
+    },
+    {
+      "edge": "K07-E-AC35-REQUIRES-K07-CL-AC11",
+      "consumer": "K07-CL-AC35@1",
+      "provider": "K07-CL-AC11@1",
+      "condition": "K07-CTX-AC35@1",
+      "providerContext": "K07-CTX-AC11@1",
+      "group": "K07-GR-AC35@1"
+    },
+    {
+      "edge": "K07-E-AC43-REQUIRES-K07-CL-AC19",
+      "consumer": "K07-CL-AC43@1",
+      "provider": "K07-CL-AC19@1",
+      "condition": "K07-CTX-AC43@1",
+      "providerContext": "K07-CTX-AC19@1",
+      "group": "K07-GR-AC43@1"
+    },
+    {
+      "edge": "K07-E-AC45-REQUIRES-K07-CL-AC21",
+      "consumer": "K07-CL-AC45@1",
+      "provider": "K07-CL-AC21@1",
+      "condition": "K07-CTX-AC45@1",
+      "providerContext": "K07-CTX-AC21@1",
+      "group": "K07-GR-AC45@1"
+    },
+    {
+      "edge": "K07-E-AC46-REQUIRES-K07-CL-AC22",
+      "consumer": "K07-CL-AC46@1",
+      "provider": "K07-CL-AC22@1",
+      "condition": "K07-CTX-AC46@1",
+      "providerContext": "K07-CTX-AC22@1",
+      "group": "K07-GR-AC46@1"
+    },
+    {
+      "edge": "K07-E-AC49-REQUIRES-K07-CL-AC25",
+      "consumer": "K07-CL-AC49@1",
+      "provider": "K07-CL-AC25@1",
+      "condition": "K07-CTX-AC49@1",
+      "providerContext": "K07-CTX-AC25@1",
+      "group": "K07-GR-AC49@1"
+    }
+  ]
+}

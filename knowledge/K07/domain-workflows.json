@@ -1,0 +1,1621 @@
+{
+  "format": "audio-kg-K07-domain-workflow-candidate/1",
+  "status": "CANDIDATE_PROPOSALS_ONLY",
+  "records": [
+    {
+      "id": "K07-WF-SPECTRUM",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K07",
+      "d2": "K07.02",
+      "task": "源事件→有限观察→谱解释",
+      "status": "CANDIDATE",
+      "entry": "K07-ST-SPECTRUM-INPUT@1",
+      "stepRefs": [
+        "K07-ST-SPECTRUM-INPUT@1",
+        "K07-ST-SPECTRUM-WINDOW@1",
+        "K07-ST-SPECTRUM-INTERPRET@1"
+      ],
+      "limits": "只生成知识条件及候选报告；不执行真实工具、音频、医疗或权限操作。"
+    },
+    {
+      "id": "K07-ST-SPECTRUM-INPUT",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "label": "核源、事件、原始序列及时间支持",
+      "context": "K07-CTX-AC08@1",
+      "inputFields": [
+        "inputIdentityKnown"
+      ],
+      "outputFields": [
+        "sourceEventRecord"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-SPECTRUM-WINDOW",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "label": "核实际窗、NFFT和表示单位",
+      "context": "K07-CTX-AC06@1",
+      "inputFields": [
+        "windowMetadataKnown"
+      ],
+      "outputFields": [
+        "annotationCandidate"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-SPECTRUM-INTERPRET",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "label": "区分生成模型、有限谱及谐波序号",
+      "context": "K07-CTX-AC05@1",
+      "inputFields": [
+        "generationEvidenceKnown"
+      ],
+      "outputFields": [
+        "boundedSpectrumInterpretation"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-TR-SPECTRUM-1",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "fromStep": "K07-ST-SPECTRUM-INPUT@1",
+      "guard": {
+        "inputIdentityKnown": true
+      },
+      "toStep": "K07-ST-SPECTRUM-WINDOW@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-SPECTRUM-2",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "fromStep": "K07-ST-SPECTRUM-INPUT@1",
+      "guard": {
+        "inputIdentityKnown": false
+      },
+      "toStep": null,
+      "outcome": "UNKNOWN_INPUT"
+    },
+    {
+      "id": "K07-TR-SPECTRUM-3",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "fromStep": "K07-ST-SPECTRUM-WINDOW@1",
+      "guard": {
+        "windowMetadataKnown": true
+      },
+      "toStep": "K07-ST-SPECTRUM-INTERPRET@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-SPECTRUM-4",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "fromStep": "K07-ST-SPECTRUM-WINDOW@1",
+      "guard": {
+        "windowMetadataKnown": false
+      },
+      "toStep": null,
+      "outcome": "UNKNOWN_WINDOW"
+    },
+    {
+      "id": "K07-TR-SPECTRUM-5",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "fromStep": "K07-ST-SPECTRUM-INTERPRET@1",
+      "guard": {
+        "generationEvidenceKnown": true
+      },
+      "toStep": null,
+      "outcome": "PROPOSED_BOUNDED_ANALYSIS"
+    },
+    {
+      "id": "K07-TR-SPECTRUM-6",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-SPECTRUM@1",
+      "fromStep": "K07-ST-SPECTRUM-INTERPRET@1",
+      "guard": {
+        "generationEvidenceKnown": false
+      },
+      "toStep": null,
+      "outcome": "FINITE_OBSERVATION_ONLY_MODEL_UNKNOWN"
+    },
+    {
+      "id": "K07-WF-MASKING",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K07",
+      "d2": "K07.04",
+      "task": "刺激→控制→机制候选→感知证据",
+      "status": "CANDIDATE",
+      "entry": "K07-ST-MASKING-STIMULUS@1",
+      "stepRefs": [
+        "K07-ST-MASKING-STIMULUS@1",
+        "K07-ST-MASKING-CONTROL@1",
+        "K07-ST-MASKING-EVIDENCE@1"
+      ],
+      "limits": "只生成知识条件及候选报告；不执行真实工具、音频、医疗或权限操作。"
+    },
+    {
+      "id": "K07-ST-MASKING-STIMULUS",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "label": "核刺激、参照及目标身份",
+      "context": "K07-CTX-AC12@1",
+      "inputFields": [
+        "stimulusKnown"
+      ],
+      "outputFields": [
+        "stimulusCondition"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-MASKING-CONTROL",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "label": "分轴能量/包络/目标选择及时间条件",
+      "context": "K07-CTX-AC38@1",
+      "inputFields": [
+        "mechanismControlsKnown"
+      ],
+      "outputFields": [
+        "mechanismCandidates"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-MASKING-EVIDENCE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "label": "检查已给感知证据及风险，离线候选不播放",
+      "context": "K07-CTX-AC38@1",
+      "inputFields": [
+        "perceptualEvidenceProvided"
+      ],
+      "outputFields": [
+        "boundedComparison"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-TR-MASKING-1",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "fromStep": "K07-ST-MASKING-STIMULUS@1",
+      "guard": {
+        "stimulusKnown": true
+      },
+      "toStep": "K07-ST-MASKING-CONTROL@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-MASKING-2",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "fromStep": "K07-ST-MASKING-STIMULUS@1",
+      "guard": {
+        "stimulusKnown": false
+      },
+      "toStep": null,
+      "outcome": "UNKNOWN_STIMULUS"
+    },
+    {
+      "id": "K07-TR-MASKING-3",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "fromStep": "K07-ST-MASKING-CONTROL@1",
+      "guard": {
+        "mechanismControlsKnown": true
+      },
+      "toStep": "K07-ST-MASKING-EVIDENCE@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-MASKING-4",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "fromStep": "K07-ST-MASKING-CONTROL@1",
+      "guard": {
+        "mechanismControlsKnown": false
+      },
+      "toStep": null,
+      "outcome": "UNKNOWN_MECHANISM"
+    },
+    {
+      "id": "K07-TR-MASKING-5",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "fromStep": "K07-ST-MASKING-EVIDENCE@1",
+      "guard": {
+        "perceptualEvidenceProvided": true
+      },
+      "toStep": null,
+      "outcome": "PROPOSED_CONDITIONAL_COMPARISON"
+    },
+    {
+      "id": "K07-TR-MASKING-6",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MASKING@1",
+      "fromStep": "K07-ST-MASKING-EVIDENCE@1",
+      "guard": {
+        "perceptualEvidenceProvided": false
+      },
+      "toStep": null,
+      "outcome": "MECHANISM_CANDIDATES_ONLY"
+    },
+    {
+      "id": "K07-WF-ROOM",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K07",
+      "d2": "K07.06",
+      "task": "场型与路径→有效衰减→拓扑与有限结论",
+      "status": "CANDIDATE",
+      "entry": "K07-ST-ROOM-GEOMETRY@1",
+      "stepRefs": [
+        "K07-ST-ROOM-GEOMETRY@1",
+        "K07-ST-ROOM-DECAY@1",
+        "K07-ST-ROOM-TOPOLOGY@1"
+      ],
+      "limits": "只生成知识条件及候选报告；不执行真实工具、音频、医疗或权限操作。"
+    },
+    {
+      "id": "K07-ST-ROOM-GEOMETRY",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "label": "核几何、时钟、场型及路径",
+      "context": "K07-CTX-AC18@1",
+      "inputFields": [
+        "pathConditionsKnown"
+      ],
+      "outputFields": [
+        "pathCandidates"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-ROOM-DECAY",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "label": "核频带、拟合区间及噪声",
+      "context": "K07-CTX-AC19@1",
+      "inputFields": [
+        "fitConditionsValid"
+      ],
+      "outputFields": [
+        "decayCandidate"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-ROOM-TOPOLOGY",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "label": "核模型完整性及反馈路径",
+      "context": "K07-CTX-AC51@1",
+      "inputFields": [
+        "topologyComplete"
+      ],
+      "outputFields": [
+        "boundedPathAndDecay"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-TR-ROOM-1",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "fromStep": "K07-ST-ROOM-GEOMETRY@1",
+      "guard": {
+        "pathConditionsKnown": true
+      },
+      "toStep": "K07-ST-ROOM-DECAY@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-ROOM-2",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "fromStep": "K07-ST-ROOM-GEOMETRY@1",
+      "guard": {
+        "pathConditionsKnown": false
+      },
+      "toStep": null,
+      "outcome": "UNKNOWN_PATH"
+    },
+    {
+      "id": "K07-TR-ROOM-3",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "fromStep": "K07-ST-ROOM-DECAY@1",
+      "guard": {
+        "fitConditionsValid": true
+      },
+      "toStep": "K07-ST-ROOM-TOPOLOGY@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-ROOM-4",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "fromStep": "K07-ST-ROOM-DECAY@1",
+      "guard": {
+        "fitConditionsValid": false
+      },
+      "toStep": null,
+      "outcome": "PATH_CANDIDATE_DECAY_UNKNOWN"
+    },
+    {
+      "id": "K07-TR-ROOM-5",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "fromStep": "K07-ST-ROOM-TOPOLOGY@1",
+      "guard": {
+        "topologyComplete": true
+      },
+      "toStep": null,
+      "outcome": "PROPOSED_MODEL_ONLY_NOT_OSCILLATION"
+    },
+    {
+      "id": "K07-TR-ROOM-6",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-ROOM@1",
+      "fromStep": "K07-ST-ROOM-TOPOLOGY@1",
+      "guard": {
+        "topologyComplete": false
+      },
+      "toStep": null,
+      "outcome": "TOPOLOGY_UNKNOWN"
+    },
+    {
+      "id": "K07-WF-MEASUREMENT",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K07",
+      "d2": "K07.07",
+      "task": "量定义→校准→派生滤波→不确定度",
+      "status": "CANDIDATE",
+      "entry": "K07-ST-MEASUREMENT-MEASURAND@1",
+      "stepRefs": [
+        "K07-ST-MEASUREMENT-MEASURAND@1",
+        "K07-ST-MEASUREMENT-CALIBRATION@1",
+        "K07-ST-MEASUREMENT-FILTER@1",
+        "K07-ST-MEASUREMENT-UNCERTAINTY@1"
+      ],
+      "limits": "只生成知识条件及候选报告；不执行真实工具、音频、医疗或权限操作。"
+    },
+    {
+      "id": "K07-ST-MEASUREMENT-MEASURAND",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "label": "核量定义、参考、频权及时间",
+      "context": "K07-CTX-AC21@1",
+      "inputFields": [
+        "measurandKnown"
+      ],
+      "outputFields": [
+        "measurandSpec"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-MEASUREMENT-CALIBRATION",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "label": "核物理链校准当前性",
+      "context": "K07-CTX-AC22@1",
+      "inputFields": [
+        "physicalCalibrationCurrent"
+      ],
+      "outputFields": [
+        "calibrationScope"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-MEASUREMENT-FILTER",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "label": "核原始校准波形、滤波与边界",
+      "context": "K07-CTX-AC22@1",
+      "inputFields": [
+        "rawWaveformAndFilterValid"
+      ],
+      "outputFields": [
+        "derivedReportCandidate"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-MEASUREMENT-UNCERTAINTY",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "label": "核不确定度模型、相关性及用途",
+      "context": "K07-CTX-AC23@1",
+      "inputFields": [
+        "uncertaintyModelKnown"
+      ],
+      "outputFields": [
+        "boundedMeasurementReport"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-1",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-MEASURAND@1",
+      "guard": {
+        "measurandKnown": true
+      },
+      "toStep": "K07-ST-MEASUREMENT-CALIBRATION@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-2",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-MEASURAND@1",
+      "guard": {
+        "measurandKnown": false
+      },
+      "toStep": null,
+      "outcome": "UNKNOWN_MEASURAND"
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-3",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-CALIBRATION@1",
+      "guard": {
+        "physicalCalibrationCurrent": true
+      },
+      "toStep": "K07-ST-MEASUREMENT-FILTER@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-4",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-CALIBRATION@1",
+      "guard": {
+        "physicalCalibrationCurrent": false
+      },
+      "toStep": null,
+      "outcome": "PROPOSE_REVALIDATE_CALIBRATION"
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-5",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-FILTER@1",
+      "guard": {
+        "rawWaveformAndFilterValid": true
+      },
+      "toStep": "K07-ST-MEASUREMENT-UNCERTAINTY@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-6",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-FILTER@1",
+      "guard": {
+        "rawWaveformAndFilterValid": false
+      },
+      "toStep": null,
+      "outcome": "RETAIN_RAW_IF_VALID_NEW_WEIGHT_UNKNOWN"
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-7",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-UNCERTAINTY@1",
+      "guard": {
+        "uncertaintyModelKnown": true
+      },
+      "toStep": null,
+      "outcome": "PROPOSED_MEASUREMENT_REPORT"
+    },
+    {
+      "id": "K07-TR-MEASUREMENT-8",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-MEASUREMENT@1",
+      "fromStep": "K07-ST-MEASUREMENT-UNCERTAINTY@1",
+      "guard": {
+        "uncertaintyModelKnown": false
+      },
+      "toStep": null,
+      "outcome": "UNCERTAINTY_UNKNOWN"
+    },
+    {
+      "id": "K07-WF-LISTENING",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K07",
+      "d2": "K07.08",
+      "task": "风险与许可→播放链→暴露记录→候选比较",
+      "status": "CANDIDATE",
+      "entry": "K07-ST-LISTENING-RISK@1",
+      "stepRefs": [
+        "K07-ST-LISTENING-RISK@1",
+        "K07-ST-LISTENING-CHAIN@1",
+        "K07-ST-LISTENING-EXPOSURE@1",
+        "K07-ST-LISTENING-COMPARE@1"
+      ],
+      "limits": "只生成知识条件及候选报告；不执行真实工具、音频、医疗或权限操作。"
+    },
+    {
+      "id": "K07-ST-LISTENING-RISK",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "label": "风险、撤回和突然听力下降优先",
+      "context": "K07-CTX-AC26@1",
+      "inputFields": [
+        "stopRequired",
+        "conditionsStipulated"
+      ],
+      "outputFields": [
+        "riskDisposition"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-LISTENING-CHAIN",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "label": "核播放链身份和有效电平条件",
+      "context": "K07-CTX-AC24@1",
+      "inputFields": [
+        "playbackEvidenceCurrent"
+      ],
+      "outputFields": [
+        "chainConditions"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-LISTENING-EXPOSURE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "label": "核用途、时间和完整校准暴露数据",
+      "context": "K07-CTX-AC25@1",
+      "inputFields": [
+        "exposureEvidenceComplete"
+      ],
+      "outputFields": [
+        "exposureConditions"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-ST-LISTENING-COMPARE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "label": "只提出离线对照候选，保护原件",
+      "context": "K07-CTX-AC26@1",
+      "inputFields": [
+        "analysisEvidenceCurrent"
+      ],
+      "outputFields": [
+        "comparisonProposal"
+      ],
+      "status": "CANDIDATE",
+      "failure": "UNKNOWN_OR_STOP; no implicit real execution"
+    },
+    {
+      "id": "K07-TR-LISTENING-1",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-RISK@1",
+      "guard": {
+        "stopRequired": true
+      },
+      "toStep": null,
+      "outcome": "STOP_NO_PLAYBACK"
+    },
+    {
+      "id": "K07-TR-LISTENING-2",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-RISK@1",
+      "guard": {
+        "stopRequired": false,
+        "conditionsStipulated": false
+      },
+      "toStep": null,
+      "outcome": "STOP_OR_UNKNOWN_NO_PLAYBACK"
+    },
+    {
+      "id": "K07-TR-LISTENING-3",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-RISK@1",
+      "guard": {
+        "stopRequired": false,
+        "conditionsStipulated": true
+      },
+      "toStep": "K07-ST-LISTENING-CHAIN@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-LISTENING-4",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-CHAIN@1",
+      "guard": {
+        "playbackEvidenceCurrent": true
+      },
+      "toStep": "K07-ST-LISTENING-EXPOSURE@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-LISTENING-5",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-CHAIN@1",
+      "guard": {
+        "playbackEvidenceCurrent": false
+      },
+      "toStep": null,
+      "outcome": "CHAIN_EVIDENCE_INVALID_NO_PLAYBACK"
+    },
+    {
+      "id": "K07-TR-LISTENING-6",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-EXPOSURE@1",
+      "guard": {
+        "exposureEvidenceComplete": true
+      },
+      "toStep": "K07-ST-LISTENING-COMPARE@1",
+      "outcome": null
+    },
+    {
+      "id": "K07-TR-LISTENING-7",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-EXPOSURE@1",
+      "guard": {
+        "exposureEvidenceComplete": false
+      },
+      "toStep": null,
+      "outcome": "EXPOSURE_UNKNOWN_NO_PLAYBACK"
+    },
+    {
+      "id": "K07-TR-LISTENING-8",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-COMPARE@1",
+      "guard": {
+        "analysisEvidenceCurrent": true
+      },
+      "toStep": null,
+      "outcome": "PROPOSED_OFFLINE_COMPARISON_ONLY"
+    },
+    {
+      "id": "K07-TR-LISTENING-9",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K07",
+      "workflow": "K07-WF-LISTENING@1",
+      "fromStep": "K07-ST-LISTENING-COMPARE@1",
+      "guard": {
+        "analysisEvidenceCurrent": false
+      },
+      "toStep": null,
+      "outcome": "PROPOSE_RECOMPUTE_OFFLINE_ONLY"
+    },
+    {
+      "id": "K07-ART-SYNTH-SIGNAL",
+      "revision": 1,
+      "type": "Artifact",
+      "owner": "K07",
+      "kind": "SYNTHETIC_PARAMETER_RECORD",
+      "status": "CANDIDATE",
+      "fields": {
+        "signalRef": "SYNTH-AC31",
+        "fsHz": 4800,
+        "observedN": 48,
+        "window": "RECTANGULAR",
+        "hopSamples": 48,
+        "timeOriginSamples": 0,
+        "spectrumKind": "COMPLEX_DFT",
+        "unit": "ARBITRARY_AMPLITUDE"
+      },
+      "limits": "合成参数记录，不是实际音频或文件处理。"
+    },
+    {
+      "id": "K07-ART-SPECTRUM-ANNOTATION",
+      "revision": 1,
+      "type": "Artifact",
+      "owner": "K07",
+      "kind": "EDITABLE_SPECTRUM_ANNOTATION",
+      "status": "CANDIDATE",
+      "fields": {
+        "inputRef": "K07-ART-SYNTH-SIGNAL@1",
+        "nfft": 48,
+        "gridHz": 100,
+        "windowMs": 10,
+        "firstNullHz": 100,
+        "physicalResolution": "NOT_ESTABLISHED"
+      },
+      "limits": "仅矩形单复指数示例。"
+    },
+    {
+      "id": "K07-ART-SPECTRUM-ANNOTATION",
+      "revision": 2,
+      "type": "Artifact",
+      "owner": "K07",
+      "kind": "EDITABLE_SPECTRUM_ANNOTATION",
+      "status": "CANDIDATE",
+      "fields": {
+        "inputRef": "K07-ART-SYNTH-SIGNAL@1",
+        "nfft": 480,
+        "gridHz": 10,
+        "windowMs": 10,
+        "firstNullHz": 100,
+        "physicalResolution": "NOT_ESTABLISHED"
+      },
+      "limits": "仅矩形单复指数示例。"
+    }
+  ],
+  "relations": [
+    {
+      "id": "K07-WR-1",
+      "type": "requires",
+      "to": "K07-CL-AC08@1",
+      "condition": "K07-CTX-AC08@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INPUT@1"
+    },
+    {
+      "id": "K07-WR-2",
+      "type": "requires",
+      "to": "K07-CL-AC32@1",
+      "condition": "K07-CTX-AC08@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INPUT@1"
+    },
+    {
+      "id": "K07-WR-3",
+      "type": "applies_under",
+      "to": "K07-CTX-AC08@1",
+      "condition": "K07-CTX-AC08@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INPUT@1"
+    },
+    {
+      "id": "K07-WR-4",
+      "type": "requires",
+      "to": "K07-CL-AC06@1",
+      "condition": "K07-CTX-AC06@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-WINDOW@1"
+    },
+    {
+      "id": "K07-WR-5",
+      "type": "requires",
+      "to": "K07-CL-AC31@1",
+      "condition": "K07-CTX-AC06@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-WINDOW@1"
+    },
+    {
+      "id": "K07-WR-6",
+      "type": "requires",
+      "to": "K07-CL-AC07@1",
+      "condition": "K07-CTX-AC06@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-WINDOW@1"
+    },
+    {
+      "id": "K07-WR-7",
+      "type": "applies_under",
+      "to": "K07-CTX-AC06@1",
+      "condition": "K07-CTX-AC06@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-WINDOW@1"
+    },
+    {
+      "id": "K07-WR-8",
+      "type": "requires",
+      "to": "K07-CL-AC05@1",
+      "condition": "K07-CTX-AC05@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INTERPRET@1"
+    },
+    {
+      "id": "K07-WR-9",
+      "type": "requires",
+      "to": "K07-CL-AC08@1",
+      "condition": "K07-CTX-AC05@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INTERPRET@1"
+    },
+    {
+      "id": "K07-WR-10",
+      "type": "requires",
+      "to": "K07-CL-AC30@1",
+      "condition": "K07-CTX-AC05@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INTERPRET@1"
+    },
+    {
+      "id": "K07-WR-11",
+      "type": "applies_under",
+      "to": "K07-CTX-AC05@1",
+      "condition": "K07-CTX-AC05@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INTERPRET@1"
+    },
+    {
+      "id": "K07-WR-12",
+      "type": "prerequisite_for",
+      "to": "K07-ST-SPECTRUM-WINDOW@1",
+      "condition": "K07-CTX-AC08@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-INPUT@1"
+    },
+    {
+      "id": "K07-WR-13",
+      "type": "prerequisite_for",
+      "to": "K07-ST-SPECTRUM-INTERPRET@1",
+      "condition": "K07-CTX-AC06@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-SPECTRUM-WINDOW@1"
+    },
+    {
+      "id": "K07-WR-14",
+      "type": "requires",
+      "to": "K07-CL-AC12@1",
+      "condition": "K07-CTX-AC12@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-STIMULUS@1"
+    },
+    {
+      "id": "K07-WR-15",
+      "type": "requires",
+      "to": "K07-CL-AC14@1",
+      "condition": "K07-CTX-AC12@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-STIMULUS@1"
+    },
+    {
+      "id": "K07-WR-16",
+      "type": "applies_under",
+      "to": "K07-CTX-AC12@1",
+      "condition": "K07-CTX-AC12@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-STIMULUS@1"
+    },
+    {
+      "id": "K07-WR-17",
+      "type": "requires",
+      "to": "K07-CL-AC38@1",
+      "condition": "K07-CTX-AC38@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-CONTROL@1"
+    },
+    {
+      "id": "K07-WR-18",
+      "type": "requires",
+      "to": "K07-CL-AC36@1",
+      "condition": "K07-CTX-AC38@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-CONTROL@1"
+    },
+    {
+      "id": "K07-WR-19",
+      "type": "applies_under",
+      "to": "K07-CTX-AC38@1",
+      "condition": "K07-CTX-AC38@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-CONTROL@1"
+    },
+    {
+      "id": "K07-WR-20",
+      "type": "requires",
+      "to": "K07-CL-AC38@1",
+      "condition": "K07-CTX-AC38@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-EVIDENCE@1"
+    },
+    {
+      "id": "K07-WR-21",
+      "type": "requires",
+      "to": "K07-CL-AC14@1",
+      "condition": "K07-CTX-AC38@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-EVIDENCE@1"
+    },
+    {
+      "id": "K07-WR-22",
+      "type": "applies_under",
+      "to": "K07-CTX-AC38@1",
+      "condition": "K07-CTX-AC38@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-EVIDENCE@1"
+    },
+    {
+      "id": "K07-WR-23",
+      "type": "prerequisite_for",
+      "to": "K07-ST-MASKING-CONTROL@1",
+      "condition": "K07-CTX-AC12@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-STIMULUS@1"
+    },
+    {
+      "id": "K07-WR-24",
+      "type": "prerequisite_for",
+      "to": "K07-ST-MASKING-EVIDENCE@1",
+      "condition": "K07-CTX-AC38@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MASKING-CONTROL@1"
+    },
+    {
+      "id": "K07-WR-25",
+      "type": "requires",
+      "to": "K07-CL-AC18@1",
+      "condition": "K07-CTX-AC18@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-GEOMETRY@1"
+    },
+    {
+      "id": "K07-WR-26",
+      "type": "requires",
+      "to": "K07-CL-AC42@1",
+      "condition": "K07-CTX-AC18@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-GEOMETRY@1"
+    },
+    {
+      "id": "K07-WR-27",
+      "type": "requires",
+      "to": "K07-CL-AC44@1",
+      "condition": "K07-CTX-AC18@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-GEOMETRY@1"
+    },
+    {
+      "id": "K07-WR-28",
+      "type": "applies_under",
+      "to": "K07-CTX-AC18@1",
+      "condition": "K07-CTX-AC18@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-GEOMETRY@1"
+    },
+    {
+      "id": "K07-WR-29",
+      "type": "requires",
+      "to": "K07-CL-AC19@1",
+      "condition": "K07-CTX-AC19@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-DECAY@1"
+    },
+    {
+      "id": "K07-WR-30",
+      "type": "requires",
+      "to": "K07-CL-AC43@1",
+      "condition": "K07-CTX-AC19@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-DECAY@1"
+    },
+    {
+      "id": "K07-WR-31",
+      "type": "applies_under",
+      "to": "K07-CTX-AC19@1",
+      "condition": "K07-CTX-AC19@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-DECAY@1"
+    },
+    {
+      "id": "K07-WR-32",
+      "type": "requires",
+      "to": "K07-CL-AC51@1",
+      "condition": "K07-CTX-AC51@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-TOPOLOGY@1"
+    },
+    {
+      "id": "K07-WR-33",
+      "type": "applies_under",
+      "to": "K07-CTX-AC51@1",
+      "condition": "K07-CTX-AC51@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-TOPOLOGY@1"
+    },
+    {
+      "id": "K07-WR-34",
+      "type": "prerequisite_for",
+      "to": "K07-ST-ROOM-DECAY@1",
+      "condition": "K07-CTX-AC18@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-GEOMETRY@1"
+    },
+    {
+      "id": "K07-WR-35",
+      "type": "prerequisite_for",
+      "to": "K07-ST-ROOM-TOPOLOGY@1",
+      "condition": "K07-CTX-AC19@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-ROOM-DECAY@1"
+    },
+    {
+      "id": "K07-WR-36",
+      "type": "requires",
+      "to": "K07-CL-AC21@1",
+      "condition": "K07-CTX-AC21@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-MEASURAND@1"
+    },
+    {
+      "id": "K07-WR-37",
+      "type": "requires",
+      "to": "K07-CL-AC45@1",
+      "condition": "K07-CTX-AC21@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-MEASURAND@1"
+    },
+    {
+      "id": "K07-WR-38",
+      "type": "applies_under",
+      "to": "K07-CTX-AC21@1",
+      "condition": "K07-CTX-AC21@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-MEASURAND@1"
+    },
+    {
+      "id": "K07-WR-39",
+      "type": "requires",
+      "to": "K07-CL-AC22@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-CALIBRATION@1"
+    },
+    {
+      "id": "K07-WR-40",
+      "type": "requires",
+      "to": "K07-CL-AC46@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-CALIBRATION@1"
+    },
+    {
+      "id": "K07-WR-41",
+      "type": "applies_under",
+      "to": "K07-CTX-AC22@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-CALIBRATION@1"
+    },
+    {
+      "id": "K07-WR-42",
+      "type": "requires",
+      "to": "K07-CL-AC22@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-FILTER@1"
+    },
+    {
+      "id": "K07-WR-43",
+      "type": "requires",
+      "to": "K07-CL-AC46@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-FILTER@1"
+    },
+    {
+      "id": "K07-WR-44",
+      "type": "applies_under",
+      "to": "K07-CTX-AC22@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-FILTER@1"
+    },
+    {
+      "id": "K07-WR-45",
+      "type": "requires",
+      "to": "K07-CL-AC23@1",
+      "condition": "K07-CTX-AC23@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-UNCERTAINTY@1"
+    },
+    {
+      "id": "K07-WR-46",
+      "type": "requires",
+      "to": "K07-CL-AC47@1",
+      "condition": "K07-CTX-AC23@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-UNCERTAINTY@1"
+    },
+    {
+      "id": "K07-WR-47",
+      "type": "applies_under",
+      "to": "K07-CTX-AC23@1",
+      "condition": "K07-CTX-AC23@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-UNCERTAINTY@1"
+    },
+    {
+      "id": "K07-WR-48",
+      "type": "prerequisite_for",
+      "to": "K07-ST-MEASUREMENT-CALIBRATION@1",
+      "condition": "K07-CTX-AC21@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-MEASURAND@1"
+    },
+    {
+      "id": "K07-WR-49",
+      "type": "prerequisite_for",
+      "to": "K07-ST-MEASUREMENT-FILTER@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-CALIBRATION@1"
+    },
+    {
+      "id": "K07-WR-50",
+      "type": "prerequisite_for",
+      "to": "K07-ST-MEASUREMENT-UNCERTAINTY@1",
+      "condition": "K07-CTX-AC22@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-MEASUREMENT-FILTER@1"
+    },
+    {
+      "id": "K07-WR-51",
+      "type": "requires",
+      "to": "K07-CL-AC26@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-RISK@1"
+    },
+    {
+      "id": "K07-WR-52",
+      "type": "requires",
+      "to": "K07-CL-AC49@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-RISK@1"
+    },
+    {
+      "id": "K07-WR-53",
+      "type": "requires",
+      "to": "K07-CL-AC50@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-RISK@1"
+    },
+    {
+      "id": "K07-WR-54",
+      "type": "applies_under",
+      "to": "K07-CTX-AC26@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-RISK@1"
+    },
+    {
+      "id": "K07-WR-55",
+      "type": "requires",
+      "to": "K07-CL-AC24@1",
+      "condition": "K07-CTX-AC24@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-CHAIN@1"
+    },
+    {
+      "id": "K07-WR-56",
+      "type": "requires",
+      "to": "K07-CL-AC48@1",
+      "condition": "K07-CTX-AC24@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-CHAIN@1"
+    },
+    {
+      "id": "K07-WR-57",
+      "type": "applies_under",
+      "to": "K07-CTX-AC24@1",
+      "condition": "K07-CTX-AC24@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-CHAIN@1"
+    },
+    {
+      "id": "K07-WR-58",
+      "type": "requires",
+      "to": "K07-CL-AC25@1",
+      "condition": "K07-CTX-AC25@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-EXPOSURE@1"
+    },
+    {
+      "id": "K07-WR-59",
+      "type": "requires",
+      "to": "K07-CL-AC49@1",
+      "condition": "K07-CTX-AC25@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-EXPOSURE@1"
+    },
+    {
+      "id": "K07-WR-60",
+      "type": "applies_under",
+      "to": "K07-CTX-AC25@1",
+      "condition": "K07-CTX-AC25@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-EXPOSURE@1"
+    },
+    {
+      "id": "K07-WR-61",
+      "type": "requires",
+      "to": "K07-CL-AC26@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-COMPARE@1"
+    },
+    {
+      "id": "K07-WR-62",
+      "type": "requires",
+      "to": "K07-CL-AC50@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "该步骤核验领域谓词及其适用范围；必要不充分，检索不证明条件成立。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-COMPARE@1"
+    },
+    {
+      "id": "K07-WR-63",
+      "type": "applies_under",
+      "to": "K07-CTX-AC26@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "主要专业条件；其他引用各自条件亦需核。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-COMPARE@1"
+    },
+    {
+      "id": "K07-WR-64",
+      "type": "prerequisite_for",
+      "to": "K07-ST-LISTENING-CHAIN@1",
+      "condition": "K07-CTX-AC26@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-RISK@1"
+    },
+    {
+      "id": "K07-WR-65",
+      "type": "prerequisite_for",
+      "to": "K07-ST-LISTENING-EXPOSURE@1",
+      "condition": "K07-CTX-AC24@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-CHAIN@1"
+    },
+    {
+      "id": "K07-WR-66",
+      "type": "prerequisite_for",
+      "to": "K07-ST-LISTENING-COMPARE@1",
+      "condition": "K07-CTX-AC25@1",
+      "scope": "有界分析步骤先后；非物理因果。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ST-LISTENING-EXPOSURE@1"
+    },
+    {
+      "id": "K07-WR-67",
+      "type": "derived_from",
+      "to": "K07-ART-SYNTH-SIGNAL@1",
+      "condition": "K07-CTX-AC31@1",
+      "scope": "保留原输入；新NFFT仅派生新格点标注，实际窗不变。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ART-SPECTRUM-ANNOTATION@1"
+    },
+    {
+      "id": "K07-WR-68",
+      "type": "derived_from",
+      "to": "K07-ART-SYNTH-SIGNAL@1",
+      "condition": "K07-CTX-AC31@1",
+      "scope": "保留原输入；新NFFT仅派生新格点标注，实际窗不变。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ART-SPECTRUM-ANNOTATION@2"
+    },
+    {
+      "id": "K07-WR-69",
+      "type": "supersedes",
+      "to": "K07-ART-SPECTRUM-ANNOTATION@1",
+      "condition": "K07-CTX-AC31@1",
+      "scope": "新标注版本替换当前选择，旧历史保留；不继承接受或权限。",
+      "limits": "限定离线领域候选，无实际执行/权限/观察。",
+      "from": "K07-ART-SPECTRUM-ANNOTATION@2"
+    }
+  ],
+  "roleBindings": {
+    "K07.02/A02": "K07-WF-SPECTRUM@1",
+    "K07.04/A02": "K07-WF-MASKING@1",
+    "K07.06/A02": "K07-WF-ROOM@1",
+    "K07.07/A02": "K07-WF-MEASUREMENT@1",
+    "K07.08/A02": "K07-WF-LISTENING@1",
+    "K07.02/A06": "K07-ART-SPECTRUM-ANNOTATION@2"
+  },
+  "stateRules": {
+    "scope": "AC22/46 + AC48/50; synthetic evidence state only, not permission service",
+    "initial": {
+      "sourceId": "SYNTH-ORIGINAL@1",
+      "analysisVersion": "w1",
+      "physicalChain": "cal1",
+      "playbackChain": "play1",
+      "permission": "STIPULATED_ONLY",
+      "risk": "UNKNOWN_NOT_REAL",
+      "rawCalibrationEvidence": "CURRENT_IN_FIXTURE",
+      "spectrumReport": "CURRENT_IN_FIXTURE",
+      "listeningMatch": "CURRENT_IN_FIXTURE",
+      "action": "OFFLINE_ONLY"
+    },
+    "events": [
+      {
+        "event": "ANALYSIS_WINDOW_CHANGED",
+        "claimRefs": [
+          "K07-CL-AC50@1",
+          "K07-CL-AC31@1"
+        ],
+        "changes": {
+          "analysisVersion": "w2",
+          "spectrumReport": "NEEDS_RECOMPUTE"
+        },
+        "preserve": [
+          "sourceId",
+          "physicalChain",
+          "rawCalibrationEvidence",
+          "playbackChain",
+          "listeningMatch"
+        ],
+        "action": "OFFLINE_RECOMPUTE_PROPOSAL"
+      },
+      {
+        "event": "PHYSICAL_CHAIN_CHANGED",
+        "claimRefs": [
+          "K07-CL-AC46@1",
+          "K07-CL-AC22@1"
+        ],
+        "changes": {
+          "physicalChain": "cal2",
+          "rawCalibrationEvidence": "NEEDS_REVALIDATION",
+          "spectrumReport": "NEEDS_RECOMPUTE"
+        },
+        "preserve": [
+          "sourceId"
+        ],
+        "action": "REVALIDATION_PROPOSAL"
+      },
+      {
+        "event": "PLAYBACK_CHAIN_CHANGED",
+        "claimRefs": [
+          "K07-CL-AC48@1",
+          "K07-CL-AC50@1"
+        ],
+        "changes": {
+          "playbackChain": "play2",
+          "listeningMatch": "INVALIDATED"
+        },
+        "preserve": [
+          "sourceId",
+          "rawCalibrationEvidence"
+        ],
+        "action": "NO_PLAYBACK"
+      },
+      {
+        "event": "PERMISSION_WITHDRAWN",
+        "claimRefs": [
+          "K07-CL-AC26@1",
+          "K07-CL-AC50@1"
+        ],
+        "changes": {
+          "permission": "WITHDRAWN"
+        },
+        "preserve": [
+          "sourceId"
+        ],
+        "action": "STOP_NO_PLAYBACK"
+      },
+      {
+        "event": "SUDDEN_HEARING_LOSS_REPORTED",
+        "claimRefs": [
+          "K07-CL-AC17@1",
+          "K07-CL-AC41@1"
+        ],
+        "changes": {
+          "risk": "URGENT_REPORT"
+        },
+        "preserve": [
+          "sourceId"
+        ],
+        "action": "STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION"
+      }
+    ],
+    "rules": [
+      "Stop dominates subsequent proposed reanalysis or comparison after withdrawal/urgent report; never infer permission from role, state or prior result.",
+      "Source identity protected across all events.",
+      "Only known explicit event kinds supported; unknown event is UNKNOWN/no execution."
+    ]
+  },
+  "limits": "Finite local domain-specific shape and tests only; no common schema change, no arbitrary execution, real grants, audio, actual clinical observation or production DB."
+}
