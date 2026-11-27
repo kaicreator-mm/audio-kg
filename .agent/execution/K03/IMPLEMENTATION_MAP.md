@@ -1,0 +1,2 @@
+# IMPLEMENTATION_MAP.md
+60 exact K03 discovery rows, 56 capability cells, 48 legacy routes; professional pedagogical scope and four directions, source identity and reused qualified providers. KC-A03 exact concert/written pitch, full fill intervals, protected score and local revision, resources, breath/retune, cultural scope, part/voice/identity and loss. No real performer/clinical/LLM/tool or permission proof. Complete module batch independent review.

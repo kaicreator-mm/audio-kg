@@ -1,0 +1,40 @@
+{
+  "pack_id": "audio-kg-v010-K03-g1",
+  "task_id": "K03",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "a32be2b230070aa755c9195bc74d16dcdec7b291",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/blob/48459608548ee13c330641b20cca2d585cc290f3/docs/implementation/v0.1.0/TASK_PACKS.json#K03",
+  "branch": "task/v0.1.0-arrangement-formal",
+  "parent_issue": "#92",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-k03-builder",
+  "generated_at": "2026-11-27T15:59:47.693424+00:00",
+  "dependency_completion": [
+    "K02@ff7e2eb2e439e4f2d9b26d173530db4fc2cea79b"
+  ],
+  "material_paths": [
+    "knowledge/K03/",
+    "cases/K03/",
+    "queries/K03/",
+    "sources/K03/",
+    "tests/knowledge/K03/",
+    "docs/validation/K03/",
+    "docs/product/calibration/",
+    "docs/research/",
+    "knowledge/K02/",
+    "knowledge/K01/"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}
