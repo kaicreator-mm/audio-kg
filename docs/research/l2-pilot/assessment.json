@@ -1,0 +1,48 @@
+{
+  "namespace": "HELD_OUT_RUBRIC",
+  "marker": "EVAL_ONLY_RUBRIC_42C991",
+  "cases": [
+    {
+      "id": "eval-r1",
+      "expected": {
+        "state": "VALUE",
+        "cents": 203.91000173077484
+      }
+    },
+    {
+      "id": "eval-r2",
+      "expected": {
+        "state": "VALUE",
+        "estimateError": -203.91000173077484,
+        "actualGoalError": 203.91000173077484,
+        "estimatedGoalError": 0
+      }
+    },
+    {
+      "id": "eval-r3",
+      "expected": {
+        "state": "VALUE",
+        "seconds": 0.015,
+        "gridHz": 33.333333333333336,
+        "bins": 721
+      }
+    },
+    {
+      "id": "eval-r4",
+      "expected": {
+        "state": "UNKNOWN_REFERENCE",
+        "estimateError": null,
+        "actualGoalError": null,
+        "estimatedGoalError": 0
+      }
+    },
+    {
+      "id": "eval-r5",
+      "expected": {
+        "state": "PARTIAL",
+        "nfft": 1920,
+        "win": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "format": "audio-kg-l2-pilot/1",
+  "status": "RESEARCH_ONLY",
+  "sourceBase": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "claims": [
+    {
+      "id": "CL-CENTS",
+      "revision": 1,
+      "type": "Claim",
+      "owner": "K01",
+      "topic": "K01.02.04",
+      "d4": "K01.02.04.01",
+      "kind": "definition",
+      "statement": "音分由正频率比计算；与具体调律选择分离。",
+      "context": "CTX-CENTS@1",
+      "status": "CANDIDATE",
+      "cq": [
+        "CQ01",
+        "CQ06",
+        "CQ07"
+      ],
+      "limits": "positive finite frequencies, known reference; no tuning identity inferred",
+      "review": "L1_SCOPED_RESEARCH_NOT_CLAIM_ADMISSION"
+    },
+    {
+      "id": "CL-PITCH",
+      "revision": 1,
+      "type": "Claim",
+      "owner": "K05",
+      "topic": "K05.07.01",
+      "d4": "K05.07.01.05",
+      "kind": "practice",
+      "statement": "有效同身份窗内独立参考、估计及音乐目标的三种偏差必须分别计算；无证保持未知。",
+      "context": "CTX-PITCH@1",
+      "status": "CANDIDATE",
+      "cq": [
+        "CQ06",
+        "CQ07",
+        "CQ25"
+      ],
+      "limits": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "review": "L1_SCOPED_RESEARCH_NOT_CLAIM_ADMISSION"
+    },
+    {
+      "id": "CL-WINDOW",
+      "revision": 1,
+      "type": "Claim",
+      "owner": "K08",
+      "topic": "K08.03.02",
+      "d4": "K08.03.02.03",
+      "kind": "definition",
+      "statement": "观察时长取窗长/fs；FFT格点取fs/nfft；零填充不保证实际分辨率。",
+      "context": "CTX-WINDOW@1",
+      "status": "CANDIDATE",
+      "cq": [
+        "CQ07",
+        "CQ21"
+      ],
+      "limits": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
+      "review": "L1_SCOPED_RESEARCH_NOT_CLAIM_ADMISSION"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "CTX-CENTS",
+      "revision": 1,
+      "type": "Context",
+      "condition": "positive finite frequencies, known reference; no tuning identity inferred"
+    },
+    {
+      "id": "CTX-PITCH",
+      "revision": 1,
+      "type": "Context",
+      "condition": "independent reference and matching voice/event/time/mask; no diagnosis"
+    },
+    {
+      "id": "CTX-WINDOW",
+      "revision": 1,
+      "type": "Context",
+      "condition": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-CENTS",
+      "revision": 1,
+      "type": "Evidence",
+      "kind": "L1_RESEARCH_LOCATOR",
+      "sources": [
+        "S022@1"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 23,
+        "row": "| K01.02.04.01 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ07 S | S022 本轮重读 frequency ratio/cents 公式 | TD2-K01.02.04.01 | 音分是频率比的对数表达，不以12TET调律为必要条件 |"
+      },
+      "limits": "L1 candidate only; locator is not actual observation or formal acceptance",
+      "caseAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-fundamentals-cases.md",
+        "blob": "4f482da733981d21504cb50a06e12c14bbb6a1f5",
+        "line": 6,
+        "row": "| TD2-K01.02.04.01 / K01.02.04.01 | S022；同Hz单位，220/330均正 | 220→330约+701.955音分，330→220约−701.955，220→220为0；0或负频率输入不满足公式条件 | 直接将110Hz当110音分、忽略方向或取log(0) | 给3:2或2:3的有向比值复算，逆式还原比值 | 仅给音分不能唯一推出绝对频率；不合法输入拒绝 |"
+      }
+    },
+    {
+      "id": "EV-PITCH",
+      "revision": 2,
+      "type": "Evidence",
+      "kind": "L1_RESEARCH_LOCATOR",
+      "sources": [
+        "S409@1",
+        "S413@2"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r3-knowledge-cases.md",
+        "blob": "08208a28e1ea95edb2ec83210e97542c3623298b",
+        "line": 8,
+        "row": "| VS64 | K05.07.01.05 | S409/S413 | 题设目标200Hz，同一有效且身份匹配分析窗独立真实参考220Hz：估计220时估计误差0，真实音乐偏差+165.004 cents；估计200时估计误差−165.004、估计相对目标0，但真实音乐偏差仍+165.004。原参考200、估计198/202的−17.40/+17.23 cents仍成立。缺独立参考则真实音乐偏差和估计误差UNKNOWN，仅可在已知目标时报告估计相对目标；缺目标则仅在独立参考有效时报告估计误差。无声/置信不足/身份不符的窗不计算相关音分。 | 以正负平均抵消个别偏差，或把缺失F0填0再计算对数。 | 检查参考、置信、音高体系与有效窗掩码，输出估计误差和音乐目标偏差分别。 | 合成数值非实际音准、感知或健康标准；K01音程、K10评价另核。 |"
+      },
+      "limits": "L1 candidate only; locator is not actual observation or formal acceptance"
+    },
+    {
+      "id": "EV-WINDOW",
+      "revision": 2,
+      "type": "Evidence",
+      "kind": "L1_RESEARCH_LOCATOR",
+      "sources": [
+        "S474@1",
+        "S457@2"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r1-knowledge-cases.md",
+        "blob": "ba6ce877d9a65e6c9ad8cb9d504dc47ee3d450b9",
+        "line": 12,
+        "row": "| DA08 | K08.03.02.03 | S474/S457 | 同一合成信号、48kHz、相同窗族、hop=240与对齐，win480/960、共同nfft960分别10/20ms观察窗，同为50Hz格点和481个单边复谱格点；固定win480、nfft960→1920仅格点50→25Hz、481→961，观察窗仍10ms。实际分辨能力还依窗响应、边界及信号平稳性，不由零填充保证。 | 把nfft960当20ms实际观测，或幅度谱可唯一逆变换。 | 核窗型/长度、padding/center、hop、单位、边界及重建条件。 | 固定文档语义与数学，不是运行librosa。 |"
+      },
+      "limits": "L1 candidate only; locator is not actual observation or formal acceptance"
+    }
+  ],
+  "groups": [
+    {
+      "id": "GROUP-CENTS",
+      "revision": 1,
+      "type": "CaseGroup",
+      "owner": "K01",
+      "topic": "K01.02.04",
+      "d4": "K01.02.04.01",
+      "kind": "SYNTHETIC",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "GROUP-PITCH",
+      "revision": 1,
+      "type": "CaseGroup",
+      "owner": "K05",
+      "topic": "K05.07.01",
+      "d4": "K05.07.01.05",
+      "kind": "SYNTHETIC",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "GROUP-WINDOW",
+      "revision": 1,
+      "type": "CaseGroup",
+      "owner": "K08",
+      "topic": "K08.03.02",
+      "d4": "K08.03.02.03",
+      "kind": "SYNTHETIC",
+      "status": "CANDIDATE"
+    }
+  ],
+  "views": [
+    {
+      "id": "CENTS-FP",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "FORWARD",
+      "polarity": "POSITIVE",
+      "question": "给定参考440 Hz、观测660 Hz，如何表达音分？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "reference": 440,
+        "observed": 660
+      },
+      "explanation": "约701.955 cents；仅比值3:2，不认定整体律制。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "CENTS-FN",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "FORWARD",
+      "polarity": "NEGATIVE",
+      "question": "相同Hz差是否必然相同音分？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "reference": 220,
+        "observed": 229,
+        "comparisonReference": 1100,
+        "comparisonObserved": 1109
+      },
+      "explanation": "220→229与1100→1109的比值不同，音分不同。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "CENTS-RP",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "POSITIVE",
+      "question": "给定音分及已知参考，如何反查频率候选？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "reference": 440,
+        "cents": 1200
+      },
+      "explanation": "440×2^(1200/1200)=880 Hz；须参考有效。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "CENTS-RN",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "NEGATIVE",
+      "question": "只有Hz差，能否唯一恢复音分或历史律制？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "differenceHz": 9
+      },
+      "explanation": "缺参考，多个频率比可能；不唯一确定律制。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-FP",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "FORWARD",
+      "polarity": "POSITIVE",
+      "question": "分别比较独立参考、估计、音乐目标。",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": 220,
+        "estimate": 220,
+        "target": 200,
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
+      },
+      "explanation": "估计误差0，真实及估计目标偏差+165.004 cents。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-FN",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "FORWARD",
+      "polarity": "NEGATIVE",
+      "question": "估计等于目标是否证明真实演唱准确？",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": 220,
+        "estimate": 200,
+        "target": 200,
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
+      },
+      "explanation": "估计相对目标0，估计误差−165.004，真实目标偏差仍+165.004。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-RP",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "REVERSE",
+      "polarity": "POSITIVE",
+      "question": "从目标偏差查独立观测和估计误差。",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": 220,
+        "estimate": 200,
+        "target": 200,
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
+      },
+      "explanation": "先查独立参考、估计、目标与同一有效事件窗；非唯一原因。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-RN",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "REVERSE",
+      "polarity": "NEGATIVE",
+      "question": "缺独立参考是否能判断估计准确或健康？",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": null,
+        "estimate": 200,
+        "target": 200,
+        "valid": true,
+        "identity": "demo-event-1",
+        "referenceIdentity": "demo-event-1",
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
+      },
+      "explanation": "真实偏差/估计误差UNKNOWN；可算估计相对目标0，不能诊断。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-FP",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "FORWARD",
+      "polarity": "POSITIVE",
+      "question": "在固定采样率下分别算窗时长、FFT格点。",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
+      "example": {
+        "fs": 48000,
+        "win": 480,
+        "nfft": 960,
+        "realInput": true,
+        "oneSided": true
+      },
+      "explanation": "0.01s观察窗，50Hz格点，481单边格点。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-FN",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "FORWARD",
+      "polarity": "NEGATIVE",
+      "question": "零填充是否增加真实观察时长？",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
+      "example": {
+        "fs": 48000,
+        "win": 480,
+        "nfft": 1920,
+        "previousNfft": 960,
+        "realInput": true,
+        "oneSided": true
+      },
+      "explanation": "nfft增加使格点25Hz，实际窗仍0.01s，不保证分辨力。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-RP",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "REVERSE",
+      "polarity": "POSITIVE",
+      "question": "给格点及采样率能反推哪个参数？",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
+      "example": {
+        "fs": 48000,
+        "gridHz": 50
+      },
+      "explanation": "nfft=960；观察窗未知。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-RN",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "REVERSE",
+      "polarity": "NEGATIVE",
+      "question": "只有FFT格点能否唯一判断实际观察窗或分辨率？",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
+      "example": {
+        "gridHz": 50
+      },
+      "explanation": "缺fs及窗口，不能唯一判断窗长或实际分辨力。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "CENTS-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "question": "哪些前提改变时原规则不适用？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "频率必须有限且正且单位一致；不从比值确定文化语义。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "CENTS-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "question": "缺少必要证据时怎样处理？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "参考不明时保留UNKNOWN。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "question": "哪些前提改变时原规则不适用？",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "身份、时窗、有效掩码独立；音准计算非健康/审美结论。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "question": "缺少必要证据时怎样处理？",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "无独立参考不推真实偏差；无目标不推音乐偏差。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "question": "哪些前提改变时原规则不适用？",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "实际窗形、平稳性、边界及测量工具另验。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "question": "缺少必要证据时怎样处理？",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "无采样率或窗长不能给完整结果。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    }
+  ],
+  "bindings": [
+    {
+      "id": "B-CENTS-FP",
+      "view": "CENTS-FP@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-CENTS-FN",
+      "view": "CENTS-FN@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-CENTS-RP",
+      "view": "CENTS-RP@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-CENTS-RN",
+      "view": "CENTS-RN@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-PITCH-FP",
+      "view": "PITCH-FP@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-FP-MATH",
+      "view": "PITCH-FP@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-FN",
+      "view": "PITCH-FN@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-FN-MATH",
+      "view": "PITCH-FN@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RP",
+      "view": "PITCH-RP@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RP-MATH",
+      "view": "PITCH-RP@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RN",
+      "view": "PITCH-RN@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RN-MATH",
+      "view": "PITCH-RN@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-WINDOW-FP",
+      "view": "WINDOW-FP@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-WINDOW-FN",
+      "view": "WINDOW-FN@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-WINDOW-RP",
+      "view": "WINDOW-RP@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-WINDOW-RN",
+      "view": "WINDOW-RN@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-CENTS-BOUND",
+      "view": "CENTS-BOUND@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-CENTS-UNK",
+      "view": "CENTS-UNK@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-PITCH-BOUND",
+      "view": "PITCH-BOUND@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-UNK",
+      "view": "PITCH-UNK@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-WINDOW-BOUND",
+      "view": "WINDOW-BOUND@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-WINDOW-UNK",
+      "view": "WINDOW-UNK@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-PITCH-FP-WINDOW",
+      "view": "PITCH-FP@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-FN-WINDOW",
+      "view": "PITCH-FN@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RP-WINDOW",
+      "view": "PITCH-RP@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RN-WINDOW",
+      "view": "PITCH-RN@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-BOUND-MATH",
+      "view": "PITCH-BOUND@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-BOUND-WINDOW",
+      "view": "PITCH-BOUND@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-UNK-MATH",
+      "view": "PITCH-UNK@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-UNK-WINDOW",
+      "view": "PITCH-UNK@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "SUP-CENTS",
+      "type": "supported_by",
+      "from": "CL-CENTS@1",
+      "to": "EV-CENTS@1",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "CTXEDGE-CENTS",
+      "type": "applies_under",
+      "from": "CL-CENTS@1",
+      "to": "CTX-CENTS@1",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "SUP-PITCH",
+      "type": "supported_by",
+      "from": "CL-PITCH@1",
+      "to": "EV-PITCH@2",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "CTXEDGE-PITCH",
+      "type": "applies_under",
+      "from": "CL-PITCH@1",
+      "to": "CTX-PITCH@1",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "SUP-WINDOW",
+      "type": "supported_by",
+      "from": "CL-WINDOW@1",
+      "to": "EV-WINDOW@2",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "CTXEDGE-WINDOW",
+      "type": "applies_under",
+      "from": "CL-WINDOW@1",
+      "to": "CTX-WINDOW@1",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "REQ-MATH",
+      "type": "requires",
+      "from": "CL-PITCH@1",
+      "to": "CL-CENTS@1",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "REQ-WINDOW",
+      "type": "requires",
+      "from": "CL-PITCH@1",
+      "to": "CL-WINDOW@1",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "REF-PITCH-USE",
+      "type": "references",
+      "from": "CL-WINDOW@1",
+      "to": "CL-PITCH@1",
+      "condition": "CTX-WINDOW@1"
+    }
+  ],
+  "migrations": [
+    {
+      "old": "K13.01.01.02",
+      "type": "alias_of",
+      "targets": [
+        {
+          "d4": "K16.01.01.01",
+          "role": "ONE_TO_ONE"
+        }
+      ],
+      "state": "L1_REQUIREMENT_ALIAS_ONLY",
+      "condition": "historical lineage only; not accepted claim",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 6,
+        "row": "| K13.01.01.02 | 区分史料记载口述研究和后世解释 | MIGRATE | K16.01.01.01 / ONE_TO_ONE_CANDIDATE | K16.01=史料口述与解释分层 | S133/S134/S135/S140 | FG-K13.01.01 / CP-K13.01；CQ18/CQ26/CQ13；A01/A05来源及语境；A02/A06研究或适配产物按任务 |"
+      }
+    },
+    {
+      "old": "K13.02.01.01",
+      "type": "split_route",
+      "targets": [
+        {
+          "d4": "K16.07.01.01",
+          "role": "NEW"
+        },
+        {
+          "d4": "K01.03.01.01",
+          "role": "REUSE"
+        },
+        {
+          "d4": "K01.04.05.01",
+          "role": "REUSE"
+        },
+        {
+          "d4": "K01.07.03.01",
+          "role": "REUSE"
+        },
+        {
+          "d4": "K13.05",
+          "role": "REF"
+        }
+      ],
+      "state": "SPLIT_OPEN",
+      "condition": "each predicate/context distinct; no whole-slot equivalence",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 39,
+        "row": "| K13.02.01.01 | 原生术语音级节奏曲式与社会语境 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.01 |"
+      }
+    }
+  ]
+}

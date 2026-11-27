@@ -1,0 +1,709 @@
+{
+  "testedHead": "08e829fd0dcdc631835267017930b9a9f6a7a3d2",
+  "executionJob": "job_01M8E0RQP50063VJ1WAMVMZ8MM",
+  "receiptReadbackJob": "job_01M8E0SKX600BY2E832EW1KR6Y",
+  "environment": "aliyun-sg Linux, Node v24.21.0",
+  "method": "Exact GitHub file content copied to isolated temp tree. Actual git-blob hashes verified against tested commit, source anchors and frozen witness verified by executed validator. Not a full git clone or production build.",
+  "command": "for f in docs/research/l2-pilot/*.mjs; do node --check \"$f\"; done; node docs/research/l2-pilot/validate.mjs",
+  "exitCode": 0,
+  "files": [
+    {
+      "path": "docs/research/l2-pilot/assessment-input.json",
+      "blob": "b48530ea4472167d1537292f13d86b5d8842816f",
+      "sha256": "21d0617c4f9831f3e88504f0221a553d25ddc4c5ef48613eaa91f597a6acc55a"
+    },
+    {
+      "path": "docs/research/l2-pilot/assessment.json",
+      "blob": "5b9d24d44c547be0e1cf444d30e240eab3660353",
+      "sha256": "ce88c403a42bf5eb267baf0e6c93b97d173ca078510f97fa49aef53b926a3cf7"
+    },
+    {
+      "path": "docs/research/l2-pilot/knowledge-pilot.mjs",
+      "blob": "ab46b362953d4b91132c06bddc73f5a2cc246747",
+      "sha256": "c9197c61ae58c359ea5d3f730a8c8ada83f8aa69ceff258ff0ddc502159eb159"
+    },
+    {
+      "path": "docs/research/l2-pilot/pack.json",
+      "blob": "52cf6ba80a1874c0d624939900f326c01c071d1e",
+      "sha256": "6ded1f2b85503deedd471e1506d3cb3316faa4daa9488f636b1b962bf17e59b3"
+    },
+    {
+      "path": "docs/research/l2-pilot/retrieve.mjs",
+      "blob": "b228ef00e0509173ca8f68cc304b0cd2dca22acf",
+      "sha256": "8676844b72662473becbe06d54d9c8a07ae26f7dc420d03bd769bd8efd5f361b"
+    },
+    {
+      "path": "docs/research/l2-pilot/semantic-profile.json",
+      "blob": "f5e8561389a762389ec5bbb99d8c502a45a37d28",
+      "sha256": "ccce1c6f9750a6539ac8dd1e5d4119b263df548062eb961a43c36d80cf6d37e0"
+    },
+    {
+      "path": "docs/research/l2-pilot/sources.json",
+      "blob": "0cdf8afed3773e9b6de3600db592ed2ffd8d4e74",
+      "sha256": "419b225b6584ccd39174094435e63b8af77828d172321bbc44f29d69c48d2356"
+    },
+    {
+      "path": "docs/research/l2-pilot/validate.mjs",
+      "blob": "41b370ae8442ac9b56b39b9eb294c52162919e69",
+      "sha256": "4176c0567eed18c7c719f451f0f0204b80cd747c5d43a8087bf5ef48d1eccc13"
+    },
+    {
+      "path": "docs/research/l2-pilot/witness-pilot.mjs",
+      "blob": "0dd4ffc0b5d286129c508eabf4945df1cfbe9cbd",
+      "sha256": "87fe8b1e8ee164388dee06e98cd9b8d54bc2ac4328d3c34ddb782c57fcd86fd1"
+    },
+    {
+      "path": "docs/research/l2-pilot/workflow-pilot.mjs",
+      "blob": "6c25c16a3d58ef5f03a048ec94724069a2fbe35b",
+      "sha256": "431d1ce10b028d610052c5f118e637811a31df7be4f3712ae739c2dbaaf05ab9"
+    }
+  ],
+  "result": {
+    "workflow": {
+      "records": 21,
+      "edges": 42,
+      "checks": 20,
+      "affected": [
+        "A04@1",
+        "A05@1",
+        "A06@1",
+        "A07@1",
+        "E-RECEIPT@2",
+        "EDITABLE@1",
+        "RESULT@1"
+      ],
+      "trace": {
+        "state": "STATIC_CANDIDATE_ONLY",
+        "primary": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07"
+        ],
+        "supports": [
+          "S-A11",
+          "S-GV02",
+          "S-V06"
+        ],
+        "evidence": [
+          "E-EST",
+          "E-OBS",
+          "E-RECEIPT"
+        ],
+        "result": {
+          "state": "STATIC_CANDIDATE_ONLY",
+          "candidate": "C/c2",
+          "report": "R2/r2",
+          "referenceId": "OBS-A-01",
+          "estimateId": "EST-2",
+          "estimateError": 0,
+          "actualGoalError": 165.00422849992202,
+          "estimatedGoalError": 165.00422849992202
+        },
+        "refs": [
+          "A01@1",
+          "S-V06@1",
+          "S-GV02@1",
+          "GRANT@1",
+          "A02@1",
+          "HOST@1",
+          "MODEL@1",
+          "A03@1",
+          "S-A11@1",
+          "CTX@1",
+          "E-OBS@1",
+          "E-EST@2",
+          "C@2",
+          "E-RECEIPT@2",
+          "ORIGINAL@1",
+          "A04@1",
+          "A05@1",
+          "A06@1",
+          "RESULT@1",
+          "EDITABLE@1",
+          "A07@1"
+        ],
+        "release": false
+      },
+      "graphDigest": "67edbcf19efc0378ad91e4b57fdf385427d9270c50c381ab8785cfd86147747f",
+      "limits": "fixed actual witness projection; not general runtime or actual authorization"
+    },
+    "status": "RESEARCH_ONLY",
+    "node": "v24.21.0",
+    "checks": 127,
+    "passed": 127,
+    "results": [
+      [
+        "actual pack parses and validates",
+        true
+      ],
+      [
+        "roundtrip CENTS-FP",
+        true
+      ],
+      [
+        "roundtrip CENTS-FN",
+        true
+      ],
+      [
+        "roundtrip CENTS-RP",
+        true
+      ],
+      [
+        "roundtrip CENTS-RN",
+        true
+      ],
+      [
+        "roundtrip PITCH-FP",
+        true
+      ],
+      [
+        "roundtrip PITCH-FN",
+        true
+      ],
+      [
+        "roundtrip PITCH-RP",
+        true
+      ],
+      [
+        "roundtrip PITCH-RN",
+        true
+      ],
+      [
+        "roundtrip WINDOW-FP",
+        true
+      ],
+      [
+        "roundtrip WINDOW-FN",
+        true
+      ],
+      [
+        "roundtrip WINDOW-RP",
+        true
+      ],
+      [
+        "roundtrip WINDOW-RN",
+        true
+      ],
+      [
+        "roundtrip CENTS-BOUND",
+        true
+      ],
+      [
+        "roundtrip CENTS-UNK",
+        true
+      ],
+      [
+        "roundtrip PITCH-BOUND",
+        true
+      ],
+      [
+        "roundtrip PITCH-UNK",
+        true
+      ],
+      [
+        "roundtrip WINDOW-BOUND",
+        true
+      ],
+      [
+        "roundtrip WINDOW-UNK",
+        true
+      ],
+      [
+        "heldout eval-r1",
+        true
+      ],
+      [
+        "heldout eval-r2",
+        true
+      ],
+      [
+        "heldout eval-r3",
+        true
+      ],
+      [
+        "heldout eval-r4",
+        true
+      ],
+      [
+        "heldout eval-r5",
+        true
+      ],
+      [
+        "public F+ cents",
+        true
+      ],
+      [
+        "public F- equal Hz difference unequal ratio",
+        true
+      ],
+      [
+        "public R+ frequency inverse under given reference",
+        true
+      ],
+      [
+        "public R- lacks reference",
+        true
+      ],
+      [
+        "public PITCH-FP",
+        true
+      ],
+      [
+        "public PITCH-FN",
+        true
+      ],
+      [
+        "public PITCH-RP",
+        true
+      ],
+      [
+        "public PITCH-RN cannot infer true deviation",
+        true
+      ],
+      [
+        "public WINDOW-FP",
+        true
+      ],
+      [
+        "public WINDOW-FN no extra observation",
+        true
+      ],
+      [
+        "public WINDOW-RP partial reverse",
+        true
+      ],
+      [
+        "public WINDOW-RN insufficient reverse",
+        true
+      ],
+      [
+        "invalid frequency",
+        true
+      ],
+      [
+        "wrong event",
+        true
+      ],
+      [
+        "wrong independent clock",
+        true
+      ],
+      [
+        "wrong estimate window",
+        true
+      ],
+      [
+        "wrong reference kind",
+        true
+      ],
+      [
+        "missing musical target",
+        true
+      ],
+      [
+        "same observation different grid",
+        true
+      ],
+      [
+        "complex or unqualified one-sided bins",
+        true
+      ],
+      [
+        "invalid fft length",
+        true
+      ],
+      [
+        "reverse multiple windows",
+        true
+      ],
+      [
+        "historical alias",
+        true
+      ],
+      [
+        "split not equivalent",
+        true
+      ],
+      [
+        "unregistered route unknown",
+        true
+      ],
+      [
+        "retrieval CQ01",
+        true
+      ],
+      [
+        "no heldout content CQ01",
+        true
+      ],
+      [
+        "retrieval CQ06",
+        true
+      ],
+      [
+        "no heldout content CQ06",
+        true
+      ],
+      [
+        "retrieval CQ07",
+        true
+      ],
+      [
+        "no heldout content CQ07",
+        true
+      ],
+      [
+        "retrieval CQ21",
+        true
+      ],
+      [
+        "no heldout content CQ21",
+        true
+      ],
+      [
+        "retrieval CQ25",
+        true
+      ],
+      [
+        "no heldout content CQ25",
+        true
+      ],
+      [
+        "eval id not retrievable",
+        true
+      ],
+      [
+        "public-only tree excludes input/rubric",
+        true
+      ],
+      [
+        "public process CQ01",
+        true
+      ],
+      [
+        "no unrelated workflow CQ01",
+        true
+      ],
+      [
+        "public process CQ06",
+        true
+      ],
+      [
+        "no unrelated workflow CQ06",
+        true
+      ],
+      [
+        "public process CQ07",
+        true
+      ],
+      [
+        "no unrelated workflow CQ07",
+        true
+      ],
+      [
+        "public process CQ21",
+        true
+      ],
+      [
+        "public typed workflow CQ21",
+        true
+      ],
+      [
+        "public process CQ25",
+        true
+      ],
+      [
+        "public typed workflow CQ25",
+        true
+      ],
+      [
+        "public process eval-r1",
+        true
+      ],
+      [
+        "no unrelated workflow eval-r1",
+        true
+      ],
+      [
+        "duplicate record",
+        true
+      ],
+      [
+        "wrong owner",
+        true
+      ],
+      [
+        "wrong topic",
+        true
+      ],
+      [
+        "unsupported accepted",
+        true
+      ],
+      [
+        "claim missing condition",
+        true
+      ],
+      [
+        "source row forged",
+        true
+      ],
+      [
+        "source blob forged",
+        true
+      ],
+      [
+        "source unauthorized import",
+        true
+      ],
+      [
+        "limited source grade promotion",
+        true
+      ],
+      [
+        "source dangling",
+        true
+      ],
+      [
+        "evidence wrong predicate",
+        true
+      ],
+      [
+        "evidence self support",
+        true
+      ],
+      [
+        "unsupported inverse edge",
+        true
+      ],
+      [
+        "dangling revision",
+        true
+      ],
+      [
+        "duplicate edge",
+        true
+      ],
+      [
+        "dependency cycle",
+        true
+      ],
+      [
+        "missing source edge",
+        true
+      ],
+      [
+        "wrong context",
+        true
+      ],
+      [
+        "wrong primary binding",
+        true
+      ],
+      [
+        "generic D2 binding",
+        true
+      ],
+      [
+        "duplicate binding",
+        true
+      ],
+      [
+        "missing reverse negative",
+        true
+      ],
+      [
+        "unverified observed case",
+        true
+      ],
+      [
+        "private assessment field",
+        true
+      ],
+      [
+        "illegal whole slot alias",
+        true
+      ],
+      [
+        "swap migration role",
+        true
+      ],
+      [
+        "drop migration target",
+        true
+      ],
+      [
+        "stale migration status",
+        true
+      ],
+      [
+        "R8a actual replay",
+        true
+      ],
+      [
+        "R9 actual replay",
+        true
+      ],
+      [
+        "CQ25 seven stages",
+        true
+      ],
+      [
+        "CQ25 support/evidence",
+        true
+      ],
+      [
+        "pilot calculation matches actual trace",
+        true
+      ],
+      [
+        "CQ25 actual knowledge route",
+        true
+      ],
+      [
+        "workflow: typed graph roundtrip full route",
+        true
+      ],
+      [
+        "workflow: primary and support reverse discovery",
+        true
+      ],
+      [
+        "workflow: CQ21 actual dependent invalidation",
+        true
+      ],
+      [
+        "workflow: old receipt cannot qualify new candidate",
+        true
+      ],
+      [
+        "workflow: grant revoked stops",
+        true
+      ],
+      [
+        "workflow: grant epoch not role authority",
+        true
+      ],
+      [
+        "workflow: unknown authority not allowed",
+        true
+      ],
+      [
+        "workflow: wrong complete result",
+        true
+      ],
+      [
+        "workflow: partial result",
+        true
+      ],
+      [
+        "workflow: missing observation node",
+        true
+      ],
+      [
+        "workflow: missing receipt dependency",
+        true
+      ],
+      [
+        "workflow: missing per-event grant",
+        true
+      ],
+      [
+        "workflow: role as grant",
+        true
+      ],
+      [
+        "workflow: forged observation with recalculated digest",
+        true
+      ],
+      [
+        "workflow: forged candidate with recalculated digest",
+        true
+      ],
+      [
+        "workflow: wrong version edge",
+        true
+      ],
+      [
+        "workflow: wrong relation direction",
+        true
+      ],
+      [
+        "workflow: duplicate typed edge",
+        true
+      ],
+      [
+        "workflow: extra unregistered authority",
+        true
+      ],
+      [
+        "workflow: forged support case",
+        true
+      ]
+    ],
+    "records": 35,
+    "bindings": 22,
+    "heldout": 5,
+    "replayed": {
+      "xc": 70,
+      "r9": 44
+    },
+    "trace": {
+      "state": "STATIC_CANDIDATE_ONLY",
+      "primary": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "support": [
+        "S-V06",
+        "S-GV02",
+        "S-A11"
+      ],
+      "evidence": [
+        "E-OBS",
+        "E-EST",
+        "E-RECEIPT"
+      ],
+      "result": {
+        "state": "STATIC_CANDIDATE_ONLY",
+        "candidate": "C/c2",
+        "report": "R2/r2",
+        "referenceId": "OBS-A-01",
+        "estimateId": "EST-2",
+        "estimateError": 0,
+        "actualGoalError": 165.00422849992202,
+        "estimatedGoalError": 165.00422849992202
+      }
+    },
+    "limits": [
+      "no actual LLM/audio/tool/permission",
+      "only exercised relationship subset",
+      "no production acceptance/DB",
+      "no exhaustive migration"
+    ]
+  },
+  "failuresBeforeFinal": [
+    {
+      "head": "9c311f505f2169a68901c789b719f3b4873f705f",
+      "job": "job_01M8E0B4QG00RK15CBYHXKE7Q9",
+      "exitCode": 1,
+      "cause": "R8a actual return uses fixtures array, not checks",
+      "repair": "34bee4d4fdf66c6cb16060805defda3462a04138; compare actual.state to expected, preserved all 70 assertions"
+    }
+  ],
+  "limitations": [
+    "Builder execution only; G06 independent review required",
+    "No actual LLM/audio/device/model/permissions, no DB or external ontology engine",
+    "No production admission or exhaustive migration",
+    "No full repository clean clone; exact executable input materialization and source blob checks"
+  ]
+}
