@@ -1,0 +1,1505 @@
+{
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "rows": [
+    {
+      "d4": "K05.01.01.03",
+      "claim": "K05-CL-VS01@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 5,
+        "row": "| K05.01.01.03 | [VS01](vocal-science-r1-knowledge-cases.md#L5) | 供气声源声道功能区别 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S046](../../research/source-qualification-vocal-science-r1.md#L6)；[S403](../../research/source-qualification-vocal-science-r1.md#L11) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.01.01.04",
+      "claim": "K05-CL-VS02@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS02",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 6,
+        "row": "| K05.01.01.04 | [VS02](vocal-science-r1-knowledge-cases.md#L6) | 静息呼吸与有声自振状态 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S046](../../research/source-qualification-vocal-science-r1.md#L6) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.01.02.03",
+      "claim": "K05-CL-VS03@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 7,
+        "row": "| K05.01.02.03 | [VS03](vocal-science-r1-knowledge-cases.md#L7) | 呼吸肌及供气子系统 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S403](../../research/source-qualification-vocal-science-r1.md#L11) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.01.03.03",
+      "claim": "K05-CL-VS04@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS04",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 8,
+        "row": "| K05.01.03.03 | [VS04](vocal-science-r1-knowledge-cases.md#L8) | 辅音成阻位置及清浊分类 | [S404](../../research/source-qualification-vocal-science-r1.md#L12) | CQ05 | CQ04/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.02.01.03",
+      "claim": "K05-CL-VS05@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS05",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 9,
+        "row": "| K05.02.01.03 | [VS05](vocal-science-r1-knowledge-cases.md#L9) | 呼气气流不必有声 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S403](../../research/source-qualification-vocal-science-r1.md#L11) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.02.02.03",
+      "claim": "K05-CL-VS06@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS06",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 10,
+        "row": "| K05.02.02.03 | [VS06](vocal-science-r1-knowledge-cases.md#L10) | 上下声门压差及参考 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S047](../../research/source-qualification-vocal-science-r1.md#L7) | CQ05/CQ07 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.02.03.03",
+      "claim": "K05-CL-VS07@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 11,
+        "row": "| K05.02.03.03 | [VS07](vocal-science-r1-knowledge-cases.md#L11) | 稳态等效阻力模型 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S047](../../research/source-qualification-vocal-science-r1.md#L7) | CQ05/CQ07 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.01.03",
+      "claim": "K05-CL-VS08@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 12,
+        "row": "| K05.03.01.03 | [VS08](vocal-science-r1-knowledge-cases.md#L12) | 辐射声周期与最大谱峰 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S405](../../research/source-qualification-vocal-science-r1.md#L13) | CQ05/CQ07 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.02.03",
+      "claim": "K05-CL-VS09@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 13,
+        "row": "| K05.03.02.03 | [VS09](vocal-science-r1-knowledge-cases.md#L13) | 理想力学频率参数 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S406](../../research/source-qualification-vocal-science-r1.md#L14) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.02.04",
+      "claim": "K05-CL-VS10@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS10",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 14,
+        "row": "| K05.03.02.04 | [VS10](vocal-science-r1-knowledge-cases.md#L14) | 缺失基频数学及感知区别 | [S405](../../research/source-qualification-vocal-science-r1.md#L13)；[S407](../../research/source-qualification-vocal-science-r1.md#L15)；[S424](../../research/source-qualification-vocal-science-r3.md#L4) | CQ05/CQ07 | CQ01/CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.03.03",
+      "claim": "K05-CL-VS11@1",
+      "directCQ": [
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS11",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 15,
+        "row": "| K05.03.03.03 | [VS11](vocal-science-r1-knowledge-cases.md#L15) | 周期及无稳定周期分类 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S406](../../research/source-qualification-vocal-science-r1.md#L14) | CQ07 | CQ05/CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.01.03",
+      "claim": "K05-CL-VS12@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 16,
+        "row": "| K05.04.01.03 | [VS12](vocal-science-r1-knowledge-cases.md#L16) | 独立滤波输出幅度 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S405](../../research/source-qualification-vocal-science-r1.md#L13) | CQ05/CQ07 | CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.02.03",
+      "claim": "K05-CL-VS13@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 17,
+        "row": "| K05.04.02.03 | [VS13](vocal-science-r1-knowledge-cases.md#L17) | 独立声道共振与谐波 | [S405](../../research/source-qualification-vocal-science-r1.md#L13)；[S408](../../research/source-qualification-vocal-science-r1.md#L16) | CQ05/CQ07 | CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.02.04",
+      "claim": "K05-CL-VS14@1",
+      "directCQ": [
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ14",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS14",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 18,
+        "row": "| K05.04.02.04 | [VS14](vocal-science-r1-knowledge-cases.md#L18) | 高F0稀疏谐波采样 | [S408](../../research/source-qualification-vocal-science-r1.md#L16) | CQ07 | CQ05/CQ14/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.03.03",
+      "claim": "K05-CL-VS15@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS15",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 19,
+        "row": "| K05.04.03.03 | [VS15](vocal-science-r1-knowledge-cases.md#L19) | 独立滤波与耦合候选 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S406](../../research/source-qualification-vocal-science-r1.md#L14) | CQ05/CQ07 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.05.01.03",
+      "claim": "K05-CL-VS16@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS16",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 20,
+        "row": "| K05.05.01.03 | [VS16](vocal-science-r1-knowledge-cases.md#L20) | 喉振动机制与教学术语 | [S048](../../research/source-qualification-vocal-science-r1.md#L8) | CQ05 | CQ06/CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.05.02.03",
+      "claim": "K05-CL-VS17@1",
+      "directCQ": [
+        "CQ05",
+        "CQ06"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS17",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 21,
+        "row": "| K05.05.02.03 | [VS17](vocal-science-r1-knowledge-cases.md#L21) | 个体机制频率重叠 | [S048](../../research/source-qualification-vocal-science-r1.md#L8) | CQ05/CQ06 | CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.05.03.03",
+      "claim": "K05-CL-VS18@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS18",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 22,
+        "row": "| K05.05.03.03 | [VS18](vocal-science-r1-knowledge-cases.md#L22) | 源滤波谱反演多解 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S405](../../research/source-qualification-vocal-science-r1.md#L13)；[S406](../../research/source-qualification-vocal-science-r1.md#L14) | CQ05/CQ07 | CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.06.01.03",
+      "claim": "K05-CL-VS19@1",
+      "directCQ": [
+        "CQ04",
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ18",
+        "CQ23",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS19",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 23,
+        "row": "| K05.06.01.03 | [VS19](vocal-science-r1-knowledge-cases.md#L23) | IPA音值与字母/音位 | [S049](../../research/source-qualification-vocal-science-r1.md#L9)；[S404](../../research/source-qualification-vocal-science-r1.md#L12) | CQ04/CQ05 | CQ18/CQ23/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.06.02.03",
+      "claim": "K05-CL-VS20@1",
+      "directCQ": [
+        "CQ04",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ22",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS20",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 24,
+        "row": "| K05.06.02.03 | [VS20](vocal-science-r1-knowledge-cases.md#L24) | 无声辅音窗不适用F0 | [S404](../../research/source-qualification-vocal-science-r1.md#L12)；[S047](../../research/source-qualification-vocal-science-r1.md#L7) | CQ04/CQ07 | CQ05/CQ06/CQ22/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.06.03.03",
+      "claim": "K05-CL-VS21@1",
+      "directCQ": [
+        "CQ04"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ18",
+        "CQ23",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS21",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 25,
+        "row": "| K05.06.03.03 | [VS21](vocal-science-r1-knowledge-cases.md#L25) | 音节时长与韵律语种条件 | [S049](../../research/source-qualification-vocal-science-r1.md#L9)；[S404](../../research/source-qualification-vocal-science-r1.md#L12) | CQ04 | CQ05/CQ18/CQ23/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.07.01.03",
+      "claim": "K05-CL-VS22@1",
+      "directCQ": [
+        "CQ06",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ14",
+        "CQ20",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS22",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 26,
+        "row": "| K05.07.01.03 | [VS22](vocal-science-r1-knowledge-cases.md#L26) | 参考F0与倍半频错误 | [S409](../../research/source-qualification-vocal-science-r1.md#L17) | CQ06/CQ07 | CQ05/CQ14/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.07.02.03",
+      "claim": "K05-CL-VS23@1",
+      "directCQ": [
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ14",
+        "CQ17",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS23",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 27,
+        "row": "| K05.07.02.03 | [VS23](vocal-science-r1-knowledge-cases.md#L27) | 合成HNR定义 | [S047](../../research/source-qualification-vocal-science-r1.md#L7) | CQ07 | CQ05/CQ14/CQ17/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.07.03.03",
+      "claim": "K05-CL-VS24@1",
+      "directCQ": [
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ16",
+        "CQ21",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS24",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 28,
+        "row": "| K05.07.03.03 | [VS24](vocal-science-r1-knowledge-cases.md#L28) | 派生增益与实际声压区别 | [S047](../../research/source-qualification-vocal-science-r1.md#L7) | CQ07 | CQ08/CQ16/CQ21/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.08.01.03",
+      "claim": "K05-CL-VS25@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS25",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 29,
+        "row": "| K05.08.01.03 | [VS25](vocal-science-r1-knowledge-cases.md#L29) | time/cycle dose | [S410](../../research/source-qualification-vocal-science-r1.md#L18)；[S046](../../research/source-qualification-vocal-science-r1.md#L6) | CQ05 | CQ06/CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.08.02.03",
+      "claim": "K05-CL-VS26@1",
+      "directCQ": [
+        "CQ06",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ15",
+        "CQ19",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS26",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 30,
+        "row": "| K05.08.02.03 | [VS26](vocal-science-r1-knowledge-cases.md#L30) | 新症状停止及紧急转介 | [S046](../../research/source-qualification-vocal-science-r1.md#L6)；[S050](../../research/source-qualification-vocal-science-r1.md#L10)；[S411](../../research/source-qualification-vocal-science-r1.md#L19) | CQ06/CQ24 | CQ05/CQ15/CQ19/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.08.03.03",
+      "claim": "K05-CL-VS27@1",
+      "directCQ": [
+        "CQ06",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ15",
+        "CQ19",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS27",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 31,
+        "row": "| K05.08.03.03 | [VS27](vocal-science-r1-knowledge-cases.md#L31) | 公众就医与临床转介时限区分 | [S050](../../research/source-qualification-vocal-science-r1.md#L10)；[S412](../../research/source-qualification-vocal-science-r1.md#L20)；[S411](../../research/source-qualification-vocal-science-r1.md#L19) | CQ06/CQ24 | CQ05/CQ15/CQ19/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.01.03",
+      "claim": "K05-CL-VS28@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ17",
+        "CQ20",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS28",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 32,
+        "row": "| K05.09.01.03 | [VS28](vocal-science-r1-knowledge-cases.md#L32) | 声学EGG气动影像观测对象 | [S047](../../research/source-qualification-vocal-science-r1.md#L7)；[S048](../../research/source-qualification-vocal-science-r1.md#L8) | CQ05/CQ07 | CQ14/CQ17/CQ20/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.02.03",
+      "claim": "K05-CL-VS29@1",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ07",
+        "CQ22",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS29",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 33,
+        "row": "| K05.09.02.03 | [VS29](vocal-science-r1-knowledge-cases.md#L33) | 单变量模型与混杂实验 | [S047](../../research/source-qualification-vocal-science-r1.md#L7)；[S406](../../research/source-qualification-vocal-science-r1.md#L14) | CQ17 | CQ05/CQ07/CQ22/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.03.03",
+      "claim": "K05-CL-VS30@1",
+      "directCQ": [
+        "CQ17",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ18",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS30",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 34,
+        "row": "| K05.09.03.03 | [VS30](vocal-science-r1-knowledge-cases.md#L34) | 研究任务和人群外推 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S410](../../research/source-qualification-vocal-science-r1.md#L18) | CQ17/CQ26 | CQ05/CQ06/CQ18/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.01.01.05",
+      "claim": "K05-CL-VS31@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS31",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 35,
+        "row": "| K05.01.01.05 | [VS31](vocal-science-r2-knowledge-cases.md#L5) | 声带组织与body-cover抽象 | [S045](../../research/source-qualification-vocal-science-r2.md#L5) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.01.02.04",
+      "claim": "K05-CL-VS32@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ07",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS32",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 36,
+        "row": "| K05.01.02.04 | [VS32](vocal-science-r2-knowledge-cases.md#L6) | 供气/声源/构音观测对象 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S403](../../research/source-qualification-vocal-science-r1.md#L11)；[S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ05 | CQ06/CQ07/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.01.03.04",
+      "claim": "K05-CL-VS33@1",
+      "directCQ": [
+        "CQ05",
+        "CQ04"
+      ],
+      "supportCQ": [
+        "CQ18",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS33",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 37,
+        "row": "| K05.01.03.04 | [VS33](vocal-science-r2-knowledge-cases.md#L7) | 元音高度前后圆唇描述 | [S404](../../research/source-qualification-vocal-science-r1.md#L12)；[S415](../../research/source-qualification-vocal-science-r2.md#L8) | CQ05/CQ04 | CQ18/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.02.01.04",
+      "claim": "K05-CL-VS34@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS34",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 38,
+        "row": "| K05.02.01.04 | [VS34](vocal-science-r2-knowledge-cases.md#L8) | 净容积变化与平均流量条件 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S403](../../research/source-qualification-vocal-science-r1.md#L11) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.02.02.04",
+      "claim": "K05-CL-VS35@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ17",
+        "CQ20",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS35",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 39,
+        "row": "| K05.02.02.04 | [VS35](vocal-science-r2-knowledge-cases.md#L9) | 间接气动估计有效前提 | [S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ05/CQ07 | CQ14/CQ17/CQ20/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.02.03.04",
+      "claim": "K05-CL-VS36@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS36",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 40,
+        "row": "| K05.02.03.04 | [VS36](vocal-science-r2-knowledge-cases.md#L10) | 气动及声功率效率模型 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ05/CQ07 | CQ06/CQ17/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.01.04",
+      "claim": "K05-CL-VS37@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS37",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 41,
+        "row": "| K05.03.01.04 | [VS37](vocal-science-r2-knowledge-cases.md#L11) | 组织运动相位差模型 | [S045](../../research/source-qualification-vocal-science-r2.md#L5) | CQ05 | CQ07/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.02.05",
+      "claim": "K05-CL-VS38@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS38",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 42,
+        "row": "| K05.03.02.05 | [VS38](vocal-science-r2-knowledge-cases.md#L12) | 相同频率不同力学参数 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S406](../../research/source-qualification-vocal-science-r1.md#L14) | CQ05 | CQ06/CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.03.04",
+      "claim": "K05-CL-VS39@1",
+      "directCQ": [
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ14",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS39",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 43,
+        "row": "| K05.03.03.04 | [VS39](vocal-science-r2-knowledge-cases.md#L13) | 稳定窗和过渡期 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S409](../../research/source-qualification-vocal-science-r1.md#L17) | CQ07 | CQ05/CQ06/CQ14/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.01.04",
+      "claim": "K05-CL-VS40@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS40",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 44,
+        "row": "| K05.04.01.04 | [VS40](vocal-science-r2-knowledge-cases.md#L14) | 滤波可改变最小输出周期 | [S405](../../research/source-qualification-vocal-science-r1.md#L13)；[S045](../../research/source-qualification-vocal-science-r2.md#L5) | CQ05/CQ07 | CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.02.05",
+      "claim": "K05-CL-VS41@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS41",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 45,
+        "row": "| K05.04.02.05 | [VS41](vocal-science-r2-knowledge-cases.md#L15) | R1与F0/谐波相对关系 | [S408](../../research/source-qualification-vocal-science-r1.md#L16) | CQ05/CQ07 | CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.03.04",
+      "claim": "K05-CL-VS42@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS42",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 46,
+        "row": "| K05.04.03.04 | [VS42](vocal-science-r2-knowledge-cases.md#L16) | 源波形与外部谱的耦合区分 | [S045](../../research/source-qualification-vocal-science-r2.md#L5)；[S425](../../research/source-qualification-vocal-science-r3.md#L5) | CQ05/CQ07 | CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.05.01.04",
+      "claim": "K05-CL-VS43@1",
+      "directCQ": [
+        "CQ05"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ06",
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25",
+        "CQ18"
+      ],
+      "caseId": "VS43",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 47,
+        "row": "| K05.05.01.04 | [VS43](vocal-science-r2-knowledge-cases.md#L17) | 孟语音系register与歌唱机制 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S416](../../research/source-qualification-vocal-science-r2.md#L9) | CQ05 | CQ04/CQ06/CQ17/CQ26/CQ13/CQ25/CQ18 |"
+      }
+    },
+    {
+      "d4": "K05.05.02.04",
+      "claim": "K05-CL-VS44@1",
+      "directCQ": [
+        "CQ05",
+        "CQ06"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS44",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 48,
+        "row": "| K05.05.02.04 | [VS44](vocal-science-r2-knowledge-cases.md#L18) | 可达舒适机制三类范围 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S417](../../research/source-qualification-vocal-science-r2.md#L10) | CQ05/CQ06 | CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.05.03.04",
+      "claim": "K05-CL-VS45@1",
+      "directCQ": [
+        "CQ05",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ18",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS45",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 49,
+        "row": "| K05.05.03.04 | [VS45](vocal-science-r2-knowledge-cases.md#L19) | 音色差异的样本和任务条件 | [S048](../../research/source-qualification-vocal-science-r1.md#L8)；[S416](../../research/source-qualification-vocal-science-r2.md#L9)；[S426](../../research/source-qualification-vocal-science-r3.md#L6) | CQ05/CQ26 | CQ17/CQ18/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.06.01.04",
+      "claim": "K05-CL-VS46@1",
+      "directCQ": [
+        "CQ04"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ18",
+        "CQ23",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS46",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 50,
+        "row": "| K05.06.01.04 | [VS46](vocal-science-r2-knowledge-cases.md#L20) | 最小对立与音位边界 | [S419](../../research/source-qualification-vocal-science-r2.md#L12)；[S049](../../research/source-qualification-vocal-science-r1.md#L9) | CQ04 | CQ05/CQ18/CQ23/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.06.02.04",
+      "claim": "K05-CL-VS47@1",
+      "directCQ": [
+        "CQ04",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ22",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS47",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 51,
+        "row": "| K05.06.02.04 | [VS47](vocal-science-r2-knowledge-cases.md#L21) | 元辅音和清浊非同一维度 | [S404](../../research/source-qualification-vocal-science-r1.md#L12)；[S415](../../research/source-qualification-vocal-science-r2.md#L8) | CQ04/CQ07 | CQ05/CQ06/CQ22/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.06.03.04",
+      "claim": "K05-CL-VS48@1",
+      "directCQ": [
+        "CQ04"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25",
+        "CQ18"
+      ],
+      "caseId": "VS48",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 52,
+        "row": "| K05.06.03.04 | [VS48](vocal-science-r2-knowledge-cases.md#L22) | 语言register多线索及语种差异 | [S416](../../research/source-qualification-vocal-science-r2.md#L9)；[S418](../../research/source-qualification-vocal-science-r2.md#L11) | CQ04 | CQ05/CQ17/CQ26/CQ13/CQ25/CQ18 |"
+      }
+    },
+    {
+      "d4": "K05.07.01.04",
+      "claim": "K05-CL-VS49@1",
+      "directCQ": [
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ14",
+        "CQ20",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS49",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 53,
+        "row": "| K05.07.01.04 | [VS49](vocal-science-r2-knowledge-cases.md#L23) | 采样/窗与估计前置 | [S409](../../research/source-qualification-vocal-science-r1.md#L17)；[S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ07 | CQ05/CQ06/CQ14/CQ20/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.07.02.04",
+      "claim": "K05-CL-VS50@1",
+      "directCQ": [
+        "CQ07",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ14",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS50",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 54,
+        "row": "| K05.07.02.04 | [VS50](vocal-science-r2-knowledge-cases.md#L24) | 局部jitter/shimmer定义 | [S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S420](../../research/source-qualification-vocal-science-r2.md#L13) | CQ07/CQ22 | CQ05/CQ06/CQ14/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.07.02.05",
+      "claim": "K05-CL-VS51@1",
+      "directCQ": [
+        "CQ07",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ14",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS51",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 55,
+        "row": "| K05.07.02.05 | [VS51](vocal-science-r2-knowledge-cases.md#L25) | CPP及趋势线定义 | [S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S421](../../research/source-qualification-vocal-science-r2.md#L14) | CQ07/CQ22 | CQ05/CQ14/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.07.03.04",
+      "claim": "K05-CL-VS52@1",
+      "directCQ": [
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ14",
+        "CQ20",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS52",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 56,
+        "row": "| K05.07.03.04 | [VS52](vocal-science-r2-knowledge-cases.md#L26) | 校准SPL定义 | [S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ07 | CQ08/CQ14/CQ20/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.08.01.04",
+      "claim": "K05-CL-VS53@1",
+      "directCQ": [
+        "CQ05",
+        "CQ06"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ22",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS53",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 57,
+        "row": "| K05.08.01.04 | [VS53](vocal-science-r2-knowledge-cases.md#L27) | 同剂量不同疲劳报告 | [S046](../../research/source-qualification-vocal-science-r1.md#L6)；[S410](../../research/source-qualification-vocal-science-r1.md#L18)；[S422](../../research/source-qualification-vocal-science-r2.md#L15) | CQ05/CQ06 | CQ17/CQ22/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.08.02.04",
+      "claim": "K05-CL-VS54@1",
+      "directCQ": [
+        "CQ06",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ15",
+        "CQ19",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS54",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 58,
+        "row": "| K05.08.02.04 | [VS54](vocal-science-r2-knowledge-cases.md#L28) | 紧急优先与非临床观察路由 | [S050](../../research/source-qualification-vocal-science-r1.md#L10)；[S411](../../research/source-qualification-vocal-science-r1.md#L19)；[S412](../../research/source-qualification-vocal-science-r1.md#L20) | CQ06/CQ24 | CQ05/CQ15/CQ19/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.08.03.04",
+      "claim": "K05-CL-VS55@1",
+      "directCQ": [
+        "CQ06",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ15",
+        "CQ19",
+        "CQ21",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS55",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 59,
+        "row": "| K05.08.03.04 | [VS55](vocal-science-r2-knowledge-cases.md#L29) | 症状好转不等恢复许可 | [S046](../../research/source-qualification-vocal-science-r1.md#L6)；[S050](../../research/source-qualification-vocal-science-r1.md#L10)；[S412](../../research/source-qualification-vocal-science-r1.md#L20)；[S422](../../research/source-qualification-vocal-science-r2.md#L15) | CQ06/CQ24 | CQ05/CQ15/CQ19/CQ21/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.01.04",
+      "claim": "K05-CL-VS56@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ17",
+        "CQ20",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS56",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 60,
+        "row": "| K05.09.01.04 | [VS56](vocal-science-r2-knowledge-cases.md#L30) | EGG阈值相关接触商 | [S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S423](../../research/source-qualification-vocal-science-r2.md#L16) | CQ05/CQ07 | CQ14/CQ17/CQ20/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.01.05",
+      "claim": "K05-CL-VS57@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ17",
+        "CQ20",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS57",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 61,
+        "row": "| K05.09.01.05 | [VS57](vocal-science-r2-knowledge-cases.md#L31) | 频闪与高速影像条件 | [S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ05/CQ07 | CQ14/CQ17/CQ20/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.02.04",
+      "claim": "K05-CL-VS58@1",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ07",
+        "CQ22",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS58",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 62,
+        "row": "| K05.09.02.04 | [VS58](vocal-science-r2-knowledge-cases.md#L32) | 因子设计及混杂变量 | [S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S416](../../research/source-qualification-vocal-science-r2.md#L9) | CQ17 | CQ05/CQ07/CQ22/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.03.04",
+      "claim": "K05-CL-VS59@1",
+      "directCQ": [
+        "CQ17",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ18",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS59",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 63,
+        "row": "| K05.09.03.04 | [VS59](vocal-science-r2-knowledge-cases.md#L33) | 语音/临床/歌唱外推限制 | [S416](../../research/source-qualification-vocal-science-r2.md#L9)；[S418](../../research/source-qualification-vocal-science-r2.md#L11)；[S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ17/CQ26 | CQ05/CQ06/CQ18/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.03.05",
+      "claim": "K05-CL-VS60@1",
+      "directCQ": [
+        "CQ21",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ14",
+        "CQ20",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS60",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 64,
+        "row": "| K05.09.03.05 | [VS60](vocal-science-r2-knowledge-cases.md#L34) | 分析版本与证据失效 | [S409](../../research/source-qualification-vocal-science-r1.md#L17)；[S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S420](../../research/source-qualification-vocal-science-r2.md#L13)；[S421](../../research/source-qualification-vocal-science-r2.md#L14) | CQ21/CQ24 | CQ07/CQ14/CQ20/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.03.02.06",
+      "claim": "K05-CL-VS61@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ17",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS61",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 65,
+        "row": "| K05.03.02.06 | [VS61](vocal-science-r3-knowledge-cases.md#L5) | 删除不同谐波的最小周期 | [S424](../../research/source-qualification-vocal-science-r3.md#L4)；[S407](../../research/source-qualification-vocal-science-r1.md#L15) | CQ05/CQ07 | CQ01/CQ17/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.04.03.05",
+      "claim": "K05-CL-VS62@1",
+      "directCQ": [
+        "CQ05",
+        "CQ07"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ17",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS62",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 66,
+        "row": "| K05.04.03.05 | [VS62](vocal-science-r3-knowledge-cases.md#L6) | 源强不等外部输出强度 | [S425](../../research/source-qualification-vocal-science-r3.md#L5)；[S045](../../research/source-qualification-vocal-science-r2.md#L5) | CQ05/CQ07 | CQ06/CQ17/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.05.03.05",
+      "claim": "K05-CL-VS63@1",
+      "directCQ": [
+        "CQ05",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS63",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 67,
+        "row": "| K05.05.03.05 | [VS63](vocal-science-r3-knowledge-cases.md#L7) | 年龄组关联与个体逆推区别 | [S426](../../research/source-qualification-vocal-science-r3.md#L6)；[S048](../../research/source-qualification-vocal-science-r1.md#L8) | CQ05/CQ26 | CQ17/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.07.01.05",
+      "claim": "K05-CL-VS64@1",
+      "directCQ": [
+        "CQ06",
+        "CQ07",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ14",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS64",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 68,
+        "row": "| K05.07.01.05 | [VS64](vocal-science-r3-knowledge-cases.md#L8) | 独立真值/估计/音乐目标、有效窗与各自缺失 | [S409](../../research/source-qualification-vocal-science-r1.md#L17)；[S413](../../research/source-qualification-vocal-science-r2.md#L6) | CQ06/CQ07/CQ22 | CQ01/CQ14/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.09.02.05",
+      "claim": "K05-CL-VS65@1",
+      "directCQ": [
+        "CQ07",
+        "CQ21"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ20",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS65",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 69,
+        "row": "| K05.09.02.05 | [VS65](vocal-science-r3-knowledge-cases.md#L9) | 跨设备同步时钟条件 | [S413](../../research/source-qualification-vocal-science-r2.md#L6)；[S423](../../research/source-qualification-vocal-science-r2.md#L16) | CQ07/CQ21 | CQ14/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K05.08.02.05",
+      "claim": "K05-CL-VS66@1",
+      "directCQ": [
+        "CQ06",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ15",
+        "CQ19",
+        "CQ20",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "VS66",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "line": 70,
+        "row": "| K05.08.02.05 | [VS66](vocal-science-r3-knowledge-cases.md#L10) | 离线分析与新人体测试的安全分支 | [S046](../../research/source-qualification-vocal-science-r1.md#L6)；[S050](../../research/source-qualification-vocal-science-r1.md#L10)；[S411](../../research/source-qualification-vocal-science-r1.md#L19)；[S412](../../research/source-qualification-vocal-science-r1.md#L20) | CQ06/CQ24 | CQ05/CQ15/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+      }
+    }
+  ]
+}

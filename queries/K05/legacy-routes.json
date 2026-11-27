@@ -1,0 +1,1402 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "d4": "K05.01.01.01",
+      "historicalRequirement": "喉部与声带功能",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.01.01.03",
+        "K05.01.01.04",
+        "K05.01.01.05"
+      ],
+      "unresolved": [],
+      "limits": "喉声带/声门及分层组织与模型区别。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 5,
+        "row": "| K05.01.01.01 | 喉部与声带功能 | ROUTER_CANDIDATE | [VS01/K05.01.01.03](vocal-science-r1-knowledge-cases.md#L5)；[VS02/K05.01.01.04](vocal-science-r1-knowledge-cases.md#L6)；[VS31/K05.01.01.05](vocal-science-r2-knowledge-cases.md#L5) | 喉声带/声门及分层组织与模型区别。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS01@1",
+        "K05-CL-VS02@1",
+        "K05-CL-VS31@1"
+      ]
+    },
+    {
+      "d4": "K05.01.01.02",
+      "historicalRequirement": "声源与声道区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.01.01.03",
+        "K05.03.01.03",
+        "K05.04.01.03",
+        "K05.01.01.05"
+      ],
+      "unresolved": [],
+      "limits": "声源振动和声道谱包络、模型分组，不能互换。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 6,
+        "row": "| K05.01.01.02 | 声源与声道区别 | BOUNDED_COMPOSITION | [VS01/K05.01.01.03](vocal-science-r1-knowledge-cases.md#L5)；[VS08/K05.03.01.03](vocal-science-r1-knowledge-cases.md#L12)；[VS12/K05.04.01.03](vocal-science-r1-knowledge-cases.md#L16)；[VS31/K05.01.01.05](vocal-science-r2-knowledge-cases.md#L5) | 声源振动和声道谱包络、模型分组，不能互换。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS01@1",
+        "K05-CL-VS08@1",
+        "K05-CL-VS12@1",
+        "K05-CL-VS31@1"
+      ]
+    },
+    {
+      "d4": "K05.01.02.01",
+      "historicalRequirement": "肺及呼吸肌功能",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.01.02.03",
+        "K05.02.01.03",
+        "K05.02.01.04"
+      ],
+      "unresolved": [],
+      "limits": "吸呼气、膈肌/呼吸肌、净容积变化与气流。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 7,
+        "row": "| K05.01.02.01 | 肺及呼吸肌功能 | ROUTER_CANDIDATE | [VS03/K05.01.02.03](vocal-science-r1-knowledge-cases.md#L7)；[VS05/K05.02.01.03](vocal-science-r1-knowledge-cases.md#L9)；[VS34/K05.02.01.04](vocal-science-r2-knowledge-cases.md#L8) | 吸呼气、膈肌/呼吸肌、净容积变化与气流。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS03@1",
+        "K05-CL-VS05@1",
+        "K05-CL-VS34@1"
+      ]
+    },
+    {
+      "d4": "K05.01.02.02",
+      "historicalRequirement": "呼吸发声构音子系统",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.01.01.03",
+        "K05.01.02.03",
+        "K05.01.02.04"
+      ],
+      "unresolved": [],
+      "limits": "供气—振动—构音三子系统独立观测、允许耦合。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 8,
+        "row": "| K05.01.02.02 | 呼吸发声构音子系统 | BOUNDED_COMPOSITION | [VS01/K05.01.01.03](vocal-science-r1-knowledge-cases.md#L5)；[VS03/K05.01.02.03](vocal-science-r1-knowledge-cases.md#L7)；[VS32/K05.01.02.04](vocal-science-r2-knowledge-cases.md#L6) | 供气—振动—构音三子系统独立观测、允许耦合。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS01@1",
+        "K05-CL-VS03@1",
+        "K05-CL-VS32@1"
+      ]
+    },
+    {
+      "d4": "K05.01.03.01",
+      "historicalRequirement": "舌唇下颌软腭功能",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.01.03.03",
+        "K05.01.03.04",
+        "K05.06.02.04"
+      ],
+      "unresolved": [],
+      "limits": "具体舌/唇/下颌/软腭与典型元辅音描述。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 9,
+        "row": "| K05.01.03.01 | 舌唇下颌软腭功能 | ROUTER_CANDIDATE | [VS04/K05.01.03.03](vocal-science-r1-knowledge-cases.md#L8)；[VS33/K05.01.03.04](vocal-science-r2-knowledge-cases.md#L7)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21) | 具体舌/唇/下颌/软腭与典型元辅音描述。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS04@1",
+        "K05-CL-VS33@1",
+        "K05-CL-VS47@1"
+      ]
+    },
+    {
+      "d4": "K05.01.03.02",
+      "historicalRequirement": "构音与声学的非唯一关系",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.01.03.03",
+        "K05.05.03.03",
+        "K05.01.03.04",
+        "K05.06.02.04"
+      ],
+      "unresolved": [],
+      "limits": "符号、构音和声学非单射，实际舌位/音色不能唯一逆推。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 10,
+        "row": "| K05.01.03.02 | 构音与声学的非唯一关系 | BOUNDED_COMPOSITION | [VS04/K05.01.03.03](vocal-science-r1-knowledge-cases.md#L8)；[VS18/K05.05.03.03](vocal-science-r1-knowledge-cases.md#L22)；[VS33/K05.01.03.04](vocal-science-r2-knowledge-cases.md#L7)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21) | 符号、构音和声学非单射，实际舌位/音色不能唯一逆推。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS04@1",
+        "K05-CL-VS18@1",
+        "K05-CL-VS33@1",
+        "K05-CL-VS47@1"
+      ]
+    },
+    {
+      "d4": "K05.02.01.01",
+      "historicalRequirement": "吸呼气与气流机制",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.01.02.03",
+        "K05.02.01.03",
+        "K05.02.01.04"
+      ],
+      "unresolved": [],
+      "limits": "明确吸气、呼气与发声任务条件，净流出不等瞬时声门流。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 11,
+        "row": "| K05.02.01.01 | 吸呼气与气流机制 | ROUTER_CANDIDATE | [VS03/K05.01.02.03](vocal-science-r1-knowledge-cases.md#L7)；[VS05/K05.02.01.03](vocal-science-r1-knowledge-cases.md#L9)；[VS34/K05.02.01.04](vocal-science-r2-knowledge-cases.md#L8) | 明确吸气、呼气与发声任务条件，净流出不等瞬时声门流。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS03@1",
+        "K05-CL-VS05@1",
+        "K05-CL-VS34@1"
+      ]
+    },
+    {
+      "d4": "K05.02.01.02",
+      "historicalRequirement": "区分生理机制与教学意象",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.01.02.03",
+        "K05.02.01.03",
+        "K05.02.01.04",
+        "K05.03.02.05"
+      ],
+      "unresolved": [],
+      "limits": "教学意象不证肌肉活动；K06教学另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 12,
+        "row": "| K05.02.01.02 | 区分生理机制与教学意象 | BOUNDED_COMPOSITION | [VS03/K05.01.02.03](vocal-science-r1-knowledge-cases.md#L7)；[VS05/K05.02.01.03](vocal-science-r1-knowledge-cases.md#L9)；[VS34/K05.02.01.04](vocal-science-r2-knowledge-cases.md#L8)；[VS38/K05.03.02.05](vocal-science-r2-knowledge-cases.md#L12) | 教学意象不证肌肉活动；K06教学另证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS03@1",
+        "K05-CL-VS05@1",
+        "K05-CL-VS34@1",
+        "K05-CL-VS38@1"
+      ]
+    },
+    {
+      "d4": "K05.02.02.01",
+      "historicalRequirement": "区分声门下压与跨声门压",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.02.02.03",
+        "K05.02.02.04"
+      ],
+      "unresolved": [],
+      "limits": "同一参考的上下声门压差；口内间接估计仅协议有效。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 13,
+        "row": "| K05.02.02.01 | 区分声门下压与跨声门压 | ROUTER_CANDIDATE | [VS06/K05.02.02.03](vocal-science-r1-knowledge-cases.md#L10)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9) | 同一参考的上下声门压差；口内间接估计仅协议有效。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS06@1",
+        "K05-CL-VS35@1"
+      ]
+    },
+    {
+      "d4": "K05.02.02.02",
+      "historicalRequirement": "区分压力流量与声学量纲",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.02.02.03",
+        "K05.02.03.03",
+        "K05.02.02.04",
+        "K05.02.03.04",
+        "K05.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "压力/流量/功率/SPL单位及测量位置区别，不同量不能直接替代。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 14,
+        "row": "| K05.02.02.02 | 区分压力流量与声学量纲 | BOUNDED_COMPOSITION | [VS06/K05.02.02.03](vocal-science-r1-knowledge-cases.md#L10)；[VS07/K05.02.03.03](vocal-science-r1-knowledge-cases.md#L11)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10)；[VS52/K05.07.03.04](vocal-science-r2-knowledge-cases.md#L26) | 压力/流量/功率/SPL单位及测量位置区别，不同量不能直接替代。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS06@1",
+        "K05-CL-VS07@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS36@1",
+        "K05-CL-VS52@1"
+      ]
+    },
+    {
+      "d4": "K05.02.03.01",
+      "historicalRequirement": "气流和声门阻力的条件关系",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.02.03.03",
+        "K05.02.03.04"
+      ],
+      "unresolved": [],
+      "limits": "题定稳态阻力、气动功率及效率；不作实际人体正常值。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 15,
+        "row": "| K05.02.03.01 | 气流和声门阻力的条件关系 | ROUTER_CANDIDATE | [VS07/K05.02.03.03](vocal-science-r1-knowledge-cases.md#L11)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10) | 题定稳态阻力、气动功率及效率；不作实际人体正常值。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS07@1",
+        "K05-CL-VS36@1"
+      ]
+    },
+    {
+      "d4": "K05.02.03.02",
+      "historicalRequirement": "区分测量与气息感",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.02.03.03",
+        "K05.02.02.04",
+        "K05.02.03.04",
+        "K05.08.01.04"
+      ],
+      "unresolved": [],
+      "limits": "测量前置及气息/主观感受独立；健康不能由流量推出。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 16,
+        "row": "| K05.02.03.02 | 区分测量与气息感 | BOUNDED_COMPOSITION | [VS07/K05.02.03.03](vocal-science-r1-knowledge-cases.md#L11)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10)；[VS53/K05.08.01.04](vocal-science-r2-knowledge-cases.md#L27) | 测量前置及气息/主观感受独立；健康不能由流量推出。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS07@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS36@1",
+        "K05-CL-VS53@1"
+      ]
+    },
+    {
+      "d4": "K05.03.01.01",
+      "historicalRequirement": "声带振动和声道响应",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.03.01.03",
+        "K05.04.01.03",
+        "K05.03.01.04",
+        "K05.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "声带流调制、相位及输出周期与滤波条件。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 17,
+        "row": "| K05.03.01.01 | 声带振动和声道响应 | ROUTER_CANDIDATE | [VS08/K05.03.01.03](vocal-science-r1-knowledge-cases.md#L12)；[VS12/K05.04.01.03](vocal-science-r1-knowledge-cases.md#L16)；[VS37/K05.03.01.04](vocal-science-r2-knowledge-cases.md#L11)；[VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14) | 声带流调制、相位及输出周期与滤波条件。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS08@1",
+        "K05-CL-VS12@1",
+        "K05-CL-VS37@1",
+        "K05-CL-VS40@1"
+      ]
+    },
+    {
+      "d4": "K05.03.01.02",
+      "historicalRequirement": "声学周期与生理测量区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.03.01.03",
+        "K05.09.01.03",
+        "K05.03.01.04",
+        "K05.04.01.04",
+        "K05.09.01.04"
+      ],
+      "unresolved": [],
+      "limits": "声学周期与实际生理观测、EGG/影像的非等价及条件。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 18,
+        "row": "| K05.03.01.02 | 声学周期与生理测量区别 | BOUNDED_COMPOSITION | [VS08/K05.03.01.03](vocal-science-r1-knowledge-cases.md#L12)；[VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS37/K05.03.01.04](vocal-science-r2-knowledge-cases.md#L11)；[VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14)；[VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30) | 声学周期与实际生理观测、EGG/影像的非等价及条件。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS08@1",
+        "K05-CL-VS28@1",
+        "K05-CL-VS37@1",
+        "K05-CL-VS40@1",
+        "K05-CL-VS56@1"
+      ]
+    },
+    {
+      "d4": "K05.03.02.01",
+      "historicalRequirement": "频率与力学参数的条件关系",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.03.02.03",
+        "K05.03.02.05"
+      ],
+      "unresolved": [],
+      "limits": "理想k/m参数与实际CT/TA多因素，禁止单一逆推。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 19,
+        "row": "| K05.03.02.01 | 频率与力学参数的条件关系 | ROUTER_CANDIDATE | [VS09/K05.03.02.03](vocal-science-r1-knowledge-cases.md#L13)；[VS38/K05.03.02.05](vocal-science-r2-knowledge-cases.md#L12) | 理想k/m参数与实际CT/TA多因素，禁止单一逆推。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS09@1",
+        "K05-CL-VS38@1"
+      ]
+    },
+    {
+      "d4": "K05.03.02.02",
+      "historicalRequirement": "F0与感知音高区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.03.02.04",
+        "K05.03.02.06",
+        "K05.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "数学重复率、估计、感知音高和音乐目标分别；真实听觉未知。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 20,
+        "row": "| K05.03.02.02 | F0与感知音高区别 | BOUNDED_COMPOSITION | [VS10/K05.03.02.04](vocal-science-r1-knowledge-cases.md#L14)；[VS61/K05.03.02.06](vocal-science-r3-knowledge-cases.md#L5)；[VS64/K05.07.01.05](vocal-science-r3-knowledge-cases.md#L8) | 数学重复率、估计、感知音高和音乐目标分别；真实听觉未知。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS10@1",
+        "K05-CL-VS61@1",
+        "K05-CL-VS64@1"
+      ]
+    },
+    {
+      "d4": "K05.03.03.01",
+      "historicalRequirement": "周期非周期及过渡信号",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.03.03.03",
+        "K05.03.03.04"
+      ],
+      "unresolved": [],
+      "limits": "周期、过渡、无稳定周期的具体窗及拒绝强插值。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 21,
+        "row": "| K05.03.03.01 | 周期非周期及过渡信号 | ROUTER_CANDIDATE | [VS11/K05.03.03.03](vocal-science-r1-knowledge-cases.md#L15)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13) | 周期、过渡、无稳定周期的具体窗及拒绝强插值。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS11@1",
+        "K05-CL-VS39@1"
+      ]
+    },
+    {
+      "d4": "K05.03.03.02",
+      "historicalRequirement": "模型假设与观测边界",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.03.03.03",
+        "K05.03.03.04",
+        "K05.09.01.04",
+        "K05.09.01.05"
+      ],
+      "unresolved": [],
+      "limits": "周期/模型假设与生理影像观测适用性；不诊断。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 22,
+        "row": "| K05.03.03.02 | 模型假设与观测边界 | BOUNDED_COMPOSITION | [VS11/K05.03.03.03](vocal-science-r1-knowledge-cases.md#L15)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13)；[VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30)；[VS57/K05.09.01.05](vocal-science-r2-knowledge-cases.md#L31) | 周期/模型假设与生理影像观测适用性；不诊断。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS11@1",
+        "K05-CL-VS39@1",
+        "K05-CL-VS56@1",
+        "K05-CL-VS57@1"
+      ]
+    },
+    {
+      "d4": "K05.04.01.01",
+      "historicalRequirement": "激励与声道响应",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.04.01.03",
+        "K05.05.03.03",
+        "K05.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "固定源与滤波幅度、输出不同周期的边界。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 23,
+        "row": "| K05.04.01.01 | 激励与声道响应 | ROUTER_CANDIDATE | [VS12/K05.04.01.03](vocal-science-r1-knowledge-cases.md#L16)；[VS18/K05.05.03.03](vocal-science-r1-knowledge-cases.md#L22)；[VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14) | 固定源与滤波幅度、输出不同周期的边界。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS12@1",
+        "K05-CL-VS18@1",
+        "K05-CL-VS40@1"
+      ]
+    },
+    {
+      "d4": "K05.04.01.02",
+      "historicalRequirement": "模型独立性假设及限制",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.04.03.03",
+        "K05.04.01.04",
+        "K05.04.03.04",
+        "K05.04.03.05"
+      ],
+      "unresolved": [],
+      "limits": "独立模型与实际耦合条件，强输出不证明强源。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 24,
+        "row": "| K05.04.01.02 | 模型独立性假设及限制 | BOUNDED_COMPOSITION | [VS15/K05.04.03.03](vocal-science-r1-knowledge-cases.md#L19)；[VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14)；[VS42/K05.04.03.04](vocal-science-r2-knowledge-cases.md#L16)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 独立模型与实际耦合条件，强输出不证明强源。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS15@1",
+        "K05-CL-VS40@1",
+        "K05-CL-VS42@1",
+        "K05-CL-VS62@1"
+      ]
+    },
+    {
+      "d4": "K05.04.02.01",
+      "historicalRequirement": "共振峰与基频谐波区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.04.02.03",
+        "K05.04.02.04",
+        "K05.04.02.05"
+      ],
+      "unresolved": [],
+      "limits": "共振、谐波、F0及R1相对关系具体反例。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 25,
+        "row": "| K05.04.02.01 | 共振峰与基频谐波区别 | ROUTER_CANDIDATE | [VS13/K05.04.02.03](vocal-science-r1-knowledge-cases.md#L17)；[VS14/K05.04.02.04](vocal-science-r1-knowledge-cases.md#L18)；[VS41/K05.04.02.05](vocal-science-r2-knowledge-cases.md#L15) | 共振、谐波、F0及R1相对关系具体反例。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS13@1",
+        "K05-CL-VS14@1",
+        "K05-CL-VS41@1"
+      ]
+    },
+    {
+      "d4": "K05.04.02.02",
+      "historicalRequirement": "估计条件及谱峰歧义",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.04.02.03",
+        "K05.04.02.04",
+        "K05.04.02.05",
+        "K05.07.01.04"
+      ],
+      "unresolved": [],
+      "limits": "估计方法/稀疏谐波/窗条件，不能单峰确定共振。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 26,
+        "row": "| K05.04.02.02 | 估计条件及谱峰歧义 | BOUNDED_COMPOSITION | [VS13/K05.04.02.03](vocal-science-r1-knowledge-cases.md#L17)；[VS14/K05.04.02.04](vocal-science-r1-knowledge-cases.md#L18)；[VS41/K05.04.02.05](vocal-science-r2-knowledge-cases.md#L15)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23) | 估计方法/稀疏谐波/窗条件，不能单峰确定共振。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS13@1",
+        "K05-CL-VS14@1",
+        "K05-CL-VS41@1",
+        "K05-CL-VS49@1"
+      ]
+    },
+    {
+      "d4": "K05.04.03.01",
+      "historicalRequirement": "独立源滤波模型限制",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.04.03.03",
+        "K05.04.03.04",
+        "K05.04.03.05"
+      ],
+      "unresolved": [],
+      "limits": "声道与声门源可能耦合，F0不变也可能有相互作用。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 27,
+        "row": "| K05.04.03.01 | 独立源滤波模型限制 | ROUTER_CANDIDATE | [VS15/K05.04.03.03](vocal-science-r1-knowledge-cases.md#L19)；[VS42/K05.04.03.04](vocal-science-r2-knowledge-cases.md#L16)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 声道与声门源可能耦合，F0不变也可能有相互作用。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS15@1",
+        "K05-CL-VS42@1",
+        "K05-CL-VS62@1"
+      ]
+    },
+    {
+      "d4": "K05.04.03.02",
+      "historicalRequirement": "区分模型预测与生理证据",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.04.03.03",
+        "K05.09.01.03",
+        "K05.04.03.04",
+        "K05.04.03.05"
+      ],
+      "unresolved": [],
+      "limits": "计算模型、独立声门观测与实际人体证据分开；不推临床或训练。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 28,
+        "row": "| K05.04.03.02 | 区分模型预测与生理证据 | BOUNDED_COMPOSITION | [VS15/K05.04.03.03](vocal-science-r1-knowledge-cases.md#L19)；[VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS42/K05.04.03.04](vocal-science-r2-knowledge-cases.md#L16)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 计算模型、独立声门观测与实际人体证据分开；不推临床或训练。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS15@1",
+        "K05-CL-VS28@1",
+        "K05-CL-VS42@1",
+        "K05-CL-VS62@1"
+      ]
+    },
+    {
+      "d4": "K05.05.01.01",
+      "historicalRequirement": "生理振动机制与教学声区标签",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.05.01.03",
+        "K05.05.01.04"
+      ],
+      "unresolved": [],
+      "limits": "M0–M3与教学或语言register层级区别。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 29,
+        "row": "| K05.05.01.01 | 生理振动机制与教学声区标签 | ROUTER_CANDIDATE | [VS16/K05.05.01.03](vocal-science-r1-knowledge-cases.md#L20)；[VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17) | M0–M3与教学或语言register层级区别。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS16@1",
+        "K05-CL-VS43@1"
+      ]
+    },
+    {
+      "d4": "K05.05.01.02",
+      "historicalRequirement": "学派术语映射与非等价",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.05.01.03",
+        "K05.05.01.04",
+        "K05.06.03.04"
+      ],
+      "unresolved": [],
+      "limits": "不同学派、语种、任务术语不建立无条件等价。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 30,
+        "row": "| K05.05.01.02 | 学派术语映射与非等价 | BOUNDED_COMPOSITION | [VS16/K05.05.01.03](vocal-science-r1-knowledge-cases.md#L20)；[VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 不同学派、语种、任务术语不建立无条件等价。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS16@1",
+        "K05-CL-VS43@1",
+        "K05-CL-VS48@1"
+      ]
+    },
+    {
+      "d4": "K05.05.02.01",
+      "historicalRequirement": "可达音域舒适音域与声区",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.05.02.03",
+        "K05.05.02.04"
+      ],
+      "unresolved": [],
+      "limits": "可达/舒适/机制范围分别、题设区间交集。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 31,
+        "row": "| K05.05.02.01 | 可达音域舒适音域与声区 | ROUTER_CANDIDATE | [VS17/K05.05.02.03](vocal-science-r1-knowledge-cases.md#L21)；[VS44/K05.05.02.04](vocal-science-r2-knowledge-cases.md#L18) | 可达/舒适/机制范围分别、题设区间交集。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS17@1",
+        "K05-CL-VS44@1"
+      ]
+    },
+    {
+      "d4": "K05.05.02.02",
+      "historicalRequirement": "机制重叠和个体条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.05.02.03",
+        "K05.05.01.04",
+        "K05.05.02.04",
+        "K05.09.01.04"
+      ],
+      "unresolved": [],
+      "limits": "重叠时需个体多模态和任务证据，固定频率无唯一机制。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 32,
+        "row": "| K05.05.02.02 | 机制重叠和个体条件 | BOUNDED_COMPOSITION | [VS17/K05.05.02.03](vocal-science-r1-knowledge-cases.md#L21)；[VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS44/K05.05.02.04](vocal-science-r2-knowledge-cases.md#L18)；[VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30) | 重叠时需个体多模态和任务证据，固定频率无唯一机制。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS17@1",
+        "K05-CL-VS43@1",
+        "K05-CL-VS44@1",
+        "K05-CL-VS56@1"
+      ]
+    },
+    {
+      "d4": "K05.05.03.01",
+      "historicalRequirement": "声源和声道对音色贡献",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.05.03.03",
+        "K05.04.01.04",
+        "K05.04.03.05"
+      ],
+      "unresolved": [],
+      "limits": "源谱与声道共同影响音色，外部谱不唯一反演。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 33,
+        "row": "| K05.05.03.01 | 声源和声道对音色贡献 | ROUTER_CANDIDATE | [VS18/K05.05.03.03](vocal-science-r1-knowledge-cases.md#L22)；[VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 源谱与声道共同影响音色，外部谱不唯一反演。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS18@1",
+        "K05-CL-VS40@1",
+        "K05-CL-VS62@1"
+      ]
+    },
+    {
+      "d4": "K05.05.03.02",
+      "historicalRequirement": "年龄经验流派条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.05.03.04",
+        "K05.05.03.05",
+        "K05.09.03.03"
+      ],
+      "unresolved": [],
+      "limits": "年龄/经验/文化语境依来源，健康成人摘要不可推广儿童或歌唱。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 34,
+        "row": "| K05.05.03.02 | 年龄经验流派条件 | BOUNDED_COMPOSITION | [VS45/K05.05.03.04](vocal-science-r2-knowledge-cases.md#L19)；[VS63/K05.05.03.05](vocal-science-r3-knowledge-cases.md#L7)；[VS30/K05.09.03.03](vocal-science-r1-knowledge-cases.md#L34) | 年龄/经验/文化语境依来源，健康成人摘要不可推广儿童或歌唱。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS45@1",
+        "K05-CL-VS63@1",
+        "K05-CL-VS30@1"
+      ]
+    },
+    {
+      "d4": "K05.06.01.01",
+      "historicalRequirement": "音素语音实现和字母",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.06.01.03",
+        "K05.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "音位、实际音值及字母；语言L最小对立题设。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 35,
+        "row": "| K05.06.01.01 | 音素语音实现和字母 | ROUTER_CANDIDATE | [VS19/K05.06.01.03](vocal-science-r1-knowledge-cases.md#L23)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20) | 音位、实际音值及字母；语言L最小对立题设。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS19@1",
+        "K05-CL-VS46@1"
+      ]
+    },
+    {
+      "d4": "K05.06.01.02",
+      "historicalRequirement": "语言系统与IPA区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.06.01.03",
+        "K05.05.01.04",
+        "K05.06.01.04",
+        "K05.06.03.04"
+      ],
+      "unresolved": [],
+      "limits": "语种及方言映射与IPA符号系统分离；未证不映射。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 36,
+        "row": "| K05.06.01.02 | 语言系统与IPA区别 | BOUNDED_COMPOSITION | [VS19/K05.06.01.03](vocal-science-r1-knowledge-cases.md#L23)；[VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 语种及方言映射与IPA符号系统分离；未证不映射。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS19@1",
+        "K05-CL-VS43@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS48@1"
+      ]
+    },
+    {
+      "d4": "K05.06.02.01",
+      "historicalRequirement": "元音辅音及清浊区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.01.03.03",
+        "K05.06.02.03",
+        "K05.01.03.04",
+        "K05.06.02.04"
+      ],
+      "unresolved": [],
+      "limits": "元音/辅音、清浊、鼻音与构音类别不同维度。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 37,
+        "row": "| K05.06.02.01 | 元音辅音及清浊区别 | ROUTER_CANDIDATE | [VS04/K05.01.03.03](vocal-science-r1-knowledge-cases.md#L8)；[VS20/K05.06.02.03](vocal-science-r1-knowledge-cases.md#L24)；[VS33/K05.01.03.04](vocal-science-r2-knowledge-cases.md#L7)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21) | 元音/辅音、清浊、鼻音与构音类别不同维度。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS04@1",
+        "K05-CL-VS20@1",
+        "K05-CL-VS33@1",
+        "K05-CL-VS47@1"
+      ]
+    },
+    {
+      "d4": "K05.06.02.02",
+      "historicalRequirement": "有声无声区间测量条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.06.02.03",
+        "K05.03.03.04",
+        "K05.06.02.04",
+        "K05.07.01.04",
+        "K05.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "有效声学窗、辅音无F0或有声及测量适用，不计缺失为错误。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 38,
+        "row": "| K05.06.02.02 | 有声无声区间测量条件 | BOUNDED_COMPOSITION | [VS20/K05.06.02.03](vocal-science-r1-knowledge-cases.md#L24)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS64/K05.07.01.05](vocal-science-r3-knowledge-cases.md#L8) | 有效声学窗、辅音无F0或有声及测量适用，不计缺失为错误。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS20@1",
+        "K05-CL-VS39@1",
+        "K05-CL-VS47@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS64@1"
+      ]
+    },
+    {
+      "d4": "K05.06.03.01",
+      "historicalRequirement": "音节声调重音及时值",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.06.03.03",
+        "K05.06.03.04"
+      ],
+      "unresolved": [],
+      "limits": "音节、时长、F0、音质及语言register的限定描述。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 39,
+        "row": "| K05.06.03.01 | 音节声调重音及时值 | ROUTER_CANDIDATE | [VS21/K05.06.03.03](vocal-science-r1-knowledge-cases.md#L25)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 音节、时长、F0、音质及语言register的限定描述。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS21@1",
+        "K05-CL-VS48@1"
+      ]
+    },
+    {
+      "d4": "K05.06.03.02",
+      "historicalRequirement": "语言特定证据归K13",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.06.03.03",
+        "K05.05.01.04",
+        "K05.06.01.04",
+        "K05.06.03.04",
+        "K05.09.03.04"
+      ],
+      "unresolved": [],
+      "limits": "孟语/缅语区分，语种语料及歌唱适配K13主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 40,
+        "row": "| K05.06.03.02 | 语言特定证据归K13 | BOUNDED_COMPOSITION | [VS21/K05.06.03.03](vocal-science-r1-knowledge-cases.md#L25)；[VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33) | 孟语/缅语区分，语种语料及歌唱适配K13主责。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS21@1",
+        "K05-CL-VS43@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS48@1",
+        "K05-CL-VS59@1"
+      ]
+    },
+    {
+      "d4": "K05.07.01.01",
+      "historicalRequirement": "参考F0与估计置信度",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.07.01.03",
+        "K05.07.01.04",
+        "K05.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "参考F0、估计、置信和有效窗；音分与误差区分。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 41,
+        "row": "| K05.07.01.01 | 参考F0与估计置信度 | ROUTER_CANDIDATE | [VS22/K05.07.01.03](vocal-science-r1-knowledge-cases.md#L26)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS64/K05.07.01.05](vocal-science-r3-knowledge-cases.md#L8) | 参考F0、估计、置信和有效窗；音分与误差区分。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS64@1"
+      ]
+    },
+    {
+      "d4": "K05.07.01.02",
+      "historicalRequirement": "范围及倍半频错误",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.07.01.03",
+        "K05.03.03.04",
+        "K05.07.01.04",
+        "K05.07.01.05"
+      ],
+      "unresolved": [],
+      "limits": "倍半频候选、范围、过渡、真实跳变和方法条件。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 42,
+        "row": "| K05.07.01.02 | 范围及倍半频错误 | BOUNDED_COMPOSITION | [VS22/K05.07.01.03](vocal-science-r1-knowledge-cases.md#L26)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS64/K05.07.01.05](vocal-science-r3-knowledge-cases.md#L8) | 倍半频候选、范围、过渡、真实跳变和方法条件。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS39@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS64@1"
+      ]
+    },
+    {
+      "d4": "K05.07.02.01",
+      "historicalRequirement": "周期性指标与噪声成分",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.07.02.03",
+        "K05.07.02.04",
+        "K05.07.02.05"
+      ],
+      "unresolved": [],
+      "limits": "HNR、jitter/shimmer、CPP定义及不同观测对象。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 43,
+        "row": "| K05.07.02.01 | 周期性指标与噪声成分 | ROUTER_CANDIDATE | [VS23/K05.07.02.03](vocal-science-r1-knowledge-cases.md#L27)；[VS50/K05.07.02.04](vocal-science-r2-knowledge-cases.md#L24)；[VS51/K05.07.02.05](vocal-science-r2-knowledge-cases.md#L25) | HNR、jitter/shimmer、CPP定义及不同观测对象。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS23@1",
+        "K05-CL-VS50@1",
+        "K05-CL-VS51@1"
+      ]
+    },
+    {
+      "d4": "K05.07.02.02",
+      "historicalRequirement": "窗长及信号质量限制",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.07.02.03",
+        "K05.03.03.04",
+        "K05.07.01.04",
+        "K05.07.02.04",
+        "K05.07.02.05"
+      ],
+      "unresolved": [],
+      "limits": "窗、有效周期、噪声、版本、信号质量限制，不作诊断阈值。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 44,
+        "row": "| K05.07.02.02 | 窗长及信号质量限制 | BOUNDED_COMPOSITION | [VS23/K05.07.02.03](vocal-science-r1-knowledge-cases.md#L27)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS50/K05.07.02.04](vocal-science-r2-knowledge-cases.md#L24)；[VS51/K05.07.02.05](vocal-science-r2-knowledge-cases.md#L25) | 窗、有效周期、噪声、版本、信号质量限制，不作诊断阈值。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS23@1",
+        "K05-CL-VS39@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS50@1",
+        "K05-CL-VS51@1"
+      ]
+    },
+    {
+      "d4": "K05.07.03.01",
+      "historicalRequirement": "录音电平与校准SPL区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.07.03.03",
+        "K05.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "数字电平与声学校准SPL、单位区别。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 45,
+        "row": "| K05.07.03.01 | 录音电平与校准SPL区别 | ROUTER_CANDIDATE | [VS24/K05.07.03.03](vocal-science-r1-knowledge-cases.md#L28)；[VS52/K05.07.03.04](vocal-science-r2-knowledge-cases.md#L26) | 数字电平与声学校准SPL、单位区别。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS24@1",
+        "K05-CL-VS52@1"
+      ]
+    },
+    {
+      "d4": "K05.07.03.02",
+      "historicalRequirement": "任务材料设备和不确定性",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.07.03.03",
+        "K05.02.02.04",
+        "K05.07.03.04",
+        "K05.09.03.05",
+        "K05.09.02.05"
+      ],
+      "unresolved": [],
+      "limits": "任务材料、设备、校准、同步、版本及不确定性。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 46,
+        "row": "| K05.07.03.02 | 任务材料设备和不确定性 | BOUNDED_COMPOSITION | [VS24/K05.07.03.03](vocal-science-r1-knowledge-cases.md#L28)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS52/K05.07.03.04](vocal-science-r2-knowledge-cases.md#L26)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 任务材料、设备、校准、同步、版本及不确定性。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS24@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS52@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1"
+      ]
+    },
+    {
+      "d4": "K05.08.01.01",
+      "historicalRequirement": "时长强度与主观负荷",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.08.01.03",
+        "K05.08.01.04"
+      ],
+      "unresolved": [],
+      "limits": "time/cycle dose及自报疲劳和任务强度分别。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 47,
+        "row": "| K05.08.01.01 | 时长强度与主观负荷 | ROUTER_CANDIDATE | [VS25/K05.08.01.03](vocal-science-r1-knowledge-cases.md#L29)；[VS53/K05.08.01.04](vocal-science-r2-knowledge-cases.md#L27) | time/cycle dose及自报疲劳和任务强度分别。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS25@1",
+        "K05-CL-VS53@1"
+      ]
+    },
+    {
+      "d4": "K05.08.01.02",
+      "historicalRequirement": "负荷描述与诊断边界",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.08.01.03",
+        "K05.08.01.04",
+        "K05.08.03.04",
+        "K05.05.03.05"
+      ],
+      "unresolved": [],
+      "limits": "负荷与症状不是损伤诊断，不导入量表阈值。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 48,
+        "row": "| K05.08.01.02 | 负荷描述与诊断边界 | BOUNDED_COMPOSITION | [VS25/K05.08.01.03](vocal-science-r1-knowledge-cases.md#L29)；[VS53/K05.08.01.04](vocal-science-r2-knowledge-cases.md#L27)；[VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29)；[VS63/K05.05.03.05](vocal-science-r3-knowledge-cases.md#L7) | 负荷与症状不是损伤诊断，不导入量表阈值。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS25@1",
+        "K05-CL-VS53@1",
+        "K05-CL-VS55@1",
+        "K05-CL-VS63@1"
+      ]
+    },
+    {
+      "d4": "K05.08.02.01",
+      "historicalRequirement": "停止及专业评估边界",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.08.02.03",
+        "K05.08.02.04",
+        "K05.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "新症状暂停，严重呼吸困难立即紧急医疗，离线分析不延误。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 49,
+        "row": "| K05.08.02.01 | 停止及专业评估边界 | ROUTER_CANDIDATE | [VS26/K05.08.02.03](vocal-science-r1-knowledge-cases.md#L30)；[VS54/K05.08.02.04](vocal-science-r2-knowledge-cases.md#L28)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 新症状暂停，严重呼吸困难立即紧急医疗，离线分析不延误。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS26@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS66@1"
+      ]
+    },
+    {
+      "d4": "K05.08.02.02",
+      "historicalRequirement": "一般风险信息与诊疗区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.08.02.03",
+        "K05.08.03.03",
+        "K05.08.02.04",
+        "K05.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "一般风险和临床判断不同；医疗优先、无自诊处方。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 50,
+        "row": "| K05.08.02.02 | 一般风险信息与诊疗区别 | BOUNDED_COMPOSITION | [VS26/K05.08.02.03](vocal-science-r1-knowledge-cases.md#L30)；[VS27/K05.08.03.03](vocal-science-r1-knowledge-cases.md#L31)；[VS54/K05.08.02.04](vocal-science-r2-knowledge-cases.md#L28)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 一般风险和临床判断不同；医疗优先、无自诊处方。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS26@1",
+        "K05-CL-VS27@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS66@1"
+      ]
+    },
+    {
+      "d4": "K05.08.03.01",
+      "historicalRequirement": "症状变化与非诊断记录",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.08.03.03",
+        "K05.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "症状变化和记录不等痊愈、不能据此批准恢复。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 51,
+        "row": "| K05.08.03.01 | 症状变化与非诊断记录 | ROUTER_CANDIDATE | [VS27/K05.08.03.03](vocal-science-r1-knowledge-cases.md#L31)；[VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29) | 症状变化和记录不等痊愈、不能据此批准恢复。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS27@1",
+        "K05-CL-VS55@1"
+      ]
+    },
+    {
+      "d4": "K05.08.03.02",
+      "historicalRequirement": "专业评估与紧急帮助边界",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.08.02.03",
+        "K05.08.03.03",
+        "K05.08.02.04",
+        "K05.08.03.04",
+        "K05.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "公众就医与临床转介不同时间条件；严重报告立即医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 52,
+        "row": "| K05.08.03.02 | 专业评估与紧急帮助边界 | BOUNDED_COMPOSITION | [VS26/K05.08.02.03](vocal-science-r1-knowledge-cases.md#L30)；[VS27/K05.08.03.03](vocal-science-r1-knowledge-cases.md#L31)；[VS54/K05.08.02.04](vocal-science-r2-knowledge-cases.md#L28)；[VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 公众就医与临床转介不同时间条件；严重报告立即医疗。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS26@1",
+        "K05-CL-VS27@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS55@1",
+        "K05-CL-VS66@1"
+      ]
+    },
+    {
+      "d4": "K05.09.01.01",
+      "historicalRequirement": "感知声学气动影像区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.09.01.03",
+        "K05.09.01.04",
+        "K05.09.01.05"
+      ],
+      "unresolved": [],
+      "limits": "声学、气动、EGG与影像各自观测对象。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 53,
+        "row": "| K05.09.01.01 | 感知声学气动影像区别 | ROUTER_CANDIDATE | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30)；[VS57/K05.09.01.05](vocal-science-r2-knowledge-cases.md#L31) | 声学、气动、EGG与影像各自观测对象。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS56@1",
+        "K05-CL-VS57@1"
+      ]
+    },
+    {
+      "d4": "K05.09.01.02",
+      "historicalRequirement": "方法的可观测对象",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.09.01.03",
+        "K05.02.02.04",
+        "K05.09.01.04",
+        "K05.09.01.05",
+        "K05.09.02.05"
+      ],
+      "unresolved": [],
+      "limits": "校准/同步/周期假设/方法特定结果，不能直接诊断。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 54,
+        "row": "| K05.09.01.02 | 方法的可观测对象 | BOUNDED_COMPOSITION | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30)；[VS57/K05.09.01.05](vocal-science-r2-knowledge-cases.md#L31)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 校准/同步/周期假设/方法特定结果，不能直接诊断。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS56@1",
+        "K05-CL-VS57@1",
+        "K05-CL-VS65@1"
+      ]
+    },
+    {
+      "d4": "K05.09.02.01",
+      "historicalRequirement": "人群任务对照测量",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.09.02.03",
+        "K05.09.02.04",
+        "K05.09.02.05"
+      ],
+      "unresolved": [],
+      "limits": "人群、任务、因子、对照和时间基准。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 55,
+        "row": "| K05.09.02.01 | 人群任务对照测量 | ROUTER_CANDIDATE | [VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)；[VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 人群、任务、因子、对照和时间基准。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS29@1",
+        "K05-CL-VS58@1",
+        "K05-CL-VS65@1"
+      ]
+    },
+    {
+      "d4": "K05.09.02.02",
+      "historicalRequirement": "相关与因果区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.09.02.03",
+        "K05.09.02.04",
+        "K05.04.03.05"
+      ],
+      "unresolved": [],
+      "limits": "模型内因果与人体因果区分，非对照前后不证单因素。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 56,
+        "row": "| K05.09.02.02 | 相关与因果区别 | BOUNDED_COMPOSITION | [VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)；[VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 模型内因果与人体因果区分，非对照前后不证单因素。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS29@1",
+        "K05-CL-VS58@1",
+        "K05-CL-VS62@1"
+      ]
+    },
+    {
+      "d4": "K05.09.03.01",
+      "historicalRequirement": "研究对象及外部有效性",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K05.09.03.03",
+        "K05.05.03.04",
+        "K05.09.03.04",
+        "K05.05.03.05"
+      ],
+      "unresolved": [],
+      "limits": "研究对象、源版本及外推范围，语音/临床不直接套歌唱。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 57,
+        "row": "| K05.09.03.01 | 研究对象及外部有效性 | ROUTER_CANDIDATE | [VS30/K05.09.03.03](vocal-science-r1-knowledge-cases.md#L34)；[VS45/K05.05.03.04](vocal-science-r2-knowledge-cases.md#L19)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS63/K05.05.03.05](vocal-science-r3-knowledge-cases.md#L7) | 研究对象、源版本及外推范围，语音/临床不直接套歌唱。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS30@1",
+        "K05-CL-VS45@1",
+        "K05-CL-VS59@1",
+        "K05-CL-VS63@1"
+      ]
+    },
+    {
+      "d4": "K05.09.03.02",
+      "historicalRequirement": "作者报告与复现区分",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K05.09.02.03",
+        "K05.09.03.04",
+        "K05.09.03.05",
+        "K05.09.02.05"
+      ],
+      "unresolved": [],
+      "limits": "作者报告与独立复现/版本证据分开；旧结论失效需复核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-legacy-convergence.md",
+        "blob": "75ddcfe9cb00c30f745cdce8a21a87d1d82eaac6",
+        "line": 58,
+        "row": "| K05.09.03.02 | 作者报告与复现区分 | BOUNDED_COMPOSITION | [VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 作者报告与独立复现/版本证据分开；旧结论失效需复核。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K05-CL-VS29@1",
+        "K05-CL-VS59@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1"
+      ]
+    }
+  ],
+  "splitRoutes": [],
+  "historicalFinding": 38,
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}

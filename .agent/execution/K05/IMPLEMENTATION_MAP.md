@@ -1,0 +1,1 @@
+Frozen discovery docs/product/calibration/vocal-science-r4-discovery-cq.md, exact case row and source qualification links, corresponding capability/legacy/closure and residual gates. Material paths in manifest. Local semantic tests, full regressions and read-only CLI; no generic runtime.

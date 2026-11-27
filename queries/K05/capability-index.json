@@ -1,0 +1,3160 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K05.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "分层组织、声门、呼吸与构音机制",
+      "d4Targets": [
+        "K05.01.01.03",
+        "K05.01.01.04",
+        "K05.01.02.03",
+        "K05.01.03.03",
+        "K05.01.01.05",
+        "K05.01.02.04",
+        "K05.01.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 5,
+        "row": "| K05.01 | A01 | P | 分层组织、声门、呼吸与构音机制 | [VS01/K05.01.01.03](vocal-science-r1-knowledge-cases.md#L5)；[VS02/K05.01.01.04](vocal-science-r1-knowledge-cases.md#L6)；[VS03/K05.01.02.03](vocal-science-r1-knowledge-cases.md#L7)；[VS04/K05.01.03.03](vocal-science-r1-knowledge-cases.md#L8)；[VS31/K05.01.01.05](vocal-science-r2-knowledge-cases.md#L5)；[VS32/K05.01.02.04](vocal-science-r2-knowledge-cases.md#L6)；[VS33/K05.01.03.04](vocal-science-r2-knowledge-cases.md#L7) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS01@1",
+        "K05-CL-VS02@1",
+        "K05-CL-VS03@1",
+        "K05-CL-VS04@1",
+        "K05-CL-VS31@1",
+        "K05-CL-VS32@1",
+        "K05-CL-VS33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS01",
+          "claim": "K05-CL-VS01@1",
+          "problem": "普通有声元音模型中肺、声门、咽口鼻各做什么？",
+          "reject": "滤波可改变辐射频谱而非必然改变组织。"
+        },
+        {
+          "caseId": "VS02",
+          "claim": "K05-CL-VS02@1",
+          "problem": "静息呼吸与普通有声时声门功能有何区别？",
+          "reject": "普通自振依气动组织相互作用。"
+        },
+        {
+          "caseId": "VS03",
+          "claim": "K05-CL-VS03@1",
+          "problem": "吸气与有声呼气中供气子系统职责？",
+          "reject": "外部运动不是内部肌肉直接测量。"
+        },
+        {
+          "caseId": "VS04",
+          "claim": "K05-CL-VS04@1",
+          "problem": "[p]/[b]和[t]/[k]分别在哪个维度不同？",
+          "reject": "两个独立分类维度。"
+        },
+        {
+          "caseId": "VS31",
+          "claim": "K05-CL-VS31@1",
+          "problem": "Zhang二层抽象body及cover含什么？",
+          "reject": "另有三层模型及组织学分层。"
+        },
+        {
+          "caseId": "VS32",
+          "claim": "K05-CL-VS32@1",
+          "problem": "肺容积、声门流、舌唇位置分别属于何子系统？",
+          "reject": "可能存在耦合及其它变化。"
+        },
+        {
+          "caseId": "VS33",
+          "claim": "K05-CL-VS33@1",
+          "problem": "[i]/[u]共有何属性，区别？",
+          "reject": "语种、音高、个体声道不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.01",
+      "ability": "A02",
+      "role": "S",
+      "task": "支持K06观察前置及K09/10区别观测对象",
+      "d4Targets": [
+        "K05.01.02.03",
+        "K05.01.02.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 6,
+        "row": "| K05.01 | A02 | S | 支持K06观察前置及K09/10区别观测对象 | [VS03/K05.01.02.03](vocal-science-r1-knowledge-cases.md#L7)；[VS32/K05.01.02.04](vocal-science-r2-knowledge-cases.md#L6) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS03@1",
+        "K05-CL-VS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS03",
+          "claim": "K05-CL-VS03@1",
+          "problem": "吸气与有声呼气中供气子系统职责？",
+          "reject": "外部运动不是内部肌肉直接测量。"
+        },
+        {
+          "caseId": "VS32",
+          "claim": "K05-CL-VS32@1",
+          "problem": "肺容积、声门流、舌唇位置分别属于何子系统？",
+          "reject": "可能存在耦合及其它变化。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "K12/K08实施；提供观察对象与校准要求",
+      "d4Targets": [
+        "K05.09.01.03",
+        "K05.01.02.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 7,
+        "row": "| K05.01 | A03 | S | K12/K08实施；提供观察对象与校准要求 | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS32/K05.01.02.04](vocal-science-r2-knowledge-cases.md#L6) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS28",
+          "claim": "K05-CL-VS28@1",
+          "problem": "音频F0、EGG、气流、影像分别说明什么？",
+          "reject": "间接阻抗受多条件影响。"
+        },
+        {
+          "caseId": "VS32",
+          "claim": "K05-CL-VS32@1",
+          "problem": "肺容积、声门流、舌唇位置分别属于何子系统？",
+          "reject": "可能存在耦合及其它变化。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.01",
+      "ability": "A04",
+      "role": "C",
+      "task": "仅在有授权研究观测时记录任务、对象与版本",
+      "d4Targets": [
+        "K05.01.01.05",
+        "K05.01.02.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 8,
+        "row": "| K05.01 | A04 | C | 仅在有授权研究观测时记录任务、对象与版本 | [VS31/K05.01.01.05](vocal-science-r2-knowledge-cases.md#L5)；[VS32/K05.01.02.04](vocal-science-r2-knowledge-cases.md#L6) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS31@1",
+        "K05-CL-VS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS31",
+          "claim": "K05-CL-VS31@1",
+          "problem": "Zhang二层抽象body及cover含什么？",
+          "reject": "另有三层模型及组织学分层。"
+        },
+        {
+          "caseId": "VS32",
+          "claim": "K05-CL-VS32@1",
+          "problem": "肺容积、声门流、舌唇位置分别属于何子系统？",
+          "reject": "可能存在耦合及其它变化。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "解剖模型与实际证据的层级判断",
+      "d4Targets": [
+        "K05.01.01.03",
+        "K05.01.01.05",
+        "K05.01.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 9,
+        "row": "| K05.01 | A05 | P | 解剖模型与实际证据的层级判断 | [VS01/K05.01.01.03](vocal-science-r1-knowledge-cases.md#L5)；[VS31/K05.01.01.05](vocal-science-r2-knowledge-cases.md#L5)；[VS33/K05.01.03.04](vocal-science-r2-knowledge-cases.md#L7) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS01@1",
+        "K05-CL-VS31@1",
+        "K05-CL-VS33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS01",
+          "claim": "K05-CL-VS01@1",
+          "problem": "普通有声元音模型中肺、声门、咽口鼻各做什么？",
+          "reject": "滤波可改变辐射频谱而非必然改变组织。"
+        },
+        {
+          "caseId": "VS31",
+          "claim": "K05-CL-VS31@1",
+          "problem": "Zhang二层抽象body及cover含什么？",
+          "reject": "另有三层模型及组织学分层。"
+        },
+        {
+          "caseId": "VS33",
+          "claim": "K05-CL-VS33@1",
+          "problem": "[i]/[u]共有何属性，区别？",
+          "reject": "语种、音高、个体声道不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.01",
+      "ability": "A06",
+      "role": "C",
+      "task": "有明确需求时记录分层结构/构音标签，不建临床影像或乐谱编辑",
+      "d4Targets": [
+        "K05.01.01.05",
+        "K05.01.03.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 10,
+        "row": "| K05.01 | A06 | C | 有明确需求时记录分层结构/构音标签，不建临床影像或乐谱编辑 | [VS31/K05.01.01.05](vocal-science-r2-knowledge-cases.md#L5)；[VS33/K05.01.03.04](vocal-science-r2-knowledge-cases.md#L7) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS31@1",
+        "K05-CL-VS33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS31",
+          "claim": "K05-CL-VS31@1",
+          "problem": "Zhang二层抽象body及cover含什么？",
+          "reject": "另有三层模型及组织学分层。"
+        },
+        {
+          "caseId": "VS33",
+          "claim": "K05-CL-VS33@1",
+          "problem": "[i]/[u]共有何属性，区别？",
+          "reject": "语种、音高、个体声道不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.01",
+      "ability": "A07",
+      "role": "C",
+      "task": "条件性定位供气/源/构音差异，真实处置由专业人员",
+      "d4Targets": [
+        "K05.01.01.03",
+        "K05.01.02.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 11,
+        "row": "| K05.01 | A07 | C | 条件性定位供气/源/构音差异，真实处置由专业人员 | [VS01/K05.01.01.03](vocal-science-r1-knowledge-cases.md#L5)；[VS32/K05.01.02.04](vocal-science-r2-knowledge-cases.md#L6) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS01@1",
+        "K05-CL-VS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS01",
+          "claim": "K05-CL-VS01@1",
+          "problem": "普通有声元音模型中肺、声门、咽口鼻各做什么？",
+          "reject": "滤波可改变辐射频谱而非必然改变组织。"
+        },
+        {
+          "caseId": "VS32",
+          "claim": "K05-CL-VS32@1",
+          "problem": "肺容积、声门流、舌唇位置分别属于何子系统？",
+          "reject": "可能存在耦合及其它变化。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "呼吸力学、压力流量及效率",
+      "d4Targets": [
+        "K05.02.01.03",
+        "K05.02.02.03",
+        "K05.02.03.03",
+        "K05.02.01.04",
+        "K05.02.02.04",
+        "K05.02.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 12,
+        "row": "| K05.02 | A01 | P | 呼吸力学、压力流量及效率 | [VS05/K05.02.01.03](vocal-science-r1-knowledge-cases.md#L9)；[VS06/K05.02.02.03](vocal-science-r1-knowledge-cases.md#L10)；[VS07/K05.02.03.03](vocal-science-r1-knowledge-cases.md#L11)；[VS34/K05.02.01.04](vocal-science-r2-knowledge-cases.md#L8)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS05@1",
+        "K05-CL-VS06@1",
+        "K05-CL-VS07@1",
+        "K05-CL-VS34@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS05",
+          "claim": "K05-CL-VS05@1",
+          "problem": "A肺容积下降、声门开放无周期；B供气及自振，哪一例有声？",
+          "reject": "无周期呼气不定义稳定F0。"
+        },
+        {
+          "caseId": "VS06",
+          "claim": "K05-CL-VS06@1",
+          "problem": "下700Pa、上200Pa及上0Pa各求差。",
+          "reject": "上压未知时差未知。"
+        },
+        {
+          "caseId": "VS07",
+          "claim": "K05-CL-VS07@1",
+          "problem": "ΔP500Pa，Q=.1/.2L/s分别R？",
+          "reject": "模型与真实组织、任务不同。"
+        },
+        {
+          "caseId": "VS34",
+          "claim": "K05-CL-VS34@1",
+          "problem": "3.0→2.6及3.0→2.8L各4秒，平均流率？",
+          "reject": "合成模型非训练剂量。"
+        },
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        },
+        {
+          "caseId": "VS36",
+          "claim": "K05-CL-VS36@1",
+          "problem": "500Pa与.0002m³/s、声功率.001W，求功率及效率。",
+          "reject": "空间辐射及传播条件不足。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.02",
+      "ability": "A02",
+      "role": "S",
+      "task": "为K06/K10测量流程提供气动前提，不实施临床",
+      "d4Targets": [
+        "K05.02.02.04",
+        "K05.02.03.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 13,
+        "row": "| K05.02 | A02 | S | 为K06/K10测量流程提供气动前提，不实施临床 | [VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS35@1",
+        "K05-CL-VS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        },
+        {
+          "caseId": "VS36",
+          "claim": "K05-CL-VS36@1",
+          "problem": "500Pa与.0002m³/s、声功率.001W，求功率及效率。",
+          "reject": "空间辐射及传播条件不足。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.02",
+      "ability": "A03",
+      "role": "S",
+      "task": "提供量纲和仪器前提；K12版本与K08采集",
+      "d4Targets": [
+        "K05.02.02.03",
+        "K05.02.02.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 14,
+        "row": "| K05.02 | A03 | S | 提供量纲和仪器前提；K12版本与K08采集 | [VS06/K05.02.02.03](vocal-science-r1-knowledge-cases.md#L10)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS06@1",
+        "K05-CL-VS35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS06",
+          "claim": "K05-CL-VS06@1",
+          "problem": "下700Pa、上200Pa及上0Pa各求差。",
+          "reject": "上压未知时差未知。"
+        },
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.02",
+      "ability": "A04",
+      "role": "C",
+      "task": "条件记录压力位置、参考、窗和模型",
+      "d4Targets": [
+        "K05.02.02.03",
+        "K05.02.01.04",
+        "K05.02.02.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 15,
+        "row": "| K05.02 | A04 | C | 条件记录压力位置、参考、窗和模型 | [VS06/K05.02.02.03](vocal-science-r1-knowledge-cases.md#L10)；[VS34/K05.02.01.04](vocal-science-r2-knowledge-cases.md#L8)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS06@1",
+        "K05-CL-VS34@1",
+        "K05-CL-VS35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS06",
+          "claim": "K05-CL-VS06@1",
+          "problem": "下700Pa、上200Pa及上0Pa各求差。",
+          "reject": "上压未知时差未知。"
+        },
+        {
+          "caseId": "VS34",
+          "claim": "K05-CL-VS34@1",
+          "problem": "3.0→2.6及3.0→2.8L各4秒，平均流率？",
+          "reject": "合成模型非训练剂量。"
+        },
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "区分气动功率、阻力、主观感受与SPL",
+      "d4Targets": [
+        "K05.02.03.03",
+        "K05.02.02.04",
+        "K05.02.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 16,
+        "row": "| K05.02 | A05 | P | 区分气动功率、阻力、主观感受与SPL | [VS07/K05.02.03.03](vocal-science-r1-knowledge-cases.md#L11)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS07@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS07",
+          "claim": "K05-CL-VS07@1",
+          "problem": "ΔP500Pa，Q=.1/.2L/s分别R？",
+          "reject": "模型与真实组织、任务不同。"
+        },
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        },
+        {
+          "caseId": "VS36",
+          "claim": "K05-CL-VS36@1",
+          "problem": "500Pa与.0002m³/s、声功率.001W，求功率及效率。",
+          "reject": "空间辐射及传播条件不足。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.02",
+      "ability": "A06",
+      "role": "C",
+      "task": "条件性可编辑测量定义，非工具/人体动作",
+      "d4Targets": [
+        "K05.02.02.03",
+        "K05.02.03.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 17,
+        "row": "| K05.02 | A06 | C | 条件性可编辑测量定义，非工具/人体动作 | [VS06/K05.02.02.03](vocal-science-r1-knowledge-cases.md#L10)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS06@1",
+        "K05-CL-VS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS06",
+          "claim": "K05-CL-VS06@1",
+          "problem": "下700Pa、上200Pa及上0Pa各求差。",
+          "reject": "上压未知时差未知。"
+        },
+        {
+          "caseId": "VS36",
+          "claim": "K05-CL-VS36@1",
+          "problem": "500Pa与.0002m³/s、声功率.001W，求功率及效率。",
+          "reject": "空间辐射及传播条件不足。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.02",
+      "ability": "A07",
+      "role": "C",
+      "task": "条件性排查无效前提或单位错误，不作治疗",
+      "d4Targets": [
+        "K05.02.02.04",
+        "K05.02.03.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 18,
+        "row": "| K05.02 | A07 | C | 条件性排查无效前提或单位错误，不作治疗 | [VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS36/K05.02.03.04](vocal-science-r2-knowledge-cases.md#L10) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS35@1",
+        "K05-CL-VS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        },
+        {
+          "caseId": "VS36",
+          "claim": "K05-CL-VS36@1",
+          "problem": "500Pa与.0002m³/s、声功率.001W，求功率及效率。",
+          "reject": "空间辐射及传播条件不足。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "声带振动、F0、模型参数与非周期",
+      "d4Targets": [
+        "K05.03.01.03",
+        "K05.03.02.03",
+        "K05.03.02.04",
+        "K05.03.03.03",
+        "K05.03.01.04",
+        "K05.03.02.05",
+        "K05.03.03.04",
+        "K05.03.02.06"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 19,
+        "row": "| K05.03 | A01 | P | 声带振动、F0、模型参数与非周期 | [VS08/K05.03.01.03](vocal-science-r1-knowledge-cases.md#L12)；[VS09/K05.03.02.03](vocal-science-r1-knowledge-cases.md#L13)；[VS10/K05.03.02.04](vocal-science-r1-knowledge-cases.md#L14)；[VS11/K05.03.03.03](vocal-science-r1-knowledge-cases.md#L15)；[VS37/K05.03.01.04](vocal-science-r2-knowledge-cases.md#L11)；[VS38/K05.03.02.05](vocal-science-r2-knowledge-cases.md#L12)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13)；[VS61/K05.03.02.06](vocal-science-r3-knowledge-cases.md#L5) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS08@1",
+        "K05-CL-VS09@1",
+        "K05-CL-VS10@1",
+        "K05-CL-VS11@1",
+        "K05-CL-VS37@1",
+        "K05-CL-VS38@1",
+        "K05-CL-VS39@1",
+        "K05-CL-VS61@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS08",
+          "claim": "K05-CL-VS08@1",
+          "problem": "5ms周期，滤波后400Hz最强但200保留，周期？",
+          "reject": "200非零使最小周期仍5ms。"
+        },
+        {
+          "caseId": "VS09",
+          "claim": "K05-CL-VS09@1",
+          "problem": "同m刚度×4、同k质量×4，频率比例？",
+          "reject": "模型k不等肌肉激活或应力。"
+        },
+        {
+          "caseId": "VS10",
+          "claim": "K05-CL-VS10@1",
+          "problem": "400/600/800Hz均非零，最小周期？",
+          "reject": "各非零分量均为200整数倍。"
+        },
+        {
+          "caseId": "VS11",
+          "claim": "K05-CL-VS11@1",
+          "problem": "A200Hz正弦，B100+200非零，C无周期随机，分类。",
+          "reject": "100非零使最小周期10ms。"
+        },
+        {
+          "caseId": "VS37",
+          "claim": "K05-CL-VS37@1",
+          "problem": "周期5ms、相差1ms，角度？",
+          "reject": "已声明相位差非零。"
+        },
+        {
+          "caseId": "VS38",
+          "claim": "K05-CL-VS38@1",
+          "problem": "(k,m)=(1,1)/(4,4)频率比较？",
+          "reject": "两组合不同。"
+        },
+        {
+          "caseId": "VS39",
+          "claim": "K05-CL-VS39@1",
+          "problem": "0–100ms 5ms周期，100–150过渡，150–250 4ms，报告？",
+          "reject": "该段稳定周期未定义。"
+        },
+        {
+          "caseId": "VS61",
+          "claim": "K05-CL-VS61@1",
+          "problem": "400/600/800去掉600前后周期？",
+          "reject": "剩余频率公因数400。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.03",
+      "ability": "A02",
+      "role": "S",
+      "task": "支持观测窗与候选原因选择，K06/K10主责流程",
+      "d4Targets": [
+        "K05.03.01.03",
+        "K05.03.03.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 20,
+        "row": "| K05.03 | A02 | S | 支持观测窗与候选原因选择，K06/K10主责流程 | [VS08/K05.03.01.03](vocal-science-r1-knowledge-cases.md#L12)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS08@1",
+        "K05-CL-VS39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS08",
+          "claim": "K05-CL-VS08@1",
+          "problem": "5ms周期，滤波后400Hz最强但200保留，周期？",
+          "reject": "200非零使最小周期仍5ms。"
+        },
+        {
+          "caseId": "VS39",
+          "claim": "K05-CL-VS39@1",
+          "problem": "0–100ms 5ms周期，100–150过渡，150–250 4ms，报告？",
+          "reject": "该段稳定周期未定义。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.03",
+      "ability": "A03",
+      "role": "S",
+      "task": "算法需求与输入参考，K12实现",
+      "d4Targets": [
+        "K05.07.01.03",
+        "K05.07.01.04",
+        "K05.03.02.06"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 21,
+        "row": "| K05.03 | A03 | S | 算法需求与输入参考，K12实现 | [VS22/K05.07.01.03](vocal-science-r1-knowledge-cases.md#L26)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS61/K05.03.02.06](vocal-science-r3-knowledge-cases.md#L5) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS61@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS22",
+          "claim": "K05-CL-VS22@1",
+          "problem": "参考200Hz，估计100及400如何分类？",
+          "reject": "估计错误不等源需修改。"
+        },
+        {
+          "caseId": "VS49",
+          "claim": "K05-CL-VS49@1",
+          "problem": "8k采样200Hz，20ms及2ms各几周期？",
+          "reject": "不足，不能通过题定算法。"
+        },
+        {
+          "caseId": "VS61",
+          "claim": "K05-CL-VS61@1",
+          "problem": "400/600/800去掉600前后周期？",
+          "reject": "剩余频率公因数400。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.03",
+      "ability": "A04",
+      "role": "C",
+      "task": "有条件记录稳定/过渡窗和源观测版本",
+      "d4Targets": [
+        "K05.03.03.03",
+        "K05.03.03.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 22,
+        "row": "| K05.03 | A04 | C | 有条件记录稳定/过渡窗和源观测版本 | [VS11/K05.03.03.03](vocal-science-r1-knowledge-cases.md#L15)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS11@1",
+        "K05-CL-VS39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS11",
+          "claim": "K05-CL-VS11@1",
+          "problem": "A200Hz正弦，B100+200非零，C无周期随机，分类。",
+          "reject": "100非零使最小周期10ms。"
+        },
+        {
+          "caseId": "VS39",
+          "claim": "K05-CL-VS39@1",
+          "problem": "0–100ms 5ms周期，100–150过渡，150–250 4ms，报告？",
+          "reject": "该段稳定周期未定义。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "数学周期、真实生理及感知音高边界",
+      "d4Targets": [
+        "K05.03.01.03",
+        "K05.03.02.04",
+        "K05.03.01.04",
+        "K05.03.02.06"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 23,
+        "row": "| K05.03 | A05 | P | 数学周期、真实生理及感知音高边界 | [VS08/K05.03.01.03](vocal-science-r1-knowledge-cases.md#L12)；[VS10/K05.03.02.04](vocal-science-r1-knowledge-cases.md#L14)；[VS37/K05.03.01.04](vocal-science-r2-knowledge-cases.md#L11)；[VS61/K05.03.02.06](vocal-science-r3-knowledge-cases.md#L5) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS08@1",
+        "K05-CL-VS10@1",
+        "K05-CL-VS37@1",
+        "K05-CL-VS61@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS08",
+          "claim": "K05-CL-VS08@1",
+          "problem": "5ms周期，滤波后400Hz最强但200保留，周期？",
+          "reject": "200非零使最小周期仍5ms。"
+        },
+        {
+          "caseId": "VS10",
+          "claim": "K05-CL-VS10@1",
+          "problem": "400/600/800Hz均非零，最小周期？",
+          "reject": "各非零分量均为200整数倍。"
+        },
+        {
+          "caseId": "VS37",
+          "claim": "K05-CL-VS37@1",
+          "problem": "周期5ms、相差1ms，角度？",
+          "reject": "已声明相位差非零。"
+        },
+        {
+          "caseId": "VS61",
+          "claim": "K05-CL-VS61@1",
+          "problem": "400/600/800去掉600前后周期？",
+          "reject": "剩余频率公因数400。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.03",
+      "ability": "A06",
+      "role": "C",
+      "task": "条件性时位/频率标注，不作乐谱或音频编辑",
+      "d4Targets": [
+        "K05.03.03.04",
+        "K05.03.02.06"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 24,
+        "row": "| K05.03 | A06 | C | 条件性时位/频率标注，不作乐谱或音频编辑 | [VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13)；[VS61/K05.03.02.06](vocal-science-r3-knowledge-cases.md#L5) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS39@1",
+        "K05-CL-VS61@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS39",
+          "claim": "K05-CL-VS39@1",
+          "problem": "0–100ms 5ms周期，100–150过渡，150–250 4ms，报告？",
+          "reject": "该段稳定周期未定义。"
+        },
+        {
+          "caseId": "VS61",
+          "claim": "K05-CL-VS61@1",
+          "problem": "400/600/800去掉600前后周期？",
+          "reject": "剩余频率公因数400。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.03",
+      "ability": "A07",
+      "role": "C",
+      "task": "有条件修正估计或模型前提，非人体调整",
+      "d4Targets": [
+        "K05.03.02.05",
+        "K05.03.03.04",
+        "K05.03.02.06"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 25,
+        "row": "| K05.03 | A07 | C | 有条件修正估计或模型前提，非人体调整 | [VS38/K05.03.02.05](vocal-science-r2-knowledge-cases.md#L12)；[VS39/K05.03.03.04](vocal-science-r2-knowledge-cases.md#L13)；[VS61/K05.03.02.06](vocal-science-r3-knowledge-cases.md#L5) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS38@1",
+        "K05-CL-VS39@1",
+        "K05-CL-VS61@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS38",
+          "claim": "K05-CL-VS38@1",
+          "problem": "(k,m)=(1,1)/(4,4)频率比较？",
+          "reject": "两组合不同。"
+        },
+        {
+          "caseId": "VS39",
+          "claim": "K05-CL-VS39@1",
+          "problem": "0–100ms 5ms周期，100–150过渡，150–250 4ms，报告？",
+          "reject": "该段稳定周期未定义。"
+        },
+        {
+          "caseId": "VS61",
+          "claim": "K05-CL-VS61@1",
+          "problem": "400/600/800去掉600前后周期？",
+          "reject": "剩余频率公因数400。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "声源滤波、共振与耦合",
+      "d4Targets": [
+        "K05.04.01.03",
+        "K05.04.02.03",
+        "K05.04.02.04",
+        "K05.04.03.03",
+        "K05.04.01.04",
+        "K05.04.02.05",
+        "K05.04.03.04",
+        "K05.04.03.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 26,
+        "row": "| K05.04 | A01 | P | 声源滤波、共振与耦合 | [VS12/K05.04.01.03](vocal-science-r1-knowledge-cases.md#L16)；[VS13/K05.04.02.03](vocal-science-r1-knowledge-cases.md#L17)；[VS14/K05.04.02.04](vocal-science-r1-knowledge-cases.md#L18)；[VS15/K05.04.03.03](vocal-science-r1-knowledge-cases.md#L19)；[VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14)；[VS41/K05.04.02.05](vocal-science-r2-knowledge-cases.md#L15)；[VS42/K05.04.03.04](vocal-science-r2-knowledge-cases.md#L16)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS12@1",
+        "K05-CL-VS13@1",
+        "K05-CL-VS14@1",
+        "K05-CL-VS15@1",
+        "K05-CL-VS40@1",
+        "K05-CL-VS41@1",
+        "K05-CL-VS42@1",
+        "K05-CL-VS62@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS12",
+          "claim": "K05-CL-VS12@1",
+          "problem": "源幅度[1,1,1]，增益[1,2,.5]及[1,.5,2]，输出？",
+          "reject": "保留200基频时周期不变。"
+        },
+        {
+          "caseId": "VS13",
+          "claim": "K05-CL-VS13@1",
+          "problem": "F0=200,R1=550，最强600，哪些不同？",
+          "reject": "不等同共振真实频率。"
+        },
+        {
+          "caseId": "VS14",
+          "claim": "K05-CL-VS14@1",
+          "problem": "R1=550，F0=100与400的相邻谐波？",
+          "reject": "谐波与包络连续响应不同。"
+        },
+        {
+          "caseId": "VS15",
+          "claim": "K05-CL-VS15@1",
+          "problem": "受控改变声道后独立源观测变，哪类解释受限？",
+          "reject": "独立滤波也可改变谱。"
+        },
+        {
+          "caseId": "VS40",
+          "claim": "K05-CL-VS40@1",
+          "problem": "源200/400，保留二者及仅400时周期？",
+          "reject": "滤波可完全去200分量。"
+        },
+        {
+          "caseId": "VS41",
+          "claim": "K05-CL-VS41@1",
+          "problem": "R1=600，F0=300/600，分别与哪次谐波相近？",
+          "reject": "谐波分布不同。"
+        },
+        {
+          "caseId": "VS42",
+          "claim": "K05-CL-VS42@1",
+          "problem": "A源流波形变F0不变；B只外谱变，何者支持耦合候选？",
+          "reject": "周期相同仍可波形不同。"
+        },
+        {
+          "caseId": "VS62",
+          "claim": "K05-CL-VS62@1",
+          "problem": "A源1增益1；B源.8增益2，输出？",
+          "reject": "B构成反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.04",
+      "ability": "A02",
+      "role": "S",
+      "task": "支持K06/K10源/声道独立观测选择",
+      "d4Targets": [
+        "K05.04.02.03",
+        "K05.04.03.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 27,
+        "row": "| K05.04 | A02 | S | 支持K06/K10源/声道独立观测选择 | [VS13/K05.04.02.03](vocal-science-r1-knowledge-cases.md#L17)；[VS42/K05.04.03.04](vocal-science-r2-knowledge-cases.md#L16) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS13@1",
+        "K05-CL-VS42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS13",
+          "claim": "K05-CL-VS13@1",
+          "problem": "F0=200,R1=550，最强600，哪些不同？",
+          "reject": "不等同共振真实频率。"
+        },
+        {
+          "caseId": "VS42",
+          "claim": "K05-CL-VS42@1",
+          "problem": "A源流波形变F0不变；B只外谱变，何者支持耦合候选？",
+          "reject": "周期相同仍可波形不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.04",
+      "ability": "A03",
+      "role": "S",
+      "task": "工具估计前提，K12/K08实际执行",
+      "d4Targets": [
+        "K05.04.02.04",
+        "K05.07.01.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 28,
+        "row": "| K05.04 | A03 | S | 工具估计前提，K12/K08实际执行 | [VS14/K05.04.02.04](vocal-science-r1-knowledge-cases.md#L18)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS14@1",
+        "K05-CL-VS49@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS14",
+          "claim": "K05-CL-VS14@1",
+          "problem": "R1=550，F0=100与400的相邻谐波？",
+          "reject": "谐波与包络连续响应不同。"
+        },
+        {
+          "caseId": "VS49",
+          "claim": "K05-CL-VS49@1",
+          "problem": "8k采样200Hz，20ms及2ms各几周期？",
+          "reject": "不足，不能通过题定算法。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.04",
+      "ability": "A04",
+      "role": "C",
+      "task": "仅明确研究对象时记录源/滤波模型及版本",
+      "d4Targets": [
+        "K05.04.01.04",
+        "K05.04.03.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 29,
+        "row": "| K05.04 | A04 | C | 仅明确研究对象时记录源/滤波模型及版本 | [VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14)；[VS42/K05.04.03.04](vocal-science-r2-knowledge-cases.md#L16) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS40@1",
+        "K05-CL-VS42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS40",
+          "claim": "K05-CL-VS40@1",
+          "problem": "源200/400，保留二者及仅400时周期？",
+          "reject": "滤波可完全去200分量。"
+        },
+        {
+          "caseId": "VS42",
+          "claim": "K05-CL-VS42@1",
+          "problem": "A源流波形变F0不变；B只外谱变，何者支持耦合候选？",
+          "reject": "周期相同仍可波形不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "谱峰歧义、源/输出区分及实际证据要求",
+      "d4Targets": [
+        "K05.04.02.03",
+        "K05.04.02.05",
+        "K05.04.03.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 30,
+        "row": "| K05.04 | A05 | P | 谱峰歧义、源/输出区分及实际证据要求 | [VS13/K05.04.02.03](vocal-science-r1-knowledge-cases.md#L17)；[VS41/K05.04.02.05](vocal-science-r2-knowledge-cases.md#L15)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS13@1",
+        "K05-CL-VS41@1",
+        "K05-CL-VS62@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS13",
+          "claim": "K05-CL-VS13@1",
+          "problem": "F0=200,R1=550，最强600，哪些不同？",
+          "reject": "不等同共振真实频率。"
+        },
+        {
+          "caseId": "VS41",
+          "claim": "K05-CL-VS41@1",
+          "problem": "R1=600，F0=300/600，分别与哪次谐波相近？",
+          "reject": "谐波分布不同。"
+        },
+        {
+          "caseId": "VS62",
+          "claim": "K05-CL-VS62@1",
+          "problem": "A源1增益1；B源.8增益2，输出？",
+          "reject": "B构成反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.04",
+      "ability": "A06",
+      "role": "C",
+      "task": "条件性源/滤波表示输入，不实现信号处理",
+      "d4Targets": [
+        "K05.04.01.03",
+        "K05.04.01.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 31,
+        "row": "| K05.04 | A06 | C | 条件性源/滤波表示输入，不实现信号处理 | [VS12/K05.04.01.03](vocal-science-r1-knowledge-cases.md#L16)；[VS40/K05.04.01.04](vocal-science-r2-knowledge-cases.md#L14) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS12@1",
+        "K05-CL-VS40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS12",
+          "claim": "K05-CL-VS12@1",
+          "problem": "源幅度[1,1,1]，增益[1,2,.5]及[1,.5,2]，输出？",
+          "reject": "保留200基频时周期不变。"
+        },
+        {
+          "caseId": "VS40",
+          "claim": "K05-CL-VS40@1",
+          "problem": "源200/400，保留二者及仅400时周期？",
+          "reject": "滤波可完全去200分量。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.04",
+      "ability": "A07",
+      "role": "C",
+      "task": "条件性回查模型假设与独立观测",
+      "d4Targets": [
+        "K05.04.03.03",
+        "K05.04.03.04",
+        "K05.04.03.05"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 32,
+        "row": "| K05.04 | A07 | C | 条件性回查模型假设与独立观测 | [VS15/K05.04.03.03](vocal-science-r1-knowledge-cases.md#L19)；[VS42/K05.04.03.04](vocal-science-r2-knowledge-cases.md#L16)；[VS62/K05.04.03.05](vocal-science-r3-knowledge-cases.md#L6) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS15@1",
+        "K05-CL-VS42@1",
+        "K05-CL-VS62@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS15",
+          "claim": "K05-CL-VS15@1",
+          "problem": "受控改变声道后独立源观测变，哪类解释受限？",
+          "reject": "独立滤波也可改变谱。"
+        },
+        {
+          "caseId": "VS42",
+          "claim": "K05-CL-VS42@1",
+          "problem": "A源流波形变F0不变；B只外谱变，何者支持耦合候选？",
+          "reject": "周期相同仍可波形不同。"
+        },
+        {
+          "caseId": "VS62",
+          "claim": "K05-CL-VS62@1",
+          "problem": "A源1增益1；B源.8增益2，输出？",
+          "reject": "B构成反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "声区术语、区间重叠及人群音色差异",
+      "d4Targets": [
+        "K05.05.01.03",
+        "K05.05.02.03",
+        "K05.05.03.03",
+        "K05.05.01.04",
+        "K05.05.02.04",
+        "K05.05.03.04",
+        "K05.05.03.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 33,
+        "row": "| K05.05 | A01 | P | 声区术语、区间重叠及人群音色差异 | [VS16/K05.05.01.03](vocal-science-r1-knowledge-cases.md#L20)；[VS17/K05.05.02.03](vocal-science-r1-knowledge-cases.md#L21)；[VS18/K05.05.03.03](vocal-science-r1-knowledge-cases.md#L22)；[VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS44/K05.05.02.04](vocal-science-r2-knowledge-cases.md#L18)；[VS45/K05.05.03.04](vocal-science-r2-knowledge-cases.md#L19)；[VS63/K05.05.03.05](vocal-science-r3-knowledge-cases.md#L7) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS16@1",
+        "K05-CL-VS17@1",
+        "K05-CL-VS18@1",
+        "K05-CL-VS43@1",
+        "K05-CL-VS44@1",
+        "K05-CL-VS45@1",
+        "K05-CL-VS63@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS16",
+          "claim": "K05-CL-VS16@1",
+          "problem": "给M1/M2及教学胸头声，如何记录？",
+          "reject": "教学词包含感受和声道，不是同义。"
+        },
+        {
+          "caseId": "VS17",
+          "claim": "K05-CL-VS17@1",
+          "problem": "M1 180–330,M2 280–500，交集与300候选？",
+          "reject": "重叠内两种相容。"
+        },
+        {
+          "caseId": "VS18",
+          "claim": "K05-CL-VS18@1",
+          "problem": "源A[1,1,1]×[1,2,1]；B[2,1,.5]×[.5,2,2]，输出？",
+          "reject": "源A/B不同且输出相同。"
+        },
+        {
+          "caseId": "VS43",
+          "claim": "K05-CL-VS43@1",
+          "problem": "孟语head/chest register和M1/M2怎样组织？",
+          "reject": "标签对象和线索不同。"
+        },
+        {
+          "caseId": "VS44",
+          "claim": "K05-CL-VS44@1",
+          "problem": "可达150–500、舒适200–350、重叠250–320，320属于哪些？",
+          "reject": "不在题定舒适范围，安全非范围保证。"
+        },
+        {
+          "caseId": "VS45",
+          "claim": "K05-CL-VS45@1",
+          "problem": "同F0两个谱包络不同，列候选。",
+          "reject": "不同任务、人群和语境。"
+        },
+        {
+          "caseId": "VS63",
+          "claim": "K05-CL-VS63@1",
+          "problem": "综述50岁以上健康成人有组差异，可否凭音色断定个体年龄？",
+          "reject": "个体与任务差异多因。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.05",
+      "ability": "A02",
+      "role": "S",
+      "task": "支持K06目标与K13语言术语辨析",
+      "d4Targets": [
+        "K05.05.01.04",
+        "K05.05.02.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 34,
+        "row": "| K05.05 | A02 | S | 支持K06目标与K13语言术语辨析 | [VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS44/K05.05.02.04](vocal-science-r2-knowledge-cases.md#L18) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS43@1",
+        "K05-CL-VS44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS43",
+          "claim": "K05-CL-VS43@1",
+          "problem": "孟语head/chest register和M1/M2怎样组织？",
+          "reject": "标签对象和线索不同。"
+        },
+        {
+          "caseId": "VS44",
+          "claim": "K05-CL-VS44@1",
+          "problem": "可达150–500、舒适200–350、重叠250–320，320属于哪些？",
+          "reject": "不在题定舒适范围，安全非范围保证。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "辅助EGG/谱分析选择，K12/医疗专业人员执行",
+      "d4Targets": [
+        "K05.09.01.03",
+        "K05.09.01.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 35,
+        "row": "| K05.05 | A03 | S | 辅助EGG/谱分析选择，K12/医疗专业人员执行 | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS28",
+          "claim": "K05-CL-VS28@1",
+          "problem": "音频F0、EGG、气流、影像分别说明什么？",
+          "reject": "间接阻抗受多条件影响。"
+        },
+        {
+          "caseId": "VS56",
+          "claim": "K05-CL-VS56@1",
+          "problem": "10ms周期，A窗口4ms、B5ms，求商。",
+          "reject": "方法阈值不同即可产生差。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.05",
+      "ability": "A04",
+      "role": "C",
+      "task": "条件性记录术语来源、人群、任务及独立机制",
+      "d4Targets": [
+        "K05.05.01.03",
+        "K05.05.01.04",
+        "K05.05.02.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 36,
+        "row": "| K05.05 | A04 | C | 条件性记录术语来源、人群、任务及独立机制 | [VS16/K05.05.01.03](vocal-science-r1-knowledge-cases.md#L20)；[VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS44/K05.05.02.04](vocal-science-r2-knowledge-cases.md#L18) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS16@1",
+        "K05-CL-VS43@1",
+        "K05-CL-VS44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS16",
+          "claim": "K05-CL-VS16@1",
+          "problem": "给M1/M2及教学胸头声，如何记录？",
+          "reject": "教学词包含感受和声道，不是同义。"
+        },
+        {
+          "caseId": "VS43",
+          "claim": "K05-CL-VS43@1",
+          "problem": "孟语head/chest register和M1/M2怎样组织？",
+          "reject": "标签对象和线索不同。"
+        },
+        {
+          "caseId": "VS44",
+          "claim": "K05-CL-VS44@1",
+          "problem": "可达150–500、舒适200–350、重叠250–320，320属于哪些？",
+          "reject": "不在题定舒适范围，安全非范围保证。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "拒绝固定频率/音色逆推身份、机制或健康",
+      "d4Targets": [
+        "K05.05.02.03",
+        "K05.05.03.03",
+        "K05.05.03.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 37,
+        "row": "| K05.05 | A05 | P | 拒绝固定频率/音色逆推身份、机制或健康 | [VS17/K05.05.02.03](vocal-science-r1-knowledge-cases.md#L21)；[VS18/K05.05.03.03](vocal-science-r1-knowledge-cases.md#L22)；[VS63/K05.05.03.05](vocal-science-r3-knowledge-cases.md#L7) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS17@1",
+        "K05-CL-VS18@1",
+        "K05-CL-VS63@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS17",
+          "claim": "K05-CL-VS17@1",
+          "problem": "M1 180–330,M2 280–500，交集与300候选？",
+          "reject": "重叠内两种相容。"
+        },
+        {
+          "caseId": "VS18",
+          "claim": "K05-CL-VS18@1",
+          "problem": "源A[1,1,1]×[1,2,1]；B[2,1,.5]×[.5,2,2]，输出？",
+          "reject": "源A/B不同且输出相同。"
+        },
+        {
+          "caseId": "VS63",
+          "claim": "K05-CL-VS63@1",
+          "problem": "综述50岁以上健康成人有组差异，可否凭音色断定个体年龄？",
+          "reject": "个体与任务差异多因。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.05",
+      "ability": "A06",
+      "role": "C",
+      "task": "条件性术语映射记录，不编辑声带/唱法",
+      "d4Targets": [
+        "K05.05.01.04",
+        "K05.05.02.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 38,
+        "row": "| K05.05 | A06 | C | 条件性术语映射记录，不编辑声带/唱法 | [VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS44/K05.05.02.04](vocal-science-r2-knowledge-cases.md#L18) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS43@1",
+        "K05-CL-VS44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS43",
+          "claim": "K05-CL-VS43@1",
+          "problem": "孟语head/chest register和M1/M2怎样组织？",
+          "reject": "标签对象和线索不同。"
+        },
+        {
+          "caseId": "VS44",
+          "claim": "K05-CL-VS44@1",
+          "problem": "可达150–500、舒适200–350、重叠250–320，320属于哪些？",
+          "reject": "不在题定舒适范围，安全非范围保证。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.05",
+      "ability": "A07",
+      "role": "C",
+      "task": "条件性解决来源冲突、查任务及外推限制",
+      "d4Targets": [
+        "K05.05.01.04",
+        "K05.05.03.04",
+        "K05.05.03.05"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 39,
+        "row": "| K05.05 | A07 | C | 条件性解决来源冲突、查任务及外推限制 | [VS43/K05.05.01.04](vocal-science-r2-knowledge-cases.md#L17)；[VS45/K05.05.03.04](vocal-science-r2-knowledge-cases.md#L19)；[VS63/K05.05.03.05](vocal-science-r3-knowledge-cases.md#L7) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS43@1",
+        "K05-CL-VS45@1",
+        "K05-CL-VS63@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS43",
+          "claim": "K05-CL-VS43@1",
+          "problem": "孟语head/chest register和M1/M2怎样组织？",
+          "reject": "标签对象和线索不同。"
+        },
+        {
+          "caseId": "VS45",
+          "claim": "K05-CL-VS45@1",
+          "problem": "同F0两个谱包络不同，列候选。",
+          "reject": "不同任务、人群和语境。"
+        },
+        {
+          "caseId": "VS63",
+          "claim": "K05-CL-VS63@1",
+          "problem": "综述50岁以上健康成人有组差异，可否凭音色断定个体年龄？",
+          "reject": "个体与任务差异多因。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "语音符号、音段、韵律及语言边界",
+      "d4Targets": [
+        "K05.06.01.03",
+        "K05.06.02.03",
+        "K05.06.03.03",
+        "K05.01.03.04",
+        "K05.06.01.04",
+        "K05.06.02.04",
+        "K05.06.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 40,
+        "row": "| K05.06 | A01 | P | 语音符号、音段、韵律及语言边界 | [VS19/K05.06.01.03](vocal-science-r1-knowledge-cases.md#L23)；[VS20/K05.06.02.03](vocal-science-r1-knowledge-cases.md#L24)；[VS21/K05.06.03.03](vocal-science-r1-knowledge-cases.md#L25)；[VS33/K05.01.03.04](vocal-science-r2-knowledge-cases.md#L7)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS19@1",
+        "K05-CL-VS20@1",
+        "K05-CL-VS21@1",
+        "K05-CL-VS33@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS47@1",
+        "K05-CL-VS48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS19",
+          "claim": "K05-CL-VS19@1",
+          "problem": "[p]/[b]符号与字母p/b的区别？",
+          "reject": "语言映射未证。"
+        },
+        {
+          "caseId": "VS20",
+          "claim": "K05-CL-VS20@1",
+          "problem": "[s]0–100ms无周期，[a]100–400ms 200Hz，何窗可测？",
+          "reject": "不适用，不是零频目标。"
+        },
+        {
+          "caseId": "VS21",
+          "claim": "K05-CL-VS21@1",
+          "problem": "[0,200)与[200,500)ms，比较时长。",
+          "reject": "语言规则及其它线索未知。"
+        },
+        {
+          "caseId": "VS33",
+          "claim": "K05-CL-VS33@1",
+          "problem": "[i]/[u]共有何属性，区别？",
+          "reject": "语种、音高、个体声道不同。"
+        },
+        {
+          "caseId": "VS46",
+          "claim": "K05-CL-VS46@1",
+          "problem": "虚构L的[pa]/[ka]仅首音且词义不同，L2只知两音，结论？",
+          "reject": "分布及意义条件不同。"
+        },
+        {
+          "caseId": "VS47",
+          "claim": "K05-CL-VS47@1",
+          "problem": "合成[m]100ms及元音200ms皆周期，何者可测周期？",
+          "reject": "有声鼻音是反例。"
+        },
+        {
+          "caseId": "VS48",
+          "claim": "K05-CL-VS48@1",
+          "problem": "孟语样本生产及感知研究中，改歌唱F0后词义是否保留？",
+          "reject": "多线索及个体差异。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.06",
+      "ability": "A02",
+      "role": "S",
+      "task": "支持K13/K06分段对齐任务和观测",
+      "d4Targets": [
+        "K05.06.02.03",
+        "K05.06.01.04",
+        "K05.06.03.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 41,
+        "row": "| K05.06 | A02 | S | 支持K13/K06分段对齐任务和观测 | [VS20/K05.06.02.03](vocal-science-r1-knowledge-cases.md#L24)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS20@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS20",
+          "claim": "K05-CL-VS20@1",
+          "problem": "[s]0–100ms无周期，[a]100–400ms 200Hz，何窗可测？",
+          "reject": "不适用，不是零频目标。"
+        },
+        {
+          "caseId": "VS46",
+          "claim": "K05-CL-VS46@1",
+          "problem": "虚构L的[pa]/[ka]仅首音且词义不同，L2只知两音，结论？",
+          "reject": "分布及意义条件不同。"
+        },
+        {
+          "caseId": "VS48",
+          "claim": "K05-CL-VS48@1",
+          "problem": "孟语样本生产及感知研究中，改歌唱F0后词义是否保留？",
+          "reject": "多线索及个体差异。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.06",
+      "ability": "A03",
+      "role": "S",
+      "task": "IPA表示/声学工具输入条件；K12真实接口",
+      "d4Targets": [
+        "K05.06.01.03",
+        "K05.06.02.04"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 42,
+        "row": "| K05.06 | A03 | S | IPA表示/声学工具输入条件；K12真实接口 | [VS19/K05.06.01.03](vocal-science-r1-knowledge-cases.md#L23)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS19@1",
+        "K05-CL-VS47@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS19",
+          "claim": "K05-CL-VS19@1",
+          "problem": "[p]/[b]符号与字母p/b的区别？",
+          "reject": "语言映射未证。"
+        },
+        {
+          "caseId": "VS47",
+          "claim": "K05-CL-VS47@1",
+          "problem": "合成[m]100ms及元音200ms皆周期，何者可测周期？",
+          "reject": "有声鼻音是反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.06",
+      "ability": "A04",
+      "role": "C",
+      "task": "明确语种/音位/音值及窗时才记录状态",
+      "d4Targets": [
+        "K05.06.03.03",
+        "K05.06.01.04",
+        "K05.06.03.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 43,
+        "row": "| K05.06 | A04 | C | 明确语种/音位/音值及窗时才记录状态 | [VS21/K05.06.03.03](vocal-science-r1-knowledge-cases.md#L25)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS21@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS21",
+          "claim": "K05-CL-VS21@1",
+          "problem": "[0,200)与[200,500)ms，比较时长。",
+          "reject": "语言规则及其它线索未知。"
+        },
+        {
+          "caseId": "VS46",
+          "claim": "K05-CL-VS46@1",
+          "problem": "虚构L的[pa]/[ka]仅首音且词义不同，L2只知两音，结论？",
+          "reject": "分布及意义条件不同。"
+        },
+        {
+          "caseId": "VS48",
+          "claim": "K05-CL-VS48@1",
+          "problem": "孟语样本生产及感知研究中，改歌唱F0后词义是否保留？",
+          "reject": "多线索及个体差异。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "语言对立/音段有效窗与音高评价条件",
+      "d4Targets": [
+        "K05.06.02.03",
+        "K05.06.01.04",
+        "K05.06.02.04",
+        "K05.06.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 44,
+        "row": "| K05.06 | A05 | P | 语言对立/音段有效窗与音高评价条件 | [VS20/K05.06.02.03](vocal-science-r1-knowledge-cases.md#L24)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS20@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS47@1",
+        "K05-CL-VS48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS20",
+          "claim": "K05-CL-VS20@1",
+          "problem": "[s]0–100ms无周期，[a]100–400ms 200Hz，何窗可测？",
+          "reject": "不适用，不是零频目标。"
+        },
+        {
+          "caseId": "VS46",
+          "claim": "K05-CL-VS46@1",
+          "problem": "虚构L的[pa]/[ka]仅首音且词义不同，L2只知两音，结论？",
+          "reject": "分布及意义条件不同。"
+        },
+        {
+          "caseId": "VS47",
+          "claim": "K05-CL-VS47@1",
+          "problem": "合成[m]100ms及元音200ms皆周期，何者可测周期？",
+          "reject": "有声鼻音是反例。"
+        },
+        {
+          "caseId": "VS48",
+          "claim": "K05-CL-VS48@1",
+          "problem": "孟语样本生产及感知研究中，改歌唱F0后词义是否保留？",
+          "reject": "多线索及个体差异。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.06",
+      "ability": "A06",
+      "role": "P",
+      "task": "主责通用可编辑IPA/音段边界和标注语义，非K13语种词典或K12宿主",
+      "d4Targets": [
+        "K05.06.01.03",
+        "K05.06.02.03",
+        "K05.06.03.03",
+        "K05.06.01.04",
+        "K05.06.02.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 45,
+        "row": "| K05.06 | A06 | P | 主责通用可编辑IPA/音段边界和标注语义，非K13语种词典或K12宿主 | [VS19/K05.06.01.03](vocal-science-r1-knowledge-cases.md#L23)；[VS20/K05.06.02.03](vocal-science-r1-knowledge-cases.md#L24)；[VS21/K05.06.03.03](vocal-science-r1-knowledge-cases.md#L25)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS47/K05.06.02.04](vocal-science-r2-knowledge-cases.md#L21) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS19@1",
+        "K05-CL-VS20@1",
+        "K05-CL-VS21@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS47@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS19",
+          "claim": "K05-CL-VS19@1",
+          "problem": "[p]/[b]符号与字母p/b的区别？",
+          "reject": "语言映射未证。"
+        },
+        {
+          "caseId": "VS20",
+          "claim": "K05-CL-VS20@1",
+          "problem": "[s]0–100ms无周期，[a]100–400ms 200Hz，何窗可测？",
+          "reject": "不适用，不是零频目标。"
+        },
+        {
+          "caseId": "VS21",
+          "claim": "K05-CL-VS21@1",
+          "problem": "[0,200)与[200,500)ms，比较时长。",
+          "reject": "语言规则及其它线索未知。"
+        },
+        {
+          "caseId": "VS46",
+          "claim": "K05-CL-VS46@1",
+          "problem": "虚构L的[pa]/[ka]仅首音且词义不同，L2只知两音，结论？",
+          "reject": "分布及意义条件不同。"
+        },
+        {
+          "caseId": "VS47",
+          "claim": "K05-CL-VS47@1",
+          "problem": "合成[m]100ms及元音200ms皆周期，何者可测周期？",
+          "reject": "有声鼻音是反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.06",
+      "ability": "A07",
+      "role": "C",
+      "task": "条件性标注修正，语种专家核验，不自动改词",
+      "d4Targets": [
+        "K05.06.03.03",
+        "K05.06.01.04",
+        "K05.06.03.04"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 46,
+        "row": "| K05.06 | A07 | C | 条件性标注修正，语种专家核验，不自动改词 | [VS21/K05.06.03.03](vocal-science-r1-knowledge-cases.md#L25)；[VS46/K05.06.01.04](vocal-science-r2-knowledge-cases.md#L20)；[VS48/K05.06.03.04](vocal-science-r2-knowledge-cases.md#L22) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS21@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS21",
+          "claim": "K05-CL-VS21@1",
+          "problem": "[0,200)与[200,500)ms，比较时长。",
+          "reject": "语言规则及其它线索未知。"
+        },
+        {
+          "caseId": "VS46",
+          "claim": "K05-CL-VS46@1",
+          "problem": "虚构L的[pa]/[ka]仅首音且词义不同，L2只知两音，结论？",
+          "reject": "分布及意义条件不同。"
+        },
+        {
+          "caseId": "VS48",
+          "claim": "K05-CL-VS48@1",
+          "problem": "孟语样本生产及感知研究中，改歌唱F0后词义是否保留？",
+          "reject": "多线索及个体差异。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "F0、HNR、扰动、CPP、SPL及协议",
+      "d4Targets": [
+        "K05.07.01.03",
+        "K05.07.02.03",
+        "K05.07.03.03",
+        "K05.07.01.04",
+        "K05.07.02.04",
+        "K05.07.02.05",
+        "K05.07.03.04",
+        "K05.07.01.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 47,
+        "row": "| K05.07 | A01 | P | F0、HNR、扰动、CPP、SPL及协议 | [VS22/K05.07.01.03](vocal-science-r1-knowledge-cases.md#L26)；[VS23/K05.07.02.03](vocal-science-r1-knowledge-cases.md#L27)；[VS24/K05.07.03.03](vocal-science-r1-knowledge-cases.md#L28)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS50/K05.07.02.04](vocal-science-r2-knowledge-cases.md#L24)；[VS51/K05.07.02.05](vocal-science-r2-knowledge-cases.md#L25)；[VS52/K05.07.03.04](vocal-science-r2-knowledge-cases.md#L26)；[VS64/K05.07.01.05](vocal-science-r3-knowledge-cases.md#L8) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS23@1",
+        "K05-CL-VS24@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS50@1",
+        "K05-CL-VS51@1",
+        "K05-CL-VS52@1",
+        "K05-CL-VS64@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS22",
+          "claim": "K05-CL-VS22@1",
+          "problem": "参考200Hz，估计100及400如何分类？",
+          "reject": "估计错误不等源需修改。"
+        },
+        {
+          "caseId": "VS23",
+          "claim": "K05-CL-VS23@1",
+          "problem": "能量9/1与9/9的HNR？",
+          "reject": "合成比值非临床阈值。"
+        },
+        {
+          "caseId": "VS24",
+          "claim": "K05-CL-VS24@1",
+          "problem": "同原件幅度×2，数字RMS变化？",
+          "reject": "派生增益未改变实际动作。"
+        },
+        {
+          "caseId": "VS49",
+          "claim": "K05-CL-VS49@1",
+          "problem": "8k采样200Hz，20ms及2ms各几周期？",
+          "reject": "不足，不能通过题定算法。"
+        },
+        {
+          "caseId": "VS50",
+          "claim": "K05-CL-VS50@1",
+          "problem": "周期[5,5.1,4.9,5]ms、幅度[1,1.1,.9,1]，求两个比。",
+          "reject": "公式见证非临床分级。"
+        },
+        {
+          "caseId": "VS51",
+          "claim": "K05-CL-VS51@1",
+          "problem": "峰18dB、趋势11/13dB，各CPP？",
+          "reject": "不同定义及量。"
+        },
+        {
+          "caseId": "VS52",
+          "claim": "K05-CL-VS52@1",
+          "problem": ".02/.04Pa RMS各SPL？",
+          "reject": "单位和校准未知。"
+        },
+        {
+          "caseId": "VS64",
+          "claim": "K05-CL-VS64@1",
+          "problem": "目标200、参考220、估计200，同有效窗，三个音分？",
+          "reject": "参考220与目标200不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "主责嗓音专项测量知识流程：参考、有效窗、校准、选择/拒绝",
+      "d4Targets": [
+        "K05.07.01.03",
+        "K05.02.02.04",
+        "K05.07.01.04",
+        "K05.07.02.04",
+        "K05.07.03.04",
+        "K05.07.01.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 48,
+        "row": "| K05.07 | A02 | P | 主责嗓音专项测量知识流程：参考、有效窗、校准、选择/拒绝 | [VS22/K05.07.01.03](vocal-science-r1-knowledge-cases.md#L26)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS50/K05.07.02.04](vocal-science-r2-knowledge-cases.md#L24)；[VS52/K05.07.03.04](vocal-science-r2-knowledge-cases.md#L26)；[VS64/K05.07.01.05](vocal-science-r3-knowledge-cases.md#L8) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS50@1",
+        "K05-CL-VS52@1",
+        "K05-CL-VS64@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS22",
+          "claim": "K05-CL-VS22@1",
+          "problem": "参考200Hz，估计100及400如何分类？",
+          "reject": "估计错误不等源需修改。"
+        },
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        },
+        {
+          "caseId": "VS49",
+          "claim": "K05-CL-VS49@1",
+          "problem": "8k采样200Hz，20ms及2ms各几周期？",
+          "reject": "不足，不能通过题定算法。"
+        },
+        {
+          "caseId": "VS50",
+          "claim": "K05-CL-VS50@1",
+          "problem": "周期[5,5.1,4.9,5]ms、幅度[1,1.1,.9,1]，求两个比。",
+          "reject": "公式见证非临床分级。"
+        },
+        {
+          "caseId": "VS52",
+          "claim": "K05-CL-VS52@1",
+          "problem": ".02/.04Pa RMS各SPL？",
+          "reject": "单位和校准未知。"
+        },
+        {
+          "caseId": "VS64",
+          "claim": "K05-CL-VS64@1",
+          "problem": "目标200、参考220、估计200，同有效窗，三个音分？",
+          "reject": "参考220与目标200不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.07",
+      "ability": "A03",
+      "role": "P",
+      "task": "主责嗓音专项算法/指标能力与参数语义；实际软件版本及调用K12，执行证据未得",
+      "d4Targets": [
+        "K05.07.01.03",
+        "K05.07.01.04",
+        "K05.07.02.04",
+        "K05.07.02.05",
+        "K05.09.03.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 49,
+        "row": "| K05.07 | A03 | P | 主责嗓音专项算法/指标能力与参数语义；实际软件版本及调用K12，执行证据未得 | [VS22/K05.07.01.03](vocal-science-r1-knowledge-cases.md#L26)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS50/K05.07.02.04](vocal-science-r2-knowledge-cases.md#L24)；[VS51/K05.07.02.05](vocal-science-r2-knowledge-cases.md#L25)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS50@1",
+        "K05-CL-VS51@1",
+        "K05-CL-VS60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS22",
+          "claim": "K05-CL-VS22@1",
+          "problem": "参考200Hz，估计100及400如何分类？",
+          "reject": "估计错误不等源需修改。"
+        },
+        {
+          "caseId": "VS49",
+          "claim": "K05-CL-VS49@1",
+          "problem": "8k采样200Hz，20ms及2ms各几周期？",
+          "reject": "不足，不能通过题定算法。"
+        },
+        {
+          "caseId": "VS50",
+          "claim": "K05-CL-VS50@1",
+          "problem": "周期[5,5.1,4.9,5]ms、幅度[1,1.1,.9,1]，求两个比。",
+          "reject": "公式见证非临床分级。"
+        },
+        {
+          "caseId": "VS51",
+          "claim": "K05-CL-VS51@1",
+          "problem": "峰18dB、趋势11/13dB，各CPP？",
+          "reject": "不同定义及量。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.07",
+      "ability": "A04",
+      "role": "S",
+      "task": "支持原始文件、窗、方法与校准版本，K08/K12保真",
+      "d4Targets": [
+        "K05.07.03.03",
+        "K05.07.03.04",
+        "K05.09.03.05",
+        "K05.09.02.05"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 50,
+        "row": "| K05.07 | A04 | S | 支持原始文件、窗、方法与校准版本，K08/K12保真 | [VS24/K05.07.03.03](vocal-science-r1-knowledge-cases.md#L28)；[VS52/K05.07.03.04](vocal-science-r2-knowledge-cases.md#L26)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS24@1",
+        "K05-CL-VS52@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS24",
+          "claim": "K05-CL-VS24@1",
+          "problem": "同原件幅度×2，数字RMS变化？",
+          "reject": "派生增益未改变实际动作。"
+        },
+        {
+          "caseId": "VS52",
+          "claim": "K05-CL-VS52@1",
+          "problem": ".02/.04Pa RMS各SPL？",
+          "reject": "单位和校准未知。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        },
+        {
+          "caseId": "VS65",
+          "claim": "K05-CL-VS65@1",
+          "problem": "音频200ms、EGG230ms，独立确认固定+30，校正后？",
+          "reject": "偏差未知或时变，无法可靠对齐。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "主责测量定义、量纲、限制，不作质量/健康唯一判据",
+      "d4Targets": [
+        "K05.07.02.03",
+        "K05.07.02.04",
+        "K05.07.02.05",
+        "K05.07.03.04",
+        "K05.07.01.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 51,
+        "row": "| K05.07 | A05 | P | 主责测量定义、量纲、限制，不作质量/健康唯一判据 | [VS23/K05.07.02.03](vocal-science-r1-knowledge-cases.md#L27)；[VS50/K05.07.02.04](vocal-science-r2-knowledge-cases.md#L24)；[VS51/K05.07.02.05](vocal-science-r2-knowledge-cases.md#L25)；[VS52/K05.07.03.04](vocal-science-r2-knowledge-cases.md#L26)；[VS64/K05.07.01.05](vocal-science-r3-knowledge-cases.md#L8) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS23@1",
+        "K05-CL-VS50@1",
+        "K05-CL-VS51@1",
+        "K05-CL-VS52@1",
+        "K05-CL-VS64@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS23",
+          "claim": "K05-CL-VS23@1",
+          "problem": "能量9/1与9/9的HNR？",
+          "reject": "合成比值非临床阈值。"
+        },
+        {
+          "caseId": "VS50",
+          "claim": "K05-CL-VS50@1",
+          "problem": "周期[5,5.1,4.9,5]ms、幅度[1,1.1,.9,1]，求两个比。",
+          "reject": "公式见证非临床分级。"
+        },
+        {
+          "caseId": "VS51",
+          "claim": "K05-CL-VS51@1",
+          "problem": "峰18dB、趋势11/13dB，各CPP？",
+          "reject": "不同定义及量。"
+        },
+        {
+          "caseId": "VS52",
+          "claim": "K05-CL-VS52@1",
+          "problem": ".02/.04Pa RMS各SPL？",
+          "reject": "单位和校准未知。"
+        },
+        {
+          "caseId": "VS64",
+          "claim": "K05-CL-VS64@1",
+          "problem": "目标200、参考220、估计200，同有效窗，三个音分？",
+          "reject": "参考220与目标200不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.07",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持标注/测量表与派生结果，K08/K12工具编辑",
+      "d4Targets": [
+        "K05.07.03.03",
+        "K05.07.01.04",
+        "K05.09.03.05"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 52,
+        "row": "| K05.07 | A06 | S | 支持标注/测量表与派生结果，K08/K12工具编辑 | [VS24/K05.07.03.03](vocal-science-r1-knowledge-cases.md#L28)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS24@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS24",
+          "claim": "K05-CL-VS24@1",
+          "problem": "同原件幅度×2，数字RMS变化？",
+          "reject": "派生增益未改变实际动作。"
+        },
+        {
+          "caseId": "VS49",
+          "claim": "K05-CL-VS49@1",
+          "problem": "8k采样200Hz，20ms及2ms各几周期？",
+          "reject": "不足，不能通过题定算法。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "指标异常→核参考/信号/参数→复核既有文件或停止",
+      "d4Targets": [
+        "K05.07.01.03",
+        "K05.07.01.04",
+        "K05.09.03.05",
+        "K05.08.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 53,
+        "row": "| K05.07 | A07 | P | 指标异常→核参考/信号/参数→复核既有文件或停止 | [VS22/K05.07.01.03](vocal-science-r1-knowledge-cases.md#L26)；[VS49/K05.07.01.04](vocal-science-r2-knowledge-cases.md#L23)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS22",
+          "claim": "K05-CL-VS22@1",
+          "problem": "参考200Hz，估计100及400如何分类？",
+          "reject": "估计错误不等源需修改。"
+        },
+        {
+          "caseId": "VS49",
+          "claim": "K05-CL-VS49@1",
+          "problem": "8k采样200Hz，20ms及2ms各几周期？",
+          "reject": "不足，不能通过题定算法。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "负荷、症状及公众/临床转介边界",
+      "d4Targets": [
+        "K05.08.01.03",
+        "K05.08.02.03",
+        "K05.08.03.03",
+        "K05.08.01.04",
+        "K05.08.02.04",
+        "K05.08.03.04",
+        "K05.08.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 54,
+        "row": "| K05.08 | A01 | P | 负荷、症状及公众/临床转介边界 | [VS25/K05.08.01.03](vocal-science-r1-knowledge-cases.md#L29)；[VS26/K05.08.02.03](vocal-science-r1-knowledge-cases.md#L30)；[VS27/K05.08.03.03](vocal-science-r1-knowledge-cases.md#L31)；[VS53/K05.08.01.04](vocal-science-r2-knowledge-cases.md#L27)；[VS54/K05.08.02.04](vocal-science-r2-knowledge-cases.md#L28)；[VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS25@1",
+        "K05-CL-VS26@1",
+        "K05-CL-VS27@1",
+        "K05-CL-VS53@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS55@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS25",
+          "claim": "K05-CL-VS25@1",
+          "problem": "60s中40s有声，F0=200/100，剂量？",
+          "reject": "方法摘要无此人体阈值。"
+        },
+        {
+          "caseId": "VS26",
+          "claim": "K05-CL-VS26@1",
+          "problem": "报告严重呼吸困难，同时音准良好，先做什么？",
+          "reject": "已知严重风险优先，不被缺字段阻断。"
+        },
+        {
+          "caseId": "VS27",
+          "claim": "K05-CL-VS27@1",
+          "problem": "公众嘶哑超3周建议与临床4周要求怎样区分？",
+          "reject": "严重信号及加速条件优先，非等待许可。"
+        },
+        {
+          "caseId": "VS53",
+          "claim": "K05-CL-VS53@1",
+          "problem": "两任务40秒200Hz，A疲劳B未报告，比较。",
+          "reject": "剂量不覆盖主观风险。"
+        },
+        {
+          "caseId": "VS54",
+          "claim": "K05-CL-VS54@1",
+          "problem": "A严重呼吸困难，B突然失声/疼痛，C无报告音准不稳，如何分支？",
+          "reject": "风险支配，不能等待其它输入。"
+        },
+        {
+          "caseId": "VS55",
+          "claim": "K05-CL-VS55@1",
+          "problem": "昨天疲劳不适今天好转且未评估，能定复训吗？",
+          "reject": "历史不可覆盖，好转不证明恢复。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "主责科学风险前置、停止/转介条件，K06具体教学流程与临床人员决定诊疗",
+      "d4Targets": [
+        "K05.08.02.03",
+        "K05.08.03.03",
+        "K05.08.02.04",
+        "K05.08.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 55,
+        "row": "| K05.08 | A02 | P | 主责科学风险前置、停止/转介条件，K06具体教学流程与临床人员决定诊疗 | [VS26/K05.08.02.03](vocal-science-r1-knowledge-cases.md#L30)；[VS27/K05.08.03.03](vocal-science-r1-knowledge-cases.md#L31)；[VS54/K05.08.02.04](vocal-science-r2-knowledge-cases.md#L28)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS26@1",
+        "K05-CL-VS27@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS26",
+          "claim": "K05-CL-VS26@1",
+          "problem": "报告严重呼吸困难，同时音准良好，先做什么？",
+          "reject": "已知严重风险优先，不被缺字段阻断。"
+        },
+        {
+          "caseId": "VS27",
+          "claim": "K05-CL-VS27@1",
+          "problem": "公众嘶哑超3周建议与临床4周要求怎样区分？",
+          "reject": "严重信号及加速条件优先，非等待许可。"
+        },
+        {
+          "caseId": "VS54",
+          "claim": "K05-CL-VS54@1",
+          "problem": "A严重呼吸困难，B突然失声/疼痛，C无报告音准不稳，如何分支？",
+          "reject": "风险支配，不能等待其它输入。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.08",
+      "ability": "A03",
+      "role": "S",
+      "task": "支持授权记录和非临床检测限制，不用工具诊断",
+      "d4Targets": [
+        "K05.08.01.04",
+        "K05.08.02.04",
+        "K05.08.02.05"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 56,
+        "row": "| K05.08 | A03 | S | 支持授权记录和非临床检测限制，不用工具诊断 | [VS53/K05.08.01.04](vocal-science-r2-knowledge-cases.md#L27)；[VS54/K05.08.02.04](vocal-science-r2-knowledge-cases.md#L28)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS53@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS53",
+          "claim": "K05-CL-VS53@1",
+          "problem": "两任务40秒200Hz，A疲劳B未报告，比较。",
+          "reject": "剂量不覆盖主观风险。"
+        },
+        {
+          "caseId": "VS54",
+          "claim": "K05-CL-VS54@1",
+          "problem": "A严重呼吸困难，B突然失声/疼痛，C无报告音准不稳，如何分支？",
+          "reject": "风险支配，不能等待其它输入。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.08",
+      "ability": "A04",
+      "role": "S",
+      "task": "支持症状报告、时间及来源版本，不建立个人临床记录库",
+      "d4Targets": [
+        "K05.08.01.03",
+        "K05.08.03.04",
+        "K05.08.02.05"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 57,
+        "row": "| K05.08 | A04 | S | 支持症状报告、时间及来源版本，不建立个人临床记录库 | [VS25/K05.08.01.03](vocal-science-r1-knowledge-cases.md#L29)；[VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS25@1",
+        "K05-CL-VS55@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS25",
+          "claim": "K05-CL-VS25@1",
+          "problem": "60s中40s有声，F0=200/100，剂量？",
+          "reject": "方法摘要无此人体阈值。"
+        },
+        {
+          "caseId": "VS55",
+          "claim": "K05-CL-VS55@1",
+          "problem": "昨天疲劳不适今天好转且未评估，能定复训吗？",
+          "reject": "历史不可覆盖，好转不证明恢复。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "负荷与主观报告分开、紧急优先、拒绝健康分",
+      "d4Targets": [
+        "K05.08.01.03",
+        "K05.08.01.04",
+        "K05.08.02.04",
+        "K05.08.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 58,
+        "row": "| K05.08 | A05 | P | 负荷与主观报告分开、紧急优先、拒绝健康分 | [VS25/K05.08.01.03](vocal-science-r1-knowledge-cases.md#L29)；[VS53/K05.08.01.04](vocal-science-r2-knowledge-cases.md#L27)；[VS54/K05.08.02.04](vocal-science-r2-knowledge-cases.md#L28)；[VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS25@1",
+        "K05-CL-VS53@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS25",
+          "claim": "K05-CL-VS25@1",
+          "problem": "60s中40s有声，F0=200/100，剂量？",
+          "reject": "方法摘要无此人体阈值。"
+        },
+        {
+          "caseId": "VS53",
+          "claim": "K05-CL-VS53@1",
+          "problem": "两任务40秒200Hz，A疲劳B未报告，比较。",
+          "reject": "剂量不覆盖主观风险。"
+        },
+        {
+          "caseId": "VS54",
+          "claim": "K05-CL-VS54@1",
+          "problem": "A严重呼吸困难，B突然失声/疼痛，C无报告音准不稳，如何分支？",
+          "reject": "风险支配，不能等待其它输入。"
+        },
+        {
+          "caseId": "VS55",
+          "claim": "K05-CL-VS55@1",
+          "problem": "昨天疲劳不适今天好转且未评估，能定复训吗？",
+          "reject": "历史不可覆盖，好转不证明恢复。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.08",
+      "ability": "A06",
+      "role": "C",
+      "task": "仅条件性非诊断风险/转介记录，不创建临床处方",
+      "d4Targets": [
+        "K05.08.03.04",
+        "K05.08.02.05"
+      ],
+      "limits": "仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 59,
+        "row": "| K05.08 | A06 | C | 仅条件性非诊断风险/转介记录，不创建临床处方 | [VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 仅对应授权任务及明确对象/需求才适用，否则N/A/UNKNOWN；不扩展为主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS55@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS55",
+          "claim": "K05-CL-VS55@1",
+          "problem": "昨天疲劳不适今天好转且未评估，能定复训吗？",
+          "reject": "历史不可覆盖，好转不证明恢复。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "风险报告→暂停/紧急转介→专业决定；不批准恢复",
+      "d4Targets": [
+        "K05.08.02.03",
+        "K05.08.03.03",
+        "K05.08.03.04",
+        "K05.08.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 60,
+        "row": "| K05.08 | A07 | P | 风险报告→暂停/紧急转介→专业决定；不批准恢复 | [VS26/K05.08.02.03](vocal-science-r1-knowledge-cases.md#L30)；[VS27/K05.08.03.03](vocal-science-r1-knowledge-cases.md#L31)；[VS55/K05.08.03.04](vocal-science-r2-knowledge-cases.md#L29)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS26@1",
+        "K05-CL-VS27@1",
+        "K05-CL-VS55@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS26",
+          "claim": "K05-CL-VS26@1",
+          "problem": "报告严重呼吸困难，同时音准良好，先做什么？",
+          "reject": "已知严重风险优先，不被缺字段阻断。"
+        },
+        {
+          "caseId": "VS27",
+          "claim": "K05-CL-VS27@1",
+          "problem": "公众嘶哑超3周建议与临床4周要求怎样区分？",
+          "reject": "严重信号及加速条件优先，非等待许可。"
+        },
+        {
+          "caseId": "VS55",
+          "claim": "K05-CL-VS55@1",
+          "problem": "昨天疲劳不适今天好转且未评估，能定复训吗？",
+          "reject": "历史不可覆盖，好转不证明恢复。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.09",
+      "ability": "A01",
+      "role": "P",
+      "task": "观测对象、因子、源资格与复现条件",
+      "d4Targets": [
+        "K05.09.01.03",
+        "K05.09.02.03",
+        "K05.09.03.03",
+        "K05.09.01.04",
+        "K05.09.01.05",
+        "K05.09.02.04",
+        "K05.09.03.04",
+        "K05.09.03.05",
+        "K05.09.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 61,
+        "row": "| K05.09 | A01 | P | 观测对象、因子、源资格与复现条件 | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)；[VS30/K05.09.03.03](vocal-science-r1-knowledge-cases.md#L34)；[VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30)；[VS57/K05.09.01.05](vocal-science-r2-knowledge-cases.md#L31)；[VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS29@1",
+        "K05-CL-VS30@1",
+        "K05-CL-VS56@1",
+        "K05-CL-VS57@1",
+        "K05-CL-VS58@1",
+        "K05-CL-VS59@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS28",
+          "claim": "K05-CL-VS28@1",
+          "problem": "音频F0、EGG、气流、影像分别说明什么？",
+          "reject": "间接阻抗受多条件影响。"
+        },
+        {
+          "caseId": "VS29",
+          "claim": "K05-CL-VS29@1",
+          "problem": "A仅改模型k，B改三个录音条件，哪项支持单因素比较？",
+          "reject": "其它变量也变化。"
+        },
+        {
+          "caseId": "VS30",
+          "claim": "K05-CL-VS30@1",
+          "problem": "S048歌唱/非歌唱样本、S410语音剂量摘要用于缅语歌唱，可复用什么？",
+          "reject": "样本、任务和文化不匹配。"
+        },
+        {
+          "caseId": "VS56",
+          "claim": "K05-CL-VS56@1",
+          "problem": "10ms周期，A窗口4ms、B5ms，求商。",
+          "reject": "方法阈值不同即可产生差。"
+        },
+        {
+          "caseId": "VS57",
+          "claim": "K05-CL-VS57@1",
+          "problem": "高度不规则发声，频闪有何限制？",
+          "reject": "跨周期假设不成立。"
+        },
+        {
+          "caseId": "VS58",
+          "claim": "K05-CL-VS58@1",
+          "problem": "元音i/u及F0 200/400，四格与只i200/u400有何差别？",
+          "reject": "F0也变。"
+        },
+        {
+          "caseId": "VS59",
+          "claim": "K05-CL-VS59@1",
+          "problem": "孟语语音、缅/佤语摘要及临床协议用于K06，如何选择？",
+          "reject": "专业权限、任务与适用性不同。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        },
+        {
+          "caseId": "VS65",
+          "claim": "K05-CL-VS65@1",
+          "problem": "音频200ms、EGG230ms，独立确认固定+30，校正后？",
+          "reject": "偏差未知或时变，无法可靠对齐。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.09",
+      "ability": "A02",
+      "role": "P",
+      "task": "主责选择方法、记录假设及对照、无效拒绝和复核",
+      "d4Targets": [
+        "K05.09.01.03",
+        "K05.02.02.04",
+        "K05.09.02.04",
+        "K05.09.03.05",
+        "K05.09.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 62,
+        "row": "| K05.09 | A02 | P | 主责选择方法、记录假设及对照、无效拒绝和复核 | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS35/K05.02.02.04](vocal-science-r2-knowledge-cases.md#L9)；[VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS58@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS28",
+          "claim": "K05-CL-VS28@1",
+          "problem": "音频F0、EGG、气流、影像分别说明什么？",
+          "reject": "间接阻抗受多条件影响。"
+        },
+        {
+          "caseId": "VS35",
+          "claim": "K05-CL-VS35@1",
+          "problem": "A前提齐备，B漏气无平台，C带声/未平衡但有平台，哪些有效？",
+          "reject": "平衡及零口流条件不足。"
+        },
+        {
+          "caseId": "VS58",
+          "claim": "K05-CL-VS58@1",
+          "problem": "元音i/u及F0 200/400，四格与只i200/u400有何差别？",
+          "reject": "F0也变。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        },
+        {
+          "caseId": "VS65",
+          "claim": "K05-CL-VS65@1",
+          "problem": "音频200ms、EGG230ms，独立确认固定+30，校正后？",
+          "reject": "偏差未知或时变，无法可靠对齐。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.09",
+      "ability": "A03",
+      "role": "S",
+      "task": "支持专业测量协议及工具能力需求，K12真实运行/权限",
+      "d4Targets": [
+        "K05.09.01.04",
+        "K05.09.01.05",
+        "K05.09.03.05"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 63,
+        "row": "| K05.09 | A03 | S | 支持专业测量协议及工具能力需求，K12真实运行/权限 | [VS56/K05.09.01.04](vocal-science-r2-knowledge-cases.md#L30)；[VS57/K05.09.01.05](vocal-science-r2-knowledge-cases.md#L31)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS56@1",
+        "K05-CL-VS57@1",
+        "K05-CL-VS60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS56",
+          "claim": "K05-CL-VS56@1",
+          "problem": "10ms周期，A窗口4ms、B5ms，求商。",
+          "reject": "方法阈值不同即可产生差。"
+        },
+        {
+          "caseId": "VS57",
+          "claim": "K05-CL-VS57@1",
+          "problem": "高度不规则发声，频闪有何限制？",
+          "reject": "跨周期假设不成立。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.09",
+      "ability": "A04",
+      "role": "P",
+      "task": "主责科学证据、方法/参数/输入版本和失效状态语义",
+      "d4Targets": [
+        "K05.09.02.03",
+        "K05.09.03.04",
+        "K05.09.03.05",
+        "K05.09.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 64,
+        "row": "| K05.09 | A04 | P | 主责科学证据、方法/参数/输入版本和失效状态语义 | [VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS29@1",
+        "K05-CL-VS59@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS29",
+          "claim": "K05-CL-VS29@1",
+          "problem": "A仅改模型k，B改三个录音条件，哪项支持单因素比较？",
+          "reject": "其它变量也变化。"
+        },
+        {
+          "caseId": "VS59",
+          "claim": "K05-CL-VS59@1",
+          "problem": "孟语语音、缅/佤语摘要及临床协议用于K06，如何选择？",
+          "reject": "专业权限、任务与适用性不同。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        },
+        {
+          "caseId": "VS65",
+          "claim": "K05-CL-VS65@1",
+          "problem": "音频200ms、EGG230ms，独立确认固定+30，校正后？",
+          "reject": "偏差未知或时变，无法可靠对齐。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.09",
+      "ability": "A05",
+      "role": "P",
+      "task": "实测/模型/感知、对照与外推证据判定",
+      "d4Targets": [
+        "K05.09.01.03",
+        "K05.09.02.03",
+        "K05.09.02.04",
+        "K05.09.03.04"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 65,
+        "row": "| K05.09 | A05 | P | 实测/模型/感知、对照与外推证据判定 | [VS28/K05.09.01.03](vocal-science-r1-knowledge-cases.md#L32)；[VS29/K05.09.02.03](vocal-science-r1-knowledge-cases.md#L33)；[VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS29@1",
+        "K05-CL-VS58@1",
+        "K05-CL-VS59@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS28",
+          "claim": "K05-CL-VS28@1",
+          "problem": "音频F0、EGG、气流、影像分别说明什么？",
+          "reject": "间接阻抗受多条件影响。"
+        },
+        {
+          "caseId": "VS29",
+          "claim": "K05-CL-VS29@1",
+          "problem": "A仅改模型k，B改三个录音条件，哪项支持单因素比较？",
+          "reject": "其它变量也变化。"
+        },
+        {
+          "caseId": "VS58",
+          "claim": "K05-CL-VS58@1",
+          "problem": "元音i/u及F0 200/400，四格与只i200/u400有何差别？",
+          "reject": "F0也变。"
+        },
+        {
+          "caseId": "VS59",
+          "claim": "K05-CL-VS59@1",
+          "problem": "孟语语音、缅/佤语摘要及临床协议用于K06，如何选择？",
+          "reject": "专业权限、任务与适用性不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.09",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持实验协议、观测/报告及数据表示，真实工具及个人数据不实现",
+      "d4Targets": [
+        "K05.09.02.04",
+        "K05.09.03.04",
+        "K05.09.03.05"
+      ],
+      "limits": "为他域提供具体输入/限制；未实施真实工具/医疗。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 66,
+        "row": "| K05.09 | A06 | S | 支持实验协议、观测/报告及数据表示，真实工具及个人数据不实现 | [VS58/K05.09.02.04](vocal-science-r2-knowledge-cases.md#L32)；[VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34) | 为他域提供具体输入/限制；未实施真实工具/医疗。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS58@1",
+        "K05-CL-VS59@1",
+        "K05-CL-VS60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS58",
+          "claim": "K05-CL-VS58@1",
+          "problem": "元音i/u及F0 200/400，四格与只i200/u400有何差别？",
+          "reject": "F0也变。"
+        },
+        {
+          "caseId": "VS59",
+          "claim": "K05-CL-VS59@1",
+          "problem": "孟语语音、缅/佤语摘要及临床协议用于K06，如何选择？",
+          "reject": "专业权限、任务与适用性不同。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        }
+      ]
+    },
+    {
+      "d2": "K05.09",
+      "ability": "A07",
+      "role": "P",
+      "task": "版本或观测变更→核受影响证据→复核/UNKNOWN",
+      "d4Targets": [
+        "K05.09.03.04",
+        "K05.09.03.05",
+        "K05.09.02.05",
+        "K05.08.02.05"
+      ],
+      "limits": "本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-science-r4-capability-calibration.md",
+        "blob": "0b71c3683a087ece794595fc0b60c965853f9eda",
+        "line": 67,
+        "row": "| K05.09 | A07 | P | 版本或观测变更→核受影响证据→复核/UNKNOWN | [VS59/K05.09.03.04](vocal-science-r2-knowledge-cases.md#L33)；[VS60/K05.09.03.05](vocal-science-r2-knowledge-cases.md#L34)；[VS65/K05.09.02.05](vocal-science-r3-knowledge-cases.md#L9)；[VS66/K05.08.02.05](vocal-science-r3-knowledge-cases.md#L10) | 本域限定科学知识或测量/证据职责；不是实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K05-CL-VS59@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1",
+        "K05-CL-VS66@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VS59",
+          "claim": "K05-CL-VS59@1",
+          "problem": "孟语语音、缅/佤语摘要及临床协议用于K06，如何选择？",
+          "reject": "专业权限、任务与适用性不同。"
+        },
+        {
+          "caseId": "VS60",
+          "claim": "K05-CL-VS60@1",
+          "problem": "H1算法v1 20ms和v2 40ms，两结果如何记？",
+          "reject": "破坏历史且方法改变。"
+        },
+        {
+          "caseId": "VS65",
+          "claim": "K05-CL-VS65@1",
+          "problem": "音频200ms、EGG230ms，独立确认固定+30，校正后？",
+          "reject": "偏差未知或时变，无法可靠对齐。"
+        },
+        {
+          "caseId": "VS66",
+          "claim": "K05-CL-VS66@1",
+          "problem": "已有录音F0置信低，无风险报告，怎样复核？",
+          "reject": "立即停止交互并求当地紧急医疗。"
+        }
+      ]
+    }
+  ]
+}
