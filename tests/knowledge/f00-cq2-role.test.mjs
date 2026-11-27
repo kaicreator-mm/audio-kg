@@ -1,0 +1,41 @@
+// Test-only K02 formal shape, not a K02 candidate submission or literature admission.
+import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import {spawnSync} from 'node:child_process';import {openCandidateReader,gitBlob} from '../../tools/validate-knowledge.mjs';
+const root=process.cwd(),tmp=fs.mkdtempSync(path.join(os.tmpdir(),'audio-kg-cq2-')),checks=[],test=(n,v)=>{if(!v)throw Error(n);checks.push([n,true]);},same=(a,b)=>JSON.stringify(a)===JSON.stringify(b),ref=r=>r.id+'@'+r.revision;
+const disc='docs/product/calibration/composition-r3-discovery-cq.md',read=f=>fs.readFileSync(path.join(root,f)),frozen=JSON.parse(read('ontology/l1-anchor-tree.json'));
+const rows=read(disc).toString().split('\n').flatMap((l,i)=>/^\| K02\.\d\d\.\d\d\.\d\d \|/.test(l)?[(()=>{const c=l.split('|').slice(1,-1).map(s=>s.trim());return {line:i+1,d4:c[0],direct:c[3]==='—'?[]:c[3].split('/'),support:c[4]==='—'?[]:c[4].split('/'),sources:[...c[2].matchAll(/\bS\d{3}\b/g)].map(m=>m[0])}})()]:[]);
+const only=rows.filter(r=>!r.direct.length);test('actual 64 K02 rows with four S-only',rows.length===64&&same(only.map(r=>r.d4),['K02.03.01.03','K02.06.03.04','K02.04.01.04','K02.06.03.06']));
+const files=new Set(['ontology/knowledge-profile.json','ontology/l1-anchor-tree.json','docs/product/calibration/g05-r1-module-evidence-reconciliation.md',disc,'tools/validate-knowledge.mjs']);
+function anchor(f,line){const b=read(f);if(frozen.paths[f]!==gitBlob(b))throw Error('not frozen '+f);return {commit:frozen.commit,file:f,blob:gitBlob(b),line,row:b.toString().split('\n')[line-1]};}
+const pack={format:'audio-kg-candidate/1',owner:'K02',coverageMode:'MODULE',inventory:rows.map(r=>({line:r.line,d4:r.d4,disposition:'UNKNOWN',claimRefs:[],reason:'test-only non-admission'})),records:[],edges:[],bindings:[]},m={format:'audio-kg-qualification/1',owner:'K02',status:'CANDIDATE_QUALIFICATION_ONLY',packBlob:'',sourceQualifications:[],edgeQualifications:[],obligations:[]};
+function rec(type,id,v){const r={id,revision:1,type,...(type==='Source'?{}:{owner:'K02'}),...v};pack.records.push(r);return ref(r);}
+const sf={'S069':'creative-performance','S070':'creative-performance','S067':'creative-performance','S144':'composition-r2','S322':'composition-r3'};
+for(const [id,p] of Object.entries(sf)){const f='docs/research/source-qualification-'+p+'.md',line=read(f).toString().split('\n').findIndex(l=>l.startsWith('| '+id+' ')||l.startsWith('| '+id+'（'))+1,a=anchor(f,line),u=a.row.match(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/);files.add(f);rec('Source',id,{sourceId:id,title:u[1],uri:u[2],author:'UNKNOWN',version:'UNKNOWN',publicationDate:'UNKNOWN',accessDate:'FROZEN_UNKNOWN',locator:a.row.split('|')[2].trim(),grade:'READ_LOCATOR',rights:'UNKNOWN_NO_IMPORT',anchor:a});m.sourceQualifications.push({source:id+'@1',scope:'Test-only exact source identity',limits:'Not real K02 source qualification',locatorKind:'FROZEN_LOCATOR',accessedUri:u[2]});}
+function edge(type,from,to,condition){const id='K02-E-'+pack.edges.length;pack.edges.push({id,type,from,to,condition});m.edgeQualifications.push({edge:id,scope:'Test-only role witness',limits:'No formal admission'});return id;}
+function claim(name,d4,cq,sources,provider){const r=rows.find(x=>x.d4===d4),inv=pack.inventory.find(x=>x.d4===d4),id='K02-'+name,ctx=rec('Context',id+'-CTX',{condition:'Test-only stated symbolic scenario'}),c=rec('Claim',id,{d4,kind:'practice',statement:'Test-only bounded witness '+name,context:ctx,status:'CANDIDATE',limits:'No professional claim admission',cq}),ev=rec('Evidence',id+'-EV',{kind:'L1_RESEARCH_LOCATOR',sources:sources.map(x=>x+'@1'),anchor:anchor(disc,r.line),limits:'test-only'}),g=rec('CaseGroup',id+'-GROUP',{d4,claim:c,kind:'SYNTHETIC'});inv.disposition='CANDIDATE';inv.claimRefs.push(c);edge('supported_by',c,ev,ctx);edge('applies_under',c,ctx,ctx);if(provider){const e=edge('requires',c,provider.c,ctx);m.obligations.push({edge:e,consumer:c,provider:provider.c,condition:ctx,providerContext:provider.ctx,group:g});}
+ for(const [direction,polarity,key] of [['FORWARD','POSITIVE','FP'],['FORWARD','NEGATIVE','FN'],['REVERSE','POSITIVE','RP'],['REVERSE','NEGATIVE','RN']]){const v=rec('CaseView',id+'-'+key,{group:g,direction,polarity,context:ctx,question:'Test '+key,example:{synthetic:true},explanation:'test-only',limits:'test-only',evidenceKind:'SYNTHETIC_EXPECTED_NOT_OBSERVED'});pack.bindings.push({id:'K02-B-'+pack.bindings.length,view:v,claim:c,role:'PRIMARY_TARGET',condition:ctx});if(provider)pack.bindings.push({id:'K02-B-'+pack.bindings.length,view:v,claim:provider.c,role:'REQUIRES',condition:ctx});}
+ return {c,ctx};}
+const a=claim('MOTIVE','K02.03.01.03',[],['S069','S070']),b=claim('TRADITION','K02.06.03.04',[],['S144']),c=claim('HOOK','K02.04.01.04',[],['S322']),d=claim('TRADITION2','K02.06.03.06',[],['S144']),e=claim('DIRECT-A','K02.01.01.04',['CQ19'],['S067'],a),f=claim('DIRECT-B','K02.01.01.04',['CQ22'],['S067']);
+const write=(f,x)=>{const p=path.join(tmp,f),b=JSON.stringify(x,null,2)+'\n';fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,b);return gitBlob(b);};
+const pp='knowledge/K02/test-candidate.json',mp='knowledge/K02/test-qualification.json',cp='knowledge/K02/test-controller.json';
+function fresh(edit=()=>{}){const p=structuredClone(pack),q=structuredClone(m);edit(p,q);q.packBlob=write(pp,p);return [{pack:pp,manifest:mp,manifestBlob:write(mp,q)}];}
+const get=(p,id)=>p.records.find(r=>ref(r)===id);
+function reject(n,edit,re){let err;try{openCandidateReader(tmp,fresh(edit))}catch(x){err=x}test(n,!!err&&re.test(err.message));}
+try{
+ for(const f of files){const p=path.join(tmp,f);fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,read(f));}
+ const entries=fresh(),r=openCandidateReader(tmp,entries);
+ test('all four actual S-only rows stay exact D4/revision retrievable',only.every(x=>r.retrieve(x.d4).rootIds.length===1&&r.retrieve(r.retrieve(x.d4).rootIds[0]).rootIds.length===1)&&r.summary().acceptedClaims===0);
+ for(const q of Array.from({length:26},(_,i)=>'CQ'+String(i+1).padStart(2,'0')))test('no S-only CQ root '+q,[a,b,c,d].every(x=>!r.retrieve(q).rootIds.includes(x.c)));
+ const out=r.retrieve('CQ19');test('actual H closure includes support-only not root',same(out.rootIds,[e.c])&&out.claims.some(x=>x.ref===a.c&&x.selection==='REQUIRED_SUPPORT'&&x.cq.length===0));
+ test('split direct exact CQ22',same(r.retrieve('CQ22').rootIds,[f.c]));
+ test('inverse necessary support',r.caseToClaims('K02-DIRECT-A-FP@1').some(x=>x.claim===a.c&&x.role==='REQUIRES'));
+ const pin=write(cp,{entries,allowFixture:false,priorRegistry:null}),cli=spawnSync(process.execPath,['tools/validate-knowledge.mjs',cp,pin,'CQ19'],{cwd:tmp,encoding:'utf8'});test('isolated actual CLI exact H closure',cli.status===0&&same(JSON.parse(cli.stdout),out)&&!fs.existsSync(path.join(tmp,'.git')));
+ for(const [name,claimId,q] of [['motive',a.c,'CQ03'],['tradition',b.c,'CQ18'],['hook',c.c,'CQ19'],['tradition2',d.c,'CQ12']])reject('reject support promotion '+name,p=>get(p,claimId).cq=[q],/K02 CQ not frozen direct role/);
+ reject('reject direct loses role',p=>get(p,e.c).cq=[],/K02 candidate row missing frozen direct CQ/);
+ reject('reject S on mixed role',p=>get(p,e.c).cq=['CQ19','CQ03'],/K02 CQ not frozen direct role/);
+ reject('reject wrong type',p=>get(p,e.c).cq='CQ19',/K02 CQ not frozen direct role/);
+ reject('reject repeated direct role',p=>get(p,e.c).cq=['CQ19','CQ19'],/duplicate CQ/);
+ const sibling=openCandidateReader(tmp,fresh(p=>{get(p,e.c).cq=[];get(p,f.c).cq=['CQ19','CQ22']}));test('empty sibling permitted with exact union',same(sibling.retrieve('CQ19').rootIds,[f.c]));
+ reject('reject missing H obligation',(p,q)=>q.obligations=[],/H without scoped obligation/);
+ reject('reject missing necessary binding',p=>{p.bindings=p.bindings.filter(x=>!(x.view==='K02-DIRECT-A-FP@1'&&x.role==='REQUIRES'));},/mandatory supporting view/);
+}finally{fs.rmSync(tmp,{recursive:true,force:true});}
+console.log(JSON.stringify({status:'K02_CQ_ROLE_TEST_ONLY',checks:checks.length,passed:checks.length,results:checks,limits:['formal K02 D/S qualification only; no K02 formal admission','K01 and all other owner grammar unchanged']},null,2));

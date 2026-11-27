@@ -1,0 +1,5 @@
+# K04 independent batch review
+
+Complete professional module: 60 exact claims/240 four views, 34 canonical sources, 18 H/29 O, 56 capability cells, 48 legacy and 3 split routes, 8 finite workflows. Inspect all active scenarios and evidence boundaries. Evaluate #35 historical KC-P04 RV01/RV02 with exact source-vs-monitor/timebase and coincident cue identities, protected fallback, health stop; actual effects remain UNKNOWN. Independently rebuild both scripts and run K04 plus baseline five tests. Evaluate #115 integrated two-answer P2 separately (no standalone independent PASS yet).
+
+Exact base 5a510ca64874efb81c075191b0790c48d4d24747; tested 785ab929ceb07e8ae04375cdbe33612fd87b7f47 tree 97701576db181b8d56370e0813ed105a131d449b; clean job job_01M8EJVREJ00Z5HE8ABPS6ZXY9; 3436/3436 builder checks. Receipt batch-receipt.json. Independently reproduce and report per-task P0/P1/P2/P3, PASS or fail-closed; no edit/merge. Claim separate reviewer g1 first. OUTPUT_LABEL=AUDIO_KG_V010_G07_BATCH_K04_F00_CQ2_AND_K01_RV05_INDEPENDENT_REVIEW.

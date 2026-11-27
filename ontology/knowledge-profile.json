@@ -149,7 +149,11 @@
   "limits": "Only finite W1 record/relationship subset; no auto-admission/accepted status, actual observation, universal schema, production runtime or database.",
   "claimCqSemantics": {
     "meaning": "Direct global CQ root IDs only; support-only references stay in owner-specific discovery/navigation, never direct roots.",
-    "qualifiedEmptyArrayScope": "Formal K01 MODULE: frozen D/S rows checked, each claim subset of D and candidate row union equals D; [] valid when it has no direct role or another claim covers the direct role. Exact D4/revision lookup and H closure remain independent of CQ roots.",
+    "qualifiedEmptyArrayScope": "Formal K01 and K02 MODULE only: owner-specific frozen D/S rows checked, each claim subset of D and candidate row union equals D; [] valid when it has no direct role or another claim covers the direct role. Exact D4/revision lookup and H closure remain independent of CQ roots.",
     "otherScopes": "Existing fixture and other module nonempty CQ requirement retained until affected owner-specific role format is qualified; no automatic generalization."
+  },
+  "sourceUriSemantics": {
+    "default": "exact parenthesized HTTPS/HTTP URL on frozen source row",
+    "qualifiedBareUriScope": "Only exact frozen docs/research/source-qualification-vocal-digital.md at 73ac66934ae016a125ecc6302fa7fa3875faab16; exact source identity and HTTPS token in second table column, not other columns or partial matches. Grade is REGISTERED_LIMITED or exact explicitly evidenced status (READ_LOCATOR or ABSTRACT_READ); SEARCH_ONLY permits REGISTERED_LIMITED only. S045 abstract grade restricted to the actual PubMed abstract URI, not blocked PMC. Rights and other owner/fixture contracts unchanged."
   }
 }

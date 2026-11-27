@@ -1,0 +1,3045 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K04.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "器乐动作、能力与诊断",
+      "d4Targets": [
+        "K04.01.01.03",
+        "K04.01.01.04",
+        "K04.01.02.03",
+        "K04.01.03.03",
+        "K04.01.02.04",
+        "K04.01.03.04",
+        "K04.01.01.05",
+        "K04.01.02.05",
+        "K04.04.01.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 5,
+        "row": "| K04.01 | A01 | P | 器乐动作、能力与诊断 | [PF01/K04.01.01.03](performance-r1-knowledge-cases.md#L5)；[PF02/K04.01.01.04](performance-r1-knowledge-cases.md#L6)；[PF03/K04.01.02.03](performance-r1-knowledge-cases.md#L7)；[PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF19/K04.01.02.04](performance-r2-knowledge-cases.md#L5)；[PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6)；[PF51/K04.01.01.05](performance-r3-knowledge-cases.md#L5)；[PF52/K04.01.02.05](performance-r3-knowledge-cases.md#L6)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF01@1",
+        "K04-CL-PF02@1",
+        "K04-CL-PF03@1",
+        "K04-CL-PF04@1",
+        "K04-CL-PF19@1",
+        "K04-CL-PF20@1",
+        "K04-CL-PF51@1",
+        "K04-CL-PF52@1",
+        "K04-CL-PF54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF01",
+          "claim": "K04-CL-PF01@1",
+          "problem": "C5 D5 E5各一拍，首pizz、次arco、末无新奏法，列动作和保护项。",
+          "reject": "第二音状态已切换至弓，音高正确不补偿奏法错误；第三音继续弓。"
+        },
+        {
+          "caseId": "PF02",
+          "claim": "K04-CL-PF02@1",
+          "problem": "四音短句要求首音吐奏而其余连奏，A首吐后连、B逐音吐，选候选。",
+          "reject": "发音事件独立于音高；连奏仍需气流，B不满足无重复吐舌目标。"
+        },
+        {
+          "caseId": "PF03",
+          "claim": "K04-CL-PF03@1",
+          "problem": "120 BPM每拍四攻击；本次单吐6/s、双吐10/s，音区力度已核，筛选方案。",
+          "reject": "8/s超题定单吐6但双吐10仅候选；个体能力和健康条件不能由教材普遍化。"
+        },
+        {
+          "caseId": "PF04",
+          "claim": "K04-CL-PF04@1",
+          "problem": "8音take1原速缺第5音，take2降速8音齐全，判证据范围。",
+          "reject": "速度条件改变，原速缺音未复测，原任务保持未知或失败历史。"
+        },
+        {
+          "caseId": "PF19",
+          "claim": "K04-CL-PF19@1",
+          "problem": "120 BPM四攻击/拍，A确认6/s B确认10/s；A降90，筛选；若有新疼痛如何处理？",
+          "reject": "90对应6/s仅速度条件；有新症状先停止当前试验并求适当专业判断。"
+        },
+        {
+          "caseId": "PF20",
+          "claim": "K04-CL-PF20@1",
+          "problem": "录音缺第5音，独立现场观察确认发出但该时段采集缺失，应先核哪条链？",
+          "reject": "独立观察支持采集缺失候选，应先核记录链；不能覆盖演奏记录。"
+        },
+        {
+          "caseId": "PF51",
+          "claim": "K04-CL-PF51@1",
+          "problem": "标准小提琴D4两种选弦，任务普通指揉弦且G弦按音已确认，选。",
+          "reject": "本动作需要按指，G弦按音候选符合；若仅实音则两者可。"
+        },
+        {
+          "caseId": "PF52",
+          "claim": "K04-CL-PF52@1",
+          "problem": "120 BPM每音.125拍，另确认.25拍跨弦，计算时长并筛选原速。",
+          "reject": "原速62.5ms未确认，125ms仅已确认条件；有症状停止并求专业评估。"
+        },
+        {
+          "caseId": "PF54",
+          "claim": "K04-CL-PF54@1",
+          "problem": "两音D4 E4一组指定同弓、另一组détaché，记录各弓数和时位。",
+          "reject": "题定一弓与两弓不同，均保护音符时位；真实演奏需观察。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "任务→动作/速度/身体前置→复核",
+      "d4Targets": [
+        "K04.01.02.03",
+        "K04.01.03.03",
+        "K04.01.02.04",
+        "K04.01.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 6,
+        "row": "| K04.01 | A02 | P | 任务→动作/速度/身体前置→复核 | [PF03/K04.01.02.03](performance-r1-knowledge-cases.md#L7)；[PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF19/K04.01.02.04](performance-r2-knowledge-cases.md#L5)；[PF52/K04.01.02.05](performance-r3-knowledge-cases.md#L6) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF03@1",
+        "K04-CL-PF04@1",
+        "K04-CL-PF19@1",
+        "K04-CL-PF52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF03",
+          "claim": "K04-CL-PF03@1",
+          "problem": "120 BPM每拍四攻击；本次单吐6/s、双吐10/s，音区力度已核，筛选方案。",
+          "reject": "8/s超题定单吐6但双吐10仅候选；个体能力和健康条件不能由教材普遍化。"
+        },
+        {
+          "caseId": "PF04",
+          "claim": "K04-CL-PF04@1",
+          "problem": "8音take1原速缺第5音，take2降速8音齐全，判证据范围。",
+          "reject": "速度条件改变，原速缺音未复测，原任务保持未知或失败历史。"
+        },
+        {
+          "caseId": "PF19",
+          "claim": "K04-CL-PF19@1",
+          "problem": "120 BPM四攻击/拍，A确认6/s B确认10/s；A降90，筛选；若有新疼痛如何处理？",
+          "reject": "90对应6/s仅速度条件；有新症状先停止当前试验并求适当专业判断。"
+        },
+        {
+          "caseId": "PF52",
+          "claim": "K04-CL-PF52@1",
+          "problem": "120 BPM每音.125拍，另确认.25拍跨弦，计算时长并筛选原速。",
+          "reject": "原速62.5ms未确认，125ms仅已确认条件；有症状停止并求专业评估。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "记录动作/音符/采集要求，K12/K08实现",
+      "d4Targets": [
+        "K04.01.03.04",
+        "K04.01.01.05",
+        "K04.04.01.05"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 7,
+        "row": "| K04.01 | A03 | S | 记录动作/音符/采集要求，K12/K08实现 | [PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6)；[PF51/K04.01.01.05](performance-r3-knowledge-cases.md#L5)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF20@1",
+        "K04-CL-PF51@1",
+        "K04-CL-PF54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF20",
+          "claim": "K04-CL-PF20@1",
+          "problem": "录音缺第5音，独立现场观察确认发出但该时段采集缺失，应先核哪条链？",
+          "reject": "独立观察支持采集缺失候选，应先核记录链；不能覆盖演奏记录。"
+        },
+        {
+          "caseId": "PF51",
+          "claim": "K04-CL-PF51@1",
+          "problem": "标准小提琴D4两种选弦，任务普通指揉弦且G弦按音已确认，选。",
+          "reject": "本动作需要按指，G弦按音候选符合；若仅实音则两者可。"
+        },
+        {
+          "caseId": "PF54",
+          "claim": "K04-CL-PF54@1",
+          "problem": "两音D4 E4一组指定同弓、另一组détaché，记录各弓数和时位。",
+          "reject": "题定一弓与两弓不同，均保护音符时位；真实演奏需观察。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.01",
+      "ability": "A04",
+      "role": "P",
+      "task": "谱版、动作、个体条件、take",
+      "d4Targets": [
+        "K04.01.01.03",
+        "K04.01.03.03",
+        "K04.01.02.04",
+        "K04.01.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 8,
+        "row": "| K04.01 | A04 | P | 谱版、动作、个体条件、take | [PF01/K04.01.01.03](performance-r1-knowledge-cases.md#L5)；[PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF19/K04.01.02.04](performance-r2-knowledge-cases.md#L5)；[PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF01@1",
+        "K04-CL-PF04@1",
+        "K04-CL-PF19@1",
+        "K04-CL-PF20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF01",
+          "claim": "K04-CL-PF01@1",
+          "problem": "C5 D5 E5各一拍，首pizz、次arco、末无新奏法，列动作和保护项。",
+          "reject": "第二音状态已切换至弓，音高正确不补偿奏法错误；第三音继续弓。"
+        },
+        {
+          "caseId": "PF04",
+          "claim": "K04-CL-PF04@1",
+          "problem": "8音take1原速缺第5音，take2降速8音齐全，判证据范围。",
+          "reject": "速度条件改变，原速缺音未复测，原任务保持未知或失败历史。"
+        },
+        {
+          "caseId": "PF19",
+          "claim": "K04-CL-PF19@1",
+          "problem": "120 BPM四攻击/拍，A确认6/s B确认10/s；A降90，筛选；若有新疼痛如何处理？",
+          "reject": "90对应6/s仅速度条件；有新症状先停止当前试验并求适当专业判断。"
+        },
+        {
+          "caseId": "PF20",
+          "claim": "K04-CL-PF20@1",
+          "problem": "录音缺第5音，独立现场观察确认发出但该时段采集缺失，应先核哪条链？",
+          "reject": "独立观察支持采集缺失候选，应先核记录链；不能覆盖演奏记录。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "动作与可观察结果；症状停止，不诊断",
+      "d4Targets": [
+        "K04.01.02.03",
+        "K04.01.02.04",
+        "K04.01.03.04",
+        "K04.01.02.05"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 9,
+        "row": "| K04.01 | A05 | P | 动作与可观察结果；症状停止，不诊断 | [PF03/K04.01.02.03](performance-r1-knowledge-cases.md#L7)；[PF19/K04.01.02.04](performance-r2-knowledge-cases.md#L5)；[PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6)；[PF52/K04.01.02.05](performance-r3-knowledge-cases.md#L6) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF03@1",
+        "K04-CL-PF19@1",
+        "K04-CL-PF20@1",
+        "K04-CL-PF52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF03",
+          "claim": "K04-CL-PF03@1",
+          "problem": "120 BPM每拍四攻击；本次单吐6/s、双吐10/s，音区力度已核，筛选方案。",
+          "reject": "8/s超题定单吐6但双吐10仅候选；个体能力和健康条件不能由教材普遍化。"
+        },
+        {
+          "caseId": "PF19",
+          "claim": "K04-CL-PF19@1",
+          "problem": "120 BPM四攻击/拍，A确认6/s B确认10/s；A降90，筛选；若有新疼痛如何处理？",
+          "reject": "90对应6/s仅速度条件；有新症状先停止当前试验并求适当专业判断。"
+        },
+        {
+          "caseId": "PF20",
+          "claim": "K04-CL-PF20@1",
+          "problem": "录音缺第5音，独立现场观察确认发出但该时段采集缺失，应先核哪条链？",
+          "reject": "独立观察支持采集缺失候选，应先核记录链；不能覆盖演奏记录。"
+        },
+        {
+          "caseId": "PF52",
+          "claim": "K04-CL-PF52@1",
+          "problem": "120 BPM每音.125拍，另确认.25拍跨弦，计算时长并筛选原速。",
+          "reject": "原速62.5ms未确认，125ms仅已确认条件；有症状停止并求专业评估。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.01",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持分谱/动作记录，K03/K12持可编辑谱/工具主责",
+      "d4Targets": [
+        "K04.01.01.03",
+        "K04.01.03.04",
+        "K04.01.01.05",
+        "K04.04.01.05"
+      ],
+      "limits": "支持记录要求，不取得他域编辑/技术主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 10,
+        "row": "| K04.01 | A06 | S | 支持分谱/动作记录，K03/K12持可编辑谱/工具主责 | [PF01/K04.01.01.03](performance-r1-knowledge-cases.md#L5)；[PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6)；[PF51/K04.01.01.05](performance-r3-knowledge-cases.md#L5)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 支持记录要求，不取得他域编辑/技术主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF01@1",
+        "K04-CL-PF20@1",
+        "K04-CL-PF51@1",
+        "K04-CL-PF54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF01",
+          "claim": "K04-CL-PF01@1",
+          "problem": "C5 D5 E5各一拍，首pizz、次arco、末无新奏法，列动作和保护项。",
+          "reject": "第二音状态已切换至弓，音高正确不补偿奏法错误；第三音继续弓。"
+        },
+        {
+          "caseId": "PF20",
+          "claim": "K04-CL-PF20@1",
+          "problem": "录音缺第5音，独立现场观察确认发出但该时段采集缺失，应先核哪条链？",
+          "reject": "独立观察支持采集缺失候选，应先核记录链；不能覆盖演奏记录。"
+        },
+        {
+          "caseId": "PF51",
+          "claim": "K04-CL-PF51@1",
+          "problem": "标准小提琴D4两种选弦，任务普通指揉弦且G弦按音已确认，选。",
+          "reject": "本动作需要按指，G弦按音候选符合；若仅实音则两者可。"
+        },
+        {
+          "caseId": "PF54",
+          "claim": "K04-CL-PF54@1",
+          "problem": "两音D4 E4一组指定同弓、另一组détaché，记录各弓数和时位。",
+          "reject": "题定一弓与两弓不同，均保护音符时位；真实演奏需观察。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "定位异常→隔离→验证/停止",
+      "d4Targets": [
+        "K04.01.03.03",
+        "K04.01.03.04",
+        "K04.01.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 11,
+        "row": "| K04.01 | A07 | P | 定位异常→隔离→验证/停止 | [PF04/K04.01.03.03](performance-r1-knowledge-cases.md#L8)；[PF20/K04.01.03.04](performance-r2-knowledge-cases.md#L6)；[PF52/K04.01.02.05](performance-r3-knowledge-cases.md#L6) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF04@1",
+        "K04-CL-PF20@1",
+        "K04-CL-PF52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF04",
+          "claim": "K04-CL-PF04@1",
+          "problem": "8音take1原速缺第5音，take2降速8音齐全，判证据范围。",
+          "reject": "速度条件改变，原速缺音未复测，原任务保持未知或失败历史。"
+        },
+        {
+          "caseId": "PF20",
+          "claim": "K04-CL-PF20@1",
+          "problem": "录音缺第5音，独立现场观察确认发出但该时段采集缺失，应先核哪条链？",
+          "reject": "独立观察支持采集缺失候选，应先核记录链；不能覆盖演奏记录。"
+        },
+        {
+          "caseId": "PF52",
+          "claim": "K04-CL-PF52@1",
+          "problem": "120 BPM每音.125拍，另确认.25拍跨弦，计算时长并筛选原速。",
+          "reject": "原速62.5ms未确认，125ms仅已确认条件；有症状停止并求专业评估。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "局部速度、微时值、表达同步",
+      "d4Targets": [
+        "K04.02.01.03",
+        "K04.02.01.04",
+        "K04.02.02.03",
+        "K04.02.02.04",
+        "K04.02.03.03",
+        "K04.02.01.05",
+        "K04.02.03.04",
+        "K04.02.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 12,
+        "row": "| K04.02 | A01 | P | 局部速度、微时值、表达同步 | [PF05/K04.02.01.03](performance-r1-knowledge-cases.md#L9)；[PF06/K04.02.01.04](performance-r1-knowledge-cases.md#L10)；[PF07/K04.02.02.03](performance-r1-knowledge-cases.md#L11)；[PF08/K04.02.02.04](performance-r1-knowledge-cases.md#L12)；[PF09/K04.02.03.03](performance-r1-knowledge-cases.md#L13)；[PF21/K04.02.01.05](performance-r2-knowledge-cases.md#L7)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8)；[PF53/K04.02.02.05](performance-r3-knowledge-cases.md#L7) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF05@1",
+        "K04-CL-PF06@1",
+        "K04-CL-PF07@1",
+        "K04-CL-PF08@1",
+        "K04-CL-PF09@1",
+        "K04-CL-PF21@1",
+        "K04-CL-PF22@1",
+        "K04-CL-PF53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF05",
+          "claim": "K04-CL-PF05@1",
+          "problem": "四分拍IOI 500/500/600/750ms，计算BPM并判断题定句末渐慢。",
+          "reject": "换算120/120/100/80，只符合本题渐慢方向；实际表达意图另证。"
+        },
+        {
+          "caseId": "PF06",
+          "claim": "K04-CL-PF06@1",
+          "problem": "参照0/500/1000/1500，双方0/500/1100/1800，允许共同减速，判断相对同步。",
+          "reject": "双方对应差为0且共同IOI 500/600/700；固定网格不是此任务唯一目标。"
+        },
+        {
+          "caseId": "PF07",
+          "claim": "K04-CL-PF07@1",
+          "problem": "500ms拍组333⅓/166⅔与250ms拍组125/125，分别求比并核拍长。",
+          "reject": "题设第二组1:1同样允许；总时长与风格目标独立，研究范围有限。"
+        },
+        {
+          "caseId": "PF08",
+          "claim": "K04-CL-PF08@1",
+          "problem": "ride 0/330/500/830/1000、独奏40/330/540/830/1040ms，核正拍+40反拍0及首组IOI比。",
+          "reject": "本题正拍有意滞后40ms，反拍对齐；ride 330:170、独奏290:210，不能用全零目标。"
+        },
+        {
+          "caseId": "PF09",
+          "claim": "K04-CL-PF09@1",
+          "problem": "A 0/500/1100/1800，B 15/515/1115/1815，允许+15ms，核差值及IOI。",
+          "reject": "逐事件差均+15，IOI同500/600/700，是题设固定偏移。"
+        },
+        {
+          "caseId": "PF21",
+          "claim": "K04-CL-PF21@1",
+          "problem": "附点四分=60，6/8两主拍时长及等效四分/八分每分钟？实际IOI1.2s呢？",
+          "reject": "题定主拍为附点四分，整小节2秒，四分90、八分180，实际主拍50/min。"
+        },
+        {
+          "caseId": "PF22",
+          "claim": "K04-CL-PF22@1",
+          "problem": "领奏0/500/1000/1500，目标+20±10，B20/520/1020/1520，C20/520/1050/1580，分别判。",
+          "reject": "C末差80、残差60且第三差50残差30，超题定范围。"
+        },
+        {
+          "caseId": "PF53",
+          "claim": "K04-CL-PF53@1",
+          "problem": "4/4每拍500ms和声每2秒换，独奏每拍2→4次攻击，算间隔及和声速度。",
+          "reject": "仅攻击密度倍增，共同拍和每小节和声保持。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "明确拍单位→共享参照→分角色比较",
+      "d4Targets": [
+        "K04.02.01.03",
+        "K04.02.01.04",
+        "K04.02.01.05",
+        "K04.02.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 13,
+        "row": "| K04.02 | A02 | P | 明确拍单位→共享参照→分角色比较 | [PF05/K04.02.01.03](performance-r1-knowledge-cases.md#L9)；[PF06/K04.02.01.04](performance-r1-knowledge-cases.md#L10)；[PF21/K04.02.01.05](performance-r2-knowledge-cases.md#L7)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF05@1",
+        "K04-CL-PF06@1",
+        "K04-CL-PF21@1",
+        "K04-CL-PF22@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF05",
+          "claim": "K04-CL-PF05@1",
+          "problem": "四分拍IOI 500/500/600/750ms，计算BPM并判断题定句末渐慢。",
+          "reject": "换算120/120/100/80，只符合本题渐慢方向；实际表达意图另证。"
+        },
+        {
+          "caseId": "PF06",
+          "claim": "K04-CL-PF06@1",
+          "problem": "参照0/500/1000/1500，双方0/500/1100/1800，允许共同减速，判断相对同步。",
+          "reject": "双方对应差为0且共同IOI 500/600/700；固定网格不是此任务唯一目标。"
+        },
+        {
+          "caseId": "PF21",
+          "claim": "K04-CL-PF21@1",
+          "problem": "附点四分=60，6/8两主拍时长及等效四分/八分每分钟？实际IOI1.2s呢？",
+          "reject": "题定主拍为附点四分，整小节2秒，四分90、八分180，实际主拍50/min。"
+        },
+        {
+          "caseId": "PF22",
+          "claim": "K04-CL-PF22@1",
+          "problem": "领奏0/500/1000/1500，目标+20±10，B20/520/1020/1520，C20/520/1050/1580，分别判。",
+          "reject": "C末差80、残差60且第三差50残差30，超题定范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.02",
+      "ability": "A03",
+      "role": "S",
+      "task": "实际节拍/时间采集工具K10/K12",
+      "d4Targets": [
+        "K04.02.02.03",
+        "K04.02.01.05",
+        "K04.06.02.04"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 14,
+        "row": "| K04.02 | A03 | S | 实际节拍/时间采集工具K10/K12 | [PF07/K04.02.02.03](performance-r1-knowledge-cases.md#L11)；[PF21/K04.02.01.05](performance-r2-knowledge-cases.md#L7)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF07@1",
+        "K04-CL-PF21@1",
+        "K04-CL-PF38@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF07",
+          "claim": "K04-CL-PF07@1",
+          "problem": "500ms拍组333⅓/166⅔与250ms拍组125/125，分别求比并核拍长。",
+          "reject": "题设第二组1:1同样允许；总时长与风格目标独立，研究范围有限。"
+        },
+        {
+          "caseId": "PF21",
+          "claim": "K04-CL-PF21@1",
+          "problem": "附点四分=60，6/8两主拍时长及等效四分/八分每分钟？实际IOI1.2s呢？",
+          "reject": "题定主拍为附点四分，整小节2秒，四分90、八分180，实际主拍50/min。"
+        },
+        {
+          "caseId": "PF38",
+          "claim": "K04-CL-PF38@1",
+          "problem": "A源1000 B源1005，A收到B1045，路径40ms，算源差与到达差。",
+          "reject": "源差+5、到达差+45，已知40来自路径；实际配置须独立核验。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.02",
+      "ability": "A04",
+      "role": "P",
+      "task": "参照、目标偏移、角色及速度条件",
+      "d4Targets": [
+        "K04.02.01.04",
+        "K04.02.03.03",
+        "K04.02.03.04",
+        "K04.02.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 15,
+        "row": "| K04.02 | A04 | P | 参照、目标偏移、角色及速度条件 | [PF06/K04.02.01.04](performance-r1-knowledge-cases.md#L10)；[PF09/K04.02.03.03](performance-r1-knowledge-cases.md#L13)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8)；[PF53/K04.02.02.05](performance-r3-knowledge-cases.md#L7) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF06@1",
+        "K04-CL-PF09@1",
+        "K04-CL-PF22@1",
+        "K04-CL-PF53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF06",
+          "claim": "K04-CL-PF06@1",
+          "problem": "参照0/500/1000/1500，双方0/500/1100/1800，允许共同减速，判断相对同步。",
+          "reject": "双方对应差为0且共同IOI 500/600/700；固定网格不是此任务唯一目标。"
+        },
+        {
+          "caseId": "PF09",
+          "claim": "K04-CL-PF09@1",
+          "problem": "A 0/500/1100/1800，B 15/515/1115/1815，允许+15ms，核差值及IOI。",
+          "reject": "逐事件差均+15，IOI同500/600/700，是题设固定偏移。"
+        },
+        {
+          "caseId": "PF22",
+          "claim": "K04-CL-PF22@1",
+          "problem": "领奏0/500/1000/1500，目标+20±10，B20/520/1020/1520，C20/520/1050/1580，分别判。",
+          "reject": "C末差80、残差60且第三差50残差30，超题定范围。"
+        },
+        {
+          "caseId": "PF53",
+          "claim": "K04-CL-PF53@1",
+          "problem": "4/4每拍500ms和声每2秒换，独奏每拍2→4次攻击，算间隔及和声速度。",
+          "reject": "仅攻击密度倍增，共同拍和每小节和声保持。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "相对误差、IOI、风格与目标区别",
+      "d4Targets": [
+        "K04.02.02.03",
+        "K04.02.02.04",
+        "K04.02.03.04",
+        "K04.02.02.05"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 16,
+        "row": "| K04.02 | A05 | P | 相对误差、IOI、风格与目标区别 | [PF07/K04.02.02.03](performance-r1-knowledge-cases.md#L11)；[PF08/K04.02.02.04](performance-r1-knowledge-cases.md#L12)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8)；[PF53/K04.02.02.05](performance-r3-knowledge-cases.md#L7) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF07@1",
+        "K04-CL-PF08@1",
+        "K04-CL-PF22@1",
+        "K04-CL-PF53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF07",
+          "claim": "K04-CL-PF07@1",
+          "problem": "500ms拍组333⅓/166⅔与250ms拍组125/125，分别求比并核拍长。",
+          "reject": "题设第二组1:1同样允许；总时长与风格目标独立，研究范围有限。"
+        },
+        {
+          "caseId": "PF08",
+          "claim": "K04-CL-PF08@1",
+          "problem": "ride 0/330/500/830/1000、独奏40/330/540/830/1040ms，核正拍+40反拍0及首组IOI比。",
+          "reject": "本题正拍有意滞后40ms，反拍对齐；ride 330:170、独奏290:210，不能用全零目标。"
+        },
+        {
+          "caseId": "PF22",
+          "claim": "K04-CL-PF22@1",
+          "problem": "领奏0/500/1000/1500，目标+20±10，B20/520/1020/1520，C20/520/1050/1580，分别判。",
+          "reject": "C末差80、残差60且第三差50残差30，超题定范围。"
+        },
+        {
+          "caseId": "PF53",
+          "claim": "K04-CL-PF53@1",
+          "problem": "4/4每拍500ms和声每2秒换，独奏每拍2→4次攻击，算间隔及和声速度。",
+          "reject": "仅攻击密度倍增，共同拍和每小节和声保持。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.02",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持时序与表现记录，不实现谱面/宿主",
+      "d4Targets": [
+        "K04.02.01.03",
+        "K04.02.01.05",
+        "K04.02.02.05"
+      ],
+      "limits": "支持记录要求，不取得他域编辑/技术主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 17,
+        "row": "| K04.02 | A06 | S | 支持时序与表现记录，不实现谱面/宿主 | [PF05/K04.02.01.03](performance-r1-knowledge-cases.md#L9)；[PF21/K04.02.01.05](performance-r2-knowledge-cases.md#L7)；[PF53/K04.02.02.05](performance-r3-knowledge-cases.md#L7) | 支持记录要求，不取得他域编辑/技术主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF05@1",
+        "K04-CL-PF21@1",
+        "K04-CL-PF53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF05",
+          "claim": "K04-CL-PF05@1",
+          "problem": "四分拍IOI 500/500/600/750ms，计算BPM并判断题定句末渐慢。",
+          "reject": "换算120/120/100/80，只符合本题渐慢方向；实际表达意图另证。"
+        },
+        {
+          "caseId": "PF21",
+          "claim": "K04-CL-PF21@1",
+          "problem": "附点四分=60，6/8两主拍时长及等效四分/八分每分钟？实际IOI1.2s呢？",
+          "reject": "题定主拍为附点四分，整小节2秒，四分90、八分180，实际主拍50/min。"
+        },
+        {
+          "caseId": "PF53",
+          "claim": "K04-CL-PF53@1",
+          "problem": "4/4每拍500ms和声每2秒换，独奏每拍2→4次攻击，算间隔及和声速度。",
+          "reject": "仅攻击密度倍增，共同拍和每小节和声保持。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "偏差定位→复核参照/时序→复测",
+      "d4Targets": [
+        "K04.02.03.03",
+        "K04.02.03.04",
+        "K04.06.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 18,
+        "row": "| K04.02 | A07 | P | 偏差定位→复核参照/时序→复测 | [PF09/K04.02.03.03](performance-r1-knowledge-cases.md#L13)；[PF22/K04.02.03.04](performance-r2-knowledge-cases.md#L8)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF09@1",
+        "K04-CL-PF22@1",
+        "K04-CL-PF39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF09",
+          "claim": "K04-CL-PF09@1",
+          "problem": "A 0/500/1100/1800，B 15/515/1115/1815，允许+15ms，核差值及IOI。",
+          "reject": "逐事件差均+15，IOI同500/600/700，是题设固定偏移。"
+        },
+        {
+          "caseId": "PF22",
+          "claim": "K04-CL-PF22@1",
+          "problem": "领奏0/500/1000/1500，目标+20±10，B20/520/1020/1520，C20/520/1050/1580，分别判。",
+          "reject": "C末差80、残差60且第三差50残差30，超题定范围。"
+        },
+        {
+          "caseId": "PF39",
+          "claim": "K04-CL-PF39@1",
+          "problem": "A源1000 B源1010、A接收B1060、B→A50ms，允许源差≤20，计算并选处理域。",
+          "reject": "(1060−1000)−50=+10，与B源差一致且合题定；应由负责人核监听链。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "力度、触键/踏板、动态范围",
+      "d4Targets": [
+        "K04.03.02.03",
+        "K04.03.03.03",
+        "K04.03.01.03",
+        "K04.03.01.04",
+        "K04.03.02.04",
+        "K04.03.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 19,
+        "row": "| K04.03 | A01 | P | 力度、触键/踏板、动态范围 | [PF10/K04.03.02.03](performance-r1-knowledge-cases.md#L14)；[PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF23/K04.03.01.03](performance-r2-knowledge-cases.md#L9)；[PF24/K04.03.01.04](performance-r2-knowledge-cases.md#L10)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11)；[PF26/K04.03.03.04](performance-r2-knowledge-cases.md#L12) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF10@1",
+        "K04-CL-PF11@1",
+        "K04-CL-PF23@1",
+        "K04-CL-PF24@1",
+        "K04-CL-PF25@1",
+        "K04-CL-PF26@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF10",
+          "claim": "K04-CL-PF10@1",
+          "problem": "同琴同短句，A较强起音短踏板，B同起音级长踏板，盲听未做，如何保存候选？",
+          "reject": "动作配置差别不等艺术优胜；音色需独立录音与评价。"
+        },
+        {
+          "caseId": "PF11",
+          "claim": "K04-CL-PF11@1",
+          "problem": "A幅度.1/.2/.4，B同take后期×2，均未削波，核相邻比和演奏结论。",
+          "reject": "相邻比均2/2，B只是派生增益，不改变原动作证据。"
+        },
+        {
+          "caseId": "PF23",
+          "claim": "K04-CL-PF23@1",
+          "problem": "小提琴支持钢琴主线，双方mf且无SPL目标，怎样提出试奏候选？",
+          "reject": "不同乐器、场地与角色不同，mf不定义物理数值；需真实对照。"
+        },
+        {
+          "caseId": "PF24",
+          "claim": "K04-CL-PF24@1",
+          "problem": "规范题设dynamics=80，以90为基准求值并说明mf如何保存。",
+          "reject": "90×.8=72仅规范算术；谱面标记、实际宿主与物理测量独立。"
+        },
+        {
+          "caseId": "PF25",
+          "claim": "K04-CL-PF25@1",
+          "problem": "同琴两take键速同，B踏板跨下一和弦，题定禁止跨和弦，筛选。",
+          "reject": "B跨越保护边界，A符合当前约束；音响还需实测。"
+        },
+        {
+          "caseId": "PF26",
+          "claim": "K04-CL-PF26@1",
+          "problem": "区间0–3，A .1/.15/.25/.4 B .1/.25/.15/.4，题定逐音非减，筛选。",
+          "reject": "B中间.25→.15下降，当前硬条件失败；通常渐强不必逐音单调。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "设目标→动作候选→真实听评与测量",
+      "d4Targets": [
+        "K04.03.02.03",
+        "K04.03.01.03",
+        "K04.03.02.04",
+        "K04.03.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 20,
+        "row": "| K04.03 | A02 | P | 设目标→动作候选→真实听评与测量 | [PF10/K04.03.02.03](performance-r1-knowledge-cases.md#L14)；[PF23/K04.03.01.03](performance-r2-knowledge-cases.md#L9)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11)；[PF26/K04.03.03.04](performance-r2-knowledge-cases.md#L12) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF10@1",
+        "K04-CL-PF23@1",
+        "K04-CL-PF25@1",
+        "K04-CL-PF26@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF10",
+          "claim": "K04-CL-PF10@1",
+          "problem": "同琴同短句，A较强起音短踏板，B同起音级长踏板，盲听未做，如何保存候选？",
+          "reject": "动作配置差别不等艺术优胜；音色需独立录音与评价。"
+        },
+        {
+          "caseId": "PF23",
+          "claim": "K04-CL-PF23@1",
+          "problem": "小提琴支持钢琴主线，双方mf且无SPL目标，怎样提出试奏候选？",
+          "reject": "不同乐器、场地与角色不同，mf不定义物理数值；需真实对照。"
+        },
+        {
+          "caseId": "PF25",
+          "claim": "K04-CL-PF25@1",
+          "problem": "同琴两take键速同，B踏板跨下一和弦，题定禁止跨和弦，筛选。",
+          "reject": "B跨越保护边界，A符合当前约束；音响还需实测。"
+        },
+        {
+          "caseId": "PF26",
+          "claim": "K04-CL-PF26@1",
+          "problem": "区间0–3，A .1/.15/.25/.4 B .1/.25/.15/.4，题定逐音非减，筛选。",
+          "reject": "B中间.25→.15下降，当前硬条件失败；通常渐强不必逐音单调。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.03",
+      "ability": "A03",
+      "role": "S",
+      "task": "K07/K10测量，K12播放参数支持",
+      "d4Targets": [
+        "K04.03.03.03",
+        "K04.03.01.04",
+        "K04.03.02.04"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 21,
+        "row": "| K04.03 | A03 | S | K07/K10测量，K12播放参数支持 | [PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF24/K04.03.01.04](performance-r2-knowledge-cases.md#L10)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF11@1",
+        "K04-CL-PF24@1",
+        "K04-CL-PF25@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF11",
+          "claim": "K04-CL-PF11@1",
+          "problem": "A幅度.1/.2/.4，B同take后期×2，均未削波，核相邻比和演奏结论。",
+          "reject": "相邻比均2/2，B只是派生增益，不改变原动作证据。"
+        },
+        {
+          "caseId": "PF24",
+          "claim": "K04-CL-PF24@1",
+          "problem": "规范题设dynamics=80，以90为基准求值并说明mf如何保存。",
+          "reject": "90×.8=72仅规范算术；谱面标记、实际宿主与物理测量独立。"
+        },
+        {
+          "caseId": "PF25",
+          "claim": "K04-CL-PF25@1",
+          "problem": "同琴两take键速同，B踏板跨下一和弦，题定禁止跨和弦，筛选。",
+          "reject": "B跨越保护边界，A符合当前约束；音响还需实测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.03",
+      "ability": "A04",
+      "role": "P",
+      "task": "原take、播放参数、力度意图与采集链",
+      "d4Targets": [
+        "K04.03.03.03",
+        "K04.03.01.04",
+        "K04.03.02.04",
+        "K04.03.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 22,
+        "row": "| K04.03 | A04 | P | 原take、播放参数、力度意图与采集链 | [PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF24/K04.03.01.04](performance-r2-knowledge-cases.md#L10)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11)；[PF26/K04.03.03.04](performance-r2-knowledge-cases.md#L12) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF11@1",
+        "K04-CL-PF24@1",
+        "K04-CL-PF25@1",
+        "K04-CL-PF26@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF11",
+          "claim": "K04-CL-PF11@1",
+          "problem": "A幅度.1/.2/.4，B同take后期×2，均未削波，核相邻比和演奏结论。",
+          "reject": "相邻比均2/2，B只是派生增益，不改变原动作证据。"
+        },
+        {
+          "caseId": "PF24",
+          "claim": "K04-CL-PF24@1",
+          "problem": "规范题设dynamics=80，以90为基准求值并说明mf如何保存。",
+          "reject": "90×.8=72仅规范算术；谱面标记、实际宿主与物理测量独立。"
+        },
+        {
+          "caseId": "PF25",
+          "claim": "K04-CL-PF25@1",
+          "problem": "同琴两take键速同，B踏板跨下一和弦，题定禁止跨和弦，筛选。",
+          "reject": "B跨越保护边界，A符合当前约束；音响还需实测。"
+        },
+        {
+          "caseId": "PF26",
+          "claim": "K04-CL-PF26@1",
+          "problem": "区间0–3，A .1/.15/.25/.4 B .1/.25/.15/.4，题定逐音非减，筛选。",
+          "reject": "B中间.25→.15下降，当前硬条件失败；通常渐强不必逐音单调。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "相对表现与录音增益、SPL分离",
+      "d4Targets": [
+        "K04.03.03.03",
+        "K04.03.01.03",
+        "K04.03.01.04",
+        "K04.03.03.04"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 23,
+        "row": "| K04.03 | A05 | P | 相对表现与录音增益、SPL分离 | [PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF23/K04.03.01.03](performance-r2-knowledge-cases.md#L9)；[PF24/K04.03.01.04](performance-r2-knowledge-cases.md#L10)；[PF26/K04.03.03.04](performance-r2-knowledge-cases.md#L12) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF11@1",
+        "K04-CL-PF23@1",
+        "K04-CL-PF24@1",
+        "K04-CL-PF26@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF11",
+          "claim": "K04-CL-PF11@1",
+          "problem": "A幅度.1/.2/.4，B同take后期×2，均未削波，核相邻比和演奏结论。",
+          "reject": "相邻比均2/2，B只是派生增益，不改变原动作证据。"
+        },
+        {
+          "caseId": "PF23",
+          "claim": "K04-CL-PF23@1",
+          "problem": "小提琴支持钢琴主线，双方mf且无SPL目标，怎样提出试奏候选？",
+          "reject": "不同乐器、场地与角色不同，mf不定义物理数值；需真实对照。"
+        },
+        {
+          "caseId": "PF24",
+          "claim": "K04-CL-PF24@1",
+          "problem": "规范题设dynamics=80，以90为基准求值并说明mf如何保存。",
+          "reject": "90×.8=72仅规范算术；谱面标记、实际宿主与物理测量独立。"
+        },
+        {
+          "caseId": "PF26",
+          "claim": "K04-CL-PF26@1",
+          "problem": "区间0–3，A .1/.15/.25/.4 B .1/.25/.15/.4，题定逐音非减，筛选。",
+          "reject": "B中间.25→.15下降，当前硬条件失败；通常渐强不必逐音单调。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.03",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持动作/动态状态与原始记录，K03/K12表示",
+      "d4Targets": [
+        "K04.03.02.03",
+        "K04.03.01.04",
+        "K04.03.02.04"
+      ],
+      "limits": "支持记录要求，不取得他域编辑/技术主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 24,
+        "row": "| K04.03 | A06 | S | 支持动作/动态状态与原始记录，K03/K12表示 | [PF10/K04.03.02.03](performance-r1-knowledge-cases.md#L14)；[PF24/K04.03.01.04](performance-r2-knowledge-cases.md#L10)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11) | 支持记录要求，不取得他域编辑/技术主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF10@1",
+        "K04-CL-PF24@1",
+        "K04-CL-PF25@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF10",
+          "claim": "K04-CL-PF10@1",
+          "problem": "同琴同短句，A较强起音短踏板，B同起音级长踏板，盲听未做，如何保存候选？",
+          "reject": "动作配置差别不等艺术优胜；音色需独立录音与评价。"
+        },
+        {
+          "caseId": "PF24",
+          "claim": "K04-CL-PF24@1",
+          "problem": "规范题设dynamics=80，以90为基准求值并说明mf如何保存。",
+          "reject": "90×.8=72仅规范算术；谱面标记、实际宿主与物理测量独立。"
+        },
+        {
+          "caseId": "PF25",
+          "claim": "K04-CL-PF25@1",
+          "problem": "同琴两take键速同，B踏板跨下一和弦，题定禁止跨和弦，筛选。",
+          "reject": "B跨越保护边界，A符合当前约束；音响还需实测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "从反馈区分动作、配器与混音原因",
+      "d4Targets": [
+        "K04.03.03.03",
+        "K04.03.01.03",
+        "K04.03.02.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 25,
+        "row": "| K04.03 | A07 | P | 从反馈区分动作、配器与混音原因 | [PF11/K04.03.03.03](performance-r1-knowledge-cases.md#L15)；[PF23/K04.03.01.03](performance-r2-knowledge-cases.md#L9)；[PF25/K04.03.02.04](performance-r2-knowledge-cases.md#L11) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF11@1",
+        "K04-CL-PF23@1",
+        "K04-CL-PF25@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF11",
+          "claim": "K04-CL-PF11@1",
+          "problem": "A幅度.1/.2/.4，B同take后期×2，均未削波，核相邻比和演奏结论。",
+          "reject": "相邻比均2/2，B只是派生增益，不改变原动作证据。"
+        },
+        {
+          "caseId": "PF23",
+          "claim": "K04-CL-PF23@1",
+          "problem": "小提琴支持钢琴主线，双方mf且无SPL目标，怎样提出试奏候选？",
+          "reject": "不同乐器、场地与角色不同，mf不定义物理数值；需真实对照。"
+        },
+        {
+          "caseId": "PF25",
+          "claim": "K04-CL-PF25@1",
+          "problem": "同琴两take键速同，B踏板跨下一和弦，题定禁止跨和弦，筛选。",
+          "reject": "B跨越保护边界，A符合当前约束；音响还需实测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "连断/弓法、历史装饰与乐句表达",
+      "d4Targets": [
+        "K04.04.01.03",
+        "K04.04.01.04",
+        "K04.04.02.03",
+        "K04.04.02.04",
+        "K04.04.02.05",
+        "K04.04.03.03",
+        "K04.04.03.04",
+        "K04.04.01.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 26,
+        "row": "| K04.04 | A01 | P | 连断/弓法、历史装饰与乐句表达 | [PF12/K04.04.01.03](performance-r1-knowledge-cases.md#L16)；[PF13/K04.04.01.04](performance-r1-knowledge-cases.md#L17)；[PF27/K04.04.02.03](performance-r2-knowledge-cases.md#L13)；[PF28/K04.04.02.04](performance-r2-knowledge-cases.md#L14)；[PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF12@1",
+        "K04-CL-PF13@1",
+        "K04-CL-PF27@1",
+        "K04-CL-PF28@1",
+        "K04-CL-PF29@1",
+        "K04-CL-PF30@1",
+        "K04-CL-PF31@1",
+        "K04-CL-PF54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF12",
+          "claim": "K04-CL-PF12@1",
+          "problem": "IOI500ms，A持续180、B300，间隙分别多少？题目若限≤250ms选谁？",
+          "reject": "间隙320/200ms，B持续300超限定，未限制时保留两候选。"
+        },
+        {
+          "caseId": "PF13",
+          "claim": "K04-CL-PF13@1",
+          "problem": "题设两音连贯，小提琴一弓与长笛一气，分别记录哪些动作字段？",
+          "reject": "乐器实现机制不同；两者可同一目标，但字段不相同。"
+        },
+        {
+          "caseId": "PF27",
+          "claim": "K04-CL-PF27@1",
+          "problem": "选法式cadence imparfaite，主D5上辅助E5，一拍4等分，构造序列。",
+          "reject": "指定实现为E D E D各.25拍，D起音不同；其他传统另核。"
+        },
+        {
+          "caseId": "PF28",
+          "claim": "K04-CL-PF28@1",
+          "problem": "指定长倚音F5到E5，普通二分2拍与附点二分3拍分别分配。",
+          "reject": "普通1+1；附点题定2+1，后者非统一半分；总时值保持。"
+        },
+        {
+          "caseId": "PF29",
+          "claim": "K04-CL-PF29@1",
+          "problem": "4/4终止音拍2起原2拍，约定拍5释放，额外几拍及后续如何进入？",
+          "reject": "原应拍4释放，题定加1到拍5；提前释放不合共同协议。"
+        },
+        {
+          "caseId": "PF30",
+          "claim": "K04-CL-PF30@1",
+          "problem": "C D E G四音，第3音重点、末段延长，A力度2/3/4/2与IOI500/500/650，B4/3/2/2与500/500/500，选。",
+          "reject": "B峰值在第一且无末段延长，A仅为更符合题定目标的试奏候选。"
+        },
+        {
+          "caseId": "PF31",
+          "claim": "K04-CL-PF31@1",
+          "problem": "两声部，主线crescendo 0–3背景p；A只改主线、B全局增益升，选。",
+          "reject": "背景是保护项，B越界；A为符号候选，实际效果待证。"
+        },
+        {
+          "caseId": "PF54",
+          "claim": "K04-CL-PF54@1",
+          "problem": "两音D4 E4一组指定同弓、另一组détaché，记录各弓数和时位。",
+          "reject": "题定一弓与两弓不同，均保护音符时位；真实演奏需观察。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择风格/动作/范围→保时位→试奏",
+      "d4Targets": [
+        "K04.04.02.03",
+        "K04.04.02.04",
+        "K04.04.02.05",
+        "K04.04.03.03"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 27,
+        "row": "| K04.04 | A02 | P | 选择风格/动作/范围→保时位→试奏 | [PF27/K04.04.02.03](performance-r2-knowledge-cases.md#L13)；[PF28/K04.04.02.04](performance-r2-knowledge-cases.md#L14)；[PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF27@1",
+        "K04-CL-PF28@1",
+        "K04-CL-PF29@1",
+        "K04-CL-PF30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF27",
+          "claim": "K04-CL-PF27@1",
+          "problem": "选法式cadence imparfaite，主D5上辅助E5，一拍4等分，构造序列。",
+          "reject": "指定实现为E D E D各.25拍，D起音不同；其他传统另核。"
+        },
+        {
+          "caseId": "PF28",
+          "claim": "K04-CL-PF28@1",
+          "problem": "指定长倚音F5到E5，普通二分2拍与附点二分3拍分别分配。",
+          "reject": "普通1+1；附点题定2+1，后者非统一半分；总时值保持。"
+        },
+        {
+          "caseId": "PF29",
+          "claim": "K04-CL-PF29@1",
+          "problem": "4/4终止音拍2起原2拍，约定拍5释放，额外几拍及后续如何进入？",
+          "reject": "原应拍4释放，题定加1到拍5；提前释放不合共同协议。"
+        },
+        {
+          "caseId": "PF30",
+          "claim": "K04-CL-PF30@1",
+          "problem": "C D E G四音，第3音重点、末段延长，A力度2/3/4/2与IOI500/500/650，B4/3/2/2与500/500/500，选。",
+          "reject": "B峰值在第一且无末段延长，A仅为更符合题定目标的试奏候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.04",
+      "ability": "A03",
+      "role": "S",
+      "task": "乐谱标记、演奏记录与K12软件支持",
+      "d4Targets": [
+        "K04.04.02.05",
+        "K04.04.03.04",
+        "K04.04.01.05"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 28,
+        "row": "| K04.04 | A03 | S | 乐谱标记、演奏记录与K12软件支持 | [PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF29@1",
+        "K04-CL-PF31@1",
+        "K04-CL-PF54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF29",
+          "claim": "K04-CL-PF29@1",
+          "problem": "4/4终止音拍2起原2拍，约定拍5释放，额外几拍及后续如何进入？",
+          "reject": "原应拍4释放，题定加1到拍5；提前释放不合共同协议。"
+        },
+        {
+          "caseId": "PF31",
+          "claim": "K04-CL-PF31@1",
+          "problem": "两声部，主线crescendo 0–3背景p；A只改主线、B全局增益升，选。",
+          "reject": "背景是保护项，B越界；A为符号候选，实际效果待证。"
+        },
+        {
+          "caseId": "PF54",
+          "claim": "K04-CL-PF54@1",
+          "problem": "两音D4 E4一组指定同弓、另一组détaché，记录各弓数和时位。",
+          "reject": "题定一弓与两弓不同，均保护音符时位；真实演奏需观察。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.04",
+      "ability": "A04",
+      "role": "P",
+      "task": "装饰类型、作用范围、演奏状态及版本",
+      "d4Targets": [
+        "K04.04.02.03",
+        "K04.04.02.05",
+        "K04.04.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 29,
+        "row": "| K04.04 | A04 | P | 装饰类型、作用范围、演奏状态及版本 | [PF27/K04.04.02.03](performance-r2-knowledge-cases.md#L13)；[PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF27@1",
+        "K04-CL-PF29@1",
+        "K04-CL-PF31@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF27",
+          "claim": "K04-CL-PF27@1",
+          "problem": "选法式cadence imparfaite，主D5上辅助E5，一拍4等分，构造序列。",
+          "reject": "指定实现为E D E D各.25拍，D起音不同；其他传统另核。"
+        },
+        {
+          "caseId": "PF29",
+          "claim": "K04-CL-PF29@1",
+          "problem": "4/4终止音拍2起原2拍，约定拍5释放，额外几拍及后续如何进入？",
+          "reject": "原应拍4释放，题定加1到拍5；提前释放不合共同协议。"
+        },
+        {
+          "caseId": "PF31",
+          "claim": "K04-CL-PF31@1",
+          "problem": "两声部，主线crescendo 0–3背景p；A只改主线、B全局增益升，选。",
+          "reject": "背景是保护项，B越界；A为符号候选，实际效果待证。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "动作/时值硬条件与真实听评分开",
+      "d4Targets": [
+        "K04.04.01.03",
+        "K04.04.02.03",
+        "K04.04.03.03"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 30,
+        "row": "| K04.04 | A05 | P | 动作/时值硬条件与真实听评分开 | [PF12/K04.04.01.03](performance-r1-knowledge-cases.md#L16)；[PF27/K04.04.02.03](performance-r2-knowledge-cases.md#L13)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF12@1",
+        "K04-CL-PF27@1",
+        "K04-CL-PF30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF12",
+          "claim": "K04-CL-PF12@1",
+          "problem": "IOI500ms，A持续180、B300，间隙分别多少？题目若限≤250ms选谁？",
+          "reject": "间隙320/200ms，B持续300超限定，未限制时保留两候选。"
+        },
+        {
+          "caseId": "PF27",
+          "claim": "K04-CL-PF27@1",
+          "problem": "选法式cadence imparfaite，主D5上辅助E5，一拍4等分，构造序列。",
+          "reject": "指定实现为E D E D各.25拍，D起音不同；其他传统另核。"
+        },
+        {
+          "caseId": "PF30",
+          "claim": "K04-CL-PF30@1",
+          "problem": "C D E G四音，第3音重点、末段延长，A力度2/3/4/2与IOI500/500/650，B4/3/2/2与500/500/500，选。",
+          "reject": "B峰值在第一且无末段延长，A仅为更符合题定目标的试奏候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "记号/发音方案、时值和作用对象的专业编辑约束",
+      "d4Targets": [
+        "K04.04.02.03",
+        "K04.04.02.04",
+        "K04.04.02.05",
+        "K04.04.03.04",
+        "K04.04.01.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 31,
+        "row": "| K04.04 | A06 | P | 记号/发音方案、时值和作用对象的专业编辑约束 | [PF27/K04.04.02.03](performance-r2-knowledge-cases.md#L13)；[PF28/K04.04.02.04](performance-r2-knowledge-cases.md#L14)；[PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17)；[PF54/K04.04.01.05](performance-r3-knowledge-cases.md#L8) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF27@1",
+        "K04-CL-PF28@1",
+        "K04-CL-PF29@1",
+        "K04-CL-PF31@1",
+        "K04-CL-PF54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF27",
+          "claim": "K04-CL-PF27@1",
+          "problem": "选法式cadence imparfaite，主D5上辅助E5，一拍4等分，构造序列。",
+          "reject": "指定实现为E D E D各.25拍，D起音不同；其他传统另核。"
+        },
+        {
+          "caseId": "PF28",
+          "claim": "K04-CL-PF28@1",
+          "problem": "指定长倚音F5到E5，普通二分2拍与附点二分3拍分别分配。",
+          "reject": "普通1+1；附点题定2+1，后者非统一半分；总时值保持。"
+        },
+        {
+          "caseId": "PF29",
+          "claim": "K04-CL-PF29@1",
+          "problem": "4/4终止音拍2起原2拍，约定拍5释放，额外几拍及后续如何进入？",
+          "reject": "原应拍4释放，题定加1到拍5；提前释放不合共同协议。"
+        },
+        {
+          "caseId": "PF31",
+          "claim": "K04-CL-PF31@1",
+          "problem": "两声部，主线crescendo 0–3背景p；A只改主线、B全局增益升，选。",
+          "reject": "背景是保护项，B越界；A为符号候选，实际效果待证。"
+        },
+        {
+          "caseId": "PF54",
+          "claim": "K04-CL-PF54@1",
+          "problem": "两音D4 E4一组指定同弓、另一组détaché，记录各弓数和时位。",
+          "reject": "题定一弓与两弓不同，均保护音符时位；真实演奏需观察。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "反馈→核范围/历史条件→重试",
+      "d4Targets": [
+        "K04.04.02.05",
+        "K04.04.03.03",
+        "K04.04.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 32,
+        "row": "| K04.04 | A07 | P | 反馈→核范围/历史条件→重试 | [PF29/K04.04.02.05](performance-r2-knowledge-cases.md#L15)；[PF30/K04.04.03.03](performance-r2-knowledge-cases.md#L16)；[PF31/K04.04.03.04](performance-r2-knowledge-cases.md#L17) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF29@1",
+        "K04-CL-PF30@1",
+        "K04-CL-PF31@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF29",
+          "claim": "K04-CL-PF29@1",
+          "problem": "4/4终止音拍2起原2拍，约定拍5释放，额外几拍及后续如何进入？",
+          "reject": "原应拍4释放，题定加1到拍5；提前释放不合共同协议。"
+        },
+        {
+          "caseId": "PF30",
+          "claim": "K04-CL-PF30@1",
+          "problem": "C D E G四音，第3音重点、末段延长，A力度2/3/4/2与IOI500/500/650，B4/3/2/2与500/500/500，选。",
+          "reject": "B峰值在第一且无末段延长，A仅为更符合题定目标的试奏候选。"
+        },
+        {
+          "caseId": "PF31",
+          "claim": "K04-CL-PF31@1",
+          "problem": "两声部，主线crescendo 0–3背景p；A只改主线、B全局增益升，选。",
+          "reject": "背景是保护项，B越界；A为符号候选，实际效果待证。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "和声素材、动机、互动、评价、文化循环",
+      "d4Targets": [
+        "K04.05.01.03",
+        "K04.05.01.04",
+        "K04.05.02.03",
+        "K04.05.02.04",
+        "K04.05.03.03",
+        "K04.05.03.04",
+        "K04.05.01.05",
+        "K04.05.01.06",
+        "K04.05.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 33,
+        "row": "| K04.05 | A01 | P | 和声素材、动机、互动、评价、文化循环 | [PF14/K04.05.01.03](performance-r1-knowledge-cases.md#L18)；[PF15/K04.05.01.04](performance-r1-knowledge-cases.md#L19)；[PF32/K04.05.02.03](performance-r2-knowledge-cases.md#L18)；[PF33/K04.05.02.04](performance-r2-knowledge-cases.md#L19)；[PF34/K04.05.03.03](performance-r2-knowledge-cases.md#L20)；[PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21)；[PF36/K04.05.01.05](performance-r2-knowledge-cases.md#L22)；[PF55/K04.05.01.06](performance-r3-knowledge-cases.md#L9)；[PF56/K04.05.02.05](performance-r3-knowledge-cases.md#L10) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF14@1",
+        "K04-CL-PF15@1",
+        "K04-CL-PF32@1",
+        "K04-CL-PF33@1",
+        "K04-CL-PF34@1",
+        "K04-CL-PF35@1",
+        "K04-CL-PF36@1",
+        "K04-CL-PF55@1",
+        "K04-CL-PF56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF14",
+          "claim": "K04-CL-PF14@1",
+          "problem": "Cmaj7四拍，第1/3拍和弦音，A C D E G、B E F♯ G B，允许两模式，筛选。",
+          "reject": "F♯在第二拍且Lydian允许，强拍E/G为成员，A/B均通过硬条件。"
+        },
+        {
+          "caseId": "PF15",
+          "claim": "K04-CL-PF15@1",
+          "problem": "C7八个八分C B B♭ A G F E D，从正拍开始，列正拍及B角色。",
+          "reject": "B不属于C7，题定正拍约束失败；原B弱位趋近，不泛化普遍禁令。"
+        },
+        {
+          "caseId": "PF32",
+          "claim": "K04-CL-PF32@1",
+          "problem": "第1小节问C D E起拍0/1/2，第2小节答E D C或E G C且保留三起音，筛选。",
+          "reject": "违反指定第二小节窗口；音高候选多解不取消角色约束。"
+        },
+        {
+          "caseId": "PF33",
+          "claim": "K04-CL-PF33@1",
+          "problem": "4/4 A1–4 B5–8，鼓持续；B未准备，重复一轮须双方确认，未确认怎么办？",
+          "reject": "未确认按原交接，必要时停下确认；共享协议是条件。"
+        },
+        {
+          "caseId": "PF34",
+          "claim": "K04-CL-PF34@1",
+          "problem": "C7两小节各四四分、第1/3拍和弦音，A C D E G / B♭ A G F，B E F G A / C B♭ E D，筛选。",
+          "reject": "两者强拍均为C7成员，时位符合；艺术评价未观测且多解。"
+        },
+        {
+          "caseId": "PF35",
+          "claim": "K04-CL-PF35@1",
+          "problem": "A/B硬条件均过，评者1偏A连贯、2偏B变化、3缺；规则需三人齐全并明确取舍，裁定。",
+          "reject": "未满足三人齐全及取舍条件，保留意见与原件，结论UNKNOWN。"
+        },
+        {
+          "caseId": "PF36",
+          "claim": "K04-CL-PF36@1",
+          "problem": "题设16拍tīn tāl，mukhṛā第13拍起、下个sam第17拍，何时结束自由段？",
+          "reject": "入口错误；自由段在13前结束，保留13–16并在17会合。"
+        },
+        {
+          "caseId": "PF55",
+          "claim": "K04-CL-PF55@1",
+          "problem": "动机C D E时值1/.5/.5，要求保留起音节奏并变化音高，E F G同值、原音重复、三等长，筛选。",
+          "reject": "前者无音高变化，后者节奏变；E F G同值满足两硬条件。"
+        },
+        {
+          "caseId": "PF56",
+          "claim": "K04-CL-PF56@1",
+          "problem": "16拍A1–4/9–12、B5–8/13–16，双方下个sam17会合；B未准备如何处置？",
+          "reject": "会合点是第17拍；只按已确认约定缩短或确认，不能擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "明确风格/自由度→实时选择与交接→评价",
+      "d4Targets": [
+        "K04.05.01.03",
+        "K04.05.02.03",
+        "K04.05.02.04",
+        "K04.05.01.05",
+        "K04.05.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 34,
+        "row": "| K04.05 | A02 | P | 明确风格/自由度→实时选择与交接→评价 | [PF14/K04.05.01.03](performance-r1-knowledge-cases.md#L18)；[PF32/K04.05.02.03](performance-r2-knowledge-cases.md#L18)；[PF33/K04.05.02.04](performance-r2-knowledge-cases.md#L19)；[PF36/K04.05.01.05](performance-r2-knowledge-cases.md#L22)；[PF56/K04.05.02.05](performance-r3-knowledge-cases.md#L10) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF14@1",
+        "K04-CL-PF32@1",
+        "K04-CL-PF33@1",
+        "K04-CL-PF36@1",
+        "K04-CL-PF56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF14",
+          "claim": "K04-CL-PF14@1",
+          "problem": "Cmaj7四拍，第1/3拍和弦音，A C D E G、B E F♯ G B，允许两模式，筛选。",
+          "reject": "F♯在第二拍且Lydian允许，强拍E/G为成员，A/B均通过硬条件。"
+        },
+        {
+          "caseId": "PF32",
+          "claim": "K04-CL-PF32@1",
+          "problem": "第1小节问C D E起拍0/1/2，第2小节答E D C或E G C且保留三起音，筛选。",
+          "reject": "违反指定第二小节窗口；音高候选多解不取消角色约束。"
+        },
+        {
+          "caseId": "PF33",
+          "claim": "K04-CL-PF33@1",
+          "problem": "4/4 A1–4 B5–8，鼓持续；B未准备，重复一轮须双方确认，未确认怎么办？",
+          "reject": "未确认按原交接，必要时停下确认；共享协议是条件。"
+        },
+        {
+          "caseId": "PF36",
+          "claim": "K04-CL-PF36@1",
+          "problem": "题设16拍tīn tāl，mukhṛā第13拍起、下个sam第17拍，何时结束自由段？",
+          "reject": "入口错误；自由段在13前结束，保留13–16并在17会合。"
+        },
+        {
+          "caseId": "PF56",
+          "claim": "K04-CL-PF56@1",
+          "problem": "16拍A1–4/9–12、B5–8/13–16，双方下个sam17会合；B未准备如何处置？",
+          "reject": "会合点是第17拍；只按已确认约定缩短或确认，不能擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "伴奏/采集工具K12，评价K10，文化K16",
+      "d4Targets": [
+        "K04.05.03.04",
+        "K04.05.01.05",
+        "K04.05.01.06"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 35,
+        "row": "| K04.05 | A03 | S | 伴奏/采集工具K12，评价K10，文化K16 | [PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21)；[PF36/K04.05.01.05](performance-r2-knowledge-cases.md#L22)；[PF55/K04.05.01.06](performance-r3-knowledge-cases.md#L9) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF35@1",
+        "K04-CL-PF36@1",
+        "K04-CL-PF55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF35",
+          "claim": "K04-CL-PF35@1",
+          "problem": "A/B硬条件均过，评者1偏A连贯、2偏B变化、3缺；规则需三人齐全并明确取舍，裁定。",
+          "reject": "未满足三人齐全及取舍条件，保留意见与原件，结论UNKNOWN。"
+        },
+        {
+          "caseId": "PF36",
+          "claim": "K04-CL-PF36@1",
+          "problem": "题设16拍tīn tāl，mukhṛā第13拍起、下个sam第17拍，何时结束自由段？",
+          "reject": "入口错误；自由段在13前结束，保留13–16并在17会合。"
+        },
+        {
+          "caseId": "PF55",
+          "claim": "K04-CL-PF55@1",
+          "problem": "动机C D E时值1/.5/.5，要求保留起音节奏并变化音高，E F G同值、原音重复、三等长，筛选。",
+          "reject": "前者无音高变化，后者节奏变；E F G同值满足两硬条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.05",
+      "ability": "A04",
+      "role": "P",
+      "task": "共享周期、角色、素材/目标及take",
+      "d4Targets": [
+        "K04.05.02.04",
+        "K04.05.03.04",
+        "K04.05.01.05",
+        "K04.05.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 36,
+        "row": "| K04.05 | A04 | P | 共享周期、角色、素材/目标及take | [PF33/K04.05.02.04](performance-r2-knowledge-cases.md#L19)；[PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21)；[PF36/K04.05.01.05](performance-r2-knowledge-cases.md#L22)；[PF56/K04.05.02.05](performance-r3-knowledge-cases.md#L10) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF33@1",
+        "K04-CL-PF35@1",
+        "K04-CL-PF36@1",
+        "K04-CL-PF56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF33",
+          "claim": "K04-CL-PF33@1",
+          "problem": "4/4 A1–4 B5–8，鼓持续；B未准备，重复一轮须双方确认，未确认怎么办？",
+          "reject": "未确认按原交接，必要时停下确认；共享协议是条件。"
+        },
+        {
+          "caseId": "PF35",
+          "claim": "K04-CL-PF35@1",
+          "problem": "A/B硬条件均过，评者1偏A连贯、2偏B变化、3缺；规则需三人齐全并明确取舍，裁定。",
+          "reject": "未满足三人齐全及取舍条件，保留意见与原件，结论UNKNOWN。"
+        },
+        {
+          "caseId": "PF36",
+          "claim": "K04-CL-PF36@1",
+          "problem": "题设16拍tīn tāl，mukhṛā第13拍起、下个sam第17拍，何时结束自由段？",
+          "reject": "入口错误；自由段在13前结束，保留13–16并在17会合。"
+        },
+        {
+          "caseId": "PF56",
+          "claim": "K04-CL-PF56@1",
+          "problem": "16拍A1–4/9–12、B5–8/13–16，双方下个sam17会合；B未准备如何处置？",
+          "reject": "会合点是第17拍；只按已确认约定缩短或确认，不能擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "硬条件、多候选、人工偏好缺测",
+      "d4Targets": [
+        "K04.05.03.03",
+        "K04.05.03.04",
+        "K04.05.01.06"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 37,
+        "row": "| K04.05 | A05 | P | 硬条件、多候选、人工偏好缺测 | [PF34/K04.05.03.03](performance-r2-knowledge-cases.md#L20)；[PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21)；[PF55/K04.05.01.06](performance-r3-knowledge-cases.md#L9) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF34@1",
+        "K04-CL-PF35@1",
+        "K04-CL-PF55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF34",
+          "claim": "K04-CL-PF34@1",
+          "problem": "C7两小节各四四分、第1/3拍和弦音，A C D E G / B♭ A G F，B E F G A / C B♭ E D，筛选。",
+          "reject": "两者强拍均为C7成员，时位符合；艺术评价未观测且多解。"
+        },
+        {
+          "caseId": "PF35",
+          "claim": "K04-CL-PF35@1",
+          "problem": "A/B硬条件均过，评者1偏A连贯、2偏B变化、3缺；规则需三人齐全并明确取舍，裁定。",
+          "reject": "未满足三人齐全及取舍条件，保留意见与原件，结论UNKNOWN。"
+        },
+        {
+          "caseId": "PF55",
+          "claim": "K04-CL-PF55@1",
+          "problem": "动机C D E时值1/.5/.5，要求保留起音节奏并变化音高，E F G同值、原音重复、三等长，筛选。",
+          "reject": "前者无音高变化，后者节奏变；E F G同值满足两硬条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.05",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持原始take/角色/动机记录，非作曲编辑主责",
+      "d4Targets": [
+        "K04.05.02.03",
+        "K04.05.03.04",
+        "K04.05.01.06"
+      ],
+      "limits": "支持记录要求，不取得他域编辑/技术主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 38,
+        "row": "| K04.05 | A06 | S | 支持原始take/角色/动机记录，非作曲编辑主责 | [PF32/K04.05.02.03](performance-r2-knowledge-cases.md#L18)；[PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21)；[PF55/K04.05.01.06](performance-r3-knowledge-cases.md#L9) | 支持记录要求，不取得他域编辑/技术主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF32@1",
+        "K04-CL-PF35@1",
+        "K04-CL-PF55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF32",
+          "claim": "K04-CL-PF32@1",
+          "problem": "第1小节问C D E起拍0/1/2，第2小节答E D C或E G C且保留三起音，筛选。",
+          "reject": "违反指定第二小节窗口；音高候选多解不取消角色约束。"
+        },
+        {
+          "caseId": "PF35",
+          "claim": "K04-CL-PF35@1",
+          "problem": "A/B硬条件均过，评者1偏A连贯、2偏B变化、3缺；规则需三人齐全并明确取舍，裁定。",
+          "reject": "未满足三人齐全及取舍条件，保留意见与原件，结论UNKNOWN。"
+        },
+        {
+          "caseId": "PF55",
+          "claim": "K04-CL-PF55@1",
+          "problem": "动机C D E时值1/.5/.5，要求保留起音节奏并变化音高，E F G同值、原音重复、三等长，筛选。",
+          "reject": "前者无音高变化，后者节奏变；E F G同值满足两硬条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "临时交接/评价分歧→保留候选或停止",
+      "d4Targets": [
+        "K04.05.02.04",
+        "K04.05.03.04",
+        "K04.05.02.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 39,
+        "row": "| K04.05 | A07 | P | 临时交接/评价分歧→保留候选或停止 | [PF33/K04.05.02.04](performance-r2-knowledge-cases.md#L19)；[PF35/K04.05.03.04](performance-r2-knowledge-cases.md#L21)；[PF56/K04.05.02.05](performance-r3-knowledge-cases.md#L10) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF33@1",
+        "K04-CL-PF35@1",
+        "K04-CL-PF56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF33",
+          "claim": "K04-CL-PF33@1",
+          "problem": "4/4 A1–4 B5–8，鼓持续；B未准备，重复一轮须双方确认，未确认怎么办？",
+          "reject": "未确认按原交接，必要时停下确认；共享协议是条件。"
+        },
+        {
+          "caseId": "PF35",
+          "claim": "K04-CL-PF35@1",
+          "problem": "A/B硬条件均过，评者1偏A连贯、2偏B变化、3缺；规则需三人齐全并明确取舍，裁定。",
+          "reject": "未满足三人齐全及取舍条件，保留意见与原件，结论UNKNOWN。"
+        },
+        {
+          "caseId": "PF56",
+          "claim": "K04-CL-PF56@1",
+          "problem": "16拍A1–4/9–12、B5–8/13–16，双方下个sam17会合；B未准备如何处置？",
+          "reject": "会合点是第17拍；只按已确认约定缩短或确认，不能擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "共同参照、提示、延迟与协同校正",
+      "d4Targets": [
+        "K04.06.01.03",
+        "K04.06.03.03",
+        "K04.06.02.03",
+        "K04.06.02.04",
+        "K04.06.03.04",
+        "K04.06.01.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 40,
+        "row": "| K04.06 | A01 | P | 共同参照、提示、延迟与协同校正 | [PF16/K04.06.01.03](performance-r1-knowledge-cases.md#L20)；[PF17/K04.06.03.03](performance-r1-knowledge-cases.md#L21)；[PF37/K04.06.02.03](performance-r2-knowledge-cases.md#L23)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF16@1",
+        "K04-CL-PF17@1",
+        "K04-CL-PF37@1",
+        "K04-CL-PF38@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF16",
+          "claim": "K04-CL-PF16@1",
+          "problem": "8格每格125ms，A[0,2,4,6] B[1,3,5,7]，算覆盖、重叠、各自间隔。",
+          "reject": "交集含0且缺1；共同网格不全覆盖。"
+        },
+        {
+          "caseId": "PF17",
+          "claim": "K04-CL-PF17@1",
+          "problem": "周期500ms，迟40ms，g=.5，算下一自身间隔及两步误差。",
+          "reject": "仅题定模型给480ms及20/10ms，未知噪声和共享速度不允许外推。"
+        },
+        {
+          "caseId": "PF37",
+          "claim": "K04-CL-PF37@1",
+          "problem": "A入口前一拍提示，B等第一声才反应；无共享可听预备且需同起，优先何方案？",
+          "reject": "在本题缺共同预备时不能保证；应建立已确认共同提示。"
+        },
+        {
+          "caseId": "PF38",
+          "claim": "K04-CL-PF38@1",
+          "problem": "A源1000 B源1005，A收到B1045，路径40ms，算源差与到达差。",
+          "reject": "源差+5、到达差+45，已知40来自路径；实际配置须独立核验。"
+        },
+        {
+          "caseId": "PF39",
+          "claim": "K04-CL-PF39@1",
+          "problem": "A源1000 B源1010、A接收B1060、B→A50ms，允许源差≤20，计算并选处理域。",
+          "reject": "(1060−1000)−50=+10，与B源差一致且合题定；应由负责人核监听链。"
+        },
+        {
+          "caseId": "PF57",
+          "claim": "K04-CL-PF57@1",
+          "problem": "领奏0/500/1000/1500，跟奏0/250/500/750/1000/1250/1500/1750，仅配主拍求差。",
+          "reject": "额外反拍是计划细分，主拍对应差均0；应按共享ID。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "核共同目标→匹配事件→视听/技术诊断",
+      "d4Targets": [
+        "K04.06.01.03",
+        "K04.06.02.03",
+        "K04.06.02.04",
+        "K04.06.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 41,
+        "row": "| K04.06 | A02 | P | 核共同目标→匹配事件→视听/技术诊断 | [PF16/K04.06.01.03](performance-r1-knowledge-cases.md#L20)；[PF37/K04.06.02.03](performance-r2-knowledge-cases.md#L23)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF16@1",
+        "K04-CL-PF37@1",
+        "K04-CL-PF38@1",
+        "K04-CL-PF39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF16",
+          "claim": "K04-CL-PF16@1",
+          "problem": "8格每格125ms，A[0,2,4,6] B[1,3,5,7]，算覆盖、重叠、各自间隔。",
+          "reject": "交集含0且缺1；共同网格不全覆盖。"
+        },
+        {
+          "caseId": "PF37",
+          "claim": "K04-CL-PF37@1",
+          "problem": "A入口前一拍提示，B等第一声才反应；无共享可听预备且需同起，优先何方案？",
+          "reject": "在本题缺共同预备时不能保证；应建立已确认共同提示。"
+        },
+        {
+          "caseId": "PF38",
+          "claim": "K04-CL-PF38@1",
+          "problem": "A源1000 B源1005，A收到B1045，路径40ms，算源差与到达差。",
+          "reject": "源差+5、到达差+45，已知40来自路径；实际配置须独立核验。"
+        },
+        {
+          "caseId": "PF39",
+          "claim": "K04-CL-PF39@1",
+          "problem": "A源1000 B源1010、A接收B1060、B→A50ms，允许源差≤20，计算并选处理域。",
+          "reject": "(1060−1000)−50=+10，与B源差一致且合题定；应由负责人核监听链。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.06",
+      "ability": "A03",
+      "role": "S",
+      "task": "时间/监听采集与K19/K12链路执行",
+      "d4Targets": [
+        "K04.06.02.04",
+        "K04.06.03.04",
+        "K04.08.03.05"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 42,
+        "row": "| K04.06 | A03 | S | 时间/监听采集与K19/K12链路执行 | [PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF38@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF38",
+          "claim": "K04-CL-PF38@1",
+          "problem": "A源1000 B源1005，A收到B1045，路径40ms，算源差与到达差。",
+          "reject": "源差+5、到达差+45，已知40来自路径；实际配置须独立核验。"
+        },
+        {
+          "caseId": "PF39",
+          "claim": "K04-CL-PF39@1",
+          "problem": "A源1000 B源1010、A接收B1060、B→A50ms，允许源差≤20，计算并选处理域。",
+          "reject": "(1060−1000)−50=+10，与B源差一致且合题定；应由负责人核监听链。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.06",
+      "ability": "A04",
+      "role": "P",
+      "task": "共享拍ID、源/到达时位、提示与链路版本",
+      "d4Targets": [
+        "K04.06.01.03",
+        "K04.06.02.04",
+        "K04.06.01.04",
+        "K04.08.03.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 43,
+        "row": "| K04.06 | A04 | P | 共享拍ID、源/到达时位、提示与链路版本 | [PF16/K04.06.01.03](performance-r1-knowledge-cases.md#L20)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF16@1",
+        "K04-CL-PF38@1",
+        "K04-CL-PF57@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF16",
+          "claim": "K04-CL-PF16@1",
+          "problem": "8格每格125ms，A[0,2,4,6] B[1,3,5,7]，算覆盖、重叠、各自间隔。",
+          "reject": "交集含0且缺1；共同网格不全覆盖。"
+        },
+        {
+          "caseId": "PF38",
+          "claim": "K04-CL-PF38@1",
+          "problem": "A源1000 B源1005，A收到B1045，路径40ms，算源差与到达差。",
+          "reject": "源差+5、到达差+45，已知40来自路径；实际配置须独立核验。"
+        },
+        {
+          "caseId": "PF57",
+          "claim": "K04-CL-PF57@1",
+          "problem": "领奏0/500/1000/1500，跟奏0/250/500/750/1000/1250/1500/1750，仅配主拍求差。",
+          "reject": "额外反拍是计划细分，主拍对应差均0；应按共享ID。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "稳定速度不等精确同步；真实测量待证",
+      "d4Targets": [
+        "K04.02.03.03",
+        "K04.06.03.03",
+        "K04.06.02.04",
+        "K04.06.01.04"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 44,
+        "row": "| K04.06 | A05 | P | 稳定速度不等精确同步；真实测量待证 | [PF09/K04.02.03.03](performance-r1-knowledge-cases.md#L13)；[PF17/K04.06.03.03](performance-r1-knowledge-cases.md#L21)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF57/K04.06.01.04](performance-r3-knowledge-cases.md#L11) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF09@1",
+        "K04-CL-PF17@1",
+        "K04-CL-PF38@1",
+        "K04-CL-PF57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF09",
+          "claim": "K04-CL-PF09@1",
+          "problem": "A 0/500/1100/1800，B 15/515/1115/1815，允许+15ms，核差值及IOI。",
+          "reject": "逐事件差均+15，IOI同500/600/700，是题设固定偏移。"
+        },
+        {
+          "caseId": "PF17",
+          "claim": "K04-CL-PF17@1",
+          "problem": "周期500ms，迟40ms，g=.5，算下一自身间隔及两步误差。",
+          "reject": "仅题定模型给480ms及20/10ms，未知噪声和共享速度不允许外推。"
+        },
+        {
+          "caseId": "PF38",
+          "claim": "K04-CL-PF38@1",
+          "problem": "A源1000 B源1005，A收到B1045，路径40ms，算源差与到达差。",
+          "reject": "源差+5、到达差+45，已知40来自路径；实际配置须独立核验。"
+        },
+        {
+          "caseId": "PF57",
+          "claim": "K04-CL-PF57@1",
+          "problem": "领奏0/500/1000/1500，跟奏0/250/500/750/1000/1250/1500/1750，仅配主拍求差。",
+          "reject": "额外反拍是计划细分，主拍对应差均0；应按共享ID。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.06",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持提示/参照与演奏记录，技术表示K12/K19",
+      "d4Targets": [
+        "K04.06.02.03",
+        "K04.06.02.04",
+        "K04.08.03.05"
+      ],
+      "limits": "支持记录要求，不取得他域编辑/技术主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 45,
+        "row": "| K04.06 | A06 | S | 支持提示/参照与演奏记录，技术表示K12/K19 | [PF37/K04.06.02.03](performance-r2-knowledge-cases.md#L23)；[PF38/K04.06.02.04](performance-r2-knowledge-cases.md#L24)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 支持记录要求，不取得他域编辑/技术主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF37@1",
+        "K04-CL-PF38@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF37",
+          "claim": "K04-CL-PF37@1",
+          "problem": "A入口前一拍提示，B等第一声才反应；无共享可听预备且需同起，优先何方案？",
+          "reject": "在本题缺共同预备时不能保证；应建立已确认共同提示。"
+        },
+        {
+          "caseId": "PF38",
+          "claim": "K04-CL-PF38@1",
+          "problem": "A源1000 B源1005，A收到B1045，路径40ms，算源差与到达差。",
+          "reject": "源差+5、到达差+45，已知40来自路径；实际配置须独立核验。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "局部/链路分因→共同重测→恢复",
+      "d4Targets": [
+        "K04.06.03.03",
+        "K04.06.03.04",
+        "K04.08.03.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 46,
+        "row": "| K04.06 | A07 | P | 局部/链路分因→共同重测→恢复 | [PF17/K04.06.03.03](performance-r1-knowledge-cases.md#L21)；[PF39/K04.06.03.04](performance-r2-knowledge-cases.md#L25)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF17@1",
+        "K04-CL-PF39@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF17",
+          "claim": "K04-CL-PF17@1",
+          "problem": "周期500ms，迟40ms，g=.5，算下一自身间隔及两步误差。",
+          "reject": "仅题定模型给480ms及20/10ms，未知噪声和共享速度不允许外推。"
+        },
+        {
+          "caseId": "PF39",
+          "claim": "K04-CL-PF39@1",
+          "problem": "A源1000 B源1010、A接收B1060、B→A50ms，允许源差≤20，计算并选处理域。",
+          "reject": "(1060−1000)−50=+10，与B源差一致且合题定；应由负责人核监听链。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "入口、释放、动态提示及排练反馈",
+      "d4Targets": [
+        "K04.07.03.03",
+        "K04.07.01.03",
+        "K04.07.01.04",
+        "K04.07.02.03",
+        "K04.07.02.04",
+        "K04.07.03.04",
+        "K04.07.01.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 47,
+        "row": "| K04.07 | A01 | P | 入口、释放、动态提示及排练反馈 | [PF18/K04.07.03.03](performance-r1-knowledge-cases.md#L22)；[PF40/K04.07.01.03](performance-r2-knowledge-cases.md#L26)；[PF41/K04.07.01.04](performance-r2-knowledge-cases.md#L27)；[PF42/K04.07.02.03](performance-r2-knowledge-cases.md#L28)；[PF43/K04.07.02.04](performance-r2-knowledge-cases.md#L29)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF18@1",
+        "K04-CL-PF40@1",
+        "K04-CL-PF41@1",
+        "K04-CL-PF42@1",
+        "K04-CL-PF43@1",
+        "K04-CL-PF44@1",
+        "K04-CL-PF58@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF18",
+          "claim": "K04-CL-PF18@1",
+          "problem": "同参照两组差50/40/30与20/15/10ms，目标绝对差≤25，计算通过数。",
+          "reject": "首组0/3、次组3/3仅为即时题定改善，不是因果或长期证据。"
+        },
+        {
+          "caseId": "PF40",
+          "claim": "K04-CL-PF40@1",
+          "problem": "4/4四分120，第3拍入口，第2拍预备，分别时刻？",
+          "reject": "第3拍1s才是入口；.5s是预备。"
+        },
+        {
+          "caseId": "PF41",
+          "claim": "K04-CL-PF41@1",
+          "problem": "4/4四分120，末音第1拍起4拍，约定下一小节第1拍释放，求时刻。",
+          "reject": "4×.5=2s，提示非release；提前结束违反持续值。"
+        },
+        {
+          "caseId": "PF42",
+          "claim": "K04-CL-PF42@1",
+          "problem": "m9–12中m10后半拍错，提出保原谱的排练顺序。",
+          "reject": "隔离只证局部；需合入音高并恢复全段复测。"
+        },
+        {
+          "caseId": "PF43",
+          "claim": "K04-CL-PF43@1",
+          "problem": "25分钟预算，方案6+5+8+4与8+8+8+4，选择并保留合奏复测。",
+          "reject": "分别23与28；仅23在当前预算，保留复测。"
+        },
+        {
+          "caseId": "PF44",
+          "claim": "K04-CL-PF44@1",
+          "problem": "m10 80 BPM通过、原120尚未复测，如何记录状态和后续？",
+          "reject": "速度改变使证明范围不同；120仍UNKNOWN，实际复测并保存历史。"
+        },
+        {
+          "caseId": "PF58",
+          "claim": "K04-CL-PF58@1",
+          "problem": "m6–7右手基本4/4拍、左手指弦乐crescendo、木管p，说明执行范围。",
+          "reject": "违反目标与保护项；需记录具体声部和区间。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "全段→隔离难点→整段复测/停止",
+      "d4Targets": [
+        "K04.07.02.03",
+        "K04.07.02.04",
+        "K04.07.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 48,
+        "row": "| K04.07 | A02 | P | 全段→隔离难点→整段复测/停止 | [PF42/K04.07.02.03](performance-r2-knowledge-cases.md#L28)；[PF43/K04.07.02.04](performance-r2-knowledge-cases.md#L29)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF42@1",
+        "K04-CL-PF43@1",
+        "K04-CL-PF44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF42",
+          "claim": "K04-CL-PF42@1",
+          "problem": "m9–12中m10后半拍错，提出保原谱的排练顺序。",
+          "reject": "隔离只证局部；需合入音高并恢复全段复测。"
+        },
+        {
+          "caseId": "PF43",
+          "claim": "K04-CL-PF43@1",
+          "problem": "25分钟预算，方案6+5+8+4与8+8+8+4，选择并保留合奏复测。",
+          "reject": "分别23与28；仅23在当前预算，保留复测。"
+        },
+        {
+          "caseId": "PF44",
+          "claim": "K04-CL-PF44@1",
+          "problem": "m10 80 BPM通过、原120尚未复测，如何记录状态和后续？",
+          "reject": "速度改变使证明范围不同；120仍UNKNOWN，实际复测并保存历史。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.07",
+      "ability": "A03",
+      "role": "S",
+      "task": "K12谱面/录制工具，K10测量支持",
+      "d4Targets": [
+        "K04.07.03.03",
+        "K04.07.02.03",
+        "K04.07.03.04"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 49,
+        "row": "| K04.07 | A03 | S | K12谱面/录制工具，K10测量支持 | [PF18/K04.07.03.03](performance-r1-knowledge-cases.md#L22)；[PF42/K04.07.02.03](performance-r2-knowledge-cases.md#L28)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF18@1",
+        "K04-CL-PF42@1",
+        "K04-CL-PF44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF18",
+          "claim": "K04-CL-PF18@1",
+          "problem": "同参照两组差50/40/30与20/15/10ms，目标绝对差≤25，计算通过数。",
+          "reject": "首组0/3、次组3/3仅为即时题定改善，不是因果或长期证据。"
+        },
+        {
+          "caseId": "PF42",
+          "claim": "K04-CL-PF42@1",
+          "problem": "m9–12中m10后半拍错，提出保原谱的排练顺序。",
+          "reject": "隔离只证局部；需合入音高并恢复全段复测。"
+        },
+        {
+          "caseId": "PF44",
+          "claim": "K04-CL-PF44@1",
+          "problem": "m10 80 BPM通过、原120尚未复测，如何记录状态和后续？",
+          "reject": "速度改变使证明范围不同；120仍UNKNOWN，实际复测并保存历史。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.07",
+      "ability": "A04",
+      "role": "P",
+      "task": "小节ID、指挥协议、谱版、基线及take",
+      "d4Targets": [
+        "K04.07.01.03",
+        "K04.07.02.03",
+        "K04.07.03.04",
+        "K04.07.01.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 50,
+        "row": "| K04.07 | A04 | P | 小节ID、指挥协议、谱版、基线及take | [PF40/K04.07.01.03](performance-r2-knowledge-cases.md#L26)；[PF42/K04.07.02.03](performance-r2-knowledge-cases.md#L28)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF40@1",
+        "K04-CL-PF42@1",
+        "K04-CL-PF44@1",
+        "K04-CL-PF58@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF40",
+          "claim": "K04-CL-PF40@1",
+          "problem": "4/4四分120，第3拍入口，第2拍预备，分别时刻？",
+          "reject": "第3拍1s才是入口；.5s是预备。"
+        },
+        {
+          "caseId": "PF42",
+          "claim": "K04-CL-PF42@1",
+          "problem": "m9–12中m10后半拍错，提出保原谱的排练顺序。",
+          "reject": "隔离只证局部；需合入音高并恢复全段复测。"
+        },
+        {
+          "caseId": "PF44",
+          "claim": "K04-CL-PF44@1",
+          "problem": "m10 80 BPM通过、原120尚未复测，如何记录状态和后续？",
+          "reject": "速度改变使证明范围不同；120仍UNKNOWN，实际复测并保存历史。"
+        },
+        {
+          "caseId": "PF58",
+          "claim": "K04-CL-PF58@1",
+          "problem": "m6–7右手基本4/4拍、左手指弦乐crescendo、木管p，说明执行范围。",
+          "reject": "违反目标与保护项；需记录具体声部和区间。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "明确同任务测量及即时/长期边界",
+      "d4Targets": [
+        "K04.07.03.03",
+        "K04.07.02.03",
+        "K04.07.03.04"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 51,
+        "row": "| K04.07 | A05 | P | 明确同任务测量及即时/长期边界 | [PF18/K04.07.03.03](performance-r1-knowledge-cases.md#L22)；[PF42/K04.07.02.03](performance-r2-knowledge-cases.md#L28)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF18@1",
+        "K04-CL-PF42@1",
+        "K04-CL-PF44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF18",
+          "claim": "K04-CL-PF18@1",
+          "problem": "同参照两组差50/40/30与20/15/10ms，目标绝对差≤25，计算通过数。",
+          "reject": "首组0/3、次组3/3仅为即时题定改善，不是因果或长期证据。"
+        },
+        {
+          "caseId": "PF42",
+          "claim": "K04-CL-PF42@1",
+          "problem": "m9–12中m10后半拍错，提出保原谱的排练顺序。",
+          "reject": "隔离只证局部；需合入音高并恢复全段复测。"
+        },
+        {
+          "caseId": "PF44",
+          "claim": "K04-CL-PF44@1",
+          "problem": "m10 80 BPM通过、原120尚未复测，如何记录状态和后续？",
+          "reject": "速度改变使证明范围不同；120仍UNKNOWN，实际复测并保存历史。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.07",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑排练计划、提示/角色及反馈记录",
+      "d4Targets": [
+        "K04.07.01.03",
+        "K04.07.02.03",
+        "K04.07.02.04",
+        "K04.07.03.04",
+        "K04.07.01.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 52,
+        "row": "| K04.07 | A06 | P | 可编辑排练计划、提示/角色及反馈记录 | [PF40/K04.07.01.03](performance-r2-knowledge-cases.md#L26)；[PF42/K04.07.02.03](performance-r2-knowledge-cases.md#L28)；[PF43/K04.07.02.04](performance-r2-knowledge-cases.md#L29)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30)；[PF58/K04.07.01.05](performance-r3-knowledge-cases.md#L12) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF40@1",
+        "K04-CL-PF42@1",
+        "K04-CL-PF43@1",
+        "K04-CL-PF44@1",
+        "K04-CL-PF58@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF40",
+          "claim": "K04-CL-PF40@1",
+          "problem": "4/4四分120，第3拍入口，第2拍预备，分别时刻？",
+          "reject": "第3拍1s才是入口；.5s是预备。"
+        },
+        {
+          "caseId": "PF42",
+          "claim": "K04-CL-PF42@1",
+          "problem": "m9–12中m10后半拍错，提出保原谱的排练顺序。",
+          "reject": "隔离只证局部；需合入音高并恢复全段复测。"
+        },
+        {
+          "caseId": "PF43",
+          "claim": "K04-CL-PF43@1",
+          "problem": "25分钟预算，方案6+5+8+4与8+8+8+4，选择并保留合奏复测。",
+          "reject": "分别23与28；仅23在当前预算，保留复测。"
+        },
+        {
+          "caseId": "PF44",
+          "claim": "K04-CL-PF44@1",
+          "problem": "m10 80 BPM通过、原120尚未复测，如何记录状态和后续？",
+          "reject": "速度改变使证明范围不同；120仍UNKNOWN，实际复测并保存历史。"
+        },
+        {
+          "caseId": "PF58",
+          "claim": "K04-CL-PF58@1",
+          "problem": "m6–7右手基本4/4拍、左手指弦乐crescendo、木管p，说明执行范围。",
+          "reject": "违反目标与保护项；需记录具体声部和区间。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "限定修正→复测→采用/回滚",
+      "d4Targets": [
+        "K04.07.03.03",
+        "K04.07.03.04",
+        "K04.08.03.04"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 53,
+        "row": "| K04.07 | A07 | P | 限定修正→复测→采用/回滚 | [PF18/K04.07.03.03](performance-r1-knowledge-cases.md#L22)；[PF44/K04.07.03.04](performance-r2-knowledge-cases.md#L30)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF18@1",
+        "K04-CL-PF44@1",
+        "K04-CL-PF50@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF18",
+          "claim": "K04-CL-PF18@1",
+          "problem": "同参照两组差50/40/30与20/15/10ms，目标绝对差≤25，计算通过数。",
+          "reject": "首组0/3、次组3/3仅为即时题定改善，不是因果或长期证据。"
+        },
+        {
+          "caseId": "PF44",
+          "claim": "K04-CL-PF44@1",
+          "problem": "m10 80 BPM通过、原120尚未复测，如何记录状态和后续？",
+          "reject": "速度改变使证明范围不同；120仍UNKNOWN，实际复测并保存历史。"
+        },
+        {
+          "caseId": "PF50",
+          "claim": "K04-CL-PF50@1",
+          "problem": "v1 m12入口不齐，授权只改m12共同提示，v2改何项及如何采用？",
+          "reject": "超出授权且破坏历史；需保原谱、其他段与已确认监听。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "准备、现场协同、保护听力及复盘",
+      "d4Targets": [
+        "K04.08.01.03",
+        "K04.08.01.04",
+        "K04.08.02.03",
+        "K04.08.02.04",
+        "K04.08.03.03",
+        "K04.08.03.04",
+        "K04.08.01.05",
+        "K04.08.03.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 54,
+        "row": "| K04.08 | A01 | P | 准备、现场协同、保护听力及复盘 | [PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF46/K04.08.01.04](performance-r2-knowledge-cases.md#L32)；[PF47/K04.08.02.03](performance-r2-knowledge-cases.md#L33)；[PF48/K04.08.02.04](performance-r2-knowledge-cases.md#L34)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF45@1",
+        "K04-CL-PF46@1",
+        "K04-CL-PF47@1",
+        "K04-CL-PF48@1",
+        "K04-CL-PF49@1",
+        "K04-CL-PF50@1",
+        "K04-CL-PF59@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF45",
+          "claim": "K04-CL-PF45@1",
+          "problem": "冻结setlist v2谱v3，第二曲缺键盘手，A授权替代 B无授权删声部，筛选。",
+          "reject": "未经授权改保护项，B拒绝；A进入实际复核，不自动演出PASS。"
+        },
+        {
+          "caseId": "PF46",
+          "claim": "K04-CL-PF46@1",
+          "problem": "12分钟，3声部各2、全组最轻/强各2、沟通2，核预算。",
+          "reject": "6+4+2=12，目的不同；新增乐器需重新分配并实际核验。"
+        },
+        {
+          "caseId": "PF47",
+          "claim": "K04-CL-PF47@1",
+          "problem": "键盘手听不到鼓，已约定可见领奏提示，如何处置？",
+          "reject": "高风险技术操作非当前权限；用已确认安全提示或按协议停止并报告。"
+        },
+        {
+          "caseId": "PF48",
+          "claim": "K04-CL-PF48@1",
+          "problem": "演出中有人报告耳部不适与异常声，优先处理是什么？",
+          "reject": "新风险报告优先停止；场所建议非个体安全认证，不作诊断。"
+        },
+        {
+          "caseId": "PF49",
+          "claim": "K04-CL-PF49@1",
+          "problem": "v1 m18到达+60ms，监听日志缺失，如何裁原因和复盘？",
+          "reject": "到达差混合源和链路，缺日志无法唯一归因。"
+        },
+        {
+          "caseId": "PF50",
+          "claim": "K04-CL-PF50@1",
+          "problem": "v1 m12入口不齐，授权只改m12共同提示，v2改何项及如何采用？",
+          "reject": "超出授权且破坏历史；需保原谱、其他段与已确认监听。"
+        },
+        {
+          "caseId": "PF59",
+          "claim": "K04-CL-PF59@1",
+          "problem": "A可见领奏且监听谱版确认，B视线受阻无备选，选择及后续。",
+          "reject": "现场条件已变，B须建立已确认备选或改位置/停用，并实际核验。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "准备→试音→现场异常→复盘",
+      "d4Targets": [
+        "K04.08.01.03",
+        "K04.08.01.04",
+        "K04.08.02.03",
+        "K04.08.02.04",
+        "K04.08.03.03"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 55,
+        "row": "| K04.08 | A02 | P | 准备→试音→现场异常→复盘 | [PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF46/K04.08.01.04](performance-r2-knowledge-cases.md#L32)；[PF47/K04.08.02.03](performance-r2-knowledge-cases.md#L33)；[PF48/K04.08.02.04](performance-r2-knowledge-cases.md#L34)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF45@1",
+        "K04-CL-PF46@1",
+        "K04-CL-PF47@1",
+        "K04-CL-PF48@1",
+        "K04-CL-PF49@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF45",
+          "claim": "K04-CL-PF45@1",
+          "problem": "冻结setlist v2谱v3，第二曲缺键盘手，A授权替代 B无授权删声部，筛选。",
+          "reject": "未经授权改保护项，B拒绝；A进入实际复核，不自动演出PASS。"
+        },
+        {
+          "caseId": "PF46",
+          "claim": "K04-CL-PF46@1",
+          "problem": "12分钟，3声部各2、全组最轻/强各2、沟通2，核预算。",
+          "reject": "6+4+2=12，目的不同；新增乐器需重新分配并实际核验。"
+        },
+        {
+          "caseId": "PF47",
+          "claim": "K04-CL-PF47@1",
+          "problem": "键盘手听不到鼓，已约定可见领奏提示，如何处置？",
+          "reject": "高风险技术操作非当前权限；用已确认安全提示或按协议停止并报告。"
+        },
+        {
+          "caseId": "PF48",
+          "claim": "K04-CL-PF48@1",
+          "problem": "演出中有人报告耳部不适与异常声，优先处理是什么？",
+          "reject": "新风险报告优先停止；场所建议非个体安全认证，不作诊断。"
+        },
+        {
+          "caseId": "PF49",
+          "claim": "K04-CL-PF49@1",
+          "problem": "v1 m18到达+60ms，监听日志缺失，如何裁原因和复盘？",
+          "reject": "到达差混合源和链路，缺日志无法唯一归因。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.08",
+      "ability": "A03",
+      "role": "S",
+      "task": "场地、扩声与采集K19/K12；K15授权",
+      "d4Targets": [
+        "K04.08.02.03",
+        "K04.08.02.04",
+        "K04.08.03.05"
+      ],
+      "limits": "实际外部版本、许可、工具运行及测量未执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 56,
+        "row": "| K04.08 | A03 | S | 场地、扩声与采集K19/K12；K15授权 | [PF47/K04.08.02.03](performance-r2-knowledge-cases.md#L33)；[PF48/K04.08.02.04](performance-r2-knowledge-cases.md#L34)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 实际外部版本、许可、工具运行及测量未执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF47@1",
+        "K04-CL-PF48@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF47",
+          "claim": "K04-CL-PF47@1",
+          "problem": "键盘手听不到鼓，已约定可见领奏提示，如何处置？",
+          "reject": "高风险技术操作非当前权限；用已确认安全提示或按协议停止并报告。"
+        },
+        {
+          "caseId": "PF48",
+          "claim": "K04-CL-PF48@1",
+          "problem": "演出中有人报告耳部不适与异常声，优先处理是什么？",
+          "reject": "新风险报告优先停止；场所建议非个体安全认证，不作诊断。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.08",
+      "ability": "A04",
+      "role": "P",
+      "task": "谱版、人员、现场配置、源/到达及日志",
+      "d4Targets": [
+        "K04.08.01.03",
+        "K04.08.03.03",
+        "K04.08.01.05",
+        "K04.08.03.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 57,
+        "row": "| K04.08 | A04 | P | 谱版、人员、现场配置、源/到达及日志 | [PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF45@1",
+        "K04-CL-PF49@1",
+        "K04-CL-PF59@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF45",
+          "claim": "K04-CL-PF45@1",
+          "problem": "冻结setlist v2谱v3，第二曲缺键盘手，A授权替代 B无授权删声部，筛选。",
+          "reject": "未经授权改保护项，B拒绝；A进入实际复核，不自动演出PASS。"
+        },
+        {
+          "caseId": "PF49",
+          "claim": "K04-CL-PF49@1",
+          "problem": "v1 m18到达+60ms，监听日志缺失，如何裁原因和复盘？",
+          "reject": "到达差混合源和链路，缺日志无法唯一归因。"
+        },
+        {
+          "caseId": "PF59",
+          "claim": "K04-CL-PF59@1",
+          "problem": "A可见领奏且监听谱版确认，B视线受阻无备选，选择及后续。",
+          "reject": "现场条件已变，B须建立已确认备选或改位置/停用，并实际核验。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "真实安全/演奏与版本证据，未知停用",
+      "d4Targets": [
+        "K04.08.01.04",
+        "K04.08.02.04",
+        "K04.08.03.03",
+        "K04.08.01.05"
+      ],
+      "limits": "限定任务/符号评价及真实评价条件，不填真实结果。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 58,
+        "row": "| K04.08 | A05 | P | 真实安全/演奏与版本证据，未知停用 | [PF46/K04.08.01.04](performance-r2-knowledge-cases.md#L32)；[PF48/K04.08.02.04](performance-r2-knowledge-cases.md#L34)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF59/K04.08.01.05](performance-r3-knowledge-cases.md#L13) | 限定任务/符号评价及真实评价条件，不填真实结果。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF46@1",
+        "K04-CL-PF48@1",
+        "K04-CL-PF49@1",
+        "K04-CL-PF59@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF46",
+          "claim": "K04-CL-PF46@1",
+          "problem": "12分钟，3声部各2、全组最轻/强各2、沟通2，核预算。",
+          "reject": "6+4+2=12，目的不同；新增乐器需重新分配并实际核验。"
+        },
+        {
+          "caseId": "PF48",
+          "claim": "K04-CL-PF48@1",
+          "problem": "演出中有人报告耳部不适与异常声，优先处理是什么？",
+          "reject": "新风险报告优先停止；场所建议非个体安全认证，不作诊断。"
+        },
+        {
+          "caseId": "PF49",
+          "claim": "K04-CL-PF49@1",
+          "problem": "v1 m18到达+60ms，监听日志缺失，如何裁原因和复盘？",
+          "reject": "到达差混合源和链路，缺日志无法唯一归因。"
+        },
+        {
+          "caseId": "PF59",
+          "claim": "K04-CL-PF59@1",
+          "problem": "A可见领奏且监听谱版确认，B视线受阻无备选，选择及后续。",
+          "reject": "现场条件已变，B须建立已确认备选或改位置/停用，并实际核验。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.08",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持setlist、日志与音乐提示，技术产物由K19",
+      "d4Targets": [
+        "K04.08.01.03",
+        "K04.08.03.03",
+        "K04.08.03.04",
+        "K04.08.03.05"
+      ],
+      "limits": "支持记录要求，不取得他域编辑/技术主责。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 59,
+        "row": "| K04.08 | A06 | S | 支持setlist、日志与音乐提示，技术产物由K19 | [PF45/K04.08.01.03](performance-r2-knowledge-cases.md#L31)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 支持记录要求，不取得他域编辑/技术主责。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF45@1",
+        "K04-CL-PF49@1",
+        "K04-CL-PF50@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF45",
+          "claim": "K04-CL-PF45@1",
+          "problem": "冻结setlist v2谱v3，第二曲缺键盘手，A授权替代 B无授权删声部，筛选。",
+          "reject": "未经授权改保护项，B拒绝；A进入实际复核，不自动演出PASS。"
+        },
+        {
+          "caseId": "PF49",
+          "claim": "K04-CL-PF49@1",
+          "problem": "v1 m18到达+60ms，监听日志缺失，如何裁原因和复盘？",
+          "reject": "到达差混合源和链路，缺日志无法唯一归因。"
+        },
+        {
+          "caseId": "PF50",
+          "claim": "K04-CL-PF50@1",
+          "problem": "v1 m12入口不齐，授权只改m12共同提示，v2改何项及如何采用？",
+          "reject": "超出授权且破坏历史；需保原谱、其他段与已确认监听。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    },
+    {
+      "d2": "K04.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "异常→分因/授权→复测/回滚",
+      "d4Targets": [
+        "K04.08.02.03",
+        "K04.08.03.03",
+        "K04.08.03.04",
+        "K04.08.03.05"
+      ],
+      "limits": "具体知识候选，非实际运行或专业PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/performance-r4-capability-calibration.md",
+        "blob": "afa4d08faaf9a186aeed5530c5e34255033957cc",
+        "line": 60,
+        "row": "| K04.08 | A07 | P | 异常→分因/授权→复测/回滚 | [PF47/K04.08.02.03](performance-r2-knowledge-cases.md#L33)；[PF49/K04.08.03.03](performance-r2-knowledge-cases.md#L35)；[PF50/K04.08.03.04](performance-r2-knowledge-cases.md#L36)；[PF60/K04.08.03.05](performance-r3-knowledge-cases.md#L14) | 具体知识候选，非实际运行或专业PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K04-CL-PF47@1",
+        "K04-CL-PF49@1",
+        "K04-CL-PF50@1",
+        "K04-CL-PF60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "PF47",
+          "claim": "K04-CL-PF47@1",
+          "problem": "键盘手听不到鼓，已约定可见领奏提示，如何处置？",
+          "reject": "高风险技术操作非当前权限；用已确认安全提示或按协议停止并报告。"
+        },
+        {
+          "caseId": "PF49",
+          "claim": "K04-CL-PF49@1",
+          "problem": "v1 m18到达+60ms，监听日志缺失，如何裁原因和复盘？",
+          "reject": "到达差混合源和链路，缺日志无法唯一归因。"
+        },
+        {
+          "caseId": "PF50",
+          "claim": "K04-CL-PF50@1",
+          "problem": "v1 m12入口不齐，授权只改m12共同提示，v2改何项及如何采用？",
+          "reject": "超出授权且破坏历史；需保原谱、其他段与已确认监听。"
+        },
+        {
+          "caseId": "PF60",
+          "claim": "K04-CL-PF60@1",
+          "problem": "v1源/到达记录独立，v2仅负责人确认改变监听，谱和任务不动，哪些评价失效？",
+          "reject": "路径变化使旧监听评价失效；格式offset不补偿硬件，须实际复测。"
+        }
+      ]
+    }
+  ]
+}

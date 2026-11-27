@@ -1,0 +1,1 @@
+Check entire affected subject professional scope, exact anchors, independently inspect actual four-view question/answer alignment, unknowns, relation semantics and H/O; no counts-only or automatic admission. Batch report separately.

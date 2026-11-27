@@ -21,7 +21,7 @@ const copy=structuredClone;
 function canonical(x){return x===null?"null":Array.isArray(x)?"["+x.map(canonical).join(",")+"]":typeof x==="object"?"{"+Object.keys(x).sort().map(k=>JSON.stringify(k)+":"+canonical(x[k])).join(",")+"}":JSON.stringify(x)}
 const recordDigest=x=>crypto.createHash("sha256").update(canonical(x)).digest("hex");
 function freeze(x){if(x&&typeof x==="object"&&!Object.isFrozen(x)){for(const v of Object.values(x))freeze(v);Object.freeze(x)}return x;}
-const PROFILE_BLOB="95feae7497659ea6e0e2a62b61bdfcc6b584abfe";
+const PROFILE_BLOB="fda4128a4ea764eb5e26bb89c91bf091aa48ac17";
 // Independent portable projection of actual frozen Git tree (not candidate-generated).
 const L1_TREE_BLOB="a72360e348f00e82a74809e6acc056f05b311b1f";
 const L1_TREE="96ae7e9a2ee5c000b63f001faeee4a6a4be69396";
@@ -83,7 +83,7 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
   }
  }
  const records=new Map(),packs=[],allEdges=[],allBindings=[],sourceQual=new Map(),edgeQual=new Map(),obligations=[],inventory=[];
- const owned=new Map(),recordOwners=new Map(),formalK01Direct=new Map();
+ const owned=new Map(),recordOwners=new Map(),formalK01Direct=new Map(),formalK02Direct=new Map();
  for(const e of entries){
   keys(e,["pack","manifest","manifestBlob"],"entry shape");
   fail(/^((knowledge\/K\d\d\/)|(tests\/knowledge\/fixtures\/))[A-Za-z0-9_.\/-]+\.json$/.test(e.pack),"pack path");
@@ -138,6 +138,17 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
     const pairs=roles.split("；").map(x=>x.split(" "));unique(pairs.map(x=>x[0]),"duplicate frozen K01 CQ role");
     formalK01Direct.set(i+1,pairs.filter(x=>x[1]==="D").map(x=>x[0]).sort());
    }
+   // K02 alone uses separate direct/support columns; em dash is the explicit no-D marker.
+   // No inferred roles or generalized parsing for another owner's frozen format.
+   if(k.owner==="K02"&&k.coverageMode==="MODULE"){
+    const cols=row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(cols.length===5,"frozen K02 CQ role shape");
+    const role=/^CQ(?:0[1-9]|1[0-9]|2[0-6])(?:\/CQ(?:0[1-9]|1[0-9]|2[0-6]))*$/;
+    fail((cols[3]==="—"||role.test(cols[3]))&&(cols[4]==="—"||role.test(cols[4])),"frozen K02 CQ role shape");
+    const d=cols[3]==="—"?[]:cols[3].split("/"),support=cols[4]==="—"?[]:cols[4].split("/");
+    unique([...d,...support],"duplicate frozen K02 CQ role");fail(d.length+support.length>0,"empty frozen K02 roles");
+    formalK02Direct.set(i+1,d.sort());
+   }
   });
   fail(actual.size===disc.count,"discovery row count "+k.owner);
   const seen=new Set();
@@ -162,17 +173,41 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    for(const id of row.claimRefs){const cq=get(id,"Claim").cq;fail(list(cq)&&cq.every(x=>expected.includes(x)),"K01 CQ not frozen direct role "+id);for(const x of cq)actual.add(x);}
    fail(equal([...actual].sort(),expected),"K01 candidate row missing frozen direct CQ "+row.d4);
   }
+  if(row.owner==="K02"&&owned.get("K02").coverageMode==="MODULE"&&row.disposition==="CANDIDATE"){
+   const expected=formalK02Direct.get(row.line),actual=new Set();
+   fail(list(expected),"missing frozen K02 CQ role");
+   for(const id of row.claimRefs){const cq=get(id,"Claim").cq;fail(list(cq)&&cq.every(x=>expected.includes(x)),"K02 CQ not frozen direct role "+id);for(const x of cq)actual.add(x);}
+   fail(equal([...actual].sort(),expected),"K02 candidate row missing frozen direct CQ "+row.d4);
+  }
  }
  for(const [id,r] of records){
   if(r.type==="Source"){
    fail(/^S\d+$/.test(r.sourceId)&&r.id===r.sourceId&&[r.title,r.author,r.version,r.publicationDate,r.accessDate,r.uri,r.locator].every(token)&&p.sourceGrades.includes(r.grade)&&r.rights==="UNKNOWN_NO_IMPORT","source metadata");
    anchor(r.anchor,"source");fail(new RegExp("(^|[^A-Z0-9])"+r.sourceId+"([^0-9]|$)").test(r.anchor.row),"source anchor id");
    const urls=[...r.anchor.row.matchAll(/\((https?:\/\/[^)\s]+)\)/g)].map(m=>m[1]);
+   // Frozen legacy vocal/digital qualification has plain URI tokens in its source column.
+   // Do not interpret arbitrary text, other files, or another source's row as a locator.
+   if(r.anchor.file==="docs/research/source-qualification-vocal-digital.md"&&r.anchor.blob==="73ac66934ae016a125ecc6302fa7fa3875faab16"){
+    const c=r.anchor.row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(c.length===4&&c[0]===r.sourceId,"legacy exact source row identity");
+    // Exact status column, not a keyword anywhere in a title, locator or limitation.
+    // REGISTERED_LIMITED is conservative; READ_LOCATOR and ABSTRACT_READ
+    // assert distinct observed evidence, not interchangeable grades.
+    const status=c[3].split("；")[0];
+    fail(["SEARCH_ONLY","ABSTRACT_READ","READ_LOCATOR"].includes(status),"unsupported legacy frozen status");
+    fail(r.grade==="REGISTERED_LIMITED"||r.grade===status,"unsupported legacy source grade");
+    if(r.sourceId==="S045"&&r.grade==="ABSTRACT_READ"){
+     const abstractUri="https://pubmed.ncbi.nlm.nih.gov/27794319/",access=sourceQual.get(id)?.accessedUri;
+     fail(r.uri===abstractUri&&(access==="UNKNOWN"||access===abstractUri),"unsupported legacy abstract URI");
+    }
+
+    for(const u of c[1].matchAll(/(?:^|[\s；])((?:https):\/\/[^\s；，]+)(?=$|[\s；，])/g))urls.push(u[1]);
+   }
    const q=sourceQual.get(id);fail(q&&urls.includes(r.uri)&&(q.accessedUri==="UNKNOWN"||urls.includes(q.accessedUri)),"source exact URI/qualification");
    if(r.grade==="READ_LOCATOR")fail(/READ_LOCATOR|重读|已读|实际阅读/.test(r.anchor.row),"unsupported source grade");
   }else if(r.type==="Context")fail(token(r.condition),"context");
   else if(r.type==="Claim"){
-   fail(d4.test(r.d4)&&r.d4.startsWith(r.owner+".")&&r.status==="CANDIDATE"&&p.claimKinds.includes(r.kind)&&token(r.statement)&&token(r.limits)&&list(r.cq)&&(r.cq.length>0||(r.owner==="K01"&&owned.get("K01").coverageMode==="MODULE"))&&r.cq.every(x=>/^CQ(?:0[1-9]|1[0-9]|2[0-6])$/.test(x))&&rowsByClaim.has(id),"claim scope/status");
+   fail(d4.test(r.d4)&&r.d4.startsWith(r.owner+".")&&r.status==="CANDIDATE"&&p.claimKinds.includes(r.kind)&&token(r.statement)&&token(r.limits)&&list(r.cq)&&(r.cq.length>0||(["K01","K02"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"))&&r.cq.every(x=>/^CQ(?:0[1-9]|1[0-9]|2[0-6])$/.test(x))&&rowsByClaim.has(id),"claim scope/status");
    unique(r.cq,"duplicate CQ");fail(get(r.context,"Context").owner===r.owner,"claim context owner");
   }else if(r.type==="Evidence"){
    fail(r.kind==="L1_RESEARCH_LOCATOR"&&token(r.limits)&&list(r.sources)&&r.sources.length>0,"evidence kind");
