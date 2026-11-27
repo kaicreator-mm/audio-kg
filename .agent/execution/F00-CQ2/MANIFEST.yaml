@@ -1,0 +1,35 @@
+{
+  "pack_id": "audio-kg-v010-F00-CQ2-g1",
+  "task_id": "F00-CQ2",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "09e480edff0ea45f0b4e6bab2dd4dc28db792b44",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/issues/116",
+  "branch": "task/v0.1.0-f00-cq2-formal",
+  "parent_issue": "#116",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-batch-f00-cq2-builder",
+  "generated_at": "2026-11-27T13:11:10.343670+00:00",
+  "dependency_completion": [
+    "F00@f5fbc3b9fc6118e073c3701ae8da2d8928629ce4",
+    "F00-CQ@4fadb8e96f3fefa6485bc8d2f46c5e770d8fa54f"
+  ],
+  "material_paths": [
+    "tools/validate-knowledge.mjs",
+    "ontology/",
+    "tests/knowledge/",
+    "docs/product/calibration/composition-r3-discovery-cq.md"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}
