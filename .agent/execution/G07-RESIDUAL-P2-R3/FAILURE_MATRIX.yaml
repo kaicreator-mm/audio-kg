@@ -1,0 +1,13 @@
+K06:
+  null_or_undefined_series_entry: typed_reject_no_throw
+  emergency_with_malformed_entry: emergency_referral_precedence
+K08:
+  nonzero_product_underflow: NUMERIC_RANGE_or_robust_finite
+  exact_nonzero_product_cancellation: NEGATIVE_INFINITY
+  zero_vector: UNDEFINED_ZERO
+  invalid_dimensions: INVALID_INPUT
+K03:
+  unsafe_pitch_intermediate: null_or_UNKNOWN
+  nonfinite_derived_gap: UNKNOWN
+  negative_gap: REJECT
+  ordinary_valid_gap: bounded_candidate
