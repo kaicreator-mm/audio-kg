@@ -125,5 +125,37 @@ export function runWorkflowPilot(w,route,support,replayInput=null){
  reject("duplicate typed edge",g=>g.edges.push(clone(g.edges[0])));
  reject("extra unregistered authority",g=>g.records.push({ref:"GRANT@2",type:"Grant",classification:"SYNTHETIC_RESEARCH",payload:{realSubject:"APPROVED"},digest:hash({realSubject:"APPROVED"})}));
  reject("forged support case",g=>{const n=g.records.find(n=>n.ref==="S-GV02@1");n.payload.knowledge.caseId="FAKE";n.digest=hash(n.payload);});
- return {tests,records:graph.records.length,edges:graph.edges.length,affected:stale,trace:v,projection,graphDigest:hash(projection),replay:replayInput===null?null:traceQuery(replayInput.graph,replayInput.verdict),limits:"fixed actual witness projection; not general runtime or actual authorization"};
+ // Finite disputed observation and rollback planning, tied to actual registered synthetic witness.
+ // These are not accepted Claims, a general conflict resolver, a real rollback, or permission.
+ const reference=registry.reference, contextKey={source:reference.sourceMaterial,voice:reference.voice,clock:reference.clock,window:reference.window};
+ const reports=[{id:"H-OBS-220",status:"CANDIDATE",kind:"SYNTHETIC_HYPOTHESIS",context:clone(contextKey),hz:220},{id:"H-OBS-200",status:"CANDIDATE",kind:"SYNTHETIC_HYPOTHESIS",context:clone(contextKey),hz:200}];
+ function resolveReference(hypotheses,independent){
+  const unresolved=state=>({state,referenceHz:null,acceptedClaim:false,actualObservation:false,release:false});
+  if(!Array.isArray(hypotheses)||!hypotheses.length||new Set(hypotheses.map(h=>h.id)).size!==hypotheses.length||hypotheses.some(h=>!eq(h.context,contextKey)||h.status!=="CANDIDATE"||h.kind!=="SYNTHETIC_HYPOTHESIS"||typeof h.hz!=="number"||!Number.isFinite(h.hz)||h.hz<=0))return unresolved("UNKNOWN");
+  if(independent!==null&&!eq(independent,reference))return unresolved("UNKNOWN");
+  if(independent===null)return unresolved(new Set(hypotheses.map(h=>h.hz)).size>1?"DISPUTED":"UNKNOWN");
+  return {state:"SYNTHETIC_REFERENCE_QUALIFIED",referenceHz:reference.hz,matched:hypotheses.filter(h=>h.hz===reference.hz).map(h=>h.id),notSupported:hypotheses.filter(h=>h.hz!==reference.hz).map(h=>h.id),acceptedClaim:false,actualObservation:false,release:false};
+ }
+ test("conflicting observations without independent reference remain disputed",eq(resolveReference(reports,null),{state:"DISPUTED",referenceHz:null,acceptedClaim:false,actualObservation:false,release:false}));
+ test("single unsupported observation remains unknown",resolveReference(reports.slice(0,1),null).state==="UNKNOWN");
+ const resolved=resolveReference(reports,reference);
+ test("fixed synthetic independent reference distinguishes hypotheses",resolved.state==="SYNTHETIC_REFERENCE_QUALIFIED"&&resolved.referenceHz===220&&eq(resolved.matched,["H-OBS-220"])&&eq(resolved.notSupported,["H-OBS-200"])&&!resolved.acceptedClaim&&!resolved.actualObservation);
+ test("forged independent observation cannot resolve dispute",resolveReference(reports,{...reference,id:"FAKE"}).state==="UNKNOWN");
+ test("different observation window not same dispute",resolveReference([reports[0],{...reports[1],context:{...contextKey,window:[500,1000]}}],reference).state==="UNKNOWN");
+ // Plan a return to the retained c2 content from the actually registered revised c3 witness.
+ // The historical report never authorizes a new active revision; this function does not mutate or execute.
+ const prior={candidate:actual.candidate,content:clone(registry.registeredRevision),receipt:clone(registry.receipt)},current=w.old.revised;
+ function planRollback(from,target,grant){
+  const stop=state=>({state,release:false,executed:false});
+  if(grant?.status==="revoked")return stop("STOP");
+  if(!eq(grant,registry.grant)||from!==current.candidate||!eq(target,prior))return stop("UNKNOWN");
+  return {state:"PENDING_REVALIDATION",from,target:target.candidate,proposal:"NEW_REVISION_REQUIRED",historicalReceipt:actual.report,reuseHistoricalReceipt:false,requiresNewReceipt:true,requiresCurrentGrant:true,release:false,executed:false};
+ }
+ const before=hash(prior),plan=planRollback(current.candidate,prior,registry.grant);
+ test("rollback plan preserves old subject and demands new receipt",current.candidate==="C/c3"&&plan.state==="PENDING_REVALIDATION"&&plan.target==="C/c2"&&plan.requiresNewReceipt&&!plan.reuseHistoricalReceipt&&!plan.executed&&hash(prior)===before);
+ test("rollback revoke stops",planRollback(current.candidate,prior,{...registry.grant,status:"revoked"}).state==="STOP");
+ test("rollback unknown grant refuses",planRollback(current.candidate,prior,null).state==="UNKNOWN");
+ test("rollback fabricated historical content refuses",planRollback(current.candidate,{...prior,content:{...prior.content,source:"FAKE"}},registry.grant).state==="UNKNOWN");
+ test("rollback old receipt does not qualify new revision",traceQuery({...projection,active:"C@7"},actual).state==="PENDING_REVALIDATION");
+ return {tests,records:graph.records.length,edges:graph.edges.length,affected:stale,trace:v,projection,graphDigest:hash(projection),boundedResolution:{disputed:resolveReference(reports,null),resolved,rollbackPlan:plan},replay:replayInput===null?null:traceQuery(replayInput.graph,replayInput.verdict),limits:"fixed actual witness projection; not general runtime or actual authorization"};
 }
