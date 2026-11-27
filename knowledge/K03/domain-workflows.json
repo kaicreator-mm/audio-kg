@@ -1,0 +1,243 @@
+{
+  "format": "audio-kg-bounded-domain-workflows-v1",
+  "workflows": [
+    {
+      "d2": "K03.01",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind exact instrument variant, notation and sound identity",
+        "Compute spelling and chromatic mapping; qualify classification version",
+        "Keep register, timbre and actual capability separate"
+      ],
+      "cases": [
+        "AR01",
+        "AR02",
+        "AR10",
+        "AR11",
+        "AR33",
+        "AR34",
+        "AR35",
+        "AR56",
+        "AR58"
+      ],
+      "claimRefs": [
+        "K03-CL-AR01@1",
+        "K03-CL-AR02@1",
+        "K03-CL-AR10@1",
+        "K03-CL-AR11@1",
+        "K03-CL-AR33@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR56@1",
+        "K03-CL-AR58@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    },
+    {
+      "d2": "K03.02",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind specific performer and current resource range",
+        "Check simultaneous notes, transitions, retune and breath conditions",
+        "No unauthorized transposition, timing or resource expansion"
+      ],
+      "cases": [
+        "AR03",
+        "AR04",
+        "AR05",
+        "AR12",
+        "AR13",
+        "AR36",
+        "AR37",
+        "AR38"
+      ],
+      "claimRefs": [
+        "K03-CL-AR03@1",
+        "K03-CL-AR04@1",
+        "K03-CL-AR05@1",
+        "K03-CL-AR12@1",
+        "K03-CL-AR13@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR37@1",
+        "K03-CL-AR38@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    },
+    {
+      "d2": "K03.03",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind arrangement roles and protected melody",
+        "Check concurrent player capacity, doubling and rehearsal resources",
+        "Keep actual playability and tone unknown"
+      ],
+      "cases": [
+        "AR06",
+        "AR14",
+        "AR15",
+        "AR16",
+        "AR39",
+        "AR40",
+        "AR57"
+      ],
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR14@1",
+        "K03-CL-AR15@1",
+        "K03-CL-AR16@1",
+        "K03-CL-AR40@1",
+        "K03-CL-AR57@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    },
+    {
+      "d2": "K03.04",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind musical lines, role and interval occupancy",
+        "Distinguish texture, onset density and activity",
+        "Fill only permitted full rest intervals"
+      ],
+      "cases": [
+        "AR17",
+        "AR18",
+        "AR19",
+        "AR20",
+        "AR41",
+        "AR42"
+      ],
+      "claimRefs": [
+        "K03-CL-AR17@1",
+        "K03-CL-AR18@1",
+        "K03-CL-AR19@1",
+        "K03-CL-AR20@1",
+        "K03-CL-AR41@1",
+        "K03-CL-AR42@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    },
+    {
+      "d2": "K03.05",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind harmony, slash bass and declared tuning",
+        "Check voicing and adjacent motion with hand/range conditions",
+        "Retain method-only guitar route, do not imply actual hands"
+      ],
+      "cases": [
+        "AR21",
+        "AR22",
+        "AR23",
+        "AR24",
+        "AR25",
+        "AR26",
+        "AR43",
+        "AR44",
+        "AR45"
+      ],
+      "claimRefs": [
+        "K03-CL-AR21@1",
+        "K03-CL-AR22@1",
+        "K03-CL-AR23@1",
+        "K03-CL-AR24@1",
+        "K03-CL-AR25@1",
+        "K03-CL-AR26@1",
+        "K03-CL-AR43@1",
+        "K03-CL-AR45@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    },
+    {
+      "d2": "K03.06",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Declare genre feature and exact cultural context",
+        "Check phase, material rights and protected score",
+        "Multiple candidates and missing listening remain unknown"
+      ],
+      "cases": [
+        "AR27",
+        "AR28",
+        "AR29",
+        "AR46",
+        "AR47",
+        "AR48",
+        "AR49",
+        "AR50"
+      ],
+      "claimRefs": [
+        "K03-CL-AR27@1",
+        "K03-CL-AR28@1",
+        "K03-CL-AR29@1",
+        "K03-CL-AR46@1",
+        "K03-CL-AR47@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR49@1",
+        "K03-CL-AR50@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    },
+    {
+      "d2": "K03.07",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind version, section, layer and feedback identity",
+        "Only revise authorized background events",
+        "Invalidate affected score and listening, preserve original"
+      ],
+      "cases": [
+        "AR30",
+        "AR31",
+        "AR32",
+        "AR51",
+        "AR52"
+      ],
+      "claimRefs": [
+        "K03-CL-AR30@1",
+        "K03-CL-AR31@1",
+        "K03-CL-AR32@1",
+        "K03-CL-AR51@1",
+        "K03-CL-AR52@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    },
+    {
+      "d2": "K03.08",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind part/staff/voice/instrument and exact source score",
+        "Check transposition, cursor and projection loss",
+        "No writeback of lossy derivative or unverified host"
+      ],
+      "cases": [
+        "AR07",
+        "AR08",
+        "AR09",
+        "AR53",
+        "AR54",
+        "AR55",
+        "AR59",
+        "AR60"
+      ],
+      "claimRefs": [
+        "K03-CL-AR07@1",
+        "K03-CL-AR08@1",
+        "K03-CL-AR09@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR59@1",
+        "K03-CL-AR60@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing or failed hard conditions stop; no actual rights, performer, device or adoption."
+    }
+  ]
+}

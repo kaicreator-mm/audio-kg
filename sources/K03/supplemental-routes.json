@@ -1,0 +1,106 @@
+{
+  "status": "QUALIFIED_NAVIGATION_NOT_DIRECT_SUPPORTED_BY",
+  "routes": [
+    {
+      "caseId": "AR39",
+      "d4": "K03.03.01.04",
+      "method": [
+        {
+          "sourceId": "S358",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 14,
+            "row": "| S358 | S349同一来源角色段落 | 分配合同依据；非独立文献编号，保留为具体定位记录。 |"
+          },
+          "registeredLinks": [],
+          "sharedProvider": null,
+          "role": "FROZEN_LOCATOR_ONLY"
+        }
+      ],
+      "canonicalSource": "S349@1",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 5,
+        "row": "| S349 | Hugill [Horns](https://andrewhugill.com/OrchestraManual/horns.html), general points | F圆号及常见1/3高、2/4低角色，具体人选需确认；现代书写规则由F移调定义与S075组合，不证明历史低音谱。 |"
+      }
+    },
+    {
+      "caseId": "AR44",
+      "d4": "K03.05.02.05",
+      "method": [
+        {
+          "sourceId": "S362",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 18,
+            "row": "| S362 | S357同页吉他弦序文字 | 同源定位，不计独立文献；八度与品位计算为题设。 |"
+          },
+          "registeredLinks": [],
+          "sharedProvider": null,
+          "role": "FROZEN_LOCATOR_ONLY"
+        },
+        {
+          "sourceId": "S363",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 19,
+            "row": "| S363 | 项目合成标准调弦/半音品位模型，S357 | 非外部新增来源，明确数学前提，不推出人手可奏性。 |"
+          },
+          "registeredLinks": [],
+          "sharedProvider": null,
+          "role": "FROZEN_LOCATOR_ONLY"
+        }
+      ],
+      "canonicalSource": "S357@1",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 13,
+        "row": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |"
+      }
+    },
+    {
+      "caseId": "AX01",
+      "sourceAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 34,
+        "row": "- S374 ICOM MUSIC [Classification of Musical Instruments](https://icom-music.mini.icom.museum/resources/classification-of-musical-instruments/)；实际打开其2011修订[PDF](https://icom-music.mini.icom.museum/wp-content/uploads/sites/86/2025/10/H-S_20classification_20final_20version_20_282013_29_20without_20editorial_20markings-2_SW.pdf)，正文封面标2011-07-08，p3未改造的拾音声学乐器归1–4而非自动归5，p4 111.142碰击镲、111.13缅甸槽形碰击器；p3/p4实际截图核验。不是2025新版（URL日期为上传路径）；ICOM列2017/2021增补，本轮未读其正文，禁止声称最新完整分类或复制全部分类。保留原S336访问历史，具体分类依据升级限定为2011正文。"
+      },
+      "caseAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-integrated-closure.md",
+        "blob": "716bf12546b7e56608ad7e98d76a4ca688cc96d8",
+        "line": 5,
+        "row": "| AX01 分类版本 | AR10/K03.01.01.03、AR11/K03.01.01.04、AR58/K03.01.01.05；S374 p3–4 | 题设未改造小提琴加拾音器仍按弦鸣类3；双片互击镲按2011的111.142；槽形相击器若结构符合111.13则该候选（原文有缅甸例）；编配需求另记实际音高/音色/奏法。 | 因拾音器自动归5，或据缅甸地点决定所有该国乐器编码。 | 若原始对象有拾音与独立电子发声两条机制，先区分改造/独立声源再决定多类记录；版本须标明。 | 不从分类编码推出音域、真实调律、历史/文化身份或完整最新分类；2017/2021增补未读。 |"
+      }
+    },
+    {
+      "caseId": "AX02",
+      "sourceAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 35,
+        "row": "- S375 Timbre and Orchestration Resource [Drums](https://timbreandorchestration.org/isfee/extreme-orchestration/percussion/drums)，Timpani & Roto-toms；多个鼓分配及改调留时，5秒为教材建议而非通用极限；具体鼓范围及速度题定，真实演奏待核。"
+      },
+      "caseAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-integrated-closure.md",
+        "blob": "716bf12546b7e56608ad7e98d76a4ca688cc96d8",
+        "line": 6,
+        "row": "| AX02 定音鼓可调与资源 | AR12/K03.02.02.03、AR13/K03.02.02.04、AR57/K03.03.03.05、AR58/K03.01.01.05；S375 | 120 BPM；题设单鼓可调F2–C3，目标G2到A2，需改调5秒（本任务采用S375建议作硬筛）；8拍间隔4秒拒绝，12拍6秒可进入复核；也可预调两鼓。 | 单音均在范围就放行改调，或把5秒作为所有鼓手硬极限。 | 若目标在范围但来不及，核持续音结束到下次起音之间的净时间（上述间隔从上一音结束算）与预调资源。 | 实际调音精度、气候、鼓型及演奏者均可能影响；不声称候选实演通过。 |"
+      }
+    }
+  ]
+}

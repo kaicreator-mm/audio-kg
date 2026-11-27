@@ -1,0 +1,1311 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "d4": "K03.01.01.01",
+      "historicalRequirement": "发声机制及乐器族",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.01.01.03",
+        "K03.01.01.05"
+      ],
+      "unresolved": [],
+      "limits": "发声体与有/无确定音高是不同分类轴；鼓/镲不强制同机制；2011版已由AX01限定补证；后续增补及未查具体器物仍未知。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 5,
+        "row": "| K03.01.01.01 | 发声机制及乐器族 | BOUNDED_COMPOSITION | [AR10/K03.01.01.03](arrangement-r2-knowledge-cases.md#L5)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7) | 发声体与有/无确定音高是不同分类轴；鼓/镲不强制同机制；2011版已由AX01限定补证；后续增补及未查具体器物仍未知。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR10@1",
+        "K03-CL-AR58@1"
+      ]
+    },
+    {
+      "d4": "K03.01.01.02",
+      "historicalRequirement": "具体乐器与型号语境",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.01.01.04",
+        "K03.01.02.05",
+        "K03.01.02.06",
+        "K03.01.01.05"
+      ],
+      "unresolved": [],
+      "limits": "家族/型号/移调和打击对象具体；特殊历史配置不外推。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 6,
+        "row": "| K03.01.01.02 | 具体乐器与型号语境 | ROUTER_CANDIDATE | [AR11/K03.01.01.04](arrangement-r2-knowledge-cases.md#L6)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7) | 家族/型号/移调和打击对象具体；特殊历史配置不外推。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR11@1",
+        "K03-CL-AR33@1",
+        "K03-CL-AR56@1",
+        "K03-CL-AR58@1"
+      ]
+    },
+    {
+      "d4": "K03.01.02.01",
+      "historicalRequirement": "书写音与实际音的映射",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.01.02.03",
+        "K03.01.02.04",
+        "K03.01.02.05",
+        "K03.01.02.06"
+      ],
+      "unresolved": [],
+      "limits": "现代具体变体的书写到实音；旧谱例外要求约定。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 7,
+        "row": "| K03.01.02.01 | 书写音与实际音的映射 | ROUTER_CANDIDATE | [AR01/K03.01.02.03](arrangement-r1-knowledge-cases.md#L5)；[AR02/K03.01.02.04](arrangement-r1-knowledge-cases.md#L6)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 现代具体变体的书写到实音；旧谱例外要求约定。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR01@1",
+        "K03-CL-AR02@1",
+        "K03-CL-AR33@1",
+        "K03-CL-AR56@1"
+      ]
+    },
+    {
+      "d4": "K03.01.02.02",
+      "historicalRequirement": "移调方向和音名拼写",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.01.02.03",
+        "K03.01.02.04",
+        "K03.01.02.05",
+        "K03.05.02.05",
+        "K03.01.02.06"
+      ],
+      "unresolved": [],
+      "limits": "音名/偏移及八度记谱；不同变体须核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 8,
+        "row": "| K03.01.02.02 | 移调方向和音名拼写 | ROUTER_CANDIDATE | [AR01/K03.01.02.03](arrangement-r1-knowledge-cases.md#L5)；[AR02/K03.01.02.04](arrangement-r1-knowledge-cases.md#L6)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 音名/偏移及八度记谱；不同变体须核。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR01@1",
+        "K03-CL-AR02@1",
+        "K03-CL-AR33@1",
+        "K03-CL-AR56@1"
+      ]
+    },
+    {
+      "d4": "K03.01.03.01",
+      "historicalRequirement": "音区力度与奏法的音色条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.01.03.03",
+        "K03.01.03.04",
+        "K03.02.02.06",
+        "K03.07.01.04"
+      ],
+      "unresolved": [],
+      "limits": "低区长笛、换区音色、拨/弓奏及相对力度，具体选择；实际音色待听评。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 9,
+        "row": "| K03.01.03.01 | 音区力度与奏法的音色条件 | BOUNDED_COMPOSITION | [AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR37/K03.02.02.06](arrangement-r3-knowledge-cases.md#L9)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23) | 低区长笛、换区音色、拨/弓奏及相对力度，具体选择；实际音色待听评。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR34@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR37@1",
+        "K03-CL-AR51@1"
+      ]
+    },
+    {
+      "d4": "K03.01.03.02",
+      "historicalRequirement": "采样音色与真实演奏区分",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.01.03.04",
+        "K03.08.02.04",
+        "K03.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "声库技法触发与源谱/实际演奏分离；真实patch映射由K12。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 10,
+        "row": "| K03.01.03.02 | 采样音色与真实演奏区分 | BOUNDED_COMPOSITION | [AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 声库技法触发与源谱/实际演奏分离；真实patch映射由K12。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR35@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR60@1"
+      ]
+    },
+    {
+      "d4": "K03.02.01.01",
+      "historicalRequirement": "理论音域实用音域及舒适区域",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.02.01.03",
+        "K03.02.01.04",
+        "K03.01.03.03",
+        "K03.03.01.04"
+      ],
+      "unresolved": [],
+      "limits": "物理/个体范围与适宜注册不等；本例与个体确认。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 11,
+        "row": "| K03.02.01.01 | 理论音域实用音域及舒适区域 | BOUNDED_COMPOSITION | [AR03/K03.02.01.03](arrangement-r1-knowledge-cases.md#L7)；[AR04/K03.02.01.04](arrangement-r1-knowledge-cases.md#L8)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11) | 物理/个体范围与适宜注册不等；本例与个体确认。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR03@1",
+        "K03-CL-AR04@1",
+        "K03-CL-AR34@1"
+      ]
+    },
+    {
+      "d4": "K03.02.01.02",
+      "historicalRequirement": "书写范围与实音范围区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.01.02.04",
+        "K03.02.01.03",
+        "K03.02.01.04",
+        "K03.01.02.05",
+        "K03.01.02.06"
+      ],
+      "unresolved": [],
+      "limits": "明确实音与书写区间，已知具体变体。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 12,
+        "row": "| K03.02.01.02 | 书写范围与实音范围区别 | ROUTER_CANDIDATE | [AR02/K03.01.02.04](arrangement-r1-knowledge-cases.md#L6)；[AR03/K03.02.01.03](arrangement-r1-knowledge-cases.md#L7)；[AR04/K03.02.01.04](arrangement-r1-knowledge-cases.md#L8)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 明确实音与书写区间，已知具体变体。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR02@1",
+        "K03-CL-AR03@1",
+        "K03-CL-AR04@1",
+        "K03-CL-AR33@1",
+        "K03-CL-AR56@1"
+      ]
+    },
+    {
+      "d4": "K03.02.02.01",
+      "historicalRequirement": "速度跳进呼吸指法换把等条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.02.02.03",
+        "K03.02.02.04",
+        "K03.02.02.05",
+        "K03.02.02.06",
+        "K03.02.02.07",
+        "K03.03.03.05"
+      ],
+      "unresolved": [],
+      "limits": "踏板、滑管、呼吸、速度、相邻跨弦、换奏；具体速度均题设。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 13,
+        "row": "| K03.02.02.01 | 速度跳进呼吸指法换把等条件 | ROUTER_CANDIDATE | [AR12/K03.02.02.03](arrangement-r2-knowledge-cases.md#L7)；[AR13/K03.02.02.04](arrangement-r2-knowledge-cases.md#L8)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR37/K03.02.02.06](arrangement-r3-knowledge-cases.md#L9)；[AR38/K03.02.02.07](arrangement-r3-knowledge-cases.md#L10)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 踏板、滑管、呼吸、速度、相邻跨弦、换奏；具体速度均题设。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR12@1",
+        "K03-CL-AR13@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR37@1",
+        "K03-CL-AR38@1",
+        "K03-CL-AR57@1"
+      ]
+    },
+    {
+      "d4": "K03.02.02.02",
+      "historicalRequirement": "不同演奏者与乐器差异",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.02.01.04",
+        "K03.02.02.05",
+        "K03.02.02.06",
+        "K03.02.02.07",
+        "K03.03.01.04",
+        "K03.03.03.05"
+      ],
+      "unresolved": [],
+      "limits": "个体约束及历史编制惯例，未给确认则未知。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 14,
+        "row": "| K03.02.02.02 | 不同演奏者与乐器差异 | ROUTER_CANDIDATE | [AR04/K03.02.01.04](arrangement-r1-knowledge-cases.md#L8)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR37/K03.02.02.06](arrangement-r3-knowledge-cases.md#L9)；[AR38/K03.02.02.07](arrangement-r3-knowledge-cases.md#L10)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 个体约束及历史编制惯例，未给确认则未知。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR04@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR37@1",
+        "K03-CL-AR38@1",
+        "K03-CL-AR57@1"
+      ]
+    },
+    {
+      "d4": "K03.02.03.01",
+      "historicalRequirement": "按目标选择替代技法或声部",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.02.03.03",
+        "K03.02.02.03",
+        "K03.02.02.04",
+        "K03.02.02.05",
+        "K03.05.02.05",
+        "K03.03.03.05"
+      ],
+      "unresolved": [],
+      "limits": "分部/替代拼写/替换声部/轮换的许可与无解。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 15,
+        "row": "| K03.02.03.01 | 按目标选择替代技法或声部 | ROUTER_CANDIDATE | [AR05/K03.02.03.03](arrangement-r1-knowledge-cases.md#L9)；[AR12/K03.02.02.03](arrangement-r2-knowledge-cases.md#L7)；[AR13/K03.02.02.04](arrangement-r2-knowledge-cases.md#L8)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 分部/替代拼写/替换声部/轮换的许可与无解。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR05@1",
+        "K03-CL-AR12@1",
+        "K03-CL-AR13@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR57@1"
+      ]
+    },
+    {
+      "d4": "K03.02.03.02",
+      "historicalRequirement": "替代对音色和表达的影响",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.01.03.03",
+        "K03.01.03.04",
+        "K03.02.02.05",
+        "K03.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "替代会改变发音/音区/人手，保留原意及试听要求；不声称效果实测。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 16,
+        "row": "| K03.02.03.02 | 替代对音色和表达的影响 | BOUNDED_COMPOSITION | [AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 替代会改变发音/音区/人手，保留原意及试听要求；不声称效果实测。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR34@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR52@1"
+      ]
+    },
+    {
+      "d4": "K03.03.01.01",
+      "historicalRequirement": "主次角色与音区选择",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.03.01.03",
+        "K03.03.02.04",
+        "K03.04.02.03",
+        "K03.03.01.04"
+      ],
+      "unresolved": [],
+      "limits": "明确音乐角色、音区及高低分工。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 17,
+        "row": "| K03.03.01.01 | 主次角色与音区选择 | ROUTER_CANDIDATE | [AR14/K03.03.01.03](arrangement-r2-knowledge-cases.md#L9)；[AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR19/K03.04.02.03](arrangement-r2-knowledge-cases.md#L14)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11) | 明确音乐角色、音区及高低分工。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR14@1",
+        "K03-CL-AR16@1",
+        "K03-CL-AR19@1"
+      ]
+    },
+    {
+      "d4": "K03.03.01.02",
+      "historicalRequirement": "记录乐器数量及能力",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.03.03.03",
+        "K03.03.01.04",
+        "K03.03.03.04",
+        "K03.03.03.05",
+        "K03.08.01.05"
+      ],
+      "unresolved": [],
+      "limits": "人数、能力、换奏及身份；part不等人数。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 18,
+        "row": "| K03.03.01.02 | 记录乐器数量及能力 | ROUTER_CANDIDATE | [AR06/K03.03.03.03](arrangement-r1-knowledge-cases.md#L10)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11)；[AR40/K03.03.03.04](arrangement-r3-knowledge-cases.md#L12)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8) | 人数、能力、换奏及身份；part不等人数。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR40@1",
+        "K03-CL-AR57@1",
+        "K03-CL-AR59@1"
+      ]
+    },
+    {
+      "d4": "K03.03.02.01",
+      "historicalRequirement": "同度八度及混合音色条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.03.01.03",
+        "K03.03.02.03",
+        "K03.01.03.03",
+        "K03.01.03.04"
+      ],
+      "unresolved": [],
+      "limits": "同度/八度、实际音色及平衡约束，非混合效果保证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 19,
+        "row": "| K03.03.02.01 | 同度八度及混合音色条件 | ROUTER_CANDIDATE | [AR14/K03.03.01.03](arrangement-r2-knowledge-cases.md#L9)；[AR15/K03.03.02.03](arrangement-r2-knowledge-cases.md#L10)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7) | 同度/八度、实际音色及平衡约束，非混合效果保证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR14@1",
+        "K03-CL-AR15@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR35@1"
+      ]
+    },
+    {
+      "d4": "K03.03.02.02",
+      "historicalRequirement": "区分配器平衡与混音增益",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.03.02.04",
+        "K03.01.03.03",
+        "K03.07.01.04",
+        "K03.07.03.04",
+        "K03.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "谱面重配与实际混音/力度测量分别处理。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 20,
+        "row": "| K03.03.02.02 | 区分配器平衡与混音增益 | BOUNDED_COMPOSITION | [AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 谱面重配与实际混音/力度测量分别处理。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR16@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR51@1",
+        "K03-CL-AR52@1",
+        "K03-CL-AR60@1"
+      ]
+    },
+    {
+      "d4": "K03.03.03.01",
+      "historicalRequirement": "编制演奏者及排练资源",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.03.03.03",
+        "K03.03.01.04",
+        "K03.03.03.04",
+        "K03.03.03.05"
+      ],
+      "unresolved": [],
+      "limits": "资源并发、个体与排练时长、换奏明确。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 21,
+        "row": "| K03.03.03.01 | 编制演奏者及排练资源 | ROUTER_CANDIDATE | [AR06/K03.03.03.03](arrangement-r1-knowledge-cases.md#L10)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11)；[AR40/K03.03.03.04](arrangement-r3-knowledge-cases.md#L12)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 资源并发、个体与排练时长、换奏明确。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR40@1",
+        "K03-CL-AR57@1"
+      ]
+    },
+    {
+      "d4": "K03.03.03.02",
+      "historicalRequirement": "可行性与审美权衡",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.03.03.03",
+        "K03.06.03.03",
+        "K03.03.03.04",
+        "K03.06.03.04",
+        "K03.03.03.05"
+      ],
+      "unresolved": [],
+      "limits": "硬资源筛选、多个偏好候选及授权停止。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 22,
+        "row": "| K03.03.03.02 | 可行性与审美权衡 | ROUTER_CANDIDATE | [AR06/K03.03.03.03](arrangement-r1-knowledge-cases.md#L10)；[AR29/K03.06.03.03](arrangement-r2-knowledge-cases.md#L24)；[AR40/K03.03.03.04](arrangement-r3-knowledge-cases.md#L12)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 硬资源筛选、多个偏好候选及授权停止。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR29@1",
+        "K03-CL-AR40@1",
+        "K03-CL-AR50@1",
+        "K03-CL-AR57@1"
+      ]
+    },
+    {
+      "d4": "K03.04.01.01",
+      "historicalRequirement": "单声主调复调等语境",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.04.01.03",
+        "K03.04.01.04",
+        "K03.04.02.03",
+        "K03.04.01.05",
+        "K03.06.02.04"
+      ],
+      "unresolved": [],
+      "limits": "具体织体对照，地域交错非强制。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 23,
+        "row": "| K03.04.01.01 | 单声主调复调等语境 | ROUTER_CANDIDATE | [AR17/K03.04.01.03](arrangement-r2-knowledge-cases.md#L12)；[AR18/K03.04.01.04](arrangement-r2-knowledge-cases.md#L13)；[AR19/K03.04.02.03](arrangement-r2-knowledge-cases.md#L14)；[AR41/K03.04.01.05](arrangement-r3-knowledge-cases.md#L13)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20) | 具体织体对照，地域交错非强制。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR17@1",
+        "K03-CL-AR18@1",
+        "K03-CL-AR19@1",
+        "K03-CL-AR41@1",
+        "K03-CL-AR48@1"
+      ]
+    },
+    {
+      "d4": "K03.04.01.02",
+      "historicalRequirement": "音轨与音乐声部的区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.04.01.03",
+        "K03.04.01.05",
+        "K03.08.01.04",
+        "K03.08.01.05"
+      ],
+      "unresolved": [],
+      "limits": "轨、part、voice、staff独立，具体单轨两声部。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 24,
+        "row": "| K03.04.01.02 | 音轨与音乐声部的区别 | ROUTER_CANDIDATE | [AR17/K03.04.01.03](arrangement-r2-knowledge-cases.md#L12)；[AR41/K03.04.01.05](arrangement-r3-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8) | 轨、part、voice、staff独立，具体单轨两声部。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR17@1",
+        "K03-CL-AR41@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR59@1"
+      ]
+    },
+    {
+      "d4": "K03.04.02.01",
+      "historicalRequirement": "主线对位背景与填充",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.04.02.03",
+        "K03.04.02.04",
+        "K03.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "主线、和声支撑、对旋律、填充与休止条件。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 25,
+        "row": "| K03.04.02.01 | 主线对位背景与填充 | ROUTER_CANDIDATE | [AR19/K03.04.02.03](arrangement-r2-knowledge-cases.md#L14)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18) | 主线、和声支撑、对旋律、填充与休止条件。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR19@1",
+        "K03-CL-AR42@1",
+        "K03-CL-AR46@1"
+      ]
+    },
+    {
+      "d4": "K03.04.02.02",
+      "historicalRequirement": "层级变化和听辨条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.04.02.03",
+        "K03.01.03.03",
+        "K03.04.02.04",
+        "K03.06.03.04",
+        "K03.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "层级及听辨需要版本化反馈，符号交叠非听评。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 26,
+        "row": "| K03.04.02.02 | 层级变化和听辨条件 | ROUTER_CANDIDATE | [AR19/K03.04.02.03](arrangement-r2-knowledge-cases.md#L14)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 层级及听辨需要版本化反馈，符号交叠非听评。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR19@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR42@1",
+        "K03-CL-AR50@1",
+        "K03-CL-AR52@1"
+      ]
+    },
+    {
+      "d4": "K03.04.03.01",
+      "historicalRequirement": "音区占用与事件密度",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.03.02.04",
+        "K03.04.03.03",
+        "K03.07.01.03",
+        "K03.04.02.04"
+      ],
+      "unresolved": [],
+      "limits": "音区、起音率、活动密度与区间覆盖分别定义。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 27,
+        "row": "| K03.04.03.01 | 音区占用与事件密度 | ROUTER_CANDIDATE | [AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR20/K03.04.03.03](arrangement-r2-knowledge-cases.md#L15)；[AR30/K03.07.01.03](arrangement-r2-knowledge-cases.md#L25)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14) | 音区、起音率、活动密度与区间覆盖分别定义。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR16@1",
+        "K03-CL-AR20@1",
+        "K03-CL-AR30@1",
+        "K03-CL-AR42@1"
+      ]
+    },
+    {
+      "d4": "K03.04.03.02",
+      "historicalRequirement": "不同段落织体对比",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.07.01.03",
+        "K03.07.02.03",
+        "K03.07.01.04"
+      ],
+      "unresolved": [],
+      "limits": "段落层次、密度及相对力度对照。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 28,
+        "row": "| K03.04.03.02 | 不同段落织体对比 | ROUTER_CANDIDATE | [AR30/K03.07.01.03](arrangement-r2-knowledge-cases.md#L25)；[AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23) | 段落层次、密度及相对力度对照。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR30@1",
+        "K03-CL-AR31@1",
+        "K03-CL-AR51@1"
+      ]
+    },
+    {
+      "d4": "K03.05.01.01",
+      "historicalRequirement": "根音与低音选择条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.05.01.03",
+        "K03.05.01.04",
+        "K03.05.01.05"
+      ],
+      "unresolved": [],
+      "limits": "根音与低音、斜线约束及非成员条件。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 29,
+        "row": "| K03.05.01.01 | 根音与低音选择条件 | ROUTER_CANDIDATE | [AR21/K03.05.01.03](arrangement-r2-knowledge-cases.md#L16)；[AR22/K03.05.01.04](arrangement-r2-knowledge-cases.md#L17)；[AR43/K03.05.01.05](arrangement-r3-knowledge-cases.md#L15) | 根音与低音、斜线约束及非成员条件。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR21@1",
+        "K03-CL-AR22@1",
+        "K03-CL-AR43@1"
+      ]
+    },
+    {
+      "d4": "K03.05.01.02",
+      "historicalRequirement": "低音运动与和声语境",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.05.01.04",
+        "K03.05.01.05",
+        "K03.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "具体走动、半音趋近及切换时位。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 30,
+        "row": "| K03.05.01.02 | 低音运动与和声语境 | ROUTER_CANDIDATE | [AR22/K03.05.01.04](arrangement-r2-knowledge-cases.md#L17)；[AR43/K03.05.01.05](arrangement-r3-knowledge-cases.md#L15)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18) | 具体走动、半音趋近及切换时位。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR22@1",
+        "K03-CL-AR43@1",
+        "K03-CL-AR46@1"
+      ]
+    },
+    {
+      "d4": "K03.05.02.01",
+      "historicalRequirement": "音域排列间距与声部连接",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.05.02.03",
+        "K03.05.02.04",
+        "K03.05.02.06"
+      ],
+      "unresolved": [],
+      "limits": "注册间距、导音和手跨度，任务条件限定。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 31,
+        "row": "| K03.05.02.01 | 音域排列间距与声部连接 | ROUTER_CANDIDATE | [AR23/K03.05.02.03](arrangement-r2-knowledge-cases.md#L18)；[AR24/K03.05.02.04](arrangement-r2-knowledge-cases.md#L19)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17) | 注册间距、导音和手跨度，任务条件限定。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR23@1",
+        "K03-CL-AR24@1",
+        "K03-CL-AR45@1"
+      ]
+    },
+    {
+      "d4": "K03.05.02.02",
+      "historicalRequirement": "按乐器限制选择voicing",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.02.02.03",
+        "K03.05.02.05",
+        "K03.05.02.06"
+      ],
+      "unresolved": [],
+      "limits": "吉他弦位、钢琴手型和竖琴踏板的可行性差异。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 32,
+        "row": "| K03.05.02.02 | 按乐器限制选择voicing | ROUTER_CANDIDATE | [AR12/K03.02.02.03](arrangement-r2-knowledge-cases.md#L7)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17) | 吉他弦位、钢琴手型和竖琴踏板的可行性差异。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR12@1",
+        "K03-CL-AR45@1"
+      ]
+    },
+    {
+      "d4": "K03.05.03.01",
+      "historicalRequirement": "节奏型与主线呼应",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.05.03.03",
+        "K03.05.03.04",
+        "K03.05.01.05",
+        "K03.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "多种实际节奏型与主线/和声/角色条件。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 33,
+        "row": "| K03.05.03.01 | 节奏型与主线呼应 | ROUTER_CANDIDATE | [AR25/K03.05.03.03](arrangement-r2-knowledge-cases.md#L20)；[AR26/K03.05.03.04](arrangement-r2-knowledge-cases.md#L21)；[AR43/K03.05.01.05](arrangement-r3-knowledge-cases.md#L15)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18) | 多种实际节奏型与主线/和声/角色条件。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR25@1",
+        "K03-CL-AR26@1",
+        "K03-CL-AR43@1",
+        "K03-CL-AR46@1"
+      ]
+    },
+    {
+      "d4": "K03.05.03.02",
+      "historicalRequirement": "填充及留白的条件",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.05.03.04",
+        "K03.04.02.04",
+        "K03.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "填充区间、背景修订与保护；非普遍留白规则。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 34,
+        "row": "| K03.05.03.02 | 填充及留白的条件 | ROUTER_CANDIDATE | [AR26/K03.05.03.04](arrangement-r2-knowledge-cases.md#L21)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 填充区间、背景修订与保护；非普遍留白规则。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR26@1",
+        "K03-CL-AR42@1",
+        "K03-CL-AR52@1"
+      ]
+    },
+    {
+      "d4": "K03.06.01.01",
+      "historicalRequirement": "节奏组配置和历史语境",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.06.01.03",
+        "K03.06.02.03",
+        "K03.06.01.04",
+        "K03.06.01.05",
+        "K03.06.02.04"
+      ],
+      "unresolved": [],
+      "limits": "爵士节奏组、reggae单特征、完整clave及交错/非交错传统；不推广。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 35,
+        "row": "| K03.06.01.01 | 节奏组配置和历史语境 | BOUNDED_COMPOSITION | [AR27/K03.06.01.03](arrangement-r2-knowledge-cases.md#L22)；[AR28/K03.06.02.03](arrangement-r2-knowledge-cases.md#L23)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18)；[AR47/K03.06.01.05](arrangement-r3-knowledge-cases.md#L19)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20) | 爵士节奏组、reggae单特征、完整clave及交错/非交错传统；不推广。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR27@1",
+        "K03-CL-AR28@1",
+        "K03-CL-AR46@1",
+        "K03-CL-AR47@1",
+        "K03-CL-AR48@1"
+      ]
+    },
+    {
+      "d4": "K03.06.01.02",
+      "historicalRequirement": "标注来源和非普遍限制",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.06.01.03",
+        "K03.06.01.05",
+        "K03.06.02.04",
+        "K03.06.02.05"
+      ],
+      "unresolved": [],
+      "limits": "具体来源和地域条件、反例、实际版权待核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 36,
+        "row": "| K03.06.01.02 | 标注来源和非普遍限制 | ROUTER_CANDIDATE | [AR27/K03.06.01.03](arrangement-r2-knowledge-cases.md#L22)；[AR47/K03.06.01.05](arrangement-r3-knowledge-cases.md#L19)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21) | 具体来源和地域条件、反例、实际版权待核。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR27@1",
+        "K03-CL-AR47@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR49@1"
+      ]
+    },
+    {
+      "d4": "K03.06.02.01",
+      "historicalRequirement": "区分保留元素及替换元素",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.06.02.03",
+        "K03.07.02.03",
+        "K03.06.02.04",
+        "K03.06.02.05"
+      ],
+      "unresolved": [],
+      "limits": "保留主题/时位/调律，改变伴奏角色或网格。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 37,
+        "row": "| K03.06.02.01 | 区分保留元素及替换元素 | ROUTER_CANDIDATE | [AR28/K03.06.02.03](arrangement-r2-knowledge-cases.md#L23)；[AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21) | 保留主题/时位/调律，改变伴奏角色或网格。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR28@1",
+        "K03-CL-AR31@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR49@1"
+      ]
+    },
+    {
+      "d4": "K03.06.02.02",
+      "historicalRequirement": "目标语境和权利约束",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.06.02.03",
+        "K03.06.02.05",
+        "K03.06.03.04"
+      ],
+      "unresolved": [],
+      "limits": "目标文化和素材权利分开，未知则停用素材，符号原创可研究。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 38,
+        "row": "| K03.06.02.02 | 目标语境和权利约束 | ROUTER_CANDIDATE | [AR28/K03.06.02.03](arrangement-r2-knowledge-cases.md#L23)；[AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22) | 目标文化和素材权利分开，未知则停用素材，符号原创可研究。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR28@1",
+        "K03-CL-AR49@1",
+        "K03-CL-AR50@1"
+      ]
+    },
+    {
+      "d4": "K03.06.03.01",
+      "historicalRequirement": "听众与风格证据",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.06.03.03",
+        "K03.06.03.04",
+        "K03.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "合成听评对象、缺失、版本和停止合同；真实听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 39,
+        "row": "| K03.06.03.01 | 听众与风格证据 | BOUNDED_COMPOSITION | [AR29/K03.06.03.03](arrangement-r2-knowledge-cases.md#L24)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 合成听评对象、缺失、版本和停止合同；真实听评UNKNOWN。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR29@1",
+        "K03-CL-AR50@1",
+        "K03-CL-AR52@1"
+      ]
+    },
+    {
+      "d4": "K03.06.03.02",
+      "historicalRequirement": "多种解释及人工反馈",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.06.03.03",
+        "K03.06.03.04",
+        "K03.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "多解及反馈→候选→重听/回滚；不从听感唯一归因。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 40,
+        "row": "| K03.06.03.02 | 多种解释及人工反馈 | BOUNDED_COMPOSITION | [AR29/K03.06.03.03](arrangement-r2-knowledge-cases.md#L24)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 多解及反馈→候选→重听/回滚；不从听感唯一归因。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR29@1",
+        "K03-CL-AR50@1",
+        "K03-CL-AR52@1"
+      ]
+    },
+    {
+      "d4": "K03.07.01.01",
+      "historicalRequirement": "编制密度与声部进出",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.07.01.03",
+        "K03.07.02.03",
+        "K03.07.01.04"
+      ],
+      "unresolved": [],
+      "limits": "段落声部进出/事件率/配器变化。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 41,
+        "row": "| K03.07.01.01 | 编制密度与声部进出 | ROUTER_CANDIDATE | [AR30/K03.07.01.03](arrangement-r2-knowledge-cases.md#L25)；[AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23) | 段落声部进出/事件率/配器变化。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR30@1",
+        "K03-CL-AR31@1",
+        "K03-CL-AR51@1"
+      ]
+    },
+    {
+      "d4": "K03.07.01.02",
+      "historicalRequirement": "控制表达目标和动态范围",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.01.03.03",
+        "K03.07.01.04",
+        "K03.07.03.04",
+        "K03.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "相对力度目标、配器修改及动态投影，实际声压未知。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 42,
+        "row": "| K03.07.01.02 | 控制表达目标和动态范围 | BOUNDED_COMPOSITION | [AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 相对力度目标、配器修改及动态投影，实际声压未知。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR34@1",
+        "K03-CL-AR51@1",
+        "K03-CL-AR52@1",
+        "K03-CL-AR60@1"
+      ]
+    },
+    {
+      "d4": "K03.07.02.01",
+      "historicalRequirement": "前后段音区节奏织体对比",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.07.01.03",
+        "K03.07.02.03",
+        "K03.07.01.04"
+      ],
+      "unresolved": [],
+      "limits": "AR31明确C3/E3/G3持续对C4/G4/E4/G4逐拍、背景仍低于C5且原主线保护；音区/节奏/织体同时变化，不能归因单因素或声称听感已证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 43,
+        "row": "| K03.07.02.01 | 前后段音区节奏织体对比 | ROUTER_CANDIDATE | [AR30/K03.07.01.03](arrangement-r2-knowledge-cases.md#L25)；[AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23) | AR31明确C3/E3/G3持续对C4/G4/E4/G4逐拍、背景仍低于C5且原主线保护；音区/节奏/织体同时变化，不能归因单因素或声称听感已证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR30@1",
+        "K03-CL-AR31@1",
+        "K03-CL-AR51@1"
+      ]
+    },
+    {
+      "d4": "K03.07.02.02",
+      "historicalRequirement": "保留重要主题材料",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.07.02.03",
+        "K03.06.02.04",
+        "K03.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "保护主线、主题及实际调律条件。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 44,
+        "row": "| K03.07.02.02 | 保留重要主题材料 | ROUTER_CANDIDATE | [AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 保护主线、主题及实际调律条件。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR31@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR52@1"
+      ]
+    },
+    {
+      "d4": "K03.07.03.01",
+      "historicalRequirement": "配器变化与增益变化分离",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.03.02.04",
+        "K03.07.03.03",
+        "K03.01.03.03",
+        "K03.07.01.04",
+        "K03.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "配器谱面变化不等增益变化，真实测量外域。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 45,
+        "row": "| K03.07.03.01 | 配器变化与增益变化分离 | ROUTER_CANDIDATE | [AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 配器谱面变化不等增益变化，真实测量外域。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR16@1",
+        "K03-CL-AR32@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR51@1",
+        "K03-CL-AR52@1"
+      ]
+    },
+    {
+      "d4": "K03.07.03.02",
+      "historicalRequirement": "按听评反馈最小修正",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.07.03.03",
+        "K03.06.03.04",
+        "K03.07.03.04",
+        "K03.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "合成反馈、最小修正、保护及重听/回滚。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 46,
+        "row": "| K03.07.03.02 | 按听评反馈最小修正 | BOUNDED_COMPOSITION | [AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27) | 合成反馈、最小修正、保护及重听/回滚。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR32@1",
+        "K03-CL-AR50@1",
+        "K03-CL-AR52@1",
+        "K03-CL-AR55@1"
+      ]
+    },
+    {
+      "d4": "K03.08.01.01",
+      "historicalRequirement": "part ID与声部身份",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.08.01.03",
+        "K03.04.01.05",
+        "K03.08.01.04",
+        "K03.08.01.05"
+      ],
+      "unresolved": [],
+      "limits": "part/voice/staff/乐器标识、游标与身份。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 47,
+        "row": "| K03.08.01.01 | part ID与声部身份 | ROUTER_CANDIDATE | [AR07/K03.08.01.03](arrangement-r1-knowledge-cases.md#L11)；[AR41/K03.04.01.05](arrangement-r3-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8) | part/voice/staff/乐器标识、游标与身份。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR07@1",
+        "K03-CL-AR41@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR59@1"
+      ]
+    },
+    {
+      "d4": "K03.08.01.02",
+      "historicalRequirement": "书写音实音和版本一致性",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.08.01.03",
+        "K03.08.03.03",
+        "K03.08.01.04",
+        "K03.01.02.06"
+      ],
+      "unresolved": [],
+      "limits": "移调、版本和总分谱时位约束。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 48,
+        "row": "| K03.08.01.02 | 书写音实音和版本一致性 | ROUTER_CANDIDATE | [AR07/K03.08.01.03](arrangement-r1-knowledge-cases.md#L11)；[AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 移调、版本和总分谱时位约束。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR07@1",
+        "K03-CL-AR09@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR56@1"
+      ]
+    },
+    {
+      "d4": "K03.08.02.01",
+      "historicalRequirement": "区分记谱及声音实现",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.08.02.03",
+        "K03.01.03.04",
+        "K03.08.02.04",
+        "K03.01.01.05",
+        "K03.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "音高/时位投影不能恢复技法、音名、力度及无确定音高角色。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 49,
+        "row": "| K03.08.02.01 | 区分记谱及声音实现 | ROUTER_CANDIDATE | [AR08/K03.08.02.03](arrangement-r1-knowledge-cases.md#L12)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 音高/时位投影不能恢复技法、音名、力度及无确定音高角色。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR08@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR58@1",
+        "K03-CL-AR60@1"
+      ]
+    },
+    {
+      "d4": "K03.08.02.02",
+      "historicalRequirement": "保留音名表情与技术标记损失",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.08.02.03",
+        "K03.01.03.04",
+        "K03.08.02.04",
+        "K03.08.01.05",
+        "K03.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "明确技术标记、拼写、力度和乐器身份损失；真实转换能力待证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 50,
+        "row": "| K03.08.02.02 | 保留音名表情与技术标记损失 | BOUNDED_COMPOSITION | [AR08/K03.08.02.03](arrangement-r1-knowledge-cases.md#L12)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 明确技术标记、拼写、力度和乐器身份损失；真实转换能力待证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR08@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR59@1",
+        "K03-CL-AR60@1"
+      ]
+    },
+    {
+      "d4": "K03.08.03.01",
+      "historicalRequirement": "记录格式转换与失效依赖",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K03.08.03.03",
+        "K03.08.01.04",
+        "K03.08.02.04",
+        "K03.08.03.04",
+        "K03.08.02.05"
+      ],
+      "unresolved": [],
+      "limits": "格式投影损失表、源/派生版本、依赖失效；实际宿主未运行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 51,
+        "row": "| K03.08.03.01 | 记录格式转换与失效依赖 | BOUNDED_COMPOSITION | [AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 格式投影损失表、源/派生版本、依赖失效；实际宿主未运行。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR09@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR60@1"
+      ]
+    },
+    {
+      "d4": "K03.08.03.02",
+      "historicalRequirement": "保护原谱并验证替代版本",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K03.08.03.03",
+        "K03.07.03.03",
+        "K03.07.03.04",
+        "K03.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "保护原谱、局部候选、拒绝回写及回滚。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r4-legacy-convergence.md",
+        "blob": "e588bc6735fa327fedfee7491784004baf2e3014",
+        "line": 52,
+        "row": "| K03.08.03.02 | 保护原谱并验证替代版本 | ROUTER_CANDIDATE | [AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27) | 保护原谱、局部候选、拒绝回写及回滚。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K03-CL-AR09@1",
+        "K03-CL-AR32@1",
+        "K03-CL-AR52@1",
+        "K03-CL-AR55@1"
+      ]
+    }
+  ],
+  "splitRoutes": [
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 20,
+        "row": "| K13.07.01.01 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | 曲种/器物/场合不得混同 | [MX-K13.07.01.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    }
+  ],
+  "historicalFinding": 30,
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}
