@@ -1,0 +1,3256 @@
+{
+  "status": "BUILDER_VALIDATION_ONLY",
+  "testedHead": "bc9d01d6aa914d035648f667de6afd3ec2c17099",
+  "testedTree": "cf8019a0055fd5b006fbb0d3cae43cbfc4499ad2",
+  "base": "337367f48dc3c5c454828cf064f7442f21894481",
+  "node": "v24.21.0",
+  "cleanBeforeAfter": true,
+  "syntaxAndDiffCheck": "PASS",
+  "pilot": {
+    "workflow": {
+      "records": 21,
+      "edges": 42,
+      "checks": 34,
+      "affected": [
+        "A04@1",
+        "A05@1",
+        "A06@1",
+        "A07@1",
+        "E-RECEIPT@2",
+        "EDITABLE@1",
+        "RESULT@1"
+      ],
+      "trace": {
+        "state": "STATIC_CANDIDATE_ONLY",
+        "primary": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07"
+        ],
+        "supports": [
+          "S-A11",
+          "S-GV02",
+          "S-V06"
+        ],
+        "evidence": [
+          "E-EST",
+          "E-OBS",
+          "E-RECEIPT"
+        ],
+        "result": {
+          "state": "STATIC_CANDIDATE_ONLY",
+          "candidate": "C/c2",
+          "report": "R2/r2",
+          "referenceId": "OBS-A-01",
+          "estimateId": "EST-2",
+          "estimateError": 0,
+          "actualGoalError": 165.00422849992202,
+          "estimatedGoalError": 165.00422849992202
+        },
+        "refs": [
+          "A01@1",
+          "S-V06@1",
+          "S-GV02@1",
+          "GRANT@1",
+          "A02@1",
+          "HOST@1",
+          "MODEL@1",
+          "A03@1",
+          "S-A11@1",
+          "CTX@1",
+          "E-OBS@1",
+          "E-EST@2",
+          "C@2",
+          "E-RECEIPT@2",
+          "ORIGINAL@1",
+          "A04@1",
+          "A05@1",
+          "A06@1",
+          "RESULT@1",
+          "EDITABLE@1",
+          "A07@1"
+        ],
+        "release": false
+      },
+      "graphDigest": "67edbcf19efc0378ad91e4b57fdf385427d9270c50c381ab8785cfd86147747f",
+      "boundedResolution": {
+        "disputed": {
+          "state": "DISPUTED",
+          "referenceHz": null,
+          "acceptedClaim": false,
+          "actualObservation": false,
+          "release": false
+        },
+        "resolved": {
+          "state": "SYNTHETIC_REFERENCE_QUALIFIED",
+          "referenceHz": 220,
+          "matched": [
+            "H-OBS-220"
+          ],
+          "notSupported": [
+            "H-OBS-200"
+          ],
+          "acceptedClaim": false,
+          "actualObservation": false,
+          "release": false
+        },
+        "rollbackPlan": {
+          "state": "PENDING_REVALIDATION",
+          "from": "C/c3",
+          "target": "C/c2",
+          "proposal": "NEW_REVISION_REQUIRED",
+          "historicalReceipt": "R2/r2",
+          "reuseHistoricalReceipt": false,
+          "requiresNewReceipt": true,
+          "requiresCurrentGrant": true,
+          "release": false,
+          "executed": false
+        }
+      },
+      "limits": "fixed actual witness projection; not general runtime or actual authorization"
+    },
+    "status": "RESEARCH_ONLY",
+    "node": "v24.21.0",
+    "checks": 189,
+    "passed": 189,
+    "results": [
+      [
+        "actual pack parses and validates",
+        true
+      ],
+      [
+        "roundtrip CENTS-FP",
+        true
+      ],
+      [
+        "roundtrip CENTS-FN",
+        true
+      ],
+      [
+        "roundtrip CENTS-RP",
+        true
+      ],
+      [
+        "roundtrip CENTS-RN",
+        true
+      ],
+      [
+        "roundtrip PITCH-FP",
+        true
+      ],
+      [
+        "roundtrip PITCH-FN",
+        true
+      ],
+      [
+        "roundtrip PITCH-RP",
+        true
+      ],
+      [
+        "roundtrip PITCH-RN",
+        true
+      ],
+      [
+        "roundtrip WINDOW-FP",
+        true
+      ],
+      [
+        "roundtrip WINDOW-FN",
+        true
+      ],
+      [
+        "roundtrip WINDOW-RP",
+        true
+      ],
+      [
+        "roundtrip WINDOW-RN",
+        true
+      ],
+      [
+        "roundtrip CENTS-BOUND",
+        true
+      ],
+      [
+        "roundtrip CENTS-UNK",
+        true
+      ],
+      [
+        "roundtrip PITCH-BOUND",
+        true
+      ],
+      [
+        "roundtrip PITCH-UNK",
+        true
+      ],
+      [
+        "roundtrip WINDOW-BOUND",
+        true
+      ],
+      [
+        "roundtrip WINDOW-UNK",
+        true
+      ],
+      [
+        "heldout eval-r1",
+        true
+      ],
+      [
+        "heldout eval-r2",
+        true
+      ],
+      [
+        "heldout eval-r3",
+        true
+      ],
+      [
+        "heldout eval-r4",
+        true
+      ],
+      [
+        "heldout eval-r5",
+        true
+      ],
+      [
+        "public F+ cents",
+        true
+      ],
+      [
+        "public F- equal Hz difference unequal ratio",
+        true
+      ],
+      [
+        "public R+ frequency inverse under given reference",
+        true
+      ],
+      [
+        "public R- lacks reference",
+        true
+      ],
+      [
+        "public PITCH-FP",
+        true
+      ],
+      [
+        "public PITCH-FN",
+        true
+      ],
+      [
+        "public PITCH-RP",
+        true
+      ],
+      [
+        "public PITCH-RN cannot infer true deviation",
+        true
+      ],
+      [
+        "public WINDOW-FP",
+        true
+      ],
+      [
+        "public WINDOW-FN no extra observation",
+        true
+      ],
+      [
+        "public WINDOW-RP partial reverse",
+        true
+      ],
+      [
+        "public WINDOW-RN insufficient reverse",
+        true
+      ],
+      [
+        "invalid frequency",
+        true
+      ],
+      [
+        "wrong event",
+        true
+      ],
+      [
+        "wrong independent clock",
+        true
+      ],
+      [
+        "wrong estimate window",
+        true
+      ],
+      [
+        "wrong reference kind",
+        true
+      ],
+      [
+        "missing musical target",
+        true
+      ],
+      [
+        "same observation different grid",
+        true
+      ],
+      [
+        "complex or unqualified one-sided bins",
+        true
+      ],
+      [
+        "invalid fft length",
+        true
+      ],
+      [
+        "reverse multiple windows",
+        true
+      ],
+      [
+        "historical alias",
+        true
+      ],
+      [
+        "split not equivalent",
+        true
+      ],
+      [
+        "unregistered route unknown",
+        true
+      ],
+      [
+        "retrieval CQ01",
+        true
+      ],
+      [
+        "no heldout content CQ01",
+        true
+      ],
+      [
+        "retrieval CQ06",
+        true
+      ],
+      [
+        "no heldout content CQ06",
+        true
+      ],
+      [
+        "retrieval CQ07",
+        true
+      ],
+      [
+        "no heldout content CQ07",
+        true
+      ],
+      [
+        "retrieval CQ21",
+        true
+      ],
+      [
+        "no heldout content CQ21",
+        true
+      ],
+      [
+        "retrieval CQ25",
+        true
+      ],
+      [
+        "no heldout content CQ25",
+        true
+      ],
+      [
+        "eval id not retrievable",
+        true
+      ],
+      [
+        "unmatched query explicitly unknown",
+        true
+      ],
+      [
+        "public-only tree excludes input/rubric",
+        true
+      ],
+      [
+        "public process CQ01",
+        true
+      ],
+      [
+        "no unrelated workflow CQ01",
+        true
+      ],
+      [
+        "public process CQ06",
+        true
+      ],
+      [
+        "no unrelated workflow CQ06",
+        true
+      ],
+      [
+        "public process CQ07",
+        true
+      ],
+      [
+        "no unrelated workflow CQ07",
+        true
+      ],
+      [
+        "public process CQ21",
+        true
+      ],
+      [
+        "public typed workflow CQ21",
+        true
+      ],
+      [
+        "actual public exported graph requery CQ21",
+        true
+      ],
+      [
+        "public process CQ25",
+        true
+      ],
+      [
+        "public typed workflow CQ25",
+        true
+      ],
+      [
+        "actual public exported graph requery CQ25",
+        true
+      ],
+      [
+        "public process K05.07.01.05",
+        true
+      ],
+      [
+        "no unrelated workflow K05.07.01.05",
+        true
+      ],
+      [
+        "public process CL-PITCH@1",
+        true
+      ],
+      [
+        "no unrelated workflow CL-PITCH@1",
+        true
+      ],
+      [
+        "public process CL-WINDOW@1",
+        true
+      ],
+      [
+        "no unrelated workflow CL-WINDOW@1",
+        true
+      ],
+      [
+        "public process eval-r1",
+        true
+      ],
+      [
+        "no unrelated workflow eval-r1",
+        true
+      ],
+      [
+        "reject tampered authority file qualification-manifest.json",
+        true
+      ],
+      [
+        "reject tampered authority file semantic-profile.json",
+        true
+      ],
+      [
+        "duplicate record",
+        true
+      ],
+      [
+        "wrong owner",
+        true
+      ],
+      [
+        "wrong topic",
+        true
+      ],
+      [
+        "unsupported accepted",
+        true
+      ],
+      [
+        "claim missing condition",
+        true
+      ],
+      [
+        "source row forged",
+        true
+      ],
+      [
+        "source blob forged",
+        true
+      ],
+      [
+        "source unauthorized import",
+        true
+      ],
+      [
+        "limited source grade promotion",
+        true
+      ],
+      [
+        "source dangling",
+        true
+      ],
+      [
+        "evidence wrong predicate",
+        true
+      ],
+      [
+        "evidence self support",
+        true
+      ],
+      [
+        "unsupported inverse edge",
+        true
+      ],
+      [
+        "dangling revision",
+        true
+      ],
+      [
+        "duplicate edge",
+        true
+      ],
+      [
+        "dependency cycle",
+        true
+      ],
+      [
+        "missing source edge",
+        true
+      ],
+      [
+        "wrong context",
+        true
+      ],
+      [
+        "wrong primary binding",
+        true
+      ],
+      [
+        "generic D2 binding",
+        true
+      ],
+      [
+        "duplicate binding",
+        true
+      ],
+      [
+        "missing reverse negative",
+        true
+      ],
+      [
+        "unverified observed case",
+        true
+      ],
+      [
+        "private assessment field",
+        true
+      ],
+      [
+        "illegal whole slot alias",
+        true
+      ],
+      [
+        "swap migration role",
+        true
+      ],
+      [
+        "drop migration target",
+        true
+      ],
+      [
+        "stale migration status",
+        true
+      ],
+      [
+        "RV01 fabricated locator version and author",
+        true
+      ],
+      [
+        "RV01 substring URI",
+        true
+      ],
+      [
+        "RV01 false statement same revision",
+        true
+      ],
+      [
+        "RV01 false context same revision",
+        true
+      ],
+      [
+        "RV01 false case same revision",
+        true
+      ],
+      [
+        "RV01 coordinated statement condition case",
+        true
+      ],
+      [
+        "RV01 unqualified new claim revision",
+        true
+      ],
+      [
+        "RV01 same-revision evidence scope drift",
+        true
+      ],
+      [
+        "RV01 stale source revision",
+        true
+      ],
+      [
+        "RV01 fabricate date while locator unchanged",
+        true
+      ],
+      [
+        "RV01 changed case input same revision",
+        true
+      ],
+      [
+        "RV02 both H edges and all support bindings deleted",
+        true
+      ],
+      [
+        "RV02 window H edge and support bindings deleted",
+        true
+      ],
+      [
+        "RV02 one view missing support",
+        true
+      ],
+      [
+        "RV02 downgrade H to O",
+        true
+      ],
+      [
+        "RV02 stale provider ref",
+        true
+      ],
+      [
+        "RV02 dependency condition mismatch",
+        true
+      ],
+      [
+        "RV02 binding condition mismatch",
+        true
+      ],
+      [
+        "RV02 precise H closure K05.07.01.05",
+        true
+      ],
+      [
+        "RV02 scoped support evidence K05.07.01.05",
+        true
+      ],
+      [
+        "RV02 precise H closure CL-PITCH@1",
+        true
+      ],
+      [
+        "RV02 scoped support evidence CL-PITCH@1",
+        true
+      ],
+      [
+        "RV02 precise H closure CQ06",
+        true
+      ],
+      [
+        "RV02 scoped support evidence CQ06",
+        true
+      ],
+      [
+        "RV02 precise H closure CQ25",
+        true
+      ],
+      [
+        "RV02 scoped support evidence CQ25",
+        true
+      ],
+      [
+        "RV02 O does not expand closure",
+        true
+      ],
+      [
+        "RV02 optional navigation removal not mandatory failure",
+        true
+      ],
+      [
+        "RV01 alternate PDF provenance distinct from original publisher",
+        true
+      ],
+      [
+        "RV01 positive qualified S022",
+        true
+      ],
+      [
+        "RV04 detached prior result cannot mutate next source/edge/anchor/case projection",
+        true
+      ],
+      [
+        "RV04 caller pack and sources preserved",
+        true
+      ],
+      [
+        "RV04 exported type profile deeply frozen",
+        true
+      ],
+      [
+        "RV04 second in-process precise H retrieval immutable",
+        true
+      ],
+      [
+        "R8a actual replay",
+        true
+      ],
+      [
+        "R9 actual replay",
+        true
+      ],
+      [
+        "bounded offline alternative",
+        true
+      ],
+      [
+        "bounded revision failure and revalidation",
+        true
+      ],
+      [
+        "bounded failure prohibits release",
+        true
+      ],
+      [
+        "CQ25 seven stages",
+        true
+      ],
+      [
+        "CQ25 support/evidence",
+        true
+      ],
+      [
+        "pilot calculation matches actual trace",
+        true
+      ],
+      [
+        "CQ25 actual knowledge route",
+        true
+      ],
+      [
+        "workflow: complete exported graph roundtrip",
+        true
+      ],
+      [
+        "workflow: export without permission epoch refuses",
+        true
+      ],
+      [
+        "workflow: export without permission status refuses",
+        true
+      ],
+      [
+        "workflow: revocation precedes stale revision",
+        true
+      ],
+      [
+        "workflow: typed graph roundtrip full route",
+        true
+      ],
+      [
+        "workflow: primary and support reverse discovery",
+        true
+      ],
+      [
+        "workflow: CQ21 actual dependent invalidation",
+        true
+      ],
+      [
+        "workflow: old receipt cannot qualify new candidate",
+        true
+      ],
+      [
+        "workflow: grant revoked stops",
+        true
+      ],
+      [
+        "workflow: grant epoch not role authority",
+        true
+      ],
+      [
+        "workflow: unknown authority not allowed",
+        true
+      ],
+      [
+        "workflow: wrong complete result",
+        true
+      ],
+      [
+        "workflow: partial result",
+        true
+      ],
+      [
+        "workflow: missing observation node",
+        true
+      ],
+      [
+        "workflow: missing receipt dependency",
+        true
+      ],
+      [
+        "workflow: missing per-event grant",
+        true
+      ],
+      [
+        "workflow: role as grant",
+        true
+      ],
+      [
+        "workflow: forged observation with recalculated digest",
+        true
+      ],
+      [
+        "workflow: forged candidate with recalculated digest",
+        true
+      ],
+      [
+        "workflow: wrong version edge",
+        true
+      ],
+      [
+        "workflow: wrong relation direction",
+        true
+      ],
+      [
+        "workflow: duplicate typed edge",
+        true
+      ],
+      [
+        "workflow: extra unregistered authority",
+        true
+      ],
+      [
+        "workflow: forged support case",
+        true
+      ],
+      [
+        "workflow: conflicting observations without independent reference remain disputed",
+        true
+      ],
+      [
+        "workflow: single unsupported observation remains unknown",
+        true
+      ],
+      [
+        "workflow: fixed synthetic independent reference distinguishes hypotheses",
+        true
+      ],
+      [
+        "workflow: forged independent observation cannot resolve dispute",
+        true
+      ],
+      [
+        "workflow: different observation window not same dispute",
+        true
+      ],
+      [
+        "workflow: rollback plan preserves old subject and demands new receipt",
+        true
+      ],
+      [
+        "workflow: rollback revoke stops",
+        true
+      ],
+      [
+        "workflow: rollback unknown grant refuses",
+        true
+      ],
+      [
+        "workflow: rollback fabricated historical content refuses",
+        true
+      ],
+      [
+        "workflow: rollback old receipt does not qualify new revision",
+        true
+      ]
+    ],
+    "records": 35,
+    "bindings": 30,
+    "heldout": 5,
+    "replayed": {
+      "xc": 70,
+      "r9": 44
+    },
+    "trace": {
+      "state": "STATIC_CANDIDATE_ONLY",
+      "primary": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "support": [
+        "S-V06",
+        "S-GV02",
+        "S-A11"
+      ],
+      "evidence": [
+        "E-OBS",
+        "E-EST",
+        "E-RECEIPT"
+      ],
+      "result": {
+        "state": "STATIC_CANDIDATE_ONLY",
+        "candidate": "C/c2",
+        "report": "R2/r2",
+        "referenceId": "OBS-A-01",
+        "estimateId": "EST-2",
+        "estimateError": 0,
+        "actualGoalError": 165.00422849992202,
+        "estimatedGoalError": 165.00422849992202
+      }
+    },
+    "limits": [
+      "no actual LLM/audio/tool/permission",
+      "only exercised relationship subset",
+      "no production acceptance/DB",
+      "no exhaustive migration"
+    ]
+  },
+  "f00": {
+    "status": "CANDIDATE_STRUCTURE_ONLY",
+    "node": "v24.21.0",
+    "checks": 84,
+    "passed": 84,
+    "results": [
+      [
+        "fixed controller identity",
+        true
+      ],
+      [
+        "RV01 exact frozen Git tree and complete eligible path/blob projection",
+        true
+      ],
+      [
+        "two actual anchored fixture packs",
+        true
+      ],
+      [
+        "fixture not silently formal",
+        true
+      ],
+      [
+        "precise actual cross-owner H closure",
+        true
+      ],
+      [
+        "provider contexts and limits explicit",
+        true
+      ],
+      [
+        "all evidence and source qualification exposed",
+        true
+      ],
+      [
+        "O navigation does not expand or infer converse",
+        true
+      ],
+      [
+        "D4 multiple distinct conditional claims",
+        true
+      ],
+      [
+        "CQ roots distinct from H support",
+        true
+      ],
+      [
+        "single authority dual case binding",
+        true
+      ],
+      [
+        "actual unknown L1 slots not promoted",
+        true
+      ],
+      [
+        "unknown exact query",
+        true
+      ],
+      [
+        "mutable consumer projections cannot change authority",
+        true
+      ],
+      [
+        "actual cents and period composition arithmetic",
+        true
+      ],
+      [
+        "actual phase and reverse family",
+        true
+      ],
+      [
+        "actual allowlisted CLI on separate tree",
+        true
+      ],
+      [
+        "heldout namespace not queryable",
+        true
+      ],
+      [
+        "wrong controller expected hash rejected",
+        true
+      ],
+      [
+        "changed controller index rejected before input",
+        true
+      ],
+      [
+        "changed pack with same qualification",
+        true
+      ],
+      [
+        "changed qualification same controller pin",
+        true
+      ],
+      [
+        "changed prior registry same pin",
+        true
+      ],
+      [
+        "profile tamper",
+        true
+      ],
+      [
+        "frozen source bytes tamper",
+        true
+      ],
+      [
+        "frozen discovery bytes tamper",
+        true
+      ],
+      [
+        "RV01 portable frozen tree projection tamper",
+        true
+      ],
+      [
+        "RV01 invented L1 source path with matching bytes and revised source",
+        true
+      ],
+      [
+        "RV01 modified frozen source path with candidate-supplied blob",
+        true
+      ],
+      [
+        "RV01 invented L1 evidence path with matching row",
+        true
+      ],
+      [
+        "RV01 modified frozen evidence file and matching new blob",
+        true
+      ],
+      [
+        "RV02 freshly pinned source qualification same prior subject",
+        true
+      ],
+      [
+        "RV02 freshly pinned edge qualification same prior subject",
+        true
+      ],
+      [
+        "RV02 coordinated H edge binding qualification and obligation deletion",
+        true
+      ],
+      [
+        "RV02 coordinated H to O downgrade including obligation removal",
+        true
+      ],
+      [
+        "RV02 optional O removal under unchanged prior qualified subject",
+        true
+      ],
+      [
+        "RV02 binding identity change under unchanged prior claim",
+        true
+      ],
+      [
+        "RV02 remove prior claim and all its owned relationships from selected owner",
+        true
+      ],
+      [
+        "RV02 record-only history cannot omit known qualified source subject",
+        true
+      ],
+      [
+        "RV02 obsolete record-only checkpoint not silently accepted",
+        true
+      ],
+      [
+        "RV02 semantic set order independent identity",
+        true
+      ],
+      [
+        "exact source URI not substring",
+        true
+      ],
+      [
+        "forged alternate access URL",
+        true
+      ],
+      [
+        "forged source anchor row",
+        true
+      ],
+      [
+        "unregistered source license",
+        true
+      ],
+      [
+        "source metadata same immutable revision",
+        true
+      ],
+      [
+        "coordinated same revision statement context case",
+        true
+      ],
+      [
+        "changed evidence limits same immutable revision",
+        true
+      ],
+      [
+        "claim cannot self-promote accepted",
+        true
+      ],
+      [
+        "wrong professional owner",
+        true
+      ],
+      [
+        "duplicate stable current identity",
+        true
+      ],
+      [
+        "duplicate exact identity",
+        true
+      ],
+      [
+        "unknown disposition cannot admit claim",
+        true
+      ],
+      [
+        "wrong discovery row",
+        true
+      ],
+      [
+        "duplicate inventory row",
+        true
+      ],
+      [
+        "missing inventory claim",
+        true
+      ],
+      [
+        "wrong source ref",
+        true
+      ],
+      [
+        "unsupported source linked to evidence",
+        true
+      ],
+      [
+        "wrong required context",
+        true
+      ],
+      [
+        "wrong provider revision",
+        true
+      ],
+      [
+        "coordinated mandatory edge and binding deletion",
+        true
+      ],
+      [
+        "mandatory support binding deletion",
+        true
+      ],
+      [
+        "H downgraded to O",
+        true
+      ],
+      [
+        "H missing explicit scoped obligation",
+        true
+      ],
+      [
+        "invalid inverse edge",
+        true
+      ],
+      [
+        "self support",
+        true
+      ],
+      [
+        "H cycle",
+        true
+      ],
+      [
+        "missing source support",
+        true
+      ],
+      [
+        "duplicate edge",
+        true
+      ],
+      [
+        "missing reverse negative view",
+        true
+      ],
+      [
+        "wrong primary target",
+        true
+      ],
+      [
+        "duplicate primary binding",
+        true
+      ],
+      [
+        "binding condition mismatch",
+        true
+      ],
+      [
+        "actual observation not synthetic",
+        true
+      ],
+      [
+        "private rubric outer field rejected",
+        true
+      ],
+      [
+        "legacy synthetic CQ07 cannot silently become formal K01 root",
+        true
+      ],
+      [
+        "explicit disputed historical routed rows not admitted",
+        true
+      ],
+      [
+        "actual full L1 inventory row accounting in isolated test only",
+        true
+      ],
+      [
+        "formal module missing actual row",
+        true
+      ],
+      [
+        "rewiring prior group without new revision rejected",
+        true
+      ],
+      [
+        "RV02 source and evidence changed without claim revision",
+        true
+      ],
+      [
+        "explicit new source and evidence revisions remain candidate only",
+        true
+      ],
+      [
+        "RV02 explicit affected successor closure uses exact revised subjects",
+        true
+      ],
+      [
+        "stale older source revision",
+        true
+      ]
+    ],
+    "summary": {
+      "status": "CANDIDATE_STRUCTURE_ONLY",
+      "packs": [
+        {
+          "owner": "K01",
+          "coverageMode": "FIXTURE_SUBSET",
+          "packBlob": "ad8374c540bf1b87d135b2665c6d1a52cf5bcbe7",
+          "manifestBlob": "e3163af4cd9e1ff77a304eff39b3308d946003e3"
+        },
+        {
+          "owner": "K07",
+          "coverageMode": "FIXTURE_SUBSET",
+          "packBlob": "d9068a4e8d778f80defbf7a566e1151c9e58229f",
+          "manifestBlob": "707ce219216fff0980edd3b769087cf2056a8978"
+        }
+      ],
+      "counts": {
+        "records": 42,
+        "claims": 4,
+        "edges": 12,
+        "bindings": 42,
+        "inventory": 5
+      },
+      "unresolved": [
+        {
+          "line": 30,
+          "d4": "K01.02.06.02",
+          "disposition": "UNKNOWN",
+          "claimRefs": [],
+          "reason": "EVIDENCE_OPEN；缺原生术语/律制证据，不能从少数示例生成完整律制。",
+          "owner": "K01",
+          "discovery": {
+            "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+            "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+            "line": 30
+          }
+        },
+        {
+          "line": 193,
+          "d4": "K01.07.03.01",
+          "disposition": "UNKNOWN",
+          "claimRefs": [],
+          "reason": "RESIDUAL_OPEN；广义历史曲式需求仍缺精确主目标，不以泛例替代。",
+          "owner": "K01",
+          "discovery": {
+            "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+            "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+            "line": 193
+          }
+        }
+      ],
+      "acceptedClaims": 0
+    },
+    "limits": [
+      "test-only candidate fixtures, no formal population",
+      "externally pinned identity is not automated truth or independent admission",
+      "prior identities require controller-supplied current checkpoint when revisions exist",
+      "only implemented W1 relation/type subset",
+      "no LLM, real audio, permission, production database/runtime"
+    ]
+  },
+  "k07": {
+    "status": "K07_MODULE_CANDIDATE_ONLY",
+    "node": "v24.21.0",
+    "checks": 343,
+    "passed": 343,
+    "results": [
+      [
+        "pinned input knowledge/K07/controller-input.json",
+        true
+      ],
+      [
+        "pinned input queries/K07/capability-index.json",
+        true
+      ],
+      [
+        "pinned input queries/K07/discovery-index.json",
+        true
+      ],
+      [
+        "pinned input queries/K07/legacy-routes.json",
+        true
+      ],
+      [
+        "pinned input queries/K07/split-routes.json",
+        true
+      ],
+      [
+        "pinned input sources/K07/provenance.json",
+        true
+      ],
+      [
+        "pinned input knowledge/K07/domain-workflows.json",
+        true
+      ],
+      [
+        "actual first MODULE, all row identities accounted",
+        true
+      ],
+      [
+        "unique current D4 and candidate identity",
+        true
+      ],
+      [
+        "frozen 51 discovery rows exactly equal module inventory",
+        true
+      ],
+      [
+        "actual 10 H obligations and separate O navigation",
+        true
+      ],
+      [
+        "AC01 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC01 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC01 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC02 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC02 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC02 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC03 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC03 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC03 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC04 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC04 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC04 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC05 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC05 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC05 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC06 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC06 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC06 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC07 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC07 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC07 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC08 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC08 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC08 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC09 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC09 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC09 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC10 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC10 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC10 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC11 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC11 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC11 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC12 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC12 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC12 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC13 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC13 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC13 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC14 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC14 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC14 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC15 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC15 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC15 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC16 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC16 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC16 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC17 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC17 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC17 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC18 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC18 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC18 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC19 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC19 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC19 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC20 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC20 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC20 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC21 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC21 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC21 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC22 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC22 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC22 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC23 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC23 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC23 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC24 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC24 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC24 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC25 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC25 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC25 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC26 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC26 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC26 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC27 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC27 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC27 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC28 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC28 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC28 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC29 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC29 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC29 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC30 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC30 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC30 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC31 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC31 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC31 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC32 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC32 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC32 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC33 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC33 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC33 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC34 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC34 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC34 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC35 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC35 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC35 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC36 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC36 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC36 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC37 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC37 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC37 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC38 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC38 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC38 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC39 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC39 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC39 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC40 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC40 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC40 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC41 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC41 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC41 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC42 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC42 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC42 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC43 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC43 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC43 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC44 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC44 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC44 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC45 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC45 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC45 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC46 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC46 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC46 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC47 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC47 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC47 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC48 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC48 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC48 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC49 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC49 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC49 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC50 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC50 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC50 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "AC51 exact D4/direct root and bounded H closure",
+        true
+      ],
+      [
+        "AC51 four distinct view directions/polarities and single inverse binding",
+        true
+      ],
+      [
+        "AC51 actual source subset, direct/support CQ preserved",
+        true
+      ],
+      [
+        "CQ01 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ02 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ03 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ04 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ05 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ06 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ07 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ08 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ09 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ10 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ11 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ12 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ13 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ14 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ15 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ16 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ17 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ18 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ19 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ20 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ21 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ22 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ23 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ24 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ25 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ26 direct roots only; explicit S navigation index",
+        true
+      ],
+      [
+        "CQ13/CQ25 support-only no false direct root",
+        true
+      ],
+      [
+        "CQ18 culture absent not inferred from physics",
+        true
+      ],
+      [
+        "33 direct sources plus 2 preserved withheld; no qualification promotion",
+        true
+      ],
+      [
+        "same NIST guide anchors two locators not independent sources",
+        true
+      ],
+      [
+        "role matrix exact 56 / P27 S14 C15",
+        true
+      ],
+      [
+        "K07.01/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.01/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.01/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.01/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.01/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.01/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.01/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.02/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.02/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.02/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.02/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.02/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.02/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.02/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.03/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.03/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.03/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.03/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.03/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.03/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.03/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.04/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.04/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.04/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.04/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.04/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.04/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.04/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.05/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.05/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.05/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.05/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.05/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.05/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.05/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.06/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.06/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.06/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.06/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.06/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.06/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.06/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.07/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.07/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.07/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.07/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.07/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.07/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.07/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.08/A01 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.08/A02 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.08/A03 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.08/A04 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.08/A05 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.08/A06 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "K07.08/A07 actual role-conditioned knowledge retrieval and witness",
+        true
+      ],
+      [
+        "48 historical routes preserve original predicate and not equivalence",
+        true
+      ],
+      [
+        "7 affected split predicates still open, precise local candidates only",
+        true
+      ],
+      [
+        "actual isolated K07 CLI with pinned public inputs and no Git or assessment",
+        true
+      ],
+      [
+        "actual MODULE missing row rejected",
+        true
+      ],
+      [
+        "actual K07 wrong owner rejected",
+        true
+      ],
+      [
+        "actual K07 dangling evidence source rejected",
+        true
+      ],
+      [
+        "actual K07 required obligation cannot lose edge and binding",
+        true
+      ],
+      [
+        "actual K07 missing mandatory support view rejected",
+        true
+      ],
+      [
+        "AC25 actual required urgent referral edge cannot disappear",
+        true
+      ],
+      [
+        "AC25 actual missing urgent support view rejected",
+        true
+      ],
+      [
+        "AC49 actual required urgent referral edge cannot disappear",
+        true
+      ],
+      [
+        "AC49 actual missing urgent support view rejected",
+        true
+      ],
+      [
+        "actual K07 cannot self-promote ACCEPTED",
+        true
+      ],
+      [
+        "actual module repeated query detached",
+        true
+      ],
+      [
+        "O optional not required in actual query",
+        true
+      ],
+      [
+        "H inverse only navigation from provider",
+        true
+      ],
+      [
+        "AC01/02/27 period and phase family",
+        true
+      ],
+      [
+        "AC03/28 wave speed and particle speed distinct",
+        true
+      ],
+      [
+        "AC04/29 plane wave pressure ratio and standing net flux",
+        true
+      ],
+      [
+        "AC05/30 overtone and mathematical period not perceived pitch",
+        true
+      ],
+      [
+        "AC06/31 observation window and FFT grid separation",
+        true
+      ],
+      [
+        "AC07 same magnitude different time",
+        true
+      ],
+      [
+        "AC08 RV01 exact iid ensemble expected periodogram flat, finite not",
+        true
+      ],
+      [
+        "AC32 RV01 WSS model distinction, cropped event remains outside window",
+        true
+      ],
+      [
+        "AC09/10/33 fixed string and distinct ideal pipe boundary",
+        true
+      ],
+      [
+        "AC11/35 response/known same-phase noise counterexamples",
+        true
+      ],
+      [
+        "AC34 ideal axial modes",
+        true
+      ],
+      [
+        "AC12/36 ISO scope does not produce a numeric curve",
+        true
+      ],
+      [
+        "AC13/37 same fundamental different harmonic vector and envelope",
+        true
+      ],
+      [
+        "AC14 RV02 temporal labels independent of actual masking",
+        true
+      ],
+      [
+        "AC38 RV02 matched envelope mean/power different modulation rates",
+        true
+      ],
+      [
+        "AC15/16/17/39/40/41 hearing scope and urgent stop retained",
+        true
+      ],
+      [
+        "AC18/42 free field distance ratio and multi-path times",
+        true
+      ],
+      [
+        "AC19/43 decay fits not reflection delays",
+        true
+      ],
+      [
+        "AC20 coherent equal/opposite and noncoherent mean-square",
+        true
+      ],
+      [
+        "AC44 ITD ILD sign and swapped channels",
+        true
+      ],
+      [
+        "AC21/45 referenced dB and energy not arithmetic mean",
+        true
+      ],
+      [
+        "AC22/46 RV04 same unweighted RMS different derived filter outputs",
+        true
+      ],
+      [
+        "AC23/47 repeat uncertainty and covariance",
+        true
+      ],
+      [
+        "AC49 relative energy not exposure authorization",
+        true
+      ],
+      [
+        "AC51 possible topology not oscillation; abstract stable recurrence",
+        true
+      ],
+      [
+        "K07 actual finite typed workflow/artifact shape, edges, DAG, guards",
+        true
+      ],
+      [
+        "K07-WF-SPECTRUM all finite branches produce only expected bounded outcomes",
+        true
+      ],
+      [
+        "K07-WF-MASKING all finite branches produce only expected bounded outcomes",
+        true
+      ],
+      [
+        "K07-WF-ROOM all finite branches produce only expected bounded outcomes",
+        true
+      ],
+      [
+        "K07-WF-MEASUREMENT all finite branches produce only expected bounded outcomes",
+        true
+      ],
+      [
+        "K07-WF-LISTENING all finite branches produce only expected bounded outcomes",
+        true
+      ],
+      [
+        "A02 spectrum no model proof from finite observation",
+        true
+      ],
+      [
+        "A02 masking controlled stimuli without perception remains candidate",
+        true
+      ],
+      [
+        "A02 room unknown fit blocks decay report",
+        true
+      ],
+      [
+        "A02 measurement changed calibration or old aggregate separate",
+        true
+      ],
+      [
+        "A02 listening all stipulated never plays, stop dominates and unknown risk fail closed",
+        true
+      ],
+      [
+        "LISTENING known stop dominates absent or null other condition",
+        true
+      ],
+      [
+        "LISTENING urgent report dominates partial and withdrawal",
+        true
+      ],
+      [
+        "LISTENING known withdrawal dominates unknown urgent and other inputs",
+        true
+      ],
+      [
+        "LISTENING missing stop or urgent risk cannot reach comparison",
+        true
+      ],
+      [
+        "LISTENING positive comparison only after explicit complete risk conditions",
+        true
+      ],
+      [
+        "LISTENING all 256 true/false/absent/null risk combinations",
+        true
+      ],
+      [
+        "MASKING known stop dominates absent or null other condition",
+        true
+      ],
+      [
+        "MASKING urgent report dominates partial and withdrawal",
+        true
+      ],
+      [
+        "MASKING known withdrawal dominates unknown urgent and other inputs",
+        true
+      ],
+      [
+        "MASKING missing stop or urgent risk cannot reach comparison",
+        true
+      ],
+      [
+        "MASKING positive comparison only after explicit complete risk conditions",
+        true
+      ],
+      [
+        "MASKING all 256 true/false/absent/null risk combinations",
+        true
+      ],
+      [
+        "AC25 exact urgent view has necessary S449 support",
+        true
+      ],
+      [
+        "AC25 absent or negative report is not an urgent conclusion",
+        true
+      ],
+      [
+        "AC25 missing claim never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "AC25 missing edge never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "AC25 missing binding never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "AC25 missing source never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "AC49 exact urgent view has necessary S449 support",
+        true
+      ],
+      [
+        "AC49 absent or negative report is not an urgent conclusion",
+        true
+      ],
+      [
+        "AC49 missing claim never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "AC49 missing edge never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "AC49 missing binding never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "AC49 missing source never certifies urgent evidence, stop retained",
+        true
+      ],
+      [
+        "urgent provider reverse relation not inference",
+        true
+      ],
+      [
+        "A06 editable exact artifact identity and derived superseding report",
+        true
+      ],
+      [
+        "A04/A07 explicit version-scoped evidence invalidation",
+        true
+      ],
+      [
+        "A04/A07 withdrawal and urgent report dominate later proposal",
+        true
+      ],
+      [
+        "workflow missing step claim relation rejected",
+        true
+      ],
+      [
+        "workflow ambiguous guard rejected",
+        true
+      ],
+      [
+        "workflow missing guard rejected",
+        true
+      ],
+      [
+        "workflow forbidden terminal authorization rejected",
+        true
+      ],
+      [
+        "workflow unsupported relation rejected",
+        true
+      ],
+      [
+        "workflow wrong artifact supersedes rejected",
+        true
+      ],
+      [
+        "unknown event never downgrades urgent or withdrawn stop",
+        true
+      ],
+      [
+        "artifact cyclic derivation rejected",
+        true
+      ],
+      [
+        "artifact missing exact dependency rejected",
+        true
+      ],
+      [
+        "artifact false frequency grid rejected",
+        true
+      ],
+      [
+        "missing primary workflow role binding rejected",
+        true
+      ],
+      [
+        "state event cannot overwrite original identity",
+        true
+      ]
+    ],
+    "summary": {
+      "status": "CANDIDATE_STRUCTURE_ONLY",
+      "packs": [
+        {
+          "owner": "K07",
+          "coverageMode": "MODULE",
+          "packBlob": "e991903d604fbd31753acdf086f1769473daec6b",
+          "manifestBlob": "0de101c9195b5b5c39f29c746ed981540936fef4"
+        }
+      ],
+      "counts": {
+        "records": 441,
+        "claims": 51,
+        "edges": 163,
+        "bindings": 244,
+        "inventory": 51
+      },
+      "unresolved": [],
+      "acceptedClaims": 0
+    },
+    "roleCells": 56,
+    "legacyRoutes": 48,
+    "splitRoutes": 7,
+    "sourceCount": 33,
+    "withheldSourceCount": 2,
+    "workflowRecords": 68,
+    "workflowRelations": 74,
+    "limits": [
+      "all actual claims are CANDIDATE; independent professional review and integration separate",
+      "finite local domain workflow/annotation/state witnesses; no generalized engine, actual grant, actual audio/clinical/tool execution, production database or LLM efficacy",
+      "35 source locator histories; 33 direct sources, S459/S465 withheld, no source import or current external re-read",
+      "roles and routes do not authorize actual operations"
+    ]
+  },
+  "cqRole": {
+    "status": "CQ_ROLE_TEST_ONLY",
+    "checks": 21,
+    "passed": 21,
+    "results": [
+      [
+        "actual frozen K01 184 rows, 59 S-only and 54 among 158 precise primary cases",
+        true
+      ],
+      [
+        "real multi-direct role fixture uses actual CQ01, CQ17, CQ23",
+        true
+      ],
+      [
+        "empty direct CQ accepted only within actual formal role context",
+        true
+      ],
+      [
+        "S-only exact D4 and revision retrieval independent of CQ roots",
+        true
+      ],
+      [
+        "H closure includes support-only but not root",
+        true
+      ],
+      [
+        "direct role split union with individual exact direct root selection",
+        true
+      ],
+      [
+        "support inverse binding stays necessary not primary for consumer view",
+        true
+      ],
+      [
+        "actual isolated public CLI preserves H without S promotion",
+        true
+      ],
+      [
+        "freshly pinned support-only claim promoted to S as D",
+        true
+      ],
+      [
+        "freshly pinned mixed D/S claim promotes S",
+        true
+      ],
+      [
+        "freshly pinned direct claim loses all direct coverage",
+        true
+      ],
+      [
+        "split direct role missing from aggregate",
+        true
+      ],
+      [
+        "duplicate valid direct IDs still rejected",
+        true
+      ],
+      [
+        "non-CQ or malformed direct IDs rejected",
+        true
+      ],
+      [
+        "non-array CQ rejected",
+        true
+      ],
+      [
+        "wrong owner direct role cannot transfer",
+        true
+      ],
+      [
+        "support H edge lost under fresh pins",
+        true
+      ],
+      [
+        "support case binding lost under fresh pins",
+        true
+      ],
+      [
+        "same-row narrow claim may have no direct role if sibling covers exact union",
+        true
+      ],
+      [
+        "tampered manifest still fail closed",
+        true
+      ],
+      [
+        "tampered frozen role ledger still fail closed",
+        true
+      ]
+    ],
+    "limits": [
+      "no formal K01 knowledge admission",
+      "formal K01 D/S only; other owner formats unchanged"
+    ]
+  },
+  "inputIdentities": [
+    {
+      "path": ".agent/execution/F00-CQ/EXECUTION_CONTRACT.md",
+      "blob": "9a7673bcd3238cb8f2f5e10648606608aeede757",
+      "sha256": "6278fc452d6083fc4dfe98670d965df44bcb1a9ea3c94794da5be478abc53448"
+    },
+    {
+      "path": ".agent/execution/F00-CQ/FAILURE_MATRIX.yaml",
+      "blob": "6ee1b532e9b4c06aa623069cafd8ce3feff3b938",
+      "sha256": "8a6f51e04017e41ed904d89f28d19bb468791280b6cfc0fda3e11d82fb1ebe80"
+    },
+    {
+      "path": ".agent/execution/F00-CQ/IMPLEMENTATION_MAP.md",
+      "blob": "316e47a23c90a41a2ba0d61bc6de7a0797d4fb87",
+      "sha256": "5260633a2db5592b1c088287096d13bfee9efb16fa4d0fb29c8a32dc176a4a94"
+    },
+    {
+      "path": ".agent/execution/F00-CQ/MANIFEST.yaml",
+      "blob": "2195199e4c265e527c5441e124cc6b4df6986107",
+      "sha256": "70b2abc3d4e1884b7802a1748c6d0b9fd73bd6e87946d0f4777e15bca59c296e"
+    },
+    {
+      "path": ".agent/execution/F00-CQ/REVIEW_CHECKLIST.md",
+      "blob": "3b2f2b4d7bcaa0e33e4a06f3ee4d5dc870cc5bc8",
+      "sha256": "e6be5b91dca179fea204bf740c37137ad636cc6a9cd3c5fd2607d6082d81dd56"
+    },
+    {
+      "path": ".agent/execution/F00-CQ/TEST_MATRIX.yaml",
+      "blob": "9a8617b6dc66d8c3062198487f1fea6ee33a01c9",
+      "sha256": "51f2894e16c3c81b40b5d154c31653d6b2d9f90043444e64706cab7812247098"
+    },
+    {
+      "path": ".agent/execution/K07/EXECUTION_CONTRACT.md",
+      "blob": "d2b2dc117d00d39907de239d1a23064e98cc416f",
+      "sha256": "89cb8683a968fd910d1a55a221ded664d495ae729490208a7dfff7997212b6f0"
+    },
+    {
+      "path": ".agent/execution/K07/FAILURE_MATRIX.yaml",
+      "blob": "d15274ce6b5f0aa51db4ba0fe22270d6dac0593c",
+      "sha256": "cdf056a97baeed4b9ce440468a156a69aa5ed58578d7c1adea4ebf71fa96a113"
+    },
+    {
+      "path": ".agent/execution/K07/IMPLEMENTATION_MAP.md",
+      "blob": "96f30ae0e50f8ac53ee652aab67819c11f7d3882",
+      "sha256": "01e9e156068f32c1ec781dfd4f046d954c0864a96535b3a7ac2fa3fd6f479da6"
+    },
+    {
+      "path": ".agent/execution/K07/MANIFEST.yaml",
+      "blob": "3c619a5fc4fa665dcf1aef545b47da33dc3c0a69",
+      "sha256": "b51347817dfbc6579e282aebddcda5948b997775965f3d8f97f3832356f971a2"
+    },
+    {
+      "path": ".agent/execution/K07/REVIEW_CHECKLIST.md",
+      "blob": "59faa3e982bc845251288b5d95c800e9a9f85bd6",
+      "sha256": "e2799c836f659739a8f5b2485a8cdb45a40ace781d5f1e3cfb2ad13b378f5eac"
+    },
+    {
+      "path": ".agent/execution/K07/TEST_MATRIX.yaml",
+      "blob": "1182cf8a9464c15224e77723c2df42cd9d17f678",
+      "sha256": "2ffdb63ca80266837d7fd3ef4e7e1fe47a7608e4d59256bdf63ae80d70b528e8"
+    },
+    {
+      "path": "docs/product/calibration/acoustics-g04-feedback-path-case.md",
+      "blob": "012390b2aacdebfc7b7fa0ee69554234b84be25a",
+      "sha256": "105e57a154ffc38c5aee2725590936944afa0eb80e45d108cfce0f78407c2c97"
+    },
+    {
+      "path": "docs/product/calibration/acoustics-r1-knowledge-cases.md",
+      "blob": "31f1c0894f1491ef52ee5530c6892fc4bca7a4ae",
+      "sha256": "5816557d755415211913e02fc4b54fe55ad264d8ed29cd5dd6448446d9e111cd"
+    },
+    {
+      "path": "docs/product/calibration/acoustics-r2-knowledge-cases.md",
+      "blob": "119b4c610113d06b342667bcfcf3e2bca5122540",
+      "sha256": "971dae58cdac98052524fbe059897434e92e69cd97c46916187a84c57c806227"
+    },
+    {
+      "path": "docs/product/calibration/acoustics-r3-capability-calibration.md",
+      "blob": "e9cbd1891f347bab70cca5bd30a447161684d4c6",
+      "sha256": "0828278a34e5bfe3ea017c9066e7f787b48bcc39369c58bcea65ba69fc4abd83"
+    },
+    {
+      "path": "docs/product/calibration/acoustics-r3-discovery-cq.md",
+      "blob": "14dde14b71d479c584a3f619bc4ecbcfcdb89b51",
+      "sha256": "ed27288e89d46aa64cd5a97d5191613b9082f182d1f37f707e5a4518350f82e1"
+    },
+    {
+      "path": "docs/product/calibration/acoustics-r3-legacy-convergence.md",
+      "blob": "e438439bd357df936505e82f8895974b1352c947",
+      "sha256": "531147ce7e29e1466af2f44737a52ee6311eb4a38c60ad356d2080e2c25ce285"
+    },
+    {
+      "path": "docs/product/calibration/digital-audio-r1-knowledge-cases.md",
+      "blob": "ba6ce877d9a65e6c9ad8cb9d504dc47ee3d450b9",
+      "sha256": "553e7865da796f7b09e77297e0c62b72db2a2a063c794c1a2ea46b5e75b78f3e"
+    },
+    {
+      "path": "docs/product/calibration/domain-migration-implementation.md",
+      "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+      "sha256": "245051667fa4db213446681613d7633093c761f33fad9bc96c0f891197b1ca25"
+    },
+    {
+      "path": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+      "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+      "sha256": "264ede9f594228b9357c9ac1d59560bbe61dae04cce6d5daa8b560bd15142675"
+    },
+    {
+      "path": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+      "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+      "sha256": "4f745ff0c4ed94233ed29e2af443536075020c55d872f20a8bc911fe838fec52"
+    },
+    {
+      "path": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+      "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+      "sha256": "cae9b67db5458de2a5b3285e0ebfda94f0861fa476b21fa268256ce5b304bd98"
+    },
+    {
+      "path": "docs/product/calibration/theory-fundamentals-cases.md",
+      "blob": "4f482da733981d21504cb50a06e12c14bbb6a1f5",
+      "sha256": "8bad60dda1bfbdf78f2dae7ab0f28e0313c04f75f71998553383d78d5a0ec052"
+    },
+    {
+      "path": "docs/product/calibration/vocal-science-r3-knowledge-cases.md",
+      "blob": "08208a28e1ea95edb2ec83210e97542c3623298b",
+      "sha256": "d8a504ffec2bc845cbb4db39500ff21db8d2ddae4c3cbfd4194fbe7bcf418d94"
+    },
+    {
+      "path": "docs/research/l2-pilot/README.md",
+      "blob": "acc12f1567128d920b7fceef18d51ee1060f2193",
+      "sha256": "7ecd4acb1906e085a4ac2e4395195c1236fb393a198e42bbe76c9c6fe1ffecef"
+    },
+    {
+      "path": "docs/research/l2-pilot/assessment-input.json",
+      "blob": "b48530ea4472167d1537292f13d86b5d8842816f",
+      "sha256": "21d0617c4f9831f3e88504f0221a553d25ddc4c5ef48613eaa91f597a6acc55a"
+    },
+    {
+      "path": "docs/research/l2-pilot/assessment.json",
+      "blob": "5b9d24d44c547be0e1cf444d30e240eab3660353",
+      "sha256": "ce88c403a42bf5eb267baf0e6c93b97d173ca078510f97fa49aef53b926a3cf7"
+    },
+    {
+      "path": "docs/research/l2-pilot/knowledge-pilot.mjs",
+      "blob": "409ef51f20bf030752a1798d6879cd3e342e7063",
+      "sha256": "775308cc1d84024fcb66a6f0e59a94fea7b354a168a4dab9c9480fdec071b783"
+    },
+    {
+      "path": "docs/research/l2-pilot/pack.json",
+      "blob": "ff146cdac2a84424e1da6af70c7cbdee9e3394b8",
+      "sha256": "45831c5f231de4365b0f2d5c2b9a4dc8674db3c70e74df50e13e2ee40b62d7a5"
+    },
+    {
+      "path": "docs/research/l2-pilot/qualification-manifest.json",
+      "blob": "e1580c7c708881ddf7c677589d0485109e14acc0",
+      "sha256": "fdfeaecb02a5cc8d3ab979067855c82aa6bceb5b318cba2c85ba2ea392ca1738"
+    },
+    {
+      "path": "docs/research/l2-pilot/retrieve.mjs",
+      "blob": "efea6e226c9cd47c3a4056eea87a635681548f56",
+      "sha256": "8404c149a4539ef6bf6c1577941d7e89f34478415c88f2de88ee7a0e32572be0"
+    },
+    {
+      "path": "docs/research/l2-pilot/semantic-profile.json",
+      "blob": "f5e8561389a762389ec5bbb99d8c502a45a37d28",
+      "sha256": "ccce1c6f9750a6539ac8dd1e5d4119b263df548062eb961a43c36d80cf6d37e0"
+    },
+    {
+      "path": "docs/research/l2-pilot/sources.json",
+      "blob": "96ea0bf814a2a2fd9d77e8ac095b0f60791a6e19",
+      "sha256": "2b46a3c03a9c0108472764a57b336accf4dee32c001a7e671d356aca70ad3b27"
+    },
+    {
+      "path": "docs/research/l2-pilot/validate.mjs",
+      "blob": "5a173a217158f70ee9884124b7e834b067295b0c",
+      "sha256": "4841b8c6fee769a6dbec457f5b5bfc7f5a0fd385ffd554a055f72c88d3dd418a"
+    },
+    {
+      "path": "docs/research/l2-pilot/validation-result-rv.json",
+      "blob": "9c69293418b36b6ee9e9ce32b62c1b49606bd6ee",
+      "sha256": "b09d19ee882b83b5e3f1240e5ed9695aedeeee78902e745f2e888e6ca5131cd0"
+    },
+    {
+      "path": "docs/research/l2-pilot/validation-result.json",
+      "blob": "ab447955c64cf6a35d9e2432d742bb198d1f59a3",
+      "sha256": "5f0e61a7011bb5a31b8dac881a0c749145f34eb4a354b938ca8fa4cd4dfea885"
+    },
+    {
+      "path": "docs/research/l2-pilot/witness-pilot.mjs",
+      "blob": "0dd4ffc0b5d286129c508eabf4945df1cfbe9cbd",
+      "sha256": "87fe8b1e8ee164388dee06e98cd9b8d54bc2ac4328d3c34ddb782c57fcd86fd1"
+    },
+    {
+      "path": "docs/research/l2-pilot/workflow-pilot.mjs",
+      "blob": "ed42136c26b8453128c078d1961532268d15c357",
+      "sha256": "0b298113d83202842d27357545329adfa4e0879ae1eb26204cd7cf5886bc7af3"
+    },
+    {
+      "path": "docs/research/source-qualification-acoustics-r1.md",
+      "blob": "cc5a3edaeda9a9446e3eba98498225831a27d06e",
+      "sha256": "991b311f074be3fd6d2bd2fbf6c3269685812307f0346e868b447c96c49f237d"
+    },
+    {
+      "path": "docs/research/source-qualification-acoustics-r2.md",
+      "blob": "1e64ae921a77519cadbf2ff15702d6574417d5df",
+      "sha256": "a2712553ca57e63231615d7f5565774b9de014067f1b97c41c19f57235a0a575"
+    },
+    {
+      "path": "docs/research/source-qualification-acoustics-r5.md",
+      "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+      "sha256": "234c0835703c599d1ae862f142264d218f7a0c2b1b1079897d36690ab1add077"
+    },
+    {
+      "path": "docs/research/source-qualification-digital-audio-r1.md",
+      "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+      "sha256": "7f0f62424bba9594a0004d0d208e57c2dfc6cfec81e430078973278cbe0410b8"
+    },
+    {
+      "path": "docs/research/source-qualification-foundation.md",
+      "blob": "1ac87e4a28772ef7a4df774f9301894206aec77d",
+      "sha256": "d3569d63bfe881b37fb3548fffe5936b6845802bb9e38f120d49da86b31c7bf1"
+    },
+    {
+      "path": "docs/research/source-qualification-production-evaluation.md",
+      "blob": "37e563228c793697a9c53ebec22a5826a4822055",
+      "sha256": "f7203adf692e0ef5d18b05c11ed30a86f3a19e60ac8d974b63ce42a9474429cd"
+    },
+    {
+      "path": "docs/research/source-qualification-theory-evidence-batch.md",
+      "blob": "a7a46230795d016b20fb981f85352854d1f89d35",
+      "sha256": "67ad25f96e0a01a6626ee4445b08eafcedeb209cd3c510dc6276ea8c5550a2ff"
+    },
+    {
+      "path": "docs/research/source-qualification-theory-fundamentals.md",
+      "blob": "d7b9348555bde9712019b04150f15aed4e54fb86",
+      "sha256": "42df53fd5842d3714a3999f0b97ab16e54093f5b7997ebcc49a60024dee56af4"
+    },
+    {
+      "path": "docs/research/source-qualification-vocal-science-r1.md",
+      "blob": "be51b7d2da1c88fb039b3a067c3a80b450282f58",
+      "sha256": "e10892b54471ad88054639585c257eb408d8f4df87f9702625ee5d02a2caec65"
+    },
+    {
+      "path": "docs/research/source-qualification-vocal-science-r2.md",
+      "blob": "e5756f278d97ccc943f59eb64ee76125db5708b0",
+      "sha256": "56599de387f345ee52a0a5dd510aa976862f156c745c079708d296079fa3b940"
+    },
+    {
+      "path": "docs/research/source-qualification-vocal-science-r3.md",
+      "blob": "3221291710e4e802a312697b736236d939149a4b",
+      "sha256": "ea9453cb7b735282deaab3041b750afd12eea3700a55d3a943d7d81e26741e40"
+    },
+    {
+      "path": "docs/research/source-qualification-wave1.md",
+      "blob": "5a95069254b672ab8e0db142cbfdbc3012a4a880",
+      "sha256": "c3a038cfc29d54f49d24df5b67517cc5e8ca485cbd87de52e12ddc4928abbdfc"
+    },
+    {
+      "path": "docs/validation/K07/README.md",
+      "blob": "3edd5de12e887cbf8f8d552c102b2b02e6e37401",
+      "sha256": "ab2343b78633dcea3e0d736742d4413672ff1e7bd32e6a35e9b734a37028d2f2"
+    },
+    {
+      "path": "docs/validation/K07/remediation-r2.md",
+      "blob": "3bf4f1e50a5aa9d12f384570e48ab3783041f92c",
+      "sha256": "ce085602f8e82eab2d4e47d941f1e275c7ebe0533bcd6868a71c4b66353ac848"
+    },
+    {
+      "path": "docs/validation/f00-cq-role/README.md",
+      "blob": "7f6c08a9d164ff4f479645d74bb7ff2651c8a493",
+      "sha256": "eec3b39d12450108c4ba05159d953c3ce9248dda41e44e817e1c172f0992f103"
+    },
+    {
+      "path": "knowledge/K07/README.md",
+      "blob": "75164f0641162cbbf6eca0fb4c7f365f791c7b0f",
+      "sha256": "cc7365885c53d85137dc16011469c5a9d5dc78551803509b58d3cc932ad29106"
+    },
+    {
+      "path": "knowledge/K07/candidate.json",
+      "blob": "e991903d604fbd31753acdf086f1769473daec6b",
+      "sha256": "5178ebc10c0d05312afaa4eac3bf16851ed6e1579c27bce7b9a7dd99a85ec25d"
+    },
+    {
+      "path": "knowledge/K07/claim-authoring.tsv",
+      "blob": "8d77278a25c927ce35c98ed3916c06bc9c946d50",
+      "sha256": "d51ad3178060144c7614934adf7818fad7b22b241301db212f63cfc2e2280a82"
+    },
+    {
+      "path": "knowledge/K07/controller-input.json",
+      "blob": "80b388cde30b4624d9c3dc157f6103928d33470d",
+      "sha256": "4d96526916e0eaef76e260f16d1024ff2f5271fb1349c2f5960216fab742f1c5"
+    },
+    {
+      "path": "knowledge/K07/domain-workflows.json",
+      "blob": "861b46173af9b935af09ed2b99183e47c906552a",
+      "sha256": "b23ad1f6ceb773942270f5c1ab3219aafeb52263c54dcabd483edfe4c6c68807"
+    },
+    {
+      "path": "knowledge/K07/qualification.json",
+      "blob": "0de101c9195b5b5c39f29c746ed981540936fef4",
+      "sha256": "6436a0da832e5c7615f731d816f8b8d0372c74522036f8c0714af6e8809bd58f"
+    },
+    {
+      "path": "ontology/README.md",
+      "blob": "41ae8167cf5d4f3d7c09560d3ba47856a5d4f5d3",
+      "sha256": "de9ffdc500d437b8054e05ca9d91ee0f1aae2057ef04f62763fe9d36d525ef2b"
+    },
+    {
+      "path": "ontology/knowledge-profile.json",
+      "blob": "95feae7497659ea6e0e2a62b61bdfcc6b584abfe",
+      "sha256": "4b3ef3640c075864c2c2121fdbdd8fe972b26b8bafcdb3dac1e73bbdd198eac6"
+    },
+    {
+      "path": "ontology/l1-anchor-tree.json",
+      "blob": "a72360e348f00e82a74809e6acc056f05b311b1f",
+      "sha256": "7b799f1aa85db6cc028c36029326cda6bae9d1d4120837a7abf8a794e3d168e3"
+    },
+    {
+      "path": "queries/K07/capability-index.json",
+      "blob": "a70feff83c106658e0b955bc09ccc6c37e6fc93a",
+      "sha256": "fae6978638e657a9fb544b84276b8e32966fec302cff468b94ca29cb93da5d9e"
+    },
+    {
+      "path": "queries/K07/discovery-index.json",
+      "blob": "a6413f5ac05f96e3ad88b317d2edd0354b24352b",
+      "sha256": "a5d73bff879abcdf4471d28cd9bd8fa48871936e5c53e1fa3d00c12010ceebf9"
+    },
+    {
+      "path": "queries/K07/legacy-routes.json",
+      "blob": "bf2958b062bce6f1d366cddadb11597a6c83a259",
+      "sha256": "d4920eeada97343d166ea1691d5b3e5eaced246d0d0ae577cf5190094bfd4e51"
+    },
+    {
+      "path": "queries/K07/role-authoring.tsv",
+      "blob": "2715b8b3b9d298813c1c9d1d87c9a4ae4998fd7f",
+      "sha256": "462c80194e9273115bcf8355a45911e7e9ddc986125ea3952425c9c62d14e39d"
+    },
+    {
+      "path": "queries/K07/split-routes.json",
+      "blob": "ab8217d86f3ec7a3161397968e49f9ed2dc76e27",
+      "sha256": "125bf1fe6eb85fd6cec842339f4c3f52f8f0c62fefb4a7481c8be809f15c4232"
+    },
+    {
+      "path": "sources/K07/provenance.json",
+      "blob": "feb6162fc998c63fba655547b6fbc175f0aebaa7",
+      "sha256": "aac6e7d3431ccf9c637cfa9dbdde682590451c27e7f8a7d40b68b721c2f31f8c"
+    },
+    {
+      "path": "tests/knowledge/K07/build-candidate.py",
+      "blob": "7207041cb1cafd5239f7e0168ff0fea5ac7c814e",
+      "sha256": "a16ec8e290e624d4bd7ea4bc18ea465b5ec1704cafdaccdabdffb75f2b35b58b"
+    },
+    {
+      "path": "tests/knowledge/K07/build-domain-workflows.py",
+      "blob": "fb3d4dc30d5284653d354402d4a170e77e81e3c6",
+      "sha256": "4e75e7c64f8aff390c7725b48aebd9b78991fa3b507bbf09153a515e88be2398"
+    },
+    {
+      "path": "tests/knowledge/K07/k07.test.mjs",
+      "blob": "3cb2e2ea68d77480992e067b81b6430bc023e861",
+      "sha256": "945f2e956a661fcd1ef0b0cbcaebf5eec4930ac5c45d008bf101a39d82e1d78d"
+    },
+    {
+      "path": "tests/knowledge/f00-cq-role.test.mjs",
+      "blob": "7fc65453426d2af54f9b0a027067c8b7f0925537",
+      "sha256": "752391f03933312d6db71e129d9ea3a167b67879b05b6838c37f78ceeee2187e"
+    },
+    {
+      "path": "tests/knowledge/f00.test.mjs",
+      "blob": "ac9ee4c6a8f92a8a92ecf6b9628c99275c5777e6",
+      "sha256": "50857be776d363fec78dcff48444eb278bf52492d957df88df88e8cd708f299c"
+    },
+    {
+      "path": "tests/knowledge/fixtures/K01-candidate.json",
+      "blob": "ad8374c540bf1b87d135b2665c6d1a52cf5bcbe7",
+      "sha256": "7b2ba1dfa1e8ea6d207463ae9438121d45b94afe81352b84092153589cbce20f"
+    },
+    {
+      "path": "tests/knowledge/fixtures/K01-qualification.json",
+      "blob": "e3163af4cd9e1ff77a304eff39b3308d946003e3",
+      "sha256": "e644edcd4406f4f477c4e5f3db6f61dd5dedfb417fc3a53721d91d1be222cf1b"
+    },
+    {
+      "path": "tests/knowledge/fixtures/K07-candidate.json",
+      "blob": "d9068a4e8d778f80defbf7a566e1151c9e58229f",
+      "sha256": "f0c7d71c114317c8b303968c6e07de9d9a5f06b3712cacb4d3f72b020bb2b83c"
+    },
+    {
+      "path": "tests/knowledge/fixtures/K07-qualification.json",
+      "blob": "707ce219216fff0980edd3b769087cf2056a8978",
+      "sha256": "2b064611af0a4e61c800ea8bf133a9c8a633bf998a0948f0ef14f4476c86c414"
+    },
+    {
+      "path": "tests/knowledge/fixtures/controller-input.json",
+      "blob": "356965a306773c4a555c8768d96cecad03d54972",
+      "sha256": "46598de4c2e380ba1576052f8b620791a6fea0874ff47877ff42122aeb385581"
+    },
+    {
+      "path": "tests/knowledge/fixtures/prior-identities.json",
+      "blob": "7f17f2dbebb25f7a8bae1708eae4f52107a09c74",
+      "sha256": "b48158d1a1bb8984ccd19a2c5444b1fcc031170c50f7bd108525d57c29b8657e"
+    },
+    {
+      "path": "tools/validate-knowledge.mjs",
+      "blob": "f821142d6f49248473386deccc345d088b3a1a7a",
+      "sha256": "2743a513475f181165a4153fc8b3068a4ce2ce7804d53012a7711f322c95b824"
+    }
+  ],
+  "existingF00NamedChecksRetained": 83,
+  "existingK07ResultsIdentical": true,
+  "actualGatewayJob": "job_01M8EDASST00JNNTKMEPP1H7NH",
+  "priorFailedAttempts": [
+    "job_01M8ED8EDA00E8PXX2VWCP9H6R wrong test-only S022 anchor corrected",
+    "job_01M8ED8WBF009TWHP7NN60PQGR original synthetic fixture CQ07 not valid on formal conversion; corrected temporary test shape, original fixture untouched"
+  ],
+  "limits": [
+    "K01 MODULE D/S only, no general owner format inference",
+    "test-only generated inventory and synthetic records, no formal K01 knowledge admission",
+    "no prior frozen L1/L2 or admitted K07 content change",
+    "no LLM, real audio, clinical, actual authority, production DB or runtime"
+  ]
+}
