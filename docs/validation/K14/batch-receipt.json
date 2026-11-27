@@ -1,0 +1,230 @@
+{
+  "status": "BUILDER_PASS_ONLY",
+  "task": "#95",
+  "base": "325d4205e609db0ecca09ebb051a03e5f7f487ee",
+  "testedHead": "6fb3188bda1358bd416ae306bb46c39946820b38",
+  "testedTree": "d31904997d9b2281374ce0623dd39f6bae337390",
+  "module": "K14",
+  "moduleCounts": {
+    "d4": 48,
+    "formalClaims": 48,
+    "caseViews": 192,
+    "newSources": 12,
+    "reusedSourceRoutes": 0,
+    "directCQ": 114,
+    "supportCQ": 138,
+    "H": 44,
+    "O": 15,
+    "capabilityCells": 56,
+    "historicalCapabilityCells": 0,
+    "legacyRoutes": 48,
+    "splitRoutes": 0,
+    "workflows": 8
+  },
+  "readerCounts": {
+    "records": 5064,
+    "claims": 584,
+    "edges": 1704,
+    "bindings": 3252,
+    "inventory": 644
+  },
+  "acceptedClaims": 0,
+  "results": {
+    "k01": {
+      "checks": 2210,
+      "passed": 2210,
+      "resultSha256": "d2309e4750f149edac7d3dbf3ecc587fa12c85a892a4c5eacdf0e3852aeecc2e",
+      "path": "docs/validation/K14/results/k01.json"
+    },
+    "k02": {
+      "checks": 634,
+      "passed": 634,
+      "resultSha256": "2992fb476a3f3408b0c8e4af761f7d264b909a1885f9001ac8c37e13c117a879",
+      "path": "docs/validation/K14/results/k02.json"
+    },
+    "k03": {
+      "checks": 602,
+      "passed": 602,
+      "resultSha256": "92679c896d0baaedad5bb859ff212d30a78e94fe69d6d4ae06f5b19e779077fe",
+      "path": "docs/validation/K14/results/k03.json"
+    },
+    "k04": {
+      "checks": 597,
+      "passed": 597,
+      "resultSha256": "6bff7cefedb06631fed51f65fc760a90ac41da52dffef9a5c166776f030c9795",
+      "path": "docs/validation/K14/results/k04.json"
+    },
+    "k05": {
+      "checks": 645,
+      "passed": 645,
+      "resultSha256": "819044812163ae51e813054c6e10127a07f938ccd336aa9a516c160c45ef2cba",
+      "path": "docs/validation/K14/results/k05.json"
+    },
+    "k06": {
+      "checks": 585,
+      "passed": 585,
+      "resultSha256": "4f698763cbd13ed4b7162ab2ad2c999cbeb1652ed6150ab97648a26f81da6155",
+      "path": "docs/validation/K14/results/k06.json"
+    },
+    "k08": {
+      "checks": 579,
+      "passed": 579,
+      "resultSha256": "30adff18d2560c9ec7b82e86b8861af21e69e5acb4c55fccc31f2142654e9d5a",
+      "path": "docs/validation/K14/results/k08.json"
+    },
+    "pilot": {
+      "checks": 189,
+      "passed": 189,
+      "resultSha256": "115e9260cdac6818053723de389bebc67cca9c4c3fb7cec027e7ab0527aa69c7",
+      "path": "docs/validation/K14/results/pilot.json"
+    },
+    "f00": {
+      "checks": 84,
+      "passed": 84,
+      "resultSha256": "84dee9535ff4d9b4991c8969ca8cc071de9fa7f00980c0b924ad4cb3b5c71efe",
+      "path": "docs/validation/K14/results/f00.json"
+    },
+    "k07": {
+      "checks": 343,
+      "passed": 343,
+      "resultSha256": "63cd8e172e7a588019b956b57366b67f1b00709657680490c52341a7e6c7b25c",
+      "path": "docs/validation/K14/results/k07.json"
+    },
+    "cq": {
+      "checks": 21,
+      "passed": 21,
+      "resultSha256": "cf90e6415659f5f56036bf1b65ee7bd588290c32806a66902ccb842ef3331666",
+      "path": "docs/validation/K14/results/cq.json"
+    },
+    "cq2": {
+      "checks": 43,
+      "passed": 43,
+      "resultSha256": "f4c75bd0a8751f9ea6b2ca63dcbb7f27e39843b74e30b64d07ad81ad53a702ae",
+      "path": "docs/validation/K14/results/cq2.json"
+    },
+    "legacy": {
+      "checks": 95,
+      "passed": 95,
+      "resultSha256": "82367647625294032c9c35d86313641a1f93797a5f979b2465b3fb0a56d11947",
+      "path": "docs/validation/K14/results/legacy.json"
+    },
+    "k14": {
+      "checks": 514,
+      "passed": 514,
+      "resultSha256": "0dbecd3814ef87ca85e2abc2ca1e42846b3b8941c751f03450a31db40aead1c5",
+      "path": "docs/validation/K14/results/k14.json"
+    }
+  },
+  "totalChecks": 7141,
+  "totalPassed": 7141,
+  "inputIdentities": {
+    ".agent/execution/K14/EXECUTION_CONTRACT.md": "0f2c99429ad366d47a7db7c2ed786ca4fb1a48ee",
+    ".agent/execution/K14/FAILURE_MATRIX.yaml": "6a690712a1d157f9fcf2fd0dabfdbe8bd31f9fa4",
+    ".agent/execution/K14/IMPLEMENTATION_MAP.md": "4054e9373764515760761174a403cd528dae1f0f",
+    ".agent/execution/K14/MANIFEST.yaml": "af91da818a75c1d2e6d5f367d5c3d2e8ce241dfd",
+    ".agent/execution/K14/REVIEW_CHECKLIST.md": "e02b9568cc8c12f37bced59ae9771e3033a289df",
+    ".agent/execution/K14/TEST_MATRIX.yaml": "f0e999c51e0d0c91889aa5022a6a1a73b9471fc2",
+    "cases/K14/frozen-input-ledger.json": "c03ae6fdc3d1ab3f3f4ac93201539fa2dd252f02",
+    "docs/product/calibration/music-education-r1-knowledge-cases.md": "b89750420ba68e17d548a0e3a4af55ca93456a95",
+    "docs/product/calibration/music-education-r2-knowledge-cases.md": "069c5fba48ea5a18a676f94dfcad0f7eada9fd4d",
+    "docs/product/calibration/music-education-r3-capability-calibration.md": "06fc9299f6135b4be834eb72f9fc71c49a7a2b8b",
+    "docs/product/calibration/music-education-r3-discovery-cq.md": "65f23631f030bc831b2487ed8d71c2e07e393655",
+    "docs/product/calibration/music-education-r3-legacy-convergence.md": "0a6493a2caaaaf8c9dda5087a02c5200a3f6b98f",
+    "docs/product/calibration/music-education-r4-integrated-closure.md": "72c1c873d37864eb7daa0589cfa5d3b45389d1d5",
+    "docs/research/l2-pilot/README.md": "acc12f1567128d920b7fceef18d51ee1060f2193",
+    "docs/research/l2-pilot/assessment-input.json": "b48530ea4472167d1537292f13d86b5d8842816f",
+    "docs/research/l2-pilot/assessment.json": "5b9d24d44c547be0e1cf444d30e240eab3660353",
+    "docs/research/l2-pilot/knowledge-pilot.mjs": "409ef51f20bf030752a1798d6879cd3e342e7063",
+    "docs/research/l2-pilot/pack.json": "ff146cdac2a84424e1da6af70c7cbdee9e3394b8",
+    "docs/research/l2-pilot/qualification-manifest.json": "e1580c7c708881ddf7c677589d0485109e14acc0",
+    "docs/research/l2-pilot/retrieve.mjs": "efea6e226c9cd47c3a4056eea87a635681548f56",
+    "docs/research/l2-pilot/semantic-profile.json": "f5e8561389a762389ec5bbb99d8c502a45a37d28",
+    "docs/research/l2-pilot/sources.json": "96ea0bf814a2a2fd9d77e8ac095b0f60791a6e19",
+    "docs/research/l2-pilot/validate.mjs": "5a173a217158f70ee9884124b7e834b067295b0c",
+    "docs/research/l2-pilot/validation-result-rv.json": "9c69293418b36b6ee9e9ce32b62c1b49606bd6ee",
+    "docs/research/l2-pilot/validation-result.json": "ab447955c64cf6a35d9e2432d742bb198d1f59a3",
+    "docs/research/l2-pilot/witness-pilot.mjs": "0dd4ffc0b5d286129c508eabf4945df1cfbe9cbd",
+    "docs/research/l2-pilot/workflow-pilot.mjs": "ed42136c26b8453128c078d1961532268d15c357",
+    "docs/research/source-qualification-culture-education-rights.md": "fe553a80ac5e4f060f2eed846812195ab6a4fec0",
+    "docs/research/source-qualification-music-education-r1.md": "4404abebc9a8b340f8fab02c70d302b2158ec268",
+    "docs/research/source-qualification-music-education-r2.md": "9c2e5cadb6a527af28968a16f449a55ee436f781",
+    "knowledge/K01/README.md": "879d38bf2f3ea4f240d74aefab305f6cfb2febf4",
+    "knowledge/K01/candidate.json": "4be5d1a1a930cddab96b33f3dac801ca38324509",
+    "knowledge/K01/claim-authoring.tsv": "7e7ea8eaabe24a0ebc05699c8214812a0a663aa5",
+    "knowledge/K01/controller-input.json": "2129de1c0554b9c6f7275591e4ae154d6cc4ccaa",
+    "knowledge/K01/domain-workflows.json": "a80aa7e1624730a5e1d5bc33d90bbe860bbcaad7",
+    "knowledge/K01/qualification.json": "3c494ff57787199ad9741415754e457994bfabf6",
+    "knowledge/K01/relation-authoring.tsv": "1da5b3abf6984d00f0bc37e44980f5c73e2a2ceb",
+    "knowledge/K02/authoring.tsv": "9044abc0387f844bb83734298c99942eff87e06f",
+    "knowledge/K02/candidate.json": "574f3d398afb4bd2ea177cd63314e7cd171195df",
+    "knowledge/K02/controller-input.json": "9000c4f5f06673992f3dc06b8df2d4c35aff3d08",
+    "knowledge/K02/domain-workflows.json": "74abff8923ebb2b433899e39a83a4dc85d909036",
+    "knowledge/K02/project-contracts.json": "3eeb353730bde8388c8b620330e8ded110847b76",
+    "knowledge/K02/qualification.json": "c6d2cae393e8e529dc2cfcfeacf560f89bb1665b",
+    "knowledge/K02/relation-authoring.tsv": "b633eb4cdf21c369309928018bbff2a00ee8c8a6",
+    "knowledge/K06/authoring.tsv": "55362ea75e92fde8e38be4f2b3ed8bfa0e4d9268",
+    "knowledge/K06/candidate.json": "8235e1bb4f89a7e013d4dd8714e1396044329fd6",
+    "knowledge/K06/controller-input.json": "d2d7e845436052434f261973a5e3f76bf557a1b8",
+    "knowledge/K06/domain-workflows.json": "756ce6baa1b079807c709da3a8d0ccdbd7a8e8bd",
+    "knowledge/K06/qualification.json": "c3f936a30db5c5a94614342cd74a59c7392eab0a",
+    "knowledge/K06/relation-authoring.tsv": "f1088ab718cfa292153112d5eaa2d1d239217b21",
+    "knowledge/K07/README.md": "75164f0641162cbbf6eca0fb4c7f365f791c7b0f",
+    "knowledge/K07/candidate.json": "e991903d604fbd31753acdf086f1769473daec6b",
+    "knowledge/K07/claim-authoring.tsv": "8d77278a25c927ce35c98ed3916c06bc9c946d50",
+    "knowledge/K07/controller-input.json": "80b388cde30b4624d9c3dc157f6103928d33470d",
+    "knowledge/K07/domain-workflows.json": "861b46173af9b935af09ed2b99183e47c906552a",
+    "knowledge/K07/qualification.json": "0de101c9195b5b5c39f29c746ed981540936fef4",
+    "knowledge/K14/authoring.tsv": "e60cdf05e4e8939e16dd32e752cf2d9b7e16d797",
+    "knowledge/K14/candidate.json": "e7c6c87cb481cc3620d484b73d0edcebd711dadb",
+    "knowledge/K14/controller-input.json": "b089d29292fee6887ee7f880663c22cb5894aa5d",
+    "knowledge/K14/domain-workflows.json": "d717a61c437c7b4c8e4eb4308c76708a4d599fcd",
+    "knowledge/K14/qualification.json": "9090386f0cc197db91028715ec631418712a5aa6",
+    "knowledge/K14/relation-authoring.tsv": "b11220655da39ba6d03921b65cedab1a33fb1508",
+    "ontology/l1-anchor-tree.json": "a72360e348f00e82a74809e6acc056f05b311b1f",
+    "queries/K14/capability-index.json": "d2519e21ca7af2dd5a80e1316a35e940270e7f69",
+    "queries/K14/discovery-index.json": "513be1413fed880f5f7946e57f6c233ba914cc3a",
+    "queries/K14/legacy-routes.json": "00cf8901f8521f54b8c698c0123e2be311c5413a",
+    "sources/K14/provenance.json": "d294614a29e0df0ed61d71f0e249f42129ef8041",
+    "tests/knowledge/K01/build-candidate.py": "6d06ae5b3bb5bc2af6802d1ce367db0dbe710d88",
+    "tests/knowledge/K01/build-domain-workflows.py": "714165098528c10a40c8d8fe3e1afe1f89ce6aa4",
+    "tests/knowledge/K01/build-input-ledger.py": "73559883a100ab5cc565e972b935fd64b9ecbf11",
+    "tests/knowledge/K01/k01.test.mjs": "21195c6a7de0e0ff14d13f3f9a32144438f2ec8c",
+    "tests/knowledge/K01/theory-witness.mjs": "1622adc27daef283e25c63382536bd5dc549f629",
+    "tests/knowledge/K04/build-candidate.py": "476d1a18c558f59a662f2b147bb62314c008e54f",
+    "tests/knowledge/K04/build-input-ledger.py": "229d502501e357b38ea7c4ac9eb762a96a4f671c",
+    "tests/knowledge/K04/k04.test.mjs": "19ce2d2785feefea38e974d917abea213a622ca2",
+    "tests/knowledge/K04/performance-witness.mjs": "639f36e7954eeb8dd5d276f7161b48571172a700",
+    "tests/knowledge/K07/build-candidate.py": "7207041cb1cafd5239f7e0168ff0fea5ac7c814e",
+    "tests/knowledge/K07/build-domain-workflows.py": "fb3d4dc30d5284653d354402d4a170e77e81e3c6",
+    "tests/knowledge/K07/k07.test.mjs": "3cb2e2ea68d77480992e067b81b6430bc023e861",
+    "tests/knowledge/K14/build-candidate.py": "67e917439c8244e6c28896553fd1aee4f848f883",
+    "tests/knowledge/K14/domain-witness.mjs": "7de333bdf65056d909a599fa24f066335fc9e8d4",
+    "tests/knowledge/K14/k14.test.mjs": "852715516c7c59f8a0464985f99012df725ff0de",
+    "tests/knowledge/f00-cq-role.test.mjs": "7fc65453426d2af54f9b0a027067c8b7f0925537",
+    "tests/knowledge/f00-cq2-role.test.mjs": "c4d48408e862ccc168ddc286f81c1f5c9050f9c6",
+    "tests/knowledge/f00-legacy-source-uri.test.mjs": "e0ccef138a990414d838c595d604ae161f8c7045",
+    "tests/knowledge/f00.test.mjs": "ac9ee4c6a8f92a8a92ecf6b9628c99275c5777e6",
+    "tools/validate-knowledge.mjs": "8da30b613410689b3d511f1368570b56b81f0e61"
+  },
+  "limits": "Builder evidence only; candidate knowledge not admitted; no real production audio/host/plugin/rights or learner/teacher/long-term efficacy claim.",
+  "combinedIntegration": {
+    "testOnlyMergeHead": "37198e93f20a97c6e403fc2ece2dc5647905f6c5",
+    "testOnlyMergeTree": "911f808585f19bd522dbb3318ee57b0c4411c4a8",
+    "modules": [
+      "K03",
+      "K06",
+      "K09",
+      "K14"
+    ],
+    "counts": {
+      "records": 5478,
+      "claims": 632,
+      "edges": 1855,
+      "bindings": 3592,
+      "inventory": 692
+    },
+    "acceptedClaims": 0,
+    "resultSha256": "9eff7bd5da9d7a0c0c78440a53992eb3ab65f8e808ea8f4fd924a10e37a7362b",
+    "notAProductMerge": true
+  }
+}
