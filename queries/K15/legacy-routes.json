@@ -1,0 +1,2335 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "d4": "K15.01.01.01",
+      "historicalRequirement": "区分作者表演者制作人录音师等角色",
+      "inventoryRef": {
+        "label": "K15.01.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L55"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.01.01.03",
+        "K15.01.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV01/K15.01.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L5",
+          "targetD4": "K15.01.01.03"
+        },
+        {
+          "label": "GV25/K15.01.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L5",
+          "targetD4": "K15.01.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "参与者与角色、贡献归属",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 5,
+        "row": "| K15.01.01.01 | 区分作者表演者制作人录音师等角色 | [K15.01.01](../culture-education-rights/fine-grained-culture-education-rights.md#L55) | ROUTER_CANDIDATE | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5) | 参与者与角色、贡献归属 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV25@1"
+      ]
+    },
+    {
+      "d4": "K15.01.01.02",
+      "historicalRequirement": "记录一个人多角色和具体贡献",
+      "inventoryRef": {
+        "label": "K15.01.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L55"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.01.01.03",
+        "K15.01.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV01/K15.01.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L5",
+          "targetD4": "K15.01.01.03"
+        },
+        {
+          "label": "GV25/K15.01.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L5",
+          "targetD4": "K15.01.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "一人多角色/单录音组件条件",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 6,
+        "row": "| K15.01.01.02 | 记录一个人多角色和具体贡献 | [K15.01.01](../culture-education-rights/fine-grained-culture-education-rights.md#L55) | BOUNDED_COMPOSITION | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5) | 一人多角色/单录音组件条件 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV25@1"
+      ]
+    },
+    {
+      "d4": "K15.01.02.01",
+      "historicalRequirement": "明确任务责任决定与评审权限",
+      "inventoryRef": {
+        "label": "K15.01.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L56"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.01.02.03",
+        "K15.01.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV02/K15.01.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L6",
+          "targetD4": "K15.01.02.03"
+        },
+        {
+          "label": "GV26/K15.01.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L6",
+          "targetD4": "K15.01.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "业务责任/审查及决定",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 7,
+        "row": "| K15.01.02.01 | 明确任务责任决定与评审权限 | [K15.01.02](../culture-education-rights/fine-grained-culture-education-rights.md#L56) | ROUTER_CANDIDATE | [GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6) | 业务责任/审查及决定 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV02@1",
+        "K15-CL-GV26@1"
+      ]
+    },
+    {
+      "d4": "K15.01.02.02",
+      "historicalRequirement": "区分业务角色和权利授予主体",
+      "inventoryRef": {
+        "label": "K15.01.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L56"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.01.02.03",
+        "K15.01.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV02/K15.01.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L6",
+          "targetD4": "K15.01.02.03"
+        },
+        {
+          "label": "GV26/K15.01.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L6",
+          "targetD4": "K15.01.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "权利授予人与行动权限独立",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 8,
+        "row": "| K15.01.02.02 | 区分业务角色和权利授予主体 | [K15.01.02](../culture-education-rights/fine-grained-culture-education-rights.md#L56) | BOUNDED_COMPOSITION | [GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6) | 权利授予人与行动权限独立 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV02@1",
+        "K15-CL-GV26@1"
+      ]
+    },
+    {
+      "d4": "K15.01.03.01",
+      "historicalRequirement": "绑定角色与实际素材作品和录音版本",
+      "inventoryRef": {
+        "label": "K15.01.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L57"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.01.03.03",
+        "K15.01.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV03/K15.01.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L7",
+          "targetD4": "K15.01.03.03"
+        },
+        {
+          "label": "GV27/K15.01.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L7",
+          "targetD4": "K15.01.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品/录音/组件/贡献版本",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 9,
+        "row": "| K15.01.03.01 | 绑定角色与实际素材作品和录音版本 | [K15.01.03](../culture-education-rights/fine-grained-culture-education-rights.md#L57) | ROUTER_CANDIDATE | [GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | 作品/录音/组件/贡献版本 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV03@1",
+        "K15-CL-GV27@1"
+      ]
+    },
+    {
+      "d4": "K15.01.03.02",
+      "historicalRequirement": "保留来源与争议更正历史",
+      "inventoryRef": {
+        "label": "K15.01.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L57"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.01.03.03",
+        "K15.01.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV03/K15.01.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L7",
+          "targetD4": "K15.01.03.03"
+        },
+        {
+          "label": "GV27/K15.01.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L7",
+          "targetD4": "K15.01.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "更正证据及历史保留",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 10,
+        "row": "| K15.01.03.02 | 保留来源与争议更正历史 | [K15.01.03](../culture-education-rights/fine-grained-culture-education-rights.md#L57) | BOUNDED_COMPOSITION | [GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | 更正证据及历史保留 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV03@1",
+        "K15-CL-GV27@1"
+      ]
+    },
+    {
+      "d4": "K15.02.01.01",
+      "historicalRequirement": "定义创作目的受众格式可编辑性和授权",
+      "inventoryRef": {
+        "label": "K15.02.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L58"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.02.01.03",
+        "K15.02.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV04/K15.02.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L8",
+          "targetD4": "K15.02.01.03"
+        },
+        {
+          "label": "GV28/K15.02.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L8",
+          "targetD4": "K15.02.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "目的/受众/格式/可编辑性",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 11,
+        "row": "| K15.02.01.01 | 定义创作目的受众格式可编辑性和授权 | [K15.02.01](../culture-education-rights/fine-grained-culture-education-rights.md#L58) | ROUTER_CANDIDATE | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8) | 目的/受众/格式/可编辑性 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV28@1"
+      ]
+    },
+    {
+      "d4": "K15.02.01.02",
+      "historicalRequirement": "记录验收条件及优先级",
+      "inventoryRef": {
+        "label": "K15.02.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L58"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.02.01.03",
+        "K15.02.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV04/K15.02.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L8",
+          "targetD4": "K15.02.01.03"
+        },
+        {
+          "label": "GV28/K15.02.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L8",
+          "targetD4": "K15.02.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "硬交付及授权、验收责任",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 12,
+        "row": "| K15.02.01.02 | 记录验收条件及优先级 | [K15.02.01](../culture-education-rights/fine-grained-culture-education-rights.md#L58) | BOUNDED_COMPOSITION | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8) | 硬交付及授权、验收责任 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV28@1"
+      ]
+    },
+    {
+      "d4": "K15.02.02.01",
+      "historicalRequirement": "划分创作录音制作审核交付阶段",
+      "inventoryRef": {
+        "label": "K15.02.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L59"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.02.02.03",
+        "K15.02.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV05/K15.02.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L9",
+          "targetD4": "K15.02.02.03"
+        },
+        {
+          "label": "GV29/K15.02.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L9",
+          "targetD4": "K15.02.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "生产阶段及并行依赖",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 13,
+        "row": "| K15.02.02.01 | 划分创作录音制作审核交付阶段 | [K15.02.02](../culture-education-rights/fine-grained-culture-education-rights.md#L59) | ROUTER_CANDIDATE | [GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9) | 生产阶段及并行依赖 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV05@1",
+        "K15-CL-GV29@1"
+      ]
+    },
+    {
+      "d4": "K15.02.02.02",
+      "historicalRequirement": "明确业务状态及变更影响",
+      "inventoryRef": {
+        "label": "K15.02.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L59"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.02.02.03",
+        "K15.02.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV05/K15.02.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L9",
+          "targetD4": "K15.02.02.03"
+        },
+        {
+          "label": "GV29/K15.02.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L9",
+          "targetD4": "K15.02.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "状态变化传播及当前授权",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 14,
+        "row": "| K15.02.02.02 | 明确业务状态及变更影响 | [K15.02.02](../culture-education-rights/fine-grained-culture-education-rights.md#L59) | BOUNDED_COMPOSITION | [GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9) | 状态变化传播及当前授权 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV05@1",
+        "K15-CL-GV29@1"
+      ]
+    },
+    {
+      "d4": "K15.02.03.01",
+      "historicalRequirement": "记录预算时间人员设备与替代路径",
+      "inventoryRef": {
+        "label": "K15.02.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L60"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.02.03.03",
+        "K15.02.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV06/K15.02.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L10",
+          "targetD4": "K15.02.03.03"
+        },
+        {
+          "label": "GV30/K15.02.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L10",
+          "targetD4": "K15.02.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "资源成本/可用性与风险",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 15,
+        "row": "| K15.02.03.01 | 记录预算时间人员设备与替代路径 | [K15.02.03](../culture-education-rights/fine-grained-culture-education-rights.md#L60) | ROUTER_CANDIDATE | [GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | 资源成本/可用性与风险 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV06@1",
+        "K15-CL-GV30@1"
+      ]
+    },
+    {
+      "d4": "K15.02.03.02",
+      "historicalRequirement": "按失败原因调整计划及验收",
+      "inventoryRef": {
+        "label": "K15.02.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L60"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.02.03.03",
+        "K15.02.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV06/K15.02.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L10",
+          "targetD4": "K15.02.03.03"
+        },
+        {
+          "label": "GV30/K15.02.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L10",
+          "targetD4": "K15.02.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "获授权替代、重新协商及停止",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 16,
+        "row": "| K15.02.03.02 | 按失败原因调整计划及验收 | [K15.02.03](../culture-education-rights/fine-grained-culture-education-rights.md#L60) | BOUNDED_COMPOSITION | [GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | 获授权替代、重新协商及停止 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV06@1",
+        "K15-CL-GV30@1"
+      ]
+    },
+    {
+      "d4": "K15.03.01.01",
+      "historicalRequirement": "区分源录音作品分轨工程和派生版本",
+      "inventoryRef": {
+        "label": "K15.03.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L61"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.03.01.03",
+        "K15.03.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV07/K15.03.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L11",
+          "targetD4": "K15.03.01.03"
+        },
+        {
+          "label": "GV31/K15.03.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L11",
+          "targetD4": "K15.03.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品/录音/文件/工程身份",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 17,
+        "row": "| K15.03.01.01 | 区分源录音作品分轨工程和派生版本 | [K15.03.01](../culture-education-rights/fine-grained-culture-education-rights.md#L61) | ROUTER_CANDIDATE | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11) | 作品/录音/文件/工程身份 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV31@1"
+      ]
+    },
+    {
+      "d4": "K15.03.01.02",
+      "historicalRequirement": "记录哈希时基贡献和权利来源",
+      "inventoryRef": {
+        "label": "K15.03.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L61"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.03.01.03",
+        "K15.03.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV07/K15.03.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L11",
+          "targetD4": "K15.03.01.03"
+        },
+        {
+          "label": "GV31/K15.03.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L11",
+          "targetD4": "K15.03.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "哈希/时基/来源及贡献独立",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 18,
+        "row": "| K15.03.01.02 | 记录哈希时基贡献和权利来源 | [K15.03.01](../culture-education-rights/fine-grained-culture-education-rights.md#L61) | BOUNDED_COMPOSITION | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11) | 哈希/时基/来源及贡献独立 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV31@1"
+      ]
+    },
+    {
+      "d4": "K15.03.02.01",
+      "historicalRequirement": "记录编辑责任权限版本及共享素材",
+      "inventoryRef": {
+        "label": "K15.03.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L62"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.03.02.03",
+        "K15.03.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV08/K15.03.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L12",
+          "targetD4": "K15.03.02.03"
+        },
+        {
+          "label": "GV32/K15.03.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L12",
+          "targetD4": "K15.03.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "并发编辑/共享基线",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 19,
+        "row": "| K15.03.02.01 | 记录编辑责任权限版本及共享素材 | [K15.03.02](../culture-education-rights/fine-grained-culture-education-rights.md#L62) | ROUTER_CANDIDATE | [GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12) | 并发编辑/共享基线 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV08@1",
+        "K15-CL-GV32@1"
+      ]
+    },
+    {
+      "d4": "K15.03.02.02",
+      "historicalRequirement": "定义独立备份和冲突复核",
+      "inventoryRef": {
+        "label": "K15.03.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L62"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.03.02.03",
+        "K15.03.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV08/K15.03.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L12",
+          "targetD4": "K15.03.02.03"
+        },
+        {
+          "label": "GV32/K15.03.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L12",
+          "targetD4": "K15.03.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "独立备份及冲突复核",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 20,
+        "row": "| K15.03.02.02 | 定义独立备份和冲突复核 | [K15.03.02](../culture-education-rights/fine-grained-culture-education-rights.md#L62) | BOUNDED_COMPOSITION | [GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12) | 独立备份及冲突复核 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV08@1",
+        "K15-CL-GV32@1"
+      ]
+    },
+    {
+      "d4": "K15.03.03.01",
+      "historicalRequirement": "记录设备软件插件及环境版本",
+      "inventoryRef": {
+        "label": "K15.03.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L63"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.03.03.03",
+        "K15.03.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV09/K15.03.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L13",
+          "targetD4": "K15.03.03.03"
+        },
+        {
+          "label": "GV33/K15.03.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L13",
+          "targetD4": "K15.03.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "设备与版本/实际环境",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 21,
+        "row": "| K15.03.03.01 | 记录设备软件插件及环境版本 | [K15.03.03](../culture-education-rights/fine-grained-culture-education-rights.md#L63) | ROUTER_CANDIDATE | [GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | 设备与版本/实际环境 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV09@1",
+        "K15-CL-GV33@1"
+      ]
+    },
+    {
+      "d4": "K15.03.03.02",
+      "historicalRequirement": "核验缺失依赖及替代影响",
+      "inventoryRef": {
+        "label": "K15.03.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L63"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.03.03.03",
+        "K15.03.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV09/K15.03.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L13",
+          "targetD4": "K15.03.03.03"
+        },
+        {
+          "label": "GV33/K15.03.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L13",
+          "targetD4": "K15.03.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "重开依赖与替代交付损失",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 22,
+        "row": "| K15.03.03.02 | 核验缺失依赖及替代影响 | [K15.03.03](../culture-education-rights/fine-grained-culture-education-rights.md#L63) | BOUNDED_COMPOSITION | [GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | 重开依赖与替代交付损失 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV09@1",
+        "K15-CL-GV33@1"
+      ]
+    },
+    {
+      "d4": "K15.04.01.01",
+      "historicalRequirement": "分离技术质量音乐目标权利和交付",
+      "inventoryRef": {
+        "label": "K15.04.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L64"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.04.01.03",
+        "K15.04.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14",
+          "targetD4": "K15.04.01.03"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14",
+          "targetD4": "K15.04.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "技术、音乐、权利、交付门禁",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 23,
+        "row": "| K15.04.01.01 | 分离技术质量音乐目标权利和交付 | [K15.04.01](../culture-education-rights/fine-grained-culture-education-rights.md#L64) | ROUTER_CANDIDATE | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14) | 技术、音乐、权利、交付门禁 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV34@1"
+      ]
+    },
+    {
+      "d4": "K15.04.01.02",
+      "historicalRequirement": "明确必要证据及允许多解",
+      "inventoryRef": {
+        "label": "K15.04.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L64"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.04.01.03",
+        "K15.04.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14",
+          "targetD4": "K15.04.01.03"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14",
+          "targetD4": "K15.04.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "必要证据优先于艺术偏好",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 24,
+        "row": "| K15.04.01.02 | 明确必要证据及允许多解 | [K15.04.01](../culture-education-rights/fine-grained-culture-education-rights.md#L64) | BOUNDED_COMPOSITION | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14) | 必要证据优先于艺术偏好 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV34@1"
+      ]
+    },
+    {
+      "d4": "K15.04.02.01",
+      "historicalRequirement": "记录问题影响范围优先级和责任",
+      "inventoryRef": {
+        "label": "K15.04.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L65"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.04.02.03",
+        "K15.04.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15",
+          "targetD4": "K15.04.02.03"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15",
+          "targetD4": "K15.04.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "缺陷优先级/影响及责任",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 25,
+        "row": "| K15.04.02.01 | 记录问题影响范围优先级和责任 | [K15.04.02](../culture-education-rights/fine-grained-culture-education-rights.md#L65) | ROUTER_CANDIDATE | [GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15) | 缺陷优先级/影响及责任 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV11@1",
+        "K15-CL-GV35@1"
+      ]
+    },
+    {
+      "d4": "K15.04.02.02",
+      "historicalRequirement": "绑定原候选修订结果及重新评价",
+      "inventoryRef": {
+        "label": "K15.04.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L65"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.04.02.03",
+        "K15.04.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15",
+          "targetD4": "K15.04.02.03"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15",
+          "targetD4": "K15.04.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "候选、变更和回执再评价",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 26,
+        "row": "| K15.04.02.02 | 绑定原候选修订结果及重新评价 | [K15.04.02](../culture-education-rights/fine-grained-culture-education-rights.md#L65) | BOUNDED_COMPOSITION | [GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15) | 候选、变更和回执再评价 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV11@1",
+        "K15-CL-GV35@1"
+      ]
+    },
+    {
+      "d4": "K15.04.03.01",
+      "historicalRequirement": "记录利益相关者反馈偏好和决定",
+      "inventoryRef": {
+        "label": "K15.04.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L66"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.04.03.03",
+        "K15.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16",
+          "targetD4": "K15.04.03.03"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16",
+          "targetD4": "K15.04.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "反馈与利益相关者决定",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 27,
+        "row": "| K15.04.03.01 | 记录利益相关者反馈偏好和决定 | [K15.04.03](../culture-education-rights/fine-grained-culture-education-rights.md#L66) | ROUTER_CANDIDATE | [GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | 反馈与利益相关者决定 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV12@1",
+        "K15-CL-GV36@1"
+      ]
+    },
+    {
+      "d4": "K15.04.03.02",
+      "historicalRequirement": "定义停止回滚及证据保留",
+      "inventoryRef": {
+        "label": "K15.04.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L66"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.04.03.03",
+        "K15.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16",
+          "targetD4": "K15.04.03.03"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16",
+          "targetD4": "K15.04.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "有效资格回滚、停止及保留",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 28,
+        "row": "| K15.04.03.02 | 定义停止回滚及证据保留 | [K15.04.03](../culture-education-rights/fine-grained-culture-education-rights.md#L66) | BOUNDED_COMPOSITION | [GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | 有效资格回滚、停止及保留 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV12@1",
+        "K15-CL-GV36@1"
+      ]
+    },
+    {
+      "d4": "K15.05.01.01",
+      "historicalRequirement": "区分音乐作品歌词录音表演及其权利主体",
+      "inventoryRef": {
+        "label": "K15.05.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L67"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.05.01.03",
+        "K15.05.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17",
+          "targetD4": "K15.05.01.03"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17",
+          "targetD4": "K15.05.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品/表演/录音权利对象",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 29,
+        "row": "| K15.05.01.01 | 区分音乐作品歌词录音表演及其权利主体 | [K15.05.01](../culture-education-rights/fine-grained-culture-education-rights.md#L67) | ROUTER_CANDIDATE | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17) | 作品/表演/录音权利对象 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV37@1"
+      ]
+    },
+    {
+      "d4": "K15.05.01.02",
+      "historicalRequirement": "关联权利来源辖区版本和授权链",
+      "inventoryRef": {
+        "label": "K15.05.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L67"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.05.01.03",
+        "K15.05.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17",
+          "targetD4": "K15.05.01.03"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17",
+          "targetD4": "K15.05.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "辖区/版本/授权链/期限分别",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 30,
+        "row": "| K15.05.01.02 | 关联权利来源辖区版本和授权链 | [K15.05.01](../culture-education-rights/fine-grained-culture-education-rights.md#L67) | BOUNDED_COMPOSITION | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17) | 辖区/版本/授权链/期限分别 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV37@1"
+      ]
+    },
+    {
+      "d4": "K15.05.02.01",
+      "historicalRequirement": "区分复制翻译改编公开传播及训练等用途",
+      "inventoryRef": {
+        "label": "K15.05.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L68"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.05.02.03",
+        "K15.05.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18",
+          "targetD4": "K15.05.02.03"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18",
+          "targetD4": "K15.05.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "许可行为及目的",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 31,
+        "row": "| K15.05.02.01 | 区分复制翻译改编公开传播及训练等用途 | [K15.05.02](../culture-education-rights/fine-grained-culture-education-rights.md#L68) | ROUTER_CANDIDATE | [GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18) | 许可行为及目的 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV14@1",
+        "K15-CL-GV38@1"
+      ]
+    },
+    {
+      "d4": "K15.05.02.02",
+      "historicalRequirement": "记录地区期限对象例外及合同范围",
+      "inventoryRef": {
+        "label": "K15.05.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L68"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.05.02.03",
+        "K15.05.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18",
+          "targetD4": "K15.05.02.03"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18",
+          "targetD4": "K15.05.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "地域、期限、例外和合同条件",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 32,
+        "row": "| K15.05.02.02 | 记录地区期限对象例外及合同范围 | [K15.05.02](../culture-education-rights/fine-grained-culture-education-rights.md#L68) | BOUNDED_COMPOSITION | [GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18) | 地域、期限、例外和合同条件 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV14@1",
+        "K15-CL-GV38@1"
+      ]
+    },
+    {
+      "d4": "K15.05.03.01",
+      "historicalRequirement": "区分版权许可第三方权利及法律例外",
+      "inventoryRef": {
+        "label": "K15.05.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L69"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.05.03.03",
+        "K15.05.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19",
+          "targetD4": "K15.05.03.03"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19",
+          "targetD4": "K15.05.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "许可与例外/第三方权利",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 33,
+        "row": "| K15.05.03.01 | 区分版权许可第三方权利及法律例外 | [K15.05.03](../culture-education-rights/fine-grained-culture-education-rights.md#L69) | ROUTER_CANDIDATE | [GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | 许可与例外/第三方权利 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV15@1",
+        "K15-CL-GV39@1"
+      ]
+    },
+    {
+      "d4": "K15.05.03.02",
+      "historicalRequirement": "按具体版本正文核对NC ND SA等条件",
+      "inventoryRef": {
+        "label": "K15.05.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L69"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.05.03.03",
+        "K15.05.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19",
+          "targetD4": "K15.05.03.03"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19",
+          "targetD4": "K15.05.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "CC版本NC/ND/SA、终止与补救",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 34,
+        "row": "| K15.05.03.02 | 按具体版本正文核对NC ND SA等条件 | [K15.05.03](../culture-education-rights/fine-grained-culture-education-rights.md#L69) | BOUNDED_COMPOSITION | [GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | CC版本NC/ND/SA、终止与补救 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV15@1",
+        "K15-CL-GV39@1"
+      ]
+    },
+    {
+      "d4": "K15.06.01.01",
+      "historicalRequirement": "区分录音权利声音身份及人格相关权益",
+      "inventoryRef": {
+        "label": "K15.06.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L70"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.06.01.03",
+        "K15.06.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV16/K15.06.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L20",
+          "targetD4": "K15.06.01.03"
+        },
+        {
+          "label": "GV40/K15.06.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L20",
+          "targetD4": "K15.06.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "录音权及声音身份/隐私",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 35,
+        "row": "| K15.06.01.01 | 区分录音权利声音身份及人格相关权益 | [K15.06.01](../culture-education-rights/fine-grained-culture-education-rights.md#L70) | ROUTER_CANDIDATE | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20) | 录音权及声音身份/隐私 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV40@1"
+      ]
+    },
+    {
+      "d4": "K15.06.01.02",
+      "historicalRequirement": "记录主体授权证据及用途边界",
+      "inventoryRef": {
+        "label": "K15.06.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L70"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.06.01.03",
+        "K15.06.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV16/K15.06.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L20",
+          "targetD4": "K15.06.01.03"
+        },
+        {
+          "label": "GV40/K15.06.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L20",
+          "targetD4": "K15.06.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "具体主体授权与范围",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 36,
+        "row": "| K15.06.01.02 | 记录主体授权证据及用途边界 | [K15.06.01](../culture-education-rights/fine-grained-culture-education-rights.md#L70) | BOUNDED_COMPOSITION | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20) | 具体主体授权与范围 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV40@1"
+      ]
+    },
+    {
+      "d4": "K15.06.02.01",
+      "historicalRequirement": "明确声音使用方式对象期限和发布范围",
+      "inventoryRef": {
+        "label": "K15.06.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L71"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.06.02.03",
+        "K15.06.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV17/K15.06.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L21",
+          "targetD4": "K15.06.02.03"
+        },
+        {
+          "label": "GV41/K15.06.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L21",
+          "targetD4": "K15.06.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "用途/对象/期限/受众同意",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 37,
+        "row": "| K15.06.02.01 | 明确声音使用方式对象期限和发布范围 | [K15.06.02](../culture-education-rights/fine-grained-culture-education-rights.md#L71) | ROUTER_CANDIDATE | [GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21) | 用途/对象/期限/受众同意 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV17@1",
+        "K15-CL-GV41@1"
+      ]
+    },
+    {
+      "d4": "K15.06.02.02",
+      "historicalRequirement": "区分合同许可撤销条件及法律要求",
+      "inventoryRef": {
+        "label": "K15.06.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L71"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.06.02.03",
+        "K15.06.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV17/K15.06.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L21",
+          "targetD4": "K15.06.02.03"
+        },
+        {
+          "label": "GV41/K15.06.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L21",
+          "targetD4": "K15.06.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "合同变化及现行法律另核",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 38,
+        "row": "| K15.06.02.02 | 区分合同许可撤销条件及法律要求 | [K15.06.02](../culture-education-rights/fine-grained-culture-education-rights.md#L71) | BOUNDED_COMPOSITION | [GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21) | 合同变化及现行法律另核 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV17@1",
+        "K15-CL-GV41@1"
+      ]
+    },
+    {
+      "d4": "K15.06.03.01",
+      "historicalRequirement": "登记到期撤回请求和依赖受影响范围",
+      "inventoryRef": {
+        "label": "K15.06.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L72"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.06.03.03",
+        "K15.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV18/K15.06.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L22",
+          "targetD4": "K15.06.03.03"
+        },
+        {
+          "label": "GV42/K15.06.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L22",
+          "targetD4": "K15.06.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "撤回/到期/争议请求",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 39,
+        "row": "| K15.06.03.01 | 登记到期撤回请求和依赖受影响范围 | [K15.06.03](../culture-education-rights/fine-grained-culture-education-rights.md#L72) | ROUTER_CANDIDATE | [GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | 撤回/到期/争议请求 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV18@1",
+        "K15-CL-GV42@1"
+      ]
+    },
+    {
+      "d4": "K15.06.03.02",
+      "historicalRequirement": "区分适用条款已发布内容及待核法律",
+      "inventoryRef": {
+        "label": "K15.06.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L72"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.06.03.03",
+        "K15.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV18/K15.06.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L22",
+          "targetD4": "K15.06.03.03"
+        },
+        {
+          "label": "GV42/K15.06.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L22",
+          "targetD4": "K15.06.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "依赖和已发行持续状态分开",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 40,
+        "row": "| K15.06.03.02 | 区分适用条款已发布内容及待核法律 | [K15.06.03](../culture-education-rights/fine-grained-culture-education-rights.md#L72) | BOUNDED_COMPOSITION | [GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | 依赖和已发行持续状态分开 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV18@1",
+        "K15-CL-GV42@1"
+      ]
+    },
+    {
+      "d4": "K15.07.01.01",
+      "historicalRequirement": "记录数据集素材作者许可用途及版本",
+      "inventoryRef": {
+        "label": "K15.07.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L73"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.07.01.03",
+        "K15.07.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV19/K15.07.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L23",
+          "targetD4": "K15.07.01.03"
+        },
+        {
+          "label": "GV43/K15.07.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L23",
+          "targetD4": "K15.07.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "素材/作者/许可/条目版本",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 41,
+        "row": "| K15.07.01.01 | 记录数据集素材作者许可用途及版本 | [K15.07.01](../culture-education-rights/fine-grained-culture-education-rights.md#L73) | ROUTER_CANDIDATE | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23) | 素材/作者/许可/条目版本 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV43@1"
+      ]
+    },
+    {
+      "d4": "K15.07.01.02",
+      "historicalRequirement": "区分公开研究与训练分发的资格",
+      "inventoryRef": {
+        "label": "K15.07.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L73"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.07.01.03",
+        "K15.07.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV19/K15.07.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L23",
+          "targetD4": "K15.07.01.03"
+        },
+        {
+          "label": "GV43/K15.07.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L23",
+          "targetD4": "K15.07.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "训练与分发/研究用途独立",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 42,
+        "row": "| K15.07.01.02 | 区分公开研究与训练分发的资格 | [K15.07.01](../culture-education-rights/fine-grained-culture-education-rights.md#L73) | BOUNDED_COMPOSITION | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23) | 训练与分发/研究用途独立 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV43@1"
+      ]
+    },
+    {
+      "d4": "K15.07.02.01",
+      "historicalRequirement": "区分个人录音身份数据及非个人统计",
+      "inventoryRef": {
+        "label": "K15.07.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L74"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.07.02.03",
+        "K15.07.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV20/K15.07.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L24",
+          "targetD4": "K15.07.02.03"
+        },
+        {
+          "label": "GV44/K15.07.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L24",
+          "targetD4": "K15.07.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "声样与可识别/去标识数据",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 43,
+        "row": "| K15.07.02.01 | 区分个人录音身份数据及非个人统计 | [K15.07.02](../culture-education-rights/fine-grained-culture-education-rights.md#L74) | ROUTER_CANDIDATE | [GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24) | 声样与可识别/去标识数据 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV20@1",
+        "K15-CL-GV44@1"
+      ]
+    },
+    {
+      "d4": "K15.07.02.02",
+      "historicalRequirement": "明确访问保存删除和再利用约束",
+      "inventoryRef": {
+        "label": "K15.07.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L74"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.07.02.03",
+        "K15.07.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV20/K15.07.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L24",
+          "targetD4": "K15.07.02.03"
+        },
+        {
+          "label": "GV44/K15.07.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L24",
+          "targetD4": "K15.07.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "最小访问/保留及删除条件",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 44,
+        "row": "| K15.07.02.02 | 明确访问保存删除和再利用约束 | [K15.07.02](../culture-education-rights/fine-grained-culture-education-rights.md#L74) | BOUNDED_COMPOSITION | [GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24) | 最小访问/保留及删除条件 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV20@1",
+        "K15-CL-GV44@1"
+      ]
+    },
+    {
+      "d4": "K15.07.03.01",
+      "historicalRequirement": "追踪分离特征标注权重及数据变更",
+      "inventoryRef": {
+        "label": "K15.07.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L75"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.07.03.03",
+        "K15.07.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV21/K15.07.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L25",
+          "targetD4": "K15.07.03.03"
+        },
+        {
+          "label": "GV45/K15.07.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L25",
+          "targetD4": "K15.07.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "数据及派生/模型来源",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 45,
+        "row": "| K15.07.03.01 | 追踪分离特征标注权重及数据变更 | [K15.07.03](../culture-education-rights/fine-grained-culture-education-rights.md#L75) | ROUTER_CANDIDATE | [GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | 数据及派生/模型来源 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV21@1",
+        "K15-CL-GV45@1"
+      ]
+    },
+    {
+      "d4": "K15.07.03.02",
+      "historicalRequirement": "记录分发许可训练风险和证据缺失",
+      "inventoryRef": {
+        "label": "K15.07.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L75"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.07.03.03",
+        "K15.07.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV21/K15.07.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L25",
+          "targetD4": "K15.07.03.03"
+        },
+        {
+          "label": "GV45/K15.07.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L25",
+          "targetD4": "K15.07.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "用途、风险和未证影响",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 46,
+        "row": "| K15.07.03.02 | 记录分发许可训练风险和证据缺失 | [K15.07.03](../culture-education-rights/fine-grained-culture-education-rights.md#L75) | BOUNDED_COMPOSITION | [GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | 用途、风险和未证影响 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV21@1",
+        "K15-CL-GV45@1"
+      ]
+    },
+    {
+      "d4": "K15.08.01.01",
+      "historicalRequirement": "区分作品ISWC录音ISRC发行物及版本",
+      "inventoryRef": {
+        "label": "K15.08.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L76"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.08.01.03",
+        "K15.08.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV22/K15.08.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L26",
+          "targetD4": "K15.08.01.03"
+        },
+        {
+          "label": "GV46/K15.08.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L26",
+          "targetD4": "K15.08.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品/录音/发行与标识",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 47,
+        "row": "| K15.08.01.01 | 区分作品ISWC录音ISRC发行物及版本 | [K15.08.01](../culture-education-rights/fine-grained-culture-education-rights.md#L76) | ROUTER_CANDIDATE | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26) | 作品/录音/发行与标识 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV46@1"
+      ]
+    },
+    {
+      "d4": "K15.08.01.02",
+      "historicalRequirement": "记录关联标识贡献者和实际资源",
+      "inventoryRef": {
+        "label": "K15.08.01",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L76"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.08.01.03",
+        "K15.08.01.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV22/K15.08.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L26",
+          "targetD4": "K15.08.01.03"
+        },
+        {
+          "label": "GV46/K15.08.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L26",
+          "targetD4": "K15.08.01.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "实际资源及贡献关联",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 48,
+        "row": "| K15.08.01.02 | 记录关联标识贡献者和实际资源 | [K15.08.01](../culture-education-rights/fine-grained-culture-education-rights.md#L76) | BOUNDED_COMPOSITION | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26) | 实际资源及贡献关联 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV46@1"
+      ]
+    },
+    {
+      "d4": "K15.08.02.01",
+      "historicalRequirement": "记录渠道地域时间用途和许可凭据",
+      "inventoryRef": {
+        "label": "K15.08.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L77"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.08.02.03",
+        "K15.08.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV23/K15.08.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L27",
+          "targetD4": "K15.08.02.03"
+        },
+        {
+          "label": "GV47/K15.08.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L27",
+          "targetD4": "K15.08.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "地域/渠道/期限及用途",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 49,
+        "row": "| K15.08.02.01 | 记录渠道地域时间用途和许可凭据 | [K15.08.02](../culture-education-rights/fine-grained-culture-education-rights.md#L77) | ROUTER_CANDIDATE | [GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27) | 地域/渠道/期限及用途 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV23@1",
+        "K15-CL-GV47@1"
+      ]
+    },
+    {
+      "d4": "K15.08.02.02",
+      "historicalRequirement": "区分交付包及实际发布状态",
+      "inventoryRef": {
+        "label": "K15.08.02",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L77"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.08.02.03",
+        "K15.08.02.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV23/K15.08.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L27",
+          "targetD4": "K15.08.02.03"
+        },
+        {
+          "label": "GV47/K15.08.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L27",
+          "targetD4": "K15.08.02.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "交付、ACK与实际外部发行",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 50,
+        "row": "| K15.08.02.02 | 区分交付包及实际发布状态 | [K15.08.02](../culture-education-rights/fine-grained-culture-education-rights.md#L77) | BOUNDED_COMPOSITION | [GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27) | 交付、ACK与实际外部发行 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV23@1",
+        "K15-CL-GV47@1"
+      ]
+    },
+    {
+      "d4": "K15.08.03.01",
+      "historicalRequirement": "保存交付基线实际文件与评价证据",
+      "inventoryRef": {
+        "label": "K15.08.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L78"
+      },
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K15.08.03.03",
+        "K15.08.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV24/K15.08.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L28",
+          "targetD4": "K15.08.03.03"
+        },
+        {
+          "label": "GV48/K15.08.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L28",
+          "targetD4": "K15.08.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "归档实际文件/报告/权利",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 51,
+        "row": "| K15.08.03.01 | 保存交付基线实际文件与评价证据 | [K15.08.03](../culture-education-rights/fine-grained-culture-education-rights.md#L78) | ROUTER_CANDIDATE | [GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | 归档实际文件/报告/权利 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV24@1",
+        "K15-CL-GV48@1"
+      ]
+    },
+    {
+      "d4": "K15.08.03.02",
+      "historicalRequirement": "记录更正撤下请求及版本关系",
+      "inventoryRef": {
+        "label": "K15.08.03",
+        "uri": "../culture-education-rights/fine-grained-culture-education-rights.md#L78"
+      },
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K15.08.03.03",
+        "K15.08.03.04"
+      ],
+      "routeLinks": [
+        {
+          "label": "GV24/K15.08.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L28",
+          "targetD4": "K15.08.03.03"
+        },
+        {
+          "label": "GV48/K15.08.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L28",
+          "targetD4": "K15.08.03.04"
+        }
+      ],
+      "unresolved": [],
+      "limits": "更正/撤下范围和回读",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 52,
+        "row": "| K15.08.03.02 | 记录更正撤下请求及版本关系 | [K15.08.03](../culture-education-rights/fine-grained-culture-education-rights.md#L78) | BOUNDED_COMPOSITION | [GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | 更正/撤下范围和回读 |"
+      },
+      "claimRefs": [
+        "K15-CL-GV24@1",
+        "K15-CL-GV48@1"
+      ]
+    }
+  ],
+  "splitRoutes": [
+    {
+      "sourceD4": "K13.02.03.01",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.07=仪式用途及社群规则；K15.05=具体权利许可",
+      "ownerBoundary": "具体用途许可；社群规则K16.07，非K15文化主责",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 57,
+        "row": "| [K13.02.03.01](domain-migration-implementation.md#L15) | SPLIT / — / SPLIT_OPEN | K16.07=仪式用途及社群规则；K15.05=具体权利许可 | 具体用途许可；社群规则K16.07，非K15文化主责 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.02.03.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.07=社群访问习惯；K15.05/K15.07=用途许可和数据访问；K12.06 REF执行授权",
+      "ownerBoundary": "具体许可和数据访问；访问习惯K16.07、执行K12",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV19/K15.07.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV20/K15.07.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV21/K15.07.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L25"
+        },
+        {
+          "label": "GV43/K15.07.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV44/K15.07.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV45/K15.07.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 58,
+        "row": "| [K13.02.03.02](domain-migration-implementation.md#L16) | SPLIT / — / SPLIT_OPEN | K16.07=社群访问习惯；K15.05/K15.07=用途许可和数据访问；K12.06 REF执行授权 | 具体许可和数据访问；访问习惯K16.07、执行K12 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.04.02.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.05=不从风格推身份的文化解释边界；K15.06/K15.07=身份及个人数据权限；K10.08 REF评价",
+      "ownerBoundary": "身份相关授权与个人数据，不从音色断身份；文化解释K16.05、评价K10",
+      "candidateEntry": "[GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25)",
+      "candidateLinks": [
+        {
+          "label": "GV16/K15.06.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L20"
+        },
+        {
+          "label": "GV17/K15.06.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L21"
+        },
+        {
+          "label": "GV18/K15.06.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L22"
+        },
+        {
+          "label": "GV40/K15.06.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L20"
+        },
+        {
+          "label": "GV41/K15.06.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L21"
+        },
+        {
+          "label": "GV42/K15.06.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L22"
+        },
+        {
+          "label": "GV19/K15.07.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV20/K15.07.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV21/K15.07.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L25"
+        },
+        {
+          "label": "GV43/K15.07.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L23"
+        },
+        {
+          "label": "GV44/K15.07.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L24"
+        },
+        {
+          "label": "GV45/K15.07.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 59,
+        "row": "| [K13.04.02.02](domain-migration-implementation.md#L26) | SPLIT / — / SPLIT_OPEN | K16.05=不从风格推身份的文化解释边界；K15.06/K15.07=身份及个人数据权限；K10.08 REF评价 | 身份相关授权与个人数据，不从音色断身份；文化解释K16.05、评价K10 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22)；[GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.06.03.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K13.06=原词译稿版本；K09.01/K01.08=工程/谱面保真；K15.05=授权版本；K12.04 REF交换",
+      "ownerBoundary": "授权版本；原词译稿K13、工程谱面K09/K01及交换K12",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 60,
+        "row": "| [K13.06.03.02](domain-migration-implementation.md#L40) | SPLIT / — / SPLIT_OPEN | K13.06=原词译稿版本；K09.01/K01.08=工程/谱面保真；K15.05=授权版本；K12.04 REF交换 | 授权版本；原词译稿K13、工程谱面K09/K01及交换K12 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K13.07.02.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K16.02=描述性文化事实；K15.05=当前具体作品录音改编授权规则；K13.06 REF适配，不能以史实授权",
+      "ownerBoundary": "具体作品/录音/改编授权，不以历史事实授权；K16.02史实",
+      "candidateEntry": "[GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19)",
+      "candidateLinks": [
+        {
+          "label": "GV13/K15.05.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV14/K15.05.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV15/K15.05.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "GV37/K15.05.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "GV38/K15.05.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L18"
+        },
+        {
+          "label": "GV39/K15.05.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 61,
+        "row": "| [K13.07.02.02](domain-migration-implementation.md#L44) | SPLIT / — / SPLIT_OPEN | K16.02=描述性文化事实；K15.05=当前具体作品录音改编授权规则；K13.06 REF适配，不能以史实授权 | 具体作品/录音/改编授权，不以历史事实授权；K16.02史实 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K09.07.01.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K19.07=现场候选及处置；K08.04/K08.05=通用增益拾音；K07.06 REF环境；K15.04 REF安全门禁",
+      "ownerBoundary": "REF安全门禁，非K15现场噪声主责；K19/K08/K07",
+      "candidateEntry": "[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16)",
+      "candidateLinks": [
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 62,
+        "row": "| [K09.07.01.02](domain-migration-implementation.md#L54) | SPLIT / — / SPLIT_OPEN | K19.07=现场候选及处置；K08.04/K08.05=通用增益拾音；K07.06 REF环境；K15.04 REF安全门禁 | REF安全门禁，非K15现场噪声主责；K19/K08/K07 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K09.07.02.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K19.03=现场安全核对；K15.01/K15.04=权限与验收责任；K07.08=听音安全；K12.06 REF工具权限",
+      "ownerBoundary": "权限及验收责任；实际现场安全K19/K07、执行权限K12",
+      "candidateEntry": "[GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7)；[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16)",
+      "candidateLinks": [
+        {
+          "label": "GV01/K15.01.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L5"
+        },
+        {
+          "label": "GV02/K15.01.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L6"
+        },
+        {
+          "label": "GV03/K15.01.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L7"
+        },
+        {
+          "label": "GV25/K15.01.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L5"
+        },
+        {
+          "label": "GV26/K15.01.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L6"
+        },
+        {
+          "label": "GV27/K15.01.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L7"
+        },
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 63,
+        "row": "| [K09.07.02.02](domain-migration-implementation.md#L56) | SPLIT / — / SPLIT_OPEN | K19.03=现场安全核对；K15.01/K15.04=权限与验收责任；K07.08=听音安全；K12.06 REF工具权限 | 权限及验收责任；实际现场安全K19/K07、执行权限K12 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7)；[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "sourceD4": "K09.07.03.02",
+      "originalState": "SPLIT / — / SPLIT_OPEN",
+      "originalSource": "",
+      "originalRoute": "K19.09=现场停止复测和安全修订；K15.04=治理放行责任；K07.08 REF安全依据",
+      "ownerBoundary": "治理放行责任；现场停止复测K19.09、K07安全依据",
+      "candidateEntry": "[GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16)",
+      "candidateLinks": [
+        {
+          "label": "GV10/K15.04.01.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV11/K15.04.02.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV12/K15.04.03.03",
+          "uri": "production-governance-r1-knowledge-cases.md#L16"
+        },
+        {
+          "label": "GV34/K15.04.01.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L14"
+        },
+        {
+          "label": "GV35/K15.04.02.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L15"
+        },
+        {
+          "label": "GV36/K15.04.03.04",
+          "uri": "production-governance-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-legacy-convergence.md",
+        "blob": "8fed9729f92b29287560dce9880d7c61301069e5",
+        "line": 64,
+        "row": "| [K09.07.03.02](domain-migration-implementation.md#L58) | SPLIT / — / SPLIT_OPEN | K19.09=现场停止复测和安全修订；K15.04=治理放行责任；K07.08 REF安全依据 | 治理放行责任；现场停止复测K19.09、K07安全依据 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    }
+  ],
+  "historicalFinding": null,
+  "historicalOpenIssues": [
+    {
+      "number": 28,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 32,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 35,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 38,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 41,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 46,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 49,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 52,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 55,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 60,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 63,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    }
+  ],
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}

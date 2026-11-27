@@ -1,0 +1,1689 @@
+{
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "rows": [
+    {
+      "d4": "K10.01.01.03",
+      "claim": "K10-CL-EV01@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ07",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-01"
+      ],
+      "caseId": "EV01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 5,
+        "row": "| K10.01.01.03 | [EV01](evaluation-r1-knowledge-cases.md#L5) | 参考/估计F0与有声分母 | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ07/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.01.02.03",
+      "claim": "K10-CL-EV02@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ09",
+        "CQ10",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-02"
+      ],
+      "caseId": "EV02",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 6,
+        "row": "| K10.01.02.03 | [EV02](evaluation-r1-knowledge-cases.md#L6) | 单旋律/多F0目标 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ07/CQ09/CQ10/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.01.03.03",
+      "claim": "K10-CL-EV03@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ07",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-01"
+      ],
+      "caseId": "EV03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 7,
+        "row": "| K10.01.03.03 | [EV03](evaluation-r1-knowledge-cases.md#L7) | 八度音高/音级区别 | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ06/CQ07/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.02.01.03",
+      "claim": "K10-CL-EV04@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-03"
+      ],
+      "caseId": "EV04",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 8,
+        "row": "| K10.02.01.03 | [EV04](evaluation-r1-knowledge-cases.md#L8) | 拍/速度/下拍与onset | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.02.02.03",
+      "claim": "K10-CL-EV05@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-03"
+      ],
+      "caseId": "EV05",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 9,
+        "row": "| K10.02.02.03 | [EV05](evaluation-r1-knowledge-cases.md#L9) | 秒窗一对一匹配 | [S101](../../research/source-qualification-production-evaluation.md#L22) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.02.03.03",
+      "claim": "K10-CL-EV06@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ19",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-03"
+      ],
+      "caseId": "EV06",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 10,
+        "row": "| K10.02.03.03 | [EV06](evaluation-r1-knowledge-cases.md#L10) | 层级及相位歧义 | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.03.01.03",
+      "claim": "K10-CL-EV07@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-04"
+      ],
+      "caseId": "EV07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 11,
+        "row": "| K10.03.01.03 | [EV07](evaluation-r1-knowledge-cases.md#L11) | 根音/性质/转位 | [S102](../../research/source-qualification-production-evaluation.md#L23) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.03.02.03",
+      "claim": "K10-CL-EV08@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-04"
+      ],
+      "caseId": "EV08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 12,
+        "row": "| K10.03.02.03 | [EV08](evaluation-r1-knowledge-cases.md#L12) | 调性候选与文化词汇 | [S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.03.03.03",
+      "claim": "K10-CL-EV09@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ17",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-04"
+      ],
+      "caseId": "EV09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 13,
+        "row": "| K10.03.03.03 | [EV09](evaluation-r1-knowledge-cases.md#L13) | 时间加权和调性版本 | [S102](../../research/source-qualification-production-evaluation.md#L23)；[S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.04.01.03",
+      "claim": "K10-CL-EV10@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ16",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-05"
+      ],
+      "caseId": "EV10",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 14,
+        "row": "| K10.04.01.03 | [EV10](evaluation-r1-knowledge-cases.md#L14) | 起止音高及offset | [S104](../../research/source-qualification-production-evaluation.md#L25)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ16/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.04.02.03",
+      "claim": "K10-CL-EV11@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ09",
+        "CQ10",
+        "CQ20",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-05"
+      ],
+      "caseId": "EV11",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 15,
+        "row": "| K10.04.02.03 | [EV11](evaluation-r1-knowledge-cases.md#L15) | 部分乐器标注与固定事件声部身份 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S508](../../research/source-qualification-evaluation-r1.md#L5)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.04.03.03",
+      "claim": "K10-CL-EV12@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ20",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-06"
+      ],
+      "caseId": "EV12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 16,
+        "row": "| K10.04.03.03 | [EV12](evaluation-r1-knowledge-cases.md#L16) | 文本/时间与可编辑音符歌词关系 | [S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.05.01.03",
+      "claim": "K10-CL-EV13@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-07"
+      ],
+      "caseId": "EV13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 17,
+        "row": "| K10.05.01.03 | [EV13](evaluation-r1-knowledge-cases.md#L17) | 边界容差及端点 | [S105](../../research/source-qualification-production-evaluation.md#L26)；[S509](../../research/source-qualification-evaluation-r1.md#L6) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.05.02.03",
+      "claim": "K10-CL-EV14@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-07"
+      ],
+      "caseId": "EV14",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 18,
+        "row": "| K10.05.02.03 | [EV14](evaluation-r1-knowledge-cases.md#L18) | 重复身份与功能 | [S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.05.03.03",
+      "claim": "K10-CL-EV15@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-07"
+      ],
+      "caseId": "EV15",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 19,
+        "row": "| K10.05.03.03 | [EV15](evaluation-r1-knowledge-cases.md#L19) | 同粒度多参考边界与逐参考F1 | [S509](../../research/source-qualification-evaluation-r1.md#L6)；[S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.06.01.03",
+      "claim": "K10-CL-EV16@1",
+      "directCQ": [
+        "CQ06",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ07",
+        "CQ15",
+        "CQ16",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-08"
+      ],
+      "caseId": "EV16",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 20,
+        "row": "| K10.06.01.03 | [EV16](evaluation-r1-knowledge-cases.md#L20) | 实际偏差与估计误差 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ06/CQ22 | CQ05/CQ07/CQ15/CQ16/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.06.02.03",
+      "claim": "K10-CL-EV17@1",
+      "directCQ": [
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ05",
+        "CQ06",
+        "CQ12",
+        "CQ15",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-08"
+      ],
+      "caseId": "EV17",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 21,
+        "row": "| K10.06.02.03 | [EV17](evaluation-r1-knowledge-cases.md#L21) | 发音理解表达音色 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10) | CQ22/CQ26 | CQ04/CQ05/CQ06/CQ12/CQ15/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.06.03.03",
+      "claim": "K10-CL-EV18@1",
+      "directCQ": [
+        "CQ06",
+        "CQ22",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ15",
+        "CQ19",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-08"
+      ],
+      "caseId": "EV18",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 22,
+        "row": "| K10.06.03.03 | [EV18](evaluation-r1-knowledge-cases.md#L22) | 评价反馈与安全 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S099](../../research/source-qualification-production-evaluation.md#L20) | CQ06/CQ22/CQ24 | CQ05/CQ15/CQ19/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.07.01.03",
+      "claim": "K10-CL-EV19@1",
+      "directCQ": [
+        "CQ10",
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ08",
+        "CQ09",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-09"
+      ],
+      "caseId": "EV19",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 23,
+        "row": "| K10.07.01.03 | [EV19](evaluation-r1-knowledge-cases.md#L23) | 目标损失与噪声 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S483](../../research/source-qualification-digital-audio-r2.md#L9) | CQ10/CQ11/CQ22 | CQ07/CQ08/CQ09/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.07.02.03",
+      "claim": "K10-CL-EV20@1",
+      "directCQ": [
+        "CQ08",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ20",
+        "CQ23",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-09"
+      ],
+      "caseId": "EV20",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 24,
+        "row": "| K10.07.02.03 | [EV20](evaluation-r1-knowledge-cases.md#L24) | 响度峰及规范 | [S497](../../research/source-qualification-production-r2.md#L5)；[S498](../../research/source-qualification-production-r2.md#L6)；[S507](../../research/source-qualification-production-r2.md#L15)；[S483](../../research/source-qualification-digital-audio-r2.md#L9) | CQ08/CQ22 | CQ07/CQ19/CQ20/CQ23/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.07.03.03",
+      "claim": "K10-CL-EV21@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-09"
+      ],
+      "caseId": "EV21",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 25,
+        "row": "| K10.07.03.03 | [EV21](evaluation-r1-knowledge-cases.md#L25) | MUSHRA任务 | [S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ08/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.08.01.03",
+      "claim": "K10-CL-EV22@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ03",
+        "CQ12",
+        "CQ16",
+        "CQ24",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-10"
+      ],
+      "caseId": "EV22",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 26,
+        "row": "| K10.08.01.03 | [EV22](evaluation-r1-knowledge-cases.md#L26) | 开放音乐目标 | [S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22 | CQ02/CQ03/CQ12/CQ16/CQ24/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.08.02.03",
+      "claim": "K10-CL-EV23@1",
+      "directCQ": [
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ12",
+        "CQ19",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-10"
+      ],
+      "caseId": "EV23",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 27,
+        "row": "| K10.08.02.03 | [EV23](evaluation-r1-knowledge-cases.md#L27) | 听者偏好与文化 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S517](../../research/source-qualification-evaluation-r1.md#L14) | CQ22/CQ26 | CQ12/CQ19/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.08.03.03",
+      "claim": "K10-CL-EV24@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ12",
+        "CQ19",
+        "CQ24",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-10"
+      ],
+      "caseId": "EV24",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 28,
+        "row": "| K10.08.03.03 | [EV24](evaluation-r1-knowledge-cases.md#L28) | 多维取舍 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ12/CQ19/CQ24/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.09.01.03",
+      "claim": "K10-CL-EV25@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ25"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ24",
+        "CQ13"
+      ],
+      "localCQ": [
+        "CQ-K10-11"
+      ],
+      "caseId": "EV25",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 29,
+        "row": "| K10.09.01.03 | [EV25](evaluation-r1-knowledge-cases.md#L29) | 盲评与配对 | [S516](../../research/source-qualification-evaluation-r1.md#L13)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ24/CQ13 |"
+      }
+    },
+    {
+      "d4": "K10.09.02.03",
+      "claim": "K10-CL-EV26@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-11"
+      ],
+      "caseId": "EV26",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 30,
+        "row": "| K10.09.02.03 | [EV26](evaluation-r1-knowledge-cases.md#L30) | 分歧和效度 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ19/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.09.03.03",
+      "claim": "K10-CL-EV27@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ25"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ23",
+        "CQ24",
+        "CQ13"
+      ],
+      "localCQ": [
+        "CQ-K10-12"
+      ],
+      "caseId": "EV27",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 31,
+        "row": "| K10.09.03.03 | [EV27](evaluation-r1-knowledge-cases.md#L31) | 报告身份 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S101](../../research/source-qualification-production-evaluation.md#L22)；[S102](../../research/source-qualification-production-evaluation.md#L23)；[S104](../../research/source-qualification-production-evaluation.md#L25)；[S105](../../research/source-qualification-production-evaluation.md#L26)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+      }
+    },
+    {
+      "d4": "K10.01.01.04",
+      "claim": "K10-CL-EV28@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ07",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-01"
+      ],
+      "caseId": "EV28",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 32,
+        "row": "| K10.01.01.04 | [EV28](evaluation-r2-knowledge-cases.md#L5) | 负频率候选与voicing | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ07/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.01.02.04",
+      "claim": "K10-CL-EV29@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ09",
+        "CQ10",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-02"
+      ],
+      "caseId": "EV29",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 33,
+        "row": "| K10.01.02.04 | [EV29](evaluation-r2-knowledge-cases.md#L6) | 池化多F0匹配 | [S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ07/CQ09/CQ10/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.01.03.04",
+      "claim": "K10-CL-EV30@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ06",
+        "CQ07",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-01"
+      ],
+      "caseId": "EV30",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 34,
+        "row": "| K10.01.03.04 | [EV30](evaluation-r2-knowledge-cases.md#L7) | RPA/RCA/VR/VFA/OA分离 | [S099](../../research/source-qualification-production-evaluation.md#L20) | CQ11/CQ22 | CQ05/CQ06/CQ07/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.02.01.04",
+      "claim": "K10-CL-EV31@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-03"
+      ],
+      "caseId": "EV31",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 35,
+        "row": "| K10.02.01.04 | [EV31](evaluation-r2-knowledge-cases.md#L8) | 拍单位与层级 | [S101](../../research/source-qualification-production-evaluation.md#L22)；[S100](../../research/source-qualification-production-evaluation.md#L21) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.02.02.04",
+      "claim": "K10-CL-EV32@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-03"
+      ],
+      "caseId": "EV32",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 36,
+        "row": "| K10.02.02.04 | [EV32](evaluation-r2-knowledge-cases.md#L9) | 最大二部匹配 | [S101](../../research/source-qualification-production-evaluation.md#L22) | CQ11/CQ22 | CQ04/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.02.03.04",
+      "claim": "K10-CL-EV33@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ19",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-03"
+      ],
+      "caseId": "EV33",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 37,
+        "row": "| K10.02.03.04 | [EV33](evaluation-r2-knowledge-cases.md#L10) | 连续/总准确 | [S101](../../research/source-qualification-production-evaluation.md#L22) | CQ11/CQ22 | CQ04/CQ19/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.03.01.04",
+      "claim": "K10-CL-EV34@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-04"
+      ],
+      "caseId": "EV34",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 38,
+        "row": "| K10.03.01.04 | [EV34](evaluation-r2-knowledge-cases.md#L11) | 词汇/低音及覆盖 | [S102](../../research/source-qualification-production-evaluation.md#L23) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.03.02.04",
+      "claim": "K10-CL-EV35@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-04"
+      ],
+      "caseId": "EV35",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 39,
+        "row": "| K10.03.02.04 | [EV35](evaluation-r2-knowledge-cases.md#L12) | 全局/局部调性 | [S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.03.03.04",
+      "claim": "K10-CL-EV36@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ17",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-04"
+      ],
+      "caseId": "EV36",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 40,
+        "row": "| K10.03.03.04 | [EV36](evaluation-r2-knowledge-cases.md#L13) | 有效时长与stable/dev | [S102](../../research/source-qualification-production-evaluation.md#L23)；[S510](../../research/source-qualification-evaluation-r1.md#L7) | CQ11/CQ22 | CQ02/CQ17/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.04.01.04",
+      "claim": "K10-CL-EV37@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ16",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-05"
+      ],
+      "caseId": "EV37",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 41,
+        "row": "| K10.04.01.04 | [EV37](evaluation-r2-knowledge-cases.md#L14) | 音符边界和帧粒度 | [S104](../../research/source-qualification-production-evaluation.md#L25)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ16/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.04.02.04",
+      "claim": "K10-CL-EV38@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ09",
+        "CQ10",
+        "CQ20",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-05"
+      ],
+      "caseId": "EV38",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 42,
+        "row": "| K10.04.02.04 | [EV38](evaluation-r2-knowledge-cases.md#L15) | 部分标注及匿名声部全局置换 | [S511](../../research/source-qualification-evaluation-r1.md#L8)；[S519](../../research/source-qualification-evaluation-r2.md#L6)；[S508](../../research/source-qualification-evaluation-r1.md#L5) | CQ11/CQ22 | CQ03/CQ09/CQ10/CQ20/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.04.03.04",
+      "claim": "K10-CL-EV39@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ20",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-06"
+      ],
+      "caseId": "EV39",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 43,
+        "row": "| K10.04.03.04 | [EV39](evaluation-r2-knowledge-cases.md#L16) | 编辑距离、稳定ID与可编辑字段保护 | [S520](../../research/source-qualification-evaluation-r2.md#L7)；[S512](../../research/source-qualification-evaluation-r1.md#L9)；[S513](../../research/source-qualification-evaluation-r1.md#L10)；[S514](../../research/source-qualification-evaluation-r1.md#L11) | CQ11/CQ22/CQ23 | CQ04/CQ12/CQ16/CQ19/CQ20/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.05.01.04",
+      "claim": "K10-CL-EV40@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-07"
+      ],
+      "caseId": "EV40",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 44,
+        "row": "| K10.05.01.04 | [EV40](evaluation-r2-knowledge-cases.md#L17) | 首尾政策与分区 | [S105](../../research/source-qualification-production-evaluation.md#L26)；[S509](../../research/source-qualification-evaluation-r1.md#L6) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.05.02.04",
+      "claim": "K10-CL-EV41@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-07"
+      ],
+      "caseId": "EV41",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 45,
+        "row": "| K10.05.02.04 | [EV41](evaluation-r2-knowledge-cases.md#L18) | 分组置换与空分母 | [S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.05.03.04",
+      "claim": "K10-CL-EV42@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ19",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-07"
+      ],
+      "caseId": "EV42",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 46,
+        "row": "| K10.05.03.04 | [EV42](evaluation-r2-knowledge-cases.md#L19) | 层级嵌套及预先约定多参考聚合 | [S509](../../research/source-qualification-evaluation-r1.md#L6)；[S105](../../research/source-qualification-production-evaluation.md#L26) | CQ11/CQ22 | CQ02/CQ19/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.06.01.04",
+      "claim": "K10-CL-EV43@1",
+      "directCQ": [
+        "CQ06",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ07",
+        "CQ15",
+        "CQ16",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-08"
+      ],
+      "caseId": "EV43",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 47,
+        "row": "| K10.06.01.04 | [EV43](evaluation-r2-knowledge-cases.md#L20) | 实际与估计误差分离 | [S099](../../research/source-qualification-production-evaluation.md#L20)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ06/CQ22 | CQ05/CQ07/CQ15/CQ16/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.06.02.04",
+      "claim": "K10-CL-EV44@1",
+      "directCQ": [
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ05",
+        "CQ06",
+        "CQ12",
+        "CQ15",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-08"
+      ],
+      "caseId": "EV44",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 48,
+        "row": "| K10.06.02.04 | [EV44](evaluation-r2-knowledge-cases.md#L21) | 母语任务证据 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S520](../../research/source-qualification-evaluation-r2.md#L7) | CQ22/CQ26 | CQ04/CQ05/CQ06/CQ12/CQ15/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.06.03.04",
+      "claim": "K10-CL-EV45@1",
+      "directCQ": [
+        "CQ06",
+        "CQ22",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ05",
+        "CQ15",
+        "CQ19",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-08"
+      ],
+      "caseId": "EV45",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 49,
+        "row": "| K10.06.03.04 | [EV45](evaluation-r2-knowledge-cases.md#L22) | 观察/教学/停止 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S518](../../research/source-qualification-evaluation-r2.md#L5) | CQ06/CQ22/CQ24 | CQ05/CQ15/CQ19/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.07.01.04",
+      "claim": "K10-CL-EV46@1",
+      "directCQ": [
+        "CQ10",
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ08",
+        "CQ09",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-09"
+      ],
+      "caseId": "EV46",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 50,
+        "row": "| K10.07.01.04 | [EV46](evaluation-r2-knowledge-cases.md#L23) | SI-SDR与幅度 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S483](../../research/source-qualification-digital-audio-r2.md#L9)；[S063](../../research/source-qualification-vocal-digital.md#L25) | CQ10/CQ11/CQ22 | CQ07/CQ08/CQ09/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.07.02.04",
+      "claim": "K10-CL-EV47@1",
+      "directCQ": [
+        "CQ08",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ20",
+        "CQ23",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-09"
+      ],
+      "caseId": "EV47",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 51,
+        "row": "| K10.07.02.04 | [EV47](evaluation-r2-knowledge-cases.md#L24) | 独立响度报告 | [S497](../../research/source-qualification-production-r2.md#L5)；[S498](../../research/source-qualification-production-r2.md#L6)；[S507](../../research/source-qualification-production-r2.md#L15)；[S483](../../research/source-qualification-digital-audio-r2.md#L9) | CQ08/CQ22 | CQ07/CQ19/CQ20/CQ23/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.07.03.04",
+      "claim": "K10-CL-EV48@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-09"
+      ],
+      "caseId": "EV48",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 52,
+        "row": "| K10.07.03.04 | [EV48](evaluation-r2-knowledge-cases.md#L25) | BS1116/MUSHRA选择 | [S516](../../research/source-qualification-evaluation-r1.md#L13)；[S518](../../research/source-qualification-evaluation-r2.md#L5) | CQ11/CQ22 | CQ08/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.08.01.04",
+      "claim": "K10-CL-EV49@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ03",
+        "CQ12",
+        "CQ16",
+        "CQ24",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-10"
+      ],
+      "caseId": "EV49",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 53,
+        "row": "| K10.08.01.04 | [EV49](evaluation-r2-knowledge-cases.md#L26) | 硬软与开放量规 | [S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22 | CQ02/CQ03/CQ12/CQ16/CQ24/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.08.02.04",
+      "claim": "K10-CL-EV50@1",
+      "directCQ": [
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ12",
+        "CQ19",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-10"
+      ],
+      "caseId": "EV50",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 54,
+        "row": "| K10.08.02.04 | [EV50](evaluation-r2-knowledge-cases.md#L27) | 跨文化摘要边界 | [S522](../../research/source-qualification-evaluation-r2.md#L9)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ22/CQ26 | CQ12/CQ19/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.08.03.04",
+      "claim": "K10-CL-EV51@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ12",
+        "CQ19",
+        "CQ24",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-10"
+      ],
+      "caseId": "EV51",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 55,
+        "row": "| K10.08.03.04 | [EV51](evaluation-r2-knowledge-cases.md#L28) | Pareto与权重 | [S515](../../research/source-qualification-evaluation-r1.md#L12)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22 | CQ12/CQ19/CQ24/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.09.01.04",
+      "claim": "K10-CL-EV52@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ25"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ24",
+        "CQ13"
+      ],
+      "localCQ": [
+        "CQ-K10-11"
+      ],
+      "caseId": "EV52",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 56,
+        "row": "| K10.09.01.04 | [EV52](evaluation-r2-knowledge-cases.md#L29) | 配对设计及源组 | [S518](../../research/source-qualification-evaluation-r2.md#L5)；[S516](../../research/source-qualification-evaluation-r1.md#L13)；[S521](../../research/source-qualification-evaluation-r2.md#L8) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ24/CQ13 |"
+      }
+    },
+    {
+      "d4": "K10.09.02.04",
+      "claim": "K10-CL-EV53@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K10-11"
+      ],
+      "caseId": "EV53",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 57,
+        "row": "| K10.09.02.04 | [EV53](evaluation-r2-knowledge-cases.md#L30) | 配对差值方差 | [S521](../../research/source-qualification-evaluation-r2.md#L8)；[S515](../../research/source-qualification-evaluation-r1.md#L12) | CQ11/CQ22 | CQ19/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K10.09.03.04",
+      "claim": "K10-CL-EV54@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ25"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ23",
+        "CQ24",
+        "CQ13"
+      ],
+      "localCQ": [
+        "CQ-K10-12"
+      ],
+      "caseId": "EV54",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 58,
+        "row": "| K10.09.03.04 | [EV54](evaluation-r2-knowledge-cases.md#L31) | 协议/划分与版本 | [S519](../../research/source-qualification-evaluation-r2.md#L6)；[S520](../../research/source-qualification-evaluation-r2.md#L7)；[S521](../../research/source-qualification-evaluation-r2.md#L8)；[S516](../../research/source-qualification-evaluation-r1.md#L13) | CQ11/CQ22/CQ25 | CQ09/CQ19/CQ20/CQ21/CQ23/CQ24/CQ13 |"
+      }
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K10-01",
+      "question": "怎样区分参考、估计、F0和有声？ [EV01](evaluation-r1-knowledge-cases.md#L5)、[EV03](evaluation-r1-knowledge-cases.md#L7)、[EV28](evaluation-r2-knowledge-cases.md#L5)、[EV30](evaluation-r2-knowledge-cases.md#L7)。",
+      "caseIds": [
+        "EV01",
+        "EV03",
+        "EV28",
+        "EV30"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 91,
+        "row": "- CQ-K10-01 怎样区分参考、估计、F0和有声？ [EV01](evaluation-r1-knowledge-cases.md#L5)、[EV03](evaluation-r1-knowledge-cases.md#L7)、[EV28](evaluation-r2-knowledge-cases.md#L5)、[EV30](evaluation-r2-knowledge-cases.md#L7)。"
+      }
+    },
+    {
+      "id": "CQ-K10-02",
+      "question": "怎样评价单旋律和多F0？ [EV02](evaluation-r1-knowledge-cases.md#L6)、[EV29](evaluation-r2-knowledge-cases.md#L6)。",
+      "caseIds": [
+        "EV02",
+        "EV29"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 92,
+        "row": "- CQ-K10-02 怎样评价单旋律和多F0？ [EV02](evaluation-r1-knowledge-cases.md#L6)、[EV29](evaluation-r2-knowledge-cases.md#L6)。"
+      }
+    },
+    {
+      "id": "CQ-K10-03",
+      "question": "怎样评价拍点、层级、速度与连续性？ [EV04](evaluation-r1-knowledge-cases.md#L8)、[EV05](evaluation-r1-knowledge-cases.md#L9)、[EV06](evaluation-r1-knowledge-cases.md#L10)、[EV31](evaluation-r2-knowledge-cases.md#L8)、[EV32](evaluation-r2-knowledge-cases.md#L9)、[EV33](evaluation-r2-knowledge-cases.md#L10)。",
+      "caseIds": [
+        "EV04",
+        "EV05",
+        "EV06",
+        "EV31",
+        "EV32",
+        "EV33"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 93,
+        "row": "- CQ-K10-03 怎样评价拍点、层级、速度与连续性？ [EV04](evaluation-r1-knowledge-cases.md#L8)、[EV05](evaluation-r1-knowledge-cases.md#L9)、[EV06](evaluation-r1-knowledge-cases.md#L10)、[EV31](evaluation-r2-knowledge-cases.md#L8)、[EV32](evaluation-r2-knowledge-cases.md#L9)、[EV33](evaluation-r2-knowledge-cases.md#L10)。"
+      }
+    },
+    {
+      "id": "CQ-K10-04",
+      "question": "怎样比较和弦、调性、词汇覆盖和版本？ [EV07](evaluation-r1-knowledge-cases.md#L11)、[EV08](evaluation-r1-knowledge-cases.md#L12)、[EV09](evaluation-r1-knowledge-cases.md#L13)、[EV34](evaluation-r2-knowledge-cases.md#L11)、[EV35](evaluation-r2-knowledge-cases.md#L12)、[EV36](evaluation-r2-knowledge-cases.md#L13)。",
+      "caseIds": [
+        "EV07",
+        "EV08",
+        "EV09",
+        "EV34",
+        "EV35",
+        "EV36"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 94,
+        "row": "- CQ-K10-04 怎样比较和弦、调性、词汇覆盖和版本？ [EV07](evaluation-r1-knowledge-cases.md#L11)、[EV08](evaluation-r1-knowledge-cases.md#L12)、[EV09](evaluation-r1-knowledge-cases.md#L13)、[EV34](evaluation-r2-knowledge-cases.md#L11)、[EV35](evaluation-r2-knowledge-cases.md#L12)、[EV36](evaluation-r2-knowledge-cases.md#L13)。"
+      }
+    },
+    {
+      "id": "CQ-K10-05",
+      "question": "怎样评价音符、乐器及多声部转录？ [EV10](evaluation-r1-knowledge-cases.md#L14)、[EV11](evaluation-r1-knowledge-cases.md#L15)、[EV37](evaluation-r2-knowledge-cases.md#L14)、[EV38](evaluation-r2-knowledge-cases.md#L15)。",
+      "caseIds": [
+        "EV10",
+        "EV11",
+        "EV37",
+        "EV38"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 95,
+        "row": "- CQ-K10-05 怎样评价音符、乐器及多声部转录？ [EV10](evaluation-r1-knowledge-cases.md#L14)、[EV11](evaluation-r1-knowledge-cases.md#L15)、[EV37](evaluation-r2-knowledge-cases.md#L14)、[EV38](evaluation-r2-knowledge-cases.md#L15)。"
+      }
+    },
+    {
+      "id": "CQ-K10-06",
+      "question": "怎样评价歌词文本/时间与可编辑输出？ [EV12](evaluation-r1-knowledge-cases.md#L16)、[EV39](evaluation-r2-knowledge-cases.md#L16)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 同ID内容/词音关系变化反例。",
+      "caseIds": [
+        "EV12",
+        "EV39"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 96,
+        "row": "- CQ-K10-06 怎样评价歌词文本/时间与可编辑输出？ [EV12](evaluation-r1-knowledge-cases.md#L16)、[EV39](evaluation-r2-knowledge-cases.md#L16)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 同ID内容/词音关系变化反例。"
+      }
+    },
+    {
+      "id": "CQ-K10-07",
+      "question": "怎样评价分段、重复与多层结构？ [EV13](evaluation-r1-knowledge-cases.md#L17)、[EV14](evaluation-r1-knowledge-cases.md#L18)、[EV15](evaluation-r1-knowledge-cases.md#L19)、[EV40](evaluation-r2-knowledge-cases.md#L17)、[EV41](evaluation-r2-knowledge-cases.md#L18)、[EV42](evaluation-r2-knowledge-cases.md#L19)。",
+      "caseIds": [
+        "EV13",
+        "EV14",
+        "EV15",
+        "EV40",
+        "EV41",
+        "EV42"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 97,
+        "row": "- CQ-K10-07 怎样评价分段、重复与多层结构？ [EV13](evaluation-r1-knowledge-cases.md#L17)、[EV14](evaluation-r1-knowledge-cases.md#L18)、[EV15](evaluation-r1-knowledge-cases.md#L19)、[EV40](evaluation-r2-knowledge-cases.md#L17)、[EV41](evaluation-r2-knowledge-cases.md#L18)、[EV42](evaluation-r2-knowledge-cases.md#L19)。"
+      }
+    },
+    {
+      "id": "CQ-K10-08",
+      "question": "怎样区分演唱误差、估计误差、语言/反馈？ [EV16](evaluation-r1-knowledge-cases.md#L20)、[EV17](evaluation-r1-knowledge-cases.md#L21)、[EV18](evaluation-r1-knowledge-cases.md#L22)、[EV43](evaluation-r2-knowledge-cases.md#L20)、[EV44](evaluation-r2-knowledge-cases.md#L21)、[EV45](evaluation-r2-knowledge-cases.md#L22)。",
+      "caseIds": [
+        "EV16",
+        "EV17",
+        "EV18",
+        "EV43",
+        "EV44",
+        "EV45"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 98,
+        "row": "- CQ-K10-08 怎样区分演唱误差、估计误差、语言/反馈？ [EV16](evaluation-r1-knowledge-cases.md#L20)、[EV17](evaluation-r1-knowledge-cases.md#L21)、[EV18](evaluation-r1-knowledge-cases.md#L22)、[EV43](evaluation-r2-knowledge-cases.md#L20)、[EV44](evaluation-r2-knowledge-cases.md#L21)、[EV45](evaluation-r2-knowledge-cases.md#L22)。"
+      }
+    },
+    {
+      "id": "CQ-K10-09",
+      "question": "怎样评价技术质量、响度和主观损伤？ [EV19](evaluation-r1-knowledge-cases.md#L23)、[EV20](evaluation-r1-knowledge-cases.md#L24)、[EV21](evaluation-r1-knowledge-cases.md#L25)、[EV46](evaluation-r2-knowledge-cases.md#L23)、[EV47](evaluation-r2-knowledge-cases.md#L24)、[EV48](evaluation-r2-knowledge-cases.md#L25)。",
+      "caseIds": [
+        "EV19",
+        "EV20",
+        "EV21",
+        "EV46",
+        "EV47",
+        "EV48"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 99,
+        "row": "- CQ-K10-09 怎样评价技术质量、响度和主观损伤？ [EV19](evaluation-r1-knowledge-cases.md#L23)、[EV20](evaluation-r1-knowledge-cases.md#L24)、[EV21](evaluation-r1-knowledge-cases.md#L25)、[EV46](evaluation-r2-knowledge-cases.md#L23)、[EV47](evaluation-r2-knowledge-cases.md#L24)、[EV48](evaluation-r2-knowledge-cases.md#L25)。"
+      }
+    },
+    {
+      "id": "CQ-K10-10",
+      "question": "怎样处理音乐性、文化和多维权衡？ [EV22](evaluation-r1-knowledge-cases.md#L26)、[EV23](evaluation-r1-knowledge-cases.md#L27)、[EV24](evaluation-r1-knowledge-cases.md#L28)、[EV49](evaluation-r2-knowledge-cases.md#L26)、[EV50](evaluation-r2-knowledge-cases.md#L27)、[EV51](evaluation-r2-knowledge-cases.md#L28)。",
+      "caseIds": [
+        "EV22",
+        "EV23",
+        "EV24",
+        "EV49",
+        "EV50",
+        "EV51"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 100,
+        "row": "- CQ-K10-10 怎样处理音乐性、文化和多维权衡？ [EV22](evaluation-r1-knowledge-cases.md#L26)、[EV23](evaluation-r1-knowledge-cases.md#L27)、[EV24](evaluation-r1-knowledge-cases.md#L28)、[EV49](evaluation-r2-knowledge-cases.md#L26)、[EV50](evaluation-r2-knowledge-cases.md#L27)、[EV51](evaluation-r2-knowledge-cases.md#L28)。"
+      }
+    },
+    {
+      "id": "CQ-K10-11",
+      "question": "怎样设计评价协议与统计单位？ [EV25](evaluation-r1-knowledge-cases.md#L29)、[EV26](evaluation-r1-knowledge-cases.md#L30)、[EV52](evaluation-r2-knowledge-cases.md#L29)、[EV53](evaluation-r2-knowledge-cases.md#L30)。",
+      "caseIds": [
+        "EV25",
+        "EV26",
+        "EV52",
+        "EV53"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 101,
+        "row": "- CQ-K10-11 怎样设计评价协议与统计单位？ [EV25](evaluation-r1-knowledge-cases.md#L29)、[EV26](evaluation-r1-knowledge-cases.md#L30)、[EV52](evaluation-r2-knowledge-cases.md#L29)、[EV53](evaluation-r2-knowledge-cases.md#L30)。"
+      }
+    },
+    {
+      "id": "CQ-K10-12",
+      "question": "怎样绑定报告和防止数据泄漏？ [EV27](evaluation-r1-knowledge-cases.md#L31)、[EV54](evaluation-r2-knowledge-cases.md#L31)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 版本缺失或报告与实际内容不符须重新验证。",
+      "caseIds": [
+        "EV27",
+        "EV54"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "line": 102,
+        "row": "- CQ-K10-12 怎样绑定报告和防止数据泄漏？ [EV27](evaluation-r1-knowledge-cases.md#L31)、[EV54](evaluation-r2-knowledge-cases.md#L31)；[XC01-R2](g04-r7-xc01-protection-remediation.md) 版本缺失或报告与实际内容不符须重新验证。"
+      }
+    }
+  ]
+}

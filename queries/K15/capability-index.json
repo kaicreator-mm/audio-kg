@@ -1,0 +1,3981 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K15.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "生产角色、贡献对象及权利主体",
+      "d4Targets": [
+        "K15.01.01.03",
+        "K15.01.02.03",
+        "K15.01.03.03",
+        "K15.01.01.04",
+        "K15.01.02.04",
+        "K15.01.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 5,
+        "row": "| K15.01 | A01 | P | 生产角色、贡献对象及权利主体 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV01",
+          "claim": "K15-CL-GV01@1",
+          "problem": "如何依据该案例判断：P1作曲兼演唱、P2工程师、P3初始制作人，贡献分别关联W1/Take1/Session1。RIN §1区分发起制作与录音室制作，角色标签非经济权利证明。？",
+          "reject": "署名producer即拥有作品和录音全部权利。"
+        },
+        {
+          "caseId": "GV02",
+          "claim": "K15-CL-GV02@1",
+          "problem": "如何依据该案例判断：题设工程师OP-E可编辑P1，评审OP-R可验收混音，发布负责人OP-D需现行许可及明确授权。项目J、被授权主体ORG-J、实际操作者与受众分别绑定；角色不能代授予或委托证据。？",
+          "reject": "能导出就能公开发布；同角色/内部受众的另一项目或操作者可继承许可。"
+        },
+        {
+          "caseId": "GV03",
+          "claim": "K15-CL-GV03@1",
+          "problem": "如何依据该案例判断：Take T1由S录唱，Mix M1使用T1部分片段；更正S的署名保留原记录与证据，不自动改作品份额。？",
+          "reject": "将所有录音参与者自动列为词曲作者或更正署名即转权。"
+        },
+        {
+          "caseId": "GV25",
+          "claim": "K15-CL-GV25@1",
+          "problem": "如何依据该案例判断：RIN2.1一个deliverable为拟混成一录音的组件集合；S同一人既唱和声又演奏，两个贡献记录按组件，Initial Producer与Studio Producer不混。？",
+          "reject": "将整个专辑所有录音组件默认一个RIN deliverable；一个人仅一角色。"
+        },
+        {
+          "caseId": "GV26",
+          "claim": "K15-CL-GV26@1",
+          "problem": "如何依据该案例判断：假设A享有W经济权，B是表演者，C是获授权发布人；§20作者精神权在经济权变化后仍需区分，§38表演者另有署名/声誉相关权。？",
+          "reject": "经济权转移即作者/表演者身份全部消失；业务审批即授权链。"
+        },
+        {
+          "caseId": "GV27",
+          "claim": "K15-CL-GV27@1",
+          "problem": "如何依据该案例判断：RIN2.0引入MessageVersionId和AvsVersionId；版本V2将T2演奏者更正，V1保留，不能用消息序号证明权利变更。MayBeShared仅该PartyRelationship传播标记。？",
+          "reject": "版本数字大即真实贡献正确或全部关系可传播。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "分配任务/验收/批准责任",
+      "d4Targets": [
+        "K15.01.01.03",
+        "K15.01.02.03",
+        "K15.01.03.03",
+        "K15.01.01.04",
+        "K15.01.02.04",
+        "K15.01.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 6,
+        "row": "| K15.01 | A02 | P | 分配任务/验收/批准责任 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV01",
+          "claim": "K15-CL-GV01@1",
+          "problem": "如何依据该案例判断：P1作曲兼演唱、P2工程师、P3初始制作人，贡献分别关联W1/Take1/Session1。RIN §1区分发起制作与录音室制作，角色标签非经济权利证明。？",
+          "reject": "署名producer即拥有作品和录音全部权利。"
+        },
+        {
+          "caseId": "GV02",
+          "claim": "K15-CL-GV02@1",
+          "problem": "如何依据该案例判断：题设工程师OP-E可编辑P1，评审OP-R可验收混音，发布负责人OP-D需现行许可及明确授权。项目J、被授权主体ORG-J、实际操作者与受众分别绑定；角色不能代授予或委托证据。？",
+          "reject": "能导出就能公开发布；同角色/内部受众的另一项目或操作者可继承许可。"
+        },
+        {
+          "caseId": "GV03",
+          "claim": "K15-CL-GV03@1",
+          "problem": "如何依据该案例判断：Take T1由S录唱，Mix M1使用T1部分片段；更正S的署名保留原记录与证据，不自动改作品份额。？",
+          "reject": "将所有录音参与者自动列为词曲作者或更正署名即转权。"
+        },
+        {
+          "caseId": "GV25",
+          "claim": "K15-CL-GV25@1",
+          "problem": "如何依据该案例判断：RIN2.1一个deliverable为拟混成一录音的组件集合；S同一人既唱和声又演奏，两个贡献记录按组件，Initial Producer与Studio Producer不混。？",
+          "reject": "将整个专辑所有录音组件默认一个RIN deliverable；一个人仅一角色。"
+        },
+        {
+          "caseId": "GV26",
+          "claim": "K15-CL-GV26@1",
+          "problem": "如何依据该案例判断：假设A享有W经济权，B是表演者，C是获授权发布人；§20作者精神权在经济权变化后仍需区分，§38表演者另有署名/声誉相关权。？",
+          "reject": "经济权转移即作者/表演者身份全部消失；业务审批即授权链。"
+        },
+        {
+          "caseId": "GV27",
+          "claim": "K15-CL-GV27@1",
+          "problem": "如何依据该案例判断：RIN2.0引入MessageVersionId和AvsVersionId；版本V2将T2演奏者更正，V1保留，不能用消息序号证明权利变更。MayBeShared仅该PartyRelationship传播标记。？",
+          "reject": "版本数字大即真实贡献正确或全部关系可传播。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.01",
+      "ability": "A03",
+      "role": "P",
+      "task": "角色/权限元数据工具及当前资格",
+      "d4Targets": [
+        "K15.01.01.03",
+        "K15.01.02.03",
+        "K15.01.03.03",
+        "K15.01.01.04",
+        "K15.01.02.04",
+        "K15.01.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 7,
+        "row": "| K15.01 | A03 | P | 角色/权限元数据工具及当前资格 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV01",
+          "claim": "K15-CL-GV01@1",
+          "problem": "如何依据该案例判断：P1作曲兼演唱、P2工程师、P3初始制作人，贡献分别关联W1/Take1/Session1。RIN §1区分发起制作与录音室制作，角色标签非经济权利证明。？",
+          "reject": "署名producer即拥有作品和录音全部权利。"
+        },
+        {
+          "caseId": "GV02",
+          "claim": "K15-CL-GV02@1",
+          "problem": "如何依据该案例判断：题设工程师OP-E可编辑P1，评审OP-R可验收混音，发布负责人OP-D需现行许可及明确授权。项目J、被授权主体ORG-J、实际操作者与受众分别绑定；角色不能代授予或委托证据。？",
+          "reject": "能导出就能公开发布；同角色/内部受众的另一项目或操作者可继承许可。"
+        },
+        {
+          "caseId": "GV03",
+          "claim": "K15-CL-GV03@1",
+          "problem": "如何依据该案例判断：Take T1由S录唱，Mix M1使用T1部分片段；更正S的署名保留原记录与证据，不自动改作品份额。？",
+          "reject": "将所有录音参与者自动列为词曲作者或更正署名即转权。"
+        },
+        {
+          "caseId": "GV25",
+          "claim": "K15-CL-GV25@1",
+          "problem": "如何依据该案例判断：RIN2.1一个deliverable为拟混成一录音的组件集合；S同一人既唱和声又演奏，两个贡献记录按组件，Initial Producer与Studio Producer不混。？",
+          "reject": "将整个专辑所有录音组件默认一个RIN deliverable；一个人仅一角色。"
+        },
+        {
+          "caseId": "GV26",
+          "claim": "K15-CL-GV26@1",
+          "problem": "如何依据该案例判断：假设A享有W经济权，B是表演者，C是获授权发布人；§20作者精神权在经济权变化后仍需区分，§38表演者另有署名/声誉相关权。？",
+          "reject": "经济权转移即作者/表演者身份全部消失；业务审批即授权链。"
+        },
+        {
+          "caseId": "GV27",
+          "claim": "K15-CL-GV27@1",
+          "problem": "如何依据该案例判断：RIN2.0引入MessageVersionId和AvsVersionId；版本V2将T2演奏者更正，V1保留，不能用消息序号证明权利变更。MayBeShared仅该PartyRelationship传播标记。？",
+          "reject": "版本数字大即真实贡献正确或全部关系可传播。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.01",
+      "ability": "A04",
+      "role": "P",
+      "task": "session/角色/贡献/审批/授权状态",
+      "d4Targets": [
+        "K15.01.01.03",
+        "K15.01.02.03",
+        "K15.01.03.03",
+        "K15.01.01.04",
+        "K15.01.02.04",
+        "K15.01.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 8,
+        "row": "| K15.01 | A04 | P | session/角色/贡献/审批/授权状态 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV01",
+          "claim": "K15-CL-GV01@1",
+          "problem": "如何依据该案例判断：P1作曲兼演唱、P2工程师、P3初始制作人，贡献分别关联W1/Take1/Session1。RIN §1区分发起制作与录音室制作，角色标签非经济权利证明。？",
+          "reject": "署名producer即拥有作品和录音全部权利。"
+        },
+        {
+          "caseId": "GV02",
+          "claim": "K15-CL-GV02@1",
+          "problem": "如何依据该案例判断：题设工程师OP-E可编辑P1，评审OP-R可验收混音，发布负责人OP-D需现行许可及明确授权。项目J、被授权主体ORG-J、实际操作者与受众分别绑定；角色不能代授予或委托证据。？",
+          "reject": "能导出就能公开发布；同角色/内部受众的另一项目或操作者可继承许可。"
+        },
+        {
+          "caseId": "GV03",
+          "claim": "K15-CL-GV03@1",
+          "problem": "如何依据该案例判断：Take T1由S录唱，Mix M1使用T1部分片段；更正S的署名保留原记录与证据，不自动改作品份额。？",
+          "reject": "将所有录音参与者自动列为词曲作者或更正署名即转权。"
+        },
+        {
+          "caseId": "GV25",
+          "claim": "K15-CL-GV25@1",
+          "problem": "如何依据该案例判断：RIN2.1一个deliverable为拟混成一录音的组件集合；S同一人既唱和声又演奏，两个贡献记录按组件，Initial Producer与Studio Producer不混。？",
+          "reject": "将整个专辑所有录音组件默认一个RIN deliverable；一个人仅一角色。"
+        },
+        {
+          "caseId": "GV26",
+          "claim": "K15-CL-GV26@1",
+          "problem": "如何依据该案例判断：假设A享有W经济权，B是表演者，C是获授权发布人；§20作者精神权在经济权变化后仍需区分，§38表演者另有署名/声誉相关权。？",
+          "reject": "经济权转移即作者/表演者身份全部消失；业务审批即授权链。"
+        },
+        {
+          "caseId": "GV27",
+          "claim": "K15-CL-GV27@1",
+          "problem": "如何依据该案例判断：RIN2.0引入MessageVersionId和AvsVersionId；版本V2将T2演奏者更正，V1保留，不能用消息序号证明权利变更。MayBeShared仅该PartyRelationship传播标记。？",
+          "reject": "版本数字大即真实贡献正确或全部关系可传播。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "真实贡献及权利链独立核查",
+      "d4Targets": [
+        "K15.01.01.03",
+        "K15.01.02.03",
+        "K15.01.03.03",
+        "K15.01.01.04",
+        "K15.01.02.04",
+        "K15.01.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 9,
+        "row": "| K15.01 | A05 | P | 真实贡献及权利链独立核查 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV01",
+          "claim": "K15-CL-GV01@1",
+          "problem": "如何依据该案例判断：P1作曲兼演唱、P2工程师、P3初始制作人，贡献分别关联W1/Take1/Session1。RIN §1区分发起制作与录音室制作，角色标签非经济权利证明。？",
+          "reject": "署名producer即拥有作品和录音全部权利。"
+        },
+        {
+          "caseId": "GV02",
+          "claim": "K15-CL-GV02@1",
+          "problem": "如何依据该案例判断：题设工程师OP-E可编辑P1，评审OP-R可验收混音，发布负责人OP-D需现行许可及明确授权。项目J、被授权主体ORG-J、实际操作者与受众分别绑定；角色不能代授予或委托证据。？",
+          "reject": "能导出就能公开发布；同角色/内部受众的另一项目或操作者可继承许可。"
+        },
+        {
+          "caseId": "GV03",
+          "claim": "K15-CL-GV03@1",
+          "problem": "如何依据该案例判断：Take T1由S录唱，Mix M1使用T1部分片段；更正S的署名保留原记录与证据，不自动改作品份额。？",
+          "reject": "将所有录音参与者自动列为词曲作者或更正署名即转权。"
+        },
+        {
+          "caseId": "GV25",
+          "claim": "K15-CL-GV25@1",
+          "problem": "如何依据该案例判断：RIN2.1一个deliverable为拟混成一录音的组件集合；S同一人既唱和声又演奏，两个贡献记录按组件，Initial Producer与Studio Producer不混。？",
+          "reject": "将整个专辑所有录音组件默认一个RIN deliverable；一个人仅一角色。"
+        },
+        {
+          "caseId": "GV26",
+          "claim": "K15-CL-GV26@1",
+          "problem": "如何依据该案例判断：假设A享有W经济权，B是表演者，C是获授权发布人；§20作者精神权在经济权变化后仍需区分，§38表演者另有署名/声誉相关权。？",
+          "reject": "经济权转移即作者/表演者身份全部消失；业务审批即授权链。"
+        },
+        {
+          "caseId": "GV27",
+          "claim": "K15-CL-GV27@1",
+          "problem": "如何依据该案例判断：RIN2.0引入MessageVersionId和AvsVersionId；版本V2将T2演奏者更正，V1保留，不能用消息序号证明权利变更。MayBeShared仅该PartyRelationship传播标记。？",
+          "reject": "版本数字大即真实贡献正确或全部关系可传播。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.01",
+      "ability": "A06",
+      "role": "P",
+      "task": "贡献与责任记录、来源更正",
+      "d4Targets": [
+        "K15.01.01.03",
+        "K15.01.02.03",
+        "K15.01.03.03",
+        "K15.01.01.04",
+        "K15.01.02.04",
+        "K15.01.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 10,
+        "row": "| K15.01 | A06 | P | 贡献与责任记录、来源更正 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV01",
+          "claim": "K15-CL-GV01@1",
+          "problem": "如何依据该案例判断：P1作曲兼演唱、P2工程师、P3初始制作人，贡献分别关联W1/Take1/Session1。RIN §1区分发起制作与录音室制作，角色标签非经济权利证明。？",
+          "reject": "署名producer即拥有作品和录音全部权利。"
+        },
+        {
+          "caseId": "GV02",
+          "claim": "K15-CL-GV02@1",
+          "problem": "如何依据该案例判断：题设工程师OP-E可编辑P1，评审OP-R可验收混音，发布负责人OP-D需现行许可及明确授权。项目J、被授权主体ORG-J、实际操作者与受众分别绑定；角色不能代授予或委托证据。？",
+          "reject": "能导出就能公开发布；同角色/内部受众的另一项目或操作者可继承许可。"
+        },
+        {
+          "caseId": "GV03",
+          "claim": "K15-CL-GV03@1",
+          "problem": "如何依据该案例判断：Take T1由S录唱，Mix M1使用T1部分片段；更正S的署名保留原记录与证据，不自动改作品份额。？",
+          "reject": "将所有录音参与者自动列为词曲作者或更正署名即转权。"
+        },
+        {
+          "caseId": "GV25",
+          "claim": "K15-CL-GV25@1",
+          "problem": "如何依据该案例判断：RIN2.1一个deliverable为拟混成一录音的组件集合；S同一人既唱和声又演奏，两个贡献记录按组件，Initial Producer与Studio Producer不混。？",
+          "reject": "将整个专辑所有录音组件默认一个RIN deliverable；一个人仅一角色。"
+        },
+        {
+          "caseId": "GV26",
+          "claim": "K15-CL-GV26@1",
+          "problem": "如何依据该案例判断：假设A享有W经济权，B是表演者，C是获授权发布人；§20作者精神权在经济权变化后仍需区分，§38表演者另有署名/声誉相关权。？",
+          "reject": "经济权转移即作者/表演者身份全部消失；业务审批即授权链。"
+        },
+        {
+          "caseId": "GV27",
+          "claim": "K15-CL-GV27@1",
+          "problem": "如何依据该案例判断：RIN2.0引入MessageVersionId和AvsVersionId；版本V2将T2演奏者更正，V1保留，不能用消息序号证明权利变更。MayBeShared仅该PartyRelationship传播标记。？",
+          "reject": "版本数字大即真实贡献正确或全部关系可传播。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "责任争议与更正/重新批准",
+      "d4Targets": [
+        "K15.01.01.03",
+        "K15.01.02.03",
+        "K15.01.03.03",
+        "K15.01.01.04",
+        "K15.01.02.04",
+        "K15.01.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 11,
+        "row": "| K15.01 | A07 | P | 责任争议与更正/重新批准 | [GV01/K15.01.01.03](production-governance-r1-knowledge-cases.md#L5)；[GV02/K15.01.02.03](production-governance-r1-knowledge-cases.md#L6)；[GV03/K15.01.03.03](production-governance-r1-knowledge-cases.md#L7)；[GV25/K15.01.01.04](production-governance-r2-knowledge-cases.md#L5)；[GV26/K15.01.02.04](production-governance-r2-knowledge-cases.md#L6)；[GV27/K15.01.03.04](production-governance-r2-knowledge-cases.md#L7) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV01@1",
+        "K15-CL-GV02@1",
+        "K15-CL-GV03@1",
+        "K15-CL-GV25@1",
+        "K15-CL-GV26@1",
+        "K15-CL-GV27@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV01",
+          "claim": "K15-CL-GV01@1",
+          "problem": "如何依据该案例判断：P1作曲兼演唱、P2工程师、P3初始制作人，贡献分别关联W1/Take1/Session1。RIN §1区分发起制作与录音室制作，角色标签非经济权利证明。？",
+          "reject": "署名producer即拥有作品和录音全部权利。"
+        },
+        {
+          "caseId": "GV02",
+          "claim": "K15-CL-GV02@1",
+          "problem": "如何依据该案例判断：题设工程师OP-E可编辑P1，评审OP-R可验收混音，发布负责人OP-D需现行许可及明确授权。项目J、被授权主体ORG-J、实际操作者与受众分别绑定；角色不能代授予或委托证据。？",
+          "reject": "能导出就能公开发布；同角色/内部受众的另一项目或操作者可继承许可。"
+        },
+        {
+          "caseId": "GV03",
+          "claim": "K15-CL-GV03@1",
+          "problem": "如何依据该案例判断：Take T1由S录唱，Mix M1使用T1部分片段；更正S的署名保留原记录与证据，不自动改作品份额。？",
+          "reject": "将所有录音参与者自动列为词曲作者或更正署名即转权。"
+        },
+        {
+          "caseId": "GV25",
+          "claim": "K15-CL-GV25@1",
+          "problem": "如何依据该案例判断：RIN2.1一个deliverable为拟混成一录音的组件集合；S同一人既唱和声又演奏，两个贡献记录按组件，Initial Producer与Studio Producer不混。？",
+          "reject": "将整个专辑所有录音组件默认一个RIN deliverable；一个人仅一角色。"
+        },
+        {
+          "caseId": "GV26",
+          "claim": "K15-CL-GV26@1",
+          "problem": "如何依据该案例判断：假设A享有W经济权，B是表演者，C是获授权发布人；§20作者精神权在经济权变化后仍需区分，§38表演者另有署名/声誉相关权。？",
+          "reject": "经济权转移即作者/表演者身份全部消失；业务审批即授权链。"
+        },
+        {
+          "caseId": "GV27",
+          "claim": "K15-CL-GV27@1",
+          "problem": "如何依据该案例判断：RIN2.0引入MessageVersionId和AvsVersionId；版本V2将T2演奏者更正，V1保留，不能用消息序号证明权利变更。MayBeShared仅该PartyRelationship传播标记。？",
+          "reject": "版本数字大即真实贡献正确或全部关系可传播。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "生产简报、交付/依赖及资源",
+      "d4Targets": [
+        "K15.02.01.03",
+        "K15.02.02.03",
+        "K15.02.03.03",
+        "K15.02.01.04",
+        "K15.02.02.04",
+        "K15.02.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 12,
+        "row": "| K15.02 | A01 | P | 生产简报、交付/依赖及资源 | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV04",
+          "claim": "K15-CL-GV04@1",
+          "problem": "如何依据该案例判断：简报要求WAV、可编辑工程、歌词谱、授权记录；仅WAV通过技术门禁仍缺三类必交对象。用途、受众、时间/地域明确。？",
+          "reject": "有好听音频即完整交付。"
+        },
+        {
+          "caseId": "GV05",
+          "claim": "K15-CL-GV05@1",
+          "problem": "如何依据该案例判断：词稿L与授权调查G可并行，录制V依L/G、混音M依V及伴奏B，评审Q依M，发行D依Q和最新许可；不可仅按时间排列。？",
+          "reject": "所有步骤必须串行或可以先发布后补权利。"
+        },
+        {
+          "caseId": "GV06",
+          "claim": "K15-CL-GV06@1",
+          "problem": "如何依据该案例判断：录唱人员不可用，候选替代为另签约真人或合法现有素材；仅有声音模型技术能力不替代许可。成本/时间变化不减硬门禁。？",
+          "reject": "预算紧即擅用未批准声样。"
+        },
+        {
+          "caseId": "GV28",
+          "claim": "K15-CL-GV28@1",
+          "problem": "如何依据该案例判断：题设交付两格式WAV和可编辑谱工程及发布限定MM，渲染44.1k与约定48k不符；换格式仅在新简报允许后重验。？",
+          "reject": "以压缩MP3或stem替代完整工程而不征得同意。"
+        },
+        {
+          "caseId": "GV29",
+          "claim": "K15-CL-GV29@1",
+          "problem": "如何依据该案例判断：任务G授权、N保护乐谱、L歌词、B伴奏、V歌声、M混音、P可编辑工程、Q审核、D发布。合法独立前置可并行；L变化使V/M/P/Q/D待复核，N或P变化即使混音未变也必须使Q/D待复核；B内容不自动删除。？",
+          "reject": "权利核查一次永久生效；时间排序就是依赖；谱或工程改版不影响旧验收。"
+        },
+        {
+          "caseId": "GV30",
+          "claim": "K15-CL-GV30@1",
+          "problem": "如何依据该案例判断：原计划录制2h+混音3h=5h，候选用已获授权现成伴奏减少1h，但新增核验成本.5h，题设总4.5h；若缺权益则仍不可选。？",
+          "reject": "成本更低即可绕过声线许可或交付硬项。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "简报→依赖计划→风险处置→交付",
+      "d4Targets": [
+        "K15.02.01.03",
+        "K15.02.02.03",
+        "K15.02.03.03",
+        "K15.02.01.04",
+        "K15.02.02.04",
+        "K15.02.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 13,
+        "row": "| K15.02 | A02 | P | 简报→依赖计划→风险处置→交付 | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV04",
+          "claim": "K15-CL-GV04@1",
+          "problem": "如何依据该案例判断：简报要求WAV、可编辑工程、歌词谱、授权记录；仅WAV通过技术门禁仍缺三类必交对象。用途、受众、时间/地域明确。？",
+          "reject": "有好听音频即完整交付。"
+        },
+        {
+          "caseId": "GV05",
+          "claim": "K15-CL-GV05@1",
+          "problem": "如何依据该案例判断：词稿L与授权调查G可并行，录制V依L/G、混音M依V及伴奏B，评审Q依M，发行D依Q和最新许可；不可仅按时间排列。？",
+          "reject": "所有步骤必须串行或可以先发布后补权利。"
+        },
+        {
+          "caseId": "GV06",
+          "claim": "K15-CL-GV06@1",
+          "problem": "如何依据该案例判断：录唱人员不可用，候选替代为另签约真人或合法现有素材；仅有声音模型技术能力不替代许可。成本/时间变化不减硬门禁。？",
+          "reject": "预算紧即擅用未批准声样。"
+        },
+        {
+          "caseId": "GV28",
+          "claim": "K15-CL-GV28@1",
+          "problem": "如何依据该案例判断：题设交付两格式WAV和可编辑谱工程及发布限定MM，渲染44.1k与约定48k不符；换格式仅在新简报允许后重验。？",
+          "reject": "以压缩MP3或stem替代完整工程而不征得同意。"
+        },
+        {
+          "caseId": "GV29",
+          "claim": "K15-CL-GV29@1",
+          "problem": "如何依据该案例判断：任务G授权、N保护乐谱、L歌词、B伴奏、V歌声、M混音、P可编辑工程、Q审核、D发布。合法独立前置可并行；L变化使V/M/P/Q/D待复核，N或P变化即使混音未变也必须使Q/D待复核；B内容不自动删除。？",
+          "reject": "权利核查一次永久生效；时间排序就是依赖；谱或工程改版不影响旧验收。"
+        },
+        {
+          "caseId": "GV30",
+          "claim": "K15-CL-GV30@1",
+          "problem": "如何依据该案例判断：原计划录制2h+混音3h=5h，候选用已获授权现成伴奏减少1h，但新增核验成本.5h，题设总4.5h；若缺权益则仍不可选。？",
+          "reject": "成本更低即可绕过声线许可或交付硬项。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.02",
+      "ability": "A03",
+      "role": "P",
+      "task": "任务/制作工具接口及实际资格K12",
+      "d4Targets": [
+        "K15.02.01.03",
+        "K15.02.02.03",
+        "K15.02.03.03",
+        "K15.02.01.04",
+        "K15.02.02.04",
+        "K15.02.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 14,
+        "row": "| K15.02 | A03 | P | 任务/制作工具接口及实际资格K12 | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV04",
+          "claim": "K15-CL-GV04@1",
+          "problem": "如何依据该案例判断：简报要求WAV、可编辑工程、歌词谱、授权记录；仅WAV通过技术门禁仍缺三类必交对象。用途、受众、时间/地域明确。？",
+          "reject": "有好听音频即完整交付。"
+        },
+        {
+          "caseId": "GV05",
+          "claim": "K15-CL-GV05@1",
+          "problem": "如何依据该案例判断：词稿L与授权调查G可并行，录制V依L/G、混音M依V及伴奏B，评审Q依M，发行D依Q和最新许可；不可仅按时间排列。？",
+          "reject": "所有步骤必须串行或可以先发布后补权利。"
+        },
+        {
+          "caseId": "GV06",
+          "claim": "K15-CL-GV06@1",
+          "problem": "如何依据该案例判断：录唱人员不可用，候选替代为另签约真人或合法现有素材；仅有声音模型技术能力不替代许可。成本/时间变化不减硬门禁。？",
+          "reject": "预算紧即擅用未批准声样。"
+        },
+        {
+          "caseId": "GV28",
+          "claim": "K15-CL-GV28@1",
+          "problem": "如何依据该案例判断：题设交付两格式WAV和可编辑谱工程及发布限定MM，渲染44.1k与约定48k不符；换格式仅在新简报允许后重验。？",
+          "reject": "以压缩MP3或stem替代完整工程而不征得同意。"
+        },
+        {
+          "caseId": "GV29",
+          "claim": "K15-CL-GV29@1",
+          "problem": "如何依据该案例判断：任务G授权、N保护乐谱、L歌词、B伴奏、V歌声、M混音、P可编辑工程、Q审核、D发布。合法独立前置可并行；L变化使V/M/P/Q/D待复核，N或P变化即使混音未变也必须使Q/D待复核；B内容不自动删除。？",
+          "reject": "权利核查一次永久生效；时间排序就是依赖；谱或工程改版不影响旧验收。"
+        },
+        {
+          "caseId": "GV30",
+          "claim": "K15-CL-GV30@1",
+          "problem": "如何依据该案例判断：原计划录制2h+混音3h=5h，候选用已获授权现成伴奏减少1h，但新增核验成本.5h，题设总4.5h；若缺权益则仍不可选。？",
+          "reject": "成本更低即可绕过声线许可或交付硬项。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.02",
+      "ability": "A04",
+      "role": "P",
+      "task": "目标、任务状态、预算及约束",
+      "d4Targets": [
+        "K15.02.01.03",
+        "K15.02.02.03",
+        "K15.02.03.03",
+        "K15.02.01.04",
+        "K15.02.02.04",
+        "K15.02.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 15,
+        "row": "| K15.02 | A04 | P | 目标、任务状态、预算及约束 | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV04",
+          "claim": "K15-CL-GV04@1",
+          "problem": "如何依据该案例判断：简报要求WAV、可编辑工程、歌词谱、授权记录；仅WAV通过技术门禁仍缺三类必交对象。用途、受众、时间/地域明确。？",
+          "reject": "有好听音频即完整交付。"
+        },
+        {
+          "caseId": "GV05",
+          "claim": "K15-CL-GV05@1",
+          "problem": "如何依据该案例判断：词稿L与授权调查G可并行，录制V依L/G、混音M依V及伴奏B，评审Q依M，发行D依Q和最新许可；不可仅按时间排列。？",
+          "reject": "所有步骤必须串行或可以先发布后补权利。"
+        },
+        {
+          "caseId": "GV06",
+          "claim": "K15-CL-GV06@1",
+          "problem": "如何依据该案例判断：录唱人员不可用，候选替代为另签约真人或合法现有素材；仅有声音模型技术能力不替代许可。成本/时间变化不减硬门禁。？",
+          "reject": "预算紧即擅用未批准声样。"
+        },
+        {
+          "caseId": "GV28",
+          "claim": "K15-CL-GV28@1",
+          "problem": "如何依据该案例判断：题设交付两格式WAV和可编辑谱工程及发布限定MM，渲染44.1k与约定48k不符；换格式仅在新简报允许后重验。？",
+          "reject": "以压缩MP3或stem替代完整工程而不征得同意。"
+        },
+        {
+          "caseId": "GV29",
+          "claim": "K15-CL-GV29@1",
+          "problem": "如何依据该案例判断：任务G授权、N保护乐谱、L歌词、B伴奏、V歌声、M混音、P可编辑工程、Q审核、D发布。合法独立前置可并行；L变化使V/M/P/Q/D待复核，N或P变化即使混音未变也必须使Q/D待复核；B内容不自动删除。？",
+          "reject": "权利核查一次永久生效；时间排序就是依赖；谱或工程改版不影响旧验收。"
+        },
+        {
+          "caseId": "GV30",
+          "claim": "K15-CL-GV30@1",
+          "problem": "如何依据该案例判断：原计划录制2h+混音3h=5h，候选用已获授权现成伴奏减少1h，但新增核验成本.5h，题设总4.5h；若缺权益则仍不可选。？",
+          "reject": "成本更低即可绕过声线许可或交付硬项。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "硬交付、范围变更及验收条件",
+      "d4Targets": [
+        "K15.02.01.03",
+        "K15.02.02.03",
+        "K15.02.03.03",
+        "K15.02.01.04",
+        "K15.02.02.04",
+        "K15.02.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 16,
+        "row": "| K15.02 | A05 | P | 硬交付、范围变更及验收条件 | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV04",
+          "claim": "K15-CL-GV04@1",
+          "problem": "如何依据该案例判断：简报要求WAV、可编辑工程、歌词谱、授权记录；仅WAV通过技术门禁仍缺三类必交对象。用途、受众、时间/地域明确。？",
+          "reject": "有好听音频即完整交付。"
+        },
+        {
+          "caseId": "GV05",
+          "claim": "K15-CL-GV05@1",
+          "problem": "如何依据该案例判断：词稿L与授权调查G可并行，录制V依L/G、混音M依V及伴奏B，评审Q依M，发行D依Q和最新许可；不可仅按时间排列。？",
+          "reject": "所有步骤必须串行或可以先发布后补权利。"
+        },
+        {
+          "caseId": "GV06",
+          "claim": "K15-CL-GV06@1",
+          "problem": "如何依据该案例判断：录唱人员不可用，候选替代为另签约真人或合法现有素材；仅有声音模型技术能力不替代许可。成本/时间变化不减硬门禁。？",
+          "reject": "预算紧即擅用未批准声样。"
+        },
+        {
+          "caseId": "GV28",
+          "claim": "K15-CL-GV28@1",
+          "problem": "如何依据该案例判断：题设交付两格式WAV和可编辑谱工程及发布限定MM，渲染44.1k与约定48k不符；换格式仅在新简报允许后重验。？",
+          "reject": "以压缩MP3或stem替代完整工程而不征得同意。"
+        },
+        {
+          "caseId": "GV29",
+          "claim": "K15-CL-GV29@1",
+          "problem": "如何依据该案例判断：任务G授权、N保护乐谱、L歌词、B伴奏、V歌声、M混音、P可编辑工程、Q审核、D发布。合法独立前置可并行；L变化使V/M/P/Q/D待复核，N或P变化即使混音未变也必须使Q/D待复核；B内容不自动删除。？",
+          "reject": "权利核查一次永久生效；时间排序就是依赖；谱或工程改版不影响旧验收。"
+        },
+        {
+          "caseId": "GV30",
+          "claim": "K15-CL-GV30@1",
+          "problem": "如何依据该案例判断：原计划录制2h+混音3h=5h，候选用已获授权现成伴奏减少1h，但新增核验成本.5h，题设总4.5h；若缺权益则仍不可选。？",
+          "reject": "成本更低即可绕过声线许可或交付硬项。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.02",
+      "ability": "A06",
+      "role": "P",
+      "task": "生产计划/交付清单及替代路径",
+      "d4Targets": [
+        "K15.02.01.03",
+        "K15.02.02.03",
+        "K15.02.03.03",
+        "K15.02.01.04",
+        "K15.02.02.04",
+        "K15.02.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 17,
+        "row": "| K15.02 | A06 | P | 生产计划/交付清单及替代路径 | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV04",
+          "claim": "K15-CL-GV04@1",
+          "problem": "如何依据该案例判断：简报要求WAV、可编辑工程、歌词谱、授权记录；仅WAV通过技术门禁仍缺三类必交对象。用途、受众、时间/地域明确。？",
+          "reject": "有好听音频即完整交付。"
+        },
+        {
+          "caseId": "GV05",
+          "claim": "K15-CL-GV05@1",
+          "problem": "如何依据该案例判断：词稿L与授权调查G可并行，录制V依L/G、混音M依V及伴奏B，评审Q依M，发行D依Q和最新许可；不可仅按时间排列。？",
+          "reject": "所有步骤必须串行或可以先发布后补权利。"
+        },
+        {
+          "caseId": "GV06",
+          "claim": "K15-CL-GV06@1",
+          "problem": "如何依据该案例判断：录唱人员不可用，候选替代为另签约真人或合法现有素材；仅有声音模型技术能力不替代许可。成本/时间变化不减硬门禁。？",
+          "reject": "预算紧即擅用未批准声样。"
+        },
+        {
+          "caseId": "GV28",
+          "claim": "K15-CL-GV28@1",
+          "problem": "如何依据该案例判断：题设交付两格式WAV和可编辑谱工程及发布限定MM，渲染44.1k与约定48k不符；换格式仅在新简报允许后重验。？",
+          "reject": "以压缩MP3或stem替代完整工程而不征得同意。"
+        },
+        {
+          "caseId": "GV29",
+          "claim": "K15-CL-GV29@1",
+          "problem": "如何依据该案例判断：任务G授权、N保护乐谱、L歌词、B伴奏、V歌声、M混音、P可编辑工程、Q审核、D发布。合法独立前置可并行；L变化使V/M/P/Q/D待复核，N或P变化即使混音未变也必须使Q/D待复核；B内容不自动删除。？",
+          "reject": "权利核查一次永久生效；时间排序就是依赖；谱或工程改版不影响旧验收。"
+        },
+        {
+          "caseId": "GV30",
+          "claim": "K15-CL-GV30@1",
+          "problem": "如何依据该案例判断：原计划录制2h+混音3h=5h，候选用已获授权现成伴奏减少1h，但新增核验成本.5h，题设总4.5h；若缺权益则仍不可选。？",
+          "reject": "成本更低即可绕过声线许可或交付硬项。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "失败定位、重规划、停止",
+      "d4Targets": [
+        "K15.02.01.03",
+        "K15.02.02.03",
+        "K15.02.03.03",
+        "K15.02.01.04",
+        "K15.02.02.04",
+        "K15.02.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 18,
+        "row": "| K15.02 | A07 | P | 失败定位、重规划、停止 | [GV04/K15.02.01.03](production-governance-r1-knowledge-cases.md#L8)；[GV05/K15.02.02.03](production-governance-r1-knowledge-cases.md#L9)；[GV06/K15.02.03.03](production-governance-r1-knowledge-cases.md#L10)；[GV28/K15.02.01.04](production-governance-r2-knowledge-cases.md#L8)；[GV29/K15.02.02.04](production-governance-r2-knowledge-cases.md#L9)；[GV30/K15.02.03.04](production-governance-r2-knowledge-cases.md#L10) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV04@1",
+        "K15-CL-GV05@1",
+        "K15-CL-GV06@1",
+        "K15-CL-GV28@1",
+        "K15-CL-GV29@1",
+        "K15-CL-GV30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV04",
+          "claim": "K15-CL-GV04@1",
+          "problem": "如何依据该案例判断：简报要求WAV、可编辑工程、歌词谱、授权记录；仅WAV通过技术门禁仍缺三类必交对象。用途、受众、时间/地域明确。？",
+          "reject": "有好听音频即完整交付。"
+        },
+        {
+          "caseId": "GV05",
+          "claim": "K15-CL-GV05@1",
+          "problem": "如何依据该案例判断：词稿L与授权调查G可并行，录制V依L/G、混音M依V及伴奏B，评审Q依M，发行D依Q和最新许可；不可仅按时间排列。？",
+          "reject": "所有步骤必须串行或可以先发布后补权利。"
+        },
+        {
+          "caseId": "GV06",
+          "claim": "K15-CL-GV06@1",
+          "problem": "如何依据该案例判断：录唱人员不可用，候选替代为另签约真人或合法现有素材；仅有声音模型技术能力不替代许可。成本/时间变化不减硬门禁。？",
+          "reject": "预算紧即擅用未批准声样。"
+        },
+        {
+          "caseId": "GV28",
+          "claim": "K15-CL-GV28@1",
+          "problem": "如何依据该案例判断：题设交付两格式WAV和可编辑谱工程及发布限定MM，渲染44.1k与约定48k不符；换格式仅在新简报允许后重验。？",
+          "reject": "以压缩MP3或stem替代完整工程而不征得同意。"
+        },
+        {
+          "caseId": "GV29",
+          "claim": "K15-CL-GV29@1",
+          "problem": "如何依据该案例判断：任务G授权、N保护乐谱、L歌词、B伴奏、V歌声、M混音、P可编辑工程、Q审核、D发布。合法独立前置可并行；L变化使V/M/P/Q/D待复核，N或P变化即使混音未变也必须使Q/D待复核；B内容不自动删除。？",
+          "reject": "权利核查一次永久生效；时间排序就是依赖；谱或工程改版不影响旧验收。"
+        },
+        {
+          "caseId": "GV30",
+          "claim": "K15-CL-GV30@1",
+          "problem": "如何依据该案例判断：原计划录制2h+混音3h=5h，候选用已获授权现成伴奏减少1h，但新增核验成本.5h，题设总4.5h；若缺权益则仍不可选。？",
+          "reject": "成本更低即可绕过声线许可或交付硬项。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "素材/工程/文件/时基与版本",
+      "d4Targets": [
+        "K15.03.01.03",
+        "K15.03.02.03",
+        "K15.03.03.03",
+        "K15.03.01.04",
+        "K15.03.02.04",
+        "K15.03.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 19,
+        "row": "| K15.03 | A01 | P | 素材/工程/文件/时基与版本 | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV07",
+          "claim": "K15-CL-GV07@1",
+          "problem": "如何依据该案例判断：W1抽象作品，T1源take，B1伴奏stem，P1工程，M1混音，文件F1内容身份与路径分开；同名F2可不同哈希。？",
+          "reject": "文件名相同即同素材，ISWC即文件hash。"
+        },
+        {
+          "caseId": "GV08",
+          "claim": "K15-CL-GV08@1",
+          "problem": "如何依据该案例判断：A/B均由P1@7改工程，不覆盖彼此；A改人声、B改伴奏，需复核共同混音依赖。独立备份要求另一失效域及恢复验证。？",
+          "reject": "分支快照即独立可恢复备份。"
+        },
+        {
+          "caseId": "GV09",
+          "claim": "K15-CL-GV09@1",
+          "problem": "如何依据该案例判断：记录宿主H1、插件P@v2、预设S1、源素材、采样率及渲染条件；目标缺P时工程打开不代表可复现。授权替换须复评。？",
+          "reject": "设备列表齐全即重现音色。"
+        },
+        {
+          "caseId": "GV31",
+          "claim": "K15-CL-GV31@1",
+          "problem": "如何依据该案例判断：48kHz起点4800帧=.1s，44.1kHz应4410帧；同录音重新编码文件hash可变，不能按hash变化直接新ISRC。？",
+          "reject": "把帧号跨采样率直接复制，文件身份等于作品/录音身份。"
+        },
+        {
+          "caseId": "GV32",
+          "claim": "K15-CL-GV32@1",
+          "problem": "如何依据该案例判断：P@r7两人均修改同一音轨；B基于r7晚提交，不能以文件更新时间覆盖r8；题设独立备份位于另介质并试恢复。？",
+          "reject": "自动最后写入胜出，单机同盘快照等独立备份。"
+        },
+        {
+          "caseId": "GV33",
+          "claim": "K15-CL-GV33@1",
+          "problem": "如何依据该案例判断：RIN2.0允许录音组件设备引用，但文件仅位置/格式/可选hash等信息；实际重开需相应插件/状态、源文件及环境。P1@2缺必要插件，即使WAV不变且工程文件存在，仍未满足可编辑性交付。打印stem非可编辑替代。？",
+          "reject": "RIN包含全部音频或设备序列号保证声学等价；工程文件存在即可沿用旧重开报告。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "基线→编辑→冲突→回读/恢复",
+      "d4Targets": [
+        "K15.03.01.03",
+        "K15.03.02.03",
+        "K15.03.03.03",
+        "K15.03.01.04",
+        "K15.03.02.04",
+        "K15.03.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 20,
+        "row": "| K15.03 | A02 | P | 基线→编辑→冲突→回读/恢复 | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV07",
+          "claim": "K15-CL-GV07@1",
+          "problem": "如何依据该案例判断：W1抽象作品，T1源take，B1伴奏stem，P1工程，M1混音，文件F1内容身份与路径分开；同名F2可不同哈希。？",
+          "reject": "文件名相同即同素材，ISWC即文件hash。"
+        },
+        {
+          "caseId": "GV08",
+          "claim": "K15-CL-GV08@1",
+          "problem": "如何依据该案例判断：A/B均由P1@7改工程，不覆盖彼此；A改人声、B改伴奏，需复核共同混音依赖。独立备份要求另一失效域及恢复验证。？",
+          "reject": "分支快照即独立可恢复备份。"
+        },
+        {
+          "caseId": "GV09",
+          "claim": "K15-CL-GV09@1",
+          "problem": "如何依据该案例判断：记录宿主H1、插件P@v2、预设S1、源素材、采样率及渲染条件；目标缺P时工程打开不代表可复现。授权替换须复评。？",
+          "reject": "设备列表齐全即重现音色。"
+        },
+        {
+          "caseId": "GV31",
+          "claim": "K15-CL-GV31@1",
+          "problem": "如何依据该案例判断：48kHz起点4800帧=.1s，44.1kHz应4410帧；同录音重新编码文件hash可变，不能按hash变化直接新ISRC。？",
+          "reject": "把帧号跨采样率直接复制，文件身份等于作品/录音身份。"
+        },
+        {
+          "caseId": "GV32",
+          "claim": "K15-CL-GV32@1",
+          "problem": "如何依据该案例判断：P@r7两人均修改同一音轨；B基于r7晚提交，不能以文件更新时间覆盖r8；题设独立备份位于另介质并试恢复。？",
+          "reject": "自动最后写入胜出，单机同盘快照等独立备份。"
+        },
+        {
+          "caseId": "GV33",
+          "claim": "K15-CL-GV33@1",
+          "problem": "如何依据该案例判断：RIN2.0允许录音组件设备引用，但文件仅位置/格式/可选hash等信息；实际重开需相应插件/状态、源文件及环境。P1@2缺必要插件，即使WAV不变且工程文件存在，仍未满足可编辑性交付。打印stem非可编辑替代。？",
+          "reject": "RIN包含全部音频或设备序列号保证声学等价；工程文件存在即可沿用旧重开报告。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.03",
+      "ability": "A03",
+      "role": "P",
+      "task": "文件/宿主/依赖工具、实际K09/K12",
+      "d4Targets": [
+        "K15.03.01.03",
+        "K15.03.02.03",
+        "K15.03.03.03",
+        "K15.03.01.04",
+        "K15.03.02.04",
+        "K15.03.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 21,
+        "row": "| K15.03 | A03 | P | 文件/宿主/依赖工具、实际K09/K12 | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV07",
+          "claim": "K15-CL-GV07@1",
+          "problem": "如何依据该案例判断：W1抽象作品，T1源take，B1伴奏stem，P1工程，M1混音，文件F1内容身份与路径分开；同名F2可不同哈希。？",
+          "reject": "文件名相同即同素材，ISWC即文件hash。"
+        },
+        {
+          "caseId": "GV08",
+          "claim": "K15-CL-GV08@1",
+          "problem": "如何依据该案例判断：A/B均由P1@7改工程，不覆盖彼此；A改人声、B改伴奏，需复核共同混音依赖。独立备份要求另一失效域及恢复验证。？",
+          "reject": "分支快照即独立可恢复备份。"
+        },
+        {
+          "caseId": "GV09",
+          "claim": "K15-CL-GV09@1",
+          "problem": "如何依据该案例判断：记录宿主H1、插件P@v2、预设S1、源素材、采样率及渲染条件；目标缺P时工程打开不代表可复现。授权替换须复评。？",
+          "reject": "设备列表齐全即重现音色。"
+        },
+        {
+          "caseId": "GV31",
+          "claim": "K15-CL-GV31@1",
+          "problem": "如何依据该案例判断：48kHz起点4800帧=.1s，44.1kHz应4410帧；同录音重新编码文件hash可变，不能按hash变化直接新ISRC。？",
+          "reject": "把帧号跨采样率直接复制，文件身份等于作品/录音身份。"
+        },
+        {
+          "caseId": "GV32",
+          "claim": "K15-CL-GV32@1",
+          "problem": "如何依据该案例判断：P@r7两人均修改同一音轨；B基于r7晚提交，不能以文件更新时间覆盖r8；题设独立备份位于另介质并试恢复。？",
+          "reject": "自动最后写入胜出，单机同盘快照等独立备份。"
+        },
+        {
+          "caseId": "GV33",
+          "claim": "K15-CL-GV33@1",
+          "problem": "如何依据该案例判断：RIN2.0允许录音组件设备引用，但文件仅位置/格式/可选hash等信息；实际重开需相应插件/状态、源文件及环境。P1@2缺必要插件，即使WAV不变且工程文件存在，仍未满足可编辑性交付。打印stem非可编辑替代。？",
+          "reject": "RIN包含全部音频或设备序列号保证声学等价；工程文件存在即可沿用旧重开报告。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.03",
+      "ability": "A04",
+      "role": "P",
+      "task": "版本、源、哈希、权限、恢复状态",
+      "d4Targets": [
+        "K15.03.01.03",
+        "K15.03.02.03",
+        "K15.03.03.03",
+        "K15.03.01.04",
+        "K15.03.02.04",
+        "K15.03.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 22,
+        "row": "| K15.03 | A04 | P | 版本、源、哈希、权限、恢复状态 | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV07",
+          "claim": "K15-CL-GV07@1",
+          "problem": "如何依据该案例判断：W1抽象作品，T1源take，B1伴奏stem，P1工程，M1混音，文件F1内容身份与路径分开；同名F2可不同哈希。？",
+          "reject": "文件名相同即同素材，ISWC即文件hash。"
+        },
+        {
+          "caseId": "GV08",
+          "claim": "K15-CL-GV08@1",
+          "problem": "如何依据该案例判断：A/B均由P1@7改工程，不覆盖彼此；A改人声、B改伴奏，需复核共同混音依赖。独立备份要求另一失效域及恢复验证。？",
+          "reject": "分支快照即独立可恢复备份。"
+        },
+        {
+          "caseId": "GV09",
+          "claim": "K15-CL-GV09@1",
+          "problem": "如何依据该案例判断：记录宿主H1、插件P@v2、预设S1、源素材、采样率及渲染条件；目标缺P时工程打开不代表可复现。授权替换须复评。？",
+          "reject": "设备列表齐全即重现音色。"
+        },
+        {
+          "caseId": "GV31",
+          "claim": "K15-CL-GV31@1",
+          "problem": "如何依据该案例判断：48kHz起点4800帧=.1s，44.1kHz应4410帧；同录音重新编码文件hash可变，不能按hash变化直接新ISRC。？",
+          "reject": "把帧号跨采样率直接复制，文件身份等于作品/录音身份。"
+        },
+        {
+          "caseId": "GV32",
+          "claim": "K15-CL-GV32@1",
+          "problem": "如何依据该案例判断：P@r7两人均修改同一音轨；B基于r7晚提交，不能以文件更新时间覆盖r8；题设独立备份位于另介质并试恢复。？",
+          "reject": "自动最后写入胜出，单机同盘快照等独立备份。"
+        },
+        {
+          "caseId": "GV33",
+          "claim": "K15-CL-GV33@1",
+          "problem": "如何依据该案例判断：RIN2.0允许录音组件设备引用，但文件仅位置/格式/可选hash等信息；实际重开需相应插件/状态、源文件及环境。P1@2缺必要插件，即使WAV不变且工程文件存在，仍未满足可编辑性交付。打印stem非可编辑替代。？",
+          "reject": "RIN包含全部音频或设备序列号保证声学等价；工程文件存在即可沿用旧重开报告。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "依赖/素材和可恢复性证据",
+      "d4Targets": [
+        "K15.03.01.03",
+        "K15.03.02.03",
+        "K15.03.03.03",
+        "K15.03.01.04",
+        "K15.03.02.04",
+        "K15.03.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 23,
+        "row": "| K15.03 | A05 | P | 依赖/素材和可恢复性证据 | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV07",
+          "claim": "K15-CL-GV07@1",
+          "problem": "如何依据该案例判断：W1抽象作品，T1源take，B1伴奏stem，P1工程，M1混音，文件F1内容身份与路径分开；同名F2可不同哈希。？",
+          "reject": "文件名相同即同素材，ISWC即文件hash。"
+        },
+        {
+          "caseId": "GV08",
+          "claim": "K15-CL-GV08@1",
+          "problem": "如何依据该案例判断：A/B均由P1@7改工程，不覆盖彼此；A改人声、B改伴奏，需复核共同混音依赖。独立备份要求另一失效域及恢复验证。？",
+          "reject": "分支快照即独立可恢复备份。"
+        },
+        {
+          "caseId": "GV09",
+          "claim": "K15-CL-GV09@1",
+          "problem": "如何依据该案例判断：记录宿主H1、插件P@v2、预设S1、源素材、采样率及渲染条件；目标缺P时工程打开不代表可复现。授权替换须复评。？",
+          "reject": "设备列表齐全即重现音色。"
+        },
+        {
+          "caseId": "GV31",
+          "claim": "K15-CL-GV31@1",
+          "problem": "如何依据该案例判断：48kHz起点4800帧=.1s，44.1kHz应4410帧；同录音重新编码文件hash可变，不能按hash变化直接新ISRC。？",
+          "reject": "把帧号跨采样率直接复制，文件身份等于作品/录音身份。"
+        },
+        {
+          "caseId": "GV32",
+          "claim": "K15-CL-GV32@1",
+          "problem": "如何依据该案例判断：P@r7两人均修改同一音轨；B基于r7晚提交，不能以文件更新时间覆盖r8；题设独立备份位于另介质并试恢复。？",
+          "reject": "自动最后写入胜出，单机同盘快照等独立备份。"
+        },
+        {
+          "caseId": "GV33",
+          "claim": "K15-CL-GV33@1",
+          "problem": "如何依据该案例判断：RIN2.0允许录音组件设备引用，但文件仅位置/格式/可选hash等信息；实际重开需相应插件/状态、源文件及环境。P1@2缺必要插件，即使WAV不变且工程文件存在，仍未满足可编辑性交付。打印stem非可编辑替代。？",
+          "reject": "RIN包含全部音频或设备序列号保证声学等价；工程文件存在即可沿用旧重开报告。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.03",
+      "ability": "A06",
+      "role": "P",
+      "task": "来源清单、版本/备份候选",
+      "d4Targets": [
+        "K15.03.01.03",
+        "K15.03.02.03",
+        "K15.03.03.03",
+        "K15.03.01.04",
+        "K15.03.02.04",
+        "K15.03.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 24,
+        "row": "| K15.03 | A06 | P | 来源清单、版本/备份候选 | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV07",
+          "claim": "K15-CL-GV07@1",
+          "problem": "如何依据该案例判断：W1抽象作品，T1源take，B1伴奏stem，P1工程，M1混音，文件F1内容身份与路径分开；同名F2可不同哈希。？",
+          "reject": "文件名相同即同素材，ISWC即文件hash。"
+        },
+        {
+          "caseId": "GV08",
+          "claim": "K15-CL-GV08@1",
+          "problem": "如何依据该案例判断：A/B均由P1@7改工程，不覆盖彼此；A改人声、B改伴奏，需复核共同混音依赖。独立备份要求另一失效域及恢复验证。？",
+          "reject": "分支快照即独立可恢复备份。"
+        },
+        {
+          "caseId": "GV09",
+          "claim": "K15-CL-GV09@1",
+          "problem": "如何依据该案例判断：记录宿主H1、插件P@v2、预设S1、源素材、采样率及渲染条件；目标缺P时工程打开不代表可复现。授权替换须复评。？",
+          "reject": "设备列表齐全即重现音色。"
+        },
+        {
+          "caseId": "GV31",
+          "claim": "K15-CL-GV31@1",
+          "problem": "如何依据该案例判断：48kHz起点4800帧=.1s，44.1kHz应4410帧；同录音重新编码文件hash可变，不能按hash变化直接新ISRC。？",
+          "reject": "把帧号跨采样率直接复制，文件身份等于作品/录音身份。"
+        },
+        {
+          "caseId": "GV32",
+          "claim": "K15-CL-GV32@1",
+          "problem": "如何依据该案例判断：P@r7两人均修改同一音轨；B基于r7晚提交，不能以文件更新时间覆盖r8；题设独立备份位于另介质并试恢复。？",
+          "reject": "自动最后写入胜出，单机同盘快照等独立备份。"
+        },
+        {
+          "caseId": "GV33",
+          "claim": "K15-CL-GV33@1",
+          "problem": "如何依据该案例判断：RIN2.0允许录音组件设备引用，但文件仅位置/格式/可选hash等信息；实际重开需相应插件/状态、源文件及环境。P1@2缺必要插件，即使WAV不变且工程文件存在，仍未满足可编辑性交付。打印stem非可编辑替代。？",
+          "reject": "RIN包含全部音频或设备序列号保证声学等价；工程文件存在即可沿用旧重开报告。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "冲突、缺依赖、回滚与验证",
+      "d4Targets": [
+        "K15.03.01.03",
+        "K15.03.02.03",
+        "K15.03.03.03",
+        "K15.03.01.04",
+        "K15.03.02.04",
+        "K15.03.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 25,
+        "row": "| K15.03 | A07 | P | 冲突、缺依赖、回滚与验证 | [GV07/K15.03.01.03](production-governance-r1-knowledge-cases.md#L11)；[GV08/K15.03.02.03](production-governance-r1-knowledge-cases.md#L12)；[GV09/K15.03.03.03](production-governance-r1-knowledge-cases.md#L13)；[GV31/K15.03.01.04](production-governance-r2-knowledge-cases.md#L11)；[GV32/K15.03.02.04](production-governance-r2-knowledge-cases.md#L12)；[GV33/K15.03.03.04](production-governance-r2-knowledge-cases.md#L13) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV07@1",
+        "K15-CL-GV08@1",
+        "K15-CL-GV09@1",
+        "K15-CL-GV31@1",
+        "K15-CL-GV32@1",
+        "K15-CL-GV33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV07",
+          "claim": "K15-CL-GV07@1",
+          "problem": "如何依据该案例判断：W1抽象作品，T1源take，B1伴奏stem，P1工程，M1混音，文件F1内容身份与路径分开；同名F2可不同哈希。？",
+          "reject": "文件名相同即同素材，ISWC即文件hash。"
+        },
+        {
+          "caseId": "GV08",
+          "claim": "K15-CL-GV08@1",
+          "problem": "如何依据该案例判断：A/B均由P1@7改工程，不覆盖彼此；A改人声、B改伴奏，需复核共同混音依赖。独立备份要求另一失效域及恢复验证。？",
+          "reject": "分支快照即独立可恢复备份。"
+        },
+        {
+          "caseId": "GV09",
+          "claim": "K15-CL-GV09@1",
+          "problem": "如何依据该案例判断：记录宿主H1、插件P@v2、预设S1、源素材、采样率及渲染条件；目标缺P时工程打开不代表可复现。授权替换须复评。？",
+          "reject": "设备列表齐全即重现音色。"
+        },
+        {
+          "caseId": "GV31",
+          "claim": "K15-CL-GV31@1",
+          "problem": "如何依据该案例判断：48kHz起点4800帧=.1s，44.1kHz应4410帧；同录音重新编码文件hash可变，不能按hash变化直接新ISRC。？",
+          "reject": "把帧号跨采样率直接复制，文件身份等于作品/录音身份。"
+        },
+        {
+          "caseId": "GV32",
+          "claim": "K15-CL-GV32@1",
+          "problem": "如何依据该案例判断：P@r7两人均修改同一音轨；B基于r7晚提交，不能以文件更新时间覆盖r8；题设独立备份位于另介质并试恢复。？",
+          "reject": "自动最后写入胜出，单机同盘快照等独立备份。"
+        },
+        {
+          "caseId": "GV33",
+          "claim": "K15-CL-GV33@1",
+          "problem": "如何依据该案例判断：RIN2.0允许录音组件设备引用，但文件仅位置/格式/可选hash等信息；实际重开需相应插件/状态、源文件及环境。P1@2缺必要插件，即使WAV不变且工程文件存在，仍未满足可编辑性交付。打印stem非可编辑替代。？",
+          "reject": "RIN包含全部音频或设备序列号保证声学等价；工程文件存在即可沿用旧重开报告。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "技术/音乐/权利/交付责任",
+      "d4Targets": [
+        "K15.04.01.03",
+        "K15.04.02.03",
+        "K15.04.03.03",
+        "K15.04.01.04",
+        "K15.04.02.04",
+        "K15.04.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 26,
+        "row": "| K15.04 | A01 | P | 技术/音乐/权利/交付责任 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV10",
+          "claim": "K15-CL-GV10@1",
+          "problem": "如何依据该案例判断：技术PASS、音乐PASS、权利UNKNOWN、交付PASS→停止发布；艺术多解允许但不能补权利。安全和责任门禁独立。？",
+          "reject": "高综合分补偿硬权利缺失。"
+        },
+        {
+          "caseId": "GV11",
+          "claim": "K15-CL-GV11@1",
+          "problem": "如何依据该案例判断：V1换歌声V2，M1和声乐stem/母带Q1依V1均失效；不影响独立伴奏B1仍须核条件。记录原因、优先级和责任。？",
+          "reject": "旧母带PASS自动继承新歌声。"
+        },
+        {
+          "caseId": "GV12",
+          "claim": "K15-CL-GV12@1",
+          "problem": "如何依据该案例判断：A/B均满足技术音乐条件，A更受委托方喜爱，选择理由与批准主体记录；权利争议未清时保留候选，停止发布。？",
+          "reject": "某人喜欢即全部规范合规或自动代表其他权利方。"
+        },
+        {
+          "caseId": "GV34",
+          "claim": "K15-CL-GV34@1",
+          "problem": "如何依据该案例判断：题设两候选A技术1音乐9、B技术1音乐7；A权限UNKNOWN，B缺谱或当前保护旋律/可编辑工程验证或精确回执不匹配，两者都不发布。硬门禁先于偏好。？",
+          "reject": "选择平均最高分然后补授权；四类文件都在即可使用旧PASS。"
+        },
+        {
+          "caseId": "GV35",
+          "claim": "K15-CL-GV35@1",
+          "problem": "如何依据该案例判断：候选V2只改参数seed或插件状态，来源相同但渲染内容和回执条件不同；N2或P1@2即使输出音频标记不变，也要使验收Q/D待复核并拒绝旧回执。？",
+          "reject": "相同版本标签、文件名或未变化音频可复用所有报告；只更新回执版本即可掩盖旋律/工程失败。"
+        },
+        {
+          "caseId": "GV36",
+          "claim": "K15-CL-GV36@1",
+          "problem": "如何依据该案例判断：撤回请求使候选A当前权利待核；回滚B若也依同声样则不能自动批准。另一个不依该素材的候选需独立当前证据。？",
+          "reject": "回滚意味着自动恢复历史授权。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "候选→独立门禁→决定→复核",
+      "d4Targets": [
+        "K15.04.01.03",
+        "K15.04.02.03",
+        "K15.04.03.03",
+        "K15.04.01.04",
+        "K15.04.02.04",
+        "K15.04.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 27,
+        "row": "| K15.04 | A02 | P | 候选→独立门禁→决定→复核 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV10",
+          "claim": "K15-CL-GV10@1",
+          "problem": "如何依据该案例判断：技术PASS、音乐PASS、权利UNKNOWN、交付PASS→停止发布；艺术多解允许但不能补权利。安全和责任门禁独立。？",
+          "reject": "高综合分补偿硬权利缺失。"
+        },
+        {
+          "caseId": "GV11",
+          "claim": "K15-CL-GV11@1",
+          "problem": "如何依据该案例判断：V1换歌声V2，M1和声乐stem/母带Q1依V1均失效；不影响独立伴奏B1仍须核条件。记录原因、优先级和责任。？",
+          "reject": "旧母带PASS自动继承新歌声。"
+        },
+        {
+          "caseId": "GV12",
+          "claim": "K15-CL-GV12@1",
+          "problem": "如何依据该案例判断：A/B均满足技术音乐条件，A更受委托方喜爱，选择理由与批准主体记录；权利争议未清时保留候选，停止发布。？",
+          "reject": "某人喜欢即全部规范合规或自动代表其他权利方。"
+        },
+        {
+          "caseId": "GV34",
+          "claim": "K15-CL-GV34@1",
+          "problem": "如何依据该案例判断：题设两候选A技术1音乐9、B技术1音乐7；A权限UNKNOWN，B缺谱或当前保护旋律/可编辑工程验证或精确回执不匹配，两者都不发布。硬门禁先于偏好。？",
+          "reject": "选择平均最高分然后补授权；四类文件都在即可使用旧PASS。"
+        },
+        {
+          "caseId": "GV35",
+          "claim": "K15-CL-GV35@1",
+          "problem": "如何依据该案例判断：候选V2只改参数seed或插件状态，来源相同但渲染内容和回执条件不同；N2或P1@2即使输出音频标记不变，也要使验收Q/D待复核并拒绝旧回执。？",
+          "reject": "相同版本标签、文件名或未变化音频可复用所有报告；只更新回执版本即可掩盖旋律/工程失败。"
+        },
+        {
+          "caseId": "GV36",
+          "claim": "K15-CL-GV36@1",
+          "problem": "如何依据该案例判断：撤回请求使候选A当前权利待核；回滚B若也依同声样则不能自动批准。另一个不依该素材的候选需独立当前证据。？",
+          "reject": "回滚意味着自动恢复历史授权。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.04",
+      "ability": "A03",
+      "role": "P",
+      "task": "评价及发布工具引用K10/K12",
+      "d4Targets": [
+        "K15.04.01.03",
+        "K15.04.02.03",
+        "K15.04.03.03",
+        "K15.04.01.04",
+        "K15.04.02.04",
+        "K15.04.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 28,
+        "row": "| K15.04 | A03 | P | 评价及发布工具引用K10/K12 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV10",
+          "claim": "K15-CL-GV10@1",
+          "problem": "如何依据该案例判断：技术PASS、音乐PASS、权利UNKNOWN、交付PASS→停止发布；艺术多解允许但不能补权利。安全和责任门禁独立。？",
+          "reject": "高综合分补偿硬权利缺失。"
+        },
+        {
+          "caseId": "GV11",
+          "claim": "K15-CL-GV11@1",
+          "problem": "如何依据该案例判断：V1换歌声V2，M1和声乐stem/母带Q1依V1均失效；不影响独立伴奏B1仍须核条件。记录原因、优先级和责任。？",
+          "reject": "旧母带PASS自动继承新歌声。"
+        },
+        {
+          "caseId": "GV12",
+          "claim": "K15-CL-GV12@1",
+          "problem": "如何依据该案例判断：A/B均满足技术音乐条件，A更受委托方喜爱，选择理由与批准主体记录；权利争议未清时保留候选，停止发布。？",
+          "reject": "某人喜欢即全部规范合规或自动代表其他权利方。"
+        },
+        {
+          "caseId": "GV34",
+          "claim": "K15-CL-GV34@1",
+          "problem": "如何依据该案例判断：题设两候选A技术1音乐9、B技术1音乐7；A权限UNKNOWN，B缺谱或当前保护旋律/可编辑工程验证或精确回执不匹配，两者都不发布。硬门禁先于偏好。？",
+          "reject": "选择平均最高分然后补授权；四类文件都在即可使用旧PASS。"
+        },
+        {
+          "caseId": "GV35",
+          "claim": "K15-CL-GV35@1",
+          "problem": "如何依据该案例判断：候选V2只改参数seed或插件状态，来源相同但渲染内容和回执条件不同；N2或P1@2即使输出音频标记不变，也要使验收Q/D待复核并拒绝旧回执。？",
+          "reject": "相同版本标签、文件名或未变化音频可复用所有报告；只更新回执版本即可掩盖旋律/工程失败。"
+        },
+        {
+          "caseId": "GV36",
+          "claim": "K15-CL-GV36@1",
+          "problem": "如何依据该案例判断：撤回请求使候选A当前权利待核；回滚B若也依同声样则不能自动批准。另一个不依该素材的候选需独立当前证据。？",
+          "reject": "回滚意味着自动恢复历史授权。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.04",
+      "ability": "A04",
+      "role": "P",
+      "task": "缺陷、受影响版本、报告及批准",
+      "d4Targets": [
+        "K15.04.01.03",
+        "K15.04.02.03",
+        "K15.04.03.03",
+        "K15.04.01.04",
+        "K15.04.02.04",
+        "K15.04.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 29,
+        "row": "| K15.04 | A04 | P | 缺陷、受影响版本、报告及批准 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV10",
+          "claim": "K15-CL-GV10@1",
+          "problem": "如何依据该案例判断：技术PASS、音乐PASS、权利UNKNOWN、交付PASS→停止发布；艺术多解允许但不能补权利。安全和责任门禁独立。？",
+          "reject": "高综合分补偿硬权利缺失。"
+        },
+        {
+          "caseId": "GV11",
+          "claim": "K15-CL-GV11@1",
+          "problem": "如何依据该案例判断：V1换歌声V2，M1和声乐stem/母带Q1依V1均失效；不影响独立伴奏B1仍须核条件。记录原因、优先级和责任。？",
+          "reject": "旧母带PASS自动继承新歌声。"
+        },
+        {
+          "caseId": "GV12",
+          "claim": "K15-CL-GV12@1",
+          "problem": "如何依据该案例判断：A/B均满足技术音乐条件，A更受委托方喜爱，选择理由与批准主体记录；权利争议未清时保留候选，停止发布。？",
+          "reject": "某人喜欢即全部规范合规或自动代表其他权利方。"
+        },
+        {
+          "caseId": "GV34",
+          "claim": "K15-CL-GV34@1",
+          "problem": "如何依据该案例判断：题设两候选A技术1音乐9、B技术1音乐7；A权限UNKNOWN，B缺谱或当前保护旋律/可编辑工程验证或精确回执不匹配，两者都不发布。硬门禁先于偏好。？",
+          "reject": "选择平均最高分然后补授权；四类文件都在即可使用旧PASS。"
+        },
+        {
+          "caseId": "GV35",
+          "claim": "K15-CL-GV35@1",
+          "problem": "如何依据该案例判断：候选V2只改参数seed或插件状态，来源相同但渲染内容和回执条件不同；N2或P1@2即使输出音频标记不变，也要使验收Q/D待复核并拒绝旧回执。？",
+          "reject": "相同版本标签、文件名或未变化音频可复用所有报告；只更新回执版本即可掩盖旋律/工程失败。"
+        },
+        {
+          "caseId": "GV36",
+          "claim": "K15-CL-GV36@1",
+          "problem": "如何依据该案例判断：撤回请求使候选A当前权利待核；回滚B若也依同声样则不能自动批准。另一个不依该素材的候选需独立当前证据。？",
+          "reject": "回滚意味着自动恢复历史授权。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "硬约束/偏好、多维放行",
+      "d4Targets": [
+        "K15.04.01.03",
+        "K15.04.02.03",
+        "K15.04.03.03",
+        "K15.04.01.04",
+        "K15.04.02.04",
+        "K15.04.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 30,
+        "row": "| K15.04 | A05 | P | 硬约束/偏好、多维放行 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV10",
+          "claim": "K15-CL-GV10@1",
+          "problem": "如何依据该案例判断：技术PASS、音乐PASS、权利UNKNOWN、交付PASS→停止发布；艺术多解允许但不能补权利。安全和责任门禁独立。？",
+          "reject": "高综合分补偿硬权利缺失。"
+        },
+        {
+          "caseId": "GV11",
+          "claim": "K15-CL-GV11@1",
+          "problem": "如何依据该案例判断：V1换歌声V2，M1和声乐stem/母带Q1依V1均失效；不影响独立伴奏B1仍须核条件。记录原因、优先级和责任。？",
+          "reject": "旧母带PASS自动继承新歌声。"
+        },
+        {
+          "caseId": "GV12",
+          "claim": "K15-CL-GV12@1",
+          "problem": "如何依据该案例判断：A/B均满足技术音乐条件，A更受委托方喜爱，选择理由与批准主体记录；权利争议未清时保留候选，停止发布。？",
+          "reject": "某人喜欢即全部规范合规或自动代表其他权利方。"
+        },
+        {
+          "caseId": "GV34",
+          "claim": "K15-CL-GV34@1",
+          "problem": "如何依据该案例判断：题设两候选A技术1音乐9、B技术1音乐7；A权限UNKNOWN，B缺谱或当前保护旋律/可编辑工程验证或精确回执不匹配，两者都不发布。硬门禁先于偏好。？",
+          "reject": "选择平均最高分然后补授权；四类文件都在即可使用旧PASS。"
+        },
+        {
+          "caseId": "GV35",
+          "claim": "K15-CL-GV35@1",
+          "problem": "如何依据该案例判断：候选V2只改参数seed或插件状态，来源相同但渲染内容和回执条件不同；N2或P1@2即使输出音频标记不变，也要使验收Q/D待复核并拒绝旧回执。？",
+          "reject": "相同版本标签、文件名或未变化音频可复用所有报告；只更新回执版本即可掩盖旋律/工程失败。"
+        },
+        {
+          "caseId": "GV36",
+          "claim": "K15-CL-GV36@1",
+          "problem": "如何依据该案例判断：撤回请求使候选A当前权利待核；回滚B若也依同声样则不能自动批准。另一个不依该素材的候选需独立当前证据。？",
+          "reject": "回滚意味着自动恢复历史授权。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "问题及变更记录、评价证据关联",
+      "d4Targets": [
+        "K15.04.01.03",
+        "K15.04.02.03",
+        "K15.04.03.03",
+        "K15.04.01.04",
+        "K15.04.02.04",
+        "K15.04.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 31,
+        "row": "| K15.04 | A06 | P | 问题及变更记录、评价证据关联 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV10",
+          "claim": "K15-CL-GV10@1",
+          "problem": "如何依据该案例判断：技术PASS、音乐PASS、权利UNKNOWN、交付PASS→停止发布；艺术多解允许但不能补权利。安全和责任门禁独立。？",
+          "reject": "高综合分补偿硬权利缺失。"
+        },
+        {
+          "caseId": "GV11",
+          "claim": "K15-CL-GV11@1",
+          "problem": "如何依据该案例判断：V1换歌声V2，M1和声乐stem/母带Q1依V1均失效；不影响独立伴奏B1仍须核条件。记录原因、优先级和责任。？",
+          "reject": "旧母带PASS自动继承新歌声。"
+        },
+        {
+          "caseId": "GV12",
+          "claim": "K15-CL-GV12@1",
+          "problem": "如何依据该案例判断：A/B均满足技术音乐条件，A更受委托方喜爱，选择理由与批准主体记录；权利争议未清时保留候选，停止发布。？",
+          "reject": "某人喜欢即全部规范合规或自动代表其他权利方。"
+        },
+        {
+          "caseId": "GV34",
+          "claim": "K15-CL-GV34@1",
+          "problem": "如何依据该案例判断：题设两候选A技术1音乐9、B技术1音乐7；A权限UNKNOWN，B缺谱或当前保护旋律/可编辑工程验证或精确回执不匹配，两者都不发布。硬门禁先于偏好。？",
+          "reject": "选择平均最高分然后补授权；四类文件都在即可使用旧PASS。"
+        },
+        {
+          "caseId": "GV35",
+          "claim": "K15-CL-GV35@1",
+          "problem": "如何依据该案例判断：候选V2只改参数seed或插件状态，来源相同但渲染内容和回执条件不同；N2或P1@2即使输出音频标记不变，也要使验收Q/D待复核并拒绝旧回执。？",
+          "reject": "相同版本标签、文件名或未变化音频可复用所有报告；只更新回执版本即可掩盖旋律/工程失败。"
+        },
+        {
+          "caseId": "GV36",
+          "claim": "K15-CL-GV36@1",
+          "problem": "如何依据该案例判断：撤回请求使候选A当前权利待核；回滚B若也依同声样则不能自动批准。另一个不依该素材的候选需独立当前证据。？",
+          "reject": "回滚意味着自动恢复历史授权。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "失败修订、回滚、保留与停止",
+      "d4Targets": [
+        "K15.04.01.03",
+        "K15.04.02.03",
+        "K15.04.03.03",
+        "K15.04.01.04",
+        "K15.04.02.04",
+        "K15.04.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 32,
+        "row": "| K15.04 | A07 | P | 失败修订、回滚、保留与停止 | [GV10/K15.04.01.03](production-governance-r1-knowledge-cases.md#L14)；[GV11/K15.04.02.03](production-governance-r1-knowledge-cases.md#L15)；[GV12/K15.04.03.03](production-governance-r1-knowledge-cases.md#L16)；[GV34/K15.04.01.04](production-governance-r2-knowledge-cases.md#L14)；[GV35/K15.04.02.04](production-governance-r2-knowledge-cases.md#L15)；[GV36/K15.04.03.04](production-governance-r2-knowledge-cases.md#L16) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV10@1",
+        "K15-CL-GV11@1",
+        "K15-CL-GV12@1",
+        "K15-CL-GV34@1",
+        "K15-CL-GV35@1",
+        "K15-CL-GV36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV10",
+          "claim": "K15-CL-GV10@1",
+          "problem": "如何依据该案例判断：技术PASS、音乐PASS、权利UNKNOWN、交付PASS→停止发布；艺术多解允许但不能补权利。安全和责任门禁独立。？",
+          "reject": "高综合分补偿硬权利缺失。"
+        },
+        {
+          "caseId": "GV11",
+          "claim": "K15-CL-GV11@1",
+          "problem": "如何依据该案例判断：V1换歌声V2，M1和声乐stem/母带Q1依V1均失效；不影响独立伴奏B1仍须核条件。记录原因、优先级和责任。？",
+          "reject": "旧母带PASS自动继承新歌声。"
+        },
+        {
+          "caseId": "GV12",
+          "claim": "K15-CL-GV12@1",
+          "problem": "如何依据该案例判断：A/B均满足技术音乐条件，A更受委托方喜爱，选择理由与批准主体记录；权利争议未清时保留候选，停止发布。？",
+          "reject": "某人喜欢即全部规范合规或自动代表其他权利方。"
+        },
+        {
+          "caseId": "GV34",
+          "claim": "K15-CL-GV34@1",
+          "problem": "如何依据该案例判断：题设两候选A技术1音乐9、B技术1音乐7；A权限UNKNOWN，B缺谱或当前保护旋律/可编辑工程验证或精确回执不匹配，两者都不发布。硬门禁先于偏好。？",
+          "reject": "选择平均最高分然后补授权；四类文件都在即可使用旧PASS。"
+        },
+        {
+          "caseId": "GV35",
+          "claim": "K15-CL-GV35@1",
+          "problem": "如何依据该案例判断：候选V2只改参数seed或插件状态，来源相同但渲染内容和回执条件不同；N2或P1@2即使输出音频标记不变，也要使验收Q/D待复核并拒绝旧回执。？",
+          "reject": "相同版本标签、文件名或未变化音频可复用所有报告；只更新回执版本即可掩盖旋律/工程失败。"
+        },
+        {
+          "caseId": "GV36",
+          "claim": "K15-CL-GV36@1",
+          "problem": "如何依据该案例判断：撤回请求使候选A当前权利待核；回滚B若也依同声样则不能自动批准。另一个不依该素材的候选需独立当前证据。？",
+          "reject": "回滚意味着自动恢复历史授权。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "作品/录音/表演权及许可条件",
+      "d4Targets": [
+        "K15.05.01.03",
+        "K15.05.02.03",
+        "K15.05.03.03",
+        "K15.05.01.04",
+        "K15.05.02.04",
+        "K15.05.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 33,
+        "row": "| K15.05 | A01 | P | 作品/录音/表演权及许可条件 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV13",
+          "claim": "K15-CL-GV13@1",
+          "problem": "如何依据该案例判断：原作W与既有录音R、表演P是不同对象；新录翻唱可能不使用旧R，但仍需核W行为及新表演/录音。2019法§18/37/39分别列权利。？",
+          "reject": "买唱片或得到ISRC即取得改编/发行权。"
+        },
+        {
+          "caseId": "GV14",
+          "claim": "K15-CL-GV14@1",
+          "problem": "如何依据该案例判断：题设许可仅被授权主体ORG-J在项目J由明确获准操作者执行MM境内2027年1月至3月非商业公开原版，不覆盖翻译、训练或其他地域；§18复制/翻译改编/公开表演等区别。？",
+          "reject": "研究、个人、教育标签自动覆盖全部行为；受众一致即被授权主体一致。"
+        },
+        {
+          "caseId": "GV15",
+          "claim": "K15-CL-GV15@1",
+          "problem": "如何依据该案例判断：假设仅有效BY-NC-ND4.0，无另许可/例外：非商业制作和复制改编可在许可范围内，分享改编不获许可；原版非商业分享需遵守署名等条件。？",
+          "reject": "署名即可商业发布改词版，或ND禁止一切技术变更。"
+        },
+        {
+          "caseId": "GV37",
+          "claim": "K15-CL-GV37@1",
+          "problem": "如何依据该案例判断：§34经济权可部分转让且签字书面，相关权利转让有相关人员同意条件；§86期限届满公有领域仍保留作者署名/完整性边界。题设旧作W过期不证明现代录音R过期。？",
+          "reject": "作品公版意味着所有新录音及身份自由。"
+        },
+        {
+          "caseId": "GV38",
+          "claim": "K15-CL-GV38@1",
+          "problem": "如何依据该案例判断：§24个人部分复制有条件并排除全部或实质部分乐谱；§27教学复制有公平/目的/署名及数字课包受限网络条件。§41适用§37–40及42的相关权利：第(2)项仅为科学研究而复制；第(3)项仅为面对面教学而复制，排除已作为教学材料发布的表演和录音制品；末尾条件要求不与正常利用冲突、不不合理损害权利人合法利益。普通录音仅在其余条件核实后才是例外候选，已发布教学录音不能仅依第(3)项。？",
+          "reject": "研究兼商业发布或网课一律属于第(2)/(3)项；已发布教学录音可仅凭课堂目的复制；相关权利例外自动覆盖作品权。"
+        },
+        {
+          "caseId": "GV39",
+          "claim": "K15-CL-GV39@1",
+          "problem": "如何依据该案例判断：仅依BY-SA4.0分享改编需适用同元素允许版本或兼容许可且署名/修改标记等，不自动覆盖其他素材；BY-NC-ND允许必要技术修改不自动算改编。§6违约终止和30日内发现后补救自动恢复自补救日，停止分发不终止合规许可。？",
+          "reject": "SA适用任意闭源附加限制；ND禁止格式转换；作者删除下载等于撤回所有许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "对象→动作→授权链/法域→核验",
+      "d4Targets": [
+        "K15.05.01.03",
+        "K15.05.02.03",
+        "K15.05.03.03",
+        "K15.05.01.04",
+        "K15.05.02.04",
+        "K15.05.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 34,
+        "row": "| K15.05 | A02 | P | 对象→动作→授权链/法域→核验 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV13",
+          "claim": "K15-CL-GV13@1",
+          "problem": "如何依据该案例判断：原作W与既有录音R、表演P是不同对象；新录翻唱可能不使用旧R，但仍需核W行为及新表演/录音。2019法§18/37/39分别列权利。？",
+          "reject": "买唱片或得到ISRC即取得改编/发行权。"
+        },
+        {
+          "caseId": "GV14",
+          "claim": "K15-CL-GV14@1",
+          "problem": "如何依据该案例判断：题设许可仅被授权主体ORG-J在项目J由明确获准操作者执行MM境内2027年1月至3月非商业公开原版，不覆盖翻译、训练或其他地域；§18复制/翻译改编/公开表演等区别。？",
+          "reject": "研究、个人、教育标签自动覆盖全部行为；受众一致即被授权主体一致。"
+        },
+        {
+          "caseId": "GV15",
+          "claim": "K15-CL-GV15@1",
+          "problem": "如何依据该案例判断：假设仅有效BY-NC-ND4.0，无另许可/例外：非商业制作和复制改编可在许可范围内，分享改编不获许可；原版非商业分享需遵守署名等条件。？",
+          "reject": "署名即可商业发布改词版，或ND禁止一切技术变更。"
+        },
+        {
+          "caseId": "GV37",
+          "claim": "K15-CL-GV37@1",
+          "problem": "如何依据该案例判断：§34经济权可部分转让且签字书面，相关权利转让有相关人员同意条件；§86期限届满公有领域仍保留作者署名/完整性边界。题设旧作W过期不证明现代录音R过期。？",
+          "reject": "作品公版意味着所有新录音及身份自由。"
+        },
+        {
+          "caseId": "GV38",
+          "claim": "K15-CL-GV38@1",
+          "problem": "如何依据该案例判断：§24个人部分复制有条件并排除全部或实质部分乐谱；§27教学复制有公平/目的/署名及数字课包受限网络条件。§41适用§37–40及42的相关权利：第(2)项仅为科学研究而复制；第(3)项仅为面对面教学而复制，排除已作为教学材料发布的表演和录音制品；末尾条件要求不与正常利用冲突、不不合理损害权利人合法利益。普通录音仅在其余条件核实后才是例外候选，已发布教学录音不能仅依第(3)项。？",
+          "reject": "研究兼商业发布或网课一律属于第(2)/(3)项；已发布教学录音可仅凭课堂目的复制；相关权利例外自动覆盖作品权。"
+        },
+        {
+          "caseId": "GV39",
+          "claim": "K15-CL-GV39@1",
+          "problem": "如何依据该案例判断：仅依BY-SA4.0分享改编需适用同元素允许版本或兼容许可且署名/修改标记等，不自动覆盖其他素材；BY-NC-ND允许必要技术修改不自动算改编。§6违约终止和30日内发现后补救自动恢复自补救日，停止分发不终止合规许可。？",
+          "reject": "SA适用任意闭源附加限制；ND禁止格式转换；作者删除下载等于撤回所有许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.05",
+      "ability": "A03",
+      "role": "P",
+      "task": "许可/来源记录工具，非法律判定器",
+      "d4Targets": [
+        "K15.05.01.03",
+        "K15.05.02.03",
+        "K15.05.03.03",
+        "K15.05.01.04",
+        "K15.05.02.04",
+        "K15.05.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 35,
+        "row": "| K15.05 | A03 | P | 许可/来源记录工具，非法律判定器 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV13",
+          "claim": "K15-CL-GV13@1",
+          "problem": "如何依据该案例判断：原作W与既有录音R、表演P是不同对象；新录翻唱可能不使用旧R，但仍需核W行为及新表演/录音。2019法§18/37/39分别列权利。？",
+          "reject": "买唱片或得到ISRC即取得改编/发行权。"
+        },
+        {
+          "caseId": "GV14",
+          "claim": "K15-CL-GV14@1",
+          "problem": "如何依据该案例判断：题设许可仅被授权主体ORG-J在项目J由明确获准操作者执行MM境内2027年1月至3月非商业公开原版，不覆盖翻译、训练或其他地域；§18复制/翻译改编/公开表演等区别。？",
+          "reject": "研究、个人、教育标签自动覆盖全部行为；受众一致即被授权主体一致。"
+        },
+        {
+          "caseId": "GV15",
+          "claim": "K15-CL-GV15@1",
+          "problem": "如何依据该案例判断：假设仅有效BY-NC-ND4.0，无另许可/例外：非商业制作和复制改编可在许可范围内，分享改编不获许可；原版非商业分享需遵守署名等条件。？",
+          "reject": "署名即可商业发布改词版，或ND禁止一切技术变更。"
+        },
+        {
+          "caseId": "GV37",
+          "claim": "K15-CL-GV37@1",
+          "problem": "如何依据该案例判断：§34经济权可部分转让且签字书面，相关权利转让有相关人员同意条件；§86期限届满公有领域仍保留作者署名/完整性边界。题设旧作W过期不证明现代录音R过期。？",
+          "reject": "作品公版意味着所有新录音及身份自由。"
+        },
+        {
+          "caseId": "GV38",
+          "claim": "K15-CL-GV38@1",
+          "problem": "如何依据该案例判断：§24个人部分复制有条件并排除全部或实质部分乐谱；§27教学复制有公平/目的/署名及数字课包受限网络条件。§41适用§37–40及42的相关权利：第(2)项仅为科学研究而复制；第(3)项仅为面对面教学而复制，排除已作为教学材料发布的表演和录音制品；末尾条件要求不与正常利用冲突、不不合理损害权利人合法利益。普通录音仅在其余条件核实后才是例外候选，已发布教学录音不能仅依第(3)项。？",
+          "reject": "研究兼商业发布或网课一律属于第(2)/(3)项；已发布教学录音可仅凭课堂目的复制；相关权利例外自动覆盖作品权。"
+        },
+        {
+          "caseId": "GV39",
+          "claim": "K15-CL-GV39@1",
+          "problem": "如何依据该案例判断：仅依BY-SA4.0分享改编需适用同元素允许版本或兼容许可且署名/修改标记等，不自动覆盖其他素材；BY-NC-ND允许必要技术修改不自动算改编。§6违约终止和30日内发现后补救自动恢复自补救日，停止分发不终止合规许可。？",
+          "reject": "SA适用任意闭源附加限制；ND禁止格式转换；作者删除下载等于撤回所有许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.05",
+      "ability": "A04",
+      "role": "P",
+      "task": "许可版本/用途/时间/地域/例外",
+      "d4Targets": [
+        "K15.05.01.03",
+        "K15.05.02.03",
+        "K15.05.03.03",
+        "K15.05.01.04",
+        "K15.05.02.04",
+        "K15.05.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 36,
+        "row": "| K15.05 | A04 | P | 许可版本/用途/时间/地域/例外 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV13",
+          "claim": "K15-CL-GV13@1",
+          "problem": "如何依据该案例判断：原作W与既有录音R、表演P是不同对象；新录翻唱可能不使用旧R，但仍需核W行为及新表演/录音。2019法§18/37/39分别列权利。？",
+          "reject": "买唱片或得到ISRC即取得改编/发行权。"
+        },
+        {
+          "caseId": "GV14",
+          "claim": "K15-CL-GV14@1",
+          "problem": "如何依据该案例判断：题设许可仅被授权主体ORG-J在项目J由明确获准操作者执行MM境内2027年1月至3月非商业公开原版，不覆盖翻译、训练或其他地域；§18复制/翻译改编/公开表演等区别。？",
+          "reject": "研究、个人、教育标签自动覆盖全部行为；受众一致即被授权主体一致。"
+        },
+        {
+          "caseId": "GV15",
+          "claim": "K15-CL-GV15@1",
+          "problem": "如何依据该案例判断：假设仅有效BY-NC-ND4.0，无另许可/例外：非商业制作和复制改编可在许可范围内，分享改编不获许可；原版非商业分享需遵守署名等条件。？",
+          "reject": "署名即可商业发布改词版，或ND禁止一切技术变更。"
+        },
+        {
+          "caseId": "GV37",
+          "claim": "K15-CL-GV37@1",
+          "problem": "如何依据该案例判断：§34经济权可部分转让且签字书面，相关权利转让有相关人员同意条件；§86期限届满公有领域仍保留作者署名/完整性边界。题设旧作W过期不证明现代录音R过期。？",
+          "reject": "作品公版意味着所有新录音及身份自由。"
+        },
+        {
+          "caseId": "GV38",
+          "claim": "K15-CL-GV38@1",
+          "problem": "如何依据该案例判断：§24个人部分复制有条件并排除全部或实质部分乐谱；§27教学复制有公平/目的/署名及数字课包受限网络条件。§41适用§37–40及42的相关权利：第(2)项仅为科学研究而复制；第(3)项仅为面对面教学而复制，排除已作为教学材料发布的表演和录音制品；末尾条件要求不与正常利用冲突、不不合理损害权利人合法利益。普通录音仅在其余条件核实后才是例外候选，已发布教学录音不能仅依第(3)项。？",
+          "reject": "研究兼商业发布或网课一律属于第(2)/(3)项；已发布教学录音可仅凭课堂目的复制；相关权利例外自动覆盖作品权。"
+        },
+        {
+          "caseId": "GV39",
+          "claim": "K15-CL-GV39@1",
+          "problem": "如何依据该案例判断：仅依BY-SA4.0分享改编需适用同元素允许版本或兼容许可且署名/修改标记等，不自动覆盖其他素材；BY-NC-ND允许必要技术修改不自动算改编。§6违约终止和30日内发现后补救自动恢复自补救日，停止分发不终止合规许可。？",
+          "reject": "SA适用任意闭源附加限制；ND禁止格式转换；作者删除下载等于撤回所有许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "具体用途证据、未知阻止升级",
+      "d4Targets": [
+        "K15.05.01.03",
+        "K15.05.02.03",
+        "K15.05.03.03",
+        "K15.05.01.04",
+        "K15.05.02.04",
+        "K15.05.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 37,
+        "row": "| K15.05 | A05 | P | 具体用途证据、未知阻止升级 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV13",
+          "claim": "K15-CL-GV13@1",
+          "problem": "如何依据该案例判断：原作W与既有录音R、表演P是不同对象；新录翻唱可能不使用旧R，但仍需核W行为及新表演/录音。2019法§18/37/39分别列权利。？",
+          "reject": "买唱片或得到ISRC即取得改编/发行权。"
+        },
+        {
+          "caseId": "GV14",
+          "claim": "K15-CL-GV14@1",
+          "problem": "如何依据该案例判断：题设许可仅被授权主体ORG-J在项目J由明确获准操作者执行MM境内2027年1月至3月非商业公开原版，不覆盖翻译、训练或其他地域；§18复制/翻译改编/公开表演等区别。？",
+          "reject": "研究、个人、教育标签自动覆盖全部行为；受众一致即被授权主体一致。"
+        },
+        {
+          "caseId": "GV15",
+          "claim": "K15-CL-GV15@1",
+          "problem": "如何依据该案例判断：假设仅有效BY-NC-ND4.0，无另许可/例外：非商业制作和复制改编可在许可范围内，分享改编不获许可；原版非商业分享需遵守署名等条件。？",
+          "reject": "署名即可商业发布改词版，或ND禁止一切技术变更。"
+        },
+        {
+          "caseId": "GV37",
+          "claim": "K15-CL-GV37@1",
+          "problem": "如何依据该案例判断：§34经济权可部分转让且签字书面，相关权利转让有相关人员同意条件；§86期限届满公有领域仍保留作者署名/完整性边界。题设旧作W过期不证明现代录音R过期。？",
+          "reject": "作品公版意味着所有新录音及身份自由。"
+        },
+        {
+          "caseId": "GV38",
+          "claim": "K15-CL-GV38@1",
+          "problem": "如何依据该案例判断：§24个人部分复制有条件并排除全部或实质部分乐谱；§27教学复制有公平/目的/署名及数字课包受限网络条件。§41适用§37–40及42的相关权利：第(2)项仅为科学研究而复制；第(3)项仅为面对面教学而复制，排除已作为教学材料发布的表演和录音制品；末尾条件要求不与正常利用冲突、不不合理损害权利人合法利益。普通录音仅在其余条件核实后才是例外候选，已发布教学录音不能仅依第(3)项。？",
+          "reject": "研究兼商业发布或网课一律属于第(2)/(3)项；已发布教学录音可仅凭课堂目的复制；相关权利例外自动覆盖作品权。"
+        },
+        {
+          "caseId": "GV39",
+          "claim": "K15-CL-GV39@1",
+          "problem": "如何依据该案例判断：仅依BY-SA4.0分享改编需适用同元素允许版本或兼容许可且署名/修改标记等，不自动覆盖其他素材；BY-NC-ND允许必要技术修改不自动算改编。§6违约终止和30日内发现后补救自动恢复自补救日，停止分发不终止合规许可。？",
+          "reject": "SA适用任意闭源附加限制；ND禁止格式转换；作者删除下载等于撤回所有许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.05",
+      "ability": "A06",
+      "role": "S",
+      "task": "引用许可记录，非合同创作主责",
+      "d4Targets": [
+        "K15.05.01.03",
+        "K15.05.02.03",
+        "K15.05.03.03",
+        "K15.05.01.04",
+        "K15.05.02.04",
+        "K15.05.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "引用支持，不迁移owner",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 38,
+        "row": "| K15.05 | A06 | S | 引用许可记录，非合同创作主责 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | 引用支持，不迁移owner |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV13",
+          "claim": "K15-CL-GV13@1",
+          "problem": "如何依据该案例判断：原作W与既有录音R、表演P是不同对象；新录翻唱可能不使用旧R，但仍需核W行为及新表演/录音。2019法§18/37/39分别列权利。？",
+          "reject": "买唱片或得到ISRC即取得改编/发行权。"
+        },
+        {
+          "caseId": "GV14",
+          "claim": "K15-CL-GV14@1",
+          "problem": "如何依据该案例判断：题设许可仅被授权主体ORG-J在项目J由明确获准操作者执行MM境内2027年1月至3月非商业公开原版，不覆盖翻译、训练或其他地域；§18复制/翻译改编/公开表演等区别。？",
+          "reject": "研究、个人、教育标签自动覆盖全部行为；受众一致即被授权主体一致。"
+        },
+        {
+          "caseId": "GV15",
+          "claim": "K15-CL-GV15@1",
+          "problem": "如何依据该案例判断：假设仅有效BY-NC-ND4.0，无另许可/例外：非商业制作和复制改编可在许可范围内，分享改编不获许可；原版非商业分享需遵守署名等条件。？",
+          "reject": "署名即可商业发布改词版，或ND禁止一切技术变更。"
+        },
+        {
+          "caseId": "GV37",
+          "claim": "K15-CL-GV37@1",
+          "problem": "如何依据该案例判断：§34经济权可部分转让且签字书面，相关权利转让有相关人员同意条件；§86期限届满公有领域仍保留作者署名/完整性边界。题设旧作W过期不证明现代录音R过期。？",
+          "reject": "作品公版意味着所有新录音及身份自由。"
+        },
+        {
+          "caseId": "GV38",
+          "claim": "K15-CL-GV38@1",
+          "problem": "如何依据该案例判断：§24个人部分复制有条件并排除全部或实质部分乐谱；§27教学复制有公平/目的/署名及数字课包受限网络条件。§41适用§37–40及42的相关权利：第(2)项仅为科学研究而复制；第(3)项仅为面对面教学而复制，排除已作为教学材料发布的表演和录音制品；末尾条件要求不与正常利用冲突、不不合理损害权利人合法利益。普通录音仅在其余条件核实后才是例外候选，已发布教学录音不能仅依第(3)项。？",
+          "reject": "研究兼商业发布或网课一律属于第(2)/(3)项；已发布教学录音可仅凭课堂目的复制；相关权利例外自动覆盖作品权。"
+        },
+        {
+          "caseId": "GV39",
+          "claim": "K15-CL-GV39@1",
+          "problem": "如何依据该案例判断：仅依BY-SA4.0分享改编需适用同元素允许版本或兼容许可且署名/修改标记等，不自动覆盖其他素材；BY-NC-ND允许必要技术修改不自动算改编。§6违约终止和30日内发现后补救自动恢复自补救日，停止分发不终止合规许可。？",
+          "reject": "SA适用任意闭源附加限制；ND禁止格式转换；作者删除下载等于撤回所有许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "许可变更/争议/例外待核",
+      "d4Targets": [
+        "K15.05.01.03",
+        "K15.05.02.03",
+        "K15.05.03.03",
+        "K15.05.01.04",
+        "K15.05.02.04",
+        "K15.05.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 39,
+        "row": "| K15.05 | A07 | P | 许可变更/争议/例外待核 | [GV13/K15.05.01.03](production-governance-r1-knowledge-cases.md#L17)；[GV14/K15.05.02.03](production-governance-r1-knowledge-cases.md#L18)；[GV15/K15.05.03.03](production-governance-r1-knowledge-cases.md#L19)；[GV37/K15.05.01.04](production-governance-r2-knowledge-cases.md#L17)；[GV38/K15.05.02.04](production-governance-r2-knowledge-cases.md#L18)；[GV39/K15.05.03.04](production-governance-r2-knowledge-cases.md#L19) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV13@1",
+        "K15-CL-GV14@1",
+        "K15-CL-GV15@1",
+        "K15-CL-GV37@1",
+        "K15-CL-GV38@1",
+        "K15-CL-GV39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV13",
+          "claim": "K15-CL-GV13@1",
+          "problem": "如何依据该案例判断：原作W与既有录音R、表演P是不同对象；新录翻唱可能不使用旧R，但仍需核W行为及新表演/录音。2019法§18/37/39分别列权利。？",
+          "reject": "买唱片或得到ISRC即取得改编/发行权。"
+        },
+        {
+          "caseId": "GV14",
+          "claim": "K15-CL-GV14@1",
+          "problem": "如何依据该案例判断：题设许可仅被授权主体ORG-J在项目J由明确获准操作者执行MM境内2027年1月至3月非商业公开原版，不覆盖翻译、训练或其他地域；§18复制/翻译改编/公开表演等区别。？",
+          "reject": "研究、个人、教育标签自动覆盖全部行为；受众一致即被授权主体一致。"
+        },
+        {
+          "caseId": "GV15",
+          "claim": "K15-CL-GV15@1",
+          "problem": "如何依据该案例判断：假设仅有效BY-NC-ND4.0，无另许可/例外：非商业制作和复制改编可在许可范围内，分享改编不获许可；原版非商业分享需遵守署名等条件。？",
+          "reject": "署名即可商业发布改词版，或ND禁止一切技术变更。"
+        },
+        {
+          "caseId": "GV37",
+          "claim": "K15-CL-GV37@1",
+          "problem": "如何依据该案例判断：§34经济权可部分转让且签字书面，相关权利转让有相关人员同意条件；§86期限届满公有领域仍保留作者署名/完整性边界。题设旧作W过期不证明现代录音R过期。？",
+          "reject": "作品公版意味着所有新录音及身份自由。"
+        },
+        {
+          "caseId": "GV38",
+          "claim": "K15-CL-GV38@1",
+          "problem": "如何依据该案例判断：§24个人部分复制有条件并排除全部或实质部分乐谱；§27教学复制有公平/目的/署名及数字课包受限网络条件。§41适用§37–40及42的相关权利：第(2)项仅为科学研究而复制；第(3)项仅为面对面教学而复制，排除已作为教学材料发布的表演和录音制品；末尾条件要求不与正常利用冲突、不不合理损害权利人合法利益。普通录音仅在其余条件核实后才是例外候选，已发布教学录音不能仅依第(3)项。？",
+          "reject": "研究兼商业发布或网课一律属于第(2)/(3)项；已发布教学录音可仅凭课堂目的复制；相关权利例外自动覆盖作品权。"
+        },
+        {
+          "caseId": "GV39",
+          "claim": "K15-CL-GV39@1",
+          "problem": "如何依据该案例判断：仅依BY-SA4.0分享改编需适用同元素允许版本或兼容许可且署名/修改标记等，不自动覆盖其他素材；BY-NC-ND允许必要技术修改不自动算改编。§6违约终止和30日内发现后补救自动恢复自补救日，停止分发不终止合规许可。？",
+          "reject": "SA适用任意闭源附加限制；ND禁止格式转换；作者删除下载等于撤回所有许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "声音身份与录音、同意及隐私",
+      "d4Targets": [
+        "K15.06.01.03",
+        "K15.06.02.03",
+        "K15.06.03.03",
+        "K15.06.01.04",
+        "K15.06.02.04",
+        "K15.06.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 40,
+        "row": "| K15.06 | A01 | P | 声音身份与录音、同意及隐私 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV16",
+          "claim": "K15-CL-GV16@1",
+          "problem": "如何依据该案例判断：R1录音著作/相关权证据不等声音身份许可；采样、训练、生成、模仿身份和公开发行是不同动作。US2024报告提出数字复制权益建议。？",
+          "reject": "有录音授权就能任意克隆声线。"
+        },
+        {
+          "caseId": "GV17",
+          "claim": "K15-CL-GV17@1",
+          "problem": "如何依据该案例判断：题设A明确许可ORG-J在项目J由OP-E本地试听合成，仅限有效期T及内部受众，未同意云上传、训练或公开。另一项目、主体或操作者即使对象与受众一致也需独立资格。？",
+          "reject": "一次录音同意覆盖全部未来声音使用；另一操作者有编辑角色即自动获得同意。"
+        },
+        {
+          "caseId": "GV18",
+          "claim": "K15-CL-GV18@1",
+          "problem": "如何依据该案例判断：收到撤回请求E2，停止未明授权新生成、隔离受影响候选；既往合法发行与当前持续使用分别评估，不承诺自动撤销所有权利。？",
+          "reject": "删除模型或撤回即历史所有许可全部失效。"
+        },
+        {
+          "caseId": "GV40",
+          "claim": "K15-CL-GV40@1",
+          "problem": "如何依据该案例判断：2024 US政策报告印41–42建议知情同意、期限及新使用与既有依法制作内容区别；不能外推为缅甸声音专项法或2026生效美国法律。录音、声音身份、隐私、个人授权证据各独立。？",
+          "reject": "报告建议等于现行法；演员署名即身份许可。"
+        },
+        {
+          "caseId": "GV41",
+          "claim": "K15-CL-GV41@1",
+          "problem": "如何依据该案例判断：虚构许可G1=本地推理项目J、被授权主体ORG-J、获准操作者OP-E、声样R1、内部受众、截止T1、不训练不公开；另一项目/主体/操作者、R2或远程上传、新产品或扩大地域均需新授权或明确有效委托。CC录音许可不含普遍人格权。？",
+          "reject": "现有声样同意可以用于任意主体/用途；同一内部受众即获准操作者；公开许可证消除全部隐私权。"
+        },
+        {
+          "caseId": "GV42",
+          "claim": "K15-CL-GV42@1",
+          "problem": "如何依据该案例判断：合同到期、撤回请求、CC违约终止和CC发行方停止分发是不同事件；工程暂停受影响新任务，既有合法发布逐合同/法律核继续与撤下。？",
+          "reject": "将全部事件统一成自动永久删除或继续任意新生成。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "对象/用途→同意→当前范围→复核",
+      "d4Targets": [
+        "K15.06.01.03",
+        "K15.06.02.03",
+        "K15.06.03.03",
+        "K15.06.01.04",
+        "K15.06.02.04",
+        "K15.06.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 41,
+        "row": "| K15.06 | A02 | P | 对象/用途→同意→当前范围→复核 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV16",
+          "claim": "K15-CL-GV16@1",
+          "problem": "如何依据该案例判断：R1录音著作/相关权证据不等声音身份许可；采样、训练、生成、模仿身份和公开发行是不同动作。US2024报告提出数字复制权益建议。？",
+          "reject": "有录音授权就能任意克隆声线。"
+        },
+        {
+          "caseId": "GV17",
+          "claim": "K15-CL-GV17@1",
+          "problem": "如何依据该案例判断：题设A明确许可ORG-J在项目J由OP-E本地试听合成，仅限有效期T及内部受众，未同意云上传、训练或公开。另一项目、主体或操作者即使对象与受众一致也需独立资格。？",
+          "reject": "一次录音同意覆盖全部未来声音使用；另一操作者有编辑角色即自动获得同意。"
+        },
+        {
+          "caseId": "GV18",
+          "claim": "K15-CL-GV18@1",
+          "problem": "如何依据该案例判断：收到撤回请求E2，停止未明授权新生成、隔离受影响候选；既往合法发行与当前持续使用分别评估，不承诺自动撤销所有权利。？",
+          "reject": "删除模型或撤回即历史所有许可全部失效。"
+        },
+        {
+          "caseId": "GV40",
+          "claim": "K15-CL-GV40@1",
+          "problem": "如何依据该案例判断：2024 US政策报告印41–42建议知情同意、期限及新使用与既有依法制作内容区别；不能外推为缅甸声音专项法或2026生效美国法律。录音、声音身份、隐私、个人授权证据各独立。？",
+          "reject": "报告建议等于现行法；演员署名即身份许可。"
+        },
+        {
+          "caseId": "GV41",
+          "claim": "K15-CL-GV41@1",
+          "problem": "如何依据该案例判断：虚构许可G1=本地推理项目J、被授权主体ORG-J、获准操作者OP-E、声样R1、内部受众、截止T1、不训练不公开；另一项目/主体/操作者、R2或远程上传、新产品或扩大地域均需新授权或明确有效委托。CC录音许可不含普遍人格权。？",
+          "reject": "现有声样同意可以用于任意主体/用途；同一内部受众即获准操作者；公开许可证消除全部隐私权。"
+        },
+        {
+          "caseId": "GV42",
+          "claim": "K15-CL-GV42@1",
+          "problem": "如何依据该案例判断：合同到期、撤回请求、CC违约终止和CC发行方停止分发是不同事件；工程暂停受影响新任务，既有合法发布逐合同/法律核继续与撤下。？",
+          "reject": "将全部事件统一成自动永久删除或继续任意新生成。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.06",
+      "ability": "A03",
+      "role": "P",
+      "task": "声音模型/工具证据K12，授权另证",
+      "d4Targets": [
+        "K15.06.01.03",
+        "K15.06.02.03",
+        "K15.06.03.03",
+        "K15.06.01.04",
+        "K15.06.02.04",
+        "K15.06.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 42,
+        "row": "| K15.06 | A03 | P | 声音模型/工具证据K12，授权另证 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV16",
+          "claim": "K15-CL-GV16@1",
+          "problem": "如何依据该案例判断：R1录音著作/相关权证据不等声音身份许可；采样、训练、生成、模仿身份和公开发行是不同动作。US2024报告提出数字复制权益建议。？",
+          "reject": "有录音授权就能任意克隆声线。"
+        },
+        {
+          "caseId": "GV17",
+          "claim": "K15-CL-GV17@1",
+          "problem": "如何依据该案例判断：题设A明确许可ORG-J在项目J由OP-E本地试听合成，仅限有效期T及内部受众，未同意云上传、训练或公开。另一项目、主体或操作者即使对象与受众一致也需独立资格。？",
+          "reject": "一次录音同意覆盖全部未来声音使用；另一操作者有编辑角色即自动获得同意。"
+        },
+        {
+          "caseId": "GV18",
+          "claim": "K15-CL-GV18@1",
+          "problem": "如何依据该案例判断：收到撤回请求E2，停止未明授权新生成、隔离受影响候选；既往合法发行与当前持续使用分别评估，不承诺自动撤销所有权利。？",
+          "reject": "删除模型或撤回即历史所有许可全部失效。"
+        },
+        {
+          "caseId": "GV40",
+          "claim": "K15-CL-GV40@1",
+          "problem": "如何依据该案例判断：2024 US政策报告印41–42建议知情同意、期限及新使用与既有依法制作内容区别；不能外推为缅甸声音专项法或2026生效美国法律。录音、声音身份、隐私、个人授权证据各独立。？",
+          "reject": "报告建议等于现行法；演员署名即身份许可。"
+        },
+        {
+          "caseId": "GV41",
+          "claim": "K15-CL-GV41@1",
+          "problem": "如何依据该案例判断：虚构许可G1=本地推理项目J、被授权主体ORG-J、获准操作者OP-E、声样R1、内部受众、截止T1、不训练不公开；另一项目/主体/操作者、R2或远程上传、新产品或扩大地域均需新授权或明确有效委托。CC录音许可不含普遍人格权。？",
+          "reject": "现有声样同意可以用于任意主体/用途；同一内部受众即获准操作者；公开许可证消除全部隐私权。"
+        },
+        {
+          "caseId": "GV42",
+          "claim": "K15-CL-GV42@1",
+          "problem": "如何依据该案例判断：合同到期、撤回请求、CC违约终止和CC发行方停止分发是不同事件；工程暂停受影响新任务，既有合法发布逐合同/法律核继续与撤下。？",
+          "reject": "将全部事件统一成自动永久删除或继续任意新生成。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.06",
+      "ability": "A04",
+      "role": "P",
+      "task": "同意/期限/撤回请求及依赖",
+      "d4Targets": [
+        "K15.06.01.03",
+        "K15.06.02.03",
+        "K15.06.03.03",
+        "K15.06.01.04",
+        "K15.06.02.04",
+        "K15.06.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 43,
+        "row": "| K15.06 | A04 | P | 同意/期限/撤回请求及依赖 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV16",
+          "claim": "K15-CL-GV16@1",
+          "problem": "如何依据该案例判断：R1录音著作/相关权证据不等声音身份许可；采样、训练、生成、模仿身份和公开发行是不同动作。US2024报告提出数字复制权益建议。？",
+          "reject": "有录音授权就能任意克隆声线。"
+        },
+        {
+          "caseId": "GV17",
+          "claim": "K15-CL-GV17@1",
+          "problem": "如何依据该案例判断：题设A明确许可ORG-J在项目J由OP-E本地试听合成，仅限有效期T及内部受众，未同意云上传、训练或公开。另一项目、主体或操作者即使对象与受众一致也需独立资格。？",
+          "reject": "一次录音同意覆盖全部未来声音使用；另一操作者有编辑角色即自动获得同意。"
+        },
+        {
+          "caseId": "GV18",
+          "claim": "K15-CL-GV18@1",
+          "problem": "如何依据该案例判断：收到撤回请求E2，停止未明授权新生成、隔离受影响候选；既往合法发行与当前持续使用分别评估，不承诺自动撤销所有权利。？",
+          "reject": "删除模型或撤回即历史所有许可全部失效。"
+        },
+        {
+          "caseId": "GV40",
+          "claim": "K15-CL-GV40@1",
+          "problem": "如何依据该案例判断：2024 US政策报告印41–42建议知情同意、期限及新使用与既有依法制作内容区别；不能外推为缅甸声音专项法或2026生效美国法律。录音、声音身份、隐私、个人授权证据各独立。？",
+          "reject": "报告建议等于现行法；演员署名即身份许可。"
+        },
+        {
+          "caseId": "GV41",
+          "claim": "K15-CL-GV41@1",
+          "problem": "如何依据该案例判断：虚构许可G1=本地推理项目J、被授权主体ORG-J、获准操作者OP-E、声样R1、内部受众、截止T1、不训练不公开；另一项目/主体/操作者、R2或远程上传、新产品或扩大地域均需新授权或明确有效委托。CC录音许可不含普遍人格权。？",
+          "reject": "现有声样同意可以用于任意主体/用途；同一内部受众即获准操作者；公开许可证消除全部隐私权。"
+        },
+        {
+          "caseId": "GV42",
+          "claim": "K15-CL-GV42@1",
+          "problem": "如何依据该案例判断：合同到期、撤回请求、CC违约终止和CC发行方停止分发是不同事件；工程暂停受影响新任务，既有合法发布逐合同/法律核继续与撤下。？",
+          "reject": "将全部事件统一成自动永久删除或继续任意新生成。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "实际用途范围、身份不由相似推断",
+      "d4Targets": [
+        "K15.06.01.03",
+        "K15.06.02.03",
+        "K15.06.03.03",
+        "K15.06.01.04",
+        "K15.06.02.04",
+        "K15.06.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 44,
+        "row": "| K15.06 | A05 | P | 实际用途范围、身份不由相似推断 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV16",
+          "claim": "K15-CL-GV16@1",
+          "problem": "如何依据该案例判断：R1录音著作/相关权证据不等声音身份许可；采样、训练、生成、模仿身份和公开发行是不同动作。US2024报告提出数字复制权益建议。？",
+          "reject": "有录音授权就能任意克隆声线。"
+        },
+        {
+          "caseId": "GV17",
+          "claim": "K15-CL-GV17@1",
+          "problem": "如何依据该案例判断：题设A明确许可ORG-J在项目J由OP-E本地试听合成，仅限有效期T及内部受众，未同意云上传、训练或公开。另一项目、主体或操作者即使对象与受众一致也需独立资格。？",
+          "reject": "一次录音同意覆盖全部未来声音使用；另一操作者有编辑角色即自动获得同意。"
+        },
+        {
+          "caseId": "GV18",
+          "claim": "K15-CL-GV18@1",
+          "problem": "如何依据该案例判断：收到撤回请求E2，停止未明授权新生成、隔离受影响候选；既往合法发行与当前持续使用分别评估，不承诺自动撤销所有权利。？",
+          "reject": "删除模型或撤回即历史所有许可全部失效。"
+        },
+        {
+          "caseId": "GV40",
+          "claim": "K15-CL-GV40@1",
+          "problem": "如何依据该案例判断：2024 US政策报告印41–42建议知情同意、期限及新使用与既有依法制作内容区别；不能外推为缅甸声音专项法或2026生效美国法律。录音、声音身份、隐私、个人授权证据各独立。？",
+          "reject": "报告建议等于现行法；演员署名即身份许可。"
+        },
+        {
+          "caseId": "GV41",
+          "claim": "K15-CL-GV41@1",
+          "problem": "如何依据该案例判断：虚构许可G1=本地推理项目J、被授权主体ORG-J、获准操作者OP-E、声样R1、内部受众、截止T1、不训练不公开；另一项目/主体/操作者、R2或远程上传、新产品或扩大地域均需新授权或明确有效委托。CC录音许可不含普遍人格权。？",
+          "reject": "现有声样同意可以用于任意主体/用途；同一内部受众即获准操作者；公开许可证消除全部隐私权。"
+        },
+        {
+          "caseId": "GV42",
+          "claim": "K15-CL-GV42@1",
+          "problem": "如何依据该案例判断：合同到期、撤回请求、CC违约终止和CC发行方停止分发是不同事件；工程暂停受影响新任务，既有合法发布逐合同/法律核继续与撤下。？",
+          "reject": "将全部事件统一成自动永久删除或继续任意新生成。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.06",
+      "ability": "A06",
+      "role": "S",
+      "task": "引用同意证据，非声音生成主责",
+      "d4Targets": [
+        "K15.06.01.03",
+        "K15.06.02.03",
+        "K15.06.03.03",
+        "K15.06.01.04",
+        "K15.06.02.04",
+        "K15.06.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "引用支持，不迁移owner",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 45,
+        "row": "| K15.06 | A06 | S | 引用同意证据，非声音生成主责 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | 引用支持，不迁移owner |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV16",
+          "claim": "K15-CL-GV16@1",
+          "problem": "如何依据该案例判断：R1录音著作/相关权证据不等声音身份许可；采样、训练、生成、模仿身份和公开发行是不同动作。US2024报告提出数字复制权益建议。？",
+          "reject": "有录音授权就能任意克隆声线。"
+        },
+        {
+          "caseId": "GV17",
+          "claim": "K15-CL-GV17@1",
+          "problem": "如何依据该案例判断：题设A明确许可ORG-J在项目J由OP-E本地试听合成，仅限有效期T及内部受众，未同意云上传、训练或公开。另一项目、主体或操作者即使对象与受众一致也需独立资格。？",
+          "reject": "一次录音同意覆盖全部未来声音使用；另一操作者有编辑角色即自动获得同意。"
+        },
+        {
+          "caseId": "GV18",
+          "claim": "K15-CL-GV18@1",
+          "problem": "如何依据该案例判断：收到撤回请求E2，停止未明授权新生成、隔离受影响候选；既往合法发行与当前持续使用分别评估，不承诺自动撤销所有权利。？",
+          "reject": "删除模型或撤回即历史所有许可全部失效。"
+        },
+        {
+          "caseId": "GV40",
+          "claim": "K15-CL-GV40@1",
+          "problem": "如何依据该案例判断：2024 US政策报告印41–42建议知情同意、期限及新使用与既有依法制作内容区别；不能外推为缅甸声音专项法或2026生效美国法律。录音、声音身份、隐私、个人授权证据各独立。？",
+          "reject": "报告建议等于现行法；演员署名即身份许可。"
+        },
+        {
+          "caseId": "GV41",
+          "claim": "K15-CL-GV41@1",
+          "problem": "如何依据该案例判断：虚构许可G1=本地推理项目J、被授权主体ORG-J、获准操作者OP-E、声样R1、内部受众、截止T1、不训练不公开；另一项目/主体/操作者、R2或远程上传、新产品或扩大地域均需新授权或明确有效委托。CC录音许可不含普遍人格权。？",
+          "reject": "现有声样同意可以用于任意主体/用途；同一内部受众即获准操作者；公开许可证消除全部隐私权。"
+        },
+        {
+          "caseId": "GV42",
+          "claim": "K15-CL-GV42@1",
+          "problem": "如何依据该案例判断：合同到期、撤回请求、CC违约终止和CC发行方停止分发是不同事件；工程暂停受影响新任务，既有合法发布逐合同/法律核继续与撤下。？",
+          "reject": "将全部事件统一成自动永久删除或继续任意新生成。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "到期/撤回/争议和已发布分别处置",
+      "d4Targets": [
+        "K15.06.01.03",
+        "K15.06.02.03",
+        "K15.06.03.03",
+        "K15.06.01.04",
+        "K15.06.02.04",
+        "K15.06.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 46,
+        "row": "| K15.06 | A07 | P | 到期/撤回/争议和已发布分别处置 | [GV16/K15.06.01.03](production-governance-r1-knowledge-cases.md#L20)；[GV17/K15.06.02.03](production-governance-r1-knowledge-cases.md#L21)；[GV18/K15.06.03.03](production-governance-r1-knowledge-cases.md#L22)；[GV40/K15.06.01.04](production-governance-r2-knowledge-cases.md#L20)；[GV41/K15.06.02.04](production-governance-r2-knowledge-cases.md#L21)；[GV42/K15.06.03.04](production-governance-r2-knowledge-cases.md#L22) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV16@1",
+        "K15-CL-GV17@1",
+        "K15-CL-GV18@1",
+        "K15-CL-GV40@1",
+        "K15-CL-GV41@1",
+        "K15-CL-GV42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV16",
+          "claim": "K15-CL-GV16@1",
+          "problem": "如何依据该案例判断：R1录音著作/相关权证据不等声音身份许可；采样、训练、生成、模仿身份和公开发行是不同动作。US2024报告提出数字复制权益建议。？",
+          "reject": "有录音授权就能任意克隆声线。"
+        },
+        {
+          "caseId": "GV17",
+          "claim": "K15-CL-GV17@1",
+          "problem": "如何依据该案例判断：题设A明确许可ORG-J在项目J由OP-E本地试听合成，仅限有效期T及内部受众，未同意云上传、训练或公开。另一项目、主体或操作者即使对象与受众一致也需独立资格。？",
+          "reject": "一次录音同意覆盖全部未来声音使用；另一操作者有编辑角色即自动获得同意。"
+        },
+        {
+          "caseId": "GV18",
+          "claim": "K15-CL-GV18@1",
+          "problem": "如何依据该案例判断：收到撤回请求E2，停止未明授权新生成、隔离受影响候选；既往合法发行与当前持续使用分别评估，不承诺自动撤销所有权利。？",
+          "reject": "删除模型或撤回即历史所有许可全部失效。"
+        },
+        {
+          "caseId": "GV40",
+          "claim": "K15-CL-GV40@1",
+          "problem": "如何依据该案例判断：2024 US政策报告印41–42建议知情同意、期限及新使用与既有依法制作内容区别；不能外推为缅甸声音专项法或2026生效美国法律。录音、声音身份、隐私、个人授权证据各独立。？",
+          "reject": "报告建议等于现行法；演员署名即身份许可。"
+        },
+        {
+          "caseId": "GV41",
+          "claim": "K15-CL-GV41@1",
+          "problem": "如何依据该案例判断：虚构许可G1=本地推理项目J、被授权主体ORG-J、获准操作者OP-E、声样R1、内部受众、截止T1、不训练不公开；另一项目/主体/操作者、R2或远程上传、新产品或扩大地域均需新授权或明确有效委托。CC录音许可不含普遍人格权。？",
+          "reject": "现有声样同意可以用于任意主体/用途；同一内部受众即获准操作者；公开许可证消除全部隐私权。"
+        },
+        {
+          "caseId": "GV42",
+          "claim": "K15-CL-GV42@1",
+          "problem": "如何依据该案例判断：合同到期、撤回请求、CC违约终止和CC发行方停止分发是不同事件；工程暂停受影响新任务，既有合法发布逐合同/法律核继续与撤下。？",
+          "reject": "将全部事件统一成自动永久删除或继续任意新生成。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "数据来源、用途、隐私与派生风险",
+      "d4Targets": [
+        "K15.07.01.03",
+        "K15.07.02.03",
+        "K15.07.03.03",
+        "K15.07.01.04",
+        "K15.07.02.04",
+        "K15.07.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 47,
+        "row": "| K15.07 | A01 | P | 数据来源、用途、隐私与派生风险 | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV19",
+          "claim": "K15-CL-GV19@1",
+          "problem": "如何依据该案例判断：数据集D有录音X/标注Y/第三方素材Z，各来源、版本、用途分别登记；公开论文和下载权不自动等于训练或转分发。？",
+          "reject": "数据集README开源即所有声样任意使用。"
+        },
+        {
+          "caseId": "GV20",
+          "claim": "K15-CL-GV20@1",
+          "problem": "如何依据该案例判断：姓名删除但声样可被识别、唯一映射表仍保留；应区分去标识、可链接标识和聚合统计，访问最小化。？",
+          "reject": "删除姓名即匿名，允许公开全部声样。"
+        },
+        {
+          "caseId": "GV21",
+          "claim": "K15-CL-GV21@1",
+          "problem": "如何依据该案例判断：D1→stem X→特征 F→标注 L→权重 M→输出 O；来源资格变动沿关系检查，不断言所有派生必同一版权或删除必消除记忆。？",
+          "reject": "转换为特征即自动无权利风险，删源即训练遗忘。"
+        },
+        {
+          "caseId": "GV43",
+          "claim": "K15-CL-GV43@1",
+          "problem": "如何依据该案例判断：数据D含R1获训练许可但不分发，R2仅研究听辨，标注Y许可独立，代码C MIT；训练R1需核全部用途条件，R2不得由C继承训练。？",
+          "reject": "代码开放=权重和训练数据均开放。"
+        },
+        {
+          "caseId": "GV44",
+          "claim": "K15-CL-GV44@1",
+          "problem": "如何依据该案例判断：匿名ID L1与映射表分库存，声样仍可能可识别；聚合3组计数也可能小样本可重识别。按最小用途决定可见范围，删请求需核必要留证及法律义务。？",
+          "reject": "哈希/随机ID自动匿名；全部日志永久保存或收到请求立即毁全部证据。"
+        },
+        {
+          "caseId": "GV45",
+          "claim": "K15-CL-GV45@1",
+          "problem": "如何依据该案例判断：D变更影响F/L/训练M/输出O；无完整依赖或未证模型遗忘时记录UNKNOWN，停止受影响新增用途而非保证已消除影响。合法继续使用另判断。？",
+          "reject": "训练后删一条数据即权重不含任何影响；所有输出自动同原许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "来源→用途→访问→派生→处置",
+      "d4Targets": [
+        "K15.07.01.03",
+        "K15.07.02.03",
+        "K15.07.03.03",
+        "K15.07.01.04",
+        "K15.07.02.04",
+        "K15.07.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 48,
+        "row": "| K15.07 | A02 | P | 来源→用途→访问→派生→处置 | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV19",
+          "claim": "K15-CL-GV19@1",
+          "problem": "如何依据该案例判断：数据集D有录音X/标注Y/第三方素材Z，各来源、版本、用途分别登记；公开论文和下载权不自动等于训练或转分发。？",
+          "reject": "数据集README开源即所有声样任意使用。"
+        },
+        {
+          "caseId": "GV20",
+          "claim": "K15-CL-GV20@1",
+          "problem": "如何依据该案例判断：姓名删除但声样可被识别、唯一映射表仍保留；应区分去标识、可链接标识和聚合统计，访问最小化。？",
+          "reject": "删除姓名即匿名，允许公开全部声样。"
+        },
+        {
+          "caseId": "GV21",
+          "claim": "K15-CL-GV21@1",
+          "problem": "如何依据该案例判断：D1→stem X→特征 F→标注 L→权重 M→输出 O；来源资格变动沿关系检查，不断言所有派生必同一版权或删除必消除记忆。？",
+          "reject": "转换为特征即自动无权利风险，删源即训练遗忘。"
+        },
+        {
+          "caseId": "GV43",
+          "claim": "K15-CL-GV43@1",
+          "problem": "如何依据该案例判断：数据D含R1获训练许可但不分发，R2仅研究听辨，标注Y许可独立，代码C MIT；训练R1需核全部用途条件，R2不得由C继承训练。？",
+          "reject": "代码开放=权重和训练数据均开放。"
+        },
+        {
+          "caseId": "GV44",
+          "claim": "K15-CL-GV44@1",
+          "problem": "如何依据该案例判断：匿名ID L1与映射表分库存，声样仍可能可识别；聚合3组计数也可能小样本可重识别。按最小用途决定可见范围，删请求需核必要留证及法律义务。？",
+          "reject": "哈希/随机ID自动匿名；全部日志永久保存或收到请求立即毁全部证据。"
+        },
+        {
+          "caseId": "GV45",
+          "claim": "K15-CL-GV45@1",
+          "problem": "如何依据该案例判断：D变更影响F/L/训练M/输出O；无完整依赖或未证模型遗忘时记录UNKNOWN，停止受影响新增用途而非保证已消除影响。合法继续使用另判断。？",
+          "reject": "训练后删一条数据即权重不含任何影响；所有输出自动同原许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.07",
+      "ability": "A03",
+      "role": "P",
+      "task": "数据/模型工具资格K11/K12",
+      "d4Targets": [
+        "K15.07.01.03",
+        "K15.07.02.03",
+        "K15.07.03.03",
+        "K15.07.01.04",
+        "K15.07.02.04",
+        "K15.07.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 49,
+        "row": "| K15.07 | A03 | P | 数据/模型工具资格K11/K12 | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV19",
+          "claim": "K15-CL-GV19@1",
+          "problem": "如何依据该案例判断：数据集D有录音X/标注Y/第三方素材Z，各来源、版本、用途分别登记；公开论文和下载权不自动等于训练或转分发。？",
+          "reject": "数据集README开源即所有声样任意使用。"
+        },
+        {
+          "caseId": "GV20",
+          "claim": "K15-CL-GV20@1",
+          "problem": "如何依据该案例判断：姓名删除但声样可被识别、唯一映射表仍保留；应区分去标识、可链接标识和聚合统计，访问最小化。？",
+          "reject": "删除姓名即匿名，允许公开全部声样。"
+        },
+        {
+          "caseId": "GV21",
+          "claim": "K15-CL-GV21@1",
+          "problem": "如何依据该案例判断：D1→stem X→特征 F→标注 L→权重 M→输出 O；来源资格变动沿关系检查，不断言所有派生必同一版权或删除必消除记忆。？",
+          "reject": "转换为特征即自动无权利风险，删源即训练遗忘。"
+        },
+        {
+          "caseId": "GV43",
+          "claim": "K15-CL-GV43@1",
+          "problem": "如何依据该案例判断：数据D含R1获训练许可但不分发，R2仅研究听辨，标注Y许可独立，代码C MIT；训练R1需核全部用途条件，R2不得由C继承训练。？",
+          "reject": "代码开放=权重和训练数据均开放。"
+        },
+        {
+          "caseId": "GV44",
+          "claim": "K15-CL-GV44@1",
+          "problem": "如何依据该案例判断：匿名ID L1与映射表分库存，声样仍可能可识别；聚合3组计数也可能小样本可重识别。按最小用途决定可见范围，删请求需核必要留证及法律义务。？",
+          "reject": "哈希/随机ID自动匿名；全部日志永久保存或收到请求立即毁全部证据。"
+        },
+        {
+          "caseId": "GV45",
+          "claim": "K15-CL-GV45@1",
+          "problem": "如何依据该案例判断：D变更影响F/L/训练M/输出O；无完整依赖或未证模型遗忘时记录UNKNOWN，停止受影响新增用途而非保证已消除影响。合法继续使用另判断。？",
+          "reject": "训练后删一条数据即权重不含任何影响；所有输出自动同原许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.07",
+      "ability": "A04",
+      "role": "P",
+      "task": "数据版本、来源、派生、访问/保留",
+      "d4Targets": [
+        "K15.07.01.03",
+        "K15.07.02.03",
+        "K15.07.03.03",
+        "K15.07.01.04",
+        "K15.07.02.04",
+        "K15.07.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 50,
+        "row": "| K15.07 | A04 | P | 数据版本、来源、派生、访问/保留 | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV19",
+          "claim": "K15-CL-GV19@1",
+          "problem": "如何依据该案例判断：数据集D有录音X/标注Y/第三方素材Z，各来源、版本、用途分别登记；公开论文和下载权不自动等于训练或转分发。？",
+          "reject": "数据集README开源即所有声样任意使用。"
+        },
+        {
+          "caseId": "GV20",
+          "claim": "K15-CL-GV20@1",
+          "problem": "如何依据该案例判断：姓名删除但声样可被识别、唯一映射表仍保留；应区分去标识、可链接标识和聚合统计，访问最小化。？",
+          "reject": "删除姓名即匿名，允许公开全部声样。"
+        },
+        {
+          "caseId": "GV21",
+          "claim": "K15-CL-GV21@1",
+          "problem": "如何依据该案例判断：D1→stem X→特征 F→标注 L→权重 M→输出 O；来源资格变动沿关系检查，不断言所有派生必同一版权或删除必消除记忆。？",
+          "reject": "转换为特征即自动无权利风险，删源即训练遗忘。"
+        },
+        {
+          "caseId": "GV43",
+          "claim": "K15-CL-GV43@1",
+          "problem": "如何依据该案例判断：数据D含R1获训练许可但不分发，R2仅研究听辨，标注Y许可独立，代码C MIT；训练R1需核全部用途条件，R2不得由C继承训练。？",
+          "reject": "代码开放=权重和训练数据均开放。"
+        },
+        {
+          "caseId": "GV44",
+          "claim": "K15-CL-GV44@1",
+          "problem": "如何依据该案例判断：匿名ID L1与映射表分库存，声样仍可能可识别；聚合3组计数也可能小样本可重识别。按最小用途决定可见范围，删请求需核必要留证及法律义务。？",
+          "reject": "哈希/随机ID自动匿名；全部日志永久保存或收到请求立即毁全部证据。"
+        },
+        {
+          "caseId": "GV45",
+          "claim": "K15-CL-GV45@1",
+          "problem": "如何依据该案例判断：D变更影响F/L/训练M/输出O；无完整依赖或未证模型遗忘时记录UNKNOWN，停止受影响新增用途而非保证已消除影响。合法继续使用另判断。？",
+          "reject": "训练后删一条数据即权重不含任何影响；所有输出自动同原许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "授权范围、隐私风险、UNKNOWN",
+      "d4Targets": [
+        "K15.07.01.03",
+        "K15.07.02.03",
+        "K15.07.03.03",
+        "K15.07.01.04",
+        "K15.07.02.04",
+        "K15.07.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 51,
+        "row": "| K15.07 | A05 | P | 授权范围、隐私风险、UNKNOWN | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV19",
+          "claim": "K15-CL-GV19@1",
+          "problem": "如何依据该案例判断：数据集D有录音X/标注Y/第三方素材Z，各来源、版本、用途分别登记；公开论文和下载权不自动等于训练或转分发。？",
+          "reject": "数据集README开源即所有声样任意使用。"
+        },
+        {
+          "caseId": "GV20",
+          "claim": "K15-CL-GV20@1",
+          "problem": "如何依据该案例判断：姓名删除但声样可被识别、唯一映射表仍保留；应区分去标识、可链接标识和聚合统计，访问最小化。？",
+          "reject": "删除姓名即匿名，允许公开全部声样。"
+        },
+        {
+          "caseId": "GV21",
+          "claim": "K15-CL-GV21@1",
+          "problem": "如何依据该案例判断：D1→stem X→特征 F→标注 L→权重 M→输出 O；来源资格变动沿关系检查，不断言所有派生必同一版权或删除必消除记忆。？",
+          "reject": "转换为特征即自动无权利风险，删源即训练遗忘。"
+        },
+        {
+          "caseId": "GV43",
+          "claim": "K15-CL-GV43@1",
+          "problem": "如何依据该案例判断：数据D含R1获训练许可但不分发，R2仅研究听辨，标注Y许可独立，代码C MIT；训练R1需核全部用途条件，R2不得由C继承训练。？",
+          "reject": "代码开放=权重和训练数据均开放。"
+        },
+        {
+          "caseId": "GV44",
+          "claim": "K15-CL-GV44@1",
+          "problem": "如何依据该案例判断：匿名ID L1与映射表分库存，声样仍可能可识别；聚合3组计数也可能小样本可重识别。按最小用途决定可见范围，删请求需核必要留证及法律义务。？",
+          "reject": "哈希/随机ID自动匿名；全部日志永久保存或收到请求立即毁全部证据。"
+        },
+        {
+          "caseId": "GV45",
+          "claim": "K15-CL-GV45@1",
+          "problem": "如何依据该案例判断：D变更影响F/L/训练M/输出O；无完整依赖或未证模型遗忘时记录UNKNOWN，停止受影响新增用途而非保证已消除影响。合法继续使用另判断。？",
+          "reject": "训练后删一条数据即权重不含任何影响；所有输出自动同原许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.07",
+      "ability": "A06",
+      "role": "P",
+      "task": "数据清单/派生证据，最小必要",
+      "d4Targets": [
+        "K15.07.01.03",
+        "K15.07.02.03",
+        "K15.07.03.03",
+        "K15.07.01.04",
+        "K15.07.02.04",
+        "K15.07.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 52,
+        "row": "| K15.07 | A06 | P | 数据清单/派生证据，最小必要 | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV19",
+          "claim": "K15-CL-GV19@1",
+          "problem": "如何依据该案例判断：数据集D有录音X/标注Y/第三方素材Z，各来源、版本、用途分别登记；公开论文和下载权不自动等于训练或转分发。？",
+          "reject": "数据集README开源即所有声样任意使用。"
+        },
+        {
+          "caseId": "GV20",
+          "claim": "K15-CL-GV20@1",
+          "problem": "如何依据该案例判断：姓名删除但声样可被识别、唯一映射表仍保留；应区分去标识、可链接标识和聚合统计，访问最小化。？",
+          "reject": "删除姓名即匿名，允许公开全部声样。"
+        },
+        {
+          "caseId": "GV21",
+          "claim": "K15-CL-GV21@1",
+          "problem": "如何依据该案例判断：D1→stem X→特征 F→标注 L→权重 M→输出 O；来源资格变动沿关系检查，不断言所有派生必同一版权或删除必消除记忆。？",
+          "reject": "转换为特征即自动无权利风险，删源即训练遗忘。"
+        },
+        {
+          "caseId": "GV43",
+          "claim": "K15-CL-GV43@1",
+          "problem": "如何依据该案例判断：数据D含R1获训练许可但不分发，R2仅研究听辨，标注Y许可独立，代码C MIT；训练R1需核全部用途条件，R2不得由C继承训练。？",
+          "reject": "代码开放=权重和训练数据均开放。"
+        },
+        {
+          "caseId": "GV44",
+          "claim": "K15-CL-GV44@1",
+          "problem": "如何依据该案例判断：匿名ID L1与映射表分库存，声样仍可能可识别；聚合3组计数也可能小样本可重识别。按最小用途决定可见范围，删请求需核必要留证及法律义务。？",
+          "reject": "哈希/随机ID自动匿名；全部日志永久保存或收到请求立即毁全部证据。"
+        },
+        {
+          "caseId": "GV45",
+          "claim": "K15-CL-GV45@1",
+          "problem": "如何依据该案例判断：D变更影响F/L/训练M/输出O；无完整依赖或未证模型遗忘时记录UNKNOWN，停止受影响新增用途而非保证已消除影响。合法继续使用另判断。？",
+          "reject": "训练后删一条数据即权重不含任何影响；所有输出自动同原许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "用途变化/删除请求/受影响依赖",
+      "d4Targets": [
+        "K15.07.01.03",
+        "K15.07.02.03",
+        "K15.07.03.03",
+        "K15.07.01.04",
+        "K15.07.02.04",
+        "K15.07.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 53,
+        "row": "| K15.07 | A07 | P | 用途变化/删除请求/受影响依赖 | [GV19/K15.07.01.03](production-governance-r1-knowledge-cases.md#L23)；[GV20/K15.07.02.03](production-governance-r1-knowledge-cases.md#L24)；[GV21/K15.07.03.03](production-governance-r1-knowledge-cases.md#L25)；[GV43/K15.07.01.04](production-governance-r2-knowledge-cases.md#L23)；[GV44/K15.07.02.04](production-governance-r2-knowledge-cases.md#L24)；[GV45/K15.07.03.04](production-governance-r2-knowledge-cases.md#L25) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV19@1",
+        "K15-CL-GV20@1",
+        "K15-CL-GV21@1",
+        "K15-CL-GV43@1",
+        "K15-CL-GV44@1",
+        "K15-CL-GV45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV19",
+          "claim": "K15-CL-GV19@1",
+          "problem": "如何依据该案例判断：数据集D有录音X/标注Y/第三方素材Z，各来源、版本、用途分别登记；公开论文和下载权不自动等于训练或转分发。？",
+          "reject": "数据集README开源即所有声样任意使用。"
+        },
+        {
+          "caseId": "GV20",
+          "claim": "K15-CL-GV20@1",
+          "problem": "如何依据该案例判断：姓名删除但声样可被识别、唯一映射表仍保留；应区分去标识、可链接标识和聚合统计，访问最小化。？",
+          "reject": "删除姓名即匿名，允许公开全部声样。"
+        },
+        {
+          "caseId": "GV21",
+          "claim": "K15-CL-GV21@1",
+          "problem": "如何依据该案例判断：D1→stem X→特征 F→标注 L→权重 M→输出 O；来源资格变动沿关系检查，不断言所有派生必同一版权或删除必消除记忆。？",
+          "reject": "转换为特征即自动无权利风险，删源即训练遗忘。"
+        },
+        {
+          "caseId": "GV43",
+          "claim": "K15-CL-GV43@1",
+          "problem": "如何依据该案例判断：数据D含R1获训练许可但不分发，R2仅研究听辨，标注Y许可独立，代码C MIT；训练R1需核全部用途条件，R2不得由C继承训练。？",
+          "reject": "代码开放=权重和训练数据均开放。"
+        },
+        {
+          "caseId": "GV44",
+          "claim": "K15-CL-GV44@1",
+          "problem": "如何依据该案例判断：匿名ID L1与映射表分库存，声样仍可能可识别；聚合3组计数也可能小样本可重识别。按最小用途决定可见范围，删请求需核必要留证及法律义务。？",
+          "reject": "哈希/随机ID自动匿名；全部日志永久保存或收到请求立即毁全部证据。"
+        },
+        {
+          "caseId": "GV45",
+          "claim": "K15-CL-GV45@1",
+          "problem": "如何依据该案例判断：D变更影响F/L/训练M/输出O；无完整依赖或未证模型遗忘时记录UNKNOWN，停止受影响新增用途而非保证已消除影响。合法继续使用另判断。？",
+          "reject": "训练后删一条数据即权重不含任何影响；所有输出自动同原许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "作品录音发行标识及发行元数据",
+      "d4Targets": [
+        "K15.08.01.03",
+        "K15.08.02.03",
+        "K15.08.03.03",
+        "K15.08.01.04",
+        "K15.08.02.04",
+        "K15.08.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 54,
+        "row": "| K15.08 | A01 | P | 作品录音发行标识及发行元数据 | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV22",
+          "claim": "K15-CL-GV22@1",
+          "problem": "如何依据该案例判断：同作品W1两次录音R1/R2，作品标识与录音标识分别关联，发行品可含多录音；同ISWC不等同ISRC、文件或所有者。？",
+          "reject": "ISWC可代替ISRC，码存在即有权。"
+        },
+        {
+          "caseId": "GV23",
+          "claim": "K15-CL-GV23@1",
+          "problem": "如何依据该案例判断：ERN4 ReleaseList记录产品和资源关系，DealList限定释放的时间/地域/用途；具备Deal字段不是权利真实性或上线证据。？",
+          "reject": "收到发行包或ACK即所有地区可播放。"
+        },
+        {
+          "caseId": "GV24",
+          "claim": "K15-CL-GV24@1",
+          "problem": "如何依据该案例判断：交付P1与实际发布R1的文件、权利与评价证据归档；更正credit发送C2，外部ACK未知则PENDING，原记录保留。？",
+          "reject": "修改本地元数据等于平台已经更新。"
+        },
+        {
+          "caseId": "GV46",
+          "claim": "K15-CL-GV46@1",
+          "problem": "如何依据该案例判断：IFPI FAQ Q6同录音转权仍沿原ISRC；Q7 remix/edit或播放时间变化超过10秒列新码例；Q8通常remaster同码，显著新创造输入可能新码。文件hash改变不自动换码。？",
+          "reject": "每次转码/权利转移必须新ISRC；同作品录音一律同码。"
+        },
+        {
+          "caseId": "GV47",
+          "claim": "K15-CL-GV47@1",
+          "problem": "如何依据该案例判断：ERN4同release R1的deal可限定MM streaming 2027-01-01开始；预购时间不等可履行时间，另一地域/下载不自动许可。发送消息不证明DSP实际上线。？",
+          "reject": "release元数据完整=所有商业模式授权且已发布。"
+        },
+        {
+          "caseId": "GV48",
+          "claim": "K15-CL-GV48@1",
+          "problem": "如何依据该案例判断：ERN4撤下在指定地域从生效日取消该release相关旧deals；题设仅MM撤下不自动改变其他地域，外部未知状态保持PENDING。更正credit与撤下不同。？",
+          "reject": "本地发送takedown即全网已删除或全球授权永久失效。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "交付→授权核验→发送→回读→归档",
+      "d4Targets": [
+        "K15.08.01.03",
+        "K15.08.02.03",
+        "K15.08.03.03",
+        "K15.08.01.04",
+        "K15.08.02.04",
+        "K15.08.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 55,
+        "row": "| K15.08 | A02 | P | 交付→授权核验→发送→回读→归档 | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV22",
+          "claim": "K15-CL-GV22@1",
+          "problem": "如何依据该案例判断：同作品W1两次录音R1/R2，作品标识与录音标识分别关联，发行品可含多录音；同ISWC不等同ISRC、文件或所有者。？",
+          "reject": "ISWC可代替ISRC，码存在即有权。"
+        },
+        {
+          "caseId": "GV23",
+          "claim": "K15-CL-GV23@1",
+          "problem": "如何依据该案例判断：ERN4 ReleaseList记录产品和资源关系，DealList限定释放的时间/地域/用途；具备Deal字段不是权利真实性或上线证据。？",
+          "reject": "收到发行包或ACK即所有地区可播放。"
+        },
+        {
+          "caseId": "GV24",
+          "claim": "K15-CL-GV24@1",
+          "problem": "如何依据该案例判断：交付P1与实际发布R1的文件、权利与评价证据归档；更正credit发送C2，外部ACK未知则PENDING，原记录保留。？",
+          "reject": "修改本地元数据等于平台已经更新。"
+        },
+        {
+          "caseId": "GV46",
+          "claim": "K15-CL-GV46@1",
+          "problem": "如何依据该案例判断：IFPI FAQ Q6同录音转权仍沿原ISRC；Q7 remix/edit或播放时间变化超过10秒列新码例；Q8通常remaster同码，显著新创造输入可能新码。文件hash改变不自动换码。？",
+          "reject": "每次转码/权利转移必须新ISRC；同作品录音一律同码。"
+        },
+        {
+          "caseId": "GV47",
+          "claim": "K15-CL-GV47@1",
+          "problem": "如何依据该案例判断：ERN4同release R1的deal可限定MM streaming 2027-01-01开始；预购时间不等可履行时间，另一地域/下载不自动许可。发送消息不证明DSP实际上线。？",
+          "reject": "release元数据完整=所有商业模式授权且已发布。"
+        },
+        {
+          "caseId": "GV48",
+          "claim": "K15-CL-GV48@1",
+          "problem": "如何依据该案例判断：ERN4撤下在指定地域从生效日取消该release相关旧deals；题设仅MM撤下不自动改变其他地域，外部未知状态保持PENDING。更正credit与撤下不同。？",
+          "reject": "本地发送takedown即全网已删除或全球授权永久失效。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.08",
+      "ability": "A03",
+      "role": "P",
+      "task": "发行/元数据工具与真实版本",
+      "d4Targets": [
+        "K15.08.01.03",
+        "K15.08.02.03",
+        "K15.08.03.03",
+        "K15.08.01.04",
+        "K15.08.02.04",
+        "K15.08.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 56,
+        "row": "| K15.08 | A03 | P | 发行/元数据工具与真实版本 | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV22",
+          "claim": "K15-CL-GV22@1",
+          "problem": "如何依据该案例判断：同作品W1两次录音R1/R2，作品标识与录音标识分别关联，发行品可含多录音；同ISWC不等同ISRC、文件或所有者。？",
+          "reject": "ISWC可代替ISRC，码存在即有权。"
+        },
+        {
+          "caseId": "GV23",
+          "claim": "K15-CL-GV23@1",
+          "problem": "如何依据该案例判断：ERN4 ReleaseList记录产品和资源关系，DealList限定释放的时间/地域/用途；具备Deal字段不是权利真实性或上线证据。？",
+          "reject": "收到发行包或ACK即所有地区可播放。"
+        },
+        {
+          "caseId": "GV24",
+          "claim": "K15-CL-GV24@1",
+          "problem": "如何依据该案例判断：交付P1与实际发布R1的文件、权利与评价证据归档；更正credit发送C2，外部ACK未知则PENDING，原记录保留。？",
+          "reject": "修改本地元数据等于平台已经更新。"
+        },
+        {
+          "caseId": "GV46",
+          "claim": "K15-CL-GV46@1",
+          "problem": "如何依据该案例判断：IFPI FAQ Q6同录音转权仍沿原ISRC；Q7 remix/edit或播放时间变化超过10秒列新码例；Q8通常remaster同码，显著新创造输入可能新码。文件hash改变不自动换码。？",
+          "reject": "每次转码/权利转移必须新ISRC；同作品录音一律同码。"
+        },
+        {
+          "caseId": "GV47",
+          "claim": "K15-CL-GV47@1",
+          "problem": "如何依据该案例判断：ERN4同release R1的deal可限定MM streaming 2027-01-01开始；预购时间不等可履行时间，另一地域/下载不自动许可。发送消息不证明DSP实际上线。？",
+          "reject": "release元数据完整=所有商业模式授权且已发布。"
+        },
+        {
+          "caseId": "GV48",
+          "claim": "K15-CL-GV48@1",
+          "problem": "如何依据该案例判断：ERN4撤下在指定地域从生效日取消该release相关旧deals；题设仅MM撤下不自动改变其他地域，外部未知状态保持PENDING。更正credit与撤下不同。？",
+          "reject": "本地发送takedown即全网已删除或全球授权永久失效。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.08",
+      "ability": "A04",
+      "role": "P",
+      "task": "资源/release/deal/外部状态及更正",
+      "d4Targets": [
+        "K15.08.01.03",
+        "K15.08.02.03",
+        "K15.08.03.03",
+        "K15.08.01.04",
+        "K15.08.02.04",
+        "K15.08.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 57,
+        "row": "| K15.08 | A04 | P | 资源/release/deal/外部状态及更正 | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV22",
+          "claim": "K15-CL-GV22@1",
+          "problem": "如何依据该案例判断：同作品W1两次录音R1/R2，作品标识与录音标识分别关联，发行品可含多录音；同ISWC不等同ISRC、文件或所有者。？",
+          "reject": "ISWC可代替ISRC，码存在即有权。"
+        },
+        {
+          "caseId": "GV23",
+          "claim": "K15-CL-GV23@1",
+          "problem": "如何依据该案例判断：ERN4 ReleaseList记录产品和资源关系，DealList限定释放的时间/地域/用途；具备Deal字段不是权利真实性或上线证据。？",
+          "reject": "收到发行包或ACK即所有地区可播放。"
+        },
+        {
+          "caseId": "GV24",
+          "claim": "K15-CL-GV24@1",
+          "problem": "如何依据该案例判断：交付P1与实际发布R1的文件、权利与评价证据归档；更正credit发送C2，外部ACK未知则PENDING，原记录保留。？",
+          "reject": "修改本地元数据等于平台已经更新。"
+        },
+        {
+          "caseId": "GV46",
+          "claim": "K15-CL-GV46@1",
+          "problem": "如何依据该案例判断：IFPI FAQ Q6同录音转权仍沿原ISRC；Q7 remix/edit或播放时间变化超过10秒列新码例；Q8通常remaster同码，显著新创造输入可能新码。文件hash改变不自动换码。？",
+          "reject": "每次转码/权利转移必须新ISRC；同作品录音一律同码。"
+        },
+        {
+          "caseId": "GV47",
+          "claim": "K15-CL-GV47@1",
+          "problem": "如何依据该案例判断：ERN4同release R1的deal可限定MM streaming 2027-01-01开始；预购时间不等可履行时间，另一地域/下载不自动许可。发送消息不证明DSP实际上线。？",
+          "reject": "release元数据完整=所有商业模式授权且已发布。"
+        },
+        {
+          "caseId": "GV48",
+          "claim": "K15-CL-GV48@1",
+          "problem": "如何依据该案例判断：ERN4撤下在指定地域从生效日取消该release相关旧deals；题设仅MM撤下不自动改变其他地域，外部未知状态保持PENDING。更正credit与撤下不同。？",
+          "reject": "本地发送takedown即全网已删除或全球授权永久失效。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "授权与外部发行分离、版本一致",
+      "d4Targets": [
+        "K15.08.01.03",
+        "K15.08.02.03",
+        "K15.08.03.03",
+        "K15.08.01.04",
+        "K15.08.02.04",
+        "K15.08.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 58,
+        "row": "| K15.08 | A05 | P | 授权与外部发行分离、版本一致 | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV22",
+          "claim": "K15-CL-GV22@1",
+          "problem": "如何依据该案例判断：同作品W1两次录音R1/R2，作品标识与录音标识分别关联，发行品可含多录音；同ISWC不等同ISRC、文件或所有者。？",
+          "reject": "ISWC可代替ISRC，码存在即有权。"
+        },
+        {
+          "caseId": "GV23",
+          "claim": "K15-CL-GV23@1",
+          "problem": "如何依据该案例判断：ERN4 ReleaseList记录产品和资源关系，DealList限定释放的时间/地域/用途；具备Deal字段不是权利真实性或上线证据。？",
+          "reject": "收到发行包或ACK即所有地区可播放。"
+        },
+        {
+          "caseId": "GV24",
+          "claim": "K15-CL-GV24@1",
+          "problem": "如何依据该案例判断：交付P1与实际发布R1的文件、权利与评价证据归档；更正credit发送C2，外部ACK未知则PENDING，原记录保留。？",
+          "reject": "修改本地元数据等于平台已经更新。"
+        },
+        {
+          "caseId": "GV46",
+          "claim": "K15-CL-GV46@1",
+          "problem": "如何依据该案例判断：IFPI FAQ Q6同录音转权仍沿原ISRC；Q7 remix/edit或播放时间变化超过10秒列新码例；Q8通常remaster同码，显著新创造输入可能新码。文件hash改变不自动换码。？",
+          "reject": "每次转码/权利转移必须新ISRC；同作品录音一律同码。"
+        },
+        {
+          "caseId": "GV47",
+          "claim": "K15-CL-GV47@1",
+          "problem": "如何依据该案例判断：ERN4同release R1的deal可限定MM streaming 2027-01-01开始；预购时间不等可履行时间，另一地域/下载不自动许可。发送消息不证明DSP实际上线。？",
+          "reject": "release元数据完整=所有商业模式授权且已发布。"
+        },
+        {
+          "caseId": "GV48",
+          "claim": "K15-CL-GV48@1",
+          "problem": "如何依据该案例判断：ERN4撤下在指定地域从生效日取消该release相关旧deals；题设仅MM撤下不自动改变其他地域，外部未知状态保持PENDING。更正credit与撤下不同。？",
+          "reject": "本地发送takedown即全网已删除或全球授权永久失效。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.08",
+      "ability": "A06",
+      "role": "P",
+      "task": "发行包清单/归档/更正请求候选",
+      "d4Targets": [
+        "K15.08.01.03",
+        "K15.08.02.03",
+        "K15.08.03.03",
+        "K15.08.01.04",
+        "K15.08.02.04",
+        "K15.08.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 59,
+        "row": "| K15.08 | A06 | P | 发行包清单/归档/更正请求候选 | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV22",
+          "claim": "K15-CL-GV22@1",
+          "problem": "如何依据该案例判断：同作品W1两次录音R1/R2，作品标识与录音标识分别关联，发行品可含多录音；同ISWC不等同ISRC、文件或所有者。？",
+          "reject": "ISWC可代替ISRC，码存在即有权。"
+        },
+        {
+          "caseId": "GV23",
+          "claim": "K15-CL-GV23@1",
+          "problem": "如何依据该案例判断：ERN4 ReleaseList记录产品和资源关系，DealList限定释放的时间/地域/用途；具备Deal字段不是权利真实性或上线证据。？",
+          "reject": "收到发行包或ACK即所有地区可播放。"
+        },
+        {
+          "caseId": "GV24",
+          "claim": "K15-CL-GV24@1",
+          "problem": "如何依据该案例判断：交付P1与实际发布R1的文件、权利与评价证据归档；更正credit发送C2，外部ACK未知则PENDING，原记录保留。？",
+          "reject": "修改本地元数据等于平台已经更新。"
+        },
+        {
+          "caseId": "GV46",
+          "claim": "K15-CL-GV46@1",
+          "problem": "如何依据该案例判断：IFPI FAQ Q6同录音转权仍沿原ISRC；Q7 remix/edit或播放时间变化超过10秒列新码例；Q8通常remaster同码，显著新创造输入可能新码。文件hash改变不自动换码。？",
+          "reject": "每次转码/权利转移必须新ISRC；同作品录音一律同码。"
+        },
+        {
+          "caseId": "GV47",
+          "claim": "K15-CL-GV47@1",
+          "problem": "如何依据该案例判断：ERN4同release R1的deal可限定MM streaming 2027-01-01开始；预购时间不等可履行时间，另一地域/下载不自动许可。发送消息不证明DSP实际上线。？",
+          "reject": "release元数据完整=所有商业模式授权且已发布。"
+        },
+        {
+          "caseId": "GV48",
+          "claim": "K15-CL-GV48@1",
+          "problem": "如何依据该案例判断：ERN4撤下在指定地域从生效日取消该release相关旧deals；题设仅MM撤下不自动改变其他地域，外部未知状态保持PENDING。更正credit与撤下不同。？",
+          "reject": "本地发送takedown即全网已删除或全球授权永久失效。"
+        }
+      ]
+    },
+    {
+      "d2": "K15.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "撤下、纠错、回读及证据保留",
+      "d4Targets": [
+        "K15.08.01.03",
+        "K15.08.02.03",
+        "K15.08.03.03",
+        "K15.08.01.04",
+        "K15.08.02.04",
+        "K15.08.03.04"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "K15治理/权利知识职责，非实际执行或法律资格",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/production-governance-r3-capability-calibration.md",
+        "blob": "9fdbf65d2dff58996dbfd28a60eb75e7aa7dd96d",
+        "line": 60,
+        "row": "| K15.08 | A07 | P | 撤下、纠错、回读及证据保留 | [GV22/K15.08.01.03](production-governance-r1-knowledge-cases.md#L26)；[GV23/K15.08.02.03](production-governance-r1-knowledge-cases.md#L27)；[GV24/K15.08.03.03](production-governance-r1-knowledge-cases.md#L28)；[GV46/K15.08.01.04](production-governance-r2-knowledge-cases.md#L26)；[GV47/K15.08.02.04](production-governance-r2-knowledge-cases.md#L27)；[GV48/K15.08.03.04](production-governance-r2-knowledge-cases.md#L28) | K15治理/权利知识职责，非实际执行或法律资格 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K15-CL-GV22@1",
+        "K15-CL-GV23@1",
+        "K15-CL-GV24@1",
+        "K15-CL-GV46@1",
+        "K15-CL-GV47@1",
+        "K15-CL-GV48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "GV22",
+          "claim": "K15-CL-GV22@1",
+          "problem": "如何依据该案例判断：同作品W1两次录音R1/R2，作品标识与录音标识分别关联，发行品可含多录音；同ISWC不等同ISRC、文件或所有者。？",
+          "reject": "ISWC可代替ISRC，码存在即有权。"
+        },
+        {
+          "caseId": "GV23",
+          "claim": "K15-CL-GV23@1",
+          "problem": "如何依据该案例判断：ERN4 ReleaseList记录产品和资源关系，DealList限定释放的时间/地域/用途；具备Deal字段不是权利真实性或上线证据。？",
+          "reject": "收到发行包或ACK即所有地区可播放。"
+        },
+        {
+          "caseId": "GV24",
+          "claim": "K15-CL-GV24@1",
+          "problem": "如何依据该案例判断：交付P1与实际发布R1的文件、权利与评价证据归档；更正credit发送C2，外部ACK未知则PENDING，原记录保留。？",
+          "reject": "修改本地元数据等于平台已经更新。"
+        },
+        {
+          "caseId": "GV46",
+          "claim": "K15-CL-GV46@1",
+          "problem": "如何依据该案例判断：IFPI FAQ Q6同录音转权仍沿原ISRC；Q7 remix/edit或播放时间变化超过10秒列新码例；Q8通常remaster同码，显著新创造输入可能新码。文件hash改变不自动换码。？",
+          "reject": "每次转码/权利转移必须新ISRC；同作品录音一律同码。"
+        },
+        {
+          "caseId": "GV47",
+          "claim": "K15-CL-GV47@1",
+          "problem": "如何依据该案例判断：ERN4同release R1的deal可限定MM streaming 2027-01-01开始；预购时间不等可履行时间，另一地域/下载不自动许可。发送消息不证明DSP实际上线。？",
+          "reject": "release元数据完整=所有商业模式授权且已发布。"
+        },
+        {
+          "caseId": "GV48",
+          "claim": "K15-CL-GV48@1",
+          "problem": "如何依据该案例判断：ERN4撤下在指定地域从生效日取消该release相关旧deals；题设仅MM撤下不自动改变其他地域，外部未知状态保持PENDING。更正credit与撤下不同。？",
+          "reject": "本地发送takedown即全网已删除或全球授权永久失效。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1411 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K15",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "51db4d89d3daef9568372bc0928b02943ab22f78",
+  "sourceQualifications": [
+    {
+      "source": "S564@1",
+      "scope": "| S564 | DDEX RIN 2.1 [正文入口/版本差异](https://rin.ddex.net/recording-information-notification/) L72–95；[§1 Introduction](https://rin.ddex.net/recording-information-notification/1-introduction/) L39–45；[§5.1](https://rin.ddex.net/recording-information-notification/5-choreography/5.1-overall-choreography/) L36–51；[结构说明](https://kb.ddex.net/implementing-each-standard/recording-information-notification-(rin)/rin-explained/structure-of-rin/) L408–419 | READ_LOCATOR；单deliverable/录音组件、角色、初始制作人vs录音室制作人、文件引用与实际文件区别、studio event及消息发送条件，允许值版本及消息版本、MayBeShared关系标记；未核XML/XSD/实现许可，不把概览所有实体当必填。 |",
+      "limits": "| S564 | DDEX RIN 2.1 [正文入口/版本差异](https://rin.ddex.net/recording-information-notification/) L72–95；[§1 Introduction](https://rin.ddex.net/recording-information-notification/1-introduction/) L39–45；[§5.1](https://rin.ddex.net/recording-information-notification/5-choreography/5.1-overall-choreography/) L36–51；[结构说明](https://kb.ddex.net/implementing-each-standard/recording-information-notification-(rin)/rin-explained/structure-of-rin/) L408–419 | READ_LOCATOR；单deliverable/录音组件、角色、初始制作人vs录音室制作人、文件引用与实际文件区别、studio event及消息发送条件，允许值版本及消息版本、MayBeShared关系标记；未核XML/XSD/实现许可，不把概览所有实体当必填。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://rin.ddex.net/recording-information-notification/"
+    },
+    {
+      "source": "S565@1",
+      "scope": "| S565 | DDEX [ERN 4 structure](https://kb.ddex.net/implementing-each-standard/electronic-release-notification-message-suite-(ern)/ern-4-explained/ern-4-structure/) L446–463；[版本入口](https://kb.ddex.net/implementing-each-standard/electronic-release-notification-message-suite-%28ern%29/) 仅搜索线索 | READ_LOCATOR ERN4通用结构，release/resource/deal区别、地域/用途/商业模式/时间、预购与履行、按地域撤下；4.3.x版本入口搜索线索不等精确schema，未验证具体4.3子版本或实际消息。 |",
+      "limits": "| S565 | DDEX [ERN 4 structure](https://kb.ddex.net/implementing-each-standard/electronic-release-notification-message-suite-(ern)/ern-4-explained/ern-4-structure/) L446–463；[版本入口](https://kb.ddex.net/implementing-each-standard/electronic-release-notification-message-suite-%28ern%29/) 仅搜索线索 | READ_LOCATOR ERN4通用结构，release/resource/deal区别、地域/用途/商业模式/时间、预购与履行、按地域撤下；4.3.x版本入口搜索线索不等精确schema，未验证具体4.3子版本或实际消息。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://kb.ddex.net/implementing-each-standard/electronic-release-notification-message-suite-(ern"
+    },
+    {
+      "source": "S566@1",
+      "scope": "| S566 | [Myanmar Copyright Law 2019 No.15 WIPO Lex](https://www.wipo.int/wipolex/en/legislation/details/22939) §18–20/24–28/34–41/86–89（实际HTML L262–281/308–330/366–417/583–589）；[EU IP Helpdesk 2023-11-01](https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/entry-force-new-copyright-law-myanmar-2023-11-01_en) L13；[Myanmar MOI](https://www.moi.gov.mm/moi:eng/news/12639) L29–30 | READ_LOCATOR；原2019英文文本，2023-10-31生效由两份实际报道支持（EU称Notification218/2023），未直接读通知原件、缅文对照、最新修法/判例/其他法域。按具体权利、例外、行为、合同与辖区核验；不自动认定个案或AI训练合法。R6实际重新打开英文HTML L412–417：§41(2)专为科学研究的复制、(3)专为面对面教学的复制且排除作为教学材料发布的表演和录音制品；末尾正常利用及合法利益条件。适用相关权利§37–40/42，作品权另核；不升级当前法律资格。 |",
+      "limits": "| S566 | [Myanmar Copyright Law 2019 No.15 WIPO Lex](https://www.wipo.int/wipolex/en/legislation/details/22939) §18–20/24–28/34–41/86–89（实际HTML L262–281/308–330/366–417/583–589）；[EU IP Helpdesk 2023-11-01](https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/entry-force-new-copyright-law-myanmar-2023-11-01_en) L13；[Myanmar MOI](https://www.moi.gov.mm/moi:eng/news/12639) L29–30 | READ_LOCATOR；原2019英文文本，2023-10-31生效由两份实际报道支持（EU称Notification218/2023），未直接读通知原件、缅文对照、最新修法/判例/其他法域。按具体权利、例外、行为、合同与辖区核验；不自动认定个案或AI训练合法。R6实际重新打开英文HTML L412–417：§41(2)专为科学研究的复制、(3)专为面对面教学的复制且排除作为教学材料发布的表演和录音制品；末尾正常利用及合法利益条件。适用相关权利§37–40/42，作品权另核；不升级当前法律资格。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.wipo.int/wipolex/en/legislation/details/22939"
+    },
+    {
+      "source": "S567@1",
+      "scope": "| S567 | CC [BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en) §2(a)(1)/(4)/(5),2(b),3(a),6；实际L100–115/120–130/146–155；[BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) §3(a)/(b),4 实际L123–145 | READ_LOCATOR；ND仅非商业改编制作/复制而不分享（仅依该许可），必要技术变更不构成改编，署名、其他人格权边界、违约终止/补救、另行发放不终止原许可；SA分享改编时适用同元素允许版本或兼容许可并无附加限制。具体改编法律判断、第三方权利/例外另核。 |",
+      "limits": "| S567 | CC [BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en) §2(a)(1)/(4)/(5),2(b),3(a),6；实际L100–115/120–130/146–155；[BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) §3(a)/(b),4 实际L123–145 | READ_LOCATOR；ND仅非商业改编制作/复制而不分享（仅依该许可），必要技术变更不构成改编，署名、其他人格权边界、违约终止/补救、另行发放不终止原许可；SA分享改编时适用同元素允许版本或兼容许可并无附加限制。具体改编法律判断、第三方权利/例外另核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en"
+    },
+    {
+      "source": "S568@1",
+      "scope": "| S568 | US Copyright Office [Copyright and AI Part 1 Digital Replicas, July 2024](https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf) PDF实际截图零基47/52/53（印36/41/42），正文L1028/1062–1081 | READ_LOCATOR；历史美国政策建议，限定授权时长、知情同意、到期后新使用与已依法制作内容继续发行的建议区分；非现行法或Myanmar法律。没有据此断言2026美国立法状态。 |",
+      "limits": "| S568 | US Copyright Office [Copyright and AI Part 1 Digital Replicas, July 2024](https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf) PDF实际截图零基47/52/53（印36/41/42），正文L1028/1062–1081 | READ_LOCATOR；历史美国政策建议，限定授权时长、知情同意、到期后新使用与已依法制作内容继续发行的建议区分；非现行法或Myanmar法律。没有据此断言2026美国立法状态。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf"
+    },
+    {
+      "source": "S569@1",
+      "scope": "| S569 | NIST AI RMF1.0 [Core §5 MAP/MEASURE/MANAGE](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) L155–184/205–241/258–282 | READ_LOCATOR；Map4.1第三方数据/IP风险、Measure2.10隐私风险、Manage1.1/1.3放行和风险处置、Manage3.1–3.2第三方与模型，框架而非法律或强制许可。 |",
+      "limits": "| S569 | NIST AI RMF1.0 [Core §5 MAP/MEASURE/MANAGE](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) L155–184/205–241/258–282 | READ_LOCATOR；Map4.1第三方数据/IP风险、Measure2.10隐私风险、Manage1.1/1.3放行和风险处置、Manage3.1–3.2第三方与模型，框架而非法律或强制许可。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+    },
+    {
+      "source": "S570@1",
+      "scope": "| S570 | IFPI [ISRC FAQ](https://isrc.ifpi.org/faqs) Q6–9 L51–66；[ISWC](https://www.iswc.org/iswc) L2–3 | READ_LOCATOR；已有录音转权不换ISRC、remix/edit等例、通常remaster保留而显著创造性输入可能新码；ISWC标识抽象作品与权利状态无关。未读Handbook/ISO全文，不分配真实码。 |",
+      "limits": "| S570 | IFPI [ISRC FAQ](https://isrc.ifpi.org/faqs) Q6–9 L51–66；[ISWC](https://www.iswc.org/iswc) L2–3 | READ_LOCATOR；已有录音转权不换ISRC、remix/edit等例、通常remaster保留而显著创造性输入可能新码；ISWC标识抽象作品与权利状态无关。未读Handbook/ISO全文，不分配真实码。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://isrc.ifpi.org/faqs"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K15-E-GV01-SUPPORTED-BY-K15-EV-GV01",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "RIN元数据不是权利登记或合同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV01-APPLIES-UNDER-K15-CTX-GV01",
+      "scope": "明确题设及证据条件。",
+      "limits": "RIN元数据不是权利登记或合同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV01-REQUIRES-K09-CL-MP01",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV02-SUPPORTED-BY-K15-EV-GV02",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "虚构责任，非实际授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV02-APPLIES-UNDER-K15-CTX-GV02",
+      "scope": "明确题设及证据条件。",
+      "limits": "虚构责任，非实际授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV02-REQUIRES-K09-CL-MP01",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV03-SUPPORTED-BY-K15-EV-GV03",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "RIN可记录缺失，不默认全字段。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV03-APPLIES-UNDER-K15-CTX-GV03",
+      "scope": "明确题设及证据条件。",
+      "limits": "RIN可记录缺失，不默认全字段。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV03-REQUIRES-K09-CL-MP01",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV04-SUPPORTED-BY-K15-EV-GV04",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "虚构交付清单。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV04-APPLIES-UNDER-K15-CTX-GV04",
+      "scope": "明确题设及证据条件。",
+      "limits": "虚构交付清单。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV04-REQUIRES-K09-CL-MP21",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV05-SUPPORTED-BY-K15-EV-GV05",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "非实际调度器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV05-APPLIES-UNDER-K15-CTX-GV05",
+      "scope": "明确题设及证据条件。",
+      "limits": "非实际调度器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV05-REQUIRES-K09-CL-MP21",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV06-SUPPORTED-BY-K15-EV-GV06",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "NIST风险框架非合同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV06-APPLIES-UNDER-K15-CTX-GV06",
+      "scope": "明确题设及证据条件。",
+      "limits": "NIST风险框架非合同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV06-REQUIRES-K09-CL-MP21",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV07-SUPPORTED-BY-K15-EV-GV07",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "RIN文件引用不包含文件字节。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV07-APPLIES-UNDER-K15-CTX-GV07",
+      "scope": "明确题设及证据条件。",
+      "limits": "RIN文件引用不包含文件字节。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV07-REQUIRES-K09-CL-MP25",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV08-SUPPORTED-BY-K15-EV-GV08",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "K09工程实现另域。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV08-APPLIES-UNDER-K15-CTX-GV08",
+      "scope": "明确题设及证据条件。",
+      "limits": "K09工程实现另域。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV08-REQUIRES-K09-CL-MP25",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV09-SUPPORTED-BY-K15-EV-GV09",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未重开实际DAW。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV09-APPLIES-UNDER-K15-CTX-GV09",
+      "scope": "明确题设及证据条件。",
+      "limits": "未重开实际DAW。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV09-REQUIRES-K09-CL-MP25",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV10-SUPPORTED-BY-K15-EV-GV10",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "虚构门禁，不是法律。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV10-APPLIES-UNDER-K15-CTX-GV10",
+      "scope": "明确题设及证据条件。",
+      "limits": "虚构门禁，不是法律。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV10-REQUIRES-K09-CL-MP23",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV10-REFERENCES-K10-CL-EV21",
+      "scope": "评价方法归K10；K15只负责质量门禁与授权，不代替主观评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV10-REFERENCES-K10-CL-EV48",
+      "scope": "按小损伤/中级质量任务范围选择K10评价方法；仅可选导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV11-SUPPORTED-BY-K15-EV-GV11",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际音质K10。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV11-APPLIES-UNDER-K15-CTX-GV11",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际音质K10。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV11-REQUIRES-K09-CL-MP23",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV11-REFERENCES-K10-CL-EV21",
+      "scope": "评价方法归K10；K15只负责质量门禁与授权，不代替主观评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV11-REFERENCES-K10-CL-EV48",
+      "scope": "按小损伤/中级质量任务范围选择K10评价方法；仅可选导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV12-SUPPORTED-BY-K15-EV-GV12",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV12-APPLIES-UNDER-K15-CTX-GV12",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV12-REQUIRES-K09-CL-MP23",
+      "scope": "生产对象/工程/素材身份依赖Task Pack声明的K09前提；不代表权利许可。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV12-REFERENCES-K10-CL-EV21",
+      "scope": "评价方法归K10；K15只负责质量门禁与授权，不代替主观评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV12-REFERENCES-K10-CL-EV48",
+      "scope": "按小损伤/中级质量任务范围选择K10评价方法；仅可选导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV13-SUPPORTED-BY-K15-EV-GV13",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅2019文本，个案法律待证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV13-APPLIES-UNDER-K15-CTX-GV13",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅2019文本，个案法律待证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV13-REQUIRES-K15-CL-GV01",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV13-REQUIRES-K15-CL-GV07",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV14-SUPPORTED-BY-K15-EV-GV14",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际法律和合同不在本例。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV14-APPLIES-UNDER-K15-CTX-GV14",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际法律和合同不在本例。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV14-REQUIRES-K15-CL-GV01",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV14-REQUIRES-K15-CL-GV07",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV15-SUPPORTED-BY-K15-EV-GV15",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "具体是否改编和例外另核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV15-APPLIES-UNDER-K15-CTX-GV15",
+      "scope": "明确题设及证据条件。",
+      "limits": "具体是否改编和例外另核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV15-REQUIRES-K15-CL-GV01",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV15-REQUIRES-K15-CL-GV07",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV16-SUPPORTED-BY-K15-EV-GV16",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不是美国现行法或缅甸专门法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV16-APPLIES-UNDER-K15-CTX-GV16",
+      "scope": "明确题设及证据条件。",
+      "limits": "不是美国现行法或缅甸专门法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV16-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV17-SUPPORTED-BY-K15-EV-GV17",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "项目工程门禁，不是普遍法律规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV17-APPLIES-UNDER-K15-CTX-GV17",
+      "scope": "明确题设及证据条件。",
+      "limits": "项目工程门禁，不是普遍法律规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV17-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV18-SUPPORTED-BY-K15-EV-GV18",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "CC合规不可随意撤销与声音合同不同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV18-APPLIES-UNDER-K15-CTX-GV18",
+      "scope": "明确题设及证据条件。",
+      "limits": "CC合规不可随意撤销与声音合同不同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV18-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV19-SUPPORTED-BY-K15-EV-GV19",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "风险框架不是训练法律判定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV19-APPLIES-UNDER-K15-CTX-GV19",
+      "scope": "明确题设及证据条件。",
+      "limits": "风险框架不是训练法律判定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV19-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV19-REQUIRES-K15-CL-GV17",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV20-SUPPORTED-BY-K15-EV-GV20",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际声样/匿名化证明。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV20-APPLIES-UNDER-K15-CTX-GV20",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际声样/匿名化证明。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV20-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV20-REQUIRES-K15-CL-GV17",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV21-SUPPORTED-BY-K15-EV-GV21",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实训练、遗忘或法律裁定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV21-APPLIES-UNDER-K15-CTX-GV21",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实训练、遗忘或法律裁定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV21-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV21-REQUIRES-K15-CL-GV17",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV22-SUPPORTED-BY-K15-EV-GV22",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不用真实分配码。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV22-APPLIES-UNDER-K15-CTX-GV22",
+      "scope": "明确题设及证据条件。",
+      "limits": "不用真实分配码。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV22-REQUIRES-K15-CL-GV10",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV22-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV22-REQUIRES-K15-CL-GV21",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV22-REFERENCES-K10-CL-EV27",
+      "scope": "评价报告的参考/候选/版本身份由K10管理；发行外部状态仍须独立回读。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV23-SUPPORTED-BY-K15-EV-GV23",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无DSP发布。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV23-APPLIES-UNDER-K15-CTX-GV23",
+      "scope": "明确题设及证据条件。",
+      "limits": "无DSP发布。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV23-REQUIRES-K15-CL-GV10",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV23-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV23-REQUIRES-K15-CL-GV21",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV23-REFERENCES-K10-CL-EV27",
+      "scope": "评价报告的参考/候选/版本身份由K10管理；发行外部状态仍须独立回读。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV24-SUPPORTED-BY-K15-EV-GV24",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实现发行系统。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV24-APPLIES-UNDER-K15-CTX-GV24",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实现发行系统。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV24-REQUIRES-K15-CL-GV10",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV24-REQUIRES-K15-CL-GV14",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV24-REQUIRES-K15-CL-GV21",
+      "scope": "权利/同意/数据/发行决策依赖先前已识别的主体、对象和权限；不推断授权。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV24-REFERENCES-K10-CL-EV27",
+      "scope": "评价报告的参考/候选/版本身份由K10管理；发行外部状态仍须独立回读。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV25-SUPPORTED-BY-K15-EV-GV25",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不声明XML符合。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV25-APPLIES-UNDER-K15-CTX-GV25",
+      "scope": "明确题设及证据条件。",
+      "limits": "不声明XML符合。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV25-REQUIRES-K15-CL-GV01",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV26-SUPPORTED-BY-K15-EV-GV26",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "法条限定、个案需专业复核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV26-APPLIES-UNDER-K15-CTX-GV26",
+      "scope": "明确题设及证据条件。",
+      "limits": "法条限定、个案需专业复核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV26-REQUIRES-K15-CL-GV02",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV27-SUPPORTED-BY-K15-EV-GV27",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未核实际XML字段约束。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV27-APPLIES-UNDER-K15-CTX-GV27",
+      "scope": "明确题设及证据条件。",
+      "limits": "未核实际XML字段约束。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV27-REQUIRES-K15-CL-GV03",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV28-SUPPORTED-BY-K15-EV-GV28",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "工程参数示例非行业统一。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV28-APPLIES-UNDER-K15-CTX-GV28",
+      "scope": "明确题设及证据条件。",
+      "limits": "工程参数示例非行业统一。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV28-REQUIRES-K15-CL-GV04",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV29-SUPPORTED-BY-K15-EV-GV29",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实施Task DAG平台。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV29-APPLIES-UNDER-K15-CTX-GV29",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实施Task DAG平台。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV29-REQUIRES-K15-CL-GV05",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV30-SUPPORTED-BY-K15-EV-GV30",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "假设数字非报价。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV30-APPLIES-UNDER-K15-CTX-GV30",
+      "scope": "明确题设及证据条件。",
+      "limits": "假设数字非报价。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV30-REQUIRES-K15-CL-GV06",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV31-SUPPORTED-BY-K15-EV-GV31",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际时钟K09，码规则S570。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV31-APPLIES-UNDER-K15-CTX-GV31",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际时钟K09，码规则S570。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV31-REQUIRES-K15-CL-GV07",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV32-SUPPORTED-BY-K15-EV-GV32",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际Git或DAW操作。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV32-APPLIES-UNDER-K15-CTX-GV32",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际Git或DAW操作。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV32-REQUIRES-K15-CL-GV08",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV33-SUPPORTED-BY-K15-EV-GV33",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不复制标准XML。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV33-APPLIES-UNDER-K15-CTX-GV33",
+      "scope": "明确题设及证据条件。",
+      "limits": "不复制标准XML。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV33-REQUIRES-K15-CL-GV09",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV34-SUPPORTED-BY-K15-EV-GV34",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "符号值不是真实评分。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV34-APPLIES-UNDER-K15-CTX-GV34",
+      "scope": "明确题设及证据条件。",
+      "limits": "符号值不是真实评分。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV34-REQUIRES-K15-CL-GV10",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV34-REFERENCES-K10-CL-EV21",
+      "scope": "评价方法归K10；K15只负责质量门禁与授权，不代替主观评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV34-REFERENCES-K10-CL-EV48",
+      "scope": "按小损伤/中级质量任务范围选择K10评价方法；仅可选导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV35-SUPPORTED-BY-K15-EV-GV35",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实施事务或真实hash。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV35-APPLIES-UNDER-K15-CTX-GV35",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实施事务或真实hash。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV35-REQUIRES-K15-CL-GV11",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV35-REFERENCES-K10-CL-EV21",
+      "scope": "评价方法归K10；K15只负责质量门禁与授权，不代替主观评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV35-REFERENCES-K10-CL-EV48",
+      "scope": "按小损伤/中级质量任务范围选择K10评价方法；仅可选导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV36-SUPPORTED-BY-K15-EV-GV36",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "工程安全停止非法律裁决。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV36-APPLIES-UNDER-K15-CTX-GV36",
+      "scope": "明确题设及证据条件。",
+      "limits": "工程安全停止非法律裁决。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV36-REQUIRES-K15-CL-GV12",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV36-REFERENCES-K10-CL-EV21",
+      "scope": "评价方法归K10；K15只负责质量门禁与授权，不代替主观评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV36-REFERENCES-K10-CL-EV48",
+      "scope": "按小损伤/中级质量任务范围选择K10评价方法；仅可选导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV37-SUPPORTED-BY-K15-EV-GV37",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未算真实作品保护期。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV37-APPLIES-UNDER-K15-CTX-GV37",
+      "scope": "明确题设及证据条件。",
+      "limits": "未算真实作品保护期。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV37-REQUIRES-K15-CL-GV13",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV38-SUPPORTED-BY-K15-EV-GV38",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "法条描述不是AI训练法律结论。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV38-APPLIES-UNDER-K15-CTX-GV38",
+      "scope": "明确题设及证据条件。",
+      "limits": "法条描述不是AI训练法律结论。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV38-REQUIRES-K15-CL-GV14",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV39-SUPPORTED-BY-K15-EV-GV39",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不做个案许可决定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV39-APPLIES-UNDER-K15-CTX-GV39",
+      "scope": "明确题设及证据条件。",
+      "limits": "不做个案许可决定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV39-REQUIRES-K15-CL-GV15",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV40-SUPPORTED-BY-K15-EV-GV40",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未核当前美国专项立法状态。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV40-APPLIES-UNDER-K15-CTX-GV40",
+      "scope": "明确题设及证据条件。",
+      "limits": "未核当前美国专项立法状态。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV40-REQUIRES-K15-CL-GV16",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV41-SUPPORTED-BY-K15-EV-GV41",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "没有实际声音或合同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV41-APPLIES-UNDER-K15-CTX-GV41",
+      "scope": "明确题设及证据条件。",
+      "limits": "没有实际声音或合同。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV41-REQUIRES-K15-CL-GV17",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV42-SUPPORTED-BY-K15-EV-GV42",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "历史报告建议不代实际法律。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV42-APPLIES-UNDER-K15-CTX-GV42",
+      "scope": "明确题设及证据条件。",
+      "limits": "历史报告建议不代实际法律。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV42-REQUIRES-K15-CL-GV18",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV43-SUPPORTED-BY-K15-EV-GV43",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "源资格与实际法律分开。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV43-APPLIES-UNDER-K15-CTX-GV43",
+      "scope": "明确题设及证据条件。",
+      "limits": "源资格与实际法律分开。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV43-REQUIRES-K15-CL-GV19",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV44-SUPPORTED-BY-K15-EV-GV44",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不宣称满足某具体隐私法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV44-APPLIES-UNDER-K15-CTX-GV44",
+      "scope": "明确题设及证据条件。",
+      "limits": "不宣称满足某具体隐私法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV44-REQUIRES-K15-CL-GV20",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV45-SUPPORTED-BY-K15-EV-GV45",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际unlearning或法律结论。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV45-APPLIES-UNDER-K15-CTX-GV45",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际unlearning或法律结论。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV45-REQUIRES-K15-CL-GV21",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV46-SUPPORTED-BY-K15-EV-GV46",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不分配真实标识。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV46-APPLIES-UNDER-K15-CTX-GV46",
+      "scope": "明确题设及证据条件。",
+      "limits": "不分配真实标识。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV46-REQUIRES-K15-CL-GV22",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV46-REFERENCES-K10-CL-EV27",
+      "scope": "评价报告的参考/候选/版本身份由K10管理；发行外部状态仍须独立回读。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV47-SUPPORTED-BY-K15-EV-GV47",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "ERN4通用文档非精确4.3 XSD。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV47-APPLIES-UNDER-K15-CTX-GV47",
+      "scope": "明确题设及证据条件。",
+      "limits": "ERN4通用文档非精确4.3 XSD。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV47-REQUIRES-K15-CL-GV23",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV47-REFERENCES-K10-CL-EV27",
+      "scope": "评价报告的参考/候选/版本身份由K10管理；发行外部状态仍须独立回读。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K15-E-GV48-SUPPORTED-BY-K15-EV-GV48",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际外部发布/撤下。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV48-APPLIES-UNDER-K15-CTX-GV48",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际外部发布/撤下。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K15-E-GV48-REQUIRES-K15-CL-GV24",
+      "scope": "R2扩展必须保留并细化同一D3的R1基线；非替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K15-E-GV48-REFERENCES-K10-CL-EV27",
+      "scope": "评价报告的参考/候选/版本身份由K10管理；发行外部状态仍须独立回读。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K15-E-GV01-REQUIRES-K09-CL-MP01",
+      "consumer": "K15-CL-GV01@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K15-CTX-GV01@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K15-GR-GV01@1"
+    },
+    {
+      "edge": "K15-E-GV02-REQUIRES-K09-CL-MP01",
+      "consumer": "K15-CL-GV02@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K15-CTX-GV02@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K15-GR-GV02@1"
+    },
+    {
+      "edge": "K15-E-GV03-REQUIRES-K09-CL-MP01",
+      "consumer": "K15-CL-GV03@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K15-CTX-GV03@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K15-GR-GV03@1"
+    },
+    {
+      "edge": "K15-E-GV04-REQUIRES-K09-CL-MP21",
+      "consumer": "K15-CL-GV04@1",
+      "provider": "K09-CL-MP21@1",
+      "condition": "K15-CTX-GV04@1",
+      "providerContext": "K09-CTX-MP21@1",
+      "group": "K15-GR-GV04@1"
+    },
+    {
+      "edge": "K15-E-GV05-REQUIRES-K09-CL-MP21",
+      "consumer": "K15-CL-GV05@1",
+      "provider": "K09-CL-MP21@1",
+      "condition": "K15-CTX-GV05@1",
+      "providerContext": "K09-CTX-MP21@1",
+      "group": "K15-GR-GV05@1"
+    },
+    {
+      "edge": "K15-E-GV06-REQUIRES-K09-CL-MP21",
+      "consumer": "K15-CL-GV06@1",
+      "provider": "K09-CL-MP21@1",
+      "condition": "K15-CTX-GV06@1",
+      "providerContext": "K09-CTX-MP21@1",
+      "group": "K15-GR-GV06@1"
+    },
+    {
+      "edge": "K15-E-GV07-REQUIRES-K09-CL-MP25",
+      "consumer": "K15-CL-GV07@1",
+      "provider": "K09-CL-MP25@1",
+      "condition": "K15-CTX-GV07@1",
+      "providerContext": "K09-CTX-MP25@1",
+      "group": "K15-GR-GV07@1"
+    },
+    {
+      "edge": "K15-E-GV08-REQUIRES-K09-CL-MP25",
+      "consumer": "K15-CL-GV08@1",
+      "provider": "K09-CL-MP25@1",
+      "condition": "K15-CTX-GV08@1",
+      "providerContext": "K09-CTX-MP25@1",
+      "group": "K15-GR-GV08@1"
+    },
+    {
+      "edge": "K15-E-GV09-REQUIRES-K09-CL-MP25",
+      "consumer": "K15-CL-GV09@1",
+      "provider": "K09-CL-MP25@1",
+      "condition": "K15-CTX-GV09@1",
+      "providerContext": "K09-CTX-MP25@1",
+      "group": "K15-GR-GV09@1"
+    },
+    {
+      "edge": "K15-E-GV10-REQUIRES-K09-CL-MP23",
+      "consumer": "K15-CL-GV10@1",
+      "provider": "K09-CL-MP23@1",
+      "condition": "K15-CTX-GV10@1",
+      "providerContext": "K09-CTX-MP23@1",
+      "group": "K15-GR-GV10@1"
+    },
+    {
+      "edge": "K15-E-GV11-REQUIRES-K09-CL-MP23",
+      "consumer": "K15-CL-GV11@1",
+      "provider": "K09-CL-MP23@1",
+      "condition": "K15-CTX-GV11@1",
+      "providerContext": "K09-CTX-MP23@1",
+      "group": "K15-GR-GV11@1"
+    },
+    {
+      "edge": "K15-E-GV12-REQUIRES-K09-CL-MP23",
+      "consumer": "K15-CL-GV12@1",
+      "provider": "K09-CL-MP23@1",
+      "condition": "K15-CTX-GV12@1",
+      "providerContext": "K09-CTX-MP23@1",
+      "group": "K15-GR-GV12@1"
+    },
+    {
+      "edge": "K15-E-GV13-REQUIRES-K15-CL-GV01",
+      "consumer": "K15-CL-GV13@1",
+      "provider": "K15-CL-GV01@1",
+      "condition": "K15-CTX-GV13@1",
+      "providerContext": "K15-CTX-GV01@1",
+      "group": "K15-GR-GV13@1"
+    },
+    {
+      "edge": "K15-E-GV13-REQUIRES-K15-CL-GV07",
+      "consumer": "K15-CL-GV13@1",
+      "provider": "K15-CL-GV07@1",
+      "condition": "K15-CTX-GV13@1",
+      "providerContext": "K15-CTX-GV07@1",
+      "group": "K15-GR-GV13@1"
+    },
+    {
+      "edge": "K15-E-GV14-REQUIRES-K15-CL-GV01",
+      "consumer": "K15-CL-GV14@1",
+      "provider": "K15-CL-GV01@1",
+      "condition": "K15-CTX-GV14@1",
+      "providerContext": "K15-CTX-GV01@1",
+      "group": "K15-GR-GV14@1"
+    },
+    {
+      "edge": "K15-E-GV14-REQUIRES-K15-CL-GV07",
+      "consumer": "K15-CL-GV14@1",
+      "provider": "K15-CL-GV07@1",
+      "condition": "K15-CTX-GV14@1",
+      "providerContext": "K15-CTX-GV07@1",
+      "group": "K15-GR-GV14@1"
+    },
+    {
+      "edge": "K15-E-GV15-REQUIRES-K15-CL-GV01",
+      "consumer": "K15-CL-GV15@1",
+      "provider": "K15-CL-GV01@1",
+      "condition": "K15-CTX-GV15@1",
+      "providerContext": "K15-CTX-GV01@1",
+      "group": "K15-GR-GV15@1"
+    },
+    {
+      "edge": "K15-E-GV15-REQUIRES-K15-CL-GV07",
+      "consumer": "K15-CL-GV15@1",
+      "provider": "K15-CL-GV07@1",
+      "condition": "K15-CTX-GV15@1",
+      "providerContext": "K15-CTX-GV07@1",
+      "group": "K15-GR-GV15@1"
+    },
+    {
+      "edge": "K15-E-GV16-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV16@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV16@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV16@1"
+    },
+    {
+      "edge": "K15-E-GV17-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV17@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV17@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV17@1"
+    },
+    {
+      "edge": "K15-E-GV18-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV18@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV18@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV18@1"
+    },
+    {
+      "edge": "K15-E-GV19-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV19@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV19@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV19@1"
+    },
+    {
+      "edge": "K15-E-GV19-REQUIRES-K15-CL-GV17",
+      "consumer": "K15-CL-GV19@1",
+      "provider": "K15-CL-GV17@1",
+      "condition": "K15-CTX-GV19@1",
+      "providerContext": "K15-CTX-GV17@1",
+      "group": "K15-GR-GV19@1"
+    },
+    {
+      "edge": "K15-E-GV20-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV20@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV20@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV20@1"
+    },
+    {
+      "edge": "K15-E-GV20-REQUIRES-K15-CL-GV17",
+      "consumer": "K15-CL-GV20@1",
+      "provider": "K15-CL-GV17@1",
+      "condition": "K15-CTX-GV20@1",
+      "providerContext": "K15-CTX-GV17@1",
+      "group": "K15-GR-GV20@1"
+    },
+    {
+      "edge": "K15-E-GV21-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV21@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV21@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV21@1"
+    },
+    {
+      "edge": "K15-E-GV21-REQUIRES-K15-CL-GV17",
+      "consumer": "K15-CL-GV21@1",
+      "provider": "K15-CL-GV17@1",
+      "condition": "K15-CTX-GV21@1",
+      "providerContext": "K15-CTX-GV17@1",
+      "group": "K15-GR-GV21@1"
+    },
+    {
+      "edge": "K15-E-GV22-REQUIRES-K15-CL-GV10",
+      "consumer": "K15-CL-GV22@1",
+      "provider": "K15-CL-GV10@1",
+      "condition": "K15-CTX-GV22@1",
+      "providerContext": "K15-CTX-GV10@1",
+      "group": "K15-GR-GV22@1"
+    },
+    {
+      "edge": "K15-E-GV22-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV22@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV22@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV22@1"
+    },
+    {
+      "edge": "K15-E-GV22-REQUIRES-K15-CL-GV21",
+      "consumer": "K15-CL-GV22@1",
+      "provider": "K15-CL-GV21@1",
+      "condition": "K15-CTX-GV22@1",
+      "providerContext": "K15-CTX-GV21@1",
+      "group": "K15-GR-GV22@1"
+    },
+    {
+      "edge": "K15-E-GV23-REQUIRES-K15-CL-GV10",
+      "consumer": "K15-CL-GV23@1",
+      "provider": "K15-CL-GV10@1",
+      "condition": "K15-CTX-GV23@1",
+      "providerContext": "K15-CTX-GV10@1",
+      "group": "K15-GR-GV23@1"
+    },
+    {
+      "edge": "K15-E-GV23-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV23@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV23@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV23@1"
+    },
+    {
+      "edge": "K15-E-GV23-REQUIRES-K15-CL-GV21",
+      "consumer": "K15-CL-GV23@1",
+      "provider": "K15-CL-GV21@1",
+      "condition": "K15-CTX-GV23@1",
+      "providerContext": "K15-CTX-GV21@1",
+      "group": "K15-GR-GV23@1"
+    },
+    {
+      "edge": "K15-E-GV24-REQUIRES-K15-CL-GV10",
+      "consumer": "K15-CL-GV24@1",
+      "provider": "K15-CL-GV10@1",
+      "condition": "K15-CTX-GV24@1",
+      "providerContext": "K15-CTX-GV10@1",
+      "group": "K15-GR-GV24@1"
+    },
+    {
+      "edge": "K15-E-GV24-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV24@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV24@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV24@1"
+    },
+    {
+      "edge": "K15-E-GV24-REQUIRES-K15-CL-GV21",
+      "consumer": "K15-CL-GV24@1",
+      "provider": "K15-CL-GV21@1",
+      "condition": "K15-CTX-GV24@1",
+      "providerContext": "K15-CTX-GV21@1",
+      "group": "K15-GR-GV24@1"
+    },
+    {
+      "edge": "K15-E-GV25-REQUIRES-K15-CL-GV01",
+      "consumer": "K15-CL-GV25@1",
+      "provider": "K15-CL-GV01@1",
+      "condition": "K15-CTX-GV25@1",
+      "providerContext": "K15-CTX-GV01@1",
+      "group": "K15-GR-GV25@1"
+    },
+    {
+      "edge": "K15-E-GV26-REQUIRES-K15-CL-GV02",
+      "consumer": "K15-CL-GV26@1",
+      "provider": "K15-CL-GV02@1",
+      "condition": "K15-CTX-GV26@1",
+      "providerContext": "K15-CTX-GV02@1",
+      "group": "K15-GR-GV26@1"
+    },
+    {
+      "edge": "K15-E-GV27-REQUIRES-K15-CL-GV03",
+      "consumer": "K15-CL-GV27@1",
+      "provider": "K15-CL-GV03@1",
+      "condition": "K15-CTX-GV27@1",
+      "providerContext": "K15-CTX-GV03@1",
+      "group": "K15-GR-GV27@1"
+    },
+    {
+      "edge": "K15-E-GV28-REQUIRES-K15-CL-GV04",
+      "consumer": "K15-CL-GV28@1",
+      "provider": "K15-CL-GV04@1",
+      "condition": "K15-CTX-GV28@1",
+      "providerContext": "K15-CTX-GV04@1",
+      "group": "K15-GR-GV28@1"
+    },
+    {
+      "edge": "K15-E-GV29-REQUIRES-K15-CL-GV05",
+      "consumer": "K15-CL-GV29@1",
+      "provider": "K15-CL-GV05@1",
+      "condition": "K15-CTX-GV29@1",
+      "providerContext": "K15-CTX-GV05@1",
+      "group": "K15-GR-GV29@1"
+    },
+    {
+      "edge": "K15-E-GV30-REQUIRES-K15-CL-GV06",
+      "consumer": "K15-CL-GV30@1",
+      "provider": "K15-CL-GV06@1",
+      "condition": "K15-CTX-GV30@1",
+      "providerContext": "K15-CTX-GV06@1",
+      "group": "K15-GR-GV30@1"
+    },
+    {
+      "edge": "K15-E-GV31-REQUIRES-K15-CL-GV07",
+      "consumer": "K15-CL-GV31@1",
+      "provider": "K15-CL-GV07@1",
+      "condition": "K15-CTX-GV31@1",
+      "providerContext": "K15-CTX-GV07@1",
+      "group": "K15-GR-GV31@1"
+    },
+    {
+      "edge": "K15-E-GV32-REQUIRES-K15-CL-GV08",
+      "consumer": "K15-CL-GV32@1",
+      "provider": "K15-CL-GV08@1",
+      "condition": "K15-CTX-GV32@1",
+      "providerContext": "K15-CTX-GV08@1",
+      "group": "K15-GR-GV32@1"
+    },
+    {
+      "edge": "K15-E-GV33-REQUIRES-K15-CL-GV09",
+      "consumer": "K15-CL-GV33@1",
+      "provider": "K15-CL-GV09@1",
+      "condition": "K15-CTX-GV33@1",
+      "providerContext": "K15-CTX-GV09@1",
+      "group": "K15-GR-GV33@1"
+    },
+    {
+      "edge": "K15-E-GV34-REQUIRES-K15-CL-GV10",
+      "consumer": "K15-CL-GV34@1",
+      "provider": "K15-CL-GV10@1",
+      "condition": "K15-CTX-GV34@1",
+      "providerContext": "K15-CTX-GV10@1",
+      "group": "K15-GR-GV34@1"
+    },
+    {
+      "edge": "K15-E-GV35-REQUIRES-K15-CL-GV11",
+      "consumer": "K15-CL-GV35@1",
+      "provider": "K15-CL-GV11@1",
+      "condition": "K15-CTX-GV35@1",
+      "providerContext": "K15-CTX-GV11@1",
+      "group": "K15-GR-GV35@1"
+    },
+    {
+      "edge": "K15-E-GV36-REQUIRES-K15-CL-GV12",
+      "consumer": "K15-CL-GV36@1",
+      "provider": "K15-CL-GV12@1",
+      "condition": "K15-CTX-GV36@1",
+      "providerContext": "K15-CTX-GV12@1",
+      "group": "K15-GR-GV36@1"
+    },
+    {
+      "edge": "K15-E-GV37-REQUIRES-K15-CL-GV13",
+      "consumer": "K15-CL-GV37@1",
+      "provider": "K15-CL-GV13@1",
+      "condition": "K15-CTX-GV37@1",
+      "providerContext": "K15-CTX-GV13@1",
+      "group": "K15-GR-GV37@1"
+    },
+    {
+      "edge": "K15-E-GV38-REQUIRES-K15-CL-GV14",
+      "consumer": "K15-CL-GV38@1",
+      "provider": "K15-CL-GV14@1",
+      "condition": "K15-CTX-GV38@1",
+      "providerContext": "K15-CTX-GV14@1",
+      "group": "K15-GR-GV38@1"
+    },
+    {
+      "edge": "K15-E-GV39-REQUIRES-K15-CL-GV15",
+      "consumer": "K15-CL-GV39@1",
+      "provider": "K15-CL-GV15@1",
+      "condition": "K15-CTX-GV39@1",
+      "providerContext": "K15-CTX-GV15@1",
+      "group": "K15-GR-GV39@1"
+    },
+    {
+      "edge": "K15-E-GV40-REQUIRES-K15-CL-GV16",
+      "consumer": "K15-CL-GV40@1",
+      "provider": "K15-CL-GV16@1",
+      "condition": "K15-CTX-GV40@1",
+      "providerContext": "K15-CTX-GV16@1",
+      "group": "K15-GR-GV40@1"
+    },
+    {
+      "edge": "K15-E-GV41-REQUIRES-K15-CL-GV17",
+      "consumer": "K15-CL-GV41@1",
+      "provider": "K15-CL-GV17@1",
+      "condition": "K15-CTX-GV41@1",
+      "providerContext": "K15-CTX-GV17@1",
+      "group": "K15-GR-GV41@1"
+    },
+    {
+      "edge": "K15-E-GV42-REQUIRES-K15-CL-GV18",
+      "consumer": "K15-CL-GV42@1",
+      "provider": "K15-CL-GV18@1",
+      "condition": "K15-CTX-GV42@1",
+      "providerContext": "K15-CTX-GV18@1",
+      "group": "K15-GR-GV42@1"
+    },
+    {
+      "edge": "K15-E-GV43-REQUIRES-K15-CL-GV19",
+      "consumer": "K15-CL-GV43@1",
+      "provider": "K15-CL-GV19@1",
+      "condition": "K15-CTX-GV43@1",
+      "providerContext": "K15-CTX-GV19@1",
+      "group": "K15-GR-GV43@1"
+    },
+    {
+      "edge": "K15-E-GV44-REQUIRES-K15-CL-GV20",
+      "consumer": "K15-CL-GV44@1",
+      "provider": "K15-CL-GV20@1",
+      "condition": "K15-CTX-GV44@1",
+      "providerContext": "K15-CTX-GV20@1",
+      "group": "K15-GR-GV44@1"
+    },
+    {
+      "edge": "K15-E-GV45-REQUIRES-K15-CL-GV21",
+      "consumer": "K15-CL-GV45@1",
+      "provider": "K15-CL-GV21@1",
+      "condition": "K15-CTX-GV45@1",
+      "providerContext": "K15-CTX-GV21@1",
+      "group": "K15-GR-GV45@1"
+    },
+    {
+      "edge": "K15-E-GV46-REQUIRES-K15-CL-GV22",
+      "consumer": "K15-CL-GV46@1",
+      "provider": "K15-CL-GV22@1",
+      "condition": "K15-CTX-GV46@1",
+      "providerContext": "K15-CTX-GV22@1",
+      "group": "K15-GR-GV46@1"
+    },
+    {
+      "edge": "K15-E-GV47-REQUIRES-K15-CL-GV23",
+      "consumer": "K15-CL-GV47@1",
+      "provider": "K15-CL-GV23@1",
+      "condition": "K15-CTX-GV47@1",
+      "providerContext": "K15-CTX-GV23@1",
+      "group": "K15-GR-GV47@1"
+    },
+    {
+      "edge": "K15-E-GV48-REQUIRES-K15-CL-GV24",
+      "consumer": "K15-CL-GV48@1",
+      "provider": "K15-CL-GV24@1",
+      "condition": "K15-CTX-GV48@1",
+      "providerContext": "K15-CTX-GV24@1",
+      "group": "K15-GR-GV48@1"
+    }
+  ]
+}

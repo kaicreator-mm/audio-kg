@@ -1,0 +1,709 @@
+{
+  "format": "audio-kg-domain-workflows/1",
+  "owner": "K10",
+  "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+  "workflows": [
+    {
+      "id": "K10-WF-K10.01",
+      "d2": "K10.01",
+      "title": "音高与F0/有声任务",
+      "claimRefs": [
+        "K10-CL-EV01@1",
+        "K10-CL-EV02@1",
+        "K10-CL-EV03@1",
+        "K10-CL-EV28@1",
+        "K10-CL-EV29@1",
+        "K10-CL-EV30@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.02",
+      "d2": "K10.02",
+      "title": "节拍、起音与速度评价",
+      "claimRefs": [
+        "K10-CL-EV04@1",
+        "K10-CL-EV05@1",
+        "K10-CL-EV06@1",
+        "K10-CL-EV31@1",
+        "K10-CL-EV32@1",
+        "K10-CL-EV33@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.03",
+      "d2": "K10.03",
+      "title": "和弦、调性与调式识别",
+      "claimRefs": [
+        "K10-CL-EV07@1",
+        "K10-CL-EV08@1",
+        "K10-CL-EV09@1",
+        "K10-CL-EV34@1",
+        "K10-CL-EV35@1",
+        "K10-CL-EV36@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.04",
+      "d2": "K10.04",
+      "title": "音符、乐器与多声部转录",
+      "claimRefs": [
+        "K10-CL-EV10@1",
+        "K10-CL-EV11@1",
+        "K10-CL-EV12@1",
+        "K10-CL-EV37@1",
+        "K10-CL-EV38@1",
+        "K10-CL-EV39@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.05",
+      "d2": "K10.05",
+      "title": "分段、重复与结构评价",
+      "claimRefs": [
+        "K10-CL-EV13@1",
+        "K10-CL-EV14@1",
+        "K10-CL-EV15@1",
+        "K10-CL-EV40@1",
+        "K10-CL-EV41@1",
+        "K10-CL-EV42@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.06",
+      "d2": "K10.06",
+      "title": "演唱、语言与表现评价",
+      "claimRefs": [
+        "K10-CL-EV16@1",
+        "K10-CL-EV17@1",
+        "K10-CL-EV18@1",
+        "K10-CL-EV43@1",
+        "K10-CL-EV44@1",
+        "K10-CL-EV45@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.07",
+      "d2": "K10.07",
+      "title": "音质、响度与技术质量",
+      "claimRefs": [
+        "K10-CL-EV19@1",
+        "K10-CL-EV20@1",
+        "K10-CL-EV21@1",
+        "K10-CL-EV46@1",
+        "K10-CL-EV47@1",
+        "K10-CL-EV48@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.08",
+      "d2": "K10.08",
+      "title": "音乐性、偏好与文化语境",
+      "claimRefs": [
+        "K10-CL-EV22@1",
+        "K10-CL-EV23@1",
+        "K10-CL-EV24@1",
+        "K10-CL-EV49@1",
+        "K10-CL-EV50@1",
+        "K10-CL-EV51@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K10-WF-K10.09",
+      "d2": "K10.09",
+      "title": "实验设计、统计与报告身份",
+      "claimRefs": [
+        "K10-CL-EV25@1",
+        "K10-CL-EV26@1",
+        "K10-CL-EV27@1",
+        "K10-CL-EV52@1",
+        "K10-CL-EV53@1",
+        "K10-CL-EV54@1"
+      ],
+      "steps": [
+        {
+          "id": "define-task",
+          "action": "明确评价目标、参考、粒度和允许差异",
+          "requires": [
+            "task_identity",
+            "reference_identity"
+          ],
+          "produces": [
+            "evaluation_contract"
+          ]
+        },
+        {
+          "id": "validate-observations",
+          "action": "核对时间网格、mask、voicing、标注和候选版本",
+          "requires": [
+            "evaluation_contract"
+          ],
+          "produces": [
+            "valid_observation_set"
+          ]
+        },
+        {
+          "id": "compute-scoped-metrics",
+          "action": "只计算与任务匹配的指标并保留分母/覆盖",
+          "requires": [
+            "valid_observation_set"
+          ],
+          "produces": [
+            "metric_vector"
+          ]
+        },
+        {
+          "id": "interpret-and-review",
+          "action": "分离技术指标、人类听评、音乐目标和不确定性",
+          "requires": [
+            "metric_vector"
+          ],
+          "produces": [
+            "scoped_interpretation"
+          ]
+        },
+        {
+          "id": "bind-report",
+          "action": "绑定参考/候选/数据组/实现/协议身份；变化后失效重评",
+          "requires": [
+            "scoped_interpretation"
+          ],
+          "produces": [
+            "versioned_report"
+          ]
+        }
+      ],
+      "stopConditions": [
+        "reference_missing_or_unknown",
+        "mask_or_denominator_undefined",
+        "protocol_scope_mismatch",
+        "rights_or_safety_unknown",
+        "source_group_leakage",
+        "human_evidence_required_but_absent"
+      ],
+      "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+      "output": "CANDIDATE_ONLY_NOT_ADMITTED",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "externalExecution": "UNKNOWN_NOT_EXECUTED"
+    }
+  ]
+}

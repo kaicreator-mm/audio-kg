@@ -82,7 +82,7 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    priorSubjects.set(id,q);
   }
  }
- const records=new Map(),packs=[],allEdges=[],allBindings=[],sourceQual=new Map(),edgeQual=new Map(),obligations=[],inventory=[];
+ const records=new Map(),packs=[],allEdges=[],allBindings=[],sourceQual=new Map(),edgeQual=new Map(),obligations=[],inventory=[],frozenDirectCQ=new Map(),frozenSupportCQ=new Map();
  const owned=new Map(),recordOwners=new Map(),formalK01Direct=new Map(),formalK02Direct=new Map();
  for(const e of entries){
   keys(e,["pack","manifest","manifestBlob"],"entry shape");
@@ -151,6 +151,46 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    }
   });
   fail(actual.size===disc.count,"discovery row count "+k.owner);
+  // Keep direct CQ separate from support CQ. K15 has support-only rows;
+  // an empty direct-CQ list is valid only when the frozen matrix says so.
+  if(k.owner==="K10"&&k.coverageMode==="MODULE"){
+   for(const row of bytes.toString("utf8").split("\n")){
+    if(!row.startsWith("| K10."))continue;
+    const cols=row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(cols.length>=6,"frozen K10 CQ row shape");
+    const d=cols[0],key=k.owner+"::"+d,direct=[...cols[4].matchAll(/CQ(?:0[1-9]|1[0-9]|2[0-6])/g)].map(x=>x[0]),support=[...cols[5].matchAll(/CQ(?:0[1-9]|1[0-9]|2[0-6])/g)].map(x=>x[0]);
+    fail([...actual.values()].includes(d)&&!frozenDirectCQ.has(key),"K10 frozen CQ D4 identity/uniqueness");
+    unique(direct,"duplicate K10 direct CQ");unique(support,"duplicate K10 support CQ");
+    frozenDirectCQ.set(key,direct.sort());frozenSupportCQ.set(key,support.sort());
+   }
+   fail([...frozenDirectCQ.keys()].filter(x=>x.startsWith(k.owner+"::")).length===disc.count,"K10 frozen CQ D4 coverage");
+  }
+  if(k.owner==="K15"&&k.coverageMode==="MODULE"){
+   for(const d of actual.values()){
+    const key=k.owner+"::"+d;
+    if(!frozenDirectCQ.has(key))frozenDirectCQ.set(key,[]);
+    if(!frozenSupportCQ.has(key))frozenSupportCQ.set(key,[]);
+   }
+   for(const row of bytes.toString("utf8").split("\n")){
+    if(!/^\|\s*CQ(?:0[1-9]|1[0-9]|2[0-6])\s*\|/.test(row))continue;
+    const cols=row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(cols.length>=3&&["D","S","O"].includes(cols[1]),"frozen K15 CQ row shape");
+    if(cols[1]==="O"){
+     fail(cols[2]==="—","frozen K15 optional CQ must not contain direct/support targets");
+     continue;
+    }
+    const cq=cols[0],targets=[...cols[2].matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)];
+    for(const target of targets){
+     const d=target[1].match(/K15\.\d{2}\.\d{2}\.\d{2}/)?.[0];if(!d)continue;
+     const key=k.owner+"::"+d,map=cols[1]==="D"?frozenDirectCQ:frozenSupportCQ;
+     fail([...actual.values()].includes(d)&&map.has(key),"frozen K15 CQ target must name an exact D4");
+     map.get(key).push(cq);
+    }
+   }
+   for(const [d,x] of frozenDirectCQ)if(d.startsWith(k.owner+"::")){unique(x,"duplicate frozen K15 direct CQ");frozenDirectCQ.set(d,x.sort())}
+   for(const [d,x] of frozenSupportCQ)if(d.startsWith(k.owner+"::")){unique(x,"duplicate frozen K15 support CQ");frozenSupportCQ.set(d,x.sort())}
+   fail([...frozenDirectCQ.keys()].filter(d=>d.startsWith(k.owner+"::")).length===disc.count,"K15 frozen CQ D4 coverage");
+  }
   const seen=new Set();
   for(const row of k.inventory){
    keys(row,["line","d4","disposition","claimRefs","reason"],"inventory row shape");
@@ -207,7 +247,10 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    if(r.grade==="READ_LOCATOR")fail(/READ_LOCATOR|重读|已读|实际阅读/.test(r.anchor.row),"unsupported source grade");
   }else if(r.type==="Context")fail(token(r.condition),"context");
   else if(r.type==="Claim"){
-   fail(d4.test(r.d4)&&r.d4.startsWith(r.owner+".")&&r.status==="CANDIDATE"&&p.claimKinds.includes(r.kind)&&token(r.statement)&&token(r.limits)&&list(r.cq)&&(r.cq.length>0||(["K01","K02"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"))&&r.cq.every(x=>/^CQ(?:0[1-9]|1[0-9]|2[0-6])$/.test(x))&&rowsByClaim.has(id),"claim scope/status");
+   fail(d4.test(r.d4)&&r.d4.startsWith(r.owner+".")&&r.status==="CANDIDATE"&&p.claimKinds.includes(r.kind)&&token(r.statement)&&token(r.limits)&&list(r.cq)&&r.cq.every(x=>/^CQ(?:0[1-9]|1[0-9]|2[0-6])$/.test(x))&&rowsByClaim.has(id),"claim scope/status");
+   if(["K10","K15"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"){
+    const expected=frozenDirectCQ.get(r.owner+"::"+r.d4);fail(list(expected)&&equal([...r.cq].sort(),expected),"claim CQ does not match frozen direct role "+r.d4);
+   }else fail(r.cq.length>0||(["K01","K02"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"),"claim requires direct CQ");
    unique(r.cq,"duplicate CQ");fail(get(r.context,"Context").owner===r.owner,"claim context owner");
   }else if(r.type==="Evidence"){
    fail(r.kind==="L1_RESEARCH_LOCATOR"&&token(r.limits)&&list(r.sources)&&r.sources.length>0,"evidence kind");
