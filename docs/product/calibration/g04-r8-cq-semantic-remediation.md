@@ -1,5 +1,7 @@
 # G04 R8c — CQ06/08/10/15/19/21/25 专业分问与当前合成推演
 
+> R9当前性说明：R8独立审核确认CQ25有剩余P1。此处原CQ25为历史有限主路径见证，完整当前追溯见 [R9 CQ25](g04-r9-cq25-full-evidence-trace.md)；其他CQ与原R8a证据边界不变。R9尚待required独立复审。
+
 基准 d72658ca5941df6809ec1551074c42eda4abf8f7。采用当前 [XC01-R3](g04-r8-xc01-independent-evidence.md) 及[实际七能力案例/来源记录](g04-r8-seven-role-evidence.md)（blob 1326f94277d09281075f2423116f515334ea72bc）。对照CQ正式文字（knowledge-scope blob bd6ca221041cb77227a1d7327ca34435ae96b434；capability-coverage blob 906f34aa321c2b85f78fc74975464819f37308e1）。原R7c保留为历史子例，不以排练的权限冒充离线授权。以下新增是**有限子问判定**而非普适推理器或实际检索。
 
 - CQ06：[VS64](vocal-science-r3-knowledge-cases.md#L8)、[VT39](vocal-training-r2-knowledge-cases.md#L13)、[VT28](vocal-training-r1-knowledge-cases.md#L32)区分真实目标偏差、测量错位及估计误差；持续音乐困难可由教师审查，疼痛等异常暂停求专业评估、严重呼吸困难立即求紧急帮助；不由频率诊断病因。当前观察固定且独立。
