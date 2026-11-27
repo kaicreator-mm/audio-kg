@@ -1,0 +1,1399 @@
+{
+  "status": "BUILDER_VALIDATION_ONLY",
+  "task": "#86",
+  "dispatch": "audio-kg-v010-F00-builder-g1",
+  "claimComment": 7214702464,
+  "reviewBase": "1f6a1b9ae0ce674943973512c4ee740842c19ff5",
+  "testedHead": "87a7535e76d356a8abb7175f20e01e84b77fc385",
+  "testedTree": "0bc7e67148ff067cd270cf41a940c056a1563d97",
+  "executionJob": "job_01M8E5NVBZ0053NGB3BZREA2H1",
+  "environment": "aliyun-sg Linux Node v24.21.0",
+  "method": "Authenticated full single-branch Git clone at exact integration base, then clean detached git worktree of committed tested HEAD, all commands exit0 and clean before/after; actual push same tested SHA. No actual LLM/audio/permission. Independent affected review still required.",
+  "commands": [
+    "node --check for every pilot mjs and tools/validate-knowledge.mjs/tests/knowledge/f00.test.mjs",
+    "node docs/research/l2-pilot/validate.mjs",
+    "node tests/knowledge/f00.test.mjs",
+    "node tools/validate-knowledge.mjs tests/knowledge/fixtures/controller-input.json 52af58ca049637edbe11c2cbf58141ae4311bf52 K01-PERIOD-CENTS@1"
+  ],
+  "original185Preserved": 185,
+  "pilot": {
+    "workflow": {
+      "records": 21,
+      "edges": 42,
+      "checks": 34,
+      "affected": [
+        "A04@1",
+        "A05@1",
+        "A06@1",
+        "A07@1",
+        "E-RECEIPT@2",
+        "EDITABLE@1",
+        "RESULT@1"
+      ],
+      "trace": {
+        "state": "STATIC_CANDIDATE_ONLY",
+        "primary": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07"
+        ],
+        "supports": [
+          "S-A11",
+          "S-GV02",
+          "S-V06"
+        ],
+        "evidence": [
+          "E-EST",
+          "E-OBS",
+          "E-RECEIPT"
+        ],
+        "result": {
+          "state": "STATIC_CANDIDATE_ONLY",
+          "candidate": "C/c2",
+          "report": "R2/r2",
+          "referenceId": "OBS-A-01",
+          "estimateId": "EST-2",
+          "estimateError": 0,
+          "actualGoalError": 165.00422849992202,
+          "estimatedGoalError": 165.00422849992202
+        },
+        "refs": [
+          "A01@1",
+          "S-V06@1",
+          "S-GV02@1",
+          "GRANT@1",
+          "A02@1",
+          "HOST@1",
+          "MODEL@1",
+          "A03@1",
+          "S-A11@1",
+          "CTX@1",
+          "E-OBS@1",
+          "E-EST@2",
+          "C@2",
+          "E-RECEIPT@2",
+          "ORIGINAL@1",
+          "A04@1",
+          "A05@1",
+          "A06@1",
+          "RESULT@1",
+          "EDITABLE@1",
+          "A07@1"
+        ],
+        "release": false
+      },
+      "graphDigest": "67edbcf19efc0378ad91e4b57fdf385427d9270c50c381ab8785cfd86147747f",
+      "boundedResolution": {
+        "disputed": {
+          "state": "DISPUTED",
+          "referenceHz": null,
+          "acceptedClaim": false,
+          "actualObservation": false,
+          "release": false
+        },
+        "resolved": {
+          "state": "SYNTHETIC_REFERENCE_QUALIFIED",
+          "referenceHz": 220,
+          "matched": [
+            "H-OBS-220"
+          ],
+          "notSupported": [
+            "H-OBS-200"
+          ],
+          "acceptedClaim": false,
+          "actualObservation": false,
+          "release": false
+        },
+        "rollbackPlan": {
+          "state": "PENDING_REVALIDATION",
+          "from": "C/c3",
+          "target": "C/c2",
+          "proposal": "NEW_REVISION_REQUIRED",
+          "historicalReceipt": "R2/r2",
+          "reuseHistoricalReceipt": false,
+          "requiresNewReceipt": true,
+          "requiresCurrentGrant": true,
+          "release": false,
+          "executed": false
+        }
+      },
+      "limits": "fixed actual witness projection; not general runtime or actual authorization"
+    },
+    "status": "RESEARCH_ONLY",
+    "node": "v24.21.0",
+    "checks": 189,
+    "passed": 189,
+    "results": [
+      [
+        "actual pack parses and validates",
+        true
+      ],
+      [
+        "roundtrip CENTS-FP",
+        true
+      ],
+      [
+        "roundtrip CENTS-FN",
+        true
+      ],
+      [
+        "roundtrip CENTS-RP",
+        true
+      ],
+      [
+        "roundtrip CENTS-RN",
+        true
+      ],
+      [
+        "roundtrip PITCH-FP",
+        true
+      ],
+      [
+        "roundtrip PITCH-FN",
+        true
+      ],
+      [
+        "roundtrip PITCH-RP",
+        true
+      ],
+      [
+        "roundtrip PITCH-RN",
+        true
+      ],
+      [
+        "roundtrip WINDOW-FP",
+        true
+      ],
+      [
+        "roundtrip WINDOW-FN",
+        true
+      ],
+      [
+        "roundtrip WINDOW-RP",
+        true
+      ],
+      [
+        "roundtrip WINDOW-RN",
+        true
+      ],
+      [
+        "roundtrip CENTS-BOUND",
+        true
+      ],
+      [
+        "roundtrip CENTS-UNK",
+        true
+      ],
+      [
+        "roundtrip PITCH-BOUND",
+        true
+      ],
+      [
+        "roundtrip PITCH-UNK",
+        true
+      ],
+      [
+        "roundtrip WINDOW-BOUND",
+        true
+      ],
+      [
+        "roundtrip WINDOW-UNK",
+        true
+      ],
+      [
+        "heldout eval-r1",
+        true
+      ],
+      [
+        "heldout eval-r2",
+        true
+      ],
+      [
+        "heldout eval-r3",
+        true
+      ],
+      [
+        "heldout eval-r4",
+        true
+      ],
+      [
+        "heldout eval-r5",
+        true
+      ],
+      [
+        "public F+ cents",
+        true
+      ],
+      [
+        "public F- equal Hz difference unequal ratio",
+        true
+      ],
+      [
+        "public R+ frequency inverse under given reference",
+        true
+      ],
+      [
+        "public R- lacks reference",
+        true
+      ],
+      [
+        "public PITCH-FP",
+        true
+      ],
+      [
+        "public PITCH-FN",
+        true
+      ],
+      [
+        "public PITCH-RP",
+        true
+      ],
+      [
+        "public PITCH-RN cannot infer true deviation",
+        true
+      ],
+      [
+        "public WINDOW-FP",
+        true
+      ],
+      [
+        "public WINDOW-FN no extra observation",
+        true
+      ],
+      [
+        "public WINDOW-RP partial reverse",
+        true
+      ],
+      [
+        "public WINDOW-RN insufficient reverse",
+        true
+      ],
+      [
+        "invalid frequency",
+        true
+      ],
+      [
+        "wrong event",
+        true
+      ],
+      [
+        "wrong independent clock",
+        true
+      ],
+      [
+        "wrong estimate window",
+        true
+      ],
+      [
+        "wrong reference kind",
+        true
+      ],
+      [
+        "missing musical target",
+        true
+      ],
+      [
+        "same observation different grid",
+        true
+      ],
+      [
+        "complex or unqualified one-sided bins",
+        true
+      ],
+      [
+        "invalid fft length",
+        true
+      ],
+      [
+        "reverse multiple windows",
+        true
+      ],
+      [
+        "historical alias",
+        true
+      ],
+      [
+        "split not equivalent",
+        true
+      ],
+      [
+        "unregistered route unknown",
+        true
+      ],
+      [
+        "retrieval CQ01",
+        true
+      ],
+      [
+        "no heldout content CQ01",
+        true
+      ],
+      [
+        "retrieval CQ06",
+        true
+      ],
+      [
+        "no heldout content CQ06",
+        true
+      ],
+      [
+        "retrieval CQ07",
+        true
+      ],
+      [
+        "no heldout content CQ07",
+        true
+      ],
+      [
+        "retrieval CQ21",
+        true
+      ],
+      [
+        "no heldout content CQ21",
+        true
+      ],
+      [
+        "retrieval CQ25",
+        true
+      ],
+      [
+        "no heldout content CQ25",
+        true
+      ],
+      [
+        "eval id not retrievable",
+        true
+      ],
+      [
+        "unmatched query explicitly unknown",
+        true
+      ],
+      [
+        "public-only tree excludes input/rubric",
+        true
+      ],
+      [
+        "public process CQ01",
+        true
+      ],
+      [
+        "no unrelated workflow CQ01",
+        true
+      ],
+      [
+        "public process CQ06",
+        true
+      ],
+      [
+        "no unrelated workflow CQ06",
+        true
+      ],
+      [
+        "public process CQ07",
+        true
+      ],
+      [
+        "no unrelated workflow CQ07",
+        true
+      ],
+      [
+        "public process CQ21",
+        true
+      ],
+      [
+        "public typed workflow CQ21",
+        true
+      ],
+      [
+        "actual public exported graph requery CQ21",
+        true
+      ],
+      [
+        "public process CQ25",
+        true
+      ],
+      [
+        "public typed workflow CQ25",
+        true
+      ],
+      [
+        "actual public exported graph requery CQ25",
+        true
+      ],
+      [
+        "public process K05.07.01.05",
+        true
+      ],
+      [
+        "no unrelated workflow K05.07.01.05",
+        true
+      ],
+      [
+        "public process CL-PITCH@1",
+        true
+      ],
+      [
+        "no unrelated workflow CL-PITCH@1",
+        true
+      ],
+      [
+        "public process CL-WINDOW@1",
+        true
+      ],
+      [
+        "no unrelated workflow CL-WINDOW@1",
+        true
+      ],
+      [
+        "public process eval-r1",
+        true
+      ],
+      [
+        "no unrelated workflow eval-r1",
+        true
+      ],
+      [
+        "reject tampered authority file qualification-manifest.json",
+        true
+      ],
+      [
+        "reject tampered authority file semantic-profile.json",
+        true
+      ],
+      [
+        "duplicate record",
+        true
+      ],
+      [
+        "wrong owner",
+        true
+      ],
+      [
+        "wrong topic",
+        true
+      ],
+      [
+        "unsupported accepted",
+        true
+      ],
+      [
+        "claim missing condition",
+        true
+      ],
+      [
+        "source row forged",
+        true
+      ],
+      [
+        "source blob forged",
+        true
+      ],
+      [
+        "source unauthorized import",
+        true
+      ],
+      [
+        "limited source grade promotion",
+        true
+      ],
+      [
+        "source dangling",
+        true
+      ],
+      [
+        "evidence wrong predicate",
+        true
+      ],
+      [
+        "evidence self support",
+        true
+      ],
+      [
+        "unsupported inverse edge",
+        true
+      ],
+      [
+        "dangling revision",
+        true
+      ],
+      [
+        "duplicate edge",
+        true
+      ],
+      [
+        "dependency cycle",
+        true
+      ],
+      [
+        "missing source edge",
+        true
+      ],
+      [
+        "wrong context",
+        true
+      ],
+      [
+        "wrong primary binding",
+        true
+      ],
+      [
+        "generic D2 binding",
+        true
+      ],
+      [
+        "duplicate binding",
+        true
+      ],
+      [
+        "missing reverse negative",
+        true
+      ],
+      [
+        "unverified observed case",
+        true
+      ],
+      [
+        "private assessment field",
+        true
+      ],
+      [
+        "illegal whole slot alias",
+        true
+      ],
+      [
+        "swap migration role",
+        true
+      ],
+      [
+        "drop migration target",
+        true
+      ],
+      [
+        "stale migration status",
+        true
+      ],
+      [
+        "RV01 fabricated locator version and author",
+        true
+      ],
+      [
+        "RV01 substring URI",
+        true
+      ],
+      [
+        "RV01 false statement same revision",
+        true
+      ],
+      [
+        "RV01 false context same revision",
+        true
+      ],
+      [
+        "RV01 false case same revision",
+        true
+      ],
+      [
+        "RV01 coordinated statement condition case",
+        true
+      ],
+      [
+        "RV01 unqualified new claim revision",
+        true
+      ],
+      [
+        "RV01 same-revision evidence scope drift",
+        true
+      ],
+      [
+        "RV01 stale source revision",
+        true
+      ],
+      [
+        "RV01 fabricate date while locator unchanged",
+        true
+      ],
+      [
+        "RV01 changed case input same revision",
+        true
+      ],
+      [
+        "RV02 both H edges and all support bindings deleted",
+        true
+      ],
+      [
+        "RV02 window H edge and support bindings deleted",
+        true
+      ],
+      [
+        "RV02 one view missing support",
+        true
+      ],
+      [
+        "RV02 downgrade H to O",
+        true
+      ],
+      [
+        "RV02 stale provider ref",
+        true
+      ],
+      [
+        "RV02 dependency condition mismatch",
+        true
+      ],
+      [
+        "RV02 binding condition mismatch",
+        true
+      ],
+      [
+        "RV02 precise H closure K05.07.01.05",
+        true
+      ],
+      [
+        "RV02 scoped support evidence K05.07.01.05",
+        true
+      ],
+      [
+        "RV02 precise H closure CL-PITCH@1",
+        true
+      ],
+      [
+        "RV02 scoped support evidence CL-PITCH@1",
+        true
+      ],
+      [
+        "RV02 precise H closure CQ06",
+        true
+      ],
+      [
+        "RV02 scoped support evidence CQ06",
+        true
+      ],
+      [
+        "RV02 precise H closure CQ25",
+        true
+      ],
+      [
+        "RV02 scoped support evidence CQ25",
+        true
+      ],
+      [
+        "RV02 O does not expand closure",
+        true
+      ],
+      [
+        "RV02 optional navigation removal not mandatory failure",
+        true
+      ],
+      [
+        "RV01 alternate PDF provenance distinct from original publisher",
+        true
+      ],
+      [
+        "RV01 positive qualified S022",
+        true
+      ],
+      [
+        "RV04 detached prior result cannot mutate next source/edge/anchor/case projection",
+        true
+      ],
+      [
+        "RV04 caller pack and sources preserved",
+        true
+      ],
+      [
+        "RV04 exported type profile deeply frozen",
+        true
+      ],
+      [
+        "RV04 second in-process precise H retrieval immutable",
+        true
+      ],
+      [
+        "R8a actual replay",
+        true
+      ],
+      [
+        "R9 actual replay",
+        true
+      ],
+      [
+        "bounded offline alternative",
+        true
+      ],
+      [
+        "bounded revision failure and revalidation",
+        true
+      ],
+      [
+        "bounded failure prohibits release",
+        true
+      ],
+      [
+        "CQ25 seven stages",
+        true
+      ],
+      [
+        "CQ25 support/evidence",
+        true
+      ],
+      [
+        "pilot calculation matches actual trace",
+        true
+      ],
+      [
+        "CQ25 actual knowledge route",
+        true
+      ],
+      [
+        "workflow: complete exported graph roundtrip",
+        true
+      ],
+      [
+        "workflow: export without permission epoch refuses",
+        true
+      ],
+      [
+        "workflow: export without permission status refuses",
+        true
+      ],
+      [
+        "workflow: revocation precedes stale revision",
+        true
+      ],
+      [
+        "workflow: typed graph roundtrip full route",
+        true
+      ],
+      [
+        "workflow: primary and support reverse discovery",
+        true
+      ],
+      [
+        "workflow: CQ21 actual dependent invalidation",
+        true
+      ],
+      [
+        "workflow: old receipt cannot qualify new candidate",
+        true
+      ],
+      [
+        "workflow: grant revoked stops",
+        true
+      ],
+      [
+        "workflow: grant epoch not role authority",
+        true
+      ],
+      [
+        "workflow: unknown authority not allowed",
+        true
+      ],
+      [
+        "workflow: wrong complete result",
+        true
+      ],
+      [
+        "workflow: partial result",
+        true
+      ],
+      [
+        "workflow: missing observation node",
+        true
+      ],
+      [
+        "workflow: missing receipt dependency",
+        true
+      ],
+      [
+        "workflow: missing per-event grant",
+        true
+      ],
+      [
+        "workflow: role as grant",
+        true
+      ],
+      [
+        "workflow: forged observation with recalculated digest",
+        true
+      ],
+      [
+        "workflow: forged candidate with recalculated digest",
+        true
+      ],
+      [
+        "workflow: wrong version edge",
+        true
+      ],
+      [
+        "workflow: wrong relation direction",
+        true
+      ],
+      [
+        "workflow: duplicate typed edge",
+        true
+      ],
+      [
+        "workflow: extra unregistered authority",
+        true
+      ],
+      [
+        "workflow: forged support case",
+        true
+      ],
+      [
+        "workflow: conflicting observations without independent reference remain disputed",
+        true
+      ],
+      [
+        "workflow: single unsupported observation remains unknown",
+        true
+      ],
+      [
+        "workflow: fixed synthetic independent reference distinguishes hypotheses",
+        true
+      ],
+      [
+        "workflow: forged independent observation cannot resolve dispute",
+        true
+      ],
+      [
+        "workflow: different observation window not same dispute",
+        true
+      ],
+      [
+        "workflow: rollback plan preserves old subject and demands new receipt",
+        true
+      ],
+      [
+        "workflow: rollback revoke stops",
+        true
+      ],
+      [
+        "workflow: rollback unknown grant refuses",
+        true
+      ],
+      [
+        "workflow: rollback fabricated historical content refuses",
+        true
+      ],
+      [
+        "workflow: rollback old receipt does not qualify new revision",
+        true
+      ]
+    ],
+    "records": 35,
+    "bindings": 30,
+    "heldout": 5,
+    "replayed": {
+      "xc": 70,
+      "r9": 44
+    },
+    "trace": {
+      "state": "STATIC_CANDIDATE_ONLY",
+      "primary": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "support": [
+        "S-V06",
+        "S-GV02",
+        "S-A11"
+      ],
+      "evidence": [
+        "E-OBS",
+        "E-EST",
+        "E-RECEIPT"
+      ],
+      "result": {
+        "state": "STATIC_CANDIDATE_ONLY",
+        "candidate": "C/c2",
+        "report": "R2/r2",
+        "referenceId": "OBS-A-01",
+        "estimateId": "EST-2",
+        "estimateError": 0,
+        "actualGoalError": 165.00422849992202,
+        "estimatedGoalError": 165.00422849992202
+      }
+    },
+    "limits": [
+      "no actual LLM/audio/tool/permission",
+      "only exercised relationship subset",
+      "no production acceptance/DB",
+      "no exhaustive migration"
+    ]
+  },
+  "formal": {
+    "status": "CANDIDATE_STRUCTURE_ONLY",
+    "node": "v24.21.0",
+    "checks": 65,
+    "passed": 65,
+    "results": [
+      [
+        "fixed controller identity",
+        true
+      ],
+      [
+        "two actual anchored fixture packs",
+        true
+      ],
+      [
+        "fixture not silently formal",
+        true
+      ],
+      [
+        "precise actual cross-owner H closure",
+        true
+      ],
+      [
+        "provider contexts and limits explicit",
+        true
+      ],
+      [
+        "all evidence and source qualification exposed",
+        true
+      ],
+      [
+        "O navigation does not expand or infer converse",
+        true
+      ],
+      [
+        "D4 multiple distinct conditional claims",
+        true
+      ],
+      [
+        "CQ roots distinct from H support",
+        true
+      ],
+      [
+        "single authority dual case binding",
+        true
+      ],
+      [
+        "actual unknown L1 slots not promoted",
+        true
+      ],
+      [
+        "unknown exact query",
+        true
+      ],
+      [
+        "mutable consumer projections cannot change authority",
+        true
+      ],
+      [
+        "actual cents and period composition arithmetic",
+        true
+      ],
+      [
+        "actual phase and reverse family",
+        true
+      ],
+      [
+        "actual allowlisted CLI on separate tree",
+        true
+      ],
+      [
+        "heldout namespace not queryable",
+        true
+      ],
+      [
+        "wrong controller expected hash rejected",
+        true
+      ],
+      [
+        "changed controller index rejected before input",
+        true
+      ],
+      [
+        "changed pack with same qualification",
+        true
+      ],
+      [
+        "changed qualification same controller pin",
+        true
+      ],
+      [
+        "changed prior registry same pin",
+        true
+      ],
+      [
+        "profile tamper",
+        true
+      ],
+      [
+        "frozen source bytes tamper",
+        true
+      ],
+      [
+        "frozen discovery bytes tamper",
+        true
+      ],
+      [
+        "exact source URI not substring",
+        true
+      ],
+      [
+        "forged alternate access URL",
+        true
+      ],
+      [
+        "forged source anchor row",
+        true
+      ],
+      [
+        "unregistered source license",
+        true
+      ],
+      [
+        "source metadata same immutable revision",
+        true
+      ],
+      [
+        "coordinated same revision statement context case",
+        true
+      ],
+      [
+        "changed evidence limits same immutable revision",
+        true
+      ],
+      [
+        "claim cannot self-promote accepted",
+        true
+      ],
+      [
+        "wrong professional owner",
+        true
+      ],
+      [
+        "duplicate stable current identity",
+        true
+      ],
+      [
+        "duplicate exact identity",
+        true
+      ],
+      [
+        "unknown disposition cannot admit claim",
+        true
+      ],
+      [
+        "wrong discovery row",
+        true
+      ],
+      [
+        "duplicate inventory row",
+        true
+      ],
+      [
+        "missing inventory claim",
+        true
+      ],
+      [
+        "wrong source ref",
+        true
+      ],
+      [
+        "unsupported source linked to evidence",
+        true
+      ],
+      [
+        "wrong required context",
+        true
+      ],
+      [
+        "wrong provider revision",
+        true
+      ],
+      [
+        "coordinated mandatory edge and binding deletion",
+        true
+      ],
+      [
+        "mandatory support binding deletion",
+        true
+      ],
+      [
+        "H downgraded to O",
+        true
+      ],
+      [
+        "H missing explicit scoped obligation",
+        true
+      ],
+      [
+        "invalid inverse edge",
+        true
+      ],
+      [
+        "self support",
+        true
+      ],
+      [
+        "H cycle",
+        true
+      ],
+      [
+        "missing source support",
+        true
+      ],
+      [
+        "duplicate edge",
+        true
+      ],
+      [
+        "missing reverse negative view",
+        true
+      ],
+      [
+        "wrong primary target",
+        true
+      ],
+      [
+        "duplicate primary binding",
+        true
+      ],
+      [
+        "binding condition mismatch",
+        true
+      ],
+      [
+        "actual observation not synthetic",
+        true
+      ],
+      [
+        "private rubric outer field rejected",
+        true
+      ],
+      [
+        "explicit disputed historical routed rows not admitted",
+        true
+      ],
+      [
+        "actual full L1 inventory row accounting in isolated test only",
+        true
+      ],
+      [
+        "formal module missing actual row",
+        true
+      ],
+      [
+        "rewiring prior group without new revision rejected",
+        true
+      ],
+      [
+        "explicit new source and evidence revisions remain candidate only",
+        true
+      ],
+      [
+        "stale older source revision",
+        true
+      ]
+    ],
+    "summary": {
+      "status": "CANDIDATE_STRUCTURE_ONLY",
+      "packs": [
+        {
+          "owner": "K01",
+          "coverageMode": "FIXTURE_SUBSET",
+          "packBlob": "ad8374c540bf1b87d135b2665c6d1a52cf5bcbe7",
+          "manifestBlob": "e3163af4cd9e1ff77a304eff39b3308d946003e3"
+        },
+        {
+          "owner": "K07",
+          "coverageMode": "FIXTURE_SUBSET",
+          "packBlob": "d9068a4e8d778f80defbf7a566e1151c9e58229f",
+          "manifestBlob": "707ce219216fff0980edd3b769087cf2056a8978"
+        }
+      ],
+      "counts": {
+        "records": 42,
+        "claims": 4,
+        "edges": 12,
+        "bindings": 42,
+        "inventory": 5
+      },
+      "unresolved": [
+        {
+          "line": 30,
+          "d4": "K01.02.06.02",
+          "disposition": "UNKNOWN",
+          "claimRefs": [],
+          "reason": "EVIDENCE_OPEN；缺原生术语/律制证据，不能从少数示例生成完整律制。",
+          "owner": "K01",
+          "discovery": {
+            "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+            "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+            "line": 30
+          }
+        },
+        {
+          "line": 193,
+          "d4": "K01.07.03.01",
+          "disposition": "UNKNOWN",
+          "claimRefs": [],
+          "reason": "RESIDUAL_OPEN；广义历史曲式需求仍缺精确主目标，不以泛例替代。",
+          "owner": "K01",
+          "discovery": {
+            "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+            "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+            "line": 193
+          }
+        }
+      ],
+      "acceptedClaims": 0
+    },
+    "limits": [
+      "test-only candidate fixtures, no formal population",
+      "externally pinned identity is not automated truth or independent admission",
+      "prior identities require controller-supplied current checkpoint when revisions exist",
+      "only implemented W1 relation/type subset",
+      "no LLM, real audio, permission, production database/runtime"
+    ]
+  },
+  "query": {
+    "rootIds": [
+      "K01-PERIOD-CENTS@1"
+    ],
+    "claims": [
+      {
+        "ref": "K01-PERIOD-CENTS@1",
+        "selection": "QUERY_ROOT"
+      },
+      {
+        "ref": "K01-CENTS@1",
+        "selection": "REQUIRED_SUPPORT"
+      },
+      {
+        "ref": "K07-FREQ@1",
+        "selection": "REQUIRED_SUPPORT"
+      }
+    ],
+    "acceptedClaims": 0
+  },
+  "identity": [
+    {
+      "file": "docs/research/l2-pilot/assessment-input.json",
+      "blob": "b48530ea4472167d1537292f13d86b5d8842816f",
+      "sha256": "21d0617c4f9831f3e88504f0221a553d25ddc4c5ef48613eaa91f597a6acc55a"
+    },
+    {
+      "file": "docs/research/l2-pilot/assessment.json",
+      "blob": "5b9d24d44c547be0e1cf444d30e240eab3660353",
+      "sha256": "ce88c403a42bf5eb267baf0e6c93b97d173ca078510f97fa49aef53b926a3cf7"
+    },
+    {
+      "file": "docs/research/l2-pilot/knowledge-pilot.mjs",
+      "blob": "409ef51f20bf030752a1798d6879cd3e342e7063",
+      "sha256": "775308cc1d84024fcb66a6f0e59a94fea7b354a168a4dab9c9480fdec071b783"
+    },
+    {
+      "file": "docs/research/l2-pilot/pack.json",
+      "blob": "ff146cdac2a84424e1da6af70c7cbdee9e3394b8",
+      "sha256": "45831c5f231de4365b0f2d5c2b9a4dc8674db3c70e74df50e13e2ee40b62d7a5"
+    },
+    {
+      "file": "docs/research/l2-pilot/qualification-manifest.json",
+      "blob": "e1580c7c708881ddf7c677589d0485109e14acc0",
+      "sha256": "fdfeaecb02a5cc8d3ab979067855c82aa6bceb5b318cba2c85ba2ea392ca1738"
+    },
+    {
+      "file": "docs/research/l2-pilot/retrieve.mjs",
+      "blob": "efea6e226c9cd47c3a4056eea87a635681548f56",
+      "sha256": "8404c149a4539ef6bf6c1577941d7e89f34478415c88f2de88ee7a0e32572be0"
+    },
+    {
+      "file": "docs/research/l2-pilot/semantic-profile.json",
+      "blob": "f5e8561389a762389ec5bbb99d8c502a45a37d28",
+      "sha256": "ccce1c6f9750a6539ac8dd1e5d4119b263df548062eb961a43c36d80cf6d37e0"
+    },
+    {
+      "file": "docs/research/l2-pilot/sources.json",
+      "blob": "96ea0bf814a2a2fd9d77e8ac095b0f60791a6e19",
+      "sha256": "2b46a3c03a9c0108472764a57b336accf4dee32c001a7e671d356aca70ad3b27"
+    },
+    {
+      "file": "docs/research/l2-pilot/validate.mjs",
+      "blob": "5a173a217158f70ee9884124b7e834b067295b0c",
+      "sha256": "4841b8c6fee769a6dbec457f5b5bfc7f5a0fd385ffd554a055f72c88d3dd418a"
+    },
+    {
+      "file": "docs/research/l2-pilot/witness-pilot.mjs",
+      "blob": "0dd4ffc0b5d286129c508eabf4945df1cfbe9cbd",
+      "sha256": "87fe8b1e8ee164388dee06e98cd9b8d54bc2ac4328d3c34ddb782c57fcd86fd1"
+    },
+    {
+      "file": "docs/research/l2-pilot/workflow-pilot.mjs",
+      "blob": "ed42136c26b8453128c078d1961532268d15c357",
+      "sha256": "0b298113d83202842d27357545329adfa4e0879ae1eb26204cd7cf5886bc7af3"
+    },
+    {
+      "file": "ontology/knowledge-profile.json",
+      "blob": "56f7b42234a37f58dce765d3c24eef5bd3d1c073",
+      "sha256": "6d37634d23b32c5520ab030c213a15c1e0aa7cb42ab026a7f5b2c6dc00b2009b"
+    },
+    {
+      "file": "tests/knowledge/f00.test.mjs",
+      "blob": "a26a56ad5b90e40018a01b7daf0c23ca3e513013",
+      "sha256": "e53d7502884556daaf3756b0157851ec8817ec5db6357a755185032344621154"
+    },
+    {
+      "file": "tests/knowledge/fixtures/K01-candidate.json",
+      "blob": "ad8374c540bf1b87d135b2665c6d1a52cf5bcbe7",
+      "sha256": "7b2ba1dfa1e8ea6d207463ae9438121d45b94afe81352b84092153589cbce20f"
+    },
+    {
+      "file": "tests/knowledge/fixtures/K01-qualification.json",
+      "blob": "e3163af4cd9e1ff77a304eff39b3308d946003e3",
+      "sha256": "e644edcd4406f4f477c4e5f3db6f61dd5dedfb417fc3a53721d91d1be222cf1b"
+    },
+    {
+      "file": "tests/knowledge/fixtures/K07-candidate.json",
+      "blob": "d9068a4e8d778f80defbf7a566e1151c9e58229f",
+      "sha256": "f0c7d71c114317c8b303968c6e07de9d9a5f06b3712cacb4d3f72b020bb2b83c"
+    },
+    {
+      "file": "tests/knowledge/fixtures/K07-qualification.json",
+      "blob": "707ce219216fff0980edd3b769087cf2056a8978",
+      "sha256": "2b064611af0a4e61c800ea8bf133a9c8a633bf998a0948f0ef14f4476c86c414"
+    },
+    {
+      "file": "tests/knowledge/fixtures/controller-input.json",
+      "blob": "52af58ca049637edbe11c2cbf58141ae4311bf52",
+      "sha256": "c66da59a31d379924042321b41d8ff6597b0c95abc4cef0088ff938a9d7788bf"
+    },
+    {
+      "file": "tests/knowledge/fixtures/prior-identities.json",
+      "blob": "2b53805d1bbc2e9ced4b8d532d182b71a459daff",
+      "sha256": "d33b06bda31971c313fef8d5fb116605192e019c963fe7c43ac765e98866036f"
+    },
+    {
+      "file": "tools/validate-knowledge.mjs",
+      "blob": "eb8cb5715cb7943cd67758577b8363131047083d",
+      "sha256": "b1dc5accd281c39016044d8536557da9d31cb07e32fc50fd507e8ac6d7773fb8"
+    }
+  ],
+  "priorFailures": [
+    {
+      "job": "job_01M8E5J9P600MARKT2B50DMQ45",
+      "exit": 1,
+      "cause": "SyntaxError duplicate local identifier m in test program",
+      "repair": "distinct names for missing row pack/manifest, reran all original and new tests; actual job job_01M8E5JPQM001ZTXRPKERB2HCG"
+    }
+  ],
+  "limitations": [
+    "No actual formal module population/accepted claims, only candidate fixtures",
+    "235 rows full coverage probe in temporary test tree only; no professional disposition of all rows",
+    "No generic production or all logical types/relations; future families and domain-specific semantic tests required",
+    "Qualification and history pins are external controller/reviewer responsibility, not semantic truth or actual acceptance",
+    "No real LLM validation yet; T07 separate four-arm experiment, dh-deepseek-api authorized only as needed"
+  ]
+}

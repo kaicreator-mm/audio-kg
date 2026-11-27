@@ -2,7 +2,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import {spawnSync} from "node:child_process";
-import {read,json,clone,eq,blob,insist,idref,validate,evaluate,retrieve,route,close,dir} from "./knowledge-pilot.mjs";
+import {read,json,clone,eq,blob,insist,idref,validate,evaluate,retrieve,route,close,dir,profile} from "./knowledge-pilot.mjs";
 import {runWorkflowPilot} from "./workflow-pilot.mjs";
 import {loadActualWitness} from "./witness-pilot.mjs";
 const cal="docs/product/calibration/";
@@ -130,6 +130,22 @@ test("RV02 optional navigation removal not mandatory failure",validate(withoutO,
 const src=retrieve(pack,sources,"CL-PITCH@1").claims[0].evidence.flatMap(e=>e.sources).find(s=>s.id==="S413@2");
 test("RV01 alternate PDF provenance distinct from original publisher",src.author==="Patel et al."&&src.publicationDate==="2018"&&src.version==="UNKNOWN"&&src.qualification.accessedUri!==src.uri&&src.qualification.locatorKind==="L1_ALTERNATE_PDF_LOCATOR");
 test("RV01 positive qualified S022",retrieve(pack,sources,"CL-CENTS@1").claims[0].evidence[0].sources[0].uri==="https://newt.phys.unsw.edu.au/jw/notes.html");
+// G06-R2-RV04: reproduce actual independent mutation, plus adjacent result aliases.
+const beforeInput=clone({pack,sources}), first=retrieve(pack,sources,"CL-CENTS@1"), pristine=clone(first);
+first.claims[0].evidence[0].sources[0].qualification.scope="FORGED_SCOPE";
+first.claims[0].evidence[0].relation.qualification.limits="FORGED_EDGE";
+first.claims[0].evidence[0].anchor.row="FORGED_ROW";
+first.claims[0].cases[0].example.reference=-1;
+first.claims[0].cases[0].condition.condition="FORGED_CONDITION";
+test("RV04 detached prior result cannot mutate next source/edge/anchor/case projection",eq(retrieve(pack,sources,"CL-CENTS@1"),pristine));
+test("RV04 caller pack and sources preserved",eq({pack,sources},beforeInput));
+let profileRejected=false;
+try{profile.knowledge.relationshipTypes.requires.meaning="FORGED_PROFILE";}catch{profileRejected=true;}
+test("RV04 exported type profile deeply frozen",profileRejected&&Object.isFrozen(profile.knowledge.relationshipTypes.requires)&&profile.knowledge.relationshipTypes.requires.meaning!=="FORGED_PROFILE");
+const pitchBefore=retrieve(pack,sources,"CL-PITCH@1"),pitchNext=clone(pitchBefore);
+pitchBefore.claims[0].relations.find(r=>r.type==="requires").qualification.scope="FORGED_DEPENDENCY";
+pitchBefore.claims[0].relations.find(r=>r.type==="requires").targetContext.condition="FORGED_PROVIDER_CONTEXT";
+test("RV04 second in-process precise H retrieval immutable",eq(retrieve(pack,sources,"CL-PITCH@1"),pitchNext));
 // Re-execute actual frozen G04 witness, not its logged output. Integrate its result as a bounded CQ25 trace.
 const {witness,routeData,support}=loadActualWitness();
 test("R8a actual replay",witness.old.fixtures.length===70&&witness.old.fixtures.every(x=>x[1]===x[2]));

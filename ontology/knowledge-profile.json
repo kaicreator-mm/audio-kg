@@ -1,0 +1,150 @@
+{
+  "format": "audio-kg-knowledge-profile/1",
+  "status": "F00_CANDIDATE_VALIDATION_PROFILE",
+  "authority": {
+    "l1Commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+    "ledgerFile": "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+    "ledgerBlob": "cb9f75a23a65bd5b12ddefdd62ab31f38b219f45"
+  },
+  "recordFields": {
+    "Source": [
+      "id",
+      "revision",
+      "type",
+      "sourceId",
+      "title",
+      "author",
+      "version",
+      "publicationDate",
+      "accessDate",
+      "uri",
+      "locator",
+      "grade",
+      "rights",
+      "anchor"
+    ],
+    "Context": [
+      "id",
+      "revision",
+      "type",
+      "owner",
+      "condition"
+    ],
+    "Claim": [
+      "id",
+      "revision",
+      "type",
+      "owner",
+      "d4",
+      "kind",
+      "statement",
+      "context",
+      "status",
+      "limits",
+      "cq"
+    ],
+    "Evidence": [
+      "id",
+      "revision",
+      "type",
+      "owner",
+      "kind",
+      "sources",
+      "anchor",
+      "limits"
+    ],
+    "CaseGroup": [
+      "id",
+      "revision",
+      "type",
+      "owner",
+      "d4",
+      "claim",
+      "kind"
+    ],
+    "CaseView": [
+      "id",
+      "revision",
+      "type",
+      "owner",
+      "group",
+      "direction",
+      "polarity",
+      "context",
+      "question",
+      "example",
+      "explanation",
+      "limits",
+      "evidenceKind"
+    ]
+  },
+  "relations": {
+    "supported_by": {
+      "from": "Claim",
+      "to": "Evidence",
+      "meaning": "scoped candidate support, not truth",
+      "required": true
+    },
+    "applies_under": {
+      "from": "Claim",
+      "to": "Context",
+      "meaning": "context must hold",
+      "required": true
+    },
+    "requires": {
+      "from": "Claim",
+      "to": "Claim",
+      "meaning": "H: required knowledge discovery, not proof of satisfied conditions",
+      "required": true
+    },
+    "references": {
+      "from": "Claim",
+      "to": "Claim",
+      "meaning": "O: optional navigation, no logical converse",
+      "required": false
+    }
+  },
+  "bindingRoles": [
+    "PRIMARY_TARGET",
+    "REQUIRES"
+  ],
+  "coreViews": [
+    [
+      "FORWARD",
+      "POSITIVE"
+    ],
+    [
+      "FORWARD",
+      "NEGATIVE"
+    ],
+    [
+      "REVERSE",
+      "POSITIVE"
+    ],
+    [
+      "REVERSE",
+      "NEGATIVE"
+    ]
+  ],
+  "dispositions": [
+    "CANDIDATE",
+    "UNKNOWN",
+    "DISPUTED",
+    "HISTORICAL",
+    "ROUTED"
+  ],
+  "claimKinds": [
+    "definition",
+    "norm",
+    "empirical",
+    "practice",
+    "preference",
+    "hypothesis"
+  ],
+  "sourceGrades": [
+    "READ_LOCATOR",
+    "REGISTERED_LIMITED",
+    "ABSTRACT_READ"
+  ],
+  "limits": "Only finite W1 record/relationship subset; no auto-admission/accepted status, actual observation, universal schema, production runtime or database."
+}

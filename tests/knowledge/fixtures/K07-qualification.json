@@ -1,0 +1,57 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K07",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "d9068a4e8d778f80defbf7a566e1151c9e58229f",
+  "sourceQualifications": [
+    {
+      "source": "S031@1",
+      "scope": "Periodic wave model; period, frequency and phase reference.",
+      "limits": "Not an actual measurement, device or hearing/safety conclusion.",
+      "locatorKind": "L1_SECTION_LOCATOR",
+      "accessedUri": "https://openstax.org/books/university-physics-volume-1/pages/17-1-sound-waves"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K07-SUP-FREQ",
+      "scope": "原L1精确案例与源定位；组合路径另需前置",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。"
+    },
+    {
+      "edge": "K07-CTX-FREQ",
+      "scope": "稳定周期波，正且有限周期，以秒计，频率Hz；相位需同频同参照。",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。"
+    },
+    {
+      "edge": "K07-REF-FREQ",
+      "scope": "可选音乐音高比导航",
+      "limits": "O不是必须前置，不反推"
+    },
+    {
+      "edge": "K07-SUP-PHASE",
+      "scope": "原L1精确案例与源定位；组合路径另需前置",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。"
+    },
+    {
+      "edge": "K07-CTX-PHASE",
+      "scope": "稳定同频正弦，明确x/y与共享时钟，延迟定义τ为正；周期模型适用。",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。"
+    },
+    {
+      "edge": "K07-REQ0-PHASE",
+      "scope": "同频周期参照；仅该消费者条件路径",
+      "limits": "H仅发现义务，provider条件另核，非自动满足"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K07-REQ0-PHASE",
+      "consumer": "K07-PHASE@1",
+      "provider": "K07-FREQ@1",
+      "condition": "K07-CTX-PHASE@1",
+      "providerContext": "K07-CTX-FREQ@1",
+      "group": "K07-GROUP-PHASE@1"
+    }
+  ]
+}

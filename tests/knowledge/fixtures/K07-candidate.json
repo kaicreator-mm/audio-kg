@@ -1,0 +1,527 @@
+{
+  "format": "audio-kg-candidate/1",
+  "owner": "K07",
+  "coverageMode": "FIXTURE_SUBSET",
+  "inventory": [
+    {
+      "line": 5,
+      "d4": "K07.01.01.03",
+      "disposition": "CANDIDATE",
+      "claimRefs": [
+        "K07-FREQ@1"
+      ],
+      "reason": "有限已定位数学谓词的F00试点候选，非正式准入。"
+    },
+    {
+      "line": 6,
+      "d4": "K07.01.01.04",
+      "disposition": "CANDIDATE",
+      "claimRefs": [
+        "K07-PHASE@1"
+      ],
+      "reason": "有限已定位数学谓词的F00试点候选，非正式准入。"
+    }
+  ],
+  "records": [
+    {
+      "id": "S031",
+      "revision": 1,
+      "type": "Source",
+      "sourceId": "S031",
+      "title": "OpenStax University Physics Vol 1 §17.1 Sound Waves",
+      "author": "UNKNOWN",
+      "version": "UNKNOWN",
+      "publicationDate": "UNKNOWN",
+      "accessDate": "UNKNOWN_PREVIOUS_L1_REGISTRATION",
+      "uri": "https://openstax.org/books/university-physics-volume-1/pages/17-1-sound-waves",
+      "locator": "§17.1 periodic wave model, period/frequency/wavelength",
+      "grade": "READ_LOCATOR",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-foundation.md",
+        "blob": "1ac87e4a28772ef7a4df774f9301894206aec77d",
+        "line": 10,
+        "row": "| S031 | [OpenStax University Physics Vol 1 §17.1 Sound Waves](https://openstax.org/books/university-physics-volume-1/pages/17-1-sound-waves)，波方程及周期/频率/波长 | K07.01/02 | READ_LOCATOR；基础物理，适用周期波模型 |"
+      }
+    },
+    {
+      "id": "K07-FREQ",
+      "revision": 1,
+      "type": "Claim",
+      "owner": "K07",
+      "d4": "K07.01.01.03",
+      "kind": "definition",
+      "statement": "稳定周期波在同单位条件下满足 f=1/T；频率、周期和相位参照需明确。",
+      "context": "K07-CTX-FREQ@1",
+      "status": "CANDIDATE",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。",
+      "cq": [
+        "CQ01",
+        "CQ07"
+      ]
+    },
+    {
+      "id": "K07-CTX-FREQ",
+      "revision": 1,
+      "type": "Context",
+      "owner": "K07",
+      "condition": "稳定周期波，正且有限周期，以秒计，频率Hz；相位需同频同参照。"
+    },
+    {
+      "id": "K07-EV-FREQ",
+      "revision": 1,
+      "type": "Evidence",
+      "owner": "K07",
+      "kind": "L1_RESEARCH_LOCATOR",
+      "sources": [
+        "S031@1"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/acoustics-r1-knowledge-cases.md",
+        "blob": "31f1c0894f1491ef52ee5530c6892fc4bca7a4ae",
+        "line": 5,
+        "row": "| AC01 | K07.01.01.03 | S031 | 稳定正弦周期T=5ms，f=200Hz，时间差1.25ms在同频同参照下对应90°相位差幅值；若y相对x延迟则按AC02约定为−90°。 | 5ms当5Hz；任意不稳定波形用单周期描述。 | 已知200Hz稳定周期可得5ms；核相位参考与观测窗。 | 仅幅度、单一估计或两个不同频率不能给固定相位差/周期真值。 |"
+      },
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。"
+    },
+    {
+      "id": "K07-GROUP-FREQ",
+      "revision": 1,
+      "type": "CaseGroup",
+      "owner": "K07",
+      "d4": "K07.01.01.03",
+      "claim": "K07-FREQ@1",
+      "kind": "SYNTHETIC"
+    },
+    {
+      "id": "K07-VIEW-FREQ-FP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-FREQ@1",
+      "direction": "FORWARD",
+      "polarity": "POSITIVE",
+      "context": "K07-CTX-FREQ@1",
+      "question": "稳定正弦周期5ms的频率？",
+      "example": {
+        "periodMs": 5
+      },
+      "explanation": "200Hz。",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-FREQ-FN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-FREQ@1",
+      "direction": "FORWARD",
+      "polarity": "NEGATIVE",
+      "context": "K07-CTX-FREQ@1",
+      "question": "5ms等于5Hz吗？",
+      "example": {
+        "periodMs": 5
+      },
+      "explanation": "不是；先换算0.005s。",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-FREQ-RP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-FREQ@1",
+      "direction": "REVERSE",
+      "polarity": "POSITIVE",
+      "context": "K07-CTX-FREQ@1",
+      "question": "已知稳定200Hz，周期多少？",
+      "example": {
+        "frequencyHz": 200
+      },
+      "explanation": "5ms。",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-FREQ-RN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-FREQ@1",
+      "direction": "REVERSE",
+      "polarity": "NEGATIVE",
+      "context": "K07-CTX-FREQ@1",
+      "question": "只知振幅能反推周期吗？",
+      "example": {
+        "amplitude": 1
+      },
+      "explanation": "不能。",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-FREQ-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-FREQ@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "context": "K07-CTX-FREQ@1",
+      "question": "非平稳波形可直接用单周期吗？",
+      "example": {
+        "stable": false
+      },
+      "explanation": "不能，不满足模型。",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-FREQ-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-FREQ@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "context": "K07-CTX-FREQ@1",
+      "question": "周期未测？",
+      "example": {
+        "periodMs": null
+      },
+      "explanation": "UNKNOWN。",
+      "limits": "不从任意非平稳声音或单个频谱峰推出实际F0。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-PHASE",
+      "revision": 1,
+      "type": "Claim",
+      "owner": "K07",
+      "d4": "K07.01.01.04",
+      "kind": "definition",
+      "statement": "同频同时间基准的正弦中，y(t)=x(t−τ) 相对 x 的相位为−360 fτ 度（模360）。",
+      "context": "K07-CTX-PHASE@1",
+      "status": "CANDIDATE",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。",
+      "cq": [
+        "CQ07"
+      ]
+    },
+    {
+      "id": "K07-CTX-PHASE",
+      "revision": 1,
+      "type": "Context",
+      "owner": "K07",
+      "condition": "稳定同频正弦，明确x/y与共享时钟，延迟定义τ为正；周期模型适用。"
+    },
+    {
+      "id": "K07-EV-PHASE",
+      "revision": 1,
+      "type": "Evidence",
+      "owner": "K07",
+      "kind": "L1_RESEARCH_LOCATOR",
+      "sources": [
+        "S031@1"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/acoustics-r1-knowledge-cases.md",
+        "blob": "31f1c0894f1491ef52ee5530c6892fc4bca7a4ae",
+        "line": 6,
+        "row": "| AC02 | K07.01.01.04 | S031 | x(t)=cos(2π200t)，y(t)=cos(2π200(t−.00125))，同一t基准y相对x相位−90°（mod360），不是源位置。 | 忽略负号/时钟；由−90°唯一推传播距离。 | 先核同频、同钟、源相位和传播/设备延迟；相位可有整周歧义。 | 真实设备未知，不能从单频相位唯一反推距离。 |"
+      },
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。"
+    },
+    {
+      "id": "K07-GROUP-PHASE",
+      "revision": 1,
+      "type": "CaseGroup",
+      "owner": "K07",
+      "d4": "K07.01.01.04",
+      "claim": "K07-PHASE@1",
+      "kind": "SYNTHETIC"
+    },
+    {
+      "id": "K07-VIEW-PHASE-FP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-PHASE@1",
+      "direction": "FORWARD",
+      "polarity": "POSITIVE",
+      "context": "K07-CTX-PHASE@1",
+      "question": "200Hz，y延迟1.25ms，相位？",
+      "example": {
+        "frequencyHz": 200,
+        "delayMs": 1.25
+      },
+      "explanation": "−90° mod360。",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-PHASE-FN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-PHASE@1",
+      "direction": "FORWARD",
+      "polarity": "NEGATIVE",
+      "context": "K07-CTX-PHASE@1",
+      "question": "延迟正就应相位+90°吗？",
+      "example": {
+        "frequencyHz": 200,
+        "delayMs": 1.25
+      },
+      "explanation": "否，约定y(t)=x(t−τ)则负号。",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-PHASE-RP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-PHASE@1",
+      "direction": "REVERSE",
+      "polarity": "POSITIVE",
+      "context": "K07-CTX-PHASE@1",
+      "question": "同频200Hz相位−90°，可能延迟？",
+      "example": {
+        "frequencyHz": 200,
+        "phaseDeg": -90
+      },
+      "explanation": "1.25ms 加整数个5ms，另核时基和可行范围。",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-PHASE-RN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-PHASE@1",
+      "direction": "REVERSE",
+      "polarity": "NEGATIVE",
+      "context": "K07-CTX-PHASE@1",
+      "question": "仅−90°可唯一推传播距离吗？",
+      "example": {
+        "phaseDeg": -90
+      },
+      "explanation": "不能；频率/参考/介质/设备及整周歧义。",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-PHASE-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-PHASE@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "context": "K07-CTX-PHASE@1",
+      "question": "两信号不同频率？",
+      "example": {
+        "sameFrequency": false
+      },
+      "explanation": "不能用固定同频相位差。",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K07-VIEW-PHASE-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K07",
+      "group": "K07-GROUP-PHASE@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "context": "K07-CTX-PHASE@1",
+      "question": "时钟不明？",
+      "example": {
+        "clock": null
+      },
+      "explanation": "UNKNOWN。",
+      "limits": "相位整周歧义；不唯一推距离、实际设备或源位置。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    }
+  ],
+  "edges": [
+    {
+      "id": "K07-SUP-FREQ",
+      "type": "supported_by",
+      "from": "K07-FREQ@1",
+      "to": "K07-EV-FREQ@1",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-CTX-FREQ",
+      "type": "applies_under",
+      "from": "K07-FREQ@1",
+      "to": "K07-CTX-FREQ@1",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-REF-FREQ",
+      "type": "references",
+      "from": "K07-FREQ@1",
+      "to": "K01-CENTS@1",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-SUP-PHASE",
+      "type": "supported_by",
+      "from": "K07-PHASE@1",
+      "to": "K07-EV-PHASE@1",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-CTX-PHASE",
+      "type": "applies_under",
+      "from": "K07-PHASE@1",
+      "to": "K07-CTX-PHASE@1",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-REQ0-PHASE",
+      "type": "requires",
+      "from": "K07-PHASE@1",
+      "to": "K07-FREQ@1",
+      "condition": "K07-CTX-PHASE@1"
+    }
+  ],
+  "bindings": [
+    {
+      "id": "K07-B-FREQ-0",
+      "view": "K07-VIEW-FREQ-FP@1",
+      "claim": "K07-FREQ@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-B-FREQ-1",
+      "view": "K07-VIEW-FREQ-FN@1",
+      "claim": "K07-FREQ@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-B-FREQ-2",
+      "view": "K07-VIEW-FREQ-RP@1",
+      "claim": "K07-FREQ@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-B-FREQ-3",
+      "view": "K07-VIEW-FREQ-RN@1",
+      "claim": "K07-FREQ@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-B-FREQ-4",
+      "view": "K07-VIEW-FREQ-BOUND@1",
+      "claim": "K07-FREQ@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-B-FREQ-5",
+      "view": "K07-VIEW-FREQ-UNK@1",
+      "claim": "K07-FREQ@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-FREQ@1"
+    },
+    {
+      "id": "K07-B-PHASE-0",
+      "view": "K07-VIEW-PHASE-FP@1",
+      "claim": "K07-PHASE@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-0-H0",
+      "view": "K07-VIEW-PHASE-FP@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-1",
+      "view": "K07-VIEW-PHASE-FN@1",
+      "claim": "K07-PHASE@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-1-H0",
+      "view": "K07-VIEW-PHASE-FN@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-2",
+      "view": "K07-VIEW-PHASE-RP@1",
+      "claim": "K07-PHASE@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-2-H0",
+      "view": "K07-VIEW-PHASE-RP@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-3",
+      "view": "K07-VIEW-PHASE-RN@1",
+      "claim": "K07-PHASE@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-3-H0",
+      "view": "K07-VIEW-PHASE-RN@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-4",
+      "view": "K07-VIEW-PHASE-BOUND@1",
+      "claim": "K07-PHASE@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-4-H0",
+      "view": "K07-VIEW-PHASE-BOUND@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-5",
+      "view": "K07-VIEW-PHASE-UNK@1",
+      "claim": "K07-PHASE@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-PHASE@1"
+    },
+    {
+      "id": "K07-B-PHASE-5-H0",
+      "view": "K07-VIEW-PHASE-UNK@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-PHASE@1"
+    }
+  ]
+}

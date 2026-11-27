@@ -1,0 +1,2 @@
+# Affected review
+Check exact RV04 independent counterexample and exported profile; mutate all reachable return data, repeat in same process, inspect caller-owned input and authority. Run original plus new tests. Check formal candidate admission separation, explicit independent qualification manifest identity, exact source readback, full D4 coverage and no accepted truth from hash. Check required H closure and case binding conditions, O only, no converse, no leakage; actual adversarial tests and limitations. No full L1 rereview; no new production runtime/DB.
