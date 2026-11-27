@@ -1,0 +1,43 @@
+{
+  "pack_id": "audio-kg-v010-K14-g1",
+  "task_id": "K14",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "325d4205e609db0ecca09ebb051a03e5f7f487ee",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/blob/48459608548ee13c330641b20cca2d585cc290f3/docs/implementation/v0.1.0/TASK_PACKS.json#K14",
+  "branch": "task/v0.1.0-music-education-formal",
+  "parent_issue": "#95",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-k14-builder",
+  "generated_at": "2026-11-27T16:42:41.458502+00:00",
+  "dependency_completion": [
+    "K06@d01a7edf9c4b322c916b5fbd8f13434cb48619ec",
+    "K02@ff7e2eb2e439e4f2d9b26d173530db4fc2cea79b"
+  ],
+  "material_paths": [
+    "knowledge/K14/",
+    "sources/K14/",
+    "cases/K14/",
+    "queries/K14/",
+    "tests/knowledge/K14/",
+    "docs/validation/K14/",
+    "docs/product/calibration/",
+    "docs/research/",
+    "ontology/",
+    "tools/validate-knowledge.mjs",
+    "knowledge/K06/",
+    "knowledge/K02/"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}

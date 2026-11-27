@@ -1,0 +1,2395 @@
+{
+  "checks": 597,
+  "passed": 597,
+  "results": [
+    [
+      "exact pin knowledge/K04/controller-input.json",
+      true
+    ],
+    [
+      "exact pin cases/K04/frozen-input-ledger.json",
+      true
+    ],
+    [
+      "exact pin knowledge/K04/domain-workflows.json",
+      true
+    ],
+    [
+      "60 primary candidate rows, no acceptance",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF01",
+      true
+    ],
+    [
+      "exact query and direct roles PF01",
+      true
+    ],
+    [
+      "qualified source and H closure PF01",
+      true
+    ],
+    [
+      "four distinct cases PF01",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF01-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF01-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF01-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF01-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF02",
+      true
+    ],
+    [
+      "exact query and direct roles PF02",
+      true
+    ],
+    [
+      "qualified source and H closure PF02",
+      true
+    ],
+    [
+      "four distinct cases PF02",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF02-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF02-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF02-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF02-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF03",
+      true
+    ],
+    [
+      "exact query and direct roles PF03",
+      true
+    ],
+    [
+      "qualified source and H closure PF03",
+      true
+    ],
+    [
+      "four distinct cases PF03",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF03-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF03-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF03-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF03-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF04",
+      true
+    ],
+    [
+      "exact query and direct roles PF04",
+      true
+    ],
+    [
+      "qualified source and H closure PF04",
+      true
+    ],
+    [
+      "four distinct cases PF04",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF04-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF04-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF04-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF04-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF05",
+      true
+    ],
+    [
+      "exact query and direct roles PF05",
+      true
+    ],
+    [
+      "qualified source and H closure PF05",
+      true
+    ],
+    [
+      "four distinct cases PF05",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF05-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF05-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF05-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF05-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF06",
+      true
+    ],
+    [
+      "exact query and direct roles PF06",
+      true
+    ],
+    [
+      "qualified source and H closure PF06",
+      true
+    ],
+    [
+      "four distinct cases PF06",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF06-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF06-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF06-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF06-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF07",
+      true
+    ],
+    [
+      "exact query and direct roles PF07",
+      true
+    ],
+    [
+      "qualified source and H closure PF07",
+      true
+    ],
+    [
+      "four distinct cases PF07",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF07-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF07-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF07-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF07-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF08",
+      true
+    ],
+    [
+      "exact query and direct roles PF08",
+      true
+    ],
+    [
+      "qualified source and H closure PF08",
+      true
+    ],
+    [
+      "four distinct cases PF08",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF08-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF08-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF08-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF08-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF09",
+      true
+    ],
+    [
+      "exact query and direct roles PF09",
+      true
+    ],
+    [
+      "qualified source and H closure PF09",
+      true
+    ],
+    [
+      "four distinct cases PF09",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF09-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF09-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF09-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF09-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF10",
+      true
+    ],
+    [
+      "exact query and direct roles PF10",
+      true
+    ],
+    [
+      "qualified source and H closure PF10",
+      true
+    ],
+    [
+      "four distinct cases PF10",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF10-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF10-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF10-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF10-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF11",
+      true
+    ],
+    [
+      "exact query and direct roles PF11",
+      true
+    ],
+    [
+      "qualified source and H closure PF11",
+      true
+    ],
+    [
+      "four distinct cases PF11",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF11-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF11-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF11-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF11-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF12",
+      true
+    ],
+    [
+      "exact query and direct roles PF12",
+      true
+    ],
+    [
+      "qualified source and H closure PF12",
+      true
+    ],
+    [
+      "four distinct cases PF12",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF12-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF12-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF12-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF12-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF13",
+      true
+    ],
+    [
+      "exact query and direct roles PF13",
+      true
+    ],
+    [
+      "qualified source and H closure PF13",
+      true
+    ],
+    [
+      "four distinct cases PF13",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF13-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF13-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF13-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF13-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF14",
+      true
+    ],
+    [
+      "exact query and direct roles PF14",
+      true
+    ],
+    [
+      "qualified source and H closure PF14",
+      true
+    ],
+    [
+      "four distinct cases PF14",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF14-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF14-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF14-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF14-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF15",
+      true
+    ],
+    [
+      "exact query and direct roles PF15",
+      true
+    ],
+    [
+      "qualified source and H closure PF15",
+      true
+    ],
+    [
+      "four distinct cases PF15",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF15-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF15-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF15-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF15-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF16",
+      true
+    ],
+    [
+      "exact query and direct roles PF16",
+      true
+    ],
+    [
+      "qualified source and H closure PF16",
+      true
+    ],
+    [
+      "four distinct cases PF16",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF16-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF16-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF16-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF16-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF17",
+      true
+    ],
+    [
+      "exact query and direct roles PF17",
+      true
+    ],
+    [
+      "qualified source and H closure PF17",
+      true
+    ],
+    [
+      "four distinct cases PF17",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF17-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF17-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF17-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF17-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF18",
+      true
+    ],
+    [
+      "exact query and direct roles PF18",
+      true
+    ],
+    [
+      "qualified source and H closure PF18",
+      true
+    ],
+    [
+      "four distinct cases PF18",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF18-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF18-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF18-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF18-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF19",
+      true
+    ],
+    [
+      "exact query and direct roles PF19",
+      true
+    ],
+    [
+      "qualified source and H closure PF19",
+      true
+    ],
+    [
+      "four distinct cases PF19",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF19-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF19-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF19-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF19-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF20",
+      true
+    ],
+    [
+      "exact query and direct roles PF20",
+      true
+    ],
+    [
+      "qualified source and H closure PF20",
+      true
+    ],
+    [
+      "four distinct cases PF20",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF20-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF20-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF20-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF20-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF21",
+      true
+    ],
+    [
+      "exact query and direct roles PF21",
+      true
+    ],
+    [
+      "qualified source and H closure PF21",
+      true
+    ],
+    [
+      "four distinct cases PF21",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF21-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF21-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF21-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF21-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF22",
+      true
+    ],
+    [
+      "exact query and direct roles PF22",
+      true
+    ],
+    [
+      "qualified source and H closure PF22",
+      true
+    ],
+    [
+      "four distinct cases PF22",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF22-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF22-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF22-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF22-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF23",
+      true
+    ],
+    [
+      "exact query and direct roles PF23",
+      true
+    ],
+    [
+      "qualified source and H closure PF23",
+      true
+    ],
+    [
+      "four distinct cases PF23",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF23-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF23-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF23-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF23-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF24",
+      true
+    ],
+    [
+      "exact query and direct roles PF24",
+      true
+    ],
+    [
+      "qualified source and H closure PF24",
+      true
+    ],
+    [
+      "four distinct cases PF24",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF24-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF24-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF24-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF24-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF25",
+      true
+    ],
+    [
+      "exact query and direct roles PF25",
+      true
+    ],
+    [
+      "qualified source and H closure PF25",
+      true
+    ],
+    [
+      "four distinct cases PF25",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF25-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF25-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF25-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF25-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF26",
+      true
+    ],
+    [
+      "exact query and direct roles PF26",
+      true
+    ],
+    [
+      "qualified source and H closure PF26",
+      true
+    ],
+    [
+      "four distinct cases PF26",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF26-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF26-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF26-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF26-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF27",
+      true
+    ],
+    [
+      "exact query and direct roles PF27",
+      true
+    ],
+    [
+      "qualified source and H closure PF27",
+      true
+    ],
+    [
+      "four distinct cases PF27",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF27-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF27-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF27-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF27-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF28",
+      true
+    ],
+    [
+      "exact query and direct roles PF28",
+      true
+    ],
+    [
+      "qualified source and H closure PF28",
+      true
+    ],
+    [
+      "four distinct cases PF28",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF28-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF28-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF28-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF28-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF29",
+      true
+    ],
+    [
+      "exact query and direct roles PF29",
+      true
+    ],
+    [
+      "qualified source and H closure PF29",
+      true
+    ],
+    [
+      "four distinct cases PF29",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF29-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF29-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF29-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF29-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF30",
+      true
+    ],
+    [
+      "exact query and direct roles PF30",
+      true
+    ],
+    [
+      "qualified source and H closure PF30",
+      true
+    ],
+    [
+      "four distinct cases PF30",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF30-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF30-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF30-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF30-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF31",
+      true
+    ],
+    [
+      "exact query and direct roles PF31",
+      true
+    ],
+    [
+      "qualified source and H closure PF31",
+      true
+    ],
+    [
+      "four distinct cases PF31",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF31-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF31-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF31-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF31-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF32",
+      true
+    ],
+    [
+      "exact query and direct roles PF32",
+      true
+    ],
+    [
+      "qualified source and H closure PF32",
+      true
+    ],
+    [
+      "four distinct cases PF32",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF32-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF32-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF32-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF32-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF33",
+      true
+    ],
+    [
+      "exact query and direct roles PF33",
+      true
+    ],
+    [
+      "qualified source and H closure PF33",
+      true
+    ],
+    [
+      "four distinct cases PF33",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF33-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF33-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF33-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF33-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF34",
+      true
+    ],
+    [
+      "exact query and direct roles PF34",
+      true
+    ],
+    [
+      "qualified source and H closure PF34",
+      true
+    ],
+    [
+      "four distinct cases PF34",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF34-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF34-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF34-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF34-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF35",
+      true
+    ],
+    [
+      "exact query and direct roles PF35",
+      true
+    ],
+    [
+      "qualified source and H closure PF35",
+      true
+    ],
+    [
+      "four distinct cases PF35",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF35-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF35-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF35-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF35-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF36",
+      true
+    ],
+    [
+      "exact query and direct roles PF36",
+      true
+    ],
+    [
+      "qualified source and H closure PF36",
+      true
+    ],
+    [
+      "four distinct cases PF36",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF36-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF36-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF36-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF36-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF37",
+      true
+    ],
+    [
+      "exact query and direct roles PF37",
+      true
+    ],
+    [
+      "qualified source and H closure PF37",
+      true
+    ],
+    [
+      "four distinct cases PF37",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF37-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF37-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF37-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF37-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF38",
+      true
+    ],
+    [
+      "exact query and direct roles PF38",
+      true
+    ],
+    [
+      "qualified source and H closure PF38",
+      true
+    ],
+    [
+      "four distinct cases PF38",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF38-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF38-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF38-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF38-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF39",
+      true
+    ],
+    [
+      "exact query and direct roles PF39",
+      true
+    ],
+    [
+      "qualified source and H closure PF39",
+      true
+    ],
+    [
+      "four distinct cases PF39",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF39-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF39-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF39-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF39-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF40",
+      true
+    ],
+    [
+      "exact query and direct roles PF40",
+      true
+    ],
+    [
+      "qualified source and H closure PF40",
+      true
+    ],
+    [
+      "four distinct cases PF40",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF40-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF40-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF40-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF40-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF41",
+      true
+    ],
+    [
+      "exact query and direct roles PF41",
+      true
+    ],
+    [
+      "qualified source and H closure PF41",
+      true
+    ],
+    [
+      "four distinct cases PF41",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF41-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF41-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF41-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF41-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF42",
+      true
+    ],
+    [
+      "exact query and direct roles PF42",
+      true
+    ],
+    [
+      "qualified source and H closure PF42",
+      true
+    ],
+    [
+      "four distinct cases PF42",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF42-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF42-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF42-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF42-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF43",
+      true
+    ],
+    [
+      "exact query and direct roles PF43",
+      true
+    ],
+    [
+      "qualified source and H closure PF43",
+      true
+    ],
+    [
+      "four distinct cases PF43",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF43-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF43-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF43-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF43-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF44",
+      true
+    ],
+    [
+      "exact query and direct roles PF44",
+      true
+    ],
+    [
+      "qualified source and H closure PF44",
+      true
+    ],
+    [
+      "four distinct cases PF44",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF44-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF44-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF44-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF44-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF45",
+      true
+    ],
+    [
+      "exact query and direct roles PF45",
+      true
+    ],
+    [
+      "qualified source and H closure PF45",
+      true
+    ],
+    [
+      "four distinct cases PF45",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF45-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF45-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF45-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF45-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF46",
+      true
+    ],
+    [
+      "exact query and direct roles PF46",
+      true
+    ],
+    [
+      "qualified source and H closure PF46",
+      true
+    ],
+    [
+      "four distinct cases PF46",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF46-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF46-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF46-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF46-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF47",
+      true
+    ],
+    [
+      "exact query and direct roles PF47",
+      true
+    ],
+    [
+      "qualified source and H closure PF47",
+      true
+    ],
+    [
+      "four distinct cases PF47",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF47-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF47-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF47-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF47-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF48",
+      true
+    ],
+    [
+      "exact query and direct roles PF48",
+      true
+    ],
+    [
+      "qualified source and H closure PF48",
+      true
+    ],
+    [
+      "four distinct cases PF48",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF48-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF48-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF48-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF48-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF49",
+      true
+    ],
+    [
+      "exact query and direct roles PF49",
+      true
+    ],
+    [
+      "qualified source and H closure PF49",
+      true
+    ],
+    [
+      "four distinct cases PF49",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF49-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF49-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF49-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF49-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF50",
+      true
+    ],
+    [
+      "exact query and direct roles PF50",
+      true
+    ],
+    [
+      "qualified source and H closure PF50",
+      true
+    ],
+    [
+      "four distinct cases PF50",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF50-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF50-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF50-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF50-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF51",
+      true
+    ],
+    [
+      "exact query and direct roles PF51",
+      true
+    ],
+    [
+      "qualified source and H closure PF51",
+      true
+    ],
+    [
+      "four distinct cases PF51",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF51-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF51-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF51-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF51-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF52",
+      true
+    ],
+    [
+      "exact query and direct roles PF52",
+      true
+    ],
+    [
+      "qualified source and H closure PF52",
+      true
+    ],
+    [
+      "four distinct cases PF52",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF52-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF52-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF52-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF52-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF53",
+      true
+    ],
+    [
+      "exact query and direct roles PF53",
+      true
+    ],
+    [
+      "qualified source and H closure PF53",
+      true
+    ],
+    [
+      "four distinct cases PF53",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF53-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF53-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF53-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF53-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF54",
+      true
+    ],
+    [
+      "exact query and direct roles PF54",
+      true
+    ],
+    [
+      "qualified source and H closure PF54",
+      true
+    ],
+    [
+      "four distinct cases PF54",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF54-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF54-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF54-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF54-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF55",
+      true
+    ],
+    [
+      "exact query and direct roles PF55",
+      true
+    ],
+    [
+      "qualified source and H closure PF55",
+      true
+    ],
+    [
+      "four distinct cases PF55",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF55-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF55-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF55-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF55-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF56",
+      true
+    ],
+    [
+      "exact query and direct roles PF56",
+      true
+    ],
+    [
+      "qualified source and H closure PF56",
+      true
+    ],
+    [
+      "four distinct cases PF56",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF56-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF56-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF56-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF56-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF57",
+      true
+    ],
+    [
+      "exact query and direct roles PF57",
+      true
+    ],
+    [
+      "qualified source and H closure PF57",
+      true
+    ],
+    [
+      "four distinct cases PF57",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF57-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF57-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF57-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF57-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF58",
+      true
+    ],
+    [
+      "exact query and direct roles PF58",
+      true
+    ],
+    [
+      "qualified source and H closure PF58",
+      true
+    ],
+    [
+      "four distinct cases PF58",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF58-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF58-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF58-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF58-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF59",
+      true
+    ],
+    [
+      "exact query and direct roles PF59",
+      true
+    ],
+    [
+      "qualified source and H closure PF59",
+      true
+    ],
+    [
+      "four distinct cases PF59",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF59-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF59-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF59-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF59-RN",
+      true
+    ],
+    [
+      "exact frozen row and source anchors PF60",
+      true
+    ],
+    [
+      "exact query and direct roles PF60",
+      true
+    ],
+    [
+      "qualified source and H closure PF60",
+      true
+    ],
+    [
+      "four distinct cases PF60",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF60-FP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF60-FN",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF60-RP",
+      true
+    ],
+    [
+      "actual direction-specific case K04-V-PF60-RN",
+      true
+    ],
+    [
+      "direct-only CQ01",
+      true
+    ],
+    [
+      "direct-only CQ02",
+      true
+    ],
+    [
+      "direct-only CQ03",
+      true
+    ],
+    [
+      "direct-only CQ04",
+      true
+    ],
+    [
+      "direct-only CQ05",
+      true
+    ],
+    [
+      "direct-only CQ06",
+      true
+    ],
+    [
+      "direct-only CQ07",
+      true
+    ],
+    [
+      "direct-only CQ08",
+      true
+    ],
+    [
+      "direct-only CQ09",
+      true
+    ],
+    [
+      "direct-only CQ10",
+      true
+    ],
+    [
+      "direct-only CQ11",
+      true
+    ],
+    [
+      "direct-only CQ12",
+      true
+    ],
+    [
+      "direct-only CQ13",
+      true
+    ],
+    [
+      "direct-only CQ14",
+      true
+    ],
+    [
+      "direct-only CQ15",
+      true
+    ],
+    [
+      "direct-only CQ16",
+      true
+    ],
+    [
+      "direct-only CQ17",
+      true
+    ],
+    [
+      "direct-only CQ18",
+      true
+    ],
+    [
+      "direct-only CQ19",
+      true
+    ],
+    [
+      "direct-only CQ20",
+      true
+    ],
+    [
+      "direct-only CQ21",
+      true
+    ],
+    [
+      "direct-only CQ22",
+      true
+    ],
+    [
+      "direct-only CQ23",
+      true
+    ],
+    [
+      "direct-only CQ24",
+      true
+    ],
+    [
+      "direct-only CQ25",
+      true
+    ],
+    [
+      "direct-only CQ26",
+      true
+    ],
+    [
+      "legacy/split preserved, not equivalence",
+      true
+    ],
+    [
+      "exact 56 capability cells",
+      true
+    ],
+    [
+      "34 source qualifications no imported rights",
+      true
+    ],
+    [
+      "18 H 29 O four actual K01 dependencies",
+      true
+    ],
+    [
+      "PF01 actual action switching keeps score",
+      true
+    ],
+    [
+      "PF03 finite attacks and capacity",
+      true
+    ],
+    [
+      "PF19/PF48 symptom stop dominates missing inputs",
+      true
+    ],
+    [
+      "PF05 actual tempo and declared beat unit",
+      true
+    ],
+    [
+      "PF06 shared tempo drift not local offset",
+      true
+    ],
+    [
+      "PF09/PF22 residuals exact synthetic before and after",
+      true
+    ],
+    [
+      "PF22 mismatched or duplicate identity no inference",
+      true
+    ],
+    [
+      "PF11 gain preserves relative not actual performance",
+      true
+    ],
+    [
+      "PF26 monotonic only when stipulated",
+      true
+    ],
+    [
+      "PF12 distinct duration and gap",
+      true
+    ],
+    [
+      "PF29/PF41 exact release time",
+      true
+    ],
+    [
+      "PF32/PF55 rhythm preserved and pitch changed",
+      true
+    ],
+    [
+      "PF35 preferences require full conditions",
+      true
+    ],
+    [
+      "PF57 matched main IDs allow additional subevent",
+      true
+    ],
+    [
+      "PF39 exact calibrated source and receive difference",
+      true
+    ],
+    [
+      "PF39 missing/mismatched evidence calibrated",
+      true
+    ],
+    [
+      "PF39 missing/mismatched evidence sameClock",
+      true
+    ],
+    [
+      "PF39 missing/mismatched evidence pathDirection",
+      true
+    ],
+    [
+      "PF39 missing/mismatched evidence receiver",
+      true
+    ],
+    [
+      "PF39 missing/mismatched evidence eventB",
+      true
+    ],
+    [
+      "PF39 missing/mismatched evidence receivedEvent",
+      true
+    ],
+    [
+      "PF39 missing/mismatched evidence delay",
+      true
+    ],
+    [
+      "PF39 inconsistent independently measured path rejects",
+      true
+    ],
+    [
+      "PF43 real budget 23 vs 28",
+      true
+    ],
+    [
+      "PF44 old evidence invalid after tempo change",
+      true
+    ],
+    [
+      "KC-P04 coincident timestamps distinct cue objects",
+      true
+    ],
+    [
+      "KC-P04 rejects protected prep",
+      true
+    ],
+    [
+      "KC-P04 rejects cross cue payload",
+      true
+    ],
+    [
+      "KC-P04 rejects score",
+      true
+    ],
+    [
+      "KC-P04 rejects entry",
+      true
+    ],
+    [
+      "KC-P04 rejects metadata",
+      true
+    ],
+    [
+      "KC-P04 rejects duplicate id",
+      true
+    ],
+    [
+      "KC-P04 rejects extra field",
+      true
+    ],
+    [
+      "KC-P04 nonseparable fallback only beat3",
+      true
+    ],
+    [
+      "PF60 monitor revision invalidates only old monitor evidence",
+      true
+    ],
+    [
+      "eight bounded workflows all linked",
+      true
+    ],
+    [
+      "actual workflow ACTION",
+      true
+    ],
+    [
+      "missing workflow ACTION health",
+      true
+    ],
+    [
+      "missing workflow ACTION capacity",
+      true
+    ],
+    [
+      "missing workflow ACTION events",
+      true
+    ],
+    [
+      "actual workflow TIME",
+      true
+    ],
+    [
+      "missing workflow TIME ioi",
+      true
+    ],
+    [
+      "missing workflow TIME unit",
+      true
+    ],
+    [
+      "missing workflow TIME a",
+      true
+    ],
+    [
+      "missing workflow TIME b",
+      true
+    ],
+    [
+      "missing workflow TIME target",
+      true
+    ],
+    [
+      "missing workflow TIME tol",
+      true
+    ],
+    [
+      "actual workflow DYNAMICS",
+      true
+    ],
+    [
+      "missing workflow DYNAMICS gain",
+      true
+    ],
+    [
+      "missing workflow DYNAMICS dynamic",
+      true
+    ],
+    [
+      "actual workflow ARTICULATION",
+      true
+    ],
+    [
+      "missing workflow ARTICULATION articulation",
+      true
+    ],
+    [
+      "missing workflow ARTICULATION release",
+      true
+    ],
+    [
+      "actual workflow IMPROVISE",
+      true
+    ],
+    [
+      "missing workflow IMPROVISE motif",
+      true
+    ],
+    [
+      "missing workflow IMPROVISE preference",
+      true
+    ],
+    [
+      "actual workflow ENSEMBLE",
+      true
+    ],
+    [
+      "missing workflow ENSEMBLE shared",
+      true
+    ],
+    [
+      "missing workflow ENSEMBLE path",
+      true
+    ],
+    [
+      "actual workflow REHEARSE",
+      true
+    ],
+    [
+      "missing workflow REHEARSE budget",
+      true
+    ],
+    [
+      "missing workflow REHEARSE retest",
+      true
+    ],
+    [
+      "actual workflow LIVE",
+      true
+    ],
+    [
+      "missing workflow LIVE health",
+      true
+    ],
+    [
+      "missing workflow LIVE live",
+      true
+    ],
+    [
+      "missing workflow LIVE edit",
+      true
+    ],
+    [
+      "missing workflow LIVE monitor",
+      true
+    ],
+    [
+      "R2 frozen KC-P04 v1 hard role rejection retains residual",
+      true
+    ],
+    [
+      "R2 frozen KC-P04 v2 bounded positive only",
+      true
+    ],
+    [
+      "R2 path descriptive calculation unchanged",
+      true
+    ],
+    [
+      "R2 known path hard failure rejects",
+      true
+    ],
+    [
+      "R2 shared main hard failure stops before path",
+      true
+    ],
+    [
+      "R2 missing clock stays unknown not positive or hard rejection",
+      true
+    ],
+    [
+      "R2 duplicate subevent ID rejects",
+      true
+    ],
+    [
+      "R2 boundary inclusive and outside independently",
+      true
+    ],
+    [
+      "health stop first even absent later inputs",
+      true
+    ],
+    [
+      "state rule DRAFT STRUCTURE_PASS",
+      true
+    ],
+    [
+      "state rule SYMBOLIC_CANDIDATE CONDITION_CHANGE",
+      true
+    ],
+    [
+      "state rule SYMBOLIC_CANDIDATE PROTECTED_CHANGE",
+      true
+    ],
+    [
+      "state rule SYMBOLIC_CANDIDATE RISK_REPORT",
+      true
+    ],
+    [
+      "state rule DRAFT RISK_REPORT",
+      true
+    ],
+    [
+      "unsupported state transition remains unknown",
+      true
+    ],
+    [
+      "actual public CLI",
+      true
+    ]
+  ],
+  "limits": "Finite offline candidate witnesses; no actual performance, permission, clinical or device result; no independent verdict."
+}
