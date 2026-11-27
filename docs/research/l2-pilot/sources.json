@@ -82,5 +82,26 @@
       "line": 8,
       "row": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |"
     }
+  },
+  {
+    "id": "S457",
+    "revision": 1,
+    "type": "Source",
+    "title": "Time-Domain Periodicity and the Discrete Fourier Transform",
+    "version": "2012",
+    "uri": "https://www.dsprelated.com/showarticle/174.php",
+    "locator": "Time Windows/Zero-Padding/Eq4",
+    "grade": "READ_LOCATOR",
+    "rights": "UNKNOWN_NO_IMPORT",
+    "author": "Jacobsen",
+    "publicationDate": "2012",
+    "accessDate": "UNKNOWN_PREVIOUS_L1_REGISTRATION",
+    "registration": {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/research/source-qualification-acoustics-r2.md",
+      "blob": "1e64ae921a77519cadbf2ff15702d6574417d5df",
+      "line": 5,
+      "row": "| S457 | Jacobsen 2012 [Time-Domain Periodicity and the Discrete Fourier Transform](https://www.dsprelated.com/showarticle/174.php)，Time Windows/Zero-Padding/Eq4 | READ_LOCATOR；矩形有限观察窗的谱主瓣及零点、非整周期泄漏、补零增加格点密度非增加实际观测信息、时间平移复相位。技术文章非独立工具验证；不采用文中所有主瓣宽度表述为普遍分辨率。 |"
+    }
   }
 ]
