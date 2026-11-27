@@ -29,7 +29,7 @@
       "owner": "K05",
       "topic": "K05.07.01",
       "d4": "K05.07.01.05",
-      "kind": "method",
+      "kind": "practice",
       "statement": "有效同身份窗内独立参考、估计及音乐目标的三种偏差必须分别计算；无证保持未知。",
       "context": "CTX-PITCH@1",
       "status": "CANDIDATE",
@@ -48,7 +48,7 @@
       "owner": "K08",
       "topic": "K08.03.02",
       "d4": "K08.03.02.03",
-      "kind": "method",
+      "kind": "definition",
       "statement": "观察时长取窗长/fs；FFT格点取fs/nfft；零填充不保证实际分辨率。",
       "context": "CTX-WINDOW@1",
       "status": "CANDIDATE",
@@ -96,7 +96,14 @@
         "line": 23,
         "row": "| K01.02.04.01 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ07 S | S022 本轮重读 frequency ratio/cents 公式 | TD2-K01.02.04.01 | 音分是频率比的对数表达，不以12TET调律为必要条件 |"
       },
-      "limits": "L1 candidate only; locator is not actual observation or formal acceptance"
+      "limits": "L1 candidate only; locator is not actual observation or formal acceptance",
+      "caseAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-fundamentals-cases.md",
+        "blob": "4f482da733981d21504cb50a06e12c14bbb6a1f5",
+        "line": 6,
+        "row": "| TD2-K01.02.04.01 / K01.02.04.01 | S022；同Hz单位，220/330均正 | 220→330约+701.955音分，330→220约−701.955，220→220为0；0或负频率输入不满足公式条件 | 直接将110Hz当110音分、忽略方向或取log(0) | 给3:2或2:3的有向比值复算，逆式还原比值 | 仅给音分不能唯一推出绝对频率；不合法输入拒绝 |"
+      }
     },
     {
       "id": "EV-PITCH",
@@ -177,7 +184,13 @@
       "polarity": "POSITIVE",
       "question": "给定参考440 Hz、观测660 Hz，如何表达音分？",
       "context": "CTX-CENTS@1",
-      "limit": "positive finite frequencies, known reference; no tuning identity inferred"
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "reference": 440,
+        "observed": 660
+      },
+      "explanation": "约701.955 cents；仅比值3:2，不认定整体律制。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "CENTS-FN",
@@ -188,7 +201,15 @@
       "polarity": "NEGATIVE",
       "question": "相同Hz差是否必然相同音分？",
       "context": "CTX-CENTS@1",
-      "limit": "positive finite frequencies, known reference; no tuning identity inferred"
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "reference": 220,
+        "observed": 229,
+        "comparisonReference": 1100,
+        "comparisonObserved": 1109
+      },
+      "explanation": "220→229与1100→1109的比值不同，音分不同。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "CENTS-RP",
@@ -199,7 +220,13 @@
       "polarity": "POSITIVE",
       "question": "给定音分及已知参考，如何反查频率候选？",
       "context": "CTX-CENTS@1",
-      "limit": "positive finite frequencies, known reference; no tuning identity inferred"
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "reference": 440,
+        "cents": 1200
+      },
+      "explanation": "440×2^(1200/1200)=880 Hz；须参考有效。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "CENTS-RN",
@@ -210,7 +237,12 @@
       "polarity": "NEGATIVE",
       "question": "只有Hz差，能否唯一恢复音分或历史律制？",
       "context": "CTX-CENTS@1",
-      "limit": "positive finite frequencies, known reference; no tuning identity inferred"
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "differenceHz": 9
+      },
+      "explanation": "缺参考，多个频率比可能；不唯一确定律制。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "PITCH-FP",
@@ -221,7 +253,15 @@
       "polarity": "POSITIVE",
       "question": "分别比较独立参考、估计、音乐目标。",
       "context": "CTX-PITCH@1",
-      "limit": "independent reference and matching voice/event/time/mask; no diagnosis"
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": 220,
+        "estimate": 220,
+        "target": 200,
+        "valid": true
+      },
+      "explanation": "估计误差0，真实及估计目标偏差+165.004 cents。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "PITCH-FN",
@@ -232,7 +272,15 @@
       "polarity": "NEGATIVE",
       "question": "估计等于目标是否证明真实演唱准确？",
       "context": "CTX-PITCH@1",
-      "limit": "independent reference and matching voice/event/time/mask; no diagnosis"
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": 220,
+        "estimate": 200,
+        "target": 200,
+        "valid": true
+      },
+      "explanation": "估计相对目标0，估计误差−165.004，真实目标偏差仍+165.004。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "PITCH-RP",
@@ -243,7 +291,15 @@
       "polarity": "POSITIVE",
       "question": "从目标偏差查独立观测和估计误差。",
       "context": "CTX-PITCH@1",
-      "limit": "independent reference and matching voice/event/time/mask; no diagnosis"
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": 220,
+        "estimate": 200,
+        "target": 200,
+        "valid": true
+      },
+      "explanation": "先查独立参考、估计、目标与同一有效事件窗；非唯一原因。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "PITCH-RN",
@@ -254,7 +310,15 @@
       "polarity": "NEGATIVE",
       "question": "缺独立参考是否能判断估计准确或健康？",
       "context": "CTX-PITCH@1",
-      "limit": "independent reference and matching voice/event/time/mask; no diagnosis"
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "reference": null,
+        "estimate": 200,
+        "target": 200,
+        "valid": true
+      },
+      "explanation": "真实偏差/估计误差UNKNOWN；可算估计相对目标0，不能诊断。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "WINDOW-FP",
@@ -265,7 +329,14 @@
       "polarity": "POSITIVE",
       "question": "在固定采样率下分别算窗时长、FFT格点。",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim"
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "example": {
+        "fs": 48000,
+        "win": 480,
+        "nfft": 960
+      },
+      "explanation": "0.01s观察窗，50Hz格点，481单边格点。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "WINDOW-FN",
@@ -276,7 +347,15 @@
       "polarity": "NEGATIVE",
       "question": "零填充是否增加真实观察时长？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim"
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "example": {
+        "fs": 48000,
+        "win": 480,
+        "nfft": 1920,
+        "previousNfft": 960
+      },
+      "explanation": "nfft增加使格点25Hz，实际窗仍0.01s，不保证分辨力。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "WINDOW-RP",
@@ -287,7 +366,13 @@
       "polarity": "POSITIVE",
       "question": "给格点及采样率能反推哪个参数？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim"
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "example": {
+        "fs": 48000,
+        "gridHz": 50
+      },
+      "explanation": "nfft=960；观察窗未知。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
       "id": "WINDOW-RN",
@@ -298,7 +383,108 @@
       "polarity": "NEGATIVE",
       "question": "只有FFT格点能否唯一判断实际观察窗或分辨率？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim"
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "example": {
+        "gridHz": 50
+      },
+      "explanation": "缺fs及窗口，不能唯一判断窗长或实际分辨力。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "CENTS-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "question": "哪些前提改变时原规则不适用？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "频率必须有限且正且单位一致；不从比值确定文化语义。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "CENTS-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "question": "缺少必要证据时怎样处理？",
+      "context": "CTX-CENTS@1",
+      "limit": "positive finite frequencies, known reference; no tuning identity inferred",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "参考不明时保留UNKNOWN。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "question": "哪些前提改变时原规则不适用？",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "身份、时窗、有效掩码独立；音准计算非健康/审美结论。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "PITCH-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-PITCH@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "question": "缺少必要证据时怎样处理？",
+      "context": "CTX-PITCH@1",
+      "limit": "independent reference and matching voice/event/time/mask; no diagnosis",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "无独立参考不推真实偏差；无目标不推音乐偏差。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "question": "哪些前提改变时原规则不适用？",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "实际窗形、平稳性、边界及测量工具另验。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "WINDOW-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "group": "GROUP-WINDOW@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "question": "缺少必要证据时怎样处理？",
+      "context": "CTX-WINDOW@1",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "example": {
+        "missingRequiredEvidence": true
+      },
+      "explanation": "无采样率或窗长不能给完整结果。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     }
   ],
   "bindings": [
@@ -413,6 +599,48 @@
       "claim": "CL-WINDOW@1",
       "role": "PRIMARY_TARGET",
       "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-CENTS-BOUND",
+      "view": "CENTS-BOUND@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-CENTS-UNK",
+      "view": "CENTS-UNK@1",
+      "claim": "CL-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-CENTS@1"
+    },
+    {
+      "id": "B-PITCH-BOUND",
+      "view": "PITCH-BOUND@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-UNK",
+      "view": "PITCH-UNK@1",
+      "claim": "CL-PITCH@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-WINDOW-BOUND",
+      "view": "WINDOW-BOUND@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-WINDOW-UNK",
+      "view": "WINDOW-UNK@1",
+      "claim": "CL-WINDOW@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "CTX-WINDOW@1"
     }
   ],
   "edges": [
@@ -484,7 +712,14 @@
         }
       ],
       "state": "L1_REQUIREMENT_ALIAS_ONLY",
-      "condition": "historical lineage only; not accepted claim"
+      "condition": "historical lineage only; not accepted claim",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 6,
+        "row": "| K13.01.01.02 | 区分史料记载口述研究和后世解释 | MIGRATE | K16.01.01.01 / ONE_TO_ONE_CANDIDATE | K16.01=史料口述与解释分层 | S133/S134/S135/S140 | FG-K13.01.01 / CP-K13.01；CQ18/CQ26/CQ13；A01/A05来源及语境；A02/A06研究或适配产物按任务 |"
+      }
     },
     {
       "old": "K13.02.01.01",
@@ -512,7 +747,14 @@
         }
       ],
       "state": "SPLIT_OPEN",
-      "condition": "each predicate/context distinct; no whole-slot equivalence"
+      "condition": "each predicate/context distinct; no whole-slot equivalence",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 39,
+        "row": "| K13.02.01.01 | 原生术语音级节奏曲式与社会语境 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.01 |"
+      }
     }
   ]
 }
