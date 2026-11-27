@@ -43,6 +43,11 @@ for l in (ROOT/'knowledge/K01/relation-authoring.tsv').read_text().splitlines():
  d,k,p,reason=l.split('\t');assert d in auth and p in auth and d!=p and k in ['H','O'];assert (k,p) not in [(x[0],x[1]) for x in relations[d]];relations[d].append((k,p,reason))
 def edge(d,k,to,scope,limits):
  e='K01-E-'+suffix(d)+'-'+k.upper().replace('_','-')+'-'+to.split('@')[0];edges.append({'id':e,'type':k,'from':cid(d),'to':to,'condition':ctx(d)});eq.append(dict(edge=e,scope=scope,limits=limits));return e
+negativeReasons={}
+for l in (ROOT/'cases/K01/negative-reasons.tsv').read_text().splitlines():
+ key,fn,rn=l.split('\t');assert key not in negativeReasons and fn and rn
+ negativeReasons[key]=(fn,rn)
+usedNegativeReasons=set()
 for r in rows:
  d=r['d4'];verify(r['discoveryAnchor']);a=r['primaryCase'];prior=r['proposedDisposition']
  if d not in auth:
@@ -75,13 +80,27 @@ for r in rows:
   if role=='H':hard.append((target,e))
  for label,caseid,casecondition,views,x in groups:
   g='K01-GR-'+suf+'-'+label;records.append(rec('CaseGroup',g,d4=d,claim=cid(d),kind='SYNTHETIC'))
+  negKey=suf+'-'+label;fn,rn=negativeReasons[negKey];usedNegativeReasons.add(negKey)
+  assert fn!=views[1] and rn!=views[3]
   for target,e in hard:ob.append(dict(edge=e,consumer=cid(d),provider=cid(target),condition=ctx(d),providerContext=ctx(target),group=g+'@1'))
   for i,(direction,polarity,key) in enumerate([('FORWARD','POSITIVE','FP'),('FORWARD','NEGATIVE','FN'),('REVERSE','POSITIVE','RP'),('REVERSE','NEGATIVE','RN')]):
    v='K01-V-'+suf+'-'+label+'-'+key
-   q=[f'在明确题设下构造或判断：{r["originalPredicate"]}',f'指出反例违反的具体条件：{r["originalPredicate"]}',f'从给定候选结果回查输入、规则及可能多解：{r["originalPredicate"]}',f'在反向信息缺失或多解时拒绝强推：{r["originalPredicate"]}'][i]
-   records.append(rec('CaseView',v,group=g+'@1',direction=direction,polarity=polarity,context=ctx(d),question=q,example=dict(frozenCase=caseid,caseCondition=casecondition,viewSpecificWitness=views[i],anchor=x,observationStatus='SYNTHETIC_EXPECTED_NOT_OBSERVED'),explanation=views[i],limits=limits,evidenceKind='SYNTHETIC_EXPECTED_NOT_OBSERVED'))
+   q=[f'给定题设：{casecondition}。构造或判断：{r["originalPredicate"]}；给出限定结果。',
+      f'给定题设：{casecondition}。以下为待审反例/边界描述，不是已证事实：「{views[1]}」。指出错误或越界条件。',
+      f'给定题设：{casecondition}。假设得到结果「{views[0]}」（非真实观测），如何回查输入与规则：{r["originalPredicate"]}？保留可能多解。',
+      f'给定题设：{casecondition}。若只保留结果「{views[0]}」或缺少辨别条件，哪些关于{r["originalPredicate"]}的反推必须拒绝或保持未知？'][i]
+   if i in (1,3):
+    reason=fn if i==1 else rn
+    expected='REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE' if i==1 else 'REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN'
+    witnessRole='NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT'
+    explanation=('裁定：拒绝错误适用或越界结论。理由：' if i==1 else '裁定：拒绝无证据强推，必要时保留未知或多解。理由：')+reason
+   else:
+    expected=views[i];witnessRole='FROZEN_EXPECTED_NOT_OBSERVED'
+    explanation=('正向依据：'+statement+'；在题定条件内据此得到所列期望结果。' if i==0 else '反向核验依据：'+statement+'；按所列核验步骤检查条件和候选解释，不将规则自动倒置为唯一原因。')
+   records.append(rec('CaseView',v,group=g+'@1',direction=direction,polarity=polarity,context=ctx(d),question=q,example=dict(frozenCase=caseid,caseCondition=casecondition,viewSpecificWitness=views[i],witnessRole=witnessRole,expectedResult=expected,reasoningBasis=fn if i==1 else rn if i==3 else statement,anchor=x,observationStatus='SYNTHETIC_EXPECTED_NOT_OBSERVED'),explanation=explanation,limits=limits,evidenceKind='SYNTHETIC_EXPECTED_NOT_OBSERVED'))
    bindings.append(dict(id='K01-B-'+suf+'-'+label+'-'+key+'-PRIMARY',view=v+'@1',claim=cid(d),role='PRIMARY_TARGET',condition=ctx(d)))
    for target,e in hard:bindings.append(dict(id='K01-B-'+suf+'-'+label+'-'+key+'-H-'+suffix(target),view=v+'@1',claim=cid(target),role='REQUIRES',condition=ctx(d)))
+assert usedNegativeReasons==set(negativeReasons)
 pack=dict(format='audio-kg-candidate/1',owner='K01',coverageMode='MODULE',inventory=inventory,records=records,edges=edges,bindings=bindings);pblob=write('knowledge/K01/candidate.json',pack)
 manifest=dict(format='audio-kg-qualification/1',owner='K01',status='CANDIDATE_QUALIFICATION_ONLY',packBlob=pblob,sourceQualifications=sq,edgeQualifications=eq,obligations=ob);mblob=write('knowledge/K01/qualification.json',manifest)
 controller=dict(entries=[dict(pack='knowledge/K01/candidate.json',manifest='knowledge/K01/qualification.json',manifestBlob=mblob)],allowFixture=False,priorRegistry=None);cblob=write('knowledge/K01/controller-input.json',controller)
@@ -100,7 +119,8 @@ for i,l in enumerate((ROOT/cap).read_text().splitlines(),1):
  if not re.match(r'^\| K01\.\d\d \| A0[1-7] \|',l):continue
  d2,ability,role,task,routes,limits=[x.strip() for x in l.split('|')[1:-1]];targets=list(dict.fromkeys(re.findall(r'K01\.\d\d\.\d\d\.\d\d',routes)));external=list(dict.fromkeys(re.findall(r'K(?:0[2-9]|1[0-9])(?:\.\d\d){0,3}',task+' '+limits)));w=[]
  for d in targets:
-  rr=by[d];ca=rr['primaryCase'];w.append(dict(d4=d,claimRef=cid(d) if d in auth else None,projectContract=d in ('K01.09.01.02','K01.09.03.02'),caseId=ca['id'] if ca else None,condition=ca['condition'] if ca else rr['scope'],expected=ca['forwardPositive'] if ca else 'UNKNOWN until precise evidence',reject=ca['forwardNegative'] if ca else 'No inferred evidence or authority'))
+  rr=by[d];ca=rr['primaryCase'];reason=negativeReasons[suffix(d)+'-MAIN'][0] if d in auth else {'K01.01.02.01':'三半音可为小三度或增二度，须看端点字母；历史路由非独立主张。','K01.03.01.02':'题定七声大调须各字母一次，G♯替A♭导致G重复A缺失；历史路由非全模式规则。','K01.09.03.02':'覆盖原稿破坏版本证据，未真实复测不能提升验证状态；保留原稿与差异。','K01.07.03.02':'同ABA可有不同形式解释，不能丢弃竞争标签及后续证据。'}.get(d,'缺精确候选证据，不推断或授予权限。')
+  w.append(dict(d4=d,claimRef=cid(d) if d in auth else None,projectContract=d in ('K01.09.01.02','K01.09.03.02'),caseId=ca['id'] if ca else None,condition=ca['condition'] if ca else rr['scope'],expected=ca['forwardPositive'] if ca else 'UNKNOWN until precise evidence',negativeWitness=ca['forwardNegative'] if ca else None,negativeWitnessRole='NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT',reject='拒绝错误适用或无证据强推：'+reason))
  roles.append(dict(id=d2+'/'+ability,role=role,task=task,claimRefs=[cid(d) for d in targets if d in auth],projectContractRefs=[d for d in targets if d in ('K01.09.01.02','K01.09.03.02')],localWitnesses=w,externalDiscovery=external,limits=limits,anchor=anchor(cap,i),authority='DOMAIN_KNOWLEDGE_CANDIDATE_ONLY',externalStatus='UNKNOWN_NOT_EXECUTED' if external or ability=='A03' else 'NOT_REQUESTED'))
 assert len(roles)==63 and all(x['role']=='S' for x in roles if x['id'].endswith('/A03'))
 write('queries/K01/capability-index.json',dict(format='audio-kg-K01-role-candidate/1',status='CANDIDATE_NOT_PERMISSION',frozenMatrix=matrix,matrixBlob=F['paths'][matrix],roles=roles))

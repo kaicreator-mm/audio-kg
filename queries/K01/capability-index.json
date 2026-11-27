@@ -20,7 +20,9 @@
           "caseId": "TL-K01.01.02.01",
           "condition": "S258/S209；C4到E♭4或D♯4",
           "expected": "3半音，分别小三度与增二度",
-          "reject": "3半音都判小三度"
+          "negativeWitness": "3半音都判小三度",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：三半音可为小三度或增二度，须看端点字母；历史路由非独立主张。"
         },
         {
           "d4": "K01.01.04.02",
@@ -29,7 +31,9 @@
           "caseId": "TB-K01.01.04.02",
           "condition": "S209；12TET书写C4–E♭4/E4、C4–G4、C4–F♯4/G♭4",
           "expected": "3/4半音为小/大三度；7半音纯五度；两种6半音分别增四/减五",
-          "reject": "以半音相同合并F♯/G♭，或把E♭标大三度"
+          "negativeWitness": "以半音相同合并F♯/G♭，或把E♭标大三度",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：三度需同时核字母及半音，C到E♭三半音为小三度；F♯与G♭的字母不同。"
         }
       ],
       "externalDiscovery": [],
@@ -61,7 +65,9 @@
           "caseId": "TD2-K01.01.04.01",
           "condition": "S191；简单上行八度内C4–E4、C4–G4、C4–F♯4",
           "expected": "E4–C5小六度，G4–C5纯四度，F♯4–C5减五度；序数各合9、半音各合12",
-          "reject": "只倒序E4–C4或把F♯4–C5叫增四度"
+          "negativeWitness": "只倒序E4–C4或把F♯4–C5叫增四度",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：倒序到原低音不是八度内转位；F♯到C字母为五度且六半音，是减五度。"
         },
         {
           "d4": "K01.01.03.01",
@@ -70,7 +76,9 @@
           "caseId": "TE-K01.01.03.01",
           "condition": "S209/S255；C4上行增四度和减五度",
           "expected": "分别F♯4、G♭4；同6半音但书写不同",
-          "reject": "只做mod12移位并丢失字母/八度"
+          "negativeWitness": "只做mod12移位并丢失字母/八度",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：移调须同时满足字母级数和有向半音、音区，mod12丢掉后两者的完整信息。"
         }
       ],
       "externalDiscovery": [],
@@ -123,7 +131,9 @@
           "caseId": "TB-K01.08.06.03",
           "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
           "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
-          "reject": "渲染成功就宣称局部编辑保真"
+          "negativeWitness": "渲染成功就宣称局部编辑保真",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：渲染成功可能掩盖音名、声部、时值或记号变更，须按授权字段逐项比较。"
         }
       ],
       "externalDiscovery": [
@@ -156,7 +166,9 @@
           "caseId": "TB-K01.01.04.02",
           "condition": "S209；12TET书写C4–E♭4/E4、C4–G4、C4–F♯4/G♭4",
           "expected": "3/4半音为小/大三度；7半音纯五度；两种6半音分别增四/减五",
-          "reject": "以半音相同合并F♯/G♭，或把E♭标大三度"
+          "negativeWitness": "以半音相同合并F♯/G♭，或把E♭标大三度",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：三度需同时核字母及半音，C到E♭三半音为小三度；F♯与G♭的字母不同。"
         }
       ],
       "externalDiscovery": [],
@@ -187,7 +199,9 @@
           "caseId": "TB-K01.01.05.01",
           "condition": "保留实际音区与方向，C4–G5、C4–G4、G4–C4",
           "expected": "前两者相差19和7半音，第三为下行7；记录方向及八度，不以同音级关系代替",
-          "reject": "三个例都只保存5度标签并称无损"
+          "negativeWitness": "三个例都只保存5度标签并称无损",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：19与7半音相差一八度，下降7与上升7方向相反，单一五度标签丢失这些字段。"
         }
       ],
       "externalDiscovery": [],
@@ -218,7 +232,9 @@
           "caseId": "TB-K01.08.06.03",
           "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
           "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
-          "reject": "渲染成功就宣称局部编辑保真"
+          "negativeWitness": "渲染成功就宣称局部编辑保真",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：渲染成功可能掩盖音名、声部、时值或记号变更，须按授权字段逐项比较。"
         }
       ],
       "externalDiscovery": [
@@ -252,7 +268,9 @@
           "caseId": "TD2-K01.02.04.01",
           "condition": "S022；同Hz单位，220/330均正",
           "expected": "220→330约+701.955音分，330→220约−701.955，220→220为0；0或负频率输入不满足公式条件",
-          "reject": "直接将110Hz当110音分、忽略方向或取log(0)"
+          "negativeWitness": "直接将110Hz当110音分、忽略方向或取log(0)",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：音分=1200log2(f2/f1)，不是Hz差；交换220与330使符号反转，零频率不在定义域。"
         },
         {
           "d4": "K01.02.04.02",
@@ -261,7 +279,9 @@
           "caseId": "TC-K01.02.04.02",
           "condition": "S022；参考442Hz、上行100音分",
           "expected": "442×2^(1/12)≈468.283Hz",
-          "reject": "把100音分当100Hz得到542Hz"
+          "negativeWitness": "把100音分当100Hz得到542Hz",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：100音分是比2^(1/12)，442乘该比约468.28Hz，不是442+100。"
         }
       ],
       "externalDiscovery": [],
@@ -293,7 +313,9 @@
           "caseId": "TC-K01.02.04.02",
           "condition": "S022；参考442Hz、上行100音分",
           "expected": "442×2^(1/12)≈468.283Hz",
-          "reject": "把100音分当100Hz得到542Hz"
+          "negativeWitness": "把100音分当100Hz得到542Hz",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：100音分是比2^(1/12)，442乘该比约468.28Hz，不是442+100。"
         },
         {
           "d4": "K01.02.06.01",
@@ -302,7 +324,9 @@
           "caseId": "TD2-K01.02.06.01",
           "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
           "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
-          "reject": "删除445/450原值或标成A♯4、声称无损"
+          "negativeWitness": "删除445/450原值或标成A♯4、声称无损",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：445与450Hz均按题定近邻映射到440Hz，偏差分别约19.56与38.91音分；删除原值丢失区别。"
         }
       ],
       "externalDiscovery": [],
@@ -355,7 +379,9 @@
           "caseId": "TD2-K01.02.06.01",
           "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
           "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
-          "reject": "删除445/450原值或标成A♯4、声称无损"
+          "negativeWitness": "删除445/450原值或标成A♯4、声称无损",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：445与450Hz均按题定近邻映射到440Hz，偏差分别约19.56与38.91音分；删除原值丢失区别。"
         }
       ],
       "externalDiscovery": [
@@ -389,7 +415,9 @@
           "caseId": "TB-K01.02.05.01",
           "condition": "指定纯五度3:2与12TET七半音，参考440Hz",
           "expected": "纯五度660Hz，平均律约659.255Hz；音分差约1.955",
-          "reject": "用660Hz证明12TET精确七半音"
+          "negativeWitness": "用660Hz证明12TET精确七半音",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：440乘3/2为660Hz，但十二平均律七半音乘2^(7/12)约659.255Hz，两模型差约1.955音分。"
         },
         {
           "d4": "K01.02.05.02",
@@ -398,7 +426,9 @@
           "caseId": "TD2-K01.02.05.02",
           "condition": "S192/S022；纯大三度5:4与12TET",
           "expected": "比较386.314与400音分，纯律约低13.686",
-          "reject": "把所有大三度都固定400音分"
+          "negativeWitness": "把所有大三度都固定400音分",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：纯大三度5/4约386.314音分，不是平均律400音分。"
         }
       ],
       "externalDiscovery": [],
@@ -429,7 +459,9 @@
           "caseId": "TD2-K01.02.06.01",
           "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
           "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
-          "reject": "删除445/450原值或标成A♯4、声称无损"
+          "negativeWitness": "删除445/450原值或标成A♯4、声称无损",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：445与450Hz均按题定近邻映射到440Hz，偏差分别约19.56与38.91音分；删除原值丢失区别。"
         }
       ],
       "externalDiscovery": [],
@@ -460,7 +492,9 @@
           "caseId": "TD2-K01.02.06.01",
           "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
           "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
-          "reject": "删除445/450原值或标成A♯4、声称无损"
+          "negativeWitness": "删除445/450原值或标成A♯4、声称无损",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：445与450Hz均按题定近邻映射到440Hz，偏差分别约19.56与38.91音分；删除原值丢失区别。"
         }
       ],
       "externalDiscovery": [
@@ -496,7 +530,9 @@
           "caseId": "TD2-K01.03.05.01",
           "condition": "S193/S194；D自然小调",
           "expected": "D E F G A B♭ C",
-          "reject": "把B写自然且仍称标准自然小调"
+          "negativeWitness": "把B写自然且仍称标准自然小调",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：D自然小调的六级为B♭，B自然改变模式，不满足所给定义。"
         },
         {
           "d4": "K01.03.05.02",
@@ -505,7 +541,9 @@
           "caseId": "TB-K01.03.05.02",
           "condition": "指定传统D和声小调及自然小调对照",
           "expected": "D E F G A B♭ C♯，相对自然小调升7",
-          "reject": "仍用C自然并声称和声小调定义"
+          "negativeWitness": "仍用C自然并声称和声小调定义",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：D和声小调相对自然小调升七级，C自然未满足该构造条件。"
         },
         {
           "d4": "K01.03.06.01",
@@ -514,7 +552,9 @@
           "caseId": "TD2-K01.03.06.01",
           "condition": "S194/S195；传统方向约定",
           "expected": "D上行含B C♯、下行含C B♭",
-          "reject": "下行必沿用上行并称传统练习定义"
+          "negativeWitness": "下行必沿用上行并称传统练习定义",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：指定传统练习下行恢复自然小调B♭、C；沿用B、C♯不是该下行构造。"
         }
       ],
       "externalDiscovery": [],
@@ -545,7 +585,9 @@
           "caseId": "TB-K01.03.04.02",
           "condition": "开头C调，后续Am–D7–G且之后反复以G为中心并有新调终止",
           "expected": "提出转G候选，核查新调前属与后续中心",
-          "reject": "只凭第一次D7认定完成转调"
+          "negativeWitness": "只凭第一次D7认定完成转调",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：第一次D7仅是新中心的候选前属/属证据，缺G中心后续不成立转调定论。"
         }
       ],
       "externalDiscovery": [],
@@ -598,7 +640,9 @@
           "caseId": "TB-K01.03.04.03",
           "condition": "C→G的假设分析片段，C、Em、Am、D7、G；明确两调候选",
           "expected": "C可为I/IV、Em可为iii/vi、Am可为vi/ii，分别列候选并检查实际转折",
-          "reject": "把所有共有和弦都标成已经完成转调的唯一枢纽"
+          "negativeWitness": "把所有共有和弦都标成已经完成转调的唯一枢纽",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：C、Em、Am均可能两调共有；没有实际功能转换便不能把它们全部标为唯一枢纽。"
         }
       ],
       "externalDiscovery": [
@@ -631,7 +675,9 @@
           "caseId": "TC-K01.03.07.02",
           "condition": "S195/S193；仅给白键音级集合",
           "expected": "C大调、D Dorian等均可共享集合；保留中心候选",
-          "reject": "仅由集合断定C大调"
+          "negativeWitness": "仅由集合断定C大调",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：白键集合也可用于D Dorian等，音集不含音级中心信息。"
         }
       ],
       "externalDiscovery": [],
@@ -660,7 +706,9 @@
           "caseId": "TL-K01.03.01.02",
           "condition": "S259；E♭为主音，普通西方大调",
           "expected": "E♭ F G A♭ B♭ C D E♭，逐字母且全半步正确",
-          "reject": "写G♯代A♭导致重复G/漏A，称完整拼写"
+          "negativeWitness": "写G♯代A♭导致重复G/漏A，称完整拼写",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：题定七声大调须各字母一次，G♯替A♭导致G重复A缺失；历史路由非全模式规则。"
         }
       ],
       "externalDiscovery": [],
@@ -693,7 +741,9 @@
           "caseId": "TB-K01.03.04.03",
           "condition": "C→G的假设分析片段，C、Em、Am、D7、G；明确两调候选",
           "expected": "C可为I/IV、Em可为iii/vi、Am可为vi/ii，分别列候选并检查实际转折",
-          "reject": "把所有共有和弦都标成已经完成转调的唯一枢纽"
+          "negativeWitness": "把所有共有和弦都标成已经完成转调的唯一枢纽",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：C、Em、Am均可能两调共有；没有实际功能转换便不能把它们全部标为唯一枢纽。"
         },
         {
           "d4": "K01.09.03.02",
@@ -702,7 +752,9 @@
           "caseId": "TE-K01.09.03.02",
           "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
           "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
-          "reject": "覆盖原稿且宣称所有检查已通过"
+          "negativeWitness": "覆盖原稿且宣称所有检查已通过",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：覆盖原稿破坏版本证据，未真实复测不能提升验证状态；保留原稿与差异。"
         }
       ],
       "externalDiscovery": [
@@ -736,7 +788,9 @@
           "caseId": "TD2-K01.04.04.01",
           "condition": "S196；常规3/4和6/8",
           "expected": "总名义时值均3个四分音符；常规分组3×2与2×3",
-          "reject": "认为小节时长相同就同拍层级"
+          "negativeWitness": "认为小节时长相同就同拍层级",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：常规3/4为三组二分，6/8为两组三分，虽均六八分时值，拍层级不同。"
         },
         {
           "d4": "K01.04.06.01",
@@ -745,7 +799,9 @@
           "caseId": "TD2-K01.04.06.01",
           "condition": "S198/S201；3:2等分",
           "expected": "每个三连八分1/3四分音符，合计1",
-          "reject": "三个普通八分总1.5当三连时值"
+          "negativeWitness": "三个普通八分总1.5当三连时值",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：三连八分每个为(1/2)×(2/3)=1/3四分单位，三个合1；普通三个合1.5。"
         }
       ],
       "externalDiscovery": [],
@@ -777,7 +833,9 @@
           "caseId": "TD2-K01.04.05.02",
           "condition": "S202；明确2/4+3/8",
           "expected": "总7/8，保存2/4与3/8分组",
-          "reject": "相加分子分母得5/12"
+          "negativeWitness": "相加分子分母得5/12",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：2/4换算4/8再加3/8得7/8；分子分母分别相加不是时值加法。"
         },
         {
           "d4": "K01.04.07.01",
@@ -786,7 +844,9 @@
           "caseId": "TD2-K01.04.07.01",
           "condition": "共同周期T=1，严格2和3等分",
           "expected": "事件位置0,1/2与0,1/3,2/3，仅0在半开周期内重合",
-          "reject": "强行把1/2与1/3对齐"
+          "negativeWitness": "强行把1/2与1/3对齐",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：共同周期内1/2不等1/3；2网格与3网格只在0重合。"
         }
       ],
       "externalDiscovery": [],
@@ -839,7 +899,9 @@
           "caseId": "TB-K01.04.06.03",
           "condition": "名义八分时值1/2四分单位；一组局部3:2再在其中事件组使用3:2，单事件乘(2/3)^2",
           "expected": "单事件2/9四分单位；需保存两级分组，而非仅最终时值",
-          "reject": "只保存2/9并宣称原嵌套/括号完整恢复"
+          "negativeWitness": "只保存2/9并宣称原嵌套/括号完整恢复",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：2/9由名义1/2及两层2/3得出；乘积没有保存两层的边界与括号。"
         }
       ],
       "externalDiscovery": [
@@ -873,7 +935,9 @@
           "caseId": "TD2-K01.04.06.01",
           "condition": "S198/S201；3:2等分",
           "expected": "每个三连八分1/3四分音符，合计1",
-          "reject": "三个普通八分总1.5当三连时值"
+          "negativeWitness": "三个普通八分总1.5当三连时值",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：三连八分每个为(1/2)×(2/3)=1/3四分单位，三个合1；普通三个合1.5。"
         },
         {
           "d4": "K01.04.06.02",
@@ -882,7 +946,9 @@
           "caseId": "TC-K01.04.06.02",
           "condition": "S198；复拍内2:3的八分二连音",
           "expected": "每音3/4个四分音符单位，总3/2",
-          "reject": "每音普通八分1/2，总1"
+          "negativeWitness": "每音普通八分1/2，总1",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：2:3二连八分每个乘3/2得3/4，两个合3/2，普通八分不符合题定比。"
         }
       ],
       "externalDiscovery": [],
@@ -915,7 +981,9 @@
           "caseId": "TB-K01.04.05.01",
           "condition": "明确5/8分组3+2及2+3",
           "expected": "总时值同5/8，第二组起点分别在第4与第3个八分位置",
-          "reject": "总时值相同即分组相同"
+          "negativeWitness": "总时值相同即分组相同",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：3+2第二组从第4八分开始，2+3从第3开始；相同总量不保留有序边界。"
         },
         {
           "d4": "K01.04.05.02",
@@ -924,7 +992,9 @@
           "caseId": "TD2-K01.04.05.02",
           "condition": "S202；明确2/4+3/8",
           "expected": "总7/8，保存2/4与3/8分组",
-          "reject": "相加分子分母得5/12"
+          "negativeWitness": "相加分子分母得5/12",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：2/4换算4/8再加3/8得7/8；分子分母分别相加不是时值加法。"
         },
         {
           "d4": "K01.04.06.03",
@@ -933,7 +1003,9 @@
           "caseId": "TB-K01.04.06.03",
           "condition": "名义八分时值1/2四分单位；一组局部3:2再在其中事件组使用3:2，单事件乘(2/3)^2",
           "expected": "单事件2/9四分单位；需保存两级分组，而非仅最终时值",
-          "reject": "只保存2/9并宣称原嵌套/括号完整恢复"
+          "negativeWitness": "只保存2/9并宣称原嵌套/括号完整恢复",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：2/9由名义1/2及两层2/3得出；乘积没有保存两层的边界与括号。"
         }
       ],
       "externalDiscovery": [],
@@ -964,7 +1036,9 @@
           "caseId": "TB-K01.08.06.03",
           "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
           "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
-          "reject": "渲染成功就宣称局部编辑保真"
+          "negativeWitness": "渲染成功就宣称局部编辑保真",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：渲染成功可能掩盖音名、声部、时值或记号变更，须按授权字段逐项比较。"
         }
       ],
       "externalDiscovery": [
@@ -998,7 +1072,9 @@
           "caseId": "TB-K01.05.11.02",
           "condition": "指定C根、12TET及正确拼写",
           "expected": "C E G、C E♭ G、C E G♯、C E♭ G♭分别为大、小、增、减三和弦",
-          "reject": "将C E G♯称大三和弦不查五音"
+          "negativeWitness": "将C E G♯称大三和弦不查五音",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：C–G♯八半音为增五度，C E G♯是增三和弦而非大三和弦。"
         },
         {
           "d4": "K01.05.04.03",
@@ -1007,7 +1083,9 @@
           "caseId": "TD-K01.05.04",
           "condition": "S184；C根音、三度叠置、记谱已知",
           "expected": "C E♭ G♭ B♭为半减七；B𝄫替换末音为全减七",
-          "reject": "都标Cdim7"
+          "negativeWitness": "都标Cdim7",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：半减七末音B♭为小七，全减七B𝄫为减七；不能均写Cdim7。"
         }
       ],
       "externalDiscovery": [],
@@ -1039,7 +1117,9 @@
           "caseId": "TD-K01.05.06",
           "condition": "S177；C大调、D F♯ A C后接G",
           "expected": "D7为V7/V候选",
-          "reject": "D7必是C调内ii7"
+          "negativeWitness": "D7必是C调内ii7",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：C调内ii7含F自然，D7含F♯，后接G时支持V7/V候选，不是调内ii7。"
         },
         {
           "d4": "K01.05.06.02",
@@ -1048,7 +1128,9 @@
           "caseId": "TB-K01.05.06.02",
           "condition": "同一D7，分别提供C大调D7–G及G大调D7–G句末",
           "expected": "前者可为V7/V，后者为G大调本调属七 V7；实际分析仍查上下文",
-          "reject": "所有D7都是C调副属"
+          "negativeWitness": "所有D7都是C调副属",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：D7在C调后接G可为V7/V，在G调为本调V7；不能对所有上下文统一副属。"
         }
       ],
       "externalDiscovery": [],
@@ -1101,7 +1183,9 @@
           "caseId": "TB-K01.05.12.02",
           "condition": "S232/S181；孤立E3 G3与完整C E G/E，另指定C/F♯及C E G A",
           "expected": "E3 G3不唯一判C/E；完整C/E为第一转位；C/F♯低音非C三和弦成员，不属于普通转位；C E G A可作C6或Am7等语境候选",
-          "reject": "最低音总是根音；所有slash均普通转位；四音集唯一决定C6"
+          "negativeWitness": "最低音总是根音；所有slash均普通转位；四音集唯一决定C6",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：C/E的E是低音而非根，C/F♯低音非成员；C E G A也可解释Am7。"
         }
       ],
       "externalDiscovery": [
@@ -1135,7 +1219,9 @@
           "caseId": "TD3-K01.05.12.01",
           "condition": "S232；指定C大三和弦，分别给C3 E4 G4、E3 G4 C5、G3 C4 E4实际音区",
           "expected": "最低分别根、三、五音，因此根位、第一、第二转位",
-          "reject": "仅按最高音或无序集合判断转位；G3在低不叫第一转位"
+          "negativeWitness": "仅按最高音或无序集合判断转位；G3在低不叫第一转位",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：转位取决于实际最低音；G为C三和弦五音，G3最低是第二转位而非第一。"
         },
         {
           "d4": "K01.05.06.02",
@@ -1144,7 +1230,9 @@
           "caseId": "TB-K01.05.06.02",
           "condition": "同一D7，分别提供C大调D7–G及G大调D7–G句末",
           "expected": "前者可为V7/V，后者为G大调本调属七 V7；实际分析仍查上下文",
-          "reject": "所有D7都是C调副属"
+          "negativeWitness": "所有D7都是C调副属",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：D7在C调后接G可为V7/V，在G调为本调V7；不能对所有上下文统一副属。"
         }
       ],
       "externalDiscovery": [],
@@ -1175,7 +1263,9 @@
           "caseId": "TB-K01.05.10.03",
           "condition": "Cmaj7、指定C E G B结构，两种排列C3 E4 G4 B4与C3 G3 B3 E4",
           "expected": "同符号可对应不同voicing；演奏可行性另查K03/K04",
-          "reject": "符号相同即实际配置/可奏性相同"
+          "negativeWitness": "符号相同即实际配置/可奏性相同",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：同符号可对应多个音区和排列，乐器/人声能力独立，故配置及可奏性不由符号保证。"
         }
       ],
       "externalDiscovery": [],
@@ -1206,7 +1296,9 @@
           "caseId": "TE-K01.09.03.02",
           "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
           "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
-          "reject": "覆盖原稿且宣称所有检查已通过"
+          "negativeWitness": "覆盖原稿且宣称所有检查已通过",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：覆盖原稿破坏版本证据，未真实复测不能提升验证状态；保留原稿与差异。"
         }
       ],
       "externalDiscovery": [
@@ -1240,7 +1332,9 @@
           "caseId": "TD3-K01.06.11.01",
           "condition": "指定S217第一类1:1练习的中间事件，固定低音C4，比较上声E4及D4",
           "expected": "C4–E4为协和三度，满足局部纵向条件",
-          "reject": "C4–D4二度不满足该条件；不能将此限制推广所有复调"
+          "negativeWitness": "C4–D4二度不满足该条件；不能将此限制推广所有复调",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：C4–D4为二度，在指定H1纵向协和规则中不合格；不外推其他复调。"
         },
         {
           "d4": "K01.06.04.01",
@@ -1249,7 +1343,9 @@
           "caseId": "TB-K01.06.04.01",
           "condition": "同声部C–D–E，和声时段C大三和弦不变",
           "expected": "D不在和弦内，结合前后级进可提出经过音",
-          "reject": "不查时段和弦，仅凭D判非和弦音"
+          "negativeWitness": "不查时段和弦，仅凭D判非和弦音",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：D在C和弦中非成员，但在Dm是成员；判别依时段和弦。"
         }
       ],
       "externalDiscovery": [],
@@ -1282,7 +1378,9 @@
           "caseId": "TC-K01.06.08.02",
           "condition": "S212 §26.7.1；根位四部，源C3 E4 G4 C5，目标A2 E4 A4 C5及A3 E4 A4 C5两种低音位置",
           "expected": "E4/C5两共同音保持，G4→A4级进；低音分别下小三/上大六，两和弦根重复；分别另查完整声部约束",
-          "reject": "将三/六度低音连接解释为上三声部全保持，或把所有相同PC的低音都当实际同向"
+          "negativeWitness": "将三/六度低音连接解释为上三声部全保持，或把所有相同PC的低音都当实际同向",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：该三/六度低音连接须两个共同音和另一声部级进，并按真实音区定方向；并非上声全保持。"
         },
         {
           "d4": "K01.06.08.03",
@@ -1291,7 +1389,9 @@
           "caseId": "TC-K01.06.08.03",
           "condition": "S212 §26.7.2；B/T/A/S身份固定，C3 E4 G4 C5；两目标均根位G，低音下四度",
           "expected": "方法1 G2 D4 G4 B4：G4保持、E4/C5下行级进；方法2 G2 G4 B4 D5：上三声部E4→G4、G4→B4、C5→D5同向上行小三/大三/大二，分别为该方向最近目标成员；两目标根音重复且声部有序",
-          "reject": "若G2 B4 D5 G5，上三声部跳进/非最近成员，不能按方法2通过；方法1不是全部保持"
+          "negativeWitness": "若G2 B4 D5 G5，上三声部跳进/非最近成员，不能按方法2通过；方法1不是全部保持",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：题定方法2要求同方向最近目标成员，G2 B4 D5 G5造成额外跳进；方法1只保持一个共同音。"
         },
         {
           "d4": "K01.06.09.01",
@@ -1300,7 +1400,9 @@
           "caseId": "TD3-K01.06.09.01",
           "condition": "C大调完整V7，指定严格模式",
           "expected": "B→C、F→E、D→C",
-          "reject": "把F→G称严格解决"
+          "negativeWitness": "把F→G称严格解决",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：指定严格V7→I中F为七音应下行E；F→G不符合该局部方案。"
         }
       ],
       "externalDiscovery": [],
@@ -1353,7 +1455,9 @@
           "caseId": "TB-K01.06.08.01",
           "condition": "两和弦C E G与C E G，四部A:C3 E4 G4 C5→原样；B:C3 E4 G4 C5→C3 G4 E4 C5（声部身份固定）",
           "expected": "A与B音级集合相同但B两个内声部交叉，需查指定课堂约束",
-          "reject": "只比音级集合即判两配置同一运动"
+          "negativeWitness": "只比音级集合即判两配置同一运动",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：和弦集合相同仍可能交换内声部，实际voice ID决定运动与交叉。"
         }
       ],
       "externalDiscovery": [
@@ -1386,7 +1490,9 @@
           "caseId": "TD3-K01.06.12.01",
           "condition": "固定低声C4；上声E4强位、D4弱位、下一强位C4，局部仅查经过音",
           "expected": "D4作为向下经过的弱位二度符合该局部条件",
-          "reject": "D4改到强位仍称允许不协和"
+          "negativeWitness": "D4改到强位仍称允许不协和",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：D4与固定C4为大二度；H2第一半音符必须协和，经过音例外只在第二半音符弱位。"
         }
       ],
       "externalDiscovery": [],
@@ -1417,7 +1523,9 @@
           "caseId": "TB-K01.06.08.01",
           "condition": "两和弦C E G与C E G，四部A:C3 E4 G4 C5→原样；B:C3 E4 G4 C5→C3 G4 E4 C5（声部身份固定）",
           "expected": "A与B音级集合相同但B两个内声部交叉，需查指定课堂约束",
-          "reject": "只比音级集合即判两配置同一运动"
+          "negativeWitness": "只比音级集合即判两配置同一运动",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：和弦集合相同仍可能交换内声部，实际voice ID决定运动与交叉。"
         }
       ],
       "externalDiscovery": [],
@@ -1448,7 +1556,9 @@
           "caseId": "TB-K01.08.06.03",
           "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
           "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
-          "reject": "渲染成功就宣称局部编辑保真"
+          "negativeWitness": "渲染成功就宣称局部编辑保真",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：渲染成功可能掩盖音名、声部、时值或记号变更，须按授权字段逐项比较。"
         }
       ],
       "externalDiscovery": [
@@ -1482,7 +1592,9 @@
           "caseId": "TB-K01.07.06.01",
           "condition": "古典框架示意：C主题与G副主题呈示；中段发展；再现两主题在C；非真实作品",
           "expected": "提出呈示–展开–再现分析并保留主题与调性标注",
-          "reject": "仅因三段便定为奏鸣曲式"
+          "negativeWitness": "仅因三段便定为奏鸣曲式",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：奏鸣候选需主题与调性呈示、发展加工和再现回归证据，三段数量本身不够。"
         },
         {
           "d4": "K01.07.07.01",
@@ -1491,7 +1603,9 @@
           "caseId": "TB-K01.07.07.01",
           "condition": "S220 Temko/Spencer框架，给稳定主题陈述、连接、动机加工、结尾候选片段",
           "expected": "提出呈示、过渡、发展、终结四功能候选，稳定只是线索",
-          "reject": "将稳定调性当独立第五功能或把每个V标结构过渡"
+          "negativeWitness": "将稳定调性当独立第五功能或把每个V标结构过渡",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：稳定调性是呈示线索非第五功能；单个V是和声证据，不保证过渡结构。"
         }
       ],
       "externalDiscovery": [],
@@ -1522,7 +1636,9 @@
           "caseId": "TD-K01.07.05",
           "condition": "S185；明确作者分析框架",
           "expected": "若B短、沿用A动机并主要属功能，可提出再现二部候选",
-          "reject": "见ABA一定三部"
+          "negativeWitness": "见ABA一定三部",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：ABA可兼容再现二部及三部；B的比例、动机独立性和调性是区分线索。"
         }
       ],
       "externalDiscovery": [],
@@ -1573,7 +1689,9 @@
           "caseId": "TL-K01.07.03.02",
           "condition": "S185/S219；给同一ABA结构的两竞争标签及两位分析者依据",
           "expected": "保留再现二部与三部候选、分段证据与版本",
-          "reject": "仅因已有一个标签就丢弃另一解释"
+          "negativeWitness": "仅因已有一个标签就丢弃另一解释",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：同ABA可有不同形式解释，不能丢弃竞争标签及后续证据。"
         }
       ],
       "externalDiscovery": [
@@ -1607,7 +1725,9 @@
           "caseId": "TB-K01.07.05.02",
           "condition": "指定教材框架；同A–B–A标签，两例B短且继承A动机、B长且独立主题",
           "expected": "分别保留再现二部和三部候选，核查调性与结构",
-          "reject": "只凭年代或ABA强制同一形式"
+          "negativeWitness": "只凭年代或ABA强制同一形式",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：同年代或ABA可出现不同结构，需实际主题独立性、比例、调性和边界。"
         },
         {
           "d4": "K01.07.04.02",
@@ -1616,7 +1736,9 @@
           "caseId": "TB-K01.07.04.02",
           "condition": "C调，同一G–C分别位于明确乐句结尾和乐句内部",
           "expected": "结尾为正格终止候选；内部只是进行候选",
-          "reject": "每次V–I都标终止式"
+          "negativeWitness": "每次V–I都标终止式",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：正格终止需要实际乐句结束；句内V–I仅和声进行，不能每次标终止。"
         }
       ],
       "externalDiscovery": [],
@@ -1645,7 +1767,9 @@
           "caseId": "TL-K01.07.03.02",
           "condition": "S185/S219；给同一ABA结构的两竞争标签及两位分析者依据",
           "expected": "保留再现二部与三部候选、分段证据与版本",
-          "reject": "仅因已有一个标签就丢弃另一解释"
+          "negativeWitness": "仅因已有一个标签就丢弃另一解释",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：同ABA可有不同形式解释，不能丢弃竞争标签及后续证据。"
         }
       ],
       "externalDiscovery": [],
@@ -1676,7 +1800,9 @@
           "caseId": "TE-K01.09.03.02",
           "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
           "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
-          "reject": "覆盖原稿且宣称所有检查已通过"
+          "negativeWitness": "覆盖原稿且宣称所有检查已通过",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：覆盖原稿破坏版本证据，未真实复测不能提升验证状态；保留原稿与差异。"
         }
       ],
       "externalDiscovery": [
@@ -1711,7 +1837,9 @@
           "caseId": "TD2-K01.08.04.01",
           "condition": "S197；标准四分音符为1个四分单位",
           "expected": "单附点1+1/2=3/2，双附点1+1/2+1/4=7/4",
-          "reject": "两附点都加1/2得2，或将点固定加某秒数"
+          "negativeWitness": "两附点都加1/2得2，或将点固定加某秒数",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：第二点增加前一点的一半即原值1/4，双附点1+1/2+1/4=7/4；非固定秒数。"
         },
         {
           "d4": "K01.08.04.02",
@@ -1720,7 +1848,9 @@
           "caseId": "TB-K01.08.04.02",
           "condition": "同声部同音C4，两个四分音符跨小节有延音线，另例C4到D4连奏线",
           "expected": "延音候选为名义持续2个四分单位，不要求再起音；连奏不合并不同音的音高身份",
-          "reject": "把延音等同两个独立起音或把连奏音都合成同音"
+          "negativeWitness": "把延音等同两个独立起音或把连奏音都合成同音",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：tie连接同音且不要求再起音，slur不合并不同音身份；两者功能不同。"
         },
         {
           "d4": "K01.08.06.01",
@@ -1729,7 +1859,9 @@
           "caseId": "TB-K01.08.06.01",
           "condition": "MusicXML4.0示意：C自然音事件的step C、alter 0，可有提示性natural记号",
           "expected": "实际音高保持C，显示提示记号与音高表示分别核对",
-          "reject": "见natural就认定与上一音高必不同"
+          "negativeWitness": "见natural就认定与上一音高必不同",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：提示性natural可仅改变显示而不改变书写音高；必须分别检查音高与作用范围。"
         }
       ],
       "externalDiscovery": [],
@@ -1760,7 +1892,9 @@
           "caseId": "TD2-K01.08.05.01",
           "condition": "S203/S201；正常4/4双声部各4拍",
           "expected": "分别检查时间线各结束4拍",
-          "reject": "把两个声部时值加成8判超长"
+          "negativeWitness": "把两个声部时值加成8判超长",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：两个并行声部分别覆盖四拍，不能相加成八拍判超长。"
         }
       ],
       "externalDiscovery": [],
@@ -1813,7 +1947,9 @@
           "caseId": "TB-K01.08.06.03",
           "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
           "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
-          "reject": "渲染成功就宣称局部编辑保真"
+          "negativeWitness": "渲染成功就宣称局部编辑保真",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：渲染成功可能掩盖音名、声部、时值或记号变更，须按授权字段逐项比较。"
         }
       ],
       "externalDiscovery": [
@@ -1847,7 +1983,9 @@
           "caseId": "TD2-K01.08.06.02",
           "condition": "S200/S201；MusicXML4.0语义",
           "expected": "分别保存播放时值和视觉连音/延音信息",
-          "reject": "音频可播放即认定谱面保真"
+          "negativeWitness": "音频可播放即认定谱面保真",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：能播放不证明视觉tie或tuplet仍在；声音和记谱表示须分别验证。"
         }
       ],
       "externalDiscovery": [],
@@ -1878,7 +2016,9 @@
           "caseId": "TB-K01.08.05.02",
           "condition": "MusicXML4.0符号例，divisions=480；普通八分duration=240，三连八分duration=160，type均eighth",
           "expected": "名义类型相同，预期时值分别1/2、1/3四分单位；实际演出时长另证",
-          "reject": "从type=eighth无视duration/比例强制240"
+          "negativeWitness": "从type=eighth无视duration/比例强制240",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：名义eighth可普通240或题定三连160 divisions，比例及duration不可忽略。"
         }
       ],
       "externalDiscovery": [],
@@ -1909,7 +2049,9 @@
           "caseId": "TB-K01.08.06.03",
           "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
           "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
-          "reject": "渲染成功就宣称局部编辑保真"
+          "negativeWitness": "渲染成功就宣称局部编辑保真",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：渲染成功可能掩盖音名、声部、时值或记号变更，须按授权字段逐项比较。"
         }
       ],
       "externalDiscovery": [
@@ -1945,7 +2087,9 @@
           "caseId": "TB-K01.09.04.01",
           "condition": "C=0、12音音级等音和八度等价表示",
           "expected": "C4、C5→0；F♯4和G♭4→6",
-          "reject": "认为该表示保留八度和拼写"
+          "negativeWitness": "认为该表示保留八度和拼写",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：模12把C4和C5及等音拼写折叠，表示不保存八度与字母。"
         },
         {
           "d4": "K01.09.04.02",
@@ -1954,7 +2098,9 @@
           "caseId": "TD-K01.09.04",
           "condition": "S186；十二音集合表示",
           "expected": "[C4,E4,G4] 与 [G5,C3,E4,C4]可有同音级集合",
-          "reject": "集合相同就判相同旋律/乐谱"
+          "negativeWitness": "集合相同就判相同旋律/乐谱",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：集合消去重复、顺序和音区，不同原谱可给同一集合。"
         },
         {
           "d4": "K01.09.05.01",
@@ -1963,7 +2109,9 @@
           "caseId": "TD-K01.09.05",
           "condition": "S187；模12",
           "expected": "{1,5,10}经T4得{5,9,2}",
-          "reject": "不取模得到14"
+          "negativeWitness": "不取模得到14",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：T4把10变14后须模12得2，14不在规范音级域。"
         }
       ],
       "externalDiscovery": [],
@@ -1995,7 +2143,9 @@
           "caseId": "TD3-K01.09.08.01",
           "condition": "{0,3,6,10}",
           "expected": "[0,1,2,1,1,1]",
-          "reject": "盲录教材正文012011"
+          "negativeWitness": "盲录教材正文012011",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：四个不同音级有6对；012011合5漏一对，逐对复算得012111。"
         },
         {
           "d4": "K01.09.09.01",
@@ -2004,7 +2154,9 @@
           "caseId": "TD3-K01.09.09.01",
           "condition": "P行0,2,4,6,8,10,1,3,5,7,9,11",
           "expected": "首列0,10,8,6,4,2,11,9,7,5,3,1；第二行起点10",
-          "reject": "把首列直接复制首行"
+          "negativeWitness": "把首列直接复制首行",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：首列应为I[j]=(2p[0]−p[j]) mod12；直接复制P通常不满足倒影。"
         }
       ],
       "externalDiscovery": [],
@@ -2057,7 +2209,9 @@
           "caseId": "TE-K01.09.03.02",
           "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
           "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
-          "reject": "覆盖原稿且宣称所有检查已通过"
+          "negativeWitness": "覆盖原稿且宣称所有检查已通过",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：覆盖原稿破坏版本证据，未真实复测不能提升验证状态；保留原稿与差异。"
         }
       ],
       "externalDiscovery": [
@@ -2091,7 +2245,9 @@
           "caseId": "TC-K01.09.08.02",
           "condition": "S224；4个不同音级的组合计数",
           "expected": "六格之和6；若为[0,1,2,0,1,1]总5，必须复核",
-          "reject": "因教材权威直接接受总5"
+          "negativeWitness": "因教材权威直接接受总5",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：四音级应有4×3/2=6对，教材正文总5不满足必要条件，不因权威接受。"
         },
         {
           "d4": "K01.09.08.03",
@@ -2100,7 +2256,9 @@
           "caseId": "TD3-K01.09.08.03",
           "condition": "{0,1,4,6}与{0,1,3,7}",
           "expected": "向量相同；24种变换穷举均不匹配",
-          "reject": "向量相等就判TnI等价"
+          "negativeWitness": "向量相等就判TnI等价",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：题定Z对向量相同却24个TnI均不匹配，直接反驳同向量等价推断。"
         }
       ],
       "externalDiscovery": [],
@@ -2131,7 +2289,9 @@
           "caseId": "TD-K01.09.04",
           "condition": "S186；十二音集合表示",
           "expected": "[C4,E4,G4] 与 [G5,C3,E4,C4]可有同音级集合",
-          "reject": "集合相同就判相同旋律/乐谱"
+          "negativeWitness": "集合相同就判相同旋律/乐谱",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：集合消去重复、顺序和音区，不同原谱可给同一集合。"
         }
       ],
       "externalDiscovery": [],
@@ -2162,7 +2322,9 @@
           "caseId": "TE-K01.09.03.02",
           "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
           "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
-          "reject": "覆盖原稿且宣称所有检查已通过"
+          "negativeWitness": "覆盖原稿且宣称所有检查已通过",
+          "negativeWitnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+          "reject": "拒绝错误适用或无证据强推：覆盖原稿破坏版本证据，未真实复测不能提升验证状态；保留原稿与差异。"
         }
       ],
       "externalDiscovery": [
