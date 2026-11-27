@@ -21,7 +21,7 @@ const copy=structuredClone;
 function canonical(x){return x===null?"null":Array.isArray(x)?"["+x.map(canonical).join(",")+"]":typeof x==="object"?"{"+Object.keys(x).sort().map(k=>JSON.stringify(k)+":"+canonical(x[k])).join(",")+"}":JSON.stringify(x)}
 const recordDigest=x=>crypto.createHash("sha256").update(canonical(x)).digest("hex");
 function freeze(x){if(x&&typeof x==="object"&&!Object.isFrozen(x)){for(const v of Object.values(x))freeze(v);Object.freeze(x)}return x;}
-const PROFILE_BLOB="efee38b8ca57d453a4c3073f848939bde581899c";
+const PROFILE_BLOB="e0015b9c760b56ce74e3bdf9fecf8748faa4c5da";
 // Independent portable projection of actual frozen Git tree (not candidate-generated).
 const L1_TREE_BLOB="a72360e348f00e82a74809e6acc056f05b311b1f";
 const L1_TREE="96ae7e9a2ee5c000b63f001faeee4a6a4be69396";
@@ -185,6 +185,13 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    fail(/^S\d+$/.test(r.sourceId)&&r.id===r.sourceId&&[r.title,r.author,r.version,r.publicationDate,r.accessDate,r.uri,r.locator].every(token)&&p.sourceGrades.includes(r.grade)&&r.rights==="UNKNOWN_NO_IMPORT","source metadata");
    anchor(r.anchor,"source");fail(new RegExp("(^|[^A-Z0-9])"+r.sourceId+"([^0-9]|$)").test(r.anchor.row),"source anchor id");
    const urls=[...r.anchor.row.matchAll(/\((https?:\/\/[^)\s]+)\)/g)].map(m=>m[1]);
+   // Frozen legacy vocal/digital qualification has plain URI tokens in its source column.
+   // Do not interpret arbitrary text, other files, or another source's row as a locator.
+   if(r.anchor.file==="docs/research/source-qualification-vocal-digital.md"&&r.anchor.blob==="73ac66934ae016a125ecc6302fa7fa3875faab16"){
+    const c=r.anchor.row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(c.length===4&&c[0]===r.sourceId,"legacy exact source row identity");
+    for(const u of c[1].matchAll(/(?:^|[\s；])((?:https):\/\/[^\s；，]+)(?=$|[\s；，])/g))urls.push(u[1]);
+   }
    const q=sourceQual.get(id);fail(q&&urls.includes(r.uri)&&(q.accessedUri==="UNKNOWN"||urls.includes(q.accessedUri)),"source exact URI/qualification");
    if(r.grade==="READ_LOCATOR")fail(/READ_LOCATOR|重读|已读|实际阅读/.test(r.anchor.row),"unsupported source grade");
   }else if(r.type==="Context")fail(token(r.condition),"context");
