@@ -30,10 +30,15 @@ test("public WINDOW-RP partial reverse",eq(evaluate("reverseGrid",view("WINDOW-R
 test("public WINDOW-RN insufficient reverse",evaluate("reverseGrid",view("WINDOW-RN")).state==="UNKNOWN");
 
 test("invalid frequency",evaluate("cents",{reference:0,observed:200}).state==="UNKNOWN");
-test("wrong event",evaluate("pitch",{reference:220,estimate:220,target:200,valid:true,identity:"A",referenceIdentity:"B",estimateIdentity:"A"}).state==="UNKNOWN_WINDOW");
-test("missing musical target",eq(evaluate("pitch",{reference:220,estimate:220,valid:true,identity:"A",referenceIdentity:"A",estimateIdentity:"A"}),{state:"UNKNOWN_TARGET",estimateError:0,actualGoalError:null,estimatedGoalError:null}));
-test("same observation different grid",evaluate("window",{fs:48000,win:480,nfft:960}).seconds===evaluate("window",{fs:48000,win:480,nfft:1920}).seconds);
-test("invalid fft length",evaluate("window",{fs:48000,win:960,nfft:480}).state==="UNKNOWN");
+const qualified=pack.views.find(x=>x.id==="PITCH-FP").example;
+test("wrong event",evaluate("pitch",{...qualified,referenceIdentity:"B"}).state==="UNKNOWN_WINDOW");
+test("wrong independent clock",evaluate("pitch",{...qualified,referenceClock:"other"}).state==="UNKNOWN_WINDOW");
+test("wrong estimate window",evaluate("pitch",{...qualified,estimateWindow:[1,501]}).state==="UNKNOWN_WINDOW");
+test("wrong reference kind",evaluate("pitch",{...qualified,referenceKind:"ESTIMATOR"}).state==="UNKNOWN_WINDOW");
+test("missing musical target",eq(evaluate("pitch",{...qualified,target:null}),{state:"UNKNOWN_TARGET",estimateError:0,actualGoalError:null,estimatedGoalError:null}));
+test("same observation different grid",evaluate("window",{fs:48000,win:480,nfft:960,realInput:true,oneSided:true}).seconds===evaluate("window",{fs:48000,win:480,nfft:1920,realInput:true,oneSided:true}).seconds);
+test("complex or unqualified one-sided bins",evaluate("window",{fs:48000,win:480,nfft:960,realInput:false,oneSided:true}).state==="UNKNOWN");
+test("invalid fft length",evaluate("window",{fs:48000,win:960,nfft:480,realInput:true,oneSided:true}).state==="UNKNOWN");
 test("reverse multiple windows",eq(evaluate("reverseGrid",{fs:48000,gridHz:50}),{state:"PARTIAL",nfft:960,win:null}));
 test("historical alias",route(pack,"K13.01.01.02").target==="K16.01.01.01");
 test("split not equivalent",route(pack,"K13.02.01.01").wholeSlotEquivalent===false);
@@ -93,7 +98,7 @@ test("R9 actual replay",witness.trace.checks.length===44&&witness.trace.checks.e
 const t=witness.trace.positive;
 test("CQ25 seven stages",eq(t.primary,["A01","A02","A03","A04","A05","A06","A07"]));
 test("CQ25 support/evidence",eq([...t.support].sort(),["S-A11","S-GV02","S-V06"])&&eq([...t.evidence].sort(),["E-EST","E-OBS","E-RECEIPT"]));
-const computed=evaluate("pitch",{reference:t.reference.hz,estimate:t.estimate.hz,target:t.context.target.musicHz,valid:t.reference.valid,identity:t.context.voice,referenceIdentity:t.reference.voice,estimateIdentity:t.estimate.voice});
+const computed=evaluate("pitch",{reference:t.reference.hz,estimate:t.estimate.hz,target:t.context.target.musicHz,valid:t.reference.valid,identity:t.context.voice,referenceIdentity:t.reference.voice,estimateIdentity:t.estimate.voice,clock:t.context.clock.id,referenceClock:t.reference.clock,estimateClock:t.estimate.clock,window:t.context.window,referenceWindow:t.reference.window,estimateWindow:t.estimate.window,referenceKind:t.reference.source,estimateKind:t.estimate.source});
 test("pilot calculation matches actual trace",computed.state==="VALUE"&&close(computed.estimateError,t.result.estimateError)&&close(computed.actualGoalError,t.result.actualGoalError)&&close(computed.estimatedGoalError,t.result.estimatedGoalError)&&t.result.state==="STATIC_CANDIDATE_ONLY");
 test("CQ25 actual knowledge route",routeData.find(x=>x.ability==="A05").d4===pack.claims.find(x=>x.id==="CL-PITCH").d4&&retrieve(pack,sources,"CQ25").claims.some(x=>x.d4==="K05.07.01.05"));
 const wf=runWorkflowPilot(witness,routeData,support);
