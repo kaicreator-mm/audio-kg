@@ -1,0 +1,5 @@
+# F00-CQ2 independent batch review
+
+Affected shared F00 contract only: exact 64 K02 rows, four S-only empty D sets, per-claim D subset and union, strict frozen grammar; exact legacy vocal-digital table blob 73ac66934ae016a125ecc6302fa7fa3875faab16, 11 source identities, same row/column/HTTPS/qualification, reject wrong anchor, prefix URI, rights upgrade/tampered blob. No new professional claim admission, K01 and other grammar unchanged. Run all seven suites; inspect historical K01 baseline including integrated #115. #89/#90/#91 blocked until accepted.
+
+Exact base 5a510ca64874efb81c075191b0790c48d4d24747; tested 73e253f03fc4ab79d9c1ea078ced2461d0ed60ee tree 5b60528a193f7c3d47c4aca02845f9d86fff2032; clean job job_01M8EJW28200DGZH22S14CWDS3; 2908/2908 builder checks. Receipt batch-receipt.json. Independently reproduce and report per-task P0/P1/P2/P3, PASS or fail-closed; no edit/merge. Claim separate reviewer g1 first. OUTPUT_LABEL=AUDIO_KG_V010_G07_BATCH_K04_F00_CQ2_AND_K01_RV05_INDEPENDENT_REVIEW.
