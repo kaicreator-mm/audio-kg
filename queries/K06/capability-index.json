@@ -1,0 +1,3336 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K06.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "学习目标、许可、基线和非诊断反馈",
+      "d4Targets": [
+        "K06.01.01.03",
+        "K06.01.01.04",
+        "K06.01.02.03",
+        "K06.01.03.03",
+        "K06.01.01.05",
+        "K06.01.02.04",
+        "K06.01.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 5,
+        "row": "| K06.01 | A01 | P | 学习目标、许可、基线和非诊断反馈 | [VT01/K06.01.01.03](vocal-training-r1-knowledge-cases.md#L5)；[VT02/K06.01.01.04](vocal-training-r1-knowledge-cases.md#L6)；[VT03/K06.01.02.03](vocal-training-r1-knowledge-cases.md#L7)；[VT04/K06.01.03.03](vocal-training-r1-knowledge-cases.md#L8)；[VT31/K06.01.01.05](vocal-training-r2-knowledge-cases.md#L5)；[VT32/K06.01.02.04](vocal-training-r2-knowledge-cases.md#L6)；[VT33/K06.01.03.04](vocal-training-r2-knowledge-cases.md#L7) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT01@1",
+        "K06-CL-VT02@1",
+        "K06-CL-VT03@1",
+        "K06-CL-VT04@1",
+        "K06-CL-VT31@1",
+        "K06-CL-VT32@1",
+        "K06-CL-VT33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT01",
+          "claim": "K06-CL-VT01@1",
+          "problem": "题设舒适C4–G4，目标四音复唱，C4 D4 E4 G4或含C5，选？",
+          "reject": "任务、个体变化及声部证据均不足。"
+        },
+        {
+          "caseId": "VT02",
+          "claim": "K06-CL-VT02@1",
+          "problem": "仅允许现场听取，无录音上传许可，怎样反馈？",
+          "reject": "克隆、再利用与现场教学不是同一授权。"
+        },
+        {
+          "caseId": "VT03",
+          "claim": "K06-CL-VT03@1",
+          "problem": "四音音准3/4、时值4/4、歌词未评，报告？",
+          "reject": "单一任务音准比例不覆盖其它维度。"
+        },
+        {
+          "caseId": "VT04",
+          "claim": "K06-CL-VT04@1",
+          "problem": "合成第三音+40cents，如何反馈？",
+          "reject": "不同生理、听觉及测量原因相容。"
+        },
+        {
+          "caseId": "VT31",
+          "claim": "K06-CL-VT31@1",
+          "problem": "同音域熟悉词A和新词B，目标清晰度基线，选？",
+          "reject": "任务与能力多维。"
+        },
+        {
+          "caseId": "VT32",
+          "claim": "K06-CL-VT32@1",
+          "problem": "音准4/5、节奏5/5、表达未评；另任务4/4，报告。",
+          "reject": "缺测并不等表现零。"
+        },
+        {
+          "caseId": "VT33",
+          "claim": "K06-CL-VT33@1",
+          "problem": "末音+30cents与教师观察第二音前停顿，分类。",
+          "reject": "无独立机制证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "目标→前置→任务→分项观测→反馈",
+      "d4Targets": [
+        "K06.01.01.03",
+        "K06.01.01.04",
+        "K06.01.02.03",
+        "K06.01.03.03"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 6,
+        "row": "| K06.01 | A02 | P | 目标→前置→任务→分项观测→反馈 | [VT01/K06.01.01.03](vocal-training-r1-knowledge-cases.md#L5)；[VT02/K06.01.01.04](vocal-training-r1-knowledge-cases.md#L6)；[VT03/K06.01.02.03](vocal-training-r1-knowledge-cases.md#L7)；[VT04/K06.01.03.03](vocal-training-r1-knowledge-cases.md#L8) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT01@1",
+        "K06-CL-VT02@1",
+        "K06-CL-VT03@1",
+        "K06-CL-VT04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT01",
+          "claim": "K06-CL-VT01@1",
+          "problem": "题设舒适C4–G4，目标四音复唱，C4 D4 E4 G4或含C5，选？",
+          "reject": "任务、个体变化及声部证据均不足。"
+        },
+        {
+          "caseId": "VT02",
+          "claim": "K06-CL-VT02@1",
+          "problem": "仅允许现场听取，无录音上传许可，怎样反馈？",
+          "reject": "克隆、再利用与现场教学不是同一授权。"
+        },
+        {
+          "caseId": "VT03",
+          "claim": "K06-CL-VT03@1",
+          "problem": "四音音准3/4、时值4/4、歌词未评，报告？",
+          "reject": "单一任务音准比例不覆盖其它维度。"
+        },
+        {
+          "caseId": "VT04",
+          "claim": "K06-CL-VT04@1",
+          "problem": "合成第三音+40cents，如何反馈？",
+          "reject": "不同生理、听觉及测量原因相容。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "提供目标/参考/授权需求，K12真实工具",
+      "d4Targets": [
+        "K06.01.01.04",
+        "K06.03.01.03",
+        "K06.03.03.03"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 7,
+        "row": "| K06.01 | A03 | S | 提供目标/参考/授权需求，K12真实工具 | [VT02/K06.01.01.04](vocal-training-r1-knowledge-cases.md#L6)；[VT08/K06.03.01.03](vocal-training-r1-knowledge-cases.md#L12)；[VT11/K06.03.03.03](vocal-training-r1-knowledge-cases.md#L15) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT02@1",
+        "K06-CL-VT08@1",
+        "K06-CL-VT11@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT02",
+          "claim": "K06-CL-VT02@1",
+          "problem": "仅允许现场听取，无录音上传许可，怎样反馈？",
+          "reject": "克隆、再利用与现场教学不是同一授权。"
+        },
+        {
+          "caseId": "VT08",
+          "claim": "K06-CL-VT08@1",
+          "problem": "目标440、参考445、估计445Hz，各偏差？",
+          "reject": "参考445与目标440不同。"
+        },
+        {
+          "caseId": "VT11",
+          "claim": "K06-CL-VT11@1",
+          "problem": "目标200、真值220、估计200Hz，计算。",
+          "reject": "真值220偏离目标。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.01",
+      "ability": "A04",
+      "role": "P",
+      "task": "目标、任务、材料、参考与基线版本",
+      "d4Targets": [
+        "K06.01.01.03",
+        "K06.01.02.03",
+        "K06.01.01.05",
+        "K06.01.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 8,
+        "row": "| K06.01 | A04 | P | 目标、任务、材料、参考与基线版本 | [VT01/K06.01.01.03](vocal-training-r1-knowledge-cases.md#L5)；[VT03/K06.01.02.03](vocal-training-r1-knowledge-cases.md#L7)；[VT31/K06.01.01.05](vocal-training-r2-knowledge-cases.md#L5)；[VT32/K06.01.02.04](vocal-training-r2-knowledge-cases.md#L6) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT01@1",
+        "K06-CL-VT03@1",
+        "K06-CL-VT31@1",
+        "K06-CL-VT32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT01",
+          "claim": "K06-CL-VT01@1",
+          "problem": "题设舒适C4–G4，目标四音复唱，C4 D4 E4 G4或含C5，选？",
+          "reject": "任务、个体变化及声部证据均不足。"
+        },
+        {
+          "caseId": "VT03",
+          "claim": "K06-CL-VT03@1",
+          "problem": "四音音准3/4、时值4/4、歌词未评，报告？",
+          "reject": "单一任务音准比例不覆盖其它维度。"
+        },
+        {
+          "caseId": "VT31",
+          "claim": "K06-CL-VT31@1",
+          "problem": "同音域熟悉词A和新词B，目标清晰度基线，选？",
+          "reject": "任务与能力多维。"
+        },
+        {
+          "caseId": "VT32",
+          "claim": "K06-CL-VT32@1",
+          "problem": "音准4/5、节奏5/5、表达未评；另任务4/4，报告。",
+          "reject": "缺测并不等表现零。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "按维度、有效证据和任务分母评价",
+      "d4Targets": [
+        "K06.01.02.03",
+        "K06.01.03.03",
+        "K06.01.02.04",
+        "K06.01.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 9,
+        "row": "| K06.01 | A05 | P | 按维度、有效证据和任务分母评价 | [VT03/K06.01.02.03](vocal-training-r1-knowledge-cases.md#L7)；[VT04/K06.01.03.03](vocal-training-r1-knowledge-cases.md#L8)；[VT32/K06.01.02.04](vocal-training-r2-knowledge-cases.md#L6)；[VT33/K06.01.03.04](vocal-training-r2-knowledge-cases.md#L7) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT03@1",
+        "K06-CL-VT04@1",
+        "K06-CL-VT32@1",
+        "K06-CL-VT33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT03",
+          "claim": "K06-CL-VT03@1",
+          "problem": "四音音准3/4、时值4/4、歌词未评，报告？",
+          "reject": "单一任务音准比例不覆盖其它维度。"
+        },
+        {
+          "caseId": "VT04",
+          "claim": "K06-CL-VT04@1",
+          "problem": "合成第三音+40cents，如何反馈？",
+          "reject": "不同生理、听觉及测量原因相容。"
+        },
+        {
+          "caseId": "VT32",
+          "claim": "K06-CL-VT32@1",
+          "problem": "音准4/5、节奏5/5、表达未评；另任务4/4，报告。",
+          "reject": "缺测并不等表现零。"
+        },
+        {
+          "caseId": "VT33",
+          "claim": "K06-CL-VT33@1",
+          "problem": "末音+30cents与教师观察第二音前停顿，分类。",
+          "reject": "无独立机制证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.01",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持课程任务/观察记录；宿主/格式他域",
+      "d4Targets": [
+        "K06.01.01.03",
+        "K06.01.02.03",
+        "K06.01.01.05"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 10,
+        "row": "| K06.01 | A06 | S | 支持课程任务/观察记录；宿主/格式他域 | [VT01/K06.01.01.03](vocal-training-r1-knowledge-cases.md#L5)；[VT03/K06.01.02.03](vocal-training-r1-knowledge-cases.md#L7)；[VT31/K06.01.01.05](vocal-training-r2-knowledge-cases.md#L5) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT01@1",
+        "K06-CL-VT03@1",
+        "K06-CL-VT31@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT01",
+          "claim": "K06-CL-VT01@1",
+          "problem": "题设舒适C4–G4，目标四音复唱，C4 D4 E4 G4或含C5，选？",
+          "reject": "任务、个体变化及声部证据均不足。"
+        },
+        {
+          "caseId": "VT03",
+          "claim": "K06-CL-VT03@1",
+          "problem": "四音音准3/4、时值4/4、歌词未评，报告？",
+          "reject": "单一任务音准比例不覆盖其它维度。"
+        },
+        {
+          "caseId": "VT31",
+          "claim": "K06-CL-VT31@1",
+          "problem": "同音域熟悉词A和新词B，目标清晰度基线，选？",
+          "reject": "任务与能力多维。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "异常→核参考→改反馈/停止→复核",
+      "d4Targets": [
+        "K06.01.03.03",
+        "K06.01.03.04",
+        "K06.09.01.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 11,
+        "row": "| K06.01 | A07 | P | 异常→核参考→改反馈/停止→复核 | [VT04/K06.01.03.03](vocal-training-r1-knowledge-cases.md#L8)；[VT33/K06.01.03.04](vocal-training-r2-knowledge-cases.md#L7)；[VT55/K06.09.01.04](vocal-training-r2-knowledge-cases.md#L29) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT04@1",
+        "K06-CL-VT33@1",
+        "K06-CL-VT55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT04",
+          "claim": "K06-CL-VT04@1",
+          "problem": "合成第三音+40cents，如何反馈？",
+          "reject": "不同生理、听觉及测量原因相容。"
+        },
+        {
+          "caseId": "VT33",
+          "claim": "K06-CL-VT33@1",
+          "problem": "末音+30cents与教师观察第二音前停顿，分类。",
+          "reject": "无独立机制证据。"
+        },
+        {
+          "caseId": "VT55",
+          "claim": "K06-CL-VT55@1",
+          "problem": "开始时获准，过程中严重呼吸困难，处置。",
+          "reject": "当前风险覆盖先前状态。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "热身目的、组织/剂量、示范与意象",
+      "d4Targets": [
+        "K06.02.01.03",
+        "K06.02.02.03",
+        "K06.02.03.03",
+        "K06.02.01.04",
+        "K06.02.02.04",
+        "K06.02.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 12,
+        "row": "| K06.02 | A01 | P | 热身目的、组织/剂量、示范与意象 | [VT05/K06.02.01.03](vocal-training-r1-knowledge-cases.md#L9)；[VT06/K06.02.02.03](vocal-training-r1-knowledge-cases.md#L10)；[VT07/K06.02.03.03](vocal-training-r1-knowledge-cases.md#L11)；[VT34/K06.02.01.04](vocal-training-r2-knowledge-cases.md#L8)；[VT35/K06.02.02.04](vocal-training-r2-knowledge-cases.md#L9)；[VT36/K06.02.03.04](vocal-training-r2-knowledge-cases.md#L10) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT05@1",
+        "K06-CL-VT06@1",
+        "K06-CL-VT07@1",
+        "K06-CL-VT34@1",
+        "K06-CL-VT35@1",
+        "K06-CL-VT36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT05",
+          "claim": "K06-CL-VT05@1",
+          "problem": "教师批准传统元音/SOVT两候选，比较轻松度及原曲反馈。",
+          "reject": "未显著差异不证明等效或个体安全。"
+        },
+        {
+          "caseId": "VT06",
+          "claim": "K06-CL-VT06@1",
+          "problem": "原三个片段，限制只改难度不增次数，如何筛？",
+          "reject": "两个变量同时变化。"
+        },
+        {
+          "caseId": "VT07",
+          "claim": "K06-CL-VT07@1",
+          "problem": "“声音向前”目标三音连贯歌词清楚，怎么记录？",
+          "reject": "意象不等声源组织位置。"
+        },
+        {
+          "caseId": "VT34",
+          "claim": "K06-CL-VT34@1",
+          "problem": "已确认热身与观察两音问题，如何区分？",
+          "reject": "教育与医疗目标不同。"
+        },
+        {
+          "caseId": "VT35",
+          "claim": "K06-CL-VT35@1",
+          "problem": "AABB与ABAB四事件等时长，比较。",
+          "reject": "强度、难度及个体反馈未知。"
+        },
+        {
+          "caseId": "VT36",
+          "claim": "K06-CL-VT36@1",
+          "problem": "两个同节奏示范，学生辨认连贯版本，怎么核？",
+          "reject": "示范目标并非机制或个体能力。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择已确认练习目的、观察及停止分支",
+      "d4Targets": [
+        "K06.02.01.03",
+        "K06.02.02.03",
+        "K06.02.01.04",
+        "K06.02.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 13,
+        "row": "| K06.02 | A02 | P | 选择已确认练习目的、观察及停止分支 | [VT05/K06.02.01.03](vocal-training-r1-knowledge-cases.md#L9)；[VT06/K06.02.02.03](vocal-training-r1-knowledge-cases.md#L10)；[VT34/K06.02.01.04](vocal-training-r2-knowledge-cases.md#L8)；[VT35/K06.02.02.04](vocal-training-r2-knowledge-cases.md#L9) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT05@1",
+        "K06-CL-VT06@1",
+        "K06-CL-VT34@1",
+        "K06-CL-VT35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT05",
+          "claim": "K06-CL-VT05@1",
+          "problem": "教师批准传统元音/SOVT两候选，比较轻松度及原曲反馈。",
+          "reject": "未显著差异不证明等效或个体安全。"
+        },
+        {
+          "caseId": "VT06",
+          "claim": "K06-CL-VT06@1",
+          "problem": "原三个片段，限制只改难度不增次数，如何筛？",
+          "reject": "两个变量同时变化。"
+        },
+        {
+          "caseId": "VT34",
+          "claim": "K06-CL-VT34@1",
+          "problem": "已确认热身与观察两音问题，如何区分？",
+          "reject": "教育与医疗目标不同。"
+        },
+        {
+          "caseId": "VT35",
+          "claim": "K06-CL-VT35@1",
+          "problem": "AABB与ABAB四事件等时长，比较。",
+          "reject": "强度、难度及个体反馈未知。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.02",
+      "ability": "A03",
+      "role": "S",
+      "task": "为工具提供任务/反馈类型和权限条件",
+      "d4Targets": [
+        "K06.02.02.03",
+        "K06.02.03.03",
+        "K06.02.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 14,
+        "row": "| K06.02 | A03 | S | 为工具提供任务/反馈类型和权限条件 | [VT06/K06.02.02.03](vocal-training-r1-knowledge-cases.md#L10)；[VT07/K06.02.03.03](vocal-training-r1-knowledge-cases.md#L11)；[VT36/K06.02.03.04](vocal-training-r2-knowledge-cases.md#L10) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT06@1",
+        "K06-CL-VT07@1",
+        "K06-CL-VT36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT06",
+          "claim": "K06-CL-VT06@1",
+          "problem": "原三个片段，限制只改难度不增次数，如何筛？",
+          "reject": "两个变量同时变化。"
+        },
+        {
+          "caseId": "VT07",
+          "claim": "K06-CL-VT07@1",
+          "problem": "“声音向前”目标三音连贯歌词清楚，怎么记录？",
+          "reject": "意象不等声源组织位置。"
+        },
+        {
+          "caseId": "VT36",
+          "claim": "K06-CL-VT36@1",
+          "problem": "两个同节奏示范，学生辨认连贯版本，怎么核？",
+          "reject": "示范目标并非机制或个体能力。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.02",
+      "ability": "A04",
+      "role": "P",
+      "task": "练习目的、组织、时长、难度及反馈状态",
+      "d4Targets": [
+        "K06.02.02.03",
+        "K06.02.01.04",
+        "K06.02.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 15,
+        "row": "| K06.02 | A04 | P | 练习目的、组织、时长、难度及反馈状态 | [VT06/K06.02.02.03](vocal-training-r1-knowledge-cases.md#L10)；[VT34/K06.02.01.04](vocal-training-r2-knowledge-cases.md#L8)；[VT35/K06.02.02.04](vocal-training-r2-knowledge-cases.md#L9) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT06@1",
+        "K06-CL-VT34@1",
+        "K06-CL-VT35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT06",
+          "claim": "K06-CL-VT06@1",
+          "problem": "原三个片段，限制只改难度不增次数，如何筛？",
+          "reject": "两个变量同时变化。"
+        },
+        {
+          "caseId": "VT34",
+          "claim": "K06-CL-VT34@1",
+          "problem": "已确认热身与观察两音问题，如何区分？",
+          "reject": "教育与医疗目标不同。"
+        },
+        {
+          "caseId": "VT35",
+          "claim": "K06-CL-VT35@1",
+          "problem": "AABB与ABAB四事件等时长，比较。",
+          "reject": "强度、难度及个体反馈未知。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "比较同条件反馈，不以次数/剂量判效",
+      "d4Targets": [
+        "K06.02.01.03",
+        "K06.02.02.03",
+        "K06.02.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 16,
+        "row": "| K06.02 | A05 | P | 比较同条件反馈，不以次数/剂量判效 | [VT05/K06.02.01.03](vocal-training-r1-knowledge-cases.md#L9)；[VT06/K06.02.02.03](vocal-training-r1-knowledge-cases.md#L10)；[VT35/K06.02.02.04](vocal-training-r2-knowledge-cases.md#L9) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT05@1",
+        "K06-CL-VT06@1",
+        "K06-CL-VT35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT05",
+          "claim": "K06-CL-VT05@1",
+          "problem": "教师批准传统元音/SOVT两候选，比较轻松度及原曲反馈。",
+          "reject": "未显著差异不证明等效或个体安全。"
+        },
+        {
+          "caseId": "VT06",
+          "claim": "K06-CL-VT06@1",
+          "problem": "原三个片段，限制只改难度不增次数，如何筛？",
+          "reject": "两个变量同时变化。"
+        },
+        {
+          "caseId": "VT35",
+          "claim": "K06-CL-VT35@1",
+          "problem": "AABB与ABAB四事件等时长，比较。",
+          "reject": "强度、难度及个体反馈未知。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.02",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持练习计划与示范记录，不实施工具编辑",
+      "d4Targets": [
+        "K06.02.03.03",
+        "K06.02.01.04",
+        "K06.02.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 17,
+        "row": "| K06.02 | A06 | S | 支持练习计划与示范记录，不实施工具编辑 | [VT07/K06.02.03.03](vocal-training-r1-knowledge-cases.md#L11)；[VT34/K06.02.01.04](vocal-training-r2-knowledge-cases.md#L8)；[VT36/K06.02.03.04](vocal-training-r2-knowledge-cases.md#L10) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT07@1",
+        "K06-CL-VT34@1",
+        "K06-CL-VT36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT07",
+          "claim": "K06-CL-VT07@1",
+          "problem": "“声音向前”目标三音连贯歌词清楚，怎么记录？",
+          "reject": "意象不等声源组织位置。"
+        },
+        {
+          "caseId": "VT34",
+          "claim": "K06-CL-VT34@1",
+          "problem": "已确认热身与观察两音问题，如何区分？",
+          "reject": "教育与医疗目标不同。"
+        },
+        {
+          "caseId": "VT36",
+          "claim": "K06-CL-VT36@1",
+          "problem": "两个同节奏示范，学生辨认连贯版本，怎么核？",
+          "reject": "示范目标并非机制或个体能力。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "按反馈限定单因素调整或暂停",
+      "d4Targets": [
+        "K06.02.02.03",
+        "K06.02.02.04",
+        "K06.05.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 18,
+        "row": "| K06.02 | A07 | P | 按反馈限定单因素调整或暂停 | [VT06/K06.02.02.03](vocal-training-r1-knowledge-cases.md#L10)；[VT35/K06.02.02.04](vocal-training-r2-knowledge-cases.md#L9)；[VT44/K06.05.02.04](vocal-training-r2-knowledge-cases.md#L18) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT06@1",
+        "K06-CL-VT35@1",
+        "K06-CL-VT44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT06",
+          "claim": "K06-CL-VT06@1",
+          "problem": "原三个片段，限制只改难度不增次数，如何筛？",
+          "reject": "两个变量同时变化。"
+        },
+        {
+          "caseId": "VT35",
+          "claim": "K06-CL-VT35@1",
+          "problem": "AABB与ABAB四事件等时长，比较。",
+          "reject": "强度、难度及个体反馈未知。"
+        },
+        {
+          "caseId": "VT44",
+          "claim": "K06-CL-VT44@1",
+          "problem": "v1 C4→E4未听评，v2 E4→G4自报不适，裁。",
+          "reject": "已知不适支配任务。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "目标/独立参考/估计与稳定窗、反馈",
+      "d4Targets": [
+        "K06.03.01.03",
+        "K06.03.01.04",
+        "K06.03.02.03",
+        "K06.03.03.03",
+        "K06.03.01.05",
+        "K06.03.02.04",
+        "K06.03.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 19,
+        "row": "| K06.03 | A01 | P | 目标/独立参考/估计与稳定窗、反馈 | [VT08/K06.03.01.03](vocal-training-r1-knowledge-cases.md#L12)；[VT09/K06.03.01.04](vocal-training-r1-knowledge-cases.md#L13)；[VT10/K06.03.02.03](vocal-training-r1-knowledge-cases.md#L14)；[VT11/K06.03.03.03](vocal-training-r1-knowledge-cases.md#L15)；[VT37/K06.03.01.05](vocal-training-r2-knowledge-cases.md#L11)；[VT38/K06.03.02.04](vocal-training-r2-knowledge-cases.md#L12)；[VT39/K06.03.03.04](vocal-training-r2-knowledge-cases.md#L13) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT08@1",
+        "K06-CL-VT09@1",
+        "K06-CL-VT10@1",
+        "K06-CL-VT11@1",
+        "K06-CL-VT37@1",
+        "K06-CL-VT38@1",
+        "K06-CL-VT39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT08",
+          "claim": "K06-CL-VT08@1",
+          "problem": "目标440、参考445、估计445Hz，各偏差？",
+          "reject": "参考445与目标440不同。"
+        },
+        {
+          "caseId": "VT09",
+          "claim": "K06-CL-VT09@1",
+          "problem": "600ms音，前后100ms允许过渡，稳定窗？",
+          "reject": "违反已声明目标窗。"
+        },
+        {
+          "caseId": "VT10",
+          "claim": "K06-CL-VT10@1",
+          "problem": "同四音A听觉B听觉加视觉，如何比较？",
+          "reject": "研究条件与个体差异有限。"
+        },
+        {
+          "caseId": "VT11",
+          "claim": "K06-CL-VT11@1",
+          "problem": "目标200、真值220、估计200Hz，计算。",
+          "reject": "真值220偏离目标。"
+        },
+        {
+          "caseId": "VT37",
+          "claim": "K06-CL-VT37@1",
+          "problem": "题定目标442Hz、参考440、估计440，偏差？",
+          "reject": "更换目标而非改善表现。"
+        },
+        {
+          "caseId": "VT38",
+          "claim": "K06-CL-VT38@1",
+          "problem": "实时轨迹4/4、无辅助2/4，下一候选？",
+          "reject": "辅助依赖未分离。"
+        },
+        {
+          "caseId": "VT39",
+          "claim": "K06-CL-VT39@1",
+          "problem": "n1[0,500)目标200、n2[500,1000)目标220，可信显示n2:220,n1:200，如何处理？",
+          "reject": "真实关联证据禁止擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "目标和参考核对→反馈→无辅助复测",
+      "d4Targets": [
+        "K06.03.02.03",
+        "K06.03.03.03",
+        "K06.03.02.04",
+        "K06.03.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 20,
+        "row": "| K06.03 | A02 | P | 目标和参考核对→反馈→无辅助复测 | [VT10/K06.03.02.03](vocal-training-r1-knowledge-cases.md#L14)；[VT11/K06.03.03.03](vocal-training-r1-knowledge-cases.md#L15)；[VT38/K06.03.02.04](vocal-training-r2-knowledge-cases.md#L12)；[VT39/K06.03.03.04](vocal-training-r2-knowledge-cases.md#L13) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT10@1",
+        "K06-CL-VT11@1",
+        "K06-CL-VT38@1",
+        "K06-CL-VT39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT10",
+          "claim": "K06-CL-VT10@1",
+          "problem": "同四音A听觉B听觉加视觉，如何比较？",
+          "reject": "研究条件与个体差异有限。"
+        },
+        {
+          "caseId": "VT11",
+          "claim": "K06-CL-VT11@1",
+          "problem": "目标200、真值220、估计200Hz，计算。",
+          "reject": "真值220偏离目标。"
+        },
+        {
+          "caseId": "VT38",
+          "claim": "K06-CL-VT38@1",
+          "problem": "实时轨迹4/4、无辅助2/4，下一候选？",
+          "reject": "辅助依赖未分离。"
+        },
+        {
+          "caseId": "VT39",
+          "claim": "K06-CL-VT39@1",
+          "problem": "n1[0,500)目标200、n2[500,1000)目标220，可信显示n2:220,n1:200，如何处理？",
+          "reject": "真实关联证据禁止擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.03",
+      "ability": "A03",
+      "role": "S",
+      "task": "支持音高估计条件及反馈能力需求，K12执行",
+      "d4Targets": [
+        "K06.03.01.03",
+        "K06.03.01.04",
+        "K06.03.03.03",
+        "K06.03.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 21,
+        "row": "| K06.03 | A03 | S | 支持音高估计条件及反馈能力需求，K12执行 | [VT08/K06.03.01.03](vocal-training-r1-knowledge-cases.md#L12)；[VT09/K06.03.01.04](vocal-training-r1-knowledge-cases.md#L13)；[VT11/K06.03.03.03](vocal-training-r1-knowledge-cases.md#L15)；[VT39/K06.03.03.04](vocal-training-r2-knowledge-cases.md#L13) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT08@1",
+        "K06-CL-VT09@1",
+        "K06-CL-VT11@1",
+        "K06-CL-VT39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT08",
+          "claim": "K06-CL-VT08@1",
+          "problem": "目标440、参考445、估计445Hz，各偏差？",
+          "reject": "参考445与目标440不同。"
+        },
+        {
+          "caseId": "VT09",
+          "claim": "K06-CL-VT09@1",
+          "problem": "600ms音，前后100ms允许过渡，稳定窗？",
+          "reject": "违反已声明目标窗。"
+        },
+        {
+          "caseId": "VT11",
+          "claim": "K06-CL-VT11@1",
+          "problem": "目标200、真值220、估计200Hz，计算。",
+          "reject": "真值220偏离目标。"
+        },
+        {
+          "caseId": "VT39",
+          "claim": "K06-CL-VT39@1",
+          "problem": "n1[0,500)目标200、n2[500,1000)目标220，可信显示n2:220,n1:200，如何处理？",
+          "reject": "真实关联证据禁止擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.03",
+      "ability": "A04",
+      "role": "P",
+      "task": "音高目标、窗、参考、反馈/算法版本状态",
+      "d4Targets": [
+        "K06.03.01.03",
+        "K06.03.01.04",
+        "K06.03.01.05",
+        "K06.03.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 22,
+        "row": "| K06.03 | A04 | P | 音高目标、窗、参考、反馈/算法版本状态 | [VT08/K06.03.01.03](vocal-training-r1-knowledge-cases.md#L12)；[VT09/K06.03.01.04](vocal-training-r1-knowledge-cases.md#L13)；[VT37/K06.03.01.05](vocal-training-r2-knowledge-cases.md#L11)；[VT39/K06.03.03.04](vocal-training-r2-knowledge-cases.md#L13) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT08@1",
+        "K06-CL-VT09@1",
+        "K06-CL-VT37@1",
+        "K06-CL-VT39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT08",
+          "claim": "K06-CL-VT08@1",
+          "problem": "目标440、参考445、估计445Hz，各偏差？",
+          "reject": "参考445与目标440不同。"
+        },
+        {
+          "caseId": "VT09",
+          "claim": "K06-CL-VT09@1",
+          "problem": "600ms音，前后100ms允许过渡，稳定窗？",
+          "reject": "违反已声明目标窗。"
+        },
+        {
+          "caseId": "VT37",
+          "claim": "K06-CL-VT37@1",
+          "problem": "题定目标442Hz、参考440、估计440，偏差？",
+          "reject": "更换目标而非改善表现。"
+        },
+        {
+          "caseId": "VT39",
+          "claim": "K06-CL-VT39@1",
+          "problem": "n1[0,500)目标200、n2[500,1000)目标220，可信显示n2:220,n1:200，如何处理？",
+          "reject": "真实关联证据禁止擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "音乐偏差、估计误差、稳定窗分别评价",
+      "d4Targets": [
+        "K06.03.01.03",
+        "K06.03.01.04",
+        "K06.03.03.03",
+        "K06.03.01.05"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 23,
+        "row": "| K06.03 | A05 | P | 音乐偏差、估计误差、稳定窗分别评价 | [VT08/K06.03.01.03](vocal-training-r1-knowledge-cases.md#L12)；[VT09/K06.03.01.04](vocal-training-r1-knowledge-cases.md#L13)；[VT11/K06.03.03.03](vocal-training-r1-knowledge-cases.md#L15)；[VT37/K06.03.01.05](vocal-training-r2-knowledge-cases.md#L11) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT08@1",
+        "K06-CL-VT09@1",
+        "K06-CL-VT11@1",
+        "K06-CL-VT37@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT08",
+          "claim": "K06-CL-VT08@1",
+          "problem": "目标440、参考445、估计445Hz，各偏差？",
+          "reject": "参考445与目标440不同。"
+        },
+        {
+          "caseId": "VT09",
+          "claim": "K06-CL-VT09@1",
+          "problem": "600ms音，前后100ms允许过渡，稳定窗？",
+          "reject": "违反已声明目标窗。"
+        },
+        {
+          "caseId": "VT11",
+          "claim": "K06-CL-VT11@1",
+          "problem": "目标200、真值220、估计200Hz，计算。",
+          "reject": "真值220偏离目标。"
+        },
+        {
+          "caseId": "VT37",
+          "claim": "K06-CL-VT37@1",
+          "problem": "题定目标442Hz、参考440、估计440，偏差？",
+          "reject": "更换目标而非改善表现。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.03",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持音高/窗及反馈标注，不改原音频",
+      "d4Targets": [
+        "K06.03.01.04",
+        "K06.03.03.03",
+        "K06.03.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 24,
+        "row": "| K06.03 | A06 | S | 支持音高/窗及反馈标注，不改原音频 | [VT09/K06.03.01.04](vocal-training-r1-knowledge-cases.md#L13)；[VT11/K06.03.03.03](vocal-training-r1-knowledge-cases.md#L15)；[VT39/K06.03.03.04](vocal-training-r2-knowledge-cases.md#L13) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT09@1",
+        "K06-CL-VT11@1",
+        "K06-CL-VT39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT09",
+          "claim": "K06-CL-VT09@1",
+          "problem": "600ms音，前后100ms允许过渡，稳定窗？",
+          "reject": "违反已声明目标窗。"
+        },
+        {
+          "caseId": "VT11",
+          "claim": "K06-CL-VT11@1",
+          "problem": "目标200、真值220、估计200Hz，计算。",
+          "reject": "真值220偏离目标。"
+        },
+        {
+          "caseId": "VT39",
+          "claim": "K06-CL-VT39@1",
+          "problem": "n1[0,500)目标200、n2[500,1000)目标220，可信显示n2:220,n1:200，如何处理？",
+          "reject": "真实关联证据禁止擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "核八度/时位/目标错误→限定复测",
+      "d4Targets": [
+        "K06.03.03.03",
+        "K06.03.01.05",
+        "K06.03.02.04",
+        "K06.03.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 25,
+        "row": "| K06.03 | A07 | P | 核八度/时位/目标错误→限定复测 | [VT11/K06.03.03.03](vocal-training-r1-knowledge-cases.md#L15)；[VT37/K06.03.01.05](vocal-training-r2-knowledge-cases.md#L11)；[VT38/K06.03.02.04](vocal-training-r2-knowledge-cases.md#L12)；[VT39/K06.03.03.04](vocal-training-r2-knowledge-cases.md#L13) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT11@1",
+        "K06-CL-VT37@1",
+        "K06-CL-VT38@1",
+        "K06-CL-VT39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT11",
+          "claim": "K06-CL-VT11@1",
+          "problem": "目标200、真值220、估计200Hz，计算。",
+          "reject": "真值220偏离目标。"
+        },
+        {
+          "caseId": "VT37",
+          "claim": "K06-CL-VT37@1",
+          "problem": "题定目标442Hz、参考440、估计440，偏差？",
+          "reject": "更换目标而非改善表现。"
+        },
+        {
+          "caseId": "VT38",
+          "claim": "K06-CL-VT38@1",
+          "problem": "实时轨迹4/4、无辅助2/4，下一候选？",
+          "reject": "辅助依赖未分离。"
+        },
+        {
+          "caseId": "VT39",
+          "claim": "K06-CL-VT39@1",
+          "problem": "n1[0,500)目标200、n2[500,1000)目标220，可信显示n2:220,n1:200，如何处理？",
+          "reject": "真实关联证据禁止擅改。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "音节音符、咬字、时位和语言/风格",
+      "d4Targets": [
+        "K06.04.01.03",
+        "K06.04.02.03",
+        "K06.04.03.03",
+        "K06.04.01.04",
+        "K06.04.02.04",
+        "K06.04.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 26,
+        "row": "| K06.04 | A01 | P | 音节音符、咬字、时位和语言/风格 | [VT12/K06.04.01.03](vocal-training-r1-knowledge-cases.md#L16)；[VT13/K06.04.02.03](vocal-training-r1-knowledge-cases.md#L17)；[VT14/K06.04.03.03](vocal-training-r1-knowledge-cases.md#L18)；[VT40/K06.04.01.04](vocal-training-r2-knowledge-cases.md#L14)；[VT41/K06.04.02.04](vocal-training-r2-knowledge-cases.md#L15)；[VT42/K06.04.03.04](vocal-training-r2-knowledge-cases.md#L16) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT12@1",
+        "K06-CL-VT13@1",
+        "K06-CL-VT14@1",
+        "K06-CL-VT40@1",
+        "K06-CL-VT41@1",
+        "K06-CL-VT42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT12",
+          "claim": "K06-CL-VT12@1",
+          "problem": "[ma]跨C4/D4各500ms，m从−80ms，a从0到1000，计数。",
+          "reject": "延展音节并未变成两个。"
+        },
+        {
+          "caseId": "VT13",
+          "claim": "K06-CL-VT13@1",
+          "problem": "两熟悉语种者一辨一未辨，陌生者未辨，如何记？",
+          "reject": "语种和工具适用性未证。"
+        },
+        {
+          "caseId": "VT14",
+          "claim": "K06-CL-VT14@1",
+          "problem": "伴奏0/500/1000，元音30/530/1030，允许+30ms，判。",
+          "reject": "任务明确允许该偏移。"
+        },
+        {
+          "caseId": "VT40",
+          "claim": "K06-CL-VT40@1",
+          "problem": "500ms内元音180/220、辅音50/50，延一辅音20ms如何处理？",
+          "reject": "语种、上下文及环境不同。"
+        },
+        {
+          "caseId": "VT41",
+          "claim": "K06-CL-VT41@1",
+          "problem": "干声8/10、伴奏混响5/10，同音节，结论？",
+          "reject": "环境及听者因素未分离。"
+        },
+        {
+          "caseId": "VT42",
+          "claim": "K06-CL-VT42@1",
+          "problem": "源0/400/800、接收40/440/840，确认固定40ms，结果？",
+          "reject": "路径与源表现混杂。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "歌词/语种授权→标注→听评/伴奏对照",
+      "d4Targets": [
+        "K06.04.01.03",
+        "K06.04.02.03",
+        "K06.04.01.04",
+        "K06.04.02.04",
+        "K06.04.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 27,
+        "row": "| K06.04 | A02 | P | 歌词/语种授权→标注→听评/伴奏对照 | [VT12/K06.04.01.03](vocal-training-r1-knowledge-cases.md#L16)；[VT13/K06.04.02.03](vocal-training-r1-knowledge-cases.md#L17)；[VT40/K06.04.01.04](vocal-training-r2-knowledge-cases.md#L14)；[VT41/K06.04.02.04](vocal-training-r2-knowledge-cases.md#L15)；[VT42/K06.04.03.04](vocal-training-r2-knowledge-cases.md#L16) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT12@1",
+        "K06-CL-VT13@1",
+        "K06-CL-VT40@1",
+        "K06-CL-VT41@1",
+        "K06-CL-VT42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT12",
+          "claim": "K06-CL-VT12@1",
+          "problem": "[ma]跨C4/D4各500ms，m从−80ms，a从0到1000，计数。",
+          "reject": "延展音节并未变成两个。"
+        },
+        {
+          "caseId": "VT13",
+          "claim": "K06-CL-VT13@1",
+          "problem": "两熟悉语种者一辨一未辨，陌生者未辨，如何记？",
+          "reject": "语种和工具适用性未证。"
+        },
+        {
+          "caseId": "VT40",
+          "claim": "K06-CL-VT40@1",
+          "problem": "500ms内元音180/220、辅音50/50，延一辅音20ms如何处理？",
+          "reject": "语种、上下文及环境不同。"
+        },
+        {
+          "caseId": "VT41",
+          "claim": "K06-CL-VT41@1",
+          "problem": "干声8/10、伴奏混响5/10，同音节，结论？",
+          "reject": "环境及听者因素未分离。"
+        },
+        {
+          "caseId": "VT42",
+          "claim": "K06-CL-VT42@1",
+          "problem": "源0/400/800、接收40/440/840，确认固定40ms，结果？",
+          "reject": "路径与源表现混杂。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.04",
+      "ability": "A03",
+      "role": "S",
+      "task": "为对齐/识别工具提供语言及时基条件",
+      "d4Targets": [
+        "K06.04.01.03",
+        "K06.04.02.03",
+        "K06.04.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 28,
+        "row": "| K06.04 | A03 | S | 为对齐/识别工具提供语言及时基条件 | [VT12/K06.04.01.03](vocal-training-r1-knowledge-cases.md#L16)；[VT13/K06.04.02.03](vocal-training-r1-knowledge-cases.md#L17)；[VT42/K06.04.03.04](vocal-training-r2-knowledge-cases.md#L16) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT12@1",
+        "K06-CL-VT13@1",
+        "K06-CL-VT42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT12",
+          "claim": "K06-CL-VT12@1",
+          "problem": "[ma]跨C4/D4各500ms，m从−80ms，a从0到1000，计数。",
+          "reject": "延展音节并未变成两个。"
+        },
+        {
+          "caseId": "VT13",
+          "claim": "K06-CL-VT13@1",
+          "problem": "两熟悉语种者一辨一未辨，陌生者未辨，如何记？",
+          "reject": "语种和工具适用性未证。"
+        },
+        {
+          "caseId": "VT42",
+          "claim": "K06-CL-VT42@1",
+          "problem": "源0/400/800、接收40/440/840，确认固定40ms，结果？",
+          "reject": "路径与源表现混杂。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.04",
+      "ability": "A04",
+      "role": "P",
+      "task": "音符、音节、语言、伴奏和标注版本",
+      "d4Targets": [
+        "K06.04.01.03",
+        "K06.04.03.03",
+        "K06.04.01.04",
+        "K06.04.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 29,
+        "row": "| K06.04 | A04 | P | 音符、音节、语言、伴奏和标注版本 | [VT12/K06.04.01.03](vocal-training-r1-knowledge-cases.md#L16)；[VT14/K06.04.03.03](vocal-training-r1-knowledge-cases.md#L18)；[VT40/K06.04.01.04](vocal-training-r2-knowledge-cases.md#L14)；[VT42/K06.04.03.04](vocal-training-r2-knowledge-cases.md#L16) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT12@1",
+        "K06-CL-VT14@1",
+        "K06-CL-VT40@1",
+        "K06-CL-VT42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT12",
+          "claim": "K06-CL-VT12@1",
+          "problem": "[ma]跨C4/D4各500ms，m从−80ms，a从0到1000，计数。",
+          "reject": "延展音节并未变成两个。"
+        },
+        {
+          "caseId": "VT14",
+          "claim": "K06-CL-VT14@1",
+          "problem": "伴奏0/500/1000，元音30/530/1030，允许+30ms，判。",
+          "reject": "任务明确允许该偏移。"
+        },
+        {
+          "caseId": "VT40",
+          "claim": "K06-CL-VT40@1",
+          "problem": "500ms内元音180/220、辅音50/50，延一辅音20ms如何处理？",
+          "reject": "语种、上下文及环境不同。"
+        },
+        {
+          "caseId": "VT42",
+          "claim": "K06-CL-VT42@1",
+          "problem": "源0/400/800、接收40/440/840，确认固定40ms，结果？",
+          "reject": "路径与源表现混杂。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "评估目标对齐、母语辨认、延迟及遮蔽",
+      "d4Targets": [
+        "K06.04.02.03",
+        "K06.04.03.03",
+        "K06.04.02.04",
+        "K06.04.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 30,
+        "row": "| K06.04 | A05 | P | 评估目标对齐、母语辨认、延迟及遮蔽 | [VT13/K06.04.02.03](vocal-training-r1-knowledge-cases.md#L17)；[VT14/K06.04.03.03](vocal-training-r1-knowledge-cases.md#L18)；[VT41/K06.04.02.04](vocal-training-r2-knowledge-cases.md#L15)；[VT42/K06.04.03.04](vocal-training-r2-knowledge-cases.md#L16) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT13@1",
+        "K06-CL-VT14@1",
+        "K06-CL-VT41@1",
+        "K06-CL-VT42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT13",
+          "claim": "K06-CL-VT13@1",
+          "problem": "两熟悉语种者一辨一未辨，陌生者未辨，如何记？",
+          "reject": "语种和工具适用性未证。"
+        },
+        {
+          "caseId": "VT14",
+          "claim": "K06-CL-VT14@1",
+          "problem": "伴奏0/500/1000，元音30/530/1030，允许+30ms，判。",
+          "reject": "任务明确允许该偏移。"
+        },
+        {
+          "caseId": "VT41",
+          "claim": "K06-CL-VT41@1",
+          "problem": "干声8/10、伴奏混响5/10，同音节，结论？",
+          "reject": "环境及听者因素未分离。"
+        },
+        {
+          "caseId": "VT42",
+          "claim": "K06-CL-VT42@1",
+          "problem": "源0/400/800、接收40/440/840，确认固定40ms，结果？",
+          "reject": "路径与源表现混杂。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "主责教学歌词音段/音符对齐标注及保护区间，不改词曲权威",
+      "d4Targets": [
+        "K06.04.01.03",
+        "K06.04.01.04",
+        "K06.04.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 31,
+        "row": "| K06.04 | A06 | P | 主责教学歌词音段/音符对齐标注及保护区间，不改词曲权威 | [VT12/K06.04.01.03](vocal-training-r1-knowledge-cases.md#L16)；[VT40/K06.04.01.04](vocal-training-r2-knowledge-cases.md#L14)；[VT42/K06.04.03.04](vocal-training-r2-knowledge-cases.md#L16) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT12@1",
+        "K06-CL-VT40@1",
+        "K06-CL-VT42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT12",
+          "claim": "K06-CL-VT12@1",
+          "problem": "[ma]跨C4/D4各500ms，m从−80ms，a从0到1000，计数。",
+          "reject": "延展音节并未变成两个。"
+        },
+        {
+          "caseId": "VT40",
+          "claim": "K06-CL-VT40@1",
+          "problem": "500ms内元音180/220、辅音50/50，延一辅音20ms如何处理？",
+          "reject": "语种、上下文及环境不同。"
+        },
+        {
+          "caseId": "VT42",
+          "claim": "K06-CL-VT42@1",
+          "problem": "源0/400/800、接收40/440/840，确认固定40ms，结果？",
+          "reject": "路径与源表现混杂。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "核来源/伴奏/语种→最小标注/任务修订",
+      "d4Targets": [
+        "K06.04.02.03",
+        "K06.04.01.04",
+        "K06.04.02.04",
+        "K06.04.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 32,
+        "row": "| K06.04 | A07 | P | 核来源/伴奏/语种→最小标注/任务修订 | [VT13/K06.04.02.03](vocal-training-r1-knowledge-cases.md#L17)；[VT40/K06.04.01.04](vocal-training-r2-knowledge-cases.md#L14)；[VT41/K06.04.02.04](vocal-training-r2-knowledge-cases.md#L15)；[VT42/K06.04.03.04](vocal-training-r2-knowledge-cases.md#L16) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT13@1",
+        "K06-CL-VT40@1",
+        "K06-CL-VT41@1",
+        "K06-CL-VT42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT13",
+          "claim": "K06-CL-VT13@1",
+          "problem": "两熟悉语种者一辨一未辨，陌生者未辨，如何记？",
+          "reject": "语种和工具适用性未证。"
+        },
+        {
+          "caseId": "VT40",
+          "claim": "K06-CL-VT40@1",
+          "problem": "500ms内元音180/220、辅音50/50，延一辅音20ms如何处理？",
+          "reject": "语种、上下文及环境不同。"
+        },
+        {
+          "caseId": "VT41",
+          "claim": "K06-CL-VT41@1",
+          "problem": "干声8/10、伴奏混响5/10，同音节，结论？",
+          "reject": "环境及听者因素未分离。"
+        },
+        {
+          "caseId": "VT42",
+          "claim": "K06-CL-VT42@1",
+          "problem": "源0/400/800、接收40/440/840，确认固定40ms，结果？",
+          "reject": "路径与源表现混杂。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "教学声区/音色目标与个体条件",
+      "d4Targets": [
+        "K06.05.01.03",
+        "K06.05.02.03",
+        "K06.05.03.03",
+        "K06.05.01.04",
+        "K06.05.02.04",
+        "K06.05.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 33,
+        "row": "| K06.05 | A01 | P | 教学声区/音色目标与个体条件 | [VT15/K06.05.01.03](vocal-training-r1-knowledge-cases.md#L19)；[VT16/K06.05.02.03](vocal-training-r1-knowledge-cases.md#L20)；[VT17/K06.05.03.03](vocal-training-r1-knowledge-cases.md#L21)；[VT43/K06.05.01.04](vocal-training-r2-knowledge-cases.md#L17)；[VT44/K06.05.02.04](vocal-training-r2-knowledge-cases.md#L18)；[VT45/K06.05.03.04](vocal-training-r2-knowledge-cases.md#L19) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT15@1",
+        "K06-CL-VT16@1",
+        "K06-CL-VT17@1",
+        "K06-CL-VT43@1",
+        "K06-CL-VT44@1",
+        "K06-CL-VT45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT15",
+          "claim": "K06-CL-VT15@1",
+          "problem": "A头声=轻柔音色，B头声=声区描述，如何表示？",
+          "reject": "标签对象与机制证据不同。"
+        },
+        {
+          "caseId": "VT16",
+          "claim": "K06-CL-VT16@1",
+          "problem": "同舒适句，C有明确听评对比，D平滑，按G-contrast/G-smooth选？",
+          "reject": "听感与风险是独立条件。"
+        },
+        {
+          "caseId": "VT17",
+          "claim": "K06-CL-VT17@1",
+          "problem": "清亮A与柔和B分别符合不同段落目标，如何记？",
+          "reject": "色彩与组织健康非同一维度。"
+        },
+        {
+          "caseId": "VT43",
+          "claim": "K06-CL-VT43@1",
+          "problem": "同F0轻柔头声和混声，目标A/B不同，如何选择？",
+          "reject": "同音高可有不同机制。"
+        },
+        {
+          "caseId": "VT44",
+          "claim": "K06-CL-VT44@1",
+          "problem": "v1 C4→E4未听评，v2 E4→G4自报不适，裁。",
+          "reject": "已知不适支配任务。"
+        },
+        {
+          "caseId": "VT45",
+          "claim": "K06-CL-VT45@1",
+          "problem": "B为A同F0的EQ版本且未校准，怎样评价？",
+          "reject": "原始动作未变化或未证。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "确认个体目标→观察→听评/停止",
+      "d4Targets": [
+        "K06.05.01.03",
+        "K06.05.02.03",
+        "K06.05.01.04",
+        "K06.05.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 34,
+        "row": "| K06.05 | A02 | P | 确认个体目标→观察→听评/停止 | [VT15/K06.05.01.03](vocal-training-r1-knowledge-cases.md#L19)；[VT16/K06.05.02.03](vocal-training-r1-knowledge-cases.md#L20)；[VT43/K06.05.01.04](vocal-training-r2-knowledge-cases.md#L17)；[VT44/K06.05.02.04](vocal-training-r2-knowledge-cases.md#L18) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT15@1",
+        "K06-CL-VT16@1",
+        "K06-CL-VT43@1",
+        "K06-CL-VT44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT15",
+          "claim": "K06-CL-VT15@1",
+          "problem": "A头声=轻柔音色，B头声=声区描述，如何表示？",
+          "reject": "标签对象与机制证据不同。"
+        },
+        {
+          "caseId": "VT16",
+          "claim": "K06-CL-VT16@1",
+          "problem": "同舒适句，C有明确听评对比，D平滑，按G-contrast/G-smooth选？",
+          "reject": "听感与风险是独立条件。"
+        },
+        {
+          "caseId": "VT43",
+          "claim": "K06-CL-VT43@1",
+          "problem": "同F0轻柔头声和混声，目标A/B不同，如何选择？",
+          "reject": "同音高可有不同机制。"
+        },
+        {
+          "caseId": "VT44",
+          "claim": "K06-CL-VT44@1",
+          "problem": "v1 C4→E4未听评，v2 E4→G4自报不适，裁。",
+          "reject": "已知不适支配任务。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "为F0/谱或听评工具提供条件，不判机制",
+      "d4Targets": [
+        "K06.05.01.03",
+        "K06.05.03.03",
+        "K06.05.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 35,
+        "row": "| K06.05 | A03 | S | 为F0/谱或听评工具提供条件，不判机制 | [VT15/K06.05.01.03](vocal-training-r1-knowledge-cases.md#L19)；[VT17/K06.05.03.03](vocal-training-r1-knowledge-cases.md#L21)；[VT45/K06.05.03.04](vocal-training-r2-knowledge-cases.md#L19) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT15@1",
+        "K06-CL-VT17@1",
+        "K06-CL-VT45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT15",
+          "claim": "K06-CL-VT15@1",
+          "problem": "A头声=轻柔音色，B头声=声区描述，如何表示？",
+          "reject": "标签对象与机制证据不同。"
+        },
+        {
+          "caseId": "VT17",
+          "claim": "K06-CL-VT17@1",
+          "problem": "清亮A与柔和B分别符合不同段落目标，如何记？",
+          "reject": "色彩与组织健康非同一维度。"
+        },
+        {
+          "caseId": "VT45",
+          "claim": "K06-CL-VT45@1",
+          "problem": "B为A同F0的EQ版本且未校准，怎样评价？",
+          "reject": "原始动作未变化或未证。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.05",
+      "ability": "A04",
+      "role": "P",
+      "task": "标签定义、区间、观察、原始/派生状态",
+      "d4Targets": [
+        "K06.05.01.03",
+        "K06.05.01.04",
+        "K06.05.02.04",
+        "K06.05.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 36,
+        "row": "| K06.05 | A04 | P | 标签定义、区间、观察、原始/派生状态 | [VT15/K06.05.01.03](vocal-training-r1-knowledge-cases.md#L19)；[VT43/K06.05.01.04](vocal-training-r2-knowledge-cases.md#L17)；[VT44/K06.05.02.04](vocal-training-r2-knowledge-cases.md#L18)；[VT45/K06.05.03.04](vocal-training-r2-knowledge-cases.md#L19) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT15@1",
+        "K06-CL-VT43@1",
+        "K06-CL-VT44@1",
+        "K06-CL-VT45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT15",
+          "claim": "K06-CL-VT15@1",
+          "problem": "A头声=轻柔音色，B头声=声区描述，如何表示？",
+          "reject": "标签对象与机制证据不同。"
+        },
+        {
+          "caseId": "VT43",
+          "claim": "K06-CL-VT43@1",
+          "problem": "同F0轻柔头声和混声，目标A/B不同，如何选择？",
+          "reject": "同音高可有不同机制。"
+        },
+        {
+          "caseId": "VT44",
+          "claim": "K06-CL-VT44@1",
+          "problem": "v1 C4→E4未听评，v2 E4→G4自报不适，裁。",
+          "reject": "已知不适支配任务。"
+        },
+        {
+          "caseId": "VT45",
+          "claim": "K06-CL-VT45@1",
+          "problem": "B为A同F0的EQ版本且未校准，怎样评价？",
+          "reject": "原始动作未变化或未证。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "以任务和本人反馈评价，不按音色判健康",
+      "d4Targets": [
+        "K06.05.02.03",
+        "K06.05.03.03",
+        "K06.05.02.04",
+        "K06.05.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 37,
+        "row": "| K06.05 | A05 | P | 以任务和本人反馈评价，不按音色判健康 | [VT16/K06.05.02.03](vocal-training-r1-knowledge-cases.md#L20)；[VT17/K06.05.03.03](vocal-training-r1-knowledge-cases.md#L21)；[VT44/K06.05.02.04](vocal-training-r2-knowledge-cases.md#L18)；[VT45/K06.05.03.04](vocal-training-r2-knowledge-cases.md#L19) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT16@1",
+        "K06-CL-VT17@1",
+        "K06-CL-VT44@1",
+        "K06-CL-VT45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT16",
+          "claim": "K06-CL-VT16@1",
+          "problem": "同舒适句，C有明确听评对比，D平滑，按G-contrast/G-smooth选？",
+          "reject": "听感与风险是独立条件。"
+        },
+        {
+          "caseId": "VT17",
+          "claim": "K06-CL-VT17@1",
+          "problem": "清亮A与柔和B分别符合不同段落目标，如何记？",
+          "reject": "色彩与组织健康非同一维度。"
+        },
+        {
+          "caseId": "VT44",
+          "claim": "K06-CL-VT44@1",
+          "problem": "v1 C4→E4未听评，v2 E4→G4自报不适，裁。",
+          "reject": "已知不适支配任务。"
+        },
+        {
+          "caseId": "VT45",
+          "claim": "K06-CL-VT45@1",
+          "problem": "B为A同F0的EQ版本且未校准，怎样评价？",
+          "reject": "原始动作未变化或未证。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.05",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持声区目标与音色示范记录",
+      "d4Targets": [
+        "K06.05.01.03",
+        "K06.05.03.03",
+        "K06.05.01.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 38,
+        "row": "| K06.05 | A06 | S | 支持声区目标与音色示范记录 | [VT15/K06.05.01.03](vocal-training-r1-knowledge-cases.md#L19)；[VT17/K06.05.03.03](vocal-training-r1-knowledge-cases.md#L21)；[VT43/K06.05.01.04](vocal-training-r2-knowledge-cases.md#L17) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT15@1",
+        "K06-CL-VT17@1",
+        "K06-CL-VT43@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT15",
+          "claim": "K06-CL-VT15@1",
+          "problem": "A头声=轻柔音色，B头声=声区描述，如何表示？",
+          "reject": "标签对象与机制证据不同。"
+        },
+        {
+          "caseId": "VT17",
+          "claim": "K06-CL-VT17@1",
+          "problem": "清亮A与柔和B分别符合不同段落目标，如何记？",
+          "reject": "色彩与组织健康非同一维度。"
+        },
+        {
+          "caseId": "VT43",
+          "claim": "K06-CL-VT43@1",
+          "problem": "同F0轻柔头声和混声，目标A/B不同，如何选择？",
+          "reject": "同音高可有不同机制。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "重核术语、目标、采集及风险后调整",
+      "d4Targets": [
+        "K06.05.02.03",
+        "K06.05.01.04",
+        "K06.05.02.04",
+        "K06.05.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 39,
+        "row": "| K06.05 | A07 | P | 重核术语、目标、采集及风险后调整 | [VT16/K06.05.02.03](vocal-training-r1-knowledge-cases.md#L20)；[VT43/K06.05.01.04](vocal-training-r2-knowledge-cases.md#L17)；[VT44/K06.05.02.04](vocal-training-r2-knowledge-cases.md#L18)；[VT45/K06.05.03.04](vocal-training-r2-knowledge-cases.md#L19) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT16@1",
+        "K06-CL-VT43@1",
+        "K06-CL-VT44@1",
+        "K06-CL-VT45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT16",
+          "claim": "K06-CL-VT16@1",
+          "problem": "同舒适句，C有明确听评对比，D平滑，按G-contrast/G-smooth选？",
+          "reject": "听感与风险是独立条件。"
+        },
+        {
+          "caseId": "VT43",
+          "claim": "K06-CL-VT43@1",
+          "problem": "同F0轻柔头声和混声，目标A/B不同，如何选择？",
+          "reject": "同音高可有不同机制。"
+        },
+        {
+          "caseId": "VT44",
+          "claim": "K06-CL-VT44@1",
+          "problem": "v1 C4→E4未听评，v2 E4→G4自报不适，裁。",
+          "reject": "已知不适支配任务。"
+        },
+        {
+          "caseId": "VT45",
+          "claim": "K06-CL-VT45@1",
+          "problem": "B为A同F0的EQ版本且未校准，怎样评价？",
+          "reject": "原始动作未变化或未证。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "颤音、滑音、连音、局部力度",
+      "d4Targets": [
+        "K06.06.01.03",
+        "K06.06.01.04",
+        "K06.06.02.03",
+        "K06.06.03.03",
+        "K06.06.01.05",
+        "K06.06.02.04",
+        "K06.06.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 40,
+        "row": "| K06.06 | A01 | P | 颤音、滑音、连音、局部力度 | [VT18/K06.06.01.03](vocal-training-r1-knowledge-cases.md#L22)；[VT19/K06.06.01.04](vocal-training-r1-knowledge-cases.md#L23)；[VT20/K06.06.02.03](vocal-training-r1-knowledge-cases.md#L24)；[VT21/K06.06.03.03](vocal-training-r1-knowledge-cases.md#L25)；[VT46/K06.06.01.05](vocal-training-r2-knowledge-cases.md#L20)；[VT47/K06.06.02.04](vocal-training-r2-knowledge-cases.md#L21)；[VT48/K06.06.03.04](vocal-training-r2-knowledge-cases.md#L22) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT18@1",
+        "K06-CL-VT19@1",
+        "K06-CL-VT20@1",
+        "K06-CL-VT21@1",
+        "K06-CL-VT46@1",
+        "K06-CL-VT47@1",
+        "K06-CL-VT48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT18",
+          "claim": "K06-CL-VT18@1",
+          "problem": "40sin(2π5t)cents持续2s，求速率和幅。",
+          "reject": "半峰幅是40。"
+        },
+        {
+          "caseId": "VT19",
+          "claim": "K06-CL-VT19@1",
+          "problem": "前300ms无调制，后1s五周期，报告？",
+          "reject": "包含非调制时段导致分母错误。"
+        },
+        {
+          "caseId": "VT20",
+          "claim": "K06-CL-VT20@1",
+          "problem": "C4至D4前200ms许可滑音、后300ms持D4，如何核？",
+          "reject": "题设许可移动目标。"
+        },
+        {
+          "caseId": "VT21",
+          "claim": "K06-CL-VT21@1",
+          "problem": "A相邻无间隙、B留100ms，目标连续且第二音略强，选？",
+          "reject": "物理及感知证据不同。"
+        },
+        {
+          "caseId": "VT46",
+          "claim": "K06-CL-VT46@1",
+          "problem": "两秒轨迹4/6周期与5/5周期，平均？",
+          "reject": "时间形态与听评未覆盖。"
+        },
+        {
+          "caseId": "VT47",
+          "claim": "K06-CL-VT47@1",
+          "problem": "N1→N2允许滑音200ms，N3→N4需分音，同滑音怎样裁？",
+          "reject": "位置和目标不同。"
+        },
+        {
+          "caseId": "VT48",
+          "claim": "K06-CL-VT48@1",
+          "problem": "[0,400)/[400,800)与[0,350)/[450,800)，RMS .1/.2，计算。",
+          "reject": "听评还需独立。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择许可技法/目标窗→观测→复核",
+      "d4Targets": [
+        "K06.06.01.04",
+        "K06.06.02.03",
+        "K06.06.02.04",
+        "K06.06.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 41,
+        "row": "| K06.06 | A02 | P | 选择许可技法/目标窗→观测→复核 | [VT19/K06.06.01.04](vocal-training-r1-knowledge-cases.md#L23)；[VT20/K06.06.02.03](vocal-training-r1-knowledge-cases.md#L24)；[VT47/K06.06.02.04](vocal-training-r2-knowledge-cases.md#L21)；[VT48/K06.06.03.04](vocal-training-r2-knowledge-cases.md#L22) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT19@1",
+        "K06-CL-VT20@1",
+        "K06-CL-VT47@1",
+        "K06-CL-VT48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT19",
+          "claim": "K06-CL-VT19@1",
+          "problem": "前300ms无调制，后1s五周期，报告？",
+          "reject": "包含非调制时段导致分母错误。"
+        },
+        {
+          "caseId": "VT20",
+          "claim": "K06-CL-VT20@1",
+          "problem": "C4至D4前200ms许可滑音、后300ms持D4，如何核？",
+          "reject": "题设许可移动目标。"
+        },
+        {
+          "caseId": "VT47",
+          "claim": "K06-CL-VT47@1",
+          "problem": "N1→N2允许滑音200ms，N3→N4需分音，同滑音怎样裁？",
+          "reject": "位置和目标不同。"
+        },
+        {
+          "caseId": "VT48",
+          "claim": "K06-CL-VT48@1",
+          "problem": "[0,400)/[400,800)与[0,350)/[450,800)，RMS .1/.2，计算。",
+          "reject": "听评还需独立。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.06",
+      "ability": "A03",
+      "role": "S",
+      "task": "提供速率/幅度定义、窗和输入条件，工具K12",
+      "d4Targets": [
+        "K06.06.01.03",
+        "K06.06.01.04",
+        "K06.06.01.05"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 42,
+        "row": "| K06.06 | A03 | S | 提供速率/幅度定义、窗和输入条件，工具K12 | [VT18/K06.06.01.03](vocal-training-r1-knowledge-cases.md#L22)；[VT19/K06.06.01.04](vocal-training-r1-knowledge-cases.md#L23)；[VT46/K06.06.01.05](vocal-training-r2-knowledge-cases.md#L20) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT18@1",
+        "K06-CL-VT19@1",
+        "K06-CL-VT46@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT18",
+          "claim": "K06-CL-VT18@1",
+          "problem": "40sin(2π5t)cents持续2s，求速率和幅。",
+          "reject": "半峰幅是40。"
+        },
+        {
+          "caseId": "VT19",
+          "claim": "K06-CL-VT19@1",
+          "problem": "前300ms无调制，后1s五周期，报告？",
+          "reject": "包含非调制时段导致分母错误。"
+        },
+        {
+          "caseId": "VT46",
+          "claim": "K06-CL-VT46@1",
+          "problem": "两秒轨迹4/6周期与5/5周期，平均？",
+          "reject": "时间形态与听评未覆盖。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.06",
+      "ability": "A04",
+      "role": "P",
+      "task": "技法目标、稳定/过渡窗、保护音符和原件",
+      "d4Targets": [
+        "K06.06.01.04",
+        "K06.06.02.03",
+        "K06.06.02.04",
+        "K06.06.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 43,
+        "row": "| K06.06 | A04 | P | 技法目标、稳定/过渡窗、保护音符和原件 | [VT19/K06.06.01.04](vocal-training-r1-knowledge-cases.md#L23)；[VT20/K06.06.02.03](vocal-training-r1-knowledge-cases.md#L24)；[VT47/K06.06.02.04](vocal-training-r2-knowledge-cases.md#L21)；[VT48/K06.06.03.04](vocal-training-r2-knowledge-cases.md#L22) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT19@1",
+        "K06-CL-VT20@1",
+        "K06-CL-VT47@1",
+        "K06-CL-VT48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT19",
+          "claim": "K06-CL-VT19@1",
+          "problem": "前300ms无调制，后1s五周期，报告？",
+          "reject": "包含非调制时段导致分母错误。"
+        },
+        {
+          "caseId": "VT20",
+          "claim": "K06-CL-VT20@1",
+          "problem": "C4至D4前200ms许可滑音、后300ms持D4，如何核？",
+          "reject": "题设许可移动目标。"
+        },
+        {
+          "caseId": "VT47",
+          "claim": "K06-CL-VT47@1",
+          "problem": "N1→N2允许滑音200ms，N3→N4需分音，同滑音怎样裁？",
+          "reject": "位置和目标不同。"
+        },
+        {
+          "caseId": "VT48",
+          "claim": "K06-CL-VT48@1",
+          "problem": "[0,400)/[400,800)与[0,350)/[450,800)，RMS .1/.2，计算。",
+          "reject": "听评还需独立。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "调制率/extent、连音、相对力度和听感分别",
+      "d4Targets": [
+        "K06.06.01.03",
+        "K06.06.03.03",
+        "K06.06.01.05",
+        "K06.06.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 44,
+        "row": "| K06.06 | A05 | P | 调制率/extent、连音、相对力度和听感分别 | [VT18/K06.06.01.03](vocal-training-r1-knowledge-cases.md#L22)；[VT21/K06.06.03.03](vocal-training-r1-knowledge-cases.md#L25)；[VT46/K06.06.01.05](vocal-training-r2-knowledge-cases.md#L20)；[VT48/K06.06.03.04](vocal-training-r2-knowledge-cases.md#L22) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT18@1",
+        "K06-CL-VT21@1",
+        "K06-CL-VT46@1",
+        "K06-CL-VT48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT18",
+          "claim": "K06-CL-VT18@1",
+          "problem": "40sin(2π5t)cents持续2s，求速率和幅。",
+          "reject": "半峰幅是40。"
+        },
+        {
+          "caseId": "VT21",
+          "claim": "K06-CL-VT21@1",
+          "problem": "A相邻无间隙、B留100ms，目标连续且第二音略强，选？",
+          "reject": "物理及感知证据不同。"
+        },
+        {
+          "caseId": "VT46",
+          "claim": "K06-CL-VT46@1",
+          "problem": "两秒轨迹4/6周期与5/5周期，平均？",
+          "reject": "时间形态与听评未覆盖。"
+        },
+        {
+          "caseId": "VT48",
+          "claim": "K06-CL-VT48@1",
+          "problem": "[0,400)/[400,800)与[0,350)/[450,800)，RMS .1/.2，计算。",
+          "reject": "听评还需独立。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.06",
+      "ability": "A06",
+      "role": "P",
+      "task": "主责教学技法标注、装饰/起收音窗及局部表达目标；非实际音频编辑",
+      "d4Targets": [
+        "K06.06.01.04",
+        "K06.06.02.03",
+        "K06.06.02.04",
+        "K06.06.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 45,
+        "row": "| K06.06 | A06 | P | 主责教学技法标注、装饰/起收音窗及局部表达目标；非实际音频编辑 | [VT19/K06.06.01.04](vocal-training-r1-knowledge-cases.md#L23)；[VT20/K06.06.02.03](vocal-training-r1-knowledge-cases.md#L24)；[VT47/K06.06.02.04](vocal-training-r2-knowledge-cases.md#L21)；[VT48/K06.06.03.04](vocal-training-r2-knowledge-cases.md#L22) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT19@1",
+        "K06-CL-VT20@1",
+        "K06-CL-VT47@1",
+        "K06-CL-VT48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT19",
+          "claim": "K06-CL-VT19@1",
+          "problem": "前300ms无调制，后1s五周期，报告？",
+          "reject": "包含非调制时段导致分母错误。"
+        },
+        {
+          "caseId": "VT20",
+          "claim": "K06-CL-VT20@1",
+          "problem": "C4至D4前200ms许可滑音、后300ms持D4，如何核？",
+          "reject": "题设许可移动目标。"
+        },
+        {
+          "caseId": "VT47",
+          "claim": "K06-CL-VT47@1",
+          "problem": "N1→N2允许滑音200ms，N3→N4需分音，同滑音怎样裁？",
+          "reject": "位置和目标不同。"
+        },
+        {
+          "caseId": "VT48",
+          "claim": "K06-CL-VT48@1",
+          "problem": "[0,400)/[400,800)与[0,350)/[450,800)，RMS .1/.2，计算。",
+          "reject": "听评还需独立。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "发现异常→查目标/窗口/原件→限定复测",
+      "d4Targets": [
+        "K06.06.02.03",
+        "K06.06.03.03",
+        "K06.06.01.05",
+        "K06.06.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 46,
+        "row": "| K06.06 | A07 | P | 发现异常→查目标/窗口/原件→限定复测 | [VT20/K06.06.02.03](vocal-training-r1-knowledge-cases.md#L24)；[VT21/K06.06.03.03](vocal-training-r1-knowledge-cases.md#L25)；[VT46/K06.06.01.05](vocal-training-r2-knowledge-cases.md#L20)；[VT48/K06.06.03.04](vocal-training-r2-knowledge-cases.md#L22) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT20@1",
+        "K06-CL-VT21@1",
+        "K06-CL-VT46@1",
+        "K06-CL-VT48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT20",
+          "claim": "K06-CL-VT20@1",
+          "problem": "C4至D4前200ms许可滑音、后300ms持D4，如何核？",
+          "reject": "题设许可移动目标。"
+        },
+        {
+          "caseId": "VT21",
+          "claim": "K06-CL-VT21@1",
+          "problem": "A相邻无间隙、B留100ms，目标连续且第二音略强，选？",
+          "reject": "物理及感知证据不同。"
+        },
+        {
+          "caseId": "VT46",
+          "claim": "K06-CL-VT46@1",
+          "problem": "两秒轨迹4/6周期与5/5周期，平均？",
+          "reject": "时间形态与听评未覆盖。"
+        },
+        {
+          "caseId": "VT48",
+          "claim": "K06-CL-VT48@1",
+          "problem": "[0,400)/[400,800)与[0,350)/[450,800)，RMS .1/.2，计算。",
+          "reject": "听评还需独立。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "传统/流派、乐句表达及评者背景",
+      "d4Targets": [
+        "K06.07.01.03",
+        "K06.07.02.03",
+        "K06.07.03.03",
+        "K06.07.01.04",
+        "K06.07.02.04",
+        "K06.07.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 47,
+        "row": "| K06.07 | A01 | P | 传统/流派、乐句表达及评者背景 | [VT22/K06.07.01.03](vocal-training-r1-knowledge-cases.md#L26)；[VT23/K06.07.02.03](vocal-training-r1-knowledge-cases.md#L27)；[VT24/K06.07.03.03](vocal-training-r1-knowledge-cases.md#L28)；[VT49/K06.07.01.04](vocal-training-r2-knowledge-cases.md#L23)；[VT50/K06.07.02.04](vocal-training-r2-knowledge-cases.md#L24)；[VT51/K06.07.03.04](vocal-training-r2-knowledge-cases.md#L25) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT22@1",
+        "K06-CL-VT23@1",
+        "K06-CL-VT24@1",
+        "K06-CL-VT49@1",
+        "K06-CL-VT50@1",
+        "K06-CL-VT51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT22",
+          "claim": "K06-CL-VT22@1",
+          "problem": "当地教师确认运动A，直音B丢失该运动，按题设选？",
+          "reject": "传统目标允许或要求运动。"
+        },
+        {
+          "caseId": "VT23",
+          "claim": "K06-CL-VT23@1",
+          "problem": "“清晨见光”目标光字重点或全句平稳，如何构造？",
+          "reject": "表达指令不等本人情绪。"
+        },
+        {
+          "caseId": "VT24",
+          "claim": "K06-CL-VT24@1",
+          "problem": "当地专家支持装饰，陌生评者偏直音，如何裁？",
+          "reject": "评价标准不相同。"
+        },
+        {
+          "caseId": "VT49",
+          "claim": "K06-CL-VT49@1",
+          "problem": "第一段持续颤音、第二段末尾颤音，仅改第二段起始，核。",
+          "reject": "局部目标不同。"
+        },
+        {
+          "caseId": "VT50",
+          "claim": "K06-CL-VT50@1",
+          "problem": "同旋律平静/活跃指令，A低相对动态、B高，如何裁？",
+          "reject": "表演意图非真实心理。"
+        },
+        {
+          "caseId": "VT51",
+          "claim": "K06-CL-VT51@1",
+          "problem": "当地专家要求装饰、外来评者偏直，任务本地传统，选？",
+          "reject": "标准不具有同一含义。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "核传统/曲目/表达意图及评价者后选择目标",
+      "d4Targets": [
+        "K06.07.01.03",
+        "K06.07.03.03",
+        "K06.07.01.04",
+        "K06.07.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 48,
+        "row": "| K06.07 | A02 | P | 核传统/曲目/表达意图及评价者后选择目标 | [VT22/K06.07.01.03](vocal-training-r1-knowledge-cases.md#L26)；[VT24/K06.07.03.03](vocal-training-r1-knowledge-cases.md#L28)；[VT49/K06.07.01.04](vocal-training-r2-knowledge-cases.md#L23)；[VT51/K06.07.03.04](vocal-training-r2-knowledge-cases.md#L25) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT22@1",
+        "K06-CL-VT24@1",
+        "K06-CL-VT49@1",
+        "K06-CL-VT51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT22",
+          "claim": "K06-CL-VT22@1",
+          "problem": "当地教师确认运动A，直音B丢失该运动，按题设选？",
+          "reject": "传统目标允许或要求运动。"
+        },
+        {
+          "caseId": "VT24",
+          "claim": "K06-CL-VT24@1",
+          "problem": "当地专家支持装饰，陌生评者偏直音，如何裁？",
+          "reject": "评价标准不相同。"
+        },
+        {
+          "caseId": "VT49",
+          "claim": "K06-CL-VT49@1",
+          "problem": "第一段持续颤音、第二段末尾颤音，仅改第二段起始，核。",
+          "reject": "局部目标不同。"
+        },
+        {
+          "caseId": "VT51",
+          "claim": "K06-CL-VT51@1",
+          "problem": "当地专家要求装饰、外来评者偏直，任务本地传统，选？",
+          "reject": "标准不具有同一含义。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.07",
+      "ability": "A03",
+      "role": "S",
+      "task": "提供风格/语言/评价条件，拒绝模型万能评分",
+      "d4Targets": [
+        "K06.07.02.03",
+        "K06.07.03.03",
+        "K06.07.02.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 49,
+        "row": "| K06.07 | A03 | S | 提供风格/语言/评价条件，拒绝模型万能评分 | [VT23/K06.07.02.03](vocal-training-r1-knowledge-cases.md#L27)；[VT24/K06.07.03.03](vocal-training-r1-knowledge-cases.md#L28)；[VT50/K06.07.02.04](vocal-training-r2-knowledge-cases.md#L24) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT23@1",
+        "K06-CL-VT24@1",
+        "K06-CL-VT50@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT23",
+          "claim": "K06-CL-VT23@1",
+          "problem": "“清晨见光”目标光字重点或全句平稳，如何构造？",
+          "reject": "表达指令不等本人情绪。"
+        },
+        {
+          "caseId": "VT24",
+          "claim": "K06-CL-VT24@1",
+          "problem": "当地专家支持装饰，陌生评者偏直音，如何裁？",
+          "reject": "评价标准不相同。"
+        },
+        {
+          "caseId": "VT50",
+          "claim": "K06-CL-VT50@1",
+          "problem": "同旋律平静/活跃指令，A低相对动态、B高，如何裁？",
+          "reject": "表演意图非真实心理。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.07",
+      "ability": "A04",
+      "role": "P",
+      "task": "风格来源、意图、评者、任务与版本",
+      "d4Targets": [
+        "K06.07.01.03",
+        "K06.07.02.03",
+        "K06.07.01.04",
+        "K06.07.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 50,
+        "row": "| K06.07 | A04 | P | 风格来源、意图、评者、任务与版本 | [VT22/K06.07.01.03](vocal-training-r1-knowledge-cases.md#L26)；[VT23/K06.07.02.03](vocal-training-r1-knowledge-cases.md#L27)；[VT49/K06.07.01.04](vocal-training-r2-knowledge-cases.md#L23)；[VT51/K06.07.03.04](vocal-training-r2-knowledge-cases.md#L25) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT22@1",
+        "K06-CL-VT23@1",
+        "K06-CL-VT49@1",
+        "K06-CL-VT51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT22",
+          "claim": "K06-CL-VT22@1",
+          "problem": "当地教师确认运动A，直音B丢失该运动，按题设选？",
+          "reject": "传统目标允许或要求运动。"
+        },
+        {
+          "caseId": "VT23",
+          "claim": "K06-CL-VT23@1",
+          "problem": "“清晨见光”目标光字重点或全句平稳，如何构造？",
+          "reject": "表达指令不等本人情绪。"
+        },
+        {
+          "caseId": "VT49",
+          "claim": "K06-CL-VT49@1",
+          "problem": "第一段持续颤音、第二段末尾颤音，仅改第二段起始，核。",
+          "reject": "局部目标不同。"
+        },
+        {
+          "caseId": "VT51",
+          "claim": "K06-CL-VT51@1",
+          "problem": "当地专家要求装饰、外来评者偏直，任务本地传统，选？",
+          "reject": "标准不具有同一含义。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "分离规范、统计、偏好、声学观测及心理推断",
+      "d4Targets": [
+        "K06.07.01.03",
+        "K06.07.02.03",
+        "K06.07.03.03",
+        "K06.07.02.04",
+        "K06.07.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 51,
+        "row": "| K06.07 | A05 | P | 分离规范、统计、偏好、声学观测及心理推断 | [VT22/K06.07.01.03](vocal-training-r1-knowledge-cases.md#L26)；[VT23/K06.07.02.03](vocal-training-r1-knowledge-cases.md#L27)；[VT24/K06.07.03.03](vocal-training-r1-knowledge-cases.md#L28)；[VT50/K06.07.02.04](vocal-training-r2-knowledge-cases.md#L24)；[VT51/K06.07.03.04](vocal-training-r2-knowledge-cases.md#L25) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT22@1",
+        "K06-CL-VT23@1",
+        "K06-CL-VT24@1",
+        "K06-CL-VT50@1",
+        "K06-CL-VT51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT22",
+          "claim": "K06-CL-VT22@1",
+          "problem": "当地教师确认运动A，直音B丢失该运动，按题设选？",
+          "reject": "传统目标允许或要求运动。"
+        },
+        {
+          "caseId": "VT23",
+          "claim": "K06-CL-VT23@1",
+          "problem": "“清晨见光”目标光字重点或全句平稳，如何构造？",
+          "reject": "表达指令不等本人情绪。"
+        },
+        {
+          "caseId": "VT24",
+          "claim": "K06-CL-VT24@1",
+          "problem": "当地专家支持装饰，陌生评者偏直音，如何裁？",
+          "reject": "评价标准不相同。"
+        },
+        {
+          "caseId": "VT50",
+          "claim": "K06-CL-VT50@1",
+          "problem": "同旋律平静/活跃指令，A低相对动态、B高，如何裁？",
+          "reject": "表演意图非真实心理。"
+        },
+        {
+          "caseId": "VT51",
+          "claim": "K06-CL-VT51@1",
+          "problem": "当地专家要求装饰、外来评者偏直，任务本地传统，选？",
+          "reject": "标准不具有同一含义。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.07",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持风格/表达与评语标注，改编需授权",
+      "d4Targets": [
+        "K06.07.01.03",
+        "K06.07.02.03",
+        "K06.07.01.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 52,
+        "row": "| K06.07 | A06 | S | 支持风格/表达与评语标注，改编需授权 | [VT22/K06.07.01.03](vocal-training-r1-knowledge-cases.md#L26)；[VT23/K06.07.02.03](vocal-training-r1-knowledge-cases.md#L27)；[VT49/K06.07.01.04](vocal-training-r2-knowledge-cases.md#L23) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT22@1",
+        "K06-CL-VT23@1",
+        "K06-CL-VT49@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT22",
+          "claim": "K06-CL-VT22@1",
+          "problem": "当地教师确认运动A，直音B丢失该运动，按题设选？",
+          "reject": "传统目标允许或要求运动。"
+        },
+        {
+          "caseId": "VT23",
+          "claim": "K06-CL-VT23@1",
+          "problem": "“清晨见光”目标光字重点或全句平稳，如何构造？",
+          "reject": "表达指令不等本人情绪。"
+        },
+        {
+          "caseId": "VT49",
+          "claim": "K06-CL-VT49@1",
+          "problem": "第一段持续颤音、第二段末尾颤音，仅改第二段起始，核。",
+          "reject": "局部目标不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "复核来源与意图，文化冲突不自动纠错",
+      "d4Targets": [
+        "K06.07.03.03",
+        "K06.07.01.04",
+        "K06.07.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 53,
+        "row": "| K06.07 | A07 | P | 复核来源与意图，文化冲突不自动纠错 | [VT24/K06.07.03.03](vocal-training-r1-knowledge-cases.md#L28)；[VT49/K06.07.01.04](vocal-training-r2-knowledge-cases.md#L23)；[VT51/K06.07.03.04](vocal-training-r2-knowledge-cases.md#L25) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT24@1",
+        "K06-CL-VT49@1",
+        "K06-CL-VT51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT24",
+          "claim": "K06-CL-VT24@1",
+          "problem": "当地专家支持装饰，陌生评者偏直音，如何裁？",
+          "reject": "评价标准不相同。"
+        },
+        {
+          "caseId": "VT49",
+          "claim": "K06-CL-VT49@1",
+          "problem": "第一段持续颤音、第二段末尾颤音，仅改第二段起始，核。",
+          "reject": "局部目标不同。"
+        },
+        {
+          "caseId": "VT51",
+          "claim": "K06-CL-VT51@1",
+          "problem": "当地专家要求装饰、外来评者偏直，任务本地传统，选？",
+          "reject": "标准不具有同一含义。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "示范/分段/复测/保持迁移和状态",
+      "d4Targets": [
+        "K06.08.01.03",
+        "K06.08.02.03",
+        "K06.08.03.03",
+        "K06.08.01.04",
+        "K06.08.02.04",
+        "K06.08.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 54,
+        "row": "| K06.08 | A01 | P | 示范/分段/复测/保持迁移和状态 | [VT25/K06.08.01.03](vocal-training-r1-knowledge-cases.md#L29)；[VT26/K06.08.02.03](vocal-training-r1-knowledge-cases.md#L30)；[VT27/K06.08.03.03](vocal-training-r1-knowledge-cases.md#L31)；[VT52/K06.08.01.04](vocal-training-r2-knowledge-cases.md#L26)；[VT53/K06.08.02.04](vocal-training-r2-knowledge-cases.md#L27)；[VT54/K06.08.03.04](vocal-training-r2-knowledge-cases.md#L28) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT25@1",
+        "K06-CL-VT26@1",
+        "K06-CL-VT27@1",
+        "K06-CL-VT52@1",
+        "K06-CL-VT53@1",
+        "K06-CL-VT54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT25",
+          "claim": "K06-CL-VT25@1",
+          "problem": "四音C D E G第三至四不稳，如何安排题设？",
+          "reject": "局部通过不证明整句迁移。"
+        },
+        {
+          "caseId": "VT26",
+          "claim": "K06-CL-VT26@1",
+          "problem": "基线2/4、辅助4/4、即时无辅助3/4，报告？",
+          "reject": "辅助条件不同。"
+        },
+        {
+          "caseId": "VT27",
+          "claim": "K06-CL-VT27@1",
+          "problem": "v2只改视觉提示，原音符语言不变，若不达目标？",
+          "reject": "目标改变导致旧评价不可直接继承。"
+        },
+        {
+          "caseId": "VT52",
+          "claim": "K06-CL-VT52@1",
+          "problem": "N2→N3困难，隔离后两音通过，下一判断？",
+          "reject": "新材料及原句复测未完成。"
+        },
+        {
+          "caseId": "VT53",
+          "claim": "K06-CL-VT53@1",
+          "problem": "基线2/4、即时3/4、延迟2/4、新曲1/4，报告？",
+          "reject": "延迟结果反例。"
+        },
+        {
+          "caseId": "VT54",
+          "claim": "K06-CL-VT54@1",
+          "problem": "v2仅反馈变化、v3节拍目标变，怎样比较？",
+          "reject": "评价目标身份不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "原句→分段→原句无辅助复测→保留结果",
+      "d4Targets": [
+        "K06.08.01.03",
+        "K06.08.02.03",
+        "K06.08.01.04",
+        "K06.08.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 55,
+        "row": "| K06.08 | A02 | P | 原句→分段→原句无辅助复测→保留结果 | [VT25/K06.08.01.03](vocal-training-r1-knowledge-cases.md#L29)；[VT26/K06.08.02.03](vocal-training-r1-knowledge-cases.md#L30)；[VT52/K06.08.01.04](vocal-training-r2-knowledge-cases.md#L26)；[VT53/K06.08.02.04](vocal-training-r2-knowledge-cases.md#L27) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT25@1",
+        "K06-CL-VT26@1",
+        "K06-CL-VT52@1",
+        "K06-CL-VT53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT25",
+          "claim": "K06-CL-VT25@1",
+          "problem": "四音C D E G第三至四不稳，如何安排题设？",
+          "reject": "局部通过不证明整句迁移。"
+        },
+        {
+          "caseId": "VT26",
+          "claim": "K06-CL-VT26@1",
+          "problem": "基线2/4、辅助4/4、即时无辅助3/4，报告？",
+          "reject": "辅助条件不同。"
+        },
+        {
+          "caseId": "VT52",
+          "claim": "K06-CL-VT52@1",
+          "problem": "N2→N3困难，隔离后两音通过，下一判断？",
+          "reject": "新材料及原句复测未完成。"
+        },
+        {
+          "caseId": "VT53",
+          "claim": "K06-CL-VT53@1",
+          "problem": "基线2/4、即时3/4、延迟2/4、新曲1/4，报告？",
+          "reject": "延迟结果反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.08",
+      "ability": "A03",
+      "role": "S",
+      "task": "提供参考/反馈/比较条件，K12真实运行",
+      "d4Targets": [
+        "K06.08.02.03",
+        "K06.08.03.03",
+        "K06.08.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 56,
+        "row": "| K06.08 | A03 | S | 提供参考/反馈/比较条件，K12真实运行 | [VT26/K06.08.02.03](vocal-training-r1-knowledge-cases.md#L30)；[VT27/K06.08.03.03](vocal-training-r1-knowledge-cases.md#L31)；[VT54/K06.08.03.04](vocal-training-r2-knowledge-cases.md#L28) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT26@1",
+        "K06-CL-VT27@1",
+        "K06-CL-VT54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT26",
+          "claim": "K06-CL-VT26@1",
+          "problem": "基线2/4、辅助4/4、即时无辅助3/4，报告？",
+          "reject": "辅助条件不同。"
+        },
+        {
+          "caseId": "VT27",
+          "claim": "K06-CL-VT27@1",
+          "problem": "v2只改视觉提示，原音符语言不变，若不达目标？",
+          "reject": "目标改变导致旧评价不可直接继承。"
+        },
+        {
+          "caseId": "VT54",
+          "claim": "K06-CL-VT54@1",
+          "problem": "v2仅反馈变化、v3节拍目标变，怎样比较？",
+          "reject": "评价目标身份不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.08",
+      "ability": "A04",
+      "role": "P",
+      "task": "任务、反馈、原件、评测、版本和失效语义",
+      "d4Targets": [
+        "K06.08.03.03",
+        "K06.08.02.04",
+        "K06.08.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 57,
+        "row": "| K06.08 | A04 | P | 任务、反馈、原件、评测、版本和失效语义 | [VT27/K06.08.03.03](vocal-training-r1-knowledge-cases.md#L31)；[VT53/K06.08.02.04](vocal-training-r2-knowledge-cases.md#L27)；[VT54/K06.08.03.04](vocal-training-r2-knowledge-cases.md#L28) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT27@1",
+        "K06-CL-VT53@1",
+        "K06-CL-VT54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT27",
+          "claim": "K06-CL-VT27@1",
+          "problem": "v2只改视觉提示，原音符语言不变，若不达目标？",
+          "reject": "目标改变导致旧评价不可直接继承。"
+        },
+        {
+          "caseId": "VT53",
+          "claim": "K06-CL-VT53@1",
+          "problem": "基线2/4、即时3/4、延迟2/4、新曲1/4，报告？",
+          "reject": "延迟结果反例。"
+        },
+        {
+          "caseId": "VT54",
+          "claim": "K06-CL-VT54@1",
+          "problem": "v2仅反馈变化、v3节拍目标变，怎样比较？",
+          "reject": "评价目标身份不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "同条件前后、辅助/保持/迁移分别评价",
+      "d4Targets": [
+        "K06.08.02.03",
+        "K06.08.01.04",
+        "K06.08.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 58,
+        "row": "| K06.08 | A05 | P | 同条件前后、辅助/保持/迁移分别评价 | [VT26/K06.08.02.03](vocal-training-r1-knowledge-cases.md#L30)；[VT52/K06.08.01.04](vocal-training-r2-knowledge-cases.md#L26)；[VT53/K06.08.02.04](vocal-training-r2-knowledge-cases.md#L27) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT26@1",
+        "K06-CL-VT52@1",
+        "K06-CL-VT53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT26",
+          "claim": "K06-CL-VT26@1",
+          "problem": "基线2/4、辅助4/4、即时无辅助3/4，报告？",
+          "reject": "辅助条件不同。"
+        },
+        {
+          "caseId": "VT52",
+          "claim": "K06-CL-VT52@1",
+          "problem": "N2→N3困难，隔离后两音通过，下一判断？",
+          "reject": "新材料及原句复测未完成。"
+        },
+        {
+          "caseId": "VT53",
+          "claim": "K06-CL-VT53@1",
+          "problem": "基线2/4、即时3/4、延迟2/4、新曲1/4，报告？",
+          "reject": "延迟结果反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.08",
+      "ability": "A06",
+      "role": "P",
+      "task": "主责可编辑课程任务、练习片段、反馈及记录版本语义",
+      "d4Targets": [
+        "K06.08.01.03",
+        "K06.08.03.03",
+        "K06.08.01.04",
+        "K06.08.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 59,
+        "row": "| K06.08 | A06 | P | 主责可编辑课程任务、练习片段、反馈及记录版本语义 | [VT25/K06.08.01.03](vocal-training-r1-knowledge-cases.md#L29)；[VT27/K06.08.03.03](vocal-training-r1-knowledge-cases.md#L31)；[VT52/K06.08.01.04](vocal-training-r2-knowledge-cases.md#L26)；[VT54/K06.08.03.04](vocal-training-r2-knowledge-cases.md#L28) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT25@1",
+        "K06-CL-VT27@1",
+        "K06-CL-VT52@1",
+        "K06-CL-VT54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT25",
+          "claim": "K06-CL-VT25@1",
+          "problem": "四音C D E G第三至四不稳，如何安排题设？",
+          "reject": "局部通过不证明整句迁移。"
+        },
+        {
+          "caseId": "VT27",
+          "claim": "K06-CL-VT27@1",
+          "problem": "v2只改视觉提示，原音符语言不变，若不达目标？",
+          "reject": "目标改变导致旧评价不可直接继承。"
+        },
+        {
+          "caseId": "VT52",
+          "claim": "K06-CL-VT52@1",
+          "problem": "N2→N3困难，隔离后两音通过，下一判断？",
+          "reject": "新材料及原句复测未完成。"
+        },
+        {
+          "caseId": "VT54",
+          "claim": "K06-CL-VT54@1",
+          "problem": "v2仅反馈变化、v3节拍目标变，怎样比较？",
+          "reject": "评价目标身份不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "最小调整、保留失败与回滚/新基线",
+      "d4Targets": [
+        "K06.08.03.03",
+        "K06.08.02.04",
+        "K06.08.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 60,
+        "row": "| K06.08 | A07 | P | 最小调整、保留失败与回滚/新基线 | [VT27/K06.08.03.03](vocal-training-r1-knowledge-cases.md#L31)；[VT53/K06.08.02.04](vocal-training-r2-knowledge-cases.md#L27)；[VT54/K06.08.03.04](vocal-training-r2-knowledge-cases.md#L28) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT27@1",
+        "K06-CL-VT53@1",
+        "K06-CL-VT54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT27",
+          "claim": "K06-CL-VT27@1",
+          "problem": "v2只改视觉提示，原音符语言不变，若不达目标？",
+          "reject": "目标改变导致旧评价不可直接继承。"
+        },
+        {
+          "caseId": "VT53",
+          "claim": "K06-CL-VT53@1",
+          "problem": "基线2/4、即时3/4、延迟2/4、新曲1/4，报告？",
+          "reject": "延迟结果反例。"
+        },
+        {
+          "caseId": "VT54",
+          "claim": "K06-CL-VT54@1",
+          "problem": "v2仅反馈变化、v3节拍目标变，怎样比较？",
+          "reject": "评价目标身份不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.09",
+      "ability": "A01",
+      "role": "P",
+      "task": "停止、转介、暂停与恢复边界",
+      "d4Targets": [
+        "K06.09.01.03",
+        "K06.09.02.03",
+        "K06.09.03.03",
+        "K06.09.01.04",
+        "K06.09.02.04",
+        "K06.09.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 61,
+        "row": "| K06.09 | A01 | P | 停止、转介、暂停与恢复边界 | [VT28/K06.09.01.03](vocal-training-r1-knowledge-cases.md#L32)；[VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)；[VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)；[VT55/K06.09.01.04](vocal-training-r2-knowledge-cases.md#L29)；[VT56/K06.09.02.04](vocal-training-r2-knowledge-cases.md#L30)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT28@1",
+        "K06-CL-VT29@1",
+        "K06-CL-VT30@1",
+        "K06-CL-VT55@1",
+        "K06-CL-VT56@1",
+        "K06-CL-VT57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT28",
+          "claim": "K06-CL-VT28@1",
+          "problem": "严重呼吸困难且已有高分，先做？",
+          "reject": "已知严重风险不等待。"
+        },
+        {
+          "caseId": "VT29",
+          "claim": "K06-CL-VT29@1",
+          "problem": "持续声音异常并不适，教师怎么记？",
+          "reject": "专业权限与证据不够。"
+        },
+        {
+          "caseId": "VT30",
+          "claim": "K06-CL-VT30@1",
+          "problem": "昨日不适暂停，今好转无评估，是否恢复？",
+          "reject": "评分不证明原风险解决。"
+        },
+        {
+          "caseId": "VT55",
+          "claim": "K06-CL-VT55@1",
+          "problem": "开始时获准，过程中严重呼吸困难，处置。",
+          "reject": "当前风险覆盖先前状态。"
+        },
+        {
+          "caseId": "VT56",
+          "claim": "K06-CL-VT56@1",
+          "problem": "仅收到持续声音异常自报，转介理由？",
+          "reject": "缺临床资格及诊断证据。"
+        },
+        {
+          "caseId": "VT57",
+          "claim": "K06-CL-VT57@1",
+          "problem": "暂停原因未清、反馈好转，如何安排？",
+          "reject": "超出建议和任务授权范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.09",
+      "ability": "A02",
+      "role": "P",
+      "task": "新风险优先停止，紧急求助，适当专业转介",
+      "d4Targets": [
+        "K06.09.01.03",
+        "K06.09.02.03",
+        "K06.09.01.04",
+        "K06.09.02.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 62,
+        "row": "| K06.09 | A02 | P | 新风险优先停止，紧急求助，适当专业转介 | [VT28/K06.09.01.03](vocal-training-r1-knowledge-cases.md#L32)；[VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)；[VT55/K06.09.01.04](vocal-training-r2-knowledge-cases.md#L29)；[VT56/K06.09.02.04](vocal-training-r2-knowledge-cases.md#L30) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT28@1",
+        "K06-CL-VT29@1",
+        "K06-CL-VT55@1",
+        "K06-CL-VT56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT28",
+          "claim": "K06-CL-VT28@1",
+          "problem": "严重呼吸困难且已有高分，先做？",
+          "reject": "已知严重风险不等待。"
+        },
+        {
+          "caseId": "VT29",
+          "claim": "K06-CL-VT29@1",
+          "problem": "持续声音异常并不适，教师怎么记？",
+          "reject": "专业权限与证据不够。"
+        },
+        {
+          "caseId": "VT55",
+          "claim": "K06-CL-VT55@1",
+          "problem": "开始时获准，过程中严重呼吸困难，处置。",
+          "reject": "当前风险覆盖先前状态。"
+        },
+        {
+          "caseId": "VT56",
+          "claim": "K06-CL-VT56@1",
+          "problem": "仅收到持续声音异常自报，转介理由？",
+          "reject": "缺临床资格及诊断证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.09",
+      "ability": "A03",
+      "role": "S",
+      "task": "仅支持记录/非临床工具，不诊断或自动放行",
+      "d4Targets": [
+        "K06.09.02.03",
+        "K06.09.03.03",
+        "K06.09.02.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 63,
+        "row": "| K06.09 | A03 | S | 仅支持记录/非临床工具，不诊断或自动放行 | [VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)；[VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)；[VT56/K06.09.02.04](vocal-training-r2-knowledge-cases.md#L30) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT29@1",
+        "K06-CL-VT30@1",
+        "K06-CL-VT56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT29",
+          "claim": "K06-CL-VT29@1",
+          "problem": "持续声音异常并不适，教师怎么记？",
+          "reject": "专业权限与证据不够。"
+        },
+        {
+          "caseId": "VT30",
+          "claim": "K06-CL-VT30@1",
+          "problem": "昨日不适暂停，今好转无评估，是否恢复？",
+          "reject": "评分不证明原风险解决。"
+        },
+        {
+          "caseId": "VT56",
+          "claim": "K06-CL-VT56@1",
+          "problem": "仅收到持续声音异常自报，转介理由？",
+          "reject": "缺临床资格及诊断证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.09",
+      "ability": "A04",
+      "role": "P",
+      "task": "风险报告、暂停原因、转介及重新确认状态",
+      "d4Targets": [
+        "K06.09.01.03",
+        "K06.09.03.03",
+        "K06.09.01.04",
+        "K06.09.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 64,
+        "row": "| K06.09 | A04 | P | 风险报告、暂停原因、转介及重新确认状态 | [VT28/K06.09.01.03](vocal-training-r1-knowledge-cases.md#L32)；[VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)；[VT55/K06.09.01.04](vocal-training-r2-knowledge-cases.md#L29)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT28@1",
+        "K06-CL-VT30@1",
+        "K06-CL-VT55@1",
+        "K06-CL-VT57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT28",
+          "claim": "K06-CL-VT28@1",
+          "problem": "严重呼吸困难且已有高分，先做？",
+          "reject": "已知严重风险不等待。"
+        },
+        {
+          "caseId": "VT30",
+          "claim": "K06-CL-VT30@1",
+          "problem": "昨日不适暂停，今好转无评估，是否恢复？",
+          "reject": "评分不证明原风险解决。"
+        },
+        {
+          "caseId": "VT55",
+          "claim": "K06-CL-VT55@1",
+          "problem": "开始时获准，过程中严重呼吸困难，处置。",
+          "reject": "当前风险覆盖先前状态。"
+        },
+        {
+          "caseId": "VT57",
+          "claim": "K06-CL-VT57@1",
+          "problem": "暂停原因未清、反馈好转，如何安排？",
+          "reject": "超出建议和任务授权范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.09",
+      "ability": "A05",
+      "role": "P",
+      "task": "不得以音准/模型分否决风险，非医疗评级",
+      "d4Targets": [
+        "K06.09.01.03",
+        "K06.09.02.03",
+        "K06.09.03.03",
+        "K06.09.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 65,
+        "row": "| K06.09 | A05 | P | 不得以音准/模型分否决风险，非医疗评级 | [VT28/K06.09.01.03](vocal-training-r1-knowledge-cases.md#L32)；[VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)；[VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT28@1",
+        "K06-CL-VT29@1",
+        "K06-CL-VT30@1",
+        "K06-CL-VT57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT28",
+          "claim": "K06-CL-VT28@1",
+          "problem": "严重呼吸困难且已有高分，先做？",
+          "reject": "已知严重风险不等待。"
+        },
+        {
+          "caseId": "VT29",
+          "claim": "K06-CL-VT29@1",
+          "problem": "持续声音异常并不适，教师怎么记？",
+          "reject": "专业权限与证据不够。"
+        },
+        {
+          "caseId": "VT30",
+          "claim": "K06-CL-VT30@1",
+          "problem": "昨日不适暂停，今好转无评估，是否恢复？",
+          "reject": "评分不证明原风险解决。"
+        },
+        {
+          "caseId": "VT57",
+          "claim": "K06-CL-VT57@1",
+          "problem": "暂停原因未清、反馈好转，如何安排？",
+          "reject": "超出建议和任务授权范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.09",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持必要授权的事实记录，不建立个人临床档案",
+      "d4Targets": [
+        "K06.09.02.03",
+        "K06.09.02.04",
+        "K06.09.03.04"
+      ],
+      "limits": "为其他域提供具体输入/约束；不扩为本域工具或格式执行。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 66,
+        "row": "| K06.09 | A06 | S | 支持必要授权的事实记录，不建立个人临床档案 | [VT29/K06.09.02.03](vocal-training-r1-knowledge-cases.md#L33)；[VT56/K06.09.02.04](vocal-training-r2-knowledge-cases.md#L30)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 为其他域提供具体输入/约束；不扩为本域工具或格式执行。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT29@1",
+        "K06-CL-VT56@1",
+        "K06-CL-VT57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT29",
+          "claim": "K06-CL-VT29@1",
+          "problem": "持续声音异常并不适，教师怎么记？",
+          "reject": "专业权限与证据不够。"
+        },
+        {
+          "caseId": "VT56",
+          "claim": "K06-CL-VT56@1",
+          "problem": "仅收到持续声音异常自报，转介理由？",
+          "reject": "缺临床资格及诊断证据。"
+        },
+        {
+          "caseId": "VT57",
+          "claim": "K06-CL-VT57@1",
+          "problem": "暂停原因未清、反馈好转，如何安排？",
+          "reject": "超出建议和任务授权范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K06.09",
+      "ability": "A07",
+      "role": "P",
+      "task": "暂停→专业决定及本人同意→重新核教学条件",
+      "d4Targets": [
+        "K06.09.03.03",
+        "K06.09.01.04",
+        "K06.09.03.04"
+      ],
+      "limits": "本域限定教学知识/任务/记录职责；非实际运行或独立PASS。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/vocal-training-r3-capability-calibration.md",
+        "blob": "e005b583f20b5e4f97fab6d20bf9da6a65203bb2",
+        "line": 67,
+        "row": "| K06.09 | A07 | P | 暂停→专业决定及本人同意→重新核教学条件 | [VT30/K06.09.03.03](vocal-training-r1-knowledge-cases.md#L34)；[VT55/K06.09.01.04](vocal-training-r2-knowledge-cases.md#L29)；[VT57/K06.09.03.04](vocal-training-r2-knowledge-cases.md#L31) | 本域限定教学知识/任务/记录职责；非实际运行或独立PASS。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K06-CL-VT30@1",
+        "K06-CL-VT55@1",
+        "K06-CL-VT57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "VT30",
+          "claim": "K06-CL-VT30@1",
+          "problem": "昨日不适暂停，今好转无评估，是否恢复？",
+          "reject": "评分不证明原风险解决。"
+        },
+        {
+          "caseId": "VT55",
+          "claim": "K06-CL-VT55@1",
+          "problem": "开始时获准，过程中严重呼吸困难，处置。",
+          "reject": "当前风险覆盖先前状态。"
+        },
+        {
+          "caseId": "VT57",
+          "claim": "K06-CL-VT57@1",
+          "problem": "暂停原因未清、反馈好转，如何安排？",
+          "reject": "超出建议和任务授权范围。"
+        }
+      ]
+    }
+  ]
+}
