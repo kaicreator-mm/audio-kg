@@ -1,0 +1,34 @@
+{
+  "pack_id": "audio-kg-v010-F00-CQ-g1",
+  "task_id": "F00-CQ",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "337367f48dc3c5c454828cf064f7442f21894481",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/issues/112",
+  "branch": "task/v0.1.0-f00-cq-role",
+  "parent_issue": "#112",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-cq-builder",
+  "generated_at": "2026-11-27T11:45:25.340412+00:00",
+  "dependency_completion": [
+    "F00@f5fbc3b9fc6118e073c3701ae8da2d8928629ce4"
+  ],
+  "material_paths": [
+    "tools/validate-knowledge.mjs",
+    "ontology/",
+    "tests/knowledge/",
+    "docs/product/calibration/theory-all-atom-discovery-cq.md"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}
