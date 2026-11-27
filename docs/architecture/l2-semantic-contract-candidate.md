@@ -31,14 +31,18 @@
 | prerequisite_for | Step → Step | prerequisite_of反查，流程先后而非因果，步骤DAG无环 |
 | measured_by | Observation/Claim → Metric | measures；度量非质量唯一真值 |
 | produces | Step → Artifact/Observation/Evaluation | produced_by；题设不等实际产出 |
-| consumes | Step → Artifact/Observation | consumed_by；输入身份/版本绑定 |
-| applies_under | Claim/Method/Procedure → Context | applicable_claims；未证条件不放行 |
+| consumes | Step → Artifact/Observation/Evaluation | consumed_by；输入身份/版本绑定 |
+| applies_under | Claim/Method/Procedure/Step/Observation/Evaluation → Context | applicable_records；未证条件不放行 |
 | has_limitation | Claim/Method/ToolVersion/ModelVersion → Constraint | limitation_of；非否定整个类 |
 | contradicts | Claim → Claim | 双向检索、仅重叠范围冲突；不自动判真/假 |
 | supported_by | Claim → Evidence | supports；证据资格/定位/适用性，拒绝自支持 |
 | supersedes | 同一stable id的新revision → 旧revision | 历史逆查；不继承旧接受、回执或权限 |
 | mitigates | Method → FailureMode | mitigated_by；非保证消除风险 |
 | derived_from | Artifact/Evaluation → Artifact/Observation/Evaluation | derived_to；DAG，当前性依赖精确输入与内容 |
+| validates_against | Observation/Evaluation → Constraint/Artifact/Observation/Evaluation | validated_by；资格/独立参考/绑定条件，不声称估计值由参考生成 |
+| governed_by | Step → Grant | governed_steps；只查实际grant证据，P角色不代grant，当前epoch/范围核验 |
+| qualifies_tool | Step → ToolVersion | qualified_steps；版本/操作范围证据，不等真实执行 |
+| qualifies_model | Step → ModelVersion | qualified_steps；版本/资源证据，不等模型效果 |
 | references | Claim/Step → Claim | O条件导航，不授依赖满足或真值 |
 | alias_of | HistoricalID → 当前D4 | 一对一语义保留仅查找；非事实等价 |
 | split_route | HistoricalID → D4（NEW/REUSE/REF） | 各谓词条件、角色和状态；OPEN不得当别名，不反推原整体 |
@@ -51,3 +55,6 @@ A01–07分别知识、流程、工具、状态、评价、可编辑、迭代；
 迁移：13一对一历史别名、13保留、28 SPLIT_OPEN；保留精确D4、来源和原语义，L2只定义条件映射和拒绝规则，不执行全量正式迁移。36历史发现/15 issues继续G07准入。
 ## T05可证伪假设
 实际解析人读JSON，验证类型/源/owner/关系/双向绑定/版本和权限边界；三领域K01音分、K05独立参考、K08窗口/FFT，CQ01/06/07/21/25有限子问；使用真实登记来源与合成数据，独立答案文件。实际执行正负例及有限七能力追溯，检验替换证据、错误逆推、过期版本、非法关系、悬空、重复和泄漏。若无法表达必要条件或重建索引则改候选，不以脚本计数替代专业评估。T05不证明实际LLM效果、真实音频、权利、全量迁移、生产数据库、通用图推理或安全系统。
+
+## T05 实际可执行范围与边界
+试点文件见 `docs/research/l2-pilot/`：`pack.json`/`sources.json` 为可读候选；`knowledge-pilot.mjs`/`retrieve.mjs` 为有限解析/双向索引/公共查询，`assessment-input.json` 与 `assessment.json` 分离输入、评分期望，不进入公共树；`workflow-pilot.mjs` 把实际R8a/R9合成历史映射为带精确revision/条件的Step、Constraint、Observation、Artifact、Evaluation、Grant、ToolVersion、ModelVersion、Context记录，从单一边生成依赖/反向索引并进行CQ21/CQ25查询。`validate.mjs` 执行上述实际试点。没有将RDF/OWL或其推理引擎作为已测；未执行的候选关系/类型不承诺通用实现，后续正式构建必须在相关G07批次前实际验证新增关系/形状，禁止静默绕过。G06只审核本有界语义合同及实际研究证据；生产验证器、完整正式迁移与全部专业知识数据尚未建立。
