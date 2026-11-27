@@ -1,0 +1,65 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K01",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "ad8374c540bf1b87d135b2665c6d1a52cf5bcbe7",
+  "sourceQualifications": [
+    {
+      "source": "S022@1",
+      "scope": "Positive-frequency ratios and reference note convention, L1 topic locator; not a new section claim.",
+      "limits": "No complete tuning identity or actual musical observation; unknown publication metadata.",
+      "locatorKind": "L1_REGISTRATION_TOPIC",
+      "accessedUri": "https://newt.phys.unsw.edu.au/jw/notes.html"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K01-SUP-CENTS",
+      "scope": "原L1精确案例与源定位；组合路径另需前置",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。"
+    },
+    {
+      "edge": "K01-CTX-CENTS",
+      "scope": "正且有限的同单位频率，明确参考；不由单个比值识别整套律制。",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。"
+    },
+    {
+      "edge": "K01-SUP-PERIOD-CENTS",
+      "scope": "原L1精确案例与源定位；组合路径另需前置",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。"
+    },
+    {
+      "edge": "K01-CTX-PERIOD-CENTS",
+      "scope": "两者为稳定周期波、同时间单位、正周期、明确参考；只有这条条件路径需要周期知识。",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。"
+    },
+    {
+      "edge": "K01-REQ0-PERIOD-CENTS",
+      "scope": "音分公式；仅该消费者条件路径",
+      "limits": "H仅发现义务，provider条件另核，非自动满足"
+    },
+    {
+      "edge": "K01-REQ1-PERIOD-CENTS",
+      "scope": "稳定周期与频率倒数；仅该消费者条件路径",
+      "limits": "H仅发现义务，provider条件另核，非自动满足"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K01-REQ0-PERIOD-CENTS",
+      "consumer": "K01-PERIOD-CENTS@1",
+      "provider": "K01-CENTS@1",
+      "condition": "K01-CTX-PERIOD-CENTS@1",
+      "providerContext": "K01-CTX-CENTS@1",
+      "group": "K01-GROUP-PERIOD-CENTS@1"
+    },
+    {
+      "edge": "K01-REQ1-PERIOD-CENTS",
+      "consumer": "K01-PERIOD-CENTS@1",
+      "provider": "K07-FREQ@1",
+      "condition": "K01-CTX-PERIOD-CENTS@1",
+      "providerContext": "K07-CTX-FREQ@1",
+      "group": "K01-GROUP-PERIOD-CENTS@1"
+    }
+  ]
+}

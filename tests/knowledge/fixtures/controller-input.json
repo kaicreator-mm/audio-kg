@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "pack": "tests/knowledge/fixtures/K01-candidate.json",
+      "manifest": "tests/knowledge/fixtures/K01-qualification.json",
+      "manifestBlob": "e3163af4cd9e1ff77a304eff39b3308d946003e3"
+    },
+    {
+      "pack": "tests/knowledge/fixtures/K07-candidate.json",
+      "manifest": "tests/knowledge/fixtures/K07-qualification.json",
+      "manifestBlob": "707ce219216fff0980edd3b769087cf2056a8978"
+    }
+  ],
+  "allowFixture": true,
+  "priorRegistry": {
+    "file": "tests/knowledge/fixtures/prior-identities.json",
+    "blob": "2b53805d1bbc2e9ced4b8d532d182b71a459daff"
+  }
+}

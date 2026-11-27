@@ -1,0 +1,576 @@
+{
+  "format": "audio-kg-candidate/1",
+  "owner": "K01",
+  "coverageMode": "FIXTURE_SUBSET",
+  "inventory": [
+    {
+      "line": 23,
+      "d4": "K01.02.04.01",
+      "disposition": "CANDIDATE",
+      "claimRefs": [
+        "K01-CENTS@1",
+        "K01-PERIOD-CENTS@1"
+      ],
+      "reason": "有限已定位数学谓词的F00试点候选，非正式准入。"
+    },
+    {
+      "line": 30,
+      "d4": "K01.02.06.02",
+      "disposition": "UNKNOWN",
+      "claimRefs": [],
+      "reason": "EVIDENCE_OPEN；缺原生术语/律制证据，不能从少数示例生成完整律制。"
+    },
+    {
+      "line": 193,
+      "d4": "K01.07.03.01",
+      "disposition": "UNKNOWN",
+      "claimRefs": [],
+      "reason": "RESIDUAL_OPEN；广义历史曲式需求仍缺精确主目标，不以泛例替代。"
+    }
+  ],
+  "records": [
+    {
+      "id": "S022",
+      "revision": 1,
+      "type": "Source",
+      "sourceId": "S022",
+      "title": "UNSW teaching resource",
+      "author": "UNKNOWN",
+      "version": "UNKNOWN",
+      "publicationDate": "UNKNOWN",
+      "accessDate": "UNKNOWN_PREVIOUS_L1_REGISTRATION",
+      "uri": "https://newt.phys.unsw.edu.au/jw/notes.html",
+      "locator": "L1 registered frequency-ratio/cents topic",
+      "grade": "READ_LOCATOR",
+      "rights": "UNKNOWN_NO_IMPORT",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-theory-evidence-batch.md",
+        "blob": "a7a46230795d016b20fb981f85352854d1f89d35",
+        "line": 30,
+        "row": "- S022（[UNSW原文](https://newt.phys.unsw.edu.au/jw/notes.html)）参考音/半音频率和音分公式重读，A4=440是约定而非普遍事实。"
+      }
+    },
+    {
+      "id": "K01-CENTS",
+      "revision": 1,
+      "type": "Claim",
+      "owner": "K01",
+      "d4": "K01.02.04.01",
+      "kind": "definition",
+      "statement": "音分为正频率比的对数，c=1200 log2(f2/f1)，方向由比值决定。",
+      "context": "K01-CTX-CENTS@1",
+      "status": "CANDIDATE",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。",
+      "cq": [
+        "CQ01"
+      ]
+    },
+    {
+      "id": "K01-CTX-CENTS",
+      "revision": 1,
+      "type": "Context",
+      "owner": "K01",
+      "condition": "正且有限的同单位频率，明确参考；不由单个比值识别整套律制。"
+    },
+    {
+      "id": "K01-EV-CENTS",
+      "revision": 1,
+      "type": "Evidence",
+      "owner": "K01",
+      "kind": "L1_RESEARCH_LOCATOR",
+      "sources": [
+        "S022@1"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-fundamentals-cases.md",
+        "blob": "4f482da733981d21504cb50a06e12c14bbb6a1f5",
+        "line": 6,
+        "row": "| TD2-K01.02.04.01 / K01.02.04.01 | S022；同Hz单位，220/330均正 | 220→330约+701.955音分，330→220约−701.955，220→220为0；0或负频率输入不满足公式条件 | 直接将110Hz当110音分、忽略方向或取log(0) | 给3:2或2:3的有向比值复算，逆式还原比值 | 仅给音分不能唯一推出绝对频率；不合法输入拒绝 |"
+      },
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。"
+    },
+    {
+      "id": "K01-GROUP-CENTS",
+      "revision": 1,
+      "type": "CaseGroup",
+      "owner": "K01",
+      "d4": "K01.02.04.01",
+      "claim": "K01-CENTS@1",
+      "kind": "SYNTHETIC"
+    },
+    {
+      "id": "K01-VIEW-CENTS-FP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-CENTS@1",
+      "direction": "FORWARD",
+      "polarity": "POSITIVE",
+      "context": "K01-CTX-CENTS@1",
+      "question": "给定220、330 Hz，算有向音分。",
+      "example": {
+        "f1": 220,
+        "f2": 330
+      },
+      "explanation": "约+701.955 cents；反向为负。",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-CENTS-FN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-CENTS@1",
+      "direction": "FORWARD",
+      "polarity": "NEGATIVE",
+      "context": "K01-CTX-CENTS@1",
+      "question": "110Hz差是否等于110 cents？",
+      "example": {
+        "differenceHz": 110
+      },
+      "explanation": "否；必须有参考及正比值。",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-CENTS-RP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "POSITIVE",
+      "context": "K01-CTX-CENTS@1",
+      "question": "给3:2比值，反查音分。",
+      "example": {
+        "ratio": 1.5
+      },
+      "explanation": "约701.955；若只知比值，绝对频率不唯一。",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-CENTS-RN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "NEGATIVE",
+      "context": "K01-CTX-CENTS@1",
+      "question": "只有701.955 cents能否恢复两个绝对频率？",
+      "example": {
+        "cents": 701.955
+      },
+      "explanation": "不能；需至少一个参考频率。",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-CENTS-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "context": "K01-CTX-CENTS@1",
+      "question": "零频率可代入吗？",
+      "example": {
+        "f1": 0,
+        "f2": 330
+      },
+      "explanation": "不可，超出对数条件。",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-CENTS-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "context": "K01-CTX-CENTS@1",
+      "question": "没有频率参照怎么办？",
+      "example": {
+        "missingReference": true
+      },
+      "explanation": "UNKNOWN，不假定A4。",
+      "limits": "纯数学/符号计算，非真实测量或普遍调律。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-PERIOD-CENTS",
+      "revision": 1,
+      "type": "Claim",
+      "owner": "K01",
+      "d4": "K01.02.04.01",
+      "kind": "definition",
+      "statement": "在已知稳定周期并以 f=1/T 取得两个正频率的题设下，可将周期比的倒数输入音分公式。",
+      "context": "K01-CTX-PERIOD-CENTS@1",
+      "status": "CANDIDATE",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。",
+      "cq": [
+        "CQ07"
+      ]
+    },
+    {
+      "id": "K01-CTX-PERIOD-CENTS",
+      "revision": 1,
+      "type": "Context",
+      "owner": "K01",
+      "condition": "两者为稳定周期波、同时间单位、正周期、明确参考；只有这条条件路径需要周期知识。"
+    },
+    {
+      "id": "K01-EV-PERIOD-CENTS",
+      "revision": 1,
+      "type": "Evidence",
+      "owner": "K01",
+      "kind": "L1_RESEARCH_LOCATOR",
+      "sources": [
+        "S022@1"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-fundamentals-cases.md",
+        "blob": "4f482da733981d21504cb50a06e12c14bbb6a1f5",
+        "line": 6,
+        "row": "| TD2-K01.02.04.01 / K01.02.04.01 | S022；同Hz单位，220/330均正 | 220→330约+701.955音分，330→220约−701.955，220→220为0；0或负频率输入不满足公式条件 | 直接将110Hz当110音分、忽略方向或取log(0) | 给3:2或2:3的有向比值复算，逆式还原比值 | 仅给音分不能唯一推出绝对频率；不合法输入拒绝 |"
+      },
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。"
+    },
+    {
+      "id": "K01-GROUP-PERIOD-CENTS",
+      "revision": 1,
+      "type": "CaseGroup",
+      "owner": "K01",
+      "d4": "K01.02.04.01",
+      "claim": "K01-PERIOD-CENTS@1",
+      "kind": "SYNTHETIC"
+    },
+    {
+      "id": "K01-VIEW-PERIOD-CENTS-FP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-PERIOD-CENTS@1",
+      "direction": "FORWARD",
+      "polarity": "POSITIVE",
+      "context": "K01-CTX-PERIOD-CENTS@1",
+      "question": "稳定周期5ms→2.5ms，对应音分？",
+      "example": {
+        "referencePeriodMs": 5,
+        "observedPeriodMs": 2.5
+      },
+      "explanation": "f1=200Hz，f2=400Hz，+1200 cents。",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-PERIOD-CENTS-FN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-PERIOD-CENTS@1",
+      "direction": "FORWARD",
+      "polarity": "NEGATIVE",
+      "context": "K01-CTX-PERIOD-CENTS@1",
+      "question": "周期加倍意味着音分为+1200吗？",
+      "example": {
+        "referencePeriodMs": 5,
+        "observedPeriodMs": 10
+      },
+      "explanation": "否，频率减半，−1200 cents。",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-PERIOD-CENTS-RP",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-PERIOD-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "POSITIVE",
+      "context": "K01-CTX-PERIOD-CENTS@1",
+      "question": "参考周期5ms，+1200 cents，反查周期。",
+      "example": {
+        "referencePeriodMs": 5,
+        "cents": 1200
+      },
+      "explanation": "周期2.5ms（稳定周期模型）。",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-PERIOD-CENTS-RN",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-PERIOD-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "NEGATIVE",
+      "context": "K01-CTX-PERIOD-CENTS@1",
+      "question": "只有音分能唯一恢复周期吗？",
+      "example": {
+        "cents": 1200
+      },
+      "explanation": "不能，缺绝对参考。",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-PERIOD-CENTS-BOUND",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-PERIOD-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "BOUNDARY",
+      "context": "K01-CTX-PERIOD-CENTS@1",
+      "question": "无稳定周期的信号如何处理？",
+      "example": {
+        "stable": false
+      },
+      "explanation": "不套单周期公式，需另建模型。",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    },
+    {
+      "id": "K01-VIEW-PERIOD-CENTS-UNK",
+      "revision": 1,
+      "type": "CaseView",
+      "owner": "K01",
+      "group": "K01-GROUP-PERIOD-CENTS@1",
+      "direction": "REVERSE",
+      "polarity": "UNKNOWN",
+      "context": "K01-CTX-PERIOD-CENTS@1",
+      "question": "周期或单位不明？",
+      "example": {
+        "missingUnit": true
+      },
+      "explanation": "UNKNOWN，先补输入。",
+      "limits": "组合数学候选，不主张任意真实声音的F0或唯一律制；依赖K07周期模型与K01音分条件。",
+      "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+    }
+  ],
+  "edges": [
+    {
+      "id": "K01-SUP-CENTS",
+      "type": "supported_by",
+      "from": "K01-CENTS@1",
+      "to": "K01-EV-CENTS@1",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-CTX-CENTS",
+      "type": "applies_under",
+      "from": "K01-CENTS@1",
+      "to": "K01-CTX-CENTS@1",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-SUP-PERIOD-CENTS",
+      "type": "supported_by",
+      "from": "K01-PERIOD-CENTS@1",
+      "to": "K01-EV-PERIOD-CENTS@1",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-CTX-PERIOD-CENTS",
+      "type": "applies_under",
+      "from": "K01-PERIOD-CENTS@1",
+      "to": "K01-CTX-PERIOD-CENTS@1",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-REQ0-PERIOD-CENTS",
+      "type": "requires",
+      "from": "K01-PERIOD-CENTS@1",
+      "to": "K01-CENTS@1",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-REQ1-PERIOD-CENTS",
+      "type": "requires",
+      "from": "K01-PERIOD-CENTS@1",
+      "to": "K07-FREQ@1",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    }
+  ],
+  "bindings": [
+    {
+      "id": "K01-B-CENTS-0",
+      "view": "K01-VIEW-CENTS-FP@1",
+      "claim": "K01-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-B-CENTS-1",
+      "view": "K01-VIEW-CENTS-FN@1",
+      "claim": "K01-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-B-CENTS-2",
+      "view": "K01-VIEW-CENTS-RP@1",
+      "claim": "K01-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-B-CENTS-3",
+      "view": "K01-VIEW-CENTS-RN@1",
+      "claim": "K01-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-B-CENTS-4",
+      "view": "K01-VIEW-CENTS-BOUND@1",
+      "claim": "K01-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-B-CENTS-5",
+      "view": "K01-VIEW-CENTS-UNK@1",
+      "claim": "K01-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-0",
+      "view": "K01-VIEW-PERIOD-CENTS-FP@1",
+      "claim": "K01-PERIOD-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-0-H0",
+      "view": "K01-VIEW-PERIOD-CENTS-FP@1",
+      "claim": "K01-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-0-H1",
+      "view": "K01-VIEW-PERIOD-CENTS-FP@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-1",
+      "view": "K01-VIEW-PERIOD-CENTS-FN@1",
+      "claim": "K01-PERIOD-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-1-H0",
+      "view": "K01-VIEW-PERIOD-CENTS-FN@1",
+      "claim": "K01-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-1-H1",
+      "view": "K01-VIEW-PERIOD-CENTS-FN@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-2",
+      "view": "K01-VIEW-PERIOD-CENTS-RP@1",
+      "claim": "K01-PERIOD-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-2-H0",
+      "view": "K01-VIEW-PERIOD-CENTS-RP@1",
+      "claim": "K01-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-2-H1",
+      "view": "K01-VIEW-PERIOD-CENTS-RP@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-3",
+      "view": "K01-VIEW-PERIOD-CENTS-RN@1",
+      "claim": "K01-PERIOD-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-3-H0",
+      "view": "K01-VIEW-PERIOD-CENTS-RN@1",
+      "claim": "K01-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-3-H1",
+      "view": "K01-VIEW-PERIOD-CENTS-RN@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-4",
+      "view": "K01-VIEW-PERIOD-CENTS-BOUND@1",
+      "claim": "K01-PERIOD-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-4-H0",
+      "view": "K01-VIEW-PERIOD-CENTS-BOUND@1",
+      "claim": "K01-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-4-H1",
+      "view": "K01-VIEW-PERIOD-CENTS-BOUND@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-5",
+      "view": "K01-VIEW-PERIOD-CENTS-UNK@1",
+      "claim": "K01-PERIOD-CENTS@1",
+      "role": "PRIMARY_TARGET",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-5-H0",
+      "view": "K01-VIEW-PERIOD-CENTS-UNK@1",
+      "claim": "K01-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    },
+    {
+      "id": "K01-B-PERIOD-CENTS-5-H1",
+      "view": "K01-VIEW-PERIOD-CENTS-UNK@1",
+      "claim": "K07-FREQ@1",
+      "role": "REQUIRES",
+      "condition": "K01-CTX-PERIOD-CENTS@1"
+    }
+  ]
+}
