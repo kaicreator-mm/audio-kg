@@ -1,0 +1,272 @@
+{
+  "format": "audio-kg-bounded-domain-workflows-v1",
+  "workflows": [
+    {
+      "d2": "K05.01",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Separate anatomy and function",
+        "Identify declared observation layer",
+        "Preserve alternate model and do not infer tissue"
+      ],
+      "cases": [
+        "VS01",
+        "VS02",
+        "VS03",
+        "VS04",
+        "VS31",
+        "VS32",
+        "VS33"
+      ],
+      "claimRefs": [
+        "K05-CL-VS01@1",
+        "K05-CL-VS02@1",
+        "K05-CL-VS03@1",
+        "K05-CL-VS04@1",
+        "K05-CL-VS31@1",
+        "K05-CL-VS32@1",
+        "K05-CL-VS33@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.02",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Pressure and flow",
+        "Check synchronized reference, closure and plateau",
+        "Compute pressure/flow/power or mark unknown"
+      ],
+      "cases": [
+        "VS05",
+        "VS06",
+        "VS07",
+        "VS34",
+        "VS35",
+        "VS36"
+      ],
+      "claimRefs": [
+        "K05-CL-VS05@1",
+        "K05-CL-VS06@1",
+        "K05-CL-VS07@1",
+        "K05-CL-VS34@1",
+        "K05-CL-VS35@1",
+        "K05-CL-VS36@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.03",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Vibration and periodicity",
+        "Check nonzero components and voiced window",
+        "Compute period and retain mechanism ambiguity"
+      ],
+      "cases": [
+        "VS08",
+        "VS09",
+        "VS10",
+        "VS11",
+        "VS37",
+        "VS38",
+        "VS39",
+        "VS61"
+      ],
+      "claimRefs": [
+        "K05-CL-VS08@1",
+        "K05-CL-VS09@1",
+        "K05-CL-VS10@1",
+        "K05-CL-VS11@1",
+        "K05-CL-VS37@1",
+        "K05-CL-VS38@1",
+        "K05-CL-VS39@1",
+        "K05-CL-VS61@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.04",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Source-filter comparison",
+        "Fix source or independently observe source change",
+        "Compare spectra without unique source inference"
+      ],
+      "cases": [
+        "VS12",
+        "VS13",
+        "VS14",
+        "VS15",
+        "VS40",
+        "VS41",
+        "VS42",
+        "VS62"
+      ],
+      "claimRefs": [
+        "K05-CL-VS12@1",
+        "K05-CL-VS13@1",
+        "K05-CL-VS14@1",
+        "K05-CL-VS15@1",
+        "K05-CL-VS40@1",
+        "K05-CL-VS41@1",
+        "K05-CL-VS42@1",
+        "K05-CL-VS62@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.05",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Mechanism and register",
+        "Keep terminology, task and individual distinct",
+        "Retain overlap and multiple mechanisms"
+      ],
+      "cases": [
+        "VS16",
+        "VS17",
+        "VS18",
+        "VS43",
+        "VS44",
+        "VS45",
+        "VS63"
+      ],
+      "claimRefs": [
+        "K05-CL-VS16@1",
+        "K05-CL-VS17@1",
+        "K05-CL-VS18@1",
+        "K05-CL-VS43@1",
+        "K05-CL-VS44@1",
+        "K05-CL-VS45@1",
+        "K05-CL-VS63@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.06",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Speech and phonetic context",
+        "Declare language, segment and periodicity",
+        "Avoid inferring meaning or production from F0 alone"
+      ],
+      "cases": [
+        "VS19",
+        "VS20",
+        "VS21",
+        "VS46",
+        "VS47",
+        "VS48"
+      ],
+      "claimRefs": [
+        "K05-CL-VS19@1",
+        "K05-CL-VS20@1",
+        "K05-CL-VS21@1",
+        "K05-CL-VS46@1",
+        "K05-CL-VS47@1",
+        "K05-CL-VS48@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.07",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Acoustic measurement",
+        "Check window, reference, calibration and definition",
+        "Compute independent metrics; invalid windows unknown"
+      ],
+      "cases": [
+        "VS22",
+        "VS23",
+        "VS24",
+        "VS49",
+        "VS50",
+        "VS51",
+        "VS52",
+        "VS64"
+      ],
+      "claimRefs": [
+        "K05-CL-VS22@1",
+        "K05-CL-VS23@1",
+        "K05-CL-VS24@1",
+        "K05-CL-VS49@1",
+        "K05-CL-VS50@1",
+        "K05-CL-VS51@1",
+        "K05-CL-VS52@1",
+        "K05-CL-VS64@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.08",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Health and workload",
+        "Known emergency or symptom first; no new human action",
+        "Only authorized offline inspection; no safety clearance"
+      ],
+      "cases": [
+        "VS25",
+        "VS26",
+        "VS27",
+        "VS53",
+        "VS54",
+        "VS55",
+        "VS66"
+      ],
+      "claimRefs": [
+        "K05-CL-VS25@1",
+        "K05-CL-VS26@1",
+        "K05-CL-VS27@1",
+        "K05-CL-VS53@1",
+        "K05-CL-VS54@1",
+        "K05-CL-VS55@1",
+        "K05-CL-VS66@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K05.09",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Evidence and study comparison",
+        "Identify source, version, method and task",
+        "Invalidate affected metrics when evidence changes"
+      ],
+      "cases": [
+        "VS28",
+        "VS29",
+        "VS30",
+        "VS56",
+        "VS57",
+        "VS58",
+        "VS59",
+        "VS60",
+        "VS65"
+      ],
+      "claimRefs": [
+        "K05-CL-VS28@1",
+        "K05-CL-VS29@1",
+        "K05-CL-VS30@1",
+        "K05-CL-VS56@1",
+        "K05-CL-VS57@1",
+        "K05-CL-VS58@1",
+        "K05-CL-VS59@1",
+        "K05-CL-VS60@1",
+        "K05-CL-VS65@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    }
+  ]
+}
