@@ -1,0 +1,2 @@
+# K01 full module
+Frozen rev1 K01 and #85 amendment #112 integrated. 184 slots, 158 precise primary cases, 26 non-primary; do not equate historical routes with new claims. Preserve #28 and R3 residuals, source/rights qualifications, actual D/S role and F00-CQ. Author qualified scoped rule/content, four views, semantic dependencies and explicit unknowns; 63 role cells and TH-A01 finite workflow/state/representation witness. No speculative shared schema, runtime, accepted claims, actual LLM or audio. Whole module independent review only after complete.
