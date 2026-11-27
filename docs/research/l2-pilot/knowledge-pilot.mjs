@@ -15,14 +15,10 @@ function anchor(a){
  insist(a&&a.commit===base&&/^[a-f0-9]{40}$/.test(a.blob)&&Number.isInteger(a.line)&&a.line>0&&/^docs\/(?:product\/calibration|research)\/[a-z0-9-]+\.md$/.test(a.file),"anchor identity");
  const text=read(a.file);insist(blob(text)===a.blob&&text.split("\n")[a.line-1]===a.row,"anchor content "+a.file+":"+a.line);
 }
-const sourceFields=["id","revision","type","title","version","uri","locator","grade","rights","author","publicationDate","accessDate","registration"];
-const recordFields={
- Claim:["id","revision","type","owner","topic","d4","kind","statement","context","status","cq","limits","review"],
- Context:["id","revision","type","condition"],
- Evidence:["id","revision","type","kind","sources","anchor","limits","caseAnchor"],
- CaseGroup:["id","revision","type","owner","topic","d4","kind","status"],
- CaseView:["id","revision","type","group","direction","polarity","question","context","limit","example","explanation","evidenceKind"]
-};
+const profile=json(dir+"semantic-profile.json");
+insist(profile.version==="audio-kg-l2-profile/1"&&profile.status==="CANDIDATE_RESEARCH_ONLY","schema profile identity");
+const sourceFields=profile.knowledge.records.Source.required;
+const recordFields=Object.fromEntries(Object.entries(profile.knowledge.records).filter(([k])=>k!=="Source").map(([k,v])=>[k,[...v.required,...v.optional]]));
 function fields(o,allowed,required=allowed){insist(o&&typeof o==="object"&&!Array.isArray(o)&&Object.keys(o).every(k=>allowed.includes(k))&&required.every(k=>Object.hasOwn(o,k)),"unexpected/missing field");}
 function validate(p,s){
  fields(p,["format","status","sourceBase","claims","contexts","evidence","groups","views","bindings","edges","migrations"]);
@@ -37,13 +33,13 @@ function validate(p,s){
  insist(list(s)&&s.length>0,"sources absent");
  for(const o of s){
   fields(o,sourceFields); add(o,"Source");anchor(o.registration);
-  insist(o.registration.row.includes(o.id)&&o.registration.row.includes(o.uri)&&["READ_LOCATOR","REGISTERED_LIMITED"].includes(o.grade)&&o.rights==="UNKNOWN_NO_IMPORT"&&nonempty(o.locator)&&nonempty(o.title)&&nonempty(o.version)&&nonempty(o.author)&&nonempty(o.publicationDate)&&nonempty(o.accessDate),"source qualification");
+  insist(o.registration.row.includes(o.id)&&o.registration.row.includes(o.uri)&&profile.knowledge.sourceGrades.includes(o.grade)&&o.rights===profile.knowledge.rights&&nonempty(o.locator)&&nonempty(o.title)&&nonempty(o.version)&&nonempty(o.author)&&nonempty(o.publicationDate)&&nonempty(o.accessDate),"source qualification");
   // Exact source row is preserved. A limited registration cannot be promoted to read locator.
   insist(o.grade==="REGISTERED_LIMITED"||o.registration.row.includes("READ_LOCATOR")||o.registration.row.includes("重读"),"source grade escalation");
  }
- for(const [key,type] of [["claims","Claim"],["contexts","Context"],["evidence","Evidence"],["groups","CaseGroup"],["views","CaseView"]]){
+ for(const [key,type] of Object.entries(profile.knowledge.collections)){
   insist(list(p[key])&&p[key].length>0,"missing collection "+key);
-  for(const o of p[key]){fields(o,recordFields[type],recordFields[type].filter(x=>x!=="caseAnchor"));add(o,type);}
+  for(const o of p[key]){fields(o,recordFields[type],profile.knowledge.records[type].required);add(o,type);}
  }
  for(const o of p.contexts)insist(nonempty(o.condition),"empty context");
  for(const o of p.evidence){
@@ -52,7 +48,7 @@ function validate(p,s){
   for(const x of o.sources){const src=ref(x,"Source");insist(o.anchor.row.includes(src.id)||(o.caseAnchor&&o.caseAnchor.row.includes(src.id)),"source not linked to predicate");}
  }
  for(const o of p.claims){
-  insist(d4.test(o.d4)&&o.owner===o.d4.slice(0,3)&&o.topic===o.d4.slice(0,-3)&&nonempty(o.statement)&&nonempty(o.limits)&&o.status==="CANDIDATE"&&o.review==="L1_SCOPED_RESEARCH_NOT_CLAIM_ADMISSION"&&["definition","norm","empirical","practice","preference","hypothesis"].includes(o.kind)&&list(o.cq)&&o.cq.length&&o.cq.every(x=>cq.test(x))&&!targets.has(o.d4),"claim owner/target/status");
+  insist(d4.test(o.d4)&&o.owner===o.d4.slice(0,3)&&o.topic===o.d4.slice(0,-3)&&nonempty(o.statement)&&nonempty(o.limits)&&o.status==="CANDIDATE"&&o.review==="L1_SCOPED_RESEARCH_NOT_CLAIM_ADMISSION"&&profile.knowledge.claimKinds.includes(o.kind)&&list(o.cq)&&o.cq.length&&o.cq.every(x=>cq.test(x))&&!targets.has(o.d4),"claim owner/target/status");
   targets.add(o.d4);ref(o.context,"Context");
  }
  for(const o of p.groups)insist(d4.test(o.d4)&&o.owner===o.d4.slice(0,3)&&o.topic===o.d4.slice(0,-3)&&o.kind==="SYNTHETIC"&&o.status==="CANDIDATE"&&targets.has(o.d4),"case group");
@@ -61,7 +57,7 @@ function validate(p,s){
   insist(["FORWARD","REVERSE"].includes(o.direction)&&["POSITIVE","NEGATIVE","BOUNDARY","UNKNOWN"].includes(o.polarity)&&nonempty(o.question)&&nonempty(o.limit)&&nonempty(o.explanation)&&o.example&&typeof o.example==="object"&&o.evidenceKind==="SYNTHETIC_EXPECTED_NOT_OBSERVED","view contract");
  }
  // This pilot implements the relationship subset actually exercised; the rest of the design is not claimed executable.
- const relationship={supported_by:["Claim","Evidence"],applies_under:["Claim","Context"],requires:["Claim","Claim"],references:["Claim","Claim"]};
+ const relationship=Object.fromEntries(Object.entries(profile.knowledge.relationshipTypes).map(([k,v])=>[k,[v.from,v.to]]));
  const edgeIds=new Set(),edgeKeys=new Set(),deps=new Map();
  for(const e of p.edges){
   fields(e,["id","type","from","to","condition"]);insist(nonempty(e.id)&&!edgeIds.has(e.id)&&Object.hasOwn(relationship,e.type),"edge type/id");
@@ -76,15 +72,15 @@ function validate(p,s){
  for(const c of p.claims){const es=p.edges.filter(e=>e.from===idref(c));insist(es.some(e=>e.type==="supported_by")&&es.filter(e=>e.type==="applies_under").length===1,"missing claim evidence/context");}
  const byClaim=new Map(),byView=new Map(),bindIds=new Set(),bindKeys=new Set();
  for(const b of p.bindings){
-  fields(b,["id","view","claim","role","condition"]);insist(nonempty(b.id)&&!bindIds.has(b.id)&&["PRIMARY_TARGET","REQUIRES"].includes(b.role),"binding role/id");bindIds.add(b.id);
+  fields(b,["id","view","claim","role","condition"]);insist(nonempty(b.id)&&!bindIds.has(b.id)&&profile.knowledge.binding.roles.includes(b.role),"binding role/id");bindIds.add(b.id);
   const k=canon([b.view,b.claim,b.role,b.condition]);insist(!bindKeys.has(k),"duplicate binding");bindKeys.add(k);
   const v=ref(b.view,"CaseView"),c=ref(b.claim,"Claim"),g=ref(v.group,"CaseGroup");ref(b.condition,"Context");insist(b.condition===v.context,"binding context");
   if(b.role==="PRIMARY_TARGET")insist(g.d4===c.d4&&g.owner===c.owner&&v.context===c.context,"primary mismatch");
   else insist(p.edges.some(e=>e.type==="requires"&&e.to===b.claim&&e.from===idref(p.claims.find(x=>x.d4===g.d4))&&e.condition===v.context),"unsupported cross-binding");
   for(const [idx,x] of [[byClaim,b.claim],[byView,b.view]]){if(!idx.has(x))idx.set(x,[]);idx.get(x).push(b);}
  }
- for(const v of p.views)insist((byView.get(idref(v))||[]).filter(b=>b.role==="PRIMARY_TARGET").length===1,"view must have one primary");
- for(const g of p.groups){const vs=p.views.filter(v=>v.group===idref(g));for(const [d,q] of [["FORWARD","POSITIVE"],["FORWARD","NEGATIVE"],["REVERSE","POSITIVE"],["REVERSE","NEGATIVE"],["REVERSE","BOUNDARY"],["REVERSE","UNKNOWN"]])insist(vs.some(v=>v.direction===d&&v.polarity===q),"missing view "+g.id+" "+d+" "+q);}
+ for(const v of p.views)insist((byView.get(idref(v))||[]).filter(b=>b.role==="PRIMARY_TARGET").length===profile.knowledge.binding.primaryPerView,"view must have one primary");
+ for(const g of p.groups){const vs=p.views.filter(v=>v.group===idref(g));for(const [d,q] of profile.knowledge.binding.views)insist(vs.some(v=>v.direction===d&&v.polarity===q),"missing view "+g.id+" "+d+" "+q);}
  const old=new Set();
  for(const m of p.migrations){
   fields(m,["old","type","targets","state","condition","anchor"]);anchor(m.anchor);insist(d4.test(m.old)&&!old.has(m.old)&&m.anchor.row.startsWith("| "+m.old+" |")&&nonempty(m.condition)&&list(m.targets)&&m.targets.length,"migration identity");old.add(m.old);
@@ -115,4 +111,4 @@ function retrieve(p,s,query){
 function route(p,old){const m=p.migrations.find(x=>x.old===old);return !m?{state:"UNKNOWN"}:m.type==="alias_of"?{state:"REQUIREMENT_LOOKUP_ONLY",target:m.targets[0].d4}:{state:"SPLIT_OPEN",targets:m.targets,wholeSlotEquivalent:false};}
 function close(a,b){if(typeof a==="number"&&typeof b==="number")return Math.abs(a-b)<=1e-9;if(a&&b&&typeof a==="object"&&typeof b==="object"){let ka=Object.keys(a).sort(),kb=Object.keys(b).sort();return eq(ka,kb)&&ka.every(k=>close(a[k],b[k]));}return a===b;}
 
-export {read,json,clone,canon,eq,blob,insist,idref,validate,evaluate,retrieve,route,close,dir};
+export {read,json,clone,canon,eq,blob,insist,idref,validate,evaluate,retrieve,route,close,dir,profile};
