@@ -5,7 +5,7 @@
 从仓库根目录使用精确受控输入：
 
 ```sh
-node tools/validate-knowledge.mjs knowledge/K01/controller-input.json d2f7041979f65d544ce9a98d6be357a93c4a302c K01.02.04.01
+node tools/validate-knowledge.mjs knowledge/K01/controller-input.json 2129de1c0554b9c6f7275591e4ae154d6cc4ccaa K01.02.04.01
 node tests/knowledge/K01/k01.test.mjs
 ```
 
