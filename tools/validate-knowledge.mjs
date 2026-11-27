@@ -21,7 +21,7 @@ const copy=structuredClone;
 function canonical(x){return x===null?"null":Array.isArray(x)?"["+x.map(canonical).join(",")+"]":typeof x==="object"?"{"+Object.keys(x).sort().map(k=>JSON.stringify(k)+":"+canonical(x[k])).join(",")+"}":JSON.stringify(x)}
 const recordDigest=x=>crypto.createHash("sha256").update(canonical(x)).digest("hex");
 function freeze(x){if(x&&typeof x==="object"&&!Object.isFrozen(x)){for(const v of Object.values(x))freeze(v);Object.freeze(x)}return x;}
-const PROFILE_BLOB="e0015b9c760b56ce74e3bdf9fecf8748faa4c5da";
+const PROFILE_BLOB="fda4128a4ea764eb5e26bb89c91bf091aa48ac17";
 // Independent portable projection of actual frozen Git tree (not candidate-generated).
 const L1_TREE_BLOB="a72360e348f00e82a74809e6acc056f05b311b1f";
 const L1_TREE="96ae7e9a2ee5c000b63f001faeee4a6a4be69396";
@@ -190,6 +190,17 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    if(r.anchor.file==="docs/research/source-qualification-vocal-digital.md"&&r.anchor.blob==="73ac66934ae016a125ecc6302fa7fa3875faab16"){
     const c=r.anchor.row.split("|").slice(1,-1).map(x=>x.trim());
     fail(c.length===4&&c[0]===r.sourceId,"legacy exact source row identity");
+    // Exact status column, not a keyword anywhere in a title, locator or limitation.
+    // REGISTERED_LIMITED is conservative; READ_LOCATOR and ABSTRACT_READ
+    // assert distinct observed evidence, not interchangeable grades.
+    const status=c[3].split("；")[0];
+    fail(["SEARCH_ONLY","ABSTRACT_READ","READ_LOCATOR"].includes(status),"unsupported legacy frozen status");
+    fail(r.grade==="REGISTERED_LIMITED"||r.grade===status,"unsupported legacy source grade");
+    if(r.sourceId==="S045"&&r.grade==="ABSTRACT_READ"){
+     const abstractUri="https://pubmed.ncbi.nlm.nih.gov/27794319/",access=sourceQual.get(id)?.accessedUri;
+     fail(r.uri===abstractUri&&(access==="UNKNOWN"||access===abstractUri),"unsupported legacy abstract URI");
+    }
+
     for(const u of c[1].matchAll(/(?:^|[\s；])((?:https):\/\/[^\s；，]+)(?=$|[\s；，])/g))urls.push(u[1]);
    }
    const q=sourceQual.get(id);fail(q&&urls.includes(r.uri)&&(q.accessedUri==="UNKNOWN"||urls.includes(q.accessedUri)),"source exact URI/qualification");

@@ -24,6 +24,31 @@ try{
  reject('qualification URI must be exact',ps=>ps[0].m.sourceQualifications[0].accessedUri='https://example.invalid',/source exact URI/);
  reject('source rights cannot be upgraded',ps=>ps[0].pack.records[0].rights='PUBLIC_DOMAIN',/source metadata/);
  reject('tampered row text',ps=>ps[1].pack.records[0].anchor.row+=' https://example.invalid',/anchor row/);
+ // R2: freshly pinned source-only probes for every actual frozen row and URI.
+ // A registered search lead is not evidence of reading an abstract or body.
+ const gradeRows=sourceLines.flatMap((row,i)=>/^\| S\d{3} \|/.test(row)?[{
+  a:anchor(sf,i+1),id:row.split('|')[1].trim(),status:row.split('|')[4].trim().split('；')[0],
+  urls:[...row.split('|')[2].matchAll(/(?:^|[\s；])(https:\/\/[^\s；，]+)(?=$|[\s；，])/g)].map(m=>m[1])
+ }]:[]);
+ test('R2 actual 22 frozen status rows and all exact URI tokens',gradeRows.length===22&&gradeRows.every(r=>r.urls.length)&&gradeRows.filter(r=>r.status==='SEARCH_ONLY').length===4&&gradeRows.filter(r=>r.status==='ABSTRACT_READ').length===2);
+ const probe=(row,uri,grade,access=uri)=>ps=>{
+  const {pack,m}=ps[1],id=row.id;
+  pack.records=pack.records.filter(x=>x.id!==id);m.sourceQualifications=m.sourceQualifications.filter(x=>x.source!==id+'@1');
+  // S049 already belongs to first fixture owner; replace there instead.
+  const existing=ps[0].pack.records.find(x=>x.id===id),dest=existing?ps[0]:ps[1];
+  dest.pack.records=dest.pack.records.filter(x=>x.id!==id);
+  dest.m.sourceQualifications=dest.m.sourceQualifications.filter(x=>x.source!==id+'@1');
+  dest.pack.records.push({type:'Source',id,revision:1,sourceId:id,title:'R2 exact source-only '+id,author:'UNKNOWN',version:'UNKNOWN',publicationDate:'UNKNOWN',accessDate:'FROZEN',uri,locator:row.a.row,grade,rights:'UNKNOWN_NO_IMPORT',anchor:row.a});
+  dest.m.sourceQualifications.push({source:id+'@1',scope:'Exact frozen source-only probe',limits:'Not formal admission',locatorKind:'FROZEN_LOCATOR',accessedUri:access});
+ };
+ for(const row of gradeRows)for(const uri of row.urls)for(const grade of ['REGISTERED_LIMITED','ABSTRACT_READ','READ_LOCATOR']){
+  const allowed=grade==='REGISTERED_LIMITED'||(grade===row.status&&!(row.id==='S045'&&grade==='ABSTRACT_READ'&&!uri.includes('pubmed.ncbi.nlm.nih.gov')));
+  const name='R2 '+row.id+' '+grade+' '+uri;
+  if(allowed){const rr=openCandidateReader(tmp,fresh(probe(row,uri,grade)));test(name+' accepted conservatively',rr.summary().acceptedClaims===0);}
+  else reject(name+' rejected',probe(row,uri,grade),/unsupported legacy (source grade|abstract URI)/);
+ }
+ const s45=gradeRows.find(r=>r.id==='S045');
+ reject('R2 S045 abstract grade cannot bind blocked PMC as accessed URI',probe(s45,s45.urls[0],'ABSTRACT_READ',s45.urls[1]),/unsupported legacy abstract URI/);
  const ent=fresh();fs.appendFileSync(path.join(tmp,sf),' ');let e;try{openCandidateReader(tmp,ent)}catch(x){e=x;}test('tampered frozen file rejected',/anchor blob/.test(e?.message));
 }finally{fs.rmSync(tmp,{recursive:true,force:true});}
 console.log(JSON.stringify({status:'LEGACY_URI_FIXTURE_ONLY',checks:checks.length,passed:checks.length,results:checks,limits:['exact legacy table only','no professional source admission or actual external reread']},null,2));
