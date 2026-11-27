@@ -1,0 +1,2 @@
+# Recommended P2 scoped check with next batch
+#115 only: explicit ordered pitch offsets for three scale patterns and explicit six unordered interval-vector pair endpoints. Compare to previously accepted K01 6535462705c2639c304663dbfec885857abe85e1; two views only, controller re-pin and two tests. 2210/2210 builder checks, deterministic rebuild. No new primary claim or evidence. Recommended standalone review can be skipped; include exact integrated P2 check in next batch. Do not mark independent PASS before actual reviewer verdict.
