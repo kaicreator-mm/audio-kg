@@ -4329,7 +4329,7 @@
       "revision": 1,
       "type": "Context",
       "owner": "K07",
-      "condition": "仅公共摘要和职业建议范围，分别核使用场景及指标，不作个人剂量处方。"
+      "condition": "仅公共摘要和职业建议范围，分别核使用场景及指标，不作个人剂量处方；突发听力下降报告独立触发停止和立即就医，其他资料缺失不降级。"
     },
     {
       "id": "K07-CL-AC25",
@@ -4431,7 +4431,7 @@
         "viewSpecificWitness": "暴露未知先减少风险、必要时专业评估；突发听力下降立即就医。",
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "由候选观察回查模型、条件及独立证据，不自动得逻辑逆命题。仅公共摘要和职业建议范围，分别核使用场景及指标，不作个人剂量处方。",
+      "explanation": "由候选观察回查模型、条件及独立证据，不自动得逻辑逆命题。仅公共摘要和职业建议范围，分别核使用场景及指标，不作个人剂量处方；突发听力下降报告独立触发停止和立即就医，其他资料缺失不降级。",
       "limits": "参考不是绝对安全线或许可；未校准数字音量不代表暴露；未知风险先降低暴露，突然听力下降立即就医。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -6425,7 +6425,7 @@
       "revision": 1,
       "type": "Context",
       "owner": "K07",
-      "condition": "素材及报告条件明确，真实反馈和临床判断分离。"
+      "condition": "普通评价需素材及报告条件明确；当事人突发听力下降报告独立触发停止并立即就医，不以其他材料或测量齐全为前提；真实反馈和临床判断分离。"
     },
     {
       "id": "K07-CL-AC41",
@@ -6527,7 +6527,7 @@
         "viewSpecificWitness": "区分偏好、检测结果、条件异常、当事人报告及医学角色。",
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "由候选观察回查模型、条件及独立证据，不自动得逻辑逆命题。素材及报告条件明确，真实反馈和临床判断分离。",
+      "explanation": "由候选观察回查模型、条件及独立证据，不自动得逻辑逆命题。普通评价需素材及报告条件明确；当事人突发听力下降报告独立触发停止并立即就医，不以其他材料或测量齐全为前提；真实反馈和临床判断分离。",
       "limits": "不能平均出医学结论、不强制继续听评或自测。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -7475,7 +7475,7 @@
       "revision": 1,
       "type": "Context",
       "owner": "K07",
-      "condition": "仅数学相对能量，实际声压/时间/频权及用途可能未知；不同规范场景分开。"
+      "condition": "仅数学相对能量，实际声压/时间/频权及用途可能未知；不同规范场景分开；若当事人报告突发听力下降，应独立停止并立即就医，不能从暴露数据推断有无。"
     },
     {
       "id": "K07-CL-AC49",
@@ -7487,7 +7487,7 @@
       "statement": "同参考能量级差3.0103dB对应能量比2；实际暴露剂量仍需要完整、校准且符合用途的量定义、频权和时间记录，缺失不得按零补齐。",
       "context": "K07-CTX-AC49@1",
       "status": "CANDIDATE",
-      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。",
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。",
       "cq": [
         "CQ26"
       ]
@@ -7510,7 +7510,7 @@
         "line": 27,
         "row": "| AC49 | K07.08.02.04 | S038/S450/S451/S465 | 题设仅离线相对能量记录，两个等时段同参考的级别差3.0103dB对应能量比2；若只提供数字dBFS、缺实际暴露量、频权或时间则暴露UNKNOWN，不能计算规范剂量。 | 混合职业8h和个人设备周参考、把未知段按零暴露、用参考值批准继续。 | 核标准版本/用途、校准、权重/时间、实际覆盖、风险及权限。 | 不提供个体可听时长；H.870正文未获；风险未知先保守停止或减少暴露，突然听力下降立即就医。 |"
       },
-      "limits": "冻结L1原创研究案例及所列来源定位；支持仅限各来源资格与题设，不是实际测量/听评。ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。"
+      "limits": "冻结L1原创研究案例及所列来源定位；支持仅限各来源资格与题设，不是实际测量/听评。ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。"
     },
     {
       "id": "K07-GR-AC49",
@@ -7538,7 +7538,7 @@
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
       "explanation": "同参考能量级差3.0103dB对应能量比2；实际暴露剂量仍需要完整、校准且符合用途的量定义、频权和时间记录，缺失不得按零补齐。",
-      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。",
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
@@ -7557,8 +7557,8 @@
         "viewSpecificWitness": "混合职业8h和个人设备周参考、把未知段按零暴露、用参考值批准继续。",
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "拒绝此误用。ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。",
-      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。",
+      "explanation": "拒绝此误用。ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。",
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
@@ -7577,8 +7577,8 @@
         "viewSpecificWitness": "核标准版本/用途、校准、权重/时间、实际覆盖、风险及权限。",
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "由候选观察回查模型、条件及独立证据，不自动得逻辑逆命题。仅数学相对能量，实际声压/时间/频权及用途可能未知；不同规范场景分开。",
-      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。",
+      "explanation": "由候选观察回查模型、条件及独立证据，不自动得逻辑逆命题。仅数学相对能量，实际声压/时间/频权及用途可能未知；不同规范场景分开；若当事人报告突发听力下降，应独立停止并立即就医，不能从暴露数据推断有无。",
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
@@ -7597,8 +7597,8 @@
         "viewSpecificWitness": "不提供个体可听时长；H.870正文未获；风险未知先保守停止或减少暴露，突然听力下降立即就医。",
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "拒绝超范围逆推。ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。",
-      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。",
+      "explanation": "拒绝超范围逆推。ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。",
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
     {
@@ -8406,6 +8406,13 @@
       "from": "K07-CL-AC25@1"
     },
     {
+      "id": "K07-E-AC25-REQUIRES-K07-CL-AC41",
+      "type": "requires",
+      "to": "K07-CL-AC41@1",
+      "condition": "K07-CTX-AC25@1",
+      "from": "K07-CL-AC25@1"
+    },
+    {
       "id": "K07-E-AC25-REFERENCES-K07-CL-AC49",
       "type": "references",
       "to": "K07-CL-AC49@1",
@@ -8927,6 +8934,13 @@
       "id": "K07-E-AC49-REQUIRES-K07-CL-AC25",
       "type": "requires",
       "to": "K07-CL-AC25@1",
+      "condition": "K07-CTX-AC49@1",
+      "from": "K07-CL-AC49@1"
+    },
+    {
+      "id": "K07-E-AC49-REQUIRES-K07-CL-AC41",
+      "type": "requires",
+      "to": "K07-CL-AC41@1",
       "condition": "K07-CTX-AC49@1",
       "from": "K07-CL-AC49@1"
     },
@@ -9675,10 +9689,24 @@
       "condition": "K07-CTX-AC25@1"
     },
     {
+      "id": "K07-B-AC25-FP-H-AC41",
+      "view": "K07-V-AC25-FP@1",
+      "claim": "K07-CL-AC41@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-AC25@1"
+    },
+    {
       "id": "K07-B-AC25-FN-PRIMARY",
       "view": "K07-V-AC25-FN@1",
       "claim": "K07-CL-AC25@1",
       "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-AC25@1"
+    },
+    {
+      "id": "K07-B-AC25-FN-H-AC41",
+      "view": "K07-V-AC25-FN@1",
+      "claim": "K07-CL-AC41@1",
+      "role": "REQUIRES",
       "condition": "K07-CTX-AC25@1"
     },
     {
@@ -9689,10 +9717,24 @@
       "condition": "K07-CTX-AC25@1"
     },
     {
+      "id": "K07-B-AC25-RP-H-AC41",
+      "view": "K07-V-AC25-RP@1",
+      "claim": "K07-CL-AC41@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-AC25@1"
+    },
+    {
       "id": "K07-B-AC25-RN-PRIMARY",
       "view": "K07-V-AC25-RN@1",
       "claim": "K07-CL-AC25@1",
       "role": "PRIMARY_TARGET",
+      "condition": "K07-CTX-AC25@1"
+    },
+    {
+      "id": "K07-B-AC25-RN-H-AC41",
+      "view": "K07-V-AC25-RN@1",
+      "claim": "K07-CL-AC41@1",
+      "role": "REQUIRES",
       "condition": "K07-CTX-AC25@1"
     },
     {
@@ -10550,6 +10592,13 @@
       "condition": "K07-CTX-AC49@1"
     },
     {
+      "id": "K07-B-AC49-FP-H-AC41",
+      "view": "K07-V-AC49-FP@1",
+      "claim": "K07-CL-AC41@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-AC49@1"
+    },
+    {
       "id": "K07-B-AC49-FN-PRIMARY",
       "view": "K07-V-AC49-FN@1",
       "claim": "K07-CL-AC49@1",
@@ -10560,6 +10609,13 @@
       "id": "K07-B-AC49-FN-H-AC25",
       "view": "K07-V-AC49-FN@1",
       "claim": "K07-CL-AC25@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-AC49@1"
+    },
+    {
+      "id": "K07-B-AC49-FN-H-AC41",
+      "view": "K07-V-AC49-FN@1",
+      "claim": "K07-CL-AC41@1",
       "role": "REQUIRES",
       "condition": "K07-CTX-AC49@1"
     },
@@ -10578,6 +10634,13 @@
       "condition": "K07-CTX-AC49@1"
     },
     {
+      "id": "K07-B-AC49-RP-H-AC41",
+      "view": "K07-V-AC49-RP@1",
+      "claim": "K07-CL-AC41@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-AC49@1"
+    },
+    {
       "id": "K07-B-AC49-RN-PRIMARY",
       "view": "K07-V-AC49-RN@1",
       "claim": "K07-CL-AC49@1",
@@ -10588,6 +10651,13 @@
       "id": "K07-B-AC49-RN-H-AC25",
       "view": "K07-V-AC49-RN@1",
       "claim": "K07-CL-AC25@1",
+      "role": "REQUIRES",
+      "condition": "K07-CTX-AC49@1"
+    },
+    {
+      "id": "K07-B-AC49-RN-H-AC41",
+      "view": "K07-V-AC49-RN@1",
+      "claim": "K07-CL-AC41@1",
       "role": "REQUIRES",
       "condition": "K07-CTX-AC49@1"
     },

@@ -24,6 +24,15 @@ def workflow(code,d2,task,steps,transitions):
   if dest:rel('prerequisite_for',ids[src],ids[dest],ctx(next(s[2][0] for s in steps if s[0]==src)),'有界分析步骤先后；非物理因果。')
  return w
 # Guards are explicit mutually exclusive boolean cases, complete for each finite declared input.
+# Safety entry stops on a known positive risk even when unrelated inputs are unknown.
+# Actual witness examines every compatible completion; known urgent report retains its medical-stop classification.
+risk_inputs=['urgentReported','permissionWithdrawn','stopRequired','conditionsStipulated']
+def risk_transitions(next_step):
+ return [('RISK',{'urgentReported':True},None,'STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION'),
+ ('RISK',{'urgentReported':False,'permissionWithdrawn':True},None,'STOP_NO_PLAYBACK'),
+ ('RISK',{'urgentReported':False,'permissionWithdrawn':False,'stopRequired':True},None,'STOP_NO_PLAYBACK'),
+ ('RISK',{'urgentReported':False,'permissionWithdrawn':False,'stopRequired':False,'conditionsStipulated':False},None,'STOP_OR_UNKNOWN_NO_PLAYBACK'),
+ ('RISK',{'urgentReported':False,'permissionWithdrawn':False,'stopRequired':False,'conditionsStipulated':True},next_step,None)]
 # No hidden defaults or authorization inference. Outcome is always a proposal/unknown/stop.
 w2=workflow('SPECTRUM','K07.02','源事件→有限观察→谱解释',[
  ('INPUT','核源、事件、原始序列及时间支持',['AC08','AC32'],['inputIdentityKnown'],['sourceEventRecord']),
@@ -33,11 +42,12 @@ w2=workflow('SPECTRUM','K07.02','源事件→有限观察→谱解释',[
  ('INPUT',{'inputIdentityKnown':True},'WINDOW',None),('INPUT',{'inputIdentityKnown':False},None,'UNKNOWN_INPUT'),
  ('WINDOW',{'windowMetadataKnown':True},'INTERPRET',None),('WINDOW',{'windowMetadataKnown':False},None,'UNKNOWN_WINDOW'),
  ('INTERPRET',{'generationEvidenceKnown':True},None,'PROPOSED_BOUNDED_ANALYSIS'),('INTERPRET',{'generationEvidenceKnown':False},None,'FINITE_OBSERVATION_ONLY_MODEL_UNKNOWN')])
-w4=workflow('MASKING','K07.04','刺激→控制→机制候选→感知证据',[
+w4=workflow('MASKING','K07.04','风险与撤回→刺激→控制→机制候选→感知证据',[
+ ('RISK','先核风险、撤回和突发听力下降；已知停止优先',['AC41','AC26'],risk_inputs,['riskDisposition']),
  ('STIMULUS','核刺激、参照及目标身份',['AC12','AC14'],['stimulusKnown'],['stimulusCondition']),
  ('CONTROL','分轴能量/包络/目标选择及时间条件',['AC38','AC36'],['mechanismControlsKnown'],['mechanismCandidates']),
- ('EVIDENCE','检查已给感知证据及风险，离线候选不播放',['AC38','AC14'],['perceptualEvidenceProvided'],['boundedComparison'])
-],[
+ ('EVIDENCE','仅检查既有感知证据，前置风险守卫必须通过；离线候选不播放',['AC38','AC14'],['perceptualEvidenceProvided'],['boundedComparison'])
+],risk_transitions('STIMULUS')+[
  ('STIMULUS',{'stimulusKnown':True},'CONTROL',None),('STIMULUS',{'stimulusKnown':False},None,'UNKNOWN_STIMULUS'),
  ('CONTROL',{'mechanismControlsKnown':True},'EVIDENCE',None),('CONTROL',{'mechanismControlsKnown':False},None,'UNKNOWN_MECHANISM'),
  ('EVIDENCE',{'perceptualEvidenceProvided':True},None,'PROPOSED_CONDITIONAL_COMPARISON'),('EVIDENCE',{'perceptualEvidenceProvided':False},None,'MECHANISM_CANDIDATES_ONLY')])
@@ -60,13 +70,11 @@ w7=workflow('MEASUREMENT','K07.07','量定义→校准→派生滤波→不确�
  ('FILTER',{'rawWaveformAndFilterValid':True},'UNCERTAINTY',None),('FILTER',{'rawWaveformAndFilterValid':False},None,'RETAIN_RAW_IF_VALID_NEW_WEIGHT_UNKNOWN'),
  ('UNCERTAINTY',{'uncertaintyModelKnown':True},None,'PROPOSED_MEASUREMENT_REPORT'),('UNCERTAINTY',{'uncertaintyModelKnown':False},None,'UNCERTAINTY_UNKNOWN')])
 w8=workflow('LISTENING','K07.08','风险与许可→播放链→暴露记录→候选比较',[
- ('RISK','风险、撤回和突然听力下降优先',['AC26','AC49','AC50'],['stopRequired','conditionsStipulated'],['riskDisposition']),
+ ('RISK','风险、撤回和突然听力下降优先',['AC26','AC49','AC50','AC41'],risk_inputs,['riskDisposition']),
  ('CHAIN','核播放链身份和有效电平条件',['AC24','AC48'],['playbackEvidenceCurrent'],['chainConditions']),
  ('EXPOSURE','核用途、时间和完整校准暴露数据',['AC25','AC49'],['exposureEvidenceComplete'],['exposureConditions']),
  ('COMPARE','只提出离线对照候选，保护原件',['AC26','AC50'],['analysisEvidenceCurrent'],['comparisonProposal'])
-],[
- ('RISK',{'stopRequired':True},None,'STOP_NO_PLAYBACK'),('RISK',{'stopRequired':False,'conditionsStipulated':False},None,'STOP_OR_UNKNOWN_NO_PLAYBACK'),
- ('RISK',{'stopRequired':False,'conditionsStipulated':True},'CHAIN',None),
+],risk_transitions('CHAIN')+[
  ('CHAIN',{'playbackEvidenceCurrent':True},'EXPOSURE',None),('CHAIN',{'playbackEvidenceCurrent':False},None,'CHAIN_EVIDENCE_INVALID_NO_PLAYBACK'),
  ('EXPOSURE',{'exposureEvidenceComplete':True},'COMPARE',None),('EXPOSURE',{'exposureEvidenceComplete':False},None,'EXPOSURE_UNKNOWN_NO_PLAYBACK'),
  ('COMPARE',{'analysisEvidenceCurrent':True},None,'PROPOSED_OFFLINE_COMPARISON_ONLY'),('COMPARE',{'analysisEvidenceCurrent':False},None,'PROPOSE_RECOMPUTE_OFFLINE_ONLY')])
@@ -88,7 +96,7 @@ stateRules={
   {'event':'PERMISSION_WITHDRAWN','claimRefs':[cref('AC26'),cref('AC50')],'changes':{'permission':'WITHDRAWN'},'preserve':['sourceId'],'action':'STOP_NO_PLAYBACK'},
   {'event':'SUDDEN_HEARING_LOSS_REPORTED','claimRefs':[cref('AC17'),cref('AC41')],'changes':{'risk':'URGENT_REPORT'},'preserve':['sourceId'],'action':'STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION'}
  ],
- 'rules':['Stop dominates subsequent proposed reanalysis or comparison after withdrawal/urgent report; never infer permission from role, state or prior result.','Source identity protected across all events.','Only known explicit event kinds supported; unknown event is UNKNOWN/no execution.']
+ 'rules':['Stop dominates subsequent proposed reanalysis or comparison after withdrawal/urgent report; never infer permission from role, state or prior result.','Source identity protected across all events.','Only known explicit event kinds supported; unknown event is UNKNOWN/no execution.','MASKING and LISTENING entry RISK: known urgent report, withdrawal or stop cannot be demoted by missing conditions; unknown risk never authorizes comparison. Partial input may return only a stop if all compatible complete guard assignments terminate stop; medical classification only with explicit urgent report.']
 }
 out=dict(format='audio-kg-K07-domain-workflow-candidate/1',status='CANDIDATE_PROPOSALS_ONLY',records=records,relations=relations,roleBindings={'K07.02/A02':w2,'K07.04/A02':w4,'K07.06/A02':w6,'K07.07/A02':w7,'K07.08/A02':w8,'K07.02/A06':a2ref},stateRules=stateRules,limits='Finite local domain-specific shape and tests only; no common schema change, no arbitrary execution, real grants, audio, actual clinical observation or production DB.')
 (root/'knowledge/K07/domain-workflows.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')

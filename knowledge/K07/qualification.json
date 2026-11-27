@@ -2,7 +2,7 @@
   "format": "audio-kg-qualification/1",
   "owner": "K07",
   "status": "CANDIDATE_QUALIFICATION_ONLY",
-  "packBlob": "c8a952d6e5acff3c8c8aa2406fca5b599866bd47",
+  "packBlob": "e991903d604fbd31753acdf086f1769473daec6b",
   "sourceQualifications": [
     {
       "source": "S031@1",
@@ -623,6 +623,11 @@
       "limits": "参考不是绝对安全线或许可；未校准数字音量不代表暴露；未知风险先降低暴露，突然听力下降立即就医。"
     },
     {
+      "edge": "K07-E-AC25-REQUIRES-K07-CL-AC41",
+      "scope": "暴露风险复合命题中的突发听力下降报告分支需要独立听觉紧急转介知识；仅报告存在时适用，缺失不等否定。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
       "edge": "K07-E-AC25-REFERENCES-K07-CL-AC49",
       "scope": "暴露数据完整性",
       "limits": "可选导航，不参与必要闭包；非等价或逻辑逆命题。"
@@ -985,16 +990,21 @@
     {
       "edge": "K07-E-AC49-SUPPORTED-BY-K07-EV-AC49",
       "scope": "限定命题由冻结L1研究定位支撑；数学题设与来源资格分开。",
-      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。"
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。"
     },
     {
       "edge": "K07-E-AC49-APPLIES-UNDER-K07-CTX-AC49",
       "scope": "使用该命题须验证其条件，而非由检索自动确认。",
-      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行。"
+      "limits": "ITU H.870仅版本元数据不作正文证据；不提供个人可听时长或安全放行；突发听力下降报告按独立转介条件处理，不以暴露证据完整为前提。"
     },
     {
       "edge": "K07-E-AC49-REQUIRES-K07-CL-AC25",
       "scope": "暴露记录适用性需要先区分用途及真实量定义。",
+      "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
+    },
+    {
+      "edge": "K07-E-AC49-REQUIRES-K07-CL-AC41",
+      "scope": "反向暴露风险案例中的突发听力下降报告分支需独立紧急转介知识；仅有报告触发，不从剂量或评分推断。",
       "limits": "仅该推理必要支持，必须同时核供给方条件，不等真实前提满足。"
     },
     {
@@ -1044,6 +1054,14 @@
     }
   ],
   "obligations": [
+    {
+      "edge": "K07-E-AC25-REQUIRES-K07-CL-AC41",
+      "consumer": "K07-CL-AC25@1",
+      "provider": "K07-CL-AC41@1",
+      "condition": "K07-CTX-AC25@1",
+      "providerContext": "K07-CTX-AC41@1",
+      "group": "K07-GR-AC25@1"
+    },
     {
       "edge": "K07-E-AC27-REQUIRES-K07-CL-AC02",
       "consumer": "K07-CL-AC27@1",
@@ -1106,6 +1124,14 @@
       "provider": "K07-CL-AC25@1",
       "condition": "K07-CTX-AC49@1",
       "providerContext": "K07-CTX-AC25@1",
+      "group": "K07-GR-AC49@1"
+    },
+    {
+      "edge": "K07-E-AC49-REQUIRES-K07-CL-AC41",
+      "consumer": "K07-CL-AC49@1",
+      "provider": "K07-CL-AC41@1",
+      "condition": "K07-CTX-AC49@1",
+      "providerContext": "K07-CTX-AC41@1",
       "group": "K07-GR-AC49@1"
     }
   ]

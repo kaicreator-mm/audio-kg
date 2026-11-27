@@ -12,13 +12,13 @@ const ref=x=>x.id+"@"+x.revision;
 const unique=xs=>new Set(xs).size===xs.length;
 const read=(r,f)=>JSON.parse(fs.readFileSync(path.join(r,f),"utf8"));
 const pin=(f,b)=>{test("pinned input "+f,gitBlob(fs.readFileSync(f))===b);return read(root,f)};
-const ctrl=pin("knowledge/K07/controller-input.json","773e64ff07c864a7439cc523c8c81c502fc2c680");
+const ctrl=pin("knowledge/K07/controller-input.json","80b388cde30b4624d9c3dc157f6103928d33470d");
 const roles=pin("queries/K07/capability-index.json","a70feff83c106658e0b955bc09ccc6c37e6fc93a");
 const index=pin("queries/K07/discovery-index.json","a6413f5ac05f96e3ad88b317d2edd0354b24352b");
 const legacy=pin("queries/K07/legacy-routes.json","bf2958b062bce6f1d366cddadb11597a6c83a259");
 const splits=pin("queries/K07/split-routes.json","ab8217d86f3ec7a3161397968e49f9ed2dc76e27");
 const sourceProv=pin("sources/K07/provenance.json","feb6162fc998c63fba655547b6fbc175f0aebaa7");
-const domain=pin("knowledge/K07/domain-workflows.json","20244147f519a1e8b19e4ebe1d3f85fd0ab61232");
+const domain=pin("knowledge/K07/domain-workflows.json","861b46173af9b935af09ed2b99183e47c906552a");
 const e=ctrl.entries[0],pack=read(root,e.pack),manifest=read(root,e.manifest);
 const reader=openCandidateReader(root,ctrl.entries,{allowFixture:false,priorRegistry:null}),summary=reader.summary();
 const records=new Map(pack.records.map(r=>[ref(r),r])),byClaim=new Map(pack.records.filter(r=>r.type==="Claim").map(r=>[ref(r),r]));
@@ -26,12 +26,12 @@ const claimsByD4=new Map([...byClaim].map(([id,r])=>[r.d4,id]));
 const rowFor=new Map(index.rows.map(r=>[r.claim,r]));
 const anchorOk=a=>a.commit==="280d3be584ab717211b9b99925ac07705f2ab64c"&&gitBlob(fs.readFileSync(a.file))===a.blob&&fs.readFileSync(a.file,"utf8").split("\n")[a.line-1]===a.row;
 const projection=read(root,"ontology/l1-anchor-tree.json");
-test("actual first MODULE, all row identities accounted",same(summary.counts,{records:441,claims:51,edges:161,bindings:236,inventory:51})&&summary.packs.length===1&&summary.packs[0].coverageMode==="MODULE"&&summary.acceptedClaims===0&&summary.unresolved.length===0&&ctrl.priorRegistry===null&&ctrl.allowFixture===false);
+test("actual first MODULE, all row identities accounted",same(summary.counts,{records:441,claims:51,edges:163,bindings:244,inventory:51})&&summary.packs.length===1&&summary.packs[0].coverageMode==="MODULE"&&summary.acceptedClaims===0&&summary.unresolved.length===0&&ctrl.priorRegistry===null&&ctrl.allowFixture===false);
 test("unique current D4 and candidate identity",claimsByD4.size===51&&unique(index.rows.map(r=>r.line))&&index.rows.every(r=>claimsByD4.get(r.d4)===r.claim));
 const actualRows=fs.readFileSync(index.frozenDiscovery,"utf8").split("\n").flatMap((s,i)=>/^\| K07\.\d\d\.\d\d\.\d\d \|/.test(s)?[{line:i+1,d4:s.split("|")[1].trim()}]:[]);
 test("frozen 51 discovery rows exactly equal module inventory",gitBlob(fs.readFileSync(index.frozenDiscovery))===index.discoveryBlob&&same(actualRows,pack.inventory.map(r=>({line:r.line,d4:r.d4}))));
 const hEdges=pack.edges.filter(x=>x.type==="requires"), oEdges=pack.edges.filter(x=>x.type==="references");
-test("actual 8 H obligations and separate O navigation",hEdges.length===8&&manifest.obligations.length===8&&oEdges.length===51&&hEdges.every(h=>manifest.obligations.some(o=>o.edge===h.id&&o.consumer===h.from&&o.provider===h.to)));
+test("actual 10 H obligations and separate O navigation",hEdges.length===10&&manifest.obligations.length===10&&oEdges.length===51&&hEdges.every(h=>manifest.obligations.some(o=>o.edge===h.id&&o.consumer===h.from&&o.provider===h.to)));
 for(const row of index.rows){
  const r=reader.retrieve(row.d4),id=row.claim,c=r.claims.find(x=>x.ref===id),own=pack.edges.filter(x=>x.type==="requires"&&x.from===id);
  const expected=new Set([id]);const visit=i=>{for(const h of hEdges.filter(x=>x.from===i)){if(expected.has(h.to))continue;expected.add(h.to);visit(h.to)}};visit(id);
@@ -69,7 +69,7 @@ const tmp=fs.mkdtempSync(path.join(os.tmpdir(),"audio-kg-K07-mutate-"));
 try{
  const files=new Set(["ontology/knowledge-profile.json","ontology/l1-anchor-tree.json","docs/product/calibration/g05-r1-module-evidence-reconciliation.md",index.frozenDiscovery,e.pack,e.manifest,"knowledge/K07/controller-input.json","tools/validate-knowledge.mjs",...pack.records.filter(r=>r.anchor).map(r=>r.anchor.file)]);
  for(const f of files){const p=path.join(tmp,f);fs.mkdirSync(path.dirname(p),{recursive:true});fs.copyFileSync(f,p)}
- const cli=spawnSync(process.execPath,["tools/validate-knowledge.mjs","knowledge/K07/controller-input.json","773e64ff07c864a7439cc523c8c81c502fc2c680","K07-CL-AC31@1"],{cwd:tmp,encoding:"utf8",maxBuffer:8e6});
+ const cli=spawnSync(process.execPath,["tools/validate-knowledge.mjs","knowledge/K07/controller-input.json","80b388cde30b4624d9c3dc157f6103928d33470d","K07-CL-AC31@1"],{cwd:tmp,encoding:"utf8",maxBuffer:8e6});
  test("actual isolated K07 CLI with pinned public inputs and no Git or assessment",cli.status===0&&!fs.existsSync(path.join(tmp,".git"))&&same(JSON.parse(cli.stdout).rootIds,["K07-CL-AC31@1"])&&JSON.parse(cli.stdout).claims.some(c=>c.ref==="K07-CL-AC06@1")&&!fs.existsSync(path.join(tmp,"docs/research/l2-pilot/assessment.json")));
  function mutation(name,fn,regex){
   const p=structuredClone(pack),m=structuredClone(manifest);fn(p,m);
@@ -81,6 +81,10 @@ try{
  mutation("actual K07 dangling evidence source rejected",(p,m)=>p.records.find(x=>x.type==="Evidence").sources=["S465@1"],/missing or wrong exact ref/);
  mutation("actual K07 required obligation cannot lose edge and binding",(p,m)=>{const h=p.edges.find(x=>x.type==="requires"&&x.from==="K07-CL-AC31@1");p.edges=p.edges.filter(x=>x.id!==h.id);m.edgeQualifications=m.edgeQualifications.filter(x=>x.edge!==h.id);p.bindings=p.bindings.filter(x=>!(x.view.startsWith("K07-V-AC31-")&&x.role==="REQUIRES"))},/required H obligation absent/);
  mutation("actual K07 missing mandatory support view rejected",(p,m)=>p.bindings=p.bindings.filter(x=>x.id!=="K07-B-AC31-FP-H-AC06"),/mandatory supporting view/);
+ for(const ac of ["AC25","AC49"]){
+  mutation(ac+" actual required urgent referral edge cannot disappear",(p,m)=>{const h=p.edges.find(x=>x.type==="requires"&&x.from==="K07-CL-"+ac+"@1"&&x.to==="K07-CL-AC41@1");p.edges=p.edges.filter(x=>x.id!==h.id);m.edgeQualifications=m.edgeQualifications.filter(x=>x.edge!==h.id);p.bindings=p.bindings.filter(x=>!(x.view.startsWith("K07-V-"+ac+"-")&&x.claim==="K07-CL-AC41@1"))},/required H obligation absent/);
+  mutation(ac+" actual missing urgent support view rejected",p=>p.bindings=p.bindings.filter(x=>x.id!=="K07-B-"+ac+"-"+(ac==="AC25"?"RP":"RN")+"-H-AC41"),/mandatory supporting view/);
+ }
  mutation("actual K07 cannot self-promote ACCEPTED",(p,m)=>p.records.find(x=>x.type==="Claim").status="ACCEPTED",/claim scope\/status/);
 }finally{fs.rmSync(tmp,{recursive:true,force:true})}
 const snapshot=reader.retrieve("K07-CL-AC31@1");const external=reader.retrieve("K07-CL-AC31@1");
@@ -208,13 +212,21 @@ function validateDomain(d){
  return map;
 }
 const wf=validateDomain(domain);
-test("K07 actual finite typed workflow/artifact shape, edges, DAG, guards",wf.size===60&&domain.relations.length===69&&domain.records.filter(r=>r.type==="Workflow").length===5&&domain.stateRules.events.length===5);
+test("K07 actual finite typed workflow/artifact shape, edges, DAG, guards",wf.size===68&&domain.relations.length===74&&domain.records.filter(r=>r.type==="Workflow").length===5&&domain.stateRules.events.length===5);
 const replay=(id,env)=>{
  const w=wf.get(id);let cur=w.entry,trace=[];
  while(cur){
   const s=wf.get(cur);trace.push(cur);
   if(trace.length>w.stepRefs.length)throw Error("cycle");
-  if(!s.inputFields.every(k=>typeof env[k]==="boolean"))return {outcome:"UNKNOWN_MISSING_CONDITION",trace};
+  if(!s.inputFields.every(k=>typeof env[k]==="boolean")){
+   // A known stop is a sufficient condition even under partial observations.
+   // Derive the decision from actual authored guard alternatives, not invented defaults.
+   if((s.id.endsWith("-RISK"))&&["urgentReported","permissionWithdrawn","stopRequired"].some(k=>env[k]===true)){
+    const possible=domain.records.filter(t=>t.type==="Transition"&&t.fromStep===cur&&Object.entries(t.guard).every(([k,v])=>typeof env[k]!=="boolean"||env[k]===v));
+    if(possible.length&&possible.every(t=>!t.toStep&&["STOP_NO_PLAYBACK","STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION","STOP_OR_UNKNOWN_NO_PLAYBACK"].includes(t.outcome)))return {outcome:possible.every(t=>t.outcome==="STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION")?"STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION":"STOP_NO_PLAYBACK",trace};
+   }
+   return {outcome:"UNKNOWN_MISSING_CONDITION",trace};
+  }
   const t=domain.records.find(t=>t.type==="Transition"&&t.fromStep===cur&&Object.entries(t.guard).every(([k,v])=>env[k]===v));
   if(!t)throw Error("no transition");if(t.toStep)cur=t.toStep;else return {outcome:t.outcome,trace};
  }
@@ -230,11 +242,59 @@ for(const w of domain.records.filter(r=>r.type==="Workflow")){
  test(w.id+" all finite branches produce only expected bounded outcomes",seen.size===expected.size&&replay(ref(w),{}).outcome==="UNKNOWN_MISSING_CONDITION");
 }
 test("A02 spectrum no model proof from finite observation",replay(wfId("SPECTRUM"),{inputIdentityKnown:true,windowMetadataKnown:true,generationEvidenceKnown:false}).outcome==="FINITE_OBSERVATION_ONLY_MODEL_UNKNOWN");
-test("A02 masking controlled stimuli without perception remains candidate",replay(wfId("MASKING"),{stimulusKnown:true,mechanismControlsKnown:true,perceptualEvidenceProvided:false}).outcome==="MECHANISM_CANDIDATES_ONLY");
+const safeRisk={urgentReported:false,permissionWithdrawn:false,stopRequired:false,conditionsStipulated:true};
+test("A02 masking controlled stimuli without perception remains candidate",replay(wfId("MASKING"),{...safeRisk,stimulusKnown:true,mechanismControlsKnown:true,perceptualEvidenceProvided:false}).outcome==="MECHANISM_CANDIDATES_ONLY");
 test("A02 room unknown fit blocks decay report",replay(wfId("ROOM"),{pathConditionsKnown:true,fitConditionsValid:false,topologyComplete:true}).outcome==="PATH_CANDIDATE_DECAY_UNKNOWN");
 test("A02 measurement changed calibration or old aggregate separate",replay(wfId("MEASUREMENT"),{measurandKnown:true,physicalCalibrationCurrent:false,rawWaveformAndFilterValid:true,uncertaintyModelKnown:true}).outcome==="PROPOSE_REVALIDATE_CALIBRATION"&&replay(wfId("MEASUREMENT"),{measurandKnown:true,physicalCalibrationCurrent:true,rawWaveformAndFilterValid:false,uncertaintyModelKnown:true}).outcome==="RETAIN_RAW_IF_VALID_NEW_WEIGHT_UNKNOWN");
-const listener={stopRequired:false,conditionsStipulated:true,playbackEvidenceCurrent:true,exposureEvidenceComplete:true,analysisEvidenceCurrent:true};
+const listener={...safeRisk,playbackEvidenceCurrent:true,exposureEvidenceComplete:true,analysisEvidenceCurrent:true};
 test("A02 listening all stipulated never plays, stop dominates and unknown risk fail closed",replay(wfId("LISTENING"),listener).outcome==="PROPOSED_OFFLINE_COMPARISON_ONLY"&&replay(wfId("LISTENING"),{...listener,stopRequired:true}).outcome==="STOP_NO_PLAYBACK"&&replay(wfId("LISTENING"),{...listener,conditionsStipulated:false}).outcome==="STOP_OR_UNKNOWN_NO_PLAYBACK"&&replay(wfId("LISTENING"),{...listener,exposureEvidenceComplete:false}).outcome==="EXPOSURE_UNKNOWN_NO_PLAYBACK");
+
+// Exact previously failed partial-risk probes, and distinct medical vs withdrawal stops.
+for(const flow of ["LISTENING","MASKING"]){
+ const run=env=>replay(wfId(flow),env);
+ const full=flow==="LISTENING"?listener:{...safeRisk,stimulusKnown:true,mechanismControlsKnown:true,perceptualEvidenceProvided:true};
+ test(flow+" known stop dominates absent or null other condition",run({stopRequired:true}).outcome==="STOP_NO_PLAYBACK"&&run({stopRequired:true,conditionsStipulated:null}).outcome==="STOP_NO_PLAYBACK");
+ test(flow+" urgent report dominates partial and withdrawal",run({urgentReported:true}).outcome==="STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION"&&run({urgentReported:true,permissionWithdrawn:true}).outcome==="STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION");
+ test(flow+" known withdrawal dominates unknown urgent and other inputs",run({permissionWithdrawn:true}).outcome==="STOP_NO_PLAYBACK");
+ test(flow+" missing stop or urgent risk cannot reach comparison",run({...full,stopRequired:undefined}).outcome==="UNKNOWN_MISSING_CONDITION"&&run({...full,urgentReported:null}).outcome==="UNKNOWN_MISSING_CONDITION");
+ test(flow+" positive comparison only after explicit complete risk conditions",run(full).outcome===(flow==="LISTENING"?"PROPOSED_OFFLINE_COMPARISON_ONLY":"PROPOSED_CONDITIONAL_COMPARISON")&&run({...full,stopRequired:true}).outcome==="STOP_NO_PLAYBACK");
+ // Exhaustive three-valued safety input combinations, including absent values, for both entries.
+ const vals=[true,false,undefined,null];let count=0;
+ for(const u of vals)for(const w of vals)for(const z of vals)for(const c of vals){
+  const result=run({...full,urgentReported:u,permissionWithdrawn:w,stopRequired:z,conditionsStipulated:c}).outcome;
+  if(u===true){if(result!=="STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION")throw Error(flow+" urgent downgraded");}
+  else if(w===true||z===true){if(result!=="STOP_NO_PLAYBACK")throw Error(flow+" stop downgraded");}
+  else if([u,w,z,c].some(v=>typeof v!=="boolean")){if(result!=="UNKNOWN_MISSING_CONDITION")throw Error(flow+" unknown risk advanced");}
+  else if(c===false){if(result!=="STOP_OR_UNKNOWN_NO_PLAYBACK")throw Error(flow+" unstipulated risk advanced");}
+  else if(result!==(flow==="LISTENING"?"PROPOSED_OFFLINE_COMPARISON_ONLY":"PROPOSED_CONDITIONAL_COMPARISON"))throw Error(flow+" positive changed");
+  count++;
+ }
+ test(flow+" all 256 true/false/absent/null risk combinations",count===256);
+}
+// Necessary clinical-safety knowledge is discovered conditionally, not inferred from exposure data.
+function urgentRoute(r,viewRef,reported){
+ if(reported!==true)return reported===false?"NO_URGENT_REPORT_STIPULATED":"UNKNOWN_URGENT_REPORT";
+ const root=r.claims.find(c=>r.rootIds.includes(c.ref)),p=r.claims.find(c=>c.ref==="K07-CL-AC41@1");
+ const binding=p?.cases.find(v=>ref(v.view)===viewRef&&v.binding.role==="REQUIRES");
+ const h=root?.relations.find(e=>e.type==="requires"&&e.to===p?.ref&&e.required&&!e.logicalConverse);
+ const source=p?.evidence.flatMap(e=>e.sources).find(s=>s.sourceId==="S449"&&s.qualification.scope&&s.qualification.limits&&anchorOk(s.anchor));
+ return binding&&h&&source?"STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION_QUALIFIED_SUPPORT":"STOP_REFERRAL_SUPPORT_UNVERIFIED";
+}
+for(const [ac,view] of [["AC25","RP"],["AC49","RN"]]){
+ const r=reader.retrieve("K07-CL-"+ac+"@1"),v="K07-V-"+ac+"-"+view+"@1";
+ test(ac+" exact urgent view has necessary S449 support",urgentRoute(r,v,true)==="STOP_SEEK_IMMEDIATE_MEDICAL_EVALUATION_QUALIFIED_SUPPORT");
+ test(ac+" absent or negative report is not an urgent conclusion",urgentRoute(r,v,undefined)==="UNKNOWN_URGENT_REPORT"&&urgentRoute(r,v,false)==="NO_URGENT_REPORT_STIPULATED");
+ for(const missing of ["claim","edge","binding","source"]){
+  const a=structuredClone(r),root=a.claims.find(c=>a.rootIds.includes(c.ref)),p=a.claims.find(c=>c.ref==="K07-CL-AC41@1");
+  if(missing==="claim")a.claims=a.claims.filter(c=>c!==p);
+  if(missing==="edge")root.relations=root.relations.filter(e=>e.to!==p.ref);
+  if(missing==="binding")p.cases=p.cases.filter(b=>ref(b.view)!==v);
+  if(missing==="source")for(const e of p.evidence)e.sources=e.sources.filter(s=>s.sourceId!=="S449");
+  test(ac+" missing "+missing+" never certifies urgent evidence, stop retained",urgentRoute(a,v,true)==="STOP_REFERRAL_SUPPORT_UNVERIFIED");
+ }
+}
+test("urgent provider reverse relation not inference",reader.retrieve("K07-CL-AC41@1").claims.length===1&&reader.retrieve("K07-CL-AC41@1").claims[0].incomingNavigation.filter(x=>["K07-CL-AC25@1","K07-CL-AC49@1"].includes(x.from)).length===2);
+
 const a1=wf.get("K07-ART-SPECTRUM-ANNOTATION@1"),a2=wf.get("K07-ART-SPECTRUM-ANNOTATION@2"),src=wf.get(a1.fields.inputRef);
 test("A06 editable exact artifact identity and derived superseding report",a1.fields.inputRef===a2.fields.inputRef&&src.fields.observedN===48&&src.fields.fsHz===4800&&a1.fields.gridHz===src.fields.fsHz/a1.fields.nfft&&a2.fields.gridHz===src.fields.fsHz/a2.fields.nfft&&a1.fields.firstNullHz===a2.fields.firstNullHz&&a1.fields.windowMs===a2.fields.windowMs&&a1.fields.nfft===48&&a2.fields.nfft===480&&domain.relations.filter(x=>x.type==="derived_from").length===2&&domain.relations.some(x=>x.type==="supersedes"&&x.from===ref(a2)&&x.to===ref(a1)));
 const initial=domain.stateRules.initial,transition=(state,event)=>{
@@ -262,4 +322,4 @@ domainNegative("artifact missing exact dependency rejected",d=>{d.relations=d.re
 domainNegative("artifact false frequency grid rejected",d=>{d.records.find(r=>ref(r)==="K07-ART-SPECTRUM-ANNOTATION@2").fields.gridHz=1},/artifact parameter derivation/);
 domainNegative("missing primary workflow role binding rejected",d=>{delete d.roleBindings["K07.02/A02"]},/missing P workflow or editable binding/);
 domainNegative("state event cannot overwrite original identity",d=>{d.stateRules.events[0].changes.sourceId="FORGED"},/state rule protected identity/);
-console.log(JSON.stringify({status:"K07_MODULE_CANDIDATE_ONLY",node:process.version,checks:checks.length,passed:checks.filter(x=>x[1]).length,results:checks,summary,roleCells:56,legacyRoutes:48,splitRoutes:7,sourceCount:33,withheldSourceCount:2,workflowRecords:60,workflowRelations:69,limits:["all actual claims are CANDIDATE; independent professional review and integration separate","finite local domain workflow/annotation/state witnesses; no generalized engine, actual grant, actual audio/clinical/tool execution, production database or LLM efficacy","35 source locator histories; 33 direct sources, S459/S465 withheld, no source import or current external re-read","roles and routes do not authorize actual operations"]},null,2));
+console.log(JSON.stringify({status:"K07_MODULE_CANDIDATE_ONLY",node:process.version,checks:checks.length,passed:checks.filter(x=>x[1]).length,results:checks,summary,roleCells:56,legacyRoutes:48,splitRoutes:7,sourceCount:33,withheldSourceCount:2,workflowRecords:68,workflowRelations:74,limits:["all actual claims are CANDIDATE; independent professional review and integration separate","finite local domain workflow/annotation/state witnesses; no generalized engine, actual grant, actual audio/clinical/tool execution, production database or LLM efficacy","35 source locator histories; 33 direct sources, S459/S465 withheld, no source import or current external re-read","roles and routes do not authorize actual operations"]},null,2));
