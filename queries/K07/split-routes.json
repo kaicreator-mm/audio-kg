@@ -1,0 +1,264 @@
+{
+  "format": "audio-kg-K07-split-routes/1",
+  "status": "SPLIT_OPEN_NO_ALIAS_OR_AUTOMATIC_CLOSURE",
+  "routes": [
+    {
+      "oldD4": "K13.02.02.01",
+      "predicate": "演奏者差异、参考音相对量及测量",
+      "local": [
+        {
+          "kind": "REUSE",
+          "target": "K07.07.02.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC22@1",
+            "K07-CL-AC46@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        },
+        {
+          "kind": "REUSE",
+          "target": "K07.07.03.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC23@1",
+            "K07-CL-AC47@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        }
+      ],
+      "gate": "演奏者样本和校准；不得推广单一参考",
+      "externalTargets": {
+        "new": "K16.07.02.01",
+        "reuse": "K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01",
+        "ref": "—"
+      },
+      "demand": "[MX-K13.02.02.01](domain-mixed-migration-case-demands.md)",
+      "status": "SPLIT_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 9,
+        "row": "| K13.02.02.01 | 演奏者差异、参考音相对量及测量 | K16.07.02.01 | K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01 | — | 演奏者样本和校准；不得推广单一参考 | [MX-K13.02.02.01](domain-mixed-migration-case-demands.md) |"
+      }
+    },
+    {
+      "oldD4": "K13.07.01.02",
+      "predicate": "本土名称变体、原值映射和测量",
+      "local": [
+        {
+          "kind": "REF",
+          "target": "K07.07",
+          "candidateClaimRefs": [
+            "K07-CL-AC21@1",
+            "K07-CL-AC22@1",
+            "K07-CL-AC23@1",
+            "K07-CL-AC45@1",
+            "K07-CL-AC46@1",
+            "K07-CL-AC47@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        }
+      ],
+      "gate": "本土术语S585未证；K01.02.06.02 EVIDENCE_OPEN",
+      "externalTargets": {
+        "new": "K16.07.02.02",
+        "reuse": "K01.02.06.01 K01.02.06.02",
+        "ref": "K07.07"
+      },
+      "demand": "[MX-K13.07.01.02](domain-mixed-migration-case-demands.md)",
+      "status": "SPLIT_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 21,
+        "row": "| K13.07.01.02 | 本土名称变体、原值映射和测量 | K16.07.02.02 | K01.02.06.01 K01.02.06.02 | K07.07 | 本土术语S585未证；K01.02.06.02 EVIDENCE_OPEN | [MX-K13.07.01.02](domain-mixed-migration-case-demands.md) |"
+      }
+    },
+    {
+      "oldD4": "K09.07.01.01",
+      "predicate": "物理反馈路径、现场诊断和测量条件",
+      "local": [
+        {
+          "kind": "NEW",
+          "target": "K07.06.04.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC51@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        },
+        {
+          "kind": "REUSE",
+          "target": "K07.07.02.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC22@1",
+            "K07-CL-AC46@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        }
+      ],
+      "gate": "闭环拓扑不证明实际振荡，禁止危险复现",
+      "externalTargets": {
+        "new": "K07.06.04.01 K19.07.01.01",
+        "reuse": "K07.07.02.01",
+        "ref": "K08.04"
+      },
+      "demand": "[MX-K09.07.01.01](domain-mixed-migration-case-demands.md)",
+      "status": "SPLIT_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 29,
+        "row": "| K09.07.01.01 | 物理反馈路径、现场诊断和测量条件 | K07.06.04.01 K19.07.01.01 | K07.07.02.01 | K08.04 | 闭环拓扑不证明实际振荡，禁止危险复现 | [MX-K09.07.01.01](domain-mixed-migration-case-demands.md) |"
+      }
+    },
+    {
+      "oldD4": "K09.07.01.02",
+      "predicate": "现场候选、通用增益/拾音/噪声",
+      "local": [
+        {
+          "kind": "REF",
+          "target": "K07.06",
+          "candidateClaimRefs": [
+            "K07-CL-AC18@1",
+            "K07-CL-AC19@1",
+            "K07-CL-AC20@1",
+            "K07-CL-AC42@1",
+            "K07-CL-AC43@1",
+            "K07-CL-AC44@1",
+            "K07-CL-AC51@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        }
+      ],
+      "gate": "多候选原因，须测量/安全条件",
+      "externalTargets": {
+        "new": "K19.07.01.02",
+        "reuse": "K08.04.03.02 K08.05.02.01 K08.05.03.01",
+        "ref": "K07.06 K15.04"
+      },
+      "demand": "[MX-K09.07.01.02](domain-mixed-migration-case-demands.md)",
+      "status": "SPLIT_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 30,
+        "row": "| K09.07.01.02 | 现场候选、通用增益/拾音/噪声 | K19.07.01.02 | K08.04.03.02 K08.05.02.01 K08.05.03.01 | K07.06 K15.04 | 多候选原因，须测量/安全条件 | [MX-K09.07.01.02](domain-mixed-migration-case-demands.md) |"
+      }
+    },
+    {
+      "oldD4": "K09.07.02.02",
+      "predicate": "现场核对、权限、停止和暴露",
+      "local": [
+        {
+          "kind": "REUSE",
+          "target": "K07.08.02.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC25@1",
+            "K07-CL-AC49@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        }
+      ],
+      "gate": "实际场地权限/安全/路由证据另核",
+      "externalTargets": {
+        "new": "K19.03.01.01",
+        "reuse": "K15.01.02.01 K15.04.03.02 K07.08.02.01",
+        "ref": "K12.06"
+      },
+      "demand": "[MX-K09.07.02.02](domain-mixed-migration-case-demands.md)",
+      "status": "SPLIT_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 32,
+        "row": "| K09.07.02.02 | 现场核对、权限、停止和暴露 | K19.03.01.01 | K15.01.02.01 K15.04.03.02 K07.08.02.01 | K12.06 | 实际场地权限/安全/路由证据另核 | [MX-K09.07.02.02](domain-mixed-migration-case-demands.md) |"
+      }
+    },
+    {
+      "oldD4": "K09.07.03.01",
+      "predicate": "覆盖清晰度稳定性、传播测量暴露",
+      "local": [
+        {
+          "kind": "REUSE",
+          "target": "K07.06.01.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC18@1",
+            "K07-CL-AC42@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        },
+        {
+          "kind": "REUSE",
+          "target": "K07.07.02.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC22@1",
+            "K07-CL-AC46@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        },
+        {
+          "kind": "REUSE",
+          "target": "K07.08.02.01",
+          "candidateClaimRefs": [
+            "K07-CL-AC25@1",
+            "K07-CL-AC49@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        }
+      ],
+      "gate": "覆盖、清晰、暴露、稳定性分别验收",
+      "externalTargets": {
+        "new": "K19.04.01.01",
+        "reuse": "K07.06.01.01 K07.07.02.01 K07.08.02.01",
+        "ref": "K10.07"
+      },
+      "demand": "[MX-K09.07.03.01](domain-mixed-migration-case-demands.md)",
+      "status": "SPLIT_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 33,
+        "row": "| K09.07.03.01 | 覆盖清晰度稳定性、传播测量暴露 | K19.04.01.01 | K07.06.01.01 K07.07.02.01 K07.08.02.01 | K10.07 | 覆盖、清晰、暴露、稳定性分别验收 | [MX-K09.07.03.01](domain-mixed-migration-case-demands.md) |"
+      }
+    },
+    {
+      "oldD4": "K09.07.03.02",
+      "predicate": "现场修订停止复测、治理放行及安全依据",
+      "local": [
+        {
+          "kind": "REF",
+          "target": "K07.08",
+          "candidateClaimRefs": [
+            "K07-CL-AC24@1",
+            "K07-CL-AC25@1",
+            "K07-CL-AC26@1",
+            "K07-CL-AC48@1",
+            "K07-CL-AC49@1",
+            "K07-CL-AC50@1"
+          ],
+          "status": "LOCAL_PREDICATE_CANDIDATE_ONLY"
+        }
+      ],
+      "gate": "实际场地、治理许可、停止/复测条件另核",
+      "externalTargets": {
+        "new": "K19.09.01.01",
+        "reuse": "K15.04.02.02 K15.04.03.02",
+        "ref": "K07.08"
+      },
+      "demand": "[MX-K09.07.03.02](domain-mixed-migration-case-demands.md)",
+      "status": "SPLIT_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 34,
+        "row": "| K09.07.03.02 | 现场修订停止复测、治理放行及安全依据 | K19.09.01.01 | K15.04.02.02 K15.04.03.02 | K07.08 | 实际场地、治理许可、停止/复测条件另核 | [MX-K09.07.03.02](domain-mixed-migration-case-demands.md) |"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pack_id": "audio-kg-v010-K07-g1",
+  "task_id": "K07",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "f5fbc3b9fc6118e073c3701ae8da2d8928629ce4",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/blob/48459608548ee13c330641b20cca2d585cc290f3/docs/implementation/v0.1.0/TASK_PACKS.json#K07",
+  "branch": "task/v0.1.0-k07-acoustics-knowledge",
+  "parent_issue": "#88",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-planner",
+  "generated_at": "2026-11-27T10:12:05.660403+00:00",
+  "dependency_completion": [
+    "F00@f5fbc3b9fc6118e073c3701ae8da2d8928629ce4"
+  ],
+  "material_paths": [
+    "knowledge/K07/",
+    "sources/K07/",
+    "cases/K07/",
+    "queries/K07/",
+    "docs/validation/K07/",
+    "tests/knowledge/K07/",
+    "docs/product/calibration/acoustics-r3-discovery-cq.md",
+    "docs/product/calibration/acoustics-r3-capability-calibration.md",
+    "docs/product/calibration/acoustics-r1-knowledge-cases.md",
+    "docs/product/calibration/acoustics-r2-knowledge-cases.md",
+    "docs/product/calibration/acoustics-r5-review-remediation.md",
+    "docs/product/calibration/acoustics-g04-feedback-path-case.md",
+    "ontology/knowledge-profile.json",
+    "ontology/l1-anchor-tree.json"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "IMPLEMENTATION_MAP.md",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}
