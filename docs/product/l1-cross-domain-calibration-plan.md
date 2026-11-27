@@ -99,3 +99,7 @@ R4完整模块独立审核FAIL（0P0/1P1/2P2），七分支限定充分、K02.06
 
 ## G04 R8 — 独立参考/修订证据、离线CQ及累计实质回读
 R7 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203815238) 两残余P1，累计部分未完。现行[完整复审合同](calibration/g04-r8-cumulative-review-candidate.md)、[XC01-R3](calibration/g04-r8-xc01-independent-evidence.md)70/70、[CQ补证](calibration/g04-r8-cq-semantic-remediation.md)24/24、[26问范围](calibration/g04-r8-formal-cq-scope-reconciliation.md)。实际七角色案例与源、19域1113格、34修订主原子80来源引用/317反链、28 NEW/51 REUSE/16 REF现行入口、K16–19原函数40/33/49/44真值重放。原15 Issue及28 SPLIT_OPEN保持。独立Reviewer可按exact SHA/blob复用不受影响的既有独立证据，但仍须完整阶段裁决，明确实质缺口与最小补救；不降低G04门禁。无新全量外部全文、实际运行、accepted claims或L1冻结；CAL07/G05/T03/L2阻塞。
+
+
+## G04正式收口 / CAL07与G05候选
+G04 [R9独立PASS](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7212551738) exact d3fce7e1bdaeb70782f1b20d96d99a8e17dbc576，PR79合入 d83915d61d6f53ed385db2f3d18ff908dc6889a1，实际compare零文件差异；#78已关闭。R9-RV02：实际44/44，原派审及历史合同43为记录错误，不改历史exact证据，以R4修正和独立回执为准。19域研究模块/G04已限定通过，L1尚未冻结。#80 CAL07/G05/T03 当前候选：[R1](calibration/g05-r1-module-evidence-reconciliation.md)、[R2](calibration/g05-r2-historical-findings-residual-gates.md)、[R3](calibration/g05-r3-split-disposition-candidate.md)、[R4](calibration/g05-r4-d24-and-count-reconciliation.md)、[R5](calibration/g05-r5-l1-freeze-candidate.md)。CAL07 Builder候选完成，G05/T03独立审核前不冻结、不启动L2。
