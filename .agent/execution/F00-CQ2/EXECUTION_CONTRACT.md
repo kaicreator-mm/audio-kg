@@ -1,3 +1,4 @@
 Exact K02 frozen direct/support role, four support-only rows; K01/fixture and other owners unchanged; required affected review
 Exact-base, per-task allowed write set; no source upgrade, no external LLM or actual device. Professional authored content and distinct four-view problem/answer/reasons, preserve exact source/legacy/role gates. Shared Source IDs reuse existing provider exact revisions and include provider entries; specific evidence locator stays local. Batch gate with separate exact verdict.
 Append-only scope refinement #116 comment 7219239662, #85 7219240931: exact frozen vocal-digital source table bare HTTPS token in source column; do not parse arbitrary files or change frozen source qualification; K05/K08 dependencies held for this amendment.
+Exact base rebind to integrated #115 / PR117 5a510ca64874efb81c075191b0790c48d4d24747 (two nonblocking K01 answer details); full clean regression rerun, no change to F00 affected scope.
