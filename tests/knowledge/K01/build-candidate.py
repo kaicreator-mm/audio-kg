@@ -47,7 +47,11 @@ negativeReasons={}
 for l in (ROOT/'cases/K01/negative-reasons.tsv').read_text().splitlines():
  key,fn,rn=l.split('\t');assert key not in negativeReasons and fn and rn
  negativeReasons[key]=(fn,rn)
-usedNegativeReasons=set()
+reverseAuth={}
+for l in (ROOT/'cases/K01/reverse-authoring.tsv').read_text().splitlines():
+ key,rpq,rpa,rnq=l.split('\t');assert key not in reverseAuth and rpq and rpa and rnq and rpq!=rpa and rpq!=rnq
+ reverseAuth[key]=(rpq,rpa,rnq)
+usedNegativeReasons=set();usedReverseAuth=set()
 for r in rows:
  d=r['d4'];verify(r['discoveryAnchor']);a=r['primaryCase'];prior=r['proposedDisposition']
  if d not in auth:
@@ -82,13 +86,13 @@ for r in rows:
   g='K01-GR-'+suf+'-'+label;records.append(rec('CaseGroup',g,d4=d,claim=cid(d),kind='SYNTHETIC'))
   negKey=suf+'-'+label;fn,rn=negativeReasons[negKey];usedNegativeReasons.add(negKey)
   assert fn!=views[1] and rn!=views[3]
+  rpq,rpa,rnq=reverseAuth[negKey];usedReverseAuth.add(negKey)
   for target,e in hard:ob.append(dict(edge=e,consumer=cid(d),provider=cid(target),condition=ctx(d),providerContext=ctx(target),group=g+'@1'))
   for i,(direction,polarity,key) in enumerate([('FORWARD','POSITIVE','FP'),('FORWARD','NEGATIVE','FN'),('REVERSE','POSITIVE','RP'),('REVERSE','NEGATIVE','RN')]):
    v='K01-V-'+suf+'-'+label+'-'+key
    q=[f'给定题设：{casecondition}。构造或判断：{r["originalPredicate"]}；给出限定结果。',
       f'给定题设：{casecondition}。以下为待审反例/边界描述，不是已证事实：「{views[1]}」。指出错误或越界条件。',
-      f'给定题设：{casecondition}。假设得到结果「{views[0]}」（非真实观测），如何回查输入与规则：{r["originalPredicate"]}？保留可能多解。',
-      f'给定题设：{casecondition}。若只保留结果「{views[0]}」或缺少辨别条件，哪些关于{r["originalPredicate"]}的反推必须拒绝或保持未知？'][i]
+      rpq,rnq][i]
    if i in (1,3):
     reason=fn if i==1 else rn
     expected='REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE' if i==1 else 'REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN'
@@ -97,10 +101,21 @@ for r in rows:
    else:
     expected=views[i];witnessRole='FROZEN_EXPECTED_NOT_OBSERVED'
     explanation=('正向依据：'+statement+'；在题定条件内据此得到所列期望结果。' if i==0 else '反向核验依据：'+statement+'；按所列核验步骤检查条件和候选解释，不将规则自动倒置为唯一原因。')
-   records.append(rec('CaseView',v,group=g+'@1',direction=direction,polarity=polarity,context=ctx(d),question=q,example=dict(frozenCase=caseid,caseCondition=casecondition,viewSpecificWitness=views[i],witnessRole=witnessRole,expectedResult=expected,reasoningBasis=fn if i==1 else rn if i==3 else statement,anchor=x,observationStatus='SYNTHETIC_EXPECTED_NOT_OBSERVED'),explanation=explanation,limits=limits,evidenceKind='SYNTHETIC_EXPECTED_NOT_OBSERVED'))
+   extra={}
+   if i in (2,3):
+    # Reverse inputs are authored per view, not synthesized from the forward answer.
+    # The frozen caseCondition remains provenance, not a conflicting active input.
+    extra=dict(directionSpecificProblem=q,caseConditionRole='FROZEN_GROUP_CONTEXT_NOT_ACTIVE_REVERSE_INPUT',scenarioKind='SCOPED_SYNTHETIC_REVERSE_PROBLEM')
+    if i==2:
+     expected=rpa
+     explanation='反向核验依据：'+statement+'；针对本反向题设，'+rpa+'。不把候选解释提升为唯一历史原因。'
+   if i==0 and negKey=='06-11-02-MAIN':
+    expected='首尾均八度（纵向实际12/7/3/9/12半音，非全程八度）；末D→C与B→C反向级进。上方G4开头在S217 H1不通过，另有S245规则允许。'
+    explanation='S217 H1局部起终依据：首末各为八度，内部为7/3/9半音；终止D→C与B→C反向级进。不得理解为全程八度，不套用另一作者开头P5例外。'
+   records.append(rec('CaseView',v,group=g+'@1',direction=direction,polarity=polarity,context=ctx(d),question=q,example=dict(frozenCase=caseid,caseCondition=casecondition,viewSpecificWitness=views[i],witnessRole=witnessRole,expectedResult=expected,reasoningBasis=fn if i==1 else rn if i==3 else statement,anchor=x,observationStatus='SYNTHETIC_EXPECTED_NOT_OBSERVED',**extra),explanation=explanation,limits=limits,evidenceKind='SYNTHETIC_EXPECTED_NOT_OBSERVED'))
    bindings.append(dict(id='K01-B-'+suf+'-'+label+'-'+key+'-PRIMARY',view=v+'@1',claim=cid(d),role='PRIMARY_TARGET',condition=ctx(d)))
    for target,e in hard:bindings.append(dict(id='K01-B-'+suf+'-'+label+'-'+key+'-H-'+suffix(target),view=v+'@1',claim=cid(target),role='REQUIRES',condition=ctx(d)))
-assert usedNegativeReasons==set(negativeReasons)
+assert usedNegativeReasons==set(negativeReasons) and usedReverseAuth==set(reverseAuth)
 pack=dict(format='audio-kg-candidate/1',owner='K01',coverageMode='MODULE',inventory=inventory,records=records,edges=edges,bindings=bindings);pblob=write('knowledge/K01/candidate.json',pack)
 manifest=dict(format='audio-kg-qualification/1',owner='K01',status='CANDIDATE_QUALIFICATION_ONLY',packBlob=pblob,sourceQualifications=sq,edgeQualifications=eq,obligations=ob);mblob=write('knowledge/K01/qualification.json',manifest)
 controller=dict(entries=[dict(pack='knowledge/K01/candidate.json',manifest='knowledge/K01/qualification.json',manifestBlob=mblob)],allowFixture=False,priorRegistry=None);cblob=write('knowledge/K01/controller-input.json',controller)

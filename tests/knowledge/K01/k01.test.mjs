@@ -2,8 +2,8 @@ import fs from 'node:fs';import os from 'node:os';import path from 'node:path';i
 import {cents,fromCents,interval,ratioMap,tuplet,normal,prime,vector,transform,matches,replay,stateStep} from './theory-witness.mjs';
 const root=process.cwd(),read=f=>JSON.parse(fs.readFileSync(f,'utf8')),same=(a,b)=>JSON.stringify(a)===JSON.stringify(b),checks=[];
 const test=(n,v)=>{if(!v)throw Error(n);checks.push([n,true]);};const refuse=(n,fn,re)=>{let e;try{fn()}catch(x){e=x}test(n,!!e&&(!re||re.test(e.message)));};const ref=r=>r.id+'@'+r.revision;
-const pin='1157e9a6cd12f44055b0fcda34abd8a344430a9a',controllerPath='knowledge/K01/controller-input.json',domainPath='knowledge/K01/domain-workflows.json',ledgerPath='cases/K01/frozen-input-ledger.json';
-for(const [f,h] of [[controllerPath,pin],[domainPath,'a80aa7e1624730a5e1d5bc33d90bbe860bbcaad7'],[ledgerPath,'3b68c0a8641a73026e749180567ea1352e527fd9'],['queries/K01/capability-index.json','37c13b0644bc56392f2474508e5c73478e2fb4eb'],['sources/K01/provenance.json','c29a5f5420ef4862b83e31140f3269fdb138561d'],['cases/K01/negative-reasons.tsv','8948edab5579258cb1c974599b83ca024585aa3a']])test('exact authoring '+f,gitBlob(fs.readFileSync(f))===h);
+const pin='d2f7041979f65d544ce9a98d6be357a93c4a302c',controllerPath='knowledge/K01/controller-input.json',domainPath='knowledge/K01/domain-workflows.json',ledgerPath='cases/K01/frozen-input-ledger.json';
+for(const [f,h] of [[controllerPath,pin],[domainPath,'a80aa7e1624730a5e1d5bc33d90bbe860bbcaad7'],[ledgerPath,'3b68c0a8641a73026e749180567ea1352e527fd9'],['queries/K01/capability-index.json','d0c7f78ecad2fe624db2e2b0e913888c3276afb1'],['sources/K01/provenance.json','c29a5f5420ef4862b83e31140f3269fdb138561d'],['cases/K01/negative-reasons.tsv','dc218b139b15284460bef225a9717bc9a0ded80f'],['cases/K01/reverse-authoring.tsv','757d060ed944f1c641b83b931bb7ef53ee2fd75a']])test('exact authoring '+f,gitBlob(fs.readFileSync(f))===h);
 const input=read(controllerPath),pack=read(input.entries[0].pack),manifest=read(input.entries[0].manifest),reader=openCandidateReader(root,input.entries),summary=reader.summary(),records=new Map(pack.records.map(r=>[ref(r),r])),domain=read(domainPath),ledger=read(ledgerPath),rows=ledger.rows,byD4=new Map(rows.map(r=>[r.d4,r])),frozen=read('ontology/l1-anchor-tree.json'),idx=read('queries/K01/discovery-index.json'),roles=read('queries/K01/capability-index.json'),legacy=read('queries/K01/legacy-routes.json'),splits=read('queries/K01/split-routes.json'),provenance=read('sources/K01/provenance.json'),cross=read('queries/K01/cross-domain-navigation.json');
 const anchors=new Map(),cached=new Map();function verify(a){if(!a)return true;if(a.commit!==frozen.commit)return false;if(!cached.has(a.file)){const b=fs.readFileSync(a.file),h=frozen.paths[a.file]||spawnSync('git',['rev-parse',frozen.commit+':'+a.file],{encoding:'utf8'}).stdout.trim();if(gitBlob(b)!==h)throw Error('frozen bytes '+a.file);cached.set(a.file,{h,lines:b.toString().split('\n')});}const b=cached.get(a.file);anchors.set(a.file+':'+a.line,a.blob);return b.h===a.blob&&b.lines[a.line-1]===a.row;}
 test('actual formal K01 full inventory and candidate-only counts',same(summary.counts,{records:1233,claims:132,edges:362,bindings:784,inventory:184})&&summary.acceptedClaims===0&&summary.unresolved.length===52&&pack.coverageMode==='MODULE');
@@ -36,8 +36,37 @@ function correctNegative(v){
 }
 test('RV01 exhaustive 147 independently authored negative reason pairs',negativeTable.size===147&&negativeViews.length===294);
 for(const v of negativeViews){const g=records.get(v.group),out=reader.retrieve(g.claim),actual=out.claims.find(c=>c.ref===g.claim).cases.find(c=>c.view.id===v.id)?.view;test('RV01 negative decision and reason '+v.id,correctNegative(actual));}
-for(const v of views.filter(v=>v.polarity==='POSITIVE'))test('RV01 positive answer and basis '+v.id,v.example.witnessRole==='FROZEN_EXPECTED_NOT_OBSERVED'&&v.example.expectedResult===v.example.viewSpecificWitness&&v.example.reasoningBasis===records.get(records.get(v.group).claim).statement&&v.explanation!==v.example.viewSpecificWitness&&v.question!==v.explanation);
+const reverseTable=new Map(fs.readFileSync('cases/K01/reverse-authoring.tsv','utf8').trimEnd().split('\n').map(l=>{const [id,rpq,rpa,rnq]=l.split('\t');return [id,{rpq,rpa,rnq}];}));
+const specialFP='K01-V-06-11-02-MAIN-FP';
+for(const v of views.filter(v=>v.polarity==='POSITIVE'))test('RV01 positive answer and basis '+v.id,v.example.witnessRole==='FROZEN_EXPECTED_NOT_OBSERVED'&&v.example.expectedResult===(v.direction==='REVERSE'?reverseTable.get(v.id.slice(6,-3)).rpa:v.id===specialFP?'首尾均八度（纵向实际12/7/3/9/12半音，非全程八度）；末D→C与B→C反向级进。上方G4开头在S217 H1不通过，另有S245规则允许。':v.example.viewSpecificWitness)&&v.example.reasoningBasis===records.get(records.get(v.group).claim).statement&&v.explanation!==v.example.viewSpecificWitness&&v.question!==v.explanation);
+
 const getView=id=>records.get('K01-V-'+id+'@1');
+// R3 exact actual reader view input/answer alignment, and scenario-specific professional probes.
+function reverseAligned(v){
+ const row=reverseTable.get(v.id.slice(6,-3)),rp=v.polarity==='POSITIVE',problem=rp?row?.rpq:row?.rnq;
+ return !!problem&&v.direction==='REVERSE'&&v.question===problem&&v.example.directionSpecificProblem===problem&&v.example.caseConditionRole==='FROZEN_GROUP_CONTEXT_NOT_ACTIVE_REVERSE_INPUT'&&v.example.scenarioKind==='SCOPED_SYNTHETIC_REVERSE_PROBLEM'&&v.example.expectedResult===(rp?row.rpa:'REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN')&&(!rp||v.explanation.includes(row.rpa))&&v.question!==v.example.expectedResult&&v.example.anchor.row.includes(v.example.viewSpecificWitness);
+}
+test('R3 147 distinct authored reverse scenario pairs',reverseTable.size===147&&views.filter(v=>v.direction==='REVERSE').length===294);
+for(const v of views.filter(v=>v.direction==='REVERSE')){
+ const g=records.get(v.group),actual=reader.retrieve(g.claim).claims.find(c=>c.ref===g.claim).cases.find(c=>c.view.id===v.id)?.view,fp=getView(v.id.slice(6,-3)+'-FP');
+ test('R3 actual reader direction-specific alignment '+v.id,reverseAligned(actual)&&actual.question!==fp.question);
+ const oldQuestion='给定题设：'+v.example.caseCondition+'。假设得到结果「'+fp.example.viewSpecificWitness+'」，如何反推？';
+ test('R3 rejects former forward-derived question '+v.id,!reverseAligned({...v,question:oldQuestion,example:{...v.example,directionSpecificProblem:oldQuestion}}));
+}
+const checkScenario=(id,qWords,aWords,reasonWords=[])=>{const v=getView(id);return qWords.every(w=>v.question.includes(w))&&aWords.every(w=>v.example.expectedResult.includes(w))&&reasonWords.every(w=>v.explanation.includes(w));};
+test('R3 traditional minor reverse asks actual altered descending observation',checkScenario('03-06-01-MAIN-RP',['D–C♯–B–A','未声明练习约定'],['爵士集合','传统上下行练习'])&&!getView('03-06-01-MAIN-RP').question.includes('B♭'));
+test('R3 symmetric transposition reverse question and answer match',checkScenario('09-05-01-MAIN-RN',['{0,6}','未知Tn','输出{0,6}'],['REJECT_UNSUPPORTED'],['T0','T6'])&&!getView('09-05-01-MAIN-RN').question.includes('{5,9,2}')&&same(matches([0,6],[0,6],['T']),['T0','T6'])&&same(matches([1,5,10],[5,9,2],['T']),['T4']));
+test('R3 changed Dm harmony explicit in actual boundary question',checkScenario('06-04-01-MAIN-RN',['由C改成Dm','D仍能'],['REJECT_UNSUPPORTED'],['和弦归属变化'])&&[2,5,9].includes(2)&&![0,4,7].includes(2));
+test('R3 exact alternate reverse context for source cents',checkScenario('02-04-02-MAIN-RP',['468.283Hz','100音分'],['约442Hz'])&&Math.abs(fromCents(468.283,-100)-442)<.001);
+test('R3 tuplet reverse uses named eighth and measured symbolic duration',checkScenario('04-06-02-MAIN-RP',['3/4','附点四分拍','八分'],['2:3'])&&same(tuplet([1,2],2,3,2),{per:[3,4],total:[3,2]}));
+test('R3 actual Z-pair reverse problem contains both input sets',checkScenario('09-08-03-MAIN-RP',['{0,1,4,6}','{0,1,3,7}'],['均不匹配'])&&matches([0,1,4,6],[0,1,3,7]).length===0);
+test('R3 actual reverse form boundary has no assumed original section',checkScenario('07-05-01-SUP-RN',['只有ABA','缺B比例'],['REJECT_UNSUPPORTED'],['完整主题','比例']));
+test('R3 actual reverse score protection input and rejection aligned',checkScenario('08-06-03-SUP-RP',['A1/A2 beam','B1音高','A2时值'],['拒绝候选','保留原稿']));
+test('R3 source fixed note comparison uses exact reference 1100',checkScenario('02-04-03-MAIN-RP',['220Hz','1100Hz','9Hz'],['229/220','1109/1100'])&&cents(220,229)>cents(1100,1109));
+test('R3 normal order original set not different tie example',checkScenario('09-07-01-MAIN-RP',['{0,4,7}','[4,7,12]'],['7、8、9','[0,4,7]'])&&same(normal([0,4,7],'F').order,[0,4,7]));
+test('R3 P2 D7 is target dominant not predominant',getView('03-04-02-MAIN-FN').explanation.includes('Am可作G调前属ii，D7为G调属七V7')&&!getView('03-04-02-MAIN-FN').explanation.includes('前属/属'));
+test('R3 P2 H1 first and last octave only, actual written intervals',getView('06-11-02-MAIN-FP').example.viewSpecificWitness.includes('始终八度')&&getView('06-11-02-MAIN-FP').example.expectedResult.includes('首尾均八度')&&getView('06-11-02-MAIN-FP').example.expectedResult.includes('12/7/3/9/12')&&same(['C4','D4','E4','D4','C4'].map((n,i)=>interval(n,['C5','A4','G4','B4','C5'][i]).semitones),[12,7,3,9,12]));
+
 const semanticNegatives=[
  ['05-06-01-MAIN-FN',['F自然','F♯','V7/V']],
  ['02-04-01-MAIN-FN',['1200log2(f2/f1)','不是Hz差','符号反转','零频率不在定义域']],
