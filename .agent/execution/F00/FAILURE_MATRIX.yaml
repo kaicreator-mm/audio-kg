@@ -1,0 +1,7 @@
+fail_closed:
+  - invalid identity or unqualified input: reject without qualified output
+  - missing dependency or context or source: reject structural candidate or explicit UNKNOWN for unresolved disposition
+  - unsupported new type or relation: reject; owning contract and concrete tests first
+  - stale report, changed revision: no inheritance of qualification
+  - review failure: block downstream native dependents
+  - secret/real audio/permission: out of scope, no execution
