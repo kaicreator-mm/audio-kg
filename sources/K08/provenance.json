@@ -1,0 +1,2552 @@
+{
+  "format": "audio-kg-K08-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S457",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r2.md",
+        "blob": "1e64ae921a77519cadbf2ff15702d6574417d5df",
+        "line": 5,
+        "row": "| S457 | Jacobsen 2012 [Time-Domain Periodicity and the Discrete Fourier Transform](https://www.dsprelated.com/showarticle/174.php)，Time Windows/Zero-Padding/Eq4 | READ_LOCATOR；矩形有限观察窗的谱主瓣及零点、非整周期泄漏、补零增加格点密度非增加实际观测信息、时间平移复相位。技术文章非独立工具验证；不采用文中所有主瓣宽度表述为普遍分辨率。 |"
+      },
+      "d4": "K08.03.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r2.md",
+        "blob": "1e64ae921a77519cadbf2ff15702d6574417d5df",
+        "line": 5,
+        "row": "| S457 | Jacobsen 2012 [Time-Domain Periodicity and the Discrete Fourier Transform](https://www.dsprelated.com/showarticle/174.php)，Time Windows/Zero-Padding/Eq4 | READ_LOCATOR；矩形有限观察窗的谱主瓣及零点、非整周期泄漏、补零增加格点密度非增加实际观测信息、时间平移复相位。技术文章非独立工具验证；不采用文中所有主瓣宽度表述为普遍分辨率。 |"
+      },
+      "uri": "https://www.dsprelated.com/showarticle/174.php"
+    },
+    {
+      "sourceId": "S033",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-foundation.md",
+        "blob": "1ac87e4a28772ef7a4df774f9301894206aec77d",
+        "line": 12,
+        "row": "| S033 | [同书 §17.3 Sound Intensity](https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity)，式17.8–17.10、平方反比及参考强度 | K07.01/06/07 | READ_LOCATOR；理想球面传播且忽略损耗，不能直接用于所有房间 |"
+      },
+      "d4": "K08.05.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-foundation.md",
+        "blob": "1ac87e4a28772ef7a4df774f9301894206aec77d",
+        "line": 12,
+        "row": "| S033 | [同书 §17.3 Sound Intensity](https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity)，式17.8–17.10、平方反比及参考强度 | K07.01/06/07 | READ_LOCATOR；理想球面传播且忽略损耗，不能直接用于所有房间 |"
+      },
+      "uri": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity"
+    },
+    {
+      "sourceId": "S467",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "d4": "K08.05.03.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "uri": "https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php"
+    },
+    {
+      "sourceId": "S467",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "d4": "K08.07.01.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "uri": "https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php"
+    },
+    {
+      "sourceId": "S454",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r1.md",
+        "blob": "cc5a3edaeda9a9446e3eba98498225831a27d06e",
+        "line": 12,
+        "row": "| S454 | [MIT OCW 21M.380 Room acoustics & reverberation 2016](https://ocw.mit.edu/courses/21m-380-music-and-technology-recording-techniques-and-audio-production-fall-2016/d315c75efb01cb76ca897958570bab87_MIT21M_380F16_ses18_note.pdf)，§4.3/4.4/5.1，实际截图零基2、3（印刷3、4） | READ_LOCATOR；平行刚性墙轴向模式、直达/早反射/混响、Sabine近似与频带吸收；示意反射时间不是普适边界，不采用表中房间目标、材料数值或教学高音量演示。 |"
+      },
+      "d4": "K08.07.03.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r1.md",
+        "blob": "cc5a3edaeda9a9446e3eba98498225831a27d06e",
+        "line": 12,
+        "row": "| S454 | [MIT OCW 21M.380 Room acoustics & reverberation 2016](https://ocw.mit.edu/courses/21m-380-music-and-technology-recording-techniques-and-audio-production-fall-2016/d315c75efb01cb76ca897958570bab87_MIT21M_380F16_ses18_note.pdf)，§4.3/4.4/5.1，实际截图零基2、3（印刷3、4） | READ_LOCATOR；平行刚性墙轴向模式、直达/早反射/混响、Sabine近似与频带吸收；示意反射时间不是普适边界，不采用表中房间目标、材料数值或教学高音量演示。 |"
+      },
+      "uri": "https://ocw.mit.edu/courses/21m-380-music-and-technology-recording-techniques-and-audio-production-fall-2016/d315c75efb01cb76ca897958570bab87_MIT21M_380F16_ses18_note.pdf"
+    },
+    {
+      "sourceId": "S467",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "d4": "K08.08.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "uri": "https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php"
+    },
+    {
+      "sourceId": "S033",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-foundation.md",
+        "blob": "1ac87e4a28772ef7a4df774f9301894206aec77d",
+        "line": 12,
+        "row": "| S033 | [同书 §17.3 Sound Intensity](https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity)，式17.8–17.10、平方反比及参考强度 | K07.01/06/07 | READ_LOCATOR；理想球面传播且忽略损耗，不能直接用于所有房间 |"
+      },
+      "d4": "K08.05.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-foundation.md",
+        "blob": "1ac87e4a28772ef7a4df774f9301894206aec77d",
+        "line": 12,
+        "row": "| S033 | [同书 §17.3 Sound Intensity](https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity)，式17.8–17.10、平方反比及参考强度 | K07.01/06/07 | READ_LOCATOR；理想球面传播且忽略损耗，不能直接用于所有房间 |"
+      },
+      "uri": "https://openstax.org/books/university-physics-volume-1/pages/17-3-sound-intensity"
+    },
+    {
+      "sourceId": "S467",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "d4": "K08.05.03.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "uri": "https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php"
+    },
+    {
+      "sourceId": "S467",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "d4": "K08.07.01.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K07",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-acoustics-r5.md",
+        "blob": "2da339ad36d5311dff9c4b6b7d93cbb9fc429004",
+        "line": 5,
+        "row": "| S467 | [ProbabilityCourse: Stationary Processes](https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php)，离散i.i.d.例、Weak-Sense Stationary Processes | READ_LOCATOR；严格平稳与宽平稳定义、均值和滞后相关条件；有限样本不证明生成模型，不能把单个幅度谱称平稳/非平稳。 |"
+      },
+      "uri": "https://www.probabilitycourse.com/chapter10/10_1_4_stationary_processes.php"
+    },
+    {
+      "sourceId": "S055",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 17,
+        "row": "| S055 | Smith DSP Guide ch3 https://www.dspguide.com/ch3/2.htm Sampling Theorem / aliasing | K08.01 | READ_LOCATOR；带限采样模型，术语约定 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Smith DSP Guide ch3",
+          "uri": "https://www.dspguide.com/ch3/2.htm"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.01.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 5,
+            "row": "| K08.01.01.03 | [DA01](digital-audio-r1-knowledge-cases.md#L5) | 采样混叠多解 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S057](../../research/source-qualification-vocal-digital.md#L19) | CQ07/CQ08 | CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 17,
+            "row": "| S055 | Smith DSP Guide ch3 https://www.dspguide.com/ch3/2.htm Sampling Theorem / aliasing | K08.01 | READ_LOCATOR；带限采样模型，术语约定 |"
+          }
+        },
+        {
+          "d4": "K08.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 10,
+            "row": "| K08.02.03.03 | [DA06](digital-audio-r1-knowledge-cases.md#L10) | 重采样与速率重解释 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S058](../../research/source-qualification-vocal-digital.md#L20) | CQ08/CQ23 | CQ07/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 17,
+            "row": "| S055 | Smith DSP Guide ch3 https://www.dspguide.com/ch3/2.htm Sampling Theorem / aliasing | K08.01 | READ_LOCATOR；带限采样模型，术语约定 |"
+          }
+        },
+        {
+          "d4": "K08.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 32,
+            "row": "| K08.01.01.04 | [DA28](digital-audio-r2-knowledge-cases.md#L5) | 抽取前抗混叠 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S481](../../research/source-qualification-digital-audio-r2.md#L7) | CQ07/CQ08 | CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 17,
+            "row": "| S055 | Smith DSP Guide ch3 https://www.dspguide.com/ch3/2.htm Sampling Theorem / aliasing | K08.01 | READ_LOCATOR；带限采样模型，术语约定 |"
+          }
+        }
+      ],
+      "scope": "| S055 | Smith DSP Guide ch3 https://www.dspguide.com/ch3/2.htm Sampling Theorem / aliasing | K08.01 | READ_LOCATOR；带限采样模型，术语约定 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S056",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 18,
+        "row": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "同书 Quantization",
+          "uri": "https://wap.dspguide.com/ch3/1.htm"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 6,
+            "row": "| K08.01.02.03 | [DA02](digital-audio-r1-knowledge-cases.md#L6) | 量化映射和有效位深 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ07/CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 18,
+            "row": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |"
+          }
+        },
+        {
+          "d4": "K08.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 15,
+            "row": "| K08.04.02.03 | [DA11](digital-audio-r1-knowledge-cases.md#L15) | 数字余量与量程 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08 | CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 18,
+            "row": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |"
+          }
+        },
+        {
+          "d4": "K08.07.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 24,
+            "row": "| K08.07.02.03 | [DA20](digital-audio-r1-knowledge-cases.md#L24) | 截幅多对一 | [S478](../../research/source-qualification-digital-audio-r1.md#L12)；[S056](../../research/source-qualification-vocal-digital.md#L18) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 18,
+            "row": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |"
+          }
+        },
+        {
+          "d4": "K08.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 33,
+            "row": "| K08.01.02.04 | [DA29](digital-audio-r2-knowledge-cases.md#L6) | 非减法扰动条件 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S480](../../research/source-qualification-digital-audio-r2.md#L6)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ07/CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 18,
+            "row": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |"
+          }
+        },
+        {
+          "d4": "K08.07.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 51,
+            "row": "| K08.07.02.04 | [DA47](digital-audio-r2-knowledge-cases.md#L24) | 削波mask与估计 | [S478](../../research/source-qualification-digital-audio-r1.md#L12)；[S056](../../research/source-qualification-vocal-digital.md#L18) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 18,
+            "row": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |"
+          }
+        }
+      ],
+      "scope": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S057",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 19,
+        "row": "| S057 | Audacity Sample Rates https://manual.audacityteam.org/man/sample_rates.html Bandwidth / 48,000 Hz | K08.01/02 | READ_LOCATOR；工具教学说明，不普遍化采样率建议 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Audacity Sample Rates",
+          "uri": "https://manual.audacityteam.org/man/sample_rates.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.01.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 5,
+            "row": "| K08.01.01.03 | [DA01](digital-audio-r1-knowledge-cases.md#L5) | 采样混叠多解 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S057](../../research/source-qualification-vocal-digital.md#L19) | CQ07/CQ08 | CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 19,
+            "row": "| S057 | Audacity Sample Rates https://manual.audacityteam.org/man/sample_rates.html Bandwidth / 48,000 Hz | K08.01/02 | READ_LOCATOR；工具教学说明，不普遍化采样率建议 |"
+          }
+        }
+      ],
+      "scope": "| S057 | Audacity Sample Rates https://manual.audacityteam.org/man/sample_rates.html Bandwidth / 48,000 Hz | K08.01/02 | READ_LOCATOR；工具教学说明，不普遍化采样率建议 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S058",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 20,
+        "row": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "FFmpeg Resampler",
+          "uri": "https://www.ffmpeg.org/ffmpeg-resampler.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 10,
+            "row": "| K08.02.03.03 | [DA06](digital-audio-r1-knowledge-cases.md#L10) | 重采样与速率重解释 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S058](../../research/source-qualification-vocal-digital.md#L20) | CQ08/CQ23 | CQ07/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 20,
+            "row": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |"
+          }
+        },
+        {
+          "d4": "K08.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 16,
+            "row": "| K08.04.03.03 | [DA12](digital-audio-r1-knowledge-cases.md#L16) | 通道矩阵标记 | [S058](../../research/source-qualification-vocal-digital.md#L20)；[S060](../../research/source-qualification-vocal-digital.md#L22)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ24 | CQ08/CQ10/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 20,
+            "row": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |"
+          }
+        },
+        {
+          "d4": "K08.02.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 37,
+            "row": "| K08.02.03.04 | [DA33](digital-audio-r2-knowledge-cases.md#L10) | 比例和声道映射 | [S481](../../research/source-qualification-digital-audio-r2.md#L7)；[S058](../../research/source-qualification-vocal-digital.md#L20) | CQ08/CQ23 | CQ07/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 20,
+            "row": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |"
+          }
+        },
+        {
+          "d4": "K08.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 43,
+            "row": "| K08.04.03.04 | [DA39](digital-audio-r2-knowledge-cases.md#L16) | 极性抵消 | [S058](../../research/source-qualification-vocal-digital.md#L20)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ24 | CQ08/CQ10/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 20,
+            "row": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |"
+          }
+        }
+      ],
+      "scope": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S060",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 22,
+        "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Audacity Playing and Recording",
+          "uri": "https://manual.audacityteam.org/man/playing_and_recording.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 14,
+            "row": "| K08.04.01.03 | [DA10](digital-audio-r1-knowledge-cases.md#L14) | 上游削波不可逆 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 16,
+            "row": "| K08.04.03.03 | [DA12](digital-audio-r1-knowledge-cases.md#L16) | 通道矩阵标记 | [S058](../../research/source-qualification-vocal-digital.md#L20)；[S060](../../research/source-qualification-vocal-digital.md#L22)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ24 | CQ08/CQ10/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 20,
+            "row": "| K08.06.01.03 | [DA16](digital-audio-r1-knowledge-cases.md#L20) | 配置与实际帧 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 21,
+            "row": "| K08.06.02.03 | [DA17](digital-audio-r1-knowledge-cases.md#L21) | 偏移与漂移 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ21/CQ24 | CQ04/CQ06/CQ12/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 22,
+            "row": "| K08.06.03.03 | [DA18](digital-audio-r1-knowledge-cases.md#L22) | 故障证据和补值 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 41,
+            "row": "| K08.04.01.04 | [DA37](digital-audio-r2-knowledge-cases.md#L14) | 模拟数字节点区分 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 47,
+            "row": "| K08.06.01.04 | [DA43](digital-audio-r2-knowledge-cases.md#L20) | 帧边界与监听状态 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 48,
+            "row": "| K08.06.02.04 | [DA44](digital-audio-r2-knowledge-cases.md#L21) | 三点时钟残差 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ21/CQ24 | CQ04/CQ06/CQ12/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        },
+        {
+          "d4": "K08.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 49,
+            "row": "| K08.06.03.04 | [DA45](digital-audio-r2-knowledge-cases.md#L22) | 日志与帧缺失 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 22,
+            "row": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |"
+          }
+        }
+      ],
+      "scope": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S061",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 23,
+        "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Audacity FAQ Recording",
+          "uri": "https://manual.audacityteam.org/man/faq_recording_troubleshooting.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 7,
+            "row": "| K08.01.03.03 | [DA03](digital-audio-r1-knowledge-cases.md#L7) | 帧布局与采样时钟 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ08/CQ21 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 14,
+            "row": "| K08.04.01.03 | [DA10](digital-audio-r1-knowledge-cases.md#L14) | 上游削波不可逆 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 19,
+            "row": "| K08.05.03.03 | [DA15](digital-audio-r1-knowledge-cases.md#L19) | 背景干扰多解 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ24 | CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 20,
+            "row": "| K08.06.01.03 | [DA16](digital-audio-r1-knowledge-cases.md#L20) | 配置与实际帧 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 21,
+            "row": "| K08.06.02.03 | [DA17](digital-audio-r1-knowledge-cases.md#L21) | 偏移与漂移 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ21/CQ24 | CQ04/CQ06/CQ12/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 22,
+            "row": "| K08.06.03.03 | [DA18](digital-audio-r1-knowledge-cases.md#L22) | 故障证据和补值 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 31,
+            "row": "| K08.09.03.03 | [DA27](digital-audio-r1-knowledge-cases.md#L31) | 欠载溢出、帧策略和状态位 | [S066](../../research/source-qualification-vocal-digital.md#L28)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ24 | CQ10/CQ19/CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 34,
+            "row": "| K08.01.03.04 | [DA30](digital-audio-r2-knowledge-cases.md#L7) | 时钟和布局独立 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ08/CQ21 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 41,
+            "row": "| K08.04.01.04 | [DA37](digital-audio-r2-knowledge-cases.md#L14) | 模拟数字节点区分 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 46,
+            "row": "| K08.05.03.04 | [DA42](digital-audio-r2-knowledge-cases.md#L19) | 独立环境链路证据 | [S061](../../research/source-qualification-vocal-digital.md#L23)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ24 | CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 47,
+            "row": "| K08.06.01.04 | [DA43](digital-audio-r2-knowledge-cases.md#L20) | 帧边界与监听状态 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 48,
+            "row": "| K08.06.02.04 | [DA44](digital-audio-r2-knowledge-cases.md#L21) | 三点时钟残差 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ21/CQ24 | CQ04/CQ06/CQ12/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 49,
+            "row": "| K08.06.03.04 | [DA45](digital-audio-r2-knowledge-cases.md#L22) | 日志与帧缺失 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        },
+        {
+          "d4": "K08.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 58,
+            "row": "| K08.09.03.04 | [DA54](digital-audio-r2-knowledge-cases.md#L31) | 多状态位、回调有界交接与复测 | [S066](../../research/source-qualification-vocal-digital.md#L28)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ24 | CQ10/CQ19/CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 23,
+            "row": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |"
+          }
+        }
+      ],
+      "scope": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S063",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 25,
+        "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Audacity Noise Reduction",
+          "uri": "https://manual.audacityteam.org/man/noise_reduction.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 19,
+            "row": "| K08.05.03.03 | [DA15](digital-audio-r1-knowledge-cases.md#L19) | 背景干扰多解 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ24 | CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 25,
+            "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+          }
+        },
+        {
+          "d4": "K08.07.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 23,
+            "row": "| K08.07.01.03 | [DA19](digital-audio-r1-knowledge-cases.md#L23) | 持续干扰和瞬态 | [S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ16 | CQ06/CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 25,
+            "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+          }
+        },
+        {
+          "d4": "K08.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 46,
+            "row": "| K08.05.03.04 | [DA42](digital-audio-r2-knowledge-cases.md#L19) | 独立环境链路证据 | [S061](../../research/source-qualification-vocal-digital.md#L23)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ24 | CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 25,
+            "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+          }
+        },
+        {
+          "d4": "K08.07.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 50,
+            "row": "| K08.07.01.04 | [DA46](digital-audio-r2-knowledge-cases.md#L23) | 持续和点击残差 | [S063](../../research/source-qualification-vocal-digital.md#L25)；[S486](../../research/source-qualification-digital-audio-r2.md#L12)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ16 | CQ06/CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 25,
+            "row": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |"
+          }
+        }
+      ],
+      "scope": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S064",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 26,
+        "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "SigSep MUSDB18",
+          "uri": "https://sigsep.github.io/datasets/musdb.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 9,
+            "row": "| K08.02.02.03 | [DA05](digital-audio-r1-knowledge-cases.md#L9) | 容器流与扩展名 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S064](../../research/source-qualification-vocal-digital.md#L26)；[S471](../../research/source-qualification-digital-audio-r1.md#L5) | CQ20/CQ23 | CQ08/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 26,
+            "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+          }
+        },
+        {
+          "d4": "K08.08.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 26,
+            "row": "| K08.08.01.03 | [DA22](digital-audio-r1-knowledge-cases.md#L26) | 混合源类别 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10 | CQ09/CQ11/CQ12/CQ20/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 26,
+            "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+          }
+        },
+        {
+          "d4": "K08.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 27,
+            "row": "| K08.08.02.03 | [DA23](digital-audio-r1-knowledge-cases.md#L27) | 泄漏与目标损失 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ22 | CQ07/CQ11/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 26,
+            "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+          }
+        },
+        {
+          "d4": "K08.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 28,
+            "row": "| K08.08.03.03 | [DA24](digital-audio-r1-knowledge-cases.md#L28) | 基准协议 | [S064](../../research/source-qualification-vocal-digital.md#L26) | CQ11/CQ22 | CQ09/CQ20/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 26,
+            "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+          }
+        },
+        {
+          "d4": "K08.08.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 53,
+            "row": "| K08.08.01.04 | [DA49](digital-audio-r2-knowledge-cases.md#L26) | 混合一致非源真值 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S484](../../research/source-qualification-digital-audio-r2.md#L10) | CQ10 | CQ09/CQ11/CQ12/CQ20/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 26,
+            "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+          }
+        },
+        {
+          "d4": "K08.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 54,
+            "row": "| K08.08.02.04 | [DA50](digital-audio-r2-knowledge-cases.md#L27) | 正交泄漏与残差 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S064](../../research/source-qualification-vocal-digital.md#L26) | CQ10/CQ22 | CQ07/CQ11/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 26,
+            "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+          }
+        },
+        {
+          "d4": "K08.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 55,
+            "row": "| K08.08.03.04 | [DA51](digital-audio-r2-knowledge-cases.md#L28) | SI-SDR尺度限制 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S064](../../research/source-qualification-vocal-digital.md#L26) | CQ11/CQ22 | CQ09/CQ20/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 26,
+            "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+          }
+        }
+      ],
+      "scope": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S065",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 27,
+        "row": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "PortAudio Writing a Callback",
+          "uri": "https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.09.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 29,
+            "row": "| K08.09.01.03 | [DA25](digital-audio-r1-knowledge-cases.md#L29) | 缓冲与路径时延 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19 | CQ08/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 27,
+            "row": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |"
+          }
+        },
+        {
+          "d4": "K08.09.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 30,
+            "row": "| K08.09.02.03 | [DA26](digital-audio-r1-knowledge-cases.md#L30) | 逐次回调预算 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19/CQ24 | CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 27,
+            "row": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |"
+          }
+        },
+        {
+          "d4": "K08.09.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 56,
+            "row": "| K08.09.01.04 | [DA52](digital-audio-r2-knowledge-cases.md#L29) | 回调块和实测时钟 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19 | CQ08/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 27,
+            "row": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |"
+          }
+        },
+        {
+          "d4": "K08.09.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 57,
+            "row": "| K08.09.02.04 | [DA53](digital-audio-r2-knowledge-cases.md#L30) | 逐次期限与队列 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19/CQ24 | CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 27,
+            "row": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |"
+          }
+        }
+      ],
+      "scope": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S066",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 28,
+        "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "PortAudio API",
+          "uri": "https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 22,
+            "row": "| K08.06.03.03 | [DA18](digital-audio-r1-knowledge-cases.md#L22) | 故障证据和补值 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        },
+        {
+          "d4": "K08.09.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 29,
+            "row": "| K08.09.01.03 | [DA25](digital-audio-r1-knowledge-cases.md#L29) | 缓冲与路径时延 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19 | CQ08/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        },
+        {
+          "d4": "K08.09.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 30,
+            "row": "| K08.09.02.03 | [DA26](digital-audio-r1-knowledge-cases.md#L30) | 逐次回调预算 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19/CQ24 | CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        },
+        {
+          "d4": "K08.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 31,
+            "row": "| K08.09.03.03 | [DA27](digital-audio-r1-knowledge-cases.md#L31) | 欠载溢出、帧策略和状态位 | [S066](../../research/source-qualification-vocal-digital.md#L28)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ24 | CQ10/CQ19/CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        },
+        {
+          "d4": "K08.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 49,
+            "row": "| K08.06.03.04 | [DA45](digital-audio-r2-knowledge-cases.md#L22) | 日志与帧缺失 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        },
+        {
+          "d4": "K08.09.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 56,
+            "row": "| K08.09.01.04 | [DA52](digital-audio-r2-knowledge-cases.md#L29) | 回调块和实测时钟 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19 | CQ08/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        },
+        {
+          "d4": "K08.09.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 57,
+            "row": "| K08.09.02.04 | [DA53](digital-audio-r2-knowledge-cases.md#L30) | 逐次期限与队列 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19/CQ24 | CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        },
+        {
+          "d4": "K08.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 58,
+            "row": "| K08.09.03.04 | [DA54](digital-audio-r2-knowledge-cases.md#L31) | 多状态位、回调有界交接与复测 | [S066](../../research/source-qualification-vocal-digital.md#L28)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ24 | CQ10/CQ19/CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-vocal-digital.md",
+            "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+            "line": 28,
+            "row": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |"
+          }
+        }
+      ],
+      "scope": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S471",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 5,
+        "row": "| S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "RFC9639 FLAC",
+          "uri": "https://datatracker.ietf.org/doc/html/rfc9639"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 8,
+            "row": "| K08.02.01.03 | [DA04](digital-audio-r1-knowledge-cases.md#L8) | PCM帧字节、有效位与容器、有损损失 | [S471](../../research/source-qualification-digital-audio-r1.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08/CQ23 | CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 5,
+            "row": "| S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |"
+          }
+        },
+        {
+          "d4": "K08.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 9,
+            "row": "| K08.02.02.03 | [DA05](digital-audio-r1-knowledge-cases.md#L9) | 容器流与扩展名 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S064](../../research/source-qualification-vocal-digital.md#L26)；[S471](../../research/source-qualification-digital-audio-r1.md#L5) | CQ20/CQ23 | CQ08/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 5,
+            "row": "| S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |"
+          }
+        },
+        {
+          "d4": "K08.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 35,
+            "row": "| K08.02.01.04 | [DA31](digital-audio-r2-knowledge-cases.md#L8) | 解码样本等价 | [S471](../../research/source-qualification-digital-audio-r1.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08/CQ23 | CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 5,
+            "row": "| S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |"
+          }
+        }
+      ],
+      "scope": "| S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S472",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 6,
+        "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Microsoft WAVEFORMATEXTENSIBLE",
+          "uri": "https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 6,
+            "row": "| K08.01.02.03 | [DA02](digital-audio-r1-knowledge-cases.md#L6) | 量化映射和有效位深 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ07/CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 7,
+            "row": "| K08.01.03.03 | [DA03](digital-audio-r1-knowledge-cases.md#L7) | 帧布局与采样时钟 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ08/CQ21 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 8,
+            "row": "| K08.02.01.03 | [DA04](digital-audio-r1-knowledge-cases.md#L8) | PCM帧字节、有效位与容器、有损损失 | [S471](../../research/source-qualification-digital-audio-r1.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08/CQ23 | CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 9,
+            "row": "| K08.02.02.03 | [DA05](digital-audio-r1-knowledge-cases.md#L9) | 容器流与扩展名 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S064](../../research/source-qualification-vocal-digital.md#L26)；[S471](../../research/source-qualification-digital-audio-r1.md#L5) | CQ20/CQ23 | CQ08/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 15,
+            "row": "| K08.04.02.03 | [DA11](digital-audio-r1-knowledge-cases.md#L15) | 数字余量与量程 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08 | CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 16,
+            "row": "| K08.04.03.03 | [DA12](digital-audio-r1-knowledge-cases.md#L16) | 通道矩阵标记 | [S058](../../research/source-qualification-vocal-digital.md#L20)；[S060](../../research/source-qualification-vocal-digital.md#L22)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ24 | CQ08/CQ10/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 20,
+            "row": "| K08.06.01.03 | [DA16](digital-audio-r1-knowledge-cases.md#L20) | 配置与实际帧 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 33,
+            "row": "| K08.01.02.04 | [DA29](digital-audio-r2-knowledge-cases.md#L6) | 非减法扰动条件 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S480](../../research/source-qualification-digital-audio-r2.md#L6)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ07/CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 34,
+            "row": "| K08.01.03.04 | [DA30](digital-audio-r2-knowledge-cases.md#L7) | 时钟和布局独立 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ08/CQ21 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 35,
+            "row": "| K08.02.01.04 | [DA31](digital-audio-r2-knowledge-cases.md#L8) | 解码样本等价 | [S471](../../research/source-qualification-digital-audio-r1.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08/CQ23 | CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.02.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 36,
+            "row": "| K08.02.02.04 | [DA32](digital-audio-r2-knowledge-cases.md#L9) | RIFF边界填充与容器帧对齐 | [S479](../../research/source-qualification-digital-audio-r2.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ20/CQ23 | CQ08/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 42,
+            "row": "| K08.04.02.04 | [DA38](digital-audio-r2-knowledge-cases.md#L15) | 样本峰与重建峰 | [S483](../../research/source-qualification-digital-audio-r2.md#L9)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 43,
+            "row": "| K08.04.03.04 | [DA39](digital-audio-r2-knowledge-cases.md#L16) | 极性抵消 | [S058](../../research/source-qualification-vocal-digital.md#L20)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ24 | CQ08/CQ10/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        },
+        {
+          "d4": "K08.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 47,
+            "row": "| K08.06.01.04 | [DA43](digital-audio-r2-knowledge-cases.md#L20) | 帧边界与监听状态 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 6,
+            "row": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |"
+          }
+        }
+      ],
+      "scope": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S473",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 7,
+        "row": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Smith DSP Guide ch6 Convolution",
+          "uri": "https://www.dspguide.com/ch6/2.htm"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 11,
+            "row": "| K08.03.01.03 | [DA07](digital-audio-r1-knowledge-cases.md#L11) | 线性卷积与群延迟 | [S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10 | CQ07/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 7,
+            "row": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |"
+          }
+        },
+        {
+          "d4": "K08.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 25,
+            "row": "| K08.07.03.03 | [DA21](digital-audio-r1-knowledge-cases.md#L25) | 盲去混响多解 | [S473](../../research/source-qualification-digital-audio-r1.md#L7)；[S454](../../research/source-qualification-acoustics-r1.md#L12) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 7,
+            "row": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |"
+          }
+        },
+        {
+          "d4": "K08.08.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 26,
+            "row": "| K08.08.01.03 | [DA22](digital-audio-r1-knowledge-cases.md#L26) | 混合源类别 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10 | CQ09/CQ11/CQ12/CQ20/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 7,
+            "row": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |"
+          }
+        },
+        {
+          "d4": "K08.03.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 38,
+            "row": "| K08.03.01.04 | [DA34](digital-audio-r2-knowledge-cases.md#L11) | 循环折叠与边界 | [S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10 | CQ07/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 7,
+            "row": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |"
+          }
+        },
+        {
+          "d4": "K08.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 52,
+            "row": "| K08.07.03.04 | [DA48](digital-audio-r2-knowledge-cases.md#L25) | 延迟预测条件 | [S485](../../research/source-qualification-digital-audio-r2.md#L11)；[S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 7,
+            "row": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |"
+          }
+        }
+      ],
+      "scope": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S474",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 8,
+        "row": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "librosa 0.11.0 STFT",
+          "uri": "https://librosa.org/doc/0.11.0/generated/librosa.stft.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.03.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 12,
+            "row": "| K08.03.02.03 | [DA08](digital-audio-r1-knowledge-cases.md#L12) | STFT真实观察窗与FFT格点/hop分离 | [S474](../../research/source-qualification-digital-audio-r1.md#L8)；[S457](../../research/source-qualification-acoustics-r2.md#L5) | CQ07/CQ10 | CQ08/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 8,
+            "row": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |"
+          }
+        },
+        {
+          "d4": "K08.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 39,
+            "row": "| K08.03.02.04 | [DA35](digital-audio-r2-knowledge-cases.md#L12) | 逆STFT NOLA | [S474](../../research/source-qualification-digital-audio-r1.md#L8)；[S482](../../research/source-qualification-digital-audio-r2.md#L8) | CQ07/CQ10 | CQ08/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 8,
+            "row": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |"
+          }
+        }
+      ],
+      "scope": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S475",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 9,
+        "row": "| S475 | [librosa 0.11.0 phase_vocoder](https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html) 简化实现及rate | READ_LOCATOR；速度参数、STFT输入，明确未处理瞬态及可能伪影；不承诺商用质量或工具可用。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "librosa 0.11.0 phase_vocoder",
+          "uri": "https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 13,
+            "row": "| K08.03.03.03 | [DA09](digital-audio-r1-knowledge-cases.md#L13) | 变速保调变调目标 | [S475](../../research/source-qualification-digital-audio-r1.md#L9)；[S477](../../research/source-qualification-digital-audio-r1.md#L11) | CQ16 | CQ01/CQ04/CQ06/CQ12/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 9,
+            "row": "| S475 | [librosa 0.11.0 phase_vocoder](https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html) 简化实现及rate | READ_LOCATOR；速度参数、STFT输入，明确未处理瞬态及可能伪影；不承诺商用质量或工具可用。 |"
+          }
+        },
+        {
+          "d4": "K08.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 40,
+            "row": "| K08.03.03.04 | [DA36](digital-audio-r2-knowledge-cases.md#L13) | 时间轴和瞬态保护 | [S475](../../research/source-qualification-digital-audio-r1.md#L9)；[S477](../../research/source-qualification-digital-audio-r1.md#L11) | CQ16 | CQ01/CQ04/CQ06/CQ12/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 9,
+            "row": "| S475 | [librosa 0.11.0 phase_vocoder](https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html) 简化实现及rate | READ_LOCATOR；速度参数、STFT输入，明确未处理瞬态及可能伪影；不承诺商用质量或工具可用。 |"
+          }
+        }
+      ],
+      "scope": "| S475 | [librosa 0.11.0 phase_vocoder](https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html) 简化实现及rate | READ_LOCATOR；速度参数、STFT输入，明确未处理瞬态及可能伪影；不承诺商用质量或工具可用。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S476",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 10,
+        "row": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Shure Microphone Directionality and Polar Pattern Basics",
+          "uri": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 17,
+            "row": "| K08.05.01.03 | [DA13](digital-audio-r1-knowledge-cases.md#L17) | 理想心形角响应 | [S476](../../research/source-qualification-digital-audio-r1.md#L10) | CQ19 | CQ03/CQ07/CQ10/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 10,
+            "row": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |"
+          }
+        },
+        {
+          "d4": "K08.05.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 18,
+            "row": "| K08.05.02.03 | [DA14](digital-audio-r1-knowledge-cases.md#L18) | 距离和近讲 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S033](../../research/source-qualification-foundation.md#L12) | CQ19 | CQ03/CQ07/CQ10/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 10,
+            "row": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |"
+          }
+        },
+        {
+          "d4": "K08.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 19,
+            "row": "| K08.05.03.03 | [DA15](digital-audio-r1-knowledge-cases.md#L19) | 背景干扰多解 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ24 | CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 10,
+            "row": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |"
+          }
+        },
+        {
+          "d4": "K08.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 44,
+            "row": "| K08.05.01.04 | [DA40](digital-audio-r2-knowledge-cases.md#L17) | 方向响应极性 | [S476](../../research/source-qualification-digital-audio-r1.md#L10) | CQ19 | CQ03/CQ07/CQ10/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 10,
+            "row": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |"
+          }
+        },
+        {
+          "d4": "K08.05.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 45,
+            "row": "| K08.05.02.04 | [DA41](digital-audio-r2-knowledge-cases.md#L18) | 单因素位置对照 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S033](../../research/source-qualification-foundation.md#L12) | CQ19 | CQ03/CQ07/CQ10/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 10,
+            "row": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |"
+          }
+        }
+      ],
+      "scope": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S477",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 11,
+        "row": "| S477 | [Audacity Change Speed and Pitch](https://manual.audacityteam.org/man/change_speed.html) speed multiplier/selection length | READ_LOCATOR；变速同时变调和时长，保调/变调为不同任务，开发版页面未固定实际安装。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Audacity Change Speed and Pitch",
+          "uri": "https://manual.audacityteam.org/man/change_speed.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 13,
+            "row": "| K08.03.03.03 | [DA09](digital-audio-r1-knowledge-cases.md#L13) | 变速保调变调目标 | [S475](../../research/source-qualification-digital-audio-r1.md#L9)；[S477](../../research/source-qualification-digital-audio-r1.md#L11) | CQ16 | CQ01/CQ04/CQ06/CQ12/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 11,
+            "row": "| S477 | [Audacity Change Speed and Pitch](https://manual.audacityteam.org/man/change_speed.html) speed multiplier/selection length | READ_LOCATOR；变速同时变调和时长，保调/变调为不同任务，开发版页面未固定实际安装。 |"
+          }
+        },
+        {
+          "d4": "K08.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 40,
+            "row": "| K08.03.03.04 | [DA36](digital-audio-r2-knowledge-cases.md#L13) | 时间轴和瞬态保护 | [S475](../../research/source-qualification-digital-audio-r1.md#L9)；[S477](../../research/source-qualification-digital-audio-r1.md#L11) | CQ16 | CQ01/CQ04/CQ06/CQ12/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 11,
+            "row": "| S477 | [Audacity Change Speed and Pitch](https://manual.audacityteam.org/man/change_speed.html) speed multiplier/selection length | READ_LOCATOR；变速同时变调和时长，保调/变调为不同任务，开发版页面未固定实际安装。 |"
+          }
+        }
+      ],
+      "scope": "| S477 | [Audacity Change Speed and Pitch](https://manual.audacityteam.org/man/change_speed.html) speed multiplier/selection length | READ_LOCATOR；变速同时变调和时长，保调/变调为不同任务，开发版页面未固定实际安装。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S478",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r1.md",
+        "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+        "line": 12,
+        "row": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Audacity Clip Fix",
+          "uri": "https://manual.audacityteam.org/man/clip_fix.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 14,
+            "row": "| K08.04.01.03 | [DA10](digital-audio-r1-knowledge-cases.md#L14) | 上游削波不可逆 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 12,
+            "row": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |"
+          }
+        },
+        {
+          "d4": "K08.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 15,
+            "row": "| K08.04.02.03 | [DA11](digital-audio-r1-knowledge-cases.md#L15) | 数字余量与量程 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08 | CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 12,
+            "row": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |"
+          }
+        },
+        {
+          "d4": "K08.07.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 24,
+            "row": "| K08.07.02.03 | [DA20](digital-audio-r1-knowledge-cases.md#L24) | 截幅多对一 | [S478](../../research/source-qualification-digital-audio-r1.md#L12)；[S056](../../research/source-qualification-vocal-digital.md#L18) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 12,
+            "row": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |"
+          }
+        },
+        {
+          "d4": "K08.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 41,
+            "row": "| K08.04.01.04 | [DA37](digital-audio-r2-knowledge-cases.md#L14) | 模拟数字节点区分 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 12,
+            "row": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |"
+          }
+        },
+        {
+          "d4": "K08.07.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 51,
+            "row": "| K08.07.02.04 | [DA47](digital-audio-r2-knowledge-cases.md#L24) | 削波mask与估计 | [S478](../../research/source-qualification-digital-audio-r1.md#L12)；[S056](../../research/source-qualification-vocal-digital.md#L18) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r1.md",
+            "blob": "28c24ea9a00225244a5fb71389d1a0958b6d77e3",
+            "line": 12,
+            "row": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |"
+          }
+        }
+      ],
+      "scope": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S479",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 5,
+        "row": "| S479 | [Microsoft RIFF](https://learn.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-) Chunks | READ_LOCATOR；RIFF/WAVE、fmt/data、chunkSize排除填充和8字节头，WORD对齐；公开说明非全规范，McGill WAVE页超时；本轮仅有限结构验证，非通用解析器。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Microsoft RIFF",
+          "uri": "https://learn.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.02.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 36,
+            "row": "| K08.02.02.04 | [DA32](digital-audio-r2-knowledge-cases.md#L9) | RIFF边界填充与容器帧对齐 | [S479](../../research/source-qualification-digital-audio-r2.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ20/CQ23 | CQ08/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 5,
+            "row": "| S479 | [Microsoft RIFF](https://learn.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-) Chunks | READ_LOCATOR；RIFF/WAVE、fmt/data、chunkSize排除填充和8字节头，WORD对齐；公开说明非全规范，McGill WAVE页超时；本轮仅有限结构验证，非通用解析器。 |"
+          }
+        }
+      ],
+      "scope": "| S479 | [Microsoft RIFF](https://learn.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-) Chunks | READ_LOCATOR；RIFF/WAVE、fmt/data、chunkSize排除填充和8字节头，WORD对齐；公开说明非全规范，McGill WAVE页超时；本轮仅有限结构验证，非通用解析器。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S480",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 6,
+        "row": "| S480 | [Lipshitz等1992 Quantization and Dither](https://aes.org/publications/elibrary/elibrary-page/?id=7047) Abstract | ABSTRACT_READ；区分无抖动、减法、非减法抖动及误差统计；1991非减法PDF截图超时，不采正文定理或通用SNR；自建有限随机量化见证，不声称标准TPDF实现。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Lipshitz等1992 Quantization and Dither",
+          "uri": "https://aes.org/publications/elibrary/elibrary-page/?id=7047"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 33,
+            "row": "| K08.01.02.04 | [DA29](digital-audio-r2-knowledge-cases.md#L6) | 非减法扰动条件 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S480](../../research/source-qualification-digital-audio-r2.md#L6)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ07/CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 6,
+            "row": "| S480 | [Lipshitz等1992 Quantization and Dither](https://aes.org/publications/elibrary/elibrary-page/?id=7047) Abstract | ABSTRACT_READ；区分无抖动、减法、非减法抖动及误差统计；1991非减法PDF截图超时，不采正文定理或通用SNR；自建有限随机量化见证，不声称标准TPDF实现。 |"
+          }
+        }
+      ],
+      "scope": "| S480 | [Lipshitz等1992 Quantization and Dither](https://aes.org/publications/elibrary/elibrary-page/?id=7047) Abstract | ABSTRACT_READ；区分无抖动、减法、非减法抖动及误差统计；1991非减法PDF截图超时，不采正文定理或通用SNR；自建有限随机量化见证，不声称标准TPDF实现。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S481",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 7,
+        "row": "| S481 | [SciPy 1.15.1 resample_poly](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html) Description/Notes/padtype | READ_LOCATOR；升采样/低通/降采样、边界及滤波条件；非执行SciPy。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "SciPy 1.15.1 resample_poly",
+          "uri": "https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 32,
+            "row": "| K08.01.01.04 | [DA28](digital-audio-r2-knowledge-cases.md#L5) | 抽取前抗混叠 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S481](../../research/source-qualification-digital-audio-r2.md#L7) | CQ07/CQ08 | CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 7,
+            "row": "| S481 | [SciPy 1.15.1 resample_poly](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html) Description/Notes/padtype | READ_LOCATOR；升采样/低通/降采样、边界及滤波条件；非执行SciPy。 |"
+          }
+        },
+        {
+          "d4": "K08.02.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 37,
+            "row": "| K08.02.03.04 | [DA33](digital-audio-r2-knowledge-cases.md#L10) | 比例和声道映射 | [S481](../../research/source-qualification-digital-audio-r2.md#L7)；[S058](../../research/source-qualification-vocal-digital.md#L20) | CQ08/CQ23 | CQ07/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 7,
+            "row": "| S481 | [SciPy 1.15.1 resample_poly](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html) Description/Notes/padtype | READ_LOCATOR；升采样/低通/降采样、边界及滤波条件；非执行SciPy。 |"
+          }
+        }
+      ],
+      "scope": "| S481 | [SciPy 1.15.1 resample_poly](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html) Description/Notes/padtype | READ_LOCATOR；升采样/低通/降采样、边界及滤波条件；非执行SciPy。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S482",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 8,
+        "row": "| S482 | [SciPy 1.15.1 istft](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.istft.html) Notes | READ_LOCATOR；R2c重读HTML L31–51及历史Notes：NOLA、窗口平方和归一化、修改谱不保证可实现，最小二乘重建；旧API，非运行。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "SciPy 1.15.1 istft",
+          "uri": "https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.istft.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 39,
+            "row": "| K08.03.02.04 | [DA35](digital-audio-r2-knowledge-cases.md#L12) | 逆STFT NOLA | [S474](../../research/source-qualification-digital-audio-r1.md#L8)；[S482](../../research/source-qualification-digital-audio-r2.md#L8) | CQ07/CQ10 | CQ08/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 8,
+            "row": "| S482 | [SciPy 1.15.1 istft](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.istft.html) Notes | READ_LOCATOR；R2c重读HTML L31–51及历史Notes：NOLA、窗口平方和归一化、修改谱不保证可实现，最小二乘重建；旧API，非运行。 |"
+          }
+        }
+      ],
+      "scope": "| S482 | [SciPy 1.15.1 istft](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.istft.html) Notes | READ_LOCATOR；R2c重读HTML L31–51及历史Notes：NOLA、窗口平方和归一化、修改谱不保证可实现，最小二乘重建；旧API，非运行。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S483",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 9,
+        "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "ITU-R BS.1770-5 (2023)",
+          "uri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 42,
+            "row": "| K08.04.02.04 | [DA38](digital-audio-r2-knowledge-cases.md#L15) | 样本峰与重建峰 | [S483](../../research/source-qualification-digital-audio-r2.md#L9)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 9,
+            "row": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |"
+          }
+        }
+      ],
+      "scope": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S484",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?",
+          "uri": "https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.08.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 53,
+            "row": "| K08.08.01.04 | [DA49](digital-audio-r2-knowledge-cases.md#L26) | 混合一致非源真值 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S484](../../research/source-qualification-digital-audio-r2.md#L10) | CQ10 | CQ09/CQ11/CQ12/CQ20/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 10,
+            "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+          }
+        },
+        {
+          "d4": "K08.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 54,
+            "row": "| K08.08.02.04 | [DA50](digital-audio-r2-knowledge-cases.md#L27) | 正交泄漏与残差 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S064](../../research/source-qualification-vocal-digital.md#L26) | CQ10/CQ22 | CQ07/CQ11/CQ20/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 10,
+            "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+          }
+        },
+        {
+          "d4": "K08.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 55,
+            "row": "| K08.08.03.04 | [DA51](digital-audio-r2-knowledge-cases.md#L28) | SI-SDR尺度限制 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S064](../../research/source-qualification-vocal-digital.md#L26) | CQ11/CQ22 | CQ09/CQ20/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 10,
+            "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+          }
+        }
+      ],
+      "scope": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S485",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 11,
+        "row": "| S485 | [Kinoshita/Nakatani NTT Technical Review 2011](https://ntt-review.jp/archive/ntttechnical.php?contents=ntr201107ra3.html) §2–3 | READ_LOCATOR；多步线性预测以语音短时相关和延迟条件估计晚期混响，目标可保留早反射；不采用论文具体时间阈值或泛化音乐。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Kinoshita/Nakatani NTT Technical Review 2011",
+          "uri": "https://ntt-review.jp/archive/ntttechnical.php?contents=ntr201107ra3.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 52,
+            "row": "| K08.07.03.04 | [DA48](digital-audio-r2-knowledge-cases.md#L25) | 延迟预测条件 | [S485](../../research/source-qualification-digital-audio-r2.md#L11)；[S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 11,
+            "row": "| S485 | [Kinoshita/Nakatani NTT Technical Review 2011](https://ntt-review.jp/archive/ntttechnical.php?contents=ntr201107ra3.html) §2–3 | READ_LOCATOR；多步线性预测以语音短时相关和延迟条件估计晚期混响，目标可保留早反射；不采用论文具体时间阈值或泛化音乐。 |"
+          }
+        }
+      ],
+      "scope": "| S485 | [Kinoshita/Nakatani NTT Technical Review 2011](https://ntt-review.jp/archive/ntttechnical.php?contents=ntr201107ra3.html) §2–3 | READ_LOCATOR；多步线性预测以语音短时相关和延迟条件估计晚期混响，目标可保留早反射；不采用论文具体时间阈值或泛化音乐。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S486",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 12,
+        "row": "| S486 | [Audacity Click Removal](https://manual.audacityteam.org/man/click_removal.html) threshold/max spike width与失败说明 | READ_LOCATOR；点击处理特定条件，阈值/宽度可能影响有效瞬态，未验证实际版本和运行。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Audacity Click Removal",
+          "uri": "https://manual.audacityteam.org/man/click_removal.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K08.07.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+            "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+            "line": 50,
+            "row": "| K08.07.01.04 | [DA46](digital-audio-r2-knowledge-cases.md#L23) | 持续和点击残差 | [S063](../../research/source-qualification-vocal-digital.md#L25)；[S486](../../research/source-qualification-digital-audio-r2.md#L12)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ16 | CQ06/CQ07/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-digital-audio-r2.md",
+            "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+            "line": 12,
+            "row": "| S486 | [Audacity Click Removal](https://manual.audacityteam.org/man/click_removal.html) threshold/max spike width与失败说明 | READ_LOCATOR；点击处理特定条件，阈值/宽度可能影响有效瞬态，未验证实际版本和运行。 |"
+          }
+        }
+      ],
+      "scope": "| S486 | [Audacity Click Removal](https://manual.audacityteam.org/man/click_removal.html) threshold/max spike width与失败说明 | READ_LOCATOR；点击处理特定条件，阈值/宽度可能影响有效瞬态，未验证实际版本和运行。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

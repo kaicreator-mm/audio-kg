@@ -1,0 +1,1281 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "d4": "K08.01.01.01",
+      "historicalRequirement": "采样率与带宽",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.01.01.03",
+        "K08.01.01.04"
+      ],
+      "unresolved": [],
+      "limits": "采样频率、Nyquist与真实带宽，严格带限条件",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 5,
+        "row": "| K08.01.01.01 | 采样率与带宽 | ROUTER_CANDIDATE | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5) | 采样频率、Nyquist与真实带宽，严格带限条件 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA28@1"
+      ]
+    },
+    {
+      "d4": "K08.01.01.02",
+      "historicalRequirement": "抗混叠及信息损失",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.01.01.03",
+        "K08.01.01.04"
+      ],
+      "unresolved": [],
+      "limits": "直接抽取的混叠多解及滤波先于抽取，不能恢复旧损失",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 6,
+        "row": "| K08.01.01.02 | 抗混叠及信息损失 | BOUNDED_COMPOSITION | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5) | 直接抽取的混叠多解及滤波先于抽取，不能恢复旧损失 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA28@1"
+      ]
+    },
+    {
+      "d4": "K08.01.02.01",
+      "historicalRequirement": "离散时间与离散幅度",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.01.02.03",
+        "K08.01.02.04"
+      ],
+      "unresolved": [],
+      "limits": "时间离散、幅度离散及明确量化映射；帧字节须独立引用[DA04](digital-audio-r1-knowledge-cases.md#L8)容器宽度",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 7,
+        "row": "| K08.01.02.01 | 离散时间与离散幅度 | ROUTER_CANDIDATE | [DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6) | 时间离散、幅度离散及明确量化映射；帧字节须独立引用[DA04](digital-audio-r1-knowledge-cases.md#L8)容器宽度 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA02@1",
+        "K08-CL-DA29@1"
+      ]
+    },
+    {
+      "d4": "K08.01.02.02",
+      "historicalRequirement": "整数浮点及量化误差",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.01.02.03",
+        "K08.01.02.04"
+      ],
+      "unresolved": [],
+      "limits": "整数/浮点/有效位深与量化误差、非减法扰动并非普遍无偏；[DA04/32](digital-audio-r3-legacy-convergence.md#L11) 有效20位不代24位容器字节",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 8,
+        "row": "| K08.01.02.02 | 整数浮点及量化误差 | BOUNDED_COMPOSITION | [DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6) | 整数/浮点/有效位深与量化误差、非减法扰动并非普遍无偏；[DA04/32](digital-audio-r3-legacy-convergence.md#L11) 有效20位不代24位容器字节 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA02@1",
+        "K08-CL-DA29@1"
+      ]
+    },
+    {
+      "d4": "K08.01.03.01",
+      "historicalRequirement": "声道布局帧采样时钟",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.01.03.03",
+        "K08.01.03.04"
+      ],
+      "unresolved": [],
+      "limits": "帧、声道位置与采样时钟分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 9,
+        "row": "| K08.01.03.01 | 声道布局帧采样时钟 | ROUTER_CANDIDATE | [DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | 帧、声道位置与采样时钟分离 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA03@1",
+        "K08-CL-DA30@1"
+      ]
+    },
+    {
+      "d4": "K08.01.03.02",
+      "historicalRequirement": "时钟差异与同步",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.01.03.03",
+        "K08.01.03.04"
+      ],
+      "unresolved": [],
+      "limits": "时钟差异、独立事件/布局、同标称速率非同步",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 10,
+        "row": "| K08.01.03.02 | 时钟差异与同步 | BOUNDED_COMPOSITION | [DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | 时钟差异、独立事件/布局、同标称速率非同步 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA03@1",
+        "K08-CL-DA30@1"
+      ]
+    },
+    {
+      "d4": "K08.02.01.01",
+      "historicalRequirement": "PCM无损有损区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.02.01.03",
+        "K08.02.01.04"
+      ],
+      "unresolved": [],
+      "limits": "PCM样本表示、有效位/容器字节与无损/有损编码分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 11,
+        "row": "| K08.02.01.01 | PCM无损有损区别 | ROUTER_CANDIDATE | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8) | PCM样本表示、有效位/容器字节与无损/有损编码分离 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA31@1"
+      ]
+    },
+    {
+      "d4": "K08.02.01.02",
+      "historicalRequirement": "编码参数与转码限制",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.02.01.03",
+        "K08.02.01.04"
+      ],
+      "unresolved": [],
+      "limits": "逐样本等价、参数/元数据、既往有损损失不恢复；实际容器/块布局见[DA05](digital-audio-r1-knowledge-cases.md#L9)/[DA32](digital-audio-r2-knowledge-cases.md#L9)",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 12,
+        "row": "| K08.02.01.02 | 编码参数与转码限制 | BOUNDED_COMPOSITION | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8) | 逐样本等价、参数/元数据、既往有损损失不恢复；实际容器/块布局见[DA05](digital-audio-r1-knowledge-cases.md#L9)/[DA32](digital-audio-r2-knowledge-cases.md#L9) |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA31@1"
+      ]
+    },
+    {
+      "d4": "K08.02.02.01",
+      "historicalRequirement": "容器流扩展名区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.02.02.03",
+        "K08.02.02.04"
+      ],
+      "unresolved": [],
+      "limits": "容器、流、扩展名和有效位深各自独立",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 13,
+        "row": "| K08.02.02.01 | 容器流扩展名区别 | ROUTER_CANDIDATE | [DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9) | 容器、流、扩展名和有效位深各自独立 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA05@1",
+        "K08-CL-DA32@1"
+      ]
+    },
+    {
+      "d4": "K08.02.02.02",
+      "historicalRequirement": "验证元数据与解码能力",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.02.02.03",
+        "K08.02.02.04"
+      ],
+      "unresolved": [],
+      "limits": "RIFF边界、奇数填充、fmt/data、blockAlign和解码证据",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 14,
+        "row": "| K08.02.02.02 | 验证元数据与解码能力 | BOUNDED_COMPOSITION | [DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9) | RIFF边界、奇数填充、fmt/data、blockAlign和解码证据 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA05@1",
+        "K08-CL-DA32@1"
+      ]
+    },
+    {
+      "d4": "K08.02.03.01",
+      "historicalRequirement": "重采样与重解释采样率区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.02.03.03",
+        "K08.02.03.04"
+      ],
+      "unresolved": [],
+      "limits": "时长保持重采样与头部速率重解释",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 15,
+        "row": "| K08.02.03.01 | 重采样与重解释采样率区别 | ROUTER_CANDIDATE | [DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | 时长保持重采样与头部速率重解释 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA06@1",
+        "K08-CL-DA33@1"
+      ]
+    },
+    {
+      "d4": "K08.02.03.02",
+      "historicalRequirement": "抗混叠声道映射条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.02.03.03",
+        "K08.02.03.04"
+      ],
+      "unresolved": [],
+      "limits": "比例、低通、边界、声道映射和延迟条件",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 16,
+        "row": "| K08.02.03.02 | 抗混叠声道映射条件 | BOUNDED_COMPOSITION | [DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | 比例、低通、边界、声道映射和延迟条件 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA06@1",
+        "K08-CL-DA33@1"
+      ]
+    },
+    {
+      "d4": "K08.03.01.01",
+      "historicalRequirement": "响应与输入输出关系",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.03.01.03",
+        "K08.03.01.04"
+      ],
+      "unresolved": [],
+      "limits": "有限卷积、冲激响应与输出长度",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 17,
+        "row": "| K08.03.01.01 | 响应与输入输出关系 | ROUTER_CANDIDATE | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11) | 有限卷积、冲激响应与输出长度 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA34@1"
+      ]
+    },
+    {
+      "d4": "K08.03.01.02",
+      "historicalRequirement": "相位边界副作用",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.03.01.03",
+        "K08.03.01.04"
+      ],
+      "unresolved": [],
+      "limits": "循环卷积折叠、相位/边界/目标频带保护",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 18,
+        "row": "| K08.03.01.02 | 相位边界副作用 | BOUNDED_COMPOSITION | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11) | 循环卷积折叠、相位/边界/目标频带保护 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA34@1"
+      ]
+    },
+    {
+      "d4": "K08.03.02.01",
+      "historicalRequirement": "全局变换与局部窗口",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.03.02.03",
+        "K08.03.02.04"
+      ],
+      "unresolved": [],
+      "limits": "全局复谱与局部窗口/时间定位；固定nfft960的10/20ms观察窗格点相同",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 19,
+        "row": "| K08.03.02.01 | 全局变换与局部窗口 | ROUTER_CANDIDATE | [DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12) | 全局复谱与局部窗口/时间定位；固定nfft960的10/20ms观察窗格点相同 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA08@1",
+        "K08-CL-DA35@1"
+      ]
+    },
+    {
+      "d4": "K08.03.02.02",
+      "historicalRequirement": "FFT长度窗长步幅单位",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.03.02.03",
+        "K08.03.02.04"
+      ],
+      "unresolved": [],
+      "limits": "FFT长度、窗长、hop、单位、覆盖及NOLA逆变换；固定观察窗零填充仅改变频率格点",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 20,
+        "row": "| K08.03.02.02 | FFT长度窗长步幅单位 | BOUNDED_COMPOSITION | [DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12) | FFT长度、窗长、hop、单位、覆盖及NOLA逆变换；固定观察窗零填充仅改变频率格点 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA08@1",
+        "K08-CL-DA35@1"
+      ]
+    },
+    {
+      "d4": "K08.03.03.01",
+      "historicalRequirement": "变速保调拉伸与变调区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.03.03.03",
+        "K08.03.03.04"
+      ],
+      "unresolved": [],
+      "limits": "变速/保调/独立变调三目标",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 21,
+        "row": "| K08.03.03.01 | 变速保调拉伸与变调区别 | ROUTER_CANDIDATE | [DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | 变速/保调/独立变调三目标 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA09@1",
+        "K08-CL-DA36@1"
+      ]
+    },
+    {
+      "d4": "K08.03.03.02",
+      "historicalRequirement": "算法假设与伪影",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.03.03.03",
+        "K08.03.03.04"
+      ],
+      "unresolved": [],
+      "limits": "目标时间轴、F0、瞬态和多声道相位保护",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 22,
+        "row": "| K08.03.03.02 | 算法假设与伪影 | BOUNDED_COMPOSITION | [DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | 目标时间轴、F0、瞬态和多声道相位保护 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA09@1",
+        "K08-CL-DA36@1"
+      ]
+    },
+    {
+      "d4": "K08.04.01.01",
+      "historicalRequirement": "输入增益路由输出",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.04.01.03",
+        "K08.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "输入增益/路由/ADC/数字/输出监测点",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 23,
+        "row": "| K08.04.01.01 | 输入增益路由输出 | ROUTER_CANDIDATE | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14) | 输入增益/路由/ADC/数字/输出监测点 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA37@1"
+      ]
+    },
+    {
+      "d4": "K08.04.01.02",
+      "historicalRequirement": "模拟数字节点区别",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.04.01.03",
+        "K08.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "模拟过载与数字削波不同，后级增益不恢复上游",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 24,
+        "row": "| K08.04.01.02 | 模拟数字节点区别 | BOUNDED_COMPOSITION | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14) | 模拟过载与数字削波不同，后级增益不恢复上游 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA37@1"
+      ]
+    },
+    {
+      "d4": "K08.04.02.01",
+      "historicalRequirement": "峰值平均值参考单位",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.04.02.03",
+        "K08.04.02.04"
+      ],
+      "unresolved": [],
+      "limits": "样本峰、RMS、重建峰和满刻度参照",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 25,
+        "row": "| K08.04.02.01 | 峰值平均值参考单位 | ROUTER_CANDIDATE | [DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15) | 样本峰、RMS、重建峰和满刻度参照 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA11@1",
+        "K08-CL-DA38@1"
+      ]
+    },
+    {
+      "d4": "K08.04.02.02",
+      "historicalRequirement": "固定点浮点条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.04.02.03",
+        "K08.04.02.04"
+      ],
+      "unresolved": [],
+      "limits": "固定点范围、浮点中间余量及后级量程，真峰数学反例",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 26,
+        "row": "| K08.04.02.02 | 固定点浮点条件 | BOUNDED_COMPOSITION | [DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15) | 固定点范围、浮点中间余量及后级量程，真峰数学反例 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA11@1",
+        "K08-CL-DA38@1"
+      ]
+    },
+    {
+      "d4": "K08.04.03.01",
+      "historicalRequirement": "通道及监测点",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.04.03.03",
+        "K08.04.03.04"
+      ],
+      "unresolved": [],
+      "limits": "独立通道标记、矩阵及监测点",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 27,
+        "row": "| K08.04.03.01 | 通道及监测点 | ROUTER_CANDIDATE | [DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | 独立通道标记、矩阵及监测点 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA12@1",
+        "K08-CL-DA39@1"
+      ]
+    },
+    {
+      "d4": "K08.04.03.02",
+      "historicalRequirement": "错误路由与增益故障",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.04.03.03",
+        "K08.04.03.04"
+      ],
+      "unresolved": [],
+      "limits": "极性抵消、交换/静音/增益故障候选，不唯一诊断",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 28,
+        "row": "| K08.04.03.02 | 错误路由与增益故障 | BOUNDED_COMPOSITION | [DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | 极性抵消、交换/静音/增益故障候选，不唯一诊断 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA12@1",
+        "K08-CL-DA39@1"
+      ]
+    },
+    {
+      "d4": "K08.05.01.01",
+      "historicalRequirement": "传感器与指向响应",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.05.01.03",
+        "K08.05.01.04"
+      ],
+      "unresolved": [],
+      "limits": "传感器方向响应、全向/心形/8字极性",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 29,
+        "row": "| K08.05.01.01 | 传感器与指向响应 | ROUTER_CANDIDATE | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17) | 传感器方向响应、全向/心形/8字极性 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA40@1"
+      ]
+    },
+    {
+      "d4": "K08.05.01.02",
+      "historicalRequirement": "频率角度型号条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.05.01.03",
+        "K08.05.01.04"
+      ],
+      "unresolved": [],
+      "limits": "频率角度、实际型号、反射与相位证据",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 30,
+        "row": "| K08.05.01.02 | 频率角度型号条件 | BOUNDED_COMPOSITION | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17) | 频率角度、实际型号、反射与相位证据 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA40@1"
+      ]
+    },
+    {
+      "d4": "K08.05.02.01",
+      "historicalRequirement": "距离角度与近讲效应",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.05.02.03",
+        "K08.05.02.04"
+      ],
+      "unresolved": [],
+      "limits": "距离与角度、近讲和自由场区别",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 31,
+        "row": "| K08.05.02.01 | 距离角度与近讲效应 | ROUTER_CANDIDATE | [DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18) | 距离与角度、近讲和自由场区别 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA14@1",
+        "K08-CL-DA41@1"
+      ]
+    },
+    {
+      "d4": "K08.05.02.02",
+      "historicalRequirement": "空间与拾音条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.05.02.03",
+        "K08.05.02.04"
+      ],
+      "unresolved": [],
+      "limits": "源/房间/位置/链路单因素对照，真实拾音另证",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 32,
+        "row": "| K08.05.02.02 | 空间与拾音条件 | BOUNDED_COMPOSITION | [DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18) | 源/房间/位置/链路单因素对照，真实拾音另证 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA14@1",
+        "K08-CL-DA41@1"
+      ]
+    },
+    {
+      "d4": "K08.05.03.01",
+      "historicalRequirement": "环境声电气机械噪声",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.05.03.03",
+        "K08.05.03.04"
+      ],
+      "unresolved": [],
+      "limits": "环境/机械/电气干扰与周期噪声候选",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 33,
+        "row": "| K08.05.03.01 | 环境声电气机械噪声 | ROUTER_CANDIDATE | [DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | 环境/机械/电气干扰与周期噪声候选 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA15@1",
+        "K08-CL-DA42@1"
+      ]
+    },
+    {
+      "d4": "K08.05.03.02",
+      "historicalRequirement": "对照记录及试听",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.05.03.03",
+        "K08.05.03.04"
+      ],
+      "unresolved": [],
+      "limits": "独立环境/链路记录、目标保护，试听须授权安全",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 34,
+        "row": "| K08.05.03.02 | 对照记录及试听 | BOUNDED_COMPOSITION | [DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | 独立环境/链路记录、目标保护，试听须授权安全 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA15@1",
+        "K08-CL-DA42@1"
+      ]
+    },
+    {
+      "d4": "K08.06.01.01",
+      "historicalRequirement": "设备采样率声道电平",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.06.01.03",
+        "K08.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "设备配置、声道速率、量程与帧边界",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 35,
+        "row": "| K08.06.01.01 | 设备采样率声道电平 | ROUTER_CANDIDATE | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20) | 设备配置、声道速率、量程与帧边界 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA43@1"
+      ]
+    },
+    {
+      "d4": "K08.06.01.02",
+      "historicalRequirement": "试录及监听状态",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.06.01.03",
+        "K08.06.01.04"
+      ],
+      "unresolved": [],
+      "limits": "启动/监听与实际文件写入验证分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 36,
+        "row": "| K08.06.01.02 | 试录及监听状态 | BOUNDED_COMPOSITION | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20) | 启动/监听与实际文件写入验证分离 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA43@1"
+      ]
+    },
+    {
+      "d4": "K08.06.02.01",
+      "historicalRequirement": "时间基准对齐延迟补偿",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.06.02.03",
+        "K08.06.02.04"
+      ],
+      "unresolved": [],
+      "limits": "独立时基、偏移与漂移候选",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 37,
+        "row": "| K08.06.02.01 | 时间基准对齐延迟补偿 | ROUTER_CANDIDATE | [DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21) | 独立时基、偏移与漂移候选 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA17@1",
+        "K08-CL-DA44@1"
+      ]
+    },
+    {
+      "d4": "K08.06.02.02",
+      "historicalRequirement": "时钟漂移候选",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.06.02.03",
+        "K08.06.02.04"
+      ],
+      "unresolved": [],
+      "limits": "多事件身份、三点残差及非线性/丢帧拒绝",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 38,
+        "row": "| K08.06.02.02 | 时钟漂移候选 | BOUNDED_COMPOSITION | [DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21) | 多事件身份、三点残差及非线性/丢帧拒绝 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA17@1",
+        "K08-CL-DA44@1"
+      ]
+    },
+    {
+      "d4": "K08.06.03.01",
+      "historicalRequirement": "take原始素材及设置",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.06.03.03",
+        "K08.06.03.04"
+      ],
+      "unresolved": [],
+      "limits": "take原件、配置与故障记录",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 39,
+        "row": "| K08.06.03.01 | take原始素材及设置 | ROUTER_CANDIDATE | [DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | take原件、配置与故障记录 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA18@1",
+        "K08-CL-DA45@1"
+      ]
+    },
+    {
+      "d4": "K08.06.03.02",
+      "historicalRequirement": "故障观测与修正证据",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.06.03.03",
+        "K08.06.03.04"
+      ],
+      "unresolved": [],
+      "limits": "日志缺失/实际帧缺失与估计补值分离，保留证据",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 40,
+        "row": "| K08.06.03.02 | 故障观测与修正证据 | BOUNDED_COMPOSITION | [DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | 日志缺失/实际帧缺失与估计补值分离，保留证据 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA18@1",
+        "K08-CL-DA45@1"
+      ]
+    },
+    {
+      "d4": "K08.07.01.01",
+      "historicalRequirement": "持续与瞬态干扰",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.07.01.03",
+        "K08.07.01.04"
+      ],
+      "unresolved": [],
+      "limits": "持续干扰/瞬态点击，方法按证据选",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 41,
+        "row": "| K08.07.01.01 | 持续与瞬态干扰 | ROUTER_CANDIDATE | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23) | 持续干扰/瞬态点击，方法按证据选 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA46@1"
+      ]
+    },
+    {
+      "d4": "K08.07.01.02",
+      "historicalRequirement": "方法选择及目标损伤",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.07.01.03",
+        "K08.07.01.04"
+      ],
+      "unresolved": [],
+      "limits": "纯噪声条件、独立残差/目标损伤、保护原件",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 42,
+        "row": "| K08.07.01.02 | 方法选择及目标损伤 | BOUNDED_COMPOSITION | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23) | 纯噪声条件、独立残差/目标损伤、保护原件 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA46@1"
+      ]
+    },
+    {
+      "d4": "K08.07.02.01",
+      "historicalRequirement": "削波及估计重建区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.07.02.03",
+        "K08.07.02.04"
+      ],
+      "unresolved": [],
+      "limits": "截幅多对一及插值估计",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 43,
+        "row": "| K08.07.02.01 | 削波及估计重建区别 | ROUTER_CANDIDATE | [DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24) | 截幅多对一及插值估计 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA20@1",
+        "K08-CL-DA47@1"
+      ]
+    },
+    {
+      "d4": "K08.07.02.02",
+      "historicalRequirement": "信息损失及重录替代",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.07.02.03",
+        "K08.07.02.04"
+      ],
+      "unresolved": [],
+      "limits": "原峰未知、mask、独立参考/授权重录是新记录",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 44,
+        "row": "| K08.07.02.02 | 信息损失及重录替代 | BOUNDED_COMPOSITION | [DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24) | 原峰未知、mask、独立参考/授权重录是新记录 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA20@1",
+        "K08-CL-DA47@1"
+      ]
+    },
+    {
+      "d4": "K08.07.03.01",
+      "historicalRequirement": "房间响应与干声估计",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.07.03.03",
+        "K08.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "房间卷积、干声/直达及早反射目标",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 45,
+        "row": "| K08.07.03.01 | 房间响应与干声估计 | ROUTER_CANDIDATE | [DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | 房间卷积、干声/直达及早反射目标 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA21@1",
+        "K08-CL-DA48@1"
+      ]
+    },
+    {
+      "d4": "K08.07.03.02",
+      "historicalRequirement": "盲恢复不确定及伪影",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.07.03.03",
+        "K08.07.03.04"
+      ],
+      "unresolved": [],
+      "limits": "盲反演多解、延迟预测假设及音乐目标损伤",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 46,
+        "row": "| K08.07.03.02 | 盲恢复不确定及伪影 | BOUNDED_COMPOSITION | [DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | 盲反演多解、延迟预测假设及音乐目标损伤 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA21@1",
+        "K08-CL-DA48@1"
+      ]
+    },
+    {
+      "d4": "K08.08.01.01",
+      "historicalRequirement": "mixture stem源关系",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.08.01.03",
+        "K08.08.01.04"
+      ],
+      "unresolved": [],
+      "limits": "混合/源图像/stem类别和版本",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 47,
+        "row": "| K08.08.01.01 | mixture stem源关系 | ROUTER_CANDIDATE | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26) | 混合/源图像/stem类别和版本 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA49@1"
+      ]
+    },
+    {
+      "d4": "K08.08.01.02",
+      "historicalRequirement": "类别及混合假设",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.08.01.03",
+        "K08.08.01.04"
+      ],
+      "unresolved": [],
+      "limits": "线性模型与编码、混合一致不等源正确",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 48,
+        "row": "| K08.08.01.02 | 类别及混合假设 | BOUNDED_COMPOSITION | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26) | 线性模型与编码、混合一致不等源正确 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA49@1"
+      ]
+    },
+    {
+      "d4": "K08.08.02.01",
+      "historicalRequirement": "串音目标损失伪影区别",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.08.02.03",
+        "K08.08.02.04"
+      ],
+      "unresolved": [],
+      "limits": "目标损失、泄漏与额外残差分别",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 49,
+        "row": "| K08.08.02.01 | 串音目标损失伪影区别 | ROUTER_CANDIDATE | [DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27) | 目标损失、泄漏与额外残差分别 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA23@1",
+        "K08-CL-DA50@1"
+      ]
+    },
+    {
+      "d4": "K08.08.02.02",
+      "historicalRequirement": "参考和听评条件",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.08.02.03",
+        "K08.08.02.04"
+      ],
+      "unresolved": [],
+      "limits": "指定正交参考、投影和听评限制",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 50,
+        "row": "| K08.08.02.02 | 参考和听评条件 | BOUNDED_COMPOSITION | [DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27) | 指定正交参考、投影和听评限制 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA23@1",
+        "K08-CL-DA50@1"
+      ]
+    },
+    {
+      "d4": "K08.08.03.01",
+      "historicalRequirement": "参考指标与无参考听评",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.08.03.03",
+        "K08.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "参考SI-SDR与无参考评价分开",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 51,
+        "row": "| K08.08.03.01 | 参考指标与无参考听评 | ROUTER_CANDIDATE | [DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | 参考SI-SDR与无参考评价分开 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA24@1",
+        "K08-CL-DA51@1"
+      ]
+    },
+    {
+      "d4": "K08.08.03.02",
+      "historicalRequirement": "基准协议授权及产物",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.08.03.03",
+        "K08.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "对齐、尺度/退化策略、版本/划分/权限及产物",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 52,
+        "row": "| K08.08.03.02 | 基准协议授权及产物 | BOUNDED_COMPOSITION | [DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | 对齐、尺度/退化策略、版本/划分/权限及产物 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA24@1",
+        "K08-CL-DA51@1"
+      ]
+    },
+    {
+      "d4": "K08.09.01.01",
+      "historicalRequirement": "帧数采样率计算缓冲时间",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.09.01.03",
+        "K08.09.01.04"
+      ],
+      "unresolved": [],
+      "limits": "帧数/速率名义时长",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 53,
+        "row": "| K08.09.01.01 | 帧数采样率计算缓冲时间 | ROUTER_CANDIDATE | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29) | 帧数/速率名义时长 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA52@1"
+      ]
+    },
+    {
+      "d4": "K08.09.01.02",
+      "historicalRequirement": "缓冲与端到端延迟",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.09.01.03",
+        "K08.09.01.04"
+      ],
+      "unresolved": [],
+      "limits": "可靠时间戳、队列及端到端延迟不唯一",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 54,
+        "row": "| K08.09.01.02 | 缓冲与端到端延迟 | BOUNDED_COMPOSITION | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29) | 可靠时间戳、队列及端到端延迟不唯一 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA52@1"
+      ]
+    },
+    {
+      "d4": "K08.09.02.01",
+      "historicalRequirement": "时间预算及不确定阻塞",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.09.02.03",
+        "K08.09.02.04"
+      ],
+      "unresolved": [],
+      "limits": "逐次期限、阻塞和回调预算",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 55,
+        "row": "| K08.09.02.01 | 时间预算及不确定阻塞 | ROUTER_CANDIDATE | [DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30) | 逐次期限、阻塞和回调预算 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA26@1",
+        "K08-CL-DA53@1"
+      ]
+    },
+    {
+      "d4": "K08.09.02.02",
+      "historicalRequirement": "实时线程离线任务边界",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.09.02.03",
+        "K08.09.02.04"
+      ],
+      "unresolved": [],
+      "limits": "有界非阻塞队列、满时策略/记录、离线任务",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 56,
+        "row": "| K08.09.02.02 | 实时线程离线任务边界 | BOUNDED_COMPOSITION | [DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30) | 有界非阻塞队列、满时策略/记录、离线任务 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA26@1",
+        "K08-CL-DA53@1"
+      ]
+    },
+    {
+      "d4": "K08.09.03.01",
+      "historicalRequirement": "输入输出缓冲事件及观测",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K08.09.03.03",
+        "K08.09.03.04"
+      ],
+      "unresolved": [],
+      "limits": "输入/输出underflow与overflow、frame策略、状态bitmask及priming，版本未知保留UNKNOWN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 57,
+        "row": "| K08.09.03.01 | 输入输出缓冲事件及观测 | ROUTER_CANDIDATE | [DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | 输入/输出underflow与overflow、frame策略、状态bitmask及priming，版本未知保留UNKNOWN |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA27@1",
+        "K08-CL-DA54@1"
+      ]
+    },
+    {
+      "d4": "K08.09.03.02",
+      "historicalRequirement": "日志复现配置回归",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K08.09.03.03",
+        "K08.09.03.04"
+      ],
+      "unresolved": [],
+      "limits": "有界非阻塞交接、日志延后、配置单变量及复测，补值非真值；不推具体丢失数量/根因",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-legacy-convergence.md",
+        "blob": "83cde50b758245a7575e1bfefb406c5b6977a13d",
+        "line": 58,
+        "row": "| K08.09.03.02 | 日志复现配置回归 | BOUNDED_COMPOSITION | [DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | 有界非阻塞交接、日志延后、配置单变量及复测，补值非真值；不推具体丢失数量/根因 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K08-CL-DA27@1",
+        "K08-CL-DA54@1"
+      ]
+    }
+  ],
+  "splitRoutes": [
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 29,
+        "row": "| K09.07.01.01 | 物理反馈路径、现场诊断和测量条件 | K07.06.04.01 K19.07.01.01 | K07.07.02.01 | K08.04 | 闭环拓扑不证明实际振荡，禁止危险复现 | [MX-K09.07.01.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 30,
+        "row": "| K09.07.01.02 | 现场候选、通用增益/拾音/噪声 | K19.07.01.02 | K08.04.03.02 K08.05.02.01 K08.05.03.01 | K07.06 K15.04 | 多候选原因，须测量/安全条件 | [MX-K09.07.01.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    },
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 31,
+        "row": "| K09.07.02.01 | 主扩监听、通用路由和协作目标 | K19.05.01.01 | K08.04.01.01 K08.04.03.01 K04.06.02.01 | K12.01 | 主扩与监听独立服务目标，非通用总线等价 | [MX-K09.07.02.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    }
+  ],
+  "historicalFinding": 46,
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}

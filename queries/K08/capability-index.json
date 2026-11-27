@@ -1,0 +1,4352 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K08.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "采样/量化/帧与时钟语义",
+      "d4Targets": [
+        "K08.01.01.03",
+        "K08.01.02.03",
+        "K08.01.03.03",
+        "K08.01.01.04",
+        "K08.01.02.04",
+        "K08.01.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 5,
+        "row": "| K08.01 | A01 | P | 采样/量化/帧与时钟语义 | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA01",
+          "claim": "K08-CL-DA01@1",
+          "problem": "48kHz采样零初相30kHz余弦，折叠到哪一频率？",
+          "reject": "30与18kHz产生相同样值，必须先满足目标带宽和滤波条件。"
+        },
+        {
+          "caseId": "DA02",
+          "claim": "K08-CL-DA02@1",
+          "problem": "重建等级−1/−.5/0/.5最近邻，输入.24和.26，求输出误差。",
+          "reject": "容器决定存储宽度；有效精度不决定帧字节。"
+        },
+        {
+          "caseId": "DA03",
+          "claim": "K08-CL-DA03@1",
+          "problem": "双声道L0 R0 L1 R1多少帧？48004.8相对48000Hz在60秒多几帧？",
+          "reject": "每双声道帧包含两个标量；此处只有两帧。"
+        },
+        {
+          "caseId": "DA28",
+          "claim": "K08-CL-DA28@1",
+          "problem": "48k→16k每3取1，12kHz零相余弦折叠到？",
+          "reject": "同离散频率已混合不可唯一分离。"
+        },
+        {
+          "caseId": "DA29",
+          "claim": "K08-CL-DA29@1",
+          "problem": "步长1最近邻，输入.25，无扰动与等概率±.5分别误差？",
+          "reject": "分布不是TPDF，计算均值非零。"
+        },
+        {
+          "caseId": "DA30",
+          "claim": "K08-CL-DA30@1",
+          "problem": "clkB比clkA 60秒多288帧，交换L/R不改帧数，分别影响什么？",
+          "reject": "排列改变不改变计数。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "核目标带宽→抗混叠→量化与帧布局→验证时钟",
+      "d4Targets": [
+        "K08.01.01.03",
+        "K08.01.02.03",
+        "K08.01.03.03",
+        "K08.01.01.04",
+        "K08.01.02.04",
+        "K08.01.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 6,
+        "row": "| K08.01 | A02 | P | 核目标带宽→抗混叠→量化与帧布局→验证时钟 | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA01",
+          "claim": "K08-CL-DA01@1",
+          "problem": "48kHz采样零初相30kHz余弦，折叠到哪一频率？",
+          "reject": "30与18kHz产生相同样值，必须先满足目标带宽和滤波条件。"
+        },
+        {
+          "caseId": "DA02",
+          "claim": "K08-CL-DA02@1",
+          "problem": "重建等级−1/−.5/0/.5最近邻，输入.24和.26，求输出误差。",
+          "reject": "容器决定存储宽度；有效精度不决定帧字节。"
+        },
+        {
+          "caseId": "DA03",
+          "claim": "K08-CL-DA03@1",
+          "problem": "双声道L0 R0 L1 R1多少帧？48004.8相对48000Hz在60秒多几帧？",
+          "reject": "每双声道帧包含两个标量；此处只有两帧。"
+        },
+        {
+          "caseId": "DA28",
+          "claim": "K08-CL-DA28@1",
+          "problem": "48k→16k每3取1，12kHz零相余弦折叠到？",
+          "reject": "同离散频率已混合不可唯一分离。"
+        },
+        {
+          "caseId": "DA29",
+          "claim": "K08-CL-DA29@1",
+          "problem": "步长1最近邻，输入.25，无扰动与等概率±.5分别误差？",
+          "reject": "分布不是TPDF，计算均值非零。"
+        },
+        {
+          "caseId": "DA30",
+          "claim": "K08-CL-DA30@1",
+          "problem": "clkB比clkA 60秒多288帧，交换L/R不改帧数，分别影响什么？",
+          "reject": "排列改变不改变计数。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "为ADC/格式/时钟工具提供输入条件，实际设备/API K12",
+      "d4Targets": [
+        "K08.01.01.03",
+        "K08.01.02.03",
+        "K08.01.03.03",
+        "K08.01.01.04",
+        "K08.01.02.04",
+        "K08.01.03.04"
+      ],
+      "limits": "引用支持，不迁移具体owner或执行权。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 7,
+        "row": "| K08.01 | A03 | S | 为ADC/格式/时钟工具提供输入条件，实际设备/API K12 | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | 引用支持，不迁移具体owner或执行权。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA01",
+          "claim": "K08-CL-DA01@1",
+          "problem": "48kHz采样零初相30kHz余弦，折叠到哪一频率？",
+          "reject": "30与18kHz产生相同样值，必须先满足目标带宽和滤波条件。"
+        },
+        {
+          "caseId": "DA02",
+          "claim": "K08-CL-DA02@1",
+          "problem": "重建等级−1/−.5/0/.5最近邻，输入.24和.26，求输出误差。",
+          "reject": "容器决定存储宽度；有效精度不决定帧字节。"
+        },
+        {
+          "caseId": "DA03",
+          "claim": "K08-CL-DA03@1",
+          "problem": "双声道L0 R0 L1 R1多少帧？48004.8相对48000Hz在60秒多几帧？",
+          "reject": "每双声道帧包含两个标量；此处只有两帧。"
+        },
+        {
+          "caseId": "DA28",
+          "claim": "K08-CL-DA28@1",
+          "problem": "48k→16k每3取1，12kHz零相余弦折叠到？",
+          "reject": "同离散频率已混合不可唯一分离。"
+        },
+        {
+          "caseId": "DA29",
+          "claim": "K08-CL-DA29@1",
+          "problem": "步长1最近邻，输入.25，无扰动与等概率±.5分别误差？",
+          "reject": "分布不是TPDF，计算均值非零。"
+        },
+        {
+          "caseId": "DA30",
+          "claim": "K08-CL-DA30@1",
+          "problem": "clkB比clkA 60秒多288帧，交换L/R不改帧数，分别影响什么？",
+          "reject": "排列改变不改变计数。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.01",
+      "ability": "A04",
+      "role": "P",
+      "task": "原采样时基、布局、精度与转换状态，变更使旧证据失效",
+      "d4Targets": [
+        "K08.01.01.03",
+        "K08.01.02.03",
+        "K08.01.03.03",
+        "K08.01.01.04",
+        "K08.01.02.04",
+        "K08.01.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 8,
+        "row": "| K08.01 | A04 | P | 原采样时基、布局、精度与转换状态，变更使旧证据失效 | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA01",
+          "claim": "K08-CL-DA01@1",
+          "problem": "48kHz采样零初相30kHz余弦，折叠到哪一频率？",
+          "reject": "30与18kHz产生相同样值，必须先满足目标带宽和滤波条件。"
+        },
+        {
+          "caseId": "DA02",
+          "claim": "K08-CL-DA02@1",
+          "problem": "重建等级−1/−.5/0/.5最近邻，输入.24和.26，求输出误差。",
+          "reject": "容器决定存储宽度；有效精度不决定帧字节。"
+        },
+        {
+          "caseId": "DA03",
+          "claim": "K08-CL-DA03@1",
+          "problem": "双声道L0 R0 L1 R1多少帧？48004.8相对48000Hz在60秒多几帧？",
+          "reject": "每双声道帧包含两个标量；此处只有两帧。"
+        },
+        {
+          "caseId": "DA28",
+          "claim": "K08-CL-DA28@1",
+          "problem": "48k→16k每3取1，12kHz零相余弦折叠到？",
+          "reject": "同离散频率已混合不可唯一分离。"
+        },
+        {
+          "caseId": "DA29",
+          "claim": "K08-CL-DA29@1",
+          "problem": "步长1最近邻，输入.25，无扰动与等概率±.5分别误差？",
+          "reject": "分布不是TPDF，计算均值非零。"
+        },
+        {
+          "caseId": "DA30",
+          "claim": "K08-CL-DA30@1",
+          "problem": "clkB比clkA 60秒多288帧，交换L/R不改帧数，分别影响什么？",
+          "reject": "排列改变不改变计数。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "独立量纲、混叠/误差及同步条件",
+      "d4Targets": [
+        "K08.01.01.03",
+        "K08.01.02.03",
+        "K08.01.03.03",
+        "K08.01.01.04",
+        "K08.01.02.04",
+        "K08.01.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 9,
+        "row": "| K08.01 | A05 | P | 独立量纲、混叠/误差及同步条件 | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA01",
+          "claim": "K08-CL-DA01@1",
+          "problem": "48kHz采样零初相30kHz余弦，折叠到哪一频率？",
+          "reject": "30与18kHz产生相同样值，必须先满足目标带宽和滤波条件。"
+        },
+        {
+          "caseId": "DA02",
+          "claim": "K08-CL-DA02@1",
+          "problem": "重建等级−1/−.5/0/.5最近邻，输入.24和.26，求输出误差。",
+          "reject": "容器决定存储宽度；有效精度不决定帧字节。"
+        },
+        {
+          "caseId": "DA03",
+          "claim": "K08-CL-DA03@1",
+          "problem": "双声道L0 R0 L1 R1多少帧？48004.8相对48000Hz在60秒多几帧？",
+          "reject": "每双声道帧包含两个标量；此处只有两帧。"
+        },
+        {
+          "caseId": "DA28",
+          "claim": "K08-CL-DA28@1",
+          "problem": "48k→16k每3取1，12kHz零相余弦折叠到？",
+          "reject": "同离散频率已混合不可唯一分离。"
+        },
+        {
+          "caseId": "DA29",
+          "claim": "K08-CL-DA29@1",
+          "problem": "步长1最近邻，输入.25，无扰动与等概率±.5分别误差？",
+          "reject": "分布不是TPDF，计算均值非零。"
+        },
+        {
+          "caseId": "DA30",
+          "claim": "K08-CL-DA30@1",
+          "problem": "clkB比clkA 60秒多288帧，交换L/R不改帧数，分别影响什么？",
+          "reject": "排列改变不改变计数。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.01",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑采样参数、帧布局、量化元数据，不伪造原样本",
+      "d4Targets": [
+        "K08.01.01.03",
+        "K08.01.02.03",
+        "K08.01.03.03",
+        "K08.01.01.04",
+        "K08.01.02.04",
+        "K08.01.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 10,
+        "row": "| K08.01 | A06 | P | 可编辑采样参数、帧布局、量化元数据，不伪造原样本 | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA01",
+          "claim": "K08-CL-DA01@1",
+          "problem": "48kHz采样零初相30kHz余弦，折叠到哪一频率？",
+          "reject": "30与18kHz产生相同样值，必须先满足目标带宽和滤波条件。"
+        },
+        {
+          "caseId": "DA02",
+          "claim": "K08-CL-DA02@1",
+          "problem": "重建等级−1/−.5/0/.5最近邻，输入.24和.26，求输出误差。",
+          "reject": "容器决定存储宽度；有效精度不决定帧字节。"
+        },
+        {
+          "caseId": "DA03",
+          "claim": "K08-CL-DA03@1",
+          "problem": "双声道L0 R0 L1 R1多少帧？48004.8相对48000Hz在60秒多几帧？",
+          "reject": "每双声道帧包含两个标量；此处只有两帧。"
+        },
+        {
+          "caseId": "DA28",
+          "claim": "K08-CL-DA28@1",
+          "problem": "48k→16k每3取1，12kHz零相余弦折叠到？",
+          "reject": "同离散频率已混合不可唯一分离。"
+        },
+        {
+          "caseId": "DA29",
+          "claim": "K08-CL-DA29@1",
+          "problem": "步长1最近邻，输入.25，无扰动与等概率±.5分别误差？",
+          "reject": "分布不是TPDF，计算均值非零。"
+        },
+        {
+          "caseId": "DA30",
+          "claim": "K08-CL-DA30@1",
+          "problem": "clkB比clkA 60秒多288帧，交换L/R不改帧数，分别影响什么？",
+          "reject": "排列改变不改变计数。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "发现混叠/布局/时钟异常后限定修订并复核，既失信息不恢复",
+      "d4Targets": [
+        "K08.01.01.03",
+        "K08.01.02.03",
+        "K08.01.03.03",
+        "K08.01.01.04",
+        "K08.01.02.04",
+        "K08.01.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 11,
+        "row": "| K08.01 | A07 | P | 发现混叠/布局/时钟异常后限定修订并复核，既失信息不恢复 | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA01",
+          "claim": "K08-CL-DA01@1",
+          "problem": "48kHz采样零初相30kHz余弦，折叠到哪一频率？",
+          "reject": "30与18kHz产生相同样值，必须先满足目标带宽和滤波条件。"
+        },
+        {
+          "caseId": "DA02",
+          "claim": "K08-CL-DA02@1",
+          "problem": "重建等级−1/−.5/0/.5最近邻，输入.24和.26，求输出误差。",
+          "reject": "容器决定存储宽度；有效精度不决定帧字节。"
+        },
+        {
+          "caseId": "DA03",
+          "claim": "K08-CL-DA03@1",
+          "problem": "双声道L0 R0 L1 R1多少帧？48004.8相对48000Hz在60秒多几帧？",
+          "reject": "每双声道帧包含两个标量；此处只有两帧。"
+        },
+        {
+          "caseId": "DA28",
+          "claim": "K08-CL-DA28@1",
+          "problem": "48k→16k每3取1，12kHz零相余弦折叠到？",
+          "reject": "同离散频率已混合不可唯一分离。"
+        },
+        {
+          "caseId": "DA29",
+          "claim": "K08-CL-DA29@1",
+          "problem": "步长1最近邻，输入.25，无扰动与等概率±.5分别误差？",
+          "reject": "分布不是TPDF，计算均值非零。"
+        },
+        {
+          "caseId": "DA30",
+          "claim": "K08-CL-DA30@1",
+          "problem": "clkB比clkA 60秒多288帧，交换L/R不改帧数，分别影响什么？",
+          "reject": "排列改变不改变计数。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "PCM/编码/容器与重采样语义",
+      "d4Targets": [
+        "K08.02.01.03",
+        "K08.02.02.03",
+        "K08.02.03.03",
+        "K08.02.01.04",
+        "K08.02.02.04",
+        "K08.02.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 12,
+        "row": "| K08.02 | A01 | P | PCM/编码/容器与重采样语义 | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA04",
+          "claim": "K08-CL-DA04@1",
+          "problem": "48k双声道1秒16/24容器位，20有效位装24位各多少字节？",
+          "reject": "无损针对已解码输入，旧损失不能逆推。"
+        },
+        {
+          "caseId": "DA05",
+          "claim": "K08-CL-DA05@1",
+          "problem": "a.wav未读头部；已声明20有效位/24容器、mask0x3，哪些可知？",
+          "reject": "扩展名不验证头、流或损坏。"
+        },
+        {
+          "caseId": "DA06",
+          "claim": "K08-CL-DA06@1",
+          "problem": "48000帧48kHz改为44.1kHz，保持时长需几帧？仅改头时长？",
+          "reject": "帧计数未变而时钟变慢，时长增加频率降低。"
+        },
+        {
+          "caseId": "DA31",
+          "claim": "K08-CL-DA31@1",
+          "problem": "A=[0,1,−1],B=[0,0,−1]，无损保存B可恢复A吗？",
+          "reject": "值和声道次序也要逐项相同。"
+        },
+        {
+          "caseId": "DA32",
+          "claim": "K08-CL-DA32@1",
+          "problem": "头12，fmt16、JUNK3、data4，计算总字节、RIFF size及data payload偏移。",
+          "reject": "奇数字节需1填充，后续偏移错。"
+        },
+        {
+          "caseId": "DA33",
+          "claim": "K08-CL-DA33@1",
+          "problem": "48→44.1k约分；L=1,R=−1等权单声道。",
+          "reject": "极性相反可抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "检查头/流→解码候选→重采样/映射→核输出",
+      "d4Targets": [
+        "K08.02.01.03",
+        "K08.02.02.03",
+        "K08.02.03.03",
+        "K08.02.01.04",
+        "K08.02.02.04",
+        "K08.02.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 13,
+        "row": "| K08.02 | A02 | P | 检查头/流→解码候选→重采样/映射→核输出 | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA04",
+          "claim": "K08-CL-DA04@1",
+          "problem": "48k双声道1秒16/24容器位，20有效位装24位各多少字节？",
+          "reject": "无损针对已解码输入，旧损失不能逆推。"
+        },
+        {
+          "caseId": "DA05",
+          "claim": "K08-CL-DA05@1",
+          "problem": "a.wav未读头部；已声明20有效位/24容器、mask0x3，哪些可知？",
+          "reject": "扩展名不验证头、流或损坏。"
+        },
+        {
+          "caseId": "DA06",
+          "claim": "K08-CL-DA06@1",
+          "problem": "48000帧48kHz改为44.1kHz，保持时长需几帧？仅改头时长？",
+          "reject": "帧计数未变而时钟变慢，时长增加频率降低。"
+        },
+        {
+          "caseId": "DA31",
+          "claim": "K08-CL-DA31@1",
+          "problem": "A=[0,1,−1],B=[0,0,−1]，无损保存B可恢复A吗？",
+          "reject": "值和声道次序也要逐项相同。"
+        },
+        {
+          "caseId": "DA32",
+          "claim": "K08-CL-DA32@1",
+          "problem": "头12，fmt16、JUNK3、data4，计算总字节、RIFF size及data payload偏移。",
+          "reject": "奇数字节需1填充，后续偏移错。"
+        },
+        {
+          "caseId": "DA33",
+          "claim": "K08-CL-DA33@1",
+          "problem": "48→44.1k约分；L=1,R=−1等权单声道。",
+          "reject": "极性相反可抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.02",
+      "ability": "A03",
+      "role": "P",
+      "task": "容器检查/编码转换/重采样工具能力条件，实际版本K12",
+      "d4Targets": [
+        "K08.02.01.03",
+        "K08.02.02.03",
+        "K08.02.03.03",
+        "K08.02.01.04",
+        "K08.02.02.04",
+        "K08.02.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 14,
+        "row": "| K08.02 | A03 | P | 容器检查/编码转换/重采样工具能力条件，实际版本K12 | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA04",
+          "claim": "K08-CL-DA04@1",
+          "problem": "48k双声道1秒16/24容器位，20有效位装24位各多少字节？",
+          "reject": "无损针对已解码输入，旧损失不能逆推。"
+        },
+        {
+          "caseId": "DA05",
+          "claim": "K08-CL-DA05@1",
+          "problem": "a.wav未读头部；已声明20有效位/24容器、mask0x3，哪些可知？",
+          "reject": "扩展名不验证头、流或损坏。"
+        },
+        {
+          "caseId": "DA06",
+          "claim": "K08-CL-DA06@1",
+          "problem": "48000帧48kHz改为44.1kHz，保持时长需几帧？仅改头时长？",
+          "reject": "帧计数未变而时钟变慢，时长增加频率降低。"
+        },
+        {
+          "caseId": "DA31",
+          "claim": "K08-CL-DA31@1",
+          "problem": "A=[0,1,−1],B=[0,0,−1]，无损保存B可恢复A吗？",
+          "reject": "值和声道次序也要逐项相同。"
+        },
+        {
+          "caseId": "DA32",
+          "claim": "K08-CL-DA32@1",
+          "problem": "头12，fmt16、JUNK3、data4，计算总字节、RIFF size及data payload偏移。",
+          "reject": "奇数字节需1填充，后续偏移错。"
+        },
+        {
+          "caseId": "DA33",
+          "claim": "K08-CL-DA33@1",
+          "problem": "48→44.1k约分；L=1,R=−1等权单声道。",
+          "reject": "极性相反可抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.02",
+      "ability": "A04",
+      "role": "P",
+      "task": "原件、容器/流、格式和转换副本独立",
+      "d4Targets": [
+        "K08.02.01.03",
+        "K08.02.02.03",
+        "K08.02.03.03",
+        "K08.02.01.04",
+        "K08.02.02.04",
+        "K08.02.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 15,
+        "row": "| K08.02 | A04 | P | 原件、容器/流、格式和转换副本独立 | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA04",
+          "claim": "K08-CL-DA04@1",
+          "problem": "48k双声道1秒16/24容器位，20有效位装24位各多少字节？",
+          "reject": "无损针对已解码输入，旧损失不能逆推。"
+        },
+        {
+          "caseId": "DA05",
+          "claim": "K08-CL-DA05@1",
+          "problem": "a.wav未读头部；已声明20有效位/24容器、mask0x3，哪些可知？",
+          "reject": "扩展名不验证头、流或损坏。"
+        },
+        {
+          "caseId": "DA06",
+          "claim": "K08-CL-DA06@1",
+          "problem": "48000帧48kHz改为44.1kHz，保持时长需几帧？仅改头时长？",
+          "reject": "帧计数未变而时钟变慢，时长增加频率降低。"
+        },
+        {
+          "caseId": "DA31",
+          "claim": "K08-CL-DA31@1",
+          "problem": "A=[0,1,−1],B=[0,0,−1]，无损保存B可恢复A吗？",
+          "reject": "值和声道次序也要逐项相同。"
+        },
+        {
+          "caseId": "DA32",
+          "claim": "K08-CL-DA32@1",
+          "problem": "头12，fmt16、JUNK3、data4，计算总字节、RIFF size及data payload偏移。",
+          "reject": "奇数字节需1填充，后续偏移错。"
+        },
+        {
+          "caseId": "DA33",
+          "claim": "K08-CL-DA33@1",
+          "problem": "48→44.1k约分；L=1,R=−1等权单声道。",
+          "reject": "极性相反可抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "逐样本/帧边界/时长/通道及损失校验",
+      "d4Targets": [
+        "K08.02.01.03",
+        "K08.02.02.03",
+        "K08.02.03.03",
+        "K08.02.01.04",
+        "K08.02.02.04",
+        "K08.02.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 16,
+        "row": "| K08.02 | A05 | P | 逐样本/帧边界/时长/通道及损失校验 | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA04",
+          "claim": "K08-CL-DA04@1",
+          "problem": "48k双声道1秒16/24容器位，20有效位装24位各多少字节？",
+          "reject": "无损针对已解码输入，旧损失不能逆推。"
+        },
+        {
+          "caseId": "DA05",
+          "claim": "K08-CL-DA05@1",
+          "problem": "a.wav未读头部；已声明20有效位/24容器、mask0x3，哪些可知？",
+          "reject": "扩展名不验证头、流或损坏。"
+        },
+        {
+          "caseId": "DA06",
+          "claim": "K08-CL-DA06@1",
+          "problem": "48000帧48kHz改为44.1kHz，保持时长需几帧？仅改头时长？",
+          "reject": "帧计数未变而时钟变慢，时长增加频率降低。"
+        },
+        {
+          "caseId": "DA31",
+          "claim": "K08-CL-DA31@1",
+          "problem": "A=[0,1,−1],B=[0,0,−1]，无损保存B可恢复A吗？",
+          "reject": "值和声道次序也要逐项相同。"
+        },
+        {
+          "caseId": "DA32",
+          "claim": "K08-CL-DA32@1",
+          "problem": "头12，fmt16、JUNK3、data4，计算总字节、RIFF size及data payload偏移。",
+          "reject": "奇数字节需1填充，后续偏移错。"
+        },
+        {
+          "caseId": "DA33",
+          "claim": "K08-CL-DA33@1",
+          "problem": "48→44.1k约分；L=1,R=−1等权单声道。",
+          "reject": "极性相反可抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.02",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑参数/元数据、原与转换文件；交换实际接口K12",
+      "d4Targets": [
+        "K08.02.01.03",
+        "K08.02.02.03",
+        "K08.02.03.03",
+        "K08.02.01.04",
+        "K08.02.02.04",
+        "K08.02.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 17,
+        "row": "| K08.02 | A06 | P | 可编辑参数/元数据、原与转换文件；交换实际接口K12 | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA04",
+          "claim": "K08-CL-DA04@1",
+          "problem": "48k双声道1秒16/24容器位，20有效位装24位各多少字节？",
+          "reject": "无损针对已解码输入，旧损失不能逆推。"
+        },
+        {
+          "caseId": "DA05",
+          "claim": "K08-CL-DA05@1",
+          "problem": "a.wav未读头部；已声明20有效位/24容器、mask0x3，哪些可知？",
+          "reject": "扩展名不验证头、流或损坏。"
+        },
+        {
+          "caseId": "DA06",
+          "claim": "K08-CL-DA06@1",
+          "problem": "48000帧48kHz改为44.1kHz，保持时长需几帧？仅改头时长？",
+          "reject": "帧计数未变而时钟变慢，时长增加频率降低。"
+        },
+        {
+          "caseId": "DA31",
+          "claim": "K08-CL-DA31@1",
+          "problem": "A=[0,1,−1],B=[0,0,−1]，无损保存B可恢复A吗？",
+          "reject": "值和声道次序也要逐项相同。"
+        },
+        {
+          "caseId": "DA32",
+          "claim": "K08-CL-DA32@1",
+          "problem": "头12，fmt16、JUNK3、data4，计算总字节、RIFF size及data payload偏移。",
+          "reject": "奇数字节需1填充，后续偏移错。"
+        },
+        {
+          "caseId": "DA33",
+          "claim": "K08-CL-DA33@1",
+          "problem": "48→44.1k约分；L=1,R=−1等权单声道。",
+          "reject": "极性相反可抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "拒绝越界/未知格式，限定转换后核条件与损失",
+      "d4Targets": [
+        "K08.02.01.03",
+        "K08.02.02.03",
+        "K08.02.03.03",
+        "K08.02.01.04",
+        "K08.02.02.04",
+        "K08.02.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 18,
+        "row": "| K08.02 | A07 | P | 拒绝越界/未知格式，限定转换后核条件与损失 | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA04",
+          "claim": "K08-CL-DA04@1",
+          "problem": "48k双声道1秒16/24容器位，20有效位装24位各多少字节？",
+          "reject": "无损针对已解码输入，旧损失不能逆推。"
+        },
+        {
+          "caseId": "DA05",
+          "claim": "K08-CL-DA05@1",
+          "problem": "a.wav未读头部；已声明20有效位/24容器、mask0x3，哪些可知？",
+          "reject": "扩展名不验证头、流或损坏。"
+        },
+        {
+          "caseId": "DA06",
+          "claim": "K08-CL-DA06@1",
+          "problem": "48000帧48kHz改为44.1kHz，保持时长需几帧？仅改头时长？",
+          "reject": "帧计数未变而时钟变慢，时长增加频率降低。"
+        },
+        {
+          "caseId": "DA31",
+          "claim": "K08-CL-DA31@1",
+          "problem": "A=[0,1,−1],B=[0,0,−1]，无损保存B可恢复A吗？",
+          "reject": "值和声道次序也要逐项相同。"
+        },
+        {
+          "caseId": "DA32",
+          "claim": "K08-CL-DA32@1",
+          "problem": "头12，fmt16、JUNK3、data4，计算总字节、RIFF size及data payload偏移。",
+          "reject": "奇数字节需1填充，后续偏移错。"
+        },
+        {
+          "caseId": "DA33",
+          "claim": "K08-CL-DA33@1",
+          "problem": "48→44.1k约分；L=1,R=−1等权单声道。",
+          "reject": "极性相反可抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "卷积/FFT/STFT/时间音高原理及限制",
+      "d4Targets": [
+        "K08.03.01.03",
+        "K08.03.02.03",
+        "K08.03.03.03",
+        "K08.03.01.04",
+        "K08.03.02.04",
+        "K08.03.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 19,
+        "row": "| K08.03 | A01 | P | 卷积/FFT/STFT/时间音高原理及限制 | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA07",
+          "claim": "K08-CL-DA07@1",
+          "problem": "x=[1,2,3],h=[.5,.5]零延拓，求y。",
+          "reject": "完整输出4个，截断会丢尾。"
+        },
+        {
+          "caseId": "DA08",
+          "claim": "K08-CL-DA08@1",
+          "problem": "48kHz win480/960共用nfft960，hop240，求窗时长、格点和单边点数。",
+          "reject": "只格点25Hz/961点，原观察信息不增加。"
+        },
+        {
+          "caseId": "DA09",
+          "claim": "K08-CL-DA09@1",
+          "problem": "2秒440Hz稳态，2倍速、2倍速保调、升12半音保长的目标？",
+          "reject": "时长及事件时轴仍是独立硬条件。"
+        },
+        {
+          "caseId": "DA34",
+          "claim": "K08-CL-DA34@1",
+          "problem": "x=[0,0,0,1],h=[1,1]，线性与4点循环结果？",
+          "reject": "尾项回卷至首。"
+        },
+        {
+          "caseId": "DA35",
+          "claim": "K08-CL-DA35@1",
+          "problem": "矩形窗2 hop1，x=[1,2,3]，两帧重叠相加及覆盖？",
+          "reject": "首点平方和0，不满足覆盖。"
+        },
+        {
+          "caseId": "DA36",
+          "claim": "K08-CL-DA36@1",
+          "problem": "起点0/.5s总1s，2倍速、保调2倍速及仅升八度的时轴？",
+          "reject": "时轴已缩半，不能同时满足。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "目标→选择滤波/窗/变速方式→副作用验证",
+      "d4Targets": [
+        "K08.03.01.03",
+        "K08.03.02.03",
+        "K08.03.03.03",
+        "K08.03.01.04",
+        "K08.03.02.04",
+        "K08.03.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 20,
+        "row": "| K08.03 | A02 | P | 目标→选择滤波/窗/变速方式→副作用验证 | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA07",
+          "claim": "K08-CL-DA07@1",
+          "problem": "x=[1,2,3],h=[.5,.5]零延拓，求y。",
+          "reject": "完整输出4个，截断会丢尾。"
+        },
+        {
+          "caseId": "DA08",
+          "claim": "K08-CL-DA08@1",
+          "problem": "48kHz win480/960共用nfft960，hop240，求窗时长、格点和单边点数。",
+          "reject": "只格点25Hz/961点，原观察信息不增加。"
+        },
+        {
+          "caseId": "DA09",
+          "claim": "K08-CL-DA09@1",
+          "problem": "2秒440Hz稳态，2倍速、2倍速保调、升12半音保长的目标？",
+          "reject": "时长及事件时轴仍是独立硬条件。"
+        },
+        {
+          "caseId": "DA34",
+          "claim": "K08-CL-DA34@1",
+          "problem": "x=[0,0,0,1],h=[1,1]，线性与4点循环结果？",
+          "reject": "尾项回卷至首。"
+        },
+        {
+          "caseId": "DA35",
+          "claim": "K08-CL-DA35@1",
+          "problem": "矩形窗2 hop1，x=[1,2,3]，两帧重叠相加及覆盖？",
+          "reject": "首点平方和0，不满足覆盖。"
+        },
+        {
+          "caseId": "DA36",
+          "claim": "K08-CL-DA36@1",
+          "problem": "起点0/.5s总1s，2倍速、保调2倍速及仅升八度的时轴？",
+          "reject": "时轴已缩半，不能同时满足。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.03",
+      "ability": "A03",
+      "role": "P",
+      "task": "DSP方法及输入输出、窗/边界/重建条件，实际库K12",
+      "d4Targets": [
+        "K08.03.01.03",
+        "K08.03.02.03",
+        "K08.03.03.03",
+        "K08.03.01.04",
+        "K08.03.02.04",
+        "K08.03.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 21,
+        "row": "| K08.03 | A03 | P | DSP方法及输入输出、窗/边界/重建条件，实际库K12 | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA07",
+          "claim": "K08-CL-DA07@1",
+          "problem": "x=[1,2,3],h=[.5,.5]零延拓，求y。",
+          "reject": "完整输出4个，截断会丢尾。"
+        },
+        {
+          "caseId": "DA08",
+          "claim": "K08-CL-DA08@1",
+          "problem": "48kHz win480/960共用nfft960，hop240，求窗时长、格点和单边点数。",
+          "reject": "只格点25Hz/961点，原观察信息不增加。"
+        },
+        {
+          "caseId": "DA09",
+          "claim": "K08-CL-DA09@1",
+          "problem": "2秒440Hz稳态，2倍速、2倍速保调、升12半音保长的目标？",
+          "reject": "时长及事件时轴仍是独立硬条件。"
+        },
+        {
+          "caseId": "DA34",
+          "claim": "K08-CL-DA34@1",
+          "problem": "x=[0,0,0,1],h=[1,1]，线性与4点循环结果？",
+          "reject": "尾项回卷至首。"
+        },
+        {
+          "caseId": "DA35",
+          "claim": "K08-CL-DA35@1",
+          "problem": "矩形窗2 hop1，x=[1,2,3]，两帧重叠相加及覆盖？",
+          "reject": "首点平方和0，不满足覆盖。"
+        },
+        {
+          "caseId": "DA36",
+          "claim": "K08-CL-DA36@1",
+          "problem": "起点0/.5s总1s，2倍速、保调2倍速及仅升八度的时轴？",
+          "reject": "时轴已缩半，不能同时满足。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.03",
+      "ability": "A04",
+      "role": "S",
+      "task": "支持处理参数与派生状态，完整工程状态K09",
+      "d4Targets": [
+        "K08.03.01.03",
+        "K08.03.02.03",
+        "K08.03.03.03",
+        "K08.03.01.04",
+        "K08.03.02.04",
+        "K08.03.03.04"
+      ],
+      "limits": "引用支持，不迁移具体owner或执行权。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 22,
+        "row": "| K08.03 | A04 | S | 支持处理参数与派生状态，完整工程状态K09 | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | 引用支持，不迁移具体owner或执行权。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA07",
+          "claim": "K08-CL-DA07@1",
+          "problem": "x=[1,2,3],h=[.5,.5]零延拓，求y。",
+          "reject": "完整输出4个，截断会丢尾。"
+        },
+        {
+          "caseId": "DA08",
+          "claim": "K08-CL-DA08@1",
+          "problem": "48kHz win480/960共用nfft960，hop240，求窗时长、格点和单边点数。",
+          "reject": "只格点25Hz/961点，原观察信息不增加。"
+        },
+        {
+          "caseId": "DA09",
+          "claim": "K08-CL-DA09@1",
+          "problem": "2秒440Hz稳态，2倍速、2倍速保调、升12半音保长的目标？",
+          "reject": "时长及事件时轴仍是独立硬条件。"
+        },
+        {
+          "caseId": "DA34",
+          "claim": "K08-CL-DA34@1",
+          "problem": "x=[0,0,0,1],h=[1,1]，线性与4点循环结果？",
+          "reject": "尾项回卷至首。"
+        },
+        {
+          "caseId": "DA35",
+          "claim": "K08-CL-DA35@1",
+          "problem": "矩形窗2 hop1，x=[1,2,3]，两帧重叠相加及覆盖？",
+          "reject": "首点平方和0，不满足覆盖。"
+        },
+        {
+          "caseId": "DA36",
+          "claim": "K08-CL-DA36@1",
+          "problem": "起点0/.5s总1s，2倍速、保调2倍速及仅升八度的时轴？",
+          "reject": "时轴已缩半，不能同时满足。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "相位/时轴/目标频带/瞬态与重建误差",
+      "d4Targets": [
+        "K08.03.01.03",
+        "K08.03.02.03",
+        "K08.03.03.03",
+        "K08.03.01.04",
+        "K08.03.02.04",
+        "K08.03.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 23,
+        "row": "| K08.03 | A05 | P | 相位/时轴/目标频带/瞬态与重建误差 | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA07",
+          "claim": "K08-CL-DA07@1",
+          "problem": "x=[1,2,3],h=[.5,.5]零延拓，求y。",
+          "reject": "完整输出4个，截断会丢尾。"
+        },
+        {
+          "caseId": "DA08",
+          "claim": "K08-CL-DA08@1",
+          "problem": "48kHz win480/960共用nfft960，hop240，求窗时长、格点和单边点数。",
+          "reject": "只格点25Hz/961点，原观察信息不增加。"
+        },
+        {
+          "caseId": "DA09",
+          "claim": "K08-CL-DA09@1",
+          "problem": "2秒440Hz稳态，2倍速、2倍速保调、升12半音保长的目标？",
+          "reject": "时长及事件时轴仍是独立硬条件。"
+        },
+        {
+          "caseId": "DA34",
+          "claim": "K08-CL-DA34@1",
+          "problem": "x=[0,0,0,1],h=[1,1]，线性与4点循环结果？",
+          "reject": "尾项回卷至首。"
+        },
+        {
+          "caseId": "DA35",
+          "claim": "K08-CL-DA35@1",
+          "problem": "矩形窗2 hop1，x=[1,2,3]，两帧重叠相加及覆盖？",
+          "reject": "首点平方和0，不满足覆盖。"
+        },
+        {
+          "caseId": "DA36",
+          "claim": "K08-CL-DA36@1",
+          "problem": "起点0/.5s总1s，2倍速、保调2倍速及仅升八度的时轴？",
+          "reject": "时轴已缩半，不能同时满足。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.03",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑窗、滤波及处理参数/副本标注",
+      "d4Targets": [
+        "K08.03.01.03",
+        "K08.03.02.03",
+        "K08.03.03.03",
+        "K08.03.01.04",
+        "K08.03.02.04",
+        "K08.03.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 24,
+        "row": "| K08.03 | A06 | P | 可编辑窗、滤波及处理参数/副本标注 | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA07",
+          "claim": "K08-CL-DA07@1",
+          "problem": "x=[1,2,3],h=[.5,.5]零延拓，求y。",
+          "reject": "完整输出4个，截断会丢尾。"
+        },
+        {
+          "caseId": "DA08",
+          "claim": "K08-CL-DA08@1",
+          "problem": "48kHz win480/960共用nfft960，hop240，求窗时长、格点和单边点数。",
+          "reject": "只格点25Hz/961点，原观察信息不增加。"
+        },
+        {
+          "caseId": "DA09",
+          "claim": "K08-CL-DA09@1",
+          "problem": "2秒440Hz稳态，2倍速、2倍速保调、升12半音保长的目标？",
+          "reject": "时长及事件时轴仍是独立硬条件。"
+        },
+        {
+          "caseId": "DA34",
+          "claim": "K08-CL-DA34@1",
+          "problem": "x=[0,0,0,1],h=[1,1]，线性与4点循环结果？",
+          "reject": "尾项回卷至首。"
+        },
+        {
+          "caseId": "DA35",
+          "claim": "K08-CL-DA35@1",
+          "problem": "矩形窗2 hop1，x=[1,2,3]，两帧重叠相加及覆盖？",
+          "reject": "首点平方和0，不满足覆盖。"
+        },
+        {
+          "caseId": "DA36",
+          "claim": "K08-CL-DA36@1",
+          "problem": "起点0/.5s总1s，2倍速、保调2倍速及仅升八度的时轴？",
+          "reject": "时轴已缩半，不能同时满足。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "单因素重算、验证目标与副作用，原件不覆盖",
+      "d4Targets": [
+        "K08.03.01.03",
+        "K08.03.02.03",
+        "K08.03.03.03",
+        "K08.03.01.04",
+        "K08.03.02.04",
+        "K08.03.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 25,
+        "row": "| K08.03 | A07 | P | 单因素重算、验证目标与副作用，原件不覆盖 | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA07",
+          "claim": "K08-CL-DA07@1",
+          "problem": "x=[1,2,3],h=[.5,.5]零延拓，求y。",
+          "reject": "完整输出4个，截断会丢尾。"
+        },
+        {
+          "caseId": "DA08",
+          "claim": "K08-CL-DA08@1",
+          "problem": "48kHz win480/960共用nfft960，hop240，求窗时长、格点和单边点数。",
+          "reject": "只格点25Hz/961点，原观察信息不增加。"
+        },
+        {
+          "caseId": "DA09",
+          "claim": "K08-CL-DA09@1",
+          "problem": "2秒440Hz稳态，2倍速、2倍速保调、升12半音保长的目标？",
+          "reject": "时长及事件时轴仍是独立硬条件。"
+        },
+        {
+          "caseId": "DA34",
+          "claim": "K08-CL-DA34@1",
+          "problem": "x=[0,0,0,1],h=[1,1]，线性与4点循环结果？",
+          "reject": "尾项回卷至首。"
+        },
+        {
+          "caseId": "DA35",
+          "claim": "K08-CL-DA35@1",
+          "problem": "矩形窗2 hop1，x=[1,2,3]，两帧重叠相加及覆盖？",
+          "reject": "首点平方和0，不满足覆盖。"
+        },
+        {
+          "caseId": "DA36",
+          "claim": "K08-CL-DA36@1",
+          "problem": "起点0/.5s总1s，2倍速、保调2倍速及仅升八度的时轴？",
+          "reject": "时轴已缩半，不能同时满足。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "模拟数字信号链/余量/路由",
+      "d4Targets": [
+        "K08.04.01.03",
+        "K08.04.02.03",
+        "K08.04.03.03",
+        "K08.04.01.04",
+        "K08.04.02.04",
+        "K08.04.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 26,
+        "row": "| K08.04 | A01 | P | 模拟数字信号链/余量/路由 | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA10",
+          "claim": "K08-CL-DA10@1",
+          "problem": "[.8,1.3]截幅至1再乘.5，求结果。",
+          "reject": "派生幅度变小不恢复截断信息。"
+        },
+        {
+          "caseId": "DA11",
+          "claim": "K08-CL-DA11@1",
+          "problem": "参考满刻度1，样本峰.5，求相对dB。",
+          "reject": "输出格式与转换量程另核。"
+        },
+        {
+          "caseId": "DA12",
+          "claim": "K08-CL-DA12@1",
+          "problem": "x=[1,0]经单位、交换、零矩阵，求输出。",
+          "reject": "静音或路由也会产生零输出。"
+        },
+        {
+          "caseId": "DA37",
+          "claim": "K08-CL-DA37@1",
+          "problem": "A ADC前1.3超限，B ADC正常.8后插件处理，如何区分？",
+          "reject": "不同链路可映同结果。"
+        },
+        {
+          "caseId": "DA38",
+          "claim": "K08-CL-DA38@1",
+          "problem": "x=1.1cos(2πfs/4 t+π/4)，样本绝对峰及连续峰？",
+          "reject": "连续峰反例超过1。"
+        },
+        {
+          "caseId": "DA39",
+          "claim": "K08-CL-DA39@1",
+          "problem": "L=1,R=−1，均值及只保左？",
+          "reject": "相反极性抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "监测点→最早异常→离线标记→限定修正",
+      "d4Targets": [
+        "K08.04.01.03",
+        "K08.04.02.03",
+        "K08.04.03.03",
+        "K08.04.01.04",
+        "K08.04.02.04",
+        "K08.04.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 27,
+        "row": "| K08.04 | A02 | P | 监测点→最早异常→离线标记→限定修正 | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA10",
+          "claim": "K08-CL-DA10@1",
+          "problem": "[.8,1.3]截幅至1再乘.5，求结果。",
+          "reject": "派生幅度变小不恢复截断信息。"
+        },
+        {
+          "caseId": "DA11",
+          "claim": "K08-CL-DA11@1",
+          "problem": "参考满刻度1，样本峰.5，求相对dB。",
+          "reject": "输出格式与转换量程另核。"
+        },
+        {
+          "caseId": "DA12",
+          "claim": "K08-CL-DA12@1",
+          "problem": "x=[1,0]经单位、交换、零矩阵，求输出。",
+          "reject": "静音或路由也会产生零输出。"
+        },
+        {
+          "caseId": "DA37",
+          "claim": "K08-CL-DA37@1",
+          "problem": "A ADC前1.3超限，B ADC正常.8后插件处理，如何区分？",
+          "reject": "不同链路可映同结果。"
+        },
+        {
+          "caseId": "DA38",
+          "claim": "K08-CL-DA38@1",
+          "problem": "x=1.1cos(2πfs/4 t+π/4)，样本绝对峰及连续峰？",
+          "reject": "连续峰反例超过1。"
+        },
+        {
+          "caseId": "DA39",
+          "claim": "K08-CL-DA39@1",
+          "problem": "L=1,R=−1，均值及只保左？",
+          "reject": "相反极性抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.04",
+      "ability": "A03",
+      "role": "P",
+      "task": "增益/矩阵/监测工具的专业参数与约束，实际宿主K12",
+      "d4Targets": [
+        "K08.04.01.03",
+        "K08.04.02.03",
+        "K08.04.03.03",
+        "K08.04.01.04",
+        "K08.04.02.04",
+        "K08.04.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 28,
+        "row": "| K08.04 | A03 | P | 增益/矩阵/监测工具的专业参数与约束，实际宿主K12 | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA10",
+          "claim": "K08-CL-DA10@1",
+          "problem": "[.8,1.3]截幅至1再乘.5，求结果。",
+          "reject": "派生幅度变小不恢复截断信息。"
+        },
+        {
+          "caseId": "DA11",
+          "claim": "K08-CL-DA11@1",
+          "problem": "参考满刻度1，样本峰.5，求相对dB。",
+          "reject": "输出格式与转换量程另核。"
+        },
+        {
+          "caseId": "DA12",
+          "claim": "K08-CL-DA12@1",
+          "problem": "x=[1,0]经单位、交换、零矩阵，求输出。",
+          "reject": "静音或路由也会产生零输出。"
+        },
+        {
+          "caseId": "DA37",
+          "claim": "K08-CL-DA37@1",
+          "problem": "A ADC前1.3超限，B ADC正常.8后插件处理，如何区分？",
+          "reject": "不同链路可映同结果。"
+        },
+        {
+          "caseId": "DA38",
+          "claim": "K08-CL-DA38@1",
+          "problem": "x=1.1cos(2πfs/4 t+π/4)，样本绝对峰及连续峰？",
+          "reject": "连续峰反例超过1。"
+        },
+        {
+          "caseId": "DA39",
+          "claim": "K08-CL-DA39@1",
+          "problem": "L=1,R=−1，均值及只保左？",
+          "reject": "相反极性抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.04",
+      "ability": "A04",
+      "role": "P",
+      "task": "输入/输出节点、增益、mute及路由版本",
+      "d4Targets": [
+        "K08.04.01.03",
+        "K08.04.02.03",
+        "K08.04.03.03",
+        "K08.04.01.04",
+        "K08.04.02.04",
+        "K08.04.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 29,
+        "row": "| K08.04 | A04 | P | 输入/输出节点、增益、mute及路由版本 | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA10",
+          "claim": "K08-CL-DA10@1",
+          "problem": "[.8,1.3]截幅至1再乘.5，求结果。",
+          "reject": "派生幅度变小不恢复截断信息。"
+        },
+        {
+          "caseId": "DA11",
+          "claim": "K08-CL-DA11@1",
+          "problem": "参考满刻度1，样本峰.5，求相对dB。",
+          "reject": "输出格式与转换量程另核。"
+        },
+        {
+          "caseId": "DA12",
+          "claim": "K08-CL-DA12@1",
+          "problem": "x=[1,0]经单位、交换、零矩阵，求输出。",
+          "reject": "静音或路由也会产生零输出。"
+        },
+        {
+          "caseId": "DA37",
+          "claim": "K08-CL-DA37@1",
+          "problem": "A ADC前1.3超限，B ADC正常.8后插件处理，如何区分？",
+          "reject": "不同链路可映同结果。"
+        },
+        {
+          "caseId": "DA38",
+          "claim": "K08-CL-DA38@1",
+          "problem": "x=1.1cos(2πfs/4 t+π/4)，样本绝对峰及连续峰？",
+          "reject": "连续峰反例超过1。"
+        },
+        {
+          "caseId": "DA39",
+          "claim": "K08-CL-DA39@1",
+          "problem": "L=1,R=−1，均值及只保左？",
+          "reject": "相反极性抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "量程、样本/重建峰、极性与路径校验",
+      "d4Targets": [
+        "K08.04.01.03",
+        "K08.04.02.03",
+        "K08.04.03.03",
+        "K08.04.01.04",
+        "K08.04.02.04",
+        "K08.04.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 30,
+        "row": "| K08.04 | A05 | P | 量程、样本/重建峰、极性与路径校验 | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA10",
+          "claim": "K08-CL-DA10@1",
+          "problem": "[.8,1.3]截幅至1再乘.5，求结果。",
+          "reject": "派生幅度变小不恢复截断信息。"
+        },
+        {
+          "caseId": "DA11",
+          "claim": "K08-CL-DA11@1",
+          "problem": "参考满刻度1，样本峰.5，求相对dB。",
+          "reject": "输出格式与转换量程另核。"
+        },
+        {
+          "caseId": "DA12",
+          "claim": "K08-CL-DA12@1",
+          "problem": "x=[1,0]经单位、交换、零矩阵，求输出。",
+          "reject": "静音或路由也会产生零输出。"
+        },
+        {
+          "caseId": "DA37",
+          "claim": "K08-CL-DA37@1",
+          "problem": "A ADC前1.3超限，B ADC正常.8后插件处理，如何区分？",
+          "reject": "不同链路可映同结果。"
+        },
+        {
+          "caseId": "DA38",
+          "claim": "K08-CL-DA38@1",
+          "problem": "x=1.1cos(2πfs/4 t+π/4)，样本绝对峰及连续峰？",
+          "reject": "连续峰反例超过1。"
+        },
+        {
+          "caseId": "DA39",
+          "claim": "K08-CL-DA39@1",
+          "problem": "L=1,R=−1，均值及只保左？",
+          "reject": "相反极性抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑矩阵/增益及节点证据",
+      "d4Targets": [
+        "K08.04.01.03",
+        "K08.04.02.03",
+        "K08.04.03.03",
+        "K08.04.01.04",
+        "K08.04.02.04",
+        "K08.04.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 31,
+        "row": "| K08.04 | A06 | P | 可编辑矩阵/增益及节点证据 | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA10",
+          "claim": "K08-CL-DA10@1",
+          "problem": "[.8,1.3]截幅至1再乘.5，求结果。",
+          "reject": "派生幅度变小不恢复截断信息。"
+        },
+        {
+          "caseId": "DA11",
+          "claim": "K08-CL-DA11@1",
+          "problem": "参考满刻度1，样本峰.5，求相对dB。",
+          "reject": "输出格式与转换量程另核。"
+        },
+        {
+          "caseId": "DA12",
+          "claim": "K08-CL-DA12@1",
+          "problem": "x=[1,0]经单位、交换、零矩阵，求输出。",
+          "reject": "静音或路由也会产生零输出。"
+        },
+        {
+          "caseId": "DA37",
+          "claim": "K08-CL-DA37@1",
+          "problem": "A ADC前1.3超限，B ADC正常.8后插件处理，如何区分？",
+          "reject": "不同链路可映同结果。"
+        },
+        {
+          "caseId": "DA38",
+          "claim": "K08-CL-DA38@1",
+          "problem": "x=1.1cos(2πfs/4 t+π/4)，样本绝对峰及连续峰？",
+          "reject": "连续峰反例超过1。"
+        },
+        {
+          "caseId": "DA39",
+          "claim": "K08-CL-DA39@1",
+          "problem": "L=1,R=−1，均值及只保左？",
+          "reject": "相反极性抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "核节点后最小修正与回归，未知原因不提高音量",
+      "d4Targets": [
+        "K08.04.01.03",
+        "K08.04.02.03",
+        "K08.04.03.03",
+        "K08.04.01.04",
+        "K08.04.02.04",
+        "K08.04.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 32,
+        "row": "| K08.04 | A07 | P | 核节点后最小修正与回归，未知原因不提高音量 | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA11/K08.04.02.03](digital-audio-r1-knowledge-cases.md#L15)；[DA12/K08.04.03.03](digital-audio-r1-knowledge-cases.md#L16)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14)；[DA38/K08.04.02.04](digital-audio-r2-knowledge-cases.md#L15)；[DA39/K08.04.03.04](digital-audio-r2-knowledge-cases.md#L16) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA10",
+          "claim": "K08-CL-DA10@1",
+          "problem": "[.8,1.3]截幅至1再乘.5，求结果。",
+          "reject": "派生幅度变小不恢复截断信息。"
+        },
+        {
+          "caseId": "DA11",
+          "claim": "K08-CL-DA11@1",
+          "problem": "参考满刻度1，样本峰.5，求相对dB。",
+          "reject": "输出格式与转换量程另核。"
+        },
+        {
+          "caseId": "DA12",
+          "claim": "K08-CL-DA12@1",
+          "problem": "x=[1,0]经单位、交换、零矩阵，求输出。",
+          "reject": "静音或路由也会产生零输出。"
+        },
+        {
+          "caseId": "DA37",
+          "claim": "K08-CL-DA37@1",
+          "problem": "A ADC前1.3超限，B ADC正常.8后插件处理，如何区分？",
+          "reject": "不同链路可映同结果。"
+        },
+        {
+          "caseId": "DA38",
+          "claim": "K08-CL-DA38@1",
+          "problem": "x=1.1cos(2πfs/4 t+π/4)，样本绝对峰及连续峰？",
+          "reject": "连续峰反例超过1。"
+        },
+        {
+          "caseId": "DA39",
+          "claim": "K08-CL-DA39@1",
+          "problem": "L=1,R=−1，均值及只保左？",
+          "reject": "相反极性抵消。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "传感器指向/距离/环境噪声",
+      "d4Targets": [
+        "K08.05.01.03",
+        "K08.05.02.03",
+        "K08.05.03.03",
+        "K08.05.01.04",
+        "K08.05.02.04",
+        "K08.05.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 33,
+        "row": "| K08.05 | A01 | P | 传感器指向/距离/环境噪声 | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA13",
+          "claim": "K08-CL-DA13@1",
+          "problem": "理想0/90/180度响应？",
+          "reject": "实际图、反射和频率依赖未证。"
+        },
+        {
+          "caseId": "DA14",
+          "claim": "K08-CL-DA14@1",
+          "problem": "同点源距离2到4m，直达压力比？",
+          "reject": "距离衰减与近讲效应不同。"
+        },
+        {
+          "caseId": "DA15",
+          "claim": "K08-CL-DA15@1",
+          "problem": "50Hz峰同时可能来自机械声、电气耦合、源，下一步？",
+          "reject": "可能删除目标内容；缺独立证据。"
+        },
+        {
+          "caseId": "DA40",
+          "claim": "K08-CL-DA40@1",
+          "problem": "180°时全向/心形/8字响应？",
+          "reject": "绝对幅度1且极性反转。"
+        },
+        {
+          "caseId": "DA41",
+          "claim": "K08-CL-DA41@1",
+          "problem": "位置固定改角度A，角度固定改距离B，记录何项？",
+          "reject": "变量混杂。"
+        },
+        {
+          "caseId": "DA42",
+          "claim": "K08-CL-DA42@1",
+          "problem": "环境和链路参考都有50Hz，如何保留候选？",
+          "reject": "未经授权，且单变更未核证。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "明确源/场地→型号角频条件→授权对照→评价",
+      "d4Targets": [
+        "K08.05.01.03",
+        "K08.05.02.03",
+        "K08.05.03.03",
+        "K08.05.01.04",
+        "K08.05.02.04",
+        "K08.05.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 34,
+        "row": "| K08.05 | A02 | P | 明确源/场地→型号角频条件→授权对照→评价 | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA13",
+          "claim": "K08-CL-DA13@1",
+          "problem": "理想0/90/180度响应？",
+          "reject": "实际图、反射和频率依赖未证。"
+        },
+        {
+          "caseId": "DA14",
+          "claim": "K08-CL-DA14@1",
+          "problem": "同点源距离2到4m，直达压力比？",
+          "reject": "距离衰减与近讲效应不同。"
+        },
+        {
+          "caseId": "DA15",
+          "claim": "K08-CL-DA15@1",
+          "problem": "50Hz峰同时可能来自机械声、电气耦合、源，下一步？",
+          "reject": "可能删除目标内容；缺独立证据。"
+        },
+        {
+          "caseId": "DA40",
+          "claim": "K08-CL-DA40@1",
+          "problem": "180°时全向/心形/8字响应？",
+          "reject": "绝对幅度1且极性反转。"
+        },
+        {
+          "caseId": "DA41",
+          "claim": "K08-CL-DA41@1",
+          "problem": "位置固定改角度A，角度固定改距离B，记录何项？",
+          "reject": "变量混杂。"
+        },
+        {
+          "caseId": "DA42",
+          "claim": "K08-CL-DA42@1",
+          "problem": "环境和链路参考都有50Hz，如何保留候选？",
+          "reject": "未经授权，且单变更未核证。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "提供传感器/测量条件给K12、物理测量K07",
+      "d4Targets": [
+        "K08.05.01.03",
+        "K08.05.02.03",
+        "K08.05.03.03",
+        "K08.05.01.04",
+        "K08.05.02.04",
+        "K08.05.03.04"
+      ],
+      "limits": "引用支持，不迁移具体owner或执行权。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 35,
+        "row": "| K08.05 | A03 | S | 提供传感器/测量条件给K12、物理测量K07 | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | 引用支持，不迁移具体owner或执行权。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA13",
+          "claim": "K08-CL-DA13@1",
+          "problem": "理想0/90/180度响应？",
+          "reject": "实际图、反射和频率依赖未证。"
+        },
+        {
+          "caseId": "DA14",
+          "claim": "K08-CL-DA14@1",
+          "problem": "同点源距离2到4m，直达压力比？",
+          "reject": "距离衰减与近讲效应不同。"
+        },
+        {
+          "caseId": "DA15",
+          "claim": "K08-CL-DA15@1",
+          "problem": "50Hz峰同时可能来自机械声、电气耦合、源，下一步？",
+          "reject": "可能删除目标内容；缺独立证据。"
+        },
+        {
+          "caseId": "DA40",
+          "claim": "K08-CL-DA40@1",
+          "problem": "180°时全向/心形/8字响应？",
+          "reject": "绝对幅度1且极性反转。"
+        },
+        {
+          "caseId": "DA41",
+          "claim": "K08-CL-DA41@1",
+          "problem": "位置固定改角度A，角度固定改距离B，记录何项？",
+          "reject": "变量混杂。"
+        },
+        {
+          "caseId": "DA42",
+          "claim": "K08-CL-DA42@1",
+          "problem": "环境和链路参考都有50Hz，如何保留候选？",
+          "reject": "未经授权，且单变更未核证。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.05",
+      "ability": "A04",
+      "role": "P",
+      "task": "源/位置/角度/设备/背景记录及失效条件",
+      "d4Targets": [
+        "K08.05.01.03",
+        "K08.05.02.03",
+        "K08.05.03.03",
+        "K08.05.01.04",
+        "K08.05.02.04",
+        "K08.05.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 36,
+        "row": "| K08.05 | A04 | P | 源/位置/角度/设备/背景记录及失效条件 | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA13",
+          "claim": "K08-CL-DA13@1",
+          "problem": "理想0/90/180度响应？",
+          "reject": "实际图、反射和频率依赖未证。"
+        },
+        {
+          "caseId": "DA14",
+          "claim": "K08-CL-DA14@1",
+          "problem": "同点源距离2到4m，直达压力比？",
+          "reject": "距离衰减与近讲效应不同。"
+        },
+        {
+          "caseId": "DA15",
+          "claim": "K08-CL-DA15@1",
+          "problem": "50Hz峰同时可能来自机械声、电气耦合、源，下一步？",
+          "reject": "可能删除目标内容；缺独立证据。"
+        },
+        {
+          "caseId": "DA40",
+          "claim": "K08-CL-DA40@1",
+          "problem": "180°时全向/心形/8字响应？",
+          "reject": "绝对幅度1且极性反转。"
+        },
+        {
+          "caseId": "DA41",
+          "claim": "K08-CL-DA41@1",
+          "problem": "位置固定改角度A，角度固定改距离B，记录何项？",
+          "reject": "变量混杂。"
+        },
+        {
+          "caseId": "DA42",
+          "claim": "K08-CL-DA42@1",
+          "problem": "环境和链路参考都有50Hz，如何保留候选？",
+          "reject": "未经授权，且单变更未核证。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "目标保留/非目标及混杂，未知不诊断",
+      "d4Targets": [
+        "K08.05.01.03",
+        "K08.05.02.03",
+        "K08.05.03.03",
+        "K08.05.01.04",
+        "K08.05.02.04",
+        "K08.05.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 37,
+        "row": "| K08.05 | A05 | P | 目标保留/非目标及混杂，未知不诊断 | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA13",
+          "claim": "K08-CL-DA13@1",
+          "problem": "理想0/90/180度响应？",
+          "reject": "实际图、反射和频率依赖未证。"
+        },
+        {
+          "caseId": "DA14",
+          "claim": "K08-CL-DA14@1",
+          "problem": "同点源距离2到4m，直达压力比？",
+          "reject": "距离衰减与近讲效应不同。"
+        },
+        {
+          "caseId": "DA15",
+          "claim": "K08-CL-DA15@1",
+          "problem": "50Hz峰同时可能来自机械声、电气耦合、源，下一步？",
+          "reject": "可能删除目标内容；缺独立证据。"
+        },
+        {
+          "caseId": "DA40",
+          "claim": "K08-CL-DA40@1",
+          "problem": "180°时全向/心形/8字响应？",
+          "reject": "绝对幅度1且极性反转。"
+        },
+        {
+          "caseId": "DA41",
+          "claim": "K08-CL-DA41@1",
+          "problem": "位置固定改角度A，角度固定改距离B，记录何项？",
+          "reject": "变量混杂。"
+        },
+        {
+          "caseId": "DA42",
+          "claim": "K08-CL-DA42@1",
+          "problem": "环境和链路参考都有50Hz，如何保留候选？",
+          "reject": "未经授权，且单变更未核证。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.05",
+      "ability": "A06",
+      "role": "S",
+      "task": "支持可编辑拾音布局和条件记录，具体制作K09/格式K12",
+      "d4Targets": [
+        "K08.05.01.03",
+        "K08.05.02.03",
+        "K08.05.03.03",
+        "K08.05.01.04",
+        "K08.05.02.04",
+        "K08.05.03.04"
+      ],
+      "limits": "引用支持，不迁移具体owner或执行权。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 38,
+        "row": "| K08.05 | A06 | S | 支持可编辑拾音布局和条件记录，具体制作K09/格式K12 | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | 引用支持，不迁移具体owner或执行权。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA13",
+          "claim": "K08-CL-DA13@1",
+          "problem": "理想0/90/180度响应？",
+          "reject": "实际图、反射和频率依赖未证。"
+        },
+        {
+          "caseId": "DA14",
+          "claim": "K08-CL-DA14@1",
+          "problem": "同点源距离2到4m，直达压力比？",
+          "reject": "距离衰减与近讲效应不同。"
+        },
+        {
+          "caseId": "DA15",
+          "claim": "K08-CL-DA15@1",
+          "problem": "50Hz峰同时可能来自机械声、电气耦合、源，下一步？",
+          "reject": "可能删除目标内容；缺独立证据。"
+        },
+        {
+          "caseId": "DA40",
+          "claim": "K08-CL-DA40@1",
+          "problem": "180°时全向/心形/8字响应？",
+          "reject": "绝对幅度1且极性反转。"
+        },
+        {
+          "caseId": "DA41",
+          "claim": "K08-CL-DA41@1",
+          "problem": "位置固定改角度A，角度固定改距离B，记录何项？",
+          "reject": "变量混杂。"
+        },
+        {
+          "caseId": "DA42",
+          "claim": "K08-CL-DA42@1",
+          "problem": "环境和链路参考都有50Hz，如何保留候选？",
+          "reject": "未经授权，且单变更未核证。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "只变已授权因素，保留基线与安全停止",
+      "d4Targets": [
+        "K08.05.01.03",
+        "K08.05.02.03",
+        "K08.05.03.03",
+        "K08.05.01.04",
+        "K08.05.02.04",
+        "K08.05.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 39,
+        "row": "| K08.05 | A07 | P | 只变已授权因素，保留基线与安全停止 | [DA13/K08.05.01.03](digital-audio-r1-knowledge-cases.md#L17)；[DA14/K08.05.02.03](digital-audio-r1-knowledge-cases.md#L18)；[DA15/K08.05.03.03](digital-audio-r1-knowledge-cases.md#L19)；[DA40/K08.05.01.04](digital-audio-r2-knowledge-cases.md#L17)；[DA41/K08.05.02.04](digital-audio-r2-knowledge-cases.md#L18)；[DA42/K08.05.03.04](digital-audio-r2-knowledge-cases.md#L19) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA13",
+          "claim": "K08-CL-DA13@1",
+          "problem": "理想0/90/180度响应？",
+          "reject": "实际图、反射和频率依赖未证。"
+        },
+        {
+          "caseId": "DA14",
+          "claim": "K08-CL-DA14@1",
+          "problem": "同点源距离2到4m，直达压力比？",
+          "reject": "距离衰减与近讲效应不同。"
+        },
+        {
+          "caseId": "DA15",
+          "claim": "K08-CL-DA15@1",
+          "problem": "50Hz峰同时可能来自机械声、电气耦合、源，下一步？",
+          "reject": "可能删除目标内容；缺独立证据。"
+        },
+        {
+          "caseId": "DA40",
+          "claim": "K08-CL-DA40@1",
+          "problem": "180°时全向/心形/8字响应？",
+          "reject": "绝对幅度1且极性反转。"
+        },
+        {
+          "caseId": "DA41",
+          "claim": "K08-CL-DA41@1",
+          "problem": "位置固定改角度A，角度固定改距离B，记录何项？",
+          "reject": "变量混杂。"
+        },
+        {
+          "caseId": "DA42",
+          "claim": "K08-CL-DA42@1",
+          "problem": "环境和链路参考都有50Hz，如何保留候选？",
+          "reject": "未经授权，且单变更未核证。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "录音配置/同步/故障证据",
+      "d4Targets": [
+        "K08.06.01.03",
+        "K08.06.02.03",
+        "K08.06.03.03",
+        "K08.06.01.04",
+        "K08.06.02.04",
+        "K08.06.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 40,
+        "row": "| K08.06 | A01 | P | 录音配置/同步/故障证据 | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA16",
+          "claim": "K08-CL-DA16@1",
+          "problem": "48k双声道16位1秒，应多少帧及字节？47000帧怎样？",
+          "reject": "实际写入、对齐与计数未证。"
+        },
+        {
+          "caseId": "DA17",
+          "claim": "K08-CL-DA17@1",
+          "problem": "48k轨0秒偏240帧、60秒偏528帧，计算固定偏移和漂移。",
+          "reject": "差值增长，固定补偿不能消除。"
+        },
+        {
+          "caseId": "DA18",
+          "claim": "K08-CL-DA18@1",
+          "problem": "帧ID1000→1002，原T1只读，怎样记录候选？",
+          "reject": "破坏失败证据，估计不是真值。"
+        },
+        {
+          "caseId": "DA43",
+          "claim": "K08-CL-DA43@1",
+          "problem": "双声道16位载荷3字节，是否完整帧？",
+          "reject": "实际数据非整帧，必须拒绝。"
+        },
+        {
+          "caseId": "DA44",
+          "claim": "K08-CL-DA44@1",
+          "problem": "0/30/60秒偏240/384/528帧，若中点400，求残差。",
+          "reject": "实际中点偏差违反模型。"
+        },
+        {
+          "caseId": "DA45",
+          "claim": "K08-CL-DA45@1",
+          "problem": "T1日志E1缺条，音频覆盖未知，T2计划补值，怎样记录？",
+          "reject": "不可追溯，破坏原证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "授权→配置→文件/监测核验→同步→故障记录",
+      "d4Targets": [
+        "K08.06.01.03",
+        "K08.06.02.03",
+        "K08.06.03.03",
+        "K08.06.01.04",
+        "K08.06.02.04",
+        "K08.06.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 41,
+        "row": "| K08.06 | A02 | P | 授权→配置→文件/监测核验→同步→故障记录 | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA16",
+          "claim": "K08-CL-DA16@1",
+          "problem": "48k双声道16位1秒，应多少帧及字节？47000帧怎样？",
+          "reject": "实际写入、对齐与计数未证。"
+        },
+        {
+          "caseId": "DA17",
+          "claim": "K08-CL-DA17@1",
+          "problem": "48k轨0秒偏240帧、60秒偏528帧，计算固定偏移和漂移。",
+          "reject": "差值增长，固定补偿不能消除。"
+        },
+        {
+          "caseId": "DA18",
+          "claim": "K08-CL-DA18@1",
+          "problem": "帧ID1000→1002，原T1只读，怎样记录候选？",
+          "reject": "破坏失败证据，估计不是真值。"
+        },
+        {
+          "caseId": "DA43",
+          "claim": "K08-CL-DA43@1",
+          "problem": "双声道16位载荷3字节，是否完整帧？",
+          "reject": "实际数据非整帧，必须拒绝。"
+        },
+        {
+          "caseId": "DA44",
+          "claim": "K08-CL-DA44@1",
+          "problem": "0/30/60秒偏240/384/528帧，若中点400，求残差。",
+          "reject": "实际中点偏差违反模型。"
+        },
+        {
+          "caseId": "DA45",
+          "claim": "K08-CL-DA45@1",
+          "problem": "T1日志E1缺条，音频覆盖未知，T2计划补值，怎样记录？",
+          "reject": "不可追溯，破坏原证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.06",
+      "ability": "A03",
+      "role": "P",
+      "task": "录制/对齐/日志工具专业前置与输入输出，实际版本K12",
+      "d4Targets": [
+        "K08.06.01.03",
+        "K08.06.02.03",
+        "K08.06.03.03",
+        "K08.06.01.04",
+        "K08.06.02.04",
+        "K08.06.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 42,
+        "row": "| K08.06 | A03 | P | 录制/对齐/日志工具专业前置与输入输出，实际版本K12 | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA16",
+          "claim": "K08-CL-DA16@1",
+          "problem": "48k双声道16位1秒，应多少帧及字节？47000帧怎样？",
+          "reject": "实际写入、对齐与计数未证。"
+        },
+        {
+          "caseId": "DA17",
+          "claim": "K08-CL-DA17@1",
+          "problem": "48k轨0秒偏240帧、60秒偏528帧，计算固定偏移和漂移。",
+          "reject": "差值增长，固定补偿不能消除。"
+        },
+        {
+          "caseId": "DA18",
+          "claim": "K08-CL-DA18@1",
+          "problem": "帧ID1000→1002，原T1只读，怎样记录候选？",
+          "reject": "破坏失败证据，估计不是真值。"
+        },
+        {
+          "caseId": "DA43",
+          "claim": "K08-CL-DA43@1",
+          "problem": "双声道16位载荷3字节，是否完整帧？",
+          "reject": "实际数据非整帧，必须拒绝。"
+        },
+        {
+          "caseId": "DA44",
+          "claim": "K08-CL-DA44@1",
+          "problem": "0/30/60秒偏240/384/528帧，若中点400，求残差。",
+          "reject": "实际中点偏差违反模型。"
+        },
+        {
+          "caseId": "DA45",
+          "claim": "K08-CL-DA45@1",
+          "problem": "T1日志E1缺条，音频覆盖未知，T2计划补值，怎样记录？",
+          "reject": "不可追溯，破坏原证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.06",
+      "ability": "A04",
+      "role": "P",
+      "task": "take、配置、时基、事件和补值状态",
+      "d4Targets": [
+        "K08.06.01.03",
+        "K08.06.02.03",
+        "K08.06.03.03",
+        "K08.06.01.04",
+        "K08.06.02.04",
+        "K08.06.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 43,
+        "row": "| K08.06 | A04 | P | take、配置、时基、事件和补值状态 | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA16",
+          "claim": "K08-CL-DA16@1",
+          "problem": "48k双声道16位1秒，应多少帧及字节？47000帧怎样？",
+          "reject": "实际写入、对齐与计数未证。"
+        },
+        {
+          "caseId": "DA17",
+          "claim": "K08-CL-DA17@1",
+          "problem": "48k轨0秒偏240帧、60秒偏528帧，计算固定偏移和漂移。",
+          "reject": "差值增长，固定补偿不能消除。"
+        },
+        {
+          "caseId": "DA18",
+          "claim": "K08-CL-DA18@1",
+          "problem": "帧ID1000→1002，原T1只读，怎样记录候选？",
+          "reject": "破坏失败证据，估计不是真值。"
+        },
+        {
+          "caseId": "DA43",
+          "claim": "K08-CL-DA43@1",
+          "problem": "双声道16位载荷3字节，是否完整帧？",
+          "reject": "实际数据非整帧，必须拒绝。"
+        },
+        {
+          "caseId": "DA44",
+          "claim": "K08-CL-DA44@1",
+          "problem": "0/30/60秒偏240/384/528帧，若中点400，求残差。",
+          "reject": "实际中点偏差违反模型。"
+        },
+        {
+          "caseId": "DA45",
+          "claim": "K08-CL-DA45@1",
+          "problem": "T1日志E1缺条，音频覆盖未知，T2计划补值，怎样记录？",
+          "reject": "不可追溯，破坏原证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "完整帧/时钟/偏移残差/独立故障证据",
+      "d4Targets": [
+        "K08.06.01.03",
+        "K08.06.02.03",
+        "K08.06.03.03",
+        "K08.06.01.04",
+        "K08.06.02.04",
+        "K08.06.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 44,
+        "row": "| K08.06 | A05 | P | 完整帧/时钟/偏移残差/独立故障证据 | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA16",
+          "claim": "K08-CL-DA16@1",
+          "problem": "48k双声道16位1秒，应多少帧及字节？47000帧怎样？",
+          "reject": "实际写入、对齐与计数未证。"
+        },
+        {
+          "caseId": "DA17",
+          "claim": "K08-CL-DA17@1",
+          "problem": "48k轨0秒偏240帧、60秒偏528帧，计算固定偏移和漂移。",
+          "reject": "差值增长，固定补偿不能消除。"
+        },
+        {
+          "caseId": "DA18",
+          "claim": "K08-CL-DA18@1",
+          "problem": "帧ID1000→1002，原T1只读，怎样记录候选？",
+          "reject": "破坏失败证据，估计不是真值。"
+        },
+        {
+          "caseId": "DA43",
+          "claim": "K08-CL-DA43@1",
+          "problem": "双声道16位载荷3字节，是否完整帧？",
+          "reject": "实际数据非整帧，必须拒绝。"
+        },
+        {
+          "caseId": "DA44",
+          "claim": "K08-CL-DA44@1",
+          "problem": "0/30/60秒偏240/384/528帧，若中点400，求残差。",
+          "reject": "实际中点偏差违反模型。"
+        },
+        {
+          "caseId": "DA45",
+          "claim": "K08-CL-DA45@1",
+          "problem": "T1日志E1缺条，音频覆盖未知，T2计划补值，怎样记录？",
+          "reject": "不可追溯，破坏原证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.06",
+      "ability": "A06",
+      "role": "P",
+      "task": "原始只读、可编辑对齐/补值标注及派生记录",
+      "d4Targets": [
+        "K08.06.01.03",
+        "K08.06.02.03",
+        "K08.06.03.03",
+        "K08.06.01.04",
+        "K08.06.02.04",
+        "K08.06.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 45,
+        "row": "| K08.06 | A06 | P | 原始只读、可编辑对齐/补值标注及派生记录 | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA16",
+          "claim": "K08-CL-DA16@1",
+          "problem": "48k双声道16位1秒，应多少帧及字节？47000帧怎样？",
+          "reject": "实际写入、对齐与计数未证。"
+        },
+        {
+          "caseId": "DA17",
+          "claim": "K08-CL-DA17@1",
+          "problem": "48k轨0秒偏240帧、60秒偏528帧，计算固定偏移和漂移。",
+          "reject": "差值增长，固定补偿不能消除。"
+        },
+        {
+          "caseId": "DA18",
+          "claim": "K08-CL-DA18@1",
+          "problem": "帧ID1000→1002，原T1只读，怎样记录候选？",
+          "reject": "破坏失败证据，估计不是真值。"
+        },
+        {
+          "caseId": "DA43",
+          "claim": "K08-CL-DA43@1",
+          "problem": "双声道16位载荷3字节，是否完整帧？",
+          "reject": "实际数据非整帧，必须拒绝。"
+        },
+        {
+          "caseId": "DA44",
+          "claim": "K08-CL-DA44@1",
+          "problem": "0/30/60秒偏240/384/528帧，若中点400，求残差。",
+          "reject": "实际中点偏差违反模型。"
+        },
+        {
+          "caseId": "DA45",
+          "claim": "K08-CL-DA45@1",
+          "problem": "T1日志E1缺条，音频覆盖未知，T2计划补值，怎样记录？",
+          "reject": "不可追溯，破坏原证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "复核配置、时钟及缺失，单因素修订回滚",
+      "d4Targets": [
+        "K08.06.01.03",
+        "K08.06.02.03",
+        "K08.06.03.03",
+        "K08.06.01.04",
+        "K08.06.02.04",
+        "K08.06.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 46,
+        "row": "| K08.06 | A07 | P | 复核配置、时钟及缺失，单因素修订回滚 | [DA16/K08.06.01.03](digital-audio-r1-knowledge-cases.md#L20)；[DA17/K08.06.02.03](digital-audio-r1-knowledge-cases.md#L21)；[DA18/K08.06.03.03](digital-audio-r1-knowledge-cases.md#L22)；[DA43/K08.06.01.04](digital-audio-r2-knowledge-cases.md#L20)；[DA44/K08.06.02.04](digital-audio-r2-knowledge-cases.md#L21)；[DA45/K08.06.03.04](digital-audio-r2-knowledge-cases.md#L22) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA16",
+          "claim": "K08-CL-DA16@1",
+          "problem": "48k双声道16位1秒，应多少帧及字节？47000帧怎样？",
+          "reject": "实际写入、对齐与计数未证。"
+        },
+        {
+          "caseId": "DA17",
+          "claim": "K08-CL-DA17@1",
+          "problem": "48k轨0秒偏240帧、60秒偏528帧，计算固定偏移和漂移。",
+          "reject": "差值增长，固定补偿不能消除。"
+        },
+        {
+          "caseId": "DA18",
+          "claim": "K08-CL-DA18@1",
+          "problem": "帧ID1000→1002，原T1只读，怎样记录候选？",
+          "reject": "破坏失败证据，估计不是真值。"
+        },
+        {
+          "caseId": "DA43",
+          "claim": "K08-CL-DA43@1",
+          "problem": "双声道16位载荷3字节，是否完整帧？",
+          "reject": "实际数据非整帧，必须拒绝。"
+        },
+        {
+          "caseId": "DA44",
+          "claim": "K08-CL-DA44@1",
+          "problem": "0/30/60秒偏240/384/528帧，若中点400，求残差。",
+          "reject": "实际中点偏差违反模型。"
+        },
+        {
+          "caseId": "DA45",
+          "claim": "K08-CL-DA45@1",
+          "problem": "T1日志E1缺条，音频覆盖未知，T2计划补值，怎样记录？",
+          "reject": "不可追溯，破坏原证据。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "降噪/点击/削波/去混响与不可逆性",
+      "d4Targets": [
+        "K08.07.01.03",
+        "K08.07.02.03",
+        "K08.07.03.03",
+        "K08.07.01.04",
+        "K08.07.02.04",
+        "K08.07.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 47,
+        "row": "| K08.07 | A01 | P | 降噪/点击/削波/去混响与不可逆性 | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA19",
+          "claim": "K08-CL-DA19@1",
+          "problem": "已知持续窄带干扰与单次click，选两种候选方法。",
+          "reject": "无法仅靠频率区分，需目标保护与残差评估。"
+        },
+        {
+          "caseId": "DA20",
+          "claim": "K08-CL-DA20@1",
+          "problem": "[.7,1.2,.7]与[.7,2,.7]截到±1后？",
+          "reject": "多个原峰相容。"
+        },
+        {
+          "caseId": "DA21",
+          "claim": "K08-CL-DA21@1",
+          "problem": "x=[1,0],h=[1,.5]求线性卷积并给另一分解。",
+          "reject": "两分解已构成反例。"
+        },
+        {
+          "caseId": "DA46",
+          "claim": "K08-CL-DA46@1",
+          "problem": "t=[1,0,1],n=[.2,.2,.2],c=[0,2,0]，混合减n及减c。",
+          "reject": "中点仍2。"
+        },
+        {
+          "caseId": "DA47",
+          "claim": "K08-CL-DA47@1",
+          "problem": "削波[.7,1,.7]，列两个相容峰。",
+          "reject": ".7甚至不满足已知截幅前超限条件。"
+        },
+        {
+          "caseId": "DA48",
+          "claim": "K08-CL-DA48@1",
+          "problem": "x[n]=d[n]+.5x[n−2]，已知x[n]=1.5,x[n−2]=1，求d。",
+          "reject": "目标自身可能相关，语音条件不能泛化。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "目标/参考→副本处理候选→残差与损伤→选择/回滚",
+      "d4Targets": [
+        "K08.07.01.03",
+        "K08.07.02.03",
+        "K08.07.03.03",
+        "K08.07.01.04",
+        "K08.07.02.04",
+        "K08.07.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 48,
+        "row": "| K08.07 | A02 | P | 目标/参考→副本处理候选→残差与损伤→选择/回滚 | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA19",
+          "claim": "K08-CL-DA19@1",
+          "problem": "已知持续窄带干扰与单次click，选两种候选方法。",
+          "reject": "无法仅靠频率区分，需目标保护与残差评估。"
+        },
+        {
+          "caseId": "DA20",
+          "claim": "K08-CL-DA20@1",
+          "problem": "[.7,1.2,.7]与[.7,2,.7]截到±1后？",
+          "reject": "多个原峰相容。"
+        },
+        {
+          "caseId": "DA21",
+          "claim": "K08-CL-DA21@1",
+          "problem": "x=[1,0],h=[1,.5]求线性卷积并给另一分解。",
+          "reject": "两分解已构成反例。"
+        },
+        {
+          "caseId": "DA46",
+          "claim": "K08-CL-DA46@1",
+          "problem": "t=[1,0,1],n=[.2,.2,.2],c=[0,2,0]，混合减n及减c。",
+          "reject": "中点仍2。"
+        },
+        {
+          "caseId": "DA47",
+          "claim": "K08-CL-DA47@1",
+          "problem": "削波[.7,1,.7]，列两个相容峰。",
+          "reject": ".7甚至不满足已知截幅前超限条件。"
+        },
+        {
+          "caseId": "DA48",
+          "claim": "K08-CL-DA48@1",
+          "problem": "x[n]=d[n]+.5x[n−2]，已知x[n]=1.5,x[n−2]=1，求d。",
+          "reject": "目标自身可能相关，语音条件不能泛化。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.07",
+      "ability": "A03",
+      "role": "P",
+      "task": "处理工具输入/参考/参数/损失条件，实际工具K12",
+      "d4Targets": [
+        "K08.07.01.03",
+        "K08.07.02.03",
+        "K08.07.03.03",
+        "K08.07.01.04",
+        "K08.07.02.04",
+        "K08.07.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 49,
+        "row": "| K08.07 | A03 | P | 处理工具输入/参考/参数/损失条件，实际工具K12 | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA19",
+          "claim": "K08-CL-DA19@1",
+          "problem": "已知持续窄带干扰与单次click，选两种候选方法。",
+          "reject": "无法仅靠频率区分，需目标保护与残差评估。"
+        },
+        {
+          "caseId": "DA20",
+          "claim": "K08-CL-DA20@1",
+          "problem": "[.7,1.2,.7]与[.7,2,.7]截到±1后？",
+          "reject": "多个原峰相容。"
+        },
+        {
+          "caseId": "DA21",
+          "claim": "K08-CL-DA21@1",
+          "problem": "x=[1,0],h=[1,.5]求线性卷积并给另一分解。",
+          "reject": "两分解已构成反例。"
+        },
+        {
+          "caseId": "DA46",
+          "claim": "K08-CL-DA46@1",
+          "problem": "t=[1,0,1],n=[.2,.2,.2],c=[0,2,0]，混合减n及减c。",
+          "reject": "中点仍2。"
+        },
+        {
+          "caseId": "DA47",
+          "claim": "K08-CL-DA47@1",
+          "problem": "削波[.7,1,.7]，列两个相容峰。",
+          "reject": ".7甚至不满足已知截幅前超限条件。"
+        },
+        {
+          "caseId": "DA48",
+          "claim": "K08-CL-DA48@1",
+          "problem": "x[n]=d[n]+.5x[n−2]，已知x[n]=1.5,x[n−2]=1，求d。",
+          "reject": "目标自身可能相关，语音条件不能泛化。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.07",
+      "ability": "A04",
+      "role": "P",
+      "task": "原件、mask、参考、候选和估计证据版本",
+      "d4Targets": [
+        "K08.07.01.03",
+        "K08.07.02.03",
+        "K08.07.03.03",
+        "K08.07.01.04",
+        "K08.07.02.04",
+        "K08.07.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 50,
+        "row": "| K08.07 | A04 | P | 原件、mask、参考、候选和估计证据版本 | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA19",
+          "claim": "K08-CL-DA19@1",
+          "problem": "已知持续窄带干扰与单次click，选两种候选方法。",
+          "reject": "无法仅靠频率区分，需目标保护与残差评估。"
+        },
+        {
+          "caseId": "DA20",
+          "claim": "K08-CL-DA20@1",
+          "problem": "[.7,1.2,.7]与[.7,2,.7]截到±1后？",
+          "reject": "多个原峰相容。"
+        },
+        {
+          "caseId": "DA21",
+          "claim": "K08-CL-DA21@1",
+          "problem": "x=[1,0],h=[1,.5]求线性卷积并给另一分解。",
+          "reject": "两分解已构成反例。"
+        },
+        {
+          "caseId": "DA46",
+          "claim": "K08-CL-DA46@1",
+          "problem": "t=[1,0,1],n=[.2,.2,.2],c=[0,2,0]，混合减n及减c。",
+          "reject": "中点仍2。"
+        },
+        {
+          "caseId": "DA47",
+          "claim": "K08-CL-DA47@1",
+          "problem": "削波[.7,1,.7]，列两个相容峰。",
+          "reject": ".7甚至不满足已知截幅前超限条件。"
+        },
+        {
+          "caseId": "DA48",
+          "claim": "K08-CL-DA48@1",
+          "problem": "x[n]=d[n]+.5x[n−2]，已知x[n]=1.5,x[n−2]=1，求d。",
+          "reject": "目标自身可能相关，语音条件不能泛化。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "噪声/目标/伪影及原始真值未知",
+      "d4Targets": [
+        "K08.07.01.03",
+        "K08.07.02.03",
+        "K08.07.03.03",
+        "K08.07.01.04",
+        "K08.07.02.04",
+        "K08.07.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 51,
+        "row": "| K08.07 | A05 | P | 噪声/目标/伪影及原始真值未知 | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA19",
+          "claim": "K08-CL-DA19@1",
+          "problem": "已知持续窄带干扰与单次click，选两种候选方法。",
+          "reject": "无法仅靠频率区分，需目标保护与残差评估。"
+        },
+        {
+          "caseId": "DA20",
+          "claim": "K08-CL-DA20@1",
+          "problem": "[.7,1.2,.7]与[.7,2,.7]截到±1后？",
+          "reject": "多个原峰相容。"
+        },
+        {
+          "caseId": "DA21",
+          "claim": "K08-CL-DA21@1",
+          "problem": "x=[1,0],h=[1,.5]求线性卷积并给另一分解。",
+          "reject": "两分解已构成反例。"
+        },
+        {
+          "caseId": "DA46",
+          "claim": "K08-CL-DA46@1",
+          "problem": "t=[1,0,1],n=[.2,.2,.2],c=[0,2,0]，混合减n及减c。",
+          "reject": "中点仍2。"
+        },
+        {
+          "caseId": "DA47",
+          "claim": "K08-CL-DA47@1",
+          "problem": "削波[.7,1,.7]，列两个相容峰。",
+          "reject": ".7甚至不满足已知截幅前超限条件。"
+        },
+        {
+          "caseId": "DA48",
+          "claim": "K08-CL-DA48@1",
+          "problem": "x[n]=d[n]+.5x[n−2]，已知x[n]=1.5,x[n−2]=1，求d。",
+          "reject": "目标自身可能相关，语音条件不能泛化。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.07",
+      "ability": "A06",
+      "role": "P",
+      "task": "独立处理副本、mask/参数和对照标注",
+      "d4Targets": [
+        "K08.07.01.03",
+        "K08.07.02.03",
+        "K08.07.03.03",
+        "K08.07.01.04",
+        "K08.07.02.04",
+        "K08.07.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 52,
+        "row": "| K08.07 | A06 | P | 独立处理副本、mask/参数和对照标注 | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA19",
+          "claim": "K08-CL-DA19@1",
+          "problem": "已知持续窄带干扰与单次click，选两种候选方法。",
+          "reject": "无法仅靠频率区分，需目标保护与残差评估。"
+        },
+        {
+          "caseId": "DA20",
+          "claim": "K08-CL-DA20@1",
+          "problem": "[.7,1.2,.7]与[.7,2,.7]截到±1后？",
+          "reject": "多个原峰相容。"
+        },
+        {
+          "caseId": "DA21",
+          "claim": "K08-CL-DA21@1",
+          "problem": "x=[1,0],h=[1,.5]求线性卷积并给另一分解。",
+          "reject": "两分解已构成反例。"
+        },
+        {
+          "caseId": "DA46",
+          "claim": "K08-CL-DA46@1",
+          "problem": "t=[1,0,1],n=[.2,.2,.2],c=[0,2,0]，混合减n及减c。",
+          "reject": "中点仍2。"
+        },
+        {
+          "caseId": "DA47",
+          "claim": "K08-CL-DA47@1",
+          "problem": "削波[.7,1,.7]，列两个相容峰。",
+          "reject": ".7甚至不满足已知截幅前超限条件。"
+        },
+        {
+          "caseId": "DA48",
+          "claim": "K08-CL-DA48@1",
+          "problem": "x[n]=d[n]+.5x[n−2]，已知x[n]=1.5,x[n−2]=1，求d。",
+          "reject": "目标自身可能相关，语音条件不能泛化。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "只在目标与证据许可时修正，失败保留或重录新记录",
+      "d4Targets": [
+        "K08.07.01.03",
+        "K08.07.02.03",
+        "K08.07.03.03",
+        "K08.07.01.04",
+        "K08.07.02.04",
+        "K08.07.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 53,
+        "row": "| K08.07 | A07 | P | 只在目标与证据许可时修正，失败保留或重录新记录 | [DA19/K08.07.01.03](digital-audio-r1-knowledge-cases.md#L23)；[DA20/K08.07.02.03](digital-audio-r1-knowledge-cases.md#L24)；[DA21/K08.07.03.03](digital-audio-r1-knowledge-cases.md#L25)；[DA46/K08.07.01.04](digital-audio-r2-knowledge-cases.md#L23)；[DA47/K08.07.02.04](digital-audio-r2-knowledge-cases.md#L24)；[DA48/K08.07.03.04](digital-audio-r2-knowledge-cases.md#L25) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA19",
+          "claim": "K08-CL-DA19@1",
+          "problem": "已知持续窄带干扰与单次click，选两种候选方法。",
+          "reject": "无法仅靠频率区分，需目标保护与残差评估。"
+        },
+        {
+          "caseId": "DA20",
+          "claim": "K08-CL-DA20@1",
+          "problem": "[.7,1.2,.7]与[.7,2,.7]截到±1后？",
+          "reject": "多个原峰相容。"
+        },
+        {
+          "caseId": "DA21",
+          "claim": "K08-CL-DA21@1",
+          "problem": "x=[1,0],h=[1,.5]求线性卷积并给另一分解。",
+          "reject": "两分解已构成反例。"
+        },
+        {
+          "caseId": "DA46",
+          "claim": "K08-CL-DA46@1",
+          "problem": "t=[1,0,1],n=[.2,.2,.2],c=[0,2,0]，混合减n及减c。",
+          "reject": "中点仍2。"
+        },
+        {
+          "caseId": "DA47",
+          "claim": "K08-CL-DA47@1",
+          "problem": "削波[.7,1,.7]，列两个相容峰。",
+          "reject": ".7甚至不满足已知截幅前超限条件。"
+        },
+        {
+          "caseId": "DA48",
+          "claim": "K08-CL-DA48@1",
+          "problem": "x[n]=d[n]+.5x[n−2]，已知x[n]=1.5,x[n−2]=1，求d。",
+          "reject": "目标自身可能相关，语音条件不能泛化。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "混合目标、源估计、泄漏与评价限制",
+      "d4Targets": [
+        "K08.08.01.03",
+        "K08.08.02.03",
+        "K08.08.03.03",
+        "K08.08.01.04",
+        "K08.08.02.04",
+        "K08.08.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 54,
+        "row": "| K08.08 | A01 | P | 混合目标、源估计、泄漏与评价限制 | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA22",
+          "claim": "K08-CL-DA22@1",
+          "problem": "m=[1,1]给两种两源分解。",
+          "reject": "多种分解相容。"
+        },
+        {
+          "caseId": "DA23",
+          "claim": "K08-CL-DA23@1",
+          "problem": "s=[1,0],n=[0,1],A=[.8,.2],B=[0,0]，比较。",
+          "reject": "B丢失全部目标，指标目标不完整。"
+        },
+        {
+          "caseId": "DA24",
+          "claim": "K08-CL-DA24@1",
+          "problem": "两个报告分别MUSDB18与HQ且指标实现未知，能直接排名吗？",
+          "reject": "参考型指标缺输入，标UNKNOWN。"
+        },
+        {
+          "caseId": "DA49",
+          "claim": "K08-CL-DA49@1",
+          "problem": "两份[.5,.5]与[1,0]+[0,1]分别相加，比较。",
+          "reject": "多对一混合。"
+        },
+        {
+          "caseId": "DA50",
+          "claim": "K08-CL-DA50@1",
+          "problem": "s=[1,0,0],n=[0,1,0],估计[.8,.2,.1]，分量？",
+          "reject": "基和投影定义不同。"
+        },
+        {
+          "caseId": "DA51",
+          "claim": "K08-CL-DA51@1",
+          "problem": "s=[1,0],估计[.8,.2]，不去均值投影SI-SDR？",
+          "reject": "尺度不变性不评价幅度误差。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "核类别/版本/许可→候选分离→参考/无参考验证",
+      "d4Targets": [
+        "K08.08.01.03",
+        "K08.08.02.03",
+        "K08.08.03.03",
+        "K08.08.01.04",
+        "K08.08.02.04",
+        "K08.08.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 55,
+        "row": "| K08.08 | A02 | P | 核类别/版本/许可→候选分离→参考/无参考验证 | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA22",
+          "claim": "K08-CL-DA22@1",
+          "problem": "m=[1,1]给两种两源分解。",
+          "reject": "多种分解相容。"
+        },
+        {
+          "caseId": "DA23",
+          "claim": "K08-CL-DA23@1",
+          "problem": "s=[1,0],n=[0,1],A=[.8,.2],B=[0,0]，比较。",
+          "reject": "B丢失全部目标，指标目标不完整。"
+        },
+        {
+          "caseId": "DA24",
+          "claim": "K08-CL-DA24@1",
+          "problem": "两个报告分别MUSDB18与HQ且指标实现未知，能直接排名吗？",
+          "reject": "参考型指标缺输入，标UNKNOWN。"
+        },
+        {
+          "caseId": "DA49",
+          "claim": "K08-CL-DA49@1",
+          "problem": "两份[.5,.5]与[1,0]+[0,1]分别相加，比较。",
+          "reject": "多对一混合。"
+        },
+        {
+          "caseId": "DA50",
+          "claim": "K08-CL-DA50@1",
+          "problem": "s=[1,0,0],n=[0,1,0],估计[.8,.2,.1]，分量？",
+          "reject": "基和投影定义不同。"
+        },
+        {
+          "caseId": "DA51",
+          "claim": "K08-CL-DA51@1",
+          "problem": "s=[1,0],估计[.8,.2]，不去均值投影SI-SDR？",
+          "reject": "尺度不变性不评价幅度误差。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.08",
+      "ability": "A03",
+      "role": "P",
+      "task": "分离技术任务和工具输入输出条件；K11模型/K12版本",
+      "d4Targets": [
+        "K08.08.01.03",
+        "K08.08.02.03",
+        "K08.08.03.03",
+        "K08.08.01.04",
+        "K08.08.02.04",
+        "K08.08.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 56,
+        "row": "| K08.08 | A03 | P | 分离技术任务和工具输入输出条件；K11模型/K12版本 | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA22",
+          "claim": "K08-CL-DA22@1",
+          "problem": "m=[1,1]给两种两源分解。",
+          "reject": "多种分解相容。"
+        },
+        {
+          "caseId": "DA23",
+          "claim": "K08-CL-DA23@1",
+          "problem": "s=[1,0],n=[0,1],A=[.8,.2],B=[0,0]，比较。",
+          "reject": "B丢失全部目标，指标目标不完整。"
+        },
+        {
+          "caseId": "DA24",
+          "claim": "K08-CL-DA24@1",
+          "problem": "两个报告分别MUSDB18与HQ且指标实现未知，能直接排名吗？",
+          "reject": "参考型指标缺输入，标UNKNOWN。"
+        },
+        {
+          "caseId": "DA49",
+          "claim": "K08-CL-DA49@1",
+          "problem": "两份[.5,.5]与[1,0]+[0,1]分别相加，比较。",
+          "reject": "多对一混合。"
+        },
+        {
+          "caseId": "DA50",
+          "claim": "K08-CL-DA50@1",
+          "problem": "s=[1,0,0],n=[0,1,0],估计[.8,.2,.1]，分量？",
+          "reject": "基和投影定义不同。"
+        },
+        {
+          "caseId": "DA51",
+          "claim": "K08-CL-DA51@1",
+          "problem": "s=[1,0],估计[.8,.2]，不去均值投影SI-SDR？",
+          "reject": "尺度不变性不评价幅度误差。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.08",
+      "ability": "A04",
+      "role": "P",
+      "task": "mixture、参考、估计、对齐和评价协议版本",
+      "d4Targets": [
+        "K08.08.01.03",
+        "K08.08.02.03",
+        "K08.08.03.03",
+        "K08.08.01.04",
+        "K08.08.02.04",
+        "K08.08.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 57,
+        "row": "| K08.08 | A04 | P | mixture、参考、估计、对齐和评价协议版本 | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA22",
+          "claim": "K08-CL-DA22@1",
+          "problem": "m=[1,1]给两种两源分解。",
+          "reject": "多种分解相容。"
+        },
+        {
+          "caseId": "DA23",
+          "claim": "K08-CL-DA23@1",
+          "problem": "s=[1,0],n=[0,1],A=[.8,.2],B=[0,0]，比较。",
+          "reject": "B丢失全部目标，指标目标不完整。"
+        },
+        {
+          "caseId": "DA24",
+          "claim": "K08-CL-DA24@1",
+          "problem": "两个报告分别MUSDB18与HQ且指标实现未知，能直接排名吗？",
+          "reject": "参考型指标缺输入，标UNKNOWN。"
+        },
+        {
+          "caseId": "DA49",
+          "claim": "K08-CL-DA49@1",
+          "problem": "两份[.5,.5]与[1,0]+[0,1]分别相加，比较。",
+          "reject": "多对一混合。"
+        },
+        {
+          "caseId": "DA50",
+          "claim": "K08-CL-DA50@1",
+          "problem": "s=[1,0,0],n=[0,1,0],估计[.8,.2,.1]，分量？",
+          "reject": "基和投影定义不同。"
+        },
+        {
+          "caseId": "DA51",
+          "claim": "K08-CL-DA51@1",
+          "problem": "s=[1,0],估计[.8,.2]，不去均值投影SI-SDR？",
+          "reject": "尺度不变性不评价幅度误差。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "指定参考投影/尺度/泄漏/伪影；K10正式评价",
+      "d4Targets": [
+        "K08.08.01.03",
+        "K08.08.02.03",
+        "K08.08.03.03",
+        "K08.08.01.04",
+        "K08.08.02.04",
+        "K08.08.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 58,
+        "row": "| K08.08 | A05 | P | 指定参考投影/尺度/泄漏/伪影；K10正式评价 | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA22",
+          "claim": "K08-CL-DA22@1",
+          "problem": "m=[1,1]给两种两源分解。",
+          "reject": "多种分解相容。"
+        },
+        {
+          "caseId": "DA23",
+          "claim": "K08-CL-DA23@1",
+          "problem": "s=[1,0],n=[0,1],A=[.8,.2],B=[0,0]，比较。",
+          "reject": "B丢失全部目标，指标目标不完整。"
+        },
+        {
+          "caseId": "DA24",
+          "claim": "K08-CL-DA24@1",
+          "problem": "两个报告分别MUSDB18与HQ且指标实现未知，能直接排名吗？",
+          "reject": "参考型指标缺输入，标UNKNOWN。"
+        },
+        {
+          "caseId": "DA49",
+          "claim": "K08-CL-DA49@1",
+          "problem": "两份[.5,.5]与[1,0]+[0,1]分别相加，比较。",
+          "reject": "多对一混合。"
+        },
+        {
+          "caseId": "DA50",
+          "claim": "K08-CL-DA50@1",
+          "problem": "s=[1,0,0],n=[0,1,0],估计[.8,.2,.1]，分量？",
+          "reject": "基和投影定义不同。"
+        },
+        {
+          "caseId": "DA51",
+          "claim": "K08-CL-DA51@1",
+          "problem": "s=[1,0],估计[.8,.2]，不去均值投影SI-SDR？",
+          "reject": "尺度不变性不评价幅度误差。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.08",
+      "ability": "A06",
+      "role": "P",
+      "task": "独立stem估计、目标身份/时基/指标和来源标注",
+      "d4Targets": [
+        "K08.08.01.03",
+        "K08.08.02.03",
+        "K08.08.03.03",
+        "K08.08.01.04",
+        "K08.08.02.04",
+        "K08.08.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 59,
+        "row": "| K08.08 | A06 | P | 独立stem估计、目标身份/时基/指标和来源标注 | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA22",
+          "claim": "K08-CL-DA22@1",
+          "problem": "m=[1,1]给两种两源分解。",
+          "reject": "多种分解相容。"
+        },
+        {
+          "caseId": "DA23",
+          "claim": "K08-CL-DA23@1",
+          "problem": "s=[1,0],n=[0,1],A=[.8,.2],B=[0,0]，比较。",
+          "reject": "B丢失全部目标，指标目标不完整。"
+        },
+        {
+          "caseId": "DA24",
+          "claim": "K08-CL-DA24@1",
+          "problem": "两个报告分别MUSDB18与HQ且指标实现未知，能直接排名吗？",
+          "reject": "参考型指标缺输入，标UNKNOWN。"
+        },
+        {
+          "caseId": "DA49",
+          "claim": "K08-CL-DA49@1",
+          "problem": "两份[.5,.5]与[1,0]+[0,1]分别相加，比较。",
+          "reject": "多对一混合。"
+        },
+        {
+          "caseId": "DA50",
+          "claim": "K08-CL-DA50@1",
+          "problem": "s=[1,0,0],n=[0,1,0],估计[.8,.2,.1]，分量？",
+          "reject": "基和投影定义不同。"
+        },
+        {
+          "caseId": "DA51",
+          "claim": "K08-CL-DA51@1",
+          "problem": "s=[1,0],估计[.8,.2]，不去均值投影SI-SDR？",
+          "reject": "尺度不变性不评价幅度误差。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "保留基线及失败，按目标与协议比较，拒绝静音冒充优秀",
+      "d4Targets": [
+        "K08.08.01.03",
+        "K08.08.02.03",
+        "K08.08.03.03",
+        "K08.08.01.04",
+        "K08.08.02.04",
+        "K08.08.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 60,
+        "row": "| K08.08 | A07 | P | 保留基线及失败，按目标与协议比较，拒绝静音冒充优秀 | [DA22/K08.08.01.03](digital-audio-r1-knowledge-cases.md#L26)；[DA23/K08.08.02.03](digital-audio-r1-knowledge-cases.md#L27)；[DA24/K08.08.03.03](digital-audio-r1-knowledge-cases.md#L28)；[DA49/K08.08.01.04](digital-audio-r2-knowledge-cases.md#L26)；[DA50/K08.08.02.04](digital-audio-r2-knowledge-cases.md#L27)；[DA51/K08.08.03.04](digital-audio-r2-knowledge-cases.md#L28) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA22",
+          "claim": "K08-CL-DA22@1",
+          "problem": "m=[1,1]给两种两源分解。",
+          "reject": "多种分解相容。"
+        },
+        {
+          "caseId": "DA23",
+          "claim": "K08-CL-DA23@1",
+          "problem": "s=[1,0],n=[0,1],A=[.8,.2],B=[0,0]，比较。",
+          "reject": "B丢失全部目标，指标目标不完整。"
+        },
+        {
+          "caseId": "DA24",
+          "claim": "K08-CL-DA24@1",
+          "problem": "两个报告分别MUSDB18与HQ且指标实现未知，能直接排名吗？",
+          "reject": "参考型指标缺输入，标UNKNOWN。"
+        },
+        {
+          "caseId": "DA49",
+          "claim": "K08-CL-DA49@1",
+          "problem": "两份[.5,.5]与[1,0]+[0,1]分别相加，比较。",
+          "reject": "多对一混合。"
+        },
+        {
+          "caseId": "DA50",
+          "claim": "K08-CL-DA50@1",
+          "problem": "s=[1,0,0],n=[0,1,0],估计[.8,.2,.1]，分量？",
+          "reject": "基和投影定义不同。"
+        },
+        {
+          "caseId": "DA51",
+          "claim": "K08-CL-DA51@1",
+          "problem": "s=[1,0],估计[.8,.2]，不去均值投影SI-SDR？",
+          "reject": "尺度不变性不评价幅度误差。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.09",
+      "ability": "A01",
+      "role": "P",
+      "task": "缓冲时间、回调期限、xrun方向",
+      "d4Targets": [
+        "K08.09.01.03",
+        "K08.09.02.03",
+        "K08.09.03.03",
+        "K08.09.01.04",
+        "K08.09.02.04",
+        "K08.09.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 61,
+        "row": "| K08.09 | A01 | P | 缓冲时间、回调期限、xrun方向 | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA25",
+          "claim": "K08-CL-DA25@1",
+          "problem": "256帧48k块时长？两个独立串行等待各一块模型？",
+          "reject": "缺输入输出及路径测量。"
+        },
+        {
+          "caseId": "DA26",
+          "claim": "K08-CL-DA26@1",
+          "problem": "256帧48k，耗时4ms和8ms，比较名义预算。",
+          "reject": "个别8ms已违反。"
+        },
+        {
+          "caseId": "DA27",
+          "claim": "K08-CL-DA27@1",
+          "problem": "v19合成inputOverflow与outputUnderflow同时置位，怎样记录？",
+          "reject": "位掩码可并存，等值漏检。"
+        },
+        {
+          "caseId": "DA52",
+          "claim": "K08-CL-DA52@1",
+          "problem": "48k的128/256/480帧各几ms？",
+          "reject": "缺共享时基，结果未知。"
+        },
+        {
+          "caseId": "DA53",
+          "claim": "K08-CL-DA53@1",
+          "problem": "[1,1,1,8]ms，预算5.333，均值与逾期次数？",
+          "reject": "一次超期限即不满足逐次硬条件。"
+        },
+        {
+          "caseId": "DA54",
+          "claim": "K08-CL-DA54@1",
+          "problem": "合成e1同时inputOverflow/outputUnderflow，版本已知，如何解码？",
+          "reject": "组合位不等单值。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.09",
+      "ability": "A02",
+      "role": "P",
+      "task": "核时基/路径→预算→事件→最小变更/复测",
+      "d4Targets": [
+        "K08.09.01.03",
+        "K08.09.02.03",
+        "K08.09.03.03",
+        "K08.09.01.04",
+        "K08.09.02.04",
+        "K08.09.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 62,
+        "row": "| K08.09 | A02 | P | 核时基/路径→预算→事件→最小变更/复测 | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA25",
+          "claim": "K08-CL-DA25@1",
+          "problem": "256帧48k块时长？两个独立串行等待各一块模型？",
+          "reject": "缺输入输出及路径测量。"
+        },
+        {
+          "caseId": "DA26",
+          "claim": "K08-CL-DA26@1",
+          "problem": "256帧48k，耗时4ms和8ms，比较名义预算。",
+          "reject": "个别8ms已违反。"
+        },
+        {
+          "caseId": "DA27",
+          "claim": "K08-CL-DA27@1",
+          "problem": "v19合成inputOverflow与outputUnderflow同时置位，怎样记录？",
+          "reject": "位掩码可并存，等值漏检。"
+        },
+        {
+          "caseId": "DA52",
+          "claim": "K08-CL-DA52@1",
+          "problem": "48k的128/256/480帧各几ms？",
+          "reject": "缺共享时基，结果未知。"
+        },
+        {
+          "caseId": "DA53",
+          "claim": "K08-CL-DA53@1",
+          "problem": "[1,1,1,8]ms，预算5.333，均值与逾期次数？",
+          "reject": "一次超期限即不满足逐次硬条件。"
+        },
+        {
+          "caseId": "DA54",
+          "claim": "K08-CL-DA54@1",
+          "problem": "合成e1同时inputOverflow/outputUnderflow，版本已知，如何解码？",
+          "reject": "组合位不等单值。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.09",
+      "ability": "A03",
+      "role": "P",
+      "task": "回调/队列/日志能力前置，K12实际API及宿主",
+      "d4Targets": [
+        "K08.09.01.03",
+        "K08.09.02.03",
+        "K08.09.03.03",
+        "K08.09.01.04",
+        "K08.09.02.04",
+        "K08.09.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 63,
+        "row": "| K08.09 | A03 | P | 回调/队列/日志能力前置，K12实际API及宿主 | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA25",
+          "claim": "K08-CL-DA25@1",
+          "problem": "256帧48k块时长？两个独立串行等待各一块模型？",
+          "reject": "缺输入输出及路径测量。"
+        },
+        {
+          "caseId": "DA26",
+          "claim": "K08-CL-DA26@1",
+          "problem": "256帧48k，耗时4ms和8ms，比较名义预算。",
+          "reject": "个别8ms已违反。"
+        },
+        {
+          "caseId": "DA27",
+          "claim": "K08-CL-DA27@1",
+          "problem": "v19合成inputOverflow与outputUnderflow同时置位，怎样记录？",
+          "reject": "位掩码可并存，等值漏检。"
+        },
+        {
+          "caseId": "DA52",
+          "claim": "K08-CL-DA52@1",
+          "problem": "48k的128/256/480帧各几ms？",
+          "reject": "缺共享时基，结果未知。"
+        },
+        {
+          "caseId": "DA53",
+          "claim": "K08-CL-DA53@1",
+          "problem": "[1,1,1,8]ms，预算5.333，均值与逾期次数？",
+          "reject": "一次超期限即不满足逐次硬条件。"
+        },
+        {
+          "caseId": "DA54",
+          "claim": "K08-CL-DA54@1",
+          "problem": "合成e1同时inputOverflow/outputUnderflow，版本已知，如何解码？",
+          "reject": "组合位不等单值。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.09",
+      "ability": "A04",
+      "role": "P",
+      "task": "设备/队列配置、时钟、回调及xrun状态记录",
+      "d4Targets": [
+        "K08.09.01.03",
+        "K08.09.02.03",
+        "K08.09.03.03",
+        "K08.09.01.04",
+        "K08.09.02.04",
+        "K08.09.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 64,
+        "row": "| K08.09 | A04 | P | 设备/队列配置、时钟、回调及xrun状态记录 | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA25",
+          "claim": "K08-CL-DA25@1",
+          "problem": "256帧48k块时长？两个独立串行等待各一块模型？",
+          "reject": "缺输入输出及路径测量。"
+        },
+        {
+          "caseId": "DA26",
+          "claim": "K08-CL-DA26@1",
+          "problem": "256帧48k，耗时4ms和8ms，比较名义预算。",
+          "reject": "个别8ms已违反。"
+        },
+        {
+          "caseId": "DA27",
+          "claim": "K08-CL-DA27@1",
+          "problem": "v19合成inputOverflow与outputUnderflow同时置位，怎样记录？",
+          "reject": "位掩码可并存，等值漏检。"
+        },
+        {
+          "caseId": "DA52",
+          "claim": "K08-CL-DA52@1",
+          "problem": "48k的128/256/480帧各几ms？",
+          "reject": "缺共享时基，结果未知。"
+        },
+        {
+          "caseId": "DA53",
+          "claim": "K08-CL-DA53@1",
+          "problem": "[1,1,1,8]ms，预算5.333，均值与逾期次数？",
+          "reject": "一次超期限即不满足逐次硬条件。"
+        },
+        {
+          "caseId": "DA54",
+          "claim": "K08-CL-DA54@1",
+          "problem": "合成e1同时inputOverflow/outputUnderflow，版本已知，如何解码？",
+          "reject": "组合位不等单值。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.09",
+      "ability": "A05",
+      "role": "P",
+      "task": "逐次期限、丢失/缺供及端到端实测条件",
+      "d4Targets": [
+        "K08.09.01.03",
+        "K08.09.02.03",
+        "K08.09.03.03",
+        "K08.09.01.04",
+        "K08.09.02.04",
+        "K08.09.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 65,
+        "row": "| K08.09 | A05 | P | 逐次期限、丢失/缺供及端到端实测条件 | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA25",
+          "claim": "K08-CL-DA25@1",
+          "problem": "256帧48k块时长？两个独立串行等待各一块模型？",
+          "reject": "缺输入输出及路径测量。"
+        },
+        {
+          "caseId": "DA26",
+          "claim": "K08-CL-DA26@1",
+          "problem": "256帧48k，耗时4ms和8ms，比较名义预算。",
+          "reject": "个别8ms已违反。"
+        },
+        {
+          "caseId": "DA27",
+          "claim": "K08-CL-DA27@1",
+          "problem": "v19合成inputOverflow与outputUnderflow同时置位，怎样记录？",
+          "reject": "位掩码可并存，等值漏检。"
+        },
+        {
+          "caseId": "DA52",
+          "claim": "K08-CL-DA52@1",
+          "problem": "48k的128/256/480帧各几ms？",
+          "reject": "缺共享时基，结果未知。"
+        },
+        {
+          "caseId": "DA53",
+          "claim": "K08-CL-DA53@1",
+          "problem": "[1,1,1,8]ms，预算5.333，均值与逾期次数？",
+          "reject": "一次超期限即不满足逐次硬条件。"
+        },
+        {
+          "caseId": "DA54",
+          "claim": "K08-CL-DA54@1",
+          "problem": "合成e1同时inputOverflow/outputUnderflow，版本已知，如何解码？",
+          "reject": "组合位不等单值。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.09",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑配置/事件记录和处理副本，非真实部署",
+      "d4Targets": [
+        "K08.09.01.03",
+        "K08.09.02.03",
+        "K08.09.03.03",
+        "K08.09.01.04",
+        "K08.09.02.04",
+        "K08.09.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 66,
+        "row": "| K08.09 | A06 | P | 可编辑配置/事件记录和处理副本，非真实部署 | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA25",
+          "claim": "K08-CL-DA25@1",
+          "problem": "256帧48k块时长？两个独立串行等待各一块模型？",
+          "reject": "缺输入输出及路径测量。"
+        },
+        {
+          "caseId": "DA26",
+          "claim": "K08-CL-DA26@1",
+          "problem": "256帧48k，耗时4ms和8ms，比较名义预算。",
+          "reject": "个别8ms已违反。"
+        },
+        {
+          "caseId": "DA27",
+          "claim": "K08-CL-DA27@1",
+          "problem": "v19合成inputOverflow与outputUnderflow同时置位，怎样记录？",
+          "reject": "位掩码可并存，等值漏检。"
+        },
+        {
+          "caseId": "DA52",
+          "claim": "K08-CL-DA52@1",
+          "problem": "48k的128/256/480帧各几ms？",
+          "reject": "缺共享时基，结果未知。"
+        },
+        {
+          "caseId": "DA53",
+          "claim": "K08-CL-DA53@1",
+          "problem": "[1,1,1,8]ms，预算5.333，均值与逾期次数？",
+          "reject": "一次超期限即不满足逐次硬条件。"
+        },
+        {
+          "caseId": "DA54",
+          "claim": "K08-CL-DA54@1",
+          "problem": "合成e1同时inputOverflow/outputUnderflow，版本已知，如何解码？",
+          "reject": "组合位不等单值。"
+        }
+      ]
+    },
+    {
+      "d2": "K08.09",
+      "ability": "A07",
+      "role": "P",
+      "task": "限定单变量配置变更、保存日志及回归，未知原因不保证恢复",
+      "d4Targets": [
+        "K08.09.01.03",
+        "K08.09.02.03",
+        "K08.09.03.03",
+        "K08.09.01.04",
+        "K08.09.02.04",
+        "K08.09.03.04"
+      ],
+      "limits": "K08专业知识/任务语义；实际运行、授权和工具能力另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-capability-calibration.md",
+        "blob": "2eeaadc6ae3ce77ba615ec599ff9c1dbe93ec700",
+        "line": 67,
+        "row": "| K08.09 | A07 | P | 限定单变量配置变更、保存日志及回归，未知原因不保证恢复 | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | K08专业知识/任务语义；实际运行、授权和工具能力另证。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "DA25",
+          "claim": "K08-CL-DA25@1",
+          "problem": "256帧48k块时长？两个独立串行等待各一块模型？",
+          "reject": "缺输入输出及路径测量。"
+        },
+        {
+          "caseId": "DA26",
+          "claim": "K08-CL-DA26@1",
+          "problem": "256帧48k，耗时4ms和8ms，比较名义预算。",
+          "reject": "个别8ms已违反。"
+        },
+        {
+          "caseId": "DA27",
+          "claim": "K08-CL-DA27@1",
+          "problem": "v19合成inputOverflow与outputUnderflow同时置位，怎样记录？",
+          "reject": "位掩码可并存，等值漏检。"
+        },
+        {
+          "caseId": "DA52",
+          "claim": "K08-CL-DA52@1",
+          "problem": "48k的128/256/480帧各几ms？",
+          "reject": "缺共享时基，结果未知。"
+        },
+        {
+          "caseId": "DA53",
+          "claim": "K08-CL-DA53@1",
+          "problem": "[1,1,1,8]ms，预算5.333，均值与逾期次数？",
+          "reject": "一次超期限即不满足逐次硬条件。"
+        },
+        {
+          "caseId": "DA54",
+          "claim": "K08-CL-DA54@1",
+          "problem": "合成e1同时inputOverflow/outputUnderflow，版本已知，如何解码？",
+          "reject": "组合位不等单值。"
+        }
+      ]
+    }
+  ]
+}

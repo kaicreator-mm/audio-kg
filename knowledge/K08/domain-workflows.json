@@ -1,0 +1,248 @@
+{
+  "format": "audio-kg-bounded-domain-workflows-v1",
+  "workflows": [
+    {
+      "d2": "K08.01",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Sampling and quantization",
+        "Check bandwidth and sample clock",
+        "Compute alias/frames; never infer unique original"
+      ],
+      "cases": [
+        "DA01",
+        "DA02",
+        "DA03",
+        "DA28",
+        "DA29",
+        "DA30"
+      ],
+      "claimRefs": [
+        "K08-CL-DA01@1",
+        "K08-CL-DA02@1",
+        "K08-CL-DA03@1",
+        "K08-CL-DA28@1",
+        "K08-CL-DA29@1",
+        "K08-CL-DA30@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.02",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Representation and container",
+        "Inspect finite RIFF headers, payload and frame alignment",
+        "Reject unsupported/truncated data"
+      ],
+      "cases": [
+        "DA04",
+        "DA05",
+        "DA06",
+        "DA31",
+        "DA32",
+        "DA33"
+      ],
+      "claimRefs": [
+        "K08-CL-DA04@1",
+        "K08-CL-DA05@1",
+        "K08-CL-DA06@1",
+        "K08-CL-DA31@1",
+        "K08-CL-DA32@1",
+        "K08-CL-DA33@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.03",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "DSP and time transformations",
+        "Declare window, convolution and target timebase",
+        "Compare independent overlap, duration and pitch goals"
+      ],
+      "cases": [
+        "DA07",
+        "DA08",
+        "DA09",
+        "DA34",
+        "DA35",
+        "DA36"
+      ],
+      "claimRefs": [
+        "K08-CL-DA07@1",
+        "K08-CL-DA08@1",
+        "K08-CL-DA09@1",
+        "K08-CL-DA34@1",
+        "K08-CL-DA35@1",
+        "K08-CL-DA36@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.04",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Signal chain",
+        "Preserve each node, reference and channel identity",
+        "Identify ambiguous clipping and cancellation"
+      ],
+      "cases": [
+        "DA10",
+        "DA11",
+        "DA12",
+        "DA37",
+        "DA38",
+        "DA39"
+      ],
+      "claimRefs": [
+        "K08-CL-DA10@1",
+        "K08-CL-DA11@1",
+        "K08-CL-DA12@1",
+        "K08-CL-DA37@1",
+        "K08-CL-DA38@1",
+        "K08-CL-DA39@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.05",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Microphone model",
+        "Declare geometry, pattern and ideal-model scope",
+        "Compute candidate response, not measured device"
+      ],
+      "cases": [
+        "DA13",
+        "DA14",
+        "DA15",
+        "DA40",
+        "DA41",
+        "DA42"
+      ],
+      "claimRefs": [
+        "K08-CL-DA13@1",
+        "K08-CL-DA14@1",
+        "K08-CL-DA15@1",
+        "K08-CL-DA40@1",
+        "K08-CL-DA41@1",
+        "K08-CL-DA42@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.06",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Recording and clock",
+        "Check actual frame counts and calibrated shared events",
+        "Retain original and distinguish drift from faults"
+      ],
+      "cases": [
+        "DA16",
+        "DA17",
+        "DA18",
+        "DA43",
+        "DA44",
+        "DA45"
+      ],
+      "claimRefs": [
+        "K08-CL-DA16@1",
+        "K08-CL-DA17@1",
+        "K08-CL-DA18@1",
+        "K08-CL-DA43@1",
+        "K08-CL-DA44@1",
+        "K08-CL-DA45@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.07",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Localized repair",
+        "Check risk, authorization, mask and source identity",
+        "Reject changed clock or nonlocal modification"
+      ],
+      "cases": [
+        "DA19",
+        "DA20",
+        "DA21",
+        "DA46",
+        "DA47",
+        "DA48"
+      ],
+      "claimRefs": [
+        "K08-CL-DA19@1",
+        "K08-CL-DA20@1",
+        "K08-CL-DA21@1",
+        "K08-CL-DA46@1",
+        "K08-CL-DA47@1",
+        "K08-CL-DA48@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.08",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Separation and evaluation",
+        "Require independent reference and exact metric definition",
+        "Keep target retention and interference separate"
+      ],
+      "cases": [
+        "DA22",
+        "DA23",
+        "DA24",
+        "DA49",
+        "DA50",
+        "DA51"
+      ],
+      "claimRefs": [
+        "K08-CL-DA22@1",
+        "K08-CL-DA23@1",
+        "K08-CL-DA24@1",
+        "K08-CL-DA49@1",
+        "K08-CL-DA50@1",
+        "K08-CL-DA51@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K08.09",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Realtime boundary",
+        "Check each callback deadline and status bits",
+        "Reject any miss; mean is descriptive only"
+      ],
+      "cases": [
+        "DA25",
+        "DA26",
+        "DA27",
+        "DA52",
+        "DA53",
+        "DA54"
+      ],
+      "claimRefs": [
+        "K08-CL-DA25@1",
+        "K08-CL-DA26@1",
+        "K08-CL-DA27@1",
+        "K08-CL-DA52@1",
+        "K08-CL-DA53@1",
+        "K08-CL-DA54@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    }
+  ]
+}

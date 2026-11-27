@@ -1,0 +1,1135 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K08",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "b763ed14a0c243d1db08b4650791a5901a409ee0",
+  "sourceQualifications": [
+    {
+      "source": "S055@1",
+      "scope": "| S055 | Smith DSP Guide ch3 https://www.dspguide.com/ch3/2.htm Sampling Theorem / aliasing | K08.01 | READ_LOCATOR；带限采样模型，术语约定 |",
+      "limits": "| S055 | Smith DSP Guide ch3 https://www.dspguide.com/ch3/2.htm Sampling Theorem / aliasing | K08.01 | READ_LOCATOR；带限采样模型，术语约定 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.dspguide.com/ch3/2.htm"
+    },
+    {
+      "source": "S056@1",
+      "scope": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |",
+      "limits": "| S056 | 同书 Quantization https://wap.dspguide.com/ch3/1.htm sampling vs quantization | K08.01 | READ_LOCATOR；ADC理论模型 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://wap.dspguide.com/ch3/1.htm"
+    },
+    {
+      "source": "S057@1",
+      "scope": "| S057 | Audacity Sample Rates https://manual.audacityteam.org/man/sample_rates.html Bandwidth / 48,000 Hz | K08.01/02 | READ_LOCATOR；工具教学说明，不普遍化采样率建议 |",
+      "limits": "| S057 | Audacity Sample Rates https://manual.audacityteam.org/man/sample_rates.html Bandwidth / 48,000 Hz | K08.01/02 | READ_LOCATOR；工具教学说明，不普遍化采样率建议 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/sample_rates.html"
+    },
+    {
+      "source": "S058@1",
+      "scope": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |",
+      "limits": "| S058 | FFmpeg Resampler https://www.ffmpeg.org/ffmpeg-resampler.html Description | K08.02/03 | READ_LOCATOR；重采样、声道及格式转换；版本/运行待验证 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.ffmpeg.org/ffmpeg-resampler.html"
+    },
+    {
+      "source": "S060@1",
+      "scope": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |",
+      "limits": "| S060 | Audacity Playing and Recording https://manual.audacityteam.org/man/playing_and_recording.html overdubbing / latency correction | K08.04/06 | READ_LOCATOR；具体软件流程，实际硬件待测 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/playing_and_recording.html"
+    },
+    {
+      "source": "S061@1",
+      "scope": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |",
+      "limits": "| S061 | Audacity FAQ Recording https://manual.audacityteam.org/man/faq_recording_troubleshooting.html synchronization / sample rates / resources | K08.04/06/09 | READ_LOCATOR；故障候选非唯一原因 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/faq_recording_troubleshooting.html"
+    },
+    {
+      "source": "S063@1",
+      "scope": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |",
+      "limits": "| S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/noise_reduction.html"
+    },
+    {
+      "source": "S064@1",
+      "scope": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |",
+      "limits": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://sigsep.github.io/datasets/musdb.html"
+    },
+    {
+      "source": "S065@1",
+      "scope": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |",
+      "limits": "| S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html"
+    },
+    {
+      "source": "S066@1",
+      "scope": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |",
+      "limits": "| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html"
+    },
+    {
+      "source": "S471@1",
+      "scope": "| S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |",
+      "limits": "| S471 | [RFC9639 FLAC](https://datatracker.ietf.org/doc/html/rfc9639) §1 | READ_LOCATOR；2024-12 RFC，指定整数PCM无损编码范围、格式及streamable subset；不保证每个编码器全部范围、容器元数据或恢复既往有损信息。未执行编解码。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://datatracker.ietf.org/doc/html/rfc9639"
+    },
+    {
+      "source": "S472@1",
+      "scope": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |",
+      "limits": "| S472 | [Microsoft WAVEFORMATEXTENSIBLE](https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) Members/Remarks | READ_LOCATOR；R2c实际HTML L46–57：有效位深与字节容器宽度不同，SubFormat和声道mask及交错顺序；是Windows格式描述结构，不是完整RIFF/WAVE文件规范，不证明任意解码器兼容。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://learn.microsoft.com/en-us/windows/win32/api/mmreg/ns-mmreg-waveformatextensible"
+    },
+    {
+      "source": "S473@1",
+      "scope": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |",
+      "limits": "| S473 | [Smith DSP Guide ch6 Convolution](https://www.dspguide.com/ch6/2.htm) 卷积正文 | READ_LOCATOR；线性卷积及输入/冲激响应、长度/索引条件，有限算例自建；不当实际库运行。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.dspguide.com/ch6/2.htm"
+    },
+    {
+      "source": "S474@1",
+      "scope": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |",
+      "limits": "| S474 | [librosa 0.11.0 STFT](https://librosa.org/doc/0.11.0/generated/librosa.stft.html) 参数和输出说明 | READ_LOCATOR；R2c实际HTML L8–41：复谱、n_fft、win_length、hop、center/pad条件；固定文档版本，未安装运行，不采用默认值作通用最佳。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://librosa.org/doc/0.11.0/generated/librosa.stft.html"
+    },
+    {
+      "source": "S475@1",
+      "scope": "| S475 | [librosa 0.11.0 phase_vocoder](https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html) 简化实现及rate | READ_LOCATOR；速度参数、STFT输入，明确未处理瞬态及可能伪影；不承诺商用质量或工具可用。 |",
+      "limits": "| S475 | [librosa 0.11.0 phase_vocoder](https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html) 简化实现及rate | READ_LOCATOR；速度参数、STFT输入，明确未处理瞬态及可能伪影；不承诺商用质量或工具可用。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://librosa.org/doc/0.11.0/generated/librosa.phase_vocoder.html"
+    },
+    {
+      "source": "S476@1",
+      "scope": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |",
+      "limits": "| S476 | [Shure Microphone Directionality and Polar Pattern Basics](https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics) 2026-06-25，directionality/unidirectional/proximity/off-axis/consistency | READ_LOCATOR；角度及频率相关、近讲效应、指向型不同；厂商教学资料不当型号实测或普遍保证。S062旧失败保留。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics"
+    },
+    {
+      "source": "S477@1",
+      "scope": "| S477 | [Audacity Change Speed and Pitch](https://manual.audacityteam.org/man/change_speed.html) speed multiplier/selection length | READ_LOCATOR；变速同时变调和时长，保调/变调为不同任务，开发版页面未固定实际安装。 |",
+      "limits": "| S477 | [Audacity Change Speed and Pitch](https://manual.audacityteam.org/man/change_speed.html) speed multiplier/selection length | READ_LOCATOR；变速同时变调和时长，保调/变调为不同任务，开发版页面未固定实际安装。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/change_speed.html"
+    },
+    {
+      "source": "S478@1",
+      "scope": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |",
+      "limits": "| S478 | [Audacity Clip Fix](https://manual.audacityteam.org/man/clip_fix.html) 开头方法限制 | READ_LOCATOR；轻度削波插值估计，非恢复原始真值或全部削波适用。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/clip_fix.html"
+    },
+    {
+      "source": "S479@1",
+      "scope": "| S479 | [Microsoft RIFF](https://learn.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-) Chunks | READ_LOCATOR；RIFF/WAVE、fmt/data、chunkSize排除填充和8字节头，WORD对齐；公开说明非全规范，McGill WAVE页超时；本轮仅有限结构验证，非通用解析器。 |",
+      "limits": "| S479 | [Microsoft RIFF](https://learn.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-) Chunks | READ_LOCATOR；RIFF/WAVE、fmt/data、chunkSize排除填充和8字节头，WORD对齐；公开说明非全规范，McGill WAVE页超时；本轮仅有限结构验证，非通用解析器。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://learn.microsoft.com/en-us/windows/win32/xaudio2/resource-interchange-file-format--riff-"
+    },
+    {
+      "source": "S480@1",
+      "scope": "| S480 | [Lipshitz等1992 Quantization and Dither](https://aes.org/publications/elibrary/elibrary-page/?id=7047) Abstract | ABSTRACT_READ；区分无抖动、减法、非减法抖动及误差统计；1991非减法PDF截图超时，不采正文定理或通用SNR；自建有限随机量化见证，不声称标准TPDF实现。 |",
+      "limits": "| S480 | [Lipshitz等1992 Quantization and Dither](https://aes.org/publications/elibrary/elibrary-page/?id=7047) Abstract | ABSTRACT_READ；区分无抖动、减法、非减法抖动及误差统计；1991非减法PDF截图超时，不采正文定理或通用SNR；自建有限随机量化见证，不声称标准TPDF实现。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://aes.org/publications/elibrary/elibrary-page/?id=7047"
+    },
+    {
+      "source": "S481@1",
+      "scope": "| S481 | [SciPy 1.15.1 resample_poly](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html) Description/Notes/padtype | READ_LOCATOR；升采样/低通/降采样、边界及滤波条件；非执行SciPy。 |",
+      "limits": "| S481 | [SciPy 1.15.1 resample_poly](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html) Description/Notes/padtype | READ_LOCATOR；升采样/低通/降采样、边界及滤波条件；非执行SciPy。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.resample_poly.html"
+    },
+    {
+      "source": "S482@1",
+      "scope": "| S482 | [SciPy 1.15.1 istft](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.istft.html) Notes | READ_LOCATOR；R2c重读HTML L31–51及历史Notes：NOLA、窗口平方和归一化、修改谱不保证可实现，最小二乘重建；旧API，非运行。 |",
+      "limits": "| S482 | [SciPy 1.15.1 istft](https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.istft.html) Notes | READ_LOCATOR；R2c重读HTML L31–51及历史Notes：NOLA、窗口平方和归一化、修改谱不保证可实现，最小二乘重建；旧API，非运行。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://docs.scipy.org/doc/scipy-1.15.1/reference/generated/scipy.signal.istft.html"
+    },
+    {
+      "source": "S483@1",
+      "scope": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |",
+      "limits": "| S483 | [ITU-R BS.1770-5 (2023)](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) Annex2 §1–3，实际截图零基19印刷18 | READ_LOCATOR；连续波形真峰可能超过样本峰，过采样滤波估计；不复制系数或声明合规/实测。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf"
+    },
+    {
+      "source": "S484@1",
+      "scope": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |",
+      "limits": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf"
+    },
+    {
+      "source": "S485@1",
+      "scope": "| S485 | [Kinoshita/Nakatani NTT Technical Review 2011](https://ntt-review.jp/archive/ntttechnical.php?contents=ntr201107ra3.html) §2–3 | READ_LOCATOR；多步线性预测以语音短时相关和延迟条件估计晚期混响，目标可保留早反射；不采用论文具体时间阈值或泛化音乐。 |",
+      "limits": "| S485 | [Kinoshita/Nakatani NTT Technical Review 2011](https://ntt-review.jp/archive/ntttechnical.php?contents=ntr201107ra3.html) §2–3 | READ_LOCATOR；多步线性预测以语音短时相关和延迟条件估计晚期混响，目标可保留早反射；不采用论文具体时间阈值或泛化音乐。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://ntt-review.jp/archive/ntttechnical.php?contents=ntr201107ra3.html"
+    },
+    {
+      "source": "S486@1",
+      "scope": "| S486 | [Audacity Click Removal](https://manual.audacityteam.org/man/click_removal.html) threshold/max spike width与失败说明 | READ_LOCATOR；点击处理特定条件，阈值/宽度可能影响有效瞬态，未验证实际版本和运行。 |",
+      "limits": "| S486 | [Audacity Click Removal](https://manual.audacityteam.org/man/click_removal.html) threshold/max spike width与失败说明 | READ_LOCATOR；点击处理特定条件，阈值/宽度可能影响有效瞬态，未验证实际版本和运行。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/click_removal.html"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K08-E-DA01-SUPPORTED-BY-K08-EV-DA01",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "带限模型须严格低于Nyquist及实际滤波条件，非真实ADC测试。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA01-APPLIES-UNDER-K08-CTX-DA01",
+      "scope": "明确题设及证据条件。",
+      "limits": "带限模型须严格低于Nyquist及实际滤波条件，非真实ADC测试。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA02-SUPPORTED-BY-K08-EV-DA02",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成量化器非指定PCM端点映射或真实SNR。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA02-APPLIES-UNDER-K08-CTX-DA02",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成量化器非指定PCM端点映射或真实SNR。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA03-SUPPORTED-BY-K08-EV-DA03",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设时钟恒定，实际驱动与漂移未知。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA03-APPLIES-UNDER-K08-CTX-DA03",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设时钟恒定，实际驱动与漂移未知。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA04-SUPPORTED-BY-K08-EV-DA04",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未编码/解码实际文件，不保证实现支持全部RFC范围。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA04-APPLIES-UNDER-K08-CTX-DA04",
+      "scope": "明确题设及证据条件。",
+      "limits": "未编码/解码实际文件，不保证实现支持全部RFC范围。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA04-REQUIRES-K08-CL-DA03",
+      "scope": "存储帧与标量样本计数不同。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA05-SUPPORTED-BY-K08-EV-DA05",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "Microsoft结构非完整RIFF规范，实际解析和损坏文件拒绝待补。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA05-APPLIES-UNDER-K08-CTX-DA05",
+      "scope": "明确题设及证据条件。",
+      "limits": "Microsoft结构非完整RIFF规范，实际解析和损坏文件拒绝待补。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA05-REFERENCES-K08-CL-DA32",
+      "scope": "实际容器结构需边界与填充核验。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA06-SUPPORTED-BY-K08-EV-DA06",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "目标帧数依取整/边界约定，未执行FFmpeg。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA06-APPLIES-UNDER-K08-CTX-DA06",
+      "scope": "明确题设及证据条件。",
+      "limits": "目标帧数依取整/边界约定，未执行FFmpeg。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA06-REQUIRES-K08-CL-DA03",
+      "scope": "目标帧计数须绑定实际采样时钟。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA07-SUPPORTED-BY-K08-EV-DA07",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设FIR，不推任意IIR/零相位/实时实现。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA07-APPLIES-UNDER-K08-CTX-DA07",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设FIR，不推任意IIR/零相位/实时实现。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA08-SUPPORTED-BY-K08-EV-DA08",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "固定文档语义与数学，不是运行librosa。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA08-APPLIES-UNDER-K08-CTX-DA08",
+      "scope": "明确题设及证据条件。",
+      "limits": "固定文档语义与数学，不是运行librosa。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA08-REFERENCES-K08-CL-DA35",
+      "scope": "格点细化与重建覆盖分别检查。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA09-SUPPORTED-BY-K08-EV-DA09",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "理论目标不等实现输出；无处理真人声音。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA09-APPLIES-UNDER-K08-CTX-DA09",
+      "scope": "明确题设及证据条件。",
+      "limits": "理论目标不等实现输出；无处理真人声音。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA10-SUPPORTED-BY-K08-EV-DA10",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际模拟失真机制与设备未知。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA10-APPLIES-UNDER-K08-CTX-DA10",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际模拟失真机制与设备未知。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA10-REFERENCES-K08-CL-DA20",
+      "scope": "削波多对一不可逆。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA11-SUPPORTED-BY-K08-EV-DA11",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不设普遍余量或真实设备安全值；K07物理声压。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA11-APPLIES-UNDER-K08-CTX-DA11",
+      "scope": "明确题设及证据条件。",
+      "limits": "不设普遍余量或真实设备安全值；K07物理声压。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA11-REFERENCES-K08-CL-DA38",
+      "scope": "样本峰与连续峰差异。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA12-SUPPORTED-BY-K08-EV-DA12",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数学路由非实际宿主接口。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA12-APPLIES-UNDER-K08-CTX-DA12",
+      "scope": "明确题设及证据条件。",
+      "limits": "数学路由非实际宿主接口。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA12-REFERENCES-K08-CL-DA39",
+      "scope": "通道矩阵与极性可区分。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA13-SUPPORTED-BY-K08-EV-DA13",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "理想公式非厂商型号实测，非反馈安全许可。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA13-APPLIES-UNDER-K08-CTX-DA13",
+      "scope": "明确题设及证据条件。",
+      "limits": "理想公式非厂商型号实测，非反馈安全许可。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA14-SUPPORTED-BY-K08-EV-DA14",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不提供固定录音距离或实际试听。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA14-APPLIES-UNDER-K08-CTX-DA14",
+      "scope": "明确题设及证据条件。",
+      "limits": "不提供固定录音距离或实际试听。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA14-REFERENCES-K08-CL-DA13",
+      "scope": "距离效应与角响应不同。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA15-SUPPORTED-BY-K08-EV-DA15",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "离线场景，不操作电气线路或实际采录。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA15-APPLIES-UNDER-K08-CTX-DA15",
+      "scope": "明确题设及证据条件。",
+      "limits": "离线场景，不操作电气线路或实际采录。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA16-SUPPORTED-BY-K08-EV-DA16",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未实际录音/监听。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA16-APPLIES-UNDER-K08-CTX-DA16",
+      "scope": "明确题设及证据条件。",
+      "limits": "未实际录音/监听。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA16-REQUIRES-K08-CL-DA04",
+      "scope": "实际帧完整性依容器字节。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA17-SUPPORTED-BY-K08-EV-DA17",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设恒定漂移，不自动改实际乐谱/表演。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA17-APPLIES-UNDER-K08-CTX-DA17",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设恒定漂移，不自动改实际乐谱/表演。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA17-REQUIRES-K08-CL-DA03",
+      "scope": "独立采样时钟及帧身份。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA18-SUPPORTED-BY-K08-EV-DA18",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际文件和设备未知，失败证据不删。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA18-APPLIES-UNDER-K08-CTX-DA18",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际文件和设备未知，失败证据不删。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA18-REFERENCES-K08-CL-DA45",
+      "scope": "日志与实际采样覆盖独立。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA19-SUPPORTED-BY-K08-EV-DA19",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实际处理或试听，随机/周期属性依据K07。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA19-APPLIES-UNDER-K08-CTX-DA19",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实际处理或试听，随机/周期属性依据K07。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA19-REFERENCES-K08-CL-DA46",
+      "scope": "持续与瞬态干扰需不同处理。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA20-SUPPORTED-BY-K08-EV-DA20",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实际运行修复工具。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA20-APPLIES-UNDER-K08-CTX-DA20",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实际运行修复工具。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA21-SUPPORTED-BY-K08-EV-DA21",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成LTI不代表真实房间；实际算法和评价待专项。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA21-APPLIES-UNDER-K08-CTX-DA21",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成LTI不代表真实房间；实际算法和评价待专项。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA21-REQUIRES-K08-CL-DA07",
+      "scope": "卷积模型与非唯一分解。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA22-SUPPORTED-BY-K08-EV-DA22",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未下载真实数据集或验证许可/运行模型。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA22-APPLIES-UNDER-K08-CTX-DA22",
+      "scope": "明确题设及证据条件。",
+      "limits": "未下载真实数据集或验证许可/运行模型。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA22-REFERENCES-K08-CL-DA49",
+      "scope": "混合一致非源真值。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA23-SUPPORTED-BY-K08-EV-DA23",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "二维合成向量仅说明关系，非实际BSS指标。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA23-APPLIES-UNDER-K08-CTX-DA23",
+      "scope": "明确题设及证据条件。",
+      "limits": "二维合成向量仅说明关系，非实际BSS指标。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA23-REFERENCES-K08-CL-DA50",
+      "scope": "正交投影是受限具体例。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA24-SUPPORTED-BY-K08-EV-DA24",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "只读资料，未下载、训练或测评。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA24-APPLIES-UNDER-K08-CTX-DA24",
+      "scope": "明确题设及证据条件。",
+      "limits": "只读资料，未下载、训练或测评。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA24-REFERENCES-K08-CL-DA51",
+      "scope": "参考指标的条件与退化。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA25-SUPPORTED-BY-K08-EV-DA25",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实时环境实测，实际队列随配置。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA25-APPLIES-UNDER-K08-CTX-DA25",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实时环境实测，实际队列随配置。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA25-REQUIRES-K08-CL-DA03",
+      "scope": "块时长依帧计数和实际时钟。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA26-SUPPORTED-BY-K08-EV-DA26",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "PortAudio文档非本项目实际实时保障。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA26-APPLIES-UNDER-K08-CTX-DA26",
+      "scope": "明确题设及证据条件。",
+      "limits": "PortAudio文档非本项目实际实时保障。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA26-REQUIRES-K08-CL-DA25",
+      "scope": "逐次预算依实际块帧时长。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA27-SUPPORTED-BY-K08-EV-DA27",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "只读API文档和合成事件；未运行PortAudio。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA27-APPLIES-UNDER-K08-CTX-DA27",
+      "scope": "明确题设及证据条件。",
+      "limits": "只读API文档和合成事件；未运行PortAudio。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA27-REFERENCES-K08-CL-DA54",
+      "scope": "组合标志与版本保留。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA28-SUPPORTED-BY-K08-EV-DA28",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "理想余弦数学，不承诺实际滤波效果。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA28-APPLIES-UNDER-K08-CTX-DA28",
+      "scope": "明确题设及证据条件。",
+      "limits": "理想余弦数学，不承诺实际滤波效果。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA28-REQUIRES-K08-CL-DA01",
+      "scope": "抽取混叠需目标采样带宽。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA29-SUPPORTED-BY-K08-EV-DA29",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不作真实ADC或标准dither结论。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA29-APPLIES-UNDER-K08-CTX-DA29",
+      "scope": "明确题设及证据条件。",
+      "limits": "不作真实ADC或标准dither结论。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA29-REFERENCES-K08-CL-DA02",
+      "scope": "误差分布取决于量化规则。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA30-SUPPORTED-BY-K08-EV-DA30",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际设备漂移未知。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA30-APPLIES-UNDER-K08-CTX-DA30",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际设备漂移未知。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA30-REQUIRES-K08-CL-DA03",
+      "scope": "时钟与布局不可混为一体。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA31-SUPPORTED-BY-K08-EV-DA31",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际FLAC执行或全格式符合。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA31-APPLIES-UNDER-K08-CTX-DA31",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际FLAC执行或全格式符合。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA31-REFERENCES-K08-CL-DA04",
+      "scope": "无损对象与载荷字节不同。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA32-SUPPORTED-BY-K08-EV-DA32",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "另见DA04的20有效位/24容器帧字节反例，blockAlign按实际容器，不能按有效位取代。只有限PCM结构，不是完整RIFF/RF64/解码器。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA32-APPLIES-UNDER-K08-CTX-DA32",
+      "scope": "明确题设及证据条件。",
+      "limits": "另见DA04的20有效位/24容器帧字节反例，blockAlign按实际容器，不能按有效位取代。只有限PCM结构，不是完整RIFF/RF64/解码器。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA32-REQUIRES-K08-CL-DA04",
+      "scope": "有效位不能替代容器帧字节。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA33-SUPPORTED-BY-K08-EV-DA33",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不运行重采样器。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA33-APPLIES-UNDER-K08-CTX-DA33",
+      "scope": "明确题设及证据条件。",
+      "limits": "不运行重采样器。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA33-REQUIRES-K08-CL-DA28",
+      "scope": "重采样需抗混叠条件。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA34-SUPPORTED-BY-K08-EV-DA34",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数学有限FIR非任意滤波器。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA34-APPLIES-UNDER-K08-CTX-DA34",
+      "scope": "明确题设及证据条件。",
+      "limits": "数学有限FIR非任意滤波器。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA34-REQUIRES-K08-CL-DA07",
+      "scope": "完整线性卷积长度决定折叠。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA35-SUPPORTED-BY-K08-EV-DA35",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "另参DA08：同一48kHz信号win480/960共享nfft960的格点相同、观察不同；win480固定加倍nfft仅插值格点，NOLA/窗口/边界须分别核；实际FFT/ISTFT库未执行。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA35-APPLIES-UNDER-K08-CTX-DA35",
+      "scope": "明确题设及证据条件。",
+      "limits": "另参DA08：同一48kHz信号win480/960共享nfft960的格点相同、观察不同；win480固定加倍nfft仅插值格点，NOLA/窗口/边界须分别核；实际FFT/ISTFT库未执行。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA35-REQUIRES-K08-CL-DA08",
+      "scope": "独立观察窗/FFT/跳长及重建条件。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA36-SUPPORTED-BY-K08-EV-DA36",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际处理/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA36-APPLIES-UNDER-K08-CTX-DA36",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际处理/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA36-REQUIRES-K08-CL-DA09",
+      "scope": "变速、保调、变调目标不同。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA37-SUPPORTED-BY-K08-EV-DA37",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "真实电气故障未操作。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA37-APPLIES-UNDER-K08-CTX-DA37",
+      "scope": "明确题设及证据条件。",
+      "limits": "真实电气故障未操作。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA37-REFERENCES-K08-CL-DA10",
+      "scope": "原始截幅证据与后级区分。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA38-SUPPORTED-BY-K08-EV-DA38",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数学反例不执行ITU算法、不播放。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA38-APPLIES-UNDER-K08-CTX-DA38",
+      "scope": "明确题设及证据条件。",
+      "limits": "数学反例不执行ITU算法、不播放。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA39-SUPPORTED-BY-K08-EV-DA39",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不更改真实设备/宿主。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA39-APPLIES-UNDER-K08-CTX-DA39",
+      "scope": "明确题设及证据条件。",
+      "limits": "不更改真实设备/宿主。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA39-REQUIRES-K08-CL-DA12",
+      "scope": "下混矩阵及身份。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA40-SUPPORTED-BY-K08-EV-DA40",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不由理想公式推现场隔离。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA40-APPLIES-UNDER-K08-CTX-DA40",
+      "scope": "明确题设及证据条件。",
+      "limits": "不由理想公式推现场隔离。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA40-REFERENCES-K08-CL-DA13",
+      "scope": "理想心形仅一种方向模型。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA41-SUPPORTED-BY-K08-EV-DA41",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际拾音证据。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA41-APPLIES-UNDER-K08-CTX-DA41",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际拾音证据。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA41-REFERENCES-K08-CL-DA14",
+      "scope": "距离与近讲对照。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA42-SUPPORTED-BY-K08-EV-DA42",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不做实际断线、电气或声音测试。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA42-APPLIES-UNDER-K08-CTX-DA42",
+      "scope": "明确题设及证据条件。",
+      "limits": "不做实际断线、电气或声音测试。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA42-REFERENCES-K08-CL-DA15",
+      "scope": "环境链路同频多解。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA43-SUPPORTED-BY-K08-EV-DA43",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未生成真实音频或录音。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA43-APPLIES-UNDER-K08-CTX-DA43",
+      "scope": "明确题设及证据条件。",
+      "limits": "未生成真实音频或录音。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA43-REQUIRES-K08-CL-DA04",
+      "scope": "帧边界依容器宽度。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA44-SUPPORTED-BY-K08-EV-DA44",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成事件，无实际轨道编辑。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA44-APPLIES-UNDER-K08-CTX-DA44",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成事件，无实际轨道编辑。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA44-REQUIRES-K08-CL-DA17",
+      "scope": "偏移和漂移模型三点复核。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA45-SUPPORTED-BY-K08-EV-DA45",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅对象语义，不生成真实文件或上传。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA45-APPLIES-UNDER-K08-CTX-DA45",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅对象语义，不生成真实文件或上传。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA45-REQUIRES-K08-CL-DA18",
+      "scope": "故障与派生估计历史。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA46-SUPPORTED-BY-K08-EV-DA46",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不宣称通用算法可精确减真实噪声。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA46-APPLIES-UNDER-K08-CTX-DA46",
+      "scope": "明确题设及证据条件。",
+      "limits": "不宣称通用算法可精确减真实噪声。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA46-REFERENCES-K08-CL-DA19",
+      "scope": "处理候选保护目标。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA47-SUPPORTED-BY-K08-EV-DA47",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实际修复；重录是新表演不是旧真值。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA47-APPLIES-UNDER-K08-CTX-DA47",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实际修复；重录是新表演不是旧真值。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA47-REQUIRES-K08-CL-DA20",
+      "scope": "多对一削波不恢复真值。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA48-SUPPORTED-BY-K08-EV-DA48",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "非WPE实现、无普遍延迟阈值。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA48-APPLIES-UNDER-K08-CTX-DA48",
+      "scope": "明确题设及证据条件。",
+      "limits": "非WPE实现、无普遍延迟阈值。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA48-REFERENCES-K08-CL-DA21",
+      "scope": "去混响模型非唯一。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA49-SUPPORTED-BY-K08-EV-DA49",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未下载MUSDB18。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA49-APPLIES-UNDER-K08-CTX-DA49",
+      "scope": "明确题设及证据条件。",
+      "limits": "未下载MUSDB18。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA49-REFERENCES-K08-CL-DA22",
+      "scope": "数据类别与混合身份。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA50-SUPPORTED-BY-K08-EV-DA50",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数学正交例非实际分离评价。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA50-APPLIES-UNDER-K08-CTX-DA50",
+      "scope": "明确题设及证据条件。",
+      "limits": "数学正交例非实际分离评价。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA50-REFERENCES-K08-CL-DA23",
+      "scope": "目标及泄漏不可混同。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA51-SUPPORTED-BY-K08-EV-DA51",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实际跑评分库或使用素材；K10正式协议。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA51-APPLIES-UNDER-K08-CTX-DA51",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实际跑评分库或使用素材；K10正式协议。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA51-REFERENCES-K08-CL-DA24",
+      "scope": "评价协议和参考资格。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K08-E-DA52-SUPPORTED-BY-K08-EV-DA52",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成时间，不实测。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA52-APPLIES-UNDER-K08-CTX-DA52",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成时间，不实测。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA52-REQUIRES-K08-CL-DA25",
+      "scope": "块时长不等实际端到端。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA53-SUPPORTED-BY-K08-EV-DA53",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "非实际线程/性能测试。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA53-APPLIES-UNDER-K08-CTX-DA53",
+      "scope": "明确题设及证据条件。",
+      "limits": "非实际线程/性能测试。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA53-REQUIRES-K08-CL-DA26",
+      "scope": "逐次期限和有界交接。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K08-E-DA54-SUPPORTED-BY-K08-EV-DA54",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不运行实时设备或改变用户系统。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA54-APPLIES-UNDER-K08-CTX-DA54",
+      "scope": "明确题设及证据条件。",
+      "limits": "不运行实时设备或改变用户系统。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。"
+    },
+    {
+      "edge": "K08-E-DA54-REQUIRES-K08-CL-DA27",
+      "scope": "确切位语义依版本和帧策略。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K08-E-DA04-REQUIRES-K08-CL-DA03",
+      "consumer": "K08-CL-DA04@1",
+      "provider": "K08-CL-DA03@1",
+      "condition": "K08-CTX-DA04@1",
+      "providerContext": "K08-CTX-DA03@1",
+      "group": "K08-GR-DA04@1"
+    },
+    {
+      "edge": "K08-E-DA06-REQUIRES-K08-CL-DA03",
+      "consumer": "K08-CL-DA06@1",
+      "provider": "K08-CL-DA03@1",
+      "condition": "K08-CTX-DA06@1",
+      "providerContext": "K08-CTX-DA03@1",
+      "group": "K08-GR-DA06@1"
+    },
+    {
+      "edge": "K08-E-DA16-REQUIRES-K08-CL-DA04",
+      "consumer": "K08-CL-DA16@1",
+      "provider": "K08-CL-DA04@1",
+      "condition": "K08-CTX-DA16@1",
+      "providerContext": "K08-CTX-DA04@1",
+      "group": "K08-GR-DA16@1"
+    },
+    {
+      "edge": "K08-E-DA17-REQUIRES-K08-CL-DA03",
+      "consumer": "K08-CL-DA17@1",
+      "provider": "K08-CL-DA03@1",
+      "condition": "K08-CTX-DA17@1",
+      "providerContext": "K08-CTX-DA03@1",
+      "group": "K08-GR-DA17@1"
+    },
+    {
+      "edge": "K08-E-DA21-REQUIRES-K08-CL-DA07",
+      "consumer": "K08-CL-DA21@1",
+      "provider": "K08-CL-DA07@1",
+      "condition": "K08-CTX-DA21@1",
+      "providerContext": "K08-CTX-DA07@1",
+      "group": "K08-GR-DA21@1"
+    },
+    {
+      "edge": "K08-E-DA25-REQUIRES-K08-CL-DA03",
+      "consumer": "K08-CL-DA25@1",
+      "provider": "K08-CL-DA03@1",
+      "condition": "K08-CTX-DA25@1",
+      "providerContext": "K08-CTX-DA03@1",
+      "group": "K08-GR-DA25@1"
+    },
+    {
+      "edge": "K08-E-DA26-REQUIRES-K08-CL-DA25",
+      "consumer": "K08-CL-DA26@1",
+      "provider": "K08-CL-DA25@1",
+      "condition": "K08-CTX-DA26@1",
+      "providerContext": "K08-CTX-DA25@1",
+      "group": "K08-GR-DA26@1"
+    },
+    {
+      "edge": "K08-E-DA28-REQUIRES-K08-CL-DA01",
+      "consumer": "K08-CL-DA28@1",
+      "provider": "K08-CL-DA01@1",
+      "condition": "K08-CTX-DA28@1",
+      "providerContext": "K08-CTX-DA01@1",
+      "group": "K08-GR-DA28@1"
+    },
+    {
+      "edge": "K08-E-DA30-REQUIRES-K08-CL-DA03",
+      "consumer": "K08-CL-DA30@1",
+      "provider": "K08-CL-DA03@1",
+      "condition": "K08-CTX-DA30@1",
+      "providerContext": "K08-CTX-DA03@1",
+      "group": "K08-GR-DA30@1"
+    },
+    {
+      "edge": "K08-E-DA32-REQUIRES-K08-CL-DA04",
+      "consumer": "K08-CL-DA32@1",
+      "provider": "K08-CL-DA04@1",
+      "condition": "K08-CTX-DA32@1",
+      "providerContext": "K08-CTX-DA04@1",
+      "group": "K08-GR-DA32@1"
+    },
+    {
+      "edge": "K08-E-DA33-REQUIRES-K08-CL-DA28",
+      "consumer": "K08-CL-DA33@1",
+      "provider": "K08-CL-DA28@1",
+      "condition": "K08-CTX-DA33@1",
+      "providerContext": "K08-CTX-DA28@1",
+      "group": "K08-GR-DA33@1"
+    },
+    {
+      "edge": "K08-E-DA34-REQUIRES-K08-CL-DA07",
+      "consumer": "K08-CL-DA34@1",
+      "provider": "K08-CL-DA07@1",
+      "condition": "K08-CTX-DA34@1",
+      "providerContext": "K08-CTX-DA07@1",
+      "group": "K08-GR-DA34@1"
+    },
+    {
+      "edge": "K08-E-DA35-REQUIRES-K08-CL-DA08",
+      "consumer": "K08-CL-DA35@1",
+      "provider": "K08-CL-DA08@1",
+      "condition": "K08-CTX-DA35@1",
+      "providerContext": "K08-CTX-DA08@1",
+      "group": "K08-GR-DA35@1"
+    },
+    {
+      "edge": "K08-E-DA36-REQUIRES-K08-CL-DA09",
+      "consumer": "K08-CL-DA36@1",
+      "provider": "K08-CL-DA09@1",
+      "condition": "K08-CTX-DA36@1",
+      "providerContext": "K08-CTX-DA09@1",
+      "group": "K08-GR-DA36@1"
+    },
+    {
+      "edge": "K08-E-DA39-REQUIRES-K08-CL-DA12",
+      "consumer": "K08-CL-DA39@1",
+      "provider": "K08-CL-DA12@1",
+      "condition": "K08-CTX-DA39@1",
+      "providerContext": "K08-CTX-DA12@1",
+      "group": "K08-GR-DA39@1"
+    },
+    {
+      "edge": "K08-E-DA43-REQUIRES-K08-CL-DA04",
+      "consumer": "K08-CL-DA43@1",
+      "provider": "K08-CL-DA04@1",
+      "condition": "K08-CTX-DA43@1",
+      "providerContext": "K08-CTX-DA04@1",
+      "group": "K08-GR-DA43@1"
+    },
+    {
+      "edge": "K08-E-DA44-REQUIRES-K08-CL-DA17",
+      "consumer": "K08-CL-DA44@1",
+      "provider": "K08-CL-DA17@1",
+      "condition": "K08-CTX-DA44@1",
+      "providerContext": "K08-CTX-DA17@1",
+      "group": "K08-GR-DA44@1"
+    },
+    {
+      "edge": "K08-E-DA45-REQUIRES-K08-CL-DA18",
+      "consumer": "K08-CL-DA45@1",
+      "provider": "K08-CL-DA18@1",
+      "condition": "K08-CTX-DA45@1",
+      "providerContext": "K08-CTX-DA18@1",
+      "group": "K08-GR-DA45@1"
+    },
+    {
+      "edge": "K08-E-DA47-REQUIRES-K08-CL-DA20",
+      "consumer": "K08-CL-DA47@1",
+      "provider": "K08-CL-DA20@1",
+      "condition": "K08-CTX-DA47@1",
+      "providerContext": "K08-CTX-DA20@1",
+      "group": "K08-GR-DA47@1"
+    },
+    {
+      "edge": "K08-E-DA52-REQUIRES-K08-CL-DA25",
+      "consumer": "K08-CL-DA52@1",
+      "provider": "K08-CL-DA25@1",
+      "condition": "K08-CTX-DA52@1",
+      "providerContext": "K08-CTX-DA25@1",
+      "group": "K08-GR-DA52@1"
+    },
+    {
+      "edge": "K08-E-DA53-REQUIRES-K08-CL-DA26",
+      "consumer": "K08-CL-DA53@1",
+      "provider": "K08-CL-DA26@1",
+      "condition": "K08-CTX-DA53@1",
+      "providerContext": "K08-CTX-DA26@1",
+      "group": "K08-GR-DA53@1"
+    },
+    {
+      "edge": "K08-E-DA54-REQUIRES-K08-CL-DA27",
+      "consumer": "K08-CL-DA54@1",
+      "provider": "K08-CL-DA27@1",
+      "condition": "K08-CTX-DA54@1",
+      "providerContext": "K08-CTX-DA27@1",
+      "group": "K08-GR-DA54@1"
+    }
+  ]
+}

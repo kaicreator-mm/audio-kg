@@ -1,0 +1,1261 @@
+{
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "rows": [
+    {
+      "d4": "K08.01.01.03",
+      "claim": "K08-CL-DA01@1",
+      "directCQ": [
+        "CQ07",
+        "CQ08"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 5,
+        "row": "| K08.01.01.03 | [DA01](digital-audio-r1-knowledge-cases.md#L5) | 采样混叠多解 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S057](../../research/source-qualification-vocal-digital.md#L19) | CQ07/CQ08 | CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.01.02.03",
+      "claim": "K08-CL-DA02@1",
+      "directCQ": [
+        "CQ08"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA02",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 6,
+        "row": "| K08.01.02.03 | [DA02](digital-audio-r1-knowledge-cases.md#L6) | 量化映射和有效位深 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ07/CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.01.03.03",
+      "claim": "K08-CL-DA03@1",
+      "directCQ": [
+        "CQ08",
+        "CQ21"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 7,
+        "row": "| K08.01.03.03 | [DA03](digital-audio-r1-knowledge-cases.md#L7) | 帧布局与采样时钟 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ08/CQ21 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.02.01.03",
+      "claim": "K08-CL-DA04@1",
+      "directCQ": [
+        "CQ08",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA04",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 8,
+        "row": "| K08.02.01.03 | [DA04](digital-audio-r1-knowledge-cases.md#L8) | PCM帧字节、有效位与容器、有损损失 | [S471](../../research/source-qualification-digital-audio-r1.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08/CQ23 | CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.02.02.03",
+      "claim": "K08-CL-DA05@1",
+      "directCQ": [
+        "CQ20",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ19",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA05",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 9,
+        "row": "| K08.02.02.03 | [DA05](digital-audio-r1-knowledge-cases.md#L9) | 容器流与扩展名 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S064](../../research/source-qualification-vocal-digital.md#L26)；[S471](../../research/source-qualification-digital-audio-r1.md#L5) | CQ20/CQ23 | CQ08/CQ19/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.02.03.03",
+      "claim": "K08-CL-DA06@1",
+      "directCQ": [
+        "CQ08",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA06",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 10,
+        "row": "| K08.02.03.03 | [DA06](digital-audio-r1-knowledge-cases.md#L10) | 重采样与速率重解释 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S058](../../research/source-qualification-vocal-digital.md#L20) | CQ08/CQ23 | CQ07/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.03.01.03",
+      "claim": "K08-CL-DA07@1",
+      "directCQ": [
+        "CQ10"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ16",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 11,
+        "row": "| K08.03.01.03 | [DA07](digital-audio-r1-knowledge-cases.md#L11) | 线性卷积与群延迟 | [S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10 | CQ07/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.03.02.03",
+      "claim": "K08-CL-DA08@1",
+      "directCQ": [
+        "CQ07",
+        "CQ10"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ16",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 12,
+        "row": "| K08.03.02.03 | [DA08](digital-audio-r1-knowledge-cases.md#L12) | STFT真实观察窗与FFT格点/hop分离 | [S474](../../research/source-qualification-digital-audio-r1.md#L8)；[S457](../../research/source-qualification-acoustics-r2.md#L5) | CQ07/CQ10 | CQ08/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.03.03.03",
+      "claim": "K08-CL-DA09@1",
+      "directCQ": [
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ04",
+        "CQ06",
+        "CQ12",
+        "CQ20",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 13,
+        "row": "| K08.03.03.03 | [DA09](digital-audio-r1-knowledge-cases.md#L13) | 变速保调变调目标 | [S475](../../research/source-qualification-digital-audio-r1.md#L9)；[S477](../../research/source-qualification-digital-audio-r1.md#L11) | CQ16 | CQ01/CQ04/CQ06/CQ12/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.04.01.03",
+      "claim": "K08-CL-DA10@1",
+      "directCQ": [
+        "CQ08",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ10",
+        "CQ19",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA10",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 14,
+        "row": "| K08.04.01.03 | [DA10](digital-audio-r1-knowledge-cases.md#L14) | 上游削波不可逆 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.04.02.03",
+      "claim": "K08-CL-DA11@1",
+      "directCQ": [
+        "CQ08"
+      ],
+      "supportCQ": [
+        "CQ19",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA11",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 15,
+        "row": "| K08.04.02.03 | [DA11](digital-audio-r1-knowledge-cases.md#L15) | 数字余量与量程 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08 | CQ19/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.04.03.03",
+      "claim": "K08-CL-DA12@1",
+      "directCQ": [
+        "CQ19",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ10",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 16,
+        "row": "| K08.04.03.03 | [DA12](digital-audio-r1-knowledge-cases.md#L16) | 通道矩阵标记 | [S058](../../research/source-qualification-vocal-digital.md#L20)；[S060](../../research/source-qualification-vocal-digital.md#L22)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ24 | CQ08/CQ10/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.05.01.03",
+      "claim": "K08-CL-DA13@1",
+      "directCQ": [
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ07",
+        "CQ10",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 17,
+        "row": "| K08.05.01.03 | [DA13](digital-audio-r1-knowledge-cases.md#L17) | 理想心形角响应 | [S476](../../research/source-qualification-digital-audio-r1.md#L10) | CQ19 | CQ03/CQ07/CQ10/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.05.02.03",
+      "claim": "K08-CL-DA14@1",
+      "directCQ": [
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ07",
+        "CQ10",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA14",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 18,
+        "row": "| K08.05.02.03 | [DA14](digital-audio-r1-knowledge-cases.md#L18) | 距离和近讲 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S033](../../research/source-qualification-foundation.md#L12) | CQ19 | CQ03/CQ07/CQ10/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.05.03.03",
+      "claim": "K08-CL-DA15@1",
+      "directCQ": [
+        "CQ10",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA15",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 19,
+        "row": "| K08.05.03.03 | [DA15](digital-audio-r1-knowledge-cases.md#L19) | 背景干扰多解 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ24 | CQ07/CQ19/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.06.01.03",
+      "claim": "K08-CL-DA16@1",
+      "directCQ": [
+        "CQ19",
+        "CQ21"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA16",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 20,
+        "row": "| K08.06.01.03 | [DA16](digital-audio-r1-knowledge-cases.md#L20) | 配置与实际帧 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.06.02.03",
+      "claim": "K08-CL-DA17@1",
+      "directCQ": [
+        "CQ21",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ06",
+        "CQ12",
+        "CQ19",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA17",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 21,
+        "row": "| K08.06.02.03 | [DA17](digital-audio-r1-knowledge-cases.md#L21) | 偏移与漂移 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ21/CQ24 | CQ04/CQ06/CQ12/CQ19/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.06.03.03",
+      "claim": "K08-CL-DA18@1",
+      "directCQ": [
+        "CQ21",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ10",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA18",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 22,
+        "row": "| K08.06.03.03 | [DA18](digital-audio-r1-knowledge-cases.md#L22) | 故障证据和补值 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.07.01.03",
+      "claim": "K08-CL-DA19@1",
+      "directCQ": [
+        "CQ10",
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA19",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 23,
+        "row": "| K08.07.01.03 | [DA19](digital-audio-r1-knowledge-cases.md#L23) | 持续干扰和瞬态 | [S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ16 | CQ06/CQ07/CQ19/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.07.02.03",
+      "claim": "K08-CL-DA20@1",
+      "directCQ": [
+        "CQ10",
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA20",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 24,
+        "row": "| K08.07.02.03 | [DA20](digital-audio-r1-knowledge-cases.md#L24) | 截幅多对一 | [S478](../../research/source-qualification-digital-audio-r1.md#L12)；[S056](../../research/source-qualification-vocal-digital.md#L18) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.07.03.03",
+      "claim": "K08-CL-DA21@1",
+      "directCQ": [
+        "CQ10",
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA21",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 25,
+        "row": "| K08.07.03.03 | [DA21](digital-audio-r1-knowledge-cases.md#L25) | 盲去混响多解 | [S473](../../research/source-qualification-digital-audio-r1.md#L7)；[S454](../../research/source-qualification-acoustics-r1.md#L12) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.08.01.03",
+      "claim": "K08-CL-DA22@1",
+      "directCQ": [
+        "CQ10"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ11",
+        "CQ12",
+        "CQ20",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA22",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 26,
+        "row": "| K08.08.01.03 | [DA22](digital-audio-r1-knowledge-cases.md#L26) | 混合源类别 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10 | CQ09/CQ11/CQ12/CQ20/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.08.02.03",
+      "claim": "K08-CL-DA23@1",
+      "directCQ": [
+        "CQ10",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ11",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA23",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 27,
+        "row": "| K08.08.02.03 | [DA23](digital-audio-r1-knowledge-cases.md#L27) | 泄漏与目标损失 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ22 | CQ07/CQ11/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.08.03.03",
+      "claim": "K08-CL-DA24@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ20",
+        "CQ24",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA24",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 28,
+        "row": "| K08.08.03.03 | [DA24](digital-audio-r1-knowledge-cases.md#L28) | 基准协议 | [S064](../../research/source-qualification-vocal-digital.md#L26) | CQ11/CQ22 | CQ09/CQ20/CQ24/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.09.01.03",
+      "claim": "K08-CL-DA25@1",
+      "directCQ": [
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ20",
+        "CQ21",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA25",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 29,
+        "row": "| K08.09.01.03 | [DA25](digital-audio-r1-knowledge-cases.md#L29) | 缓冲与路径时延 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19 | CQ08/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.09.02.03",
+      "claim": "K08-CL-DA26@1",
+      "directCQ": [
+        "CQ19",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ20",
+        "CQ21",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA26",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 30,
+        "row": "| K08.09.02.03 | [DA26](digital-audio-r1-knowledge-cases.md#L30) | 逐次回调预算 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19/CQ24 | CQ20/CQ21/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.09.03.03",
+      "claim": "K08-CL-DA27@1",
+      "directCQ": [
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ10",
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA27",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 31,
+        "row": "| K08.09.03.03 | [DA27](digital-audio-r1-knowledge-cases.md#L31) | 欠载溢出、帧策略和状态位 | [S066](../../research/source-qualification-vocal-digital.md#L28)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ24 | CQ10/CQ19/CQ20/CQ21/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.01.01.04",
+      "claim": "K08-CL-DA28@1",
+      "directCQ": [
+        "CQ07",
+        "CQ08"
+      ],
+      "supportCQ": [
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA28",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 32,
+        "row": "| K08.01.01.04 | [DA28](digital-audio-r2-knowledge-cases.md#L5) | 抽取前抗混叠 | [S055](../../research/source-qualification-vocal-digital.md#L17)；[S481](../../research/source-qualification-digital-audio-r2.md#L7) | CQ07/CQ08 | CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.01.02.04",
+      "claim": "K08-CL-DA29@1",
+      "directCQ": [
+        "CQ08"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ17",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA29",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 33,
+        "row": "| K08.01.02.04 | [DA29](digital-audio-r2-knowledge-cases.md#L6) | 非减法扰动条件 | [S056](../../research/source-qualification-vocal-digital.md#L18)；[S480](../../research/source-qualification-digital-audio-r2.md#L6)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ07/CQ17/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.01.03.04",
+      "claim": "K08-CL-DA30@1",
+      "directCQ": [
+        "CQ08",
+        "CQ21"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA30",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 34,
+        "row": "| K08.01.03.04 | [DA30](digital-audio-r2-knowledge-cases.md#L7) | 时钟和布局独立 | [S472](../../research/source-qualification-digital-audio-r1.md#L6)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ08/CQ21 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.02.01.04",
+      "claim": "K08-CL-DA31@1",
+      "directCQ": [
+        "CQ08",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA31",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 35,
+        "row": "| K08.02.01.04 | [DA31](digital-audio-r2-knowledge-cases.md#L8) | 解码样本等价 | [S471](../../research/source-qualification-digital-audio-r1.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08/CQ23 | CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.02.02.04",
+      "claim": "K08-CL-DA32@1",
+      "directCQ": [
+        "CQ20",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ19",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA32",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 36,
+        "row": "| K08.02.02.04 | [DA32](digital-audio-r2-knowledge-cases.md#L9) | RIFF边界填充与容器帧对齐 | [S479](../../research/source-qualification-digital-audio-r2.md#L5)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ20/CQ23 | CQ08/CQ19/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.02.03.04",
+      "claim": "K08-CL-DA33@1",
+      "directCQ": [
+        "CQ08",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA33",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 37,
+        "row": "| K08.02.03.04 | [DA33](digital-audio-r2-knowledge-cases.md#L10) | 比例和声道映射 | [S481](../../research/source-qualification-digital-audio-r2.md#L7)；[S058](../../research/source-qualification-vocal-digital.md#L20) | CQ08/CQ23 | CQ07/CQ19/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.03.01.04",
+      "claim": "K08-CL-DA34@1",
+      "directCQ": [
+        "CQ10"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ16",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA34",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 38,
+        "row": "| K08.03.01.04 | [DA34](digital-audio-r2-knowledge-cases.md#L11) | 循环折叠与边界 | [S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10 | CQ07/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.03.02.04",
+      "claim": "K08-CL-DA35@1",
+      "directCQ": [
+        "CQ07",
+        "CQ10"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ16",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA35",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 39,
+        "row": "| K08.03.02.04 | [DA35](digital-audio-r2-knowledge-cases.md#L12) | 逆STFT NOLA | [S474](../../research/source-qualification-digital-audio-r1.md#L8)；[S482](../../research/source-qualification-digital-audio-r2.md#L8) | CQ07/CQ10 | CQ08/CQ16/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.03.03.04",
+      "claim": "K08-CL-DA36@1",
+      "directCQ": [
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ04",
+        "CQ06",
+        "CQ12",
+        "CQ20",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA36",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 40,
+        "row": "| K08.03.03.04 | [DA36](digital-audio-r2-knowledge-cases.md#L13) | 时间轴和瞬态保护 | [S475](../../research/source-qualification-digital-audio-r1.md#L9)；[S477](../../research/source-qualification-digital-audio-r1.md#L11) | CQ16 | CQ01/CQ04/CQ06/CQ12/CQ20/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.04.01.04",
+      "claim": "K08-CL-DA37@1",
+      "directCQ": [
+        "CQ08",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ10",
+        "CQ19",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA37",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 41,
+        "row": "| K08.04.01.04 | [DA37](digital-audio-r2-knowledge-cases.md#L14) | 模拟数字节点区分 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S478](../../research/source-qualification-digital-audio-r1.md#L12) | CQ08/CQ24 | CQ10/CQ19/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.04.02.04",
+      "claim": "K08-CL-DA38@1",
+      "directCQ": [
+        "CQ08"
+      ],
+      "supportCQ": [
+        "CQ19",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA38",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 42,
+        "row": "| K08.04.02.04 | [DA38](digital-audio-r2-knowledge-cases.md#L15) | 样本峰与重建峰 | [S483](../../research/source-qualification-digital-audio-r2.md#L9)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ08 | CQ19/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.04.03.04",
+      "claim": "K08-CL-DA39@1",
+      "directCQ": [
+        "CQ19",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ10",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA39",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 43,
+        "row": "| K08.04.03.04 | [DA39](digital-audio-r2-knowledge-cases.md#L16) | 极性抵消 | [S058](../../research/source-qualification-vocal-digital.md#L20)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ24 | CQ08/CQ10/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.05.01.04",
+      "claim": "K08-CL-DA40@1",
+      "directCQ": [
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ07",
+        "CQ10",
+        "CQ20",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA40",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 44,
+        "row": "| K08.05.01.04 | [DA40](digital-audio-r2-knowledge-cases.md#L17) | 方向响应极性 | [S476](../../research/source-qualification-digital-audio-r1.md#L10) | CQ19 | CQ03/CQ07/CQ10/CQ20/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.05.02.04",
+      "claim": "K08-CL-DA41@1",
+      "directCQ": [
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ07",
+        "CQ10",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA41",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 45,
+        "row": "| K08.05.02.04 | [DA41](digital-audio-r2-knowledge-cases.md#L18) | 单因素位置对照 | [S476](../../research/source-qualification-digital-audio-r1.md#L10)；[S033](../../research/source-qualification-foundation.md#L12) | CQ19 | CQ03/CQ07/CQ10/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.05.03.04",
+      "claim": "K08-CL-DA42@1",
+      "directCQ": [
+        "CQ10",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA42",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 46,
+        "row": "| K08.05.03.04 | [DA42](digital-audio-r2-knowledge-cases.md#L19) | 独立环境链路证据 | [S061](../../research/source-qualification-vocal-digital.md#L23)；[S063](../../research/source-qualification-vocal-digital.md#L25)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ24 | CQ07/CQ19/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.06.01.04",
+      "claim": "K08-CL-DA43@1",
+      "directCQ": [
+        "CQ19",
+        "CQ21"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA43",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 47,
+        "row": "| K08.06.01.04 | [DA43](digital-audio-r2-knowledge-cases.md#L20) | 帧边界与监听状态 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S472](../../research/source-qualification-digital-audio-r1.md#L6) | CQ19/CQ21 | CQ08/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.06.02.04",
+      "claim": "K08-CL-DA44@1",
+      "directCQ": [
+        "CQ21",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ06",
+        "CQ12",
+        "CQ19",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA44",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 48,
+        "row": "| K08.06.02.04 | [DA44](digital-audio-r2-knowledge-cases.md#L21) | 三点时钟残差 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ21/CQ24 | CQ04/CQ06/CQ12/CQ19/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.06.03.04",
+      "claim": "K08-CL-DA45@1",
+      "directCQ": [
+        "CQ21",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ10",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA45",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 49,
+        "row": "| K08.06.03.04 | [DA45](digital-audio-r2-knowledge-cases.md#L22) | 日志与帧缺失 | [S060](../../research/source-qualification-vocal-digital.md#L22)；[S061](../../research/source-qualification-vocal-digital.md#L23)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ21/CQ24 | CQ10/CQ16/CQ19/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.07.01.04",
+      "claim": "K08-CL-DA46@1",
+      "directCQ": [
+        "CQ10",
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ06",
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA46",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 50,
+        "row": "| K08.07.01.04 | [DA46](digital-audio-r2-knowledge-cases.md#L23) | 持续和点击残差 | [S063](../../research/source-qualification-vocal-digital.md#L25)；[S486](../../research/source-qualification-digital-audio-r2.md#L12)；[S467](../../research/source-qualification-acoustics-r5.md#L5) | CQ10/CQ16 | CQ06/CQ07/CQ19/CQ22/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.07.02.04",
+      "claim": "K08-CL-DA47@1",
+      "directCQ": [
+        "CQ10",
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA47",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 51,
+        "row": "| K08.07.02.04 | [DA47](digital-audio-r2-knowledge-cases.md#L24) | 削波mask与估计 | [S478](../../research/source-qualification-digital-audio-r1.md#L12)；[S056](../../research/source-qualification-vocal-digital.md#L18) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.07.03.04",
+      "claim": "K08-CL-DA48@1",
+      "directCQ": [
+        "CQ10",
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ19",
+        "CQ22",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA48",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 52,
+        "row": "| K08.07.03.04 | [DA48](digital-audio-r2-knowledge-cases.md#L25) | 延迟预测条件 | [S485](../../research/source-qualification-digital-audio-r2.md#L11)；[S473](../../research/source-qualification-digital-audio-r1.md#L7) | CQ10/CQ16 | CQ07/CQ19/CQ22/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.08.01.04",
+      "claim": "K08-CL-DA49@1",
+      "directCQ": [
+        "CQ10"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ11",
+        "CQ12",
+        "CQ20",
+        "CQ23",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA49",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 53,
+        "row": "| K08.08.01.04 | [DA49](digital-audio-r2-knowledge-cases.md#L26) | 混合一致非源真值 | [S064](../../research/source-qualification-vocal-digital.md#L26)；[S484](../../research/source-qualification-digital-audio-r2.md#L10) | CQ10 | CQ09/CQ11/CQ12/CQ20/CQ23/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.08.02.04",
+      "claim": "K08-CL-DA50@1",
+      "directCQ": [
+        "CQ10",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ07",
+        "CQ11",
+        "CQ20",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA50",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 54,
+        "row": "| K08.08.02.04 | [DA50](digital-audio-r2-knowledge-cases.md#L27) | 正交泄漏与残差 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S064](../../research/source-qualification-vocal-digital.md#L26) | CQ10/CQ22 | CQ07/CQ11/CQ20/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.08.03.04",
+      "claim": "K08-CL-DA51@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ20",
+        "CQ24",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA51",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 55,
+        "row": "| K08.08.03.04 | [DA51](digital-audio-r2-knowledge-cases.md#L28) | SI-SDR尺度限制 | [S484](../../research/source-qualification-digital-audio-r2.md#L10)；[S064](../../research/source-qualification-vocal-digital.md#L26) | CQ11/CQ22 | CQ09/CQ20/CQ24/CQ26/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.09.01.04",
+      "claim": "K08-CL-DA52@1",
+      "directCQ": [
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ08",
+        "CQ20",
+        "CQ21",
+        "CQ24",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA52",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 56,
+        "row": "| K08.09.01.04 | [DA52](digital-audio-r2-knowledge-cases.md#L29) | 回调块和实测时钟 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19 | CQ08/CQ20/CQ21/CQ24/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.09.02.04",
+      "claim": "K08-CL-DA53@1",
+      "directCQ": [
+        "CQ19",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ20",
+        "CQ21",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA53",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 57,
+        "row": "| K08.09.02.04 | [DA53](digital-audio-r2-knowledge-cases.md#L30) | 逐次期限与队列 | [S065](../../research/source-qualification-vocal-digital.md#L27)；[S066](../../research/source-qualification-vocal-digital.md#L28) | CQ19/CQ24 | CQ20/CQ21/CQ13/CQ25 |"
+      }
+    },
+    {
+      "d4": "K08.09.03.04",
+      "claim": "K08-CL-DA54@1",
+      "directCQ": [
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ10",
+        "CQ19",
+        "CQ20",
+        "CQ21",
+        "CQ13",
+        "CQ25"
+      ],
+      "caseId": "DA54",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "line": 58,
+        "row": "| K08.09.03.04 | [DA54](digital-audio-r2-knowledge-cases.md#L31) | 多状态位、回调有界交接与复测 | [S066](../../research/source-qualification-vocal-digital.md#L28)；[S061](../../research/source-qualification-vocal-digital.md#L23) | CQ24 | CQ10/CQ19/CQ20/CQ21/CQ13/CQ25 |"
+      }
+    }
+  ]
+}
