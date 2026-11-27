@@ -1,0 +1,41 @@
+{
+  "pack_id": "audio-kg-v010-K06-g1",
+  "task_id": "K06",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "2a627cd8c0f3bb301a5693de787537c5982a6fd2",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/blob/48459608548ee13c330641b20cca2d585cc290f3/docs/implementation/v0.1.0/TASK_PACKS.json#K06",
+  "branch": "task/v0.1.0-vocal-training-formal",
+  "parent_issue": "#94",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-k06-builder",
+  "generated_at": "2026-11-27T15:22:32.301784+00:00",
+  "dependency_completion": [
+    "K05@93d7a290da37e25010947a45395dbe999889e325",
+    "K04@5efb0690447373b32bde2e5925cd9241f3695ece"
+  ],
+  "material_paths": [
+    "knowledge/K06/",
+    "cases/K06/",
+    "queries/K06/",
+    "sources/K06/",
+    "tests/knowledge/K06/",
+    "docs/validation/K06/",
+    "docs/product/calibration/",
+    "docs/research/",
+    "knowledge/K05/",
+    "knowledge/K04/"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}

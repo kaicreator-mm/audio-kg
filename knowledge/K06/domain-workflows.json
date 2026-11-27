@@ -1,0 +1,254 @@
+{
+  "format": "audio-kg-bounded-domain-workflows-v1",
+  "workflows": [
+    {
+      "d2": "K06.01",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind teaching goal, material, comfort and consent",
+        "Separate baseline dimensions and reference identity",
+        "Record observations without diagnosis"
+      ],
+      "cases": [
+        "VT01",
+        "VT02",
+        "VT03",
+        "VT04",
+        "VT31",
+        "VT32",
+        "VT33"
+      ],
+      "claimRefs": [
+        "K06-CL-VT01@1",
+        "K06-CL-VT02@1",
+        "K06-CL-VT03@1",
+        "K06-CL-VT04@1",
+        "K06-CL-VT31@1",
+        "K06-CL-VT32@1",
+        "K06-CL-VT33@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.02",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Check risk and teacher-confirmed task",
+        "Compare one controlled load or arrangement variable",
+        "Preserve feedback, no universal dose"
+      ],
+      "cases": [
+        "VT05",
+        "VT06",
+        "VT07",
+        "VT34",
+        "VT35",
+        "VT36"
+      ],
+      "claimRefs": [
+        "K06-CL-VT05@1",
+        "K06-CL-VT06@1",
+        "K06-CL-VT07@1",
+        "K06-CL-VT34@1",
+        "K06-CL-VT35@1",
+        "K06-CL-VT36@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.03",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Check stable windows and trusted independent reference",
+        "Separate estimator error and music deviation",
+        "Record feedback timing and independent retest"
+      ],
+      "cases": [
+        "VT08",
+        "VT09",
+        "VT10",
+        "VT11",
+        "VT37",
+        "VT38",
+        "VT39"
+      ],
+      "claimRefs": [
+        "K06-CL-VT08@1",
+        "K06-CL-VT09@1",
+        "K06-CL-VT10@1",
+        "K06-CL-VT11@1",
+        "K06-CL-VT37@1",
+        "K06-CL-VT38@1",
+        "K06-CL-VT39@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.04",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind lyrics, syllables and event identity",
+        "Check time budget and language/environment scope",
+        "Preserve original score and unknown hearing"
+      ],
+      "cases": [
+        "VT12",
+        "VT13",
+        "VT14",
+        "VT40",
+        "VT41",
+        "VT42"
+      ],
+      "claimRefs": [
+        "K06-CL-VT12@1",
+        "K06-CL-VT13@1",
+        "K06-CL-VT14@1",
+        "K06-CL-VT40@1",
+        "K06-CL-VT41@1",
+        "K06-CL-VT42@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.05",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Declare smooth or contrast goal",
+        "Require same-condition hearing evidence",
+        "Stop on symptom, no mechanism inference"
+      ],
+      "cases": [
+        "VT15",
+        "VT16",
+        "VT17",
+        "VT43",
+        "VT44",
+        "VT45"
+      ],
+      "claimRefs": [
+        "K06-CL-VT15@1",
+        "K06-CL-VT16@1",
+        "K06-CL-VT17@1",
+        "K06-CL-VT43@1",
+        "K06-CL-VT44@1",
+        "K06-CL-VT45@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.06",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Declare ornament permission and valid modulation windows",
+        "Compute rate/extent and local timing",
+        "Do not quantize protected movement or claim actual quality"
+      ],
+      "cases": [
+        "VT18",
+        "VT19",
+        "VT20",
+        "VT21",
+        "VT46",
+        "VT47",
+        "VT48"
+      ],
+      "claimRefs": [
+        "K06-CL-VT18@1",
+        "K06-CL-VT19@1",
+        "K06-CL-VT20@1",
+        "K06-CL-VT21@1",
+        "K06-CL-VT46@1",
+        "K06-CL-VT47@1",
+        "K06-CL-VT48@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.07",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Declare style and culture/assessor qualification",
+        "Compare scoped expression candidates",
+        "Keep local criteria and subjective preferences separate"
+      ],
+      "cases": [
+        "VT22",
+        "VT23",
+        "VT24",
+        "VT49",
+        "VT50",
+        "VT51"
+      ],
+      "claimRefs": [
+        "K06-CL-VT22@1",
+        "K06-CL-VT23@1",
+        "K06-CL-VT24@1",
+        "K06-CL-VT49@1",
+        "K06-CL-VT50@1",
+        "K06-CL-VT51@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.08",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind baseline, feedback plan and permission epoch",
+        "Only change authorized feedback timing; retest unaided",
+        "Keep delayed and transfer separate; retain history"
+      ],
+      "cases": [
+        "VT25",
+        "VT26",
+        "VT27",
+        "VT52",
+        "VT53",
+        "VT54"
+      ],
+      "claimRefs": [
+        "K06-CL-VT25@1",
+        "K06-CL-VT26@1",
+        "K06-CL-VT27@1",
+        "K06-CL-VT52@1",
+        "K06-CL-VT53@1",
+        "K06-CL-VT54@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    },
+    {
+      "d2": "K06.09",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Known emergency overrides all inputs",
+        "New symptoms or unresolved pause stop relevant task",
+        "Only authorized non-vocal candidate, no medical clearance"
+      ],
+      "cases": [
+        "VT28",
+        "VT29",
+        "VT30",
+        "VT55",
+        "VT56",
+        "VT57"
+      ],
+      "claimRefs": [
+        "K06-CL-VT28@1",
+        "K06-CL-VT29@1",
+        "K06-CL-VT30@1",
+        "K06-CL-VT55@1",
+        "K06-CL-VT56@1",
+        "K06-CL-VT57@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Known risk dominates; missing permission, evidence or protected constraints stop. No actual teaching authorization."
+    }
+  ]
+}
