@@ -312,3 +312,7 @@ R7 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7
 
 ## G04正式收口 / CAL07与G05候选
 G04 [R9独立PASS](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7212551738) exact d3fce7e1bdaeb70782f1b20d96d99a8e17dbc576，PR79合入 d83915d61d6f53ed385db2f3d18ff908dc6889a1，实际compare零文件差异；#78已关闭。R9-RV02：实际44/44，原派审及历史合同43为记录错误，不改历史exact证据，以R4修正和独立回执为准。19域研究模块/G04已限定通过，L1尚未冻结。#80 CAL07/G05/T03 当前候选：[R1](product/calibration/g05-r1-module-evidence-reconciliation.md)、[R2](product/calibration/g05-r2-historical-findings-residual-gates.md)、[R3](product/calibration/g05-r3-split-disposition-candidate.md)、[R4](product/calibration/g05-r4-d24-and-count-reconciliation.md)、[R5](product/calibration/g05-r5-l1-freeze-candidate.md)。15 OPEN、28 SPLIT_OPEN保持；T03待独立验收，L2及正式知识准入阻塞。
+
+
+## 当前 L1 正式冻结
+[G05/T03 冻结记录](product/calibration/l1-freeze-record.md) 为当前阶段权威；历史DRAFT/未冻结/阻塞记录仅表示原检查点。PR81 exact独立PASS并零差异合入。仅冻结已验收的19域范围、26 CQ、职责与接受条件；15 OPEN/28 SPLIT_OPEN继续约束正式准入。L2 T04/T05候选可推进，G06前不得正式填充。
