@@ -1,10 +1,10 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import vm from "node:vm";
 import {spawnSync} from "node:child_process";
 import {read,json,clone,eq,blob,insist,idref,validate,evaluate,retrieve,route,close,dir} from "./knowledge-pilot.mjs";
 import {runWorkflowPilot} from "./workflow-pilot.mjs";
+import {loadActualWitness} from "./witness-pilot.mjs";
 const cal="docs/product/calibration/";
 const pack=json(dir+"pack.json"),sources=json(dir+"sources.json"),rubric=json(dir+"assessment.json"),inputs=json(dir+"assessment-input.json");
 const assessment={marker:rubric.marker,cases:inputs.cases.map(x=>({...x,expected:rubric.cases.find(y=>y.id===x.id)?.expected}))};
@@ -14,6 +14,21 @@ function reject(name,change){let p=clone(pack),s=clone(sources);change(p,s);let 
 const ix=validate(pack,sources);test("actual pack parses and validates",ix.map.size>0);
 for(const v of pack.views){const bs=ix.byView.get(idref(v));test("roundtrip "+v.id,bs.every(b=>ix.byClaim.get(b.claim).some(x=>x===b)));}
 for(const a of assessment.cases)test("heldout "+a.id,close(evaluate(a.operation,a.input),a.expected));
+const view=id=>pack.views.find(x=>x.id===id).example;
+test("public F+ cents",close(evaluate("cents",view("CENTS-FP")).cents,701.9550008653874));
+const cf=view("CENTS-FN");
+test("public F- equal Hz difference unequal ratio",!close(evaluate("cents",cf).cents,evaluate("cents",{reference:cf.comparisonReference,observed:cf.comparisonObserved}).cents));
+const cr=view("CENTS-RP");
+test("public R+ frequency inverse under given reference",close(cr.reference*2**(cr.cents/1200),880));
+test("public R- lacks reference",evaluate("cents",view("CENTS-RN")).state==="UNKNOWN");
+for(const [id,exp] of [["PITCH-FP",0],["PITCH-FN",-165.00422849992202],["PITCH-RP",-165.00422849992202]]){const r=evaluate("pitch",view(id));test("public "+id,close(r.estimateError,exp)&&close(r.actualGoalError,165.00422849992202));}
+test("public PITCH-RN cannot infer true deviation",evaluate("pitch",view("PITCH-RN")).state==="UNKNOWN_REFERENCE");
+test("public WINDOW-FP",close(evaluate("window",view("WINDOW-FP")),{state:"VALUE",seconds:0.01,gridHz:50,bins:481}));
+const wa=evaluate("window",view("WINDOW-FN")),wb=evaluate("window",{...view("WINDOW-FN"),nfft:view("WINDOW-FN").previousNfft});
+test("public WINDOW-FN no extra observation",wa.seconds===wb.seconds&&wa.gridHz===25&&wb.gridHz===50);
+test("public WINDOW-RP partial reverse",eq(evaluate("reverseGrid",view("WINDOW-RP")),{state:"PARTIAL",nfft:960,win:null}));
+test("public WINDOW-RN insufficient reverse",evaluate("reverseGrid",view("WINDOW-RN")).state==="UNKNOWN");
+
 test("invalid frequency",evaluate("cents",{reference:0,observed:200}).state==="UNKNOWN");
 test("wrong event",evaluate("pitch",{reference:220,estimate:220,target:200,valid:true,identity:"A",referenceIdentity:"B",estimateIdentity:"A"}).state==="UNKNOWN_WINDOW");
 test("missing musical target",eq(evaluate("pitch",{reference:220,estimate:220,valid:true,identity:"A",referenceIdentity:"A",estimateIdentity:"A"}),{state:"UNKNOWN_TARGET",estimateError:0,actualGoalError:null,estimatedGoalError:null}));
@@ -31,12 +46,15 @@ for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25"]){
 test("eval id not retrievable",retrieve(pack,sources,assessment.cases[0].id).claims.length===0);
 const publicTree=fs.mkdtempSync(path.join(os.tmpdir(),"audio-kg-public-query-"));
 try{
- const paths=[dir+"pack.json",dir+"sources.json",dir+"knowledge-pilot.mjs",dir+"retrieve.mjs",...sources.map(x=>x.registration.file),...pack.evidence.flatMap(x=>[x.anchor.file,...(x.caseAnchor?[x.caseAnchor.file]:[])]),...pack.migrations.map(x=>x.anchor.file)];
+ const paths=[dir+"pack.json",dir+"sources.json",dir+"knowledge-pilot.mjs",dir+"retrieve.mjs",dir+"workflow-pilot.mjs",dir+"witness-pilot.mjs",...["g04-r8-xc01-independent-evidence.md","g04-r8-seven-role-evidence.md","g04-r9-cq25-full-evidence-trace.md"].map(x=>cal+x),...sources.map(x=>x.registration.file),...pack.evidence.flatMap(x=>[x.anchor.file,...(x.caseAnchor?[x.caseAnchor.file]:[])]),...pack.migrations.map(x=>x.anchor.file)];
  for(const f of new Set(paths)){const dest=path.join(publicTree,f);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(f,dest);}
  test("public-only tree excludes input/rubric",!fs.existsSync(path.join(publicTree,dir+"assessment.json"))&&!fs.existsSync(path.join(publicTree,dir+"assessment-input.json")));
  for(const q of ["CQ01","CQ06","CQ07","CQ21","CQ25",assessment.cases[0].id]){
   const proc=spawnSync(process.execPath,[dir+"retrieve.mjs",q],{cwd:publicTree,encoding:"utf8",timeout:10000});
-  test("public process "+q,proc.status===0&&eq(JSON.parse(proc.stdout),retrieve(pack,sources,q))&&!proc.stdout.includes(assessment.marker)&&assessment.cases.every(x=>!proc.stdout.includes(x.id)&&!proc.stdout.includes(JSON.stringify(x.expected))));
+  const result=proc.status===0?JSON.parse(proc.stdout):null;
+  test("public process "+q,proc.status===0&&eq(result.knowledge,retrieve(pack,sources,q))&&!proc.stdout.includes(assessment.marker)&&assessment.cases.every(x=>!proc.stdout.includes(x.id)&&!proc.stdout.includes(JSON.stringify(x.expected))));
+  if(q==="CQ21"||q==="CQ25")test("public typed workflow "+q,result.workflow?.state==="STATIC_CANDIDATE_ONLY"&&result.workflow.release===false&&result.workflow.trace.primary.length===7&&result.workflow.graph.records.length===21&&result.workflow.graph.edges.length===42&&result.workflow.affectedIfCandidateChanges.includes("E-RECEIPT@2"));
+  else test("no unrelated workflow "+q,result.workflow===null);
  }
 }finally{fs.rmSync(publicTree,{recursive:true,force:true});}
 
@@ -69,22 +87,7 @@ reject("swap migration role",p=>p.migrations[1].targets[0].role="REUSE");
 reject("drop migration target",p=>p.migrations[1].targets.pop());
 reject("stale migration status",p=>p.migrations[1].state="ACCEPTED");
 // Re-execute actual frozen G04 witness, not its logged output. Integrate its result as a bounded CQ25 trace.
-function frozenDoc(file,expected){const t=read(cal+file);insist(blob(t)===expected,"frozen witness blob mismatch");return t;}
-const old=frozenDoc("g04-r8-xc01-independent-evidence.md","9ce52519372828337ccd19f0af30e12189279719");
-const routeDoc=frozenDoc("g04-r8-seven-role-evidence.md","1326f94277d09281075f2423116f515334ea72bc");
-const r9=frozenDoc("g04-r9-cq25-full-evidence-trace.md","3c3f92c3fad4b43dd6884c8c005b59dd90d6b985");
-const block=(t,k)=>[...t.matchAll(new RegExp("\x60\x60\x60"+k+"\\n([\\s\\S]*?)\\n\x60\x60\x60","g"))].map(x=>x[1]);
-const routeData=JSON.parse(block(routeDoc,"json")[0]),support=JSON.parse(block(r9,"json")[0]);
-const sandbox={routeData,support,console:{log:()=>{}}};
-const js=block(old,"js")[0]+"\n"+block(r9,"js").join("\n")+"\n"+[
- 'const baselineTrace=runR9CQ(xc,routeData,support);',
- 'const withHistory=runR9CQ.toString().replace("return {checks:out,positive:","return {history:copy(history),checks:out,positive:");',
- 'if(withHistory===runR9CQ.toString())throw Error("trace adapter absent");',
- 'const extended=eval("("+withHistory+")")(xc,routeData,support);',
- 'const {history,...restTrace}=extended; if(JSON.stringify(restTrace)!==JSON.stringify(baselineTrace))throw Error("trace adapter changed result");',
- '({old:original,trace:baselineTrace,registry:xc.registry,history})'
-].join("\n");
-const witness=vm.runInNewContext(js,sandbox,{timeout:5000});
+const {witness,routeData,support}=loadActualWitness();
 test("R8a actual replay",witness.old.fixtures.length===70&&witness.old.fixtures.every(x=>x[1]===x[2]));
 test("R9 actual replay",witness.trace.checks.length===44&&witness.trace.checks.every(x=>x[1]===true));
 const t=witness.trace.positive;
