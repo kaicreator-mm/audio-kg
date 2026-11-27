@@ -54,3 +54,7 @@ S555英捷文本到文本研究未用旋律，§2.4/2.5仅文本代理度量（�
 20. melody inner/outer directions: true
 21. baseline retained: true
 21/21实际有限检查；R1–R2实际17、R3实际12，共50记录。真实发音、歌唱、模型、文化及母语人群/权利未验证，S556初始摘要、S137本轮截图及来源边界保留。旧48槽13 MIGRATE/22 SPLIT_OPEN/13 KEEP，原56能力格37P17S2C；28活跃22P6S、28历史；不提前关闭迁移或前序P2，不宣称accepted claims、L1 freeze或CI。待独立审查专业正确性。
+
+## G04 R2b 累计校准补充
+KC-L13 R2b 独立子案例：[LA01](localization-r1-knowledge-cases.md#L5)/[LA11](localization-r2-knowledge-cases.md#L5)NFC等价不抹除原始span/语言/词典身份；[LA05](localization-r1-knowledge-cases.md#L9)/[LA15](localization-r2-knowledge-cases.md#L9)同数异组.5/.25s的独立四音符任务不改变原KC旋律，明确休止与词界、空分母N/A；[LA08](localization-r1-knowledge-cases.md#L12)/[LA18](localization-r2-knowledge-cases.md#L12)独立音频识别、知情表演者和辅助理解分层记录，绑定刺激/目标人群/协议/有效反应分母；独立观察缺失UNKNOWN，非真实语言能力。
+原R4有限检查为历史记录，不能替代新条件的独立核验。

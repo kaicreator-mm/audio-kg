@@ -84,3 +84,18 @@ G02累计独立审核实际FAIL（0P0/2P1/2P2，#3 7176330929）；在原PR26修
 
 ## G03-K02 R5审核修正候选
 R4完整模块独立审核FAIL（0P0/1P1/2P2），七分支限定充分、K02.06声调语言具体创作应用HOLD。按Reviewer范围修复RV01–03：[R5普通话/粤语实际词汇及声明表层规则、M↑/M↓、冻结/改词/授权/拒绝、多解](calibration/composition-r5-tone-language-remediation.md)，[精确修正记录](calibration/composition-r5-remediation-record.md)，[S328–331及原来源](../research/source-qualification-composition-r5.md)，[28有限检查](calibration/composition-r5-validation.md)。不重做已证无影响分支，64/48/56/26/14保持。R5为Builder修复候选，实际现代缅语、母语评价、音频、宿主和LLM未运行；不提前合并、关闭或启动K03。新Exact HEAD仅按RV01–03及受影响路径required复审。
+
+## G04 R1 内部检查点（十九域均已审核合入后）
+#78，起点51cf7d8cc83d12ad20de0161d3cc6ef16c14d87f；[R1当前基线及优先修订](calibration/g04-r1-baseline-and-priority-corrections.md)。R1已读取19个合并PR和19份发现入口，15个OPEN Issue/36项P2，修订#68/#71/#74/#77共9项Builder候选待累计独立核验；剩余27项仍OPEN。28项旧拆分原ID/语义一致，27/28 NEW索引可定位，K07.06.04.01缺主入口待补。不得以初步静态核对宣布CAL01/06完成。R2修订剩余27项及引用/影响路径；R3逐28项NEW/REUSE/REF语义与组合判定、补缺；R4全域深度/来源和本体复用；R5全域七能力/CQ/关系和源限定综合案例、静态发现；R6完整CAL01–06累计回读及required独立G04审核。无中间微审核，非native DAG；CAL07/G05/T03及L2继续阻塞。
+
+
+## G04 R6 全域累计审核候选（Builder）
+[#78](https://github.com/kaicreator-mm/audio-kg/issues/78) / [PR79](https://github.com/kaicreator-mm/audio-kg/pull/79)；[累计交付与独立审查合同](calibration/g04-r6-cumulative-review-candidate.md)。36个P2发现均进入实际修订，15 Issue仍OPEN；28 NEW/51 REUSE/16 REF目标核对和28组合候选，全部旧SPLIT_OPEN保持；19域159活跃D2/1084发现行、1929明确来源引用定位、1113活跃能力格、26CQ精确映射、七能力XC01有限合成验证。源访问、许可冲突、专业外推、历史见证未全面重跑等限制见累计合同；没有真实音频/LLM/DB/CI/权限/accepted claims或L1 freeze。G04须一次完整required独立审核，最终exact HEAD见#78/PR79同一派审回执；CAL07/G05/T03/L2仍阻塞。
+
+
+## G04 R7 — 累计审核FAIL后的修订及完整复审
+原R6 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203270001) 0已发现P0/2P1且累计审核未覆盖完整范围。现行[复审合同](calibration/g04-r7-cumulative-remediation-review-candidate.md)：[XC01-R2](calibration/g04-r7-xc01-protection-remediation.md) 60/60有限探针；[26CQ语义发现](calibration/g04-r7-cq-semantic-discovery.md)、[48有限推演](calibration/g04-r7-cq-semantic-validation.md)；[36项历史发现工作单](calibration/g04-r7-cumulative-findings-docket.md)、[19域审查工作单](calibration/g04-r7-domain-review-docket.md)。28组合回读且12组语义补强；15 OPEN及28 SPLIT_OPEN保持。构建者候选，不替代原未完成的累计独立审核；最终Exact HEAD见#78/PR79派审回执。CAL07/G05/T03/L2继续阻塞。无真实音频、LLM/DB、CI或accepted claims。
+
+
+## G04 R8 — 独立参考/修订证据、离线CQ及累计实质回读
+R7 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203815238) 两残余P1，累计部分未完。现行[完整复审合同](calibration/g04-r8-cumulative-review-candidate.md)、[XC01-R3](calibration/g04-r8-xc01-independent-evidence.md)70/70、[CQ补证](calibration/g04-r8-cq-semantic-remediation.md)24/24、[26问范围](calibration/g04-r8-formal-cq-scope-reconciliation.md)。实际七角色案例与源、19域1113格、34修订主原子80来源引用/317反链、28 NEW/51 REUSE/16 REF现行入口、K16–19原函数40/33/49/44真值重放。原15 Issue及28 SPLIT_OPEN保持。独立Reviewer可按exact SHA/blob复用不受影响的既有独立证据，但仍须完整阶段裁决，明确实质缺口与最小补救；不降低G04门禁。无新全量外部全文、实际运行、accepted claims或L1冻结；CAL07/G05/T03/L2阻塞。

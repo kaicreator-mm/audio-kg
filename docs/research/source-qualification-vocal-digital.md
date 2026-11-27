@@ -25,6 +25,6 @@ DRAFT；2026-11-26；READ_LOCATOR=读到原文 HTML 相关位置，ABSTRACT_READ
 | S063 | Audacity Noise Reduction https://manual.audacityteam.org/man/noise_reduction.html Get Noise Profile / Reduce / Residue | K08.07 | READ_LOCATOR；特定持续噪声方法、目标损伤与伪影，非所有降噪 |
 | S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |
 | S065 | PortAudio Writing a Callback https://portaudio.com/docs/v19-doxydocs/writing_a_callback.html callback restrictions | K08.09 | READ_LOCATOR；实时约束，不保证平台延迟 |
-| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；API 语义和时间预算，未运行 |
+| S066 | PortAudio API https://portaudio.com/docs/v19-doxydocs/portaudio_8h.html PaStreamCallback / frameCount / statusFlags | K08.09 | READ_LOCATOR；R2c实际HTML L76–83、255–270、343–358、376–383、482–502：v19文档的状态位及固定/未指定帧策略、回调输入输出与时基；实际版本、后端、丢失位置/数量及根因另核，未运行 |
 
 缺口：S045/S048 全文、专业声源滤波/语音学/歌唱生理；K06 专项呼吸、声区衔接、技法、教学实践及长期迁移；K08 ADC时钟、编码容器规范、DSP/变速变调、完整话筒指南、去混响及分离评价协议。所有分支的来源入口并非各原子需求的证据。临床指南只用于测量区别及安全界限，教学不能自动推导临床治疗。无个人录音或第三方音乐素材获取，真实案例待授权核验。

@@ -43,3 +43,7 @@ A01物理模型、谱与听觉边界；A02确认场型/来源/条件→离线分
 13. H1/H2 complete argmax sets [600] / [200,400] (not only first max) — true
 
 R5限定补证：[AX-RV01](acoustics-r5-review-remediation.md#L5)；[AX-RV02](acoustics-r5-review-remediation.md#L6)；[AX-RV03](acoustics-r5-review-remediation.md#L7)；[AX-RV04](acoustics-r5-review-remediation.md#L8)。保持原三组数据、衰减拟合及安全边界不变。
+
+
+## G04 R3 物理闭环子例
+[AC51/K07.06.04.01](acoustics-g04-feedback-path-case.md#L5)补D25缺失主入口；KC-A07离线路径分析新增闭环可达/开路/记录不足及闭环但衰减的区别；交现场诊断[LS25](live-sound-r2-knowledge-cases.md#L9)；旧测量槽K07.07.02.01提供实际校准资格而非证明反馈。禁止实际复现或场地放行，历史有限见证不计新增验证。

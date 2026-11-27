@@ -1,0 +1,182 @@
+# G04 R8h — 当前有限见证实际重放及读取范围
+精确基准 89ada4bef1d9af1cb512cdb550938bfe52013abe。从当前blob实际提取函数、执行、逐返回项检查严格true（不以数组长度判PASS）。四个模块的历史R7独立审核曾因连接中断未完成真值检查，本次Builder重放补证，非独立PASS，非真实实验。当前R8a及R8c独立参考/离线/实际追溯从当前文档重新提取执行 70/70、24/24（后者复用前者，不加总为独立覆盖）。
+
+## K16 — 40/40
+[实际函数](musicology-r4-integrated-closure.md) blob 450a99adb813ddf85822eeb00d7f39cab8a696ea
+- catalog recorded and released dates distinct — true
+- composition date not inferred — true
+- track catalog not actual audio — true
+- catalog reported predicate qualifies — true
+- catalog cannot establish composition date — true
+- catalog cannot establish acoustic audio — true
+- catalog genre not participant self-name — true
+- program only planned event — true
+- retrospective source different question — true
+- interpretation not participant quote — true
+- same object and condition conflict retained — true
+- different harp objects/descriptions not direct conflict — true
+- same object different condition not direct conflict — true
+- same source fact agreement — true
+- uncertain place remains uncertain — true
+- date ordering not causal — true
+- missing or reversed time fails — true
+- documented synthetic influence candidate — true
+- unresolved competing explanation — true
+- reported tuning qualifies only example — true
+- no fixed Hz from reference G — true
+- numeric approximation retains signed residuals — true
+- numeric mapping not native semantic equality — true
+- abstract records both viewpoints — true
+- abstract not percentages/current law/current prevalence — true
+- 60 sampled societies not every person — true
+- ethnographic sample not instrumental universal — true
+- specific evidence object/condition bound — true
+- scope synthetic positive only — true
+- action/object/purpose/subject/audience/epoch mismatch — true
+- public catalog not rights — true
+- ethics or rights unknown independent — true
+- unverified grant denied — true
+- public metadata conditional only — true
+- sensitive/unknown/not approved metadata withheld — true
+- no identity inference predicate — true
+- wrong reported value not supported — true
+- missing/unknown value not supported — true
+- evidence ID mismatch denied — true
+- abstract interpretation value remains report — true
+
+## K17 — 33/33
+[实际函数](music-cognition-r4-integrated-closure.md) blob 44672a638515228ffd8f328d120858b9a94af208
+- signed paired asynchrony — true
+- mean signed asynchrony — true
+- zero mean different absolute error — true
+- unpaired empty or nonfinite rejects — true
+- ratio normalisation — true
+- transposition retains intervals — true
+- same contour distinct interval — true
+- separate hit and false alarm denominators — true
+- unequal class denominators — true
+- d prime finite interior — true
+- same hit false alarm no sensitivity in model — true
+- zero or one rate no unplanned correction — true
+- missing class and bad count — true
+- out of finite quantile table unknown — true
+- surprise and entropy distinct — true
+- zero event probability not zero surprise — true
+- invalid probability or event refused — true
+- paired effect size — true
+- paired reverse sign — true
+- zero variation or missing pair undefined — true
+- trial vs participant — true
+- interval overlapping margin not equivalent — true
+- contained interval descriptive condition only — true
+- invalid interval refuses — true
+- synthetic report only — true
+- every candidate identity change with new envelope refuses — true
+- every stale report field refuses — true
+- missing candidate or report identity refuses — true
+- unknown controls or evidence refuses — true
+- actual people not allowed by synthetic fixture — true
+- evidence exact bounded tuple — true
+- changed population or task or claim or source or value denied — true
+- missing scope denies — true
+
+## K18 — 49/49
+[实际函数](sound-design-r4-integrated-closure.md) blob 4ad23451a59bb98bc3bda4236e9ec5abab801351
+- partial amplitude bound — true
+- linear steady response — true
+- strict Nyquist harmonic screening — true
+- invalid oscillator bounds — true
+- FM index and signed frequency candidates — true
+- zero deviation carrier only — true
+- negative frequencies retained for analysis not discarded — true
+- invalid modulator refused — true
+- single-cycle interpolation — true
+- table end wraps — true
+- invalid phase and table — true
+- frame morph — true
+- misaligned table lengths refuse — true
+- ideal average overlap — true
+- grain boundary checks — true
+- step and endpoints — true
+- ideal delay pitch — true
+- reflection strict bound — true
+- scalar impulse decay — true
+- sample transposition ratio — true
+- key and velocity boundaries — true
+- early noteoff no jump to sustain — true
+- tempo sync 2 beats — true
+- additive multiplicative modulation — true
+- neutral values and zero multiplier — true
+- Rack mono and missing channel policy — true
+- voltage octave relation — true
+- routing ordinary DAG — true
+- routing delayed cycle only structural — true
+- residual zero-delay subcycle with delay elsewhere — true
+- self-loop and unknown node — true
+- macro mapping — true
+- MIDI 14-bit center and extremes — true
+- spectral centroid and silent unknown — true
+- same centroid different spectra — true
+- fixed candidate positive — true
+- current allowed edit positive — true
+- old receipt after edit rejects — true
+- fresh receipt cannot authorize changed source or graph or dependency — true
+- same content marker after changed patch refuses — true
+- protected gain and parameter bounds — true
+- missing actual dependency verification or reopen or review refuses — true
+- synthetic rights safety and output flags independently bound — true
+- all current receipt identity fields exact — true
+- order-only base map same marker accepted — true
+- order-only base map new marker rejected — true
+- same semantic receipt with reordered params and top keys accepted — true
+- ordered notes and graph cannot be reversed — true
+- receipt ordered arrays still exact — true
+
+## K19 — 44/44
+[实际函数](live-sound-r4-integrated-closure.md) blob 6f3cdde6c699933cb97ad96c9223aca502ecd15d
+- point-source distance relation — true
+- point-source invalid distance — true
+- ideal path delay — true
+- no invalid sound speed — true
+- coverage spread project statistic — true
+- missing/invalid spread — true
+- energy mean not arithmetic mean — true
+- constant level unequal time — true
+- invalid energy inputs refused — true
+- pre/post different tap — true
+- pre not dependent on fader in fixture — true
+- unsupported tap unknown — true
+- sample duration only — true
+- common media format — true
+- synthetic base candidate — true
+- synthetic allowed new scene — true
+- stale old scene receipt not current — true
+- fresh receipt cannot change fixed fields — true
+- ordered route cannot be reversed — true
+- named parameter order irrelevant — true
+- no change cannot claim edit marker — true
+- protected monitor choice must remain — true
+- permission and local requirements unknown stop — true
+- no real actuation — true
+- real observation outside synthetic fixture — true
+- each missing measurement point — true
+- duplicate point cannot substitute missing — true
+- spread above project criterion — true
+- clarity and spectral independent — true
+- calibration missing or drift stop — true
+- reference and window bound — true
+- worker and audience and peak independently required — true
+- clock/media/stability/current state independent — true
+- late packets and unknown counts stop — true
+- wrong receipt identity denied — true
+- peak reviewed but failed or unknown or absent stops — true
+- peak criterion or measurement context or policy mismatched stops — true
+- missing peak context or policy fields stops — true
+- children or unknown audience cannot use general fixture — true
+- child or unknown policy under general candidate stops — true
+- interval statistic not a packet counter — true
+- missing or incomplete telemetry stops — true
+- unmatched telemetry window and subscription stops — true
+- all explicit synthetic acceptance still passes — true
+
+十九域现行矩阵回读：[四优先域](g04-r8-role-case-audit-priority.md) 231格；[其余15域](g04-r8-role-semantics-readback.md) 882格；合计1113活跃格。五列矩阵使用原全表边界，不误作缺列；原5历史D2的35格排除。四优先域实际读主案例和补充修订链接，其他15域尚未逐一重新打开全部下游主案例/外部来源（历史模块受审证据可按未变更范围复用）。

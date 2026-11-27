@@ -36,8 +36,8 @@
 | K09.06.01.02 | 记录测量算法、版本、单位和条件 | BOUNDED_COMPOSITION | [MP16/K09.06.01.03](production-r1-knowledge-cases.md#L20)；[MP40/K09.06.01.04](production-r2-knowledge-cases.md#L20) | 版本、门控、布局、单位、容差/例外及报告 |
 | K09.06.02.01 | 区分母带处理、格式转换和播放归一化 | ROUTER_CANDIDATE | [MP17/K09.06.02.03](production-r1-knowledge-cases.md#L21)；[MP41/K09.06.02.04](production-r2-knowledge-cases.md#L21) | 母带动态/格式转换/播放归一化区分 |
 | K09.06.02.02 | 记录限制器、编码及峰值复测条件 | BOUNDED_COMPOSITION | [MP17/K09.06.02.03](production-r1-knowledge-cases.md#L21)；[MP41/K09.06.02.04](production-r2-knowledge-cases.md#L21) | 输出独立报告、编码峰值复测与实际增益 |
-| K09.06.03.01 | 区分广播标准、平台说明及用户约束 | ROUTER_CANDIDATE | [MP18/K09.06.03.03](production-r1-knowledge-cases.md#L22)；[MP42/K09.06.03.04](production-r2-knowledge-cases.md#L22) | 广播/平台播放/客户交付条件分离 |
-| K09.06.03.02 | 核对适用版本、渠道与交付要求 | BOUNDED_COMPOSITION | [MP18/K09.06.03.03](production-r1-knowledge-cases.md#L22)；[MP42/K09.06.03.04](production-r2-knowledge-cases.md#L22) | 版本/节目类型/渠道/冲突及验收条件 |
+| K09.06.03.01 | 区分广播标准、平台说明及用户约束 | ROUTER_CANDIDATE | [MP18/K09.06.03.03](production-r1-knowledge-cases.md#L22)；[MP42/K09.06.03.04](production-r2-knowledge-cases.md#L22) | 广播/平台播放/客户交付条件分离；[MP40](production-r2-knowledge-cases.md#L20) 仪表容差不放宽交付上限 |
+| K09.06.03.02 | 核对适用版本、渠道与交付要求 | BOUNDED_COMPOSITION | [MP18/K09.06.03.03](production-r1-knowledge-cases.md#L22)；[MP42/K09.06.03.04](production-r2-knowledge-cases.md#L22) | 版本/节目类型/渠道/冲突及验收条件；[MP40](production-r2-knowledge-cases.md#L20) R128及BS.1770限定门控，其他规范另查 |
 | K09.07.01.01 | 识别扬声器到拾音器的声学反馈环路 | SPLIT_OPEN | [K09.07.01.01](domain-migration-implementation.md#L53) | K07.06/K07.07=物理传播与测量；K19.07=现场反馈路径诊断；K08.04 REF通用路由；原槽开放，K19/目标域证据及审核待后续，不算K09活跃覆盖。 |
 | K09.07.01.02 | 区分增益、布置与电气噪声候选 | SPLIT_OPEN | [K09.07.01.02](domain-migration-implementation.md#L54) | K19.07=现场候选及处置；K08.04/K08.05=通用增益拾音；K07.06 REF环境；K15.04 REF安全门禁；原槽开放，K19/目标域证据及审核待后续，不算K09活跃覆盖。 |
 | K09.07.02.01 | 区分主扩声、舞台监听、总线及发送 | SPLIT_OPEN | [K09.07.02.01](domain-migration-implementation.md#L55) | K19.05=现场主扩声与舞台监听；K08.04=通用路由；K04.06=音乐协作监听目标；K12.01 REF具体宿主；原槽开放，K19/目标域证据及审核待后续，不算K09活跃覆盖。 |
@@ -52,10 +52,10 @@
 | K09.08.03.02 | 定义独立重开及重渲染的验收要求 | BOUNDED_COMPOSITION | [MP21/K09.08.03.03](production-r1-knowledge-cases.md#L25)；[MP45/K09.08.03.04](production-r2-knowledge-cases.md#L25) | 独立重开/渲染和降级条件，验收容差与失败 |
 | K09.09.01.01 | 保存原始素材与独立候选、修改范围 | ROUTER_CANDIDATE | [MP22/K09.09.01.03](production-r1-knowledge-cases.md#L26)；[MP46/K09.09.01.04](production-r2-knowledge-cases.md#L26) | 原始只读/独立候选及局部范围 |
 | K09.09.01.02 | 核验共享数据及原件保护 | BOUNDED_COMPOSITION | [MP22/K09.09.01.03](production-r1-knowledge-cases.md#L26)；[MP46/K09.09.01.04](production-r2-knowledge-cases.md#L26) | 共享源保护、依赖与授权版本、备份 |
-| K09.09.02.01 | 控制听音条件并检查改动外的保护区 | ROUTER_CANDIDATE | [MP23/K09.09.02.03](production-r1-knowledge-cases.md#L27)；[MP47/K09.09.02.04](production-r2-knowledge-cases.md#L27) | 受控增益/听音与保护区评价 |
+| K09.09.02.01 | 控制听音条件并检查改动外的保护区 | ROUTER_CANDIDATE | [MP23/K09.09.02.03](production-r1-knowledge-cases.md#L27)；[MP47/K09.09.02.04](production-r2-knowledge-cases.md#L27) | 受控增益/听音与保护区评价；[MP30](production-r2-knowledge-cases.md#L10) 区外线性/离散反例为局部保护前置 |
 | K09.09.02.02 | 记录客观指标及人类偏好、复测结果 | BOUNDED_COMPOSITION | [MP23/K09.09.02.03](production-r1-knowledge-cases.md#L27)；[MP47/K09.09.02.04](production-r2-knowledge-cases.md#L27) | 客观与主观报告独立，增益数学非实际等响 |
-| K09.09.03.01 | 定义局部修订验收、回滚及失败停止条件 | ROUTER_CANDIDATE | [MP24/K09.09.03.03](production-r1-knowledge-cases.md#L28)；[MP48/K09.09.03.04](production-r2-knowledge-cases.md#L28) | 采纳/拒绝/回滚/停止状态 |
-| K09.09.03.02 | 保存原因、结果、依赖失效和人工确认 | BOUNDED_COMPOSITION | [MP24/K09.09.03.03](production-r1-knowledge-cases.md#L28)；[MP48/K09.09.03.04](production-r2-knowledge-cases.md#L28) | 依赖失效、失败证据、人工确认和撤回停止 |
+| K09.09.03.01 | 定义局部修订验收、回滚及失败停止条件 | ROUTER_CANDIDATE | [MP24/K09.09.03.03](production-r1-knowledge-cases.md#L28)；[MP48/K09.09.03.04](production-r2-knowledge-cases.md#L28) | 采纳/拒绝/回滚/停止状态；[XC01-R2](g04-r7-xc01-protection-remediation.md) 新报告不绕过实际内容/区外保护 |
+| K09.09.03.02 | 保存原因、结果、依赖失效和人工确认 | BOUNDED_COMPOSITION | [MP24/K09.09.03.03](production-r1-knowledge-cases.md#L28)；[MP48/K09.09.03.04](production-r2-knowledge-cases.md#L28) | 依赖失效、失败证据、人工确认和撤回停止；[MP30](production-r2-knowledge-cases.md#L10) 回执须绑定实际曲线、模式、单位、时间域和版本 |
 
 ## 24活跃限定组合
 - K09.01.01.02：SUFFICIENT_SCOPED_CANDIDATE；稳定ID与内容、源/工程偏移、依赖和报告版本。[MP01/K09.01.01.03](production-r1-knowledge-cases.md#L5)；[MP25/K09.01.01.04](production-r2-knowledge-cases.md#L5)。仅题设与来源限定，不是实际工程、工具、听评或权限验证。

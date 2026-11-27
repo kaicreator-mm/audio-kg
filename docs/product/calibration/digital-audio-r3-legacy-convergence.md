@@ -4,20 +4,20 @@
 |---|---|---|---|---|
 | K08.01.01.01 | 采样率与带宽 | ROUTER_CANDIDATE | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5) | 采样频率、Nyquist与真实带宽，严格带限条件 |
 | K08.01.01.02 | 抗混叠及信息损失 | BOUNDED_COMPOSITION | [DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5) | 直接抽取的混叠多解及滤波先于抽取，不能恢复旧损失 |
-| K08.01.02.01 | 离散时间与离散幅度 | ROUTER_CANDIDATE | [DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6) | 时间离散、幅度离散及明确量化映射 |
-| K08.01.02.02 | 整数浮点及量化误差 | BOUNDED_COMPOSITION | [DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6) | 整数/浮点/有效位深与量化误差、非减法扰动并非普遍无偏 |
+| K08.01.02.01 | 离散时间与离散幅度 | ROUTER_CANDIDATE | [DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6) | 时间离散、幅度离散及明确量化映射；帧字节须独立引用[DA04](digital-audio-r1-knowledge-cases.md#L8)容器宽度 |
+| K08.01.02.02 | 整数浮点及量化误差 | BOUNDED_COMPOSITION | [DA02/K08.01.02.03](digital-audio-r1-knowledge-cases.md#L6)；[DA29/K08.01.02.04](digital-audio-r2-knowledge-cases.md#L6) | 整数/浮点/有效位深与量化误差、非减法扰动并非普遍无偏；[DA04/32](digital-audio-r3-legacy-convergence.md#L11) 有效20位不代24位容器字节 |
 | K08.01.03.01 | 声道布局帧采样时钟 | ROUTER_CANDIDATE | [DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | 帧、声道位置与采样时钟分离 |
 | K08.01.03.02 | 时钟差异与同步 | BOUNDED_COMPOSITION | [DA03/K08.01.03.03](digital-audio-r1-knowledge-cases.md#L7)；[DA30/K08.01.03.04](digital-audio-r2-knowledge-cases.md#L7) | 时钟差异、独立事件/布局、同标称速率非同步 |
-| K08.02.01.01 | PCM无损有损区别 | ROUTER_CANDIDATE | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8) | PCM样本表示与无损/有损编码分离 |
-| K08.02.01.02 | 编码参数与转码限制 | BOUNDED_COMPOSITION | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8) | 逐样本等价、参数/元数据、既往有损损失不恢复 |
+| K08.02.01.01 | PCM无损有损区别 | ROUTER_CANDIDATE | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8) | PCM样本表示、有效位/容器字节与无损/有损编码分离 |
+| K08.02.01.02 | 编码参数与转码限制 | BOUNDED_COMPOSITION | [DA04/K08.02.01.03](digital-audio-r1-knowledge-cases.md#L8)；[DA31/K08.02.01.04](digital-audio-r2-knowledge-cases.md#L8) | 逐样本等价、参数/元数据、既往有损损失不恢复；实际容器/块布局见[DA05](digital-audio-r1-knowledge-cases.md#L9)/[DA32](digital-audio-r2-knowledge-cases.md#L9) |
 | K08.02.02.01 | 容器流扩展名区别 | ROUTER_CANDIDATE | [DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9) | 容器、流、扩展名和有效位深各自独立 |
 | K08.02.02.02 | 验证元数据与解码能力 | BOUNDED_COMPOSITION | [DA05/K08.02.02.03](digital-audio-r1-knowledge-cases.md#L9)；[DA32/K08.02.02.04](digital-audio-r2-knowledge-cases.md#L9) | RIFF边界、奇数填充、fmt/data、blockAlign和解码证据 |
 | K08.02.03.01 | 重采样与重解释采样率区别 | ROUTER_CANDIDATE | [DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | 时长保持重采样与头部速率重解释 |
 | K08.02.03.02 | 抗混叠声道映射条件 | BOUNDED_COMPOSITION | [DA06/K08.02.03.03](digital-audio-r1-knowledge-cases.md#L10)；[DA33/K08.02.03.04](digital-audio-r2-knowledge-cases.md#L10) | 比例、低通、边界、声道映射和延迟条件 |
 | K08.03.01.01 | 响应与输入输出关系 | ROUTER_CANDIDATE | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11) | 有限卷积、冲激响应与输出长度 |
 | K08.03.01.02 | 相位边界副作用 | BOUNDED_COMPOSITION | [DA07/K08.03.01.03](digital-audio-r1-knowledge-cases.md#L11)；[DA34/K08.03.01.04](digital-audio-r2-knowledge-cases.md#L11) | 循环卷积折叠、相位/边界/目标频带保护 |
-| K08.03.02.01 | 全局变换与局部窗口 | ROUTER_CANDIDATE | [DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12) | 全局复谱与局部窗口/时间定位 |
-| K08.03.02.02 | FFT长度窗长步幅单位 | BOUNDED_COMPOSITION | [DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12) | FFT长度、窗长、hop、单位、覆盖及NOLA逆变换 |
+| K08.03.02.01 | 全局变换与局部窗口 | ROUTER_CANDIDATE | [DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12) | 全局复谱与局部窗口/时间定位；固定nfft960的10/20ms观察窗格点相同 |
+| K08.03.02.02 | FFT长度窗长步幅单位 | BOUNDED_COMPOSITION | [DA08/K08.03.02.03](digital-audio-r1-knowledge-cases.md#L12)；[DA35/K08.03.02.04](digital-audio-r2-knowledge-cases.md#L12) | FFT长度、窗长、hop、单位、覆盖及NOLA逆变换；固定观察窗零填充仅改变频率格点 |
 | K08.03.03.01 | 变速保调拉伸与变调区别 | ROUTER_CANDIDATE | [DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | 变速/保调/独立变调三目标 |
 | K08.03.03.02 | 算法假设与伪影 | BOUNDED_COMPOSITION | [DA09/K08.03.03.03](digital-audio-r1-knowledge-cases.md#L13)；[DA36/K08.03.03.04](digital-audio-r2-knowledge-cases.md#L13) | 目标时间轴、F0、瞬态和多声道相位保护 |
 | K08.04.01.01 | 输入增益路由输出 | ROUTER_CANDIDATE | [DA10/K08.04.01.03](digital-audio-r1-knowledge-cases.md#L14)；[DA37/K08.04.01.04](digital-audio-r2-knowledge-cases.md#L14) | 输入增益/路由/ADC/数字/输出监测点 |
@@ -54,8 +54,8 @@
 | K08.09.01.02 | 缓冲与端到端延迟 | BOUNDED_COMPOSITION | [DA25/K08.09.01.03](digital-audio-r1-knowledge-cases.md#L29)；[DA52/K08.09.01.04](digital-audio-r2-knowledge-cases.md#L29) | 可靠时间戳、队列及端到端延迟不唯一 |
 | K08.09.02.01 | 时间预算及不确定阻塞 | ROUTER_CANDIDATE | [DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30) | 逐次期限、阻塞和回调预算 |
 | K08.09.02.02 | 实时线程离线任务边界 | BOUNDED_COMPOSITION | [DA26/K08.09.02.03](digital-audio-r1-knowledge-cases.md#L30)；[DA53/K08.09.02.04](digital-audio-r2-knowledge-cases.md#L30) | 有界非阻塞队列、满时策略/记录、离线任务 |
-| K08.09.03.01 | 输入输出缓冲事件及观测 | ROUTER_CANDIDATE | [DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | 输入溢出与输出欠载方向/事件 |
-| K08.09.03.02 | 日志复现配置回归 | BOUNDED_COMPOSITION | [DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | 保留日志、配置单变量及复测，补值非真值 |
+| K08.09.03.01 | 输入输出缓冲事件及观测 | ROUTER_CANDIDATE | [DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | 输入/输出underflow与overflow、frame策略、状态bitmask及priming，版本未知保留UNKNOWN |
+| K08.09.03.02 | 日志复现配置回归 | BOUNDED_COMPOSITION | [DA27/K08.09.03.03](digital-audio-r1-knowledge-cases.md#L31)；[DA54/K08.09.03.04](digital-audio-r2-knowledge-cases.md#L31) | 有界非阻塞交接、日志延后、配置单变量及复测，补值非真值；不推具体丢失数量/根因 |
 
 ## 27限定组合
 - K08.01.01.02：SUFFICIENT_SCOPED_CANDIDATE；直接抽取的混叠多解及滤波先于抽取，不能恢复旧损失。[DA01/K08.01.01.03](digital-audio-r1-knowledge-cases.md#L5)；[DA28/K08.01.01.04](digital-audio-r2-knowledge-cases.md#L5)。仅题设和来源条件，不是实际产品/工具/听评/许可验证。

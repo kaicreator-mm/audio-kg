@@ -22,16 +22,16 @@
 | K10.03.03.02 | 定义参考词汇覆盖及无法评分情况 | BOUNDED_COMPOSITION | [EV09/K10.03.03.03](evaluation-r1-knowledge-cases.md#L13)；[EV36/K10.03.03.04](evaluation-r2-knowledge-cases.md#L13) | out-of-gamut覆盖与空分母，stable/latest参数分离 |
 | K10.04.01.01 | 定义音符起止音高和参考事件 | ROUTER_CANDIDATE | [EV10/K10.04.01.03](evaluation-r1-knowledge-cases.md#L14)；[EV37/K10.04.01.04](evaluation-r2-knowledge-cases.md#L14) | 音符起止/音高与帧级粒度 |
 | K10.04.01.02 | 区分帧级及音符级匹配 | BOUNDED_COMPOSITION | [EV10/K10.04.01.03](evaluation-r1-knowledge-cases.md#L14)；[EV37/K10.04.01.04](evaluation-r2-knowledge-cases.md#L14) | 一对一、strict/offset及乐谱节拍/声部损失 |
-| K10.04.02.01 | 区分混合音频的声源、声部和乐器标签 | ROUTER_CANDIDATE | [EV11/K10.04.02.03](evaluation-r1-knowledge-cases.md#L15)；[EV38/K10.04.02.04](evaluation-r2-knowledge-cases.md#L15) | 声源/声部/乐器片段多标签 |
-| K10.04.02.02 | 保留多标签及遮蔽条件 | BOUNDED_COMPOSITION | [EV11/K10.04.02.03](evaluation-r1-knowledge-cases.md#L15)；[EV38/K10.04.02.04](evaluation-r2-knowledge-cases.md#L15) | 部分标注mask及errata、遮蔽和音符归属 |
-| K10.04.03.01 | 区分文本、音素、音节对齐及符号产物 | ROUTER_CANDIDATE | [EV12/K10.04.03.03](evaluation-r1-knowledge-cases.md#L16)；[EV39/K10.04.03.04](evaluation-r2-knowledge-cases.md#L16) | 词文本/音素/音节/时间对齐与符号输出 |
-| K10.04.03.02 | 记录语言规范、标注协议及转换损失 | BOUNDED_COMPOSITION | [EV12/K10.04.03.03](evaluation-r1-knowledge-cases.md#L16)；[EV39/K10.04.03.04](evaluation-r2-knowledge-cases.md#L16) | 语言正规化、分词、编辑代价/分母、单位ID与转换损失 |
+| K10.04.02.01 | 区分混合音频的声源、声部和乐器标签 | ROUTER_CANDIDATE | [EV11/K10.04.02.03](evaluation-r1-knowledge-cases.md#L15)；[EV38/K10.04.02.04](evaluation-r2-knowledge-cases.md#L15) | 声源/声部/乐器片段多标签；固定身份与匿名一致全局匹配分开 |
+| K10.04.02.02 | 保留多标签及遮蔽条件 | BOUNDED_COMPOSITION | [EV11/K10.04.02.03](evaluation-r1-knowledge-cases.md#L15)；[EV38/K10.04.02.04](evaluation-r2-knowledge-cases.md#L15) | 部分标注mask及errata、遮蔽和音符归属；同刻错配在身份评价失败，缺参考UNKNOWN |
+| K10.04.03.01 | 区分文本、音素、音节对齐及符号产物 | ROUTER_CANDIDATE | [EV12/K10.04.03.03](evaluation-r1-knowledge-cases.md#L16)；[EV39/K10.04.03.04](evaluation-r2-knowledge-cases.md#L16) | 词文本/音素/音节/时间对齐与符号输出；原note/word/voice/source/time及绑定保护 |
+| K10.04.03.02 | 记录语言规范、标注协议及转换损失 | BOUNDED_COMPOSITION | [EV12/K10.04.03.03](evaluation-r1-knowledge-cases.md#L16)；[EV39/K10.04.03.04](evaluation-r2-knowledge-cases.md#L16) | 语言正规化、分词、编辑代价/分母、单位ID与转换损失；WER0不证明编辑关系保留 |
 | K10.05.01.01 | 区分乐句、段落、层级及标注任务 | ROUTER_CANDIDATE | [EV13/K10.05.01.03](evaluation-r1-knowledge-cases.md#L17)；[EV40/K10.05.01.04](evaluation-r2-knowledge-cases.md#L17) | 乐句/段落/层级及标注任务 |
 | K10.05.01.02 | 按语境定义边界容差及端点规则 | BOUNDED_COMPOSITION | [EV13/K10.05.01.03](evaluation-r1-knowledge-cases.md#L17)；[EV40/K10.05.01.04](evaluation-r2-knowledge-cases.md#L17) | 参考分区、容差、匹配、首尾与覆盖规则 |
 | K10.05.02.01 | 区分重复组、段落身份和段落功能 | ROUTER_CANDIDATE | [EV14/K10.05.02.03](evaluation-r1-knowledge-cases.md#L18)；[EV41/K10.05.02.04](evaluation-r2-knowledge-cases.md#L18) | 重复组/段落身份/功能标签 |
 | K10.05.02.02 | 记录分段标签的语义及粒度 | BOUNDED_COMPOSITION | [EV14/K10.05.02.03](evaluation-r1-knowledge-cases.md#L18)；[EV41/K10.05.02.04](evaluation-r2-knowledge-cases.md#L18) | 分组置换不变与功能字典、粒度和空分母 |
-| K10.05.03.01 | 保留竞争标注及层级条件 | ROUTER_CANDIDATE | [EV15/K10.05.03.03](evaluation-r1-knowledge-cases.md#L19)；[EV42/K10.05.03.04](evaluation-r2-knowledge-cases.md#L19) | 竞争层级标注和父子关系 |
-| K10.05.03.02 | 区分一致性和真实唯一结构 | BOUNDED_COMPOSITION | [EV15/K10.05.03.03](evaluation-r1-knowledge-cases.md#L19)；[EV42/K10.05.03.04](evaluation-r2-knowledge-cases.md#L19) | 嵌套/非嵌套契约与一致性、多参考及非唯一性 |
+| K10.05.03.01 | 保留竞争标注及层级条件 | ROUTER_CANDIDATE | [EV15/K10.05.03.03](evaluation-r1-knowledge-cases.md#L19)；[EV42/K10.05.03.04](evaluation-r2-knowledge-cases.md#L19) | 竞争层级标注和父子关系；同粒度逐参考评分及明确参考ID/版本 |
+| K10.05.03.02 | 区分一致性和真实唯一结构 | BOUNDED_COMPOSITION | [EV15/K10.05.03.03](evaluation-r1-knowledge-cases.md#L19)；[EV42/K10.05.03.04](evaluation-r2-knowledge-cases.md#L19) | 嵌套/非嵌套契约与一致性、多参考及非唯一性；聚合策略预定，不以等权推可靠性 |
 | K10.06.01.01 | 明确目标曲谱、音段及风格约束 | ROUTER_CANDIDATE | [EV16/K10.06.01.03](evaluation-r1-knowledge-cases.md#L20)；[EV43/K10.06.01.04](evaluation-r2-knowledge-cases.md#L20) | 目标曲谱/稳定段、音准及节奏参考 |
 | K10.06.01.02 | 区分算法估计与演唱观察 | BOUNDED_COMPOSITION | [EV16/K10.06.01.03](evaluation-r1-knowledge-cases.md#L20)；[EV43/K10.06.01.04](evaluation-r2-knowledge-cases.md#L20) | 实际/估计误差分解、表现性区间及缺参考 |
 | K10.06.02.01 | 区分音素清晰、歌词理解、音色及表达目标 | ROUTER_CANDIDATE | [EV17/K10.06.02.03](evaluation-r1-knowledge-cases.md#L21)；[EV44/K10.06.02.04](evaluation-r2-knowledge-cases.md#L21) | 音素清晰/理解/音色/表达 |
@@ -52,10 +52,10 @@
 | K10.08.03.02 | 定义人工确认与不可通约冲突 | BOUNDED_COMPOSITION | [EV24/K10.08.03.03](evaluation-r1-knowledge-cases.md#L28)；[EV51/K10.08.03.04](evaluation-r2-knowledge-cases.md#L28) | Pareto/权重敏感性、授权及人工取舍 |
 | K10.09.01.01 | 定义任务、参考、样本、条件及指标 | ROUTER_CANDIDATE | [EV25/K10.09.01.03](evaluation-r1-knowledge-cases.md#L29)；[EV52/K10.09.01.04](evaluation-r2-knowledge-cases.md#L29) | 任务/参考/样本/条件与指标 |
 | K10.09.01.02 | 区分盲评、随机化、配对与独立测试 | BOUNDED_COMPOSITION | [EV25/K10.09.01.03](evaluation-r1-knowledge-cases.md#L29)；[EV52/K10.09.01.04](evaluation-r2-knowledge-cases.md#L29) | 盲评/随机化/配对/独立划分及单位 |
-| K10.09.02.01 | 记录评审差异、样本聚合与统计不确定性 | ROUTER_CANDIDATE | [EV26/K10.09.02.03](evaluation-r1-knowledge-cases.md#L30)；[EV53/K10.09.02.04](evaluation-r2-knowledge-cases.md#L30) | 评审分歧/样本聚合和统计不确定 |
+| K10.09.02.01 | 记录评审差异、样本聚合与统计不确定性 | ROUTER_CANDIDATE | [EV26/K10.09.02.03](evaluation-r1-knowledge-cases.md#L30)；[EV53/K10.09.02.04](evaluation-r2-knowledge-cases.md#L30) | 评审分歧/样本聚合和统计不确定；[EV15/42](evaluation-r3-legacy-convergence.md#L33) 逐参考及聚合边界 |
 | K10.09.02.02 | 区分可靠性、效度和可比性 | BOUNDED_COMPOSITION | [EV26/K10.09.02.03](evaluation-r1-knowledge-cases.md#L30)；[EV53/K10.09.02.04](evaluation-r2-knowledge-cases.md#L30) | 可靠性/效度、配对假设、重复与缺失政策 |
 | K10.09.03.01 | 固定数据划分、指标代码版本参数及输出 | ROUTER_CANDIDATE | [EV27/K10.09.03.03](evaluation-r1-knowledge-cases.md#L31)；[EV54/K10.09.03.04](evaluation-r2-knowledge-cases.md#L31) | 数据划分、指标版本参数和输出 |
-| K10.09.03.02 | 将结果绑定输入和候选版本 | BOUNDED_COMPOSITION | [EV27/K10.09.03.03](evaluation-r1-knowledge-cases.md#L31)；[EV54/K10.09.03.04](evaluation-r2-knowledge-cases.md#L31) | 源组/输入/参考/候选/报告绑定、泄漏/失效 |
+| K10.09.03.02 | 将结果绑定输入和候选版本 | BOUNDED_COMPOSITION | [EV27/K10.09.03.03](evaluation-r1-knowledge-cases.md#L31)；[EV54/K10.09.03.04](evaluation-r2-knowledge-cases.md#L31) | 源组/输入/参考/候选/报告绑定、泄漏/失效；[XC01-R2](g04-r7-xc01-protection-remediation.md) 缺身份、同ID改实际内容和报告版本失效 |
 
 ## 27限定组合
 - K10.01.01.02：SUFFICIENT_SCOPED_CANDIDATE；网格、有效mask、范围、倍频、负值和显式voicing条件。[EV01/K10.01.01.03](evaluation-r1-knowledge-cases.md#L5)；[EV28/K10.01.01.04](evaluation-r2-knowledge-cases.md#L5)。仅题设与来源限定，不是实际模型、工具、听评或许可。

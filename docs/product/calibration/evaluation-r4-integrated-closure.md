@@ -26,3 +26,7 @@ A01知识语义；A02协议/参考→识别指标→多维评价→审核反馈�
 11. hard gate and absent human evidence — true
 12. paired sample mean variance SE — true
 上述仅JS合成数学、匹配及对象见证；非实际MIR库、数据、模型、DAW、听评、图谱或LLM执行。
+
+## G04 R2b 累计校准补充
+KC-E10 R2b：B按[EV11](evaluation-r1-knowledge-cases.md#L15)/[EV38](evaluation-r2-knowledge-cases.md#L15)区分片段标签、音高/时间与固定事件声部，匿名声部需同一全段置换；[EV12](evaluation-r1-knowledge-cases.md#L16)/[EV39](evaluation-r2-knowledge-cases.md#L16)独立保护音符/词ID、声部、拍/时间、音节音符关系，无损与明确许可降级分开；[EV15](evaluation-r1-knowledge-cases.md#L19)/[EV42](evaluation-r2-knowledge-cases.md#L19)同粒度R1/R2逐参考1/0、事前等权才.5，报告绑定两参考版本/理由与聚合政策。非实际MIR或导出。
+原R4有限检查为历史记录，不能替代新条件的独立核验。
