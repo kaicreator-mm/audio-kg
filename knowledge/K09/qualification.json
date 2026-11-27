@@ -1,0 +1,1273 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K09",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "2befef1087b2eb394aadf56f5d42baedba7fcc03",
+  "sourceQualifications": [
+    {
+      "source": "S086@1",
+      "scope": "| S086 | Ardour [What's in a Session?](https://manual.ardour.org/working-with-sessions/whats-in-a-session/) Session folder / routing / version compatibility | K09.01/08 | READ_LOCATOR；工程、素材、快照、输出与依赖区分，旧版本个别数据可能跳过；未固定软件版本 |",
+      "limits": "| S086 | Ardour [What's in a Session?](https://manual.ardour.org/working-with-sessions/whats-in-a-session/) Session folder / routing / version compatibility | K09.01/08 | READ_LOCATOR；工程、素材、快照、输出与依赖区分，旧版本个别数据可能跳过；未固定软件版本 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/working-with-sessions/whats-in-a-session/"
+    },
+    {
+      "source": "S087@1",
+      "scope": "| S087 | Ardour [Creating Music with Ardour](https://manual.ardour.org/introducing-ardour/creating-music-with-ardour/) stages 2–5 | K09.01/02/05/08/09 | READ_LOCATOR；region编辑与MIDI内容写入区别，混音自动化与输出；不推广到所有DAW |",
+      "limits": "| S087 | Ardour [Creating Music with Ardour](https://manual.ardour.org/introducing-ardour/creating-music-with-ardour/) stages 2–5 | K09.01/02/05/08/09 | READ_LOCATOR；region编辑与MIDI内容写入区别，混音自动化与输出；不推广到所有DAW |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/introducing-ardour/creating-music-with-ardour/"
+    },
+    {
+      "source": "S088@1",
+      "scope": "| S088 | Ardour [Snapshots](https://manual.ardour.org/working-with-sessions/snapshots/) creation/switching | K09.01/09 | READ_LOCATOR；同session快照共享数据，不是独立素材备份 |",
+      "limits": "| S088 | Ardour [Snapshots](https://manual.ardour.org/working-with-sessions/snapshots/) creation/switching | K09.01/09 | READ_LOCATOR；同session快照共享数据，不是独立素材备份 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/working-with-sessions/snapshots/"
+    },
+    {
+      "source": "S089@1",
+      "scope": "| S089 | Audacity [Envelope Tool](https://manual.audacityteam.org/man/envelope_tool.html) Control Points / Envelopes are wrongly removed by the following effects | K09.02/05/09 | READ_LOCATOR；文档报告部分效果使包络丢失，历史/当前实际受影响版本未验证；不得声称所有版本均有此缺陷 |",
+      "limits": "| S089 | Audacity [Envelope Tool](https://manual.audacityteam.org/man/envelope_tool.html) Control Points / Envelopes are wrongly removed by the following effects | K09.02/05/09 | READ_LOCATOR；文档报告部分效果使包络丢失，历史/当前实际受影响版本未验证；不得声称所有版本均有此缺陷 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/envelope_tool.html"
+    },
+    {
+      "source": "S090@1",
+      "scope": "| S090 | Audacity [Change Tempo](https://manual.audacityteam.org/man/change_tempo.html) Advice / Limitations | K09.02/03 K08.03 | READ_LOCATOR；文档说明对选区应用效果会渲染/拆分变速clip，并警告包络问题；算法和伪影受参数限制；未运行 |",
+      "limits": "| S090 | Audacity [Change Tempo](https://manual.audacityteam.org/man/change_tempo.html) Advice / Limitations | K09.02/03 K08.03 | READ_LOCATOR；文档说明对选区应用效果会渲染/拆分变速clip，并警告包络问题；算法和伪影受参数限制；未运行 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/change_tempo.html"
+    },
+    {
+      "source": "S091@1",
+      "scope": "| S091 | Ardour [Playlist Usecases](https://manual.ardour.org/working-with-playlists/playlist_usecases/) Using Playlists for Takes | K09.03 | READ_LOCATOR；多take选择及合成编辑，非修音算法效果证据 |",
+      "limits": "| S091 | Ardour [Playlist Usecases](https://manual.ardour.org/working-with-playlists/playlist_usecases/) Using Playlists for Takes | K09.03 | READ_LOCATOR；多take选择及合成编辑，非修音算法效果证据 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/working-with-playlists/playlist_usecases/"
+    },
+    {
+      "source": "S092@1",
+      "scope": "| S092 | Ardour [Track/Bus Signal Flow](https://manual.ardour.org/signal-routing/signal-flow/) Overview / Strict I/O / Pin Connection | K09.01/04/05/07 | READ_LOCATOR；处理链、灵活I/O及侧链，宿主特定实现 |",
+      "limits": "| S092 | Ardour [Track/Bus Signal Flow](https://manual.ardour.org/signal-routing/signal-flow/) Overview / Strict I/O / Pin Connection | K09.01/04/05/07 | READ_LOCATOR；处理链、灵活I/O及侧链，宿主特定实现 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/signal-routing/signal-flow/"
+    },
+    {
+      "source": "S093@1",
+      "scope": "| S093 | Audacity [Compressor](https://manual.audacityteam.org/man/compressor.html?source=post_page---------------------------) Compression curve / Controls / Smoothing | K09.04/05 | READ_LOCATOR；静态映射与时间平滑不同，版本/实际运行待证 |",
+      "limits": "| S093 | Audacity [Compressor](https://manual.audacityteam.org/man/compressor.html?source=post_page---------------------------) Compression curve / Controls / Smoothing | K09.04/05 | READ_LOCATOR；静态映射与时间平滑不同，版本/实际运行待证 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.audacityteam.org/man/compressor.html?source=post_page---------------------------"
+    },
+    {
+      "source": "S097@1",
+      "scope": "| S097 | Ardour [Stem Exports](https://manual.ardour.org/working-with-sessions/interchange-with-other-daws/stem-exports/) channels / Apply track/bus processing | K09.08 | READ_LOCATOR；独立轨道/总线导出、包含静音保持对齐，可选择应用处理；不能完整传输工程状态；未实测 |",
+      "limits": "| S097 | Ardour [Stem Exports](https://manual.ardour.org/working-with-sessions/interchange-with-other-daws/stem-exports/) channels / Apply track/bus processing | K09.08 | READ_LOCATOR；独立轨道/总线导出、包含静音保持对齐，可选择应用处理；不能完整传输工程状态；未实测 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/working-with-sessions/interchange-with-other-daws/stem-exports/"
+    },
+    {
+      "source": "S487@1",
+      "scope": "| S487 | [Ardour Region Properties](https://manual.ardour.org/editing/editing-regions-and-selections/region-properties/) Position/Length/Sync point/File start/Source | READ_LOCATOR；素材偏移、工程位置、region增益独立；非所有DAW或当前运行。 |",
+      "limits": "| S487 | [Ardour Region Properties](https://manual.ardour.org/editing/editing-regions-and-selections/region-properties/) Position/Length/Sync point/File start/Source | READ_LOCATOR；素材偏移、工程位置、region增益独立；非所有DAW或当前运行。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/editing/editing-regions-and-selections/region-properties/"
+    },
+    {
+      "source": "S488@1",
+      "scope": "| S488 | [Ardour Fades and Crossfades](https://manual.ardour.org/editing-and-arranging/create-region-fades-and-crossfades/) layered region model | READ_LOCATOR；重叠和交叉淡化，Ardour层叠实现特定；算例自建，不执行。 |",
+      "limits": "| S488 | [Ardour Fades and Crossfades](https://manual.ardour.org/editing-and-arranging/create-region-fades-and-crossfades/) layered region model | READ_LOCATOR；重叠和交叉淡化，Ardour层叠实现特定；算例自建，不执行。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/editing-and-arranging/create-region-fades-and-crossfades/"
+    },
+    {
+      "source": "S489@1",
+      "scope": "| S489 | [Ardour Tempo and Time Signature](https://manual.ardour.org/working-with-tempo-and-meter/) Lock to music/audio, constant/ramped tempo | READ_LOCATOR；拍/帧锁定及变速影响；不推广所有宿主或ramp公式。 |",
+      "limits": "| S489 | [Ardour Tempo and Time Signature](https://manual.ardour.org/working-with-tempo-and-meter/) Lock to music/audio, constant/ramped tempo | READ_LOCATOR；拍/帧锁定及变速影响；不推广所有宿主或ramp公式。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/working-with-tempo-and-meter/"
+    },
+    {
+      "source": "S490@1",
+      "scope": "| S490 | [Ardour Automation Curves](https://manual.ardour.org/mixing/automation/automation-curves/) Linear/Discrete/Play mode | READ_LOCATOR；R2c实际HTML L35–38：插值和读取模式；不保证插件参数统一单位或宿主版本。 |",
+      "limits": "| S490 | [Ardour Automation Curves](https://manual.ardour.org/mixing/automation/automation-curves/) Linear/Discrete/Play mode | READ_LOCATOR；R2c实际HTML L35–38：插值和读取模式；不保证插件参数统一单位或宿主版本。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/mixing/automation/automation-curves/"
+    },
+    {
+      "source": "S491@1",
+      "scope": "| S491 | [Celemony Melodyne 5 Assistant Pitch modulation and drift](https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_ToolModulationDrift_2) editing/inspector | READ_LOCATOR；独立pitch center/modulation/drift及百分比，页面示意Studio并提示版本差异；厂商术语不作唱功/医学判断，无实际修音。 |",
+      "limits": "| S491 | [Celemony Melodyne 5 Assistant Pitch modulation and drift](https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_ToolModulationDrift_2) editing/inspector | READ_LOCATOR；独立pitch center/modulation/drift及百分比，页面示意Studio并提示版本差异；厂商术语不作唱功/医学判断，无实际修音。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_ToolModulationDrift_2"
+    },
+    {
+      "source": "S492@1",
+      "scope": "| S492 | [Apple Logic Pro X 10.1 DeEsser](https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef1bec850.html) Detector/Suppressor/Smoothing | READ_LOCATOR；频带检测与动态抑制，可不同频带，旧版特定文档；不推全工具无相位变化或固定频段。 |",
+      "limits": "| S492 | [Apple Logic Pro X 10.1 DeEsser](https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef1bec850.html) Detector/Suppressor/Smoothing | READ_LOCATOR；频带检测与动态抑制，可不同频带，旧版特定文档；不推全工具无相位变化或固定频段。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef1bec850.html"
+    },
+    {
+      "source": "S493@1",
+      "scope": "| S493 | [Apple Logic Pro X 10.1 Use Compressor](https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef1bec9f3.html) Use a side chain | READ_LOCATOR；控制信号与被处理音频路由独立，特定压缩器，未运行。 |",
+      "limits": "| S493 | [Apple Logic Pro X 10.1 Use Compressor](https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef1bec9f3.html) Use a side chain | READ_LOCATOR；控制信号与被处理音频路由独立，特定压缩器，未运行。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef1bec9f3.html"
+    },
+    {
+      "source": "S494@1",
+      "scope": "| S494 | [Apple Logic Pro X 10.1 EnVerb time parameters](https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef2969e4d.html) dry delay/predelay/attack/decay/release | READ_LOCATOR；R2c实际HTML L9–21：效果时间参数与干声延迟分开；非通用房间RT/算法。 |",
+      "limits": "| S494 | [Apple Logic Pro X 10.1 EnVerb time parameters](https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef2969e4d.html) dry delay/predelay/attack/decay/release | READ_LOCATOR；R2c实际HTML L9–21：效果时间参数与干声延迟分开；非通用房间RT/算法。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://help.apple.com/logicpro-effects/mac/10.1/en.lproj/lgcef2969e4d.html"
+    },
+    {
+      "source": "S495@1",
+      "scope": "| S495 | [EBU R128 publication](https://tech.ebu.ch/publications/r128/) v5.0 Nov2023；[Loudness](https://tech.ebu.ch/loudness) metering/supplements | READ_LOCATOR_PUBLIC_SUMMARY；广播节目−23 LUFS目标与综合响度、LRA、最大真峰描述符；未读完整R128/Tech3341/3342规范正文，不能声称合规或给通用母带硬阈值。与S094同机构非独立验证。 |",
+      "limits": "| S495 | [EBU R128 publication](https://tech.ebu.ch/publications/r128/) v5.0 Nov2023；[Loudness](https://tech.ebu.ch/loudness) metering/supplements | READ_LOCATOR_PUBLIC_SUMMARY；广播节目−23 LUFS目标与综合响度、LRA、最大真峰描述符；未读完整R128/Tech3341/3342规范正文，不能声称合规或给通用母带硬阈值。与S094同机构非独立验证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://tech.ebu.ch/publications/r128/"
+    },
+    {
+      "source": "S496@1",
+      "scope": "| S496 | [Spotify artist support](https://support.spotify.com/ua-uk/artists/article/loudness-normalization/?category=managing-your-music&plain=) playback/album/track/normalization levels/mastering tips | READ_LOCATOR；2026-11-26访问英文正文，Normal −14 LUFS播放目标、设备/模式差异、增益/峰值余量与母带建议分开；原S095失败保留；不保证永久平台政策、所有歌曲硬门槛或实际播放结果。 |",
+      "limits": "| S496 | [Spotify artist support](https://support.spotify.com/ua-uk/artists/article/loudness-normalization/?category=managing-your-music&plain=) playback/album/track/normalization levels/mastering tips | READ_LOCATOR；2026-11-26访问英文正文，Normal −14 LUFS播放目标、设备/模式差异、增益/峰值余量与母带建议分开；原S095失败保留；不保证永久平台政策、所有歌曲硬门槛或实际播放结果。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://support.spotify.com/ua-uk/artists/article/loudness-normalization/?category=managing-your-music&plain="
+    },
+    {
+      "source": "S497@1",
+      "scope": "| S497 | [EBU R128 v5 2023](https://tech.ebu.ch/docs/r/r128.pdf) 实际PDF截图零基2/3（印刷3/4），h–m、n–v及脚注2 | READ_LOCATOR；节目目标−23.0 LUFS，实际不可达场景容差±1 LU，QC测量误差容差±0.2 LU，有意较低目标须标记；R2c再看PDF零基2/3；线性制作最大真峰−1dBTP，条m真峰测量容差±0.3dB仅20kHz带限，测量容差和分发限制是不同条件；LRA辅助，短节目不足一分钟不推荐。未完成BS.1770/3341仪表合规或测试。 |",
+      "limits": "| S497 | [EBU R128 v5 2023](https://tech.ebu.ch/docs/r/r128.pdf) 实际PDF截图零基2/3（印刷3/4），h–m、n–v及脚注2 | READ_LOCATOR；节目目标−23.0 LUFS，实际不可达场景容差±1 LU，QC测量误差容差±0.2 LU，有意较低目标须标记；R2c再看PDF零基2/3；线性制作最大真峰−1dBTP，条m真峰测量容差±0.3dB仅20kHz带限，测量容差和分发限制是不同条件；LRA辅助，短节目不足一分钟不推荐。未完成BS.1770/3341仪表合规或测试。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://tech.ebu.ch/docs/r/r128.pdf"
+    },
+    {
+      "source": "S498@1",
+      "scope": "| S498 | [EBU Tech3342 2023](https://tech.ebu.ch/docs/tech/tech3342.pdf) 实际PDF截图零基3/4（印刷4/5），§2/3/3.1 | READ_LOCATOR；3秒滑窗、至少2.9秒重叠，绝对−70 LUFS和相对−20 LU门控，门控后P95−P10，单位LU。不是峰均比或综合响度，短节目不稳健；有限已测量级输入算例不等实现仪表。 |",
+      "limits": "| S498 | [EBU Tech3342 2023](https://tech.ebu.ch/docs/tech/tech3342.pdf) 实际PDF截图零基3/4（印刷4/5），§2/3/3.1 | READ_LOCATOR；3秒滑窗、至少2.9秒重叠，绝对−70 LUFS和相对−20 LU门控，门控后P95−P10，单位LU。不是峰均比或综合响度，短节目不稳健；有限已测量级输入算例不等实现仪表。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://tech.ebu.ch/docs/tech/tech3342.pdf"
+    },
+    {
+      "source": "S499@1",
+      "scope": "| S499 | [Ardour Backup and Sharing of Sessions](https://manual.ardour.org/working-with-sessions/backup-and-sharing-of-sessions/) external media/archive/options | READ_LOCATOR；外部引用、活动快照、未用素材、浮点转整数FLAC可能损失及归档选项；不保证插件二进制或许可齐全。 |",
+      "limits": "| S499 | [Ardour Backup and Sharing of Sessions](https://manual.ardour.org/working-with-sessions/backup-and-sharing-of-sessions/) external media/archive/options | READ_LOCATOR；外部引用、活动快照、未用素材、浮点转整数FLAC可能损失及归档选项；不保证插件二进制或许可齐全。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/working-with-sessions/backup-and-sharing-of-sessions/"
+    },
+    {
+      "source": "S500@1",
+      "scope": "| S500 | [Ardour Aux Sends](https://manual.ardour.org/signal-routing/aux-sends/) tapping point/pre/post fader | READ_LOCATOR；发送复制位置和独立/跟随声像、返回主混音条件；宿主具体能力未执行。 |",
+      "limits": "| S500 | [Ardour Aux Sends](https://manual.ardour.org/signal-routing/aux-sends/) tapping point/pre/post fader | READ_LOCATOR；发送复制位置和独立/跟随声像、返回主混音条件；宿主具体能力未执行。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/signal-routing/aux-sends/"
+    },
+    {
+      "source": "S501@1",
+      "scope": "| S501 | [Ardour Other Toolbar Items](https://manual.ardour.org/ardours-interface/status-indicators/) PDC and latency | READ_LOCATOR；插件链报告延迟与I/O延迟分开、关闭PDC影响对齐；不保证任意路径自动补偿或真实时间精度。 |",
+      "limits": "| S501 | [Ardour Other Toolbar Items](https://manual.ardour.org/ardours-interface/status-indicators/) PDC and latency | READ_LOCATOR；插件链报告延迟与I/O延迟分开、关闭PDC影响对齐；不保证任意路径自动补偿或真实时间精度。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/ardours-interface/status-indicators/"
+    },
+    {
+      "source": "S502@1",
+      "scope": "| S502 | [Melodyne5 Assistant note assignment](https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_NA_Mode_Tools?env=live) Note Assignment/starting point/separation/sibilant range | READ_LOCATOR；检测标注与声音编辑分开，音乐起点不等切片左边，工具内部sibilant广义定义非语言学通用，算法/版本限定。 |",
+      "limits": "| S502 | [Melodyne5 Assistant note assignment](https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_NA_Mode_Tools?env=live) Note Assignment/starting point/separation/sibilant range | READ_LOCATOR；检测标注与声音编辑分开，音乐起点不等切片左边，工具内部sibilant广义定义非语言学通用，算法/版本限定。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_NA_Mode_Tools?env=live"
+    },
+    {
+      "source": "S503@1",
+      "scope": "| S503 | [Melodyne5 Studio note separation](https://helpcenter.celemony.com/M5/doc/melodyneStudio5/en/M5tour_ToolSeparations_2?env=live) hard/soft transition | READ_LOCATOR；连接音的音高/共振峰/幅度转移、时长和切分依赖，Studio特定；不保证小版本具备。 |",
+      "limits": "| S503 | [Melodyne5 Studio note separation](https://helpcenter.celemony.com/M5/doc/melodyneStudio5/en/M5tour_ToolSeparations_2?env=live) hard/soft transition | READ_LOCATOR；连接音的音高/共振峰/幅度转移、时长和切分依赖，Studio特定；不保证小版本具备。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://helpcenter.celemony.com/M5/doc/melodyneStudio5/en/M5tour_ToolSeparations_2?env=live"
+    },
+    {
+      "source": "S504@1",
+      "scope": "| S504 | [Melodyne5 Assistant Quick Start](https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_QuickStart_assistant?env=live) Editing | READ_LOCATOR；音高、位置、时长、调制、共振峰等独立可编辑对象，非真实运行或音质验证。 |",
+      "limits": "| S504 | [Melodyne5 Assistant Quick Start](https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_QuickStart_assistant?env=live) Editing | READ_LOCATOR；音高、位置、时长、调制、共振峰等独立可编辑对象，非真实运行或音质验证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://helpcenter.celemony.com/M5/doc/melodyneAssistant5/en/M5tour_QuickStart_assistant?env=live"
+    },
+    {
+      "source": "S505@1",
+      "scope": "| S505 | [Ardour Panning](https://manual.ardour.org/mixing/panning/) 与 [Mono Panner](https://manual.ardour.org/mixing/panning/mono_panner/) | READ_LOCATOR；单输入双输出和多声道分配、位置与宽度区分；自建等功率算例不宣称Ardour曲线。 |",
+      "limits": "| S505 | [Ardour Panning](https://manual.ardour.org/mixing/panning/) 与 [Mono Panner](https://manual.ardour.org/mixing/panning/mono_panner/) | READ_LOCATOR；单输入双输出和多声道分配、位置与宽度区分；自建等功率算例不宣称Ardour曲线。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/mixing/panning/"
+    },
+    {
+      "source": "S506@1",
+      "scope": "| S506 | [Ardour Balance Control](https://manual.ardour.org/mixing/panning/balance_control/) centered/linear attenuation | READ_LOCATOR；双通道平衡与单输入声像不同，具体宿主文档；不推听感。 |",
+      "limits": "| S506 | [Ardour Balance Control](https://manual.ardour.org/mixing/panning/balance_control/) centered/linear attenuation | READ_LOCATOR；双通道平衡与单输入声像不同，具体宿主文档；不推听感。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://manual.ardour.org/mixing/panning/balance_control/"
+    },
+    {
+      "source": "S507@1",
+      "scope": "| S507 | [ITU-R BS.1770-5 Annex1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) 实际PDF截图零基3/7/8印刷2/6/7，式2/4–7及适用布局 | READ_LOCATOR；K频权、各通道均方/权重、400ms窗75%重叠、R2c再看PDF零基7/8，式(3)–(7)：只计完整400ms块，两门均严格大于阈值；绝对−70 LKFS和相对−10 LU门控后能量平均；Annex1最多五主声道、LFE排除，其他布局参照适用附录。不复制系数、不实现完整仪表；S483为同规范Annex2，不算独立规范。 |",
+      "limits": "| S507 | [ITU-R BS.1770-5 Annex1](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf) 实际PDF截图零基3/7/8印刷2/6/7，式2/4–7及适用布局 | READ_LOCATOR；K频权、各通道均方/权重、400ms窗75%重叠、R2c再看PDF零基7/8，式(3)–(7)：只计完整400ms块，两门均严格大于阈值；绝对−70 LKFS和相对−10 LU门控后能量平均；Annex1最多五主声道、LFE排除，其他布局参照适用附录。不复制系数、不实现完整仪表；S483为同规范Annex2，不算独立规范。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I%21%21PDF-E.pdf"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K09-E-MP01-SUPPORTED-BY-K09-EV-MP01",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成对象非真实DAW项目。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP01-APPLIES-UNDER-K09-CTX-MP01",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成对象非真实DAW项目。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP02-SUPPORTED-BY-K09-EV-MP02",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "Ardour Flexible/Strict模式条件不泛化；未接设备。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP02-APPLIES-UNDER-K09-CTX-MP02",
+      "scope": "明确题设及证据条件。",
+      "limits": "Ardour Flexible/Strict模式条件不泛化；未接设备。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP02-REQUIRES-K09-CL-MP01",
+      "scope": "路由边引用稳定对象与工程版本。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP03-SUPPORTED-BY-K09-EV-MP03",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不执行实际保存/恢复。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP03-APPLIES-UNDER-K09-CTX-MP03",
+      "scope": "明确题设及证据条件。",
+      "limits": "不执行实际保存/恢复。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP03-REQUIRES-K09-CL-MP01",
+      "scope": "快照和备份需绑定工程及源身份。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP04-SUPPORTED-BY-K09-EV-MP04",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际音频编辑/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP04-APPLIES-UNDER-K09-CTX-MP04",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际音频编辑/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP04-REQUIRES-K09-CL-MP01",
+      "scope": "编辑区间必须指向稳定源对象。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP05-SUPPORTED-BY-K09-EV-MP05",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "简单恒速模型，不等宿主运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP05-APPLIES-UNDER-K09-CTX-MP05",
+      "scope": "明确题设及证据条件。",
+      "limits": "简单恒速模型，不等宿主运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP05-REQUIRES-K09-CL-MP04",
+      "scope": "时间锁作用于明确编辑对象。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP06-SUPPORTED-BY-K09-EV-MP06",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "文档所报包络问题不泛化所有版本。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP06-APPLIES-UNDER-K09-CTX-MP06",
+      "scope": "明确题设及证据条件。",
+      "limits": "文档所报包络问题不泛化所有版本。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP06-REQUIRES-K09-CL-MP05",
+      "scope": "包络时间域依赖tempo/绝对时间语义。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP07-SUPPORTED-BY-K09-EV-MP07",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "假设已授权离线对象，未处理真人声音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP07-APPLIES-UNDER-K09-CTX-MP07",
+      "scope": "明确题设及证据条件。",
+      "limits": "假设已授权离线对象，未处理真人声音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP07-REQUIRES-K09-CL-MP01",
+      "scope": "take与comp引用原始源及时间映射。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP08-SUPPORTED-BY-K09-EV-MP08",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "理论目标不代表实际算法或个人能力。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP08-APPLIES-UNDER-K09-CTX-MP08",
+      "scope": "明确题设及证据条件。",
+      "limits": "理论目标不代表实际算法或个人能力。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP08-REFERENCES-K09-CL-MP07",
+      "scope": "音高修正候选可关联take版本但不替代。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP08-REFERENCES-K06-CL-VT18",
+      "scope": "音高修正与颤音测量语义关联，非替代声乐训练证据。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP08-REFERENCES-K06-CL-VT43",
+      "scope": "音高相同不意味着声区机制或音色目标相同。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP09-SUPPORTED-BY-K09-EV-MP09",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无固定适用频率或实际听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP09-APPLIES-UNDER-K09-CTX-MP09",
+      "scope": "明确题设及证据条件。",
+      "limits": "无固定适用频率或实际听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP09-REFERENCES-K09-CL-MP10",
+      "scope": "动态抑制与压缩/EQ需分别建模。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP10-SUPPORTED-BY-K09-EV-MP10",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "非实际压缩插件输出。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP10-APPLIES-UNDER-K09-CTX-MP10",
+      "scope": "明确题设及证据条件。",
+      "limits": "非实际压缩插件输出。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP10-REFERENCES-K09-CL-MP12",
+      "scope": "压缩器位于有序效果链中。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP11-SUPPORTED-BY-K09-EV-MP11",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成模型非实际房间或插件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP11-APPLIES-UNDER-K09-CTX-MP11",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成模型非实际房间或插件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP11-REFERENCES-K09-CL-MP12",
+      "scope": "干湿效果顺序与路径分开。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP12-SUPPORTED-BY-K09-EV-MP12",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "限定单频静态算例，非真实效果链。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP12-APPLIES-UNDER-K09-CTX-MP12",
+      "scope": "明确题设及证据条件。",
+      "limits": "限定单频静态算例，非真实效果链。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP12-REQUIRES-K09-CL-MP02",
+      "scope": "效果链必须依赖有序路由。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP13-SUPPORTED-BY-K09-EV-MP13",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实歌曲或听者；K03配器、K07掩蔽机制。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP13-APPLIES-UNDER-K09-CTX-MP13",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实歌曲或听者；K03配器、K07掩蔽机制。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP13-REFERENCES-K09-CL-MP37",
+      "scope": "混音清晰度与频带/时序风险关联。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP13-REFERENCES-K03-CL-AR16",
+      "scope": "编配背景音区遮蔽是混音清晰度的一项上游候选。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP14-SUPPORTED-BY-K09-EV-MP14",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际扬声器/播放，K08通用矩阵。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP14-APPLIES-UNDER-K09-CTX-MP14",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际扬声器/播放，K08通用矩阵。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP14-REFERENCES-K09-CL-MP02",
+      "scope": "mono兼容依赖声道路由布局。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP14-REFERENCES-K08-CL-DA39",
+      "scope": "声道极性及下混矩阵与数字音频矩阵语义相连。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP15-SUPPORTED-BY-K09-EV-MP15",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际混音或听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP15-APPLIES-UNDER-K09-CTX-MP15",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际混音或听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP15-REQUIRES-K09-CL-MP02",
+      "scope": "自动化下游影响依赖路由图。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP16-SUPPORTED-BY-K09-EV-MP16",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设指标非实际测量，R128全文后续补。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP16-APPLIES-UNDER-K09-CTX-MP16",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设指标非实际测量，R128全文后续补。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP16-REFERENCES-K08-CL-DA38",
+      "scope": "真峰测量需区别采样峰和重建峰。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP17-SUPPORTED-BY-K09-EV-MP17",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无编码或播放实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP17-APPLIES-UNDER-K09-CTX-MP17",
+      "scope": "明确题设及证据条件。",
+      "limits": "无编码或播放实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP17-REQUIRES-K09-CL-MP16",
+      "scope": "播放与编码报告依赖响度/峰值指标语义。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP18-SUPPORTED-BY-K09-EV-MP18",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅公开页面，非当前实际发行/合规。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP18-APPLIES-UNDER-K09-CTX-MP18",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅公开页面，非当前实际发行/合规。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP18-REQUIRES-K09-CL-MP16",
+      "scope": "渠道标准使用同一指标但不同合同。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP19-SUPPORTED-BY-K09-EV-MP19",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际DAW或交付。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP19-APPLIES-UNDER-K09-CTX-MP19",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际DAW或交付。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP19-REFERENCES-K09-CL-MP21",
+      "scope": "交付层级需依赖闭包支持。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP20-SUPPORTED-BY-K09-EV-MP20",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成帧记录非实际导出。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP20-APPLIES-UNDER-K09-CTX-MP20",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成帧记录非实际导出。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP20-REQUIRES-K09-CL-MP19",
+      "scope": "stem对齐属于交付合同。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP20-REFERENCES-K08-CL-DA03",
+      "scope": "多声道帧时钟和声道布局影响stem时基。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP21-SUPPORTED-BY-K09-EV-MP21",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "没有实际插件、许可或重开测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP21-APPLIES-UNDER-K09-CTX-MP21",
+      "scope": "明确题设及证据条件。",
+      "limits": "没有实际插件、许可或重开测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP21-REQUIRES-K09-CL-MP03",
+      "scope": "重现性依赖备份/源与配置完整性。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP22-SUPPORTED-BY-K09-EV-MP22",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成状态非真实文件/权限执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP22-APPLIES-UNDER-K09-CTX-MP22",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成状态非真实文件/权限执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP22-REQUIRES-K09-CL-MP01",
+      "scope": "局部修订必须绑定稳定对象和版本。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP23-SUPPORTED-BY-K09-EV-MP23",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实听音；风险未知不试听。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP23-APPLIES-UNDER-K09-CTX-MP23",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实听音；风险未知不试听。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP23-REFERENCES-K09-CL-MP16",
+      "scope": "受控A/B需要响度测量但不等同标准合规。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP24-SUPPORTED-BY-K09-EV-MP24",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不执行真实修复或许可放行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP24-APPLIES-UNDER-K09-CTX-MP24",
+      "scope": "明确题设及证据条件。",
+      "limits": "不执行真实修复或许可放行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP24-REQUIRES-K09-CL-MP22",
+      "scope": "拒绝回滚保护修订边界。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP25-SUPPORTED-BY-K09-EV-MP25",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成对象；hash标识题设，不执行文件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP25-APPLIES-UNDER-K09-CTX-MP25",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成对象；hash标识题设，不执行文件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP25-REQUIRES-K09-CL-MP01",
+      "scope": "内容身份是工程对象的基础字段。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP26-SUPPORTED-BY-K09-EV-MP26",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "算例不含实际宿主静音/solo策略，K12另证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP26-APPLIES-UNDER-K09-CTX-MP26",
+      "scope": "明确题设及证据条件。",
+      "limits": "算例不含实际宿主静音/solo策略，K12另证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP26-REQUIRES-K09-CL-MP02",
+      "scope": "send tap和侧链属于路由语义。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP27-SUPPORTED-BY-K09-EV-MP27",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不执行实际归档，软件文档非完整备份保证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP27-APPLIES-UNDER-K09-CTX-MP27",
+      "scope": "明确题设及证据条件。",
+      "limits": "不执行实际归档，软件文档非完整备份保证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP27-REQUIRES-K09-CL-MP03",
+      "scope": "备份覆盖范围依赖快照/源依赖清单。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP28-SUPPORTED-BY-K09-EV-MP28",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数学线性权重非Ardour实际曲线。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP28-APPLIES-UNDER-K09-CTX-MP28",
+      "scope": "明确题设及证据条件。",
+      "limits": "数学线性权重非Ardour实际曲线。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP28-REQUIRES-K09-CL-MP04",
+      "scope": "淡化作用于明确重叠编辑区间。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP29-SUPPORTED-BY-K09-EV-MP29",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "固定段速率及串行路径模型；实际宿主/外部路径未验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP29-APPLIES-UNDER-K09-CTX-MP29",
+      "scope": "明确题设及证据条件。",
+      "limits": "固定段速率及串行路径模型；实际宿主/外部路径未验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP29-REQUIRES-K09-CL-MP05",
+      "scope": "tempo map和绝对时间锁须一起解释。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP29-REFERENCES-K08-CL-DA33",
+      "scope": "有理重采样与声道矩阵独立，延迟映射需分别核。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP30-SUPPORTED-BY-K09-EV-MP30",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不运行Audacity；失效现象按原资格。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP30-APPLIES-UNDER-K09-CTX-MP30",
+      "scope": "明确题设及证据条件。",
+      "limits": "不运行Audacity；失效现象按原资格。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP30-REQUIRES-K09-CL-MP06",
+      "scope": "局部包络依赖插值与全域模式。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP31-SUPPORTED-BY-K09-EV-MP31",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅合成片段身份，不使用真实演唱。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP31-APPLIES-UNDER-K09-CTX-MP31",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅合成片段身份，不使用真实演唱。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP31-REQUIRES-K09-CL-MP07",
+      "scope": "comp是take映射的派生。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP32-SUPPORTED-BY-K09-EV-MP32",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "编辑目标数学，660/440=3/2指定比值非12TET等价；无实际音色或修音算法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP32-APPLIES-UNDER-K09-CTX-MP32",
+      "scope": "明确题设及证据条件。",
+      "limits": "编辑目标数学，660/440=3/2指定比值非12TET等价；无实际音色或修音算法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP32-REQUIRES-K09-CL-MP08",
+      "scope": "音高修正需保护原始演唱身份。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP33-SUPPORTED-BY-K09-EV-MP33",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅静态条件示意，不规定频段、阈值或真实语音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP33-APPLIES-UNDER-K09-CTX-MP33",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅静态条件示意，不规定频段、阈值或真实语音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP33-REQUIRES-K09-CL-MP09",
+      "scope": "齿音抑制需有目标检测和非目标保护。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP34-SUPPORTED-BY-K09-EV-MP34",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不执行压缩器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP34-APPLIES-UNDER-K09-CTX-MP34",
+      "scope": "明确题设及证据条件。",
+      "limits": "不执行压缩器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP34-REQUIRES-K09-CL-MP10",
+      "scope": "动态压缩不能由静态曲线完全替代。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP35-SUPPORTED-BY-K09-EV-MP35",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "离线有限IR，不给现场回授或实际插件设置。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP35-APPLIES-UNDER-K09-CTX-MP35",
+      "scope": "明确题设及证据条件。",
+      "limits": "离线有限IR，不给现场回授或实际插件设置。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP35-REQUIRES-K09-CL-MP11",
+      "scope": "延迟/混响尾音依赖干湿路径。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP36-SUPPORTED-BY-K09-EV-MP36",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "静态理想模型；实际补偿、attack/release与外部路径未验证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP36-APPLIES-UNDER-K09-CTX-MP36",
+      "scope": "明确题设及证据条件。",
+      "limits": "静态理想模型；实际补偿、attack/release与外部路径未验证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP36-REQUIRES-K09-CL-MP26",
+      "scope": "侧链控制是send/return路由的一种。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP37-SUPPORTED-BY-K09-EV-MP37",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成频带幅度，非听觉滤波/听感；K03配器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP37-APPLIES-UNDER-K09-CTX-MP37",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成频带幅度，非听觉滤波/听感；K03配器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP37-REFERENCES-K09-CL-MP13",
+      "scope": "频带与层次是清晰度风险的两个视角。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP38-SUPPORTED-BY-K09-EV-MP38",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "等功率公式自建，非Ardour具体pan law或实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP38-APPLIES-UNDER-K09-CTX-MP38",
+      "scope": "明确题设及证据条件。",
+      "limits": "等功率公式自建，非Ardour具体pan law或实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP38-REQUIRES-K09-CL-MP14",
+      "scope": "pan law与balance需在声道布局中判断。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP39-SUPPORTED-BY-K09-EV-MP39",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "自建阈值门非实际压缩曲线/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP39-APPLIES-UNDER-K09-CTX-MP39",
+      "scope": "明确题设及证据条件。",
+      "limits": "自建阈值门非实际压缩曲线/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP39-REQUIRES-K09-CL-MP15",
+      "scope": "总线联动是局部自动化的下游依赖。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP40-SUPPORTED-BY-K09-EV-MP40",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "正文限定；非仪表、完整标准栈或实际测量合规。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP40-APPLIES-UNDER-K09-CTX-MP40",
+      "scope": "明确题设及证据条件。",
+      "limits": "正文限定；非仪表、完整标准栈或实际测量合规。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP40-REQUIRES-K09-CL-MP16",
+      "scope": "BS.1770门控与LRA属于响度测量边界。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP41-SUPPORTED-BY-K09-EV-MP41",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "报告数字题设，不运行编码、限制器或播放。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP41-APPLIES-UNDER-K09-CTX-MP41",
+      "scope": "明确题设及证据条件。",
+      "limits": "报告数字题设，不运行编码、限制器或播放。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP41-REQUIRES-K09-CL-MP17",
+      "scope": "编码后峰值属于播放/母带派生验证。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP41-REFERENCES-K08-CL-DA38",
+      "scope": "编码交付峰值不可继承源sample peak。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP42-SUPPORTED-BY-K09-EV-MP42",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未验证实际平台发行或合规。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP42-APPLIES-UNDER-K09-CTX-MP42",
+      "scope": "明确题设及证据条件。",
+      "limits": "未验证实际平台发行或合规。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP42-REQUIRES-K09-CL-MP18",
+      "scope": "渠道版本与播放模式分别绑定。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP43-SUPPORTED-BY-K09-EV-MP43",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不生成真实交付物。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP43-APPLIES-UNDER-K09-CTX-MP43",
+      "scope": "明确题设及证据条件。",
+      "limits": "不生成真实交付物。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP43-REQUIRES-K09-CL-MP19",
+      "scope": "可编辑性决定交付层级。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP44-SUPPORTED-BY-K09-EV-MP44",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成区间及条件，无实际导出。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP44-APPLIES-UNDER-K09-CTX-MP44",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成区间及条件，无实际导出。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP44-REQUIRES-K09-CL-MP20",
+      "scope": "尾音与非线性总线影响stem对齐。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP45-SUPPORTED-BY-K09-EV-MP45",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际重开/渲染或授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP45-APPLIES-UNDER-K09-CTX-MP45",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际重开/渲染或授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP45-REQUIRES-K09-CL-MP21",
+      "scope": "重现性要求声明环境和容差。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP45-REFERENCES-K08-CL-DA05",
+      "scope": "容器/子格式必须由实际头和子格式验证。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K09-E-MP46-SUPPORTED-BY-K09-EV-MP46",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "对象合成条件，不是真实权限实施。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP46-APPLIES-UNDER-K09-CTX-MP46",
+      "scope": "明确题设及证据条件。",
+      "limits": "对象合成条件，不是真实权限实施。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP46-REQUIRES-K09-CL-MP22",
+      "scope": "共享素材影响局部修改保护。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP47-SUPPORTED-BY-K09-EV-MP47",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不听音、不宣称MUSHRA或其他标准执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP47-APPLIES-UNDER-K09-CTX-MP47",
+      "scope": "明确题设及证据条件。",
+      "limits": "不听音、不宣称MUSHRA或其他标准执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP47-REQUIRES-K09-CL-MP23",
+      "scope": "幅度匹配不等于人类偏好。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K09-E-MP48-SUPPORTED-BY-K09-EV-MP48",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "离线假设，不执行真实权限或发布。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP48-APPLIES-UNDER-K09-CTX-MP48",
+      "scope": "明确题设及证据条件。",
+      "limits": "离线假设，不执行真实权限或发布。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K09-E-MP48-REQUIRES-K09-CL-MP24",
+      "scope": "拒绝、回滚、停止是保护流程终态。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K09-E-MP02-REQUIRES-K09-CL-MP01",
+      "consumer": "K09-CL-MP02@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K09-CTX-MP02@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K09-GR-MP02@1"
+    },
+    {
+      "edge": "K09-E-MP03-REQUIRES-K09-CL-MP01",
+      "consumer": "K09-CL-MP03@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K09-CTX-MP03@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K09-GR-MP03@1"
+    },
+    {
+      "edge": "K09-E-MP04-REQUIRES-K09-CL-MP01",
+      "consumer": "K09-CL-MP04@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K09-CTX-MP04@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K09-GR-MP04@1"
+    },
+    {
+      "edge": "K09-E-MP05-REQUIRES-K09-CL-MP04",
+      "consumer": "K09-CL-MP05@1",
+      "provider": "K09-CL-MP04@1",
+      "condition": "K09-CTX-MP05@1",
+      "providerContext": "K09-CTX-MP04@1",
+      "group": "K09-GR-MP05@1"
+    },
+    {
+      "edge": "K09-E-MP06-REQUIRES-K09-CL-MP05",
+      "consumer": "K09-CL-MP06@1",
+      "provider": "K09-CL-MP05@1",
+      "condition": "K09-CTX-MP06@1",
+      "providerContext": "K09-CTX-MP05@1",
+      "group": "K09-GR-MP06@1"
+    },
+    {
+      "edge": "K09-E-MP07-REQUIRES-K09-CL-MP01",
+      "consumer": "K09-CL-MP07@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K09-CTX-MP07@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K09-GR-MP07@1"
+    },
+    {
+      "edge": "K09-E-MP12-REQUIRES-K09-CL-MP02",
+      "consumer": "K09-CL-MP12@1",
+      "provider": "K09-CL-MP02@1",
+      "condition": "K09-CTX-MP12@1",
+      "providerContext": "K09-CTX-MP02@1",
+      "group": "K09-GR-MP12@1"
+    },
+    {
+      "edge": "K09-E-MP15-REQUIRES-K09-CL-MP02",
+      "consumer": "K09-CL-MP15@1",
+      "provider": "K09-CL-MP02@1",
+      "condition": "K09-CTX-MP15@1",
+      "providerContext": "K09-CTX-MP02@1",
+      "group": "K09-GR-MP15@1"
+    },
+    {
+      "edge": "K09-E-MP17-REQUIRES-K09-CL-MP16",
+      "consumer": "K09-CL-MP17@1",
+      "provider": "K09-CL-MP16@1",
+      "condition": "K09-CTX-MP17@1",
+      "providerContext": "K09-CTX-MP16@1",
+      "group": "K09-GR-MP17@1"
+    },
+    {
+      "edge": "K09-E-MP18-REQUIRES-K09-CL-MP16",
+      "consumer": "K09-CL-MP18@1",
+      "provider": "K09-CL-MP16@1",
+      "condition": "K09-CTX-MP18@1",
+      "providerContext": "K09-CTX-MP16@1",
+      "group": "K09-GR-MP18@1"
+    },
+    {
+      "edge": "K09-E-MP20-REQUIRES-K09-CL-MP19",
+      "consumer": "K09-CL-MP20@1",
+      "provider": "K09-CL-MP19@1",
+      "condition": "K09-CTX-MP20@1",
+      "providerContext": "K09-CTX-MP19@1",
+      "group": "K09-GR-MP20@1"
+    },
+    {
+      "edge": "K09-E-MP21-REQUIRES-K09-CL-MP03",
+      "consumer": "K09-CL-MP21@1",
+      "provider": "K09-CL-MP03@1",
+      "condition": "K09-CTX-MP21@1",
+      "providerContext": "K09-CTX-MP03@1",
+      "group": "K09-GR-MP21@1"
+    },
+    {
+      "edge": "K09-E-MP22-REQUIRES-K09-CL-MP01",
+      "consumer": "K09-CL-MP22@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K09-CTX-MP22@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K09-GR-MP22@1"
+    },
+    {
+      "edge": "K09-E-MP24-REQUIRES-K09-CL-MP22",
+      "consumer": "K09-CL-MP24@1",
+      "provider": "K09-CL-MP22@1",
+      "condition": "K09-CTX-MP24@1",
+      "providerContext": "K09-CTX-MP22@1",
+      "group": "K09-GR-MP24@1"
+    },
+    {
+      "edge": "K09-E-MP25-REQUIRES-K09-CL-MP01",
+      "consumer": "K09-CL-MP25@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K09-CTX-MP25@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K09-GR-MP25@1"
+    },
+    {
+      "edge": "K09-E-MP26-REQUIRES-K09-CL-MP02",
+      "consumer": "K09-CL-MP26@1",
+      "provider": "K09-CL-MP02@1",
+      "condition": "K09-CTX-MP26@1",
+      "providerContext": "K09-CTX-MP02@1",
+      "group": "K09-GR-MP26@1"
+    },
+    {
+      "edge": "K09-E-MP27-REQUIRES-K09-CL-MP03",
+      "consumer": "K09-CL-MP27@1",
+      "provider": "K09-CL-MP03@1",
+      "condition": "K09-CTX-MP27@1",
+      "providerContext": "K09-CTX-MP03@1",
+      "group": "K09-GR-MP27@1"
+    },
+    {
+      "edge": "K09-E-MP28-REQUIRES-K09-CL-MP04",
+      "consumer": "K09-CL-MP28@1",
+      "provider": "K09-CL-MP04@1",
+      "condition": "K09-CTX-MP28@1",
+      "providerContext": "K09-CTX-MP04@1",
+      "group": "K09-GR-MP28@1"
+    },
+    {
+      "edge": "K09-E-MP29-REQUIRES-K09-CL-MP05",
+      "consumer": "K09-CL-MP29@1",
+      "provider": "K09-CL-MP05@1",
+      "condition": "K09-CTX-MP29@1",
+      "providerContext": "K09-CTX-MP05@1",
+      "group": "K09-GR-MP29@1"
+    },
+    {
+      "edge": "K09-E-MP30-REQUIRES-K09-CL-MP06",
+      "consumer": "K09-CL-MP30@1",
+      "provider": "K09-CL-MP06@1",
+      "condition": "K09-CTX-MP30@1",
+      "providerContext": "K09-CTX-MP06@1",
+      "group": "K09-GR-MP30@1"
+    },
+    {
+      "edge": "K09-E-MP31-REQUIRES-K09-CL-MP07",
+      "consumer": "K09-CL-MP31@1",
+      "provider": "K09-CL-MP07@1",
+      "condition": "K09-CTX-MP31@1",
+      "providerContext": "K09-CTX-MP07@1",
+      "group": "K09-GR-MP31@1"
+    },
+    {
+      "edge": "K09-E-MP32-REQUIRES-K09-CL-MP08",
+      "consumer": "K09-CL-MP32@1",
+      "provider": "K09-CL-MP08@1",
+      "condition": "K09-CTX-MP32@1",
+      "providerContext": "K09-CTX-MP08@1",
+      "group": "K09-GR-MP32@1"
+    },
+    {
+      "edge": "K09-E-MP33-REQUIRES-K09-CL-MP09",
+      "consumer": "K09-CL-MP33@1",
+      "provider": "K09-CL-MP09@1",
+      "condition": "K09-CTX-MP33@1",
+      "providerContext": "K09-CTX-MP09@1",
+      "group": "K09-GR-MP33@1"
+    },
+    {
+      "edge": "K09-E-MP34-REQUIRES-K09-CL-MP10",
+      "consumer": "K09-CL-MP34@1",
+      "provider": "K09-CL-MP10@1",
+      "condition": "K09-CTX-MP34@1",
+      "providerContext": "K09-CTX-MP10@1",
+      "group": "K09-GR-MP34@1"
+    },
+    {
+      "edge": "K09-E-MP35-REQUIRES-K09-CL-MP11",
+      "consumer": "K09-CL-MP35@1",
+      "provider": "K09-CL-MP11@1",
+      "condition": "K09-CTX-MP35@1",
+      "providerContext": "K09-CTX-MP11@1",
+      "group": "K09-GR-MP35@1"
+    },
+    {
+      "edge": "K09-E-MP36-REQUIRES-K09-CL-MP26",
+      "consumer": "K09-CL-MP36@1",
+      "provider": "K09-CL-MP26@1",
+      "condition": "K09-CTX-MP36@1",
+      "providerContext": "K09-CTX-MP26@1",
+      "group": "K09-GR-MP36@1"
+    },
+    {
+      "edge": "K09-E-MP38-REQUIRES-K09-CL-MP14",
+      "consumer": "K09-CL-MP38@1",
+      "provider": "K09-CL-MP14@1",
+      "condition": "K09-CTX-MP38@1",
+      "providerContext": "K09-CTX-MP14@1",
+      "group": "K09-GR-MP38@1"
+    },
+    {
+      "edge": "K09-E-MP39-REQUIRES-K09-CL-MP15",
+      "consumer": "K09-CL-MP39@1",
+      "provider": "K09-CL-MP15@1",
+      "condition": "K09-CTX-MP39@1",
+      "providerContext": "K09-CTX-MP15@1",
+      "group": "K09-GR-MP39@1"
+    },
+    {
+      "edge": "K09-E-MP40-REQUIRES-K09-CL-MP16",
+      "consumer": "K09-CL-MP40@1",
+      "provider": "K09-CL-MP16@1",
+      "condition": "K09-CTX-MP40@1",
+      "providerContext": "K09-CTX-MP16@1",
+      "group": "K09-GR-MP40@1"
+    },
+    {
+      "edge": "K09-E-MP41-REQUIRES-K09-CL-MP17",
+      "consumer": "K09-CL-MP41@1",
+      "provider": "K09-CL-MP17@1",
+      "condition": "K09-CTX-MP41@1",
+      "providerContext": "K09-CTX-MP17@1",
+      "group": "K09-GR-MP41@1"
+    },
+    {
+      "edge": "K09-E-MP42-REQUIRES-K09-CL-MP18",
+      "consumer": "K09-CL-MP42@1",
+      "provider": "K09-CL-MP18@1",
+      "condition": "K09-CTX-MP42@1",
+      "providerContext": "K09-CTX-MP18@1",
+      "group": "K09-GR-MP42@1"
+    },
+    {
+      "edge": "K09-E-MP43-REQUIRES-K09-CL-MP19",
+      "consumer": "K09-CL-MP43@1",
+      "provider": "K09-CL-MP19@1",
+      "condition": "K09-CTX-MP43@1",
+      "providerContext": "K09-CTX-MP19@1",
+      "group": "K09-GR-MP43@1"
+    },
+    {
+      "edge": "K09-E-MP44-REQUIRES-K09-CL-MP20",
+      "consumer": "K09-CL-MP44@1",
+      "provider": "K09-CL-MP20@1",
+      "condition": "K09-CTX-MP44@1",
+      "providerContext": "K09-CTX-MP20@1",
+      "group": "K09-GR-MP44@1"
+    },
+    {
+      "edge": "K09-E-MP45-REQUIRES-K09-CL-MP21",
+      "consumer": "K09-CL-MP45@1",
+      "provider": "K09-CL-MP21@1",
+      "condition": "K09-CTX-MP45@1",
+      "providerContext": "K09-CTX-MP21@1",
+      "group": "K09-GR-MP45@1"
+    },
+    {
+      "edge": "K09-E-MP46-REQUIRES-K09-CL-MP22",
+      "consumer": "K09-CL-MP46@1",
+      "provider": "K09-CL-MP22@1",
+      "condition": "K09-CTX-MP46@1",
+      "providerContext": "K09-CTX-MP22@1",
+      "group": "K09-GR-MP46@1"
+    },
+    {
+      "edge": "K09-E-MP47-REQUIRES-K09-CL-MP23",
+      "consumer": "K09-CL-MP47@1",
+      "provider": "K09-CL-MP23@1",
+      "condition": "K09-CTX-MP47@1",
+      "providerContext": "K09-CTX-MP23@1",
+      "group": "K09-GR-MP47@1"
+    },
+    {
+      "edge": "K09-E-MP48-REQUIRES-K09-CL-MP24",
+      "consumer": "K09-CL-MP48@1",
+      "provider": "K09-CL-MP24@1",
+      "condition": "K09-CTX-MP48@1",
+      "providerContext": "K09-CTX-MP24@1",
+      "group": "K09-GR-MP48@1"
+    }
+  ]
+}
