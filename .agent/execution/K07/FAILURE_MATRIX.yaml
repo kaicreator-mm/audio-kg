@@ -1,0 +1,7 @@
+fail_closed:
+  - unsupported claim or source grade: retain bounded claim or explicit unknown, never infer license or actual measurement
+  - missing or pending owner: explicit route, no duplicated provider claim or dangling hard edge
+  - phase/response non-uniqueness: conditions and negative example, never force inverse
+  - missing calibration, waveform, safe conditions or authorization: unknown/stop, no risky experiment
+  - changed source/claim/version: F00 prior identity obligations, no silent reuse
+  - failed independent review: no merge or downstream unlock

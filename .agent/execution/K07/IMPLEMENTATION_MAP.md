@@ -1,0 +1,2 @@
+# Write scope
+Only K07 authorized write set: knowledge/K07/ readable typed pack/controller and qualification, sources/K07/ provenance/external scope, cases/K07/ readable case details if needed, queries/K07/ actual 56 role cells with concrete query references and conditions, docs/validation/K07/ actual review/validation evidence, tests/knowledge/K07/ module-specific executable checks. JIT six execution artifacts are scheduler preparation. No common-validator edits. Frozen docs are read-only anchors; no external corpus import.
