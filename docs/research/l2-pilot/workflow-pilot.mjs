@@ -129,5 +129,5 @@ export function runWorkflowPilot(w,route,support){
  reject("duplicate typed edge",g=>g.edges.push(clone(g.edges[0])));
  reject("extra unregistered authority",g=>g.records.push({ref:"GRANT@2",type:"Grant",classification:"SYNTHETIC_RESEARCH",payload:{realSubject:"APPROVED"},digest:hash({realSubject:"APPROVED"})}));
  reject("forged support case",g=>{const n=g.records.find(n=>n.ref==="S-GV02@1");n.payload.knowledge.caseId="FAKE";n.digest=hash(n.payload);});
- return {tests,records:graph.records.length,edges:graph.edges.length,affected:stale,trace:v,graphDigest:hash(graph),limits:"fixed actual witness projection; not general runtime or actual authorization"};
+ return {tests,records:graph.records.length,edges:graph.edges.length,affected:stale,trace:v,projection:{format:graph.format,records:graph.records,edges:graph.edges,active:graph.active,release:false},graphDigest:hash(graph),limits:"fixed actual witness projection; not general runtime or actual authorization"};
 }
