@@ -1,0 +1,89 @@
+{
+  "namespace": "HELD_OUT_EVALUATION",
+  "cases": [
+    {
+      "id": "eval-r1",
+      "cq": "CQ01",
+      "operation": "cents",
+      "input": {
+        "reference": 200,
+        "observed": 225
+      },
+      "expected": {
+        "state": "VALUE",
+        "cents": 203.91000173077484
+      }
+    },
+    {
+      "id": "eval-r2",
+      "cq": "CQ06",
+      "operation": "pitch",
+      "input": {
+        "reference": 225,
+        "estimate": 200,
+        "target": 200,
+        "valid": true,
+        "identity": "E1",
+        "referenceIdentity": "E1",
+        "estimateIdentity": "E1"
+      },
+      "expected": {
+        "state": "VALUE",
+        "estimateError": -203.91000173077484,
+        "actualGoalError": 203.91000173077484,
+        "estimatedGoalError": 0
+      }
+    },
+    {
+      "id": "eval-r3",
+      "cq": "CQ07",
+      "operation": "window",
+      "input": {
+        "fs": 48000,
+        "win": 720,
+        "nfft": 1440
+      },
+      "expected": {
+        "state": "VALUE",
+        "seconds": 0.015,
+        "gridHz": 33.333333333333336,
+        "bins": 721
+      }
+    },
+    {
+      "id": "eval-r4",
+      "cq": "CQ06",
+      "operation": "pitch",
+      "input": {
+        "reference": null,
+        "estimate": 200,
+        "target": 200,
+        "valid": true,
+        "identity": "E1",
+        "referenceIdentity": "E1",
+        "estimateIdentity": "E1"
+      },
+      "expected": {
+        "state": "UNKNOWN_REFERENCE",
+        "estimateError": null,
+        "actualGoalError": null,
+        "estimatedGoalError": 0
+      }
+    },
+    {
+      "id": "eval-r5",
+      "cq": "CQ07",
+      "operation": "reverseGrid",
+      "input": {
+        "fs": 48000,
+        "gridHz": 25
+      },
+      "expected": {
+        "state": "PARTIAL",
+        "nfft": 1920,
+        "win": null
+      }
+    }
+  ],
+  "marker": "EVAL_ONLY_RUBRIC_42C991"
+}
