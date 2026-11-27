@@ -1,0 +1,1134 @@
+{
+  "format": "audio-kg-K01-legacy-routes/1",
+  "status": "NO_AUTOMATIC_EQUIVALENCE_OR_CLOSURE",
+  "routes": [
+    {
+      "d4": "K01.01.01.01",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 5,
+        "row": "| K01.01.01.01 | RETAIN | RETAIN | K01.01.01.01 | TE-K01.01.01.01 | 书写/音级/频率身份 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-01-01-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.01.01.01",
+      "scope": "书写/音级/频率身份",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.01.01.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 6,
+        "row": "| K01.01.01.02 | PARTIAL | SCOPED_ROUTER | K01.01.04.02；K01.09.04.01；K01.01.06.01 | TL-K01.01.01.02 | 12TET拼写与等音关系已细化；原槽作上位路由，非12TET保持开放 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-01-04-02@1",
+        "K01-CL-09-04-01@1",
+        "K01-CL-01-06-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.01.01.02",
+      "scope": "12TET拼写与等音关系已细化；原槽作上位路由，非12TET保持开放",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.01.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 7,
+        "row": "| K01.01.02.01 | PARTIAL | SCOPED_ROUTER | K01.01.06.01；K01.01.04.02 | TL-K01.01.02.01 | 普通简单音程级数及性质有明确定位；异常复音程/重变音不自动覆盖 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-01-06-01@1",
+        "K01-CL-01-04-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.01.02.01",
+      "scope": "普通简单音程级数及性质有明确定位；异常复音程/重变音不自动覆盖",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.01.02.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 8,
+        "row": "| K01.01.02.02 | INDEX | SCOPED_ROUTER | K01.01.05.01 | FG-K01.01.02；精确深化案例按目标索引发现，不等价重绑 | 复音程方向和实际音区由K01.01.05.01承接；完整异常拼写仍不在限定范围 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-01-05-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "复音程方向和实际音区由K01.01.05.01承接；完整异常拼写仍不在限定范围",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.01.03.01",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 9,
+        "row": "| K01.01.03.01 | RETAIN | RETAIN | K01.01.03.01 | TE-K01.01.03.01 | 音程移调及实际拼写 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-01-03-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.01.03.01",
+      "scope": "音程移调及实际拼写",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.01.03.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 10,
+        "row": "| K01.01.03.02 | INDEX | SCOPED_ROUTER | K01.02.04.01；K01.02.04.02；K01.02.04.03 | FG-K01.01.03；精确深化案例按目标索引发现，不等价重绑 | 音分比值、单位、参考和逆算已由三个具体原子表达；非同义单节点 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-02-04-01@1",
+        "K01-CL-02-04-02@1",
+        "K01-CL-02-04-03@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "音分比值、单位、参考和逆算已由三个具体原子表达；非同义单节点",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.02.01.01",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 11,
+        "row": "| K01.02.01.01 | RETAIN | RETAIN | K01.02.01.01 | TE-K01.02.01.01 | 参考频率公式 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-02-01-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.02.01.01",
+      "scope": "参考频率公式",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.02.01.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 12,
+        "row": "| K01.02.01.02 | INDEX | SCOPED_ROUTER | K01.02.04.01；K01.02.04.02 | FG-K01.02.01；精确深化案例按目标索引发现，不等价重绑 | 绝对与相对差别由正/逆公式表达；无参考不唯一 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-02-04-01@1",
+        "K01-CL-02-04-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "绝对与相对差别由正/逆公式表达；无参考不唯一",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.02.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 13,
+        "row": "| K01.02.02.01 | INDEX | SCOPED_ROUTER | K01.02.05.01；K01.02.05.02；K01.02.05.03 | FG-K01.02.02；精确深化案例按目标索引发现，不等价重绑 | 限指定3:2、5:4和12TET比值；其他律制保持外部条件 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-02-05-01@1",
+        "K01-CL-02-05-02@1",
+        "K01-CL-02-05-03@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "限指定3:2、5:4和12TET比值；其他律制保持外部条件",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.02.02.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 14,
+        "row": "| K01.02.02.02 | INDEX | SCOPED_ROUTER | K01.02.04.01；K01.02.05.01；K01.02.05.02 | FG-K01.02.02；精确深化案例按目标索引发现，不等价重绑 | 明确音分计算及指定比值比较；不以差值推出审美 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-02-04-01@1",
+        "K01-CL-02-05-01@1",
+        "K01-CL-02-05-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "明确音分计算及指定比值比较；不以差值推出审美",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.02.03.01",
+      "priorDisposition": "SPLIT_BOUNDARY_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 15,
+        "row": "| K01.02.03.01 | PARTIAL | SPLIT_BOUNDARY_OPEN | K01.02.06.01；K01.02.06.02 | TL-K01.02.03.01 | K01保留形式及原始测量值，K16.07文化原生语义、K07.07测量；旧K13混合迁移未完成 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-02-06-01@1"
+      ],
+      "unresolvedTargets": [
+        "K01.02.06.02"
+      ],
+      "primaryCase": "TL-K01.02.03.01",
+      "scope": "K01保留形式及原始测量值，K16.07文化原生语义、K07.07测量；旧K13混合迁移未完成",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.02.03.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 16,
+        "row": "| K01.02.03.02 | INDEX | RESIDUAL_OPEN | K01.02.06.01；K01.02.06.02 | FG-K01.02.03；精确深化案例按目标索引发现，不等价重绑 | 映射的原值/误差有需求，但可逆条件、非十二音真实体系与文化语义未全；禁止自动等价 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-02-06-01@1"
+      ],
+      "unresolvedTargets": [
+        "K01.02.06.02"
+      ],
+      "primaryCase": null,
+      "scope": "映射的原值/误差有需求，但可逆条件、非十二音真实体系与文化语义未全；禁止自动等价",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.03.01.01",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 17,
+        "row": "| K01.03.01.01 | RETAIN | RETAIN | K01.03.01.01 | TE-K01.03.01.01 | 有序步长与根偏移 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-03-01-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.03.01.01",
+      "scope": "有序步长与根偏移",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.03.01.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 18,
+        "row": "| K01.03.01.02 | PARTIAL | RESIDUAL_OPEN | K01.03.09.01；K01.03.05.01；K01.03.07.01；K01.03.08.02 | TL-K01.03.01.02 | 大调有序拼写已证，任意模式及非七声语境规则仍缺 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-03-09-01@1",
+        "K01-CL-03-05-01@1",
+        "K01-CL-03-07-01@1",
+        "K01-CL-03-08-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.03.01.02",
+      "scope": "大调有序拼写已证，任意模式及非七声语境规则仍缺",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.03.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 19,
+        "row": "| K01.03.02.01 | INDEX | SCOPED_ROUTER | K01.03.07.02；K01.05.05.01 | FG-K01.03.02；精确深化案例按目标索引发现，不等价重绑 | 集合、中心、功能为两个不同谓词；依指定西方模型 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-03-07-02@1",
+        "K01-CL-05-05-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "集合、中心、功能为两个不同谓词；依指定西方模型",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.03.02.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 20,
+        "row": "| K01.03.02.02 | INDEX | SCOPED_ROUTER | K01.03.05.01；K01.03.05.02；K01.03.06.01；K01.03.06.02 | FG-K01.03.02；精确深化案例按目标索引发现，不等价重绑 | 自然/和声/旋律小调及爵士方向约定分别定位 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-03-05-01@1",
+        "K01-CL-03-05-02@1",
+        "K01-CL-03-06-01@1",
+        "K01-CL-03-06-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "自然/和声/旋律小调及爵士方向约定分别定位",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.03.03.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 21,
+        "row": "| K01.03.03.01 | INDEX | SCOPED_ROUTER | K01.03.04.01；K01.03.04.02；K01.03.04.03 | FG-K01.03.03；精确深化案例按目标索引发现，不等价重绑 | 三个中心候选与证据主题关联；不保证唯一调性 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-03-04-01@1",
+        "K01-CL-03-04-02@1",
+        "K01-CL-03-04-03@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "三个中心候选与证据主题关联；不保证唯一调性",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.03.03.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 22,
+        "row": "| K01.03.03.02 | PARTIAL | RESIDUAL_OPEN | K01.03.04.01；K01.05.06.02；K01.05.07.01；K01.05.15.01；K01.05.15.02 | TL-K01.03.03.02 | 补两类等音枢纽；其他转调与风格条件不穷尽 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-03-04-01@1",
+        "K01-CL-05-06-02@1",
+        "K01-CL-05-07-01@1",
+        "K01-CL-05-15-01@1",
+        "K01-CL-05-15-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.03.03.02",
+      "scope": "补两类等音枢纽；其他转调与风格条件不穷尽",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.04.01.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 23,
+        "row": "| K01.04.01.01 | INDEX | SCOPED_ROUTER | K01.04.04.01；K01.04.05.01；K01.04.05.02 | FG-K01.04.01；精确深化案例按目标索引发现，不等价重绑 | 拍数、细分、分组及总时值分别定位；文化术语另证 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-04-04-01@1",
+        "K01-CL-04-05-01@1",
+        "K01-CL-04-05-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "拍数、细分、分组及总时值分别定位；文化术语另证",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.04.01.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 24,
+        "row": "| K01.04.01.02 | PARTIAL | RESIDUAL_OPEN | K01.04.04.01；K01.04.05.01；K01.04.05.03 | TL-K01.04.01.02 | 常规单/复拍和指定加法分组；术语及文化来源仍OPEN |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-04-04-01@1",
+        "K01-CL-04-05-01@1"
+      ],
+      "unresolvedTargets": [
+        "K01.04.05.03"
+      ],
+      "primaryCase": "TL-K01.04.01.02",
+      "scope": "常规单/复拍和指定加法分组；术语及文化来源仍OPEN",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.04.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 25,
+        "row": "| K01.04.02.01 | PARTIAL | SCOPED_ROUTER | K01.04.08.01；K01.04.08.02；K01.04.06.01；K01.04.06.02；K01.08.04.02 | TL-K01.04.02.01 | 明确切分、休止、连音、延音不同谓词；限定所述直拍/名义语境 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-04-08-01@1",
+        "K01-CL-04-08-02@1",
+        "K01-CL-04-06-01@1",
+        "K01-CL-04-06-02@1",
+        "K01-CL-08-04-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.04.02.01",
+      "scope": "明确切分、休止、连音、延音不同谓词；限定所述直拍/名义语境",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.04.02.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 26,
+        "row": "| K01.04.02.02 | INDEX | SCOPED_ROUTER | K01.04.04.01；K01.04.06.01 | FG-K01.04.02；精确深化案例按目标索引发现，不等价重绑 | 节拍层级和连音数量分离；不反推真实重音 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-04-04-01@1",
+        "K01-CL-04-06-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "节拍层级和连音数量分离；不反推真实重音",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.04.03.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 27,
+        "row": "| K01.04.03.01 | INDEX | SCOPED_ROUTER | K01.04.04.02 | FG-K01.04.03；精确深化案例按目标索引发现，不等价重绑 | 定速单位与换算有精确原子；分段另有K01.04.10.01 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-04-04-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "定速单位与换算有精确原子；分段另有K01.04.10.01",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.04.03.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 28,
+        "row": "| K01.04.03.02 | PARTIAL | RESIDUAL_OPEN | K01.04.07.01；K01.04.09.01；K01.04.10.01 | TL-K01.04.03.02 | 分段恒速和共同网格已补；连续变速及真实微时值需K04/K10/K17 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-04-07-01@1",
+        "K01-CL-04-09-01@1",
+        "K01-CL-04-10-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.04.03.02",
+      "scope": "分段恒速和共同网格已补；连续变速及真实微时值需K04/K10/K17",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.05.01.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 29,
+        "row": "| K01.05.01.01 | PARTIAL | SCOPED_ROUTER | K01.05.11.01；K01.05.11.02；K01.05.04.01；K01.01.06.01 | TL-K01.05.01.01 | 指定三度叠置模型有可计算结构；非三度体系不纳入该限定 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-05-11-01@1",
+        "K01-CL-05-11-02@1",
+        "K01-CL-05-04-01@1",
+        "K01-CL-01-06-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.05.01.01",
+      "scope": "指定三度叠置模型有可计算结构；非三度体系不纳入该限定",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.05.01.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 30,
+        "row": "| K01.05.01.02 | PARTIAL | RESIDUAL_OPEN | K01.05.04.01；K01.05.09.01；K01.05.09.02；K01.05.12.02；K01.05.16.01 | TL-K01.05.01.02 | 变音属七补证；其他和弦体系及爵士替代、完整符号歧义未核 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-05-04-01@1",
+        "K01-CL-05-09-01@1",
+        "K01-CL-05-09-02@1",
+        "K01-CL-05-12-02@1",
+        "K01-CL-05-16-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.05.01.02",
+      "scope": "变音属七补证；其他和弦体系及爵士替代、完整符号歧义未核",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.05.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 31,
+        "row": "| K01.05.02.01 | INDEX | SCOPED_ROUTER | K01.05.12.01；K01.05.12.02 | FG-K01.05.02；精确深化案例按目标索引发现，不等价重绑 | 已知根/低音及未知省略分别定位；实际排列另查声部 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-05-12-01@1",
+        "K01-CL-05-12-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "已知根/低音及未知省略分别定位；实际排列另查声部",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.05.02.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 32,
+        "row": "| K01.05.02.02 | INDEX | SCOPED_ROUTER | K01.05.12.01 | FG-K01.05.02；精确深化案例按目标索引发现，不等价重绑 | 根音明确且低音为成员时按转位判据；非成员不强制判 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-05-12-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "根音明确且低音为成员时按转位判据；非成员不强制判",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.05.03.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 33,
+        "row": "| K01.05.03.01 | INDEX | SCOPED_ROUTER | K01.05.05.01；K01.05.05.02；K01.05.06.02 | FG-K01.05.03；精确深化案例按目标索引发现，不等价重绑 | 功能与类别不同且依实际语境；仅指定调性模型 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-05-05-01@1",
+        "K01-CL-05-05-02@1",
+        "K01-CL-05-06-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "功能与类别不同且依实际语境；仅指定调性模型",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.05.03.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 34,
+        "row": "| K01.05.03.02 | PARTIAL | SCOPED_ROUTER | K01.05.05.02；K01.05.06.02；K01.03.04.03；K01.09.03.01 | TL-K01.05.03.02 | 多解保存归分析契约，具体功能引用条件；不称所有功能模型完备 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-05-05-02@1",
+        "K01-CL-05-06-02@1",
+        "K01-CL-03-04-03@1"
+      ],
+      "unresolvedTargets": [
+        "K01.09.03.01"
+      ],
+      "primaryCase": "TL-K01.05.03.02",
+      "scope": "多解保存归分析契约，具体功能引用条件；不称所有功能模型完备",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.06.01.01",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 35,
+        "row": "| K01.06.01.01 | RETAIN | RETAIN | K01.06.01.01 | TE-K01.06.01.01 | 声部运动类别 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-06-01-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.06.01.01",
+      "scope": "声部运动类别",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.06.01.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 36,
+        "row": "| K01.06.01.02 | INDEX | SCOPED_ROUTER | K01.06.08.01 | FG-K01.06.01；精确深化案例按目标索引发现，不等价重绑 | 声部身份与相邻事件的独立性由明确原子承接 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-06-08-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "声部身份与相邻事件的独立性由明确原子承接",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.06.02.01",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 37,
+        "row": "| K01.06.02.01 | PARTIAL | RESIDUAL_OPEN | K01.06.07.01；K01.06.11.01；K01.06.12.01；K01.06.16.04；K01.06.02.02 | TL-K01.06.02.01 | 作者规则集明确，跨流派矩阵仍待证 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-06-07-01@1",
+        "K01-CL-06-11-01@1",
+        "K01-CL-06-12-01@1",
+        "K01-CL-06-16-04@1",
+        "K01-CL-06-02-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.06.02.01",
+      "scope": "作者规则集明确，跨流派矩阵仍待证",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.06.02.02",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 38,
+        "row": "| K01.06.02.02 | RETAIN | RETAIN | K01.06.02.02 | TE-K01.06.02.02 | 规则集/规范层级 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-06-02-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.06.02.02",
+      "scope": "规则集/规范层级",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.06.03.01",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 39,
+        "row": "| K01.06.03.01 | PARTIAL | RESIDUAL_OPEN | K01.06.08.01；K01.06.08.02；K01.06.08.03；K01.06.16.01；K01.06.16.02；K01.06.16.03；K01.06.16.04 | TL-K01.06.03.01 | 四部间距/题定范围/重复/平行补证，交叉与重叠具体规范、实际歌手能力、整题校验仍缺 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-06-08-01@1",
+        "K01-CL-06-08-02@1",
+        "K01-CL-06-08-03@1",
+        "K01-CL-06-16-01@1",
+        "K01-CL-06-16-02@1",
+        "K01-CL-06-16-03@1",
+        "K01-CL-06-16-04@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.06.03.01",
+      "scope": "四部间距/题定范围/重复/平行补证，交叉与重叠具体规范、实际歌手能力、整题校验仍缺",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.06.03.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 40,
+        "row": "| K01.06.03.02 | PARTIAL | RESIDUAL_OPEN | K01.06.04.01；K01.06.04.02；K01.06.05.01；K01.06.06.01；K01.06.06.02；K01.06.17.01；K01.06.17.02 | TL-K01.06.03.02 | 补倚音、逃音、双辅助音；持续低音、其他类别细则及真实上下文仍待核 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-06-04-01@1",
+        "K01-CL-06-04-02@1",
+        "K01-CL-06-05-01@1",
+        "K01-CL-06-06-01@1",
+        "K01-CL-06-06-02@1",
+        "K01-CL-06-17-01@1",
+        "K01-CL-06-17-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.06.03.02",
+      "scope": "补倚音、逃音、双辅助音；持续低音、其他类别细则及真实上下文仍待核",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.07.01.01",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 41,
+        "row": "| K01.07.01.01 | RETAIN | RETAIN | K01.07.01.01 | TE-K01.07.01.01 | 动机与分段层次 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-07-01-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.07.01.01",
+      "scope": "动机与分段层次",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.07.01.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 42,
+        "row": "| K01.07.01.02 | PARTIAL | SCOPED_ROUTER | K01.07.04.02；K01.07.07.01；K01.07.01.01 | TL-K01.07.01.02 | 动机/句末/功能线索与多解联结，不把启发式当唯一分段 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-07-04-02@1",
+        "K01-CL-07-07-01@1",
+        "K01-CL-07-01-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.07.01.02",
+      "scope": "动机/句末/功能线索与多解联结，不把启发式当唯一分段",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.07.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 43,
+        "row": "| K01.07.02.01 | PARTIAL | SCOPED_ROUTER | K01.07.04.01；K01.07.04.02；K01.07.08.01；K01.07.08.02 | TL-K01.07.02.01 | 指定调性课堂四类加PAC/IAC；其他风格规则不冒充 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-07-04-01@1",
+        "K01-CL-07-04-02@1",
+        "K01-CL-07-08-01@1",
+        "K01-CL-07-08-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.07.02.01",
+      "scope": "指定调性课堂四类加PAC/IAC；其他风格规则不冒充",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.07.02.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 44,
+        "row": "| K01.07.02.02 | INDEX | SCOPED_ROUTER | K01.07.04.02 | FG-K01.07.02；精确深化案例按目标索引发现，不等价重绑 | 进行与实际句末条件不同；不由和弦标签证明乐句 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-07-04-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "进行与实际句末条件不同；不由和弦标签证明乐句",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.07.03.01",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 45,
+        "row": "| K01.07.03.01 | PARTIAL | RESIDUAL_OPEN | K01.07.05.01；K01.07.06.01；K01.07.07.01；K01.07.07.02；K01.07.09.01 | TL-K01.07.03.01 | 补赋格结构，其他曲式及跨文化形式/层级仍缺 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-07-05-01@1",
+        "K01-CL-07-06-01@1",
+        "K01-CL-07-07-01@1",
+        "K01-CL-07-07-02@1",
+        "K01-CL-07-09-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.07.03.01",
+      "scope": "补赋格结构，其他曲式及跨文化形式/层级仍缺",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.07.03.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 46,
+        "row": "| K01.07.03.02 | PARTIAL | SCOPED_ROUTER | K01.07.05.02；K01.07.06.02；K01.09.03.01 | TL-K01.07.03.02 | 竞争标签与证据版本为上位发现入口；通用分析工作流仍由独立需求承接 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-07-05-02@1",
+        "K01-CL-07-06-02@1"
+      ],
+      "unresolvedTargets": [
+        "K01.09.03.01"
+      ],
+      "primaryCase": "TL-K01.07.03.02",
+      "scope": "竞争标签与证据版本为上位发现入口；通用分析工作流仍由独立需求承接",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.08.01.01",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 47,
+        "row": "| K01.08.01.01 | PARTIAL | RESIDUAL_OPEN | K01.08.06.01；K01.08.01.02；K01.01.01.01 | TL-K01.08.01.01 | 谱号/调号/局部变音基本区分，复杂作用域规则未核 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-08-06-01@1",
+        "K01-CL-08-01-02@1",
+        "K01-CL-01-01-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.08.01.01",
+      "scope": "谱号/调号/局部变音基本区分，复杂作用域规则未核",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.08.01.02",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 48,
+        "row": "| K01.08.01.02 | RETAIN | RETAIN | K01.08.01.02 | TE-K01.08.01.02 | 记号作用范围尚有例外 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-08-01-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.08.01.02",
+      "scope": "记号作用范围尚有例外",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.08.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 49,
+        "row": "| K01.08.02.01 | PARTIAL | SCOPED_ROUTER | K01.08.04.01；K01.08.04.02；K01.08.05.02；K01.04.08.02 | TL-K01.08.02.01 | 指定名义记谱的时值和连线差异有定位；表演时值需实际证据 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-08-04-01@1",
+        "K01-CL-08-04-02@1",
+        "K01-CL-08-05-02@1",
+        "K01-CL-04-08-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.08.02.01",
+      "scope": "指定名义记谱的时值和连线差异有定位；表演时值需实际证据",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.08.02.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 50,
+        "row": "| K01.08.02.02 | INDEX | RESIDUAL_OPEN | K01.08.05.01 | FG-K01.08.02；精确深化案例按目标索引发现，不等价重绑 | 逐声部时间线是必要条件，不代表所有谱面合法性；弱起/不完整小节/复杂记谱须补 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-08-05-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "逐声部时间线是必要条件，不代表所有谱面合法性；弱起/不完整小节/复杂记谱须补",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.08.03.01",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 51,
+        "row": "| K01.08.03.01 | RETAIN | RETAIN | K01.08.03.01 | TE-K01.08.03.01 | 装饰记号已补格式证据，历史演奏仍OPEN |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-08-03-01@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TE-K01.08.03.01",
+      "scope": "装饰记号已补格式证据，历史演奏仍OPEN",
+      "equivalence": false,
+      "formalDisposition": "CANDIDATE"
+    },
+    {
+      "d4": "K01.08.03.02",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 52,
+        "row": "| K01.08.03.02 | INDEX | SCOPED_ROUTER | K01.08.06.02；K01.08.06.03 | FG-K01.08.03；精确深化案例按目标索引发现，不等价重绑 | 符号保护和视觉/声音检查分别定位；实际工具往返与工程回滚仍未验证 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-08-06-02@1",
+        "K01-CL-08-06-03@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": null,
+      "scope": "符号保护和视觉/声音检查分别定位；实际工具往返与工程回滚仍未验证",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.09.01.01",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 53,
+        "row": "| K01.09.01.01 | PARTIAL | RESIDUAL_OPEN | K01.09.04.01；K01.09.04.02；K01.08.05.02；K01.08.06.02 | TL-K01.09.01.01 | 表示适用范围及损失已列；MIDI/音频/格式完整能力依K12版本和测试 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-09-04-01@1",
+        "K01-CL-09-04-02@1",
+        "K01-CL-08-05-02@1",
+        "K01-CL-08-06-02@1"
+      ],
+      "unresolvedTargets": [],
+      "primaryCase": "TL-K01.09.01.01",
+      "scope": "表示适用范围及损失已列；MIDI/音频/格式完整能力依K12版本和测试",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.09.01.02",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 54,
+        "row": "| K01.09.01.02 | RETAIN | RETAIN | K01.09.01.02 | TE-K01.09.01.02 | 分析假设和单位记录 |"
+      },
+      "exactCandidateRefs": [],
+      "unresolvedTargets": [
+        "K01.09.01.02"
+      ],
+      "primaryCase": "TE-K01.09.01.02",
+      "scope": "分析假设和单位记录",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.09.02.01",
+      "priorDisposition": "SCOPED_ROUTER",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 55,
+        "row": "| K01.09.02.01 | PARTIAL | SCOPED_ROUTER | K01.09.05.01；K01.09.05.02；K01.09.08.02；K01.07.07.01；K01.09.01.02 | TL-K01.09.02.01 | 计算/规范/解释分层；不是证明全部推理规则已正确 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-09-05-01@1",
+        "K01-CL-09-05-02@1",
+        "K01-CL-09-08-02@1",
+        "K01-CL-07-07-01@1"
+      ],
+      "unresolvedTargets": [
+        "K01.09.01.02"
+      ],
+      "primaryCase": "TL-K01.09.02.01",
+      "scope": "计算/规范/解释分层；不是证明全部推理规则已正确",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    },
+    {
+      "d4": "K01.09.02.02",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 56,
+        "row": "| K01.09.02.02 | PARTIAL | RESIDUAL_OPEN | K01.09.05.03；K01.09.08.02；K01.09.09.01；K01.09.03.02 | TL-K01.09.02.02 | 数学见证与记录要求有候选，实际工具错误/版本及复测未运行 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-09-05-03@1",
+        "K01-CL-09-08-02@1",
+        "K01-CL-09-09-01@1"
+      ],
+      "unresolvedTargets": [
+        "K01.09.03.02"
+      ],
+      "primaryCase": "TL-K01.09.02.02",
+      "scope": "数学见证与记录要求有候选，实际工具错误/版本及复测未运行",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.09.03.01",
+      "priorDisposition": "RESIDUAL_OPEN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 57,
+        "row": "| K01.09.03.01 | PARTIAL | RESIDUAL_OPEN | K01.03.04.03；K01.07.05.02；K01.09.03.02 | TL-K01.09.03.01 | 竞争解释与消歧条件有示例；通用置信证据/记录合同仍需L2和实测 |"
+      },
+      "exactCandidateRefs": [
+        "K01-CL-03-04-03@1",
+        "K01-CL-07-05-02@1"
+      ],
+      "unresolvedTargets": [
+        "K01.09.03.02"
+      ],
+      "primaryCase": "TL-K01.09.03.01",
+      "scope": "竞争解释与消歧条件有示例；通用置信证据/记录合同仍需L2和实测",
+      "equivalence": false,
+      "formalDisposition": "UNKNOWN"
+    },
+    {
+      "d4": "K01.09.03.02",
+      "priorDisposition": "RETAIN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-legacy-calibration-ledger.md",
+        "blob": "f494843c678b413dde507fabf08859849386bbe1",
+        "line": 58,
+        "row": "| K01.09.03.02 | RETAIN | RETAIN | K01.09.03.02 | TE-K01.09.03.02 | 版本与复测工程需求（真实工具未执行） |"
+      },
+      "exactCandidateRefs": [],
+      "unresolvedTargets": [
+        "K01.09.03.02"
+      ],
+      "primaryCase": "TE-K01.09.03.02",
+      "scope": "版本与复测工程需求（真实工具未执行）",
+      "equivalence": false,
+      "formalDisposition": "ROUTED"
+    }
+  ]
+}

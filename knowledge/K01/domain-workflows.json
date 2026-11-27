@@ -1,0 +1,1674 @@
+{
+  "format": "audio-kg-K01-domain-workflows/1",
+  "status": "FINITE_OFFLINE_WITNESSES_NOT_RUNTIME",
+  "records": [
+    {
+      "id": "K01-WF-INTERVAL",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.01",
+      "purpose": "书写音程：辨识音高与拼写，再查级数及半音。",
+      "entry": "K01-WF-INTERVAL-INPUT@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-INTERVAL-INPUT",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-INTERVAL@1",
+      "operation": "WRITTEN_INPUT",
+      "inputFields": [
+        "from",
+        "to",
+        "model"
+      ],
+      "claimRefs": [
+        "K01-CL-01-01-01@1"
+      ],
+      "condition": "12TET普通西方书写，音区明确",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-INTERVAL-INPUT-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-INTERVAL-INPUT@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-INTERVAL-CLASSIFY@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-INTERVAL-INPUT-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-INTERVAL-INPUT@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-INTERVAL-INPUT-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-INTERVAL-INPUT@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-INTERVAL-CLASSIFY",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-INTERVAL@1",
+      "operation": "INTERVAL_CLASSIFY",
+      "inputFields": [
+        "from",
+        "to"
+      ],
+      "claimRefs": [
+        "K01-CL-01-04-02@1",
+        "K01-CL-01-05-01@1",
+        "K01-CL-01-06-01@1"
+      ],
+      "condition": "保留完整方向/级数/性质，不用模12替代",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-INTERVAL-CLASSIFY-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-INTERVAL-CLASSIFY@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-INTERVAL-CLASSIFY-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-INTERVAL-CLASSIFY@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-INTERVAL-CLASSIFY-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-INTERVAL-CLASSIFY@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-TUNING",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.02",
+      "purpose": "正频率音分、近似映射及残差。",
+      "entry": "K01-WF-TUNING-RATIO@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-TUNING-RATIO",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-TUNING@1",
+      "operation": "CENTS_RATIO",
+      "inputFields": [
+        "f1",
+        "f2"
+      ],
+      "claimRefs": [
+        "K01-CL-02-04-01@1"
+      ],
+      "condition": "正同单位频率",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-TUNING-RATIO-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TUNING-RATIO@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-TUNING-MAP@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-TUNING-RATIO-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TUNING-RATIO@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-TUNING-RATIO-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TUNING-RATIO@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-TUNING-MAP",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-TUNING@1",
+      "operation": "NEAREST_12TET",
+      "inputFields": [
+        "f2",
+        "reference",
+        "rounding"
+      ],
+      "claimRefs": [
+        "K01-CL-02-06-01@1",
+        "K01-CL-02-04-02@1"
+      ],
+      "condition": "参考、舍入和原值保留，匿名数学例非实测",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-TUNING-MAP-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TUNING-MAP@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-TUNING-MAP-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TUNING-MAP@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-TUNING-MAP-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TUNING-MAP@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-TONAL",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.03",
+      "purpose": "短暂主音化和新中心候选。",
+      "entry": "K01-WF-TONAL-CONTEXT@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-TONAL-CONTEXT",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-TONAL@1",
+      "operation": "TONAL_CONTEXT",
+      "inputFields": [
+        "startingKey",
+        "chord",
+        "target"
+      ],
+      "claimRefs": [
+        "K01-CL-03-04-01@1",
+        "K01-CL-05-06-01@1"
+      ],
+      "condition": "有限C/D7/G候选例，不作为通用自动调性识别",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-TONAL-CONTEXT-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TONAL-CONTEXT@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-TONAL-COMPARE@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-TONAL-CONTEXT-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TONAL-CONTEXT@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-TONAL-CONTEXT-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TONAL-CONTEXT@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-TONAL-COMPARE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-TONAL@1",
+      "operation": "TONAL_COMPARE",
+      "inputFields": [
+        "after",
+        "cadenceEvidence"
+      ],
+      "claimRefs": [
+        "K01-CL-03-04-02@1",
+        "K01-CL-03-04-03@1",
+        "K01-CL-05-06-02@1"
+      ],
+      "condition": "查实际后文及句末，不由单一和弦决定",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-TONAL-COMPARE-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TONAL-COMPARE@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-TONAL-COMPARE-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TONAL-COMPARE@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-TONAL-COMPARE-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-TONAL-COMPARE@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-METER",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.04",
+      "purpose": "有序分组和等分比例分开。",
+      "entry": "K01-WF-METER-GROUP@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-METER-GROUP",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-METER@1",
+      "operation": "GROUP_RATIONAL",
+      "inputFields": [
+        "groups",
+        "unit"
+      ],
+      "claimRefs": [
+        "K01-CL-04-04-01@1",
+        "K01-CL-04-05-01@1",
+        "K01-CL-04-05-02@1"
+      ],
+      "condition": "已声明分组及名义全音符单位",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-METER-GROUP-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-METER-GROUP@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-METER-TUPLET@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-METER-GROUP-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-METER-GROUP@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-METER-GROUP-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-METER-GROUP@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-METER-TUPLET",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-METER@1",
+      "operation": "TUPLET_RATIONAL",
+      "inputFields": [
+        "nominalQuarter",
+        "actual",
+        "normal",
+        "count"
+      ],
+      "claimRefs": [
+        "K01-CL-04-06-01@1",
+        "K01-CL-04-06-02@1",
+        "K01-CL-04-06-03@1"
+      ],
+      "condition": "给定局部比例与名义音符，实际听感未知",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-METER-TUPLET-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-METER-TUPLET@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-METER-TUPLET-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-METER-TUPLET@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-METER-TUPLET-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-METER-TUPLET@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-HARMONY",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.05",
+      "purpose": "和弦结构与实际调性功能分开。",
+      "entry": "K01-WF-HARMONY-STRUCTURE@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-HARMONY-STRUCTURE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-HARMONY@1",
+      "operation": "SEVENTH_STRUCTURE",
+      "inputFields": [
+        "root",
+        "notes"
+      ],
+      "claimRefs": [
+        "K01-CL-05-04-01@1",
+        "K01-CL-05-04-02@1",
+        "K01-CL-05-04-03@1"
+      ],
+      "condition": "指定根音及四音完整传统三度叠置",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-HARMONY-STRUCTURE-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-HARMONY-STRUCTURE@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-HARMONY-FUNCTION@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-HARMONY-STRUCTURE-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-HARMONY-STRUCTURE@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-HARMONY-STRUCTURE-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-HARMONY-STRUCTURE@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-HARMONY-FUNCTION",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-HARMONY@1",
+      "operation": "D7_FUNCTION",
+      "inputFields": [
+        "key",
+        "next"
+      ],
+      "claimRefs": [
+        "K01-CL-05-06-01@1",
+        "K01-CL-05-06-02@1"
+      ],
+      "condition": "有限D7→G在C或G的条件候选",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-HARMONY-FUNCTION-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-HARMONY-FUNCTION@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-HARMONY-FUNCTION-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-HARMONY-FUNCTION@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-HARMONY-FUNCTION-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-HARMONY-FUNCTION@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.06",
+      "purpose": "指定H2局部二分音符规则检查。",
+      "entry": "K01-WF-COUNTERPOINT-RULE@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-RULE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-COUNTERPOINT@1",
+      "operation": "H2_SCOPE",
+      "inputFields": [
+        "ruleSet",
+        "meter",
+        "durations",
+        "fixed"
+      ],
+      "claimRefs": [
+        "K01-CL-06-02-02@1",
+        "K01-CL-06-12-01@1"
+      ],
+      "condition": "仅H2普通2:1 4/4局部半音符",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-RULE-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-COUNTERPOINT-RULE@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-COUNTERPOINT-PASSING@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-RULE-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-COUNTERPOINT-RULE@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-RULE-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-COUNTERPOINT-RULE@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-PASSING",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-COUNTERPOINT@1",
+      "operation": "H2_PASSING",
+      "inputFields": [
+        "upper",
+        "fixed",
+        "strongIndex"
+      ],
+      "claimRefs": [
+        "K01-CL-06-04-01@1",
+        "K01-CL-06-05-01@1",
+        "K01-CL-06-12-01@1"
+      ],
+      "condition": "强位协和；弱位不协和须级进经过，不认定整题",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-PASSING-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-COUNTERPOINT-PASSING@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-PASSING-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-COUNTERPOINT-PASSING@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-COUNTERPOINT-PASSING-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-COUNTERPOINT-PASSING@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-FORM",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.07",
+      "purpose": "竞争曲式候选依比例、动机和中心。",
+      "entry": "K01-WF-FORM-INPUT@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-FORM-INPUT",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-FORM@1",
+      "operation": "FORM_CONTEXT",
+      "inputFields": [
+        "aMeasures",
+        "bMeasures",
+        "relatedMotif",
+        "harmony",
+        "independentTheme"
+      ],
+      "claimRefs": [
+        "K01-CL-07-01-01@1",
+        "K01-CL-07-05-01@1"
+      ],
+      "condition": "明确片段长度、关联和和声",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-FORM-INPUT-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-FORM-INPUT@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-FORM-COMPARE@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-FORM-INPUT-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-FORM-INPUT@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-FORM-INPUT-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-FORM-INPUT@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-FORM-COMPARE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-FORM@1",
+      "operation": "FORM_COMPARE",
+      "inputFields": [
+        "aMeasures",
+        "bMeasures",
+        "relatedMotif",
+        "harmony",
+        "independentTheme"
+      ],
+      "claimRefs": [
+        "K01-CL-07-05-01@1",
+        "K01-CL-07-05-02@1"
+      ],
+      "condition": "只输出竞争候选，不由ABA/时代唯一分类",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-FORM-COMPARE-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-FORM-COMPARE@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-FORM-COMPARE-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-FORM-COMPARE@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-FORM-COMPARE-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-FORM-COMPARE@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-NOTATION",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.08",
+      "purpose": "TH-A01符号编辑保护及候选复核。",
+      "entry": "K01-WF-NOTATION-BASE@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-NOTATION-BASE",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-NOTATION@1",
+      "operation": "VOICE_TIMELINE",
+      "inputFields": [
+        "baseline"
+      ],
+      "claimRefs": [
+        "K01-CL-08-05-01@1"
+      ],
+      "condition": "正常4/4两声部，四分音符6tick",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-NOTATION-BASE-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-BASE@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-NOTATION-EDIT@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-NOTATION-BASE-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-BASE@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-NOTATION-BASE-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-BASE@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-NOTATION-EDIT",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-NOTATION@1",
+      "operation": "PROTECTED_TUPLET_EDIT",
+      "inputFields": [
+        "baseline",
+        "candidate",
+        "allowedTarget"
+      ],
+      "claimRefs": [
+        "K01-CL-04-06-01@1",
+        "K01-CL-08-05-02@1",
+        "K01-CL-08-06-03@1"
+      ],
+      "condition": "只替换A第三拍，保护其它事件及小节元数据",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-NOTATION-EDIT-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-EDIT@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-NOTATION-CHECK@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-NOTATION-EDIT-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-EDIT@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-NOTATION-EDIT-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-EDIT@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-NOTATION-CHECK",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-NOTATION@1",
+      "operation": "VISUAL_SOUND_FIELDS",
+      "inputFields": [
+        "candidate"
+      ],
+      "claimRefs": [
+        "K01-CL-08-06-02@1",
+        "K01-CL-08-06-03@1"
+      ],
+      "condition": "独立保留比例、视觉分组及播放名义字段；不声明实际回读",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-NOTATION-CHECK-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-CHECK@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-NOTATION-CHECK-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-CHECK@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-NOTATION-CHECK-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-NOTATION-CHECK@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-SET-CLASS",
+      "revision": 1,
+      "type": "Workflow",
+      "owner": "K01",
+      "d2": "K01.09",
+      "purpose": "声明分段与约定后计算集合表示。",
+      "entry": "K01-WF-SET-CLASS-INPUT@1",
+      "status": "OFFLINE_KNOWLEDGE_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-INPUT",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-SET-CLASS@1",
+      "operation": "SET_INPUT",
+      "inputFields": [
+        "pitchClasses",
+        "segmentation",
+        "convention"
+      ],
+      "claimRefs": [
+        "K01-CL-09-04-01@1",
+        "K01-CL-09-04-02@1"
+      ],
+      "condition": "非空整数模12集合，实际分段显式",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-INPUT-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-INPUT@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-SET-CLASS-NORMAL@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-SET-CLASS-INPUT-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-INPUT@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-INPUT-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-INPUT@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-NORMAL",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-SET-CLASS@1",
+      "operation": "SET_NORMAL",
+      "inputFields": [
+        "pitchClasses",
+        "convention"
+      ],
+      "claimRefs": [
+        "K01-CL-09-07-01@1",
+        "K01-CL-09-10-01@1"
+      ],
+      "condition": "指定完整F或R比较键，保留对称多解",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-NORMAL-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-NORMAL@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": "K01-WF-SET-CLASS-PRIME@1",
+      "outcome": null
+    },
+    {
+      "id": "K01-WF-SET-CLASS-NORMAL-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-NORMAL@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-NORMAL-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-NORMAL@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-PRIME",
+      "revision": 1,
+      "type": "Step",
+      "owner": "K01",
+      "workflow": "K01-WF-SET-CLASS@1",
+      "operation": "SET_PRIME_VECTOR",
+      "inputFields": [
+        "pitchClasses",
+        "convention"
+      ],
+      "claimRefs": [
+        "K01-CL-09-07-02@1",
+        "K01-CL-09-08-01@1",
+        "K01-CL-09-08-02@1",
+        "K01-CL-09-08-03@1"
+      ],
+      "condition": "同一约定比较倒影，向量不唯一决定同类",
+      "status": "CANDIDATE_ONLY"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-PRIME-KNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-PRIME@1",
+      "guard": "KNOWN_VALID_CONDITIONS",
+      "toStep": null,
+      "outcome": "BOUNDED_SYMBOLIC_CANDIDATE"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-PRIME-UNKNOWN",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-PRIME@1",
+      "guard": "MISSING_OR_UNSUPPORTED_CONDITIONS",
+      "toStep": null,
+      "outcome": "UNKNOWN_NO_INFERENCE"
+    },
+    {
+      "id": "K01-WF-SET-CLASS-PRIME-REJECT",
+      "revision": 1,
+      "type": "Transition",
+      "owner": "K01",
+      "fromStep": "K01-WF-SET-CLASS-PRIME@1",
+      "guard": "EXPLICIT_INVALID_OR_PROTECTED_CHANGE",
+      "toStep": null,
+      "outcome": "REJECTED_NO_ADOPTION"
+    },
+    {
+      "id": "K01-CONSTRAINT-ANALYSIS-CONTEXT",
+      "revision": 1,
+      "type": "ProjectConstraint",
+      "owner": "K01",
+      "d4": "K01.09.01.02",
+      "required": [
+        "inputIdentity",
+        "segmentation",
+        "pitchConvention",
+        "tuning",
+        "ruleSet",
+        "unit"
+      ],
+      "status": "PROJECT_CONTRACT_NOT_PROFESSIONAL_CLAIM",
+      "limits": "缺任一不裁定竞争解释，真实工具版本另验。"
+    },
+    {
+      "id": "K01-CONSTRAINT-REVISION",
+      "revision": 1,
+      "type": "ProjectConstraint",
+      "owner": "K01",
+      "d4": "K01.09.03.02",
+      "required": [
+        "priorRevision",
+        "changeReason",
+        "changedEvidence",
+        "retestStatus",
+        "retainedAlternatives"
+      ],
+      "status": "PROJECT_CONTRACT_NOT_PROFESSIONAL_CLAIM",
+      "limits": "真实事务、回滚和工具回读归K09/K12；不以合成候选冒充。"
+    },
+    {
+      "id": "K01-ANALYSIS-V1",
+      "revision": 1,
+      "type": "AnalysisRevision",
+      "owner": "K01",
+      "inputIdentity": "synthetic-C-D7-G-v1",
+      "segmentation": "three-symbols",
+      "pitchConvention": "written-12TET",
+      "tuning": "12TET",
+      "ruleSet": "specified Western tonal analysis",
+      "unit": "symbolic chord sequence",
+      "evidence": [
+        "C",
+        "D7",
+        "G"
+      ],
+      "labels": [
+        "V7/V",
+        "转G候选"
+      ],
+      "status": "DRAFT_CANDIDATE"
+    },
+    {
+      "id": "K01-ANALYSIS-V2",
+      "revision": 1,
+      "type": "AnalysisRevision",
+      "owner": "K01",
+      "inputIdentity": "synthetic-C-D7-G-G7-C-v2",
+      "segmentation": "five-symbols",
+      "pitchConvention": "written-12TET",
+      "tuning": "12TET",
+      "ruleSet": "specified Western tonal analysis",
+      "unit": "symbolic chord sequence",
+      "evidence": [
+        "C",
+        "D7",
+        "G",
+        "G7",
+        "C"
+      ],
+      "priorRevision": "K01-ANALYSIS-V1@1",
+      "changeReason": "后续G7–C证据",
+      "changedEvidence": [
+        "G7",
+        "C"
+      ],
+      "labels": [
+        "主音化候选"
+      ],
+      "retainedAlternatives": [
+        "转G候选"
+      ],
+      "retestStatus": "SYMBOLIC_CHECKED",
+      "status": "DRAFT_CANDIDATE"
+    },
+    {
+      "id": "K01-TH-A01",
+      "revision": 1,
+      "type": "SymbolicEditWitness",
+      "owner": "K01",
+      "baseline": {
+        "meter": "4/4",
+        "ticksPerQuarter": 6,
+        "events": [
+          {
+            "id": "A1",
+            "voice": "A",
+            "pitch": "C4",
+            "start": 0,
+            "duration": 6,
+            "nominal": "quarter"
+          },
+          {
+            "id": "A2",
+            "voice": "A",
+            "pitch": "D4",
+            "start": 6,
+            "duration": 6,
+            "nominal": "quarter"
+          },
+          {
+            "id": "A3",
+            "voice": "A",
+            "pitch": "E4",
+            "start": 12,
+            "duration": 6,
+            "nominal": "quarter"
+          },
+          {
+            "id": "A4",
+            "voice": "A",
+            "pitch": "F4",
+            "start": 18,
+            "duration": 6,
+            "nominal": "quarter"
+          },
+          {
+            "id": "B1",
+            "voice": "B",
+            "pitch": "C3",
+            "start": 0,
+            "duration": 24,
+            "nominal": "whole"
+          }
+        ]
+      },
+      "candidate": {
+        "meter": "4/4",
+        "ticksPerQuarter": 6,
+        "events": [
+          {
+            "id": "A1",
+            "voice": "A",
+            "pitch": "C4",
+            "start": 0,
+            "duration": 6,
+            "nominal": "quarter"
+          },
+          {
+            "id": "A2",
+            "voice": "A",
+            "pitch": "D4",
+            "start": 6,
+            "duration": 6,
+            "nominal": "quarter"
+          },
+          {
+            "id": "A3a",
+            "voice": "A",
+            "pitch": "E4",
+            "start": 12,
+            "duration": 2,
+            "nominal": "eighth",
+            "actual": 3,
+            "normal": 2,
+            "tuplet": "start",
+            "playbackDuration": 2
+          },
+          {
+            "id": "A3b",
+            "voice": "A",
+            "pitch": "F4",
+            "start": 14,
+            "duration": 2,
+            "nominal": "eighth",
+            "actual": 3,
+            "normal": 2,
+            "tuplet": "continue",
+            "playbackDuration": 2
+          },
+          {
+            "id": "A3c",
+            "voice": "A",
+            "pitch": "E4",
+            "start": 16,
+            "duration": 2,
+            "nominal": "eighth",
+            "actual": 3,
+            "normal": 2,
+            "tuplet": "stop",
+            "playbackDuration": 2
+          },
+          {
+            "id": "A4",
+            "voice": "A",
+            "pitch": "F4",
+            "start": 18,
+            "duration": 6,
+            "nominal": "quarter"
+          },
+          {
+            "id": "B1",
+            "voice": "B",
+            "pitch": "C3",
+            "start": 0,
+            "duration": 24,
+            "nominal": "whole"
+          }
+        ]
+      },
+      "allowedTarget": "A3",
+      "expected": "SYMBOLIC_CHECKED",
+      "externalResult": "UNKNOWN_NOT_EXECUTED",
+      "limits": "合成符号候选，不是实际授权、宿主/导出或音乐效果。"
+    }
+  ],
+  "relations": [
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-INTERVAL@1",
+      "toRef": "K01-WF-INTERVAL-INPUT@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-INTERVAL-INPUT@1",
+      "toRef": "K01-CL-01-01-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-INTERVAL@1",
+      "toRef": "K01-WF-INTERVAL-CLASSIFY@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-INTERVAL-CLASSIFY@1",
+      "toRef": "K01-CL-01-04-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-INTERVAL-CLASSIFY@1",
+      "toRef": "K01-CL-01-05-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-INTERVAL-CLASSIFY@1",
+      "toRef": "K01-CL-01-06-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-TUNING@1",
+      "toRef": "K01-WF-TUNING-RATIO@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TUNING-RATIO@1",
+      "toRef": "K01-CL-02-04-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-TUNING@1",
+      "toRef": "K01-WF-TUNING-MAP@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TUNING-MAP@1",
+      "toRef": "K01-CL-02-06-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TUNING-MAP@1",
+      "toRef": "K01-CL-02-04-02@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-TONAL@1",
+      "toRef": "K01-WF-TONAL-CONTEXT@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TONAL-CONTEXT@1",
+      "toRef": "K01-CL-03-04-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TONAL-CONTEXT@1",
+      "toRef": "K01-CL-05-06-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-TONAL@1",
+      "toRef": "K01-WF-TONAL-COMPARE@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TONAL-COMPARE@1",
+      "toRef": "K01-CL-03-04-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TONAL-COMPARE@1",
+      "toRef": "K01-CL-03-04-03@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-TONAL-COMPARE@1",
+      "toRef": "K01-CL-05-06-02@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-METER@1",
+      "toRef": "K01-WF-METER-GROUP@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-METER-GROUP@1",
+      "toRef": "K01-CL-04-04-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-METER-GROUP@1",
+      "toRef": "K01-CL-04-05-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-METER-GROUP@1",
+      "toRef": "K01-CL-04-05-02@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-METER@1",
+      "toRef": "K01-WF-METER-TUPLET@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-METER-TUPLET@1",
+      "toRef": "K01-CL-04-06-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-METER-TUPLET@1",
+      "toRef": "K01-CL-04-06-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-METER-TUPLET@1",
+      "toRef": "K01-CL-04-06-03@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-HARMONY@1",
+      "toRef": "K01-WF-HARMONY-STRUCTURE@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-HARMONY-STRUCTURE@1",
+      "toRef": "K01-CL-05-04-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-HARMONY-STRUCTURE@1",
+      "toRef": "K01-CL-05-04-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-HARMONY-STRUCTURE@1",
+      "toRef": "K01-CL-05-04-03@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-HARMONY@1",
+      "toRef": "K01-WF-HARMONY-FUNCTION@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-HARMONY-FUNCTION@1",
+      "toRef": "K01-CL-05-06-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-HARMONY-FUNCTION@1",
+      "toRef": "K01-CL-05-06-02@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-COUNTERPOINT@1",
+      "toRef": "K01-WF-COUNTERPOINT-RULE@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-COUNTERPOINT-RULE@1",
+      "toRef": "K01-CL-06-02-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-COUNTERPOINT-RULE@1",
+      "toRef": "K01-CL-06-12-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-COUNTERPOINT@1",
+      "toRef": "K01-WF-COUNTERPOINT-PASSING@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-COUNTERPOINT-PASSING@1",
+      "toRef": "K01-CL-06-04-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-COUNTERPOINT-PASSING@1",
+      "toRef": "K01-CL-06-05-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-COUNTERPOINT-PASSING@1",
+      "toRef": "K01-CL-06-12-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-FORM@1",
+      "toRef": "K01-WF-FORM-INPUT@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-FORM-INPUT@1",
+      "toRef": "K01-CL-07-01-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-FORM-INPUT@1",
+      "toRef": "K01-CL-07-05-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-FORM@1",
+      "toRef": "K01-WF-FORM-COMPARE@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-FORM-COMPARE@1",
+      "toRef": "K01-CL-07-05-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-FORM-COMPARE@1",
+      "toRef": "K01-CL-07-05-02@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-NOTATION@1",
+      "toRef": "K01-WF-NOTATION-BASE@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-NOTATION-BASE@1",
+      "toRef": "K01-CL-08-05-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-NOTATION@1",
+      "toRef": "K01-WF-NOTATION-EDIT@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-NOTATION-EDIT@1",
+      "toRef": "K01-CL-04-06-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-NOTATION-EDIT@1",
+      "toRef": "K01-CL-08-05-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-NOTATION-EDIT@1",
+      "toRef": "K01-CL-08-06-03@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-NOTATION@1",
+      "toRef": "K01-WF-NOTATION-CHECK@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-NOTATION-CHECK@1",
+      "toRef": "K01-CL-08-06-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-NOTATION-CHECK@1",
+      "toRef": "K01-CL-08-06-03@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-SET-CLASS@1",
+      "toRef": "K01-WF-SET-CLASS-INPUT@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-INPUT@1",
+      "toRef": "K01-CL-09-04-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-INPUT@1",
+      "toRef": "K01-CL-09-04-02@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-SET-CLASS@1",
+      "toRef": "K01-WF-SET-CLASS-NORMAL@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-NORMAL@1",
+      "toRef": "K01-CL-09-07-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-NORMAL@1",
+      "toRef": "K01-CL-09-10-01@1"
+    },
+    {
+      "type": "contains",
+      "fromRef": "K01-WF-SET-CLASS@1",
+      "toRef": "K01-WF-SET-CLASS-PRIME@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-PRIME@1",
+      "toRef": "K01-CL-09-07-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-PRIME@1",
+      "toRef": "K01-CL-09-08-01@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-PRIME@1",
+      "toRef": "K01-CL-09-08-02@1"
+    },
+    {
+      "type": "uses_knowledge",
+      "fromRef": "K01-WF-SET-CLASS-PRIME@1",
+      "toRef": "K01-CL-09-08-03@1"
+    },
+    {
+      "type": "revises",
+      "fromRef": "K01-ANALYSIS-V2@1",
+      "toRef": "K01-ANALYSIS-V1@1"
+    }
+  ],
+  "stateRules": [
+    {
+      "event": "PROTECTED_CHANGE",
+      "fromStates": [
+        "DRAFT_CANDIDATE",
+        "SYMBOLIC_CHECKED"
+      ],
+      "toState": "REJECTED",
+      "effect": "retain baseline; no adoption"
+    },
+    {
+      "event": "SYMBOLIC_PASS",
+      "fromStates": [
+        "DRAFT_CANDIDATE"
+      ],
+      "toState": "SYMBOLIC_CHECKED",
+      "effect": "bound to exact candidate and conditions, not external verified"
+    },
+    {
+      "event": "INPUT_OR_RULE_CHANGE",
+      "fromStates": [
+        "DRAFT_CANDIDATE",
+        "SYMBOLIC_CHECKED"
+      ],
+      "toState": "INVALIDATED",
+      "effect": "old evidence retained, fresh candidate/retest required"
+    },
+    {
+      "event": "EXTERNAL_EVIDENCE_MISSING",
+      "fromStates": [
+        "DRAFT_CANDIDATE",
+        "SYMBOLIC_CHECKED"
+      ],
+      "toState": "UNKNOWN_EXTERNAL",
+      "effect": "no host verification or rollback claim"
+    }
+  ],
+  "limits": [
+    "no actual audio, tool execution, authorization or universal theory engine",
+    "UNKNOWN and REJECTED never adopt candidate",
+    "project constraints distinct from formal professional Claim",
+    "T07 integration required for unified consumption"
+  ]
+}

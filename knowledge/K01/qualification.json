@@ -1,0 +1,2837 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K01",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "c424d8f8ffc5234523c5f0c1128a91dce91566de",
+  "sourceQualifications": [
+    {
+      "source": "S021@1",
+      "scope": "冻结来源定位：K01.01 音程级数/性质/等音异名；教材；传统记谱下的音程命名，不适用于所有音乐体系；在线章节版本/许可待固定",
+      "limits": "教材；传统记谱下的音程命名，不适用于所有音乐体系；在线章节版本/许可待固定；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://viva.pressbooks.pub/openmusictheory/chapter/intervals/"
+    },
+    {
+      "source": "S022@1",
+      "scope": "冻结来源定位：K01.02 参考音/十二平均律频率，K07.01；大学教学资料；A4=440 为明确假设，不代表所有调律；页面未见稳定版本/许可",
+      "limits": "大学教学资料；A4=440 为明确假设，不代表所有调律；页面未见稳定版本/许可；仅继承冻结已定位资格，无本轮外部重读或许可提升。 冻结R3定向重读记录音分公式；不冒称本轮外部原文重读。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://newt.phys.unsw.edu.au/jw/notes.html"
+    },
+    {
+      "source": "S028@1",
+      "scope": "冻结来源定位：K01.01/09；音程名称、半音、方向、移调及猜测的音程性质；READ_LOCATOR；工具文档，当前版本待 pin，未调用",
+      "limits": "READ_LOCATOR；工具文档，当前版本待 pin，未调用；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://music21.org/music21docs/usersGuide/usersGuide_18_intervals.html"
+    },
+    {
+      "source": "S029@1",
+      "scope": "冻结来源定位：K01.03/02/09；有方向的音阶间隔表示；READ_LOCATOR；不证明所有调律或音阶实现正确",
+      "limits": "READ_LOCATOR；不证明所有调律或音阶实现正确；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://music21.org/music21docs/moduleReference/moduleScale.html"
+    },
+    {
+      "source": "S030@1",
+      "scope": "冻结来源定位：K01.05/09；根音、低音和转位、排序区别；READ_LOCATOR；工具行为及算法例，非一般乐理规范；版本待 pin",
+      "limits": "READ_LOCATOR；工具行为及算法例，非一般乐理规范；版本待 pin；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://music21.org/music21docs/moduleReference/moduleChord.html"
+    },
+    {
+      "source": "S069@1",
+      "scope": "冻结来源定位：K02.03/04、K01.07；READ_LOCATOR；动机、片段、发展；教材图例未复制，具体版本/许可待定",
+      "limits": "READ_LOCATOR；动机、片段、发展；教材图例未复制，具体版本/许可待定；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/MotiveSection.html"
+    },
+    {
+      "source": "S071@1",
+      "scope": "冻结来源定位：K02.03/05、K01.07；READ_LOCATOR；特定调性分析下乐句终止强弱，不普遍化",
+      "limits": "READ_LOCATOR；特定调性分析下乐句终止强弱，不普遍化；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/PeriodForm.html"
+    },
+    {
+      "source": "S078@1",
+      "scope": "冻结来源定位：K02.06/08 K03.08 K04.04；READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真",
+      "limits": "READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/"
+    },
+    {
+      "source": "S174@1",
+      "scope": "冻结来源定位：§9.4、§9.4.1；功能与进行的常见语境和例外",
+      "limits": "功能与进行的常见语境和例外；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/HarmonicFunction.html"
+    },
+    {
+      "source": "S175@1",
+      "scope": "冻结来源定位：§7.4；乐句终止的四种基础类型；PAC/IAC细分需另读",
+      "limits": "乐句终止的四种基础类型；PAC/IAC细分需另读；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/cadences.html"
+    },
+    {
+      "source": "S176@1",
+      "scope": "冻结来源定位：§10.1 Table 10.1.1及qualifiers；按和弦归属、前后运动、节拍区分；具体类型仍需各节",
+      "limits": "按和弦归属、前后运动、节拍区分；具体类型仍需各节；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/NonChordTonesIntroduction.html"
+    },
+    {
+      "source": "S177@1",
+      "scope": "冻结来源定位：§17.4；候选识别步骤；上下文确认功能",
+      "limits": "候选识别步骤；上下文确认功能；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/AnalyzingSecondaryDominants.html"
+    },
+    {
+      "source": "S178@1",
+      "scope": "冻结来源定位：§22.2及Table 22.2.3；主音化/转调及短调性片段歧义",
+      "limits": "主音化/转调及短调性片段歧义；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TonicizationVersusModulation.html"
+    },
+    {
+      "source": "S179@1",
+      "scope": "冻结来源定位：§19.1文本例子（含Fig19.1.9附近）；平行调借用示例；再次定位访问失败，细则待补",
+      "limits": "平行调借用示例；再次定位访问失败，细则待补；仅继承冻结已定位资格，无本轮外部重读或许可提升。 原访问失败保留；冻结同文件L25记录后续正文重读成功，范围仅大调借用同主音小调候选。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/ModeMixtureSection.html"
+    },
+    {
+      "source": "S180@1",
+      "scope": "冻结来源定位：§21.6比较表；比较候选类型；不把表当完整识别或解决规则",
+      "limits": "比较候选类型；不把表当完整识别或解决规则；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/DistinguishingBetweenChromaticHarmonies.html"
+    },
+    {
+      "source": "S181@1",
+      "scope": "冻结来源定位：§31.2；6/13、sus/11教学约定及例外",
+      "limits": "6/13、sus/11教学约定及例外；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/ChordSymbolSpecifics.html"
+    },
+    {
+      "source": "S182@1",
+      "scope": "冻结来源定位：§31.7.1–2；导向音及配置例；不作全部爵士硬约束",
+      "limits": "导向音及配置例；不作全部爵士硬约束；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html"
+    },
+    {
+      "source": "S183@1",
+      "scope": "冻结来源定位：§34.1.2；P/I/R/RI编号约定；完整变换公式需复核",
+      "limits": "P/I/R/RI编号约定；完整变换公式需复核；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TwelveToneTechnique.html"
+    },
+    {
+      "source": "S184@1",
+      "scope": "冻结来源定位：§8.1；常见五种七和弦；不穷尽",
+      "limits": "常见五种七和弦；不穷尽；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/SeventhChordsIntroduction.html"
+    },
+    {
+      "source": "S185@1",
+      "scope": "冻结来源定位：§24.8；比例、性质、时代为分析线索非充分条件",
+      "limits": "比例、性质、时代为分析线索非充分条件；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/DistinguishingBetweenRoundedBinaryAndTernary.html"
+    },
+    {
+      "source": "S186@1",
+      "scope": "冻结来源定位：§33.1–33.1.4；整数表示、等音/八度等价及Forte/Rahn约定差异",
+      "limits": "整数表示、等音/八度等价及Forte/Rahn约定差异；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/SetTheorySection.html"
+    },
+    {
+      "source": "S187@1",
+      "scope": "冻结来源定位：§33.7；模12集合移位",
+      "limits": "模12集合移位；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TranspositionTn.html"
+    },
+    {
+      "source": "S188@1",
+      "scope": "冻结来源定位：§33.8；模12倒影和移位",
+      "limits": "模12倒影和移位；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/InversionTnI.html"
+    },
+    {
+      "source": "S191@1",
+      "scope": "冻结来源定位：§5.4 inversion/quality；交换高低音、互补音程；图表未单独视觉核查",
+      "limits": "交换高低音、互补音程；图表未单独视觉核查；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/InversionOfIntervals.html"
+    },
+    {
+      "source": "S192@1",
+      "scope": "冻结来源定位：2011 Tutti essay, ratios 5:4, 3:2, keyboard temperament paragraphs；纯律比例和连续纯三度不能闭合八度；不把主观听感推广",
+      "limits": "纯律比例和连续纯三度不能闭合八度；不把主观听感推广；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://newt.phys.unsw.edu.au/jw/tartini-temperament.html"
+    },
+    {
+      "source": "S193@1",
+      "scope": "冻结来源定位：§7.1–7.3；独立教材：自然小调/平行大调及步长；原页面章号沿用",
+      "limits": "独立教材：自然小调/平行大调及步长；原页面章号沿用；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://milnepublishing.geneseo.edu/fundamentals-function-form/chapter/7-minor-scales/"
+    },
+    {
+      "source": "S194@1",
+      "scope": "冻结来源定位：§3.1 prose and image descriptions；三种小调及传统旋律小调上下行；未复制谱例",
+      "limits": "三种小调及传统旋律小调上下行；未复制谱例；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/MinorScales.html"
+    },
+    {
+      "source": "S195@1",
+      "scope": "冻结来源定位：§31.9.1–3, Table 31.9.4；蓝调、bebop、调式、全音/八音等；作者分类，不证明所有风格",
+      "limits": "蓝调、bebop、调式、全音/八音等；作者分类，不证明所有风格；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/JazzScales.html"
+    },
+    {
+      "source": "S196@1",
+      "scope": "冻结来源定位：§4.4 text and table；常规单拍/复拍；不泛化到不对称拍",
+      "limits": "常规单拍/复拍；不泛化到不对称拍；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/meter.html"
+    },
+    {
+      "source": "S197@1",
+      "scope": "冻结来源定位：§4.3 text；附点及同音延音；slur定义仅入门描述，不推断所有同音连奏",
+      "limits": "附点及同音延音；slur定义仅入门描述，不推断所有同音连奏；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/DotsAndTies.html"
+    },
+    {
+      "source": "S198@1",
+      "scope": "冻结来源定位：§4.5 triplet/duplet examples text；常规三连音及复拍二连音，任意嵌套需明确比例",
+      "limits": "常规三连音及复拍二连音，任意嵌套需明确比例；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/Tuplets.html"
+    },
+    {
+      "source": "S200@1",
+      "scope": "冻结来源定位：Description/content；实际/正常音符数及嵌套连音表示，宿主行为未验",
+      "limits": "实际/正常音符数及嵌套连音表示，宿主行为未验；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/time-modification/"
+    },
+    {
+      "source": "S201@1",
+      "scope": "冻结来源定位：Symbolic Note Types / Tuplets / Accidentals / Notations；记谱与声音实现不同；格式语义由K12负责",
+      "limits": "记谱与声音实现不同；格式语义由K12负责；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/tutorial/notation-basics/"
+    },
+    {
+      "source": "S202@1",
+      "scope": "冻结来源定位：Description/content；加法/复合拍号及不同分母，非实际重音证明",
+      "limits": "加法/复合拍号及不同分母，非实际重音证明；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/time/"
+    },
+    {
+      "source": "S203@1",
+      "scope": "冻结来源定位：Description；divisions单位、预期时值与记谱/演奏解释分离；chord不推进位置",
+      "limits": "divisions单位、预期时值与记谱/演奏解释分离；chord不推进位置；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/duration/"
+    },
+    {
+      "source": "S209@1",
+      "scope": "冻结来源定位：§5.2 text/table；常用音程的半音距，必须结合书写级数；三全音等音歧义",
+      "limits": "常用音程的半音距，必须结合书写级数；三全音等音歧义；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/HowToIdentifyIntervals.html"
+    },
+    {
+      "source": "S210@1",
+      "scope": "冻结来源定位：§6.1；三度叠置、四种常见三和弦；不穷尽其他构成",
+      "limits": "三度叠置、四种常见三和弦；不穷尽其他构成；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TriadsIntroduction.html"
+    },
+    {
+      "source": "S211@1",
+      "scope": "冻结来源定位：§26.1；四声部及声部独立、经济运动目标",
+      "limits": "四声部及声部独立、经济运动目标；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/VoiceLeading.html"
+    },
+    {
+      "source": "S212@1",
+      "scope": "冻结来源定位：§26.7.1–4；教材限定根音重复、按低音运动分类，阻碍进行例外",
+      "limits": "教材限定根音重复、按低音运动分类，阻碍进行例外；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/VoiceLeadingFourPartsRootPosition.html"
+    },
+    {
+      "source": "S213@1",
+      "scope": "冻结来源定位：§27.3；严格/自由解决；具体练习与真实钢琴作品区分",
+      "limits": "严格/自由解决；具体练习与真实钢琴作品区分；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/V7toIVoiceLeading.html"
+    },
+    {
+      "source": "S214@1",
+      "scope": "冻结来源定位：§20.1；降II、常见第一转位、前属功能语境",
+      "limits": "降II、常见第一转位、前属功能语境；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/NeapolitanIntroduction.html"
+    },
+    {
+      "source": "S215@1",
+      "scope": "冻结来源定位：§21.2；It/Fr/Ger构成及等音德国增六的作者约定",
+      "limits": "It/Fr/Ger构成及等音德国增六的作者约定；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TypesOfAugmentedSixthChords.html"
+    },
+    {
+      "source": "S216@1",
+      "scope": "冻结来源定位：§29.4；升4常向5，V7等例外；不绝对化",
+      "limits": "升4常向5，V7等例外；不绝对化；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/VoiceLeadingAugmentedSixthChords.html"
+    },
+    {
+      "source": "S217@1",
+      "scope": "冻结来源定位：§30.2；作者明确简化的十六世纪风格训练规则",
+      "limits": "作者明确简化的十六世纪风格训练规则；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/FirstSpecies.html"
+    },
+    {
+      "source": "S218@1",
+      "scope": "冻结来源定位：§30.3（正文及具体规则）；常规2:1及弱位经过不协和；存在3:1及结尾例外，详细规则仍待交叉核验",
+      "limits": "常规2:1及弱位经过不协和；存在3:1及结尾例外，详细规则仍待交叉核验；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/SecondSpecies.html"
+    },
+    {
+      "source": "S219@1",
+      "scope": "冻结来源定位：§25.1.1–3；古典时代一般模型、无展开部等变体",
+      "limits": "古典时代一般模型、无展开部等变体；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/SonataIntroduction.html"
+    },
+    {
+      "source": "S220@1",
+      "scope": "冻结来源定位：§25.2.1–4；呈示/过渡/发展/结束；非充分识别条件",
+      "limits": "呈示/过渡/发展/结束；非充分识别条件；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/FourStructuralFunctions.html"
+    },
+    {
+      "source": "S221@1",
+      "scope": "冻结来源定位：§25.3及25.3.1；古典回旋及奏鸣回旋例，实际作品变化",
+      "limits": "古典回旋及奏鸣回旋例，实际作品变化；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/RondoForm.html"
+    },
+    {
+      "source": "S222@1",
+      "scope": "冻结来源定位：§33.2；循环排序、最短跨度及平局方法差异；不保证全部算法细节",
+      "limits": "循环排序、最短跨度及平局方法差异；不保证全部算法细节；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/NormalForm.html"
+    },
+    {
+      "source": "S223@1",
+      "scope": "冻结来源定位：§33.3；移位归零及倒影比较；平局算法需指定版本",
+      "limits": "移位归零及倒影比较；平局算法需指定版本；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/PrimeForm.html"
+    },
+    {
+      "source": "S224@1",
+      "scope": "冻结来源定位：§33.4；六个音程类及两两计数；末段正文012011与末表012111不一致，禁止盲录",
+      "limits": "六个音程类及两两计数；末段正文012011与末表012111不一致，禁止盲录；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/IntervalVector.html"
+    },
+    {
+      "source": "S225@1",
+      "scope": "冻结来源定位：§34.4；矩阵行列构造、48种标记不保证48个不同序列",
+      "limits": "矩阵行列构造、48种标记不保证48个不同序列；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/section-194.html"
+    },
+    {
+      "source": "S232@1",
+      "scope": "冻结来源定位：§6.3/6.3.1；根音/低音及转位；slash bass可能非和弦成员；同一教材谱系",
+      "limits": "根音/低音及转位；slash bass可能非和弦成员；同一教材谱系；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html"
+    },
+    {
+      "source": "S234@1",
+      "scope": "冻结来源定位：§23.2 文字段；同教材谱系；拼写/再解释和后续解决；未核谱例",
+      "limits": "同教材谱系；拼写/再解释和后续解决；未核谱例；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TheV7andGer6asPivotChords.html"
+    },
+    {
+      "source": "S235@1",
+      "scope": "冻结来源定位：§30.4 rules 1,3,5；同教材谱系；特定练习，不推广所有复调",
+      "limits": "同教材谱系；特定练习，不推广所有复调；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/ThirdSpecies.html"
+    },
+    {
+      "source": "S236@1",
+      "scope": "冻结来源定位：§30.5 rules 1,4,5；该教材固定旋律仅在下声部",
+      "limits": "该教材固定旋律仅在下声部；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/FourthSpecies.html"
+    },
+    {
+      "source": "S237@1",
+      "scope": "冻结来源定位：§30.6 开头；仅混合前四类的定义；非完整约束",
+      "limits": "仅混合前四类的定义；非完整约束；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/FifthSpecies.html"
+    },
+    {
+      "source": "S238@1",
+      "scope": "冻结来源定位：§13.1 三项条件及IAC段；特定教材分类；不把一切非PAC句末归IAC",
+      "limits": "特定教材分类；不把一切非PAC句末归IAC；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/PerfectAuthenticCadence.html"
+    },
+    {
+      "source": "S239@1",
+      "scope": "冻结来源定位：§11.4 开头；古典/流行语境差异、长度非固定",
+      "limits": "古典/流行语境差异、长度非固定；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/PhraseSection.html"
+    },
+    {
+      "source": "S240@1",
+      "scope": "冻结来源定位：§26.2；parallel为similar子类；仅两声部相邻事件",
+      "limits": "parallel为similar子类；仅两声部相邻事件；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TypesOfMotion.html"
+    },
+    {
+      "source": "S241@1",
+      "scope": "冻结来源定位：§1.4；临时记号作用的基本语义；跨声部/跨八度/延音例外待证",
+      "limits": "临时记号作用的基本语义；跨声部/跨八度/延音例外待证；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/Accidentals.html"
+    },
+    {
+      "source": "S242@1",
+      "scope": "冻结来源定位：§1.3 文字段；C4与谱号、B4至C5；图未独立查验",
+      "limits": "C4与谱号、B4至C5；图未独立查验；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/OctaveRegisters.html"
+    },
+    {
+      "source": "S243@1",
+      "scope": "冻结来源定位：§2.3 / 2.3.1；调号基本作用；不由调号唯一判实际调式",
+      "limits": "调号基本作用；不由调号唯一判实际调式；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/MajorKeySignatures.html"
+    },
+    {
+      "source": "S244@1",
+      "scope": "冻结来源定位：MTO 4.4 (1998), §§1.1,3.1–3.3,4.1–4.2,6.1；历史西方键盘调律；不覆盖非十二音体系；版权SMT 1998，未复制图表",
+      "limits": "历史西方键盘调律；不覆盖非十二音体系；版权SMT 1998，未复制图表；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.mtosmt.org/issues/mto.98.4.4/mto.98.4.4.scholtz.html"
+    },
+    {
+      "source": "S245@1",
+      "scope": "冻结来源定位：Beginning/Ending/Independence of lines；独立教材谱系，与S189/227的2e入口区分；原版网页版本未pin",
+      "limits": "独立教材谱系，与S189/227的2e入口区分；原版网页版本未pin；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://openmusictheory.github.io/firstSpecies.html"
+    },
+    {
+      "source": "S247@1",
+      "scope": "冻结来源定位：开头; Strong beats; dissonances；4:1及强弱分级；不同教材例外不可合并成一套硬规则",
+      "limits": "4:1及强弱分级；不同教材例外不可合并成一套硬规则；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://openmusictheory.github.io/thirdSpecies.html"
+    },
+    {
+      "source": "S248@1",
+      "scope": "冻结来源定位：The suspension; Types of suspensions; Using suspensions；上下声部不同规则，原版2022页脚CC BY-SA 4.0；末段措辞疑点不采用",
+      "limits": "上下声部不同规则，原版2022页脚CC BY-SA 4.0；末段措辞疑点不采用；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://openmusictheory.github.io/fourthSpecies.html"
+    },
+    {
+      "source": "S249@1",
+      "scope": "冻结来源定位：Abstract; Results and discussion/Tempo; General discussion；3个在线敲击实验共300参与者，研究条件下分组偏好；不是实际演奏微时值或普遍文化结论；CC Attribution，未取数据",
+      "limits": "3个在线敲击实验共300参与者，研究条件下分组偏好；不是实际演奏微时值或普遍文化结论；CC Attribution，未取数据；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252174"
+    },
+    {
+      "source": "S250@1",
+      "scope": "冻结来源定位：Notes/Staff/Clefs；记谱音高依赖谱号；非所有记谱系统",
+      "limits": "记谱音高依赖谱号；非所有记谱系统；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://openmusictheory.github.io/basicNotation.html"
+    },
+    {
+      "source": "S251@1",
+      "scope": "冻结来源定位：metrical levels; Transcribing straight syncopations；特定流行/摇滚直拍切分模型，不推广所有节奏",
+      "limits": "特定流行/摇滚直拍切分模型，不推广所有节奏；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://openmusictheory.github.io/syncopation.html"
+    },
+    {
+      "source": "S252@1",
+      "scope": "冻结来源定位：Rests; Dots and ties；时值、休止与同音延音",
+      "limits": "时值、休止与同音延音；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://openmusictheory.github.io/rhythmicValues.html"
+    },
+    {
+      "source": "S253@1",
+      "scope": "冻结来源定位：§15.1 Table15.1.1；力度/发音法概念区别；不是装饰音字典或声压标准",
+      "limits": "力度/发音法概念区别；不是装饰音字典或声压标准；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/The-Elements-of-Music.html"
+    },
+    {
+      "source": "S255@1",
+      "scope": "冻结来源定位：Interval; Interval.transposePitch; ChromaticInterval.transposePitch；文档页2026-06-22更新，运行版本未pin；API语义见证，非独立音乐学规则",
+      "limits": "文档页2026-06-22更新，运行版本未pin；API语义见证，非独立音乐学规则；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://music21.org/music21docs/moduleReference/moduleInterval.html"
+    },
+    {
+      "source": "S258@1",
+      "scope": "冻结来源定位：§5.1.1–2；书写级数及音程性质分离；不从半音唯一推拼写",
+      "limits": "书写级数及音程性质分离；不从半音唯一推拼写；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/IntervalsIntroduction.html"
+    },
+    {
+      "source": "S259@1",
+      "scope": "冻结来源定位：§2.2；有序全/半步及逐字母拼写；仅西方七声大调",
+      "limits": "有序全/半步及逐字母拼写；仅西方七声大调；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TheMajorScale.html"
+    },
+    {
+      "source": "S260@1",
+      "scope": "冻结来源定位：§26.6；作者四部练习中S–A、A–T通常不超过八度，B–T可超过；不等于实际人声能力",
+      "limits": "作者四部练习中S–A、A–T通常不超过八度，B–T可超过；不等于实际人声能力；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/RulesOfSpacing.html"
+    },
+    {
+      "source": "S261@1",
+      "scope": "冻结来源定位：§26.4 正文；课堂音域比部分歌者实际音域窄；图示具体数值未核，不录入",
+      "limits": "课堂音域比部分歌者实际音域窄；图示具体数值未核，不录入；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/VoiceRanges.html"
+    },
+    {
+      "source": "S262@1",
+      "scope": "冻结来源定位：§26.3；三/四部指定风格平行五八度等；不推广所有音乐",
+      "limits": "三/四部指定风格平行五八度等；不推广所有音乐；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/ObjectionableParallels.html"
+    },
+    {
+      "source": "S263@1",
+      "scope": "冻结来源定位：§26.12；作者根位/第一/第二转位及第一转位例外；不等于所有作品规范",
+      "limits": "作者根位/第一/第二转位及第一转位例外；不等于所有作品规范；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/SummaryOfDoublingRules.html"
+    },
+    {
+      "source": "S264@1",
+      "scope": "冻结来源定位：§10.4；倚音按跳入级进离开，通常有重音；方向不限；谱例未复制",
+      "limits": "倚音按跳入级进离开，通常有重音；方向不限；谱例未复制；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/Appoggiatura.html"
+    },
+    {
+      "source": "S265@1",
+      "scope": "冻结来源定位：§10.5；级进进入、反向跳出；必须先确定和弦归属",
+      "limits": "级进进入、反向跳出；必须先确定和弦归属；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/EscapeTone.html"
+    },
+    {
+      "source": "S266@1",
+      "scope": "冻结来源定位：§10.6；上下邻音返回起始音，结合和弦成员避免误判",
+      "limits": "上下邻音返回起始音，结合和弦成员避免误判；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/DoubleNeighbor.html"
+    },
+    {
+      "source": "S267@1",
+      "scope": "冻结来源定位：§31.3；5/9变化与保留1/3/7的作者结构模型；alt不唯一指定变化及voicing",
+      "limits": "5/9变化与保留1/3/7的作者结构模型；alt不唯一指定变化及voicing；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/AlteredDominantSeventhChords.html"
+    },
+    {
+      "source": "S268@1",
+      "scope": "冻结来源定位：§23.3 前三段及解释；四种等音重新拼写的候选解决；不保证实际转调",
+      "limits": "四种等音重新拼写的候选解决；不保证实际转调；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/TheFullyDiminishedSeventhAsPivotChord.html"
+    },
+    {
+      "source": "S269@1",
+      "scope": "冻结来源定位：§30.8 定义段；主题、答题、真实/调性答题、插部与对题；不同作者的exposition用语差异",
+      "limits": "主题、答题、真实/调性答题、插部与对题；不同作者的exposition用语差异；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html"
+    },
+    {
+      "source": "S270@1",
+      "scope": "冻结来源定位：tempo、dynamics属性；四分音符每分钟与MIDI力度百分比；格式证据，不代表具体软件支持",
+      "limits": "四分音符每分钟与MIDI力度百分比；格式证据，不代表具体软件支持；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/"
+    },
+    {
+      "source": "S271@1",
+      "scope": "冻结来源定位：content及说明；拍单位/每分钟数及度量关系表示；不是实测播放时间",
+      "limits": "拍单位/每分钟数及度量关系表示；不是实测播放时间；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/metronome/"
+    },
+    {
+      "source": "S272@1",
+      "scope": "冻结来源定位：Content及accidental-mark说明；装饰音类型和局部变音表示；历史演奏实现规则不由格式推出",
+      "limits": "装饰音类型和局部变音表示；历史演奏实现规则不由格式推出；仅继承冻结已定位资格，无本轮外部重读或许可提升。 工具/格式语义或表示参考，不是实际宿主执行或一般理论的独立证明。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/ornaments/"
+    },
+    {
+      "source": "S297@1",
+      "scope": "冻结来源定位：实际正文明确爵士旋律小调上下均升6/7，并区分历史键盘练习与真实作品；READ_LOCATOR；学术研究，未复算作品语料统计、未复制图谱；不外推全部爵士实践",
+      "limits": "READ_LOCATOR；学术研究，未复算作品语料统计、未复制图谱；不外推全部爵士实践；仅继承冻结已定位资格，无本轮外部重读或许可提升。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.brown_lee.php"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K01-E-01-04-01-APPLIES-UNDER-K01-CTX-01-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "普通西方记谱，非旋律倒影或模12集合倒影；普通西方记谱，非旋律倒影或模12集合倒影；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-04-01-SUPPORTED-BY-K01-EV-01-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "普通西方记谱，非旋律倒影或模12集合倒影；普通西方记谱，非旋律倒影或模12集合倒影；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-04-01-SUPPORTED-BY-K01-EV-01-04-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "普通西方记谱，非旋律倒影或模12集合倒影；普通西方记谱，非旋律倒影或模12集合倒影；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-04-01-REQUIRES-K01-CL-01-04-02",
+      "scope": "互补音程的性质检查依赖书写级数与半音性质区别。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-01-04-02-APPLIES-UNDER-K01-CTX-01-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "12TET半音距离与字母级数并用；12TET半音距离与字母级数并用；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-04-02-SUPPORTED-BY-K01-EV-01-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET半音距离与字母级数并用；12TET半音距离与字母级数并用；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-04-02-SUPPORTED-BY-K01-EV-01-04-02-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET半音距离与字母级数并用；12TET半音距离与字母级数并用；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-05-01-APPLIES-UNDER-K01-CTX-01-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "完整复音程命名专项待逐条核验；S028仅工具表示与命名参考，S209简单音程参照；完整复音程命名保留限定，不能凭工具说明声称已运行。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-05-01-SUPPORTED-BY-K01-EV-01-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "完整复音程命名专项待逐条核验；S028仅工具表示与命名参考，S209简单音程参照；完整复音程命名保留限定，不能凭工具说明声称已运行。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-05-01-REFERENCES-K01-CL-01-06-01",
+      "scope": "简单音程书写命名的有限入口。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-01-06-01-APPLIES-UNDER-K01-CTX-01-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "普通西方书写音、12TET简单上行音程；级数由书写字母，性质需半音及级数，复音程/异常拼写另核；普通西方书写音、12TET简单上行音程；级数由书写字母，性质需半音及级数，复音程/异常拼写另核；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-06-01-SUPPORTED-BY-K01-EV-01-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "普通西方书写音、12TET简单上行音程；级数由书写字母，性质需半音及级数，复音程/异常拼写另核；普通西方书写音、12TET简单上行音程；级数由书写字母，性质需半音及级数，复音程/异常拼写另核；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-06-01-REQUIRES-K01-CL-01-04-02",
+      "scope": "同半音异书写的性质判定依赖字母级数和距离共同使用。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-04-01-APPLIES-UNDER-K01-CTX-02-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "音分是频率比的对数表达，不以12TET调律为必要条件；音分是频率比的对数表达，不以12TET调律为必要条件；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-04-01-SUPPORTED-BY-K01-EV-02-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "音分是频率比的对数表达，不以12TET调律为必要条件；音分是频率比的对数表达，不以12TET调律为必要条件；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-04-02-APPLIES-UNDER-K01-CTX-02-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "参考与比例明确；参考与比例明确；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-04-02-SUPPORTED-BY-K01-EV-02-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "参考与比例明确；参考与比例明确；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-04-02-REQUIRES-K01-CL-02-04-01",
+      "scope": "逆式以音分定义及正频率比为必要条件。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-04-03-APPLIES-UNDER-K01-CTX-02-04-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "以频率比比较；以频率比比较；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-04-03-SUPPORTED-BY-K01-EV-02-04-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "以频率比比较；以频率比比较；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-04-03-REQUIRES-K01-CL-02-04-01",
+      "scope": "同Hz差比较须先用实际比值定义音分。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-05-01-APPLIES-UNDER-K01-CTX-02-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "指定纯五度模型及12TET；指定纯五度模型及12TET；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-05-01-SUPPORTED-BY-K01-EV-02-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定纯五度模型及12TET；指定纯五度模型及12TET；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-05-01-REQUIRES-K01-CL-02-04-01",
+      "scope": "比较两个五度的音分差使用正频率比公式。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-05-02-APPLIES-UNDER-K01-CTX-02-05-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "不推出演奏审美或固定调音处方；不推出演奏审美或固定调音处方；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-05-02-SUPPORTED-BY-K01-EV-02-05-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不推出演奏审美或固定调音处方；不推出演奏审美或固定调音处方；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-05-02-REQUIRES-K01-CL-02-04-01",
+      "scope": "纯三度和平均律三度差使用音分定义。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-05-03-APPLIES-UNDER-K01-CTX-02-05-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "固定三个5:4；不将问题等同全部历史律制；固定三个5:4；不将问题等同全部历史律制；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-05-03-SUPPORTED-BY-K01-EV-02-05-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "固定三个5:4；不将问题等同全部历史律制；固定三个5:4；不将问题等同全部历史律制；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-05-03-REFERENCES-K01-CL-02-07-02",
+      "scope": "八度闭合与其他调律模型的不同约束。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-02-06-01-APPLIES-UNDER-K01-CTX-02-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "量化规则和容差由任务指定；S133仅特定传统乐器背景，不作匿名模型测量；原值、误差、参考及演奏者标识为项目表示契约，R2-L01/R3-T02。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-02-06-01-SUPPORTED-BY-K01-EV-02-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "量化规则和容差由任务指定；S133仅特定传统乐器背景，不作匿名模型测量；原值、误差、参考及演奏者标识为项目表示契约，R2-L01/R3-T02。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-02-06-01-REQUIRES-K01-CL-02-04-01",
+      "scope": "指定参考与量化偏差的计算依赖音分公式。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-06-01-REQUIRES-K01-CL-02-04-02",
+      "scope": "由目标及保存残差恢复原频率须用带参考的逆式。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-06-01-REFERENCES-K01-CL-02-01-01",
+      "scope": "十二平均律目标频率是声明的一种模型。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-02-07-01-APPLIES-UNDER-K01-CTX-02-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "指定连续纯五度与八度归约，非实际所有历史乐器；指定连续纯五度与八度归约，非实际所有历史乐器；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-07-01-SUPPORTED-BY-K01-EV-02-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定连续纯五度与八度归约，非实际所有历史乐器；指定连续纯五度与八度归约，非实际所有历史乐器；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-07-01-SUPPORTED-BY-K01-EV-02-07-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定连续纯五度与八度归约，非实际所有历史乐器；指定连续纯五度与八度归约，非实际所有历史乐器；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-07-01-REQUIRES-K01-CL-02-04-01",
+      "scope": "闭合差的音分表达使用正比值公式。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-02-07-02-APPLIES-UNDER-K01-CTX-02-07-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "指定syntonic comma=81/80；四个相同压缩五度，不等于全部meantone；指定syntonic comma=81/80；四个相同压缩五度，不等于全部meantone；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-07-02-SUPPORTED-BY-K01-EV-02-07-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定syntonic comma=81/80；四个相同压缩五度，不等于全部meantone；指定syntonic comma=81/80；四个相同压缩五度，不等于全部meantone；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-07-02-REQUIRES-K01-CL-02-04-01",
+      "scope": "中庸律比值转换音分时用同一公式。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-03-04-01-APPLIES-UNDER-K01-CTX-03-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "调性音乐；不设固定小节数；调性音乐；不设固定小节数；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-04-01-SUPPORTED-BY-K01-EV-03-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "调性音乐；不设固定小节数；调性音乐；不设固定小节数；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-04-02-APPLIES-UNDER-K01-CTX-03-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "分析范围足够；分析范围足够；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-04-02-SUPPORTED-BY-K01-EV-03-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "分析范围足够；分析范围足够；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-04-02-REFERENCES-K01-CL-03-04-01",
+      "scope": "局部主音化是须比较的竞争解释。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-03-04-03-APPLIES-UNDER-K01-CTX-03-04-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "需完整前后和声；需完整前后和声；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-04-03-SUPPORTED-BY-K01-EV-03-04-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "需完整前后和声；需完整前后和声；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-04-03-REFERENCES-K01-CL-03-04-02",
+      "scope": "转调候选须另核持续中心与终止。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-03-05-01-APPLIES-UNDER-K01-CTX-03-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "西方常规小调与拼写；西方常规小调与拼写；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-05-01-SUPPORTED-BY-K01-EV-03-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "西方常规小调与拼写；西方常规小调与拼写；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-05-01-REFERENCES-K01-CL-03-09-01",
+      "scope": "平行大调参考的有序书写构造。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-03-05-02-APPLIES-UNDER-K01-CTX-03-05-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "不表示每个小调乐句都必须含升7；不表示每个小调乐句都必须含升7；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-05-02-SUPPORTED-BY-K01-EV-03-05-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不表示每个小调乐句都必须含升7；不表示每个小调乐句都必须含升7；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-05-02-REQUIRES-K01-CL-03-05-01",
+      "scope": "相对自然小调升7的构造需自然小调基准。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-03-06-01-APPLIES-UNDER-K01-CTX-03-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "教学模型而非所有真实旋律；教学模型而非所有真实旋律；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-06-01-SUPPORTED-BY-K01-EV-03-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "教学模型而非所有真实旋律；教学模型而非所有真实旋律；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-06-01-REQUIRES-K01-CL-03-05-01",
+      "scope": "传统旋律小调上行和下行以自然小调为基准。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-03-06-02-APPLIES-UNDER-K01-CTX-03-06-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "不把古典练习规则强加爵士；S195音级表不单独证明爵士下降用法；S297 §6.6提供明确限定，真实作品不必遵循练习。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-06-02-SUPPORTED-BY-K01-EV-03-06-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不把古典练习规则强加爵士；S195音级表不单独证明爵士下降用法；S297 §6.6提供明确限定，真实作品不必遵循练习。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-06-02-SUPPORTED-BY-K01-EV-03-06-02-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不把古典练习规则强加爵士；S195音级表不单独证明爵士下降用法；S297 §6.6提供明确限定，真实作品不必遵循练习。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-06-02-REFERENCES-K01-CL-03-06-01",
+      "scope": "爵士与传统练习方向约定比较，不合并。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-03-07-01-APPLIES-UNDER-K01-CTX-03-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "西方七声音阶、指定主音；西方七声音阶、指定主音；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-07-01-SUPPORTED-BY-K01-EV-03-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "西方七声音阶、指定主音；西方七声音阶、指定主音；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-07-01-REFERENCES-K01-CL-03-07-02",
+      "scope": "中心未知时相同集合有竞争解释。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-03-07-02-APPLIES-UNDER-K01-CTX-03-07-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "需要旋律/和声/强调等证据；需要旋律/和声/强调等证据；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-07-02-SUPPORTED-BY-K01-EV-03-07-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "需要旋律/和声/强调等证据；需要旋律/和声/强调等证据；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-08-01-APPLIES-UNDER-K01-CTX-03-08-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "仅此爵士教学模型，不等于实际连续音高或所有五声体系；仅此爵士教学模型，不等于实际连续音高或所有五声体系；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-08-01-SUPPORTED-BY-K01-EV-03-08-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "仅此爵士教学模型，不等于实际连续音高或所有五声体系；仅此爵士教学模型，不等于实际连续音高或所有五声体系；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-08-02-APPLIES-UNDER-K01-CTX-03-08-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "以12TET为限定、允许等音拼写；以12TET为限定、允许等音拼写；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-08-02-SUPPORTED-BY-K01-EV-03-08-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "以12TET为限定、允许等音拼写；以12TET为限定、允许等音拼写；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-08-03-APPLIES-UNDER-K01-CTX-03-08-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "不把理论表当全部表现；教材音阶表不能唯一推出实际弯音/微时值；不是对全部风格的经验结论。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-08-03-SUPPORTED-BY-K01-EV-03-08-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不把理论表当全部表现；教材音阶表不能唯一推出实际弯音/微时值；不是对全部风格的经验结论。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-09-01-APPLIES-UNDER-K01-CTX-03-09-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "西方七声大调，指定主音拼写；连续七个不同字母，按2,2,1,2,2,2,1闭合；西方七声大调，指定主音拼写；连续七个不同字母，按2,2,1,2,2,2,1闭合；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-09-01-SUPPORTED-BY-K01-EV-03-09-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "西方七声大调，指定主音拼写；连续七个不同字母，按2,2,1,2,2,2,1闭合；西方七声大调，指定主音拼写；连续七个不同字母，按2,2,1,2,2,2,1闭合；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-09-01-REQUIRES-K01-CL-03-01-01",
+      "scope": "构造和闭合时须区分有序相邻步长与偏移。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-04-04-01-APPLIES-UNDER-K01-CTX-04-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "标准复二拍语境，不由所有分数拍号强推；教材拍层定义；S199工具表示不证明音乐语义。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-04-04-01-SUPPORTED-BY-K01-EV-04-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "标准复二拍语境，不由所有分数拍号强推；教材拍层定义；S199工具表示不证明音乐语义。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-04-04-02-APPLIES-UNDER-K01-CTX-04-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "固定速度、指定拍单位；固定速度、指定拍单位；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-04-02-SUPPORTED-BY-K01-EV-04-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "固定速度、指定拍单位；固定速度、指定拍单位；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-04-02-REFERENCES-K01-CL-04-04-01",
+      "scope": "拍单位须随给定常规分组明确。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-04-05-01-APPLIES-UNDER-K01-CTX-04-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "分组由谱/语境明确，不以软件默认替代真实听感；有序组长及单位明确；MusicXML表示例，不是实际听感；S199仅工具背景。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-04-05-01-SUPPORTED-BY-K01-EV-04-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "分组由谱/语境明确，不以软件默认替代真实听感；有序组长及单位明确；MusicXML表示例，不是实际听感；S199仅工具背景。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-04-05-02-APPLIES-UNDER-K01-CTX-04-05-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "单位统一为全音符比例；单位统一为全音符比例；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-05-02-SUPPORTED-BY-K01-EV-04-05-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "单位统一为全音符比例；单位统一为全音符比例；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-05-02-REFERENCES-K01-CL-04-05-01",
+      "scope": "有序分组及总量不同判定轴。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-04-06-01-APPLIES-UNDER-K01-CTX-04-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "同类型等分、3:2；非所有3个音构成三连音；同类型等分、3:2；非所有3个音构成三连音；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-06-01-SUPPORTED-BY-K01-EV-04-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "同类型等分、3:2；非所有3个音构成三连音；同类型等分、3:2；非所有3个音构成三连音；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-06-01-SUPPORTED-BY-K01-EV-04-06-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "同类型等分、3:2；非所有3个音构成三连音；同类型等分、3:2；非所有3个音构成三连音；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-06-02-APPLIES-UNDER-K01-CTX-04-06-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "明确2:3及音符类型；明确2:3及音符类型；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-06-02-SUPPORTED-BY-K01-EV-04-06-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "明确2:3及音符类型；明确2:3及音符类型；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-06-03-APPLIES-UNDER-K01-CTX-04-06-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "格式owner K12，实际宿主待测试；格式owner K12，实际宿主待测试；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-06-03-SUPPORTED-BY-K01-EV-04-06-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "格式owner K12，实际宿主待测试；格式owner K12，实际宿主待测试；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-06-03-REQUIRES-K01-CL-04-06-01",
+      "scope": "主例两层3:2由局部普通八分转三连时值规则相乘。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-04-07-01-APPLIES-UNDER-K01-CTX-04-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "周期同时起始、严格等分；周期同时起始、严格等分；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-07-01-SUPPORTED-BY-K01-EV-04-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "周期同时起始、严格等分；周期同时起始、严格等分；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-07-01-REFERENCES-K01-CL-04-09-01",
+      "scope": "理想网格和实际敲击观测区别。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-04-08-01-APPLIES-UNDER-K01-CTX-04-08-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "指定流行/摇滚直拍模型与已知拍层级；不推广所有切分；指定流行/摇滚直拍模型与已知拍层级；不推广所有切分；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-08-01-SUPPORTED-BY-K01-EV-04-08-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定流行/摇滚直拍模型与已知拍层级；不推广所有切分；指定流行/摇滚直拍模型与已知拍层级；不推广所有切分；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-08-02-APPLIES-UNDER-K01-CTX-04-08-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "普通单声部名义记谱，休止不必表示整个声场无声；普通单声部名义记谱，休止不必表示整个声场无声；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-08-02-SUPPORTED-BY-K01-EV-04-08-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "普通单声部名义记谱，休止不必表示整个声场无声；普通单声部名义记谱，休止不必表示整个声场无声；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-09-01-APPLIES-UNDER-K01-CTX-04-09-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "300参与者、3在线敲击实验；K17拥有实证机制，K01只负责区分时基和观测；300参与者、3在线敲击实验；K17拥有实证机制，K01只负责区分时基和观测；只保留时基/观察量分离；认知机制主责K17；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-09-01-SUPPORTED-BY-K01-EV-04-09-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "300参与者、3在线敲击实验；K17拥有实证机制，K01只负责区分时基和观测；300参与者、3在线敲击实验；K17拥有实证机制，K01只负责区分时基和观测；只保留时基/观察量分离；认知机制主责K17；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-09-01-REFERENCES-K01-CL-04-07-01",
+      "scope": "参考理想网格，不以数学结果替代研究观察。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-04-10-01-APPLIES-UNDER-K01-CTX-04-10-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "已知每段拍单位和恒定BPM，时长逐段相加；连续速度变化、swing、实际表演需另证；已知每段拍单位和恒定BPM，时长逐段相加；连续速度变化、swing、实际表演需另证；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-10-01-SUPPORTED-BY-K01-EV-04-10-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "已知每段拍单位和恒定BPM，时长逐段相加；连续速度变化、swing、实际表演需另证；已知每段拍单位和恒定BPM，时长逐段相加；连续速度变化、swing、实际表演需另证；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-10-01-SUPPORTED-BY-K01-EV-04-10-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "已知每段拍单位和恒定BPM，时长逐段相加；连续速度变化、swing、实际表演需另证；已知每段拍单位和恒定BPM，时长逐段相加；连续速度变化、swing、实际表演需另证；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-04-10-01-REQUIRES-K01-CL-04-04-02",
+      "scope": "每个恒速段须先依据指定拍单位换算时长。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-05-04-01-APPLIES-UNDER-K01-CTX-05-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "传统三度叠置和弦，五类不穷尽；传统三度叠置和弦，五类不穷尽；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-04-01-SUPPORTED-BY-K01-EV-05-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "传统三度叠置和弦，五类不穷尽；传统三度叠置和弦，五类不穷尽；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-04-02-APPLIES-UNDER-K01-CTX-05-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "已知音名和根音；已知音名和根音；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-04-02-SUPPORTED-BY-K01-EV-05-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "已知音名和根音；已知音名和根音；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-04-02-REFERENCES-K01-CL-05-04-01",
+      "scope": "常见五类七和弦总览。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-04-03-APPLIES-UNDER-K01-CTX-05-04-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "传统记谱，等音集合不等于功能；传统记谱，等音集合不等于功能；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-04-03-SUPPORTED-BY-K01-EV-05-04-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "传统记谱，等音集合不等于功能；传统记谱，等音集合不等于功能；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-04-03-REFERENCES-K01-CL-05-04-01",
+      "scope": "五类结构中的两种减类比较。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-05-01-APPLIES-UNDER-K01-CTX-05-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "教材功能模型，非跨文化普遍；教材功能模型，非跨文化普遍；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-05-01-SUPPORTED-BY-K01-EV-05-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "教材功能模型，非跨文化普遍；教材功能模型，非跨文化普遍；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-05-02-APPLIES-UNDER-K01-CTX-05-05-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "教材分类，不唯一；教材分类，不唯一；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-05-02-SUPPORTED-BY-K01-EV-05-05-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "教材分类，不唯一；教材分类，不唯一；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-06-01-APPLIES-UNDER-K01-CTX-05-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "大三和弦或大小七和弦，目标为调内和弦；再核对上下文；大三和弦或大小七和弦，目标为调内和弦；再核对上下文；原措辞有方向歧义，区分分析下行五度与反向构造上行五度；当前原登记已修订；见D7→G；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-06-01-SUPPORTED-BY-K01-EV-05-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "大三和弦或大小七和弦，目标为调内和弦；再核对上下文；大三和弦或大小七和弦，目标为调内和弦；再核对上下文；原措辞有方向歧义，区分分析下行五度与反向构造上行五度；当前原登记已修订；见D7→G；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-06-02-APPLIES-UNDER-K01-CTX-05-06-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "需要前后进行及调性；需要前后进行及调性；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-06-02-SUPPORTED-BY-K01-EV-05-06-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "需要前后进行及调性；需要前后进行及调性；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-06-02-REQUIRES-K01-CL-05-06-01",
+      "scope": "对D7副属候选需查根音和目标关系，仍不证明实际功能。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-05-06-02-REFERENCES-K01-CL-03-04-01",
+      "scope": "局部主音化与转调边界。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-07-01-APPLIES-UNDER-K01-CTX-05-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "以西方调性语境为限；原文二次定位失败；以西方调性语境为限；历史二次访问失败，当前正文重读成功；S179正文重读成功，本轮仍只保留指定调性借用候选；非转调充分判据；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-07-01-SUPPORTED-BY-K01-EV-05-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "以西方调性语境为限；原文二次定位失败；以西方调性语境为限；历史二次访问失败，当前正文重读成功；S179正文重读成功，本轮仍只保留指定调性借用候选；非转调充分判据；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-07-01-REFERENCES-K01-CL-03-04-01",
+      "scope": "借用不等转调。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-08-01-APPLIES-UNDER-K01-CTX-05-08-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "分类表仅初筛，具体构成待逐节阅读；分类表仅初筛，具体构成待逐节阅读；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-08-01-SUPPORTED-BY-K01-EV-05-08-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "分类表仅初筛，具体构成待逐节阅读；分类表仅初筛，具体构成待逐节阅读；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-09-01-APPLIES-UNDER-K01-CTX-05-09-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者入门约定，非所有演奏voicing；作者入门约定，非所有演奏voicing；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-09-01-SUPPORTED-BY-K01-EV-05-09-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者入门约定，非所有演奏voicing；作者入门约定，非所有演奏voicing；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-09-01-REFERENCES-K01-CL-05-12-02",
+      "scope": "省略音造成结构标签歧义。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-09-02-APPLIES-UNDER-K01-CTX-05-09-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者约定；不能从遗漏音唯一逆推；作者约定；不能从遗漏音唯一逆推；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-09-02-SUPPORTED-BY-K01-EV-05-09-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者约定；不能从遗漏音唯一逆推；作者约定；不能从遗漏音唯一逆推；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-10-01-APPLIES-UNDER-K01-CTX-05-10-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "三度叠置七和弦；三度叠置七和弦；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-10-01-SUPPORTED-BY-K01-EV-05-10-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "三度叠置七和弦；三度叠置七和弦；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-10-02-APPLIES-UNDER-K01-CTX-05-10-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "明确调性、voicing与声部身份；明确调性、voicing与声部身份；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-10-02-SUPPORTED-BY-K01-EV-05-10-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "明确调性、voicing与声部身份；明确调性、voicing与声部身份；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-10-02-REQUIRES-K01-CL-05-10-01",
+      "scope": "导向音连接需识别各给定七和弦的三音七音。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-05-10-03-APPLIES-UNDER-K01-CTX-05-10-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "K03配器与K04演奏另证；K03配器与K04演奏另证；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-10-03-SUPPORTED-BY-K01-EV-05-10-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "K03配器与K04演奏另证；K03配器与K04演奏另证；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-10-03-REFERENCES-K01-CL-05-12-01",
+      "scope": "同结构的低音/转位与实际voicing分开。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-11-01-APPLIES-UNDER-K01-CTX-05-11-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "传统三度叠置；不把任意三音集合当三和弦；传统三度叠置；不把任意三音集合当三和弦；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-11-01-SUPPORTED-BY-K01-EV-05-11-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "传统三度叠置；不把任意三音集合当三和弦；传统三度叠置；不把任意三音集合当三和弦；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-11-02-APPLIES-UNDER-K01-CTX-05-11-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "12TET与书写拼写，音程性质须核对；12TET与书写拼写，音程性质须核对；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-11-02-SUPPORTED-BY-K01-EV-05-11-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET与书写拼写，音程性质须核对；12TET与书写拼写，音程性质须核对；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-11-02-REFERENCES-K01-CL-05-11-01",
+      "scope": "传统三度叠置结构前提。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-12-01-APPLIES-UNDER-K01-CTX-05-12-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "已知实际低音，不以音级集合代替；已知实际低音，不以音级集合代替；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-12-01-SUPPORTED-BY-K01-EV-05-12-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "已知实际低音，不以音级集合代替；已知实际低音，不以音级集合代替；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-12-01-REQUIRES-K01-CL-05-11-01",
+      "scope": "三和弦转位按根三五成员相对最低音判断。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-05-12-02-APPLIES-UNDER-K01-CTX-05-12-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "须区分低音与根音、分析上下文；S030工具root/inversion仅表示背景；S181实际和弦上下文不能由低音唯一逆推，根音算法非专业通则。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-12-02-SUPPORTED-BY-K01-EV-05-12-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "须区分低音与根音、分析上下文；S030工具root/inversion仅表示背景；S181实际和弦上下文不能由低音唯一逆推，根音算法非专业通则。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-12-02-SUPPORTED-BY-K01-EV-05-12-02-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "须区分低音与根音、分析上下文；S030工具root/inversion仅表示背景；S181实际和弦上下文不能由低音唯一逆推，根音算法非专业通则。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-12-02-REFERENCES-K01-CL-05-12-01",
+      "scope": "根音已知与低音非成员边界。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-13-01-APPLIES-UNDER-K01-CTX-05-13-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "已给调性，前属功能是语境分析；已给调性，前属功能是语境分析；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-13-01-SUPPORTED-BY-K01-EV-05-13-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "已给调性，前属功能是语境分析；已给调性，前属功能是语境分析；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-14-01-APPLIES-UNDER-K01-CTX-05-14-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者常见三类，不以地名推断历史；作者常见三类，不以地名推断历史；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-14-01-SUPPORTED-BY-K01-EV-05-14-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者常见三类，不以地名推断历史；作者常见三类，不以地名推断历史；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-14-02-APPLIES-UNDER-K01-CTX-05-14-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "12TET声音相等不证明功能等价；12TET声音相等不证明功能等价；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-14-02-SUPPORTED-BY-K01-EV-05-14-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET声音相等不证明功能等价；12TET声音相等不证明功能等价；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-14-02-REQUIRES-K01-CL-05-14-01",
+      "scope": "德国增六与等音属七的区分需声明增六成员。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-05-15-01-APPLIES-UNDER-K01-CTX-05-15-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "12TET声音相同、调性和解决须另给；不穷尽等音转调；12TET声音相同、调性和解决须另给；不穷尽等音转调；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-15-01-SUPPORTED-BY-K01-EV-05-15-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET声音相同、调性和解决须另给；不穷尽等音转调；12TET声音相同、调性和解决须另给；不穷尽等音转调；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-15-01-SUPPORTED-BY-K01-EV-05-15-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET声音相同、调性和解决须另给；不穷尽等音转调；12TET声音相同、调性和解决须另给；不穷尽等音转调；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-15-01-SUPPORTED-BY-K01-EV-05-15-01-3",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET声音相同、调性和解决须另给；不穷尽等音转调；12TET声音相同、调性和解决须另给；不穷尽等音转调；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-15-01-REQUIRES-K01-CL-05-14-02",
+      "scope": "等音枢纽候选依书写与实际语境的非等价区别。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-05-15-02-APPLIES-UNDER-K01-CTX-05-15-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "12TET同音类、全减七对称；每音作导音上行半音形成候选中心，仍须解决及调性证据；12TET同音类、全减七对称；每音作导音上行半音形成候选中心，仍须解决及调性证据；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-15-02-SUPPORTED-BY-K01-EV-05-15-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "12TET同音类、全减七对称；每音作导音上行半音形成候选中心，仍须解决及调性证据；12TET同音类、全减七对称；每音作导音上行半音形成候选中心，仍须解决及调性证据；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-15-02-REFERENCES-K01-CL-05-04-03",
+      "scope": "全减七结构的第七音性质。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-05-16-01-APPLIES-UNDER-K01-CTX-05-16-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "指定作者构造语境，根三七保持，5/9变化，alt未完整指定；具体省略/演奏另证；指定作者构造语境，根三七保持，5/9变化，alt未完整指定；具体省略/演奏另证；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-05-16-01-SUPPORTED-BY-K01-EV-05-16-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定作者构造语境，根三七保持，5/9变化，alt未完整指定；具体省略/演奏另证；指定作者构造语境，根三七保持，5/9变化，alt未完整指定；具体省略/演奏另证；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-04-01-APPLIES-UNDER-K01-CTX-06-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "和声分段/声部身份已知；和声分段/声部身份已知；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-04-01-SUPPORTED-BY-K01-EV-06-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "和声分段/声部身份已知；和声分段/声部身份已知；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-04-02-APPLIES-UNDER-K01-CTX-06-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "节拍与事件时序已知；节拍与事件时序已知；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-04-02-SUPPORTED-BY-K01-EV-06-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "节拍与事件时序已知；节拍与事件时序已知；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-04-02-REQUIRES-K01-CL-06-04-01",
+      "scope": "节拍标签须在实际非和弦音归属与运动前提下检查。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-06-05-01-APPLIES-UNDER-K01-CTX-06-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "中间音不属于当前和弦；中间音不属于当前和弦；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-05-01-SUPPORTED-BY-K01-EV-06-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "中间音不属于当前和弦；中间音不属于当前和弦；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-05-01-REQUIRES-K01-CL-06-04-01",
+      "scope": "经过/辅助候选必须先确定和弦归属与同声部前后事件。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-06-06-01-APPLIES-UNDER-K01-CTX-06-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "需核对前后和弦及声部；需核对前后和弦及声部；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-06-01-SUPPORTED-BY-K01-EV-06-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "需核对前后和弦及声部；需核对前后和弦及声部；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-06-01-REQUIRES-K01-CL-06-04-01",
+      "scope": "延留与迟延需先确定变化后的和弦归属与时序。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-06-06-02-APPLIES-UNDER-K01-CTX-06-06-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "只用表内运动线索，实际归属待证；只用表内运动线索，实际归属待证；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-06-02-SUPPORTED-BY-K01-EV-06-06-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "只用表内运动线索，实际归属待证；只用表内运动线索，实际归属待证；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-06-02-REFERENCES-K01-CL-06-04-01",
+      "scope": "预现与持续低音需要更完整前后关系。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-07-01-APPLIES-UNDER-K01-CTX-06-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "403，禁止给硬规则；具体入门规则及整题候选；S189 403线索不得作为规则；S245为原版OMT而非VIVA 2e。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-07-01-SUPPORTED-BY-K01-EV-06-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "403，禁止给硬规则；具体入门规则及整题候选；S189 403线索不得作为规则；S245为原版OMT而非VIVA 2e。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-07-01-REFERENCES-K01-CL-06-11-01",
+      "scope": "逐音协和的指定H1局部规则。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-07-01-REFERENCES-K01-CL-06-11-02",
+      "scope": "起止规则及教材差异。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-08-01-APPLIES-UNDER-K01-CTX-06-08-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "chorale-style 练习，不判所有作品；chorale-style 练习，不判所有作品；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-08-01-SUPPORTED-BY-K01-EV-06-08-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "chorale-style 练习，不判所有作品；chorale-style 练习，不判所有作品；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-08-02-APPLIES-UNDER-K01-CTX-06-08-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "指定作者课堂规则；低音二度的阻碍进行另见§26.7.3及Principle26.7.4，不是此规则的例外；指定作者课堂规则；低音二度的阻碍进行另见§26.7.3及Principle26.7.4，不是此规则的例外；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-08-02-SUPPORTED-BY-K01-EV-06-08-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定作者课堂规则；低音二度的阻碍进行另见§26.7.3及Principle26.7.4，不是此规则的例外；指定作者课堂规则；低音二度的阻碍进行另见§26.7.3及Principle26.7.4，不是此规则的例外；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-08-02-REFERENCES-K01-CL-06-16-01",
+      "scope": "具体完整连接还须检查声部间距。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-08-03-APPLIES-UNDER-K01-CTX-06-08-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "不等于全局最优、非所有风格硬规则；不等于全局最优、非所有风格硬规则；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-08-03-SUPPORTED-BY-K01-EV-06-08-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不等于全局最优、非所有风格硬规则；不等于全局最优、非所有风格硬规则；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-08-03-REFERENCES-K01-CL-06-16-04",
+      "scope": "实际连接须另查运动限制。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-09-01-APPLIES-UNDER-K01-CTX-06-09-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "给定四声部完整属七、指定严格模式；给定四声部完整属七、指定严格模式；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-09-01-SUPPORTED-BY-K01-EV-06-09-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "给定四声部完整属七、指定严格模式；给定四声部完整属七、指定严格模式；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-09-02-APPLIES-UNDER-K01-CTX-06-09-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "明确任务规则集；明确任务规则集；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-09-02-SUPPORTED-BY-K01-EV-06-09-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "明确任务规则集；明确任务规则集；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-09-02-REFERENCES-K01-CL-06-09-01",
+      "scope": "严格与自由解决规则不能混合。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-10-01-APPLIES-UNDER-K01-CTX-06-10-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "目标和声和风格明确；目标和声和风格明确；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-10-01-SUPPORTED-BY-K01-EV-06-10-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "目标和声和风格明确；目标和声和风格明确；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-11-01-APPLIES-UNDER-K01-CTX-06-11-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者两声部十六世纪风格入门规则，非全部复调；作者两声部十六世纪风格入门规则，非全部复调；正向增加协和局部候选，反例用二度；S217 §30.2重读；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-11-01-SUPPORTED-BY-K01-EV-06-11-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者两声部十六世纪风格入门规则，非全部复调；作者两声部十六世纪风格入门规则，非全部复调；正向增加协和局部候选，反例用二度；S217 §30.2重读；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-11-02-APPLIES-UNDER-K01-CTX-06-11-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "完整题须有调式和既定声部；完整题须有调式和既定声部；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-11-02-SUPPORTED-BY-K01-EV-06-11-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "完整题须有调式和既定声部；完整题须有调式和既定声部；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-12-01-APPLIES-UNDER-K01-CTX-06-12-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者普通2:1场景，不推广3:1或其他种类；作者普通2:1场景，不推广3:1或其他种类；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-12-01-SUPPORTED-BY-K01-EV-06-12-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者普通2:1场景，不推广3:1或其他种类；作者普通2:1场景，不推广3:1或其他种类；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-12-01-REFERENCES-K01-CL-06-05-01",
+      "scope": "弱位经过音类别需另查指定规则。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-13-01-APPLIES-UNDER-K01-CTX-06-13-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "非末小节普通4:1，S247首小节可休止起；首拍协和；不要推广全部作品；非末小节普通4:1，S247首小节可休止起；首拍协和；不要推广全部作品；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-13-01-SUPPORTED-BY-K01-EV-06-13-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "非末小节普通4:1，S247首小节可休止起；首拍协和；不要推广全部作品；非末小节普通4:1，S247首小节可休止起；首拍协和；不要推广全部作品；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-13-02-APPLIES-UNDER-K01-CTX-06-13-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "经过音局部与cambiata等例外分开；跨首拍/实际跨小节区分；经过音局部与cambiata等例外分开；跨首拍/实际跨小节区分；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-13-02-SUPPORTED-BY-K01-EV-06-13-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "经过音局部与cambiata等例外分开；跨首拍/实际跨小节区分；经过音局部与cambiata等例外分开；跨首拍/实际跨小节区分；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-14-01-APPLIES-UNDER-K01-CTX-06-14-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "固定旋律在下、上方7–6或4–3局部，非全部规则；固定旋律在下、上方7–6或4–3局部，非全部规则；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-14-01-SUPPORTED-BY-K01-EV-06-14-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "固定旋律在下、上方7–6或4–3局部，非全部规则；固定旋律在下、上方7–6或4–3局部，非全部规则；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-14-02-APPLIES-UNDER-K01-CTX-06-14-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "S236只限定固定旋律在下；S248允许上下方不同模型，不能把教材缺覆盖视为禁止；S236只限定固定旋律在下；S248允许上下方不同模型，不能把教材缺覆盖视为禁止；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-14-02-SUPPORTED-BY-K01-EV-06-14-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "S236只限定固定旋律在下；S248允许上下方不同模型，不能把教材缺覆盖视为禁止；S236只限定固定旋律在下；S248允许上下方不同模型，不能把教材缺覆盖视为禁止；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-14-02-REFERENCES-K01-CL-06-14-01",
+      "scope": "上下固定方向的准备、延留与解决对照。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-06-15-01-APPLIES-UNDER-K01-CTX-06-15-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "仅自由组合定义，合法性和实际作品另证；第五类组合定义及A5整题候选，规则族和建议分开；失败变体不得转正。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-06-15-01-SUPPORTED-BY-K01-EV-06-15-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "仅自由组合定义，合法性和实际作品另证；第五类组合定义及A5整题候选，规则族和建议分开；失败变体不得转正。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-06-16-01-APPLIES-UNDER-K01-CTX-06-16-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者SATB练习，S–A/A–T不超过八度，T–B可超过；局部规则非总合格；作者SATB练习，S–A/A–T不超过八度，T–B可超过；局部规则非总合格；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-01-SUPPORTED-BY-K01-EV-06-16-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者SATB练习，S–A/A–T不超过八度，T–B可超过；局部规则非总合格；作者SATB练习，S–A/A–T不超过八度，T–B可超过；局部规则非总合格；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-02-APPLIES-UNDER-K01-CTX-06-16-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "只使用题目声明的音域边界，不从未核图示录数、不作声乐诊断；只使用题目声明的音域边界，不从未核图示录数、不作声乐诊断；题定音域不等于真实声乐能力；K05/K06主责；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-02-SUPPORTED-BY-K01-EV-06-16-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "只使用题目声明的音域边界，不从未核图示录数、不作声乐诊断；只使用题目声明的音域边界，不从未核图示录数、不作声乐诊断；题定音域不等于真实声乐能力；K05/K06主责；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-03-APPLIES-UNDER-K01-CTX-06-16-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者根位和第二转位重复低音、第一转位通常不重复低音；减三和弦及连续第一转位按明确例外；作者根位和第二转位重复低音、第一转位通常不重复低音；减三和弦及连续第一转位按明确例外；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-03-SUPPORTED-BY-K01-EV-06-16-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者根位和第二转位重复低音、第一转位通常不重复低音；减三和弦及连续第一转位按明确例外；作者根位和第二转位重复低音、第一转位通常不重复低音；减三和弦及连续第一转位按明确例外；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-03-REQUIRES-K01-CL-05-12-01",
+      "scope": "指定重复规则按真实最低音与转位检查。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-06-16-04-APPLIES-UNDER-K01-CTX-06-16-04",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "三/四部作者模型；两条声部身份、相邻事件及方向已知；不推广所有风格；三/四部作者模型；两条声部身份、相邻事件及方向已知；不推广所有风格；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-04-SUPPORTED-BY-K01-EV-06-16-04-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "三/四部作者模型；两条声部身份、相邻事件及方向已知；不推广所有风格；三/四部作者模型；两条声部身份、相邻事件及方向已知；不推广所有风格；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-16-04-REQUIRES-K01-CL-06-01-01",
+      "scope": "平行五八度需判断同一对声部的实际运动及音程。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-06-17-01-APPLIES-UNDER-K01-CTX-06-17-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "先确定和弦成员和实际声部，倚音跳入级进离开、逃音级进进入反向跳出；重音另核；先确定和弦成员和实际声部，倚音跳入级进离开、逃音级进进入反向跳出；重音另核；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-17-01-SUPPORTED-BY-K01-EV-06-17-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "先确定和弦成员和实际声部，倚音跳入级进离开、逃音级进进入反向跳出；重音另核；先确定和弦成员和实际声部，倚音跳入级进离开、逃音级进进入反向跳出；重音另核；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-17-01-SUPPORTED-BY-K01-EV-06-17-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "先确定和弦成员和实际声部，倚音跳入级进离开、逃音级进进入反向跳出；重音另核；先确定和弦成员和实际声部，倚音跳入级进离开、逃音级进进入反向跳出；重音另核；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-17-01-REQUIRES-K01-CL-06-04-01",
+      "scope": "倚音逃音需先确认非和弦归属和同声部运动。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-06-17-02-APPLIES-UNDER-K01-CTX-06-17-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "上下邻音均出现并回原音；需核对和弦时段与分组，非唯一音高标签；上下邻音均出现并回原音；需核对和弦时段与分组，非唯一音高标签；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-17-02-SUPPORTED-BY-K01-EV-06-17-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "上下邻音均出现并回原音；需核对和弦时段与分组，非唯一音高标签；上下邻音均出现并回原音；需核对和弦时段与分组，非唯一音高标签；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-18-01-APPLIES-UNDER-K01-CTX-06-18-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者调性赋格框架；真实答题保持主题音程，调性答题有调性相关变化；需完整主题语境；作者调性赋格框架；真实答题保持主题音程，调性答题有调性相关变化；需完整主题语境；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-18-01-SUPPORTED-BY-K01-EV-06-18-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者调性赋格框架；真实答题保持主题音程，调性答题有调性相关变化；需完整主题语境；作者调性赋格框架；真实答题保持主题音程，调性答题有调性相关变化；需完整主题语境；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-18-01-REFERENCES-K01-CL-07-09-01",
+      "scope": "主题答题局部与整体赋格结构候选不同。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-07-04-01-APPLIES-UNDER-K01-CTX-07-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "教材基础分类，非穷尽；教材基础分类，非穷尽；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-04-01-SUPPORTED-BY-K01-EV-07-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "教材基础分类，非穷尽；教材基础分类，非穷尽；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-04-02-APPLIES-UNDER-K01-CTX-07-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "需实际乐句证据；需实际乐句证据；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-04-02-SUPPORTED-BY-K01-EV-07-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "需实际乐句证据；需实际乐句证据；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-04-02-REQUIRES-K01-CL-07-04-01",
+      "scope": "句中与句末比较使用基础终止分类及边界前提。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-07-05-01-APPLIES-UNDER-K01-CTX-07-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "非充分判据，需结合原谱及风格；非充分判据，需结合原谱及风格；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-05-01-SUPPORTED-BY-K01-EV-07-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "非充分判据，需结合原谱及风格；非充分判据，需结合原谱及风格；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-05-02-APPLIES-UNDER-K01-CTX-07-05-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者明确其他分类方法；作者明确其他分类方法；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-05-02-SUPPORTED-BY-K01-EV-07-05-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者明确其他分类方法；作者明确其他分类方法；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-05-02-REFERENCES-K01-CL-07-05-01",
+      "scope": "两种曲式竞争解释的实际条件。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-07-06-01-APPLIES-UNDER-K01-CTX-07-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "具体作品不一定完全对应；具体作品不一定完全对应；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-06-01-SUPPORTED-BY-K01-EV-07-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "具体作品不一定完全对应；具体作品不一定完全对应；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-06-02-APPLIES-UNDER-K01-CTX-07-06-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "作者sonatina form术语限定；作者sonatina form术语限定；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-06-02-SUPPORTED-BY-K01-EV-07-06-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "作者sonatina form术语限定；作者sonatina form术语限定；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-06-02-REFERENCES-K01-CL-07-06-01",
+      "scope": "无展开变体与一般奏鸣框架的区别。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-07-07-01-APPLIES-UNDER-K01-CTX-07-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "语境和分段须给出；语境和分段须给出；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-07-01-SUPPORTED-BY-K01-EV-07-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "语境和分段须给出；语境和分段须给出；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-07-01-REFERENCES-K01-CL-07-06-01",
+      "scope": "主题加工与结构功能候选。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-07-07-02-APPLIES-UNDER-K01-CTX-07-07-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "古典回旋模型；字母标签非充分证明；古典回旋模型；字母标签非充分证明；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-07-02-SUPPORTED-BY-K01-EV-07-07-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "古典回旋模型；字母标签非充分证明；古典回旋模型；字母标签非充分证明；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-07-02-REFERENCES-K01-CL-07-06-01",
+      "scope": "奏鸣回旋与奏鸣式主题、调性关联。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-07-08-01-APPLIES-UNDER-K01-CTX-07-08-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "先确认句末正格候选，再看根位及最高声部主音；作者规则；先确认句末正格候选，再看根位及最高声部主音；作者规则；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-08-01-SUPPORTED-BY-K01-EV-07-08-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "先确认句末正格候选，再看根位及最高声部主音；作者规则；先确认句末正格候选，再看根位及最高声部主音；作者规则；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-08-01-REQUIRES-K01-CL-07-04-01",
+      "scope": "PAC必须先具备正格句末基础条件。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-07-08-02-APPLIES-UNDER-K01-CTX-07-08-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "在该教材正格终止分类范围内判；vi等非正格不是自动IAC；在该教材正格终止分类范围内判；vi等非正格不是自动IAC；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-08-02-SUPPORTED-BY-K01-EV-07-08-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "在该教材正格终止分类范围内判；vi等非正格不是自动IAC；在该教材正格终止分类范围内判；vi等非正格不是自动IAC；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-08-02-REQUIRES-K01-CL-07-08-01",
+      "scope": "IAC的候选条件依赖正格分类及PAC条件，不等所有非PAC。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-07-09-01-APPLIES-UNDER-K01-CTX-07-09-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "按作者区分完整主题进入与插部；后续呈示/中间进入术语存在差异；非固定段数；按作者区分完整主题进入与插部；后续呈示/中间进入术语存在差异；非固定段数；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-09-01-SUPPORTED-BY-K01-EV-07-09-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "按作者区分完整主题进入与插部；后续呈示/中间进入术语存在差异；非固定段数；按作者区分完整主题进入与插部；后续呈示/中间进入术语存在差异；非固定段数；仅提出条件性候选，需上下文，拒绝唯一归因；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-09-01-REQUIRES-K01-CL-06-18-01",
+      "scope": "已给赋格式事件的答题判定须查有序主题移位与变化。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-08-04-01-APPLIES-UNDER-K01-CTX-08-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "标准记谱名义时值，不等于实际音频；标准记谱名义时值，不等于实际音频；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-04-01-SUPPORTED-BY-K01-EV-08-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "标准记谱名义时值，不等于实际音频；标准记谱名义时值，不等于实际音频；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-04-02-APPLIES-UNDER-K01-CTX-08-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "指定同声部和相同音高，实际演奏另证；指定同声部和相同音高，实际演奏另证；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-04-02-SUPPORTED-BY-K01-EV-08-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "指定同声部和相同音高，实际演奏另证；指定同声部和相同音高，实际演奏另证；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-04-02-REFERENCES-K01-CL-08-06-02",
+      "scope": "实际格式中sound tie及视觉tied另验。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-08-05-01-APPLIES-UNDER-K01-CTX-08-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "正常完整小节；弱起、无小节和例外另处理；正常完整小节；弱起、无小节和例外另处理；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-05-01-SUPPORTED-BY-K01-EV-08-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "正常完整小节；弱起、无小节和例外另处理；正常完整小节；弱起、无小节和例外另处理；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-05-02-APPLIES-UNDER-K01-CTX-08-05-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "MusicXML 4.0为具体格式见证，非所有宿主；MusicXML 4.0为具体格式见证，非所有宿主；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-05-02-SUPPORTED-BY-K01-EV-08-05-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "MusicXML 4.0为具体格式见证，非所有宿主；MusicXML 4.0为具体格式见证，非所有宿主；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-05-02-REQUIRES-K01-CL-04-06-01",
+      "scope": "主例同八分名义类型的三连时值差由3:2比例计算。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-08-06-01-APPLIES-UNDER-K01-CTX-08-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "具体MusicXML版本及语境；传统变音作用范围仍专项；具体MusicXML版本及语境；传统变音作用范围仍专项；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-06-01-SUPPORTED-BY-K01-EV-08-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "具体MusicXML版本及语境；传统变音作用范围仍专项；具体MusicXML版本及语境；传统变音作用范围仍专项；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-06-02-APPLIES-UNDER-K01-CTX-08-06-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "格式主责K12，K01负责语义；格式主责K12，K01负责语义；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-06-02-SUPPORTED-BY-K01-EV-08-06-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "格式主责K12，K01负责语义；格式主责K12，K01负责语义；保存指定信息/语义，实际格式与执行归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-06-02-REFERENCES-K01-CL-04-06-03",
+      "scope": "时值比例和视觉嵌套层次不能互相替代。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-08-06-03-APPLIES-UNDER-K01-CTX-08-06-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "明确保护范围与允许变更，未实测；明确保护范围与允许变更，未实测；符号不变量；宿主和真实工程状态归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-06-03-SUPPORTED-BY-K01-EV-08-06-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "明确保护范围与允许变更，未实测；明确保护范围与允许变更，未实测；符号不变量；宿主和真实工程状态归K12/K09；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-06-03-REFERENCES-K01-CL-08-05-01",
+      "scope": "若编辑影响时值，另核逐声部时间线。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-08-06-03-REFERENCES-K01-CL-08-06-02",
+      "scope": "若编辑涉及连音/延音，另查视觉与声音字段。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-08-07-01-APPLIES-UNDER-K01-CTX-08-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "MusicXML4.0标记类型与局部变音可分别表示；不从标记唯一推出实际历史演奏序列，格式主责K12；MusicXML4.0标记类型与局部变音可分别表示；不从标记唯一推出实际历史演奏序列，格式主责K12；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-07-01-SUPPORTED-BY-K01-EV-08-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "MusicXML4.0标记类型与局部变音可分别表示；不从标记唯一推出实际历史演奏序列，格式主责K12；MusicXML4.0标记类型与局部变音可分别表示；不从标记唯一推出实际历史演奏序列，格式主责K12；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-07-01-SUPPORTED-BY-K01-EV-08-07-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "MusicXML4.0标记类型与局部变音可分别表示；不从标记唯一推出实际历史演奏序列，格式主责K12；MusicXML4.0标记类型与局部变音可分别表示；不从标记唯一推出实际历史演奏序列，格式主责K12；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-04-01-APPLIES-UNDER-K01-CTX-09-04-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "十二音音级集合；十二音音级集合；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-04-01-SUPPORTED-BY-K01-EV-09-04-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "十二音音级集合；十二音音级集合；按本谓词限定语境与相邻构造/判断/表示需求区分；非等价；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-04-02-APPLIES-UNDER-K01-CTX-09-04-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "非序列；另存原谱；非序列；另存原谱；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-04-02-SUPPORTED-BY-K01-EV-09-04-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "非序列；另存原谱；非序列；另存原谱；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-04-02-REQUIRES-K01-CL-09-04-01",
+      "scope": "音级集合构造需先明确模12与音级身份。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-05-01-APPLIES-UNDER-K01-CTX-09-05-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "0..11整数；整数n；0..11整数；整数n；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-05-01-SUPPORTED-BY-K01-EV-09-05-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "0..11整数；整数n；0..11整数；整数n；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-05-02-APPLIES-UNDER-K01-CTX-09-05-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "C=0；与其他倒影记号区分；C=0；与其他倒影记号区分；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-05-02-SUPPORTED-BY-K01-EV-09-05-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "C=0；与其他倒影记号区分；C=0；与其他倒影记号区分；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-05-03-APPLIES-UNDER-K01-CTX-09-05-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "集合对称可能产生多解；集合对称可能产生多解；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-05-03-SUPPORTED-BY-K01-EV-09-05-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "集合对称可能产生多解；集合对称可能产生多解；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-05-03-REQUIRES-K01-CL-09-05-01",
+      "scope": "枚举Tn及逆算使用明确移位模型。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-05-03-REQUIRES-K01-CL-09-05-02",
+      "scope": "声明允许倒影的R3复合枚举分支需TnI定义及自逆；不把倒影当平移。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-06-01-APPLIES-UNDER-K01-CTX-09-06-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "显式声明约定，不跨教材假定；显式声明约定，不跨教材假定；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-06-01-SUPPORTED-BY-K01-EV-09-06-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "显式声明约定，不跨教材假定；显式声明约定，不跨教材假定；限定教材或定义条件；不推广跨风格；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-06-02-APPLIES-UNDER-K01-CTX-09-06-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "不能仅凭同一集合重建行；明确十二音行及矩阵，集合不重建序列；S170目录排除。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-06-02-SUPPORTED-BY-K01-EV-09-06-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不能仅凭同一集合重建行；明确十二音行及矩阵，集合不重建序列；S170目录排除。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-06-02-REFERENCES-K01-CL-09-06-01",
+      "scope": "行变换标签依指定首末音约定。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-09-07-01-APPLIES-UNDER-K01-CTX-09-07-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "整数0..11，跨八度展开；平局算法另证；最短跨度、全部平局比较按声明约定；4095集合验证，非任意音级体系。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-07-01-SUPPORTED-BY-K01-EV-09-07-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "整数0..11，跨八度展开；平局算法另证；最短跨度、全部平局比较按声明约定；4095集合验证，非任意音级体系。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-07-02-APPLIES-UNDER-K01-CTX-09-07-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "非所有教材同算法，完整Forte/Rahn差异待证；F/R完整键与倒影；7-Z18差异及现代研究交叉证据；不把全目录同一化。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-07-02-SUPPORTED-BY-K01-EV-09-07-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "非所有教材同算法，完整Forte/Rahn差异待证；F/R完整键与倒影；7-Z18差异及现代研究交叉证据；不把全目录同一化。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-07-02-SUPPORTED-BY-K01-EV-09-07-02-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "非所有教材同算法，完整Forte/Rahn差异待证；F/R完整键与倒影；7-Z18差异及现代研究交叉证据；不把全目录同一化。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-07-02-REQUIRES-K01-CL-09-07-01",
+      "scope": "原集合及倒影必须先计算指定normal order候选。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-07-02-REFERENCES-K01-CL-09-10-01",
+      "scope": "Forte/Rahn首级平局差异及更深限制。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-09-08-01-APPLIES-UNDER-K01-CTX-09-08-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "d为绝对音级差，重复须先去除；按音程类定义及数学枚举；S226软件只作背景，不是运行证据。S224原文冲突保留。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-08-01-SUPPORTED-BY-K01-EV-09-08-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "d为绝对音级差，重复须先去除；按音程类定义及数学枚举；S226软件只作背景，不是运行证据。S224原文冲突保留。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-08-02-APPLIES-UNDER-K01-CTX-09-08-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "不以来源地位替代验证；不以来源地位替代验证；计数必要而非充分；独立复算教材冲突；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-08-02-SUPPORTED-BY-K01-EV-09-08-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "不以来源地位替代验证；不以来源地位替代验证；计数必要而非充分；独立复算教材冲突；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-08-02-REQUIRES-K01-CL-09-08-01",
+      "scope": "六格计数总和核验依实际无序音级对计数定义。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-08-03-APPLIES-UNDER-K01-CTX-09-08-03",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "十二音集合，非历史创作操作推断；十二音集合，非历史创作操作推断；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-08-03-SUPPORTED-BY-K01-EV-09-08-03-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "十二音集合，非历史创作操作推断；十二音集合，非历史创作操作推断；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-08-03-REQUIRES-K01-CL-09-08-01",
+      "scope": "比较同向量须先正确计算两集合向量。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-08-03-REQUIRES-K01-CL-09-05-01",
+      "scope": "TnI同类验证需枚举全部移位。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-08-03-REQUIRES-K01-CL-09-05-02",
+      "scope": "TnI同类验证同时枚举倒影移位。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-09-01-APPLIES-UNDER-K01-CTX-09-09-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "声明C=0及标记约定；不要求首音为0；矩阵不保留原作时值/音区/声部；声明C=0及标记约定；不要求首音为0；矩阵不保留原作时值/音区/声部；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-09-01-SUPPORTED-BY-K01-EV-09-09-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "声明C=0及标记约定；不要求首音为0；矩阵不保留原作时值/音区/声部；声明C=0及标记约定；不要求首音为0；矩阵不保留原作时值/音区/声部；只在声明数学对象和前提下使用；计算不推出实测；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-09-01-REQUIRES-K01-CL-09-06-02",
+      "scope": "矩阵首列和有序行由明确I变换构造。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-09-02-APPLIES-UNDER-K01-CTX-09-09-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "对称行可能重合，不等于集合排序；对称行可能重合，不等于集合排序；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-09-02-SUPPORTED-BY-K01-EV-09-09-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "对称行可能重合，不等于集合排序；对称行可能重合，不等于集合排序；保留拒绝或缺失信息语义，不作事实推断；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-09-09-02-REQUIRES-K01-CL-09-06-02",
+      "scope": "实际P/I/R/RI重合需先按有序变换定义比较。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-09-10-01-APPLIES-UNDER-K01-CTX-09-10-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "仅当相同最小跨度且首级比较已分胜负，明确Forte/Rahn约定，后续平局不判；原首级比较谓词仍有限；剩余平局流程见K01.09.04.03，不将两键混合。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-10-01-SUPPORTED-BY-K01-EV-09-10-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "仅当相同最小跨度且首级比较已分胜负，明确Forte/Rahn约定，后续平局不判；原首级比较谓词仍有限；剩余平局流程见K01.09.04.03，不将两键混合。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-10-01-SUPPORTED-BY-K01-EV-09-10-01-2",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "仅当相同最小跨度且首级比较已分胜负，明确Forte/Rahn约定，后续平局不判；原首级比较谓词仍有限；剩余平局流程见K01.09.04.03，不将两键混合。；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。 额外补证入口仍在源路由账本，非F00直接边；本命题不以未绑定来源证明更强命题。"
+    },
+    {
+      "edge": "K01-E-09-10-01-REQUIRES-K01-CL-09-07-01",
+      "scope": "平局比较建立在同最小跨度的循环排序候选之上。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-01-01-01-APPLIES-UNDER-K01-CTX-01-01-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "书写/音级/频率身份；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-01-01-SUPPORTED-BY-K01-EV-01-01-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "书写/音级/频率身份；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-01-01-REFERENCES-K01-CL-02-01-01",
+      "scope": "给定参考及音区后可进一步计算理想频率。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-01-03-01-APPLIES-UNDER-K01-CTX-01-03-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "音程移调及实际拼写；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-03-01-SUPPORTED-BY-K01-EV-01-03-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "音程移调及实际拼写；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-01-03-01-REQUIRES-K01-CL-01-06-01",
+      "scope": "书写移调必须同时核对实际目标字母级数与半音性质；复音程额外条件见自身限制。",
+      "limits": "限定命题所需的知识支持，供给方条件仍待核。"
+    },
+    {
+      "edge": "K01-E-01-03-01-REFERENCES-K01-CL-01-05-01",
+      "scope": "跨八度目标的完整方向表示。",
+      "limits": "可选导航，不参与H闭包，不作等价或逆推。"
+    },
+    {
+      "edge": "K01-E-02-01-01-APPLIES-UNDER-K01-CTX-02-01-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "参考频率公式；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-02-01-01-SUPPORTED-BY-K01-EV-02-01-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "参考频率公式；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-01-01-APPLIES-UNDER-K01-CTX-03-01-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "有序步长与根偏移；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-03-01-01-SUPPORTED-BY-K01-EV-03-01-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "有序步长与根偏移；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-01-01-APPLIES-UNDER-K01-CTX-06-01-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "声部运动类别；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-01-01-SUPPORTED-BY-K01-EV-06-01-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "声部运动类别；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-02-02-APPLIES-UNDER-K01-CTX-06-02-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "规则集/规范层级；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-06-02-02-SUPPORTED-BY-K01-EV-06-02-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "规则集/规范层级；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-01-01-APPLIES-UNDER-K01-CTX-07-01-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "动机与分段层次；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-07-01-01-SUPPORTED-BY-K01-EV-07-01-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "动机与分段层次；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-01-02-APPLIES-UNDER-K01-CTX-08-01-02",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "记号作用范围尚有例外；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-01-02-SUPPORTED-BY-K01-EV-08-01-02-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "记号作用范围尚有例外；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-03-01-APPLIES-UNDER-K01-CTX-08-03-01",
+      "scope": "检验声明条件，而非检索自动证实。",
+      "limits": "装饰记号已补格式证据，历史演奏仍OPEN；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    },
+    {
+      "edge": "K01-E-08-03-01-SUPPORTED-BY-K01-EV-08-03-01-1",
+      "scope": "冻结研究定位对限定候选的支撑，不等充分真值证明。",
+      "limits": "装饰记号已补格式证据，历史演奏仍OPEN；仅该旧RETAIN主案例限定；不由历史入口证明更广目标；仅声明的符号/理论或研究范围，不作真实测量、实际工具权限、普遍风格或自动接受。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K01-E-01-04-01-REQUIRES-K01-CL-01-04-02",
+      "consumer": "K01-CL-01-04-01@1",
+      "provider": "K01-CL-01-04-02@1",
+      "condition": "K01-CTX-01-04-01@1",
+      "providerContext": "K01-CTX-01-04-02@1",
+      "group": "K01-GR-01-04-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-01-06-01-REQUIRES-K01-CL-01-04-02",
+      "consumer": "K01-CL-01-06-01@1",
+      "provider": "K01-CL-01-04-02@1",
+      "condition": "K01-CTX-01-06-01@1",
+      "providerContext": "K01-CTX-01-04-02@1",
+      "group": "K01-GR-01-06-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-04-02-REQUIRES-K01-CL-02-04-01",
+      "consumer": "K01-CL-02-04-02@1",
+      "provider": "K01-CL-02-04-01@1",
+      "condition": "K01-CTX-02-04-02@1",
+      "providerContext": "K01-CTX-02-04-01@1",
+      "group": "K01-GR-02-04-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-04-03-REQUIRES-K01-CL-02-04-01",
+      "consumer": "K01-CL-02-04-03@1",
+      "provider": "K01-CL-02-04-01@1",
+      "condition": "K01-CTX-02-04-03@1",
+      "providerContext": "K01-CTX-02-04-01@1",
+      "group": "K01-GR-02-04-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-05-01-REQUIRES-K01-CL-02-04-01",
+      "consumer": "K01-CL-02-05-01@1",
+      "provider": "K01-CL-02-04-01@1",
+      "condition": "K01-CTX-02-05-01@1",
+      "providerContext": "K01-CTX-02-04-01@1",
+      "group": "K01-GR-02-05-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-05-02-REQUIRES-K01-CL-02-04-01",
+      "consumer": "K01-CL-02-05-02@1",
+      "provider": "K01-CL-02-04-01@1",
+      "condition": "K01-CTX-02-05-02@1",
+      "providerContext": "K01-CTX-02-04-01@1",
+      "group": "K01-GR-02-05-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-06-01-REQUIRES-K01-CL-02-04-01",
+      "consumer": "K01-CL-02-06-01@1",
+      "provider": "K01-CL-02-04-01@1",
+      "condition": "K01-CTX-02-06-01@1",
+      "providerContext": "K01-CTX-02-04-01@1",
+      "group": "K01-GR-02-06-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-06-01-REQUIRES-K01-CL-02-04-02",
+      "consumer": "K01-CL-02-06-01@1",
+      "provider": "K01-CL-02-04-02@1",
+      "condition": "K01-CTX-02-06-01@1",
+      "providerContext": "K01-CTX-02-04-02@1",
+      "group": "K01-GR-02-06-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-07-01-REQUIRES-K01-CL-02-04-01",
+      "consumer": "K01-CL-02-07-01@1",
+      "provider": "K01-CL-02-04-01@1",
+      "condition": "K01-CTX-02-07-01@1",
+      "providerContext": "K01-CTX-02-04-01@1",
+      "group": "K01-GR-02-07-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-02-07-02-REQUIRES-K01-CL-02-04-01",
+      "consumer": "K01-CL-02-07-02@1",
+      "provider": "K01-CL-02-04-01@1",
+      "condition": "K01-CTX-02-07-02@1",
+      "providerContext": "K01-CTX-02-04-01@1",
+      "group": "K01-GR-02-07-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-03-05-02-REQUIRES-K01-CL-03-05-01",
+      "consumer": "K01-CL-03-05-02@1",
+      "provider": "K01-CL-03-05-01@1",
+      "condition": "K01-CTX-03-05-02@1",
+      "providerContext": "K01-CTX-03-05-01@1",
+      "group": "K01-GR-03-05-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-03-06-01-REQUIRES-K01-CL-03-05-01",
+      "consumer": "K01-CL-03-06-01@1",
+      "provider": "K01-CL-03-05-01@1",
+      "condition": "K01-CTX-03-06-01@1",
+      "providerContext": "K01-CTX-03-05-01@1",
+      "group": "K01-GR-03-06-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-03-09-01-REQUIRES-K01-CL-03-01-01",
+      "consumer": "K01-CL-03-09-01@1",
+      "provider": "K01-CL-03-01-01@1",
+      "condition": "K01-CTX-03-09-01@1",
+      "providerContext": "K01-CTX-03-01-01@1",
+      "group": "K01-GR-03-09-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-04-06-03-REQUIRES-K01-CL-04-06-01",
+      "consumer": "K01-CL-04-06-03@1",
+      "provider": "K01-CL-04-06-01@1",
+      "condition": "K01-CTX-04-06-03@1",
+      "providerContext": "K01-CTX-04-06-01@1",
+      "group": "K01-GR-04-06-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-04-10-01-REQUIRES-K01-CL-04-04-02",
+      "consumer": "K01-CL-04-10-01@1",
+      "provider": "K01-CL-04-04-02@1",
+      "condition": "K01-CTX-04-10-01@1",
+      "providerContext": "K01-CTX-04-04-02@1",
+      "group": "K01-GR-04-10-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-05-06-02-REQUIRES-K01-CL-05-06-01",
+      "consumer": "K01-CL-05-06-02@1",
+      "provider": "K01-CL-05-06-01@1",
+      "condition": "K01-CTX-05-06-02@1",
+      "providerContext": "K01-CTX-05-06-01@1",
+      "group": "K01-GR-05-06-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-05-10-02-REQUIRES-K01-CL-05-10-01",
+      "consumer": "K01-CL-05-10-02@1",
+      "provider": "K01-CL-05-10-01@1",
+      "condition": "K01-CTX-05-10-02@1",
+      "providerContext": "K01-CTX-05-10-01@1",
+      "group": "K01-GR-05-10-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-05-12-01-REQUIRES-K01-CL-05-11-01",
+      "consumer": "K01-CL-05-12-01@1",
+      "provider": "K01-CL-05-11-01@1",
+      "condition": "K01-CTX-05-12-01@1",
+      "providerContext": "K01-CTX-05-11-01@1",
+      "group": "K01-GR-05-12-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-05-14-02-REQUIRES-K01-CL-05-14-01",
+      "consumer": "K01-CL-05-14-02@1",
+      "provider": "K01-CL-05-14-01@1",
+      "condition": "K01-CTX-05-14-02@1",
+      "providerContext": "K01-CTX-05-14-01@1",
+      "group": "K01-GR-05-14-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-05-15-01-REQUIRES-K01-CL-05-14-02",
+      "consumer": "K01-CL-05-15-01@1",
+      "provider": "K01-CL-05-14-02@1",
+      "condition": "K01-CTX-05-15-01@1",
+      "providerContext": "K01-CTX-05-14-02@1",
+      "group": "K01-GR-05-15-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-06-04-02-REQUIRES-K01-CL-06-04-01",
+      "consumer": "K01-CL-06-04-02@1",
+      "provider": "K01-CL-06-04-01@1",
+      "condition": "K01-CTX-06-04-02@1",
+      "providerContext": "K01-CTX-06-04-01@1",
+      "group": "K01-GR-06-04-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-06-05-01-REQUIRES-K01-CL-06-04-01",
+      "consumer": "K01-CL-06-05-01@1",
+      "provider": "K01-CL-06-04-01@1",
+      "condition": "K01-CTX-06-05-01@1",
+      "providerContext": "K01-CTX-06-04-01@1",
+      "group": "K01-GR-06-05-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-06-06-01-REQUIRES-K01-CL-06-04-01",
+      "consumer": "K01-CL-06-06-01@1",
+      "provider": "K01-CL-06-04-01@1",
+      "condition": "K01-CTX-06-06-01@1",
+      "providerContext": "K01-CTX-06-04-01@1",
+      "group": "K01-GR-06-06-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-06-16-03-REQUIRES-K01-CL-05-12-01",
+      "consumer": "K01-CL-06-16-03@1",
+      "provider": "K01-CL-05-12-01@1",
+      "condition": "K01-CTX-06-16-03@1",
+      "providerContext": "K01-CTX-05-12-01@1",
+      "group": "K01-GR-06-16-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-06-16-03-REQUIRES-K01-CL-05-12-01",
+      "consumer": "K01-CL-06-16-03@1",
+      "provider": "K01-CL-05-12-01@1",
+      "condition": "K01-CTX-06-16-03@1",
+      "providerContext": "K01-CTX-05-12-01@1",
+      "group": "K01-GR-06-16-03-SUP@1"
+    },
+    {
+      "edge": "K01-E-06-16-04-REQUIRES-K01-CL-06-01-01",
+      "consumer": "K01-CL-06-16-04@1",
+      "provider": "K01-CL-06-01-01@1",
+      "condition": "K01-CTX-06-16-04@1",
+      "providerContext": "K01-CTX-06-01-01@1",
+      "group": "K01-GR-06-16-04-MAIN@1"
+    },
+    {
+      "edge": "K01-E-06-16-04-REQUIRES-K01-CL-06-01-01",
+      "consumer": "K01-CL-06-16-04@1",
+      "provider": "K01-CL-06-01-01@1",
+      "condition": "K01-CTX-06-16-04@1",
+      "providerContext": "K01-CTX-06-01-01@1",
+      "group": "K01-GR-06-16-04-SUP@1"
+    },
+    {
+      "edge": "K01-E-06-17-01-REQUIRES-K01-CL-06-04-01",
+      "consumer": "K01-CL-06-17-01@1",
+      "provider": "K01-CL-06-04-01@1",
+      "condition": "K01-CTX-06-17-01@1",
+      "providerContext": "K01-CTX-06-04-01@1",
+      "group": "K01-GR-06-17-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-07-04-02-REQUIRES-K01-CL-07-04-01",
+      "consumer": "K01-CL-07-04-02@1",
+      "provider": "K01-CL-07-04-01@1",
+      "condition": "K01-CTX-07-04-02@1",
+      "providerContext": "K01-CTX-07-04-01@1",
+      "group": "K01-GR-07-04-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-07-08-01-REQUIRES-K01-CL-07-04-01",
+      "consumer": "K01-CL-07-08-01@1",
+      "provider": "K01-CL-07-04-01@1",
+      "condition": "K01-CTX-07-08-01@1",
+      "providerContext": "K01-CTX-07-04-01@1",
+      "group": "K01-GR-07-08-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-07-08-02-REQUIRES-K01-CL-07-08-01",
+      "consumer": "K01-CL-07-08-02@1",
+      "provider": "K01-CL-07-08-01@1",
+      "condition": "K01-CTX-07-08-02@1",
+      "providerContext": "K01-CTX-07-08-01@1",
+      "group": "K01-GR-07-08-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-07-09-01-REQUIRES-K01-CL-06-18-01",
+      "consumer": "K01-CL-07-09-01@1",
+      "provider": "K01-CL-06-18-01@1",
+      "condition": "K01-CTX-07-09-01@1",
+      "providerContext": "K01-CTX-06-18-01@1",
+      "group": "K01-GR-07-09-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-07-09-01-REQUIRES-K01-CL-06-18-01",
+      "consumer": "K01-CL-07-09-01@1",
+      "provider": "K01-CL-06-18-01@1",
+      "condition": "K01-CTX-07-09-01@1",
+      "providerContext": "K01-CTX-06-18-01@1",
+      "group": "K01-GR-07-09-01-SUP@1"
+    },
+    {
+      "edge": "K01-E-08-05-02-REQUIRES-K01-CL-04-06-01",
+      "consumer": "K01-CL-08-05-02@1",
+      "provider": "K01-CL-04-06-01@1",
+      "condition": "K01-CTX-08-05-02@1",
+      "providerContext": "K01-CTX-04-06-01@1",
+      "group": "K01-GR-08-05-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-04-02-REQUIRES-K01-CL-09-04-01",
+      "consumer": "K01-CL-09-04-02@1",
+      "provider": "K01-CL-09-04-01@1",
+      "condition": "K01-CTX-09-04-02@1",
+      "providerContext": "K01-CTX-09-04-01@1",
+      "group": "K01-GR-09-04-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-05-03-REQUIRES-K01-CL-09-05-01",
+      "consumer": "K01-CL-09-05-03@1",
+      "provider": "K01-CL-09-05-01@1",
+      "condition": "K01-CTX-09-05-03@1",
+      "providerContext": "K01-CTX-09-05-01@1",
+      "group": "K01-GR-09-05-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-05-03-REQUIRES-K01-CL-09-05-02",
+      "consumer": "K01-CL-09-05-03@1",
+      "provider": "K01-CL-09-05-02@1",
+      "condition": "K01-CTX-09-05-03@1",
+      "providerContext": "K01-CTX-09-05-02@1",
+      "group": "K01-GR-09-05-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-05-03-REQUIRES-K01-CL-09-05-01",
+      "consumer": "K01-CL-09-05-03@1",
+      "provider": "K01-CL-09-05-01@1",
+      "condition": "K01-CTX-09-05-03@1",
+      "providerContext": "K01-CTX-09-05-01@1",
+      "group": "K01-GR-09-05-03-R3-1@1"
+    },
+    {
+      "edge": "K01-E-09-05-03-REQUIRES-K01-CL-09-05-02",
+      "consumer": "K01-CL-09-05-03@1",
+      "provider": "K01-CL-09-05-02@1",
+      "condition": "K01-CTX-09-05-03@1",
+      "providerContext": "K01-CTX-09-05-02@1",
+      "group": "K01-GR-09-05-03-R3-1@1"
+    },
+    {
+      "edge": "K01-E-09-07-02-REQUIRES-K01-CL-09-07-01",
+      "consumer": "K01-CL-09-07-02@1",
+      "provider": "K01-CL-09-07-01@1",
+      "condition": "K01-CTX-09-07-02@1",
+      "providerContext": "K01-CTX-09-07-01@1",
+      "group": "K01-GR-09-07-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-08-02-REQUIRES-K01-CL-09-08-01",
+      "consumer": "K01-CL-09-08-02@1",
+      "provider": "K01-CL-09-08-01@1",
+      "condition": "K01-CTX-09-08-02@1",
+      "providerContext": "K01-CTX-09-08-01@1",
+      "group": "K01-GR-09-08-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-08-03-REQUIRES-K01-CL-09-08-01",
+      "consumer": "K01-CL-09-08-03@1",
+      "provider": "K01-CL-09-08-01@1",
+      "condition": "K01-CTX-09-08-03@1",
+      "providerContext": "K01-CTX-09-08-01@1",
+      "group": "K01-GR-09-08-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-08-03-REQUIRES-K01-CL-09-05-01",
+      "consumer": "K01-CL-09-08-03@1",
+      "provider": "K01-CL-09-05-01@1",
+      "condition": "K01-CTX-09-08-03@1",
+      "providerContext": "K01-CTX-09-05-01@1",
+      "group": "K01-GR-09-08-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-08-03-REQUIRES-K01-CL-09-05-02",
+      "consumer": "K01-CL-09-08-03@1",
+      "provider": "K01-CL-09-05-02@1",
+      "condition": "K01-CTX-09-08-03@1",
+      "providerContext": "K01-CTX-09-05-02@1",
+      "group": "K01-GR-09-08-03-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-09-01-REQUIRES-K01-CL-09-06-02",
+      "consumer": "K01-CL-09-09-01@1",
+      "provider": "K01-CL-09-06-02@1",
+      "condition": "K01-CTX-09-09-01@1",
+      "providerContext": "K01-CTX-09-06-02@1",
+      "group": "K01-GR-09-09-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-09-02-REQUIRES-K01-CL-09-06-02",
+      "consumer": "K01-CL-09-09-02@1",
+      "provider": "K01-CL-09-06-02@1",
+      "condition": "K01-CTX-09-09-02@1",
+      "providerContext": "K01-CTX-09-06-02@1",
+      "group": "K01-GR-09-09-02-MAIN@1"
+    },
+    {
+      "edge": "K01-E-09-10-01-REQUIRES-K01-CL-09-07-01",
+      "consumer": "K01-CL-09-10-01@1",
+      "provider": "K01-CL-09-07-01@1",
+      "condition": "K01-CTX-09-10-01@1",
+      "providerContext": "K01-CTX-09-07-01@1",
+      "group": "K01-GR-09-10-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-01-03-01-REQUIRES-K01-CL-01-06-01",
+      "consumer": "K01-CL-01-03-01@1",
+      "provider": "K01-CL-01-06-01@1",
+      "condition": "K01-CTX-01-03-01@1",
+      "providerContext": "K01-CTX-01-06-01@1",
+      "group": "K01-GR-01-03-01-MAIN@1"
+    },
+    {
+      "edge": "K01-E-01-03-01-REQUIRES-K01-CL-01-06-01",
+      "consumer": "K01-CL-01-03-01@1",
+      "provider": "K01-CL-01-06-01@1",
+      "condition": "K01-CTX-01-03-01@1",
+      "providerContext": "K01-CTX-01-06-01@1",
+      "group": "K01-GR-01-03-01-SUP@1"
+    }
+  ]
+}

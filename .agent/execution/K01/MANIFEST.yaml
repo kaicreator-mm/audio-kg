@@ -1,0 +1,42 @@
+{
+  "pack_id": "audio-kg-v010-K01-g1",
+  "task_id": "K01",
+  "repository": "kaicreator-mm/audio-kg",
+  "version": "v0.1.0",
+  "base_sha": "4fadb8e96f3fefa6485bc8d2f46c5e770d8fa54f",
+  "task_pack_ref": "https://github.com/kaicreator-mm/audio-kg/blob/48459608548ee13c330641b20cca2d585cc290f3/docs/implementation/v0.1.0/TASK_PACKS.json#K01",
+  "branch": "task/v0.1.0-k01-theory-knowledge",
+  "parent_issue": "#87",
+  "agent_freedom": "F1_BOUNDED_IMPLEMENTATION",
+  "pinned_standard_revision": "933c4fd3e0e1b9f1a73ed6a9b552077baaf5376c",
+  "generated_by": "chatgpt-web:audio-kg-g07-k01-builder",
+  "generated_at": "2026-11-27T12:04:52.667077+00:00",
+  "dependency_completion": [
+    "F00@f5fbc3b9fc6118e073c3701ae8da2d8928629ce4",
+    "F00-CQ@4fadb8e96f3fefa6485bc8d2f46c5e770d8fa54f"
+  ],
+  "material_paths": [
+    "knowledge/K01/",
+    "sources/K01/",
+    "cases/K01/",
+    "queries/K01/",
+    "docs/validation/K01/",
+    "tests/knowledge/K01/",
+    "docs/product/calibration/",
+    "docs/research/",
+    "ontology/",
+    "tools/validate-knowledge.mjs",
+    "knowledge/K07/"
+  ],
+  "core_artifacts": [
+    "MANIFEST.yaml",
+    "EXECUTION_CONTRACT.md",
+    "IMPLEMENTATION_MAP.md",
+    "TEST_MATRIX.yaml",
+    "FAILURE_MATRIX.yaml",
+    "REVIEW_CHECKLIST.md"
+  ],
+  "retention": "full-provenance",
+  "package_excluded": true,
+  "pack_state_at_generation": "PACK_CURRENT"
+}

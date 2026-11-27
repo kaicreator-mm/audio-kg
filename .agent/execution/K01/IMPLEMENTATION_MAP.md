@@ -1,0 +1,2 @@
+# Exact inputs
+Seven frozen primary case files; R2 158 branch map, R3 33 links and 7 scope closures, 130 qualification rows, G04 impacts, 9×7 role matrix, frozen discovery, split ledger and historical #28. Candidate via F00 and current CQ-role amendment. Source IDs global; exact K07 reuse or no overlap verified. Build deterministic authored TSV and pinned JSON, preserve candidate vs historical/unknown, full semantic and negative tests.
