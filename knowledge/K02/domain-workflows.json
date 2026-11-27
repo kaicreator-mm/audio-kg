@@ -1,0 +1,247 @@
+{
+  "format": "audio-kg-bounded-domain-workflows-v1",
+  "workflows": [
+    {
+      "d2": "K02.01",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Brief and constraints",
+        "Bind material, timing and rights",
+        "Reject hard violations before preference"
+      ],
+      "cases": [
+        "CO-01",
+        "CO-02",
+        "CO-03",
+        "CO-04",
+        "CO-27",
+        "CO-28"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-01@1",
+        "K02-CL-CO-02@1",
+        "K02-CL-CO-04@1",
+        "K02-CL-CO-28@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K02.02",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Text and narrative",
+        "Declare pronunciation, line and semantic goal",
+        "Compare alternatives, preserve unknown reading"
+      ],
+      "cases": [
+        "CO-05",
+        "CO-06",
+        "CO-07",
+        "CO-08",
+        "CO-29",
+        "CO-30",
+        "CO-54",
+        "CO-55"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-05@1",
+        "K02-CL-CO-06@1",
+        "K02-CL-CO-07@1",
+        "K02-CL-CO-08@1",
+        "K02-CL-CO-29@1",
+        "K02-CL-CO-30@1",
+        "K02-CL-CO-54@1",
+        "K02-CL-CO-55@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K02.03",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Melody and phrase",
+        "Check pitch/rhythm and musical boundary",
+        "Keep tonal/phrase interpretations conditional"
+      ],
+      "cases": [
+        "CO-09",
+        "CO-10",
+        "CO-11",
+        "CO-25",
+        "CO-26",
+        "CO-58"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-09@1",
+        "K02-CL-CO-10@1",
+        "K02-CL-CO-11@1",
+        "K02-CL-CO-25@1",
+        "K02-CL-CO-26@1",
+        "K02-CL-CO-58@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K02.04",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Motif transformations",
+        "Compare ordered events, interval and time",
+        "Distinguish inversion/reversal/augmentation"
+      ],
+      "cases": [
+        "CO-12",
+        "CO-13",
+        "CO-14",
+        "CO-15",
+        "CO-16",
+        "CO-17",
+        "CO-31",
+        "CO-59"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-12@1",
+        "K02-CL-CO-13@1",
+        "K02-CL-CO-14@1",
+        "K02-CL-CO-15@1",
+        "K02-CL-CO-16@1",
+        "K02-CL-CO-17@1",
+        "K02-CL-CO-31@1",
+        "K02-CL-CO-59@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K02.05",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Form and contrast",
+        "Compare section function and actual repetitions",
+        "Do not infer quality from density or labels"
+      ],
+      "cases": [
+        "CO-18",
+        "CO-19",
+        "CO-20",
+        "CO-32",
+        "CO-33",
+        "CO-34",
+        "CO-60"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-18@1",
+        "K02-CL-CO-19@1",
+        "K02-CL-CO-20@1",
+        "K02-CL-CO-32@1",
+        "K02-CL-CO-33@1",
+        "K02-CL-CO-34@1",
+        "K02-CL-CO-60@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K02.06",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Text-music alignment",
+        "Bind syllables, surface tones, notes and rights",
+        "Screen exact language candidates; actual hearing unknown"
+      ],
+      "cases": [
+        "CO-21",
+        "CO-22",
+        "CO-23",
+        "CO-35",
+        "CO-36",
+        "CO-37",
+        "CO-38",
+        "CO-56",
+        "CO-57",
+        "CO-61",
+        "CO-62"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-21@1",
+        "K02-CL-CO-22@1",
+        "K02-CL-CO-23@1",
+        "K02-CL-CO-35@1",
+        "K02-CL-CO-36@1",
+        "K02-CL-CO-37@1",
+        "K02-CL-CO-38@1",
+        "K02-CL-CO-56@1",
+        "K02-CL-CO-57@1",
+        "K02-CL-CO-61@1",
+        "K02-CL-CO-62@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K02.07",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Constrained composition",
+        "Enumerate finite candidates and retain algorithm identity",
+        "No silent widening or unsupported adoption"
+      ],
+      "cases": [
+        "CO-39",
+        "CO-40",
+        "CO-41",
+        "CO-42",
+        "CO-43",
+        "CO-44",
+        "CO-45",
+        "CO-46",
+        "CO-47",
+        "CO-48",
+        "CO-63",
+        "CO-64"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-39@1",
+        "K02-CL-CO-40@1",
+        "K02-CL-CO-41@1",
+        "K02-CL-CO-42@1",
+        "K02-CL-CO-43@1",
+        "K02-CL-CO-44@1",
+        "K02-CL-CO-45@1",
+        "K02-CL-CO-46@1",
+        "K02-CL-CO-47@1",
+        "K02-CL-CO-48@1",
+        "K02-CL-CO-63@1",
+        "K02-CL-CO-64@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    },
+    {
+      "d2": "K02.08",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Version and revision",
+        "Protect frozen fields and verify dependencies",
+        "Invalidate affected evidence; unknown rights stop"
+      ],
+      "cases": [
+        "CO-24",
+        "CO-49",
+        "CO-50",
+        "CO-51",
+        "CO-52",
+        "CO-53"
+      ],
+      "claimRefs": [
+        "K02-CL-CO-50@1",
+        "K02-CL-CO-52@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Any failed hard constraint stops candidate; missing evidence stays unknown. No real adoption."
+    }
+  ]
+}

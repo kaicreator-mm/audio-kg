@@ -1,0 +1,773 @@
+{
+  "status": "PROJECT_CONTRACTS_NOT_PROFESSIONAL_CLAIMS",
+  "records": [
+    {
+      "id": "CO-03",
+      "d4": "K02.01.02.03",
+      "statement": "冻结素材事件与允许字段优先，未知权利素材不得使用。",
+      "context": "限定专业谓词：K02记录素材身份与冻结边界；K15授权状态输入，不自行判法律；来源条件：K02记录素材身份与冻结边界；K15授权状态输入，不自行判法律；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-03@1",
+          "question": "h1 C4@0/1 h2 E4@1/1 h3 G4@2/2冻结，仅改词，X未知许可，怎么办？",
+          "example": {
+            "frozenCase": "CO-03",
+            "frozenWitness": "保留h1–3，只生成新文本；不依赖X",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "h1 C4@0/1 h2 E4@1/1 h3 G4@2/2冻结，仅改词，X未知许可，怎么办？",
+            "expectedResult": "保h1–3，仅改词，不用X。",
+            "reasoningBasis": "冻结素材事件与允许字段优先，未知权利素材不得使用。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 7,
+              "row": "| K02.01.02.03 / CO-03 | K02记录素材身份与冻结边界；K15授权状态输入，不自行判法律 | 原创hook事件h1:C4@0/1,h2:E4@1/1,h3:G4@2/2，允许改歌词，音符冻结；另素材X授权UNKNOWN | 保留h1–3，只生成新文本；不依赖X | 未确认权限便使用X，或将G4改A4称仅改词 | 从候选与冻结源的事件差异定位被破坏字段 | 有源文件、相似性或生成成功不等于获授权 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：冻结素材事件与允许字段优先，未知权利素材不得使用。；本题答案：保h1–3，仅改词，不用X。",
+          "limits": "有源文件、相似性或生成成功不等于获授权；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-03@1",
+          "question": "改G4为A4还称改词？",
+          "example": {
+            "frozenCase": "CO-03",
+            "frozenWitness": "未确认权限便使用X，或将G4改A4称仅改词",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "改G4为A4还称改词？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "音高保护被破坏。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 7,
+              "row": "| K02.01.02.03 / CO-03 | K02记录素材身份与冻结边界；K15授权状态输入，不自行判法律 | 原创hook事件h1:C4@0/1,h2:E4@1/1,h3:G4@2/2，允许改歌词，音符冻结；另素材X授权UNKNOWN | 保留h1–3，只生成新文本；不依赖X | 未确认权限便使用X，或将G4改A4称仅改词 | 从候选与冻结源的事件差异定位被破坏字段 | 有源文件、相似性或生成成功不等于获授权 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：音高保护被破坏。",
+          "limits": "有源文件、相似性或生成成功不等于获授权；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-03@1",
+          "question": "如何核候选差异？",
+          "example": {
+            "frozenCase": "CO-03",
+            "frozenWitness": "从候选与冻结源的事件差异定位被破坏字段",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "如何核候选差异？",
+            "expectedResult": "逐事件ID、字段与授权。",
+            "reasoningBasis": "冻结素材事件与允许字段优先，未知权利素材不得使用。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 7,
+              "row": "| K02.01.02.03 / CO-03 | K02记录素材身份与冻结边界；K15授权状态输入，不自行判法律 | 原创hook事件h1:C4@0/1,h2:E4@1/1,h3:G4@2/2，允许改歌词，音符冻结；另素材X授权UNKNOWN | 保留h1–3，只生成新文本；不依赖X | 未确认权限便使用X，或将G4改A4称仅改词 | 从候选与冻结源的事件差异定位被破坏字段 | 有源文件、相似性或生成成功不等于获授权 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：冻结素材事件与允许字段优先，未知权利素材不得使用。；本题答案：逐事件ID、字段与授权。",
+          "limits": "有源文件、相似性或生成成功不等于获授权；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-03@1",
+          "question": "持有文件就是许可？",
+          "example": {
+            "frozenCase": "CO-03",
+            "frozenWitness": "有源文件、相似性或生成成功不等于获授权",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "持有文件就是许可？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "不能代替授权证据。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 7,
+              "row": "| K02.01.02.03 / CO-03 | K02记录素材身份与冻结边界；K15授权状态输入，不自行判法律 | 原创hook事件h1:C4@0/1,h2:E4@1/1,h3:G4@2/2，允许改歌词，音符冻结；另素材X授权UNKNOWN | 保留h1–3，只生成新文本；不依赖X | 未确认权限便使用X，或将G4改A4称仅改词 | 从候选与冻结源的事件差异定位被破坏字段 | 有源文件、相似性或生成成功不等于获授权 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：不能代替授权证据。",
+          "limits": "有源文件、相似性或生成成功不等于获授权；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ16",
+        "CQ21"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ20",
+        "CQ25"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 7,
+        "row": "| K02.01.02.03 | [CO-03](composition-r1-knowledge-cases.md) L7 | —（项目合同） | CQ16/CQ21 | CQ09/CQ20/CQ25 |"
+      },
+      "status": "PROJECT_CONTRACT_NOT_CLAIM"
+    },
+    {
+      "id": "CO-24",
+      "d4": "K02.08.02.03",
+      "statement": "局部改词需事件ID和允许字段，旧评价按依赖失效。",
+      "context": "限定专业谓词：项目编辑约束；K01.08.06.03保护条件支持、K09事务/K12宿主另证；来源条件：项目编辑约束；K01.08.06.03保护条件支持、K09事务/K12宿主另证；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-24@1",
+          "question": "v1副歌n2 E4@1/3 here仅改near，verse冻结，核。",
+          "example": {
+            "frozenCase": "CO-24",
+            "frozenWitness": "比较ID与字段，音序/时值/verse未改；旧歌词评价失效、其他依赖按范围检查",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "v1副歌n2 E4@1/3 here仅改near，verse冻结，核。",
+            "expectedResult": "音时值/verse不变，旧歌词评价失效。",
+            "reasoningBasis": "局部改词需事件ID和允许字段，旧评价按依赖失效。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 28,
+              "row": "| K02.08.02.03 / CO-24 | 项目编辑约束；K01.08.06.03保护条件支持、K09事务/K12宿主另证 | v1 chorus n1:C4@0/1 text=\"stay\",n2:E4@1/3 text=\"here\"; verse v1 G4@0/4；授权仅n2歌词，v2 n2改\"near\" | 比较ID与字段，音序/时值/verse未改；旧歌词评价失效、其他依赖按范围检查 | 改n2音高或verse仍称局部改词；只留WAV声称可恢复v1 | 读源/目标差异定位保护违规及需复核证据 | 无真实宿主/回读不得说已提交/回滚或听评通过 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：局部改词需事件ID和允许字段，旧评价按依赖失效。；本题答案：音时值/verse不变，旧歌词评价失效。",
+          "limits": "无真实宿主/回读不得说已提交/回滚或听评通过；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-24@1",
+          "question": "改E4仍称只改词？",
+          "example": {
+            "frozenCase": "CO-24",
+            "frozenWitness": "改n2音高或verse仍称局部改词；只留WAV声称可恢复v1",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "改E4仍称只改词？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "授权只允许歌词字段，E4的音高是保护字段。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 28,
+              "row": "| K02.08.02.03 / CO-24 | 项目编辑约束；K01.08.06.03保护条件支持、K09事务/K12宿主另证 | v1 chorus n1:C4@0/1 text=\"stay\",n2:E4@1/3 text=\"here\"; verse v1 G4@0/4；授权仅n2歌词，v2 n2改\"near\" | 比较ID与字段，音序/时值/verse未改；旧歌词评价失效、其他依赖按范围检查 | 改n2音高或verse仍称局部改词；只留WAV声称可恢复v1 | 读源/目标差异定位保护违规及需复核证据 | 无真实宿主/回读不得说已提交/回滚或听评通过 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：授权只允许歌词字段，E4的音高是保护字段。",
+          "limits": "无真实宿主/回读不得说已提交/回滚或听评通过；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-24@1",
+          "question": "候选改verse怎样裁？",
+          "example": {
+            "frozenCase": "CO-24",
+            "frozenWitness": "读源/目标差异定位保护违规及需复核证据",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "候选改verse怎样裁？",
+            "expectedResult": "拒绝，保原件及差异。",
+            "reasoningBasis": "局部改词需事件ID和允许字段，旧评价按依赖失效。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 28,
+              "row": "| K02.08.02.03 / CO-24 | 项目编辑约束；K01.08.06.03保护条件支持、K09事务/K12宿主另证 | v1 chorus n1:C4@0/1 text=\"stay\",n2:E4@1/3 text=\"here\"; verse v1 G4@0/4；授权仅n2歌词，v2 n2改\"near\" | 比较ID与字段，音序/时值/verse未改；旧歌词评价失效、其他依赖按范围检查 | 改n2音高或verse仍称局部改词；只留WAV声称可恢复v1 | 读源/目标差异定位保护违规及需复核证据 | 无真实宿主/回读不得说已提交/回滚或听评通过 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：局部改词需事件ID和允许字段，旧评价按依赖失效。；本题答案：拒绝，保原件及差异。",
+          "limits": "无真实宿主/回读不得说已提交/回滚或听评通过；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-24@1",
+          "question": "无宿主可称回滚？",
+          "example": {
+            "frozenCase": "CO-24",
+            "frozenWitness": "无真实宿主/回读不得说已提交/回滚或听评通过",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "无宿主可称回滚？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "未执行。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r1-knowledge-cases.md",
+              "blob": "99fb47f4bfc228b41e7af4c6867f64ed187bcb3a",
+              "line": 28,
+              "row": "| K02.08.02.03 / CO-24 | 项目编辑约束；K01.08.06.03保护条件支持、K09事务/K12宿主另证 | v1 chorus n1:C4@0/1 text=\"stay\",n2:E4@1/3 text=\"here\"; verse v1 G4@0/4；授权仅n2歌词，v2 n2改\"near\" | 比较ID与字段，音序/时值/verse未改；旧歌词评价失效、其他依赖按范围检查 | 改n2音高或verse仍称局部改词；只留WAV声称可恢复v1 | 读源/目标差异定位保护违规及需复核证据 | 无真实宿主/回读不得说已提交/回滚或听评通过 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：未执行。",
+          "limits": "无真实宿主/回读不得说已提交/回滚或听评通过；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ16",
+        "CQ21",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ23",
+        "CQ25"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 28,
+        "row": "| K02.08.02.03 | [CO-24](composition-r1-knowledge-cases.md) L28 | —（项目合同） | CQ16/CQ21/CQ24 | CQ23/CQ25 |"
+      },
+      "status": "PROJECT_CONTRACT_NOT_CLAIM"
+    },
+    {
+      "id": "CO-27",
+      "d4": "K02.01.02.04",
+      "statement": "名义长度、音域和编制是独立约束，真实可唱另证。",
+      "context": "限定专业谓词：项目任务约束；K03/K06主责真实编制/个体可唱性；来源条件：项目任务约束；K03/K06主责真实编制/个体可唱性；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-27@1",
+          "question": "4/4四分120八小节≤16s C4–D5；B九小节最高E5，筛。",
+          "example": {
+            "frozenCase": "CO-27",
+            "frozenWitness": "A满足明示名义长度及音域；B 18秒并超上限；编制可行性仍需实际乐器和演唱证据",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "4/4四分120八小节≤16s C4–D5；B九小节最高E5，筛。",
+            "expectedResult": "B18s且超界；A名义可行。",
+            "reasoningBasis": "名义长度、音域和编制是独立约束，真实可唱另证。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 7,
+              "row": "| K02.01.02.04 / CO-27 | 项目任务约束；K03/K06主责真实编制/个体可唱性 | 简报单歌手+一伴奏，4/4 120 BPM 8小节≤16秒（无额外尾声），题定C4–D5；A八小节最低C4最高D5，B九小节最低C4最高E5 | A满足明示名义长度及音域；B 18秒并超上限；编制可行性仍需实际乐器和演唱证据 | 仅听感短就放行B；音高范围满足即宣称任何歌手可唱 | 按拍数/参考、实音范围与编制需求定位冲突 | 未知声部、演唱者或速度变化时不作真实可行性保证 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：名义长度、音域和编制是独立约束，真实可唱另证。；本题答案：B18s且超界；A名义可行。",
+          "limits": "未知声部、演唱者或速度变化时不作真实可行性保证；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-27@1",
+          "question": "听感短即放行B？",
+          "example": {
+            "frozenCase": "CO-27",
+            "frozenWitness": "仅听感短就放行B；音高范围满足即宣称任何歌手可唱",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "听感短即放行B？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "硬条件违反。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 7,
+              "row": "| K02.01.02.04 / CO-27 | 项目任务约束；K03/K06主责真实编制/个体可唱性 | 简报单歌手+一伴奏，4/4 120 BPM 8小节≤16秒（无额外尾声），题定C4–D5；A八小节最低C4最高D5，B九小节最低C4最高E5 | A满足明示名义长度及音域；B 18秒并超上限；编制可行性仍需实际乐器和演唱证据 | 仅听感短就放行B；音高范围满足即宣称任何歌手可唱 | 按拍数/参考、实音范围与编制需求定位冲突 | 未知声部、演唱者或速度变化时不作真实可行性保证 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：硬条件违反。",
+          "limits": "未知声部、演唱者或速度变化时不作真实可行性保证；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-27@1",
+          "question": "如何核？",
+          "example": {
+            "frozenCase": "CO-27",
+            "frozenWitness": "按拍数/参考、实音范围与编制需求定位冲突",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "如何核？",
+            "expectedResult": "实际拍数、拍单位及min/max。",
+            "reasoningBasis": "名义长度、音域和编制是独立约束，真实可唱另证。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 7,
+              "row": "| K02.01.02.04 / CO-27 | 项目任务约束；K03/K06主责真实编制/个体可唱性 | 简报单歌手+一伴奏，4/4 120 BPM 8小节≤16秒（无额外尾声），题定C4–D5；A八小节最低C4最高D5，B九小节最低C4最高E5 | A满足明示名义长度及音域；B 18秒并超上限；编制可行性仍需实际乐器和演唱证据 | 仅听感短就放行B；音高范围满足即宣称任何歌手可唱 | 按拍数/参考、实音范围与编制需求定位冲突 | 未知声部、演唱者或速度变化时不作真实可行性保证 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：名义长度、音域和编制是独立约束，真实可唱另证。；本题答案：实际拍数、拍单位及min/max。",
+          "limits": "未知声部、演唱者或速度变化时不作真实可行性保证；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-27@1",
+          "question": "符合音域保证编制？",
+          "example": {
+            "frozenCase": "CO-27",
+            "frozenWitness": "未知声部、演唱者或速度变化时不作真实可行性保证",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "符合音域保证编制？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "实际资源另证。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 7,
+              "row": "| K02.01.02.04 / CO-27 | 项目任务约束；K03/K06主责真实编制/个体可唱性 | 简报单歌手+一伴奏，4/4 120 BPM 8小节≤16秒（无额外尾声），题定C4–D5；A八小节最低C4最高D5，B九小节最低C4最高E5 | A满足明示名义长度及音域；B 18秒并超上限；编制可行性仍需实际乐器和演唱证据 | 仅听感短就放行B；音高范围满足即宣称任何歌手可唱 | 按拍数/参考、实音范围与编制需求定位冲突 | 未知声部、演唱者或速度变化时不作真实可行性保证 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：实际资源另证。",
+          "limits": "未知声部、演唱者或速度变化时不作真实可行性保证；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ22"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 31,
+        "row": "| K02.01.02.04 | [CO-27](composition-r2-knowledge-cases.md) L7 | —（项目合同） | CQ19 | CQ03/CQ22 |"
+      },
+      "status": "PROJECT_CONTRACT_NOT_CLAIM"
+    },
+    {
+      "id": "CO-49",
+      "d4": "K02.08.01.03",
+      "statement": "版本须保存源对象、权利与派生关系，变更触发证据失效。",
+      "context": "限定专业谓词：项目创作状态契约；K09工程/K12格式/K15许可主责；来源条件：项目创作状态契约；K09工程/K12格式/K15许可主责；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-49@1",
+          "question": "v1 B1 L1 M1 H1，v2仅L2，R1依v1，X权限未知，怎么记？",
+          "example": {
+            "frozenCase": "CO-49",
+            "frozenWitness": "v2独立身份，保存父v1、变更字段及素材许可依赖；R1不能代替v2试听；X未获确认不得使用",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "v1 B1 L1 M1 H1，v2仅L2，R1依v1，X权限未知，怎么记？",
+            "expectedResult": "独立v2父v1，保M/H，不用X，R1不替代v2。",
+            "reasoningBasis": "版本须保存源对象、权利与派生关系，变更触发证据失效。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 29,
+              "row": "| K02.08.01.03 / CO-49 | 项目创作状态契约；K09工程/K12格式/K15许可主责 | v1=简报B1+歌词L1+旋律M1+和声H1；候选v2改L2，M1/H1冻结；渲染R1依赖v1，权利状态素材X=UNKNOWN | v2独立身份，保存父v1、变更字段及素材许可依赖；R1不能代替v2试听；X未获确认不得使用 | 只保存MP3便称全部可编辑；沿用R1验收v2；覆盖v1 | 给候选依赖与父版本查失效和缺少的源对象 | 无工程/宿主状态不声称真实快照或回滚成功 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：版本须保存源对象、权利与派生关系，变更触发证据失效。；本题答案：独立v2父v1，保M/H，不用X，R1不替代v2。",
+          "limits": "无工程/宿主状态不声称真实快照或回滚成功；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-49@1",
+          "question": "MP3即完整工程？",
+          "example": {
+            "frozenCase": "CO-49",
+            "frozenWitness": "只保存MP3便称全部可编辑；沿用R1验收v2；覆盖v1",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "MP3即完整工程？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "对象绑定丢失。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 29,
+              "row": "| K02.08.01.03 / CO-49 | 项目创作状态契约；K09工程/K12格式/K15许可主责 | v1=简报B1+歌词L1+旋律M1+和声H1；候选v2改L2，M1/H1冻结；渲染R1依赖v1，权利状态素材X=UNKNOWN | v2独立身份，保存父v1、变更字段及素材许可依赖；R1不能代替v2试听；X未获确认不得使用 | 只保存MP3便称全部可编辑；沿用R1验收v2；覆盖v1 | 给候选依赖与父版本查失效和缺少的源对象 | 无工程/宿主状态不声称真实快照或回滚成功 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：对象绑定丢失。",
+          "limits": "无工程/宿主状态不声称真实快照或回滚成功；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-49@1",
+          "question": "v2引用R1评审查？",
+          "example": {
+            "frozenCase": "CO-49",
+            "frozenWitness": "给候选依赖与父版本查失效和缺少的源对象",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "v2引用R1评审查？",
+            "expectedResult": "依赖及变更，待复核。",
+            "reasoningBasis": "版本须保存源对象、权利与派生关系，变更触发证据失效。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 29,
+              "row": "| K02.08.01.03 / CO-49 | 项目创作状态契约；K09工程/K12格式/K15许可主责 | v1=简报B1+歌词L1+旋律M1+和声H1；候选v2改L2，M1/H1冻结；渲染R1依赖v1，权利状态素材X=UNKNOWN | v2独立身份，保存父v1、变更字段及素材许可依赖；R1不能代替v2试听；X未获确认不得使用 | 只保存MP3便称全部可编辑；沿用R1验收v2；覆盖v1 | 给候选依赖与父版本查失效和缺少的源对象 | 无工程/宿主状态不声称真实快照或回滚成功 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：版本须保存源对象、权利与派生关系，变更触发证据失效。；本题答案：依赖及变更，待复核。",
+          "limits": "无工程/宿主状态不声称真实快照或回滚成功；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-49@1",
+          "question": "可称真实快照执行？",
+          "example": {
+            "frozenCase": "CO-49",
+            "frozenWitness": "无工程/宿主状态不声称真实快照或回滚成功",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "可称真实快照执行？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "缺实际宿主及文件证据，不宣称事务完成。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 29,
+              "row": "| K02.08.01.03 / CO-49 | 项目创作状态契约；K09工程/K12格式/K15许可主责 | v1=简报B1+歌词L1+旋律M1+和声H1；候选v2改L2，M1/H1冻结；渲染R1依赖v1，权利状态素材X=UNKNOWN | v2独立身份，保存父v1、变更字段及素材许可依赖；R1不能代替v2试听；X未获确认不得使用 | 只保存MP3便称全部可编辑；沿用R1验收v2；覆盖v1 | 给候选依赖与父版本查失效和缺少的源对象 | 无工程/宿主状态不声称真实快照或回滚成功 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：缺实际宿主及文件证据，不宣称事务完成。",
+          "limits": "无工程/宿主状态不声称真实快照或回滚成功；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ21"
+      ],
+      "supportCQ": [
+        "CQ16",
+        "CQ23",
+        "CQ25"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 53,
+        "row": "| K02.08.01.03 | [CO-49](composition-r2-knowledge-cases.md) L29 | —（项目合同） | CQ21 | CQ16/CQ23/CQ25 |"
+      },
+      "status": "PROJECT_CONTRACT_NOT_CLAIM"
+    },
+    {
+      "id": "CO-51",
+      "d4": "K02.08.02.04",
+      "statement": "变更失效沿真实依赖传播，未证独立对象不可自动保留。",
+      "context": "限定专业谓词：项目依赖失效合同；保护词曲不等工程事务；来源条件：项目依赖失效合同；保护词曲不等工程事务；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-51@1",
+          "question": "v2改词，E1对齐/R1歌声/P1含词谱/A1纯H伴奏，哪些失效？",
+          "example": {
+            "frozenCase": "CO-51",
+            "frozenWitness": "E1/R1/P1失效待复核，A1若实证无文本依赖可保留；保留v1及旧评价历史",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "v2改词，E1对齐/R1歌声/P1含词谱/A1纯H伴奏，哪些失效？",
+            "expectedResult": "E1/R1/P1；A1独立实证才保留。",
+            "reasoningBasis": "变更失效沿真实依赖传播，未证独立对象不可自动保留。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 31,
+              "row": "| K02.08.02.04 / CO-51 | 项目依赖失效合同；保护词曲不等工程事务 | v1→v2仅改副歌s2文本，关联M音符不变；依赖：歌词对齐E1,歌声渲染R1,分谱P1含歌词，纯伴奏A1只依H1；授权状态独立 | E1/R1/P1失效待复核，A1若实证无文本依赖可保留；保留v1及旧评价历史 | 所有证据不变，或无依据宣布全部不相关；自动覆盖源 | 沿依赖图从变更字段追溯受影响对象及保护范围 | 无真实依赖/宿主回读不声明未受影响、回滚已执行 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：变更失效沿真实依赖传播，未证独立对象不可自动保留。；本题答案：E1/R1/P1；A1独立实证才保留。",
+          "limits": "无真实依赖/宿主回读不声明未受影响、回滚已执行；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-51@1",
+          "question": "全部继承旧证据？",
+          "example": {
+            "frozenCase": "CO-51",
+            "frozenWitness": "所有证据不变，或无依据宣布全部不相关；自动覆盖源",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "全部继承旧证据？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "依赖已变。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 31,
+              "row": "| K02.08.02.04 / CO-51 | 项目依赖失效合同；保护词曲不等工程事务 | v1→v2仅改副歌s2文本，关联M音符不变；依赖：歌词对齐E1,歌声渲染R1,分谱P1含歌词，纯伴奏A1只依H1；授权状态独立 | E1/R1/P1失效待复核，A1若实证无文本依赖可保留；保留v1及旧评价历史 | 所有证据不变，或无依据宣布全部不相关；自动覆盖源 | 沿依赖图从变更字段追溯受影响对象及保护范围 | 无真实依赖/宿主回读不声明未受影响、回滚已执行 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：依赖已变。",
+          "limits": "无真实依赖/宿主回读不声明未受影响、回滚已执行；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-51@1",
+          "question": "缺A1依赖怎么办？",
+          "example": {
+            "frozenCase": "CO-51",
+            "frozenWitness": "沿依赖图从变更字段追溯受影响对象及保护范围",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "缺A1依赖怎么办？",
+            "expectedResult": "UNKNOWN，核实际关系。",
+            "reasoningBasis": "变更失效沿真实依赖传播，未证独立对象不可自动保留。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 31,
+              "row": "| K02.08.02.04 / CO-51 | 项目依赖失效合同；保护词曲不等工程事务 | v1→v2仅改副歌s2文本，关联M音符不变；依赖：歌词对齐E1,歌声渲染R1,分谱P1含歌词，纯伴奏A1只依H1；授权状态独立 | E1/R1/P1失效待复核，A1若实证无文本依赖可保留；保留v1及旧评价历史 | 所有证据不变，或无依据宣布全部不相关；自动覆盖源 | 沿依赖图从变更字段追溯受影响对象及保护范围 | 无真实依赖/宿主回读不声明未受影响、回滚已执行 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：变更失效沿真实依赖传播，未证独立对象不可自动保留。；本题答案：UNKNOWN，核实际关系。",
+          "limits": "无真实依赖/宿主回读不声明未受影响、回滚已执行；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-51@1",
+          "question": "可称回滚已完成？",
+          "example": {
+            "frozenCase": "CO-51",
+            "frozenWitness": "无真实依赖/宿主回读不声明未受影响、回滚已执行",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "可称回滚已完成？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "无宿主。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 31,
+              "row": "| K02.08.02.04 / CO-51 | 项目依赖失效合同；保护词曲不等工程事务 | v1→v2仅改副歌s2文本，关联M音符不变；依赖：歌词对齐E1,歌声渲染R1,分谱P1含歌词，纯伴奏A1只依H1；授权状态独立 | E1/R1/P1失效待复核，A1若实证无文本依赖可保留；保留v1及旧评价历史 | 所有证据不变，或无依据宣布全部不相关；自动覆盖源 | 沿依赖图从变更字段追溯受影响对象及保护范围 | 无真实依赖/宿主回读不声明未受影响、回滚已执行 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：无宿主。",
+          "limits": "无真实依赖/宿主回读不声明未受影响、回滚已执行；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ16",
+        "CQ21",
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ25"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 55,
+        "row": "| K02.08.02.04 | [CO-51](composition-r2-knowledge-cases.md) L31 | —（项目合同） | CQ16/CQ21/CQ24 | CQ25 |"
+      },
+      "status": "PROJECT_CONTRACT_NOT_CLAIM"
+    },
+    {
+      "id": "CO-53",
+      "d4": "K02.08.03.04",
+      "statement": "有限修订预算、保护条件和真实确认是采用门禁，耗尽停止留历史。",
+      "context": "限定专业谓词：项目创作迭代状态与停止条件；来源条件：项目创作迭代状态与停止条件；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-53@1",
+          "question": "v1保留，v2改词母语UNKNOWN，v3越界，预算2耗尽，处置。",
+          "example": {
+            "frozenCase": "CO-53",
+            "frozenWitness": "v3拒绝，v2等待核验；预算耗尽停止并保留v1；只有实际确认后选采用；恢复v1为设计候选，未执行宿主",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "v1保留，v2改词母语UNKNOWN，v3越界，预算2耗尽，处置。",
+            "expectedResult": "v3拒绝，v2待核，停止保v1。",
+            "reasoningBasis": "有限修订预算、保护条件和真实确认是采用门禁，耗尽停止留历史。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 33,
+              "row": "| K02.08.03.04 / CO-53 | 项目创作迭代状态与停止条件 | v1已保留，v2改词但母语评价UNKNOWN；v3越界改旋律；任务最多两次候选修改（v1→v2及v2→v3），采用需母语及用户确认 | v3拒绝，v2等待核验；预算耗尽停止并保留v1；只有实际确认后选采用；恢复v1为设计候选，未执行宿主 | 自评分替代母语与用户；无限生成直至猜中；声称回滚成功却无证据 | 查候选历史、保护约束、评价/确认及次数，决定修正、停止或保留基线 | 无实际状态/确认不声称已采用、回滚或发布 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：有限修订预算、保护条件和真实确认是采用门禁，耗尽停止留历史。；本题答案：v3拒绝，v2待核，停止保v1。",
+          "limits": "无实际状态/确认不声称已采用、回滚或发布；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-53@1",
+          "question": "无限生成或自评分替确认？",
+          "example": {
+            "frozenCase": "CO-53",
+            "frozenWitness": "自评分替代母语与用户；无限生成直至猜中；声称回滚成功却无证据",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "无限生成或自评分替确认？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "违反预算/采用门禁。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 33,
+              "row": "| K02.08.03.04 / CO-53 | 项目创作迭代状态与停止条件 | v1已保留，v2改词但母语评价UNKNOWN；v3越界改旋律；任务最多两次候选修改（v1→v2及v2→v3），采用需母语及用户确认 | v3拒绝，v2等待核验；预算耗尽停止并保留v1；只有实际确认后选采用；恢复v1为设计候选，未执行宿主 | 自评分替代母语与用户；无限生成直至猜中；声称回滚成功却无证据 | 查候选历史、保护约束、评价/确认及次数，决定修正、停止或保留基线 | 无实际状态/确认不声称已采用、回滚或发布 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：违反预算/采用门禁。",
+          "limits": "无实际状态/确认不声称已采用、回滚或发布；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K02-CTX-CO-53@1",
+          "question": "v2采用需什么？",
+          "example": {
+            "frozenCase": "CO-53",
+            "frozenWitness": "查候选历史、保护约束、评价/确认及次数，决定修正、停止或保留基线",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "v2采用需什么？",
+            "expectedResult": "真实母语、用户确认及依赖。",
+            "reasoningBasis": "有限修订预算、保护条件和真实确认是采用门禁，耗尽停止留历史。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 33,
+              "row": "| K02.08.03.04 / CO-53 | 项目创作迭代状态与停止条件 | v1已保留，v2改词但母语评价UNKNOWN；v3越界改旋律；任务最多两次候选修改（v1→v2及v2→v3），采用需母语及用户确认 | v3拒绝，v2等待核验；预算耗尽停止并保留v1；只有实际确认后选采用；恢复v1为设计候选，未执行宿主 | 自评分替代母语与用户；无限生成直至猜中；声称回滚成功却无证据 | 查候选历史、保护约束、评价/确认及次数，决定修正、停止或保留基线 | 无实际状态/确认不声称已采用、回滚或发布 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：有限修订预算、保护条件和真实确认是采用门禁，耗尽停止留历史。；本题答案：真实母语、用户确认及依赖。",
+          "limits": "无实际状态/确认不声称已采用、回滚或发布；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K02-CTX-CO-53@1",
+          "question": "无宿主可称回滚/发布？",
+          "example": {
+            "frozenCase": "CO-53",
+            "frozenWitness": "无实际状态/确认不声称已采用、回滚或发布",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "无宿主可称回滚/发布？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "无实际状态和事务执行证据。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/composition-r2-knowledge-cases.md",
+              "blob": "1e5e01af83c18a1405763bd617952218fb5297d9",
+              "line": 33,
+              "row": "| K02.08.03.04 / CO-53 | 项目创作迭代状态与停止条件 | v1已保留，v2改词但母语评价UNKNOWN；v3越界改旋律；任务最多两次候选修改（v1→v2及v2→v3），采用需母语及用户确认 | v3拒绝，v2等待核验；预算耗尽停止并保留v1；只有实际确认后选采用；恢复v1为设计候选，未执行宿主 | 自评分替代母语与用户；无限生成直至猜中；声称回滚成功却无证据 | 查候选历史、保护约束、评价/确认及次数，决定修正、停止或保留基线 | 无实际状态/确认不声称已采用、回滚或发布 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：无实际状态和事务执行证据。",
+          "limits": "无实际状态/确认不声称已采用、回滚或发布；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ24"
+      ],
+      "supportCQ": [
+        "CQ21",
+        "CQ25"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "line": 57,
+        "row": "| K02.08.03.04 | [CO-53](composition-r2-knowledge-cases.md) L33 | —（项目合同） | CQ24 | CQ21/CQ25 |"
+      },
+      "status": "PROJECT_CONTRACT_NOT_CLAIM"
+    }
+  ]
+}

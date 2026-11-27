@@ -1,0 +1,1229 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "d4": "K02.01.01.01",
+      "historicalRequirement": "主题受众用途与表达意图",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.01.01.03",
+        "K02.01.01.04"
+      ],
+      "unresolved": [],
+      "limits": "目标与验收是上位发现入口，细化题设分别承担；未真实采集用户反馈。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 5,
+        "row": "| K02.01.01.01 | 主题受众用途与表达意图 | ROUTER | [CO-01](composition-r1-knowledge-cases.md) L5；[CO-02](composition-r1-knowledge-cases.md) L6 | 目标与验收是上位发现入口，细化题设分别承担；未真实采集用户反馈。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-01@1",
+        "K02-CL-CO-02@1"
+      ]
+    },
+    {
+      "d4": "K02.01.01.02",
+      "historicalRequirement": "目标优先级和可验收要求",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.01.01.03",
+        "K02.01.01.04"
+      ],
+      "unresolved": [],
+      "limits": "目标与验收是上位发现入口，细化题设分别承担；未真实采集用户反馈。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 6,
+        "row": "| K02.01.01.02 | 目标优先级和可验收要求 | ROUTER | [CO-01](composition-r1-knowledge-cases.md) L5；[CO-02](composition-r1-knowledge-cases.md) L6 | 目标与验收是上位发现入口，细化题设分别承担；未真实采集用户反馈。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-01@1",
+        "K02-CL-CO-02@1"
+      ]
+    },
+    {
+      "d4": "K02.01.02.01",
+      "historicalRequirement": "既有旋律文本及权利边界",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.01.02.03",
+        "K02.01.02.04"
+      ],
+      "unresolved": [],
+      "limits": "素材身份/授权条件与编制/时长/音域分责；K15、K03、K06实际条件另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 7,
+        "row": "| K02.01.02.01 | 既有旋律文本及权利边界 | ROUTER | [CO-03](composition-r1-knowledge-cases.md) L7；[CO-27](composition-r2-knowledge-cases.md) L7 | 素材身份/授权条件与编制/时长/音域分责；K15、K03、K06实际条件另证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": []
+    },
+    {
+      "d4": "K02.01.02.02",
+      "historicalRequirement": "时长编制音域等限制",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.01.02.03",
+        "K02.01.02.04"
+      ],
+      "unresolved": [],
+      "limits": "素材身份/授权条件与编制/时长/音域分责；K15、K03、K06实际条件另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 8,
+        "row": "| K02.01.02.02 | 时长编制音域等限制 | ROUTER | [CO-03](composition-r1-knowledge-cases.md) L7；[CO-27](composition-r2-knowledge-cases.md) L7 | 素材身份/授权条件与编制/时长/音域分责；K15、K03、K06实际条件另证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": []
+    },
+    {
+      "d4": "K02.01.03.01",
+      "historicalRequirement": "风格惯例及用户偏好区分",
+      "disposition": "RESIDUAL",
+      "routes": [
+        "K02.01.03.03",
+        "K02.01.03.04",
+        "K02.07.02.06"
+      ],
+      "unresolved": [],
+      "limits": "具体流派惯例的选取仍须来源及更多体裁对照；多方案/假设已具体化。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 9,
+        "row": "| K02.01.03.01 | 风格惯例及用户偏好区分 | RESIDUAL | [CO-04](composition-r1-knowledge-cases.md) L8；[CO-28](composition-r2-knowledge-cases.md) L8；[CO-64](composition-r3-knowledge-cases.md) L15 | 具体流派惯例的选取仍须来源及更多体裁对照；多方案/假设已具体化。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-04@1",
+        "K02-CL-CO-28@1",
+        "K02-CL-CO-64@1"
+      ]
+    },
+    {
+      "d4": "K02.01.03.02",
+      "historicalRequirement": "多方案比较和明确假设",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.01.03.03",
+        "K02.01.03.04",
+        "K02.07.02.06"
+      ],
+      "unresolved": [],
+      "limits": "具体流派惯例的选取仍须来源及更多体裁对照；多方案/假设已具体化。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 10,
+        "row": "| K02.01.03.02 | 多方案比较和明确假设 | ROUTER | [CO-04](composition-r1-knowledge-cases.md) L8；[CO-28](composition-r2-knowledge-cases.md) L8；[CO-64](composition-r3-knowledge-cases.md) L15 | 具体流派惯例的选取仍须来源及更多体裁对照；多方案/假设已具体化。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-04@1",
+        "K02-CL-CO-28@1",
+        "K02-CL-CO-64@1"
+      ]
+    },
+    {
+      "d4": "K02.02.01.01",
+      "historicalRequirement": "语句重音韵脚和节奏",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.02.01.03",
+        "K02.02.01.04",
+        "K02.02.01.05",
+        "K02.02.01.06",
+        "K02.06.02.05",
+        "K02.06.02.06"
+      ],
+      "unresolved": [],
+      "limits": "英语三韵类、句长韵式、错置与分句分别；非英语的具体韵律体系仍须本域限定、K13前置。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 11,
+        "row": "| K02.02.01.01 | 语句重音韵脚和节奏 | ROUTER | [CO-05](composition-r1-knowledge-cases.md) L9；[CO-06](composition-r1-knowledge-cases.md) L10；[CO-54](composition-r3-knowledge-cases.md) L5；[CO-55](composition-r3-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语三韵类、句长韵式、错置与分句分别；非英语的具体韵律体系仍须本域限定、K13前置。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-05@1",
+        "K02-CL-CO-06@1",
+        "K02-CL-CO-54@1",
+        "K02-CL-CO-55@1",
+        "K02-CL-CO-56@1",
+        "K02-CL-CO-57@1"
+      ]
+    },
+    {
+      "d4": "K02.02.01.02",
+      "historicalRequirement": "语言特定规则与修辞例外",
+      "disposition": "RESIDUAL",
+      "routes": [
+        "K02.02.01.03",
+        "K02.02.01.04",
+        "K02.02.01.05",
+        "K02.02.01.06",
+        "K02.06.02.05",
+        "K02.06.02.06"
+      ],
+      "unresolved": [],
+      "limits": "英语三韵类、句长韵式、错置与分句分别；非英语的具体韵律体系仍须本域限定、K13前置。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 12,
+        "row": "| K02.02.01.02 | 语言特定规则与修辞例外 | RESIDUAL | [CO-05](composition-r1-knowledge-cases.md) L9；[CO-06](composition-r1-knowledge-cases.md) L10；[CO-54](composition-r3-knowledge-cases.md) L5；[CO-55](composition-r3-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语三韵类、句长韵式、错置与分句分别；非英语的具体韵律体系仍须本域限定、K13前置。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-05@1",
+        "K02-CL-CO-06@1",
+        "K02-CL-CO-54@1",
+        "K02-CL-CO-55@1",
+        "K02-CL-CO-56@1",
+        "K02-CL-CO-57@1"
+      ]
+    },
+    {
+      "d4": "K02.02.02.01",
+      "historicalRequirement": "视角意象和主题一致性",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.02.02.03",
+        "K02.02.02.04"
+      ],
+      "unresolved": [],
+      "limits": "人物/叙述/意象与信息推进保留不同目标；真实听众不由文本推出。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 13,
+        "row": "| K02.02.02.01 | 视角意象和主题一致性 | ROUTER | [CO-07](composition-r1-knowledge-cases.md) L11；[CO-29](composition-r2-knowledge-cases.md) L9 | 人物/叙述/意象与信息推进保留不同目标；真实听众不由文本推出。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-07@1",
+        "K02-CL-CO-29@1"
+      ]
+    },
+    {
+      "d4": "K02.02.02.02",
+      "historicalRequirement": "信息推进及段落功能",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.02.02.03",
+        "K02.02.02.04"
+      ],
+      "unresolved": [],
+      "limits": "人物/叙述/意象与信息推进保留不同目标；真实听众不由文本推出。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 14,
+        "row": "| K02.02.02.02 | 信息推进及段落功能 | ROUTER | [CO-07](composition-r1-knowledge-cases.md) L11；[CO-29](composition-r2-knowledge-cases.md) L9 | 人物/叙述/意象与信息推进保留不同目标；真实听众不由文本推出。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-07@1",
+        "K02-CL-CO-29@1"
+      ]
+    },
+    {
+      "d4": "K02.02.03.01",
+      "historicalRequirement": "隐喻重复对比等表达手段",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.02.03.03",
+        "K02.02.03.04"
+      ],
+      "unresolved": [],
+      "limits": "隐喻、重复、对比及语义冲突具体；不能把艺术取舍当普遍语义错误。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 15,
+        "row": "| K02.02.03.01 | 隐喻重复对比等表达手段 | ROUTER | [CO-08](composition-r1-knowledge-cases.md) L12；[CO-30](composition-r2-knowledge-cases.md) L10 | 隐喻、重复、对比及语义冲突具体；不能把艺术取舍当普遍语义错误。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-08@1",
+        "K02-CL-CO-30@1"
+      ]
+    },
+    {
+      "d4": "K02.02.03.02",
+      "historicalRequirement": "区分艺术选择与语义错误",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.02.03.03",
+        "K02.02.03.04"
+      ],
+      "unresolved": [],
+      "limits": "隐喻、重复、对比及语义冲突具体；不能把艺术取舍当普遍语义错误。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 16,
+        "row": "| K02.02.03.02 | 区分艺术选择与语义错误 | ROUTER | [CO-08](composition-r1-knowledge-cases.md) L12；[CO-30](composition-r2-knowledge-cases.md) L10 | 隐喻、重复、对比及语义冲突具体；不能把艺术取舍当普遍语义错误。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-08@1",
+        "K02-CL-CO-30@1"
+      ]
+    },
+    {
+      "d4": "K02.03.01.01",
+      "historicalRequirement": "音高运动与乐句轮廓",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.03.01.03",
+        "K02.01.02.04"
+      ],
+      "unresolved": [],
+      "limits": "轮廓与音域/音程条件拆开；可唱实证K06，实际乐器K03。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 17,
+        "row": "| K02.03.01.01 | 音高运动与乐句轮廓 | ROUTER | [CO-09](composition-r1-knowledge-cases.md) L13；[CO-27](composition-r2-knowledge-cases.md) L7 | 轮廓与音域/音程条件拆开；可唱实证K06，实际乐器K03。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-09@1"
+      ]
+    },
+    {
+      "d4": "K02.03.01.02",
+      "historicalRequirement": "音域音程与演奏条件",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.03.01.03",
+        "K02.01.02.04"
+      ],
+      "unresolved": [],
+      "limits": "轮廓与音域/音程条件拆开；可唱实证K06，实际乐器K03。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 18,
+        "row": "| K02.03.01.02 | 音域音程与演奏条件 | ROUTER | [CO-09](composition-r1-knowledge-cases.md) L13；[CO-27](composition-r2-knowledge-cases.md) L7 | 轮廓与音域/音程条件拆开；可唱实证K06，实际乐器K03。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-09@1"
+      ]
+    },
+    {
+      "d4": "K02.03.02.01",
+      "historicalRequirement": "时值重音与重复变化",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.03.02.03",
+        "K02.03.02.04",
+        "K02.03.02.05",
+        "K02.06.02.05",
+        "K02.06.02.06"
+      ],
+      "unresolved": [],
+      "limits": "节奏起点/时值/拍层与语句分组区分；实际表演时间K04。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 19,
+        "row": "| K02.03.02.01 | 时值重音与重复变化 | ROUTER | [CO-10](composition-r1-knowledge-cases.md) L14；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-26](composition-r2-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 节奏起点/时值/拍层与语句分组区分；实际表演时间K04。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-10@1",
+        "K02-CL-CO-25@1",
+        "K02-CL-CO-26@1",
+        "K02-CL-CO-56@1",
+        "K02-CL-CO-57@1"
+      ]
+    },
+    {
+      "d4": "K02.03.02.02",
+      "historicalRequirement": "停顿和乐句分组",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.03.02.03",
+        "K02.03.02.04",
+        "K02.03.02.05",
+        "K02.06.02.05",
+        "K02.06.02.06"
+      ],
+      "unresolved": [],
+      "limits": "节奏起点/时值/拍层与语句分组区分；实际表演时间K04。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 20,
+        "row": "| K02.03.02.02 | 停顿和乐句分组 | ROUTER | [CO-10](composition-r1-knowledge-cases.md) L14；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-26](composition-r2-knowledge-cases.md) L6；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 节奏起点/时值/拍层与语句分组区分；实际表演时间K04。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-10@1",
+        "K02-CL-CO-25@1",
+        "K02-CL-CO-26@1",
+        "K02-CL-CO-56@1",
+        "K02-CL-CO-57@1"
+      ]
+    },
+    {
+      "d4": "K02.03.03.01",
+      "historicalRequirement": "终止感与上下文",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.03.03.03",
+        "K02.03.02.04",
+        "K02.03.03.04"
+      ],
+      "unresolved": [],
+      "limits": "已具不同形式结尾候选；更多流派的结束策略仍需具体案例，非同一听感。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 21,
+        "row": "| K02.03.03.01 | 终止感与上下文 | ROUTER | [CO-11](composition-r1-knowledge-cases.md) L15；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-58](composition-r3-knowledge-cases.md) L9 | 已具不同形式结尾候选；更多流派的结束策略仍需具体案例，非同一听感。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-11@1",
+        "K02-CL-CO-25@1",
+        "K02-CL-CO-58@1"
+      ]
+    },
+    {
+      "d4": "K02.03.03.02",
+      "historicalRequirement": "不同终止策略及适用风格",
+      "disposition": "RESIDUAL",
+      "routes": [
+        "K02.03.03.03",
+        "K02.03.02.04",
+        "K02.03.03.04"
+      ],
+      "unresolved": [],
+      "limits": "已具不同形式结尾候选；更多流派的结束策略仍需具体案例，非同一听感。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 22,
+        "row": "| K02.03.03.02 | 不同终止策略及适用风格 | RESIDUAL | [CO-11](composition-r1-knowledge-cases.md) L15；[CO-25](composition-r2-knowledge-cases.md) L5；[CO-58](composition-r3-knowledge-cases.md) L9 | 已具不同形式结尾候选；更多流派的结束策略仍需具体案例，非同一听感。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-11@1",
+        "K02-CL-CO-25@1",
+        "K02-CL-CO-58@1"
+      ]
+    },
+    {
+      "d4": "K02.04.01.01",
+      "historicalRequirement": "核心材料与片段层级",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.04.01.03",
+        "K02.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "素材及辨别特征、hook候选/实测显著区分；不能仅由相似性判定。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 23,
+        "row": "| K02.04.01.01 | 核心材料与片段层级 | ROUTER | [CO-12](composition-r1-knowledge-cases.md) L16；[CO-59](composition-r3-knowledge-cases.md) L10 | 素材及辨别特征、hook候选/实测显著区分；不能仅由相似性判定。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-12@1",
+        "K02-CL-CO-59@1"
+      ]
+    },
+    {
+      "d4": "K02.04.01.02",
+      "historicalRequirement": "可辨特征及多解",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.04.01.03",
+        "K02.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "素材及辨别特征、hook候选/实测显著区分；不能仅由相似性判定。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 24,
+        "row": "| K02.04.01.02 | 可辨特征及多解 | ROUTER | [CO-12](composition-r1-knowledge-cases.md) L16；[CO-59](composition-r3-knowledge-cases.md) L10 | 素材及辨别特征、hook候选/实测显著区分；不能仅由相似性判定。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-12@1",
+        "K02-CL-CO-59@1"
+      ]
+    },
+    {
+      "d4": "K02.04.02.01",
+      "historicalRequirement": "移调增减时值倒影逆行等操作",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.04.02.03",
+        "K02.04.02.04",
+        "K02.04.02.05",
+        "K02.04.03.03"
+      ],
+      "unresolved": [],
+      "limits": "严格/调内倒影、时值、音序与事件、扩展和片段分别有明确输入。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 25,
+        "row": "| K02.04.02.01 | 移调增减时值倒影逆行等操作 | ROUTER | [CO-13](composition-r1-knowledge-cases.md) L17；[CO-14](composition-r1-knowledge-cases.md) L18；[CO-15](composition-r1-knowledge-cases.md) L19；[CO-16](composition-r1-knowledge-cases.md) L20 | 严格/调内倒影、时值、音序与事件、扩展和片段分别有明确输入。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-13@1",
+        "K02-CL-CO-14@1",
+        "K02-CL-CO-15@1",
+        "K02-CL-CO-16@1"
+      ]
+    },
+    {
+      "d4": "K02.04.02.02",
+      "historicalRequirement": "明确保留特征与变换参数",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.04.02.03",
+        "K02.04.02.04",
+        "K02.04.02.05",
+        "K02.04.03.03"
+      ],
+      "unresolved": [],
+      "limits": "严格/调内倒影、时值、音序与事件、扩展和片段分别有明确输入。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 26,
+        "row": "| K02.04.02.02 | 明确保留特征与变换参数 | ROUTER | [CO-13](composition-r1-knowledge-cases.md) L17；[CO-14](composition-r1-knowledge-cases.md) L18；[CO-15](composition-r1-knowledge-cases.md) L19；[CO-16](composition-r1-knowledge-cases.md) L20 | 严格/调内倒影、时值、音序与事件、扩展和片段分别有明确输入。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-13@1",
+        "K02-CL-CO-14@1",
+        "K02-CL-CO-15@1",
+        "K02-CL-CO-16@1"
+      ]
+    },
+    {
+      "d4": "K02.04.03.01",
+      "historicalRequirement": "重复模进分割扩展和对比",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.04.03.03",
+        "K02.04.03.04",
+        "K02.04.03.05",
+        "K02.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "发展手法/连续性判断的符号条件，真实听觉评价另归K10/K17。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 27,
+        "row": "| K02.04.03.01 | 重复模进分割扩展和对比 | ROUTER | [CO-16](composition-r1-knowledge-cases.md) L20；[CO-17](composition-r1-knowledge-cases.md) L21；[CO-31](composition-r2-knowledge-cases.md) L11；[CO-59](composition-r3-knowledge-cases.md) L10 | 发展手法/连续性判断的符号条件，真实听觉评价另归K10/K17。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-16@1",
+        "K02-CL-CO-17@1",
+        "K02-CL-CO-31@1",
+        "K02-CL-CO-59@1"
+      ]
+    },
+    {
+      "d4": "K02.04.03.02",
+      "historicalRequirement": "跨段材料连续性评价",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.04.03.03",
+        "K02.04.03.04",
+        "K02.04.03.05",
+        "K02.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "发展手法/连续性判断的符号条件，真实听觉评价另归K10/K17。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 28,
+        "row": "| K02.04.03.02 | 跨段材料连续性评价 | ROUTER | [CO-16](composition-r1-knowledge-cases.md) L20；[CO-17](composition-r1-knowledge-cases.md) L21；[CO-31](composition-r2-knowledge-cases.md) L11；[CO-59](composition-r3-knowledge-cases.md) L10 | 发展手法/连续性判断的符号条件，真实听觉评价另归K10/K17。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-16@1",
+        "K02-CL-CO-17@1",
+        "K02-CL-CO-31@1",
+        "K02-CL-CO-59@1"
+      ]
+    },
+    {
+      "d4": "K02.05.01.01",
+      "historicalRequirement": "主歌副歌桥段等条件性角色",
+      "disposition": "RESIDUAL",
+      "routes": [
+        "K02.05.01.03",
+        "K02.05.01.04",
+        "K02.05.03.03",
+        "K02.05.03.05"
+      ],
+      "unresolved": [],
+      "limits": "具体大型段落形式需更多完整词曲组合，原OMT仅指定流行框架；不强制必副歌。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 29,
+        "row": "| K02.05.01.01 | 主歌副歌桥段等条件性角色 | RESIDUAL | [CO-18](composition-r1-knowledge-cases.md) L22；[CO-19](composition-r1-knowledge-cases.md) L23；[CO-20](composition-r1-knowledge-cases.md) L24；[CO-60](composition-r3-knowledge-cases.md) L11 | 具体大型段落形式需更多完整词曲组合，原OMT仅指定流行框架；不强制必副歌。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-18@1",
+        "K02-CL-CO-19@1",
+        "K02-CL-CO-20@1",
+        "K02-CL-CO-60@1"
+      ]
+    },
+    {
+      "d4": "K02.05.01.02",
+      "historicalRequirement": "不强制普遍曲式",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.05.01.03",
+        "K02.05.01.04",
+        "K02.05.03.03",
+        "K02.05.03.05"
+      ],
+      "unresolved": [],
+      "limits": "具体大型段落形式需更多完整词曲组合，原OMT仅指定流行框架；不强制必副歌。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 30,
+        "row": "| K02.05.01.02 | 不强制普遍曲式 | ROUTER | [CO-18](composition-r1-knowledge-cases.md) L22；[CO-19](composition-r1-knowledge-cases.md) L23；[CO-20](composition-r1-knowledge-cases.md) L24；[CO-60](composition-r3-knowledge-cases.md) L11 | 具体大型段落形式需更多完整词曲组合，原OMT仅指定流行框架；不强制必副歌。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-18@1",
+        "K02-CL-CO-19@1",
+        "K02-CL-CO-20@1",
+        "K02-CL-CO-60@1"
+      ]
+    },
+    {
+      "d4": "K02.05.02.01",
+      "historicalRequirement": "和声节奏旋律密度与表达关系",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.05.02.03",
+        "K02.05.02.04",
+        "K02.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "密度与和声对照、实际听评缺失状态；不填虚构感知分。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 31,
+        "row": "| K02.05.02.01 | 和声节奏旋律密度与表达关系 | ROUTER | [CO-32](composition-r2-knowledge-cases.md) L12；[CO-33](composition-r2-knowledge-cases.md) L13；[CO-59](composition-r3-knowledge-cases.md) L10 | 密度与和声对照、实际听评缺失状态；不填虚构感知分。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-32@1",
+        "K02-CL-CO-33@1",
+        "K02-CL-CO-59@1"
+      ]
+    },
+    {
+      "d4": "K02.05.02.02",
+      "historicalRequirement": "主观听感及语境",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.05.02.03",
+        "K02.05.02.04",
+        "K02.04.01.04"
+      ],
+      "unresolved": [],
+      "limits": "密度与和声对照、实际听评缺失状态；不填虚构感知分。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 32,
+        "row": "| K02.05.02.02 | 主观听感及语境 | ROUTER | [CO-32](composition-r2-knowledge-cases.md) L12；[CO-33](composition-r2-knowledge-cases.md) L13；[CO-59](composition-r3-knowledge-cases.md) L10 | 密度与和声对照、实际听评缺失状态；不填虚构感知分。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-32@1",
+        "K02-CL-CO-33@1",
+        "K02-CL-CO-59@1"
+      ]
+    },
+    {
+      "d4": "K02.05.03.01",
+      "historicalRequirement": "过渡动机连接和重复层次",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.05.03.03",
+        "K02.05.03.04",
+        "K02.05.03.05"
+      ],
+      "unresolved": [],
+      "limits": "过渡新增时长/引用、复现/边界与功能，非仅标签。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 33,
+        "row": "| K02.05.03.01 | 过渡动机连接和重复层次 | ROUTER | [CO-20](composition-r1-knowledge-cases.md) L24；[CO-34](composition-r2-knowledge-cases.md) L14；[CO-60](composition-r3-knowledge-cases.md) L11 | 过渡新增时长/引用、复现/边界与功能，非仅标签。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-20@1",
+        "K02-CL-CO-34@1",
+        "K02-CL-CO-60@1"
+      ]
+    },
+    {
+      "d4": "K02.05.03.02",
+      "historicalRequirement": "结构一致性及预期变化",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.05.03.03",
+        "K02.05.03.04",
+        "K02.05.03.05"
+      ],
+      "unresolved": [],
+      "limits": "过渡新增时长/引用、复现/边界与功能，非仅标签。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 34,
+        "row": "| K02.05.03.02 | 结构一致性及预期变化 | ROUTER | [CO-20](composition-r1-knowledge-cases.md) L24；[CO-34](composition-r2-knowledge-cases.md) L14；[CO-60](composition-r3-knowledge-cases.md) L11 | 过渡新增时长/引用、复现/边界与功能，非仅标签。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-20@1",
+        "K02-CL-CO-34@1",
+        "K02-CL-CO-60@1"
+      ]
+    },
+    {
+      "d4": "K02.06.01.01",
+      "historicalRequirement": "单音节多音与多音节分配",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.06.01.03",
+        "K02.06.01.04",
+        "K02.06.01.05"
+      ],
+      "unresolved": [],
+      "limits": "一对一/延展/elision及遍次、歌词行分开，实际宿主待K12。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 35,
+        "row": "| K02.06.01.01 | 单音节多音与多音节分配 | ROUTER | [CO-21](composition-r1-knowledge-cases.md) L25；[CO-22](composition-r1-knowledge-cases.md) L26；[CO-61](composition-r3-knowledge-cases.md) L12 | 一对一/延展/elision及遍次、歌词行分开，实际宿主待K12。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-21@1",
+        "K02-CL-CO-22@1",
+        "K02-CL-CO-61@1"
+      ]
+    },
+    {
+      "d4": "K02.06.01.02",
+      "historicalRequirement": "记录延音和区间对齐",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.06.01.03",
+        "K02.06.01.04",
+        "K02.06.01.05"
+      ],
+      "unresolved": [],
+      "limits": "一对一/延展/elision及遍次、歌词行分开，实际宿主待K12。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 36,
+        "row": "| K02.06.01.02 | 记录延音和区间对齐 | ROUTER | [CO-21](composition-r1-knowledge-cases.md) L25；[CO-22](composition-r1-knowledge-cases.md) L26；[CO-61](composition-r3-knowledge-cases.md) L12 | 一对一/延展/elision及遍次、歌词行分开，实际宿主待K12。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-21@1",
+        "K02-CL-CO-22@1",
+        "K02-CL-CO-61@1"
+      ]
+    },
+    {
+      "d4": "K02.06.02.01",
+      "historicalRequirement": "语言重音与音乐重音关系",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.06.02.03",
+        "K02.06.02.04",
+        "K02.06.02.05",
+        "K02.06.02.06"
+      ],
+      "unresolved": [],
+      "limits": "英语重音与显著性、切分及句法错位分离；非英语具体条件依语种与原生证据。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 37,
+        "row": "| K02.06.02.01 | 语言重音与音乐重音关系 | ROUTER | [CO-23](composition-r1-knowledge-cases.md) L27；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语重音与显著性、切分及句法错位分离；非英语具体条件依语种与原生证据。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-23@1",
+        "K02-CL-CO-38@1",
+        "K02-CL-CO-56@1",
+        "K02-CL-CO-57@1"
+      ]
+    },
+    {
+      "d4": "K02.06.02.02",
+      "historicalRequirement": "语种风格及有意偏离",
+      "disposition": "RESIDUAL",
+      "routes": [
+        "K02.06.02.03",
+        "K02.06.02.04",
+        "K02.06.02.05",
+        "K02.06.02.06"
+      ],
+      "unresolved": [],
+      "limits": "英语重音与显著性、切分及句法错位分离；非英语具体条件依语种与原生证据。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 38,
+        "row": "| K02.06.02.02 | 语种风格及有意偏离 | RESIDUAL | [CO-23](composition-r1-knowledge-cases.md) L27；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-56](composition-r3-knowledge-cases.md) L7；[CO-57](composition-r3-knowledge-cases.md) L8 | 英语重音与显著性、切分及句法错位分离；非英语具体条件依语种与原生证据。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-23@1",
+        "K02-CL-CO-38@1",
+        "K02-CL-CO-56@1",
+        "K02-CL-CO-57@1"
+      ]
+    },
+    {
+      "d4": "K02.06.03.01",
+      "historicalRequirement": "特定语种声调和旋律约束需求",
+      "disposition": "RESIDUAL",
+      "routes": [
+        "K02.06.03.03",
+        "K02.06.03.04",
+        "K02.06.03.05",
+        "K02.06.02.04",
+        "K02.06.03.06"
+      ],
+      "unresolved": [],
+      "limits": "特定历史传统及粤语研究为限定候选；现代缅语实际词曲/语义听辨未知。K02仍负责取舍和改词，K13/K16提供原生资料、K10评价。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 39,
+        "row": "| K02.06.03.01 | 特定语种声调和旋律约束需求 | RESIDUAL | [CO-35](composition-r2-knowledge-cases.md) L15；[CO-36](composition-r2-knowledge-cases.md) L16；[CO-37](composition-r2-knowledge-cases.md) L17；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-62](composition-r3-knowledge-cases.md) L13 | 特定历史传统及粤语研究为限定候选；现代缅语实际词曲/语义听辨未知。K02仍负责取舍和改词，K13/K16提供原生资料、K10评价。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-35@1",
+        "K02-CL-CO-36@1",
+        "K02-CL-CO-37@1",
+        "K02-CL-CO-38@1",
+        "K02-CL-CO-62@1"
+      ]
+    },
+    {
+      "d4": "K02.06.03.02",
+      "historicalRequirement": "语义可懂及母语评价",
+      "disposition": "RESIDUAL",
+      "routes": [
+        "K02.06.03.03",
+        "K02.06.03.04",
+        "K02.06.03.05",
+        "K02.06.02.04",
+        "K02.06.03.06"
+      ],
+      "unresolved": [],
+      "limits": "特定历史传统及粤语研究为限定候选；现代缅语实际词曲/语义听辨未知。K02仍负责取舍和改词，K13/K16提供原生资料、K10评价。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 40,
+        "row": "| K02.06.03.02 | 语义可懂及母语评价 | RESIDUAL | [CO-35](composition-r2-knowledge-cases.md) L15；[CO-36](composition-r2-knowledge-cases.md) L16；[CO-37](composition-r2-knowledge-cases.md) L17；[CO-38](composition-r2-knowledge-cases.md) L18；[CO-62](composition-r3-knowledge-cases.md) L13 | 特定历史传统及粤语研究为限定候选；现代缅语实际词曲/语义听辨未知。K02仍负责取舍和改词，K13/K16提供原生资料、K10评价。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-35@1",
+        "K02-CL-CO-36@1",
+        "K02-CL-CO-37@1",
+        "K02-CL-CO-38@1",
+        "K02-CL-CO-62@1"
+      ]
+    },
+    {
+      "d4": "K02.07.01.01",
+      "historicalRequirement": "先定义核心乐句再选和声",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.07.01.03",
+        "K02.07.01.04",
+        "K02.07.02.06"
+      ],
+      "unresolved": [],
+      "limits": "旋律先行的多和声、成员与非成员条件，不能从成品反推创作史。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 41,
+        "row": "| K02.07.01.01 | 先定义核心乐句再选和声 | ROUTER | [CO-39](composition-r2-knowledge-cases.md) L19；[CO-40](composition-r2-knowledge-cases.md) L20；[CO-64](composition-r3-knowledge-cases.md) L15 | 旋律先行的多和声、成员与非成员条件，不能从成品反推创作史。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-39@1",
+        "K02-CL-CO-40@1",
+        "K02-CL-CO-64@1"
+      ]
+    },
+    {
+      "d4": "K02.07.01.02",
+      "historicalRequirement": "记录候选及适用性",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.07.01.03",
+        "K02.07.01.04",
+        "K02.07.02.06"
+      ],
+      "unresolved": [],
+      "limits": "旋律先行的多和声、成员与非成员条件，不能从成品反推创作史。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 42,
+        "row": "| K02.07.01.02 | 记录候选及适用性 | ROUTER | [CO-39](composition-r2-knowledge-cases.md) L19；[CO-40](composition-r2-knowledge-cases.md) L20；[CO-64](composition-r3-knowledge-cases.md) L15 | 旋律先行的多和声、成员与非成员条件，不能从成品反推创作史。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-39@1",
+        "K02-CL-CO-40@1",
+        "K02-CL-CO-64@1"
+      ]
+    },
+    {
+      "d4": "K02.07.02.01",
+      "historicalRequirement": "groove或和声起点与限制",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.07.02.03",
+        "K02.07.02.04",
+        "K02.07.02.05",
+        "K02.07.02.06"
+      ],
+      "unresolved": [],
+      "limits": "节奏/和声/track起点不同，固定输入/替代路线明确；非普遍流程。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 43,
+        "row": "| K02.07.02.01 | groove或和声起点与限制 | ROUTER | [CO-41](composition-r2-knowledge-cases.md) L21；[CO-42](composition-r2-knowledge-cases.md) L22；[CO-43](composition-r2-knowledge-cases.md) L23；[CO-64](composition-r3-knowledge-cases.md) L15 | 节奏/和声/track起点不同，固定输入/替代路线明确；非普遍流程。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-41@1",
+        "K02-CL-CO-42@1",
+        "K02-CL-CO-43@1",
+        "K02-CL-CO-64@1"
+      ]
+    },
+    {
+      "d4": "K02.07.02.02",
+      "historicalRequirement": "保持目标及可替代路径",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.07.02.03",
+        "K02.07.02.04",
+        "K02.07.02.05",
+        "K02.07.02.06"
+      ],
+      "unresolved": [],
+      "limits": "节奏/和声/track起点不同，固定输入/替代路线明确；非普遍流程。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 44,
+        "row": "| K02.07.02.02 | 保持目标及可替代路径 | ROUTER | [CO-41](composition-r2-knowledge-cases.md) L21；[CO-42](composition-r2-knowledge-cases.md) L22；[CO-43](composition-r2-knowledge-cases.md) L23；[CO-64](composition-r3-knowledge-cases.md) L15 | 节奏/和声/track起点不同，固定输入/替代路线明确；非普遍流程。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-41@1",
+        "K02-CL-CO-42@1",
+        "K02-CL-CO-43@1",
+        "K02-CL-CO-64@1"
+      ]
+    },
+    {
+      "d4": "K02.07.03.01",
+      "historicalRequirement": "规则生成与随机选择的区别",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.07.03.03",
+        "K02.07.03.04",
+        "K02.07.03.05",
+        "K02.07.03.06",
+        "K02.07.03.07",
+        "K02.07.03.08"
+      ],
+      "unresolved": [],
+      "limits": "规则、种子碰撞、过程技法；实际工具版本、评价与作者史不可反推。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 45,
+        "row": "| K02.07.03.01 | 规则生成与随机选择的区别 | ROUTER | [CO-44](composition-r2-knowledge-cases.md) L24；[CO-45](composition-r2-knowledge-cases.md) L25；[CO-46](composition-r2-knowledge-cases.md) L26；[CO-47](composition-r2-knowledge-cases.md) L27；[CO-48](composition-r2-knowledge-cases.md) L28；[CO-63](composition-r3-knowledge-cases.md) L14 | 规则、种子碰撞、过程技法；实际工具版本、评价与作者史不可反推。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-44@1",
+        "K02-CL-CO-45@1",
+        "K02-CL-CO-46@1",
+        "K02-CL-CO-47@1",
+        "K02-CL-CO-48@1",
+        "K02-CL-CO-63@1"
+      ]
+    },
+    {
+      "d4": "K02.07.03.02",
+      "historicalRequirement": "记录随机种子约束与审美评价",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.07.03.03",
+        "K02.07.03.04",
+        "K02.07.03.05",
+        "K02.07.03.06",
+        "K02.07.03.07",
+        "K02.07.03.08"
+      ],
+      "unresolved": [],
+      "limits": "规则、种子碰撞、过程技法；实际工具版本、评价与作者史不可反推。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 46,
+        "row": "| K02.07.03.02 | 记录随机种子约束与审美评价 | ROUTER | [CO-44](composition-r2-knowledge-cases.md) L24；[CO-45](composition-r2-knowledge-cases.md) L25；[CO-46](composition-r2-knowledge-cases.md) L26；[CO-47](composition-r2-knowledge-cases.md) L27；[CO-48](composition-r2-knowledge-cases.md) L28；[CO-63](composition-r3-knowledge-cases.md) L14 | 规则、种子碰撞、过程技法；实际工具版本、评价与作者史不可反推。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-44@1",
+        "K02-CL-CO-45@1",
+        "K02-CL-CO-46@1",
+        "K02-CL-CO-47@1",
+        "K02-CL-CO-48@1",
+        "K02-CL-CO-63@1"
+      ]
+    },
+    {
+      "d4": "K02.08.01.01",
+      "historicalRequirement": "作品候选版本及素材依赖",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.08.01.03",
+        "K02.08.01.04",
+        "K02.06.01.05"
+      ],
+      "unresolved": [],
+      "limits": "创作候选与素材、歌词/音符/段落源对象；真实工程快照K09。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 47,
+        "row": "| K02.08.01.01 | 作品候选版本及素材依赖 | ROUTER | [CO-49](composition-r2-knowledge-cases.md) L29；[CO-50](composition-r2-knowledge-cases.md) L30；[CO-61](composition-r3-knowledge-cases.md) L12 | 创作候选与素材、歌词/音符/段落源对象；真实工程快照K09。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-50@1",
+        "K02-CL-CO-61@1"
+      ]
+    },
+    {
+      "d4": "K02.08.01.02",
+      "historicalRequirement": "可编辑歌词乐谱的标识",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.08.01.03",
+        "K02.08.01.04",
+        "K02.06.01.05"
+      ],
+      "unresolved": [],
+      "limits": "创作候选与素材、歌词/音符/段落源对象；真实工程快照K09。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 48,
+        "row": "| K02.08.01.02 | 可编辑歌词乐谱的标识 | ROUTER | [CO-49](composition-r2-knowledge-cases.md) L29；[CO-50](composition-r2-knowledge-cases.md) L30；[CO-61](composition-r3-knowledge-cases.md) L12 | 创作候选与素材、歌词/音符/段落源对象；真实工程快照K09。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-50@1",
+        "K02-CL-CO-61@1"
+      ]
+    },
+    {
+      "d4": "K02.08.02.01",
+      "historicalRequirement": "明确目标段落与保护范围",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.08.02.03",
+        "K02.08.02.04"
+      ],
+      "unresolved": [],
+      "limits": "受保护范围及受影响依赖区分；不虚报实际回滚或读写。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 49,
+        "row": "| K02.08.02.01 | 明确目标段落与保护范围 | ROUTER | [CO-24](composition-r1-knowledge-cases.md) L28；[CO-51](composition-r2-knowledge-cases.md) L31 | 受保护范围及受影响依赖区分；不虚报实际回滚或读写。 |"
+      },
+      "equivalence": false,
+      "claimRefs": []
+    },
+    {
+      "d4": "K02.08.02.02",
+      "historicalRequirement": "记录关联失效和变更影响",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.08.02.03",
+        "K02.08.02.04"
+      ],
+      "unresolved": [],
+      "limits": "受保护范围及受影响依赖区分；不虚报实际回滚或读写。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 50,
+        "row": "| K02.08.02.02 | 记录关联失效和变更影响 | ROUTER | [CO-24](composition-r1-knowledge-cases.md) L28；[CO-51](composition-r2-knowledge-cases.md) L31 | 受保护范围及受影响依赖区分；不虚报实际回滚或读写。 |"
+      },
+      "equivalence": false,
+      "claimRefs": []
+    },
+    {
+      "d4": "K02.08.03.01",
+      "historicalRequirement": "按目标及评价条件比较",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.08.03.03",
+        "K02.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 51,
+        "row": "| K02.08.03.01 | 按目标及评价条件比较 | ROUTER | [CO-52](composition-r2-knowledge-cases.md) L32；[CO-53](composition-r2-knowledge-cases.md) L33 | 硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-52@1"
+      ]
+    },
+    {
+      "d4": "K02.08.03.02",
+      "historicalRequirement": "人工确认回滚与停止",
+      "disposition": "ROUTER",
+      "routes": [
+        "K02.08.03.03",
+        "K02.08.03.04"
+      ],
+      "unresolved": [],
+      "limits": "硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/composition-r3-legacy-convergence.md",
+        "blob": "a145dd3d0b599d9b27c66b92f9f1d44d061bec06",
+        "line": 52,
+        "row": "| K02.08.03.02 | 人工确认回滚与停止 | ROUTER | [CO-52](composition-r2-knowledge-cases.md) L32；[CO-53](composition-r2-knowledge-cases.md) L33 | 硬筛、未决偏好、人工确认、预算停止；实际验收与恢复另证。 |"
+      },
+      "equivalence": false,
+      "claimRefs": [
+        "K02-CL-CO-52@1"
+      ]
+    }
+  ],
+  "splitRoutes": [
+    {
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 14,
+        "row": "| K13.03.03.02 | 惯例、规范、艺术选择与评价协议 | K16.06.02.01 | K10.08.02.02 | K02.07 | 规范与选择分离；评价不当硬规则 | [MX-K13.03.03.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY"
+    }
+  ],
+  "historicalFinding": null,
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}
