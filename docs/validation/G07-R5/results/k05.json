@@ -1,0 +1,2587 @@
+{
+  "module": "K05",
+  "checks": 645,
+  "passed": 645,
+  "results": [
+    [
+      "exact frozen inventory",
+      true
+    ],
+    [
+      "exact row/locator VS01",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS01",
+      true
+    ],
+    [
+      "qualified source and H closure VS01",
+      true
+    ],
+    [
+      "primary bindings VS01",
+      true
+    ],
+    [
+      "four distinct directional views VS01",
+      true
+    ],
+    [
+      "active scenario VS01 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS01 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS01 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS01 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS02",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS02",
+      true
+    ],
+    [
+      "qualified source and H closure VS02",
+      true
+    ],
+    [
+      "primary bindings VS02",
+      true
+    ],
+    [
+      "four distinct directional views VS02",
+      true
+    ],
+    [
+      "active scenario VS02 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS02 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS02 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS02 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS03",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS03",
+      true
+    ],
+    [
+      "qualified source and H closure VS03",
+      true
+    ],
+    [
+      "primary bindings VS03",
+      true
+    ],
+    [
+      "four distinct directional views VS03",
+      true
+    ],
+    [
+      "active scenario VS03 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS03 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS03 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS03 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS04",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS04",
+      true
+    ],
+    [
+      "qualified source and H closure VS04",
+      true
+    ],
+    [
+      "primary bindings VS04",
+      true
+    ],
+    [
+      "four distinct directional views VS04",
+      true
+    ],
+    [
+      "active scenario VS04 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS04 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS04 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS04 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS05",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS05",
+      true
+    ],
+    [
+      "qualified source and H closure VS05",
+      true
+    ],
+    [
+      "primary bindings VS05",
+      true
+    ],
+    [
+      "four distinct directional views VS05",
+      true
+    ],
+    [
+      "active scenario VS05 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS05 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS05 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS05 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS06",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS06",
+      true
+    ],
+    [
+      "qualified source and H closure VS06",
+      true
+    ],
+    [
+      "primary bindings VS06",
+      true
+    ],
+    [
+      "four distinct directional views VS06",
+      true
+    ],
+    [
+      "active scenario VS06 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS06 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS06 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS06 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS07",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS07",
+      true
+    ],
+    [
+      "qualified source and H closure VS07",
+      true
+    ],
+    [
+      "primary bindings VS07",
+      true
+    ],
+    [
+      "four distinct directional views VS07",
+      true
+    ],
+    [
+      "active scenario VS07 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS07 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS07 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS07 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS08",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS08",
+      true
+    ],
+    [
+      "qualified source and H closure VS08",
+      true
+    ],
+    [
+      "primary bindings VS08",
+      true
+    ],
+    [
+      "four distinct directional views VS08",
+      true
+    ],
+    [
+      "active scenario VS08 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS08 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS08 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS08 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS09",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS09",
+      true
+    ],
+    [
+      "qualified source and H closure VS09",
+      true
+    ],
+    [
+      "primary bindings VS09",
+      true
+    ],
+    [
+      "four distinct directional views VS09",
+      true
+    ],
+    [
+      "active scenario VS09 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS09 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS09 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS09 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS10",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS10",
+      true
+    ],
+    [
+      "qualified source and H closure VS10",
+      true
+    ],
+    [
+      "primary bindings VS10",
+      true
+    ],
+    [
+      "four distinct directional views VS10",
+      true
+    ],
+    [
+      "active scenario VS10 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS10 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS10 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS10 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS11",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS11",
+      true
+    ],
+    [
+      "qualified source and H closure VS11",
+      true
+    ],
+    [
+      "primary bindings VS11",
+      true
+    ],
+    [
+      "four distinct directional views VS11",
+      true
+    ],
+    [
+      "active scenario VS11 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS11 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS11 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS11 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS12",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS12",
+      true
+    ],
+    [
+      "qualified source and H closure VS12",
+      true
+    ],
+    [
+      "primary bindings VS12",
+      true
+    ],
+    [
+      "four distinct directional views VS12",
+      true
+    ],
+    [
+      "active scenario VS12 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS12 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS12 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS12 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS13",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS13",
+      true
+    ],
+    [
+      "qualified source and H closure VS13",
+      true
+    ],
+    [
+      "primary bindings VS13",
+      true
+    ],
+    [
+      "four distinct directional views VS13",
+      true
+    ],
+    [
+      "active scenario VS13 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS13 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS13 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS13 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS14",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS14",
+      true
+    ],
+    [
+      "qualified source and H closure VS14",
+      true
+    ],
+    [
+      "primary bindings VS14",
+      true
+    ],
+    [
+      "four distinct directional views VS14",
+      true
+    ],
+    [
+      "active scenario VS14 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS14 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS14 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS14 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS15",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS15",
+      true
+    ],
+    [
+      "qualified source and H closure VS15",
+      true
+    ],
+    [
+      "primary bindings VS15",
+      true
+    ],
+    [
+      "four distinct directional views VS15",
+      true
+    ],
+    [
+      "active scenario VS15 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS15 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS15 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS15 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS16",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS16",
+      true
+    ],
+    [
+      "qualified source and H closure VS16",
+      true
+    ],
+    [
+      "primary bindings VS16",
+      true
+    ],
+    [
+      "four distinct directional views VS16",
+      true
+    ],
+    [
+      "active scenario VS16 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS16 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS16 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS16 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS17",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS17",
+      true
+    ],
+    [
+      "qualified source and H closure VS17",
+      true
+    ],
+    [
+      "primary bindings VS17",
+      true
+    ],
+    [
+      "four distinct directional views VS17",
+      true
+    ],
+    [
+      "active scenario VS17 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS17 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS17 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS17 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS18",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS18",
+      true
+    ],
+    [
+      "qualified source and H closure VS18",
+      true
+    ],
+    [
+      "primary bindings VS18",
+      true
+    ],
+    [
+      "four distinct directional views VS18",
+      true
+    ],
+    [
+      "active scenario VS18 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS18 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS18 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS18 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS19",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS19",
+      true
+    ],
+    [
+      "qualified source and H closure VS19",
+      true
+    ],
+    [
+      "primary bindings VS19",
+      true
+    ],
+    [
+      "four distinct directional views VS19",
+      true
+    ],
+    [
+      "active scenario VS19 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS19 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS19 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS19 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS20",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS20",
+      true
+    ],
+    [
+      "qualified source and H closure VS20",
+      true
+    ],
+    [
+      "primary bindings VS20",
+      true
+    ],
+    [
+      "four distinct directional views VS20",
+      true
+    ],
+    [
+      "active scenario VS20 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS20 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS20 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS20 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS21",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS21",
+      true
+    ],
+    [
+      "qualified source and H closure VS21",
+      true
+    ],
+    [
+      "primary bindings VS21",
+      true
+    ],
+    [
+      "four distinct directional views VS21",
+      true
+    ],
+    [
+      "active scenario VS21 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS21 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS21 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS21 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS22",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS22",
+      true
+    ],
+    [
+      "qualified source and H closure VS22",
+      true
+    ],
+    [
+      "primary bindings VS22",
+      true
+    ],
+    [
+      "four distinct directional views VS22",
+      true
+    ],
+    [
+      "active scenario VS22 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS22 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS22 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS22 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS23",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS23",
+      true
+    ],
+    [
+      "qualified source and H closure VS23",
+      true
+    ],
+    [
+      "primary bindings VS23",
+      true
+    ],
+    [
+      "four distinct directional views VS23",
+      true
+    ],
+    [
+      "active scenario VS23 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS23 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS23 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS23 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS24",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS24",
+      true
+    ],
+    [
+      "qualified source and H closure VS24",
+      true
+    ],
+    [
+      "primary bindings VS24",
+      true
+    ],
+    [
+      "four distinct directional views VS24",
+      true
+    ],
+    [
+      "active scenario VS24 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS24 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS24 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS24 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS25",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS25",
+      true
+    ],
+    [
+      "qualified source and H closure VS25",
+      true
+    ],
+    [
+      "primary bindings VS25",
+      true
+    ],
+    [
+      "four distinct directional views VS25",
+      true
+    ],
+    [
+      "active scenario VS25 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS25 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS25 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS25 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS26",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS26",
+      true
+    ],
+    [
+      "qualified source and H closure VS26",
+      true
+    ],
+    [
+      "primary bindings VS26",
+      true
+    ],
+    [
+      "four distinct directional views VS26",
+      true
+    ],
+    [
+      "active scenario VS26 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS26 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS26 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS26 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS27",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS27",
+      true
+    ],
+    [
+      "qualified source and H closure VS27",
+      true
+    ],
+    [
+      "primary bindings VS27",
+      true
+    ],
+    [
+      "four distinct directional views VS27",
+      true
+    ],
+    [
+      "active scenario VS27 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS27 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS27 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS27 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS28",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS28",
+      true
+    ],
+    [
+      "qualified source and H closure VS28",
+      true
+    ],
+    [
+      "primary bindings VS28",
+      true
+    ],
+    [
+      "four distinct directional views VS28",
+      true
+    ],
+    [
+      "active scenario VS28 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS28 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS28 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS28 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS29",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS29",
+      true
+    ],
+    [
+      "qualified source and H closure VS29",
+      true
+    ],
+    [
+      "primary bindings VS29",
+      true
+    ],
+    [
+      "four distinct directional views VS29",
+      true
+    ],
+    [
+      "active scenario VS29 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS29 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS29 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS29 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS30",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS30",
+      true
+    ],
+    [
+      "qualified source and H closure VS30",
+      true
+    ],
+    [
+      "primary bindings VS30",
+      true
+    ],
+    [
+      "four distinct directional views VS30",
+      true
+    ],
+    [
+      "active scenario VS30 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS30 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS30 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS30 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS31",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS31",
+      true
+    ],
+    [
+      "qualified source and H closure VS31",
+      true
+    ],
+    [
+      "primary bindings VS31",
+      true
+    ],
+    [
+      "four distinct directional views VS31",
+      true
+    ],
+    [
+      "active scenario VS31 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS31 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS31 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS31 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS32",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS32",
+      true
+    ],
+    [
+      "qualified source and H closure VS32",
+      true
+    ],
+    [
+      "primary bindings VS32",
+      true
+    ],
+    [
+      "four distinct directional views VS32",
+      true
+    ],
+    [
+      "active scenario VS32 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS32 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS32 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS32 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS33",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS33",
+      true
+    ],
+    [
+      "qualified source and H closure VS33",
+      true
+    ],
+    [
+      "primary bindings VS33",
+      true
+    ],
+    [
+      "four distinct directional views VS33",
+      true
+    ],
+    [
+      "active scenario VS33 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS33 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS33 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS33 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS34",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS34",
+      true
+    ],
+    [
+      "qualified source and H closure VS34",
+      true
+    ],
+    [
+      "primary bindings VS34",
+      true
+    ],
+    [
+      "four distinct directional views VS34",
+      true
+    ],
+    [
+      "active scenario VS34 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS34 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS34 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS34 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS35",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS35",
+      true
+    ],
+    [
+      "qualified source and H closure VS35",
+      true
+    ],
+    [
+      "primary bindings VS35",
+      true
+    ],
+    [
+      "four distinct directional views VS35",
+      true
+    ],
+    [
+      "active scenario VS35 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS35 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS35 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS35 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS36",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS36",
+      true
+    ],
+    [
+      "qualified source and H closure VS36",
+      true
+    ],
+    [
+      "primary bindings VS36",
+      true
+    ],
+    [
+      "four distinct directional views VS36",
+      true
+    ],
+    [
+      "active scenario VS36 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS36 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS36 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS36 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS37",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS37",
+      true
+    ],
+    [
+      "qualified source and H closure VS37",
+      true
+    ],
+    [
+      "primary bindings VS37",
+      true
+    ],
+    [
+      "four distinct directional views VS37",
+      true
+    ],
+    [
+      "active scenario VS37 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS37 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS37 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS37 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS38",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS38",
+      true
+    ],
+    [
+      "qualified source and H closure VS38",
+      true
+    ],
+    [
+      "primary bindings VS38",
+      true
+    ],
+    [
+      "four distinct directional views VS38",
+      true
+    ],
+    [
+      "active scenario VS38 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS38 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS38 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS38 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS39",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS39",
+      true
+    ],
+    [
+      "qualified source and H closure VS39",
+      true
+    ],
+    [
+      "primary bindings VS39",
+      true
+    ],
+    [
+      "four distinct directional views VS39",
+      true
+    ],
+    [
+      "active scenario VS39 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS39 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS39 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS39 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS40",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS40",
+      true
+    ],
+    [
+      "qualified source and H closure VS40",
+      true
+    ],
+    [
+      "primary bindings VS40",
+      true
+    ],
+    [
+      "four distinct directional views VS40",
+      true
+    ],
+    [
+      "active scenario VS40 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS40 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS40 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS40 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS41",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS41",
+      true
+    ],
+    [
+      "qualified source and H closure VS41",
+      true
+    ],
+    [
+      "primary bindings VS41",
+      true
+    ],
+    [
+      "four distinct directional views VS41",
+      true
+    ],
+    [
+      "active scenario VS41 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS41 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS41 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS41 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS42",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS42",
+      true
+    ],
+    [
+      "qualified source and H closure VS42",
+      true
+    ],
+    [
+      "primary bindings VS42",
+      true
+    ],
+    [
+      "four distinct directional views VS42",
+      true
+    ],
+    [
+      "active scenario VS42 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS42 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS42 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS42 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS43",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS43",
+      true
+    ],
+    [
+      "qualified source and H closure VS43",
+      true
+    ],
+    [
+      "primary bindings VS43",
+      true
+    ],
+    [
+      "four distinct directional views VS43",
+      true
+    ],
+    [
+      "active scenario VS43 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS43 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS43 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS43 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS44",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS44",
+      true
+    ],
+    [
+      "qualified source and H closure VS44",
+      true
+    ],
+    [
+      "primary bindings VS44",
+      true
+    ],
+    [
+      "four distinct directional views VS44",
+      true
+    ],
+    [
+      "active scenario VS44 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS44 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS44 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS44 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS45",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS45",
+      true
+    ],
+    [
+      "qualified source and H closure VS45",
+      true
+    ],
+    [
+      "primary bindings VS45",
+      true
+    ],
+    [
+      "four distinct directional views VS45",
+      true
+    ],
+    [
+      "active scenario VS45 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS45 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS45 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS45 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS46",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS46",
+      true
+    ],
+    [
+      "qualified source and H closure VS46",
+      true
+    ],
+    [
+      "primary bindings VS46",
+      true
+    ],
+    [
+      "four distinct directional views VS46",
+      true
+    ],
+    [
+      "active scenario VS46 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS46 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS46 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS46 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS47",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS47",
+      true
+    ],
+    [
+      "qualified source and H closure VS47",
+      true
+    ],
+    [
+      "primary bindings VS47",
+      true
+    ],
+    [
+      "four distinct directional views VS47",
+      true
+    ],
+    [
+      "active scenario VS47 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS47 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS47 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS47 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS48",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS48",
+      true
+    ],
+    [
+      "qualified source and H closure VS48",
+      true
+    ],
+    [
+      "primary bindings VS48",
+      true
+    ],
+    [
+      "four distinct directional views VS48",
+      true
+    ],
+    [
+      "active scenario VS48 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS48 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS48 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS48 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS49",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS49",
+      true
+    ],
+    [
+      "qualified source and H closure VS49",
+      true
+    ],
+    [
+      "primary bindings VS49",
+      true
+    ],
+    [
+      "four distinct directional views VS49",
+      true
+    ],
+    [
+      "active scenario VS49 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS49 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS49 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS49 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS50",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS50",
+      true
+    ],
+    [
+      "qualified source and H closure VS50",
+      true
+    ],
+    [
+      "primary bindings VS50",
+      true
+    ],
+    [
+      "four distinct directional views VS50",
+      true
+    ],
+    [
+      "active scenario VS50 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS50 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS50 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS50 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS51",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS51",
+      true
+    ],
+    [
+      "qualified source and H closure VS51",
+      true
+    ],
+    [
+      "primary bindings VS51",
+      true
+    ],
+    [
+      "four distinct directional views VS51",
+      true
+    ],
+    [
+      "active scenario VS51 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS51 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS51 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS51 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS52",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS52",
+      true
+    ],
+    [
+      "qualified source and H closure VS52",
+      true
+    ],
+    [
+      "primary bindings VS52",
+      true
+    ],
+    [
+      "four distinct directional views VS52",
+      true
+    ],
+    [
+      "active scenario VS52 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS52 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS52 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS52 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS53",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS53",
+      true
+    ],
+    [
+      "qualified source and H closure VS53",
+      true
+    ],
+    [
+      "primary bindings VS53",
+      true
+    ],
+    [
+      "four distinct directional views VS53",
+      true
+    ],
+    [
+      "active scenario VS53 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS53 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS53 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS53 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS54",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS54",
+      true
+    ],
+    [
+      "qualified source and H closure VS54",
+      true
+    ],
+    [
+      "primary bindings VS54",
+      true
+    ],
+    [
+      "four distinct directional views VS54",
+      true
+    ],
+    [
+      "active scenario VS54 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS54 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS54 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS54 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS55",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS55",
+      true
+    ],
+    [
+      "qualified source and H closure VS55",
+      true
+    ],
+    [
+      "primary bindings VS55",
+      true
+    ],
+    [
+      "four distinct directional views VS55",
+      true
+    ],
+    [
+      "active scenario VS55 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS55 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS55 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS55 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS56",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS56",
+      true
+    ],
+    [
+      "qualified source and H closure VS56",
+      true
+    ],
+    [
+      "primary bindings VS56",
+      true
+    ],
+    [
+      "four distinct directional views VS56",
+      true
+    ],
+    [
+      "active scenario VS56 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS56 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS56 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS56 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS57",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS57",
+      true
+    ],
+    [
+      "qualified source and H closure VS57",
+      true
+    ],
+    [
+      "primary bindings VS57",
+      true
+    ],
+    [
+      "four distinct directional views VS57",
+      true
+    ],
+    [
+      "active scenario VS57 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS57 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS57 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS57 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS58",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS58",
+      true
+    ],
+    [
+      "qualified source and H closure VS58",
+      true
+    ],
+    [
+      "primary bindings VS58",
+      true
+    ],
+    [
+      "four distinct directional views VS58",
+      true
+    ],
+    [
+      "active scenario VS58 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS58 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS58 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS58 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS59",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS59",
+      true
+    ],
+    [
+      "qualified source and H closure VS59",
+      true
+    ],
+    [
+      "primary bindings VS59",
+      true
+    ],
+    [
+      "four distinct directional views VS59",
+      true
+    ],
+    [
+      "active scenario VS59 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS59 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS59 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS59 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS60",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS60",
+      true
+    ],
+    [
+      "qualified source and H closure VS60",
+      true
+    ],
+    [
+      "primary bindings VS60",
+      true
+    ],
+    [
+      "four distinct directional views VS60",
+      true
+    ],
+    [
+      "active scenario VS60 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS60 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS60 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS60 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS61",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS61",
+      true
+    ],
+    [
+      "qualified source and H closure VS61",
+      true
+    ],
+    [
+      "primary bindings VS61",
+      true
+    ],
+    [
+      "four distinct directional views VS61",
+      true
+    ],
+    [
+      "active scenario VS61 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS61 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS61 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS61 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS62",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS62",
+      true
+    ],
+    [
+      "qualified source and H closure VS62",
+      true
+    ],
+    [
+      "primary bindings VS62",
+      true
+    ],
+    [
+      "four distinct directional views VS62",
+      true
+    ],
+    [
+      "active scenario VS62 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS62 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS62 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS62 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS63",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS63",
+      true
+    ],
+    [
+      "qualified source and H closure VS63",
+      true
+    ],
+    [
+      "primary bindings VS63",
+      true
+    ],
+    [
+      "four distinct directional views VS63",
+      true
+    ],
+    [
+      "active scenario VS63 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS63 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS63 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS63 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS64",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS64",
+      true
+    ],
+    [
+      "qualified source and H closure VS64",
+      true
+    ],
+    [
+      "primary bindings VS64",
+      true
+    ],
+    [
+      "four distinct directional views VS64",
+      true
+    ],
+    [
+      "active scenario VS64 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS64 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS64 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS64 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS65",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS65",
+      true
+    ],
+    [
+      "qualified source and H closure VS65",
+      true
+    ],
+    [
+      "primary bindings VS65",
+      true
+    ],
+    [
+      "four distinct directional views VS65",
+      true
+    ],
+    [
+      "active scenario VS65 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS65 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS65 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS65 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VS66",
+      true
+    ],
+    [
+      "exact claim/direct CQ VS66",
+      true
+    ],
+    [
+      "qualified source and H closure VS66",
+      true
+    ],
+    [
+      "primary bindings VS66",
+      true
+    ],
+    [
+      "four distinct directional views VS66",
+      true
+    ],
+    [
+      "active scenario VS66 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS66 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VS66 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VS66 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "direct-only CQ01",
+      true
+    ],
+    [
+      "direct-only CQ02",
+      true
+    ],
+    [
+      "direct-only CQ03",
+      true
+    ],
+    [
+      "direct-only CQ04",
+      true
+    ],
+    [
+      "direct-only CQ05",
+      true
+    ],
+    [
+      "direct-only CQ06",
+      true
+    ],
+    [
+      "direct-only CQ07",
+      true
+    ],
+    [
+      "direct-only CQ08",
+      true
+    ],
+    [
+      "direct-only CQ09",
+      true
+    ],
+    [
+      "direct-only CQ10",
+      true
+    ],
+    [
+      "direct-only CQ11",
+      true
+    ],
+    [
+      "direct-only CQ12",
+      true
+    ],
+    [
+      "direct-only CQ13",
+      true
+    ],
+    [
+      "direct-only CQ14",
+      true
+    ],
+    [
+      "direct-only CQ15",
+      true
+    ],
+    [
+      "direct-only CQ16",
+      true
+    ],
+    [
+      "direct-only CQ17",
+      true
+    ],
+    [
+      "direct-only CQ18",
+      true
+    ],
+    [
+      "direct-only CQ19",
+      true
+    ],
+    [
+      "direct-only CQ20",
+      true
+    ],
+    [
+      "direct-only CQ21",
+      true
+    ],
+    [
+      "direct-only CQ22",
+      true
+    ],
+    [
+      "direct-only CQ23",
+      true
+    ],
+    [
+      "direct-only CQ24",
+      true
+    ],
+    [
+      "direct-only CQ25",
+      true
+    ],
+    [
+      "direct-only CQ26",
+      true
+    ],
+    [
+      "legacy split routes",
+      true
+    ],
+    [
+      "exact capability cells",
+      true
+    ],
+    [
+      "source registry and canonical reuse",
+      true
+    ],
+    [
+      "qualified hard dependency obligations",
+      true
+    ],
+    [
+      "exact integrated closure bytes",
+      true
+    ],
+    [
+      "all domain workflow targets resolved",
+      true
+    ],
+    [
+      "VS01/32 separate observation layers",
+      true
+    ],
+    [
+      "VS06/07/34/36 pressure flow and power",
+      true
+    ],
+    [
+      "VS35 pressure proxy prerequisites",
+      true
+    ],
+    [
+      "VS08/10/37/38/61 period and phase",
+      true
+    ],
+    [
+      "P2-01 pressure proxy rejects zero/negative or scalar-only",
+      true
+    ],
+    [
+      "P2-01 pressure interpolation exact asymmetric time",
+      true
+    ],
+    [
+      "P2-01 rejects unknown reference/method/calibration and out of interval",
+      true
+    ],
+    [
+      "VX01 nonunique source and filter",
+      true
+    ],
+    [
+      "VS17/44 overlap without mechanism identity",
+      true
+    ],
+    [
+      "VS46/47 language identity not voiced label",
+      true
+    ],
+    [
+      "VS49/50/51/52 explicit arithmetic",
+      true
+    ],
+    [
+      "KC-V05 exact mask signed error and verified dose",
+      true
+    ],
+    [
+      "VX02 emergency precedes missing rights and input",
+      true
+    ],
+    [
+      "KC-V05 only estimate revised, history untouched",
+      true
+    ],
+    [
+      "P2-02 revision bound to both offline gates",
+      true
+    ],
+    [
+      "KC-V05 protected independent reference and duplicate window",
+      true
+    ],
+    [
+      "VS64 three noninterchangeable quantities",
+      true
+    ],
+    [
+      "VS56/65 contact quotient and fixed clock correction",
+      true
+    ]
+  ]
+}

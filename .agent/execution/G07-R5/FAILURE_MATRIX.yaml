@@ -1,0 +1,24 @@
+findings:
+  - id: K14-LEGACY-ROUTE-PROJECTION-01
+    severity: P1
+    expected: all 48 frozen rows project correct inventory reference, disposition, two target D4 routes and two non-empty claimRefs; exact row equality
+    evidence:
+      - cases/K14/frozen-input-ledger.json
+      - queries/K14/legacy-routes.json
+      - tests/knowledge/K14/build-candidate.py
+      - tests/knowledge/K14/k14.test.mjs
+  - id: K09-MP10-COMPRESSOR-INPUT-OUTPUT-01
+    severity: P2
+    expected: -9 dB is above -10 dB threshold; hard-knee 10:1 no-makeup static output -9.9 dB; 0.9 dB gain reduction
+    evidence:
+      - knowledge/K09/authoring.tsv
+      - tests/knowledge/K09/domain-witness.mjs
+      - tests/knowledge/K09/k09.test.mjs
+  - id: K14-ED36-STRONG-BEAT-OVERCLAIM-01
+    severity: P2
+    expected: interval [0.5,1.5) crosses integer beat 1.0; strong-beat status UNKNOWN without explicit meter/accent map
+    evidence:
+      - knowledge/K14/authoring.tsv
+      - cases/K14/frozen-input-ledger.json
+      - tests/knowledge/K14/domain-witness.mjs
+      - tests/knowledge/K14/k14.test.mjs

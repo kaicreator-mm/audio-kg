@@ -1,0 +1,19 @@
+suites:
+  f00: tests/knowledge/f00.test.mjs
+  pilot: docs/research/l2-pilot/validate.mjs
+  cq: tests/knowledge/f00-cq-role.test.mjs
+  cq2: tests/knowledge/f00-cq2-role.test.mjs
+  legacy: tests/knowledge/f00-legacy-source-uri.test.mjs
+  k01: tests/knowledge/K01/k01.test.mjs
+  k02: tests/knowledge/K02/k02.test.mjs
+  k03: tests/knowledge/K03/k03.test.mjs
+  k04: tests/knowledge/K04/k04.test.mjs
+  k05: tests/knowledge/K05/k05.test.mjs
+  k06: tests/knowledge/K06/k06.test.mjs
+  k07: tests/knowledge/K07/k07.test.mjs
+  k08: tests/knowledge/K08/k08.test.mjs
+  k09: tests/knowledge/K09/k09.test.mjs
+  k14: tests/knowledge/K14/k14.test.mjs
+expected: all_checks_pass
+execution_subject: exact code commit SHA and tree
+final_review_subject: exact PR HEAD SHA and tree

@@ -1,0 +1,35 @@
+schema: audio-kg-execution-pack/1
+task: "#133"
+version: v0.1.0
+batch: G07-R4
+branch: task/v0.1.0-g07-r4-k09-k14-remediation
+base:
+  ref: version/v0.1.0
+  sha: 166eedccf1175c02453dfb1bf36e8c6d3737bf8f
+source_reviews:
+  K09:
+    issue: "#96"
+    pr: "#131"
+    reviewed_head: 7e6d23ad1bf0d656be27b3761889da9f75951c99
+    review_comment: 7224813717
+  K14:
+    issue: "#95"
+    pr: "#132"
+    reviewed_head: 6f7961c30a960551ad7a5f7ece8f5c2216ea4152
+    review_comment: 7224816008
+accepted_predecessor:
+  pr: "#130"
+  merge_commit: 166eedccf1175c02453dfb1bf36e8c6d3737bf8f
+  review_comment: 7224811731
+modules: [K09, K14]
+agent_freedom: F1_BOUNDED_REMEDIATION
+review_policy: required
+reviewer: OTHER_CONVERSATION_INDEPENDENT_NON_WRITER
+merge_target: version/v0.1.0
+status: BUILDER_IN_PROGRESS
+forbidden:
+  - merge failed PR #131 or #132
+  - change frozen L1/L2 contracts or unrelated module corpora
+  - close historical findings #49 or #63
+  - promote candidate claims to accepted
+  - claim real learner, performer, audio, host, plugin, rights, clinical or production evidence

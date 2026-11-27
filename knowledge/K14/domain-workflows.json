@@ -1,0 +1,221 @@
+{
+  "format": "audio-kg-bounded-domain-workflows-v1",
+  "workflows": [
+    {
+      "d2": "K14.01",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind goal, construct, baseline and independent exit criteria",
+        "Select feedback and strategy from observable event evidence",
+        "Keep performance, retention and transfer separate"
+      ],
+      "cases": [
+        "ED01",
+        "ED02",
+        "ED03",
+        "ED25",
+        "ED26",
+        "ED27"
+      ],
+      "claimRefs": [
+        "K14-CL-ED01@1",
+        "K14-CL-ED02@1",
+        "K14-CL-ED03@1",
+        "K14-CL-ED25@1",
+        "K14-CL-ED26@1",
+        "K14-CL-ED27@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K14.02",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind theory concept, notation and key/clef/time assumptions",
+        "Map symbolic and relative representations under declared context",
+        "Retain enharmonic and underdetermined alternatives"
+      ],
+      "cases": [
+        "ED04",
+        "ED05",
+        "ED06",
+        "ED28",
+        "ED29",
+        "ED30"
+      ],
+      "claimRefs": [
+        "K14-CL-ED04@1",
+        "K14-CL-ED05@1",
+        "K14-CL-ED06@1",
+        "K14-CL-ED28@1",
+        "K14-CL-ED29@1",
+        "K14-CL-ED30@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K14.03",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind listening construct, system, direction and exposure",
+        "Separate interval, solfege and chord dimensions",
+        "Unknown audio or missing response remains UNKNOWN"
+      ],
+      "cases": [
+        "ED07",
+        "ED08",
+        "ED09",
+        "ED31",
+        "ED32",
+        "ED33"
+      ],
+      "claimRefs": [
+        "K14-CL-ED07@1",
+        "K14-CL-ED08@1",
+        "K14-CL-ED09@1",
+        "K14-CL-ED31@1",
+        "K14-CL-ED32@1",
+        "K14-CL-ED33@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K14.04",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind beat unit, meter hierarchy and event timeline",
+        "Evaluate onset, duration, rest, syncopation and polyrhythm",
+        "Do not infer performance from symbolic task alone"
+      ],
+      "cases": [
+        "ED10",
+        "ED11",
+        "ED12",
+        "ED34",
+        "ED35",
+        "ED36"
+      ],
+      "claimRefs": [
+        "K14-CL-ED10@1",
+        "K14-CL-ED11@1",
+        "K14-CL-ED12@1",
+        "K14-CL-ED34@1",
+        "K14-CL-ED35@1",
+        "K14-CL-ED36@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K14.05",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind target error window and learner-selected strategy",
+        "Compare practice schedule under matched task/difficulty",
+        "Separate immediate result, retention and transfer"
+      ],
+      "cases": [
+        "ED13",
+        "ED14",
+        "ED15",
+        "ED37",
+        "ED38",
+        "ED39"
+      ],
+      "claimRefs": [
+        "K14-CL-ED13@1",
+        "K14-CL-ED14@1",
+        "K14-CL-ED15@1",
+        "K14-CL-ED37@1",
+        "K14-CL-ED38@1",
+        "K14-CL-ED39@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K14.06",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind common learning goal and prerequisite evidence",
+        "Branch remediation or preserve construct with accessible support",
+        "Do not promote prompted evidence to independent mastery"
+      ],
+      "cases": [
+        "ED16",
+        "ED17",
+        "ED18",
+        "ED40",
+        "ED41",
+        "ED42"
+      ],
+      "claimRefs": [
+        "K14-CL-ED16@1",
+        "K14-CL-ED17@1",
+        "K14-CL-ED18@1",
+        "K14-CL-ED40@1",
+        "K14-CL-ED41@1",
+        "K14-CL-ED42@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K14.07",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind assessment purpose, rubric version and hard conditions",
+        "Score dimensions and preserve rater disagreement",
+        "Validity interpretation remains context-specific"
+      ],
+      "cases": [
+        "ED19",
+        "ED20",
+        "ED21",
+        "ED43",
+        "ED44",
+        "ED45"
+      ],
+      "claimRefs": [
+        "K14-CL-ED19@1",
+        "K14-CL-ED20@1",
+        "K14-CL-ED21@1",
+        "K14-CL-ED43@1",
+        "K14-CL-ED44@1",
+        "K14-CL-ED45@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K14.08",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind attempt, material, prompt, exposure and lineage",
+        "Choose next feedback/practice and schedule a comparable retest",
+        "Respect autonomy, privacy, safety and stop conditions"
+      ],
+      "cases": [
+        "ED22",
+        "ED23",
+        "ED24",
+        "ED46",
+        "ED47",
+        "ED48"
+      ],
+      "claimRefs": [
+        "K14-CL-ED22@1",
+        "K14-CL-ED23@1",
+        "K14-CL-ED24@1",
+        "K14-CL-ED46@1",
+        "K14-CL-ED47@1",
+        "K14-CL-ED48@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    }
+  ]
+}

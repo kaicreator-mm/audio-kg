@@ -1,0 +1,2323 @@
+{
+  "module": "K08",
+  "checks": 579,
+  "passed": 579,
+  "results": [
+    [
+      "exact frozen inventory",
+      true
+    ],
+    [
+      "exact row/locator DA01",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA01",
+      true
+    ],
+    [
+      "qualified source and H closure DA01",
+      true
+    ],
+    [
+      "primary bindings DA01",
+      true
+    ],
+    [
+      "four distinct directional views DA01",
+      true
+    ],
+    [
+      "active scenario DA01 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA01 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA01 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA01 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA02",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA02",
+      true
+    ],
+    [
+      "qualified source and H closure DA02",
+      true
+    ],
+    [
+      "primary bindings DA02",
+      true
+    ],
+    [
+      "four distinct directional views DA02",
+      true
+    ],
+    [
+      "active scenario DA02 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA02 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA02 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA02 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA03",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA03",
+      true
+    ],
+    [
+      "qualified source and H closure DA03",
+      true
+    ],
+    [
+      "primary bindings DA03",
+      true
+    ],
+    [
+      "four distinct directional views DA03",
+      true
+    ],
+    [
+      "active scenario DA03 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA03 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA03 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA03 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA04",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA04",
+      true
+    ],
+    [
+      "qualified source and H closure DA04",
+      true
+    ],
+    [
+      "primary bindings DA04",
+      true
+    ],
+    [
+      "four distinct directional views DA04",
+      true
+    ],
+    [
+      "active scenario DA04 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA04 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA04 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA04 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA05",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA05",
+      true
+    ],
+    [
+      "qualified source and H closure DA05",
+      true
+    ],
+    [
+      "primary bindings DA05",
+      true
+    ],
+    [
+      "four distinct directional views DA05",
+      true
+    ],
+    [
+      "active scenario DA05 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA05 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA05 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA05 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA06",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA06",
+      true
+    ],
+    [
+      "qualified source and H closure DA06",
+      true
+    ],
+    [
+      "primary bindings DA06",
+      true
+    ],
+    [
+      "four distinct directional views DA06",
+      true
+    ],
+    [
+      "active scenario DA06 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA06 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA06 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA06 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA07",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA07",
+      true
+    ],
+    [
+      "qualified source and H closure DA07",
+      true
+    ],
+    [
+      "primary bindings DA07",
+      true
+    ],
+    [
+      "four distinct directional views DA07",
+      true
+    ],
+    [
+      "active scenario DA07 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA07 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA07 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA07 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA08",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA08",
+      true
+    ],
+    [
+      "qualified source and H closure DA08",
+      true
+    ],
+    [
+      "primary bindings DA08",
+      true
+    ],
+    [
+      "four distinct directional views DA08",
+      true
+    ],
+    [
+      "active scenario DA08 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA08 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA08 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA08 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA09",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA09",
+      true
+    ],
+    [
+      "qualified source and H closure DA09",
+      true
+    ],
+    [
+      "primary bindings DA09",
+      true
+    ],
+    [
+      "four distinct directional views DA09",
+      true
+    ],
+    [
+      "active scenario DA09 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA09 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA09 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA09 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA10",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA10",
+      true
+    ],
+    [
+      "qualified source and H closure DA10",
+      true
+    ],
+    [
+      "primary bindings DA10",
+      true
+    ],
+    [
+      "four distinct directional views DA10",
+      true
+    ],
+    [
+      "active scenario DA10 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA10 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA10 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA10 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA11",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA11",
+      true
+    ],
+    [
+      "qualified source and H closure DA11",
+      true
+    ],
+    [
+      "primary bindings DA11",
+      true
+    ],
+    [
+      "four distinct directional views DA11",
+      true
+    ],
+    [
+      "active scenario DA11 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA11 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA11 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA11 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA12",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA12",
+      true
+    ],
+    [
+      "qualified source and H closure DA12",
+      true
+    ],
+    [
+      "primary bindings DA12",
+      true
+    ],
+    [
+      "four distinct directional views DA12",
+      true
+    ],
+    [
+      "active scenario DA12 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA12 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA12 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA12 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA13",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA13",
+      true
+    ],
+    [
+      "qualified source and H closure DA13",
+      true
+    ],
+    [
+      "primary bindings DA13",
+      true
+    ],
+    [
+      "four distinct directional views DA13",
+      true
+    ],
+    [
+      "active scenario DA13 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA13 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA13 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA13 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA14",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA14",
+      true
+    ],
+    [
+      "qualified source and H closure DA14",
+      true
+    ],
+    [
+      "primary bindings DA14",
+      true
+    ],
+    [
+      "four distinct directional views DA14",
+      true
+    ],
+    [
+      "active scenario DA14 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA14 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA14 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA14 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA15",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA15",
+      true
+    ],
+    [
+      "qualified source and H closure DA15",
+      true
+    ],
+    [
+      "primary bindings DA15",
+      true
+    ],
+    [
+      "four distinct directional views DA15",
+      true
+    ],
+    [
+      "active scenario DA15 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA15 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA15 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA15 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA16",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA16",
+      true
+    ],
+    [
+      "qualified source and H closure DA16",
+      true
+    ],
+    [
+      "primary bindings DA16",
+      true
+    ],
+    [
+      "four distinct directional views DA16",
+      true
+    ],
+    [
+      "active scenario DA16 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA16 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA16 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA16 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA17",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA17",
+      true
+    ],
+    [
+      "qualified source and H closure DA17",
+      true
+    ],
+    [
+      "primary bindings DA17",
+      true
+    ],
+    [
+      "four distinct directional views DA17",
+      true
+    ],
+    [
+      "active scenario DA17 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA17 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA17 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA17 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA18",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA18",
+      true
+    ],
+    [
+      "qualified source and H closure DA18",
+      true
+    ],
+    [
+      "primary bindings DA18",
+      true
+    ],
+    [
+      "four distinct directional views DA18",
+      true
+    ],
+    [
+      "active scenario DA18 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA18 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA18 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA18 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA19",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA19",
+      true
+    ],
+    [
+      "qualified source and H closure DA19",
+      true
+    ],
+    [
+      "primary bindings DA19",
+      true
+    ],
+    [
+      "four distinct directional views DA19",
+      true
+    ],
+    [
+      "active scenario DA19 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA19 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA19 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA19 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA20",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA20",
+      true
+    ],
+    [
+      "qualified source and H closure DA20",
+      true
+    ],
+    [
+      "primary bindings DA20",
+      true
+    ],
+    [
+      "four distinct directional views DA20",
+      true
+    ],
+    [
+      "active scenario DA20 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA20 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA20 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA20 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA21",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA21",
+      true
+    ],
+    [
+      "qualified source and H closure DA21",
+      true
+    ],
+    [
+      "primary bindings DA21",
+      true
+    ],
+    [
+      "four distinct directional views DA21",
+      true
+    ],
+    [
+      "active scenario DA21 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA21 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA21 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA21 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA22",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA22",
+      true
+    ],
+    [
+      "qualified source and H closure DA22",
+      true
+    ],
+    [
+      "primary bindings DA22",
+      true
+    ],
+    [
+      "four distinct directional views DA22",
+      true
+    ],
+    [
+      "active scenario DA22 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA22 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA22 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA22 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA23",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA23",
+      true
+    ],
+    [
+      "qualified source and H closure DA23",
+      true
+    ],
+    [
+      "primary bindings DA23",
+      true
+    ],
+    [
+      "four distinct directional views DA23",
+      true
+    ],
+    [
+      "active scenario DA23 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA23 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA23 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA23 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA24",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA24",
+      true
+    ],
+    [
+      "qualified source and H closure DA24",
+      true
+    ],
+    [
+      "primary bindings DA24",
+      true
+    ],
+    [
+      "four distinct directional views DA24",
+      true
+    ],
+    [
+      "active scenario DA24 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA24 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA24 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA24 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA25",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA25",
+      true
+    ],
+    [
+      "qualified source and H closure DA25",
+      true
+    ],
+    [
+      "primary bindings DA25",
+      true
+    ],
+    [
+      "four distinct directional views DA25",
+      true
+    ],
+    [
+      "active scenario DA25 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA25 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA25 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA25 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA26",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA26",
+      true
+    ],
+    [
+      "qualified source and H closure DA26",
+      true
+    ],
+    [
+      "primary bindings DA26",
+      true
+    ],
+    [
+      "four distinct directional views DA26",
+      true
+    ],
+    [
+      "active scenario DA26 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA26 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA26 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA26 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA27",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA27",
+      true
+    ],
+    [
+      "qualified source and H closure DA27",
+      true
+    ],
+    [
+      "primary bindings DA27",
+      true
+    ],
+    [
+      "four distinct directional views DA27",
+      true
+    ],
+    [
+      "active scenario DA27 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA27 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA27 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA27 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA28",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA28",
+      true
+    ],
+    [
+      "qualified source and H closure DA28",
+      true
+    ],
+    [
+      "primary bindings DA28",
+      true
+    ],
+    [
+      "four distinct directional views DA28",
+      true
+    ],
+    [
+      "active scenario DA28 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA28 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA28 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA28 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA29",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA29",
+      true
+    ],
+    [
+      "qualified source and H closure DA29",
+      true
+    ],
+    [
+      "primary bindings DA29",
+      true
+    ],
+    [
+      "four distinct directional views DA29",
+      true
+    ],
+    [
+      "active scenario DA29 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA29 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA29 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA29 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA30",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA30",
+      true
+    ],
+    [
+      "qualified source and H closure DA30",
+      true
+    ],
+    [
+      "primary bindings DA30",
+      true
+    ],
+    [
+      "four distinct directional views DA30",
+      true
+    ],
+    [
+      "active scenario DA30 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA30 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA30 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA30 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA31",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA31",
+      true
+    ],
+    [
+      "qualified source and H closure DA31",
+      true
+    ],
+    [
+      "primary bindings DA31",
+      true
+    ],
+    [
+      "four distinct directional views DA31",
+      true
+    ],
+    [
+      "active scenario DA31 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA31 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA31 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA31 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA32",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA32",
+      true
+    ],
+    [
+      "qualified source and H closure DA32",
+      true
+    ],
+    [
+      "primary bindings DA32",
+      true
+    ],
+    [
+      "four distinct directional views DA32",
+      true
+    ],
+    [
+      "active scenario DA32 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA32 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA32 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA32 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA33",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA33",
+      true
+    ],
+    [
+      "qualified source and H closure DA33",
+      true
+    ],
+    [
+      "primary bindings DA33",
+      true
+    ],
+    [
+      "four distinct directional views DA33",
+      true
+    ],
+    [
+      "active scenario DA33 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA33 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA33 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA33 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA34",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA34",
+      true
+    ],
+    [
+      "qualified source and H closure DA34",
+      true
+    ],
+    [
+      "primary bindings DA34",
+      true
+    ],
+    [
+      "four distinct directional views DA34",
+      true
+    ],
+    [
+      "active scenario DA34 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA34 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA34 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA34 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA35",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA35",
+      true
+    ],
+    [
+      "qualified source and H closure DA35",
+      true
+    ],
+    [
+      "primary bindings DA35",
+      true
+    ],
+    [
+      "four distinct directional views DA35",
+      true
+    ],
+    [
+      "active scenario DA35 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA35 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA35 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA35 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA36",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA36",
+      true
+    ],
+    [
+      "qualified source and H closure DA36",
+      true
+    ],
+    [
+      "primary bindings DA36",
+      true
+    ],
+    [
+      "four distinct directional views DA36",
+      true
+    ],
+    [
+      "active scenario DA36 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA36 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA36 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA36 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA37",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA37",
+      true
+    ],
+    [
+      "qualified source and H closure DA37",
+      true
+    ],
+    [
+      "primary bindings DA37",
+      true
+    ],
+    [
+      "four distinct directional views DA37",
+      true
+    ],
+    [
+      "active scenario DA37 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA37 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA37 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA37 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA38",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA38",
+      true
+    ],
+    [
+      "qualified source and H closure DA38",
+      true
+    ],
+    [
+      "primary bindings DA38",
+      true
+    ],
+    [
+      "four distinct directional views DA38",
+      true
+    ],
+    [
+      "active scenario DA38 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA38 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA38 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA38 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA39",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA39",
+      true
+    ],
+    [
+      "qualified source and H closure DA39",
+      true
+    ],
+    [
+      "primary bindings DA39",
+      true
+    ],
+    [
+      "four distinct directional views DA39",
+      true
+    ],
+    [
+      "active scenario DA39 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA39 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA39 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA39 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA40",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA40",
+      true
+    ],
+    [
+      "qualified source and H closure DA40",
+      true
+    ],
+    [
+      "primary bindings DA40",
+      true
+    ],
+    [
+      "four distinct directional views DA40",
+      true
+    ],
+    [
+      "active scenario DA40 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA40 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA40 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA40 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA41",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA41",
+      true
+    ],
+    [
+      "qualified source and H closure DA41",
+      true
+    ],
+    [
+      "primary bindings DA41",
+      true
+    ],
+    [
+      "four distinct directional views DA41",
+      true
+    ],
+    [
+      "active scenario DA41 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA41 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA41 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA41 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA42",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA42",
+      true
+    ],
+    [
+      "qualified source and H closure DA42",
+      true
+    ],
+    [
+      "primary bindings DA42",
+      true
+    ],
+    [
+      "four distinct directional views DA42",
+      true
+    ],
+    [
+      "active scenario DA42 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA42 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA42 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA42 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA43",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA43",
+      true
+    ],
+    [
+      "qualified source and H closure DA43",
+      true
+    ],
+    [
+      "primary bindings DA43",
+      true
+    ],
+    [
+      "four distinct directional views DA43",
+      true
+    ],
+    [
+      "active scenario DA43 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA43 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA43 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA43 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA44",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA44",
+      true
+    ],
+    [
+      "qualified source and H closure DA44",
+      true
+    ],
+    [
+      "primary bindings DA44",
+      true
+    ],
+    [
+      "four distinct directional views DA44",
+      true
+    ],
+    [
+      "active scenario DA44 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA44 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA44 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA44 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA45",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA45",
+      true
+    ],
+    [
+      "qualified source and H closure DA45",
+      true
+    ],
+    [
+      "primary bindings DA45",
+      true
+    ],
+    [
+      "four distinct directional views DA45",
+      true
+    ],
+    [
+      "active scenario DA45 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA45 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA45 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA45 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA46",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA46",
+      true
+    ],
+    [
+      "qualified source and H closure DA46",
+      true
+    ],
+    [
+      "primary bindings DA46",
+      true
+    ],
+    [
+      "four distinct directional views DA46",
+      true
+    ],
+    [
+      "active scenario DA46 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA46 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA46 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA46 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA47",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA47",
+      true
+    ],
+    [
+      "qualified source and H closure DA47",
+      true
+    ],
+    [
+      "primary bindings DA47",
+      true
+    ],
+    [
+      "four distinct directional views DA47",
+      true
+    ],
+    [
+      "active scenario DA47 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA47 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA47 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA47 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA48",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA48",
+      true
+    ],
+    [
+      "qualified source and H closure DA48",
+      true
+    ],
+    [
+      "primary bindings DA48",
+      true
+    ],
+    [
+      "four distinct directional views DA48",
+      true
+    ],
+    [
+      "active scenario DA48 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA48 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA48 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA48 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA49",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA49",
+      true
+    ],
+    [
+      "qualified source and H closure DA49",
+      true
+    ],
+    [
+      "primary bindings DA49",
+      true
+    ],
+    [
+      "four distinct directional views DA49",
+      true
+    ],
+    [
+      "active scenario DA49 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA49 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA49 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA49 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA50",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA50",
+      true
+    ],
+    [
+      "qualified source and H closure DA50",
+      true
+    ],
+    [
+      "primary bindings DA50",
+      true
+    ],
+    [
+      "four distinct directional views DA50",
+      true
+    ],
+    [
+      "active scenario DA50 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA50 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA50 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA50 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA51",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA51",
+      true
+    ],
+    [
+      "qualified source and H closure DA51",
+      true
+    ],
+    [
+      "primary bindings DA51",
+      true
+    ],
+    [
+      "four distinct directional views DA51",
+      true
+    ],
+    [
+      "active scenario DA51 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA51 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA51 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA51 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA52",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA52",
+      true
+    ],
+    [
+      "qualified source and H closure DA52",
+      true
+    ],
+    [
+      "primary bindings DA52",
+      true
+    ],
+    [
+      "four distinct directional views DA52",
+      true
+    ],
+    [
+      "active scenario DA52 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA52 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA52 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA52 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA53",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA53",
+      true
+    ],
+    [
+      "qualified source and H closure DA53",
+      true
+    ],
+    [
+      "primary bindings DA53",
+      true
+    ],
+    [
+      "four distinct directional views DA53",
+      true
+    ],
+    [
+      "active scenario DA53 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA53 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA53 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA53 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator DA54",
+      true
+    ],
+    [
+      "exact claim/direct CQ DA54",
+      true
+    ],
+    [
+      "qualified source and H closure DA54",
+      true
+    ],
+    [
+      "primary bindings DA54",
+      true
+    ],
+    [
+      "four distinct directional views DA54",
+      true
+    ],
+    [
+      "active scenario DA54 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA54 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario DA54 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario DA54 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "direct-only CQ01",
+      true
+    ],
+    [
+      "direct-only CQ02",
+      true
+    ],
+    [
+      "direct-only CQ03",
+      true
+    ],
+    [
+      "direct-only CQ04",
+      true
+    ],
+    [
+      "direct-only CQ05",
+      true
+    ],
+    [
+      "direct-only CQ06",
+      true
+    ],
+    [
+      "direct-only CQ07",
+      true
+    ],
+    [
+      "direct-only CQ08",
+      true
+    ],
+    [
+      "direct-only CQ09",
+      true
+    ],
+    [
+      "direct-only CQ10",
+      true
+    ],
+    [
+      "direct-only CQ11",
+      true
+    ],
+    [
+      "direct-only CQ12",
+      true
+    ],
+    [
+      "direct-only CQ13",
+      true
+    ],
+    [
+      "direct-only CQ14",
+      true
+    ],
+    [
+      "direct-only CQ15",
+      true
+    ],
+    [
+      "direct-only CQ16",
+      true
+    ],
+    [
+      "direct-only CQ17",
+      true
+    ],
+    [
+      "direct-only CQ18",
+      true
+    ],
+    [
+      "direct-only CQ19",
+      true
+    ],
+    [
+      "direct-only CQ20",
+      true
+    ],
+    [
+      "direct-only CQ21",
+      true
+    ],
+    [
+      "direct-only CQ22",
+      true
+    ],
+    [
+      "direct-only CQ23",
+      true
+    ],
+    [
+      "direct-only CQ24",
+      true
+    ],
+    [
+      "direct-only CQ25",
+      true
+    ],
+    [
+      "direct-only CQ26",
+      true
+    ],
+    [
+      "legacy split routes",
+      true
+    ],
+    [
+      "exact capability cells",
+      true
+    ],
+    [
+      "source registry and canonical reuse",
+      true
+    ],
+    [
+      "qualified hard dependency obligations",
+      true
+    ],
+    [
+      "exact integrated closure bytes",
+      true
+    ],
+    [
+      "all domain workflow targets resolved",
+      true
+    ],
+    [
+      "DA01/28 alias equivalence",
+      true
+    ],
+    [
+      "DA02/29 quantization error distribution",
+      true
+    ],
+    [
+      "DA03/04/06 frame and duration",
+      true
+    ],
+    [
+      "KC-D08 exact finite RIFF fixture",
+      true
+    ],
+    [
+      "RIFF rejects oversized JUNK",
+      true
+    ],
+    [
+      "RIFF rejects noninteger frame",
+      true
+    ],
+    [
+      "RIFF rejects unsupported subtype",
+      true
+    ],
+    [
+      "RIFF rejects wrong align",
+      true
+    ],
+    [
+      "RIFF rejects truncation",
+      true
+    ],
+    [
+      "DA07/34 linear versus circular convolution",
+      true
+    ],
+    [
+      "DA08/35 finite overlap and uncovered boundary",
+      true
+    ],
+    [
+      "DA10/20/38 clipping ambiguity and true peak",
+      true
+    ],
+    [
+      "DA12/39 channel matrix cancellation",
+      true
+    ],
+    [
+      "DA13/14/40 ideal pattern and distance",
+      true
+    ],
+    [
+      "DA17/44 drift residual",
+      true
+    ],
+    [
+      "KC-D08 authorized local edit",
+      true
+    ],
+    [
+      "KC-D08 nonlocal clock scope risk gates",
+      true
+    ],
+    [
+      "DA23/50 target retention not silence",
+      true
+    ],
+    [
+      "DA51 exact uncentered projection",
+      true
+    ],
+    [
+      "KC-D08 hard deadline not mean",
+      true
+    ],
+    [
+      "DA27/54 independent status bits",
+      true
+    ],
+    [
+      "P2-01 distinguish perfect, negative infinity and undefined",
+      true
+    ],
+    [
+      "R3 nonzero scale normalization, not silence",
+      true
+    ],
+    [
+      "R3 numeric range explicit",
+      true
+    ],
+    [
+      "P2-02 empty and nonempty mask no-op distinct",
+      true
+    ],
+    [
+      "P2-03 all direction and priming bits",
+      true
+    ],
+    [
+      "P2-03 fixed vs unspecified input semantics",
+      true
+    ],
+    [
+      "P2-03 unknown version/policy/mask fail closed",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 0",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 1",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 2",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 3",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 4",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 5",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 6",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 7",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 8",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 9",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 10",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 11",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 12",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 13",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 14",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 15",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 16",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 17",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 18",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 19",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 20",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 21",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 22",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 23",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 24",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 25",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 26",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 27",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 28",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 29",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 30",
+      true
+    ],
+    [
+      "P2-03 exhaustive v19 bit preservation 31",
+      true
+    ]
+  ]
+}

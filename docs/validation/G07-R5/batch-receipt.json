@@ -1,0 +1,519 @@
+{
+  "status": "BUILDER_PASS_ONLY",
+  "task": "#135",
+  "batch": "AUDIO_KG_V010_G07_R5_K09_K14_COMBINED_SEMANTIC_AND_LEGACY_PROJECTION_REMEDIATION",
+  "base": {
+    "pr": "#134",
+    "head": "84bda81d0ef27c2b5bf488b1d7e95065a3ad870d",
+    "tree": "40fae0dd7ff63ab7efe2dcfee707e19733d070f7",
+    "verdict": "FAIL"
+  },
+  "testedHead": "a56aa600a94dd4ec7b49e48b07ff92ef7e8236cd",
+  "testedTree": "48408aa76f3dcd24a8e836e764bb73f9808f9b92",
+  "modules": [
+    "K09",
+    "K14"
+  ],
+  "priorReview": {
+    "issue": "#133",
+    "issueComment": 7225733783,
+    "pr": "#134",
+    "prComment": 7225734406,
+    "verdict": "FAIL",
+    "counts": {
+      "P0": 0,
+      "P1": 1,
+      "P2": 2,
+      "P3": 0
+    }
+  },
+  "r4Inherited": {
+    "acceptedFixes": [
+      "K09 cumulative receipt P1",
+      "K09 HOLD boundary P2",
+      "K09 Tempo Map continuity P2",
+      "K14 cumulative receipt P1",
+      "K14 ED44 P2"
+    ],
+    "priorFinalHead": "84bda81d0ef27c2b5bf488b1d7e95065a3ad870d",
+    "priorReceiptSha256": "a76548be88f6c31c73d39e04bcaff586bbc5346487d1acf7f6e1c5ea4da55fd1",
+    "priorSuiteCount": 15,
+    "priorTotalChecks": 7667,
+    "priorTotalPassed": 7667,
+    "priorResults": {
+      "f00": {
+        "checks": 84,
+        "passed": 84,
+        "sha256": "84dee9535ff4d9b4991c8969ca8cc071de9fa7f00980c0b924ad4cb3b5c71efe"
+      },
+      "pilot": {
+        "checks": 189,
+        "passed": 189,
+        "sha256": "115e9260cdac6818053723de389bebc67cca9c4c3fb7cec027e7ab0527aa69c7"
+      },
+      "cq": {
+        "checks": 21,
+        "passed": 21,
+        "sha256": "cf90e6415659f5f56036bf1b65ee7bd588290c32806a66902ccb842ef3331666"
+      },
+      "cq2": {
+        "checks": 43,
+        "passed": 43,
+        "sha256": "f4c75bd0a8751f9ea6b2ca63dcbb7f27e39843b74e30b64d07ad81ad53a702ae"
+      },
+      "legacy": {
+        "checks": 95,
+        "passed": 95,
+        "sha256": "82367647625294032c9c35d86313641a1f93797a5f979b2465b3fb0a56d11947"
+      },
+      "k01": {
+        "checks": 2210,
+        "passed": 2210,
+        "sha256": "d2309e4750f149edac7d3dbf3ecc587fa12c85a892a4c5eacdf0e3852aeecc2e"
+      },
+      "k02": {
+        "checks": 634,
+        "passed": 634,
+        "sha256": "2992fb476a3f3408b0c8e4af761f7d264b909a1885f9001ac8c37e13c117a879"
+      },
+      "k03": {
+        "checks": 602,
+        "passed": 602,
+        "sha256": "92679c896d0baaedad5bb859ff212d30a78e94fe69d6d4ae06f5b19e779077fe"
+      },
+      "k04": {
+        "checks": 597,
+        "passed": 597,
+        "sha256": "6bff7cefedb06631fed51f65fc760a90ac41da52dffef9a5c166776f030c9795"
+      },
+      "k05": {
+        "checks": 645,
+        "passed": 645,
+        "sha256": "819044812163ae51e813054c6e10127a07f938ccd336aa9a516c160c45ef2cba"
+      },
+      "k06": {
+        "checks": 585,
+        "passed": 585,
+        "sha256": "4f698763cbd13ed4b7162ab2ad2c999cbeb1652ed6150ab97648a26f81da6155"
+      },
+      "k07": {
+        "checks": 343,
+        "passed": 343,
+        "sha256": "63cd8e172e7a588019b956b57366b67f1b00709657680490c52341a7e6c7b25c"
+      },
+      "k08": {
+        "checks": 581,
+        "passed": 581,
+        "sha256": "83bf11c8f9e3ef9f1c2e88b64190d5be75ff277b7ae9fd191643abb33255382c"
+      },
+      "k09": {
+        "checks": 519,
+        "passed": 519,
+        "sha256": "6b60b3fce2cd9abe9105554702d85806a2bc8b184a0d1c5cf42118b63105bb2a"
+      },
+      "k14": {
+        "checks": 519,
+        "passed": 519,
+        "sha256": "4218d46bcd6bb5029c06e83ec503b45f946502c5ef2d74ba8005200075d4e9d6"
+      }
+    },
+    "priorInputIdentityCount": 147
+  },
+  "testEnvironment": {
+    "node": "v24.21.0",
+    "python": "3.12.3",
+    "platform": "Linux",
+    "candidateStatus": "CANDIDATE_STRUCTURE_ONLY"
+  },
+  "suiteOrder": [
+    "f00",
+    "pilot",
+    "cq",
+    "cq2",
+    "legacy",
+    "k01",
+    "k02",
+    "k03",
+    "k04",
+    "k05",
+    "k06",
+    "k07",
+    "k08",
+    "k09",
+    "k14"
+  ],
+  "results": {
+    "f00": {
+      "checks": 84,
+      "passed": 84,
+      "resultSha256": "84dee9535ff4d9b4991c8969ca8cc071de9fa7f00980c0b924ad4cb3b5c71efe",
+      "path": "docs/validation/G07-R5/results/f00.json"
+    },
+    "pilot": {
+      "checks": 189,
+      "passed": 189,
+      "resultSha256": "115e9260cdac6818053723de389bebc67cca9c4c3fb7cec027e7ab0527aa69c7",
+      "path": "docs/validation/G07-R5/results/pilot.json"
+    },
+    "cq": {
+      "checks": 21,
+      "passed": 21,
+      "resultSha256": "cf90e6415659f5f56036bf1b65ee7bd588290c32806a66902ccb842ef3331666",
+      "path": "docs/validation/G07-R5/results/cq.json"
+    },
+    "cq2": {
+      "checks": 43,
+      "passed": 43,
+      "resultSha256": "f4c75bd0a8751f9ea6b2ca63dcbb7f27e39843b74e30b64d07ad81ad53a702ae",
+      "path": "docs/validation/G07-R5/results/cq2.json"
+    },
+    "legacy": {
+      "checks": 95,
+      "passed": 95,
+      "resultSha256": "82367647625294032c9c35d86313641a1f93797a5f979b2465b3fb0a56d11947",
+      "path": "docs/validation/G07-R5/results/legacy.json"
+    },
+    "k01": {
+      "checks": 2210,
+      "passed": 2210,
+      "resultSha256": "d2309e4750f149edac7d3dbf3ecc587fa12c85a892a4c5eacdf0e3852aeecc2e",
+      "path": "docs/validation/G07-R5/results/k01.json"
+    },
+    "k02": {
+      "checks": 634,
+      "passed": 634,
+      "resultSha256": "2992fb476a3f3408b0c8e4af761f7d264b909a1885f9001ac8c37e13c117a879",
+      "path": "docs/validation/G07-R5/results/k02.json"
+    },
+    "k03": {
+      "checks": 602,
+      "passed": 602,
+      "resultSha256": "92679c896d0baaedad5bb859ff212d30a78e94fe69d6d4ae06f5b19e779077fe",
+      "path": "docs/validation/G07-R5/results/k03.json"
+    },
+    "k04": {
+      "checks": 597,
+      "passed": 597,
+      "resultSha256": "6bff7cefedb06631fed51f65fc760a90ac41da52dffef9a5c166776f030c9795",
+      "path": "docs/validation/G07-R5/results/k04.json"
+    },
+    "k05": {
+      "checks": 645,
+      "passed": 645,
+      "resultSha256": "819044812163ae51e813054c6e10127a07f938ccd336aa9a516c160c45ef2cba",
+      "path": "docs/validation/G07-R5/results/k05.json"
+    },
+    "k06": {
+      "checks": 585,
+      "passed": 585,
+      "resultSha256": "4f698763cbd13ed4b7162ab2ad2c999cbeb1652ed6150ab97648a26f81da6155",
+      "path": "docs/validation/G07-R5/results/k06.json"
+    },
+    "k07": {
+      "checks": 343,
+      "passed": 343,
+      "resultSha256": "63cd8e172e7a588019b956b57366b67f1b00709657680490c52341a7e6c7b25c",
+      "path": "docs/validation/G07-R5/results/k07.json"
+    },
+    "k08": {
+      "checks": 581,
+      "passed": 581,
+      "resultSha256": "83bf11c8f9e3ef9f1c2e88b64190d5be75ff277b7ae9fd191643abb33255382c",
+      "path": "docs/validation/G07-R5/results/k08.json"
+    },
+    "k09": {
+      "checks": 521,
+      "passed": 521,
+      "resultSha256": "e16948aa8530d133cf97ab0aa290c2c7246047ae4328106beca63e91f0e25a1d",
+      "path": "docs/validation/G07-R5/results/k09.json"
+    },
+    "k14": {
+      "checks": 524,
+      "passed": 524,
+      "resultSha256": "66e152bf7d1741cd96adfd3d7a93148cb67e0b23f9b405aac7663631d072032d",
+      "path": "docs/validation/G07-R5/results/k14.json"
+    }
+  },
+  "totalChecks": 7674,
+  "totalPassed": 7674,
+  "moduleCounts": {
+    "K09": {
+      "checks": 521,
+      "passed": 521
+    },
+    "K14": {
+      "checks": 524,
+      "passed": 524
+    }
+  },
+  "combinedReaderCounts": {
+    "status": "CANDIDATE_STRUCTURE_ONLY",
+    "counts": {
+      "records": 5478,
+      "claims": 632,
+      "edges": 1855,
+      "bindings": 3592,
+      "inventory": 692
+    },
+    "acceptedClaims": 0,
+    "unresolved": 60,
+    "packs": 10
+  },
+  "k14LegacyProjection": {
+    "sourceRows": 48,
+    "projectedRows": 48,
+    "dispositions": {
+      "ROUTER_CANDIDATE": 24,
+      "BOUNDED_COMPOSITION": 24
+    },
+    "routeTargets": 96,
+    "claimRefs": 96,
+    "emptyRoutes": 0,
+    "emptyClaimRefs": 0,
+    "allRowsTwoTargets": true,
+    "sourceAuthority": "exact frozen R3 Markdown anchor rows; source blobs/lines/rows verified"
+  },
+  "k09Mp10": {
+    "thresholdDb": -10,
+    "ratio": "10:1",
+    "knee": "HARD",
+    "makeupGainDb": 0,
+    "inputDb": -9,
+    "staticOutputDb": -9.9,
+    "gainReductionDb": 0.9,
+    "originalFrozenWitness": "input 0 dB -> output -9 dB retained",
+    "execution": "SYNTHETIC_STATIC_CURVE_ONLY"
+  },
+  "k14Ed36": {
+    "interval": "[0.5,1.5)",
+    "integerBeatBoundaries": [
+      1.0
+    ],
+    "meterProvided": false,
+    "accentMapProvided": false,
+    "strongBeatStatus": "UNKNOWN_METER_ACCENT",
+    "claim": "integer beat boundary crossing only; no strong-beat inference"
+  },
+  "inputIdentityCount": 154,
+  "inputIdentities": {
+    ".agent/execution/G07-R4/EXECUTION_CONTRACT.md": "cfda082a56fa1418283716e774bb6114b266da2fdda14f44034dba172bbece8d",
+    ".agent/execution/G07-R4/FAILURE_MATRIX.yaml": "75acad87d8093b662d412054345b91511209fb63bb3eded3052d24b3f64bd40d",
+    ".agent/execution/G07-R4/IMPLEMENTATION_MAP.md": "4cdd109c9b8fc1c17ec3169a46b868464afe4adcc2813b19e1b530d746ac71e8",
+    ".agent/execution/G07-R4/MANIFEST.yaml": "bf639c90f2478892dc8213ed78f56d6e27924a2189d556df3a2b2d0031a64066",
+    ".agent/execution/G07-R4/REVIEW_CHECKLIST.md": "6c682f3945d36223882a057b5cd1934693fe26884ffa923c38d7d48649531e8e",
+    ".agent/execution/G07-R4/TEST_MATRIX.yaml": "587270dc5c58ab1f36f8c304f98873842153c8a3f9f9d8988a5c2402b38e141c",
+    ".agent/execution/G07-R5/EXECUTION_CONTRACT.md": "8efb8a5bdc814bc1fdc0a496eb8b19bf204adead51844be818f51010b439f6ab",
+    ".agent/execution/G07-R5/FAILURE_MATRIX.yaml": "0c035680fc84b8734d2c2e784d7ef0ec72c6a84fddb6397d73bdd8c735929387",
+    ".agent/execution/G07-R5/IMPLEMENTATION_MAP.md": "adf722df293f080694347cf617cf593e1e83a2f488cd89ef22194e2a4d31ca55",
+    ".agent/execution/G07-R5/MANIFEST.yaml": "802907a33777198d1790c32ca0e389cc6687c286a1880517b5a0b80d21e6fcaf",
+    ".agent/execution/G07-R5/REVIEW_CHECKLIST.md": "99eade9f467a051c8669a55376742022d47a447a21055e5444d1f627ab303590",
+    ".agent/execution/G07-R5/TEST_MATRIX.yaml": "823a5c3c30e83a06b3de321aa303597b768b07271465ec2f0a326f2181c4fca3",
+    ".agent/execution/K09/EXECUTION_CONTRACT.md": "0e21e4789c17aaa9d09db254f4014f972111e65c7089e3031a93200006cd8157",
+    ".agent/execution/K09/FAILURE_MATRIX.yaml": "8ee62039cc674bfff3cf37e2df2fd560c49bc0f66c51d5d1ec03ae19549ada3d",
+    ".agent/execution/K09/IMPLEMENTATION_MAP.md": "c6aad9a5abd35d2ac5f35b9ced22ff5594f965dcf1d6d962e1df5c654d9a60f7",
+    ".agent/execution/K09/MANIFEST.yaml": "2da13c28c501f46d19597a866a30954e8e8b49e617a05013851fa007076497e3",
+    ".agent/execution/K09/REVIEW_CHECKLIST.md": "62c3b6ad5d774306780b3a6a32e84e17b195226e4a4bc04c7941aa7b595d3fa4",
+    ".agent/execution/K09/TEST_MATRIX.yaml": "4d93c1b0dbe4cc8f8841a05128a54c0e642de1701675e3de2cd3ab94ea9d3bd6",
+    ".agent/execution/K14/EXECUTION_CONTRACT.md": "1d25999dc07e513bc230bff97c1b61f1f3ffcbdc81ed0e8371ff0ed82f5b8d6b",
+    ".agent/execution/K14/FAILURE_MATRIX.yaml": "8ee62039cc674bfff3cf37e2df2fd560c49bc0f66c51d5d1ec03ae19549ada3d",
+    ".agent/execution/K14/IMPLEMENTATION_MAP.md": "c6b540776afe0e3d70b676b64d28ec75c41e9dfd98fc7f06a3d5890b1b3c5a2c",
+    ".agent/execution/K14/MANIFEST.yaml": "bcee9a7244f559676dfc2ee634e52c235e10978354b3ebbc19e9c0f15cd8f70a",
+    ".agent/execution/K14/REVIEW_CHECKLIST.md": "3cd47a7d8cd208272c8918d41be5ad7a17eaff49560ac5ed93405a8b6eff65b8",
+    ".agent/execution/K14/TEST_MATRIX.yaml": "4d93c1b0dbe4cc8f8841a05128a54c0e642de1701675e3de2cd3ab94ea9d3bd6",
+    "cases/K09/frozen-input-ledger.json": "48aa55709c705439049336d99001f44267dcc0f370814a72a21bddfc1d14cb3c",
+    "cases/K14/frozen-input-ledger.json": "31a4df12cd737d391ca96ded3609f5a41d6773dba1bb7afe861c77174e1148c4",
+    "docs/product/calibration/g05-r3-split-disposition-candidate.md": "4f745ff0c4ed94233ed29e2af443536075020c55d872f20a8bc911fe838fec52",
+    "docs/product/calibration/music-education-r1-knowledge-cases.md": "62075537456fbfdd563fe1aa3017027ee0d9ec01395123f3f4cc760606711b6d",
+    "docs/product/calibration/music-education-r2-knowledge-cases.md": "e8cfc22d6b39b6b6dd7a1f8f4e21931692e81e03f004c71ee14f9aa179e0a6f0",
+    "docs/product/calibration/music-education-r3-capability-calibration.md": "c18c287446cd465e9358a604ffba2273233561dae30e469a8483582ba22954a5",
+    "docs/product/calibration/music-education-r3-discovery-cq.md": "ad22482bb25a95ec4597d0deebb931901c30e941703889ce66c3188e0d7c9714",
+    "docs/product/calibration/music-education-r3-legacy-convergence.md": "e7e1be5c6a7ef9708c90415c383e3ed54587122d180f25918cac128f487e2823",
+    "docs/product/calibration/music-education-r4-integrated-closure.md": "7d3bb0c223b7429bdbad08deea3de6527483c419d3c41348c8d77c735a6cae7d",
+    "docs/product/calibration/production-r1-knowledge-cases.md": "54c9d4157e2986e03ce2ba4595df82db330c0e1d3926f9bc90f2b7b643e43070",
+    "docs/product/calibration/production-r2-knowledge-cases.md": "978d32feea2a2d05167a72abcb4bdf525c732bb789fcfa7e485fc7c19a7b6426",
+    "docs/product/calibration/production-r3-capability-calibration.md": "d0cd121b67c6391731e307a8ffb966b05582586419a0cbc4e4bd737c8f22d157",
+    "docs/product/calibration/production-r3-discovery-cq.md": "63f8e4f795efb74d92367e20f84bf30015f0a2aff3f43921374ecbeb10a772f4",
+    "docs/product/calibration/production-r3-legacy-convergence.md": "7ae24a83f446ede92c69bdc21b476f2aeb9893f6de2cfd2578034021ddc26494",
+    "docs/product/calibration/production-r4-integrated-closure.md": "5e15e319c5bc654d11c06fc1b70abc5674fc253fa3b64b00aac7543b6d45a55d",
+    "docs/research/l2-pilot/README.md": "7ecd4acb1906e085a4ac2e4395195c1236fb393a198e42bbe76c9c6fe1ffecef",
+    "docs/research/l2-pilot/assessment-input.json": "21d0617c4f9831f3e88504f0221a553d25ddc4c5ef48613eaa91f597a6acc55a",
+    "docs/research/l2-pilot/assessment.json": "ce88c403a42bf5eb267baf0e6c93b97d173ca078510f97fa49aef53b926a3cf7",
+    "docs/research/l2-pilot/knowledge-pilot.mjs": "775308cc1d84024fcb66a6f0e59a94fea7b354a168a4dab9c9480fdec071b783",
+    "docs/research/l2-pilot/pack.json": "45831c5f231de4365b0f2d5c2b9a4dc8674db3c70e74df50e13e2ee40b62d7a5",
+    "docs/research/l2-pilot/qualification-manifest.json": "fdfeaecb02a5cc8d3ab979067855c82aa6bceb5b318cba2c85ba2ea392ca1738",
+    "docs/research/l2-pilot/retrieve.mjs": "8404c149a4539ef6bf6c1577941d7e89f34478415c88f2de88ee7a0e32572be0",
+    "docs/research/l2-pilot/semantic-profile.json": "ccce1c6f9750a6539ac8dd1e5d4119b263df548062eb961a43c36d80cf6d37e0",
+    "docs/research/l2-pilot/sources.json": "2b46a3c03a9c0108472764a57b336accf4dee32c001a7e671d356aca70ad3b27",
+    "docs/research/l2-pilot/validate.mjs": "4841b8c6fee769a6dbec457f5b5bfc7f5a0fd385ffd554a055f72c88d3dd418a",
+    "docs/research/l2-pilot/validation-result-rv.json": "b09d19ee882b83b5e3f1240e5ed9695aedeeee78902e745f2e888e6ca5131cd0",
+    "docs/research/l2-pilot/validation-result.json": "5f0e61a7011bb5a31b8dac881a0c749145f34eb4a354b938ca8fa4cd4dfea885",
+    "docs/research/l2-pilot/witness-pilot.mjs": "87fe8b1e8ee164388dee06e98cd9b8d54bc2ac4328d3c34ddb782c57fcd86fd1",
+    "docs/research/l2-pilot/workflow-pilot.mjs": "0b298113d83202842d27357545329adfa4e0879ae1eb26204cd7cf5886bc7af3",
+    "docs/research/source-qualification-acoustics-r1.md": "991b311f074be3fd6d2bd2fbf6c3269685812307f0346e868b447c96c49f237d",
+    "docs/research/source-qualification-acoustics-r5.md": "234c0835703c599d1ae862f142264d218f7a0c2b1b1079897d36690ab1add077",
+    "docs/research/source-qualification-culture-education-rights.md": "e96793cf92496e01a34cd96a8770ebe8bb20a6f8ba791163d0be86edccbe827c",
+    "docs/research/source-qualification-digital-audio-r1.md": "7f0f62424bba9594a0004d0d208e57c2dfc6cfec81e430078973278cbe0410b8",
+    "docs/research/source-qualification-digital-audio-r2.md": "eaadfc2550b3eac3cf5c08556443a5908329502b07ec583ec78cf3dd64cf2026",
+    "docs/research/source-qualification-music-education-r1.md": "619adf94f6be1c71f93410b2ae70be0b69f57f44fcaa77fdb814e702d4e7bebc",
+    "docs/research/source-qualification-music-education-r2.md": "506e64be99dea1ac4de2e360262402a62a10294ef425b90574f87351145eca39",
+    "docs/research/source-qualification-production-evaluation.md": "f7203adf692e0ef5d18b05c11ed30a86f3a19e60ac8d974b63ce42a9474429cd",
+    "docs/research/source-qualification-production-r1.md": "1b9e0f79aec92915df541828198df28f02738fdcc67bdd86e9b5095dbf1f42d5",
+    "docs/research/source-qualification-production-r2.md": "d0b4a454ff70b195b08f10dad31a26f52c0916da15e38fa570a0744ea5fb9240",
+    "docs/research/source-qualification-vocal-digital.md": "91742f1fe039d6b1111ce28f36a49948e610243906ff61ab60db598e75e2125f",
+    "docs/validation/G07-R5/batch-review-contract.md": "7cf451ebe4966b625ca7639d6510bc480f7ce7c7403eb883a661ab5c751826ca",
+    "knowledge/K01/README.md": "29ffd5e9443f2a355f316362adab01dd331bb89d0c82f0506c99c3e061692f37",
+    "knowledge/K01/candidate.json": "653c7791b5a9b642329a7a2ea2442c1df42c4772190d2eabc24dd2feb76a567e",
+    "knowledge/K01/claim-authoring.tsv": "77cb25710ebdaa3116f4664e53d69679651d1e488fcb68b44643b9665b647bf5",
+    "knowledge/K01/controller-input.json": "ba5f9385d36c519ed67f4d6a436613a5f19b51b1be4dab88f359d1294a4d7045",
+    "knowledge/K01/domain-workflows.json": "1c930f246627c72b87d6a8be6d2eb322832d84c4f89bd5c57e04a0331adba5d5",
+    "knowledge/K01/qualification.json": "3c2b2170d6a52afcf537aa154d2a0bb998725033598b589b2bad4656eef3fa8f",
+    "knowledge/K01/relation-authoring.tsv": "781fa30e9b61324d91da599a63e555be7b5f1aff41b704c48623069c8eade258",
+    "knowledge/K02/authoring.tsv": "a2d2fc0248ff932f80a09df3ca5072f37fca0aaf9a81dee1b92795255fee4dea",
+    "knowledge/K02/candidate.json": "09a6567f137b1d8107727169c75f5d238bba06420a5ce26e773474206afa363e",
+    "knowledge/K02/controller-input.json": "0699eb5f7687bbb5b9e695dc451639d001902096346592001d40541bece65f67",
+    "knowledge/K02/domain-workflows.json": "5b7608db9e7cd04ca95f7ea3464dcb428011b40e1cc86da5fe0d4a6ee2d768a4",
+    "knowledge/K02/project-contracts.json": "1a012374f186968b95eed01f654cd8da47cbfe4d11560ca664c363c43d5b6961",
+    "knowledge/K02/qualification.json": "b609fae1cc8bd450521e3938448927e2c0c60b47b97beeffe4565b73ee6ac06c",
+    "knowledge/K02/relation-authoring.tsv": "31e4a4a313494622819adff67c8aa6712b3275dc098b8511101a7eb4a041c354",
+    "knowledge/K03/authoring.tsv": "5019fe0d61ff106104c480c999430c69ef645c362fb5fd1dae51fda95f3fc70e",
+    "knowledge/K03/candidate.json": "cf1bbbe2d9826fb2248e9c2ee42e1da59f1bd634157184cf0fb92eba0bf0373e",
+    "knowledge/K03/controller-input.json": "47d41401a01eda3033f8a742767367fbcbd4b90f470970616ab405ec5c7a271d",
+    "knowledge/K03/domain-workflows.json": "de4ae33a400f20499b4050027d8c8e4d6f851d21e06900254f54581be2e0ad55",
+    "knowledge/K03/project-contracts.json": "8531d1d5f846e035ff2dd1c138b7ab0c949e3f114d1c8cec015fd6e43e6f66d0",
+    "knowledge/K03/qualification.json": "3eba2d16e3b83cae8292834f6e54a3436b7e103b84a304e0a2eb6c8f05642681",
+    "knowledge/K03/relation-authoring.tsv": "a06ec0a31da64d56be2ba87a9a367ed879514898280454c1b39c74cc915cd454",
+    "knowledge/K04/authoring.tsv": "689559deecf45fafbec1357eea6a333b35d79fc01410ade25b44f69b49657354",
+    "knowledge/K04/candidate.json": "c5b2abb18f502e167fa7fde80c0dc1596d7a4b4532cc16120beea9e1025de503",
+    "knowledge/K04/controller-input.json": "eb5f6894516e24781e22696adae9d290274dfbd8f6256d3b6e6ea23c9c8a1d9d",
+    "knowledge/K04/domain-workflows.json": "8ad03a1272249103dbcd1b2eefd3e9bc16934c5506155f076acffaa29eb8aafa",
+    "knowledge/K04/qualification.json": "d910f8955188d0a532a7d8aa16848158bd2ec2e85f342fb5008a22fe275cc7c6",
+    "knowledge/K04/relation-authoring.tsv": "943fe3a4c9f867ce1f01ce18d944eb32d37b589696cd38d93fe94b029b3c1ad1",
+    "knowledge/K06/authoring.tsv": "b1957d5bec7b5f20ae251d0c2da90cf70ad5c3af3a7c6000275961ac90c27a22",
+    "knowledge/K06/candidate.json": "dc6402d78691971a46fe9e5a7f715753f7ae7c4428fe7ee919bba7fa36ca33ff",
+    "knowledge/K06/controller-input.json": "e945ff097f7726cd357a909b2ce0c4bc6f116e695ef6fd0aaf3ba282d367348e",
+    "knowledge/K06/domain-workflows.json": "5a5bf6f72e02ace0fb666e7c0f626d9cedc09c152acbc7267b97f1a47f964c8e",
+    "knowledge/K06/qualification.json": "83439b906ee82dc01dd94f5cfcc5f4a7e71df6dcf30cb35e92b46b0d12edcb73",
+    "knowledge/K06/relation-authoring.tsv": "183ca1e11531f473d34c4f1d886be3ddd1b56f89b1cb49957d8e0ee5c7d4c83d",
+    "knowledge/K07/README.md": "cc7365885c53d85137dc16011469c5a9d5dc78551803509b58d3cc932ad29106",
+    "knowledge/K07/candidate.json": "5178ebc10c0d05312afaa4eac3bf16851ed6e1579c27bce7b9a7dd99a85ec25d",
+    "knowledge/K07/claim-authoring.tsv": "d51ad3178060144c7614934adf7818fad7b22b241301db212f63cfc2e2280a82",
+    "knowledge/K07/controller-input.json": "4d96526916e0eaef76e260f16d1024ff2f5271fb1349c2f5960216fab742f1c5",
+    "knowledge/K07/domain-workflows.json": "b23ad1f6ceb773942270f5c1ab3219aafeb52263c54dcabd483edfe4c6c68807",
+    "knowledge/K07/qualification.json": "6436a0da832e5c7615f731d816f8b8d0372c74522036f8c0714af6e8809bd58f",
+    "knowledge/K08/authoring.tsv": "8c61bc1b316f46fbfd4c0f69d515e72a33f06369177a36a678f9ffb5fe739907",
+    "knowledge/K08/candidate.json": "663270d882a9770c164c9904b3bd3cbea444d6a3dae098bbb41c29351d3031dd",
+    "knowledge/K08/controller-input.json": "ea59d796dd7abb4d986bc55e9cb1f9799e710be6d665af45c65ee7c9bb4e8a40",
+    "knowledge/K08/domain-workflows.json": "3b66ddf3bd4e480fcad703e471fa6ba16c052d7fd7039c3dbc6f24e661a4662f",
+    "knowledge/K08/qualification.json": "f1953f97a60165d172b6debb62a7257379ebfa22b5ee26502923dff5eab695d7",
+    "knowledge/K08/relation-authoring.tsv": "20957bf7fd90a137cb284d6e63fc77f4b5ea1769d94dd49613c052eabeadc32f",
+    "knowledge/K09/authoring.tsv": "cde0fc3136e7370c66022d61cd98e0d54148b1453328304360a56e5f1985f2b5",
+    "knowledge/K09/candidate.json": "40e4de2b563cc72ca61e0f35454aaef4e2f6aded26f13fc0ad4e2b7ef85625d0",
+    "knowledge/K09/controller-input.json": "dcc937aa3e3f7487a881efa8748283bd9be83424f0ead5d957b7ed68c6222b7d",
+    "knowledge/K09/domain-workflows.json": "7e86c5ef4afda53760397180061007b3912232997557516b49bd1c6215c03337",
+    "knowledge/K09/qualification.json": "f53829a29098a7b761cd37c763451ce0d2f67def4c7112989c529ff593029174",
+    "knowledge/K09/relation-authoring.tsv": "cd9644edfd9fddfb6605a68a21df0de275f32fc2e1b9d4c26c7386c1db4da698",
+    "knowledge/K14/authoring.tsv": "1273aaaf1d5e9bc0f1de7f50835943f4d0942d54971d5a0e20268ec2bc5700fa",
+    "knowledge/K14/candidate.json": "c8c818ce615d43f7b123cf681eb4b56db30c7a6bbd6e26cd4babac554faf012c",
+    "knowledge/K14/controller-input.json": "c9f144566541bc85ef0db3aba9c5c320d7d2194aaec5e40afa5eab251057b8b1",
+    "knowledge/K14/domain-workflows.json": "b6ba565b8c6c9992d73f430caad0ae7f703b3f27a323f22d65f2b313d92e3992",
+    "knowledge/K14/qualification.json": "b2f58dbd336c0ca64137740a3d28281b02857dba08e298bfeb9d2278dffd58cc",
+    "knowledge/K14/relation-authoring.tsv": "4f81b4ba4d008256a4b04816fb558b8bcab8bac079c4a959ee43afc2c2eea96e",
+    "ontology/l1-anchor-tree.json": "7b799f1aa85db6cc028c36029326cda6bae9d1d4120837a7abf8a794e3d168e3",
+    "queries/K09/capability-index.json": "fefd8cc3eb6b896f90f8399d7a2943de7afc22d4063c2005d72a22f64b917879",
+    "queries/K09/discovery-index.json": "196c5b6e11d68277271b2089cefc955aab1e084d4bc82af40da857514166e9bc",
+    "queries/K09/legacy-routes.json": "bb6e4b3e5e0489313b1f0d29e005587026c5f15013ab6cc4b62b2c2ca3635b16",
+    "queries/K14/capability-index.json": "3a26b7d531efea2faf9dbca1f3307a7b6d11897a4b3c393eb07e843b90d7b6b2",
+    "queries/K14/discovery-index.json": "6311957ce4d8653aecba89562aaba17355027819fd6ec943dc27cb87f3a629ef",
+    "queries/K14/legacy-routes.json": "910076e03ec1d496996b24c3fb3aea90329ae4b98576dc240fcf85d512c4fc89",
+    "sources/K09/provenance.json": "8634d7e2c117405f13038b1fc9b37ec0e85c06a2e74b6ddc54079358547860a4",
+    "sources/K14/provenance.json": "5c3401f740f58c7c37c35da4219eaae990c53cb6bf21b9b7870ce65c857b8c79",
+    "tests/knowledge/K01/build-candidate.py": "10a2f63a4fc912027d7bf75d55e9eb6e4d80a8193510ba2bcb217a14d0bc82fc",
+    "tests/knowledge/K01/build-domain-workflows.py": "988a7f9826f55776521255d5bd8d99438d9c83799da04d4d794e7821e4e9e20b",
+    "tests/knowledge/K01/build-input-ledger.py": "3788d81060a9e1117c9ccccc09beee537e51f0f31b6d25d2a22ad44cba1c65aa",
+    "tests/knowledge/K01/k01.test.mjs": "dadc904e9abe01561ecce117eae7779d3b90c936db12e2d51f97602945ec06a1",
+    "tests/knowledge/K01/theory-witness.mjs": "66f7b48f5c4d6b413c76c085fb271e04a84f11da0135f2941a018b6a8e37e731",
+    "tests/knowledge/K04/build-candidate.py": "f221bc2911d6fbc0ccb50fea7d4be886e4c669ea3f2292afc583c9d7f250e5e3",
+    "tests/knowledge/K04/build-input-ledger.py": "aa3b15e37424db148c0d104b0ce2cdd731dc38f5d14b0eb6d3bdd9e4b685e12e",
+    "tests/knowledge/K04/k04.test.mjs": "ea1977e97af73a8f62c7f4eaae470fef93f5648fd13280b712c6bc6f0c381915",
+    "tests/knowledge/K04/performance-witness.mjs": "d18e229e7c0a5164bd8fb99cfa5c40a63cac5f9767044bb06142e5f076c00031",
+    "tests/knowledge/K07/build-candidate.py": "a16ec8e290e624d4bd7ea4bc18ea465b5ec1704cafdaccdabdffb75f2b35b58b",
+    "tests/knowledge/K07/build-domain-workflows.py": "4e75e7c64f8aff390c7725b48aebd9b78991fa3b507bbf09153a515e88be2398",
+    "tests/knowledge/K07/k07.test.mjs": "945f2e956a661fcd1ef0b0cbcaebf5eec4930ac5c45d008bf101a39d82e1d78d",
+    "tests/knowledge/K09/build-candidate.py": "fe6075fb26e40128e53b33ac63e044ffa792e56c52dee100ccc0ef878ad9681f",
+    "tests/knowledge/K09/domain-witness.mjs": "42d0aa0b8eec11b96da57d46108b0741d570558d3c56042a22a6e74c985c94c5",
+    "tests/knowledge/K09/k09.test.mjs": "e43c91cf9345b00cba0e155bc1f29d475d986dd0bbba1159a7b0cd79c8668cae",
+    "tests/knowledge/K14/build-candidate.py": "300da2f1c24932c767fde09360f8a28c42fb6d29c80cfd553b47b8d1a0228d8a",
+    "tests/knowledge/K14/domain-witness.mjs": "ecbe0cecd9e319c1d3c8154e2dd6b8dfb85c532aa4f022e7c399a5b4f7bd9e42",
+    "tests/knowledge/K14/k14.test.mjs": "0f2a1228c1f26f8418f84179a6cf8419fa0dc01f7b05694baf0d2ee2ecde1919",
+    "tests/knowledge/f00-cq-role.test.mjs": "752391f03933312d6db71e129d9ea3a167b67879b05b6838c37f78ceeee2187e",
+    "tests/knowledge/f00-cq2-role.test.mjs": "5c2000de56c8f2766f887b2dfb2442afb112245f01831d9fa95c27fb10da9b07",
+    "tests/knowledge/f00-legacy-source-uri.test.mjs": "fc3891535895e314afb35ca6a25ad0ee8b2af18fcc09cfadcd17a3cfb3f12cb3",
+    "tests/knowledge/f00.test.mjs": "50857be776d363fec78dcff48444eb278bf52492d957df88df88e8cd708f299c",
+    "tools/validate-knowledge.mjs": "a8db58fa6dcd67426b4a08e5a62c0adf1d21851f8fc024ccc780a2738e540d33"
+  },
+  "r5BuildOutputs": {
+    "K09": {
+      "module": "K09",
+      "rows": 48,
+      "claims": 48,
+      "records": 414,
+      "edges": 151,
+      "bindings": 340,
+      "sources": 30,
+      "reused": 16,
+      "H": 37,
+      "O": 18,
+      "obligations": 37,
+      "views": 192,
+      "roles": 63,
+      "activeRoleTargets": 336,
+      "historicalRoles": 7,
+      "legacy": 54,
+      "splits": 7,
+      "packBlob": "80296de0395f3419e682f7147995e11a65f5f107",
+      "manifestBlob": "5c55cd40ca1ede49fb185eaf45c22a8737244a49",
+      "controllerBlob": "76a7d98c3d408c8c17a74743ba8262070bb13a9d"
+    },
+    "K14": {
+      "module": "K14",
+      "rows": 48,
+      "claims": 48,
+      "records": 396,
+      "edges": 155,
+      "bindings": 368,
+      "sources": 12,
+      "reused": 0,
+      "H": 44,
+      "O": 15,
+      "obligations": 44,
+      "views": 192,
+      "roles": 56,
+      "activeRoleTargets": 336,
+      "historicalRoles": 0,
+      "legacy": 48,
+      "splits": 0,
+      "packBlob": "279778ad6e4d835f6f4b6bdaa12f36b4e7fce978",
+      "manifestBlob": "ee596ce95fb7b7535b2759f7b06debb0be9ed470",
+      "controllerBlob": "f34b00ba40b4ec9994a51cc0be3398871373b858"
+    }
+  },
+  "limits": [
+    "Builder evidence only; no independent acceptance yet.",
+    "All candidate claims remain unaccepted; acceptedClaims=0.",
+    "All rights remain UNKNOWN_NO_IMPORT.",
+    "All external execution remains UNKNOWN_NOT_EXECUTED.",
+    "No real plugin, host, production audio, learner, teacher efficacy or clinical claims.",
+    "Historical findings #49 and #63 and all split-open dispositions remain open."
+  ],
+  "exactHeadAcceptance": {
+    "state": "PENDING_OTHER_CONVERSATION_INDEPENDENT_NON_WRITER",
+    "required": "Read actual final PR HEAD from GitHub, rerun all 15 suites, compare each raw result array/count/SHA256 and review both complete module corpora.",
+    "mergeAllowed": false
+  },
+  "evidenceOnlyDelta": [
+    "docs/validation/G07-R5/batch-review-contract.md",
+    "docs/validation/G07-R5/batch-receipt.json",
+    "docs/validation/G07-R5/results/*.json",
+    ".agent/execution/G07-R5/MANIFEST.yaml status update"
+  ]
+}
