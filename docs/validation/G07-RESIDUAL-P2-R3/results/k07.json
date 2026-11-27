@@ -1,0 +1,1413 @@
+{
+  "status": "K07_MODULE_CANDIDATE_ONLY",
+  "node": "v24.21.0",
+  "checks": 343,
+  "passed": 343,
+  "results": [
+    [
+      "pinned input knowledge/K07/controller-input.json",
+      true
+    ],
+    [
+      "pinned input queries/K07/capability-index.json",
+      true
+    ],
+    [
+      "pinned input queries/K07/discovery-index.json",
+      true
+    ],
+    [
+      "pinned input queries/K07/legacy-routes.json",
+      true
+    ],
+    [
+      "pinned input queries/K07/split-routes.json",
+      true
+    ],
+    [
+      "pinned input sources/K07/provenance.json",
+      true
+    ],
+    [
+      "pinned input knowledge/K07/domain-workflows.json",
+      true
+    ],
+    [
+      "actual first MODULE, all row identities accounted",
+      true
+    ],
+    [
+      "unique current D4 and candidate identity",
+      true
+    ],
+    [
+      "frozen 51 discovery rows exactly equal module inventory",
+      true
+    ],
+    [
+      "actual 10 H obligations and separate O navigation",
+      true
+    ],
+    [
+      "AC01 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC01 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC01 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC02 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC02 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC02 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC03 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC03 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC03 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC04 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC04 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC04 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC05 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC05 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC05 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC06 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC06 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC06 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC07 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC07 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC07 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC08 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC08 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC08 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC09 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC09 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC09 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC10 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC10 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC10 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC11 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC11 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC11 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC12 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC12 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC12 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC13 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC13 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC13 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC14 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC14 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC14 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC15 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC15 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC15 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC16 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC16 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC16 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC17 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC17 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC17 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC18 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC18 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC18 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC19 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC19 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC19 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC20 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC20 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC20 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC21 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC21 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC21 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC22 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC22 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC22 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC23 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC23 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC23 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC24 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC24 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC24 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC25 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC25 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC25 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC26 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC26 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC26 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC27 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC27 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC27 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC28 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC28 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC28 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC29 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC29 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC29 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC30 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC30 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC30 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC31 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC31 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC31 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC32 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC32 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC32 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC33 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC33 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC33 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC34 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC34 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC34 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC35 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC35 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC35 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC36 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC36 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC36 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC37 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC37 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC37 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC38 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC38 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC38 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC39 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC39 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC39 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC40 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC40 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC40 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC41 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC41 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC41 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC42 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC42 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC42 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC43 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC43 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC43 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC44 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC44 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC44 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC45 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC45 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC45 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC46 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC46 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC46 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC47 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC47 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC47 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC48 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC48 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC48 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC49 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC49 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC49 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC50 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC50 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC50 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "AC51 exact D4/direct root and bounded H closure",
+      true
+    ],
+    [
+      "AC51 four distinct view directions/polarities and single inverse binding",
+      true
+    ],
+    [
+      "AC51 actual source subset, direct/support CQ preserved",
+      true
+    ],
+    [
+      "CQ01 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ02 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ03 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ04 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ05 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ06 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ07 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ08 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ09 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ10 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ11 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ12 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ13 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ14 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ15 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ16 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ17 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ18 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ19 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ20 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ21 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ22 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ23 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ24 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ25 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ26 direct roots only; explicit S navigation index",
+      true
+    ],
+    [
+      "CQ13/CQ25 support-only no false direct root",
+      true
+    ],
+    [
+      "CQ18 culture absent not inferred from physics",
+      true
+    ],
+    [
+      "33 direct sources plus 2 preserved withheld; no qualification promotion",
+      true
+    ],
+    [
+      "same NIST guide anchors two locators not independent sources",
+      true
+    ],
+    [
+      "role matrix exact 56 / P27 S14 C15",
+      true
+    ],
+    [
+      "K07.01/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.01/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.01/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.01/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.01/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.01/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.01/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.02/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.02/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.02/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.02/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.02/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.02/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.02/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.03/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.03/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.03/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.03/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.03/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.03/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.03/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.04/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.04/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.04/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.04/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.04/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.04/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.04/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.05/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.05/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.05/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.05/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.05/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.05/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.05/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.06/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.06/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.06/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.06/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.06/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.06/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.06/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.07/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.07/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.07/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.07/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.07/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.07/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.07/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.08/A01 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.08/A02 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.08/A03 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.08/A04 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.08/A05 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.08/A06 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "K07.08/A07 actual role-conditioned knowledge retrieval and witness",
+      true
+    ],
+    [
+      "48 historical routes preserve original predicate and not equivalence",
+      true
+    ],
+    [
+      "7 affected split predicates still open, precise local candidates only",
+      true
+    ],
+    [
+      "actual isolated K07 CLI with pinned public inputs and no Git or assessment",
+      true
+    ],
+    [
+      "actual MODULE missing row rejected",
+      true
+    ],
+    [
+      "actual K07 wrong owner rejected",
+      true
+    ],
+    [
+      "actual K07 dangling evidence source rejected",
+      true
+    ],
+    [
+      "actual K07 required obligation cannot lose edge and binding",
+      true
+    ],
+    [
+      "actual K07 missing mandatory support view rejected",
+      true
+    ],
+    [
+      "AC25 actual required urgent referral edge cannot disappear",
+      true
+    ],
+    [
+      "AC25 actual missing urgent support view rejected",
+      true
+    ],
+    [
+      "AC49 actual required urgent referral edge cannot disappear",
+      true
+    ],
+    [
+      "AC49 actual missing urgent support view rejected",
+      true
+    ],
+    [
+      "actual K07 cannot self-promote ACCEPTED",
+      true
+    ],
+    [
+      "actual module repeated query detached",
+      true
+    ],
+    [
+      "O optional not required in actual query",
+      true
+    ],
+    [
+      "H inverse only navigation from provider",
+      true
+    ],
+    [
+      "AC01/02/27 period and phase family",
+      true
+    ],
+    [
+      "AC03/28 wave speed and particle speed distinct",
+      true
+    ],
+    [
+      "AC04/29 plane wave pressure ratio and standing net flux",
+      true
+    ],
+    [
+      "AC05/30 overtone and mathematical period not perceived pitch",
+      true
+    ],
+    [
+      "AC06/31 observation window and FFT grid separation",
+      true
+    ],
+    [
+      "AC07 same magnitude different time",
+      true
+    ],
+    [
+      "AC08 RV01 exact iid ensemble expected periodogram flat, finite not",
+      true
+    ],
+    [
+      "AC32 RV01 WSS model distinction, cropped event remains outside window",
+      true
+    ],
+    [
+      "AC09/10/33 fixed string and distinct ideal pipe boundary",
+      true
+    ],
+    [
+      "AC11/35 response/known same-phase noise counterexamples",
+      true
+    ],
+    [
+      "AC34 ideal axial modes",
+      true
+    ],
+    [
+      "AC12/36 ISO scope does not produce a numeric curve",
+      true
+    ],
+    [
+      "AC13/37 same fundamental different harmonic vector and envelope",
+      true
+    ],
+    [
+      "AC14 RV02 temporal labels independent of actual masking",
+      true
+    ],
+    [
+      "AC38 RV02 matched envelope mean/power different modulation rates",
+      true
+    ],
+    [
+      "AC15/16/17/39/40/41 hearing scope and urgent stop retained",
+      true
+    ],
+    [
+      "AC18/42 free field distance ratio and multi-path times",
+      true
+    ],
+    [
+      "AC19/43 decay fits not reflection delays",
+      true
+    ],
+    [
+      "AC20 coherent equal/opposite and noncoherent mean-square",
+      true
+    ],
+    [
+      "AC44 ITD ILD sign and swapped channels",
+      true
+    ],
+    [
+      "AC21/45 referenced dB and energy not arithmetic mean",
+      true
+    ],
+    [
+      "AC22/46 RV04 same unweighted RMS different derived filter outputs",
+      true
+    ],
+    [
+      "AC23/47 repeat uncertainty and covariance",
+      true
+    ],
+    [
+      "AC49 relative energy not exposure authorization",
+      true
+    ],
+    [
+      "AC51 possible topology not oscillation; abstract stable recurrence",
+      true
+    ],
+    [
+      "K07 actual finite typed workflow/artifact shape, edges, DAG, guards",
+      true
+    ],
+    [
+      "K07-WF-SPECTRUM all finite branches produce only expected bounded outcomes",
+      true
+    ],
+    [
+      "K07-WF-MASKING all finite branches produce only expected bounded outcomes",
+      true
+    ],
+    [
+      "K07-WF-ROOM all finite branches produce only expected bounded outcomes",
+      true
+    ],
+    [
+      "K07-WF-MEASUREMENT all finite branches produce only expected bounded outcomes",
+      true
+    ],
+    [
+      "K07-WF-LISTENING all finite branches produce only expected bounded outcomes",
+      true
+    ],
+    [
+      "A02 spectrum no model proof from finite observation",
+      true
+    ],
+    [
+      "A02 masking controlled stimuli without perception remains candidate",
+      true
+    ],
+    [
+      "A02 room unknown fit blocks decay report",
+      true
+    ],
+    [
+      "A02 measurement changed calibration or old aggregate separate",
+      true
+    ],
+    [
+      "A02 listening all stipulated never plays, stop dominates and unknown risk fail closed",
+      true
+    ],
+    [
+      "LISTENING known stop dominates absent or null other condition",
+      true
+    ],
+    [
+      "LISTENING urgent report dominates partial and withdrawal",
+      true
+    ],
+    [
+      "LISTENING known withdrawal dominates unknown urgent and other inputs",
+      true
+    ],
+    [
+      "LISTENING missing stop or urgent risk cannot reach comparison",
+      true
+    ],
+    [
+      "LISTENING positive comparison only after explicit complete risk conditions",
+      true
+    ],
+    [
+      "LISTENING all 256 true/false/absent/null risk combinations",
+      true
+    ],
+    [
+      "MASKING known stop dominates absent or null other condition",
+      true
+    ],
+    [
+      "MASKING urgent report dominates partial and withdrawal",
+      true
+    ],
+    [
+      "MASKING known withdrawal dominates unknown urgent and other inputs",
+      true
+    ],
+    [
+      "MASKING missing stop or urgent risk cannot reach comparison",
+      true
+    ],
+    [
+      "MASKING positive comparison only after explicit complete risk conditions",
+      true
+    ],
+    [
+      "MASKING all 256 true/false/absent/null risk combinations",
+      true
+    ],
+    [
+      "AC25 exact urgent view has necessary S449 support",
+      true
+    ],
+    [
+      "AC25 absent or negative report is not an urgent conclusion",
+      true
+    ],
+    [
+      "AC25 missing claim never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "AC25 missing edge never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "AC25 missing binding never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "AC25 missing source never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "AC49 exact urgent view has necessary S449 support",
+      true
+    ],
+    [
+      "AC49 absent or negative report is not an urgent conclusion",
+      true
+    ],
+    [
+      "AC49 missing claim never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "AC49 missing edge never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "AC49 missing binding never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "AC49 missing source never certifies urgent evidence, stop retained",
+      true
+    ],
+    [
+      "urgent provider reverse relation not inference",
+      true
+    ],
+    [
+      "A06 editable exact artifact identity and derived superseding report",
+      true
+    ],
+    [
+      "A04/A07 explicit version-scoped evidence invalidation",
+      true
+    ],
+    [
+      "A04/A07 withdrawal and urgent report dominate later proposal",
+      true
+    ],
+    [
+      "workflow missing step claim relation rejected",
+      true
+    ],
+    [
+      "workflow ambiguous guard rejected",
+      true
+    ],
+    [
+      "workflow missing guard rejected",
+      true
+    ],
+    [
+      "workflow forbidden terminal authorization rejected",
+      true
+    ],
+    [
+      "workflow unsupported relation rejected",
+      true
+    ],
+    [
+      "workflow wrong artifact supersedes rejected",
+      true
+    ],
+    [
+      "unknown event never downgrades urgent or withdrawn stop",
+      true
+    ],
+    [
+      "artifact cyclic derivation rejected",
+      true
+    ],
+    [
+      "artifact missing exact dependency rejected",
+      true
+    ],
+    [
+      "artifact false frequency grid rejected",
+      true
+    ],
+    [
+      "missing primary workflow role binding rejected",
+      true
+    ],
+    [
+      "state event cannot overwrite original identity",
+      true
+    ]
+  ],
+  "summary": {
+    "status": "CANDIDATE_STRUCTURE_ONLY",
+    "packs": [
+      {
+        "owner": "K07",
+        "coverageMode": "MODULE",
+        "packBlob": "e991903d604fbd31753acdf086f1769473daec6b",
+        "manifestBlob": "0de101c9195b5b5c39f29c746ed981540936fef4"
+      }
+    ],
+    "counts": {
+      "records": 441,
+      "claims": 51,
+      "edges": 163,
+      "bindings": 244,
+      "inventory": 51
+    },
+    "unresolved": [],
+    "acceptedClaims": 0
+  },
+  "roleCells": 56,
+  "legacyRoutes": 48,
+  "splitRoutes": 7,
+  "sourceCount": 33,
+  "withheldSourceCount": 2,
+  "workflowRecords": 68,
+  "workflowRelations": 74,
+  "limits": [
+    "all actual claims are CANDIDATE; independent professional review and integration separate",
+    "finite local domain workflow/annotation/state witnesses; no generalized engine, actual grant, actual audio/clinical/tool execution, production database or LLM efficacy",
+    "35 source locator histories; 33 direct sources, S459/S465 withheld, no source import or current external re-read",
+    "roles and routes do not authorize actual operations"
+  ]
+}
