@@ -305,3 +305,6 @@ G04 [#78](https://github.com/kaicreator-mm/audio-kg/issues/78) 开始，[R1现�
 
 ## G04 R8 — 独立参考/修订证据、离线CQ及累计实质回读
 R7 [独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7203815238) 两残余P1，累计部分未完。现行[完整复审合同](product/calibration/g04-r8-cumulative-review-candidate.md)、[XC01-R3](product/calibration/g04-r8-xc01-independent-evidence.md)70/70、[CQ补证](product/calibration/g04-r8-cq-semantic-remediation.md)24/24、[26问范围](product/calibration/g04-r8-formal-cq-scope-reconciliation.md)。实际七角色案例与源、19域1113格、34修订主原子80来源引用/317反链、28 NEW/51 REUSE/16 REF现行入口、K16–19原函数40/33/49/44真值重放。原15 Issue及28 SPLIT_OPEN保持。独立Reviewer可按exact SHA/blob复用不受影响的既有独立证据，但仍须完整阶段裁决，明确实质缺口与最小补救；不降低G04门禁。无新全量外部全文、实际运行、accepted claims或L1冻结；CAL07/G05/T03/L2阻塞。
+
+## G04 R9 — CQ25 实际结果与必要证据完整追溯
+[R8独立FAIL](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecomment-7212098990)；原两项直接修订有效，剩余CQ25一P1。当前[完整追溯见证](product/calibration/g04-r9-cq25-full-evidence-trace.md)，七P节点、三必要知识支持与三实际合成证据节点、完整结果/测量上下文及receipt绑定；R8a 70/70重放、R9 43/43严格断言。R8c旧CQ25仅历史，不作为完整追溯。待required限定累计复审，非独立PASS；15 OPEN、28 SPLIT_OPEN、CAL07/G05/T03/L2阻塞。
