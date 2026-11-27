@@ -40,24 +40,55 @@ export function score(t,records){
  }
  return {state:'SYNTHETIC_ONLY',rows,passed:rows.some(r=>r.pass===null)?null:rows.filter(r=>r.pass).length};
 }
-export function comparePhases(q,t,records,events,p){
+// Closed, stipulated synthetic observation registry. No caller may mint an observation
+// by supplying metadata. Each receipt binds a distinct take, phase, task, plan,
+// consent epoch, event enablement, and the exact observations, not just a label.
+// This is a finite knowledge oracle, not an external receipt/signature system.
+const mk=(ref,est)=>task.notes.map((n,i)=>({id:n.id,start:n.start,end:n.end,clock:task.clock,mask:task.mask,rubric:task.rubric,targetId:n.id,trusted:true,valid:true,ref:ref[i],est:est[i]}));
+const events=(phase,p=plan1,epoch=1)=>task.notes.map(n=>({id:n.id,phase,planId:p.id,epoch,modality:p.modality,timing:p.timing,enabled:phase==='P'&&p.targetIds.includes(n.id),record:false,upload:false,share:false}));
+const observations=freeze([
+ ['obs-B','B',[200,230,240,265],[200,220,240,265]],
+ ['obs-P','P',[200,220,240,250],[200,220,240,250]],
+ ['obs-I','I',[200,220,248,250],[200,220,248,250]],
+ ['obs-D','D',[200,230,240,265],[200,230,240,265]],
+ ['obs-P2','P',[200,220,240,250],[200,220,240,250],plan2,2],
+ ['obs-mismatch','I',[220,200,240,250],[220,200,240,250]]
+].map(([id,phase,ref,est,p=plan1,epoch=1])=>({id,take:'take:'+id,taskId:task.id,phase,planId:p.id,epoch,scope:['LIVE_LISTEN','VISUAL_TRANSIENT'],plan:p,records:mk(ref,est).map(r=>({...r,observationId:id})),events:events(phase,p,epoch).map(e=>({...e,observationId:id})),status:'STIPULATED_SYNTHETIC_ONLY'})));
+export function readObservation(id){const x=observations.find(r=>r.id===id);return x?structuredClone(x):null;}
+const byId=a=>a.slice().sort((a,b)=>a.id.localeCompare(b.id));
+const exactList=(a,b)=>Array.isArray(a)&&a.length===b.length&&a.every(x=>x&&typeof x.id==='string')&&eq(byId(a),byId(b));
+const strip=x=>{const {observationId,...v}=x;return v;};
+export function comparePhases(q,t,records,ev,p,id){
  const state=gate(q);if(state!=='CANDIDATE_ONLY')return {state,passed:null};
- if(!Array.isArray(records)||!Array.isArray(events)||records.length!==4||events.length!==4||new Set(events.map(e=>e.id)).size!==4||new Set(events.map(e=>e.phase)).size!==1)return {state:'UNKNOWN_STOP',passed:null};
- for(const e of events)if(!['FEEDBACK_CANDIDATE','UNAIDED_CANDIDATE'].includes(feedback(q,e,p)))return {state:'REJECT_SCOPE',passed:null};
- if(events[0].phase==='P'&&events.filter(e=>e.enabled).map(e=>e.id).sort().join(',')!=='n2,n3')return {state:'UNKNOWN_STOP',passed:null};
- return {...score(t,records),phase:events[0].phase,plan:p.id,epoch:q.consent.epoch,actual:'UNKNOWN_NOT_EXECUTED'};
+ if(!Array.isArray(records)||!Array.isArray(ev)||records.length!==4||ev.length!==4||ev.some(e=>!e||typeof e.id!=='string')||new Set(ev.map(e=>e.id)).size!==4||new Set(ev.map(e=>e.phase)).size!==1)return {state:'UNKNOWN_STOP',passed:null};
+ for(const e of ev)if(!['FEEDBACK_CANDIDATE','UNAIDED_CANDIDATE'].includes(feedback(q,strip(e),p)))return {state:'REJECT_SCOPE',passed:null};
+ if(ev[0].phase==='P'&&ev.filter(e=>e.enabled).map(e=>e.id).sort().join(',')!=='n2,n3')return {state:'UNKNOWN_STOP',passed:null};
+ const receipt=observations.find(r=>r.id===id);
+ if(!receipt||!eq(t,task)||receipt.taskId!==t.id||receipt.phase!==ev[0].phase||receipt.planId!==p.id||!eq(receipt.plan,p)||receipt.epoch!==q.consent.epoch||!receipt.scope.every(s=>q.consent.scope.includes(s))||!exactList(records,receipt.records)||!exactList(ev,receipt.events))return {state:'REJECT_OBSERVATION',passed:null};
+ return {...score(t,records.map(strip)),observationId:id,take:receipt.take,phase:receipt.phase,plan:receipt.planId,epoch:receipt.epoch,actual:'UNKNOWN_NOT_EXECUTED'};
 }
-export function transition(q,{goal,hearing,sameConditions}={}){
+export function compareSeries(q,t,inputs,p){
+ const gateState=gate(q);if(gateState!=='CANDIDATE_ONLY')return {state:gateState};
+ if(!Array.isArray(inputs)||inputs.length!==4||new Set(inputs.map(x=>x?.id)).size!==4)return {state:'REJECT_OBSERVATION'};
+ const rs=inputs.map(x=>comparePhases(q,t,x.records,x.events,p,x.id));
+ if(rs.some((r,i)=>r.state!=='SYNTHETIC_ONLY'||r.phase!==phaseSet[i]||r.passed===null)||new Set(rs.map(r=>r.take)).size!==4)return {state:'REJECT_OBSERVATION'};
+ return {state:'SYNTHETIC_ONLY',scores:rs.map(r=>r.passed),actual:'UNKNOWN_NOT_EXECUTED'};
+}
+// Supplied synthetic listening receipts only. New listening/feedback is not executed.
+const listening=freeze([{id:'hear-S',candidate:'transition-S',conditions:'same-conditions-v1',hearing:'SMOOTH'},{id:'hear-C',candidate:'transition-C',conditions:'same-conditions-v1',hearing:'CONTRAST'}].map(x=>({...x,mode:'SUPPLIED_SYNTHETIC',planId:'v1',epoch:1,scope:'LIVE_LISTEN',taskId:'t1'})));
+export function readListening(id){const x=listening.find(r=>r.id===id);return x?structuredClone(x):null;}
+export function transition(q,{goal,receipt,candidate,conditions,mode}={}){
  const state=gate(q);if(state!=='CANDIDATE_ONLY')return state;
- if(!['SMOOTH','CONTRAST'].includes(goal)||!['SMOOTH','CONTRAST'].includes(hearing)||sameConditions!==true)return 'UNKNOWN';
- return goal===hearing?'MATCH_CANDIDATE':'NOT_MATCH';
+ if(!['SMOOTH','CONTRAST'].includes(goal)||mode!=='SUPPLIED_SYNTHETIC'||!receipt||!listening.some(r=>eq(r,receipt))||receipt.candidate!==candidate||receipt.conditions!==conditions||receipt.taskId!==task.id||receipt.planId!==q.activePlanId||receipt.epoch!==q.consent.epoch||!q.consent.scope.includes(receipt.scope))return 'UNKNOWN';
+ return goal===receipt.hearing?'MATCH_CANDIDATE':'NOT_MATCH';
 }
 export function checks(t){
  const q={emergency:false,symptom:false,paused:false,confirmed:true,activePlanId:'v1',consent:{active:true,epoch:1,scope:['LIVE_LISTEN','VISUAL_TRANSIENT']}};
  const mk=(ref,est)=>task.notes.map((n,i)=>({id:n.id,start:n.start,end:n.end,clock:task.clock,mask:task.mask,rubric:task.rubric,targetId:n.id,trusted:true,valid:true,ref:ref[i],est:est[i]}));
  const events=(phase,p=plan1,epoch=1)=>task.notes.map(n=>({id:n.id,phase,planId:p.id,epoch,modality:p.modality,timing:p.timing,enabled:phase==='P'&&p.targetIds.includes(n.id),record:false,upload:false,share:false}));
  const B=mk([200,230,240,265],[200,220,240,265]),P=mk([200,220,240,250],[200,220,240,250]),I=mk([200,220,248,250],[200,220,248,250]),D=mk([200,230,240,265],[200,230,240,265]);
- t('KC-V06 phase truth scores separated',eq([B,P,I,D].map((r,i)=>comparePhases(q,task,r,events(phaseSet[i]),plan1).passed),[2,4,3,2]));
+ const obs=phaseSet.map(p=>readObservation('obs-'+p));const cmp=(o,qq=q,p=plan1)=>comparePhases(qq,task,o.records,o.events,p,o.id);
+ t('KC-V06 phase truth scores separated',eq(obs.map(o=>cmp(o).passed),[2,4,3,2])&&eq(compareSeries(q,task,obs,plan1).scores,[2,4,3,2]));
  t('KC-V06 no improvement in delayed vs baseline',score(task,D).passed===score(task,B).passed);
  const s=score(task,B);t('VT08/11/37 independent estimate error',close(s.rows[1].musical,1200*Math.log2(230/220))&&s.rows[1].estimatedTarget===0&&close(s.rows[1].estimator,-s.rows[1].musical)&&close(cents(445,440),19.56,.02)&&close(cents(440,442),-7.85,.02));
  const b2=structuredClone(B);b2[1].est=230;t('KC-V06 analysis-only correction not improved singing',score(task,b2).passed===2&&score(task,b2).rows[1].estimator===0&&B[1].est===220);
@@ -75,8 +106,22 @@ export function checks(t){
  t('active plan identity rejects substituted modality or timing',feedback(q,e,{...plan1,timing:'AFTER_TASK'})==='REJECT_SCOPE'&&feedback({...q,activePlanId:'fake'}, {...e,planId:'fake'},{...plan1,id:'fake'})==='REJECT_SCOPE'&&feedback({...q,activePlanId:undefined},e,plan1)==='REJECT_SCOPE');
  const live=livePlan,onlyLive={...q,consent:{...q.consent,scope:['LIVE_LISTEN']}};
  t('live consent not visual or recording permission',feedback(onlyLive,e,plan1)==='REJECT_SCOPE'&&feedback({...onlyLive,activePlanId:'live-v1'},{...e,planId:'live-v1',modality:'LIVE_LISTEN'},live)==='FEEDBACK_CANDIDATE'&&feedback(q,{...e,record:true},plan1)==='REJECT_SCOPE'&&feedback(q,{...e,upload:true},plan1)==='REJECT_SCOPE'&&feedback(q,{...e,share:true},plan1)==='REJECT_SCOPE');
- t('phase/target protection',feedback(q,{...e,phase:'I'},plan1)==='REJECT_SCOPE'&&feedback(q,{...e,id:'n4'},plan1)==='REJECT_SCOPE'&&comparePhases(q,task,P,events('P').map(x=>({...x,enabled:false})),plan1).state==='UNKNOWN_STOP');
- t('VT16/44 independent goal and listening',transition(q,{goal:'SMOOTH',hearing:'SMOOTH',sameConditions:true})==='MATCH_CANDIDATE'&&transition(q,{goal:'CONTRAST',hearing:'SMOOTH',sameConditions:true})==='NOT_MATCH'&&transition(q,{goal:'CONTRAST',hearing:'CONTRAST',sameConditions:true})==='MATCH_CANDIDATE'&&transition(q,{goal:'SMOOTH',sameConditions:true})==='UNKNOWN'&&transition({...q,symptom:true},{goal:'SMOOTH',hearing:'SMOOTH',sameConditions:true})==='STOP_REFER');
+ t('phase/target protection',feedback(q,{...e,phase:'I'},plan1)==='REJECT_SCOPE'&&feedback(q,{...e,id:'n4'},plan1)==='REJECT_SCOPE'&&comparePhases(q,task,obs[1].records,obs[1].events.map(x=>({...x,enabled:false})),plan1,obs[1].id).state==='UNKNOWN_STOP');
+ const hS=readListening('hear-S'),hC=readListening('hear-C'),hearing=(r,goal)=>({goal,receipt:r,candidate:r.candidate,conditions:r.conditions,mode:'SUPPLIED_SYNTHETIC'});
+ t('VT16/44 independent goal and listening',transition(q,hearing(hS,'SMOOTH'))==='MATCH_CANDIDATE'&&transition(q,hearing(hS,'CONTRAST'))==='NOT_MATCH'&&transition(q,hearing(hC,'CONTRAST'))==='MATCH_CANDIDATE'&&transition(q,{goal:'SMOOTH',sameConditions:true})==='UNKNOWN'&&transition({...q,symptom:true},hearing(hS,'SMOOTH'))==='STOP_REFER');
+ t('RV01 replay and relabel rejected',obs.every((o,i)=>obs.every((v,j)=>i===j||comparePhases(q,task,o.records,v.events,plan1,v.id).state==='REJECT_OBSERVATION'))&&compareSeries(q,task,[obs[0],obs[1],obs[1],obs[3]],plan1).state==='REJECT_OBSERVATION'&&compareSeries({emergency:true},task,null,null).state==='EMERGENCY_REFERRAL');
+ const forged=structuredClone(obs[1]);forged.records=forged.records.map(r=>({...r,observationId:'obs-D'}));forged.events=obs[3].events;forged.id='obs-D';
+ t('RV01 relabeled observation bytes rejected',cmp(forged).state==='REJECT_OBSERVATION');
+ t('RV01 current epoch cannot relabel historical receipt',cmp(obs[3],reconsent).state==='REJECT_SCOPE'&&readObservation('obs-D').epoch===1);
+ const epochForged=structuredClone(obs[3]);epochForged.events=epochForged.events.map(e=>({...e,epoch:2}));
+ t('RV01 epoch-only relabel rejected',cmp(epochForged,reconsent).state==='REJECT_OBSERVATION');
+ const qv2={...reconsent,activePlanId:'v2'},o2=readObservation('obs-P2');
+ t('RV01 distinct qualified new plan observation',cmp(o2,qv2,plan2).passed===4&&cmp({...o2,records:obs[1].records},qv2,plan2).state==='REJECT_OBSERVATION');
+ const reversed={...obs[1],records:obs[1].records.slice().reverse(),events:obs[1].events.slice().reverse()};
+ t('RV01 qualified reorder and genuine mismatch',cmp(reversed).passed===4&&eq(cmp(readObservation('obs-mismatch')).rows.map(r=>r.pass),[false,false,true,true]));
+ t('RV01 unknown or unauthorized observation fails',cmp({...obs[0],id:'new'}).state==='REJECT_OBSERVATION'&&cmp(obs[0],{...q,consent:{...q.consent,scope:[]}}).state==='REJECT_SCOPE'&&cmp(obs[0],withdraw).state==='UNKNOWN_STOP');
+ t('RV02 hearing scope, identity and conditions required',transition({...q,activePlanId:'fake'},hearing(hS,'SMOOTH'))==='UNKNOWN'&&transition({...q,consent:{...q.consent,scope:[]}},hearing(hS,'SMOOTH'))==='UNKNOWN'&&transition(q,{...hearing(hS,'SMOOTH'),candidate:'other'})==='UNKNOWN'&&transition(q,{...hearing(hS,'SMOOTH'),conditions:'other'})==='UNKNOWN'&&transition(q,{...hearing(hS,'SMOOTH'),mode:'NEW_LISTENING'})==='UNKNOWN'&&transition(q,hearing({...hS,hearing:'CONTRAST'},'CONTRAST'))==='UNKNOWN');
+
  t('VT18/19/46 vibrato duration rate and extent',10/2===5&&2*40===80&&5/1===5&&(4+6)/2===5&&4!==6);
  t('VT14/42/48 timing and relative dynamics',eq([40,440,840].map(x=>x-40),[0,400,800])&&450-350===100&&.2/.1===.4/.2);
 }
