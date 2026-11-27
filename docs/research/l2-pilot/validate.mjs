@@ -174,7 +174,7 @@ const routeData=JSON.parse(block(routeDoc,"json")[0]),support=JSON.parse(block(r
 const sandbox={routeData,support,console:{log:()=>{}}};
 const js=block(old,"js")[0]+"\n"+block(r9,"js").join("\n")+"\n;({old:original,trace:runR9CQ(xc,routeData,support)})";
 const witness=vm.runInNewContext(js,sandbox,{timeout:5000});
-test("R8a actual replay",witness.old.checks.length===70&&witness.old.checks.every(x=>x[1]===true));
+test("R8a actual replay",witness.old.fixtures.length===70&&witness.old.fixtures.every(x=>x[1]===x[2]));
 test("R9 actual replay",witness.trace.checks.length===44&&witness.trace.checks.every(x=>x[1]===true));
 const t=witness.trace.positive;
 test("CQ25 seven stages",eq(t.primary,["A01","A02","A03","A04","A05","A06","A07"]));
