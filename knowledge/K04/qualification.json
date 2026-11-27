@@ -1,0 +1,1229 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K04",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "c66bf3bb2d6250bd842c37726f8e9b75381e163a",
+  "sourceQualifications": [
+    {
+      "source": "S080@1",
+      "scope": "| S080 | music21 [dynamics](https://music21.org/music21docs/moduleReference/moduleDynamics.html), Dynamic / volumeScalar | K04.03 | READ_LOCATOR；软件内部标量可自定义，不是声学SPL或演奏规范 |",
+      "limits": "| S080 | music21 [dynamics](https://music21.org/music21docs/moduleReference/moduleDynamics.html), Dynamic / volumeScalar | K04.03 | READ_LOCATOR；软件内部标量可自定义，不是声学SPL或演奏规范 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://music21.org/music21docs/moduleReference/moduleDynamics.html"
+    },
+    {
+      "source": "S082@1",
+      "scope": "| S082 | Platz et al. 2014 [The influence of deliberate practice on musical achievement: a meta-analysis](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00646/full), aim / selection criteria | K04.07、K14 | READ_LOCATOR；长期累积练习与表现的研究纳入条件主要基于相关关系；不推导个体固定剂量或因果 |",
+      "limits": "| S082 | Platz et al. 2014 [The influence of deliberate practice on musical achievement: a meta-analysis](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00646/full), aim / selection criteria | K04.07、K14 | READ_LOCATOR；长期累积练习与表现的研究纳入条件主要基于相关关系；不推导个体固定剂量或因果 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00646/full"
+    },
+    {
+      "source": "S085@1",
+      "scope": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |",
+      "limits": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/"
+    },
+    {
+      "source": "S352@1",
+      "scope": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |",
+      "limits": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://andrewhugill.com/OrchestraManual/violin_bowing.html"
+    },
+    {
+      "source": "S357@1",
+      "scope": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |",
+      "limits": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html"
+    },
+    {
+      "source": "S359@1",
+      "scope": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |",
+      "limits": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。 K04发现入口仅旧资格指针；使用K03历史原定位的相对力度范围，未来K03复用此精确身份，非独立新来源。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "source": "S373@1",
+      "scope": "- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。",
+      "limits": "- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/"
+    },
+    {
+      "source": "S376@1",
+      "scope": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |",
+      "limits": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://andrewhugill.com/OrchestraManual/flute_articulations.html"
+    },
+    {
+      "source": "S377@1",
+      "scope": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |",
+      "limits": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/"
+    },
+    {
+      "source": "S378@1",
+      "scope": "| S378 | Friberg & Sundström (2002), [Swing Ratios and Ensemble Timing in Jazz Performance](https://doi.org/10.1525/mp.2002.19.3.333), publisher abstract | ABSTRACT_READ；有限录音的ride长短比随速度变化、慢速独奏下拍滞后但反拍趋向对齐；非普遍1:1或2:1规则；出版全文需访问权限，未读全文，后续如采用数值经验规律需补证。 |",
+      "limits": "| S378 | Friberg & Sundström (2002), [Swing Ratios and Ensemble Timing in Jazz Performance](https://doi.org/10.1525/mp.2002.19.3.333), publisher abstract | ABSTRACT_READ；有限录音的ride长短比随速度变化、慢速独奏下拍滞后但反拍趋向对齐；非普遍1:1或2:1规则；出版全文需访问权限，未读全文，后续如采用数值经验规律需补证。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://doi.org/10.1525/mp.2002.19.3.333"
+    },
+    {
+      "source": "S379@1",
+      "scope": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |",
+      "limits": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/"
+    },
+    {
+      "source": "S380@1",
+      "scope": "| S380 | Music Theory for the 21st-Century Classroom [31.9 Scales](https://musictheory.pugetsound.edu/mt21c/JazzScales.html), §31.9.1–2 | READ_LOCATOR；限定爵士教学音阶/下降bebop例，原创案例而非复制图例；不证所有风格及最佳即兴。 |",
+      "limits": "| S380 | Music Theory for the 21st-Century Classroom [31.9 Scales](https://musictheory.pugetsound.edu/mt21c/JazzScales.html), §31.9.1–2 | READ_LOCATOR；限定爵士教学音阶/下降bebop例，原创案例而非复制图例；不证所有风格及最佳即兴。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/JazzScales.html"
+    },
+    {
+      "source": "S381@1",
+      "scope": "| S381 | 同教材 [31.10 How to Determine Chord-Scale Relationships](https://musictheory.pugetsound.edu/mt21c/HowToDetermineChord-ScaleRelationships.html), §31.10.1 table及其后语境限定 | READ_LOCATOR；Cmaj7可用C大调或Lydian候选，实际全曲调性约束另核；非通用规则、同S380谱系。 |",
+      "limits": "| S381 | 同教材 [31.10 How to Determine Chord-Scale Relationships](https://musictheory.pugetsound.edu/mt21c/HowToDetermineChord-ScaleRelationships.html), §31.10.1 table及其后语境限定 | READ_LOCATOR；Cmaj7可用C大调或Lydian候选，实际全曲调性约束另核；非通用规则、同S380谱系。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musictheory.pugetsound.edu/mt21c/HowToDetermineChord-ScaleRelationships.html"
+    },
+    {
+      "source": "S382@1",
+      "scope": "| S382 | Ross W. Duffin, Case Western Reserve University, [Baroque Ornamentation I](https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/), Trill / Methods of Performance | 多种法式agréments及短颤音候选；非全巴洛克规则，谱图未看。 |",
+      "limits": "| S382 | Ross W. Duffin, Case Western Reserve University, [Baroque Ornamentation I](https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/), Trill / Methods of Performance | 多种法式agréments及短颤音候选；非全巴洛克规则，谱图未看。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/"
+    },
+    {
+      "source": "S383@1",
+      "scope": "| S383 | University of Debrecen, [Introduction to Keyboard Music Practice in the Early Music Era](https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation), ornaments / appoggiatura / trill | 明示历史时期与语境、Quantz长倚音比例、连续长颤音例外；二手教学引述非原始Quantz全文，未看图谱。 |",
+      "limits": "| S383 | University of Debrecen, [Introduction to Keyboard Music Practice in the Early Music Era](https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation), ornaments / appoggiatura / trill | 明示历史时期与语境、Quantz长倚音比例、连续长颤音例外；二手教学引述非原始Quantz全文，未看图谱。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation"
+    },
+    {
+      "source": "S384@1",
+      "scope": "| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |",
+      "limits": "| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/"
+    },
+    {
+      "source": "S385@1",
+      "scope": "| S385 | [Essentials in Conducting, ch.3](https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3), release / hold | 历史教材的释放时刻和延长后提示；网页文本可读、谱图暂不可用，不推广所有手势约定。 |",
+      "limits": "| S385 | [Essentials in Conducting, ch.3](https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3), release / hold | 历史教材的释放时刻和延长后提示；网页文本可读、谱图暂不可用，不推广所有手势约定。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3"
+    },
+    {
+      "source": "S386@1",
+      "scope": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |",
+      "limits": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://onlinelibrary.wiley.com/doi/10.1111/musa.12211"
+    },
+    {
+      "source": "S387@1",
+      "scope": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |",
+      "limits": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more"
+    },
+    {
+      "source": "S388@1",
+      "scope": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |",
+      "limits": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/"
+    },
+    {
+      "source": "S389@1",
+      "scope": "| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |",
+      "limits": "| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full"
+    },
+    {
+      "source": "S390@1",
+      "scope": "| S390 | Smithsonian archive, [North Indian Classical Music: Shujaat Khan, sitar](https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/), tala / gat / sawal-jawab | 档案演出介绍中的循环与互动；不采纳其中广义起源/72母音阶等概括，不听录音不声称转录。 |",
+      "limits": "| S390 | Smithsonian archive, [North Indian Classical Music: Shujaat Khan, sitar](https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/), tala / gat / sawal-jawab | 档案演出介绍中的循环与互动；不采纳其中广义起源/72母音阶等概括，不听录音不声称转录。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/"
+    },
+    {
+      "source": "S391@1",
+      "scope": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |",
+      "limits": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf"
+    },
+    {
+      "source": "S392@1",
+      "scope": "| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |",
+      "limits": "| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/"
+    },
+    {
+      "source": "S393@1",
+      "scope": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |",
+      "limits": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/"
+    },
+    {
+      "source": "S394@1",
+      "scope": "| S394 | W3C MusicXML4.0 [fermata](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/), description/attributes | 形状、方向和标记，不规定实际延长时值；实际释放参见S385。 |",
+      "limits": "| S394 | W3C MusicXML4.0 [fermata](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/), description/attributes | 形状、方向和标记，不规定实际延长时值；实际释放参见S385。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/"
+    },
+    {
+      "source": "S395@1",
+      "scope": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |",
+      "limits": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck"
+    },
+    {
+      "source": "S396@1",
+      "scope": "| S396 | UK Musicians' Union [Hearing Protection for Musicians](https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection), If you are exposed to risk | 职业风险报告及退出危险环境；英国组织语境，不作其他地区法律建议。 |",
+      "limits": "| S396 | UK Musicians' Union [Hearing Protection for Musicians](https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection), If you are exposed to risk | 职业风险报告及退出危险环境；英国组织语境，不作其他地区法律建议。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection"
+    },
+    {
+      "source": "S397@1",
+      "scope": "| S397 | WHO [WHO releases new standard to tackle rising threat of hearing loss](https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss), six recommendations / preventable risk | 2022新闻正文，场所/活动听力保护措施；不是个体职业暴露认证，未读取完整技术标准，不采用无测量条件的数字。 |",
+      "limits": "| S397 | WHO [WHO releases new standard to tackle rising threat of hearing loss](https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss), six recommendations / preventable risk | 2022新闻正文，场所/活动听力保护措施；不是个体职业暴露认证，未读取完整技术标准，不采用无测量条件的数字。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss"
+    },
+    {
+      "source": "S398@1",
+      "scope": "| S398 | Hugill [Violin Left Hand](https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato / Trill；[Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), détaché / legato / arco（S352重读） | 左手音高变化、语境化装饰及分弓/同弓；同Hugill谱系，实际演奏与具体跨弦速度未知，PF51弦序使用既有S357及题设教师确认。 |",
+      "limits": "| S398 | Hugill [Violin Left Hand](https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato / Trill；[Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), détaché / legato / arco（S352重读） | 左手音高变化、语境化装饰及分弓/同弓；同Hugill谱系，实际演奏与具体跨弦速度未知，PF51弦序使用既有S357及题设教师确认。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html"
+    },
+    {
+      "source": "S399@1",
+      "scope": "| S399 | ISM, [How to become a healthy instrumentalist](https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/), identifying warning signs / immediate care | 新症状与疲劳需及时停止或求帮助，专业评估；行业健康指导非个体诊断。 |",
+      "limits": "| S399 | ISM, [How to become a healthy instrumentalist](https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/), identifying warning signs / immediate care | 新症状与疲劳需及时停止或求帮助，专业评估；行业健康指导非个体诊断。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/"
+    },
+    {
+      "source": "S400@1",
+      "scope": "| S400 | Stanhope & Weinstein (2020), [Should musicians play in pain?](https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/), Discussion | 综述反对对所有疼痛统一长期禁奏；是否休息/减量需个体临床评估，不等要求带痛强练。 |",
+      "limits": "| S400 | Stanhope & Weinstein (2020), [Should musicians play in pain?](https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/), Discussion | 综述反对对所有疼痛统一长期禁奏；是否休息/减量需个体临床评估，不等要求带痛强练。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/"
+    },
+    {
+      "source": "S401@1",
+      "scope": "| S401 | BAPAM, [Returning to Playing and Performance for Instrumental Musicians](https://www.bapam.org.uk/return-to-play/), three factors / Healthy Practice Habits | 恢复需考虑时长、强度、难度与个体指导；不采纳固定恢复时间，出现症状求专业支持。 |",
+      "limits": "| S401 | BAPAM, [Returning to Playing and Performance for Instrumental Musicians](https://www.bapam.org.uk/return-to-play/), three factors / Healthy Practice Habits | 恢复需考虑时长、强度、难度与个体指导；不采纳固定恢复时间，出现症状求专业支持。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.bapam.org.uk/return-to-play/"
+    },
+    {
+      "source": "S402@1",
+      "scope": "| S402 | Berklee Online [Basic Improvisation](https://online.berklee.edu/courses/basic-improvisation?pid=901), Course Description / Learning outcomes | 课程正文中的动机发展与变形、节奏旋律和声重复；仅课程范围支持，不采用营销中的适用于所有风格等全称，不证明实际动机质量。 |",
+      "limits": "| S402 | Berklee Online [Basic Improvisation](https://online.berklee.edu/courses/basic-improvisation?pid=901), Course Description / Learning outcomes | 课程正文中的动机发展与变形、节奏旋律和声重复；仅课程范围支持，不采用营销中的适用于所有风格等全称，不证明实际动机质量。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://online.berklee.edu/courses/basic-improvisation?pid=901"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K04-E-PF01-SUPPORTED-BY-K04-EV-PF01",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "相同音符事件无法唯一推出实际拨/弓动作；音频单独也可能受采样/处理影响。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF01-APPLIES-UNDER-K04-CTX-PF01",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "相同音符事件无法唯一推出实际拨/弓动作；音频单独也可能受采样/处理影响。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF02-SUPPORTED-BY-K04-EV-PF02",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "仅从录音起音无法唯一认定舌动作；采样、剪辑和气流也影响。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF02-APPLIES-UNDER-K04-CTX-PF02",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "仅从录音起音无法唯一认定舌动作；采样、剪辑和气流也影响。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF03-SUPPORTED-BY-K04-EV-PF03",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "两种数值只为题设，非医学/安全阈值；不能从一次失败判断长期水平。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF03-APPLIES-UNDER-K04-CTX-PF03",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "两种数值只为题设，非医学/安全阈值；不能从一次失败判断长期水平。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF03-REQUIRES-K04-CL-PF19",
+      "scope": "个体速度筛选必须同时绑定当前能力和身体状态，不能以攻击率放行健康风险。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF04-SUPPORTED-BY-K04-EV-PF04",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "仅有缺音记录无法确定技术、注意或采集原因；长期技能K14另证。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF04-APPLIES-UNDER-K04-CTX-PF04",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "仅有缺音记录无法确定技术、注意或采集原因；长期技能K14另证。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF04-REQUIRES-K04-CL-PF20",
+      "scope": "缺音定位必须区分实际演奏与记录缺失。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF05-SUPPORTED-BY-K04-EV-PF05",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "四个间隔不证明所有rubato都需同样形状；是否有意依表演目标。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF05-APPLIES-UNDER-K04-CTX-PF05",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "四个间隔不证明所有rubato都需同样形状；是否有意依表演目标。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF06-SUPPORTED-BY-K04-EV-PF06",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "相同起音也不能证明表达质量；有固定伴奏要求时结论不同。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF06-APPLIES-UNDER-K04-CTX-PF06",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "相同起音也不能证明表达质量；有固定伴奏要求时结论不同。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF06-REQUIRES-K04-CL-PF05",
+      "scope": "比较共同拍间距需计算同实际拍单位的局部速度。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF07-SUPPORTED-BY-K04-EV-PF07",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "比值不唯一认定爵士、审美质量或演奏者；来源只研究限定录音。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF07-APPLIES-UNDER-K04-CTX-PF07",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "比值不唯一认定爵士、审美质量或演奏者；来源只研究限定录音。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF07-REFERENCES-K04-CL-PF08",
+      "scope": "长短比受正反拍角色偏移影响。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF08-SUPPORTED-BY-K04-EV-PF08",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "单独一个偏移不能唯一判技术错误或流派；须有上下文/实际测量。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF08-APPLIES-UNDER-K04-CTX-PF08",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "单独一个偏移不能唯一判技术错误或流派；须有上下文/实际测量。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF08-REFERENCES-K04-CL-PF09",
+      "scope": "进一步区别固定偏移与局部漂移。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF09-SUPPORTED-BY-K04-EV-PF09",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "15ms只是本题约定，不是听觉或演奏通用阈值；不能唯一归责。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF09-APPLIES-UNDER-K04-CTX-PF09",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "15ms只是本题约定，不是听觉或演奏通用阈值；不能唯一归责。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF09-REQUIRES-K04-CL-PF06",
+      "scope": "固定角色偏移与共同速度变化需分开。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF10-SUPPORTED-BY-K04-EV-PF10",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "同一音色词不推出唯一动作；研究中的四位琴手结果不推广所有钢琴。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF10-APPLIES-UNDER-K04-CTX-PF10",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "同一音色词不推出唯一动作；研究中的四位琴手结果不推广所有钢琴。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF11-SUPPORTED-BY-K04-EV-PF11",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不同录音也可能碰巧整体比例相同；仅比例不证明同一演奏。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF11-APPLIES-UNDER-K04-CTX-PF11",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不同录音也可能碰巧整体比例相同；仅比例不证明同一演奏。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF11-REFERENCES-K04-CL-PF23",
+      "scope": "数字增益与音乐力度记号及跨器乐角色不同。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF12-SUPPORTED-BY-K04-EV-PF12",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "两时长比不唯一认定奏法或正确性；本案非实测。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF12-APPLIES-UNDER-K04-CTX-PF12",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "两时长比不唯一认定奏法或正确性；本案非实测。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF13-SUPPORTED-BY-K04-EV-PF13",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "谱面连线还可能表示乐句而非严格同一动作；需语境确认，不能仅由符号判。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF13-APPLIES-UNDER-K04-CTX-PF13",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "谱面连线还可能表示乐句而非严格同一动作；需语境确认，不能仅由符号判。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF13-REFERENCES-K04-CL-PF54",
+      "scope": "实际小提琴同弓分弓字段是一个具体实现。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF14-SUPPORTED-BY-K04-EV-PF14",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "合法素材不证明旋律质量；Cmaj7不唯一确定音阶。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF14-APPLIES-UNDER-K04-CTX-PF14",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "合法素材不证明旋律质量；Cmaj7不唯一确定音阶。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF14-REQUIRES-K01-CL-05-04-01",
+      "scope": "强拍和弦音筛选需要给定Cmaj7结构及音名。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF15-SUPPORTED-BY-K04-EV-PF15",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "观察到弱位B不唯一识别bebop；需要整段和声、风格与目标。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF15-APPLIES-UNDER-K04-CTX-PF15",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "观察到弱位B不唯一识别bebop；需要整段和声、风格与目标。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF15-REQUIRES-K01-CL-05-04-02",
+      "scope": "核C7三音和七音性质，按实际拍位选择。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF16-SUPPORTED-BY-K04-EV-PF16",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "同一合成节奏可由独奏/录制叠加产生，不能反推两位真实协同。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF16-APPLIES-UNDER-K04-CTX-PF16",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "同一合成节奏可由独奏/录制叠加产生，不能反推两位真实协同。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF17-SUPPORTED-BY-K04-EV-PF17",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不能由三点唯一估计真实人的策略；不是实时控制器或实际演奏指导。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF17-APPLIES-UNDER-K04-CTX-PF17",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不能由三点唯一估计真实人的策略；不是实时控制器或实际演奏指导。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF17-REFERENCES-K04-CL-PF09",
+      "scope": "简化相位校正模型不替代实际偏移证据。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF18-SUPPORTED-BY-K04-EV-PF18",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不证明排练方式因果或长期迁移；真实数据未采集，K14长期评价另证。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF18-APPLIES-UNDER-K04-CTX-PF18",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不证明排练方式因果或长期迁移；真实数据未采集，K14长期评价另证。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF18-REQUIRES-K04-CL-PF22",
+      "scope": "复测需要按实际对应事件与题定容差逐项比较。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF19-SUPPORTED-BY-K04-EV-PF19",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "个体能力随状态变化，不能从一次成功或失败诊断伤病。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF19-APPLIES-UNDER-K04-CTX-PF19",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "个体能力随状态变化，不能从一次成功或失败诊断伤病。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF19-REFERENCES-K04-CL-PF48",
+      "scope": "独立的健康停止原则与听力风险边界。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF20-SUPPORTED-BY-K04-EV-PF20",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "仅凭波形不能唯一定位手指、吐奏或设备根因。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF20-APPLIES-UNDER-K04-CTX-PF20",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "仅凭波形不能唯一定位手指、吐奏或设备根因。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF20-REFERENCES-K04-CL-PF49",
+      "scope": "缺证时保留独立日志与原因UNKNOWN。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF21-SUPPORTED-BY-K04-EV-PF21",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "拍号本身不决定主拍或实际速度；不同音乐语境另核。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF21-APPLIES-UNDER-K04-CTX-PF21",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "拍号本身不决定主拍或实际速度；不同音乐语境另核。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF21-REQUIRES-K01-CL-04-04-02",
+      "scope": "附点四分与四分BPM换算需实际拍单位。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF22-SUPPORTED-BY-K04-EV-PF22",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "目标角色和容差仅题定；不推出普遍主从关系或实际听感。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF22-APPLIES-UNDER-K04-CTX-PF22",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "目标角色和容差仅题定；不推出普遍主从关系或实际听感。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF22-REQUIRES-K04-CL-PF09",
+      "scope": "同事件有符号差及偏移/漂移区分。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF23-SUPPORTED-BY-K04-EV-PF23",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "同mf不能推出同声压；同声压也不推出同感知响度或动作。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF23-APPLIES-UNDER-K04-CTX-PF23",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "同mf不能推出同声压；同声压也不推出同感知响度或动作。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF24-SUPPORTED-BY-K04-EV-PF24",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "规范算术不是实测MIDI输出、实际力度或音响；不推断渲染器一定如此。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF24-APPLIES-UNDER-K04-CTX-PF24",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "规范算术不是实测MIDI输出、实际力度或音响；不推断渲染器一定如此。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF24-REFERENCES-K04-CL-PF23",
+      "scope": "格式播放数值不能替代音乐表达或声压。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF25-SUPPORTED-BY-K04-EV-PF25",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不同乐器的控制和频谱不可直接比较；动作记录需真实采集。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF25-APPLIES-UNDER-K04-CTX-PF25",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不同乐器的控制和频谱不可直接比较；动作记录需真实采集。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF25-REFERENCES-K04-CL-PF10",
+      "scope": "同琴键动作与踏板证据分离。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF26-SUPPORTED-BY-K04-EV-PF26",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "幅度序列不等主观响度、音色或实际艺术质量，需K10实测。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF26-APPLIES-UNDER-K04-CTX-PF26",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "幅度序列不等主观响度、音色或实际艺术质量，需K10实测。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF26-REFERENCES-K04-CL-PF31",
+      "scope": "渐强对象与保护声部范围需分别确认。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF27-SUPPORTED-BY-K04-EV-PF27",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "连续长颤音、其他历史类型可不同，无法凭符号或年代自动唯一展开。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF27-APPLIES-UNDER-K04-CTX-PF27",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "连续长颤音、其他历史类型可不同，无法凭符号或年代自动唯一展开。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF28-SUPPORTED-BY-K04-EV-PF28",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "并非所有倚音/所有风格皆按上述比例；教材同时记录例外和其他实践。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF28-APPLIES-UNDER-K04-CTX-PF28",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "并非所有倚音/所有风格皆按上述比例；教材同时记录例外和其他实践。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF28-REFERENCES-K04-CL-PF27",
+      "scope": "历史装饰规则存在类型与作者范围差异。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF29-SUPPORTED-BY-K04-EV-PF29",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "MusicXML标记形状不规定实际延长秒数，延长不一定是单一倍率。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF29-APPLIES-UNDER-K04-CTX-PF29",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "MusicXML标记形状不规定实际延长秒数，延长不一定是单一倍率。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF29-REQUIRES-K04-CL-PF41",
+      "scope": "共同释放与提示时刻不同，新的延长条件独立。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF30-SUPPORTED-BY-K04-EV-PF30",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "相同强调感可由多种参数实现，不能从情绪逆推唯一乐谱。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF30-APPLIES-UNDER-K04-CTX-PF30",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "相同强调感可由多种参数实现，不能从情绪逆推唯一乐谱。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF30-REFERENCES-K04-CL-PF26",
+      "scope": "若声明幅度轨迹限制才额外核单调性。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF31-SUPPORTED-BY-K04-EV-PF31",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "合奏听感需单声部记录或其他证据，不能由总混音唯一判断。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF31-APPLIES-UNDER-K04-CTX-PF31",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "合奏听感需单声部记录或其他证据，不能由总混音唯一判断。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF31-REFERENCES-K04-CL-PF58",
+      "scope": "声部提示作用对象和保护范围相似但非等价。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF32-SUPPORTED-BY-K04-EV-PF32",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "call-response亦可重叠，禁止重叠仅本题；不是全部爵士或黑人音乐的定律。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF32-APPLIES-UNDER-K04-CTX-PF32",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "call-response亦可重叠，禁止重叠仅本题；不是全部爵士或黑人音乐的定律。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF32-REFERENCES-K04-CL-PF33",
+      "scope": "交互窗口与临时交接约定。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF33-SUPPORTED-BY-K04-EV-PF33",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "真实互动允许更多约定，不能据录音单独确定临时变更是否获同意。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF33-APPLIES-UNDER-K04-CTX-PF33",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "真实互动允许更多约定，不能据录音单独确定临时变更是否获同意。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF34-SUPPORTED-BY-K04-EV-PF34",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "通过硬约束不等真实即兴优秀、风格真实或听者一致。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF34-APPLIES-UNDER-K04-CTX-PF34",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "通过硬约束不等真实即兴优秀、风格真实或听者一致。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF34-REQUIRES-K01-CL-05-04-02",
+      "scope": "C7强拍成员筛选需明确C属七结构与拼写，不能用Cmaj7候选替代。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF35-SUPPORTED-BY-K04-EV-PF35",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "审美分歧不证明某人技术错误；没有实际评审输入就UNKNOWN。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF35-APPLIES-UNDER-K04-CTX-PF35",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "审美分歧不证明某人技术错误；没有实际评审输入就UNKNOWN。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF35-REFERENCES-K04-CL-PF34",
+      "scope": "硬约束通过并不决定审美取舍。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF36-SUPPORTED-BY-K04-EV-PF36",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "原文为特定北印度教学及演出语境；合成计数不是真实传统曲谱或rāga旋律。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF36-APPLIES-UNDER-K04-CTX-PF36",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "原文为特定北印度教学及演出语境；合成计数不是真实传统曲谱或rāga旋律。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF36-REFERENCES-K04-CL-PF56",
+      "scope": "限定同一传统的循环回归与对答，不是所有实践。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF37-SUPPORTED-BY-K04-EV-PF37",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不能凭一次错位判未看提示或技术不足；研究限定西方室内乐。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF37-APPLIES-UNDER-K04-CTX-PF37",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不能凭一次错位判未看提示或技术不足；研究限定西方室内乐。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF37-REFERENCES-K04-CL-PF40",
+      "scope": "具体预备提示和入口时刻需按约定。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF38-SUPPORTED-BY-K04-EV-PF38",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "研究中部分组合较耐延迟不构成通用可接受阈值；不能由单次到达差推人类误差。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF38-APPLIES-UNDER-K04-CTX-PF38",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "研究中部分组合较耐延迟不构成通用可接受阈值；不能由单次到达差推人类误差。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF38-REFERENCES-K04-CL-PF39",
+      "scope": "源/到达分离需要明确时钟与路径方向。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF39-SUPPORTED-BY-K04-EV-PF39",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "若链路时变、时钟不同步、事件身份/接收端不匹配或方向未知，拒绝简单相减并标UNKNOWN；系统工程主责K19/K12。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF39-APPLIES-UNDER-K04-CTX-PF39",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "若链路时变、时钟不同步、事件身份/接收端不匹配或方向未知，拒绝简单相减并标UNKNOWN；系统工程主责K19/K12。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF39-REQUIRES-K04-CL-PF38",
+      "scope": "源偏差与接收偏差的区别是路径算式的前提。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF40-SUPPORTED-BY-K04-EV-PF40",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不是所有节拍、流派或手势均按此约定；先明确组内协议。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF40-APPLIES-UNDER-K04-CTX-PF40",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不是所有节拍、流派或手势均按此约定；先明确组内协议。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF41-SUPPORTED-BY-K04-EV-PF41",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不能从收音时间唯一推指挥手势；无视频/观察不得认定动作。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF41-APPLIES-UNDER-K04-CTX-PF41",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不能从收音时间唯一推指挥手势；无视频/观察不得认定动作。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF41-REFERENCES-K04-CL-PF29",
+      "scope": "存在延长时按新的释放协议。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF42-SUPPORTED-BY-K04-EV-PF42",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "方法来自教育排练指导而非固定有效剂量；真实成效待记录。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF42-APPLIES-UNDER-K04-CTX-PF42",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "方法来自教育排练指导而非固定有效剂量；真实成效待记录。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF42-REFERENCES-K04-CL-PF44",
+      "scope": "隔离成功不能代替原速原段复测。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF43-SUPPORTED-BY-K04-EV-PF43",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "时长是题设资源，不是固定最佳排练法。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF43-APPLIES-UNDER-K04-CTX-PF43",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "时长是题设资源，不是固定最佳排练法。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF43-REFERENCES-K04-CL-PF42",
+      "scope": "资源方案须保留原段回归。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF44-SUPPORTED-BY-K04-EV-PF44",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "S082长期相关研究不证本次因果或规定练习剂量。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF44-APPLIES-UNDER-K04-CTX-PF44",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "S082长期相关研究不证本次因果或规定练习剂量。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF44-REQUIRES-K04-CL-PF18",
+      "scope": "复测需保持版本、速度、事件和参照条件。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF45-SUPPORTED-BY-K04-EV-PF45",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "准备清单完备不等现场表现通过，技术系统由K19。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF45-APPLIES-UNDER-K04-CTX-PF45",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "准备清单完备不等现场表现通过，技术系统由K19。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF45-REFERENCES-K04-CL-PF59",
+      "scope": "实际现场前置和可见性另核。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF46-SUPPORTED-BY-K04-EV-PF46",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "数值为题设预算，场地/人员/听力风险另核。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF46-APPLIES-UNDER-K04-CTX-PF46",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "数值为题设预算，场地/人员/听力风险另核。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF46-REFERENCES-K04-CL-PF45",
+      "scope": "试音需核角色和版本。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF47-SUPPORTED-BY-K04-EV-PF47",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "备选提示未事先确认时不能假定可用；不提供具体高风险扩声操作。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF47-APPLIES-UNDER-K04-CTX-PF47",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "备选提示未事先确认时不能假定可用；不提供具体高风险扩声操作。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF47-REFERENCES-K04-CL-PF48",
+      "scope": "风险报告优先于备选继续。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF48-SUPPORTED-BY-K04-EV-PF48",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "无测量/个人暴露信息不宣称安全；WHO场所建议与职业规则范围不同。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF48-APPLIES-UNDER-K04-CTX-PF48",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "无测量/个人暴露信息不宣称安全；WHO场所建议与职业规则范围不同。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF49-SUPPORTED-BY-K04-EV-PF49",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "单场异常不能证明长期技能或设备故障，修复后需同条件复测。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF49-APPLIES-UNDER-K04-CTX-PF49",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "单场异常不能证明长期技能或设备故障，修复后需同条件复测。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF49-REQUIRES-K04-CL-PF39",
+      "scope": "源和接收偏差、时钟与链路证据缺失时不能归因。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF50-SUPPORTED-BY-K04-EV-PF50",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "没有真实复测不能标通过；一次即时改善不推长期迁移。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF50-APPLIES-UNDER-K04-CTX-PF50",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "没有真实复测不能标通过；一次即时改善不推长期迁移。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF50-REQUIRES-K04-CL-PF44",
+      "scope": "局部修订采用需实际同条件重测与历史保存。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF51-SUPPORTED-BY-K04-EV-PF51",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "空弦可有其他音色/共振处理；不把普通指揉弦限制推广至所有技法或强行指定指法。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF51-APPLIES-UNDER-K04-CTX-PF51",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "空弦可有其他音色/共振处理；不把普通指揉弦限制推广至所有技法或强行指定指法。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF52-SUPPORTED-BY-K04-EV-PF52",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "62.5/125ms仅本题速度；停止当前试验不是长期禁奏处方，恢复由个体评估。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF52-APPLIES-UNDER-K04-CTX-PF52",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "62.5/125ms仅本题速度；停止当前试验不是长期禁奏处方，恢复由个体评估。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF52-REFERENCES-K04-CL-PF19",
+      "scope": "个体能力门禁与健康优先，不推广速度阈值。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF53-SUPPORTED-BY-K04-EV-PF53",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "仅密度变化不能认定爵士double time或实际加速，需角色/语境。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF53-APPLIES-UNDER-K04-CTX-PF53",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "仅密度变化不能认定爵士double time或实际加速，需角色/语境。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF53-REQUIRES-K04-CL-PF05",
+      "scope": "共同拍速与细分间隔须用明确拍单位区别。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF54-SUPPORTED-BY-K04-EV-PF54",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "不从录音断续唯一推弓向；同一弓也可有不同发音。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF54-APPLIES-UNDER-K04-CTX-PF54",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "不从录音断续唯一推弓向；同一弓也可有不同发音。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF55-SUPPORTED-BY-K04-EV-PF55",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "动机相似不等真实听感连贯或艺术价值；多个合法变体。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF55-APPLIES-UNDER-K04-CTX-PF55",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "动机相似不等真实听感连贯或艺术价值；多个合法变体。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF55-REFERENCES-K04-CL-PF32",
+      "scope": "答句角色和节奏窗口若有声明才是硬条件。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF56-SUPPORTED-BY-K04-EV-PF56",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "资料支持互动与循环回归，不支持这套固定窗口普遍规则；不虚构真实曲目。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF56-APPLIES-UNDER-K04-CTX-PF56",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "资料支持互动与循环回归，不支持这套固定窗口普遍规则；不虚构真实曲目。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF57-SUPPORTED-BY-K04-EV-PF57",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "共享主拍一致不证明细分正确、音准或艺术效果。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF57-APPLIES-UNDER-K04-CTX-PF57",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "共享主拍一致不证明细分正确、音准或艺术效果。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF57-REFERENCES-K04-CL-PF16",
+      "scope": "互补节奏的合成网格可辅助比较，但共享主拍允许重叠，不是互补必要条件。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF58-SUPPORTED-BY-K04-EV-PF58",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "只有手势视频无法确定实际音响或是否约定相同，不能从形状推固定声级。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF58-APPLIES-UNDER-K04-CTX-PF58",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "只有手势视频无法确定实际音响或是否约定相同，不能从形状推固定声级。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF58-REFERENCES-K04-CL-PF31",
+      "scope": "提示对象及背景保护不同于整体增益。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF59-SUPPORTED-BY-K04-EV-PF59",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "技术配置相同不证明实际听力安全、可见性或表演结果。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF59-APPLIES-UNDER-K04-CTX-PF59",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "技术配置相同不证明实际听力安全、可见性或表演结果。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF59-REFERENCES-K04-CL-PF37",
+      "scope": "可见性或其他共同预备条件须独立确认。",
+      "limits": "仅可选导航，不产生逆向等价。"
+    },
+    {
+      "edge": "K04-E-PF60-SUPPORTED-BY-K04-EV-PF60",
+      "scope": "精确来源定位限定谓词，不等独立证明所有更强结论。",
+      "limits": "没有真实技术复测不得宣布修复，K19/K12负责设备实施。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF60-APPLIES-UNDER-K04-CTX-PF60",
+      "scope": "明确题设范围及证据条件。",
+      "limits": "没有真实技术复测不得宣布修复，K19/K12负责设备实施。；仅该冻结范围及合成题设，不作真实演奏、诊断、权限、实际软件/设备或艺术质量证明。"
+    },
+    {
+      "edge": "K04-E-PF60-REQUIRES-K04-CL-PF39",
+      "scope": "路径变更后真实源与到达仍需同事件时基核证。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    },
+    {
+      "edge": "K04-E-PF60-REQUIRES-K04-CL-PF50",
+      "scope": "版本修订及失效必须保持历史和复测门禁。",
+      "limits": "必要知识条件，供给方适用性仍待核。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K04-E-PF03-REQUIRES-K04-CL-PF19",
+      "consumer": "K04-CL-PF03@1",
+      "provider": "K04-CL-PF19@1",
+      "condition": "K04-CTX-PF03@1",
+      "providerContext": "K04-CTX-PF19@1",
+      "group": "K04-GR-PF03@1"
+    },
+    {
+      "edge": "K04-E-PF04-REQUIRES-K04-CL-PF20",
+      "consumer": "K04-CL-PF04@1",
+      "provider": "K04-CL-PF20@1",
+      "condition": "K04-CTX-PF04@1",
+      "providerContext": "K04-CTX-PF20@1",
+      "group": "K04-GR-PF04@1"
+    },
+    {
+      "edge": "K04-E-PF06-REQUIRES-K04-CL-PF05",
+      "consumer": "K04-CL-PF06@1",
+      "provider": "K04-CL-PF05@1",
+      "condition": "K04-CTX-PF06@1",
+      "providerContext": "K04-CTX-PF05@1",
+      "group": "K04-GR-PF06@1"
+    },
+    {
+      "edge": "K04-E-PF09-REQUIRES-K04-CL-PF06",
+      "consumer": "K04-CL-PF09@1",
+      "provider": "K04-CL-PF06@1",
+      "condition": "K04-CTX-PF09@1",
+      "providerContext": "K04-CTX-PF06@1",
+      "group": "K04-GR-PF09@1"
+    },
+    {
+      "edge": "K04-E-PF14-REQUIRES-K01-CL-05-04-01",
+      "consumer": "K04-CL-PF14@1",
+      "provider": "K01-CL-05-04-01@1",
+      "condition": "K04-CTX-PF14@1",
+      "providerContext": "K01-CTX-05-04-01@1",
+      "group": "K04-GR-PF14@1"
+    },
+    {
+      "edge": "K04-E-PF15-REQUIRES-K01-CL-05-04-02",
+      "consumer": "K04-CL-PF15@1",
+      "provider": "K01-CL-05-04-02@1",
+      "condition": "K04-CTX-PF15@1",
+      "providerContext": "K01-CTX-05-04-02@1",
+      "group": "K04-GR-PF15@1"
+    },
+    {
+      "edge": "K04-E-PF18-REQUIRES-K04-CL-PF22",
+      "consumer": "K04-CL-PF18@1",
+      "provider": "K04-CL-PF22@1",
+      "condition": "K04-CTX-PF18@1",
+      "providerContext": "K04-CTX-PF22@1",
+      "group": "K04-GR-PF18@1"
+    },
+    {
+      "edge": "K04-E-PF21-REQUIRES-K01-CL-04-04-02",
+      "consumer": "K04-CL-PF21@1",
+      "provider": "K01-CL-04-04-02@1",
+      "condition": "K04-CTX-PF21@1",
+      "providerContext": "K01-CTX-04-04-02@1",
+      "group": "K04-GR-PF21@1"
+    },
+    {
+      "edge": "K04-E-PF22-REQUIRES-K04-CL-PF09",
+      "consumer": "K04-CL-PF22@1",
+      "provider": "K04-CL-PF09@1",
+      "condition": "K04-CTX-PF22@1",
+      "providerContext": "K04-CTX-PF09@1",
+      "group": "K04-GR-PF22@1"
+    },
+    {
+      "edge": "K04-E-PF29-REQUIRES-K04-CL-PF41",
+      "consumer": "K04-CL-PF29@1",
+      "provider": "K04-CL-PF41@1",
+      "condition": "K04-CTX-PF29@1",
+      "providerContext": "K04-CTX-PF41@1",
+      "group": "K04-GR-PF29@1"
+    },
+    {
+      "edge": "K04-E-PF34-REQUIRES-K01-CL-05-04-02",
+      "consumer": "K04-CL-PF34@1",
+      "provider": "K01-CL-05-04-02@1",
+      "condition": "K04-CTX-PF34@1",
+      "providerContext": "K01-CTX-05-04-02@1",
+      "group": "K04-GR-PF34@1"
+    },
+    {
+      "edge": "K04-E-PF39-REQUIRES-K04-CL-PF38",
+      "consumer": "K04-CL-PF39@1",
+      "provider": "K04-CL-PF38@1",
+      "condition": "K04-CTX-PF39@1",
+      "providerContext": "K04-CTX-PF38@1",
+      "group": "K04-GR-PF39@1"
+    },
+    {
+      "edge": "K04-E-PF44-REQUIRES-K04-CL-PF18",
+      "consumer": "K04-CL-PF44@1",
+      "provider": "K04-CL-PF18@1",
+      "condition": "K04-CTX-PF44@1",
+      "providerContext": "K04-CTX-PF18@1",
+      "group": "K04-GR-PF44@1"
+    },
+    {
+      "edge": "K04-E-PF49-REQUIRES-K04-CL-PF39",
+      "consumer": "K04-CL-PF49@1",
+      "provider": "K04-CL-PF39@1",
+      "condition": "K04-CTX-PF49@1",
+      "providerContext": "K04-CTX-PF39@1",
+      "group": "K04-GR-PF49@1"
+    },
+    {
+      "edge": "K04-E-PF50-REQUIRES-K04-CL-PF44",
+      "consumer": "K04-CL-PF50@1",
+      "provider": "K04-CL-PF44@1",
+      "condition": "K04-CTX-PF50@1",
+      "providerContext": "K04-CTX-PF44@1",
+      "group": "K04-GR-PF50@1"
+    },
+    {
+      "edge": "K04-E-PF53-REQUIRES-K04-CL-PF05",
+      "consumer": "K04-CL-PF53@1",
+      "provider": "K04-CL-PF05@1",
+      "condition": "K04-CTX-PF53@1",
+      "providerContext": "K04-CTX-PF05@1",
+      "group": "K04-GR-PF53@1"
+    },
+    {
+      "edge": "K04-E-PF60-REQUIRES-K04-CL-PF39",
+      "consumer": "K04-CL-PF60@1",
+      "provider": "K04-CL-PF39@1",
+      "condition": "K04-CTX-PF60@1",
+      "providerContext": "K04-CTX-PF39@1",
+      "group": "K04-GR-PF60@1"
+    },
+    {
+      "edge": "K04-E-PF60-REQUIRES-K04-CL-PF50",
+      "consumer": "K04-CL-PF60@1",
+      "provider": "K04-CL-PF50@1",
+      "condition": "K04-CTX-PF60@1",
+      "providerContext": "K04-CTX-PF50@1",
+      "group": "K04-GR-PF60@1"
+    }
+  ]
+}
