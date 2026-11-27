@@ -1,0 +1,14 @@
+source:
+  unqualified_or_unverifiable: UNKNOWN_NOT_ACCEPTED
+  rights_unknown: UNKNOWN_NO_IMPORT
+  internal_method_id: NO_SOURCE_PROMOTION
+claims:
+  unsupported_generalization: REJECT_OR_NARROW
+  missing_counterexample: REVIEW_REQUIRED
+graph:
+  dangling_endpoint: REJECT
+  required_edge_cycle: REJECT
+  historical_split: PRESERVE_OPEN
+integration:
+  other_module_mutation: REJECT
+  count_only_acceptance: REJECT

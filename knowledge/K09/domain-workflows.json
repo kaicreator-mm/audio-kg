@@ -1,0 +1,221 @@
+{
+  "format": "audio-kg-bounded-domain-workflows-v1",
+  "workflows": [
+    {
+      "d2": "K09.01",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind project, source, region, port and snapshot identities",
+        "Resolve ordered audio/control routing and dependency closure",
+        "Keep backup, plugin and media availability UNKNOWN until separately verified"
+      ],
+      "cases": [
+        "MP01",
+        "MP02",
+        "MP03",
+        "MP25",
+        "MP26",
+        "MP27"
+      ],
+      "claimRefs": [
+        "K09-CL-MP01@1",
+        "K09-CL-MP02@1",
+        "K09-CL-MP03@1",
+        "K09-CL-MP25@1",
+        "K09-CL-MP26@1",
+        "K09-CL-MP27@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K09.02",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind source/project time domains and protected ranges",
+        "Apply edit, tempo lock, interpolation and crossfade constraints",
+        "Invalidate dependent render and compare full-range boundaries"
+      ],
+      "cases": [
+        "MP04",
+        "MP05",
+        "MP06",
+        "MP28",
+        "MP29",
+        "MP30"
+      ],
+      "claimRefs": [
+        "K09-CL-MP04@1",
+        "K09-CL-MP05@1",
+        "K09-CL-MP06@1",
+        "K09-CL-MP28@1",
+        "K09-CL-MP29@1",
+        "K09-CL-MP30@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K09.03",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind take, comp region, pitch and performance targets",
+        "Preserve original take and protected expressive variation",
+        "Separate synthetic correction candidate from actual vocal evidence"
+      ],
+      "cases": [
+        "MP07",
+        "MP08",
+        "MP09",
+        "MP31",
+        "MP32",
+        "MP33"
+      ],
+      "claimRefs": [
+        "K09-CL-MP07@1",
+        "K09-CL-MP08@1",
+        "K09-CL-MP09@1",
+        "K09-CL-MP31@1",
+        "K09-CL-MP32@1",
+        "K09-CL-MP33@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K09.04",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind effect nodes, parameters, dry/wet and control paths",
+        "Evaluate order, timing, sidechain and response boundaries",
+        "Keep host/plugin output UNKNOWN"
+      ],
+      "cases": [
+        "MP10",
+        "MP11",
+        "MP12",
+        "MP34",
+        "MP35",
+        "MP36"
+      ],
+      "claimRefs": [
+        "K09-CL-MP10@1",
+        "K09-CL-MP11@1",
+        "K09-CL-MP12@1",
+        "K09-CL-MP34@1",
+        "K09-CL-MP35@1",
+        "K09-CL-MP36@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K09.05",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind target mix layer, frequency/time and channel layout",
+        "Retain competing clarity and mono-compatible candidates",
+        "Require separate actual listening and K10 evaluation"
+      ],
+      "cases": [
+        "MP13",
+        "MP14",
+        "MP15",
+        "MP37",
+        "MP38",
+        "MP39"
+      ],
+      "claimRefs": [
+        "K09-CL-MP13@1",
+        "K09-CL-MP14@1",
+        "K09-CL-MP15@1",
+        "K09-CL-MP37@1",
+        "K09-CL-MP38@1",
+        "K09-CL-MP39@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K09.06",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind measurement version, programme, channel and encoding",
+        "Report integrated loudness, peaks and LRA independently",
+        "No compliance claim without exact output measurement"
+      ],
+      "cases": [
+        "MP16",
+        "MP17",
+        "MP18",
+        "MP40",
+        "MP41",
+        "MP42"
+      ],
+      "claimRefs": [
+        "K09-CL-MP16@1",
+        "K09-CL-MP17@1",
+        "K09-CL-MP18@1",
+        "K09-CL-MP40@1",
+        "K09-CL-MP41@1",
+        "K09-CL-MP42@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K09.08",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind delivery request to editable/processed/raw artifact capabilities",
+        "Check common origin, sample clock, tail and dependency closure",
+        "Declare loss/degradation and obtain consent for substitutions"
+      ],
+      "cases": [
+        "MP19",
+        "MP20",
+        "MP21",
+        "MP43",
+        "MP44",
+        "MP45"
+      ],
+      "claimRefs": [
+        "K09-CL-MP19@1",
+        "K09-CL-MP20@1",
+        "K09-CL-MP21@1",
+        "K09-CL-MP43@1",
+        "K09-CL-MP44@1",
+        "K09-CL-MP45@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    },
+    {
+      "d2": "K09.09",
+      "status": "SYNTHETIC_ONLY",
+      "steps": [
+        "Bind protected baseline, local revision and current permission",
+        "Evaluate downstream dependencies and A/B evidence",
+        "Reject, roll back or stop; never auto-adopt a tool result"
+      ],
+      "cases": [
+        "MP22",
+        "MP23",
+        "MP24",
+        "MP46",
+        "MP47",
+        "MP48"
+      ],
+      "claimRefs": [
+        "K09-CL-MP22@1",
+        "K09-CL-MP23@1",
+        "K09-CL-MP24@1",
+        "K09-CL-MP46@1",
+        "K09-CL-MP47@1",
+        "K09-CL-MP48@1"
+      ],
+      "external": "UNKNOWN_NOT_EXECUTED",
+      "reject": "Missing evidence, source qualification, authorization, required precondition or out-of-scope inference stops; no real host/learner/performance/rights claim."
+    }
+  ]
+}
