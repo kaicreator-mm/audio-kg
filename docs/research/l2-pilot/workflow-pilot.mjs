@@ -8,7 +8,7 @@ const hash=x=>crypto.createHash("sha256").update(canon(x)).digest("hex");
 const check=(x,m)=>{if(!x)throw Error(m)};
 import {profile} from "./knowledge-pilot.mjs";
 const kinds=Object.fromEntries(Object.entries(profile.workflow.relationships).map(([k,v])=>[k,[v.from,v.to]]));
-export function runWorkflowPilot(w,route,support){
+export function runWorkflowPilot(w,route,support,replayInput=null){
  const {registry,trace,history}=w;
  const actual=trace.positive.result, context=trace.positive.context;
  const records=[],edges=[],ref=id=>id.startsWith("A")?id+"@1":id==="E-RECEIPT"?id+"@2":id==="E-EST"?id+"@2":id+"@1";
@@ -98,6 +98,11 @@ export function runWorkflowPilot(w,route,support){
  }
  const graph=JSON.parse(JSON.stringify(trusted)),tests=[],test=(name,v)=>{check(v,name);tests.push([name,true]);};
  const v=traceQuery(graph,actual);
+ const projection=clone(graph); // Full synthetic replay envelope; digest refers to exactly this object.
+ test("complete exported graph roundtrip",eq(traceQuery(JSON.parse(JSON.stringify(projection)),actual),v)&&hash(projection)===hash(graph));
+ test("export without permission epoch refuses",traceQuery({...projection,permissionEpoch:undefined},actual).state==="UNKNOWN");
+ test("export without permission status refuses",traceQuery({...projection,permissionStatus:undefined},actual).state==="UNKNOWN");
+ test("revocation precedes stale revision",traceQuery({...projection,active:"C@3",permissionStatus:"revoked"},actual).state==="STOP");
  test("typed graph roundtrip full route",v.state==="STATIC_CANDIDATE_ONLY"&&v.release===false);
  test("primary and support reverse discovery",v.refs.includes("GRANT@1")&&v.refs.includes("HOST@1")&&v.refs.includes("MODEL@1")&&v.refs.includes("EDITABLE@1")&&v.refs.includes("RESULT@1"));
  const stale=affected(graph,"C@2");
@@ -120,5 +125,5 @@ export function runWorkflowPilot(w,route,support){
  reject("duplicate typed edge",g=>g.edges.push(clone(g.edges[0])));
  reject("extra unregistered authority",g=>g.records.push({ref:"GRANT@2",type:"Grant",classification:"SYNTHETIC_RESEARCH",payload:{realSubject:"APPROVED"},digest:hash({realSubject:"APPROVED"})}));
  reject("forged support case",g=>{const n=g.records.find(n=>n.ref==="S-GV02@1");n.payload.knowledge.caseId="FAKE";n.digest=hash(n.payload);});
- return {tests,records:graph.records.length,edges:graph.edges.length,affected:stale,trace:v,projection:{format:graph.format,records:graph.records,edges:graph.edges,active:graph.active,release:false},graphDigest:hash(graph),limits:"fixed actual witness projection; not general runtime or actual authorization"};
+ return {tests,records:graph.records.length,edges:graph.edges.length,affected:stale,trace:v,projection,graphDigest:hash(projection),replay:replayInput===null?null:traceQuery(replayInput.graph,replayInput.verdict),limits:"fixed actual witness projection; not general runtime or actual authorization"};
 }
