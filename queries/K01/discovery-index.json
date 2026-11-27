@@ -1,0 +1,4595 @@
+{
+  "format": "audio-kg-K01-discovery/1",
+  "status": "CANDIDATE_NOT_ACCEPTED",
+  "rows": [
+    {
+      "d4": "K01.01.04.01",
+      "line": 19,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-01-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.01.04.01",
+      "sourceIds": [
+        "S191",
+        "S021"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 19,
+        "row": "| K01.01.04.01 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D | S191 §5.4；S021 | TD2-K01.01.04.01 | 普通西方记谱，非旋律倒影或模12集合倒影 |"
+      }
+    },
+    {
+      "d4": "K01.01.04.02",
+      "line": 20,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-01-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.01.04.02",
+      "sourceIds": [
+        "S209",
+        "S021"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 20,
+        "row": "| K01.01.04.02 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D | S209 §5.2；S021 | TB-K01.01.04.02 | 12TET半音距离与字母级数并用 |"
+      }
+    },
+    {
+      "d4": "K01.01.05.01",
+      "line": 21,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-01-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.01.05.01",
+      "sourceIds": [
+        "S209",
+        "S028"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 21,
+        "row": "| K01.01.05.01 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ17 D | S028 interval guide；S209 §5.2（简单音程参照） | TB-K01.01.05.01 | 完整复音程命名专项待逐条核验 |"
+      }
+    },
+    {
+      "d4": "K01.01.06.01",
+      "line": 22,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-01-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.01.06.01",
+      "sourceIds": [
+        "S258",
+        "S209"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 22,
+        "row": "| K01.01.06.01 | L / DRAFT_CANDIDATE | TQ01 | CQ01 D | S258 §5.1.1–2；S209 §5.2重读 | TL-K01.01.06.01 | 普通西方书写音、12TET简单上行音程；级数由书写字母，性质需半音及级数，复音程/异常拼写另核 |"
+      }
+    },
+    {
+      "d4": "K01.02.04.01",
+      "line": 23,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [
+        "CQ07"
+      ],
+      "claimRefs": [
+        "K01-CL-02-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.02.04.01",
+      "sourceIds": [
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 23,
+        "row": "| K01.02.04.01 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ07 S | S022 本轮重读 frequency ratio/cents 公式 | TD2-K01.02.04.01 | 音分是频率比的对数表达，不以12TET调律为必要条件 |"
+      }
+    },
+    {
+      "d4": "K01.02.04.02",
+      "line": 24,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [
+        "CQ07"
+      ],
+      "claimRefs": [
+        "K01-CL-02-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.02.04.02",
+      "sourceIds": [
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 24,
+        "row": "| K01.02.04.02 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ07 S | S022 公式与数学逆推 | TC-K01.02.04.02 | 参考与比例明确 |"
+      }
+    },
+    {
+      "d4": "K01.02.04.03",
+      "line": 25,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [
+        "CQ07"
+      ],
+      "claimRefs": [
+        "K01-CL-02-04-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.02.04.03",
+      "sourceIds": [
+        "S192",
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 25,
+        "row": "| K01.02.04.03 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ07 S | S192 9Hz示例；S022 | TB-K01.02.04.03 | 以频率比比较 |"
+      }
+    },
+    {
+      "d4": "K01.02.05.01",
+      "line": 26,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-02-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.02.05.01",
+      "sourceIds": [
+        "S192",
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 26,
+        "row": "| K01.02.05.01 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D | S192 ratios；S022 | TB-K01.02.05.01 | 指定纯五度模型及12TET |"
+      }
+    },
+    {
+      "d4": "K01.02.05.02",
+      "line": 27,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-02-05-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.02.05.02",
+      "sourceIds": [
+        "S192",
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 27,
+        "row": "| K01.02.05.02 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D | S192 just third；S022 | TD2-K01.02.05.02 | 不推出演奏审美或固定调音处方 |"
+      }
+    },
+    {
+      "d4": "K01.02.05.03",
+      "line": 28,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-02-05-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.02.05.03",
+      "sourceIds": [
+        "S192"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 28,
+        "row": "| K01.02.05.03 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ17 D | S192 keyboard temperament | TB-K01.02.05.03 | 固定三个5:4；不将问题等同全部历史律制 |"
+      }
+    },
+    {
+      "d4": "K01.02.06.01",
+      "line": 29,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01",
+        "CQ17",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ18"
+      ],
+      "claimRefs": [
+        "K01-CL-02-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.02.06.01",
+      "sourceIds": [
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 29,
+        "row": "| K01.02.06.01 | D2 / DRAFT_CANDIDATE | TQ01 | CQ01 D；CQ17 D；CQ18 S；CQ23 D | S133 特定竖琴例；S022 音分；工程需求 | TD2-K01.02.06.01 | 量化规则和容差由任务指定 |"
+      }
+    },
+    {
+      "d4": "K01.02.06.02",
+      "line": 30,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01",
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ18",
+        "CQ26"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [
+        "S244",
+        "S293"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 30,
+        "row": "| K01.02.06.02 | D2 / EVIDENCE_OPEN | TQ01 | CQ01 D；CQ17 D；CQ18 S；CQ26 S | S192 历史线索；S133 | — / EVIDENCE_OPEN | 不由少数示例生成完整律制 |"
+      }
+    },
+    {
+      "d4": "K01.02.07.01",
+      "line": 31,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-02-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.02.07.01",
+      "sourceIds": [
+        "S244",
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 31,
+        "row": "| K01.02.07.01 | E / DRAFT_CANDIDATE | TQ01 | CQ01 D | S244 §§3.1–3.2；S022 | TE-K01.02.07.01 | 指定连续纯五度与八度归约，非实际所有历史乐器 |"
+      }
+    },
+    {
+      "d4": "K01.02.07.02",
+      "line": 32,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-02-07-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.02.07.02",
+      "sourceIds": [
+        "S244"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 32,
+        "row": "| K01.02.07.02 | E / DRAFT_CANDIDATE | TQ01 | CQ01 D | S244 §6.1；数学推导 | TE-K01.02.07.02 | 指定syntonic comma=81/80；四个相同压缩五度，不等于全部meantone |"
+      }
+    },
+    {
+      "d4": "K01.03.04.01",
+      "line": 33,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-03-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.03.04",
+      "sourceIds": [
+        "S178"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 33,
+        "row": "| K01.03.04.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S178 §22.2 | TD-K01.03.04 | 调性音乐；不设固定小节数 |"
+      }
+    },
+    {
+      "d4": "K01.03.04.02",
+      "line": 34,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ19"
+      ],
+      "claimRefs": [
+        "K01-CL-03-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.03.04.02",
+      "sourceIds": [
+        "S178"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 34,
+        "row": "| K01.03.04.02 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ19 S | S178 §22.2 | TB-K01.03.04.02 | 分析范围足够 |"
+      }
+    },
+    {
+      "d4": "K01.03.04.03",
+      "line": 35,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-03-04-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.03.04.03",
+      "sourceIds": [
+        "S178"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 35,
+        "row": "| K01.03.04.03 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ17 D | S178 §22.2 | TB-K01.03.04.03 | 需完整前后和声 |"
+      }
+    },
+    {
+      "d4": "K01.03.05.01",
+      "line": 36,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [
+        "K01-CL-03-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.03.05.01",
+      "sourceIds": [
+        "S193",
+        "S194"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 36,
+        "row": "| K01.03.05.01 | D2 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D | S193 §7.2–7.3；S194 §3.1 | TD2-K01.03.05.01 | 西方常规小调与拼写 |"
+      }
+    },
+    {
+      "d4": "K01.03.05.02",
+      "line": 37,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [
+        "K01-CL-03-05-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.03.05.02",
+      "sourceIds": [
+        "S194",
+        "S195"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 37,
+        "row": "| K01.03.05.02 | D2 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D | S194 §3.1 图像描述；S195 Table31.9.4 | TB-K01.03.05.02 | 不表示每个小调乐句都必须含升7 |"
+      }
+    },
+    {
+      "d4": "K01.03.06.01",
+      "line": 38,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-03-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.03.06.01",
+      "sourceIds": [
+        "S194"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 38,
+        "row": "| K01.03.06.01 | D2 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D；CQ17 D；CQ26 S | S194 §3.1 | TD2-K01.03.06.01 | 教学模型而非所有真实旋律 |"
+      }
+    },
+    {
+      "d4": "K01.03.06.02",
+      "line": 39,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-03-06-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.03.06.02",
+      "sourceIds": [
+        "S195",
+        "S194",
+        "S297"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 39,
+        "row": "| K01.03.06.02 | D2 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D；CQ17 D；CQ26 S | S195 Table31.9.4；S194 | TB-K01.03.06.02 | 不把古典练习规则强加爵士 |"
+      }
+    },
+    {
+      "d4": "K01.03.07.01",
+      "line": 40,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [
+        "K01-CL-03-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.03.07.01",
+      "sourceIds": [
+        "S195"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 40,
+        "row": "| K01.03.07.01 | D2 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D | S195 Table31.9.4 | TD2-K01.03.07.01 | 西方七声音阶、指定主音 |"
+      }
+    },
+    {
+      "d4": "K01.03.07.02",
+      "line": 41,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-03-07-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.03.07.02",
+      "sourceIds": [
+        "S195",
+        "S193"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 41,
+        "row": "| K01.03.07.02 | D2 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ17 D | S195 表；S193 §7.2；逻辑推导 | TC-K01.03.07.02 | 需要旋律/和声/强调等证据 |"
+      }
+    },
+    {
+      "d4": "K01.03.08.01",
+      "line": 42,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [
+        "K01-CL-03-08-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.03.08.01",
+      "sourceIds": [
+        "S195"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 42,
+        "row": "| K01.03.08.01 | D2 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D | S195 §31.9.1 | TB-K01.03.08.01 | 仅此爵士教学模型，不等于实际连续音高或所有五声体系 |"
+      }
+    },
+    {
+      "d4": "K01.03.08.02",
+      "line": 43,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [
+        "K01-CL-03-08-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.03.08.02",
+      "sourceIds": [
+        "S195"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 43,
+        "row": "| K01.03.08.02 | D2 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D | S195 Table31.9.4；步长推导 | TD2-K01.03.08.02 | 以12TET为限定、允许等音拼写 |"
+      }
+    },
+    {
+      "d4": "K01.03.08.03",
+      "line": 44,
+      "localQuery": "TQ08",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ18",
+        "CQ22",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-03-08-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.03.08.03",
+      "sourceIds": [
+        "S195"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 44,
+        "row": "| K01.03.08.03 | D2 / DRAFT_CANDIDATE | TQ08 | CQ17 D；CQ18 S；CQ22 S；CQ26 S | S195 §31.9.1；K04/DOM-C01 专项待证 | TB-K01.03.08.03 | 不把理论表当全部表现 |"
+      }
+    },
+    {
+      "d4": "K01.03.09.01",
+      "line": 45,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-03-09-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.03.09.01",
+      "sourceIds": [
+        "S259"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 45,
+        "row": "| K01.03.09.01 | L / DRAFT_CANDIDATE | TQ01 | CQ01 D | S259 §2.2 | TL-K01.03.09.01 | 西方七声大调，指定主音拼写；连续七个不同字母，按2,2,1,2,2,2,1闭合 |"
+      }
+    },
+    {
+      "d4": "K01.04.04.01",
+      "line": 46,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.04.04.01",
+      "sourceIds": [
+        "S196"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 46,
+        "row": "| K01.04.04.01 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S | S196 §4.4；S199 Configuring Beat（软件表示） | TD2-K01.04.04.01 | 标准复二拍语境，不由所有分数拍号强推 |"
+      }
+    },
+    {
+      "d4": "K01.04.04.02",
+      "line": 47,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.04.04.02",
+      "sourceIds": [
+        "S196"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 47,
+        "row": "| K01.04.04.02 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S | S196 §4.4；时长推导 | TB-K01.04.04.02 | 固定速度、指定拍单位 |"
+      }
+    },
+    {
+      "d4": "K01.04.05.01",
+      "line": 48,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.04.05.01",
+      "sourceIds": [
+        "S202"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 48,
+        "row": "| K01.04.05.01 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S | S199 Configuring Beat/Accent；S202 format；算术推导 | TB-K01.04.05.01 | 分组由谱/语境明确，不以软件默认替代真实听感 |"
+      }
+    },
+    {
+      "d4": "K01.04.05.02",
+      "line": 49,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-05-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.04.05.02",
+      "sourceIds": [
+        "S202"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 49,
+        "row": "| K01.04.05.02 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S | S202 description；算术推导 | TD2-K01.04.05.02 | 单位统一为全音符比例 |"
+      }
+    },
+    {
+      "d4": "K01.04.05.03",
+      "line": 50,
+      "localQuery": "TQ04",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ26"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [
+        "S294",
+        "S273"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 50,
+        "row": "| K01.04.05.03 | D2 / EVIDENCE_OPEN | TQ04 | CQ04 S；CQ17 D；CQ26 S | S208 搜索线索；S199 软件 | — / EVIDENCE_OPEN | 不将odd/compound/polymeter互换 |"
+      }
+    },
+    {
+      "d4": "K01.04.06.01",
+      "line": 51,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.04.06.01",
+      "sourceIds": [
+        "S198",
+        "S200",
+        "S201"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 51,
+        "row": "| K01.04.06.01 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S | S198 §4.5；S200；S201 Tuplets | TD2-K01.04.06.01 | 同类型等分、3:2；非所有3个音构成三连音 |"
+      }
+    },
+    {
+      "d4": "K01.04.06.02",
+      "line": 52,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-06-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.04.06.02",
+      "sourceIds": [
+        "S198"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 52,
+        "row": "| K01.04.06.02 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S | S198 §4.5 | TC-K01.04.06.02 | 明确2:3及音符类型 |"
+      }
+    },
+    {
+      "d4": "K01.04.06.03",
+      "line": 53,
+      "localQuery": "TQ04",
+      "directCQ": [
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ16"
+      ],
+      "claimRefs": [
+        "K01-CL-04-06-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.04.06.03",
+      "sourceIds": [
+        "S200",
+        "S201"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 53,
+        "row": "| K01.04.06.03 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S；CQ16 S；CQ23 D | S200 description；S201 Tuplets | TB-K01.04.06.03 | 格式owner K12，实际宿主待测试 |"
+      }
+    },
+    {
+      "d4": "K01.04.07.01",
+      "line": 54,
+      "localQuery": "TQ04",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.04.07.01",
+      "sourceIds": [
+        "S198"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 54,
+        "row": "| K01.04.07.01 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S；CQ17 D | 数学推导；S198 连音分组参照 | TD2-K01.04.07.01 | 周期同时起始、严格等分 |"
+      }
+    },
+    {
+      "d4": "K01.04.07.02",
+      "line": 55,
+      "localQuery": "TQ04",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ22",
+        "CQ26"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [
+        "S249"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 55,
+        "row": "| K01.04.07.02 | D2 / EVIDENCE_OPEN | TQ04 | CQ04 S；CQ17 D；CQ22 S；CQ26 S | K04/K10/DOM-C02 专项证据缺口 | — / EVIDENCE_OPEN | 理论时基不等于艺术评价 |"
+      }
+    },
+    {
+      "d4": "K01.04.08.01",
+      "line": 56,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-08-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.04.08.01",
+      "sourceIds": [
+        "S251"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 56,
+        "row": "| K01.04.08.01 | E / DRAFT_CANDIDATE | TQ04 | CQ04 S | S251 metrical levels/Transcribing | TE-K01.04.08.01 | 指定流行/摇滚直拍模型与已知拍层级；不推广所有切分 |"
+      }
+    },
+    {
+      "d4": "K01.04.08.02",
+      "line": 57,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-08-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.04.08.02",
+      "sourceIds": [
+        "S252"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 57,
+        "row": "| K01.04.08.02 | E / DRAFT_CANDIDATE | TQ04 | CQ04 S | S252 Rests/Dots | TE-K01.04.08.02 | 普通单声部名义记谱，休止不必表示整个声场无声 |"
+      }
+    },
+    {
+      "d4": "K01.04.09.01",
+      "line": 58,
+      "localQuery": "TQ04",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ22",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-04-09-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.04.09.01",
+      "sourceIds": [
+        "S249"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 58,
+        "row": "| K01.04.09.01 | E / DRAFT_CANDIDATE | TQ04 | CQ04 S；CQ17 D；CQ22 S；CQ26 S | S249 Abstract/Results/General discussion；K01.04.07.01 | TE-K01.04.09.01 | 300参与者、3在线敲击实验；K17拥有实证机制，K01只负责区分时基和观测 |"
+      }
+    },
+    {
+      "d4": "K01.04.10.01",
+      "line": 59,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-04-10-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.04.10.01",
+      "sourceIds": [
+        "S270",
+        "S271",
+        "S196"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 59,
+        "row": "| K01.04.10.01 | L / DRAFT_CANDIDATE | TQ04 | CQ04 S | S270 tempo；S271 beat-unit；S196 §4.4；数学推导 | TL-K01.04.10.01 | 已知每段拍单位和恒定BPM，时长逐段相加；连续速度变化、swing、实际表演需另证 |"
+      }
+    },
+    {
+      "d4": "K01.05.04.01",
+      "line": 60,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [
+        "K01-CL-05-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.04.01",
+      "sourceIds": [
+        "S184"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 60,
+        "row": "| K01.05.04.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ01 S；CQ02 D | S184 §8.1 | TB-K01.05.04.01 | 传统三度叠置和弦，五类不穷尽 |"
+      }
+    },
+    {
+      "d4": "K01.05.04.02",
+      "line": 61,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.05.04.02",
+      "sourceIds": [
+        "S184"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 61,
+        "row": "| K01.05.04.02 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S184 §8.1 | TC-K01.05.04.02 | 已知音名和根音 |"
+      }
+    },
+    {
+      "d4": "K01.05.04.03",
+      "line": 62,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-04-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.05.04",
+      "sourceIds": [
+        "S184"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 62,
+        "row": "| K01.05.04.03 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S184 §8.1 | TD-K01.05.04 | 传统记谱，等音集合不等于功能 |"
+      }
+    },
+    {
+      "d4": "K01.05.05.01",
+      "line": 63,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.05.01",
+      "sourceIds": [
+        "S174"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 63,
+        "row": "| K01.05.05.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S174 §9.4 | TB-K01.05.05.01 | 教材功能模型，非跨文化普遍 |"
+      }
+    },
+    {
+      "d4": "K01.05.05.02",
+      "line": 64,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-05-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.05.05",
+      "sourceIds": [
+        "S174"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 64,
+        "row": "| K01.05.05.02 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ17 D | S174 §9.4.1 | TD-K01.05.05 | 教材分类，不唯一 |"
+      }
+    },
+    {
+      "d4": "K01.05.06.01",
+      "line": 65,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.05.06",
+      "sourceIds": [
+        "S177"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 65,
+        "row": "| K01.05.06.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S177 §17.4 | TD-K01.05.06 | 大三和弦或大小七和弦，目标为调内和弦；再核对上下文 |"
+      }
+    },
+    {
+      "d4": "K01.05.06.02",
+      "line": 66,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-06-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.06.02",
+      "sourceIds": [
+        "S177",
+        "S178"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 66,
+        "row": "| K01.05.06.02 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ17 D | S177 §17.4；S178 §22.2 | TB-K01.05.06.02 | 需要前后进行及调性 |"
+      }
+    },
+    {
+      "d4": "K01.05.07.01",
+      "line": 67,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.07.01",
+      "sourceIds": [
+        "S179",
+        "S180"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 67,
+        "row": "| K01.05.07.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S179 §19.1；S180 §21.6 | TB-K01.05.07.01 | 以西方调性语境为限；原文二次定位失败 |"
+      }
+    },
+    {
+      "d4": "K01.05.08.01",
+      "line": 68,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-08-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.08.01",
+      "sourceIds": [
+        "S180"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 68,
+        "row": "| K01.05.08.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S180 §21.6 | TB-K01.05.08.01 | 分类表仅初筛，具体构成待逐节阅读 |"
+      }
+    },
+    {
+      "d4": "K01.05.08.02",
+      "line": 69,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [
+        "S234",
+        "S268",
+        "S215"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 69,
+        "row": "| K01.05.08.02 | D1 / EVIDENCE_OPEN | TQ02 | CQ02 D；CQ17 D | S180 §21.6；S170目录 | — / EVIDENCE_OPEN | 不自动推断 |"
+      }
+    },
+    {
+      "d4": "K01.05.09.01",
+      "line": 70,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-09-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.05.09",
+      "sourceIds": [
+        "S181"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 70,
+        "row": "| K01.05.09.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S181 §31.2 | TD-K01.05.09 | 作者入门约定，非所有演奏voicing |"
+      }
+    },
+    {
+      "d4": "K01.05.09.02",
+      "line": 71,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-09-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.09.02",
+      "sourceIds": [
+        "S181"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 71,
+        "row": "| K01.05.09.02 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S181 §31.2 | TB-K01.05.09.02 | 作者约定；不能从遗漏音唯一逆推 |"
+      }
+    },
+    {
+      "d4": "K01.05.10.01",
+      "line": 72,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-10-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.10.01",
+      "sourceIds": [
+        "S182"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 72,
+        "row": "| K01.05.10.01 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S182 §31.7.1 | TB-K01.05.10.01 | 三度叠置七和弦 |"
+      }
+    },
+    {
+      "d4": "K01.05.10.02",
+      "line": 73,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-05-10-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.05.10",
+      "sourceIds": [
+        "S182"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 73,
+        "row": "| K01.05.10.02 | D1 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S182 §31.7.1 | TD-K01.05.10 | 明确调性、voicing与声部身份 |"
+      }
+    },
+    {
+      "d4": "K01.05.10.03",
+      "line": 74,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ03"
+      ],
+      "claimRefs": [
+        "K01-CL-05-10-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.10.03",
+      "sourceIds": [
+        "S182"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 74,
+        "row": "| K01.05.10.03 | D1 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ03 S；CQ17 D | S182 §31.7.2 | TB-K01.05.10.03 | K03配器与K04演奏另证 |"
+      }
+    },
+    {
+      "d4": "K01.05.11.01",
+      "line": 75,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-11-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.11.01",
+      "sourceIds": [
+        "S210"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 75,
+        "row": "| K01.05.11.01 | D3 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S210 §6.1；S030 | TB-K01.05.11.01 | 传统三度叠置；不把任意三音集合当三和弦 |"
+      }
+    },
+    {
+      "d4": "K01.05.11.02",
+      "line": 76,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-11-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.11.02",
+      "sourceIds": [
+        "S210",
+        "S209"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 76,
+        "row": "| K01.05.11.02 | D3 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S210 §6.1；S209 音程表；推导 | TB-K01.05.11.02 | 12TET与书写拼写，音程性质须核对 |"
+      }
+    },
+    {
+      "d4": "K01.05.12.01",
+      "line": 77,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-12-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.05.12.01",
+      "sourceIds": [
+        "S232"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 77,
+        "row": "| K01.05.12.01 | D3 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S232 §6.3及6.3.1；S030 inversion | TD3-K01.05.12.01 | 已知实际低音，不以音级集合代替 |"
+      }
+    },
+    {
+      "d4": "K01.05.12.02",
+      "line": 78,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-12-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.12.02",
+      "sourceIds": [
+        "S181",
+        "S030"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 78,
+        "row": "| K01.05.12.02 | D3 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ17 D | S030 root/inversion；S181 | TB-K01.05.12.02 | 须区分低音与根音、分析上下文 |"
+      }
+    },
+    {
+      "d4": "K01.05.13.01",
+      "line": 79,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-13-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.05.13.01",
+      "sourceIds": [
+        "S214",
+        "S210"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 79,
+        "row": "| K01.05.13.01 | D3 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S214 §20.1；S210 | TD3-K01.05.13.01 | 已给调性，前属功能是语境分析 |"
+      }
+    },
+    {
+      "d4": "K01.05.14.01",
+      "line": 80,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-14-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.05.14.01",
+      "sourceIds": [
+        "S215"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 80,
+        "row": "| K01.05.14.01 | D3 / DRAFT_CANDIDATE | TQ02 | CQ02 D | S215 §21.2 | TD3-K01.05.14.01 | 作者常见三类，不以地名推断历史 |"
+      }
+    },
+    {
+      "d4": "K01.05.14.02",
+      "line": 81,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-14-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.05.14.02",
+      "sourceIds": [
+        "S215",
+        "S216"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 81,
+        "row": "| K01.05.14.02 | D3 / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ17 D | S215 §21.2；S216 §29.4 | TB-K01.05.14.02 | 12TET声音相等不证明功能等价 |"
+      }
+    },
+    {
+      "d4": "K01.05.15.01",
+      "line": 82,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-15-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.05.15.01",
+      "sourceIds": [
+        "S234",
+        "S215",
+        "S216"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 82,
+        "row": "| K01.05.15.01 | E / DRAFT_CANDIDATE | TQ02 | CQ02 D | S234 §23.2；S215/216 | TE-K01.05.15.01 | 12TET声音相同、调性和解决须另给；不穷尽等音转调 |"
+      }
+    },
+    {
+      "d4": "K01.05.15.02",
+      "line": 83,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-15-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.05.15.02",
+      "sourceIds": [
+        "S268"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 83,
+        "row": "| K01.05.15.02 | L / DRAFT_CANDIDATE | TQ02 | CQ02 D；CQ17 D | S268 §23.3；数学推导 | TL-K01.05.15.02 | 12TET同音类、全减七对称；每音作导音上行半音形成候选中心，仍须解决及调性证据 |"
+      }
+    },
+    {
+      "d4": "K01.05.16.01",
+      "line": 84,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-05-16-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.05.16.01",
+      "sourceIds": [
+        "S267"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 84,
+        "row": "| K01.05.16.01 | L / DRAFT_CANDIDATE | TQ02 | CQ02 D | S267 §31.3 | TL-K01.05.16.01 | 指定作者构造语境，根三七保持，5/9变化，alt未完整指定；具体省略/演奏另证 |"
+      }
+    },
+    {
+      "d4": "K01.06.04.01",
+      "line": 85,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.06.04.01",
+      "sourceIds": [
+        "S176"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 85,
+        "row": "| K01.06.04.01 | D1 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S176 §10.1 | TB-K01.06.04.01 | 和声分段/声部身份已知 |"
+      }
+    },
+    {
+      "d4": "K01.06.04.02",
+      "line": 86,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.06.04.02",
+      "sourceIds": [
+        "S176"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 86,
+        "row": "| K01.06.04.02 | D1 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S176 §10.1 qualifiers | TB-K01.06.04.02 | 节拍与事件时序已知 |"
+      }
+    },
+    {
+      "d4": "K01.06.05.01",
+      "line": 87,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.06.05",
+      "sourceIds": [
+        "S176"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 87,
+        "row": "| K01.06.05.01 | D1 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S176 Table10.1.1 | TD-K01.06.05 | 中间音不属于当前和弦 |"
+      }
+    },
+    {
+      "d4": "K01.06.06.01",
+      "line": 88,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.06.06.01",
+      "sourceIds": [
+        "S176"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 88,
+        "row": "| K01.06.06.01 | D1 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S176 Table10.1.1 | TB-K01.06.06.01 | 需核对前后和弦及声部 |"
+      }
+    },
+    {
+      "d4": "K01.06.06.02",
+      "line": 89,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-06-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.06.06.02",
+      "sourceIds": [
+        "S176"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 89,
+        "row": "| K01.06.06.02 | D1 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S176 Table10.1.1 | TB-K01.06.06.02 | 只用表内运动线索，实际归属待证 |"
+      }
+    },
+    {
+      "d4": "K01.06.07.01",
+      "line": 90,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ15",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-06-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.07.01",
+      "sourceIds": [
+        "S217",
+        "S245"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 90,
+        "row": "| K01.06.07.01 | D1 / LIMITED_CANDIDATE | TQ05 | CQ02 S；CQ15 S；CQ17 D；CQ26 S | S189 检索 | TE-K01.06.07.01 | 403，禁止给硬规则 |"
+      }
+    },
+    {
+      "d4": "K01.06.07.02",
+      "line": 91,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ15",
+        "CQ26"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [
+        "S217",
+        "S218",
+        "S235",
+        "S245",
+        "S246",
+        "S247"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 91,
+        "row": "| K01.06.07.02 | D1 / EVIDENCE_OPEN | TQ05 | CQ02 S；CQ15 S；CQ17 D；CQ26 S | S190 检索；S170 ch30目录 | — / EVIDENCE_OPEN | 403；不能从第一类规则直接推广 |"
+      }
+    },
+    {
+      "d4": "K01.06.08.01",
+      "line": 92,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ03"
+      ],
+      "claimRefs": [
+        "K01-CL-06-08-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.06.08.01",
+      "sourceIds": [
+        "S211"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 92,
+        "row": "| K01.06.08.01 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ03 S | S211 §26.1 | TB-K01.06.08.01 | chorale-style 练习，不判所有作品 |"
+      }
+    },
+    {
+      "d4": "K01.06.08.02",
+      "line": 93,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-08-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.06.08.02",
+      "sourceIds": [
+        "S212"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 93,
+        "row": "| K01.06.08.02 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S212 Principle26.7.1/§26.7.1 | TC-K01.06.08.02 | 指定作者课堂规则；低音二度的阻碍进行另见§26.7.3及Principle26.7.4，不是此规则的例外 |"
+      }
+    },
+    {
+      "d4": "K01.06.08.03",
+      "line": 94,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-08-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.06.08.03",
+      "sourceIds": [
+        "S212"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 94,
+        "row": "| K01.06.08.03 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S212 §26.7.2 | TC-K01.06.08.03 | 不等于全局最优、非所有风格硬规则 |"
+      }
+    },
+    {
+      "d4": "K01.06.09.01",
+      "line": 95,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-09-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.06.09.01",
+      "sourceIds": [
+        "S213"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 95,
+        "row": "| K01.06.09.01 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S213 §27.3 | TD3-K01.06.09.01 | 给定四声部完整属七、指定严格模式 |"
+      }
+    },
+    {
+      "d4": "K01.06.09.02",
+      "line": 96,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-09-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.06.09.02",
+      "sourceIds": [
+        "S213"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 96,
+        "row": "| K01.06.09.02 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ17 D | S213 §27.3 | TB-K01.06.09.02 | 明确任务规则集 |"
+      }
+    },
+    {
+      "d4": "K01.06.10.01",
+      "line": 97,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-10-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.06.10.01",
+      "sourceIds": [
+        "S216"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 97,
+        "row": "| K01.06.10.01 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S | S216 §29.4 | TD3-K01.06.10.01 | 目标和声和风格明确 |"
+      }
+    },
+    {
+      "d4": "K01.06.11.01",
+      "line": 98,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ15"
+      ],
+      "claimRefs": [
+        "K01-CL-06-11-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.06.11.01",
+      "sourceIds": [
+        "S217"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 98,
+        "row": "| K01.06.11.01 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ15 S | S217 §30.2 规则4 | TD3-K01.06.11.01 | 作者两声部十六世纪风格入门规则，非全部复调 |"
+      }
+    },
+    {
+      "d4": "K01.06.11.02",
+      "line": 99,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ15"
+      ],
+      "claimRefs": [
+        "K01-CL-06-11-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.06.11.02",
+      "sourceIds": [
+        "S217"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 99,
+        "row": "| K01.06.11.02 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ15 S | S217 §30.2 规则1–3 | TB-K01.06.11.02 | 完整题须有调式和既定声部 |"
+      }
+    },
+    {
+      "d4": "K01.06.12.01",
+      "line": 100,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ15"
+      ],
+      "claimRefs": [
+        "K01-CL-06-12-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.06.12.01",
+      "sourceIds": [
+        "S218",
+        "S176"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 100,
+        "row": "| K01.06.12.01 | D3 / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ15 S | S218 §30.3；S176 | TD3-K01.06.12.01 | 作者普通2:1场景，不推广3:1或其他种类 |"
+      }
+    },
+    {
+      "d4": "K01.06.12.02",
+      "line": 101,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [
+        "S286"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 101,
+        "row": "| K01.06.12.02 | D3 / EVIDENCE_OPEN | TQ05 | CQ02 S；CQ17 D | S170 ch30目录；S227/S228检索 | — / EVIDENCE_OPEN | 不从第一/二类直接推广 |"
+      }
+    },
+    {
+      "d4": "K01.06.13.01",
+      "line": 102,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ15"
+      ],
+      "claimRefs": [
+        "K01-CL-06-13-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.13.01",
+      "sourceIds": [
+        "S235",
+        "S247"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 102,
+        "row": "| K01.06.13.01 | E / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ15 S | S235 rules1/3；S247 开头/Strong beats | TE-K01.06.13.01 | 非末小节普通4:1，S247首小节可休止起；首拍协和；不要推广全部作品 |"
+      }
+    },
+    {
+      "d4": "K01.06.13.02",
+      "line": 103,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-13-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.13.02",
+      "sourceIds": [
+        "S235",
+        "S247"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 103,
+        "row": "| K01.06.13.02 | E / DRAFT_CANDIDATE | TQ05 | CQ02 S | S235 rule5/6；S247 dissonances/Strong beats | TE-K01.06.13.02 | 经过音局部与cambiata等例外分开；跨首拍/实际跨小节区分 |"
+      }
+    },
+    {
+      "d4": "K01.06.14.01",
+      "line": 104,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ15"
+      ],
+      "claimRefs": [
+        "K01-CL-06-14-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.14.01",
+      "sourceIds": [
+        "S236",
+        "S248"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 104,
+        "row": "| K01.06.14.01 | E / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ15 S | S236 rule4/5；S248 The suspension | TE-K01.06.14.01 | 固定旋律在下、上方7–6或4–3局部，非全部规则 |"
+      }
+    },
+    {
+      "d4": "K01.06.14.02",
+      "line": 105,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-06-14-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.14.02",
+      "sourceIds": [
+        "S236",
+        "S248"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 105,
+        "row": "| K01.06.14.02 | E / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ17 D；CQ26 S | S236 开头；S248 Types of suspensions | TE-K01.06.14.02 | S236只限定固定旋律在下；S248允许上下方不同模型，不能把教材缺覆盖视为禁止 |"
+      }
+    },
+    {
+      "d4": "K01.06.15.01",
+      "line": 106,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ15"
+      ],
+      "claimRefs": [
+        "K01-CL-06-15-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.15.01",
+      "sourceIds": [
+        "S237"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 106,
+        "row": "| K01.06.15.01 | E / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ15 S | S237 §30.6 | TE-K01.06.15.01 | 仅自由组合定义，合法性和实际作品另证 |"
+      }
+    },
+    {
+      "d4": "K01.06.16.01",
+      "line": 107,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ03"
+      ],
+      "claimRefs": [
+        "K01-CL-06-16-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.06.16.01",
+      "sourceIds": [
+        "S260"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 107,
+        "row": "| K01.06.16.01 | L / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ03 S | S260 §26.6 | TL-K01.06.16.01 | 作者SATB练习，S–A/A–T不超过八度，T–B可超过；局部规则非总合格 |"
+      }
+    },
+    {
+      "d4": "K01.06.16.02",
+      "line": 108,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ03",
+        "CQ15",
+        "CQ22",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-06-16-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.06.16.02",
+      "sourceIds": [
+        "S261"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 108,
+        "row": "| K01.06.16.02 | L / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ03 S；CQ15 S；CQ17 D；CQ22 S；CQ26 S | S261 §26.4正文；K05/K06引用 | TL-K01.06.16.02 | 只使用题目声明的音域边界，不从未核图示录数、不作声乐诊断 |"
+      }
+    },
+    {
+      "d4": "K01.06.16.03",
+      "line": 109,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-06-16-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.06.16.03",
+      "sourceIds": [
+        "S263"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 109,
+        "row": "| K01.06.16.03 | L / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ26 S | S263 §26.12 | TL-K01.06.16.03 | 作者根位和第二转位重复低音、第一转位通常不重复低音；减三和弦及连续第一转位按明确例外 |"
+      }
+    },
+    {
+      "d4": "K01.06.16.04",
+      "line": 110,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-06-16-04@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.06.16.04",
+      "sourceIds": [
+        "S262",
+        "S240"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 110,
+        "row": "| K01.06.16.04 | L / DRAFT_CANDIDATE | TQ05 | CQ02 S；CQ17 D；CQ26 S | S262 §26.3；S240 §26.2 | TL-K01.06.16.04 | 三/四部作者模型；两条声部身份、相邻事件及方向已知；不推广所有风格 |"
+      }
+    },
+    {
+      "d4": "K01.06.17.01",
+      "line": 111,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-17-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.06.17.01",
+      "sourceIds": [
+        "S264",
+        "S265",
+        "S176"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 111,
+        "row": "| K01.06.17.01 | L / DRAFT_CANDIDATE | TQ05 | CQ02 S | S264 §10.4；S265 §10.5；S176 | TL-K01.06.17.01 | 先确定和弦成员和实际声部，倚音跳入级进离开、逃音级进进入反向跳出；重音另核 |"
+      }
+    },
+    {
+      "d4": "K01.06.17.02",
+      "line": 112,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-17-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.06.17.02",
+      "sourceIds": [
+        "S266"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 112,
+        "row": "| K01.06.17.02 | L / DRAFT_CANDIDATE | TQ05 | CQ02 S | S266 §10.6 | TL-K01.06.17.02 | 上下邻音均出现并回原音；需核对和弦时段与分组，非唯一音高标签 |"
+      }
+    },
+    {
+      "d4": "K01.06.18.01",
+      "line": 113,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-18-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.06.18.01",
+      "sourceIds": [
+        "S269"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 113,
+        "row": "| K01.06.18.01 | L / DRAFT_CANDIDATE | TQ05 | CQ02 S | S269 §30.8 subject/answer段 | TL-K01.06.18.01 | 作者调性赋格框架；真实答题保持主题音程，调性答题有调性相关变化；需完整主题语境 |"
+      }
+    },
+    {
+      "d4": "K01.07.04.01",
+      "line": 114,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.07.04",
+      "sourceIds": [
+        "S175"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 114,
+        "row": "| K01.07.04.01 | D1 / DRAFT_CANDIDATE | TQ03 | CQ02 D | S175 §7.4 | TD-K01.07.04 | 教材基础分类，非穷尽 |"
+      }
+    },
+    {
+      "d4": "K01.07.04.02",
+      "line": 115,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.07.04.02",
+      "sourceIds": [
+        "S175",
+        "S071"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 115,
+        "row": "| K01.07.04.02 | D1 / DRAFT_CANDIDATE | TQ03 | CQ02 D；CQ17 D | S175 §7.4；S071 | TB-K01.07.04.02 | 需实际乐句证据 |"
+      }
+    },
+    {
+      "d4": "K01.07.05.01",
+      "line": 116,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.07.05",
+      "sourceIds": [
+        "S185"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 116,
+        "row": "| K01.07.05.01 | D1 / DRAFT_CANDIDATE | TQ03 | CQ02 D | S185 §24.8 | TD-K01.07.05 | 非充分判据，需结合原谱及风格 |"
+      }
+    },
+    {
+      "d4": "K01.07.05.02",
+      "line": 117,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-07-05-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.07.05.02",
+      "sourceIds": [
+        "S185"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 117,
+        "row": "| K01.07.05.02 | D1 / DRAFT_CANDIDATE | TQ03 | CQ02 D；CQ17 D；CQ26 S | S185 §24.8 | TB-K01.07.05.02 | 作者明确其他分类方法 |"
+      }
+    },
+    {
+      "d4": "K01.07.06.01",
+      "line": 118,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.07.06.01",
+      "sourceIds": [
+        "S219"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 118,
+        "row": "| K01.07.06.01 | D3 / DRAFT_CANDIDATE | TQ03 | CQ02 D | S219 §25.1.1/3 | TB-K01.07.06.01 | 具体作品不一定完全对应 |"
+      }
+    },
+    {
+      "d4": "K01.07.06.02",
+      "line": 119,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-06-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.07.06.02",
+      "sourceIds": [
+        "S219"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 119,
+        "row": "| K01.07.06.02 | D3 / DRAFT_CANDIDATE | TQ03 | CQ02 D；CQ17 D | S219 §25.1.2 | TD3-K01.07.06.02 | 作者sonatina form术语限定 |"
+      }
+    },
+    {
+      "d4": "K01.07.07.01",
+      "line": 120,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.07.07.01",
+      "sourceIds": [
+        "S220"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 120,
+        "row": "| K01.07.07.01 | D3 / DRAFT_CANDIDATE | TQ03 | CQ02 D；CQ17 D | S220 §25.2 | TB-K01.07.07.01 | 语境和分段须给出 |"
+      }
+    },
+    {
+      "d4": "K01.07.07.02",
+      "line": 121,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-07-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.07.07.02",
+      "sourceIds": [
+        "S221"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 121,
+        "row": "| K01.07.07.02 | D3 / DRAFT_CANDIDATE | TQ03 | CQ02 D | S221 §25.3/25.3.1 | TD3-K01.07.07.02 | 古典回旋模型；字母标签非充分证明 |"
+      }
+    },
+    {
+      "d4": "K01.07.08.01",
+      "line": 122,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-08-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.07.08.01",
+      "sourceIds": [
+        "S238",
+        "S175"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 122,
+        "row": "| K01.07.08.01 | E / DRAFT_CANDIDATE | TQ03 | CQ02 D | S238 §13.1；S175 §7.4 | TE-K01.07.08.01 | 先确认句末正格候选，再看根位及最高声部主音；作者规则 |"
+      }
+    },
+    {
+      "d4": "K01.07.08.02",
+      "line": 123,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-08-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.07.08.02",
+      "sourceIds": [
+        "S238"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 123,
+        "row": "| K01.07.08.02 | E / DRAFT_CANDIDATE | TQ03 | CQ02 D | S238 §13.1 | TE-K01.07.08.02 | 在该教材正格终止分类范围内判；vi等非正格不是自动IAC |"
+      }
+    },
+    {
+      "d4": "K01.07.09.01",
+      "line": 124,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-07-09-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.07.09.01",
+      "sourceIds": [
+        "S269"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 124,
+        "row": "| K01.07.09.01 | L / DRAFT_CANDIDATE | TQ03 | CQ02 D；CQ17 D；CQ26 S | S269 §30.8 exposition/episode/countersubject段 | TL-K01.07.09.01 | 按作者区分完整主题进入与插部；后续呈示/中间进入术语存在差异；非固定段数 |"
+      }
+    },
+    {
+      "d4": "K01.08.04.01",
+      "line": 125,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [
+        "K01-CL-08-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.08.04.01",
+      "sourceIds": [
+        "S197"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 125,
+        "row": "| K01.08.04.01 | D2 / DRAFT_CANDIDATE | TQ04 | CQ04 S | S197 §4.3；数学推导 | TD2-K01.08.04.01 | 标准记谱名义时值，不等于实际音频 |"
+      }
+    },
+    {
+      "d4": "K01.08.04.02",
+      "line": 126,
+      "localQuery": "TQ06",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04",
+        "CQ23"
+      ],
+      "claimRefs": [
+        "K01-CL-08-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.08.04.02",
+      "sourceIds": [
+        "S197",
+        "S201"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 126,
+        "row": "| K01.08.04.02 | D2 / DRAFT_CANDIDATE | TQ06 | CQ04 S；CQ23 S | S197 §4.3；S201 Notations | TB-K01.08.04.02 | 指定同声部和相同音高，实际演奏另证 |"
+      }
+    },
+    {
+      "d4": "K01.08.05.01",
+      "line": 127,
+      "localQuery": "TQ06",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04",
+        "CQ16",
+        "CQ19",
+        "CQ23"
+      ],
+      "claimRefs": [
+        "K01-CL-08-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.08.05.01",
+      "sourceIds": [
+        "S203",
+        "S201"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 127,
+        "row": "| K01.08.05.01 | D2 / DRAFT_CANDIDATE | TQ06 | CQ04 S；CQ16 S；CQ19 S；CQ23 S | S203 description；S201 Multi-Part Music；推导 | TD2-K01.08.05.01 | 正常完整小节；弱起、无小节和例外另处理 |"
+      }
+    },
+    {
+      "d4": "K01.08.05.02",
+      "line": 128,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ04",
+        "CQ16"
+      ],
+      "claimRefs": [
+        "K01-CL-08-05-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.08.05.02",
+      "sourceIds": [
+        "S203",
+        "S201"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 128,
+        "row": "| K01.08.05.02 | D2 / DRAFT_CANDIDATE | TQ06 | CQ04 S；CQ16 S；CQ23 D | S203；S201 Symbolic Note Types | TB-K01.08.05.02 | MusicXML 4.0为具体格式见证，非所有宿主 |"
+      }
+    },
+    {
+      "d4": "K01.08.06.01",
+      "line": 129,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ16"
+      ],
+      "claimRefs": [
+        "K01-CL-08-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.08.06.01",
+      "sourceIds": [
+        "S201",
+        "S078"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 129,
+        "row": "| K01.08.06.01 | D2 / DRAFT_CANDIDATE | TQ06 | CQ16 S；CQ23 D | S201 Accidentals / Notations；S078 pitch | TB-K01.08.06.01 | 具体MusicXML版本及语境；传统变音作用范围仍专项 |"
+      }
+    },
+    {
+      "d4": "K01.08.06.02",
+      "line": 130,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ16",
+        "CQ20"
+      ],
+      "claimRefs": [
+        "K01-CL-08-06-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD2-K01.08.06.02",
+      "sourceIds": [
+        "S201",
+        "S200"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 130,
+        "row": "| K01.08.06.02 | D2 / DRAFT_CANDIDATE | TQ06 | CQ14 S；CQ16 S；CQ20 S；CQ23 D | S201 Notations；S200 | TD2-K01.08.06.02 | 格式主责K12，K01负责语义 |"
+      }
+    },
+    {
+      "d4": "K01.08.06.03",
+      "line": 131,
+      "localQuery": "TQ09",
+      "directCQ": [
+        "CQ16",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ19",
+        "CQ21",
+        "CQ24"
+      ],
+      "claimRefs": [
+        "K01-CL-08-06-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.08.06.03",
+      "sourceIds": [
+        "S201"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 131,
+        "row": "| K01.08.06.03 | D2 / DRAFT_CANDIDATE | TQ09 | CQ16 D；CQ19 S；CQ21 S；CQ23 D；CQ24 S | S201 格式见证；K09工程需求 | TB-K01.08.06.03 | 明确保护范围与允许变更，未实测 |"
+      }
+    },
+    {
+      "d4": "K01.08.07.01",
+      "line": 132,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ17",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ16",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-08-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TL-K01.08.07.01",
+      "sourceIds": [
+        "S272",
+        "S253"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 132,
+        "row": "| K01.08.07.01 | L / DRAFT_CANDIDATE | TQ06 | CQ16 S；CQ17 D；CQ23 D；CQ26 S | S272 Content；S253 Table15.1.1 | TL-K01.08.07.01 | MusicXML4.0标记类型与局部变音可分别表示；不从标记唯一推出实际历史演奏序列，格式主责K12 |"
+      }
+    },
+    {
+      "d4": "K01.09.04.01",
+      "line": 133,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ17",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [
+        "K01-CL-09-04-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.09.04.01",
+      "sourceIds": [
+        "S186"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 133,
+        "row": "| K01.09.04.01 | D1 / DRAFT_CANDIDATE | TQ06 | CQ01 S；CQ17 D；CQ23 D | S186 §33.1.2 | TB-K01.09.04.01 | 十二音音级集合 |"
+      }
+    },
+    {
+      "d4": "K01.09.04.02",
+      "line": 134,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ17",
+        "CQ23"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-09-04-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.09.04",
+      "sourceIds": [
+        "S186"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 134,
+        "row": "| K01.09.04.02 | D1 / DRAFT_CANDIDATE | TQ06 | CQ17 D；CQ23 D | S186 §33.1.4；数学推导 | TD-K01.09.04 | 非序列；另存原谱 |"
+      }
+    },
+    {
+      "d4": "K01.09.04.03",
+      "line": 135,
+      "localQuery": "TQ07",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ13"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [
+        "S222",
+        "S282"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 135,
+        "row": "| K01.09.04.03 | D1 / EVIDENCE_OPEN | TQ07 | CQ02 S；CQ13 S；CQ17 D | S186 §33.1；S170目录 | — / EVIDENCE_OPEN | 不计算未核规则 |"
+      }
+    },
+    {
+      "d4": "K01.09.05.01",
+      "line": 136,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-05-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.09.05",
+      "sourceIds": [
+        "S187"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 136,
+        "row": "| K01.09.05.01 | D1 / DRAFT_CANDIDATE | TQ07 | CQ02 S | S187 §33.7 | TD-K01.09.05 | 0..11整数；整数n |"
+      }
+    },
+    {
+      "d4": "K01.09.05.02",
+      "line": 137,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-05-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.09.05-I",
+      "sourceIds": [
+        "S188"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 137,
+        "row": "| K01.09.05.02 | D1 / DRAFT_CANDIDATE | TQ07 | CQ02 S | S188 §33.8 | TD-K01.09.05-I | C=0；与其他倒影记号区分 |"
+      }
+    },
+    {
+      "d4": "K01.09.05.03",
+      "line": 138,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ19"
+      ],
+      "claimRefs": [
+        "K01-CL-09-05-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.09.05.03",
+      "sourceIds": [
+        "S187",
+        "S188"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 138,
+        "row": "| K01.09.05.03 | D1 / DRAFT_CANDIDATE | TQ07 | CQ02 S；CQ19 S | S187/S188；数学推导 | TB-K01.09.05.03 | 集合对称可能产生多解 |"
+      }
+    },
+    {
+      "d4": "K01.09.06.01",
+      "line": 139,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-06-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD-K01.09.06",
+      "sourceIds": [
+        "S183"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 139,
+        "row": "| K01.09.06.01 | D1 / DRAFT_CANDIDATE | TQ07 | CQ02 S | S183 §34.1.2 | TD-K01.09.06 | 显式声明约定，不跨教材假定 |"
+      }
+    },
+    {
+      "d4": "K01.09.06.02",
+      "line": 140,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-06-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.09.06.02",
+      "sourceIds": [
+        "S183",
+        "S225"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 140,
+        "row": "| K01.09.06.02 | D1 / LIMITED_CANDIDATE | TQ07 | CQ02 S | S183 §34.1.2；S170 ch34目录 | TE-K01.09.06.02 | 不能仅凭同一集合重建行 |"
+      }
+    },
+    {
+      "d4": "K01.09.07.01",
+      "line": 141,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-07-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.09.07.01",
+      "sourceIds": [
+        "S222"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 141,
+        "row": "| K01.09.07.01 | D3 / DRAFT_CANDIDATE | TQ07 | CQ02 S | S222 §33.2 | TD3-K01.09.07.01 | 整数0..11，跨八度展开；平局算法另证 |"
+      }
+    },
+    {
+      "d4": "K01.09.07.02",
+      "line": 142,
+      "localQuery": "TQ07",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ13"
+      ],
+      "claimRefs": [
+        "K01-CL-09-07-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TB-K01.09.07.02",
+      "sourceIds": [
+        "S222",
+        "S223"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 142,
+        "row": "| K01.09.07.02 | D3 / DRAFT_CANDIDATE | TQ07 | CQ02 S；CQ13 S；CQ17 D | S223 §33.3；S222 | TB-K01.09.07.02 | 非所有教材同算法，完整Forte/Rahn差异待证 |"
+      }
+    },
+    {
+      "d4": "K01.09.08.01",
+      "line": 143,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-08-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.09.08.01",
+      "sourceIds": [
+        "S224"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 143,
+        "row": "| K01.09.08.01 | D3 / DRAFT_CANDIDATE | TQ07 | CQ02 S | S224 §33.4；数学推导；S226工具文档 | TD3-K01.09.08.01 | d为绝对音级差，重复须先去除 |"
+      }
+    },
+    {
+      "d4": "K01.09.08.02",
+      "line": 144,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ13",
+        "CQ24"
+      ],
+      "claimRefs": [
+        "K01-CL-09-08-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.09.08.02",
+      "sourceIds": [
+        "S224"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 144,
+        "row": "| K01.09.08.02 | D3 / DRAFT_CANDIDATE | TQ07 | CQ02 S；CQ13 S；CQ24 S | S224 §33.4；组合计数推导 | TC-K01.09.08.02 | 不以来源地位替代验证 |"
+      }
+    },
+    {
+      "d4": "K01.09.08.03",
+      "line": 145,
+      "localQuery": "TQ07",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-08-03@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.09.08.03",
+      "sourceIds": [
+        "S224",
+        "S187",
+        "S188"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 145,
+        "row": "| K01.09.08.03 | D3 / DRAFT_CANDIDATE | TQ07 | CQ02 S；CQ17 D | 数学穷举；S224；S187/S188 | TD3-K01.09.08.03 | 十二音集合，非历史创作操作推断 |"
+      }
+    },
+    {
+      "d4": "K01.09.09.01",
+      "line": 146,
+      "localQuery": "TQ07",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ19"
+      ],
+      "claimRefs": [
+        "K01-CL-09-09-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TD3-K01.09.09.01",
+      "sourceIds": [
+        "S225",
+        "S183"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 146,
+        "row": "| K01.09.09.01 | D3 / DRAFT_CANDIDATE | TQ07 | CQ02 S；CQ19 S | S225 §34.4；S183；数学推导 | TD3-K01.09.09.01 | 声明C=0及标记约定；不要求首音为0；矩阵不保留原作时值/音区/声部 |"
+      }
+    },
+    {
+      "d4": "K01.09.09.02",
+      "line": 147,
+      "localQuery": "TQ07",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-09-09-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TC-K01.09.09.02",
+      "sourceIds": [
+        "S225",
+        "S183"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 147,
+        "row": "| K01.09.09.02 | D3 / DRAFT_CANDIDATE | TQ07 | CQ02 S；CQ17 D | S225；S183；数学推导 | TC-K01.09.09.02 | 对称行可能重合，不等于集合排序 |"
+      }
+    },
+    {
+      "d4": "K01.09.10.01",
+      "line": 148,
+      "localQuery": "TQ07",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ13",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-09-10-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.09.10.01",
+      "sourceIds": [
+        "S222",
+        "S223"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 148,
+        "row": "| K01.09.10.01 | E / DRAFT_CANDIDATE | TQ07 | CQ02 S；CQ13 S；CQ17 D；CQ26 S | S222 §33.2脚注重读；S223原定位 | TE-K01.09.10.01 | 仅当相同最小跨度且首级比较已分胜负，明确Forte/Rahn约定，后续平局不判 |"
+      }
+    },
+    {
+      "d4": "K01.01.01.01",
+      "line": 153,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-01-01-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.01.01.01",
+      "sourceIds": [
+        "S242",
+        "S250",
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 153,
+        "row": "| K01.01.01.01 | RETAIN | TQ01 | CQ01 D | K01.01.01.01；S021 等音异名; S028 implicitDiatonic；实际频率引用K01.02；CQ01/17；FG-K01.01.01；CP-K01.01 | TE-K01.01.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.01.01.02",
+      "line": 154,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01",
+        "CQ17",
+        "CQ23"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.01.01.02",
+      "sourceIds": [
+        "S209",
+        "S258"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 154,
+        "row": "| K01.01.01.02 | SCOPED_ROUTER | TQ01 | CQ01 D；CQ17 D；CQ23 D | K01.01.04.02；K01.09.04.01；K01.01.06.01；S021 等音异名; S028 implicitDiatonic；实际频率引用K01.02；CQ01/17；FG-K01.01.01；CP-K01.01 | TL-K01.01.01.02 |"
+      }
+    },
+    {
+      "d4": "K01.01.02.01",
+      "line": 155,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.01.02.01",
+      "sourceIds": [
+        "S258",
+        "S209"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 155,
+        "row": "| K01.01.02.01 | SCOPED_ROUTER | TQ01 | CQ01 D | K01.01.06.01；K01.01.04.02；S021 Example16; S028 Interval Class; S004 §3.3；CQ01/02/17；FG-K01.01.02；CP-K01.01 | TL-K01.01.02.01 |"
+      }
+    },
+    {
+      "d4": "K01.01.02.02",
+      "line": 156,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 156,
+        "row": "| K01.01.02.02 | SCOPED_ROUTER | TQ01 | CQ01 D | K01.01.05.01；S021 Example16; S028 Interval Class; S004 §3.3；CQ01/02/17；FG-K01.01.02；CP-K01.01 | FG-K01.01.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.01.03.01",
+      "line": 157,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [
+        "CQ19"
+      ],
+      "claimRefs": [
+        "K01-CL-01-03-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.01.03.01",
+      "sourceIds": [
+        "S209",
+        "S255"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 157,
+        "row": "| K01.01.03.01 | RETAIN | TQ01 | CQ01 D；CQ19 S | K01.01.03.01；S028 transpose；S022频率比入口；音分专门公式待证；CQ01/17；FG-K01.01.03；CP-K01.01 | TE-K01.01.03.01 |"
+      }
+    },
+    {
+      "d4": "K01.01.03.02",
+      "line": 158,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 158,
+        "row": "| K01.01.03.02 | SCOPED_ROUTER | TQ01 | CQ01 D | K01.02.04.01；K01.02.04.02；K01.02.04.03；S028 transpose；S022频率比入口；音分专门公式待证；CQ01/17；FG-K01.01.03；CP-K01.01 | FG-K01.01.03 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.02.01.01",
+      "line": 159,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [
+        "CQ07"
+      ],
+      "claimRefs": [
+        "K01-CL-02-01-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.02.01.01",
+      "sourceIds": [
+        "S022"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 159,
+        "row": "| K01.02.01.01 | RETAIN | TQ01 | CQ01 D；CQ07 S | K01.02.01.01；S022 equal temperament与MIDI公式；S004 §4.3.1条件；CQ01/17；FG-K01.02.01；CP-K01.02 | TE-K01.02.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.02.01.02",
+      "line": 160,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 160,
+        "row": "| K01.02.01.02 | SCOPED_ROUTER | TQ01 | CQ01 D | K01.02.04.01；K01.02.04.02；S022 equal temperament与MIDI公式；S004 §4.3.1条件；CQ01/17；FG-K01.02.01；CP-K01.02 | FG-K01.02.01 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.02.02.01",
+      "line": 161,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 161,
+        "row": "| K01.02.02.01 | SCOPED_ROUTER | TQ01 | CQ01 D | K01.02.05.01；K01.02.05.02；K01.02.05.03；S022平均律公式；纯律/音分比较专项待证；CQ01/17；FG-K01.02.02；CP-K01.02 | FG-K01.02.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.02.02.02",
+      "line": 162,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 162,
+        "row": "| K01.02.02.02 | SCOPED_ROUTER | TQ01 | CQ01 D | K01.02.04.01；K01.02.05.01；K01.02.05.02；S022平均律公式；纯律/音分比较专项待证；CQ01/17；FG-K01.02.02；CP-K01.02 | FG-K01.02.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.02.03.01",
+      "line": 163,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [
+        "CQ18",
+        "CQ26"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.02.03.01",
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 163,
+        "row": "| K01.02.03.01 | SPLIT_BOUNDARY_OPEN | TQ01 | CQ01 D；CQ18 S；CQ26 S | K01.02.06.01；K01.02.06.02；S133古典竖琴例（非普遍）；历史律制及映射方法待证；K13.02；CQ01/18/26；FG-K01.02.03；CP-K01.02 | TL-K01.02.03.01 |"
+      }
+    },
+    {
+      "d4": "K01.02.03.02",
+      "line": 164,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01",
+        "CQ17",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ18"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 164,
+        "row": "| K01.02.03.02 | RESIDUAL_OPEN | TQ01 | CQ01 D；CQ17 D；CQ18 S；CQ23 D | K01.02.06.01；K01.02.06.02；S133古典竖琴例（非普遍）；历史律制及映射方法待证；K13.02；CQ01/18/26；FG-K01.02.03；CP-K01.02 | FG-K01.02.03 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.03.01.01",
+      "line": 165,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-03-01-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.03.01.01",
+      "sourceIds": [
+        "S029"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 165,
+        "row": "| K01.03.01.01 | RETAIN | TQ01 | CQ01 D | K01.03.01.01；S004 §3.5/4.3.1; S029; S039；CQ01/02/17/18；FG-K01.03.01；CP-K01.03 | TE-K01.03.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.03.01.02",
+      "line": 166,
+      "localQuery": "TQ01",
+      "directCQ": [
+        "CQ01"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.03.01.02",
+      "sourceIds": [
+        "S259"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 166,
+        "row": "| K01.03.01.02 | RESIDUAL_OPEN | TQ01 | CQ01 D | K01.03.09.01；K01.03.05.01；K01.03.07.01；K01.03.08.02；S004 §3.5/4.3.1; S029; S039；CQ01/02/17/18；FG-K01.03.01；CP-K01.03 | TL-K01.03.01.02 |"
+      }
+    },
+    {
+      "d4": "K01.03.02.01",
+      "line": 167,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 167,
+        "row": "| K01.03.02.01 | SCOPED_ROUTER | TQ02 | CQ02 D | K01.03.07.02；K01.05.05.01；S004 §3.5/4.3.1; S029; S039；CQ01/02/17/18；FG-K01.03.02；CP-K01.03 | FG-K01.03.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.03.02.02",
+      "line": 168,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 168,
+        "row": "| K01.03.02.02 | SCOPED_ROUTER | TQ02 | CQ02 D | K01.03.05.01；K01.03.05.02；K01.03.06.01；K01.03.06.02；S004 §3.5/4.3.1; S029; S039；CQ01/02/17/18；FG-K01.03.02；CP-K01.03 | FG-K01.03.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.03.03.01",
+      "line": 169,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 169,
+        "row": "| K01.03.03.01 | SCOPED_ROUTER | TQ02 | CQ02 D | K01.03.04.01；K01.03.04.02；K01.03.04.03；S004 §3.5/4.3.1; S029; S039；CQ01/02/17/18；FG-K01.03.03；CP-K01.03 | FG-K01.03.03 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.03.03.02",
+      "line": 170,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.03.03.02",
+      "sourceIds": [
+        "S178",
+        "S179",
+        "S234",
+        "S268"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 170,
+        "row": "| K01.03.03.02 | RESIDUAL_OPEN | TQ02 | CQ02 D | K01.03.04.01；K01.05.06.02；K01.05.07.01；K01.05.15.01；K01.05.15.02；S004 §3.5/4.3.1; S029; S039；CQ01/02/17/18；FG-K01.03.03；CP-K01.03 | TL-K01.03.03.02 |"
+      }
+    },
+    {
+      "d4": "K01.04.01.01",
+      "line": 171,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 171,
+        "row": "| K01.04.01.01 | SCOPED_ROUTER | TQ04 | CQ04 S | K01.04.04.01；K01.04.05.01；K01.04.05.02；S004 §3.1–2; S040/S041；CQ02/04/17；FG-K01.04.01；CP-K01.04 | FG-K01.04.01 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.04.01.02",
+      "line": 172,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.04.01.02",
+      "sourceIds": [
+        "S196",
+        "S199"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 172,
+        "row": "| K01.04.01.02 | RESIDUAL_OPEN | TQ04 | CQ04 S | K01.04.04.01；K01.04.05.01；K01.04.05.03；S004 §3.1–2; S040/S041；CQ02/04/17；FG-K01.04.01；CP-K01.04 | TL-K01.04.01.02 |"
+      }
+    },
+    {
+      "d4": "K01.04.02.01",
+      "line": 173,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.04.02.01",
+      "sourceIds": [
+        "S251",
+        "S252",
+        "S198",
+        "S197"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 173,
+        "row": "| K01.04.02.01 | SCOPED_ROUTER | TQ04 | CQ04 S | K01.04.08.01；K01.04.08.02；K01.04.06.01；K01.04.06.02；K01.08.04.02；S004 §3.1–2; S040/S041；CQ02/04/17；FG-K01.04.02；CP-K01.04 | TL-K01.04.02.01 |"
+      }
+    },
+    {
+      "d4": "K01.04.02.02",
+      "line": 174,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 174,
+        "row": "| K01.04.02.02 | SCOPED_ROUTER | TQ04 | CQ04 S | K01.04.04.01；K01.04.06.01；S004 §3.1–2; S040/S041；CQ02/04/17；FG-K01.04.02；CP-K01.04 | FG-K01.04.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.04.03.01",
+      "line": 175,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 175,
+        "row": "| K01.04.03.01 | SCOPED_ROUTER | TQ04 | CQ04 S | K01.04.04.02；S004 §3.1–2; S040/S041；CQ02/04/17；FG-K01.04.03；CP-K01.04 | FG-K01.04.03 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.04.03.02",
+      "line": 176,
+      "localQuery": "TQ04",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.04.03.02",
+      "sourceIds": [
+        "S270",
+        "S271"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 176,
+        "row": "| K01.04.03.02 | RESIDUAL_OPEN | TQ04 | CQ04 S | K01.04.07.01；K01.04.09.01；K01.04.10.01；S004 §3.1–2; S040/S041；CQ02/04/17；FG-K01.04.03；CP-K01.04 | TL-K01.04.03.02 |"
+      }
+    },
+    {
+      "d4": "K01.05.01.01",
+      "line": 177,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.05.01.01",
+      "sourceIds": [
+        "S210",
+        "S184",
+        "S258"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 177,
+        "row": "| K01.05.01.01 | SCOPED_ROUTER | TQ02 | CQ01 S；CQ02 D | K01.05.11.01；K01.05.11.02；K01.05.04.01；K01.01.06.01；S004 §3.4/4.3.2；S042检索；扩展/省略需专项；CQ02/03/17；FG-K01.05.01；CP-K01.05 | TL-K01.05.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.05.01.02",
+      "line": 178,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.05.01.02",
+      "sourceIds": [
+        "S184",
+        "S181",
+        "S267"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 178,
+        "row": "| K01.05.01.02 | RESIDUAL_OPEN | TQ02 | CQ02 D | K01.05.04.01；K01.05.09.01；K01.05.09.02；K01.05.12.02；K01.05.16.01；S004 §3.4/4.3.2；S042检索；扩展/省略需专项；CQ02/03/17；FG-K01.05.01；CP-K01.05 | TL-K01.05.01.02 |"
+      }
+    },
+    {
+      "d4": "K01.05.02.01",
+      "line": 179,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 179,
+        "row": "| K01.05.02.01 | SCOPED_ROUTER | TQ02 | CQ02 D | K01.05.12.01；K01.05.12.02；S030 root/inversion；S004 §5.3仅缺口；S042检索；CQ02/03/17；FG-K01.05.02；CP-K01.05 | FG-K01.05.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.05.02.02",
+      "line": 180,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 180,
+        "row": "| K01.05.02.02 | SCOPED_ROUTER | TQ02 | CQ02 D | K01.05.12.01；S030 root/inversion；S004 §5.3仅缺口；S042检索；CQ02/03/17；FG-K01.05.02；CP-K01.05 | FG-K01.05.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.05.03.01",
+      "line": 181,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 181,
+        "row": "| K01.05.03.01 | SCOPED_ROUTER | TQ02 | CQ02 D | K01.05.05.01；K01.05.05.02；K01.05.06.02；S044检索；S170 ch7–9/17–23目录；功能语义逐章待证；CQ02/17；FG-K01.05.03；CP-K01.05 | FG-K01.05.03 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.05.03.02",
+      "line": 182,
+      "localQuery": "TQ02",
+      "directCQ": [
+        "CQ02",
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.05.03.02",
+      "sourceIds": [
+        "S174",
+        "S178"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 182,
+        "row": "| K01.05.03.02 | SCOPED_ROUTER | TQ02 | CQ02 D；CQ17 D | K01.05.05.02；K01.05.06.02；K01.03.04.03；K01.09.03.01；S044检索；S170 ch7–9/17–23目录；功能语义逐章待证；CQ02/17；FG-K01.05.03；CP-K01.05 | TL-K01.05.03.02 |"
+      }
+    },
+    {
+      "d4": "K01.06.01.01",
+      "line": 183,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [
+        "K01-CL-06-01-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.01.01",
+      "sourceIds": [
+        "S240"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 183,
+        "row": "| K01.06.01.01 | RETAIN | TQ05 | CQ02 S | K01.06.01.01；S004 §3.3; S043 (线索)；CQ02/03/17；FG-K01.06.01；CP-K01.06 | TE-K01.06.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.06.01.02",
+      "line": 184,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 184,
+        "row": "| K01.06.01.02 | SCOPED_ROUTER | TQ05 | CQ02 S | K01.06.08.01；S004 §3.3; S043 (线索)；CQ02/03/17；FG-K01.06.01；CP-K01.06 | FG-K01.06.01 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.06.02.01",
+      "line": 185,
+      "localQuery": "TQ05",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ02",
+        "CQ13",
+        "CQ15",
+        "CQ26"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.06.02.01",
+      "sourceIds": [
+        "S217",
+        "S245",
+        "S262"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 185,
+        "row": "| K01.06.02.01 | RESIDUAL_OPEN | TQ05 | CQ02 S；CQ13 S；CQ15 S；CQ17 D；CQ26 S | K01.06.07.01；K01.06.11.01；K01.06.12.01；K01.06.16.04；K01.06.02.02；S004 §3.3; S043 (线索)；CQ02/03/17；FG-K01.06.02；CP-K01.06 | TL-K01.06.02.01 |"
+      }
+    },
+    {
+      "d4": "K01.06.02.02",
+      "line": 186,
+      "localQuery": "TQ08",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ15",
+        "CQ26"
+      ],
+      "claimRefs": [
+        "K01-CL-06-02-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.06.02.02",
+      "sourceIds": [
+        "S217",
+        "S245"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 186,
+        "row": "| K01.06.02.02 | RETAIN | TQ08 | CQ13 S；CQ15 S；CQ17 D；CQ26 S | K01.06.02.02；S004 §3.3; S043 (线索)；CQ02/03/17；FG-K01.06.02；CP-K01.06 | TE-K01.06.02.02 |"
+      }
+    },
+    {
+      "d4": "K01.06.03.01",
+      "line": 187,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02",
+        "CQ03",
+        "CQ19"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.06.03.01",
+      "sourceIds": [
+        "S260",
+        "S261",
+        "S263",
+        "S262"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 187,
+        "row": "| K01.06.03.01 | RESIDUAL_OPEN | TQ05 | CQ02 S；CQ03 S；CQ19 S | K01.06.08.01；K01.06.08.02；K01.06.08.03；K01.06.16.01；K01.06.16.02；K01.06.16.03；K01.06.16.04；S004 §3.3; S043 (线索)；CQ02/03/17；FG-K01.06.03；CP-K01.06 | TL-K01.06.03.01 |"
+      }
+    },
+    {
+      "d4": "K01.06.03.02",
+      "line": 188,
+      "localQuery": "TQ05",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.06.03.02",
+      "sourceIds": [
+        "S176",
+        "S264",
+        "S265",
+        "S266"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 188,
+        "row": "| K01.06.03.02 | RESIDUAL_OPEN | TQ05 | CQ02 S | K01.06.04.01；K01.06.04.02；K01.06.05.01；K01.06.06.01；K01.06.06.02；K01.06.17.01；K01.06.17.02；S004 §3.3; S043 (线索)；CQ02/03/17；FG-K01.06.03；CP-K01.06 | TL-K01.06.03.02 |"
+      }
+    },
+    {
+      "d4": "K01.07.01.01",
+      "line": 189,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [
+        "K01-CL-07-01-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.07.01.01",
+      "sourceIds": [
+        "S069",
+        "S239"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 189,
+        "row": "| K01.07.01.01 | RETAIN | TQ03 | CQ02 D | K01.07.01.01；S004 §5.3/6 (缺口); S044；CQ02/16/17；FG-K01.07.01；CP-K01.07 | TE-K01.07.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.07.01.02",
+      "line": 190,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.07.01.02",
+      "sourceIds": [
+        "S069",
+        "S239",
+        "S220"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 190,
+        "row": "| K01.07.01.02 | SCOPED_ROUTER | TQ03 | CQ02 D | K01.07.04.02；K01.07.07.01；K01.07.01.01；S004 §5.3/6 (缺口); S044；CQ02/16/17；FG-K01.07.01；CP-K01.07 | TL-K01.07.01.02 |"
+      }
+    },
+    {
+      "d4": "K01.07.02.01",
+      "line": 191,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.07.02.01",
+      "sourceIds": [
+        "S175",
+        "S238"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 191,
+        "row": "| K01.07.02.01 | SCOPED_ROUTER | TQ03 | CQ02 D | K01.07.04.01；K01.07.04.02；K01.07.08.01；K01.07.08.02；S004 §5.3/6 (缺口); S044；CQ02/16/17；FG-K01.07.02；CP-K01.07 | TL-K01.07.02.01 |"
+      }
+    },
+    {
+      "d4": "K01.07.02.02",
+      "line": 192,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 192,
+        "row": "| K01.07.02.02 | SCOPED_ROUTER | TQ03 | CQ02 D | K01.07.04.02；S004 §5.3/6 (缺口); S044；CQ02/16/17；FG-K01.07.02；CP-K01.07 | FG-K01.07.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.07.03.01",
+      "line": 193,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.07.03.01",
+      "sourceIds": [
+        "S219",
+        "S221",
+        "S269"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 193,
+        "row": "| K01.07.03.01 | RESIDUAL_OPEN | TQ03 | CQ02 D | K01.07.05.01；K01.07.06.01；K01.07.07.01；K01.07.07.02；K01.07.09.01；S004 §5.3/6 (缺口); S044；CQ02/16/17；FG-K01.07.03；CP-K01.07 | TL-K01.07.03.01 |"
+      }
+    },
+    {
+      "d4": "K01.07.03.02",
+      "line": 194,
+      "localQuery": "TQ03",
+      "directCQ": [
+        "CQ02"
+      ],
+      "supportCQ": [
+        "CQ16",
+        "CQ21"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.07.03.02",
+      "sourceIds": [
+        "S185",
+        "S219"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 194,
+        "row": "| K01.07.03.02 | SCOPED_ROUTER | TQ03 | CQ02 D；CQ16 S；CQ21 S | K01.07.05.02；K01.07.06.02；K01.09.03.01；S004 §5.3/6 (缺口); S044；CQ02/16/17；FG-K01.07.03；CP-K01.07 | TL-K01.07.03.02 |"
+      }
+    },
+    {
+      "d4": "K01.08.01.01",
+      "line": 195,
+      "localQuery": "TQ06",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ23"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.08.01.01",
+      "sourceIds": [
+        "S242",
+        "S243",
+        "S241",
+        "S201"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 195,
+        "row": "| K01.08.01.01 | RESIDUAL_OPEN | TQ06 | CQ23 S | K01.08.06.01；K01.08.01.02；K01.01.01.01；S004 §3.1–2/5.3; S028; S040；CQ01/16/23；FG-K01.08.01；CP-K01.08 | TL-K01.08.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.08.01.02",
+      "line": 196,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ23"
+      ],
+      "claimRefs": [
+        "K01-CL-08-01-02@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.08.01.02",
+      "sourceIds": [
+        "S241",
+        "S242",
+        "S243",
+        "S250"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 196,
+        "row": "| K01.08.01.02 | RETAIN | TQ06 | CQ17 D；CQ23 S | K01.08.01.02；S004 §3.1–2/5.3; S028; S040；CQ01/16/23；FG-K01.08.01；CP-K01.08 | TE-K01.08.01.02 |"
+      }
+    },
+    {
+      "d4": "K01.08.02.01",
+      "line": 197,
+      "localQuery": "TQ06",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04",
+        "CQ23"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.08.02.01",
+      "sourceIds": [
+        "S197",
+        "S201",
+        "S252"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 197,
+        "row": "| K01.08.02.01 | SCOPED_ROUTER | TQ06 | CQ04 S；CQ23 S | K01.08.04.01；K01.08.04.02；K01.08.05.02；K01.04.08.02；S004 §3.1–2/5.3; S028; S040；CQ01/16/23；FG-K01.08.02；CP-K01.08 | TL-K01.08.02.01 |"
+      }
+    },
+    {
+      "d4": "K01.08.02.02",
+      "line": 198,
+      "localQuery": "TQ06",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04",
+        "CQ23"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 198,
+        "row": "| K01.08.02.02 | RESIDUAL_OPEN | TQ06 | CQ04 S；CQ23 S | K01.08.05.01；S004 §3.1–2/5.3; S028; S040；CQ01/16/23；FG-K01.08.02；CP-K01.08 | FG-K01.08.02 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.08.03.01",
+      "line": 199,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ23"
+      ],
+      "claimRefs": [
+        "K01-CL-08-03-01@1"
+      ],
+      "disposition": "CANDIDATE",
+      "primaryCaseId": "TE-K01.08.03.01",
+      "sourceIds": [
+        "S253"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 199,
+        "row": "| K01.08.03.01 | RETAIN | TQ06 | CQ17 D；CQ23 S | K01.08.03.01；S004 §3.1–2/5.3; S028; S040；CQ01/16/23；FG-K01.08.03；CP-K01.08 | TE-K01.08.03.01 |"
+      }
+    },
+    {
+      "d4": "K01.08.03.02",
+      "line": 200,
+      "localQuery": "TQ09",
+      "directCQ": [
+        "CQ16",
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ21",
+        "CQ24"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": null,
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 200,
+        "row": "| K01.08.03.02 | SCOPED_ROUTER | TQ09 | CQ16 D；CQ21 S；CQ23 D；CQ24 S | K01.08.06.02；K01.08.06.03；S004 §3.1–2/5.3; S028; S040；CQ01/16/23；FG-K01.08.03；CP-K01.08 | FG-K01.08.03 / 历史入口，按具体路由核查 |"
+      }
+    },
+    {
+      "d4": "K01.09.01.01",
+      "line": 201,
+      "localQuery": "TQ06",
+      "directCQ": [
+        "CQ23"
+      ],
+      "supportCQ": [
+        "CQ14"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.09.01.01",
+      "sourceIds": [
+        "S186",
+        "S201",
+        "S078"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 201,
+        "row": "| K01.09.01.01 | RESIDUAL_OPEN | TQ06 | CQ14 S；CQ23 D | K01.09.04.01；K01.09.04.02；K01.08.05.02；K01.08.06.02；S004 §4–5; S028/S029/S030；CQ02/13/17/25；FG-K01.09.01；CP-K01.09 | TL-K01.09.01.01 |"
+      }
+    },
+    {
+      "d4": "K01.09.01.02",
+      "line": 202,
+      "localQuery": "TQ08",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25",
+        "CQ26"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TE-K01.09.01.02",
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 202,
+        "row": "| K01.09.01.02 | RETAIN | TQ08 | CQ13 S；CQ17 D；CQ25 S；CQ26 S | K01.09.01.02；S004 §4–5; S028/S029/S030；CQ02/13/17/25；FG-K01.09.01；CP-K01.09 | TE-K01.09.01.02 |"
+      }
+    },
+    {
+      "d4": "K01.09.02.01",
+      "line": 203,
+      "localQuery": "TQ08",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TL-K01.09.02.01",
+      "sourceIds": [
+        "S187",
+        "S224",
+        "S220"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 203,
+        "row": "| K01.09.02.01 | SCOPED_ROUTER | TQ08 | CQ17 D | K01.09.05.01；K01.09.05.02；K01.09.08.02；K01.07.07.01；K01.09.01.02；S004 §4–5; S028/S029/S030；CQ02/13/17/25；FG-K01.09.02；CP-K01.09 | TL-K01.09.02.01 |"
+      }
+    },
+    {
+      "d4": "K01.09.02.02",
+      "line": 204,
+      "localQuery": "TQ08",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ13",
+        "CQ14",
+        "CQ20",
+        "CQ24",
+        "CQ25"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.09.02.02",
+      "sourceIds": [
+        "S224",
+        "S225"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 204,
+        "row": "| K01.09.02.02 | RESIDUAL_OPEN | TQ08 | CQ13 S；CQ14 S；CQ20 S；CQ24 S；CQ25 S | K01.09.05.03；K01.09.08.02；K01.09.09.01；K01.09.03.02；S004 §4–5; S028/S029/S030；CQ02/13/17/25；FG-K01.09.02；CP-K01.09 | TL-K01.09.02.02 |"
+      }
+    },
+    {
+      "d4": "K01.09.03.01",
+      "line": 205,
+      "localQuery": "TQ08",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "claimRefs": [],
+      "disposition": "UNKNOWN",
+      "primaryCaseId": "TL-K01.09.03.01",
+      "sourceIds": [
+        "S178",
+        "S185",
+        "S220"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 205,
+        "row": "| K01.09.03.01 | RESIDUAL_OPEN | TQ08 | CQ13 S；CQ25 S | K01.03.04.03；K01.07.05.02；K01.09.03.02；S004 §4–5; S028/S029/S030；CQ02/13/17/25；FG-K01.09.03；CP-K01.09 | TL-K01.09.03.01 |"
+      }
+    },
+    {
+      "d4": "K01.09.03.02",
+      "line": 206,
+      "localQuery": "TQ09",
+      "directCQ": [
+        "CQ16"
+      ],
+      "supportCQ": [
+        "CQ19",
+        "CQ21",
+        "CQ24",
+        "CQ25"
+      ],
+      "claimRefs": [],
+      "disposition": "ROUTED",
+      "primaryCaseId": "TE-K01.09.03.02",
+      "sourceIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "line": 206,
+        "row": "| K01.09.03.02 | RETAIN | TQ09 | CQ16 D；CQ19 S；CQ21 S；CQ24 S；CQ25 S | K01.09.03.02；S004 §4–5; S028/S029/S030；CQ02/13/17/25；FG-K01.09.03；CP-K01.09 | TE-K01.09.03.02 |"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2183 @@
+{
+  "format": "audio-kg-K01-role-candidate/1",
+  "status": "CANDIDATE_NOT_PERMISSION",
+  "frozenMatrix": "docs/product/calibration/theory-capability-calibration.md",
+  "matrixBlob": "db1a4f8e12c229ca8585916355e0d93d527ad57d",
+  "roles": [
+    {
+      "id": "K01.01/A01",
+      "role": "P",
+      "task": "K01.01.02.01、K01.01.04.02音程身份",
+      "claimRefs": [
+        "K01-CL-01-04-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.01.02.01",
+          "claimRef": null,
+          "projectContract": false,
+          "caseId": "TL-K01.01.02.01",
+          "condition": "S258/S209；C4到E♭4或D♯4",
+          "expected": "3半音，分别小三度与增二度",
+          "reject": "3半音都判小三度"
+        },
+        {
+          "d4": "K01.01.04.02",
+          "claimRef": "K01-CL-01-04-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.01.04.02",
+          "condition": "S209；12TET书写C4–E♭4/E4、C4–G4、C4–F♯4/G♭4",
+          "expected": "3/4半音为小/大三度；7半音纯五度；两种6半音分别增四/减五",
+          "reject": "以半音相同合并F♯/G♭，或把E♭标大三度"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 5,
+        "row": "| K01.01 | A01 | P | K01.01.02.01、K01.01.04.02音程身份 | K01.01.02.01→TL-K01.01.02.01；K01.01.04.02→TB-K01.01.04.02 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.01/A02",
+      "role": "P",
+      "task": "K01.01.04.01转位条件，K01.01.03.01移调待补",
+      "claimRefs": [
+        "K01-CL-01-04-01@1",
+        "K01-CL-01-03-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.01.04.01",
+          "claimRef": "K01-CL-01-04-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.01.04.01",
+          "condition": "S191；简单上行八度内C4–E4、C4–G4、C4–F♯4",
+          "expected": "E4–C5小六度，G4–C5纯四度，F♯4–C5减五度；序数各合9、半音各合12",
+          "reject": "只倒序E4–C4或把F♯4–C5叫增四度"
+        },
+        {
+          "d4": "K01.01.03.01",
+          "claimRef": "K01-CL-01-03-01@1",
+          "projectContract": false,
+          "caseId": "TE-K01.01.03.01",
+          "condition": "S209/S255；C4上行增四度和减五度",
+          "expected": "分别F♯4、G♭4；同6半音但书写不同",
+          "reject": "只做mod12移位并丢失字母/八度"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 6,
+        "row": "| K01.01 | A02 | P | K01.01.04.01转位条件，K01.01.03.01移调待补 | K01.01.04.01→TD2-K01.01.04.01；K01.01.03.01→TE-K01.01.03.01 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.01/A03",
+      "role": "S",
+      "task": "K12.03、K12.04符号库/格式；具体版本未证",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.03",
+        "K12.04"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 7,
+        "row": "| K01.01 | A03 | S | K12.03、K12.04符号库/格式；具体版本未证 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.01/A04",
+      "role": "C",
+      "task": "仅谱面编辑，K01.08.06.03保护范围",
+      "claimRefs": [
+        "K01-CL-08-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.06.03",
+          "claimRef": "K01-CL-08-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.06.03",
+          "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
+          "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
+          "reject": "渲染成功就宣称局部编辑保真"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 8,
+        "row": "| K01.01 | A04 | C | 仅谱面编辑，K01.08.06.03保护范围 | K01.08.06.03→TB-K01.08.06.03 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.01/A05",
+      "role": "P",
+      "task": "K01.01.04.02拼写及音程校验",
+      "claimRefs": [
+        "K01-CL-01-04-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.01.04.02",
+          "claimRef": "K01-CL-01-04-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.01.04.02",
+          "condition": "S209；12TET书写C4–E♭4/E4、C4–G4、C4–F♯4/G♭4",
+          "expected": "3/4半音为小/大三度；7半音纯五度；两种6半音分别增四/减五",
+          "reject": "以半音相同合并F♯/G♭，或把E♭标大三度"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 9,
+        "row": "| K01.01 | A05 | P | K01.01.04.02拼写及音程校验 | K01.01.04.02→TB-K01.01.04.02 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.01/A06",
+      "role": "C",
+      "task": "K01.01.05.01音名/八度，非问答必需",
+      "claimRefs": [
+        "K01-CL-01-05-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.01.05.01",
+          "claimRef": "K01-CL-01-05-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.01.05.01",
+          "condition": "保留实际音区与方向，C4–G5、C4–G4、G4–C4",
+          "expected": "前两者相差19和7半音，第三为下行7；记录方向及八度，不以同音级关系代替",
+          "reject": "三个例都只保存5度标签并称无损"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 10,
+        "row": "| K01.01 | A06 | C | K01.01.05.01音名/八度，非问答必需 | K01.01.05.01→TB-K01.01.05.01 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.01/A07",
+      "role": "C",
+      "task": "K01.08.06.03编辑/回归，问答不需",
+      "claimRefs": [
+        "K01-CL-08-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.06.03",
+          "claimRef": "K01-CL-08-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.06.03",
+          "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
+          "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
+          "reject": "渲染成功就宣称局部编辑保真"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 11,
+        "row": "| K01.01 | A07 | C | K01.08.06.03编辑/回归，问答不需 | K01.08.06.03→TB-K01.08.06.03 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.02/A01",
+      "role": "P",
+      "task": "K01.02.04.01、K01.02.04.02比值",
+      "claimRefs": [
+        "K01-CL-02-04-01@1",
+        "K01-CL-02-04-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.02.04.01",
+          "claimRef": "K01-CL-02-04-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.02.04.01",
+          "condition": "S022；同Hz单位，220/330均正",
+          "expected": "220→330约+701.955音分，330→220约−701.955，220→220为0；0或负频率输入不满足公式条件",
+          "reject": "直接将110Hz当110音分、忽略方向或取log(0)"
+        },
+        {
+          "d4": "K01.02.04.02",
+          "claimRef": "K01-CL-02-04-02@1",
+          "projectContract": false,
+          "caseId": "TC-K01.02.04.02",
+          "condition": "S022；参考442Hz、上行100音分",
+          "expected": "442×2^(1/12)≈468.283Hz",
+          "reject": "把100音分当100Hz得到542Hz"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 12,
+        "row": "| K01.02 | A01 | P | K01.02.04.01、K01.02.04.02比值 | K01.02.04.01→TD2-K01.02.04.01；K01.02.04.02→TC-K01.02.04.02 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.02/A02",
+      "role": "P",
+      "task": "K01.02.04.02、K01.02.06.01转换",
+      "claimRefs": [
+        "K01-CL-02-04-02@1",
+        "K01-CL-02-06-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.02.04.02",
+          "claimRef": "K01-CL-02-04-02@1",
+          "projectContract": false,
+          "caseId": "TC-K01.02.04.02",
+          "condition": "S022；参考442Hz、上行100音分",
+          "expected": "442×2^(1/12)≈468.283Hz",
+          "reject": "把100音分当100Hz得到542Hz"
+        },
+        {
+          "d4": "K01.02.06.01",
+          "claimRef": "K01-CL-02-06-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.02.06.01",
+          "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
+          "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
+          "reject": "删除445/450原值或标成A♯4、声称无损"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 13,
+        "row": "| K01.02 | A02 | P | K01.02.04.02、K01.02.06.01转换 | K01.02.04.02→TC-K01.02.04.02；K01.02.06.01→TD2-K01.02.06.01 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.02/A03",
+      "role": "S",
+      "task": "K12.03工具版本；K07.07测量",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.03",
+        "K07.07"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 14,
+        "row": "| K01.02 | A03 | S | K12.03工具版本；K07.07测量 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.02/A04",
+      "role": "C",
+      "task": "K01.02.06.01原值及映射版本",
+      "claimRefs": [
+        "K01-CL-02-06-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.02.06.01",
+          "claimRef": "K01-CL-02-06-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.02.06.01",
+          "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
+          "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
+          "reject": "删除445/450原值或标成A♯4、声称无损"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 15,
+        "row": "| K01.02 | A04 | C | K01.02.06.01原值及映射版本 | K01.02.06.01→TD2-K01.02.06.01 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.02/A05",
+      "role": "P",
+      "task": "K01.02.05.01、K01.02.05.02差异，TD2-K01.02.05.02案例",
+      "claimRefs": [
+        "K01-CL-02-05-01@1",
+        "K01-CL-02-05-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.02.05.01",
+          "claimRef": "K01-CL-02-05-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.02.05.01",
+          "condition": "指定纯五度3:2与12TET七半音，参考440Hz",
+          "expected": "纯五度660Hz，平均律约659.255Hz；音分差约1.955",
+          "reject": "用660Hz证明12TET精确七半音"
+        },
+        {
+          "d4": "K01.02.05.02",
+          "claimRef": "K01-CL-02-05-02@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.02.05.02",
+          "condition": "S192/S022；纯大三度5:4与12TET",
+          "expected": "比较386.314与400音分，纯律约低13.686",
+          "reject": "把所有大三度都固定400音分"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 16,
+        "row": "| K01.02 | A05 | P | K01.02.05.01、K01.02.05.02差异，TD2-K01.02.05.02案例 | K01.02.05.01→TB-K01.02.05.01；K01.02.05.02→TD2-K01.02.05.02 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.02/A06",
+      "role": "C",
+      "task": "K01.02.06.01原值/误差映射",
+      "claimRefs": [
+        "K01-CL-02-06-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.02.06.01",
+          "claimRef": "K01-CL-02-06-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.02.06.01",
+          "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
+          "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
+          "reject": "删除445/450原值或标成A♯4、声称无损"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 17,
+        "row": "| K01.02 | A06 | C | K01.02.06.01原值/误差映射 | K01.02.06.01→TD2-K01.02.06.01 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.02/A07",
+      "role": "C",
+      "task": "K01.02.06.01调整映射复测，工程K09.09",
+      "claimRefs": [
+        "K01-CL-02-06-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.02.06.01",
+          "claimRef": "K01-CL-02-06-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.02.06.01",
+          "condition": "S133/S022；匿名合成原值 f=445Hz/450Hz，参考A4=440Hz，最近12TET，等距时选低音",
+          "expected": "445Hz=+19.562音分，450Hz=+38.906音分（约值，原值为权威）；两者均映射A4=440Hz，定义误差原值减映射音分；保留原始频率、原名、参考、量化规则和偏差",
+          "reject": "删除445/450原值或标成A♯4、声称无损"
+        }
+      ],
+      "externalDiscovery": [
+        "K09.09",
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 18,
+        "row": "| K01.02 | A07 | C | K01.02.06.01调整映射复测，工程K09.09 | K01.02.06.01→TD2-K01.02.06.01 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.03/A01",
+      "role": "P",
+      "task": "K01.03.05.01、K01.03.05.02、K01.03.06.01",
+      "claimRefs": [
+        "K01-CL-03-05-01@1",
+        "K01-CL-03-05-02@1",
+        "K01-CL-03-06-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.03.05.01",
+          "claimRef": "K01-CL-03-05-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.03.05.01",
+          "condition": "S193/S194；D自然小调",
+          "expected": "D E F G A B♭ C",
+          "reject": "把B写自然且仍称标准自然小调"
+        },
+        {
+          "d4": "K01.03.05.02",
+          "claimRef": "K01-CL-03-05-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.03.05.02",
+          "condition": "指定传统D和声小调及自然小调对照",
+          "expected": "D E F G A B♭ C♯，相对自然小调升7",
+          "reject": "仍用C自然并声称和声小调定义"
+        },
+        {
+          "d4": "K01.03.06.01",
+          "claimRef": "K01-CL-03-06-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.03.06.01",
+          "condition": "S194/S195；传统方向约定",
+          "expected": "D上行含B C♯、下行含C B♭",
+          "reject": "下行必沿用上行并称传统练习定义"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 19,
+        "row": "| K01.03 | A01 | P | K01.03.05.01、K01.03.05.02、K01.03.06.01 | K01.03.05.01→TD2-K01.03.05.01；K01.03.05.02→TB-K01.03.05.02；K01.03.06.01→TD2-K01.03.06.01 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.03/A02",
+      "role": "P",
+      "task": "K01.03.04.02分析候选流程",
+      "claimRefs": [
+        "K01-CL-03-04-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.03.04.02",
+          "claimRef": "K01-CL-03-04-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.03.04.02",
+          "condition": "开头C调，后续Am–D7–G且之后反复以G为中心并有新调终止",
+          "expected": "提出转G候选，核查新调前属与后续中心",
+          "reject": "只凭第一次D7认定完成转调"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 20,
+        "row": "| K01.03 | A02 | P | K01.03.04.02分析候选流程 | K01.03.04.02→TB-K01.03.04.02 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.03/A03",
+      "role": "S",
+      "task": "K12.03、K12.04算法版本",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.03",
+        "K12.04"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 21,
+        "row": "| K01.03 | A03 | S | K12.03、K12.04算法版本 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.03/A04",
+      "role": "C",
+      "task": "K01.03.04.03多调标注版本",
+      "claimRefs": [
+        "K01-CL-03-04-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.03.04.03",
+          "claimRef": "K01-CL-03-04-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.03.04.03",
+          "condition": "C→G的假设分析片段，C、Em、Am、D7、G；明确两调候选",
+          "expected": "C可为I/IV、Em可为iii/vi、Am可为vi/ii，分别列候选并检查实际转折",
+          "reject": "把所有共有和弦都标成已经完成转调的唯一枢纽"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 22,
+        "row": "| K01.03 | A04 | C | K01.03.04.03多调标注版本 | K01.03.04.03→TB-K01.03.04.03 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.03/A05",
+      "role": "P",
+      "task": "K01.03.07.02多解拒绝，TC-K01.03.07.02",
+      "claimRefs": [
+        "K01-CL-03-07-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.03.07.02",
+          "claimRef": "K01-CL-03-07-02@1",
+          "projectContract": false,
+          "caseId": "TC-K01.03.07.02",
+          "condition": "S195/S193；仅给白键音级集合",
+          "expected": "C大调、D Dorian等均可共享集合；保留中心候选",
+          "reject": "仅由集合断定C大调"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 23,
+        "row": "| K01.03 | A05 | P | K01.03.07.02多解拒绝，TC-K01.03.07.02 | K01.03.07.02→TC-K01.03.07.02 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.03/A06",
+      "role": "C",
+      "task": "K01.03.01.02音阶音符列表",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.03.01.02",
+          "claimRef": null,
+          "projectContract": false,
+          "caseId": "TL-K01.03.01.02",
+          "condition": "S259；E♭为主音，普通西方大调",
+          "expected": "E♭ F G A♭ B♭ C D E♭，逐字母且全半步正确",
+          "reject": "写G♯代A♭导致重复G/漏A，称完整拼写"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 24,
+        "row": "| K01.03 | A06 | C | K01.03.01.02音阶音符列表 | K01.03.01.02→TL-K01.03.01.02 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.03/A07",
+      "role": "C",
+      "task": "K01.03.04.03竞争解释复核，K01.09.03.02",
+      "claimRefs": [
+        "K01-CL-03-04-03@1"
+      ],
+      "projectContractRefs": [
+        "K01.09.03.02"
+      ],
+      "localWitnesses": [
+        {
+          "d4": "K01.03.04.03",
+          "claimRef": "K01-CL-03-04-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.03.04.03",
+          "condition": "C→G的假设分析片段，C、Em、Am、D7、G；明确两调候选",
+          "expected": "C可为I/IV、Em可为iii/vi、Am可为vi/ii，分别列候选并检查实际转折",
+          "reject": "把所有共有和弦都标成已经完成转调的唯一枢纽"
+        },
+        {
+          "d4": "K01.09.03.02",
+          "claimRef": null,
+          "projectContract": true,
+          "caseId": "TE-K01.09.03.02",
+          "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
+          "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
+          "reject": "覆盖原稿且宣称所有检查已通过"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 25,
+        "row": "| K01.03 | A07 | C | K01.03.04.03竞争解释复核，K01.09.03.02 | K01.03.04.03→TB-K01.03.04.03；K01.09.03.02→TE-K01.09.03.02 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.04/A01",
+      "role": "P",
+      "task": "K01.04.04.01、K01.04.06.01",
+      "claimRefs": [
+        "K01-CL-04-04-01@1",
+        "K01-CL-04-06-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.04.04.01",
+          "claimRef": "K01-CL-04-04-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.04.04.01",
+          "condition": "S196；常规3/4和6/8",
+          "expected": "总名义时值均3个四分音符；常规分组3×2与2×3",
+          "reject": "认为小节时长相同就同拍层级"
+        },
+        {
+          "d4": "K01.04.06.01",
+          "claimRef": "K01-CL-04-06-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.04.06.01",
+          "condition": "S198/S201；3:2等分",
+          "expected": "每个三连八分1/3四分音符，合计1",
+          "reject": "三个普通八分总1.5当三连时值"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 26,
+        "row": "| K01.04 | A01 | P | K01.04.04.01、K01.04.06.01 | K01.04.04.01→TD2-K01.04.04.01；K01.04.06.01→TD2-K01.04.06.01 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.04/A02",
+      "role": "P",
+      "task": "K01.04.05.02、K01.04.07.01时间网格",
+      "claimRefs": [
+        "K01-CL-04-05-02@1",
+        "K01-CL-04-07-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.04.05.02",
+          "claimRef": "K01-CL-04-05-02@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.04.05.02",
+          "condition": "S202；明确2/4+3/8",
+          "expected": "总7/8，保存2/4与3/8分组",
+          "reject": "相加分子分母得5/12"
+        },
+        {
+          "d4": "K01.04.07.01",
+          "claimRef": "K01-CL-04-07-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.04.07.01",
+          "condition": "共同周期T=1，严格2和3等分",
+          "expected": "事件位置0,1/2与0,1/3,2/3，仅0在半开周期内重合",
+          "reject": "强行把1/2与1/3对齐"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 27,
+        "row": "| K01.04 | A02 | P | K01.04.05.02、K01.04.07.01时间网格 | K01.04.05.02→TD2-K01.04.05.02；K01.04.07.01→TD2-K01.04.07.01 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.04/A03",
+      "role": "S",
+      "task": "K12.04交换格式；K04.02表现",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.04",
+        "K04.02"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 28,
+        "row": "| K01.04 | A03 | S | K12.04交换格式；K04.02表现 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.04/A04",
+      "role": "C",
+      "task": "K01.04.06.03嵌套时值状态",
+      "claimRefs": [
+        "K01-CL-04-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.04.06.03",
+          "claimRef": "K01-CL-04-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.04.06.03",
+          "condition": "名义八分时值1/2四分单位；一组局部3:2再在其中事件组使用3:2，单事件乘(2/3)^2",
+          "expected": "单事件2/9四分单位；需保存两级分组，而非仅最终时值",
+          "reject": "只保存2/9并宣称原嵌套/括号完整恢复"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 29,
+        "row": "| K01.04 | A04 | C | K01.04.06.03嵌套时值状态 | K01.04.06.03→TB-K01.04.06.03 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.04/A05",
+      "role": "P",
+      "task": "K01.04.06.01、K01.04.06.02有理数及层级",
+      "claimRefs": [
+        "K01-CL-04-06-01@1",
+        "K01-CL-04-06-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.04.06.01",
+          "claimRef": "K01-CL-04-06-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.04.06.01",
+          "condition": "S198/S201；3:2等分",
+          "expected": "每个三连八分1/3四分音符，合计1",
+          "reject": "三个普通八分总1.5当三连时值"
+        },
+        {
+          "d4": "K01.04.06.02",
+          "claimRef": "K01-CL-04-06-02@1",
+          "projectContract": false,
+          "caseId": "TC-K01.04.06.02",
+          "condition": "S198；复拍内2:3的八分二连音",
+          "expected": "每音3/4个四分音符单位，总3/2",
+          "reject": "每音普通八分1/2，总1"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 30,
+        "row": "| K01.04 | A05 | P | K01.04.06.01、K01.04.06.02有理数及层级 | K01.04.06.01→TD2-K01.04.06.01；K01.04.06.02→TC-K01.04.06.02 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.04/A06",
+      "role": "P",
+      "task": "K01.04.05.01、K01.04.05.02分组，K01.04.06.03连音",
+      "claimRefs": [
+        "K01-CL-04-05-01@1",
+        "K01-CL-04-05-02@1",
+        "K01-CL-04-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.04.05.01",
+          "claimRef": "K01-CL-04-05-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.04.05.01",
+          "condition": "明确5/8分组3+2及2+3",
+          "expected": "总时值同5/8，第二组起点分别在第4与第3个八分位置",
+          "reject": "总时值相同即分组相同"
+        },
+        {
+          "d4": "K01.04.05.02",
+          "claimRef": "K01-CL-04-05-02@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.04.05.02",
+          "condition": "S202；明确2/4+3/8",
+          "expected": "总7/8，保存2/4与3/8分组",
+          "reject": "相加分子分母得5/12"
+        },
+        {
+          "d4": "K01.04.06.03",
+          "claimRef": "K01-CL-04-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.04.06.03",
+          "condition": "名义八分时值1/2四分单位；一组局部3:2再在其中事件组使用3:2，单事件乘(2/3)^2",
+          "expected": "单事件2/9四分单位；需保存两级分组，而非仅最终时值",
+          "reject": "只保存2/9并宣称原嵌套/括号完整恢复"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 31,
+        "row": "| K01.04 | A06 | P | K01.04.05.01、K01.04.05.02分组，K01.04.06.03连音 | K01.04.05.01→TB-K01.04.05.01；K01.04.05.02→TD2-K01.04.05.02；K01.04.06.03→TB-K01.04.06.03 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.04/A07",
+      "role": "C",
+      "task": "K01.08.06.03局部编辑/复测",
+      "claimRefs": [
+        "K01-CL-08-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.06.03",
+          "claimRef": "K01-CL-08-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.06.03",
+          "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
+          "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
+          "reject": "渲染成功就宣称局部编辑保真"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 32,
+        "row": "| K01.04 | A07 | C | K01.08.06.03局部编辑/复测 | K01.08.06.03→TB-K01.08.06.03 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.05/A01",
+      "role": "P",
+      "task": "K01.05.11.02、K01.05.04.03",
+      "claimRefs": [
+        "K01-CL-05-11-02@1",
+        "K01-CL-05-04-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.05.11.02",
+          "claimRef": "K01-CL-05-11-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.05.11.02",
+          "condition": "指定C根、12TET及正确拼写",
+          "expected": "C E G、C E♭ G、C E G♯、C E♭ G♭分别为大、小、增、减三和弦",
+          "reject": "将C E G♯称大三和弦不查五音"
+        },
+        {
+          "d4": "K01.05.04.03",
+          "claimRef": "K01-CL-05-04-03@1",
+          "projectContract": false,
+          "caseId": "TD-K01.05.04",
+          "condition": "S184；C根音、三度叠置、记谱已知",
+          "expected": "C E♭ G♭ B♭为半减七；B𝄫替换末音为全减七",
+          "reject": "都标Cdim7"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 33,
+        "row": "| K01.05 | A01 | P | K01.05.11.02、K01.05.04.03 | K01.05.11.02→TB-K01.05.11.02；K01.05.04.03→TD-K01.05.04 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.05/A02",
+      "role": "P",
+      "task": "K01.05.06.01、K01.05.06.02构造/核对语境",
+      "claimRefs": [
+        "K01-CL-05-06-01@1",
+        "K01-CL-05-06-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.05.06.01",
+          "claimRef": "K01-CL-05-06-01@1",
+          "projectContract": false,
+          "caseId": "TD-K01.05.06",
+          "condition": "S177；C大调、D F♯ A C后接G",
+          "expected": "D7为V7/V候选",
+          "reject": "D7必是C调内ii7"
+        },
+        {
+          "d4": "K01.05.06.02",
+          "claimRef": "K01-CL-05-06-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.05.06.02",
+          "condition": "同一D7，分别提供C大调D7–G及G大调D7–G句末",
+          "expected": "前者可为V7/V，后者为G大调本调属七 V7；实际分析仍查上下文",
+          "reject": "所有D7都是C调副属"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 34,
+        "row": "| K01.05 | A02 | P | K01.05.06.01、K01.05.06.02构造/核对语境 | K01.05.06.01→TD-K01.05.06；K01.05.06.02→TB-K01.05.06.02 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.05/A03",
+      "role": "S",
+      "task": "K12.03实际和弦算法；K03.05配器",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.03",
+        "K03.05"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 35,
+        "row": "| K01.05 | A03 | S | K12.03实际和弦算法；K03.05配器 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.05/A04",
+      "role": "C",
+      "task": "K01.05.12.02候选标签版本",
+      "claimRefs": [
+        "K01-CL-05-12-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.05.12.02",
+          "claimRef": "K01-CL-05-12-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.05.12.02",
+          "condition": "S232/S181；孤立E3 G3与完整C E G/E，另指定C/F♯及C E G A",
+          "expected": "E3 G3不唯一判C/E；完整C/E为第一转位；C/F♯低音非C三和弦成员，不属于普通转位；C E G A可作C6或Am7等语境候选",
+          "reject": "最低音总是根音；所有slash均普通转位；四音集唯一决定C6"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 36,
+        "row": "| K01.05 | A04 | C | K01.05.12.02候选标签版本 | K01.05.12.02→TB-K01.05.12.02 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.05/A05",
+      "role": "P",
+      "task": "K01.05.12.01及K01.05.06.02条件",
+      "claimRefs": [
+        "K01-CL-05-12-01@1",
+        "K01-CL-05-06-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.05.12.01",
+          "claimRef": "K01-CL-05-12-01@1",
+          "projectContract": false,
+          "caseId": "TD3-K01.05.12.01",
+          "condition": "S232；指定C大三和弦，分别给C3 E4 G4、E3 G4 C5、G3 C4 E4实际音区",
+          "expected": "最低分别根、三、五音，因此根位、第一、第二转位",
+          "reject": "仅按最高音或无序集合判断转位；G3在低不叫第一转位"
+        },
+        {
+          "d4": "K01.05.06.02",
+          "claimRef": "K01-CL-05-06-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.05.06.02",
+          "condition": "同一D7，分别提供C大调D7–G及G大调D7–G句末",
+          "expected": "前者可为V7/V，后者为G大调本调属七 V7；实际分析仍查上下文",
+          "reject": "所有D7都是C调副属"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 37,
+        "row": "| K01.05 | A05 | P | K01.05.12.01及K01.05.06.02条件 | K01.05.12.01→TD3-K01.05.12.01；K01.05.06.02→TB-K01.05.06.02 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.05/A06",
+      "role": "C",
+      "task": "K01.05.10.03抽象和弦/voicing",
+      "claimRefs": [
+        "K01-CL-05-10-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.05.10.03",
+          "claimRef": "K01-CL-05-10-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.05.10.03",
+          "condition": "Cmaj7、指定C E G B结构，两种排列C3 E4 G4 B4与C3 G3 B3 E4",
+          "expected": "同符号可对应不同voicing；演奏可行性另查K03/K04",
+          "reject": "符号相同即实际配置/可奏性相同"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 38,
+        "row": "| K01.05 | A06 | C | K01.05.10.03抽象和弦/voicing | K01.05.10.03→TB-K01.05.10.03 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.05/A07",
+      "role": "C",
+      "task": "K01.09.03.02改标复核，需编辑目标",
+      "claimRefs": [],
+      "projectContractRefs": [
+        "K01.09.03.02"
+      ],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.03.02",
+          "claimRef": null,
+          "projectContract": true,
+          "caseId": "TE-K01.09.03.02",
+          "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
+          "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
+          "reject": "覆盖原稿且宣称所有检查已通过"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 39,
+        "row": "| K01.05 | A07 | C | K01.09.03.02改标复核，需编辑目标 | K01.09.03.02→TE-K01.09.03.02 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.06/A01",
+      "role": "P",
+      "task": "K01.06.11.01、K01.06.04.01",
+      "claimRefs": [
+        "K01-CL-06-11-01@1",
+        "K01-CL-06-04-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.06.11.01",
+          "claimRef": "K01-CL-06-11-01@1",
+          "projectContract": false,
+          "caseId": "TD3-K01.06.11.01",
+          "condition": "指定S217第一类1:1练习的中间事件，固定低音C4，比较上声E4及D4",
+          "expected": "C4–E4为协和三度，满足局部纵向条件",
+          "reject": "C4–D4二度不满足该条件；不能将此限制推广所有复调"
+        },
+        {
+          "d4": "K01.06.04.01",
+          "claimRef": "K01-CL-06-04-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.06.04.01",
+          "condition": "同声部C–D–E，和声时段C大三和弦不变",
+          "expected": "D不在和弦内，结合前后级进可提出经过音",
+          "reject": "不查时段和弦，仅凭D判非和弦音"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 40,
+        "row": "| K01.06 | A01 | P | K01.06.11.01、K01.06.04.01 | K01.06.11.01→TD3-K01.06.11.01；K01.06.04.01→TB-K01.06.04.01 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.06/A02",
+      "role": "P",
+      "task": "K01.06.08.02、K01.06.08.03、K01.06.09.01连接",
+      "claimRefs": [
+        "K01-CL-06-08-02@1",
+        "K01-CL-06-08-03@1",
+        "K01-CL-06-09-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.06.08.02",
+          "claimRef": "K01-CL-06-08-02@1",
+          "projectContract": false,
+          "caseId": "TC-K01.06.08.02",
+          "condition": "S212 §26.7.1；根位四部，源C3 E4 G4 C5，目标A2 E4 A4 C5及A3 E4 A4 C5两种低音位置",
+          "expected": "E4/C5两共同音保持，G4→A4级进；低音分别下小三/上大六，两和弦根重复；分别另查完整声部约束",
+          "reject": "将三/六度低音连接解释为上三声部全保持，或把所有相同PC的低音都当实际同向"
+        },
+        {
+          "d4": "K01.06.08.03",
+          "claimRef": "K01-CL-06-08-03@1",
+          "projectContract": false,
+          "caseId": "TC-K01.06.08.03",
+          "condition": "S212 §26.7.2；B/T/A/S身份固定，C3 E4 G4 C5；两目标均根位G，低音下四度",
+          "expected": "方法1 G2 D4 G4 B4：G4保持、E4/C5下行级进；方法2 G2 G4 B4 D5：上三声部E4→G4、G4→B4、C5→D5同向上行小三/大三/大二，分别为该方向最近目标成员；两目标根音重复且声部有序",
+          "reject": "若G2 B4 D5 G5，上三声部跳进/非最近成员，不能按方法2通过；方法1不是全部保持"
+        },
+        {
+          "d4": "K01.06.09.01",
+          "claimRef": "K01-CL-06-09-01@1",
+          "projectContract": false,
+          "caseId": "TD3-K01.06.09.01",
+          "condition": "C大调完整V7，指定严格模式",
+          "expected": "B→C、F→E、D→C",
+          "reject": "把F→G称严格解决"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 41,
+        "row": "| K01.06 | A02 | P | K01.06.08.02、K01.06.08.03、K01.06.09.01连接 | K01.06.08.02→TC-K01.06.08.02；K01.06.08.03→TC-K01.06.08.03；K01.06.09.01→TD3-K01.06.09.01 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.06/A03",
+      "role": "S",
+      "task": "K12.03工具、K03.02实际可奏",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.03",
+        "K03.02"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 42,
+        "row": "| K01.06 | A03 | S | K12.03工具、K03.02实际可奏 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.06/A04",
+      "role": "C",
+      "task": "K01.06.08.01声部身份/原稿",
+      "claimRefs": [
+        "K01-CL-06-08-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.06.08.01",
+          "claimRef": "K01-CL-06-08-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.06.08.01",
+          "condition": "两和弦C E G与C E G，四部A:C3 E4 G4 C5→原样；B:C3 E4 G4 C5→C3 G4 E4 C5（声部身份固定）",
+          "expected": "A与B音级集合相同但B两个内声部交叉，需查指定课堂约束",
+          "reject": "只比音级集合即判两配置同一运动"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 43,
+        "row": "| K01.06 | A04 | C | K01.06.08.01声部身份/原稿 | K01.06.08.01→TB-K01.06.08.01 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.06/A05",
+      "role": "P",
+      "task": "K01.06.12.01条件校验及TD3-K01.06.12.01",
+      "claimRefs": [
+        "K01-CL-06-12-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.06.12.01",
+          "claimRef": "K01-CL-06-12-01@1",
+          "projectContract": false,
+          "caseId": "TD3-K01.06.12.01",
+          "condition": "固定低声C4；上声E4强位、D4弱位、下一强位C4，局部仅查经过音",
+          "expected": "D4作为向下经过的弱位二度符合该局部条件",
+          "reject": "D4改到强位仍称允许不协和"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 44,
+        "row": "| K01.06 | A05 | P | K01.06.12.01条件校验及TD3-K01.06.12.01 | K01.06.12.01→TD3-K01.06.12.01 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.06/A06",
+      "role": "P",
+      "task": "K01.06.08.01声部音符事件",
+      "claimRefs": [
+        "K01-CL-06-08-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.06.08.01",
+          "claimRef": "K01-CL-06-08-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.06.08.01",
+          "condition": "两和弦C E G与C E G，四部A:C3 E4 G4 C5→原样；B:C3 E4 G4 C5→C3 G4 E4 C5（声部身份固定）",
+          "expected": "A与B音级集合相同但B两个内声部交叉，需查指定课堂约束",
+          "reject": "只比音级集合即判两配置同一运动"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 45,
+        "row": "| K01.06 | A06 | P | K01.06.08.01声部音符事件 | K01.06.08.01→TB-K01.06.08.01 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.06/A07",
+      "role": "C",
+      "task": "K01.08.06.03局部保护及复测",
+      "claimRefs": [
+        "K01-CL-08-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.06.03",
+          "claimRef": "K01-CL-08-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.06.03",
+          "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
+          "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
+          "reject": "渲染成功就宣称局部编辑保真"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 46,
+        "row": "| K01.06 | A07 | C | K01.08.06.03局部保护及复测 | K01.08.06.03→TB-K01.08.06.03 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.07/A01",
+      "role": "P",
+      "task": "K01.07.06.01、K01.07.07.01",
+      "claimRefs": [
+        "K01-CL-07-06-01@1",
+        "K01-CL-07-07-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.07.06.01",
+          "claimRef": "K01-CL-07-06-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.07.06.01",
+          "condition": "古典框架示意：C主题与G副主题呈示；中段发展；再现两主题在C；非真实作品",
+          "expected": "提出呈示–展开–再现分析并保留主题与调性标注",
+          "reject": "仅因三段便定为奏鸣曲式"
+        },
+        {
+          "d4": "K01.07.07.01",
+          "claimRef": "K01-CL-07-07-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.07.07.01",
+          "condition": "S220 Temko/Spencer框架，给稳定主题陈述、连接、动机加工、结尾候选片段",
+          "expected": "提出呈示、过渡、发展、终结四功能候选，稳定只是线索",
+          "reject": "将稳定调性当独立第五功能或把每个V标结构过渡"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 47,
+        "row": "| K01.07 | A01 | P | K01.07.06.01、K01.07.07.01 | K01.07.06.01→TB-K01.07.06.01；K01.07.07.01→TB-K01.07.07.01 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.07/A02",
+      "role": "P",
+      "task": "K01.07.05.01结构分析候选",
+      "claimRefs": [
+        "K01-CL-07-05-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.07.05.01",
+          "claimRef": "K01-CL-07-05-01@1",
+          "projectContract": false,
+          "caseId": "TD-K01.07.05",
+          "condition": "S185；明确作者分析框架",
+          "expected": "若B短、沿用A动机并主要属功能，可提出再现二部候选",
+          "reject": "见ABA一定三部"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 48,
+        "row": "| K01.07 | A02 | P | K01.07.05.01结构分析候选 | K01.07.05.01→TD-K01.07.05 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.07/A03",
+      "role": "S",
+      "task": "K12.03、K10.05检测工具",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.03",
+        "K10.05"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 49,
+        "row": "| K01.07 | A03 | S | K12.03、K10.05检测工具 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.07/A04",
+      "role": "C",
+      "task": "K01.07.03.02竞争分析版本",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.07.03.02",
+          "claimRef": null,
+          "projectContract": false,
+          "caseId": "TL-K01.07.03.02",
+          "condition": "S185/S219；给同一ABA结构的两竞争标签及两位分析者依据",
+          "expected": "保留再现二部与三部候选、分段证据与版本",
+          "reject": "仅因已有一个标签就丢弃另一解释"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 50,
+        "row": "| K01.07 | A04 | C | K01.07.03.02竞争分析版本 | K01.07.03.02→TL-K01.07.03.02 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.07/A05",
+      "role": "P",
+      "task": "K01.07.05.02、K01.07.04.02多解条件",
+      "claimRefs": [
+        "K01-CL-07-05-02@1",
+        "K01-CL-07-04-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.07.05.02",
+          "claimRef": "K01-CL-07-05-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.07.05.02",
+          "condition": "指定教材框架；同A–B–A标签，两例B短且继承A动机、B长且独立主题",
+          "expected": "分别保留再现二部和三部候选，核查调性与结构",
+          "reject": "只凭年代或ABA强制同一形式"
+        },
+        {
+          "d4": "K01.07.04.02",
+          "claimRef": "K01-CL-07-04-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.07.04.02",
+          "condition": "C调，同一G–C分别位于明确乐句结尾和乐句内部",
+          "expected": "结尾为正格终止候选；内部只是进行候选",
+          "reject": "每次V–I都标终止式"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 51,
+        "row": "| K01.07 | A05 | P | K01.07.05.02、K01.07.04.02多解条件 | K01.07.05.02→TB-K01.07.05.02；K01.07.04.02→TB-K01.07.04.02 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.07/A06",
+      "role": "C",
+      "task": "K01.07.03.02分段/证据标注",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.07.03.02",
+          "claimRef": null,
+          "projectContract": false,
+          "caseId": "TL-K01.07.03.02",
+          "condition": "S185/S219；给同一ABA结构的两竞争标签及两位分析者依据",
+          "expected": "保留再现二部与三部候选、分段证据与版本",
+          "reject": "仅因已有一个标签就丢弃另一解释"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 52,
+        "row": "| K01.07 | A06 | C | K01.07.03.02分段/证据标注 | K01.07.03.02→TL-K01.07.03.02 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.07/A07",
+      "role": "C",
+      "task": "K01.09.03.02重新分析保留旧证据",
+      "claimRefs": [],
+      "projectContractRefs": [
+        "K01.09.03.02"
+      ],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.03.02",
+          "claimRef": null,
+          "projectContract": true,
+          "caseId": "TE-K01.09.03.02",
+          "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
+          "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
+          "reject": "覆盖原稿且宣称所有检查已通过"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 53,
+        "row": "| K01.07 | A07 | C | K01.09.03.02重新分析保留旧证据 | K01.09.03.02→TE-K01.09.03.02 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.08/A01",
+      "role": "P",
+      "task": "K01.08.04.01、K01.08.04.02、K01.08.06.01",
+      "claimRefs": [
+        "K01-CL-08-04-01@1",
+        "K01-CL-08-04-02@1",
+        "K01-CL-08-06-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.04.01",
+          "claimRef": "K01-CL-08-04-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.08.04.01",
+          "condition": "S197；标准四分音符为1个四分单位",
+          "expected": "单附点1+1/2=3/2，双附点1+1/2+1/4=7/4",
+          "reject": "两附点都加1/2得2，或将点固定加某秒数"
+        },
+        {
+          "d4": "K01.08.04.02",
+          "claimRef": "K01-CL-08-04-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.04.02",
+          "condition": "同声部同音C4，两个四分音符跨小节有延音线，另例C4到D4连奏线",
+          "expected": "延音候选为名义持续2个四分单位，不要求再起音；连奏不合并不同音的音高身份",
+          "reject": "把延音等同两个独立起音或把连奏音都合成同音"
+        },
+        {
+          "d4": "K01.08.06.01",
+          "claimRef": "K01-CL-08-06-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.06.01",
+          "condition": "MusicXML4.0示意：C自然音事件的step C、alter 0，可有提示性natural记号",
+          "expected": "实际音高保持C，显示提示记号与音高表示分别核对",
+          "reject": "见natural就认定与上一音高必不同"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 54,
+        "row": "| K01.08 | A01 | P | K01.08.04.01、K01.08.04.02、K01.08.06.01 | K01.08.04.01→TD2-K01.08.04.01；K01.08.04.02→TB-K01.08.04.02；K01.08.06.01→TB-K01.08.06.01 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.08/A02",
+      "role": "P",
+      "task": "K01.08.05.01逐声部校验",
+      "claimRefs": [
+        "K01-CL-08-05-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.05.01",
+          "claimRef": "K01-CL-08-05-01@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.08.05.01",
+          "condition": "S203/S201；正常4/4双声部各4拍",
+          "expected": "分别检查时间线各结束4拍",
+          "reject": "把两个声部时值加成8判超长"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 55,
+        "row": "| K01.08 | A02 | P | K01.08.05.01逐声部校验 | K01.08.05.01→TD2-K01.08.05.01 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.08/A03",
+      "role": "S",
+      "task": "K12.04格式/版本、K12.08转换",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.04",
+        "K12.08"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 56,
+        "row": "| K01.08 | A03 | S | K12.04格式/版本、K12.08转换 | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.08/A04",
+      "role": "P",
+      "task": "K01.08.06.03谱面保护不变量；通用工程K09.01",
+      "claimRefs": [
+        "K01-CL-08-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.06.03",
+          "claimRef": "K01-CL-08-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.06.03",
+          "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
+          "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
+          "reject": "渲染成功就宣称局部编辑保真"
+        }
+      ],
+      "externalDiscovery": [
+        "K09.01",
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 57,
+        "row": "| K01.08 | A04 | P | K01.08.06.03谱面保护不变量；通用工程K09.01 | K01.08.06.03→TB-K01.08.06.03 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.08/A05",
+      "role": "P",
+      "task": "K01.08.06.02视觉/声音双重验证",
+      "claimRefs": [
+        "K01-CL-08-06-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.06.02",
+          "claimRef": "K01-CL-08-06-02@1",
+          "projectContract": false,
+          "caseId": "TD2-K01.08.06.02",
+          "condition": "S200/S201；MusicXML4.0语义",
+          "expected": "分别保存播放时值和视觉连音/延音信息",
+          "reject": "音频可播放即认定谱面保真"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 58,
+        "row": "| K01.08 | A05 | P | K01.08.06.02视觉/声音双重验证 | K01.08.06.02→TD2-K01.08.06.02 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.08/A06",
+      "role": "P",
+      "task": "K01.08.05.02名义/预期时值",
+      "claimRefs": [
+        "K01-CL-08-05-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.05.02",
+          "claimRef": "K01-CL-08-05-02@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.05.02",
+          "condition": "MusicXML4.0符号例，divisions=480；普通八分duration=240，三连八分duration=160，type均eighth",
+          "expected": "名义类型相同，预期时值分别1/2、1/3四分单位；实际演出时长另证",
+          "reject": "从type=eighth无视duration/比例强制240"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 59,
+        "row": "| K01.08 | A06 | P | K01.08.05.02名义/预期时值 | K01.08.05.02→TB-K01.08.05.02 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.08/A07",
+      "role": "P",
+      "task": "K01.08.06.03目标谱面修订/差异，回滚引用K09.09",
+      "claimRefs": [
+        "K01-CL-08-06-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.08.06.03",
+          "claimRef": "K01-CL-08-06-03@1",
+          "projectContract": false,
+          "caseId": "TB-K01.08.06.03",
+          "condition": "只允许调整一个小节连梁，保护所有音名、声部、时值、未授权记号",
+          "expected": "候选须比较源/目标的受保护字段及允许变更；若改动声部则拒绝",
+          "reject": "渲染成功就宣称局部编辑保真"
+        }
+      ],
+      "externalDiscovery": [
+        "K09.09",
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 60,
+        "row": "| K01.08 | A07 | P | K01.08.06.03目标谱面修订/差异，回滚引用K09.09 | K01.08.06.03→TB-K01.08.06.03 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.09/A01",
+      "role": "P",
+      "task": "K01.09.04.01、K01.09.04.02、K01.09.05.01",
+      "claimRefs": [
+        "K01-CL-09-04-01@1",
+        "K01-CL-09-04-02@1",
+        "K01-CL-09-05-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.04.01",
+          "claimRef": "K01-CL-09-04-01@1",
+          "projectContract": false,
+          "caseId": "TB-K01.09.04.01",
+          "condition": "C=0、12音音级等音和八度等价表示",
+          "expected": "C4、C5→0；F♯4和G♭4→6",
+          "reject": "认为该表示保留八度和拼写"
+        },
+        {
+          "d4": "K01.09.04.02",
+          "claimRef": "K01-CL-09-04-02@1",
+          "projectContract": false,
+          "caseId": "TD-K01.09.04",
+          "condition": "S186；十二音集合表示",
+          "expected": "[C4,E4,G4] 与 [G5,C3,E4,C4]可有同音级集合",
+          "reject": "集合相同就判相同旋律/乐谱"
+        },
+        {
+          "d4": "K01.09.05.01",
+          "claimRef": "K01-CL-09-05-01@1",
+          "projectContract": false,
+          "caseId": "TD-K01.09.05",
+          "condition": "S187；模12",
+          "expected": "{1,5,10}经T4得{5,9,2}",
+          "reject": "不取模得到14"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "条件、出处和反例；不得据索引直接作事实",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 61,
+        "row": "| K01.09 | A01 | P | K01.09.04.01、K01.09.04.02、K01.09.05.01 | K01.09.04.01→TB-K01.09.04.01；K01.09.04.02→TD-K01.09.04；K01.09.05.01→TD-K01.09.05 | 条件、出处和反例；不得据索引直接作事实 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.09/A02",
+      "role": "P",
+      "task": "K01.09.08.01、K01.09.09.01算法",
+      "claimRefs": [
+        "K01-CL-09-08-01@1",
+        "K01-CL-09-09-01@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.08.01",
+          "claimRef": "K01-CL-09-08-01@1",
+          "projectContract": false,
+          "caseId": "TD3-K01.09.08.01",
+          "condition": "{0,3,6,10}",
+          "expected": "[0,1,2,1,1,1]",
+          "reject": "盲录教材正文012011"
+        },
+        {
+          "d4": "K01.09.09.01",
+          "claimRef": "K01-CL-09-09-01@1",
+          "projectContract": false,
+          "caseId": "TD3-K01.09.09.01",
+          "condition": "P行0,2,4,6,8,10,1,3,5,7,9,11",
+          "expected": "首列0,10,8,6,4,2,11,9,7,5,3,1；第二行起点10",
+          "reject": "把首列直接复制首行"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "规则步骤与真实工具调用分离",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 62,
+        "row": "| K01.09 | A02 | P | K01.09.08.01、K01.09.09.01算法 | K01.09.08.01→TD3-K01.09.08.01；K01.09.09.01→TD3-K01.09.09.01 | 规则步骤与真实工具调用分离 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.09/A03",
+      "role": "S",
+      "task": "K12.03、K12.09工具版本；不再标P",
+      "claimRefs": [],
+      "projectContractRefs": [],
+      "localWitnesses": [],
+      "externalDiscovery": [
+        "K12.03",
+        "K12.09"
+      ],
+      "limits": "外域工具与版本，未运行；只能S",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 63,
+        "row": "| K01.09 | A03 | S | K12.03、K12.09工具版本；不再标P | 外域D2发现入口 | 外域工具与版本，未运行；只能S |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.09/A04",
+      "role": "C",
+      "task": "K01.09.03.02标注/假设版本；待补",
+      "claimRefs": [],
+      "projectContractRefs": [
+        "K01.09.03.02"
+      ],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.03.02",
+          "claimRef": null,
+          "projectContract": true,
+          "caseId": "TE-K01.09.03.02",
+          "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
+          "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
+          "reject": "覆盖原稿且宣称所有检查已通过"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "状态须绑定候选/原稿；真实K09状态未验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 64,
+        "row": "| K01.09 | A04 | C | K01.09.03.02标注/假设版本；待补 | K01.09.03.02→TE-K01.09.03.02 | 状态须绑定候选/原稿；真实K09状态未验 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    },
+    {
+      "id": "K01.09/A05",
+      "role": "P",
+      "task": "K01.09.08.02、K01.09.08.03组合反例",
+      "claimRefs": [
+        "K01-CL-09-08-02@1",
+        "K01-CL-09-08-03@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.08.02",
+          "claimRef": "K01-CL-09-08-02@1",
+          "projectContract": false,
+          "caseId": "TC-K01.09.08.02",
+          "condition": "S224；4个不同音级的组合计数",
+          "expected": "六格之和6；若为[0,1,2,0,1,1]总5，必须复核",
+          "reject": "因教材权威直接接受总5"
+        },
+        {
+          "d4": "K01.09.08.03",
+          "claimRef": "K01-CL-09-08-03@1",
+          "projectContract": false,
+          "caseId": "TD3-K01.09.08.03",
+          "condition": "{0,1,4,6}与{0,1,3,7}",
+          "expected": "向量相同；24种变换穷举均不匹配",
+          "reject": "向量相等就判TnI等价"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只评给定规则/符号，不等于审美或真实质量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 65,
+        "row": "| K01.09 | A05 | P | K01.09.08.02、K01.09.08.03组合反例 | K01.09.08.02→TC-K01.09.08.02；K01.09.08.03→TD3-K01.09.08.03 | 只评给定规则/符号，不等于审美或真实质量 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.09/A06",
+      "role": "C",
+      "task": "K01.09.04.02保留原谱/变换表示",
+      "claimRefs": [
+        "K01-CL-09-04-02@1"
+      ],
+      "projectContractRefs": [],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.04.02",
+          "claimRef": "K01-CL-09-04-02@1",
+          "projectContract": false,
+          "caseId": "TD-K01.09.04",
+          "condition": "S186；十二音集合表示",
+          "expected": "[C4,E4,G4] 与 [G5,C3,E4,C4]可有同音级集合",
+          "reject": "集合相同就判相同旋律/乐谱"
+        }
+      ],
+      "externalDiscovery": [],
+      "limits": "只在存在编辑目标/授权时产物适用",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 66,
+        "row": "| K01.09 | A06 | C | K01.09.04.02保留原谱/变换表示 | K01.09.04.02→TD-K01.09.04 | 只在存在编辑目标/授权时产物适用 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "NOT_REQUESTED"
+    },
+    {
+      "id": "K01.09/A07",
+      "role": "P",
+      "task": "K01.09.03.02竞争解释修订；证据待补",
+      "claimRefs": [],
+      "projectContractRefs": [
+        "K01.09.03.02"
+      ],
+      "localWitnesses": [
+        {
+          "d4": "K01.09.03.02",
+          "claimRef": null,
+          "projectContract": true,
+          "caseId": "TE-K01.09.03.02",
+          "condition": "项目工程需求；TH-A01与K09.09引用；合成谱面分析候选",
+          "expected": "保存原标注、修订理由、差异和复测状态；证据不全保持未验证",
+          "reject": "覆盖原稿且宣称所有检查已通过"
+        }
+      ],
+      "externalDiscovery": [
+        "K09"
+      ],
+      "limits": "候选修订/差异/复测；实际回滚K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/theory-g02-capability-audit.md",
+        "blob": "36b00bd9f9d7a451d7e83327fd6899a1a89bab68",
+        "line": 67,
+        "row": "| K01.09 | A07 | P | K01.09.03.02竞争解释修订；证据待补 | K01.09.03.02→TE-K01.09.03.02 | 候选修订/差异/复测；实际回滚K09 |"
+      },
+      "authority": "DOMAIN_KNOWLEDGE_CANDIDATE_ONLY",
+      "externalStatus": "UNKNOWN_NOT_EXECUTED"
+    }
+  ]
+}
