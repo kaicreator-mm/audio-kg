@@ -6,17 +6,8 @@ const canon=x=>x===null?"null":Array.isArray(x)?"["+x.map(canon).join(",")+"]":t
 const eq=(a,b)=>a!==undefined&&b!==undefined&&canon(a)===canon(b);
 const hash=x=>crypto.createHash("sha256").update(canon(x)).digest("hex");
 const check=(x,m)=>{if(!x)throw Error(m)};
-const kinds={
- prerequisite_for:[["Step"],["Step"]],
- requires:[["Step"],["Constraint"]],
- consumes:[["Step"],["Artifact","Observation","Evaluation"]],
- produces:[["Step"],["Artifact","Evaluation"]],
- validates_against:[["Observation","Evaluation"],["Constraint","Artifact","Observation","Evaluation"]],
- applies_under:[["Step","Observation","Evaluation"],["Context"]],
- governed_by:[["Step"],["Grant"]],
- qualifies_tool:[["Step"],["ToolVersion"]],
- qualifies_model:[["Step"],["ModelVersion"]]
-};
+import {profile} from "./knowledge-pilot.mjs";
+const kinds=Object.fromEntries(Object.entries(profile.workflow.relationships).map(([k,v])=>[k,[v.from,v.to]]));
 export function runWorkflowPilot(w,route,support){
  const {registry,trace,history}=w;
  const actual=trace.positive.result, context=trace.positive.context;
@@ -65,7 +56,7 @@ export function runWorkflowPilot(w,route,support){
   check(g.format===trusted.format&&g.release===false&&Array.isArray(g.records)&&Array.isArray(g.edges),"projection shape");
   const ns=new Map(),es=new Map(),needs=new Map(),dependents=new Map();
   for(const n of g.records){
-   check(/^[A-Z0-9-]+@\d+$/.test(n.ref)&&!ns.has(n.ref)&&n.classification==="SYNTHETIC_RESEARCH"&&n.digest===hash(n.payload)&&eq(n,trustedNodes.get(n.ref)),"record/immutable payload "+n.ref);
+   check(/^[A-Z0-9-]+@\d+$/.test(n.ref)&&!ns.has(n.ref)&&profile.workflow.recordTypes.includes(n.type)&&n.classification==="SYNTHETIC_RESEARCH"&&n.digest===hash(n.payload)&&eq(n,trustedNodes.get(n.ref)),"record/immutable payload "+n.ref);
    ns.set(n.ref,n);
   }
   check(ns.size===trustedNodes.size,"missing required record");
@@ -74,7 +65,7 @@ export function runWorkflowPilot(w,route,support){
    const k=kinds[e.type],a=ns.get(e.from),b=ns.get(e.to);
    check(k&&a&&b&&k[0].includes(a.type)&&k[1].includes(b.type)&&e.from!==e.to&&e.condition==="CTX@1"&&!es.has(e.id)&&eq(e,trustedEdges.get(e.id)),"typed/required edge "+e.id);
    es.set(e.id,e);
-   if(e.type==="prerequisite_for"||e.type==="produces")dep(e.to,e.from);else dep(e.from,e.to);
+   if(profile.workflow.relationships[e.type].dependency==="to_depends_on_from")dep(e.to,e.from);else dep(e.from,e.to);
   }
   check(es.size===trustedEdges.size,"missing required edge");
   const visited=new Set(),active=new Set();
