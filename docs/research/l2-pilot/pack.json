@@ -107,12 +107,12 @@
     },
     {
       "id": "EV-PITCH",
-      "revision": 1,
+      "revision": 2,
       "type": "Evidence",
       "kind": "L1_RESEARCH_LOCATOR",
       "sources": [
         "S409@1",
-        "S413@1"
+        "S413@2"
       ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -125,12 +125,12 @@
     },
     {
       "id": "EV-WINDOW",
-      "revision": 1,
+      "revision": 2,
       "type": "Evidence",
       "kind": "L1_RESEARCH_LOCATOR",
       "sources": [
         "S474@1",
-        "S457@1"
+        "S457@2"
       ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -725,6 +725,62 @@
       "claim": "CL-WINDOW@1",
       "role": "PRIMARY_TARGET",
       "condition": "CTX-WINDOW@1"
+    },
+    {
+      "id": "B-PITCH-FP-WINDOW",
+      "view": "PITCH-FP@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-FN-WINDOW",
+      "view": "PITCH-FN@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RP-WINDOW",
+      "view": "PITCH-RP@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-RN-WINDOW",
+      "view": "PITCH-RN@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-BOUND-MATH",
+      "view": "PITCH-BOUND@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-BOUND-WINDOW",
+      "view": "PITCH-BOUND@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-UNK-MATH",
+      "view": "PITCH-UNK@1",
+      "claim": "CL-CENTS@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "B-PITCH-UNK-WINDOW",
+      "view": "PITCH-UNK@1",
+      "claim": "CL-WINDOW@1",
+      "role": "REQUIRES",
+      "condition": "CTX-PITCH@1"
     }
   ],
   "edges": [
@@ -746,7 +802,7 @@
       "id": "SUP-PITCH",
       "type": "supported_by",
       "from": "CL-PITCH@1",
-      "to": "EV-PITCH@1",
+      "to": "EV-PITCH@2",
       "condition": "CTX-PITCH@1"
     },
     {
@@ -760,7 +816,7 @@
       "id": "SUP-WINDOW",
       "type": "supported_by",
       "from": "CL-WINDOW@1",
-      "to": "EV-WINDOW@1",
+      "to": "EV-WINDOW@2",
       "condition": "CTX-WINDOW@1"
     },
     {
@@ -783,6 +839,13 @@
       "from": "CL-PITCH@1",
       "to": "CL-WINDOW@1",
       "condition": "CTX-PITCH@1"
+    },
+    {
+      "id": "REF-PITCH-USE",
+      "type": "references",
+      "from": "CL-WINDOW@1",
+      "to": "CL-PITCH@1",
+      "condition": "CTX-WINDOW@1"
     }
   ],
   "migrations": [
