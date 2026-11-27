@@ -1,0 +1,2612 @@
+{
+  "format": "audio-kg-K04-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S080",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 20,
+        "row": "| S080 | music21 [dynamics](https://music21.org/music21docs/moduleReference/moduleDynamics.html), Dynamic / volumeScalar | K04.03 | READ_LOCATOR；软件内部标量可自定义，不是声学SPL或演奏规范 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "dynamics",
+          "uri": "https://music21.org/music21docs/moduleReference/moduleDynamics.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.03.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 28,
+            "row": "| K04.03.01.04 | [PF24](performance-r2-knowledge-cases.md#L10) | 播放动态百分比不等SPL | [S392](../../research/source-qualification-performance-r2.md#L15)；[S080](../../research/source-qualification-creative-performance.md#L20) | CQ23 | CQ07/CQ14/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-creative-performance.md",
+            "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+            "line": 20,
+            "row": "| S080 | music21 [dynamics](https://music21.org/music21docs/moduleReference/moduleDynamics.html), Dynamic / volumeScalar | K04.03 | READ_LOCATOR；软件内部标量可自定义，不是声学SPL或演奏规范 |"
+          }
+        }
+      ],
+      "scope": "| S080 | music21 [dynamics](https://music21.org/music21docs/moduleReference/moduleDynamics.html), Dynamic / volumeScalar | K04.03 | READ_LOCATOR；软件内部标量可自定义，不是声学SPL或演奏规范 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S082",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 22,
+        "row": "| S082 | Platz et al. 2014 [The influence of deliberate practice on musical achievement: a meta-analysis](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00646/full), aim / selection criteria | K04.07、K14 | READ_LOCATOR；长期累积练习与表现的研究纳入条件主要基于相关关系；不推导个体固定剂量或因果 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "The influence of deliberate practice on musical achievement: a meta-analysis",
+          "uri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00646/full"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 48,
+            "row": "| K04.07.03.04 | [PF44](performance-r2-knowledge-cases.md#L30) | 低速反馈与原任务证据失效 | [S391](../../research/source-qualification-performance-r2.md#L14)；[S082](../../research/source-qualification-creative-performance.md#L22) | CQ24 | CQ15/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-creative-performance.md",
+            "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+            "line": 22,
+            "row": "| S082 | Platz et al. 2014 [The influence of deliberate practice on musical achievement: a meta-analysis](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00646/full), aim / selection criteria | K04.07、K14 | READ_LOCATOR；长期累积练习与表现的研究纳入条件主要基于相关关系；不推导个体固定剂量或因果 |"
+          }
+        }
+      ],
+      "scope": "| S082 | Platz et al. 2014 [The influence of deliberate practice on musical achievement: a meta-analysis](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00646/full), aim / selection criteria | K04.07、K14 | READ_LOCATOR；长期累积练习与表现的研究纳入条件主要基于相关关系；不推导个体固定剂量或因果 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S085",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 6,
+        "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Rhythm in joint action",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 8,
+            "row": "| K04.01.03.03 | [PF04](performance-r1-knowledge-cases.md#L8) | 降速隔离不等原速成功 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ24 | CQ15/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 10,
+            "row": "| K04.02.01.04 | [PF06](performance-r1-knowledge-cases.md#L10) | 共同速度改变与相对同步 | [S377](../../research/source-qualification-performance-r1.md#L8)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ22 | CQ02/CQ16/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 13,
+            "row": "| K04.02.03.03 | [PF09](performance-r1-knowledge-cases.md#L13) | 稳定偏移与局部漂移 | [S085](../../research/source-qualification-performance-r1.md#L6)；[S377](../../research/source-qualification-performance-r1.md#L8) | CQ22 | CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 20,
+            "row": "| K04.06.01.03 | [PF16](performance-r1-knowledge-cases.md#L20) | 互补节奏共同目标 | [S085](../../research/source-qualification-performance-r1.md#L6) | CQ19 | CQ02/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 22,
+            "row": "| K04.07.03.03 | [PF18](performance-r1-knowledge-cases.md#L22) | 同任务即时复测 | [S377](../../research/source-qualification-performance-r1.md#L8)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ24 | CQ15/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.02.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 26,
+            "row": "| K04.02.03.04 | [PF22](performance-r2-knowledge-cases.md#L8) | 角色目标逐事件残差 | [S377](../../research/source-qualification-performance-r1.md#L8)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ22 | CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.05.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 37,
+            "row": "| K04.05.02.04 | [PF33](performance-r2-knowledge-cases.md#L19) | trading fours角色交接 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ19 | CQ02/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 43,
+            "row": "| K04.06.03.04 | [PF39](performance-r2-knowledge-cases.md#L25) | 共享时基、源/接收端及局部动作与链路偏差 | [S388](../../research/source-qualification-performance-r2.md#L11)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ24 | CQ19/CQ21/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        },
+        {
+          "d4": "K04.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 61,
+            "row": "| K04.06.01.04 | [PF57](performance-r3-knowledge-cases.md#L11) | 按共享拍ID匹配异密度 | [S085](../../research/source-qualification-performance-r1.md#L6)；[S377](../../research/source-qualification-performance-r1.md#L8) | CQ22 | CQ02/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 6,
+            "row": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |"
+          }
+        }
+      ],
+      "scope": "| S085（重读） | Keller, Novembre & Hove (2014), [Rhythm in joint action](https://pmc.ncbi.nlm.nih.gov/articles/PMC4240961/), §2、§2a、anticipatory mechanisms | READ_LOCATOR；旧SEARCH_ONLY此次实际PMC正文可读；综述讨论共同目标、互补节奏、预测/注意/适应、微时值与个体差异；不规定通用毫秒阈值或因果剂量。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S352",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 5,
+        "row": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Violin Bowing",
+          "uri": "https://andrewhugill.com/OrchestraManual/violin_bowing.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 5,
+            "row": "| K04.01.01.03 | [PF01](performance-r1-knowledge-cases.md#L5) | 拨弓状态切换 | [S352](../../research/source-qualification-performance-r1.md#L5) | CQ03 | CQ17/CQ23/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 5,
+            "row": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |"
+          }
+        },
+        {
+          "d4": "K04.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 17,
+            "row": "| K04.04.01.04 | [PF13](performance-r1-knowledge-cases.md#L17) | 同符号异器乐动作 | [S352](../../research/source-qualification-performance-r1.md#L5)；[S376](../../research/source-qualification-performance-r1.md#L7) | CQ03 | CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 5,
+            "row": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |"
+          }
+        },
+        {
+          "d4": "K04.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 35,
+            "row": "| K04.04.03.04 | [PF31](performance-r2-knowledge-cases.md#L17) | 记号声部范围及保护 | [S393](../../research/source-qualification-performance-r2.md#L16)；[S352](../../research/source-qualification-performance-r1.md#L5) | CQ16 | CQ22/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 5,
+            "row": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |"
+          }
+        },
+        {
+          "d4": "K04.04.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 58,
+            "row": "| K04.04.01.05 | [PF54](performance-r3-knowledge-cases.md#L8) | 分弓同弓与作用范围 | [S398](../../research/source-qualification-performance-r3.md#L5)；[S352](../../research/source-qualification-performance-r1.md#L5) | CQ03 | CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 5,
+            "row": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |"
+          }
+        }
+      ],
+      "scope": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S357",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 13,
+        "row": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Guitars and violins string order",
+          "uri": "https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 55,
+            "row": "| K04.01.01.05 | [PF51](performance-r3-knowledge-cases.md#L5) | 同一实音的选弦与常规指揉弦 | [S357](../../research/source-qualification-arrangement-r3.md#L13)；[S398](../../research/source-qualification-performance-r3.md#L5) | CQ03 | CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 13,
+            "row": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |"
+          }
+        }
+      ],
+      "scope": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Effective Instrumental Writing",
+          "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 15,
+            "row": "| K04.03.03.03 | [PF11](performance-r1-knowledge-cases.md#L15) | 派生增益不等演奏改变 | [S379](../../research/source-qualification-performance-r1.md#L10)；[S359](../../research/source-qualification-performance-r1.md#L13) | CQ22 | CQ07/CQ08/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 13,
+            "row": "| S359（既有资格） | TOR Effective Instrumental Writing, Dynamics（K03已定位） | 未重新读取；仅用于相对力度/语境边界。 |"
+          }
+        },
+        {
+          "d4": "K04.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 27,
+            "row": "| K04.03.01.03 | [PF23](performance-r2-knowledge-cases.md#L9) | 相对力度及跨器乐角色 | [S359](../../research/source-qualification-performance-r1.md#L13)；[S373](../../research/source-qualification-arrangement-r3.md#L32)；[S379](../../research/source-qualification-performance-r1.md#L10) | CQ22 | CQ07/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 13,
+            "row": "| S359（既有资格） | TOR Effective Instrumental Writing, Dynamics（K03已定位） | 未重新读取；仅用于相对力度/语境边界。 |"
+          }
+        },
+        {
+          "d4": "K04.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 30,
+            "row": "| K04.03.03.04 | [PF26](performance-r2-knowledge-cases.md#L12) | 渐强作用区间与任务轨迹 | [S393](../../research/source-qualification-performance-r2.md#L16)；[S359](../../research/source-qualification-performance-r1.md#L13) | CQ22 | CQ07/CQ16/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 13,
+            "row": "| S359（既有资格） | TOR Effective Instrumental Writing, Dynamics（K03已定位） | 未重新读取；仅用于相对力度/语境边界。 |"
+          }
+        }
+      ],
+      "scope": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。 K04发现入口仅旧资格指针；使用K03历史原定位的相对力度范围，未来K03复用此精确身份，非独立新来源。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S373",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 32,
+        "row": "- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "dynamics",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 27,
+            "row": "| K04.03.01.03 | [PF23](performance-r2-knowledge-cases.md#L9) | 相对力度及跨器乐角色 | [S359](../../research/source-qualification-performance-r1.md#L13)；[S373](../../research/source-qualification-arrangement-r3.md#L32)；[S379](../../research/source-qualification-performance-r1.md#L10) | CQ22 | CQ07/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 32,
+            "row": "- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。"
+          }
+        }
+      ],
+      "scope": "- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S376",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 7,
+        "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Flute Articulations",
+          "uri": "https://andrewhugill.com/OrchestraManual/flute_articulations.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 6,
+            "row": "| K04.01.01.04 | [PF02](performance-r1-knowledge-cases.md#L6) | 长笛单次或重复吐奏 | [S376](../../research/source-qualification-performance-r1.md#L7) | CQ03 | CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 7,
+            "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 7,
+            "row": "| K04.01.02.03 | [PF03](performance-r1-knowledge-cases.md#L7) | 攻击速率和已确认个体能力 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 7,
+            "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+          }
+        },
+        {
+          "d4": "K04.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 8,
+            "row": "| K04.01.03.03 | [PF04](performance-r1-knowledge-cases.md#L8) | 降速隔离不等原速成功 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ24 | CQ15/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 7,
+            "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+          }
+        },
+        {
+          "d4": "K04.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 16,
+            "row": "| K04.04.01.03 | [PF12](performance-r1-knowledge-cases.md#L16) | 发声时长与攻击间隔 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S379](../../research/source-qualification-performance-r1.md#L10) | CQ22 | CQ03/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 7,
+            "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+          }
+        },
+        {
+          "d4": "K04.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 17,
+            "row": "| K04.04.01.04 | [PF13](performance-r1-knowledge-cases.md#L17) | 同符号异器乐动作 | [S352](../../research/source-qualification-performance-r1.md#L5)；[S376](../../research/source-qualification-performance-r1.md#L7) | CQ03 | CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 7,
+            "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 23,
+            "row": "| K04.01.02.04 | [PF19](performance-r2-knowledge-cases.md#L5) | 个体速度及身体症状门禁 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03/CQ19 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 7,
+            "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+          }
+        },
+        {
+          "d4": "K04.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 24,
+            "row": "| K04.01.03.04 | [PF20](performance-r2-knowledge-cases.md#L6) | 现场观察与录音缺音分离 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S391](../../research/source-qualification-performance-r2.md#L14) | CQ24 | CQ03/CQ08/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 7,
+            "row": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |"
+          }
+        }
+      ],
+      "scope": "| S376 | Hugill [Flute Articulations](https://andrewhugill.com/OrchestraManual/flute_articulations.html), Staccato / Combinations / Double & Triple Tonguing | READ_LOCATOR；文字说明发音与组合的语境差异、快速吐奏方式，不证题设速率或特定录音；同S352谱系。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S377",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 8,
+        "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Optimal feedback correction in string quartet synchronization",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 9,
+            "row": "| K04.02.01.03 | [PF05](performance-r1-knowledge-cases.md#L9) | 局部拍间速度 | [S377](../../research/source-qualification-performance-r1.md#L8) | CQ02 | CQ01/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 10,
+            "row": "| K04.02.01.04 | [PF06](performance-r1-knowledge-cases.md#L10) | 共同速度改变与相对同步 | [S377](../../research/source-qualification-performance-r1.md#L8)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ22 | CQ02/CQ16/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 13,
+            "row": "| K04.02.03.03 | [PF09](performance-r1-knowledge-cases.md#L13) | 稳定偏移与局部漂移 | [S085](../../research/source-qualification-performance-r1.md#L6)；[S377](../../research/source-qualification-performance-r1.md#L8) | CQ22 | CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 21,
+            "row": "| K04.06.03.03 | [PF17](performance-r1-knowledge-cases.md#L21) | 简化相位反馈模型 | [S377](../../research/source-qualification-performance-r1.md#L8) | CQ22 | CQ17/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 22,
+            "row": "| K04.07.03.03 | [PF18](performance-r1-knowledge-cases.md#L22) | 同任务即时复测 | [S377](../../research/source-qualification-performance-r1.md#L8)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ24 | CQ15/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.02.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 25,
+            "row": "| K04.02.01.05 | [PF21](performance-r2-knowledge-cases.md#L7) | 附点拍单位与播放tempo | [S377](../../research/source-qualification-performance-r1.md#L8)；[S392](../../research/source-qualification-performance-r2.md#L15) | CQ02/CQ23 | CQ01/CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.02.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 26,
+            "row": "| K04.02.03.04 | [PF22](performance-r2-knowledge-cases.md#L8) | 角色目标逐事件残差 | [S377](../../research/source-qualification-performance-r1.md#L8)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ22 | CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 34,
+            "row": "| K04.04.03.03 | [PF30](performance-r2-knowledge-cases.md#L16) | 乐句力度与局部速度联合选择 | [S393](../../research/source-qualification-performance-r2.md#L16)；[S379](../../research/source-qualification-performance-r1.md#L10)；[S377](../../research/source-qualification-performance-r1.md#L8) | CQ16/CQ22 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        },
+        {
+          "d4": "K04.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 61,
+            "row": "| K04.06.01.04 | [PF57](performance-r3-knowledge-cases.md#L11) | 按共享拍ID匹配异密度 | [S085](../../research/source-qualification-performance-r1.md#L6)；[S377](../../research/source-qualification-performance-r1.md#L8) | CQ22 | CQ02/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 8,
+            "row": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |"
+          }
+        }
+      ],
+      "scope": "| S377 | Wing et al. (2014), [Optimal feedback correction in string quartet synchronization](https://pmc.ncbi.nlm.nih.gov/articles/PMC3928944/), introduction / phase correction eq(1.1)文字说明 | READ_LOCATOR；共同表达速度偏离、相位与反馈校正；合成gain0.5只演示固定参照的简化无噪声模型，不能外推最优人类策略或实际效果。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S378",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 9,
+        "row": "| S378 | Friberg & Sundström (2002), [Swing Ratios and Ensemble Timing in Jazz Performance](https://doi.org/10.1525/mp.2002.19.3.333), publisher abstract | ABSTRACT_READ；有限录音的ride长短比随速度变化、慢速独奏下拍滞后但反拍趋向对齐；非普遍1:1或2:1规则；出版全文需访问权限，未读全文，后续如采用数值经验规律需补证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Swing Ratios and Ensemble Timing in Jazz Performance",
+          "uri": "https://doi.org/10.1525/mp.2002.19.3.333"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 11,
+            "row": "| K04.02.02.03 | [PF07](performance-r1-knowledge-cases.md#L11) | swing长短间距比 | [S378](../../research/source-qualification-performance-r1.md#L9) | CQ22 | CQ02/CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 9,
+            "row": "| S378 | Friberg & Sundström (2002), [Swing Ratios and Ensemble Timing in Jazz Performance](https://doi.org/10.1525/mp.2002.19.3.333), publisher abstract | ABSTRACT_READ；有限录音的ride长短比随速度变化、慢速独奏下拍滞后但反拍趋向对齐；非普遍1:1或2:1规则；出版全文需访问权限，未读全文，后续如采用数值经验规律需补证。 |"
+          }
+        },
+        {
+          "d4": "K04.02.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 12,
+            "row": "| K04.02.02.04 | [PF08](performance-r1-knowledge-cases.md#L12) | 正反拍角色偏移 | [S378](../../research/source-qualification-performance-r1.md#L9) | CQ22 | CQ02/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 9,
+            "row": "| S378 | Friberg & Sundström (2002), [Swing Ratios and Ensemble Timing in Jazz Performance](https://doi.org/10.1525/mp.2002.19.3.333), publisher abstract | ABSTRACT_READ；有限录音的ride长短比随速度变化、慢速独奏下拍滞后但反拍趋向对齐；非普遍1:1或2:1规则；出版全文需访问权限，未读全文，后续如采用数值经验规律需补证。 |"
+          }
+        },
+        {
+          "d4": "K04.02.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 57,
+            "row": "| K04.02.02.05 | [PF53](performance-r3-knowledge-cases.md#L7) | 细分倍增不等和声加速 | [S378](../../research/source-qualification-performance-r1.md#L9)；[S386](../../research/source-qualification-performance-r2.md#L9) | CQ02 | CQ17/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 9,
+            "row": "| S378 | Friberg & Sundström (2002), [Swing Ratios and Ensemble Timing in Jazz Performance](https://doi.org/10.1525/mp.2002.19.3.333), publisher abstract | ABSTRACT_READ；有限录音的ride长短比随速度变化、慢速独奏下拍滞后但反拍趋向对齐；非普遍1:1或2:1规则；出版全文需访问权限，未读全文，后续如采用数值经验规律需补证。 |"
+          }
+        }
+      ],
+      "scope": "| S378 | Friberg & Sundström (2002), [Swing Ratios and Ensemble Timing in Jazz Performance](https://doi.org/10.1525/mp.2002.19.3.333), publisher abstract | ABSTRACT_READ；有限录音的ride长短比随速度变化、慢速独奏下拍滞后但反拍趋向对齐；非普遍1:1或2:1规则；出版全文需访问权限，未读全文，后续如采用数值经验规律需补证。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S379",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 10,
+        "row": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Investigating pianists' individuality",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.03.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 14,
+            "row": "| K04.03.02.03 | [PF10](performance-r1-knowledge-cases.md#L14) | 键动作、踏板与音色条件 | [S379](../../research/source-qualification-performance-r1.md#L10) | CQ22 | CQ07/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 10,
+            "row": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |"
+          }
+        },
+        {
+          "d4": "K04.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 15,
+            "row": "| K04.03.03.03 | [PF11](performance-r1-knowledge-cases.md#L15) | 派生增益不等演奏改变 | [S379](../../research/source-qualification-performance-r1.md#L10)；[S359](../../research/source-qualification-performance-r1.md#L13) | CQ22 | CQ07/CQ08/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 10,
+            "row": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |"
+          }
+        },
+        {
+          "d4": "K04.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 16,
+            "row": "| K04.04.01.03 | [PF12](performance-r1-knowledge-cases.md#L16) | 发声时长与攻击间隔 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S379](../../research/source-qualification-performance-r1.md#L10) | CQ22 | CQ03/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 10,
+            "row": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |"
+          }
+        },
+        {
+          "d4": "K04.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 27,
+            "row": "| K04.03.01.03 | [PF23](performance-r2-knowledge-cases.md#L9) | 相对力度及跨器乐角色 | [S359](../../research/source-qualification-performance-r1.md#L13)；[S373](../../research/source-qualification-arrangement-r3.md#L32)；[S379](../../research/source-qualification-performance-r1.md#L10) | CQ22 | CQ07/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 10,
+            "row": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |"
+          }
+        },
+        {
+          "d4": "K04.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 29,
+            "row": "| K04.03.02.04 | [PF25](performance-r2-knowledge-cases.md#L11) | 踏板跨和弦约束 | [S379](../../research/source-qualification-performance-r1.md#L10) | CQ03 | CQ07/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 10,
+            "row": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |"
+          }
+        },
+        {
+          "d4": "K04.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 34,
+            "row": "| K04.04.03.03 | [PF30](performance-r2-knowledge-cases.md#L16) | 乐句力度与局部速度联合选择 | [S393](../../research/source-qualification-performance-r2.md#L16)；[S379](../../research/source-qualification-performance-r1.md#L10)；[S377](../../research/source-qualification-performance-r1.md#L8) | CQ16/CQ22 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 10,
+            "row": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |"
+          }
+        }
+      ],
+      "scope": "| S379 | Bernays & Traube (2014), [Investigating pianists' individuality](https://pmc.ncbi.nlm.nih.gov/articles/PMC3941302/), §2.2–2.5、§4及限制 | READ_LOCATOR；四名专业琴手、四短曲、五描述词与高精度动作记录，个体差异；多重比较未校正，作者保留词义与不同动作实现的解释，不把描述词与唯一动作绑定。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S380",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 11,
+        "row": "| S380 | Music Theory for the 21st-Century Classroom [31.9 Scales](https://musictheory.pugetsound.edu/mt21c/JazzScales.html), §31.9.1–2 | READ_LOCATOR；限定爵士教学音阶/下降bebop例，原创案例而非复制图例；不证所有风格及最佳即兴。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "31.9 Scales",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/JazzScales.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 18,
+            "row": "| K04.05.01.03 | [PF14](performance-r1-knowledge-cases.md#L18) | 限定和弦音阶候选 | [S380](../../research/source-qualification-performance-r1.md#L11)；[S381](../../research/source-qualification-performance-r1.md#L12) | CQ02 | CQ03/CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 11,
+            "row": "| S380 | Music Theory for the 21st-Century Classroom [31.9 Scales](https://musictheory.pugetsound.edu/mt21c/JazzScales.html), §31.9.1–2 | READ_LOCATOR；限定爵士教学音阶/下降bebop例，原创案例而非复制图例；不证所有风格及最佳即兴。 |"
+          }
+        },
+        {
+          "d4": "K04.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 19,
+            "row": "| K04.05.01.04 | [PF15](performance-r1-knowledge-cases.md#L19) | bebop弱位趋近音 | [S380](../../research/source-qualification-performance-r1.md#L11) | CQ02 | CQ03/CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 11,
+            "row": "| S380 | Music Theory for the 21st-Century Classroom [31.9 Scales](https://musictheory.pugetsound.edu/mt21c/JazzScales.html), §31.9.1–2 | READ_LOCATOR；限定爵士教学音阶/下降bebop例，原创案例而非复制图例；不证所有风格及最佳即兴。 |"
+          }
+        },
+        {
+          "d4": "K04.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 38,
+            "row": "| K04.05.03.03 | [PF34](performance-r2-knowledge-cases.md#L20) | 即兴强拍硬条件与多解 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S380](../../research/source-qualification-performance-r1.md#L11) | CQ02/CQ22 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 11,
+            "row": "| S380 | Music Theory for the 21st-Century Classroom [31.9 Scales](https://musictheory.pugetsound.edu/mt21c/JazzScales.html), §31.9.1–2 | READ_LOCATOR；限定爵士教学音阶/下降bebop例，原创案例而非复制图例；不证所有风格及最佳即兴。 |"
+          }
+        }
+      ],
+      "scope": "| S380 | Music Theory for the 21st-Century Classroom [31.9 Scales](https://musictheory.pugetsound.edu/mt21c/JazzScales.html), §31.9.1–2 | READ_LOCATOR；限定爵士教学音阶/下降bebop例，原创案例而非复制图例；不证所有风格及最佳即兴。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S381",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 12,
+        "row": "| S381 | 同教材 [31.10 How to Determine Chord-Scale Relationships](https://musictheory.pugetsound.edu/mt21c/HowToDetermineChord-ScaleRelationships.html), §31.10.1 table及其后语境限定 | READ_LOCATOR；Cmaj7可用C大调或Lydian候选，实际全曲调性约束另核；非通用规则、同S380谱系。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "31.10 How to Determine Chord-Scale Relationships",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/HowToDetermineChord-ScaleRelationships.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 18,
+            "row": "| K04.05.01.03 | [PF14](performance-r1-knowledge-cases.md#L18) | 限定和弦音阶候选 | [S380](../../research/source-qualification-performance-r1.md#L11)；[S381](../../research/source-qualification-performance-r1.md#L12) | CQ02 | CQ03/CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r1.md",
+            "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+            "line": 12,
+            "row": "| S381 | 同教材 [31.10 How to Determine Chord-Scale Relationships](https://musictheory.pugetsound.edu/mt21c/HowToDetermineChord-ScaleRelationships.html), §31.10.1 table及其后语境限定 | READ_LOCATOR；Cmaj7可用C大调或Lydian候选，实际全曲调性约束另核；非通用规则、同S380谱系。 |"
+          }
+        }
+      ],
+      "scope": "| S381 | 同教材 [31.10 How to Determine Chord-Scale Relationships](https://musictheory.pugetsound.edu/mt21c/HowToDetermineChord-ScaleRelationships.html), §31.10.1 table及其后语境限定 | READ_LOCATOR；Cmaj7可用C大调或Lydian候选，实际全曲调性约束另核；非通用规则、同S380谱系。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S382",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 5,
+        "row": "| S382 | Ross W. Duffin, Case Western Reserve University, [Baroque Ornamentation I](https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/), Trill / Methods of Performance | 多种法式agréments及短颤音候选；非全巴洛克规则，谱图未看。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Baroque Ornamentation I",
+          "uri": "https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 31,
+            "row": "| K04.04.02.03 | [PF27](performance-r2-knowledge-cases.md#L13) | 限定法式短颤音实现 | [S382](../../research/source-qualification-performance-r2.md#L5)；[S383](../../research/source-qualification-performance-r2.md#L6) | CQ02/CQ23 | CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 5,
+            "row": "| S382 | Ross W. Duffin, Case Western Reserve University, [Baroque Ornamentation I](https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/), Trill / Methods of Performance | 多种法式agréments及短颤音候选；非全巴洛克规则，谱图未看。 |"
+          }
+        }
+      ],
+      "scope": "| S382 | Ross W. Duffin, Case Western Reserve University, [Baroque Ornamentation I](https://casfaculty.case.edu/ross-duffin/muhi-ornamentation-i-agrements/muhi-3441-baroque-ornamentation-i-description-introduction/), Trill / Methods of Performance | 多种法式agréments及短颤音候选；非全巴洛克规则，谱图未看。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S383",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 6,
+        "row": "| S383 | University of Debrecen, [Introduction to Keyboard Music Practice in the Early Music Era](https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation), ornaments / appoggiatura / trill | 明示历史时期与语境、Quantz长倚音比例、连续长颤音例外；二手教学引述非原始Quantz全文，未看图谱。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Introduction to Keyboard Music Practice in the Early Music Era",
+          "uri": "https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 31,
+            "row": "| K04.04.02.03 | [PF27](performance-r2-knowledge-cases.md#L13) | 限定法式短颤音实现 | [S382](../../research/source-qualification-performance-r2.md#L5)；[S383](../../research/source-qualification-performance-r2.md#L6) | CQ02/CQ23 | CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 6,
+            "row": "| S383 | University of Debrecen, [Introduction to Keyboard Music Practice in the Early Music Era](https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation), ornaments / appoggiatura / trill | 明示历史时期与语境、Quantz长倚音比例、连续长颤音例外；二手教学引述非原始Quantz全文，未看图谱。 |"
+          }
+        },
+        {
+          "d4": "K04.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 32,
+            "row": "| K04.04.02.04 | [PF28](performance-r2-knowledge-cases.md#L14) | 历史倚音时值分配 | [S383](../../research/source-qualification-performance-r2.md#L6) | CQ02 | CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 6,
+            "row": "| S383 | University of Debrecen, [Introduction to Keyboard Music Practice in the Early Music Era](https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation), ornaments / appoggiatura / trill | 明示历史时期与语境、Quantz长倚音比例、连续长颤音例外；二手教学引述非原始Quantz全文，未看图谱。 |"
+          }
+        }
+      ],
+      "scope": "| S383 | University of Debrecen, [Introduction to Keyboard Music Practice in the Early Music Era](https://music.unideb.hu/introduction-keyboard-music-practice-early-music-era-principles-and-their-practical-implementation), ornaments / appoggiatura / trill | 明示历史时期与语境、Quantz长倚音比例、连续长颤音例外；二手教学引述非原始Quantz全文，未看图谱。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S384",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 7,
+        "row": "| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Beating time",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 41,
+            "row": "| K04.06.02.03 | [PF37](performance-r2-knowledge-cases.md#L23) | 长休止后预备提示 | [S384](../../research/source-qualification-performance-r2.md#L7) | CQ19 | CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 7,
+            "row": "| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |"
+          }
+        },
+        {
+          "d4": "K04.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 42,
+            "row": "| K04.06.02.04 | [PF38](performance-r2-knowledge-cases.md#L24) | 源起音与到达延迟分离 | [S388](../../research/source-qualification-performance-r2.md#L11)；[S384](../../research/source-qualification-performance-r2.md#L7) | CQ22 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 7,
+            "row": "| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |"
+          }
+        },
+        {
+          "d4": "K04.07.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 44,
+            "row": "| K04.07.01.03 | [PF40](performance-r2-knowledge-cases.md#L26) | 预备拍不等入口拍 | [S384](../../research/source-qualification-performance-r2.md#L7)；[S387](../../research/source-qualification-performance-r2.md#L10) | CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 7,
+            "row": "| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |"
+          }
+        }
+      ],
+      "scope": "| S384 | Bishop & Goebl, [Beating time](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718341/), Introduction / Communicating timing information through cueing gestures | 西方室内乐入口、休止后提示与起始速度；视觉非始终必要，不由研究推通用毫秒值。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S385",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 8,
+        "row": "| S385 | [Essentials in Conducting, ch.3](https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3), release / hold | 历史教材的释放时刻和延长后提示；网页文本可读、谱图暂不可用，不推广所有手势约定。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Essentials in Conducting, ch.3",
+          "uri": "https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.04.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 33,
+            "row": "| K04.04.02.05 | [PF29](performance-r2-knowledge-cases.md#L15) | fermata共同释放 | [S385](../../research/source-qualification-performance-r2.md#L8)；[S394](../../research/source-qualification-performance-r2.md#L17) | CQ16/CQ23 | CQ02/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 8,
+            "row": "| S385 | [Essentials in Conducting, ch.3](https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3), release / hold | 历史教材的释放时刻和延长后提示；网页文本可读、谱图暂不可用，不推广所有手势约定。 |"
+          }
+        },
+        {
+          "d4": "K04.07.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 45,
+            "row": "| K04.07.01.04 | [PF41](performance-r2-knowledge-cases.md#L27) | 完整持续值与释放提示 | [S385](../../research/source-qualification-performance-r2.md#L8)；[S387](../../research/source-qualification-performance-r2.md#L10) | CQ19 | CQ22/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 8,
+            "row": "| S385 | [Essentials in Conducting, ch.3](https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3), release / hold | 历史教材的释放时刻和延长后提示；网页文本可读、谱图暂不可用，不推广所有手势约定。 |"
+          }
+        }
+      ],
+      "scope": "| S385 | [Essentials in Conducting, ch.3](https://en.wikisource.org/wiki/Essentials_in_Conducting/Chapter_3), release / hold | 历史教材的释放时刻和延长后提示；网页文本可读、谱图暂不可用，不推广所有手势约定。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S386",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 9,
+        "row": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Projection, Call-Response and the Improvisational Moment",
+          "uri": "https://onlinelibrary.wiley.com/doi/10.1111/musa.12211"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.05.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 36,
+            "row": "| K04.05.02.03 | [PF32](performance-r2-knowledge-cases.md#L18) | 问答节奏保留与多解 | [S386](../../research/source-qualification-performance-r2.md#L9) | CQ19 | CQ02/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 9,
+            "row": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |"
+          }
+        },
+        {
+          "d4": "K04.05.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 37,
+            "row": "| K04.05.02.04 | [PF33](performance-r2-knowledge-cases.md#L19) | trading fours角色交接 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ19 | CQ02/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 9,
+            "row": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |"
+          }
+        },
+        {
+          "d4": "K04.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 38,
+            "row": "| K04.05.03.03 | [PF34](performance-r2-knowledge-cases.md#L20) | 即兴强拍硬条件与多解 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S380](../../research/source-qualification-performance-r1.md#L11) | CQ02/CQ22 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 9,
+            "row": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |"
+          }
+        },
+        {
+          "d4": "K04.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 39,
+            "row": "| K04.05.03.04 | [PF35](performance-r2-knowledge-cases.md#L21) | 缺测及审美分歧 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S389](../../research/source-qualification-performance-r2.md#L12) | CQ22 | CQ19/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 9,
+            "row": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |"
+          }
+        },
+        {
+          "d4": "K04.02.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 57,
+            "row": "| K04.02.02.05 | [PF53](performance-r3-knowledge-cases.md#L7) | 细分倍增不等和声加速 | [S378](../../research/source-qualification-performance-r1.md#L9)；[S386](../../research/source-qualification-performance-r2.md#L9) | CQ02 | CQ17/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 9,
+            "row": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |"
+          }
+        },
+        {
+          "d4": "K04.05.01.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 59,
+            "row": "| K04.05.01.06 | [PF55](performance-r3-knowledge-cases.md#L9) | 即兴动机保留/变化 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S402](../../research/source-qualification-performance-r3.md#L9) | CQ02 | CQ03/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 9,
+            "row": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |"
+          }
+        }
+      ],
+      "scope": "| S386 | Michaelsen (2023), [Projection, Call-Response and the Improvisational Moment](https://onlinelibrary.wiley.com/doi/10.1111/musa.12211), call-response and trading fours discussion | 音乐互动及投射，源文化语境特定；本题原创问答/角色窗口，不证明所有即兴不重叠。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S387",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 10,
+        "row": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "The craft of conducting, video 11",
+          "uri": "https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.07.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 44,
+            "row": "| K04.07.01.03 | [PF40](performance-r2-knowledge-cases.md#L26) | 预备拍不等入口拍 | [S384](../../research/source-qualification-performance-r2.md#L7)；[S387](../../research/source-qualification-performance-r2.md#L10) | CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 10,
+            "row": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |"
+          }
+        },
+        {
+          "d4": "K04.07.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 45,
+            "row": "| K04.07.01.04 | [PF41](performance-r2-knowledge-cases.md#L27) | 完整持续值与释放提示 | [S385](../../research/source-qualification-performance-r2.md#L8)；[S387](../../research/source-qualification-performance-r2.md#L10) | CQ19 | CQ22/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 10,
+            "row": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |"
+          }
+        },
+        {
+          "d4": "K04.07.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 47,
+            "row": "| K04.07.02.04 | [PF43](performance-r2-knowledge-cases.md#L29) | 分组排练资源及复测预算 | [S391](../../research/source-qualification-performance-r2.md#L14)；[S387](../../research/source-qualification-performance-r2.md#L10) | CQ19 | CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 10,
+            "row": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |"
+          }
+        },
+        {
+          "d4": "K04.07.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 62,
+            "row": "| K04.07.01.05 | [PF58](performance-r3-knowledge-cases.md#L12) | 指挥力度对象与共同拍 | [S387](../../research/source-qualification-performance-r2.md#L10)；[S393](../../research/source-qualification-performance-r2.md#L16) | CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 10,
+            "row": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |"
+          }
+        }
+      ],
+      "scope": "| S387 | NSW Department of Education, [The craft of conducting, video 11](https://sites.google.com/education.nsw.gov.au/tau-ct-craft-conducting-basics/video-11-the-left-hand-hand-independence-and-lots-more), Cues | 重要/长休止后入口及准备、眼神沟通；教学文本实际读取、视频未看；无固定全球手势。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S388",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 11,
+        "row": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Assessing the Effects of Delay to NMP via Audio Analysis",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 42,
+            "row": "| K04.06.02.04 | [PF38](performance-r2-knowledge-cases.md#L24) | 源起音与到达延迟分离 | [S388](../../research/source-qualification-performance-r2.md#L11)；[S384](../../research/source-qualification-performance-r2.md#L7) | CQ22 | CQ07/CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 11,
+            "row": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |"
+          }
+        },
+        {
+          "d4": "K04.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 43,
+            "row": "| K04.06.03.04 | [PF39](performance-r2-knowledge-cases.md#L25) | 共享时基、源/接收端及局部动作与链路偏差 | [S388](../../research/source-qualification-performance-r2.md#L11)；[S085](../../research/source-qualification-performance-r1.md#L6) | CQ24 | CQ19/CQ21/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 11,
+            "row": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |"
+          }
+        },
+        {
+          "d4": "K04.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 51,
+            "row": "| K04.08.02.03 | [PF47](performance-r2-knowledge-cases.md#L33) | 监听缺失与现场停止协议 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S388](../../research/source-qualification-performance-r2.md#L11) | CQ19/CQ24 | CQ20/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 11,
+            "row": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |"
+          }
+        },
+        {
+          "d4": "K04.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 53,
+            "row": "| K04.08.03.03 | [PF49](performance-r2-knowledge-cases.md#L35) | 演出原因未知保留日志 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S388](../../research/source-qualification-performance-r2.md#L11) | CQ21/CQ24 | CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 11,
+            "row": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |"
+          }
+        }
+      ],
+      "scope": "| S388 | Tsioutas & Xylomenos (2023 issue; online 2022), [Assessing the Effects of Delay to NMP via Audio Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9791973/), Abstract / Introduction / Related Work | 11对演奏者、不同延迟下tempo与个体差异；稳态速度不等精确同步/满意度，不采纳统一40ms阈值。PF38/39为独立合成时间轴模型；PMC8500175验证码，未升级。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S389",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 12,
+        "row": "| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Pedagogical strategies for the development of improvisation and composition in North Indian classical music",
+          "uri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 39,
+            "row": "| K04.05.03.04 | [PF35](performance-r2-knowledge-cases.md#L21) | 缺测及审美分歧 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S389](../../research/source-qualification-performance-r2.md#L12) | CQ22 | CQ19/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 12,
+            "row": "| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |"
+          }
+        },
+        {
+          "d4": "K04.05.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 40,
+            "row": "| K04.05.01.05 | [PF36](performance-r2-knowledge-cases.md#L22) | tāl与mukhṛā固定回归相位 | [S389](../../research/source-qualification-performance-r2.md#L12)；[S390](../../research/source-qualification-performance-r2.md#L13) | CQ26 | CQ02/CQ18/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 12,
+            "row": "| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |"
+          }
+        },
+        {
+          "d4": "K04.05.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 60,
+            "row": "| K04.05.02.05 | [PF56](performance-r3-knowledge-cases.md#L10) | 北印度合成对答与循环会合 | [S389](../../research/source-qualification-performance-r2.md#L12)；[S390](../../research/source-qualification-performance-r2.md#L13) | CQ26 | CQ18/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 12,
+            "row": "| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |"
+          }
+        }
+      ],
+      "scope": "| S389 | Sayers (2025), [Pedagogical strategies for the development of improvisation and composition in North Indian classical music](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1460158/full), mukhṛā / sam 段 | 特定北印度教学中的16拍第13拍入口与回归；合成计数，不泛化所有tāl或rāga；不以音阶替代传统。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S390",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 13,
+        "row": "| S390 | Smithsonian archive, [North Indian Classical Music: Shujaat Khan, sitar](https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/), tala / gat / sawal-jawab | 档案演出介绍中的循环与互动；不采纳其中广义起源/72母音阶等概括，不听录音不声称转录。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "North Indian Classical Music: Shujaat Khan, sitar",
+          "uri": "https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.05.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 40,
+            "row": "| K04.05.01.05 | [PF36](performance-r2-knowledge-cases.md#L22) | tāl与mukhṛā固定回归相位 | [S389](../../research/source-qualification-performance-r2.md#L12)；[S390](../../research/source-qualification-performance-r2.md#L13) | CQ26 | CQ02/CQ18/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 13,
+            "row": "| S390 | Smithsonian archive, [North Indian Classical Music: Shujaat Khan, sitar](https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/), tala / gat / sawal-jawab | 档案演出介绍中的循环与互动；不采纳其中广义起源/72母音阶等概括，不听录音不声称转录。 |"
+          }
+        },
+        {
+          "d4": "K04.05.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 60,
+            "row": "| K04.05.02.05 | [PF56](performance-r3-knowledge-cases.md#L10) | 北印度合成对答与循环会合 | [S389](../../research/source-qualification-performance-r2.md#L12)；[S390](../../research/source-qualification-performance-r2.md#L13) | CQ26 | CQ18/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 13,
+            "row": "| S390 | Smithsonian archive, [North Indian Classical Music: Shujaat Khan, sitar](https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/), tala / gat / sawal-jawab | 档案演出介绍中的循环与互动；不采纳其中广义起源/72母音阶等概括，不听录音不声称转录。 |"
+          }
+        }
+      ],
+      "scope": "| S390 | Smithsonian archive, [North Indian Classical Music: Shujaat Khan, sitar](https://asia-archive.si.edu/podcast/north-indian-classical-music-shujaat-khan-sitar-abhiman-kaushal-tabla/), tala / gat / sawal-jawab | 档案演出介绍中的循环与互动；不采纳其中广义起源/72母音阶等概括，不听录音不声称转录。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S391",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 14,
+        "row": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Tips and Tricks for Effective Rehearsals",
+          "uri": "https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 24,
+            "row": "| K04.01.03.04 | [PF20](performance-r2-knowledge-cases.md#L6) | 现场观察与录音缺音分离 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S391](../../research/source-qualification-performance-r2.md#L14) | CQ24 | CQ03/CQ08/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 14,
+            "row": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |"
+          }
+        },
+        {
+          "d4": "K04.07.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 46,
+            "row": "| K04.07.02.03 | [PF42](performance-r2-knowledge-cases.md#L28) | 隔离难点并回归全段 | [S391](../../research/source-qualification-performance-r2.md#L14) | CQ19/CQ24 | CQ15/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 14,
+            "row": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |"
+          }
+        },
+        {
+          "d4": "K04.07.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 47,
+            "row": "| K04.07.02.04 | [PF43](performance-r2-knowledge-cases.md#L29) | 分组排练资源及复测预算 | [S391](../../research/source-qualification-performance-r2.md#L14)；[S387](../../research/source-qualification-performance-r2.md#L10) | CQ19 | CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 14,
+            "row": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |"
+          }
+        },
+        {
+          "d4": "K04.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 48,
+            "row": "| K04.07.03.04 | [PF44](performance-r2-knowledge-cases.md#L30) | 低速反馈与原任务证据失效 | [S391](../../research/source-qualification-performance-r2.md#L14)；[S082](../../research/source-qualification-creative-performance.md#L22) | CQ24 | CQ15/CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 14,
+            "row": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |"
+          }
+        },
+        {
+          "d4": "K04.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 54,
+            "row": "| K04.08.03.04 | [PF50](performance-r2-knowledge-cases.md#L36) | 反馈后局部提示修订与回滚 | [S391](../../research/source-qualification-performance-r2.md#L14)；[S395](../../research/source-qualification-performance-r2.md#L18) | CQ16/CQ24 | CQ19/CQ21/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 14,
+            "row": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |"
+          }
+        }
+      ],
+      "scope": "| S391 | Leslie Manfredo / ILMEA, [Tips and Tricks for Effective Rehearsals](https://static1.squarespace.com/static/5a8b48df32601edf3b51de66/t/60384b649bb3fb5bcd1f8a24/1614302052966/Tips%2Band%2BTricks%2Bfor%2BEffective%2BRehearsals.pdf), PDF p1–2 实际截图及文字 | 分离节奏/音高、整段→局部→整段、明确目标；教育实践指导，非临床安全或最佳时长研究；不采纳学习风格分类断言。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S392",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 15,
+        "row": "| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "sound",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.02.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 25,
+            "row": "| K04.02.01.05 | [PF21](performance-r2-knowledge-cases.md#L7) | 附点拍单位与播放tempo | [S377](../../research/source-qualification-performance-r1.md#L8)；[S392](../../research/source-qualification-performance-r2.md#L15) | CQ02/CQ23 | CQ01/CQ17/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 15,
+            "row": "| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |"
+          }
+        },
+        {
+          "d4": "K04.03.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 28,
+            "row": "| K04.03.01.04 | [PF24](performance-r2-knowledge-cases.md#L10) | 播放动态百分比不等SPL | [S392](../../research/source-qualification-performance-r2.md#L15)；[S080](../../research/source-qualification-creative-performance.md#L20) | CQ23 | CQ07/CQ14/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 15,
+            "row": "| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |"
+          }
+        },
+        {
+          "d4": "K04.08.03.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 64,
+            "row": "| K04.08.03.05 | [PF60](performance-r3-knowledge-cases.md#L14) | 源与监听版本及证据失效 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S392](../../research/source-qualification-performance-r2.md#L15) | CQ21/CQ24 | CQ14/CQ20/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 15,
+            "row": "| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |"
+          }
+        }
+      ],
+      "scope": "| S392 | W3C MusicXML4.0 [sound](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/sound/), dynamics / tempo / offset | 四分音每分钟、播放动态百分比、offset非硬件延迟补偿；不保证实际宿主或物理声压。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S393",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 16,
+        "row": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "wedge",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 30,
+            "row": "| K04.03.03.04 | [PF26](performance-r2-knowledge-cases.md#L12) | 渐强作用区间与任务轨迹 | [S393](../../research/source-qualification-performance-r2.md#L16)；[S359](../../research/source-qualification-performance-r1.md#L13) | CQ22 | CQ07/CQ16/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 16,
+            "row": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |"
+          }
+        },
+        {
+          "d4": "K04.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 34,
+            "row": "| K04.04.03.03 | [PF30](performance-r2-knowledge-cases.md#L16) | 乐句力度与局部速度联合选择 | [S393](../../research/source-qualification-performance-r2.md#L16)；[S379](../../research/source-qualification-performance-r1.md#L10)；[S377](../../research/source-qualification-performance-r1.md#L8) | CQ16/CQ22 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 16,
+            "row": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |"
+          }
+        },
+        {
+          "d4": "K04.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 35,
+            "row": "| K04.04.03.04 | [PF31](performance-r2-knowledge-cases.md#L17) | 记号声部范围及保护 | [S393](../../research/source-qualification-performance-r2.md#L16)；[S352](../../research/source-qualification-performance-r1.md#L5) | CQ16 | CQ22/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 16,
+            "row": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |"
+          }
+        },
+        {
+          "d4": "K04.07.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 62,
+            "row": "| K04.07.01.05 | [PF58](performance-r3-knowledge-cases.md#L12) | 指挥力度对象与共同拍 | [S387](../../research/source-qualification-performance-r2.md#L10)；[S393](../../research/source-qualification-performance-r2.md#L16) | CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 16,
+            "row": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |"
+          }
+        }
+      ],
+      "scope": "| S393 | W3C MusicXML4.0 [wedge](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wedge/), type/number | 渐强渐弱开始/结束标记，非实际幅度轨迹；表达选择结合既有S359/S379。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S394",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 17,
+        "row": "| S394 | W3C MusicXML4.0 [fermata](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/), description/attributes | 形状、方向和标记，不规定实际延长时值；实际释放参见S385。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "fermata",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.04.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 33,
+            "row": "| K04.04.02.05 | [PF29](performance-r2-knowledge-cases.md#L15) | fermata共同释放 | [S385](../../research/source-qualification-performance-r2.md#L8)；[S394](../../research/source-qualification-performance-r2.md#L17) | CQ16/CQ23 | CQ02/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 17,
+            "row": "| S394 | W3C MusicXML4.0 [fermata](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/), description/attributes | 形状、方向和标记，不规定实际延长时值；实际释放参见S385。 |"
+          }
+        }
+      ],
+      "scope": "| S394 | W3C MusicXML4.0 [fermata](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fermata/), description/attributes | 形状、方向和标记，不规定实际延长时值；实际释放参见S385。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S395",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 18,
+        "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "How to get the most out of your soundcheck",
+          "uri": "https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.08.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 49,
+            "row": "| K04.08.01.03 | [PF45](performance-r2-knowledge-cases.md#L31) | 现场谱版及替代资源 | [S395](../../research/source-qualification-performance-r2.md#L18) | CQ19 | CQ21/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 18,
+            "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+          }
+        },
+        {
+          "d4": "K04.08.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 50,
+            "row": "| K04.08.01.04 | [PF46](performance-r2-knowledge-cases.md#L32) | 试音与排练目的区别 | [S395](../../research/source-qualification-performance-r2.md#L18) | CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 18,
+            "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+          }
+        },
+        {
+          "d4": "K04.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 51,
+            "row": "| K04.08.02.03 | [PF47](performance-r2-knowledge-cases.md#L33) | 监听缺失与现场停止协议 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S388](../../research/source-qualification-performance-r2.md#L11) | CQ19/CQ24 | CQ20/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 18,
+            "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+          }
+        },
+        {
+          "d4": "K04.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 53,
+            "row": "| K04.08.03.03 | [PF49](performance-r2-knowledge-cases.md#L35) | 演出原因未知保留日志 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S388](../../research/source-qualification-performance-r2.md#L11) | CQ21/CQ24 | CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 18,
+            "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+          }
+        },
+        {
+          "d4": "K04.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 54,
+            "row": "| K04.08.03.04 | [PF50](performance-r2-knowledge-cases.md#L36) | 反馈后局部提示修订与回滚 | [S391](../../research/source-qualification-performance-r2.md#L14)；[S395](../../research/source-qualification-performance-r2.md#L18) | CQ16/CQ24 | CQ19/CQ21/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 18,
+            "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+          }
+        },
+        {
+          "d4": "K04.08.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 63,
+            "row": "| K04.08.01.05 | [PF59](performance-r3-knowledge-cases.md#L13) | 场地前置及提示可见性 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S396](../../research/source-qualification-performance-r2.md#L19)；[S397](../../research/source-qualification-performance-r2.md#L20) | CQ19 | CQ20/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 18,
+            "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+          }
+        },
+        {
+          "d4": "K04.08.03.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 64,
+            "row": "| K04.08.03.05 | [PF60](performance-r3-knowledge-cases.md#L14) | 源与监听版本及证据失效 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S392](../../research/source-qualification-performance-r2.md#L15) | CQ21/CQ24 | CQ14/CQ20/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 18,
+            "row": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |"
+          }
+        }
+      ],
+      "scope": "| S395 | Improvised Music Company, [How to get the most out of your soundcheck](https://www.improvisedmusic.ie/supporting-musicians/resources-opportunities/how-to-get-the-most-out-of-your-soudncheck), What is a Soundcheck / preparation / engineer coordination | 演出前舞台与通道信息、代表段、监听与FOH区别、工程师沟通；不采纳固定场地时长或音量指导作为安全阈值。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S396",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 19,
+        "row": "| S396 | UK Musicians' Union [Hearing Protection for Musicians](https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection), If you are exposed to risk | 职业风险报告及退出危险环境；英国组织语境，不作其他地区法律建议。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Hearing Protection for Musicians",
+          "uri": "https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 52,
+            "row": "| K04.08.02.04 | [PF48](performance-r2-knowledge-cases.md#L34) | 听力风险停止与专业转介 | [S396](../../research/source-qualification-performance-r2.md#L19)；[S397](../../research/source-qualification-performance-r2.md#L20) | CQ19 | CQ20/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 19,
+            "row": "| S396 | UK Musicians' Union [Hearing Protection for Musicians](https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection), If you are exposed to risk | 职业风险报告及退出危险环境；英国组织语境，不作其他地区法律建议。 |"
+          }
+        },
+        {
+          "d4": "K04.08.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 63,
+            "row": "| K04.08.01.05 | [PF59](performance-r3-knowledge-cases.md#L13) | 场地前置及提示可见性 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S396](../../research/source-qualification-performance-r2.md#L19)；[S397](../../research/source-qualification-performance-r2.md#L20) | CQ19 | CQ20/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 19,
+            "row": "| S396 | UK Musicians' Union [Hearing Protection for Musicians](https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection), If you are exposed to risk | 职业风险报告及退出危险环境；英国组织语境，不作其他地区法律建议。 |"
+          }
+        }
+      ],
+      "scope": "| S396 | UK Musicians' Union [Hearing Protection for Musicians](https://musiciansunion.org.uk/health-safety-wellbeing/health-and-safety/key-health-and-safety-issues/hearing-health/hearing-protection), If you are exposed to risk | 职业风险报告及退出危险环境；英国组织语境，不作其他地区法律建议。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S397",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r2.md",
+        "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+        "line": 20,
+        "row": "| S397 | WHO [WHO releases new standard to tackle rising threat of hearing loss](https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss), six recommendations / preventable risk | 2022新闻正文，场所/活动听力保护措施；不是个体职业暴露认证，未读取完整技术标准，不采用无测量条件的数字。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "WHO releases new standard to tackle rising threat of hearing loss",
+          "uri": "https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 52,
+            "row": "| K04.08.02.04 | [PF48](performance-r2-knowledge-cases.md#L34) | 听力风险停止与专业转介 | [S396](../../research/source-qualification-performance-r2.md#L19)；[S397](../../research/source-qualification-performance-r2.md#L20) | CQ19 | CQ20/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 20,
+            "row": "| S397 | WHO [WHO releases new standard to tackle rising threat of hearing loss](https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss), six recommendations / preventable risk | 2022新闻正文，场所/活动听力保护措施；不是个体职业暴露认证，未读取完整技术标准，不采用无测量条件的数字。 |"
+          }
+        },
+        {
+          "d4": "K04.08.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 63,
+            "row": "| K04.08.01.05 | [PF59](performance-r3-knowledge-cases.md#L13) | 场地前置及提示可见性 | [S395](../../research/source-qualification-performance-r2.md#L18)；[S396](../../research/source-qualification-performance-r2.md#L19)；[S397](../../research/source-qualification-performance-r2.md#L20) | CQ19 | CQ20/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r2.md",
+            "blob": "98a8d1cbeba7ecb17b228ab0281d07c3a73ed81a",
+            "line": 20,
+            "row": "| S397 | WHO [WHO releases new standard to tackle rising threat of hearing loss](https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss), six recommendations / preventable risk | 2022新闻正文，场所/活动听力保护措施；不是个体职业暴露认证，未读取完整技术标准，不采用无测量条件的数字。 |"
+          }
+        }
+      ],
+      "scope": "| S397 | WHO [WHO releases new standard to tackle rising threat of hearing loss](https://www.who.int/news/item/02-03-2022-who-releases-new-standard-to-tackle-rising-threat-of-hearing-loss), six recommendations / preventable risk | 2022新闻正文，场所/活动听力保护措施；不是个体职业暴露认证，未读取完整技术标准，不采用无测量条件的数字。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S398",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r3.md",
+        "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+        "line": 5,
+        "row": "| S398 | Hugill [Violin Left Hand](https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato / Trill；[Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), détaché / legato / arco（S352重读） | 左手音高变化、语境化装饰及分弓/同弓；同Hugill谱系，实际演奏与具体跨弦速度未知，PF51弦序使用既有S357及题设教师确认。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Violin Left Hand",
+          "uri": "https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html"
+        },
+        {
+          "title": "Violin Bowing",
+          "uri": "https://andrewhugill.com/OrchestraManual/violin_bowing.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 55,
+            "row": "| K04.01.01.05 | [PF51](performance-r3-knowledge-cases.md#L5) | 同一实音的选弦与常规指揉弦 | [S357](../../research/source-qualification-arrangement-r3.md#L13)；[S398](../../research/source-qualification-performance-r3.md#L5) | CQ03 | CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 5,
+            "row": "| S398 | Hugill [Violin Left Hand](https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato / Trill；[Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), détaché / legato / arco（S352重读） | 左手音高变化、语境化装饰及分弓/同弓；同Hugill谱系，实际演奏与具体跨弦速度未知，PF51弦序使用既有S357及题设教师确认。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 56,
+            "row": "| K04.01.02.05 | [PF52](performance-r3-knowledge-cases.md#L6) | 动作序列速度与个体健康 | [S398](../../research/source-qualification-performance-r3.md#L5)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 5,
+            "row": "| S398 | Hugill [Violin Left Hand](https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato / Trill；[Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), détaché / legato / arco（S352重读） | 左手音高变化、语境化装饰及分弓/同弓；同Hugill谱系，实际演奏与具体跨弦速度未知，PF51弦序使用既有S357及题设教师确认。 |"
+          }
+        },
+        {
+          "d4": "K04.04.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 58,
+            "row": "| K04.04.01.05 | [PF54](performance-r3-knowledge-cases.md#L8) | 分弓同弓与作用范围 | [S398](../../research/source-qualification-performance-r3.md#L5)；[S352](../../research/source-qualification-performance-r1.md#L5) | CQ03 | CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 5,
+            "row": "| S398 | Hugill [Violin Left Hand](https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato / Trill；[Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), détaché / legato / arco（S352重读） | 左手音高变化、语境化装饰及分弓/同弓；同Hugill谱系，实际演奏与具体跨弦速度未知，PF51弦序使用既有S357及题设教师确认。 |"
+          }
+        }
+      ],
+      "scope": "| S398 | Hugill [Violin Left Hand](https://www.andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato / Trill；[Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), détaché / legato / arco（S352重读） | 左手音高变化、语境化装饰及分弓/同弓；同Hugill谱系，实际演奏与具体跨弦速度未知，PF51弦序使用既有S357及题设教师确认。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S399",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r3.md",
+        "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+        "line": 6,
+        "row": "| S399 | ISM, [How to become a healthy instrumentalist](https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/), identifying warning signs / immediate care | 新症状与疲劳需及时停止或求帮助，专业评估；行业健康指导非个体诊断。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "How to become a healthy instrumentalist",
+          "uri": "https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 7,
+            "row": "| K04.01.02.03 | [PF03](performance-r1-knowledge-cases.md#L7) | 攻击速率和已确认个体能力 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 6,
+            "row": "| S399 | ISM, [How to become a healthy instrumentalist](https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/), identifying warning signs / immediate care | 新症状与疲劳需及时停止或求帮助，专业评估；行业健康指导非个体诊断。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 23,
+            "row": "| K04.01.02.04 | [PF19](performance-r2-knowledge-cases.md#L5) | 个体速度及身体症状门禁 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03/CQ19 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 6,
+            "row": "| S399 | ISM, [How to become a healthy instrumentalist](https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/), identifying warning signs / immediate care | 新症状与疲劳需及时停止或求帮助，专业评估；行业健康指导非个体诊断。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 56,
+            "row": "| K04.01.02.05 | [PF52](performance-r3-knowledge-cases.md#L6) | 动作序列速度与个体健康 | [S398](../../research/source-qualification-performance-r3.md#L5)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 6,
+            "row": "| S399 | ISM, [How to become a healthy instrumentalist](https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/), identifying warning signs / immediate care | 新症状与疲劳需及时停止或求帮助，专业评估；行业健康指导非个体诊断。 |"
+          }
+        }
+      ],
+      "scope": "| S399 | ISM, [How to become a healthy instrumentalist](https://www.ism.org/advice/how-to-become-a-healthy-instrumentalist/), identifying warning signs / immediate care | 新症状与疲劳需及时停止或求帮助，专业评估；行业健康指导非个体诊断。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S400",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r3.md",
+        "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+        "line": 7,
+        "row": "| S400 | Stanhope & Weinstein (2020), [Should musicians play in pain?](https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/), Discussion | 综述反对对所有疼痛统一长期禁奏；是否休息/减量需个体临床评估，不等要求带痛强练。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Should musicians play in pain?",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 7,
+            "row": "| K04.01.02.03 | [PF03](performance-r1-knowledge-cases.md#L7) | 攻击速率和已确认个体能力 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 7,
+            "row": "| S400 | Stanhope & Weinstein (2020), [Should musicians play in pain?](https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/), Discussion | 综述反对对所有疼痛统一长期禁奏；是否休息/减量需个体临床评估，不等要求带痛强练。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 23,
+            "row": "| K04.01.02.04 | [PF19](performance-r2-knowledge-cases.md#L5) | 个体速度及身体症状门禁 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03/CQ19 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 7,
+            "row": "| S400 | Stanhope & Weinstein (2020), [Should musicians play in pain?](https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/), Discussion | 综述反对对所有疼痛统一长期禁奏；是否休息/减量需个体临床评估，不等要求带痛强练。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 56,
+            "row": "| K04.01.02.05 | [PF52](performance-r3-knowledge-cases.md#L6) | 动作序列速度与个体健康 | [S398](../../research/source-qualification-performance-r3.md#L5)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 7,
+            "row": "| S400 | Stanhope & Weinstein (2020), [Should musicians play in pain?](https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/), Discussion | 综述反对对所有疼痛统一长期禁奏；是否休息/减量需个体临床评估，不等要求带痛强练。 |"
+          }
+        }
+      ],
+      "scope": "| S400 | Stanhope & Weinstein (2020), [Should musicians play in pain?](https://pmc.ncbi.nlm.nih.gov/articles/PMC7882775/), Discussion | 综述反对对所有疼痛统一长期禁奏；是否休息/减量需个体临床评估，不等要求带痛强练。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S401",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r3.md",
+        "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+        "line": 8,
+        "row": "| S401 | BAPAM, [Returning to Playing and Performance for Instrumental Musicians](https://www.bapam.org.uk/return-to-play/), three factors / Healthy Practice Habits | 恢复需考虑时长、强度、难度与个体指导；不采纳固定恢复时间，出现症状求专业支持。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Returning to Playing and Performance for Instrumental Musicians",
+          "uri": "https://www.bapam.org.uk/return-to-play/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 7,
+            "row": "| K04.01.02.03 | [PF03](performance-r1-knowledge-cases.md#L7) | 攻击速率和已确认个体能力 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 8,
+            "row": "| S401 | BAPAM, [Returning to Playing and Performance for Instrumental Musicians](https://www.bapam.org.uk/return-to-play/), three factors / Healthy Practice Habits | 恢复需考虑时长、强度、难度与个体指导；不采纳固定恢复时间，出现症状求专业支持。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 23,
+            "row": "| K04.01.02.04 | [PF19](performance-r2-knowledge-cases.md#L5) | 个体速度及身体症状门禁 | [S376](../../research/source-qualification-performance-r1.md#L7)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03/CQ19 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 8,
+            "row": "| S401 | BAPAM, [Returning to Playing and Performance for Instrumental Musicians](https://www.bapam.org.uk/return-to-play/), three factors / Healthy Practice Habits | 恢复需考虑时长、强度、难度与个体指导；不采纳固定恢复时间，出现症状求专业支持。 |"
+          }
+        },
+        {
+          "d4": "K04.01.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 56,
+            "row": "| K04.01.02.05 | [PF52](performance-r3-knowledge-cases.md#L6) | 动作序列速度与个体健康 | [S398](../../research/source-qualification-performance-r3.md#L5)；[S399](../../research/source-qualification-performance-r3.md#L6)；[S400](../../research/source-qualification-performance-r3.md#L7)；[S401](../../research/source-qualification-performance-r3.md#L8) | CQ03 | CQ15/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 8,
+            "row": "| S401 | BAPAM, [Returning to Playing and Performance for Instrumental Musicians](https://www.bapam.org.uk/return-to-play/), three factors / Healthy Practice Habits | 恢复需考虑时长、强度、难度与个体指导；不采纳固定恢复时间，出现症状求专业支持。 |"
+          }
+        }
+      ],
+      "scope": "| S401 | BAPAM, [Returning to Playing and Performance for Instrumental Musicians](https://www.bapam.org.uk/return-to-play/), three factors / Healthy Practice Habits | 恢复需考虑时长、强度、难度与个体指导；不采纳固定恢复时间，出现症状求专业支持。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S402",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r3.md",
+        "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+        "line": 9,
+        "row": "| S402 | Berklee Online [Basic Improvisation](https://online.berklee.edu/courses/basic-improvisation?pid=901), Course Description / Learning outcomes | 课程正文中的动机发展与变形、节奏旋律和声重复；仅课程范围支持，不采用营销中的适用于所有风格等全称，不证明实际动机质量。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Basic Improvisation",
+          "uri": "https://online.berklee.edu/courses/basic-improvisation?pid=901"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K04.05.01.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/performance-r4-discovery-cq.md",
+            "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+            "line": 59,
+            "row": "| K04.05.01.06 | [PF55](performance-r3-knowledge-cases.md#L9) | 即兴动机保留/变化 | [S386](../../research/source-qualification-performance-r2.md#L9)；[S402](../../research/source-qualification-performance-r3.md#L9) | CQ02 | CQ03/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-performance-r3.md",
+            "blob": "a90b08ba3589b3d9f44cd82192f5796fb1eeb466",
+            "line": 9,
+            "row": "| S402 | Berklee Online [Basic Improvisation](https://online.berklee.edu/courses/basic-improvisation?pid=901), Course Description / Learning outcomes | 课程正文中的动机发展与变形、节奏旋律和声重复；仅课程范围支持，不采用营销中的适用于所有风格等全称，不证明实际动机质量。 |"
+          }
+        }
+      ],
+      "scope": "| S402 | Berklee Online [Basic Improvisation](https://online.berklee.edu/courses/basic-improvisation?pid=901), Course Description / Learning outcomes | 课程正文中的动机发展与变形、节奏旋律和声重复；仅课程范围支持，不采用营销中的适用于所有风格等全称，不证明实际动机质量。 |；继承冻结定位，未本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

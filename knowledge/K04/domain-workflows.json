@@ -1,0 +1,19 @@
+{
+  "format": "audio-kg-K04-finite-workflows/1",
+  "status": "SYNTHETIC_KNOWLEDGE_WITNESSES_NOT_RUNTIME",
+  "workflows": [
+    {"id":"K04-WF-ACTION","d2":"K04.01","steps":[{"id":"health","operation":"HEALTH_GATE","claims":["K04-CL-PF19@1","K04-CL-PF52@1"]},{"id":"capacity","operation":"CAPACITY","claims":["K04-CL-PF03@1","K04-CL-PF19@1"]},{"id":"action","operation":"ACTION_STATE","claims":["K04-CL-PF01@1","K04-CL-PF54@1"]}]},
+    {"id":"K04-WF-TIME","d2":"K04.02","steps":[{"id":"beat","operation":"BEAT_RATE","claims":["K04-CL-PF05@1","K04-CL-PF21@1"]},{"id":"role","operation":"ROLE_RESIDUAL","claims":["K04-CL-PF06@1","K04-CL-PF09@1","K04-CL-PF22@1"]}]},
+    {"id":"K04-WF-DYNAMICS","d2":"K04.03","steps":[{"id":"source","operation":"TAKE_IDENTITY","claims":["K04-CL-PF11@1","K04-CL-PF24@1"]},{"id":"trajectory","operation":"DYNAMIC_TRAJECTORY","claims":["K04-CL-PF23@1","K04-CL-PF26@1"]}]},
+    {"id":"K04-WF-ARTICULATION","d2":"K04.04","steps":[{"id":"duration","operation":"ARTICULATION_DURATION","claims":["K04-CL-PF12@1","K04-CL-PF13@1"]},{"id":"release","operation":"RELEASE_TIME","claims":["K04-CL-PF29@1","K04-CL-PF41@1"]}]},
+    {"id":"K04-WF-IMPROVISE","d2":"K04.05","steps":[{"id":"motif","operation":"MOTIF_CONSTRAINT","claims":["K04-CL-PF32@1","K04-CL-PF55@1"]},{"id":"assessment","operation":"PREFERENCE_GATE","claims":["K04-CL-PF34@1","K04-CL-PF35@1"]}]},
+    {"id":"K04-WF-ENSEMBLE","d2":"K04.06","steps":[{"id":"match","operation":"SHARED_IDS","claims":["K04-CL-PF16@1","K04-CL-PF57@1"]},{"id":"path","operation":"PATH_SEPARATION","claims":["K04-CL-PF38@1","K04-CL-PF39@1"]}]},
+    {"id":"K04-WF-REHEARSE","d2":"K04.07","steps":[{"id":"budget","operation":"REHEARSAL_BUDGET","claims":["K04-CL-PF42@1","K04-CL-PF43@1"]},{"id":"retest","operation":"RETEST_CONDITIONS","claims":["K04-CL-PF18@1","K04-CL-PF44@1"]}]},
+    {"id":"K04-WF-LIVE","d2":"K04.08","steps":[{"id":"health","operation":"HEALTH_GATE","claims":["K04-CL-PF47@1","K04-CL-PF48@1"]},{"id":"ready","operation":"LIVE_PRECONDITIONS","claims":["K04-CL-PF45@1","K04-CL-PF59@1"]},{"id":"edit","operation":"PROTECTED_CUE","claims":["K04-CL-PF50@1","K04-CL-PF58@1"]},{"id":"invalidate","operation":"MONITOR_REVISION","claims":["K04-CL-PF49@1","K04-CL-PF60@1"]}]}
+  ],
+  "transitionContract": {"KNOWN_VALID":"NEXT_OR_BOUNDED_CANDIDATE","MISSING_EVIDENCE":"UNKNOWN_STOP","INVALID_CONSTRAINT":"REJECT_STOP","KNOWN_HEALTH_RISK":"STOP_AND_REFER","EXTERNAL_VERIFICATION":"NOT_EXECUTED"},
+  "stateRules":[{"from":"DRAFT","event":"STRUCTURE_PASS","to":"SYMBOLIC_CANDIDATE"},{"from":"SYMBOLIC_CANDIDATE","event":"CONDITION_CHANGE","to":"INVALIDATED"},{"from":"SYMBOLIC_CANDIDATE","event":"PROTECTED_CHANGE","to":"REJECTED"},{"from":"SYMBOLIC_CANDIDATE","event":"RISK_REPORT","to":"STOPPED"},{"from":"DRAFT","event":"RISK_REPORT","to":"STOPPED"}],
+  "historicalFinding":35,
+  "integratedWitness":"KC-P04",
+  "limits":["Finite offline synthetic arithmetic and object contract only; actual performer, host, device, permission and musical effect UNKNOWN.","Known health risk stops regardless of incomplete other fields. No diagnosis, universal thresholds or dose.","Cue identity is distinct from timestamp; if shared object is not separable it remains protected.","Actual same-condition retest and permission required before adoption; no old score inherited."]
+}
