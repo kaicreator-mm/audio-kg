@@ -177,6 +177,16 @@ try{
  const distinct=statePack.inventory.filter(x=>x.disposition==="UNKNOWN"&&![30,193].includes(x.line)&&x.d4!=="K01.02.04.01").slice(0,3);
  for(const [i,st] of ["DISPUTED","HISTORICAL","ROUTED"].entries()){distinct[i].disposition=st;distinct[i].reason="TEST_ONLY explicit non-admission "+st+"; not an L1 factual adjudication or equality";}
  stateManifest.packBlob=write(tmp,moduleEntries[0].pack,statePack);moduleEntries[0].manifestBlob=write(tmp,moduleEntries[0].manifest,stateManifest);
+ // Legacy FIXTURE_SUBSET deliberately used synthetic CQ07 direct assignment.
+ // It is not a valid formal K01 role mapping. Preserve fixture bytes and prior
+ // identity; reject this temporary unnormalized MODULE before normalizing it.
+ refuse("legacy synthetic CQ07 cannot silently become formal K01 root",()=>openCandidateReader(tmp,moduleEntries),/K01 CQ not frozen direct role/);
+ for(const r of statePack.records.filter(r=>r.type==="Claim")){
+  const slot=statePack.inventory.find(x=>x.claimRefs.includes(r.id+"@"+r.revision));
+  const line=fs.readFileSync(path.join(tmp,"docs/product/calibration/theory-all-atom-discovery-cq.md"),"utf8").split("\n")[slot.line-1];
+  r.cq=line.split("|")[4].trim().split("；").filter(x=>x.endsWith(" D")).map(x=>x.slice(0,4));
+ }
+ stateManifest.packBlob=write(tmp,moduleEntries[0].pack,statePack);moduleEntries[0].manifestBlob=write(tmp,moduleEntries[0].manifest,stateManifest);
  const dispositionReader=openCandidateReader(tmp,moduleEntries);
  test("explicit disputed historical routed rows not admitted",distinct.every(row=>dispositionReader.retrieve(row.d4).unresolved.some(x=>x.line===row.line&&x.disposition===row.disposition&&x.claimRefs.length===0))&&dispositionReader.summary().acceptedClaims===0);
  const full=dispositionReader.summary();
