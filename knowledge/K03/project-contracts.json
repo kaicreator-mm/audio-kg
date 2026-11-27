@@ -1,0 +1,264 @@
+{
+  "status": "QUALIFIED_NAVIGATION_NOT_FORMAL_CLAIMS",
+  "records": [
+    {
+      "id": "AR39",
+      "d4": "K03.03.01.04",
+      "statement": "圆号声部高低角色应绑定实际人员能力，不将历史编号全称化。",
+      "context": "限定专业谓词：圆号个体高低角色；来源条件：S358；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K03-CTX-AR39@1",
+          "question": "四人1/3高、2/4低，实音G4 E4 C4 G3分配？",
+          "example": {
+            "frozenCase": "AR39",
+            "frozenWitness": "固定4位圆号手，题设1/3擅高区，2/4擅低区；四同时实音G4 E4 C4 G3分给1:G4、3:E4、2:C4、4:G3（各自范围已确认）。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "四人1/3高、2/4低，实音G4 E4 C4 G3分配？",
+            "expectedResult": "1:G4、3:E4、2:C4、4:G3候选。",
+            "reasoningBasis": "圆号声部高低角色应绑定实际人员能力，不将历史编号全称化。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 11,
+              "row": "| AR39 | K03.03.01.04 | S358 | 固定4位圆号手，题设1/3擅高区，2/4擅低区；四同时实音G4 E4 C4 G3分给1:G4、3:E4、2:C4、4:G3（各自范围已确认）。 | 仅凭F圆号家族将低区手分配未经确认的最高音。 | 发现1/3高低角色颠倒，核个人能力及谱面，不改和声。 | 历史编制约定可变，不把1/3高固定为所有乐队硬规则。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：圆号声部高低角色应绑定实际人员能力，不将历史编号全称化。；本题答案：1:G4、3:E4、2:C4、4:G3候选。",
+          "limits": "历史编制约定可变，不把1/3高固定为所有乐队硬规则。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K03-CTX-AR39@1",
+          "question": "按型号任意分最高音？",
+          "example": {
+            "frozenCase": "AR39",
+            "frozenWitness": "仅凭F圆号家族将低区手分配未经确认的最高音。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "按型号任意分最高音？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "未确认个人高区能力。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 11,
+              "row": "| AR39 | K03.03.01.04 | S358 | 固定4位圆号手，题设1/3擅高区，2/4擅低区；四同时实音G4 E4 C4 G3分给1:G4、3:E4、2:C4、4:G3（各自范围已确认）。 | 仅凭F圆号家族将低区手分配未经确认的最高音。 | 发现1/3高低角色颠倒，核个人能力及谱面，不改和声。 | 历史编制约定可变，不把1/3高固定为所有乐队硬规则。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：未确认个人高区能力。",
+          "limits": "历史编制约定可变，不把1/3高固定为所有乐队硬规则。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K03-CTX-AR39@1",
+          "question": "角色颠倒如何查？",
+          "example": {
+            "frozenCase": "AR39",
+            "frozenWitness": "发现1/3高低角色颠倒，核个人能力及谱面，不改和声。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "角色颠倒如何查？",
+            "expectedResult": "逐人范围、谱音及实际角色。",
+            "reasoningBasis": "圆号声部高低角色应绑定实际人员能力，不将历史编号全称化。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 11,
+              "row": "| AR39 | K03.03.01.04 | S358 | 固定4位圆号手，题设1/3擅高区，2/4擅低区；四同时实音G4 E4 C4 G3分给1:G4、3:E4、2:C4、4:G3（各自范围已确认）。 | 仅凭F圆号家族将低区手分配未经确认的最高音。 | 发现1/3高低角色颠倒，核个人能力及谱面，不改和声。 | 历史编制约定可变，不把1/3高固定为所有乐队硬规则。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：圆号声部高低角色应绑定实际人员能力，不将历史编号全称化。；本题答案：逐人范围、谱音及实际角色。",
+          "limits": "历史编制约定可变，不把1/3高固定为所有乐队硬规则。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K03-CTX-AR39@1",
+          "question": "1/3永远是高声部？",
+          "example": {
+            "frozenCase": "AR39",
+            "frozenWitness": "历史编制约定可变，不把1/3高固定为所有乐队硬规则。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "1/3永远是高声部？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "不同乐队和编制可变。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 11,
+              "row": "| AR39 | K03.03.01.04 | S358 | 固定4位圆号手，题设1/3擅高区，2/4擅低区；四同时实音G4 E4 C4 G3分给1:G4、3:E4、2:C4、4:G3（各自范围已确认）。 | 仅凭F圆号家族将低区手分配未经确认的最高音。 | 发现1/3高低角色颠倒，核个人能力及谱面，不改和声。 | 历史编制约定可变，不把1/3高固定为所有乐队硬规则。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：不同乐队和编制可变。",
+          "limits": "历史编制约定可变，不把1/3高固定为所有乐队硬规则。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ03",
+        "CQ19"
+      ],
+      "supportCQ": [
+        "CQ22",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+        "blob": "151869fd688f8b585aa472ff603e10868e838593",
+        "line": 43,
+        "row": "| K03.03.01.04 | [AR39](arrangement-r3-knowledge-cases.md#L11) | 圆号个体高低角色 | [S358](../../research/source-qualification-arrangement-r3.md#L14) | CQ03/CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+      },
+      "status": "QUALIFIED_NAVIGATION_NOT_DIRECT_CLAIM"
+    },
+    {
+      "id": "AR44",
+      "d4": "K03.05.02.05",
+      "statement": "吉他逐弦品位映射及最低实音须依具体调弦，手型另确认。",
+      "context": "限定专业谓词：吉他逐弦品位与低音限制；来源条件：S362/S363；各方向题设独立。",
+      "views": [
+        {
+          "direction": "FORWARD",
+          "polarity": "POSITIVE",
+          "context": "K03-CTX-AR44@1",
+          "question": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+          "example": {
+            "frozenCase": "AR44",
+            "frozenWitness": "标准六弦实音E2 A2 D3 G3 B3 E4；目标C3 E3 G3 C4 E4。候选弦6→1为x/3/2/0/1/0，得[48,52,55,60,64]，本次已确认手型；若硬需低音C2，所有弦最低E2，普通无变调配置无解。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+            "expectedResult": "C3 E3 G3 C4 E4；C2低于最低弦。",
+            "reasoningBasis": "吉他逐弦品位映射及最低实音须依具体调弦，手型另确认。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 16,
+              "row": "| AR44 | K03.05.02.05 | S362/S363 | 标准六弦实音E2 A2 D3 G3 B3 E4；目标C3 E3 G3 C4 E4。候选弦6→1为x/3/2/0/1/0，得[48,52,55,60,64]，本次已确认手型；若硬需低音C2，所有弦最低E2，普通无变调配置无解。 | 以钢琴C2可按就要求吉他同注册，或一弦同时两个品位。 | 缺C2先查调弦与最低弦，授权低音交贝斯/改变注册。 | 标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：吉他逐弦品位映射及最低实音须依具体调弦，手型另确认。；本题答案：C3 E3 G3 C4 E4；C2低于最低弦。",
+          "limits": "标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "FORWARD",
+          "polarity": "NEGATIVE",
+          "context": "K03-CTX-AR44@1",
+          "question": "钢琴有C2即标准吉他也有？",
+          "example": {
+            "frozenCase": "AR44",
+            "frozenWitness": "以钢琴C2可按就要求吉他同注册，或一弦同时两个品位。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "钢琴有C2即标准吉他也有？",
+            "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
+            "reasoningBasis": "最低E2限制。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 16,
+              "row": "| AR44 | K03.05.02.05 | S362/S363 | 标准六弦实音E2 A2 D3 G3 B3 E4；目标C3 E3 G3 C4 E4。候选弦6→1为x/3/2/0/1/0，得[48,52,55,60,64]，本次已确认手型；若硬需低音C2，所有弦最低E2，普通无变调配置无解。 | 以钢琴C2可按就要求吉他同注册，或一弦同时两个品位。 | 缺C2先查调弦与最低弦，授权低音交贝斯/改变注册。 | 标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：最低E2限制。",
+          "limits": "标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "POSITIVE",
+          "context": "K03-CTX-AR44@1",
+          "question": "需要C2如何处理？",
+          "example": {
+            "frozenCase": "AR44",
+            "frozenWitness": "缺C2先查调弦与最低弦，授权低音交贝斯/改变注册。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "需要C2如何处理？",
+            "expectedResult": "检查变调/另乐器或授权重配。",
+            "reasoningBasis": "吉他逐弦品位映射及最低实音须依具体调弦，手型另确认。",
+            "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 16,
+              "row": "| AR44 | K03.05.02.05 | S362/S363 | 标准六弦实音E2 A2 D3 G3 B3 E4；目标C3 E3 G3 C4 E4。候选弦6→1为x/3/2/0/1/0，得[48,52,55,60,64]，本次已确认手型；若硬需低音C2，所有弦最低E2，普通无变调配置无解。 | 以钢琴C2可按就要求吉他同注册，或一弦同时两个品位。 | 缺C2先查调弦与最低弦，授权低音交贝斯/改变注册。 | 标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "限定核验依据：吉他逐弦品位映射及最低实音须依具体调弦，手型另确认。；本题答案：检查变调/另乐器或授权重配。",
+          "limits": "标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        },
+        {
+          "direction": "REVERSE",
+          "polarity": "NEGATIVE",
+          "context": "K03-CTX-AR44@1",
+          "question": "品位计算证明手型可奏？",
+          "example": {
+            "frozenCase": "AR44",
+            "frozenWitness": "标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。",
+            "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
+            "directionSpecificProblem": "品位计算证明手型可奏？",
+            "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
+            "reasoningBasis": "手型、跨度及演奏能力独立。",
+            "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
+            "anchor": {
+              "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+              "file": "docs/product/calibration/arrangement-r3-knowledge-cases.md",
+              "blob": "ac27427dc21268fdf448c8dce480e530556dd615",
+              "line": 16,
+              "row": "| AR44 | K03.05.02.05 | S362/S363 | 标准六弦实音E2 A2 D3 G3 B3 E4；目标C3 E3 G3 C4 E4。候选弦6→1为x/3/2/0/1/0，得[48,52,55,60,64]，本次已确认手型；若硬需低音C2，所有弦最低E2，普通无变调配置无解。 | 以钢琴C2可按就要求吉他同注册，或一弦同时两个品位。 | 缺C2先查调弦与最低弦，授权低音交贝斯/改变注册。 | 标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。 |"
+            },
+            "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+          },
+          "explanation": "裁定：拒绝错误适用或无证据强推。理由：手型、跨度及演奏能力独立。",
+          "limits": "标准调弦不能推全部可奏手型；变调、不同琴或分配可改变可行域。；仅冻结范围及明确合成题设，不作实际观察、授权、临床诊断、宿主或艺术质量证明。",
+          "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
+        }
+      ],
+      "directCQ": [
+        "CQ03"
+      ],
+      "supportCQ": [
+        "CQ19",
+        "CQ26",
+        "CQ13",
+        "CQ25"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+        "blob": "151869fd688f8b585aa472ff603e10868e838593",
+        "line": 48,
+        "row": "| K03.05.02.05 | [AR44](arrangement-r3-knowledge-cases.md#L16) | 吉他逐弦品位与低音限制 | [S362](../../research/source-qualification-arrangement-r3.md#L18)；[S363](../../research/source-qualification-arrangement-r3.md#L19) | CQ03 | CQ19/CQ26/CQ13/CQ25 |"
+      },
+      "status": "QUALIFIED_NAVIGATION_NOT_DIRECT_CLAIM"
+    }
+  ]
+}

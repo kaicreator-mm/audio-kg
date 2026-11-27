@@ -1,0 +1,2640 @@
+{
+  "format": "audio-kg-K03-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S078",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "d4": "K03.08.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K01",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "uri": "https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/"
+    },
+    {
+      "sourceId": "S341",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 10,
+        "row": "| S341 | S340及项目定义 | 无独立新增文献；事件率与活动音均值是合成数学定义，不宣称教材提出此指标或感知有效性。保留编号作方法记录，不计独立来源。 |"
+      },
+      "d4": "K03.04.03.03",
+      "formalUse": "INTERNAL_METHOD_NOT_SOURCE"
+    },
+    {
+      "sourceId": "S352",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 8,
+        "row": "| S352 | Hugill [Violins: Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco | pizz后恢复弓奏需明确指示，非真实回放证据；同S073谱系。 |"
+      },
+      "d4": "K03.01.03.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 5,
+        "row": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |"
+      },
+      "uri": "https://andrewhugill.com/OrchestraManual/violin_bowing.html"
+    },
+    {
+      "sourceId": "S357",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 13,
+        "row": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |"
+      },
+      "d4": "K03.02.02.07",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 13,
+        "row": "| S357 | Yamaha [Guitars and violins string order](https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html), 开头文字 | 小提琴G D A E、吉他E A D G B E和吉他八度记谱；图示未核，题设给出具体八度。 |"
+      },
+      "uri": "https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/trivia/trivia006.html"
+    },
+    {
+      "sourceId": "S358",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 14,
+        "row": "| S358 | S349同一来源角色段落 | 分配合同依据；非独立文献编号，保留为具体定位记录。 |"
+      },
+      "d4": "K03.03.01.04",
+      "formalUse": "INTERNAL_METHOD_NOT_SOURCE"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "d4": "K03.03.03.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "d4": "K03.04.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "sourceId": "S362",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 18,
+        "row": "| S362 | S357同页吉他弦序文字 | 同源定位，不计独立文献；八度与品位计算为题设。 |"
+      },
+      "d4": "K03.05.02.05",
+      "formalUse": "INTERNAL_METHOD_NOT_SOURCE"
+    },
+    {
+      "sourceId": "S363",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 19,
+        "row": "| S363 | 项目合成标准调弦/半音品位模型，S357 | 非外部新增来源，明确数学前提，不推出人手可奏性。 |"
+      },
+      "d4": "K03.05.02.05",
+      "formalUse": "INTERNAL_METHOD_NOT_SOURCE"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "d4": "K03.05.02.06",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "d4": "K03.06.03.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "d4": "K03.07.01.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "d4": "K03.07.03.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "sourceId": "S078",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "d4": "K03.08.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K01",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "uri": "https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/"
+    },
+    {
+      "sourceId": "S352",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 8,
+        "row": "| S352 | Hugill [Violins: Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco | pizz后恢复弓奏需明确指示，非真实回放证据；同S073谱系。 |"
+      },
+      "d4": "K03.08.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-performance-r1.md",
+        "blob": "b89a3e01b1b0dc5685294a139608f9cc3f177f63",
+        "line": 5,
+        "row": "| S352（重读） | Andrew Hugill, [Violin Bowing](https://andrewhugill.com/OrchestraManual/violin_bowing.html), arco、legato、détaché 段 | READ_LOCATOR；同K03教材谱系；发音状态及弓法，不证明跨器型所有符号实现；未看视频。 |"
+      },
+      "uri": "https://andrewhugill.com/OrchestraManual/violin_bowing.html"
+    },
+    {
+      "sourceId": "S078",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "d4": "K03.08.03.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K01",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "uri": "https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/"
+    },
+    {
+      "sourceId": "S373",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 32,
+        "row": "- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。"
+      },
+      "d4": "K03.08.02.05",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 32,
+        "row": "- S373 MusicXML4.0 [dynamics](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/)，description；音符或direction上的力度记号，非固定声压；S359为音乐表现依据。"
+      },
+      "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/dynamics/"
+    },
+    {
+      "sourceId": "S359",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "d4": "K03.08.02.05",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K04",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 15,
+        "row": "| S359 | Timbre and Orchestration Resource [Effective Instrumental Writing](https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing), Dynamics/Articulations/Writing Idiomatic, Playable Music | 力度相对、上下文、个体与排练条件，不能由谱面标记推dB或实际质量；预算/反馈为题设。 |"
+      },
+      "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/effective-instrumental-writing"
+    },
+    {
+      "sourceId": "S078",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "d4": "K03.08.02.05",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K01",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 18,
+        "row": "| S078 | MusicXML 4.0 [MIDI-Compatible Part](https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/), introduction / Transpose / Pitch / Duration | K02.06/08 K03.08 K04.04 | READ_LOCATOR；记谱与声音实现分开；微分音转换可能受软件限制；非完整往返保真 |"
+      },
+      "uri": "https://www.w3.org/2021/06/musicxml40/tutorial/midi-compatible-part/"
+    },
+    {
+      "sourceId": "S074",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 14,
+        "row": "| S074 | Yamaha [Clarinet mechanism](https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html), Musical score for the clarinet | K03.01/02 | READ_LOCATOR；R2c实际HTML L8–15 A及普通B♭单簧管书写音/实音示例，不外推其他乐器或全音域 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Clarinet",
+          "uri": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 5,
+            "row": "| K03.01.02.03 | [AR01](arrangement-r1-knowledge-cases.md#L5) | 普通A/B♭书写到实音及拼写 | [S074](../../research/source-qualification-arrangement-r1.md#L9)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03 | CQ01/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 9,
+            "row": "| S074（重读） | Yamaha [Clarinet](https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html)，Musical score for the clarinet | 常规A/B♭书写C对应A/B♭；不是声学或音色实测，也不把建议调性当硬规则。 |"
+          }
+        },
+        {
+          "d4": "K03.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 18,
+            "row": "| K03.03.01.03 | [AR14](arrangement-r2-knowledge-cases.md#L9) | 普通B♭单簧管实音同度与书写移调 | [S339](../../research/source-qualification-arrangement-r2.md#L8)；[S074](../../research/source-qualification-creative-performance.md#L14)；[S075](../../research/source-qualification-creative-performance.md#L15) | CQ03 | CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-creative-performance.md",
+            "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+            "line": 14,
+            "row": "| S074 | Yamaha [Clarinet mechanism](https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html), Musical score for the clarinet | K03.01/02 | READ_LOCATOR；R2c实际HTML L8–15 A及普通B♭单簧管书写音/实音示例，不外推其他乐器或全音域 |"
+          }
+        }
+      ],
+      "scope": "| S074 | Yamaha [Clarinet mechanism](https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism005.html), Musical score for the clarinet | K03.01/02 | READ_LOCATOR；R2c实际HTML L8–15 A及普通B♭单簧管书写音/实音示例，不外推其他乐器或全音域 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S075",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-creative-performance.md",
+        "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+        "line": 15,
+        "row": "| S075 | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/), description/content | K03.01/08 K12.04 | READ_LOCATOR；R2c实际HTML L52–65 书写音加偏移得到实音；规范版本4.0，实际库行为未验证 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "transpose",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 5,
+            "row": "| K03.01.02.03 | [AR01](arrangement-r1-knowledge-cases.md#L5) | 普通A/B♭书写到实音及拼写 | [S074](../../research/source-qualification-arrangement-r1.md#L9)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03 | CQ01/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 10,
+            "row": "| S075（重读） | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)，description/content/number | 书写音加偏移得实音；可按staff范围；不宣称运行任何库。 |"
+          }
+        },
+        {
+          "d4": "K03.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 6,
+            "row": "| K03.01.02.04 | [AR02](arrangement-r1-knowledge-cases.md#L6) | 长笛家族四变体偏移 | [S332](../../research/source-qualification-arrangement-r1.md#L5)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03 | CQ01/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 10,
+            "row": "| S075（重读） | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)，description/content/number | 书写音加偏移得实音；可按staff范围；不宣称运行任何库。 |"
+          }
+        },
+        {
+          "d4": "K03.08.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 11,
+            "row": "| K03.08.01.03 | [AR07](arrangement-r1-knowledge-cases.md#L11) | 总谱到各移调分谱实音一致 | [S075](../../research/source-qualification-arrangement-r1.md#L10)；[S076](../../research/source-qualification-arrangement-r1.md#L11) | CQ16/CQ23 | CQ03/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 10,
+            "row": "| S075（重读） | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)，description/content/number | 书写音加偏移得实音；可按staff范围；不宣称运行任何库。 |"
+          }
+        },
+        {
+          "d4": "K03.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 12,
+            "row": "| K03.08.02.03 | [AR08](arrangement-r1-knowledge-cases.md#L12) | 等音拼写投影非单射 | [S075](../../research/source-qualification-arrangement-r1.md#L10)；[S078](../../research/source-qualification-creative-performance.md#L18) | CQ23 | CQ01/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 10,
+            "row": "| S075（重读） | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)，description/content/number | 书写音加偏移得实音；可按staff范围；不宣称运行任何库。 |"
+          }
+        },
+        {
+          "d4": "K03.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 13,
+            "row": "| K03.08.03.03 | [AR09](arrangement-r1-knowledge-cases.md#L13) | 局部改音使对应分谱失效 | [S075](../../research/source-qualification-arrangement-r1.md#L10)；[S076](../../research/source-qualification-arrangement-r1.md#L11) | CQ16/CQ21/CQ23 | CQ03/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 10,
+            "row": "| S075（重读） | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)，description/content/number | 书写音加偏移得实音；可按staff范围；不宣称运行任何库。 |"
+          }
+        },
+        {
+          "d4": "K03.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 18,
+            "row": "| K03.03.01.03 | [AR14](arrangement-r2-knowledge-cases.md#L9) | 普通B♭单簧管实音同度与书写移调 | [S339](../../research/source-qualification-arrangement-r2.md#L8)；[S074](../../research/source-qualification-creative-performance.md#L14)；[S075](../../research/source-qualification-creative-performance.md#L15) | CQ03 | CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-creative-performance.md",
+            "blob": "1e1f8562a6c97ec00e1e691b7d199f2440419508",
+            "line": 15,
+            "row": "| S075 | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/), description/content | K03.01/08 K12.04 | READ_LOCATOR；R2c实际HTML L52–65 书写音加偏移得到实音；规范版本4.0，实际库行为未验证 |"
+          }
+        },
+        {
+          "d4": "K03.01.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 37,
+            "row": "| K03.01.02.05 | [AR33](arrangement-r3-knowledge-cases.md#L5) | 现代F圆号移调 | [S349](../../research/source-qualification-arrangement-r3.md#L5)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03 | CQ01/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 10,
+            "row": "| S075（重读） | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)，description/content/number | 书写音加偏移得实音；可按staff范围；不宣称运行任何库。 |"
+          }
+        },
+        {
+          "d4": "K03.01.02.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 60,
+            "row": "| K03.01.02.06 | [AR56](arrangement-r4-knowledge-cases.md#L5) | 低音单簧管八度移调 | [S370](../../research/source-qualification-arrangement-r3.md#L29)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03/CQ23 | CQ01/CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 10,
+            "row": "| S075（重读） | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)，description/content/number | 书写音加偏移得实音；可按staff范围；不宣称运行任何库。 |"
+          }
+        }
+      ],
+      "scope": "| S075 | MusicXML 4.0 [transpose](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/), description/content | K03.01/08 K12.04 | READ_LOCATOR；R2c实际HTML L52–65 书写音加偏移得到实音；规范版本4.0，实际库行为未验证 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S076",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r1.md",
+        "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+        "line": 11,
+        "row": "| S076（重读） | MusicXML 4.0 [part-list](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/part-list/)，description | part ID关联及顺序；不证明实际转换保真。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "part-list",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/part-list/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.08.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 11,
+            "row": "| K03.08.01.03 | [AR07](arrangement-r1-knowledge-cases.md#L11) | 总谱到各移调分谱实音一致 | [S075](../../research/source-qualification-arrangement-r1.md#L10)；[S076](../../research/source-qualification-arrangement-r1.md#L11) | CQ16/CQ23 | CQ03/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 11,
+            "row": "| S076（重读） | MusicXML 4.0 [part-list](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/part-list/)，description | part ID关联及顺序；不证明实际转换保真。 |"
+          }
+        },
+        {
+          "d4": "K03.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 13,
+            "row": "| K03.08.03.03 | [AR09](arrangement-r1-knowledge-cases.md#L13) | 局部改音使对应分谱失效 | [S075](../../research/source-qualification-arrangement-r1.md#L10)；[S076](../../research/source-qualification-arrangement-r1.md#L11) | CQ16/CQ21/CQ23 | CQ03/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 11,
+            "row": "| S076（重读） | MusicXML 4.0 [part-list](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/part-list/)，description | part ID关联及顺序；不证明实际转换保真。 |"
+          }
+        }
+      ],
+      "scope": "| S076（重读） | MusicXML 4.0 [part-list](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/part-list/)，description | part ID关联及顺序；不证明实际转换保真。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S332",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r1.md",
+        "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+        "line": 5,
+        "row": "| S332 | Andrew Hugill, [Flutes](https://andrewhugill.com/OrchestraManual/flutes.html)，开头四种长笛移调段落 | C/短笛/G中音/低音长笛偏移0/+12/−5/−12；仅常规型号，不据材料决定乐器分类。网页版权2015，保留原权利。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Flutes",
+          "uri": "https://andrewhugill.com/OrchestraManual/flutes.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 6,
+            "row": "| K03.01.02.04 | [AR02](arrangement-r1-knowledge-cases.md#L6) | 长笛家族四变体偏移 | [S332](../../research/source-qualification-arrangement-r1.md#L5)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03 | CQ01/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 5,
+            "row": "| S332 | Andrew Hugill, [Flutes](https://andrewhugill.com/OrchestraManual/flutes.html)，开头四种长笛移调段落 | C/短笛/G中音/低音长笛偏移0/+12/−5/−12；仅常规型号，不据材料决定乐器分类。网页版权2015，保留原权利。 |"
+          }
+        },
+        {
+          "d4": "K03.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 7,
+            "row": "| K03.02.01.03 | [AR03](arrangement-r1-knowledge-cases.md#L7) | 短笛下限导致原注册无解 | [S333](../../research/source-qualification-arrangement-r1.md#L6)；[S332](../../research/source-qualification-arrangement-r1.md#L5) | CQ03 | CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 5,
+            "row": "| S332 | Andrew Hugill, [Flutes](https://andrewhugill.com/OrchestraManual/flutes.html)，开头四种长笛移调段落 | C/短笛/G中音/低音长笛偏移0/+12/−5/−12；仅常规型号，不据材料决定乐器分类。网页版权2015，保留原权利。 |"
+          }
+        },
+        {
+          "d4": "K03.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 15,
+            "row": "| K03.01.01.04 | [AR11](arrangement-r2-knowledge-cases.md#L6) | 家族不决定实体型号 | [S336](../../research/source-qualification-arrangement-r2.md#L5)；[S332](../../research/source-qualification-arrangement-r1.md#L5) | CQ03 | CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 5,
+            "row": "| S332 | Andrew Hugill, [Flutes](https://andrewhugill.com/OrchestraManual/flutes.html)，开头四种长笛移调段落 | C/短笛/G中音/低音长笛偏移0/+12/−5/−12；仅常规型号，不据材料决定乐器分类。网页版权2015，保留原权利。 |"
+          }
+        }
+      ],
+      "scope": "| S332 | Andrew Hugill, [Flutes](https://andrewhugill.com/OrchestraManual/flutes.html)，开头四种长笛移调段落 | C/短笛/G中音/低音长笛偏移0/+12/−5/−12；仅常规型号，不据材料决定乐器分类。网页版权2015，保留原权利。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S333",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r1.md",
+        "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+        "line": 6,
+        "row": "| S333 | 同作者 [Flutes: Range](https://andrewhugill.com/OrchestraManual/flute_range.html)，首段 | 短笛最低书写D4，中音及低音长笛上界受乐器/演奏者限制；图示与声音未实际核验，不扩展到各特殊型号。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Flutes: Range",
+          "uri": "https://andrewhugill.com/OrchestraManual/flute_range.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 7,
+            "row": "| K03.02.01.03 | [AR03](arrangement-r1-knowledge-cases.md#L7) | 短笛下限导致原注册无解 | [S333](../../research/source-qualification-arrangement-r1.md#L6)；[S332](../../research/source-qualification-arrangement-r1.md#L5) | CQ03 | CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 6,
+            "row": "| S333 | 同作者 [Flutes: Range](https://andrewhugill.com/OrchestraManual/flute_range.html)，首段 | 短笛最低书写D4，中音及低音长笛上界受乐器/演奏者限制；图示与声音未实际核验，不扩展到各特殊型号。 |"
+          }
+        },
+        {
+          "d4": "K03.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 8,
+            "row": "| K03.02.01.04 | [AR04](arrangement-r1-knowledge-cases.md#L8) | 同一型号个体上限不同 | [S335](../../research/source-qualification-arrangement-r1.md#L8)；[S333](../../research/source-qualification-arrangement-r1.md#L6) | CQ03 | CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 6,
+            "row": "| S333 | 同作者 [Flutes: Range](https://andrewhugill.com/OrchestraManual/flute_range.html)，首段 | 短笛最低书写D4，中音及低音长笛上界受乐器/演奏者限制；图示与声音未实际核验，不扩展到各特殊型号。 |"
+          }
+        }
+      ],
+      "scope": "| S333 | 同作者 [Flutes: Range](https://andrewhugill.com/OrchestraManual/flute_range.html)，首段 | 短笛最低书写D4，中音及低音长笛上界受乐器/演奏者限制；图示与声音未实际核验，不扩展到各特殊型号。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S334",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r1.md",
+        "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+        "line": 7,
+        "row": "| S334 | 同作者 [Violins: Chords](https://andrewhugill.com/OrchestraManual/violin_chords.html)，Double/Triple/Quadruple stops | 分部与多弦和弦区别；四音通常分解，分部能分配。非所有动态/所有弓法的一般保证；实际音位、音准、听评待证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Violins: Chords",
+          "uri": "https://andrewhugill.com/OrchestraManual/violin_chords.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 9,
+            "row": "| K03.02.03.03 | [AR05](arrangement-r1-knowledge-cases.md#L9) | 四弦持续同时分部替代 | [S334](../../research/source-qualification-arrangement-r1.md#L7) | CQ03 | CQ16/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 7,
+            "row": "| S334 | 同作者 [Violins: Chords](https://andrewhugill.com/OrchestraManual/violin_chords.html)，Double/Triple/Quadruple stops | 分部与多弦和弦区别；四音通常分解，分部能分配。非所有动态/所有弓法的一般保证；实际音位、音准、听评待证。 |"
+          }
+        },
+        {
+          "d4": "K03.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 10,
+            "row": "| K03.03.03.03 | [AR06](arrangement-r1-knowledge-cases.md#L10) | 单音人数并发容量 | [S334](../../research/source-qualification-arrangement-r1.md#L7) | CQ03/CQ23 | CQ19/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 7,
+            "row": "| S334 | 同作者 [Violins: Chords](https://andrewhugill.com/OrchestraManual/violin_chords.html)，Double/Triple/Quadruple stops | 分部与多弦和弦区别；四音通常分解，分部能分配。非所有动态/所有弓法的一般保证；实际音位、音准、听评待证。 |"
+          }
+        }
+      ],
+      "scope": "| S334 | 同作者 [Violins: Chords](https://andrewhugill.com/OrchestraManual/violin_chords.html)，Double/Triple/Quadruple stops | 分部与多弦和弦区别；四音通常分解，分部能分配。非所有动态/所有弓法的一般保证；实际音位、音准、听评待证。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S335",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r1.md",
+        "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+        "line": 8,
+        "row": "| S335 | 同教材 [Woodwind ranges](https://andrewhugill.com/OrchestraManual/ranges/woodwind.html)，Alto/Bass Flute及Saxophone notes | 上界受个体、配置限制；本次仅文字注释，未读取图示中的完整范围。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Woodwind ranges",
+          "uri": "https://andrewhugill.com/OrchestraManual/ranges/woodwind.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 8,
+            "row": "| K03.02.01.04 | [AR04](arrangement-r1-knowledge-cases.md#L8) | 同一型号个体上限不同 | [S335](../../research/source-qualification-arrangement-r1.md#L8)；[S333](../../research/source-qualification-arrangement-r1.md#L6) | CQ03 | CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r1.md",
+            "blob": "d42b65a3d0b410ddb4b434fa419b375c9086bd88",
+            "line": 8,
+            "row": "| S335 | 同教材 [Woodwind ranges](https://andrewhugill.com/OrchestraManual/ranges/woodwind.html)，Alto/Bass Flute及Saxophone notes | 上界受个体、配置限制；本次仅文字注释，未读取图示中的完整范围。 |"
+          }
+        }
+      ],
+      "scope": "| S335 | 同教材 [Woodwind ranges](https://andrewhugill.com/OrchestraManual/ranges/woodwind.html)，Alto/Bass Flute及Saxophone notes | 上界受个体、配置限制；本次仅文字注释，未读取图示中的完整范围。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S336",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 5,
+        "row": "| S336 | Goshen College [Instrument Classification](https://www.goshen.edu/arts/instrument-classification/)，分类入口及Idiophones/Membranophones/Chordophones/Aerophones | 教学分类入口，五类；不是原始HS或最新版MIMO受控词表，不采纳其所有子类；器物史K16。ISKO详细页403，MIMO相关波兰馆页超时，保留未读，不提升。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Instrument Classification",
+          "uri": "https://www.goshen.edu/arts/instrument-classification/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 14,
+            "row": "| K03.01.01.03 | [AR10](arrangement-r2-knowledge-cases.md#L5) | 发声机制与编制分类正交 | [S336](../../research/source-qualification-arrangement-r2.md#L5) | CQ17 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 5,
+            "row": "| S336 | Goshen College [Instrument Classification](https://www.goshen.edu/arts/instrument-classification/)，分类入口及Idiophones/Membranophones/Chordophones/Aerophones | 教学分类入口，五类；不是原始HS或最新版MIMO受控词表，不采纳其所有子类；器物史K16。ISKO详细页403，MIMO相关波兰馆页超时，保留未读，不提升。 |"
+          }
+        },
+        {
+          "d4": "K03.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 15,
+            "row": "| K03.01.01.04 | [AR11](arrangement-r2-knowledge-cases.md#L6) | 家族不决定实体型号 | [S336](../../research/source-qualification-arrangement-r2.md#L5)；[S332](../../research/source-qualification-arrangement-r1.md#L5) | CQ03 | CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 5,
+            "row": "| S336 | Goshen College [Instrument Classification](https://www.goshen.edu/arts/instrument-classification/)，分类入口及Idiophones/Membranophones/Chordophones/Aerophones | 教学分类入口，五类；不是原始HS或最新版MIMO受控词表，不采纳其所有子类；器物史K16。ISKO详细页403，MIMO相关波兰馆页超时，保留未读，不提升。 |"
+          }
+        },
+        {
+          "d4": "K03.01.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 62,
+            "row": "| K03.01.01.05 | [AR58](arrangement-r4-knowledge-cases.md#L7) | 无确定音高与和声角色 | [S371](../../research/source-qualification-arrangement-r3.md#L30)；[S336](../../research/source-qualification-arrangement-r2.md#L5) | CQ03/CQ23 | CQ17/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 5,
+            "row": "| S336 | Goshen College [Instrument Classification](https://www.goshen.edu/arts/instrument-classification/)，分类入口及Idiophones/Membranophones/Chordophones/Aerophones | 教学分类入口，五类；不是原始HS或最新版MIMO受控词表，不采纳其所有子类；器物史K16。ISKO详细页403，MIMO相关波兰馆页超时，保留未读，不提升。 |"
+          }
+        }
+      ],
+      "scope": "| S336 | Goshen College [Instrument Classification](https://www.goshen.edu/arts/instrument-classification/)，分类入口及Idiophones/Membranophones/Chordophones/Aerophones | 教学分类入口，五类；不是原始HS或最新版MIMO受控词表，不采纳其所有子类；器物史K16。ISKO详细页403，MIMO相关波兰馆页超时，保留未读，不提升。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S337",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 6,
+        "row": "| S337 | Hugill [Harps: Range](https://andrewhugill.com/OrchestraManual/harp_range.html)，首段 | 共享七音名踏板及升降状态；案例选中音区，特殊外缘弦/调音、手跨度未验；与S332同谱系。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Harps: Range",
+          "uri": "https://andrewhugill.com/OrchestraManual/harp_range.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 16,
+            "row": "| K03.02.02.03 | [AR12](arrangement-r2-knowledge-cases.md#L7) | 共享竖琴踏板状态冲突 | [S337](../../research/source-qualification-arrangement-r2.md#L6) | CQ03 | CQ17/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 6,
+            "row": "| S337 | Hugill [Harps: Range](https://andrewhugill.com/OrchestraManual/harp_range.html)，首段 | 共享七音名踏板及升降状态；案例选中音区，特殊外缘弦/调音、手跨度未验；与S332同谱系。 |"
+          }
+        }
+      ],
+      "scope": "| S337 | Hugill [Harps: Range](https://andrewhugill.com/OrchestraManual/harp_range.html)，首段 | 共享七音名踏板及升降状态；案例选中音区，特殊外缘弦/调音、手跨度未验；与S332同谱系。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S338",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 7,
+        "row": "| S338 | Hugill [Trombone Effects](https://andrewhugill.com/OrchestraManual/trombone_effects.html)，Glissando | 同泛音分支滑音与跨分支近似的区别；不证明题设具体六半音或任何型号范围，视频未读。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Trombone Effects",
+          "uri": "https://andrewhugill.com/OrchestraManual/trombone_effects.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 17,
+            "row": "| K03.02.02.04 | [AR13](arrangement-r2-knowledge-cases.md#L8) | 连续滑音受分支范围约束 | [S338](../../research/source-qualification-arrangement-r2.md#L7) | CQ03 | CQ17/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 7,
+            "row": "| S338 | Hugill [Trombone Effects](https://andrewhugill.com/OrchestraManual/trombone_effects.html)，Glissando | 同泛音分支滑音与跨分支近似的区别；不证明题设具体六半音或任何型号范围，视频未读。 |"
+          }
+        }
+      ],
+      "scope": "| S338 | Hugill [Trombone Effects](https://andrewhugill.com/OrchestraManual/trombone_effects.html)，Glissando | 同泛音分支滑音与跨分支近似的区别；不证明题设具体六半音或任何型号范围，视频未读。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S339",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 8,
+        "row": "| S339 | Hugill [Section Combinations in twos](https://andrewhugill.com/OrchestraManual/section_combinations_intwos.html)，Wind & Strings / Brass & Strings | 教材列举实际配器中的同度、八度、跨组加倍与伴奏；未独立核总谱/录音，不将其听感评价移植到合成案例。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Section Combinations in twos",
+          "uri": "https://andrewhugill.com/OrchestraManual/section_combinations_intwos.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 18,
+            "row": "| K03.03.01.03 | [AR14](arrangement-r2-knowledge-cases.md#L9) | 普通B♭单簧管实音同度与书写移调 | [S339](../../research/source-qualification-arrangement-r2.md#L8)；[S074](../../research/source-qualification-creative-performance.md#L14)；[S075](../../research/source-qualification-creative-performance.md#L15) | CQ03 | CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 8,
+            "row": "| S339 | Hugill [Section Combinations in twos](https://andrewhugill.com/OrchestraManual/section_combinations_intwos.html)，Wind & Strings / Brass & Strings | 教材列举实际配器中的同度、八度、跨组加倍与伴奏；未独立核总谱/录音，不将其听感评价移植到合成案例。 |"
+          }
+        },
+        {
+          "d4": "K03.03.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 19,
+            "row": "| K03.03.02.03 | [AR15](arrangement-r2-knowledge-cases.md#L10) | 同度与八度加倍不同 | [S339](../../research/source-qualification-arrangement-r2.md#L8) | CQ03 | CQ17/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 8,
+            "row": "| S339 | Hugill [Section Combinations in twos](https://andrewhugill.com/OrchestraManual/section_combinations_intwos.html)，Wind & Strings / Brass & Strings | 教材列举实际配器中的同度、八度、跨组加倍与伴奏；未独立核总谱/录音，不将其听感评价移植到合成案例。 |"
+          }
+        },
+        {
+          "d4": "K03.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 20,
+            "row": "| K03.03.02.04 | [AR16](arrangement-r2-knowledge-cases.md#L11) | 配器音区冲突与增益分离 | [S339](../../research/source-qualification-arrangement-r2.md#L8)；[S340](../../research/source-qualification-arrangement-r2.md#L9) | CQ03 | CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 8,
+            "row": "| S339 | Hugill [Section Combinations in twos](https://andrewhugill.com/OrchestraManual/section_combinations_intwos.html)，Wind & Strings / Brass & Strings | 教材列举实际配器中的同度、八度、跨组加倍与伴奏；未独立核总谱/录音，不将其听感评价移植到合成案例。 |"
+          }
+        }
+      ],
+      "scope": "| S339 | Hugill [Section Combinations in twos](https://andrewhugill.com/OrchestraManual/section_combinations_intwos.html)，Wind & Strings / Brass & Strings | 教材列举实际配器中的同度、八度、跨组加倍与伴奏；未独立核总谱/录音，不将其听感评价移植到合成案例。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S340",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 9,
+        "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "1.20 Texture",
+          "uri": "https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al."
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 20,
+            "row": "| K03.03.02.04 | [AR16](arrangement-r2-knowledge-cases.md#L11) | 配器音区冲突与增益分离 | [S339](../../research/source-qualification-arrangement-r2.md#L8)；[S340](../../research/source-qualification-arrangement-r2.md#L9) | CQ03 | CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 21,
+            "row": "| K03.04.01.03 | [AR17](arrangement-r2-knowledge-cases.md#L12) | 多轨同旋律单声 | [S340](../../research/source-qualification-arrangement-r2.md#L9) | CQ02 | CQ03/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 22,
+            "row": "| K03.04.01.04 | [AR18](arrangement-r2-knowledge-cases.md#L13) | 共同主干装饰异音 | [S340](../../research/source-qualification-arrangement-r2.md#L9) | CQ02 | CQ03/CQ17/CQ18/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 23,
+            "row": "| K03.04.02.03 | [AR19](arrangement-r2-knowledge-cases.md#L14) | 主线伴奏与独立对线 | [S340](../../research/source-qualification-arrangement-r2.md#L9) | CQ02 | CQ03/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 24,
+            "row": "| K03.04.03.03 | [AR20](arrangement-r2-knowledge-cases.md#L15) | 起音率与活动音均值不同 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S341](../../research/source-qualification-arrangement-r2.md#L10) | CQ22 | CQ02/CQ03/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.07.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 34,
+            "row": "| K03.07.01.03 | [AR30](arrangement-r2-knowledge-cases.md#L25) | 层进与起音数 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ16 | CQ03/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.07.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 35,
+            "row": "| K03.07.02.03 | [AR31](arrangement-r2-knowledge-cases.md#L26) | 背景音区/起音/织体变化保主题 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ16 | CQ02/CQ03/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 36,
+            "row": "| K03.07.03.03 | [AR32](arrangement-r2-knowledge-cases.md#L27) | 限定时间区间修订 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ16/CQ21 | CQ03/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.04.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 45,
+            "row": "| K03.04.01.05 | [AR41](arrangement-r3-knowledge-cases.md#L13) | 同轨多声部 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S360](../../research/source-qualification-arrangement-r3.md#L16) | CQ02/CQ23 | CQ03/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        },
+        {
+          "d4": "K03.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 46,
+            "row": "| K03.04.02.04 | [AR42](arrangement-r3-knowledge-cases.md#L14) | 填充须完整落入空档 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S359](../../research/source-qualification-arrangement-r3.md#L15) | CQ03 | CQ19/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 9,
+            "row": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |"
+          }
+        }
+      ],
+      "scope": "| S340 | Open Music Theory 2e, LibreTexts [1.20 Texture](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture)，Monophony/Heterophony/Homophony/Polyphony | 区分旋律线及其变体、主调与独立线；示例来自教学文本，未听音频；分类非绝对互斥、局部语境依赖。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S342",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 11,
+        "row": "| S342 | Music Theory for the 21st-Century Classroom [6.3 Inverted Triads](https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html)，6.3.1 | 斜线低音可为非和弦成员；限定lead-sheet语法，非罗马数字副属记号。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "6.3 Inverted Triads",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 25,
+            "row": "| K03.05.01.03 | [AR21](arrangement-r2-knowledge-cases.md#L16) | 斜线低音约束 | [S342](../../research/source-qualification-arrangement-r2.md#L11) | CQ02/CQ03 | CQ17/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 11,
+            "row": "| S342 | Music Theory for the 21st-Century Classroom [6.3 Inverted Triads](https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html)，6.3.1 | 斜线低音可为非和弦成员；限定lead-sheet语法，非罗马数字副属记号。 |"
+          }
+        },
+        {
+          "d4": "K03.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 26,
+            "row": "| K03.05.01.04 | [AR22](arrangement-r2-knowledge-cases.md#L17) | 非成员低音与下降线 | [S342](../../research/source-qualification-arrangement-r2.md#L11)；[S343](../../research/source-qualification-arrangement-r2.md#L12) | CQ02/CQ03 | CQ17/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 11,
+            "row": "| S342 | Music Theory for the 21st-Century Classroom [6.3 Inverted Triads](https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html)，6.3.1 | 斜线低音可为非和弦成员；限定lead-sheet语法，非罗马数字副属记号。 |"
+          }
+        }
+      ],
+      "scope": "| S342 | Music Theory for the 21st-Century Classroom [6.3 Inverted Triads](https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html)，6.3.1 | 斜线低音可为非和弦成员；限定lead-sheet语法，非罗马数字副属记号。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S343",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 12,
+        "row": "| S343 | 同教材 [14.7 Distinctive Bass Lines](https://musictheory.pugetsound.edu/mt21c/DistinctiveBassLines.html) | 低音riff可能有独立识别作用；不是特定低音线优劣证据，AR22主要依据S342。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "14.7 Distinctive Bass Lines",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/DistinctiveBassLines.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 26,
+            "row": "| K03.05.01.04 | [AR22](arrangement-r2-knowledge-cases.md#L17) | 非成员低音与下降线 | [S342](../../research/source-qualification-arrangement-r2.md#L11)；[S343](../../research/source-qualification-arrangement-r2.md#L12) | CQ02/CQ03 | CQ17/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 12,
+            "row": "| S343 | 同教材 [14.7 Distinctive Bass Lines](https://musictheory.pugetsound.edu/mt21c/DistinctiveBassLines.html) | 低音riff可能有独立识别作用；不是特定低音线优劣证据，AR22主要依据S342。 |"
+          }
+        }
+      ],
+      "scope": "| S343 | 同教材 [14.7 Distinctive Bass Lines](https://musictheory.pugetsound.edu/mt21c/DistinctiveBassLines.html) | 低音riff可能有独立识别作用；不是特定低音线优劣证据，AR22主要依据S342。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S344",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 13,
+        "row": "| S344 | 同教材 [31.7 Jazz Chord Voicings](https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html)，31.7.1–2 | 3/7导音与五声部配置、部分音省略；按实际和弦类型/题设选择，不把五声部推广到所有爵士。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "31.7 Jazz Chord Voicings",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.05.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 27,
+            "row": "| K03.05.02.03 | [AR23](arrangement-r2-knowledge-cases.md#L18) | 同和弦集合不同配置 | [S344](../../research/source-qualification-arrangement-r2.md#L13) | CQ03 | CQ02/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 13,
+            "row": "| S344 | 同教材 [31.7 Jazz Chord Voicings](https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html)，31.7.1–2 | 3/7导音与五声部配置、部分音省略；按实际和弦类型/题设选择，不把五声部推广到所有爵士。 |"
+          }
+        },
+        {
+          "d4": "K03.05.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 28,
+            "row": "| K03.05.02.04 | [AR24](arrangement-r2-knowledge-cases.md#L19) | 爵士导音最小运动候选 | [S344](../../research/source-qualification-arrangement-r2.md#L13) | CQ03 | CQ02/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 13,
+            "row": "| S344 | 同教材 [31.7 Jazz Chord Voicings](https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html)，31.7.1–2 | 3/7导音与五声部配置、部分音省略；按实际和弦类型/题设选择，不把五声部推广到所有爵士。 |"
+          }
+        },
+        {
+          "d4": "K03.05.02.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 49,
+            "row": "| K03.05.02.06 | [AR45](arrangement-r3-knowledge-cases.md#L17) | 钢琴手跨度与配置 | [S344](../../research/source-qualification-arrangement-r2.md#L13)；[S359](../../research/source-qualification-arrangement-r3.md#L15) | CQ03 | CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 13,
+            "row": "| S344 | 同教材 [31.7 Jazz Chord Voicings](https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html)，31.7.1–2 | 3/7导音与五声部配置、部分音省略；按实际和弦类型/题设选择，不把五声部推广到所有爵士。 |"
+          }
+        },
+        {
+          "d4": "K03.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 50,
+            "row": "| K03.06.01.04 | [AR46](arrangement-r3-knowledge-cases.md#L18) | 爵士组合角色及导音 | [S361](../../research/source-qualification-arrangement-r3.md#L17)；[S344](../../research/source-qualification-arrangement-r2.md#L13)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ03/CQ19 | CQ02/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 13,
+            "row": "| S344 | 同教材 [31.7 Jazz Chord Voicings](https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html)，31.7.1–2 | 3/7导音与五声部配置、部分音省略；按实际和弦类型/题设选择，不把五声部推广到所有爵士。 |"
+          }
+        }
+      ],
+      "scope": "| S344 | 同教材 [31.7 Jazz Chord Voicings](https://musictheory.pugetsound.edu/mt21c/JazzChordVoicings.html)，31.7.1–2 | 3/7导音与五声部配置、部分音省略；按实际和弦类型/题设选择，不把五声部推广到所有爵士。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S345",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 14,
+        "row": "| S345 | 同教材 [14.3 Arpeggiated Accompaniments](https://musictheory.pugetsound.edu/mt21c/ArpeggiatedAccompaniments.html)，14.3.1–2 | 分解与Alberti的特定顺序，非流派唯一标识。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "14.3 Arpeggiated Accompaniments",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/ArpeggiatedAccompaniments.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 29,
+            "row": "| K03.05.03.03 | [AR25](arrangement-r2-knowledge-cases.md#L20) | Alberti特定分解顺序 | [S345](../../research/source-qualification-arrangement-r2.md#L14) | CQ02 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 14,
+            "row": "| S345 | 同教材 [14.3 Arpeggiated Accompaniments](https://musictheory.pugetsound.edu/mt21c/ArpeggiatedAccompaniments.html)，14.3.1–2 | 分解与Alberti的特定顺序，非流派唯一标识。 |"
+          }
+        },
+        {
+          "d4": "K03.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 30,
+            "row": "| K03.05.03.04 | [AR26](arrangement-r2-knowledge-cases.md#L21) | 反拍时位与留白 | [S345](../../research/source-qualification-arrangement-r2.md#L14)；[S346](../../research/source-qualification-arrangement-r2.md#L15) | CQ03 | CQ02/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 14,
+            "row": "| S345 | 同教材 [14.3 Arpeggiated Accompaniments](https://musictheory.pugetsound.edu/mt21c/ArpeggiatedAccompaniments.html)，14.3.1–2 | 分解与Alberti的特定顺序，非流派唯一标识。 |"
+          }
+        }
+      ],
+      "scope": "| S345 | 同教材 [14.3 Arpeggiated Accompaniments](https://musictheory.pugetsound.edu/mt21c/ArpeggiatedAccompaniments.html)，14.3.1–2 | 分解与Alberti的特定顺序，非流派唯一标识。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S346",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 15,
+        "row": "| S346 | 同教材 [14.5 Afterbeats and Offbeats](https://musictheory.pugetsound.edu/mt21c/AfterbeatsOffbeats.html)，14.5.2及14.5.2.2 | reggae相关反拍伴奏及其他风格中也存在；原例音频未核，不主张单一节奏足够鉴定。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "14.5 Afterbeats and Offbeats",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/AfterbeatsOffbeats.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 30,
+            "row": "| K03.05.03.04 | [AR26](arrangement-r2-knowledge-cases.md#L21) | 反拍时位与留白 | [S345](../../research/source-qualification-arrangement-r2.md#L14)；[S346](../../research/source-qualification-arrangement-r2.md#L15) | CQ03 | CQ02/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 15,
+            "row": "| S346 | 同教材 [14.5 Afterbeats and Offbeats](https://musictheory.pugetsound.edu/mt21c/AfterbeatsOffbeats.html)，14.5.2及14.5.2.2 | reggae相关反拍伴奏及其他风格中也存在；原例音频未核，不主张单一节奏足够鉴定。 |"
+          }
+        },
+        {
+          "d4": "K03.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 31,
+            "row": "| K03.06.01.03 | [AR27](arrangement-r2-knowledge-cases.md#L22) | 反拍为限定风格特征 | [S346](../../research/source-qualification-arrangement-r2.md#L15) | CQ26 | CQ03/CQ18/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 15,
+            "row": "| S346 | 同教材 [14.5 Afterbeats and Offbeats](https://musictheory.pugetsound.edu/mt21c/AfterbeatsOffbeats.html)，14.5.2及14.5.2.2 | reggae相关反拍伴奏及其他风格中也存在；原例音频未核，不主张单一节奏足够鉴定。 |"
+          }
+        },
+        {
+          "d4": "K03.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 33,
+            "row": "| K03.06.03.03 | [AR29](arrangement-r2-knowledge-cases.md#L24) | 同硬条件多配器方案 | [S346](../../research/source-qualification-arrangement-r2.md#L15)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ19/CQ22 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 15,
+            "row": "| S346 | 同教材 [14.5 Afterbeats and Offbeats](https://musictheory.pugetsound.edu/mt21c/AfterbeatsOffbeats.html)，14.5.2及14.5.2.2 | reggae相关反拍伴奏及其他风格中也存在；原例音频未核，不主张单一节奏足够鉴定。 |"
+          }
+        }
+      ],
+      "scope": "| S346 | 同教材 [14.5 Afterbeats and Offbeats](https://musictheory.pugetsound.edu/mt21c/AfterbeatsOffbeats.html)，14.5.2及14.5.2.2 | reggae相关反拍伴奏及其他风格中也存在；原例音频未核，不主张单一节奏足够鉴定。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S347",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 16,
+        "row": "| S347 | 同教材 [14.6 The 3–2 Son Clave](https://musictheory.pugetsound.edu/mt21c/ThreeTwoClave.html)，14.6及14.6.1 | 两小节3/2攻击与首小节3+3+2分组；文字已读，谱图和音频未核。本轮仅用首小节分组，不声称完整clave。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "14.6 The 3–2 Son Clave",
+          "uri": "https://musictheory.pugetsound.edu/mt21c/ThreeTwoClave.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 32,
+            "row": "| K03.06.02.03 | [AR28](arrangement-r2-knowledge-cases.md#L23) | 3+3+2单小节特征改编 | [S347](../../research/source-qualification-arrangement-r2.md#L16)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ26 | CQ03/CQ18/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 16,
+            "row": "| S347 | 同教材 [14.6 The 3–2 Son Clave](https://musictheory.pugetsound.edu/mt21c/ThreeTwoClave.html)，14.6及14.6.1 | 两小节3/2攻击与首小节3+3+2分组；文字已读，谱图和音频未核。本轮仅用首小节分组，不声称完整clave。 |"
+          }
+        },
+        {
+          "d4": "K03.06.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 51,
+            "row": "| K03.06.01.05 | [AR47](arrangement-r3-knowledge-cases.md#L19) | 完整clave相位 | [S347](../../research/source-qualification-arrangement-r2.md#L16)；[S364](../../research/source-qualification-arrangement-r3.md#L20) | CQ26 | CQ02/CQ03/CQ18/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 16,
+            "row": "| S347 | 同教材 [14.6 The 3–2 Son Clave](https://musictheory.pugetsound.edu/mt21c/ThreeTwoClave.html)，14.6及14.6.1 | 两小节3/2攻击与首小节3+3+2分组；文字已读，谱图和音频未核。本轮仅用首小节分组，不声称完整clave。 |"
+          }
+        }
+      ],
+      "scope": "| S347 | 同教材 [14.6 The 3–2 Son Clave](https://musictheory.pugetsound.edu/mt21c/ThreeTwoClave.html)，14.6及14.6.1 | 两小节3/2攻击与首小节3+3+2分组；文字已读，谱图和音频未核。本轮仅用首小节分组，不声称完整clave。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S348",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r2.md",
+        "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+        "line": 17,
+        "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Arranging 1: Rhythm Section",
+          "uri": "https://online.berklee.edu/courses/arranging-1-rhythm-section"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 32,
+            "row": "| K03.06.02.03 | [AR28](arrangement-r2-knowledge-cases.md#L23) | 3+3+2单小节特征改编 | [S347](../../research/source-qualification-arrangement-r2.md#L16)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ26 | CQ03/CQ18/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 17,
+            "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+          }
+        },
+        {
+          "d4": "K03.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 33,
+            "row": "| K03.06.03.03 | [AR29](arrangement-r2-knowledge-cases.md#L24) | 同硬条件多配器方案 | [S346](../../research/source-qualification-arrangement-r2.md#L15)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ19/CQ22 | CQ03/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 17,
+            "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+          }
+        },
+        {
+          "d4": "K03.07.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 34,
+            "row": "| K03.07.01.03 | [AR30](arrangement-r2-knowledge-cases.md#L25) | 层进与起音数 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ16 | CQ03/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 17,
+            "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+          }
+        },
+        {
+          "d4": "K03.07.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 35,
+            "row": "| K03.07.02.03 | [AR31](arrangement-r2-knowledge-cases.md#L26) | 背景音区/起音/织体变化保主题 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ16 | CQ02/CQ03/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 17,
+            "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+          }
+        },
+        {
+          "d4": "K03.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 36,
+            "row": "| K03.07.03.03 | [AR32](arrangement-r2-knowledge-cases.md#L27) | 限定时间区间修订 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ16/CQ21 | CQ03/CQ22/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 17,
+            "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+          }
+        },
+        {
+          "d4": "K03.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 50,
+            "row": "| K03.06.01.04 | [AR46](arrangement-r3-knowledge-cases.md#L18) | 爵士组合角色及导音 | [S361](../../research/source-qualification-arrangement-r3.md#L17)；[S344](../../research/source-qualification-arrangement-r2.md#L13)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ03/CQ19 | CQ02/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 17,
+            "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+          }
+        },
+        {
+          "d4": "K03.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 54,
+            "row": "| K03.06.03.04 | [AR50](arrangement-r3-knowledge-cases.md#L22) | 评价缺失保留候选 | [S359](../../research/source-qualification-arrangement-r3.md#L15)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ22 | CQ03/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r2.md",
+            "blob": "491e804e0d579fc7e4dc9497921d78eadc980a43",
+            "line": 17,
+            "row": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |"
+          }
+        }
+      ],
+      "scope": "| S348 | Dan Moretti/Suzanne Dean, Berklee Online [Arranging 1: Rhythm Section](https://online.berklee.edu/courses/arranging-1-rhythm-section)，Key Learning Outcomes/Course Description | 课程覆盖节奏组、编配、结构、风格、力度/织体；只支持专业范围，具体案例为题设条件构造，非效果实证。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S349",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 5,
+        "row": "| S349 | Hugill [Horns](https://andrewhugill.com/OrchestraManual/horns.html), general points | F圆号及常见1/3高、2/4低角色，具体人选需确认；现代书写规则由F移调定义与S075组合，不证明历史低音谱。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Horns",
+          "uri": "https://andrewhugill.com/OrchestraManual/horns.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 37,
+            "row": "| K03.01.02.05 | [AR33](arrangement-r3-knowledge-cases.md#L5) | 现代F圆号移调 | [S349](../../research/source-qualification-arrangement-r3.md#L5)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03 | CQ01/CQ17/CQ23/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 5,
+            "row": "| S349 | Hugill [Horns](https://andrewhugill.com/OrchestraManual/horns.html), general points | F圆号及常见1/3高、2/4低角色，具体人选需确认；现代书写规则由F移调定义与S075组合，不证明历史低音谱。 |"
+          }
+        }
+      ],
+      "scope": "| S349 | Hugill [Horns](https://andrewhugill.com/OrchestraManual/horns.html), general points | F圆号及常见1/3高、2/4低角色，具体人选需确认；现代书写规则由F移调定义与S075组合，不证明历史低音谱。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S350",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 6,
+        "row": "| S350 | Timbre and Orchestration Resource [The Flute Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/flute-family), Flute strengths and limitations / Alto Flute / Flute excerpts | 呼吸、指法、低区透明织体与交替长笛；教材建议非定量能力阈值。例谱/音频未核。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "The Flute Family",
+          "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/flute-family"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 38,
+            "row": "| K03.01.03.03 | [AR34](arrangement-r3-knowledge-cases.md#L6) | 低区长笛配器风险选择 | [S350](../../research/source-qualification-arrangement-r3.md#L6)；[S351](../../research/source-qualification-arrangement-r3.md#L7) | CQ03 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 6,
+            "row": "| S350 | Timbre and Orchestration Resource [The Flute Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/flute-family), Flute strengths and limitations / Alto Flute / Flute excerpts | 呼吸、指法、低区透明织体与交替长笛；教材建议非定量能力阈值。例谱/音频未核。 |"
+          }
+        },
+        {
+          "d4": "K03.02.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 40,
+            "row": "| K03.02.02.05 | [AR36](arrangement-r3-knowledge-cases.md#L8) | 换气约束与轮换 | [S350](../../research/source-qualification-arrangement-r3.md#L6)；[S354](../../research/source-qualification-arrangement-r3.md#L10) | CQ03/CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 6,
+            "row": "| S350 | Timbre and Orchestration Resource [The Flute Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/flute-family), Flute strengths and limitations / Alto Flute / Flute excerpts | 呼吸、指法、低区透明织体与交替长笛；教材建议非定量能力阈值。例谱/音频未核。 |"
+          }
+        },
+        {
+          "d4": "K03.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 56,
+            "row": "| K03.07.03.04 | [AR52](arrangement-r3-knowledge-cases.md#L24) | 反馈驱动背景修订 | [S350](../../research/source-qualification-arrangement-r3.md#L6)；[S359](../../research/source-qualification-arrangement-r3.md#L15) | CQ16/CQ24 | CQ03/CQ21/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 6,
+            "row": "| S350 | Timbre and Orchestration Resource [The Flute Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/flute-family), Flute strengths and limitations / Alto Flute / Flute excerpts | 呼吸、指法、低区透明织体与交替长笛；教材建议非定量能力阈值。例谱/音频未核。 |"
+          }
+        },
+        {
+          "d4": "K03.03.03.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 61,
+            "row": "| K03.03.03.05 | [AR57](arrangement-r4-knowledge-cases.md#L6) | 换奏时间资源冲突 | [S350](../../research/source-qualification-arrangement-r3.md#L6)；[S370](../../research/source-qualification-arrangement-r3.md#L29) | CQ03/CQ19 | CQ16/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 6,
+            "row": "| S350 | Timbre and Orchestration Resource [The Flute Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/flute-family), Flute strengths and limitations / Alto Flute / Flute excerpts | 呼吸、指法、低区透明织体与交替长笛；教材建议非定量能力阈值。例谱/音频未核。 |"
+          }
+        }
+      ],
+      "scope": "| S350 | Timbre and Orchestration Resource [The Flute Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/flute-family), Flute strengths and limitations / Alto Flute / Flute excerpts | 呼吸、指法、低区透明织体与交替长笛；教材建议非定量能力阈值。例谱/音频未核。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S351",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 7,
+        "row": "| S351 | Vienna Symphonic Library [Concert flute](https://www.vsl.co.at/academy/woodwinds/concert-flute), Sound characteristics, low register | 低区音色与易被其他乐器遮盖的描述，商用机构教材非听评；preview页403，实际主站正文已读。与S350分段/描述并非同一硬边界。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Concert flute",
+          "uri": "https://www.vsl.co.at/academy/woodwinds/concert-flute"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 38,
+            "row": "| K03.01.03.03 | [AR34](arrangement-r3-knowledge-cases.md#L6) | 低区长笛配器风险选择 | [S350](../../research/source-qualification-arrangement-r3.md#L6)；[S351](../../research/source-qualification-arrangement-r3.md#L7) | CQ03 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 7,
+            "row": "| S351 | Vienna Symphonic Library [Concert flute](https://www.vsl.co.at/academy/woodwinds/concert-flute), Sound characteristics, low register | 低区音色与易被其他乐器遮盖的描述，商用机构教材非听评；preview页403，实际主站正文已读。与S350分段/描述并非同一硬边界。 |"
+          }
+        }
+      ],
+      "scope": "| S351 | Vienna Symphonic Library [Concert flute](https://www.vsl.co.at/academy/woodwinds/concert-flute), Sound characteristics, low register | 低区音色与易被其他乐器遮盖的描述，商用机构教材非听评；preview页403，实际主站正文已读。与S350分段/描述并非同一硬边界。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S353",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 9,
+        "row": "| S353 | Spitfire [Keyswitching In BBC Symphony Orchestra Discover](https://support.spitfireaudio.com/en/articles/11815966-keyswitching-in-bbc-symphony-orchestra-discover), 2025-07-21 | 该产品用音符触发技法；具体版本/patch映射/宿主未运行，不能推所有音源。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Keyswitching In BBC Symphony Orchestra Discover",
+          "uri": "https://support.spitfireaudio.com/en/articles/11815966-keyswitching-in-bbc-symphony-orchestra-discover"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 39,
+            "row": "| K03.01.03.04 | [AR35](arrangement-r3-knowledge-cases.md#L7) | 拨弓奏及采样映射区别 | [S352](../../research/source-qualification-arrangement-r3.md#L8)；[S353](../../research/source-qualification-arrangement-r3.md#L9) | CQ03/CQ23 | CQ14/CQ20/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 9,
+            "row": "| S353 | Spitfire [Keyswitching In BBC Symphony Orchestra Discover](https://support.spitfireaudio.com/en/articles/11815966-keyswitching-in-bbc-symphony-orchestra-discover), 2025-07-21 | 该产品用音符触发技法；具体版本/patch映射/宿主未运行，不能推所有音源。 |"
+          }
+        }
+      ],
+      "scope": "| S353 | Spitfire [Keyswitching In BBC Symphony Orchestra Discover](https://support.spitfireaudio.com/en/articles/11815966-keyswitching-in-bbc-symphony-orchestra-discover), 2025-07-21 | 该产品用音符触发技法；具体版本/patch映射/宿主未运行，不能推所有音源。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S354",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 10,
+        "row": "| S354 | Hugill [Flute construction](https://www.andrewhugill.com/OrchestraManual/flute_construction.html), 开头 bass flute 演示描述 | 呼吸与发音困难为文字入口，视频未看；具体数值来自AR36题设，不是来源。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Flute construction",
+          "uri": "https://www.andrewhugill.com/OrchestraManual/flute_construction.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 40,
+            "row": "| K03.02.02.05 | [AR36](arrangement-r3-knowledge-cases.md#L8) | 换气约束与轮换 | [S350](../../research/source-qualification-arrangement-r3.md#L6)；[S354](../../research/source-qualification-arrangement-r3.md#L10) | CQ03/CQ19 | CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 10,
+            "row": "| S354 | Hugill [Flute construction](https://www.andrewhugill.com/OrchestraManual/flute_construction.html), 开头 bass flute 演示描述 | 呼吸与发音困难为文字入口，视频未看；具体数值来自AR36题设，不是来源。 |"
+          }
+        }
+      ],
+      "scope": "| S354 | Hugill [Flute construction](https://www.andrewhugill.com/OrchestraManual/flute_construction.html), 开头 bass flute 演示描述 | 呼吸与发音困难为文字入口，视频未看；具体数值来自AR36题设，不是来源。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S355",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 11,
+        "row": "| S355 | Hugill [Clarinets: Effects](https://andrewhugill.com/OrchestraManual/clarinet_effects.html), Tremolo | 跨换区需谨慎，具体速度上限来自题设；A4→B4跨越B♭4/B4常规边界，S369/370正文补证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Clarinets: Effects",
+          "uri": "https://andrewhugill.com/OrchestraManual/clarinet_effects.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.02.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 41,
+            "row": "| K03.02.02.06 | [AR37](arrangement-r3-knowledge-cases.md#L9) | 跨换区序列速度 | [S355](../../research/source-qualification-arrangement-r3.md#L11)；[S369](../../research/source-qualification-arrangement-r3.md#L28)；[S370](../../research/source-qualification-arrangement-r3.md#L29) | CQ03 | CQ17/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 11,
+            "row": "| S355 | Hugill [Clarinets: Effects](https://andrewhugill.com/OrchestraManual/clarinet_effects.html), Tremolo | 跨换区需谨慎，具体速度上限来自题设；A4→B4跨越B♭4/B4常规边界，S369/370正文补证。 |"
+          }
+        }
+      ],
+      "scope": "| S355 | Hugill [Clarinets: Effects](https://andrewhugill.com/OrchestraManual/clarinet_effects.html), Tremolo | 跨换区需谨慎，具体速度上限来自题设；A4→B4跨越B♭4/B4常规边界，S369/370正文补证。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S356",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 12,
+        "row": "| S356 | Hugill [Violins: Left Hand](https://andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato及左手条目 | 具体演奏动作和解释依赖；不证明跨弦速度。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Violins: Left Hand",
+          "uri": "https://andrewhugill.com/OrchestraManual/violin_lefthand.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.02.07",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 42,
+            "row": "| K03.02.02.07 | [AR38](arrangement-r3-knowledge-cases.md#L10) | 跨弦相邻动作条件 | [S356](../../research/source-qualification-arrangement-r3.md#L12)；[S357](../../research/source-qualification-arrangement-r3.md#L13) | CQ03 | CQ17/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 12,
+            "row": "| S356 | Hugill [Violins: Left Hand](https://andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato及左手条目 | 具体演奏动作和解释依赖；不证明跨弦速度。 |"
+          }
+        }
+      ],
+      "scope": "| S356 | Hugill [Violins: Left Hand](https://andrewhugill.com/OrchestraManual/violin_lefthand.html), Vibrato及左手条目 | 具体演奏动作和解释依赖；不证明跨弦速度。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S360",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 16,
+        "row": "| S360 | MusicXML4.0 [voice](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/voice/), description | 声部标识；格式表示不是听辨。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "voice",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/voice/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.04.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 45,
+            "row": "| K03.04.01.05 | [AR41](arrangement-r3-knowledge-cases.md#L13) | 同轨多声部 | [S340](../../research/source-qualification-arrangement-r2.md#L9)；[S360](../../research/source-qualification-arrangement-r3.md#L16) | CQ02/CQ23 | CQ03/CQ17/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 16,
+            "row": "| S360 | MusicXML4.0 [voice](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/voice/), description | 声部标识；格式表示不是听辨。 |"
+          }
+        },
+        {
+          "d4": "K03.08.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 57,
+            "row": "| K03.08.01.04 | [AR53](arrangement-r3-knowledge-cases.md#L25) | 多voice游标约束 | [S360](../../research/source-qualification-arrangement-r3.md#L16)；[S367](../../research/source-qualification-arrangement-r3.md#L23) | CQ23 | CQ16/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 16,
+            "row": "| S360 | MusicXML4.0 [voice](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/voice/), description | 声部标识；格式表示不是听辨。 |"
+          }
+        },
+        {
+          "d4": "K03.08.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 63,
+            "row": "| K03.08.01.05 | [AR59](arrangement-r4-knowledge-cases.md#L8) | part/staff/voice/乐器身份 | [S371](../../research/source-qualification-arrangement-r3.md#L30)；[S372](../../research/source-qualification-arrangement-r3.md#L31)；[S360](../../research/source-qualification-arrangement-r3.md#L16) | CQ23 | CQ14/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 16,
+            "row": "| S360 | MusicXML4.0 [voice](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/voice/), description | 声部标识；格式表示不是听辨。 |"
+          }
+        }
+      ],
+      "scope": "| S360 | MusicXML4.0 [voice](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/voice/), description | 声部标识；格式表示不是听辨。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S361",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 17,
+        "row": "| S361 | Jazz Night School [Bass](https://jazznightschool.org/pages/bass), Walking Bass Introduction / Triads, Passing Tones, Neighbor Tones / Chromatic 4 | 四分音走动、和弦音及趋近音，教学限定；不保证swing、例谱未读。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Bass",
+          "uri": "https://jazznightschool.org/pages/bass"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.05.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 47,
+            "row": "| K03.05.01.05 | [AR43](arrangement-r3-knowledge-cases.md#L15) | 走动低音趋近目标 | [S361](../../research/source-qualification-arrangement-r3.md#L17) | CQ02/CQ03 | CQ17/CQ19/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 17,
+            "row": "| S361 | Jazz Night School [Bass](https://jazznightschool.org/pages/bass), Walking Bass Introduction / Triads, Passing Tones, Neighbor Tones / Chromatic 4 | 四分音走动、和弦音及趋近音，教学限定；不保证swing、例谱未读。 |"
+          }
+        },
+        {
+          "d4": "K03.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 50,
+            "row": "| K03.06.01.04 | [AR46](arrangement-r3-knowledge-cases.md#L18) | 爵士组合角色及导音 | [S361](../../research/source-qualification-arrangement-r3.md#L17)；[S344](../../research/source-qualification-arrangement-r2.md#L13)；[S348](../../research/source-qualification-arrangement-r2.md#L17) | CQ03/CQ19 | CQ02/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 17,
+            "row": "| S361 | Jazz Night School [Bass](https://jazznightschool.org/pages/bass), Walking Bass Introduction / Triads, Passing Tones, Neighbor Tones / Chromatic 4 | 四分音走动、和弦音及趋近音，教学限定；不保证swing、例谱未读。 |"
+          }
+        }
+      ],
+      "scope": "| S361 | Jazz Night School [Bass](https://jazznightschool.org/pages/bass), Walking Bass Introduction / Triads, Passing Tones, Neighbor Tones / Chromatic 4 | 四分音走动、和弦音及趋近音，教学限定；不保证swing、例谱未读。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S364",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 20,
+        "row": "| S364 | AnyBeat [Clave patterns explained](https://anybeat.app/learn/clave-patterns), How the pattern is built | 1基16格位置1/4/7/11/13转换为0基；与S347 §14.6的3/2结构一致。商业教学页面，仅采用具体节奏定位，不采纳听感绝对化/所有伴奏要求。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Clave patterns explained",
+          "uri": "https://anybeat.app/learn/clave-patterns"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.06.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 51,
+            "row": "| K03.06.01.05 | [AR47](arrangement-r3-knowledge-cases.md#L19) | 完整clave相位 | [S347](../../research/source-qualification-arrangement-r2.md#L16)；[S364](../../research/source-qualification-arrangement-r3.md#L20) | CQ26 | CQ02/CQ03/CQ18/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 20,
+            "row": "| S364 | AnyBeat [Clave patterns explained](https://anybeat.app/learn/clave-patterns), How the pattern is built | 1基16格位置1/4/7/11/13转换为0基；与S347 §14.6的3/2结构一致。商业教学页面，仅采用具体节奏定位，不采纳听感绝对化/所有伴奏要求。 |"
+          }
+        }
+      ],
+      "scope": "| S364 | AnyBeat [Clave patterns explained](https://anybeat.app/learn/clave-patterns), How the pattern is built | 1基16格位置1/4/7/11/13转换为0基；与S347 §14.6的3/2结构一致。商业教学页面，仅采用具体节奏定位，不采纳听感绝对化/所有伴奏要求。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S365",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 21,
+        "row": "| S365 | Miami University Libraries Albinwml [Kotekan Pattern Bars](https://albinwml.lib.miamioh.edu/items/show/42), Description, Nelayan collection | 具体档案描述polos/sangsih与交错，未看视频/谱；AR48为原创抽象网格，非转录。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Kotekan Pattern Bars",
+          "uri": "https://albinwml.lib.miamioh.edu/items/show/42"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 52,
+            "row": "| K03.06.02.04 | [AR48](arrangement-r3-knowledge-cases.md#L20) | 特定交错织体及地域反例 | [S365](../../research/source-qualification-arrangement-r3.md#L21)；[S366](../../research/source-qualification-arrangement-r3.md#L22) | CQ26 | CQ03/CQ18/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 21,
+            "row": "| S365 | Miami University Libraries Albinwml [Kotekan Pattern Bars](https://albinwml.lib.miamioh.edu/items/show/42), Description, Nelayan collection | 具体档案描述polos/sangsih与交错，未看视频/谱；AR48为原创抽象网格，非转录。 |"
+          }
+        },
+        {
+          "d4": "K03.06.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 53,
+            "row": "| K03.06.02.05 | [AR49](arrangement-r3-knowledge-cases.md#L21) | 文化目标/素材授权分离 | [S365](../../research/source-qualification-arrangement-r3.md#L21)；[S366](../../research/source-qualification-arrangement-r3.md#L22) | CQ19/CQ26 | CQ18/CQ20/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 21,
+            "row": "| S365 | Miami University Libraries Albinwml [Kotekan Pattern Bars](https://albinwml.lib.miamioh.edu/items/show/42), Description, Nelayan collection | 具体档案描述polos/sangsih与交错，未看视频/谱；AR48为原创抽象网格，非转录。 |"
+          }
+        }
+      ],
+      "scope": "| S365 | Miami University Libraries Albinwml [Kotekan Pattern Bars](https://albinwml.lib.miamioh.edu/items/show/42), Description, Nelayan collection | 具体档案描述polos/sangsih与交错，未看视频/谱；AR48为原创抽象网格，非转录。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S366",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 22,
+        "row": "| S366 | Smithsonian archive [Defending the Past, Present, and Future of Gamelan Semara Pegulingan Saih Pitu in Kamasan, Bali](https://asia-archive.si.edu/essays/article-yamin/), 段落 A striking feature… / In Kamasan… | Yamin对Kamasan该传统曲目无kotekan的记述，非全Bali事实；新主站500，档案HTML实际读。与S365不同传统非冲突；未读图/录音。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Defending the Past, Present, and Future of Gamelan Semara Pegulingan Saih Pitu in Kamasan, Bali",
+          "uri": "https://asia-archive.si.edu/essays/article-yamin/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 52,
+            "row": "| K03.06.02.04 | [AR48](arrangement-r3-knowledge-cases.md#L20) | 特定交错织体及地域反例 | [S365](../../research/source-qualification-arrangement-r3.md#L21)；[S366](../../research/source-qualification-arrangement-r3.md#L22) | CQ26 | CQ03/CQ18/CQ19/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 22,
+            "row": "| S366 | Smithsonian archive [Defending the Past, Present, and Future of Gamelan Semara Pegulingan Saih Pitu in Kamasan, Bali](https://asia-archive.si.edu/essays/article-yamin/), 段落 A striking feature… / In Kamasan… | Yamin对Kamasan该传统曲目无kotekan的记述，非全Bali事实；新主站500，档案HTML实际读。与S365不同传统非冲突；未读图/录音。 |"
+          }
+        },
+        {
+          "d4": "K03.06.02.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 53,
+            "row": "| K03.06.02.05 | [AR49](arrangement-r3-knowledge-cases.md#L21) | 文化目标/素材授权分离 | [S365](../../research/source-qualification-arrangement-r3.md#L21)；[S366](../../research/source-qualification-arrangement-r3.md#L22) | CQ19/CQ26 | CQ18/CQ20/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 22,
+            "row": "| S366 | Smithsonian archive [Defending the Past, Present, and Future of Gamelan Semara Pegulingan Saih Pitu in Kamasan, Bali](https://asia-archive.si.edu/essays/article-yamin/), 段落 A striking feature… / In Kamasan… | Yamin对Kamasan该传统曲目无kotekan的记述，非全Bali事实；新主站500，档案HTML实际读。与S365不同传统非冲突；未读图/录音。 |"
+          }
+        }
+      ],
+      "scope": "| S366 | Smithsonian archive [Defending the Past, Present, and Future of Gamelan Semara Pegulingan Saih Pitu in Kamasan, Bali](https://asia-archive.si.edu/essays/article-yamin/), 段落 A striking feature… / In Kamasan… | Yamin对Kamasan该传统曲目无kotekan的记述，非全Bali事实；新主站500，档案HTML实际读。与S365不同传统非冲突；未读图/录音。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S367",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 23,
+        "row": "| S367 | MusicXML4.0 [backup](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/backup/), description | 多声部/谱表游标协调、正duration及边界；规范非实际解析器。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "backup",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/backup/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.08.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 57,
+            "row": "| K03.08.01.04 | [AR53](arrangement-r3-knowledge-cases.md#L25) | 多voice游标约束 | [S360](../../research/source-qualification-arrangement-r3.md#L16)；[S367](../../research/source-qualification-arrangement-r3.md#L23) | CQ23 | CQ16/CQ21/CQ24/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 23,
+            "row": "| S367 | MusicXML4.0 [backup](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/backup/), description | 多声部/谱表游标协调、正duration及边界；规范非实际解析器。 |"
+          }
+        },
+        {
+          "d4": "K03.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 59,
+            "row": "| K03.08.03.04 | [AR55](arrangement-r3-knowledge-cases.md#L27) | 原谱与不可回写派生副本 | [S368](../../research/source-qualification-arrangement-r3.md#L24)；[S078](../../research/source-qualification-creative-performance.md#L18)；[S367](../../research/source-qualification-arrangement-r3.md#L23) | CQ21/CQ23/CQ24 | CQ14/CQ16/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 23,
+            "row": "| S367 | MusicXML4.0 [backup](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/backup/), description | 多声部/谱表游标协调、正duration及边界；规范非实际解析器。 |"
+          }
+        }
+      ],
+      "scope": "| S367 | MusicXML4.0 [backup](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/backup/), description | 多声部/谱表游标协调、正duration及边界；规范非实际解析器。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S368",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 24,
+        "row": "| S368 | MusicXML4.0 [technical](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/technical/), description/content | 乐器技法标记可独立表示；具体pizz/arco文字状态见S352；S078 MIDI-Compatible Part 正文重读区分记谱与播放；不推全部转换损失。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "technical",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/technical/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 58,
+            "row": "| K03.08.02.04 | [AR54](arrangement-r3-knowledge-cases.md#L26) | 简化音符投影丢技法 | [S368](../../research/source-qualification-arrangement-r3.md#L24)；[S078](../../research/source-qualification-creative-performance.md#L18)；[S352](../../research/source-qualification-arrangement-r3.md#L8) | CQ23 | CQ14/CQ20/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 24,
+            "row": "| S368 | MusicXML4.0 [technical](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/technical/), description/content | 乐器技法标记可独立表示；具体pizz/arco文字状态见S352；S078 MIDI-Compatible Part 正文重读区分记谱与播放；不推全部转换损失。 |"
+          }
+        },
+        {
+          "d4": "K03.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 59,
+            "row": "| K03.08.03.04 | [AR55](arrangement-r3-knowledge-cases.md#L27) | 原谱与不可回写派生副本 | [S368](../../research/source-qualification-arrangement-r3.md#L24)；[S078](../../research/source-qualification-creative-performance.md#L18)；[S367](../../research/source-qualification-arrangement-r3.md#L23) | CQ21/CQ23/CQ24 | CQ14/CQ16/CQ20/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 24,
+            "row": "| S368 | MusicXML4.0 [technical](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/technical/), description/content | 乐器技法标记可独立表示；具体pizz/arco文字状态见S352；S078 MIDI-Compatible Part 正文重读区分记谱与播放；不推全部转换损失。 |"
+          }
+        }
+      ],
+      "scope": "| S368 | MusicXML4.0 [technical](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/technical/), description/content | 乐器技法标记可独立表示；具体pizz/arco文字状态见S352；S078 MIDI-Compatible Part 正文重读区分记谱与播放；不推全部转换损失。 |；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S369",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 28,
+        "row": "- S369 University of New South Wales, Joe Wolfe等，[Clarinet acoustics: an introduction](https://www.phys.unsw.edu.au/jw/clarinetacoustics.html)，Sound spectrum / break段；明确书写A♯4/B4边界、指法和音色变化，不证明给定速度上限。"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Clarinet acoustics: an introduction",
+          "uri": "https://www.phys.unsw.edu.au/jw/clarinetacoustics.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.02.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 41,
+            "row": "| K03.02.02.06 | [AR37](arrangement-r3-knowledge-cases.md#L9) | 跨换区序列速度 | [S355](../../research/source-qualification-arrangement-r3.md#L11)；[S369](../../research/source-qualification-arrangement-r3.md#L28)；[S370](../../research/source-qualification-arrangement-r3.md#L29) | CQ03 | CQ17/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 28,
+            "row": "- S369 University of New South Wales, Joe Wolfe等，[Clarinet acoustics: an introduction](https://www.phys.unsw.edu.au/jw/clarinetacoustics.html)，Sound spectrum / break段；明确书写A♯4/B4边界、指法和音色变化，不证明给定速度上限。"
+          }
+        }
+      ],
+      "scope": "- S369 University of New South Wales, Joe Wolfe等，[Clarinet acoustics: an introduction](https://www.phys.unsw.edu.au/jw/clarinetacoustics.html)，Sound spectrum / break段；明确书写A♯4/B4边界、指法和音色变化，不证明给定速度上限。；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S370",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 29,
+        "row": "- S370 Timbre and Orchestration Resource [The Clarinet Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/clarinet-family)，A Guide to Registers / Strengths and Limitations / Bass Clarinet；传统困难在现代专业演奏中可减轻，clarion命名边界与S369的clarino不完全一致；不强行统一；本案只用跨B♭4/B4。低音单簧管高音谱与历史低音谱约定不同。"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "The Clarinet Family",
+          "uri": "https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/clarinet-family"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.02.02.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 41,
+            "row": "| K03.02.02.06 | [AR37](arrangement-r3-knowledge-cases.md#L9) | 跨换区序列速度 | [S355](../../research/source-qualification-arrangement-r3.md#L11)；[S369](../../research/source-qualification-arrangement-r3.md#L28)；[S370](../../research/source-qualification-arrangement-r3.md#L29) | CQ03 | CQ17/CQ22/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 29,
+            "row": "- S370 Timbre and Orchestration Resource [The Clarinet Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/clarinet-family)，A Guide to Registers / Strengths and Limitations / Bass Clarinet；传统困难在现代专业演奏中可减轻，clarion命名边界与S369的clarino不完全一致；不强行统一；本案只用跨B♭4/B4。低音单簧管高音谱与历史低音谱约定不同。"
+          }
+        },
+        {
+          "d4": "K03.01.02.06",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 60,
+            "row": "| K03.01.02.06 | [AR56](arrangement-r4-knowledge-cases.md#L5) | 低音单簧管八度移调 | [S370](../../research/source-qualification-arrangement-r3.md#L29)；[S075](../../research/source-qualification-arrangement-r1.md#L10) | CQ03/CQ23 | CQ01/CQ17/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 29,
+            "row": "- S370 Timbre and Orchestration Resource [The Clarinet Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/clarinet-family)，A Guide to Registers / Strengths and Limitations / Bass Clarinet；传统困难在现代专业演奏中可减轻，clarion命名边界与S369的clarino不完全一致；不强行统一；本案只用跨B♭4/B4。低音单簧管高音谱与历史低音谱约定不同。"
+          }
+        },
+        {
+          "d4": "K03.03.03.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 61,
+            "row": "| K03.03.03.05 | [AR57](arrangement-r4-knowledge-cases.md#L6) | 换奏时间资源冲突 | [S350](../../research/source-qualification-arrangement-r3.md#L6)；[S370](../../research/source-qualification-arrangement-r3.md#L29) | CQ03/CQ19 | CQ16/CQ24/CQ26/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 29,
+            "row": "- S370 Timbre and Orchestration Resource [The Clarinet Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/clarinet-family)，A Guide to Registers / Strengths and Limitations / Bass Clarinet；传统困难在现代专业演奏中可减轻，clarion命名边界与S369的clarino不完全一致；不强行统一；本案只用跨B♭4/B4。低音单簧管高音谱与历史低音谱约定不同。"
+          }
+        }
+      ],
+      "scope": "- S370 Timbre and Orchestration Resource [The Clarinet Family](https://timbreandorchestration.org/isfee/extreme-orchestration/woodwinds/clarinet-family)，A Guide to Registers / Strengths and Limitations / Bass Clarinet；传统困难在现代专业演奏中可减轻，clarion命名边界与S369的clarino不完全一致；不强行统一；本案只用跨B♭4/B4。低音单簧管高音谱与历史低音谱约定不同。；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S371",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 30,
+        "row": "- S371 MusicXML4.0 [Percussion](https://www.w3.org/2021/06/musicxml40/tutorial/percussion/)，Unpitched Notes / Multiple Instruments Per Part；谱位、实际打击乐身份、MIDI控制值不等；图谱例未核。"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "Percussion",
+          "uri": "https://www.w3.org/2021/06/musicxml40/tutorial/percussion/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.01.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 62,
+            "row": "| K03.01.01.05 | [AR58](arrangement-r4-knowledge-cases.md#L7) | 无确定音高与和声角色 | [S371](../../research/source-qualification-arrangement-r3.md#L30)；[S336](../../research/source-qualification-arrangement-r2.md#L5) | CQ03/CQ23 | CQ17/CQ22/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 30,
+            "row": "- S371 MusicXML4.0 [Percussion](https://www.w3.org/2021/06/musicxml40/tutorial/percussion/)，Unpitched Notes / Multiple Instruments Per Part；谱位、实际打击乐身份、MIDI控制值不等；图谱例未核。"
+          }
+        },
+        {
+          "d4": "K03.08.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 63,
+            "row": "| K03.08.01.05 | [AR59](arrangement-r4-knowledge-cases.md#L8) | part/staff/voice/乐器身份 | [S371](../../research/source-qualification-arrangement-r3.md#L30)；[S372](../../research/source-qualification-arrangement-r3.md#L31)；[S360](../../research/source-qualification-arrangement-r3.md#L16) | CQ23 | CQ14/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 30,
+            "row": "- S371 MusicXML4.0 [Percussion](https://www.w3.org/2021/06/musicxml40/tutorial/percussion/)，Unpitched Notes / Multiple Instruments Per Part；谱位、实际打击乐身份、MIDI控制值不等；图谱例未核。"
+          }
+        }
+      ],
+      "scope": "- S371 MusicXML4.0 [Percussion](https://www.w3.org/2021/06/musicxml40/tutorial/percussion/)，Unpitched Notes / Multiple Instruments Per Part；谱位、实际打击乐身份、MIDI控制值不等；图谱例未核。；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S372",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-arrangement-r3.md",
+        "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+        "line": 31,
+        "row": "- S372 MusicXML4.0 [staff](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/staff/)，description；一part多staff，顶谱表编号1；规范未执行。"
+      },
+      "allRegisteredLinks": [
+        {
+          "title": "staff",
+          "uri": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/staff/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K03.08.01.05",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+            "blob": "151869fd688f8b585aa472ff603e10868e838593",
+            "line": 63,
+            "row": "| K03.08.01.05 | [AR59](arrangement-r4-knowledge-cases.md#L8) | part/staff/voice/乐器身份 | [S371](../../research/source-qualification-arrangement-r3.md#L30)；[S372](../../research/source-qualification-arrangement-r3.md#L31)；[S360](../../research/source-qualification-arrangement-r3.md#L16) | CQ23 | CQ14/CQ21/CQ13/CQ25 |"
+          },
+          "originalQualification": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/research/source-qualification-arrangement-r3.md",
+            "blob": "704fe55e9bdae259cb77a49c2d1b41efbd6fb69c",
+            "line": 31,
+            "row": "- S372 MusicXML4.0 [staff](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/staff/)，description；一part多staff，顶谱表编号1；规范未执行。"
+          }
+        }
+      ],
+      "scope": "- S372 MusicXML4.0 [staff](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/staff/)，description；一part多staff，顶谱表编号1；规范未执行。；继承冻结定位，未本轮外部重读；同出版谱系非独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

@@ -1,0 +1,3011 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K03.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "分类、型号、移调、音色",
+      "d4Targets": [
+        "K03.01.01.03",
+        "K03.01.01.04",
+        "K03.01.02.05",
+        "K03.01.03.03",
+        "K03.01.03.04",
+        "K03.01.02.06",
+        "K03.01.01.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 5,
+        "row": "| K03.01 | A01 | P | 分类、型号、移调、音色 | [AR10/K03.01.01.03](arrangement-r2-knowledge-cases.md#L5)；[AR11/K03.01.01.04](arrangement-r2-knowledge-cases.md#L6)；[AR33/K03.01.02.05](arrangement-r3-knowledge-cases.md#L5)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR10@1",
+        "K03-CL-AR11@1",
+        "K03-CL-AR33@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR56@1",
+        "K03-CL-AR58@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR10",
+          "claim": "K03-CL-AR10@1",
+          "problem": "琴弦、鼓膜、镲体、空气柱各属？",
+          "reject": "镲由器体振动。"
+        },
+        {
+          "caseId": "AR11",
+          "claim": "K03-CL-AR11@1",
+          "problem": "piccolo及C flute目标实音C6，分别写？",
+          "reject": "短笛移调不同。"
+        },
+        {
+          "caseId": "AR33",
+          "claim": "K03-CL-AR33@1",
+          "problem": "目标C4 E4 G4如何写现代F圆号？",
+          "reject": "现代F圆号偏移−7。"
+        },
+        {
+          "caseId": "AR34",
+          "claim": "K03-CL-AR34@1",
+          "problem": "D4 E4 F4 G4长笛，A两轻奏持续音、B四强奏铜管，先试？",
+          "reject": "保护实音及真实声学不允许该推论。"
+        },
+        {
+          "caseId": "AR35",
+          "claim": "K03-CL-AR35@1",
+          "problem": "C5两拍A pizz/B arco，如何记？",
+          "reject": "技法字段不同。"
+        },
+        {
+          "caseId": "AR56",
+          "claim": "K03-CL-AR56@1",
+          "problem": "两管书写C5，各实音？",
+          "reject": "低音管还差八度。"
+        },
+        {
+          "caseId": "AR58",
+          "claim": "K03-CL-AR58@1",
+          "problem": "定音鼓确认G2，镲无确定音高，和声低音选？",
+          "reject": "触发ID非确定实音。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "按乐器身份→移调→注册选择",
+      "d4Targets": [
+        "K03.01.02.03",
+        "K03.02.01.03",
+        "K03.01.03.03",
+        "K03.01.02.06"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 6,
+        "row": "| K03.01 | A02 | P | 按乐器身份→移调→注册选择 | [AR01/K03.01.02.03](arrangement-r1-knowledge-cases.md#L5)；[AR03/K03.02.01.03](arrangement-r1-knowledge-cases.md#L7)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR01@1",
+        "K03-CL-AR03@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR01",
+          "claim": "K03-CL-AR01@1",
+          "problem": "实音C4 D4 F4分别给普通B♭和A单簧管怎么写？",
+          "reject": "两种移调均非零，不能保持目标实音。"
+        },
+        {
+          "caseId": "AR03",
+          "claim": "K03-CL-AR03@1",
+          "problem": "短笛书写最低D4，要求实音C5，裁。",
+          "reject": "变体实音下限不同。"
+        },
+        {
+          "caseId": "AR34",
+          "claim": "K03-CL-AR34@1",
+          "problem": "D4 E4 F4 G4长笛，A两轻奏持续音、B四强奏铜管，先试？",
+          "reject": "保护实音及真实声学不允许该推论。"
+        },
+        {
+          "caseId": "AR56",
+          "claim": "K03-CL-AR56@1",
+          "problem": "两管书写C5，各实音？",
+          "reject": "低音管还差八度。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "谱面/声库实际实现K12",
+      "d4Targets": [
+        "K03.01.03.04",
+        "K03.01.01.05"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 7,
+        "row": "| K03.01 | A03 | S | 谱面/声库实际实现K12 | [AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR35@1",
+        "K03-CL-AR58@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR35",
+          "claim": "K03-CL-AR35@1",
+          "problem": "C5两拍A pizz/B arco，如何记？",
+          "reject": "技法字段不同。"
+        },
+        {
+          "caseId": "AR58",
+          "claim": "K03-CL-AR58@1",
+          "problem": "定音鼓确认G2，镲无确定音高，和声低音选？",
+          "reject": "触发ID非确定实音。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.01",
+      "ability": "A04",
+      "role": "P",
+      "task": "乐器身份、谱音/实音、发音状态",
+      "d4Targets": [
+        "K03.01.01.04",
+        "K03.01.03.04",
+        "K03.01.02.06"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 8,
+        "row": "| K03.01 | A04 | P | 乐器身份、谱音/实音、发音状态 | [AR11/K03.01.01.04](arrangement-r2-knowledge-cases.md#L6)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR11@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR11",
+          "claim": "K03-CL-AR11@1",
+          "problem": "piccolo及C flute目标实音C6，分别写？",
+          "reject": "短笛移调不同。"
+        },
+        {
+          "caseId": "AR35",
+          "claim": "K03-CL-AR35@1",
+          "problem": "C5两拍A pizz/B arco，如何记？",
+          "reject": "技法字段不同。"
+        },
+        {
+          "caseId": "AR56",
+          "claim": "K03-CL-AR56@1",
+          "problem": "两管书写C5，各实音？",
+          "reject": "低音管还差八度。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "音区风险与真实听评分开",
+      "d4Targets": [
+        "K03.01.03.03",
+        "K03.01.03.04",
+        "K03.06.03.04"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 9,
+        "row": "| K03.01 | A05 | P | 音区风险与真实听评分开 | [AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR34@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR50@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR34",
+          "claim": "K03-CL-AR34@1",
+          "problem": "D4 E4 F4 G4长笛，A两轻奏持续音、B四强奏铜管，先试？",
+          "reject": "保护实音及真实声学不允许该推论。"
+        },
+        {
+          "caseId": "AR35",
+          "claim": "K03-CL-AR35@1",
+          "problem": "C5两拍A pizz/B arco，如何记？",
+          "reject": "技法字段不同。"
+        },
+        {
+          "caseId": "AR50",
+          "claim": "K03-CL-AR50@1",
+          "problem": "三评者要求，r1偏A/r2偏B/r3未答，裁。",
+          "reject": "记录分歧且第三人缺测。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.01",
+      "ability": "A06",
+      "role": "P",
+      "task": "保留实体、谱音、技法、音色需求",
+      "d4Targets": [
+        "K03.01.03.04",
+        "K03.01.02.06",
+        "K03.01.01.05",
+        "K03.08.01.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 10,
+        "row": "| K03.01 | A06 | P | 保留实体、谱音、技法、音色需求 | [AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR35@1",
+        "K03-CL-AR56@1",
+        "K03-CL-AR58@1",
+        "K03-CL-AR59@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR35",
+          "claim": "K03-CL-AR35@1",
+          "problem": "C5两拍A pizz/B arco，如何记？",
+          "reject": "技法字段不同。"
+        },
+        {
+          "caseId": "AR56",
+          "claim": "K03-CL-AR56@1",
+          "problem": "两管书写C5，各实音？",
+          "reject": "低音管还差八度。"
+        },
+        {
+          "caseId": "AR58",
+          "claim": "K03-CL-AR58@1",
+          "problem": "定音鼓确认G2，镲无确定音高，和声低音选？",
+          "reject": "触发ID非确定实音。"
+        },
+        {
+          "caseId": "AR59",
+          "claim": "K03-CL-AR59@1",
+          "problem": "P3 kick/hat同谱位不同instrument及voice；P1钢琴两staff，怎样表示？",
+          "reject": "一个part可引用多个乐器。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "误配→核变体/音区→重选",
+      "d4Targets": [
+        "K03.02.01.03",
+        "K03.01.03.03",
+        "K03.01.02.06"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 11,
+        "row": "| K03.01 | A07 | P | 误配→核变体/音区→重选 | [AR03/K03.02.01.03](arrangement-r1-knowledge-cases.md#L7)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR03@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR56@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR03",
+          "claim": "K03-CL-AR03@1",
+          "problem": "短笛书写最低D4，要求实音C5，裁。",
+          "reject": "变体实音下限不同。"
+        },
+        {
+          "caseId": "AR34",
+          "claim": "K03-CL-AR34@1",
+          "problem": "D4 E4 F4 G4长笛，A两轻奏持续音、B四强奏铜管，先试？",
+          "reject": "保护实音及真实声学不允许该推论。"
+        },
+        {
+          "caseId": "AR56",
+          "claim": "K03-CL-AR56@1",
+          "problem": "两管书写C5，各实音？",
+          "reject": "低音管还差八度。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "音域、换奏、相邻事件及技法约束",
+      "d4Targets": [
+        "K03.02.01.03",
+        "K03.02.01.04",
+        "K03.02.03.03",
+        "K03.02.02.03",
+        "K03.02.02.04",
+        "K03.02.02.05",
+        "K03.02.02.06",
+        "K03.02.02.07",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 12,
+        "row": "| K03.02 | A01 | P | 音域、换奏、相邻事件及技法约束 | [AR03/K03.02.01.03](arrangement-r1-knowledge-cases.md#L7)；[AR04/K03.02.01.04](arrangement-r1-knowledge-cases.md#L8)；[AR05/K03.02.03.03](arrangement-r1-knowledge-cases.md#L9)；[AR12/K03.02.02.03](arrangement-r2-knowledge-cases.md#L7)；[AR13/K03.02.02.04](arrangement-r2-knowledge-cases.md#L8)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR37/K03.02.02.06](arrangement-r3-knowledge-cases.md#L9)；[AR38/K03.02.02.07](arrangement-r3-knowledge-cases.md#L10)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR03@1",
+        "K03-CL-AR04@1",
+        "K03-CL-AR05@1",
+        "K03-CL-AR12@1",
+        "K03-CL-AR13@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR37@1",
+        "K03-CL-AR38@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR03",
+          "claim": "K03-CL-AR03@1",
+          "problem": "短笛书写最低D4，要求实音C5，裁。",
+          "reject": "变体实音下限不同。"
+        },
+        {
+          "caseId": "AR04",
+          "claim": "K03-CL-AR04@1",
+          "problem": "A/B中音长笛书写上限F6/G6，目标D6，选。",
+          "reject": "个体确认条件不同。"
+        },
+        {
+          "caseId": "AR05",
+          "claim": "K03-CL-AR05@1",
+          "problem": "四名已确认小提琴手各奏G3 D4 A4 E5之一，同起同止两拍。",
+          "reject": "起音及持续保护条件被破坏。"
+        },
+        {
+          "caseId": "AR12",
+          "claim": "K03-CL-AR12@1",
+          "problem": "C4和C♯5均要求C弦持续，是否可行？",
+          "reject": "普通踏板机构共享音名状态。"
+        },
+        {
+          "caseId": "AR13",
+          "claim": "K03-CL-AR13@1",
+          "problem": "题定F3→B2分支六半音，F3→A♭2九半音，筛。",
+          "reject": "总范围不提供同分支路径。"
+        },
+        {
+          "caseId": "AR36",
+          "claim": "K03-CL-AR36@1",
+          "problem": "120 BPM、题定连续≤6秒、需1秒换气，16拍无休止单人或两人各8拍，比较。",
+          "reject": "连续时长及换气约束未满足。"
+        },
+        {
+          "caseId": "AR37",
+          "claim": "K03-CL-AR37@1",
+          "problem": "A4→B4反复每拍8音或2音，已确认跨区上限4，筛。",
+          "reject": "跨区速度超题定。"
+        },
+        {
+          "caseId": "AR38",
+          "claim": "K03-CL-AR38@1",
+          "problem": "G3→E5各.125拍不可快跨三弦；G D A E各.5拍已确认，裁。",
+          "reject": "相邻动作和时间未核。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "范围→序列/资源→选择或停止",
+      "d4Targets": [
+        "K03.02.03.03",
+        "K03.02.02.03",
+        "K03.02.02.05",
+        "K03.02.02.06",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 13,
+        "row": "| K03.02 | A02 | P | 范围→序列/资源→选择或停止 | [AR05/K03.02.03.03](arrangement-r1-knowledge-cases.md#L9)；[AR12/K03.02.02.03](arrangement-r2-knowledge-cases.md#L7)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR37/K03.02.02.06](arrangement-r3-knowledge-cases.md#L9)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR05@1",
+        "K03-CL-AR12@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR37@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR05",
+          "claim": "K03-CL-AR05@1",
+          "problem": "四名已确认小提琴手各奏G3 D4 A4 E5之一，同起同止两拍。",
+          "reject": "起音及持续保护条件被破坏。"
+        },
+        {
+          "caseId": "AR12",
+          "claim": "K03-CL-AR12@1",
+          "problem": "C4和C♯5均要求C弦持续，是否可行？",
+          "reject": "普通踏板机构共享音名状态。"
+        },
+        {
+          "caseId": "AR36",
+          "claim": "K03-CL-AR36@1",
+          "problem": "120 BPM、题定连续≤6秒、需1秒换气，16拍无休止单人或两人各8拍，比较。",
+          "reject": "连续时长及换气约束未满足。"
+        },
+        {
+          "caseId": "AR37",
+          "claim": "K03-CL-AR37@1",
+          "problem": "A4→B4反复每拍8音或2音，已确认跨区上限4，筛。",
+          "reject": "跨区速度超题定。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.02",
+      "ability": "A03",
+      "role": "S",
+      "task": "乐器能力记录与工具K12，实际演奏K04",
+      "d4Targets": [
+        "K03.02.03.03",
+        "K03.02.02.05",
+        "K03.03.03.05"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 14,
+        "row": "| K03.02 | A03 | S | 乐器能力记录与工具K12，实际演奏K04 | [AR05/K03.02.03.03](arrangement-r1-knowledge-cases.md#L9)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR05@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR05",
+          "claim": "K03-CL-AR05@1",
+          "problem": "四名已确认小提琴手各奏G3 D4 A4 E5之一，同起同止两拍。",
+          "reject": "起音及持续保护条件被破坏。"
+        },
+        {
+          "caseId": "AR36",
+          "claim": "K03-CL-AR36@1",
+          "problem": "120 BPM、题定连续≤6秒、需1秒换气，16拍无休止单人或两人各8拍，比较。",
+          "reject": "连续时长及换气约束未满足。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.02",
+      "ability": "A04",
+      "role": "P",
+      "task": "范围/个体与授权锁定",
+      "d4Targets": [
+        "K03.02.01.04",
+        "K03.02.02.05",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 15,
+        "row": "| K03.02 | A04 | P | 范围/个体与授权锁定 | [AR04/K03.02.01.04](arrangement-r1-knowledge-cases.md#L8)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR04@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR04",
+          "claim": "K03-CL-AR04@1",
+          "problem": "A/B中音长笛书写上限F6/G6，目标D6，选。",
+          "reject": "个体确认条件不同。"
+        },
+        {
+          "caseId": "AR36",
+          "claim": "K03-CL-AR36@1",
+          "problem": "120 BPM、题定连续≤6秒、需1秒换气，16拍无休止单人或两人各8拍，比较。",
+          "reject": "连续时长及换气约束未满足。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "可奏筛选不等表现评价",
+      "d4Targets": [
+        "K03.02.01.04",
+        "K03.02.02.03",
+        "K03.02.02.05",
+        "K03.02.02.06"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 16,
+        "row": "| K03.02 | A05 | P | 可奏筛选不等表现评价 | [AR04/K03.02.01.04](arrangement-r1-knowledge-cases.md#L8)；[AR12/K03.02.02.03](arrangement-r2-knowledge-cases.md#L7)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR37/K03.02.02.06](arrangement-r3-knowledge-cases.md#L9) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR04@1",
+        "K03-CL-AR12@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR37@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR04",
+          "claim": "K03-CL-AR04@1",
+          "problem": "A/B中音长笛书写上限F6/G6，目标D6，选。",
+          "reject": "个体确认条件不同。"
+        },
+        {
+          "caseId": "AR12",
+          "claim": "K03-CL-AR12@1",
+          "problem": "C4和C♯5均要求C弦持续，是否可行？",
+          "reject": "普通踏板机构共享音名状态。"
+        },
+        {
+          "caseId": "AR36",
+          "claim": "K03-CL-AR36@1",
+          "problem": "120 BPM、题定连续≤6秒、需1秒换气，16拍无休止单人或两人各8拍，比较。",
+          "reject": "连续时长及换气约束未满足。"
+        },
+        {
+          "caseId": "AR37",
+          "claim": "K03-CL-AR37@1",
+          "problem": "A4→B4反复每拍8音或2音，已确认跨区上限4，筛。",
+          "reject": "跨区速度超题定。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.02",
+      "ability": "A06",
+      "role": "P",
+      "task": "谱音、音区、具体演奏条件",
+      "d4Targets": [
+        "K03.02.01.03",
+        "K03.02.02.03",
+        "K03.02.02.07",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 17,
+        "row": "| K03.02 | A06 | P | 谱音、音区、具体演奏条件 | [AR03/K03.02.01.03](arrangement-r1-knowledge-cases.md#L7)；[AR12/K03.02.02.03](arrangement-r2-knowledge-cases.md#L7)；[AR38/K03.02.02.07](arrangement-r3-knowledge-cases.md#L10)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR03@1",
+        "K03-CL-AR12@1",
+        "K03-CL-AR38@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR03",
+          "claim": "K03-CL-AR03@1",
+          "problem": "短笛书写最低D4，要求实音C5，裁。",
+          "reject": "变体实音下限不同。"
+        },
+        {
+          "caseId": "AR12",
+          "claim": "K03-CL-AR12@1",
+          "problem": "C4和C♯5均要求C弦持续，是否可行？",
+          "reject": "普通踏板机构共享音名状态。"
+        },
+        {
+          "caseId": "AR38",
+          "claim": "K03-CL-AR38@1",
+          "problem": "G3→E5各.125拍不可快跨三弦；G D A E各.5拍已确认，裁。",
+          "reject": "相邻动作和时间未核。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "超限后改配/授权/拒绝",
+      "d4Targets": [
+        "K03.02.01.03",
+        "K03.02.03.03",
+        "K03.02.02.05",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 18,
+        "row": "| K03.02 | A07 | P | 超限后改配/授权/拒绝 | [AR03/K03.02.01.03](arrangement-r1-knowledge-cases.md#L7)；[AR05/K03.02.03.03](arrangement-r1-knowledge-cases.md#L9)；[AR36/K03.02.02.05](arrangement-r3-knowledge-cases.md#L8)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR03@1",
+        "K03-CL-AR05@1",
+        "K03-CL-AR36@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR03",
+          "claim": "K03-CL-AR03@1",
+          "problem": "短笛书写最低D4，要求实音C5，裁。",
+          "reject": "变体实音下限不同。"
+        },
+        {
+          "caseId": "AR05",
+          "claim": "K03-CL-AR05@1",
+          "problem": "四名已确认小提琴手各奏G3 D4 A4 E5之一，同起同止两拍。",
+          "reject": "起音及持续保护条件被破坏。"
+        },
+        {
+          "caseId": "AR36",
+          "claim": "K03-CL-AR36@1",
+          "problem": "120 BPM、题定连续≤6秒、需1秒换气，16拍无休止单人或两人各8拍，比较。",
+          "reject": "连续时长及换气约束未满足。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "乐器组合与编制分工",
+      "d4Targets": [
+        "K03.03.03.03",
+        "K03.03.01.03",
+        "K03.03.02.03",
+        "K03.03.02.04",
+        "K03.03.01.04",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 19,
+        "row": "| K03.03 | A01 | P | 乐器组合与编制分工 | [AR06/K03.03.03.03](arrangement-r1-knowledge-cases.md#L10)；[AR14/K03.03.01.03](arrangement-r2-knowledge-cases.md#L9)；[AR15/K03.03.02.03](arrangement-r2-knowledge-cases.md#L10)；[AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR14@1",
+        "K03-CL-AR15@1",
+        "K03-CL-AR16@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR06",
+          "claim": "K03-CL-AR06@1",
+          "problem": "三名每人单音，四音同时持续，是否有解？",
+          "reject": "违反同时容量。"
+        },
+        {
+          "caseId": "AR14",
+          "claim": "K03-CL-AR14@1",
+          "problem": "长笛C5 D5 E5 G5，普通B♭管同度谱？",
+          "reject": "B♭管实音低大二度。"
+        },
+        {
+          "caseId": "AR15",
+          "claim": "K03-CL-AR15@1",
+          "problem": "G4主线，新增G4或G5，分类。",
+          "reject": "相差12半音。"
+        },
+        {
+          "caseId": "AR16",
+          "claim": "K03-CL-AR16@1",
+          "problem": "C5 D5主线，背景E4 G4或E5 G5，要求低于主线。",
+          "reject": "实际注册不同。"
+        },
+        {
+          "caseId": "AR39",
+          "claim": null,
+          "problem": "四人1/3高、2/4低，实音G4 E4 C4 G3分配？",
+          "reject": "未确认个人高区能力。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "角色→资源→分配/取舍",
+      "d4Targets": [
+        "K03.03.03.03",
+        "K03.03.01.03",
+        "K03.03.01.04",
+        "K03.03.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 20,
+        "row": "| K03.03 | A02 | P | 角色→资源→分配/取舍 | [AR06/K03.03.03.03](arrangement-r1-knowledge-cases.md#L10)；[AR14/K03.03.01.03](arrangement-r2-knowledge-cases.md#L9)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11)；[AR40/K03.03.03.04](arrangement-r3-knowledge-cases.md#L12) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR14@1",
+        "K03-CL-AR40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR06",
+          "claim": "K03-CL-AR06@1",
+          "problem": "三名每人单音，四音同时持续，是否有解？",
+          "reject": "违反同时容量。"
+        },
+        {
+          "caseId": "AR14",
+          "claim": "K03-CL-AR14@1",
+          "problem": "长笛C5 D5 E5 G5，普通B♭管同度谱？",
+          "reject": "B♭管实音低大二度。"
+        },
+        {
+          "caseId": "AR39",
+          "claim": null,
+          "problem": "四人1/3高、2/4低，实音G4 E4 C4 G3分配？",
+          "reject": "未确认个人高区能力。"
+        },
+        {
+          "caseId": "AR40",
+          "claim": "K03-CL-AR40@1",
+          "problem": "预算20分钟，A6+6+6、B8+8+7，筛。",
+          "reject": "硬资源条件不可被偏好覆盖。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.03",
+      "ability": "A03",
+      "role": "S",
+      "task": "谱面/模拟音源K12；实际排练K04",
+      "d4Targets": [
+        "K03.03.01.03",
+        "K03.01.03.04",
+        "K03.08.01.05"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 21,
+        "row": "| K03.03 | A03 | S | 谱面/模拟音源K12；实际排练K04 | [AR14/K03.03.01.03](arrangement-r2-knowledge-cases.md#L9)；[AR35/K03.01.03.04](arrangement-r3-knowledge-cases.md#L7)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR14@1",
+        "K03-CL-AR35@1",
+        "K03-CL-AR59@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR14",
+          "claim": "K03-CL-AR14@1",
+          "problem": "长笛C5 D5 E5 G5，普通B♭管同度谱？",
+          "reject": "B♭管实音低大二度。"
+        },
+        {
+          "caseId": "AR35",
+          "claim": "K03-CL-AR35@1",
+          "problem": "C5两拍A pizz/B arco，如何记？",
+          "reject": "技法字段不同。"
+        },
+        {
+          "caseId": "AR59",
+          "claim": "K03-CL-AR59@1",
+          "problem": "P3 kick/hat同谱位不同instrument及voice；P1钢琴两staff，怎样表示？",
+          "reject": "一个part可引用多个乐器。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.03",
+      "ability": "A04",
+      "role": "P",
+      "task": "角色、人数、谱面版本",
+      "d4Targets": [
+        "K03.03.03.03",
+        "K03.03.01.04",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 22,
+        "row": "| K03.03 | A04 | P | 角色、人数、谱面版本 | [AR06/K03.03.03.03](arrangement-r1-knowledge-cases.md#L10)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR06",
+          "claim": "K03-CL-AR06@1",
+          "problem": "三名每人单音，四音同时持续，是否有解？",
+          "reject": "违反同时容量。"
+        },
+        {
+          "caseId": "AR39",
+          "claim": null,
+          "problem": "四人1/3高、2/4低，实音G4 E4 C4 G3分配？",
+          "reject": "未确认个人高区能力。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "可行与音色/平衡目标区别",
+      "d4Targets": [
+        "K03.03.02.04",
+        "K03.01.03.03",
+        "K03.03.03.04",
+        "K03.07.03.04"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 23,
+        "row": "| K03.03 | A05 | P | 可行与音色/平衡目标区别 | [AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR40/K03.03.03.04](arrangement-r3-knowledge-cases.md#L12)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR16@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR40@1",
+        "K03-CL-AR52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR16",
+          "claim": "K03-CL-AR16@1",
+          "problem": "C5 D5主线，背景E4 G4或E5 G5，要求低于主线。",
+          "reject": "实际注册不同。"
+        },
+        {
+          "caseId": "AR34",
+          "claim": "K03-CL-AR34@1",
+          "problem": "D4 E4 F4 G4长笛，A两轻奏持续音、B四强奏铜管，先试？",
+          "reject": "保护实音及真实声学不允许该推论。"
+        },
+        {
+          "caseId": "AR40",
+          "claim": "K03-CL-AR40@1",
+          "problem": "预算20分钟，A6+6+6、B8+8+7，筛。",
+          "reject": "硬资源条件不可被偏好覆盖。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.03",
+      "ability": "A06",
+      "role": "P",
+      "task": "声部与乐器、注册、总分谱",
+      "d4Targets": [
+        "K03.03.01.03",
+        "K03.03.01.04",
+        "K03.08.01.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 24,
+        "row": "| K03.03 | A06 | P | 声部与乐器、注册、总分谱 | [AR14/K03.03.01.03](arrangement-r2-knowledge-cases.md#L9)；[AR39/K03.03.01.04](arrangement-r3-knowledge-cases.md#L11)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR14@1",
+        "K03-CL-AR59@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR14",
+          "claim": "K03-CL-AR14@1",
+          "problem": "长笛C5 D5 E5 G5，普通B♭管同度谱？",
+          "reject": "B♭管实音低大二度。"
+        },
+        {
+          "caseId": "AR39",
+          "claim": null,
+          "problem": "四人1/3高、2/4低，实音G4 E4 C4 G3分配？",
+          "reject": "未确认个人高区能力。"
+        },
+        {
+          "caseId": "AR59",
+          "claim": "K03-CL-AR59@1",
+          "problem": "P3 kick/hat同谱位不同instrument及voice；P1钢琴两staff，怎样表示？",
+          "reject": "一个part可引用多个乐器。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "配器冲突→资源或配器修正",
+      "d4Targets": [
+        "K03.03.03.03",
+        "K03.03.02.04",
+        "K03.07.03.04",
+        "K03.03.03.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 25,
+        "row": "| K03.03 | A07 | P | 配器冲突→资源或配器修正 | [AR06/K03.03.03.03](arrangement-r1-knowledge-cases.md#L10)；[AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR57/K03.03.03.05](arrangement-r4-knowledge-cases.md#L6) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR06@1",
+        "K03-CL-AR16@1",
+        "K03-CL-AR52@1",
+        "K03-CL-AR57@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR06",
+          "claim": "K03-CL-AR06@1",
+          "problem": "三名每人单音，四音同时持续，是否有解？",
+          "reject": "违反同时容量。"
+        },
+        {
+          "caseId": "AR16",
+          "claim": "K03-CL-AR16@1",
+          "problem": "C5 D5主线，背景E4 G4或E5 G5，要求低于主线。",
+          "reject": "实际注册不同。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        },
+        {
+          "caseId": "AR57",
+          "claim": "K03-CL-AR57@1",
+          "problem": "长笛0–3拍、短笛4拍起，需2拍换奏，裁。",
+          "reject": "同一人时间资源冲突。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "单声/异音/主调/复调与密度",
+      "d4Targets": [
+        "K03.04.01.03",
+        "K03.04.01.04",
+        "K03.04.02.03",
+        "K03.04.03.03",
+        "K03.04.01.05",
+        "K03.04.02.04",
+        "K03.06.02.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 26,
+        "row": "| K03.04 | A01 | P | 单声/异音/主调/复调与密度 | [AR17/K03.04.01.03](arrangement-r2-knowledge-cases.md#L12)；[AR18/K03.04.01.04](arrangement-r2-knowledge-cases.md#L13)；[AR19/K03.04.02.03](arrangement-r2-knowledge-cases.md#L14)；[AR20/K03.04.03.03](arrangement-r2-knowledge-cases.md#L15)；[AR41/K03.04.01.05](arrangement-r3-knowledge-cases.md#L13)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR17@1",
+        "K03-CL-AR18@1",
+        "K03-CL-AR19@1",
+        "K03-CL-AR20@1",
+        "K03-CL-AR41@1",
+        "K03-CL-AR42@1",
+        "K03-CL-AR48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR17",
+          "claim": "K03-CL-AR17@1",
+          "problem": "四轨完全同旋律同起，判织体。",
+          "reject": "轨数不等独立线数。"
+        },
+        {
+          "caseId": "AR18",
+          "claim": "K03-CL-AR18@1",
+          "problem": "C D E与C B D E，共同主干及同段装饰，判。",
+          "reject": "装饰性变体仍共享主干。"
+        },
+        {
+          "caseId": "AR19",
+          "claim": "K03-CL-AR19@1",
+          "problem": "主线C5 D5 E5 G5，B持续C和弦或明确独立旋律，分类。",
+          "reject": "音区不决定角色。"
+        },
+        {
+          "caseId": "AR20",
+          "claim": "K03-CL-AR20@1",
+          "problem": "两持续音4拍与两轨各四个四分音，计算。",
+          "reject": "两方案活动音相同而起音率不同。"
+        },
+        {
+          "caseId": "AR41",
+          "claim": "K03-CL-AR41@1",
+          "problem": "钢琴一轨voice1四音主线、voice2持续C3，判。",
+          "reject": "轨可编码多声部。"
+        },
+        {
+          "caseId": "AR42",
+          "claim": "K03-CL-AR42@1",
+          "problem": "主线[0,2)/[3,4)，A E4@2/.5 G4@2.5/.5，B E4@1.5/1，筛。",
+          "reject": "可能跨入主线保护区。"
+        },
+        {
+          "caseId": "AR48",
+          "claim": "K03-CL-AR48@1",
+          "problem": "P偶数格/S奇数格形成8格交错，目标Nelayan理念或Kamasan非交错，筛。",
+          "reject": "具体传统存在非交错反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "角色及时间区间→选择织体",
+      "d4Targets": [
+        "K03.04.02.03",
+        "K03.04.03.03",
+        "K03.04.02.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 27,
+        "row": "| K03.04 | A02 | P | 角色及时间区间→选择织体 | [AR19/K03.04.02.03](arrangement-r2-knowledge-cases.md#L14)；[AR20/K03.04.03.03](arrangement-r2-knowledge-cases.md#L15)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR19@1",
+        "K03-CL-AR20@1",
+        "K03-CL-AR42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR19",
+          "claim": "K03-CL-AR19@1",
+          "problem": "主线C5 D5 E5 G5，B持续C和弦或明确独立旋律，分类。",
+          "reject": "音区不决定角色。"
+        },
+        {
+          "caseId": "AR20",
+          "claim": "K03-CL-AR20@1",
+          "problem": "两持续音4拍与两轨各四个四分音，计算。",
+          "reject": "两方案活动音相同而起音率不同。"
+        },
+        {
+          "caseId": "AR42",
+          "claim": "K03-CL-AR42@1",
+          "problem": "主线[0,2)/[3,4)，A E4@2/.5 G4@2.5/.5，B E4@1.5/1，筛。",
+          "reject": "可能跨入主线保护区。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.04",
+      "ability": "A03",
+      "role": "S",
+      "task": "轨/voice工具与宿主K12",
+      "d4Targets": [
+        "K03.04.01.05",
+        "K03.08.01.04"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 28,
+        "row": "| K03.04 | A03 | S | 轨/voice工具与宿主K12 | [AR41/K03.04.01.05](arrangement-r3-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR41@1",
+        "K03-CL-AR53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR41",
+          "claim": "K03-CL-AR41@1",
+          "problem": "钢琴一轨voice1四音主线、voice2持续C3，判。",
+          "reject": "轨可编码多声部。"
+        },
+        {
+          "caseId": "AR53",
+          "claim": "K03-CL-AR53@1",
+          "problem": "divisions2，4/4，voice1四个duration2，voice2 duration8，backup应多少？",
+          "reject": "声部身份保护独立于时值。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.04",
+      "ability": "A04",
+      "role": "P",
+      "task": "主线/背景/时位、声部ID",
+      "d4Targets": [
+        "K03.04.02.03",
+        "K03.04.01.05",
+        "K03.04.02.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 29,
+        "row": "| K03.04 | A04 | P | 主线/背景/时位、声部ID | [AR19/K03.04.02.03](arrangement-r2-knowledge-cases.md#L14)；[AR41/K03.04.01.05](arrangement-r3-knowledge-cases.md#L13)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR19@1",
+        "K03-CL-AR41@1",
+        "K03-CL-AR42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR19",
+          "claim": "K03-CL-AR19@1",
+          "problem": "主线C5 D5 E5 G5，B持续C和弦或明确独立旋律，分类。",
+          "reject": "音区不决定角色。"
+        },
+        {
+          "caseId": "AR41",
+          "claim": "K03-CL-AR41@1",
+          "problem": "钢琴一轨voice1四音主线、voice2持续C3，判。",
+          "reject": "轨可编码多声部。"
+        },
+        {
+          "caseId": "AR42",
+          "claim": "K03-CL-AR42@1",
+          "problem": "主线[0,2)/[3,4)，A E4@2/.5 G4@2.5/.5，B E4@1.5/1，筛。",
+          "reject": "可能跨入主线保护区。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "符号密度、遮蔽风险与听辨条件",
+      "d4Targets": [
+        "K03.03.02.04",
+        "K03.04.03.03",
+        "K03.01.03.03",
+        "K03.06.03.04"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 30,
+        "row": "| K03.04 | A05 | P | 符号密度、遮蔽风险与听辨条件 | [AR16/K03.03.02.04](arrangement-r2-knowledge-cases.md#L11)；[AR20/K03.04.03.03](arrangement-r2-knowledge-cases.md#L15)；[AR34/K03.01.03.03](arrangement-r3-knowledge-cases.md#L6)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR16@1",
+        "K03-CL-AR20@1",
+        "K03-CL-AR34@1",
+        "K03-CL-AR50@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR16",
+          "claim": "K03-CL-AR16@1",
+          "problem": "C5 D5主线，背景E4 G4或E5 G5，要求低于主线。",
+          "reject": "实际注册不同。"
+        },
+        {
+          "caseId": "AR20",
+          "claim": "K03-CL-AR20@1",
+          "problem": "两持续音4拍与两轨各四个四分音，计算。",
+          "reject": "两方案活动音相同而起音率不同。"
+        },
+        {
+          "caseId": "AR34",
+          "claim": "K03-CL-AR34@1",
+          "problem": "D4 E4 F4 G4长笛，A两轻奏持续音、B四强奏铜管，先试？",
+          "reject": "保护实音及真实声学不允许该推论。"
+        },
+        {
+          "caseId": "AR50",
+          "claim": "K03-CL-AR50@1",
+          "problem": "三评者要求，r1偏A/r2偏B/r3未答，裁。",
+          "reject": "记录分歧且第三人缺测。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑声部、时位与区间",
+      "d4Targets": [
+        "K03.04.01.05",
+        "K03.04.02.04",
+        "K03.08.01.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 31,
+        "row": "| K03.04 | A06 | P | 可编辑声部、时位与区间 | [AR41/K03.04.01.05](arrangement-r3-knowledge-cases.md#L13)；[AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR41@1",
+        "K03-CL-AR42@1",
+        "K03-CL-AR53@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR41",
+          "claim": "K03-CL-AR41@1",
+          "problem": "钢琴一轨voice1四音主线、voice2持续C3，判。",
+          "reject": "轨可编码多声部。"
+        },
+        {
+          "caseId": "AR42",
+          "claim": "K03-CL-AR42@1",
+          "problem": "主线[0,2)/[3,4)，A E4@2/.5 G4@2.5/.5，B E4@1.5/1，筛。",
+          "reject": "可能跨入主线保护区。"
+        },
+        {
+          "caseId": "AR53",
+          "claim": "K03-CL-AR53@1",
+          "problem": "divisions2，4/4，voice1四个duration2，voice2 duration8，backup应多少？",
+          "reject": "声部身份保护独立于时值。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "冲突→重配填充或背景→复核",
+      "d4Targets": [
+        "K03.04.02.04",
+        "K03.07.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 32,
+        "row": "| K03.04 | A07 | P | 冲突→重配填充或背景→复核 | [AR42/K03.04.02.04](arrangement-r3-knowledge-cases.md#L14)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR42@1",
+        "K03-CL-AR52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR42",
+          "claim": "K03-CL-AR42@1",
+          "problem": "主线[0,2)/[3,4)，A E4@2/.5 G4@2.5/.5，B E4@1.5/1，筛。",
+          "reject": "可能跨入主线保护区。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "低音、voicing、伴奏和可行性",
+      "d4Targets": [
+        "K03.05.01.03",
+        "K03.05.01.04",
+        "K03.05.02.03",
+        "K03.05.02.04",
+        "K03.05.03.03",
+        "K03.05.03.04",
+        "K03.05.01.05",
+        "K03.05.02.05",
+        "K03.05.02.06"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 33,
+        "row": "| K03.05 | A01 | P | 低音、voicing、伴奏和可行性 | [AR21/K03.05.01.03](arrangement-r2-knowledge-cases.md#L16)；[AR22/K03.05.01.04](arrangement-r2-knowledge-cases.md#L17)；[AR23/K03.05.02.03](arrangement-r2-knowledge-cases.md#L18)；[AR24/K03.05.02.04](arrangement-r2-knowledge-cases.md#L19)；[AR25/K03.05.03.03](arrangement-r2-knowledge-cases.md#L20)；[AR26/K03.05.03.04](arrangement-r2-knowledge-cases.md#L21)；[AR43/K03.05.01.05](arrangement-r3-knowledge-cases.md#L15)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR21@1",
+        "K03-CL-AR22@1",
+        "K03-CL-AR23@1",
+        "K03-CL-AR24@1",
+        "K03-CL-AR25@1",
+        "K03-CL-AR26@1",
+        "K03-CL-AR43@1",
+        "K03-CL-AR45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR21",
+          "claim": "K03-CL-AR21@1",
+          "problem": "C/E候选E2 C4 E4 G4或C2 E4 G4 C5，选。",
+          "reject": "原C大三和弦仍在。"
+        },
+        {
+          "caseId": "AR22",
+          "claim": "K03-CL-AR22@1",
+          "problem": "C–C/B–Am低音C3 B2 A2，移动？",
+          "reject": "违反指定低音。"
+        },
+        {
+          "caseId": "AR23",
+          "claim": "K03-CL-AR23@1",
+          "problem": "C9 A=C3 E3 B♭3 D4 G4，B=C3 B♭3 D4 E4 G4，比较。",
+          "reject": "含九音D且五音配置。"
+        },
+        {
+          "caseId": "AR24",
+          "claim": "K03-CL-AR24@1",
+          "problem": "Dm7 G7 Cmaj7，F4 F4 E4与C5 B4 B4，核。",
+          "reject": "G7小七音F。"
+        },
+        {
+          "caseId": "AR25",
+          "claim": "K03-CL-AR25@1",
+          "problem": "C3 G3 E3 G3重复两次、每音八分，共几拍？",
+          "reject": "顺序并非低高中高。"
+        },
+        {
+          "caseId": "AR26",
+          "claim": "K03-CL-AR26@1",
+          "problem": "主线0/1/2/3，伴奏后半拍持续.25，最后结束？",
+          "reject": "实际起点违反条件。"
+        },
+        {
+          "caseId": "AR43",
+          "claim": "K03-CL-AR43@1",
+          "problem": "Dm7/G7/Cmaj7，低音D F A F♯→G B D D♭→C，核。",
+          "reject": "和弦成员与许可趋近音不同。"
+        },
+        {
+          "caseId": "AR44",
+          "claim": null,
+          "problem": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+          "reject": "最低E2限制。"
+        },
+        {
+          "caseId": "AR45",
+          "claim": "K03-CL-AR45@1",
+          "problem": "C9右手B♭3 D4 E4 G4或E3 B♭3 D4 G4，最大9且前手型已确认。",
+          "reject": "注册导致跨度超限。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "和声/主线→低音与配置→约束筛选",
+      "d4Targets": [
+        "K03.05.01.03",
+        "K03.05.02.04",
+        "K03.05.01.05",
+        "K03.05.02.05",
+        "K03.05.02.06"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 34,
+        "row": "| K03.05 | A02 | P | 和声/主线→低音与配置→约束筛选 | [AR21/K03.05.01.03](arrangement-r2-knowledge-cases.md#L16)；[AR24/K03.05.02.04](arrangement-r2-knowledge-cases.md#L19)；[AR43/K03.05.01.05](arrangement-r3-knowledge-cases.md#L15)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR21@1",
+        "K03-CL-AR24@1",
+        "K03-CL-AR43@1",
+        "K03-CL-AR45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR21",
+          "claim": "K03-CL-AR21@1",
+          "problem": "C/E候选E2 C4 E4 G4或C2 E4 G4 C5，选。",
+          "reject": "原C大三和弦仍在。"
+        },
+        {
+          "caseId": "AR24",
+          "claim": "K03-CL-AR24@1",
+          "problem": "Dm7 G7 Cmaj7，F4 F4 E4与C5 B4 B4，核。",
+          "reject": "G7小七音F。"
+        },
+        {
+          "caseId": "AR43",
+          "claim": "K03-CL-AR43@1",
+          "problem": "Dm7/G7/Cmaj7，低音D F A F♯→G B D D♭→C，核。",
+          "reject": "和弦成员与许可趋近音不同。"
+        },
+        {
+          "caseId": "AR44",
+          "claim": null,
+          "problem": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+          "reject": "最低E2限制。"
+        },
+        {
+          "caseId": "AR45",
+          "claim": "K03-CL-AR45@1",
+          "problem": "C9右手B♭3 D4 E4 G4或E3 B♭3 D4 G4，最大9且前手型已确认。",
+          "reject": "注册导致跨度超限。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "乐谱/MIDI/手型工具K12，实际动作K04",
+      "d4Targets": [
+        "K03.05.02.05",
+        "K03.05.02.06",
+        "K03.08.02.04"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 35,
+        "row": "| K03.05 | A03 | S | 乐谱/MIDI/手型工具K12，实际动作K04 | [AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR45@1",
+        "K03-CL-AR54@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR44",
+          "claim": null,
+          "problem": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+          "reject": "最低E2限制。"
+        },
+        {
+          "caseId": "AR45",
+          "claim": "K03-CL-AR45@1",
+          "problem": "C9右手B♭3 D4 E4 G4或E3 B♭3 D4 G4，最大9且前手型已确认。",
+          "reject": "注册导致跨度超限。"
+        },
+        {
+          "caseId": "AR54",
+          "claim": "K03-CL-AR54@1",
+          "problem": "A pizz/arco、B全arco但音符同，投影？",
+          "reject": "此反例仅指定简化投影，控制信息可另存。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.05",
+      "ability": "A04",
+      "role": "P",
+      "task": "和声、主线与低音身份/时间",
+      "d4Targets": [
+        "K03.05.01.04",
+        "K03.05.03.04",
+        "K03.05.01.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 36,
+        "row": "| K03.05 | A04 | P | 和声、主线与低音身份/时间 | [AR22/K03.05.01.04](arrangement-r2-knowledge-cases.md#L17)；[AR26/K03.05.03.04](arrangement-r2-knowledge-cases.md#L21)；[AR43/K03.05.01.05](arrangement-r3-knowledge-cases.md#L15) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR22@1",
+        "K03-CL-AR26@1",
+        "K03-CL-AR43@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR22",
+          "claim": "K03-CL-AR22@1",
+          "problem": "C–C/B–Am低音C3 B2 A2，移动？",
+          "reject": "违反指定低音。"
+        },
+        {
+          "caseId": "AR26",
+          "claim": "K03-CL-AR26@1",
+          "problem": "主线0/1/2/3，伴奏后半拍持续.25，最后结束？",
+          "reject": "实际起点违反条件。"
+        },
+        {
+          "caseId": "AR43",
+          "claim": "K03-CL-AR43@1",
+          "problem": "Dm7/G7/Cmaj7，低音D F A F♯→G B D D♭→C，核。",
+          "reject": "和弦成员与许可趋近音不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "和声成员/趋近条件、手型与听评区别",
+      "d4Targets": [
+        "K03.05.02.03",
+        "K03.05.01.05",
+        "K03.05.02.05",
+        "K03.05.02.06"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 37,
+        "row": "| K03.05 | A05 | P | 和声成员/趋近条件、手型与听评区别 | [AR23/K03.05.02.03](arrangement-r2-knowledge-cases.md#L18)；[AR43/K03.05.01.05](arrangement-r3-knowledge-cases.md#L15)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR23@1",
+        "K03-CL-AR43@1",
+        "K03-CL-AR45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR23",
+          "claim": "K03-CL-AR23@1",
+          "problem": "C9 A=C3 E3 B♭3 D4 G4，B=C3 B♭3 D4 E4 G4，比较。",
+          "reject": "含九音D且五音配置。"
+        },
+        {
+          "caseId": "AR43",
+          "claim": "K03-CL-AR43@1",
+          "problem": "Dm7/G7/Cmaj7，低音D F A F♯→G B D D♭→C，核。",
+          "reject": "和弦成员与许可趋近音不同。"
+        },
+        {
+          "caseId": "AR44",
+          "claim": null,
+          "problem": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+          "reject": "最低E2限制。"
+        },
+        {
+          "caseId": "AR45",
+          "claim": "K03-CL-AR45@1",
+          "problem": "C9右手B♭3 D4 E4 G4或E3 B♭3 D4 G4，最大9且前手型已确认。",
+          "reject": "注册导致跨度超限。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.05",
+      "ability": "A06",
+      "role": "P",
+      "task": "音高/弦位/手型/时位候选",
+      "d4Targets": [
+        "K03.05.02.04",
+        "K03.05.03.03",
+        "K03.05.02.05",
+        "K03.05.02.06"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 38,
+        "row": "| K03.05 | A06 | P | 音高/弦位/手型/时位候选 | [AR24/K03.05.02.04](arrangement-r2-knowledge-cases.md#L19)；[AR25/K03.05.03.03](arrangement-r2-knowledge-cases.md#L20)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR24@1",
+        "K03-CL-AR25@1",
+        "K03-CL-AR45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR24",
+          "claim": "K03-CL-AR24@1",
+          "problem": "Dm7 G7 Cmaj7，F4 F4 E4与C5 B4 B4，核。",
+          "reject": "G7小七音F。"
+        },
+        {
+          "caseId": "AR25",
+          "claim": "K03-CL-AR25@1",
+          "problem": "C3 G3 E3 G3重复两次、每音八分，共几拍？",
+          "reject": "顺序并非低高中高。"
+        },
+        {
+          "caseId": "AR44",
+          "claim": null,
+          "problem": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+          "reject": "最低E2限制。"
+        },
+        {
+          "caseId": "AR45",
+          "claim": "K03-CL-AR45@1",
+          "problem": "C9右手B♭3 D4 E4 G4或E3 B♭3 D4 G4，最大9且前手型已确认。",
+          "reject": "注册导致跨度超限。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "低音/手型冲突→注册或重配",
+      "d4Targets": [
+        "K03.05.01.03",
+        "K03.05.02.05",
+        "K03.05.02.06"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 39,
+        "row": "| K03.05 | A07 | P | 低音/手型冲突→注册或重配 | [AR21/K03.05.01.03](arrangement-r2-knowledge-cases.md#L16)；[AR44/K03.05.02.05](arrangement-r3-knowledge-cases.md#L16)；[AR45/K03.05.02.06](arrangement-r3-knowledge-cases.md#L17) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR21@1",
+        "K03-CL-AR45@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR21",
+          "claim": "K03-CL-AR21@1",
+          "problem": "C/E候选E2 C4 E4 G4或C2 E4 G4 C5，选。",
+          "reject": "原C大三和弦仍在。"
+        },
+        {
+          "caseId": "AR44",
+          "claim": null,
+          "problem": "标准E2 A2 D3 G3 B3 E4，x/3/2/0/1/0实音？",
+          "reject": "最低E2限制。"
+        },
+        {
+          "caseId": "AR45",
+          "claim": "K03-CL-AR45@1",
+          "problem": "C9右手B♭3 D4 E4 G4或E3 B♭3 D4 G4，最大9且前手型已确认。",
+          "reject": "注册导致跨度超限。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "风格特征、地域及适配",
+      "d4Targets": [
+        "K03.06.01.03",
+        "K03.06.02.03",
+        "K03.06.01.04",
+        "K03.06.01.05",
+        "K03.06.02.04",
+        "K03.06.02.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 40,
+        "row": "| K03.06 | A01 | P | 风格特征、地域及适配 | [AR27/K03.06.01.03](arrangement-r2-knowledge-cases.md#L22)；[AR28/K03.06.02.03](arrangement-r2-knowledge-cases.md#L23)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18)；[AR47/K03.06.01.05](arrangement-r3-knowledge-cases.md#L19)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR27@1",
+        "K03-CL-AR28@1",
+        "K03-CL-AR46@1",
+        "K03-CL-AR47@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR49@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR27",
+          "claim": "K03-CL-AR27@1",
+          "problem": "同一主线，A后半拍短击、B正拍，目标reggae相关反拍特征。",
+          "reject": "缺低音、鼓、微时值及文化语境。"
+        },
+        {
+          "caseId": "AR28",
+          "claim": "K03-CL-AR28@1",
+          "problem": "八分攻击0,3,6与0,2,4,6，选3+3+2。",
+          "reject": "缺第二小节2侧及相位。"
+        },
+        {
+          "caseId": "AR46",
+          "claim": "K03-CL-AR46@1",
+          "problem": "Dm7/G7走动低音、ride每拍、hat二四拍，键盘F4/C5及F4/B4，判。",
+          "reject": "单一角色不足以确证风格。"
+        },
+        {
+          "caseId": "AR47",
+          "claim": "K03-CL-AR47@1",
+          "problem": "3–2参照[0,3,6,10,12]，候选同序或[2,4,8,11,14]，选。",
+          "reject": "小节相位不同。"
+        },
+        {
+          "caseId": "AR48",
+          "claim": "K03-CL-AR48@1",
+          "problem": "P偶数格/S奇数格形成8格交错，目标Nelayan理念或Kamasan非交错，筛。",
+          "reject": "具体传统存在非交错反例。"
+        },
+        {
+          "caseId": "AR49",
+          "claim": "K03-CL-AR49@1",
+          "problem": "允许借交错、馆藏录音权限未知，怎么办？",
+          "reject": "可访问不等权利许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "目标→来源条件→保留/替换→授权",
+      "d4Targets": [
+        "K03.06.02.03",
+        "K03.06.01.04",
+        "K03.06.01.05",
+        "K03.06.02.04",
+        "K03.06.02.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 41,
+        "row": "| K03.06 | A02 | P | 目标→来源条件→保留/替换→授权 | [AR28/K03.06.02.03](arrangement-r2-knowledge-cases.md#L23)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18)；[AR47/K03.06.01.05](arrangement-r3-knowledge-cases.md#L19)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR28@1",
+        "K03-CL-AR46@1",
+        "K03-CL-AR47@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR49@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR28",
+          "claim": "K03-CL-AR28@1",
+          "problem": "八分攻击0,3,6与0,2,4,6，选3+3+2。",
+          "reject": "缺第二小节2侧及相位。"
+        },
+        {
+          "caseId": "AR46",
+          "claim": "K03-CL-AR46@1",
+          "problem": "Dm7/G7走动低音、ride每拍、hat二四拍，键盘F4/C5及F4/B4，判。",
+          "reject": "单一角色不足以确证风格。"
+        },
+        {
+          "caseId": "AR47",
+          "claim": "K03-CL-AR47@1",
+          "problem": "3–2参照[0,3,6,10,12]，候选同序或[2,4,8,11,14]，选。",
+          "reject": "小节相位不同。"
+        },
+        {
+          "caseId": "AR48",
+          "claim": "K03-CL-AR48@1",
+          "problem": "P偶数格/S奇数格形成8格交错，目标Nelayan理念或Kamasan非交错，筛。",
+          "reject": "具体传统存在非交错反例。"
+        },
+        {
+          "caseId": "AR49",
+          "claim": "K03-CL-AR49@1",
+          "problem": "允许借交错、馆藏录音权限未知，怎么办？",
+          "reject": "可访问不等权利许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.06",
+      "ability": "A03",
+      "role": "S",
+      "task": "素材权利K15/宿主K12；文化K16",
+      "d4Targets": [
+        "K03.06.02.05",
+        "K03.08.03.04"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 42,
+        "row": "| K03.06 | A03 | S | 素材权利K15/宿主K12；文化K16 | [AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR49@1",
+        "K03-CL-AR55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR49",
+          "claim": "K03-CL-AR49@1",
+          "problem": "允许借交错、馆藏录音权限未知，怎么办？",
+          "reject": "可访问不等权利许可。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.06",
+      "ability": "A04",
+      "role": "P",
+      "task": "传统/目标/主线及授权状态",
+      "d4Targets": [
+        "K03.06.02.03",
+        "K03.06.02.04",
+        "K03.06.02.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 43,
+        "row": "| K03.06 | A04 | P | 传统/目标/主线及授权状态 | [AR28/K03.06.02.03](arrangement-r2-knowledge-cases.md#L23)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR28@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR49@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR28",
+          "claim": "K03-CL-AR28@1",
+          "problem": "八分攻击0,3,6与0,2,4,6，选3+3+2。",
+          "reject": "缺第二小节2侧及相位。"
+        },
+        {
+          "caseId": "AR48",
+          "claim": "K03-CL-AR48@1",
+          "problem": "P偶数格/S奇数格形成8格交错，目标Nelayan理念或Kamasan非交错，筛。",
+          "reject": "具体传统存在非交错反例。"
+        },
+        {
+          "caseId": "AR49",
+          "claim": "K03-CL-AR49@1",
+          "problem": "允许借交错、馆藏录音权限未知，怎么办？",
+          "reject": "可访问不等权利许可。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "硬条件与真实文化/听众评价区分",
+      "d4Targets": [
+        "K03.06.03.03",
+        "K03.06.01.04",
+        "K03.06.02.04",
+        "K03.06.03.04"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 44,
+        "row": "| K03.06 | A05 | P | 硬条件与真实文化/听众评价区分 | [AR29/K03.06.03.03](arrangement-r2-knowledge-cases.md#L24)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR29@1",
+        "K03-CL-AR46@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR50@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR29",
+          "claim": "K03-CL-AR29@1",
+          "problem": "吉他/键盘均后半拍，C候选正拍，筛。",
+          "reject": "硬条件未限制乐器。"
+        },
+        {
+          "caseId": "AR46",
+          "claim": "K03-CL-AR46@1",
+          "problem": "Dm7/G7走动低音、ride每拍、hat二四拍，键盘F4/C5及F4/B4，判。",
+          "reject": "单一角色不足以确证风格。"
+        },
+        {
+          "caseId": "AR48",
+          "claim": "K03-CL-AR48@1",
+          "problem": "P偶数格/S奇数格形成8格交错，目标Nelayan理念或Kamasan非交错，筛。",
+          "reject": "具体传统存在非交错反例。"
+        },
+        {
+          "caseId": "AR50",
+          "claim": "K03-CL-AR50@1",
+          "problem": "三评者要求，r1偏A/r2偏B/r3未答，裁。",
+          "reject": "记录分歧且第三人缺测。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.06",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑节奏网格及角色标记",
+      "d4Targets": [
+        "K03.06.02.03",
+        "K03.06.01.04",
+        "K03.06.01.05",
+        "K03.06.02.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 45,
+        "row": "| K03.06 | A06 | P | 可编辑节奏网格及角色标记 | [AR28/K03.06.02.03](arrangement-r2-knowledge-cases.md#L23)；[AR46/K03.06.01.04](arrangement-r3-knowledge-cases.md#L18)；[AR47/K03.06.01.05](arrangement-r3-knowledge-cases.md#L19)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR28@1",
+        "K03-CL-AR46@1",
+        "K03-CL-AR47@1",
+        "K03-CL-AR48@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR28",
+          "claim": "K03-CL-AR28@1",
+          "problem": "八分攻击0,3,6与0,2,4,6，选3+3+2。",
+          "reject": "缺第二小节2侧及相位。"
+        },
+        {
+          "caseId": "AR46",
+          "claim": "K03-CL-AR46@1",
+          "problem": "Dm7/G7走动低音、ride每拍、hat二四拍，键盘F4/C5及F4/B4，判。",
+          "reject": "单一角色不足以确证风格。"
+        },
+        {
+          "caseId": "AR47",
+          "claim": "K03-CL-AR47@1",
+          "problem": "3–2参照[0,3,6,10,12]，候选同序或[2,4,8,11,14]，选。",
+          "reject": "小节相位不同。"
+        },
+        {
+          "caseId": "AR48",
+          "claim": "K03-CL-AR48@1",
+          "problem": "P偶数格/S奇数格形成8格交错，目标Nelayan理念或Kamasan非交错，筛。",
+          "reject": "具体传统存在非交错反例。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "错误相位/文化目标/缺反馈→重选停止",
+      "d4Targets": [
+        "K03.06.01.05",
+        "K03.06.02.04",
+        "K03.06.02.05",
+        "K03.06.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 46,
+        "row": "| K03.06 | A07 | P | 错误相位/文化目标/缺反馈→重选停止 | [AR47/K03.06.01.05](arrangement-r3-knowledge-cases.md#L19)；[AR48/K03.06.02.04](arrangement-r3-knowledge-cases.md#L20)；[AR49/K03.06.02.05](arrangement-r3-knowledge-cases.md#L21)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR47@1",
+        "K03-CL-AR48@1",
+        "K03-CL-AR49@1",
+        "K03-CL-AR50@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR47",
+          "claim": "K03-CL-AR47@1",
+          "problem": "3–2参照[0,3,6,10,12]，候选同序或[2,4,8,11,14]，选。",
+          "reject": "小节相位不同。"
+        },
+        {
+          "caseId": "AR48",
+          "claim": "K03-CL-AR48@1",
+          "problem": "P偶数格/S奇数格形成8格交错，目标Nelayan理念或Kamasan非交错，筛。",
+          "reject": "具体传统存在非交错反例。"
+        },
+        {
+          "caseId": "AR49",
+          "claim": "K03-CL-AR49@1",
+          "problem": "允许借交错、馆藏录音权限未知，怎么办？",
+          "reject": "可访问不等权利许可。"
+        },
+        {
+          "caseId": "AR50",
+          "claim": "K03-CL-AR50@1",
+          "problem": "三评者要求，r1偏A/r2偏B/r3未答，裁。",
+          "reject": "记录分歧且第三人缺测。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "层进、织体变化、相对力度、修订",
+      "d4Targets": [
+        "K03.07.01.03",
+        "K03.07.02.03",
+        "K03.07.03.03",
+        "K03.07.01.04",
+        "K03.07.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 47,
+        "row": "| K03.07 | A01 | P | 层进、织体变化、相对力度、修订 | [AR30/K03.07.01.03](arrangement-r2-knowledge-cases.md#L25)；[AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR30@1",
+        "K03-CL-AR31@1",
+        "K03-CL-AR32@1",
+        "K03-CL-AR51@1",
+        "K03-CL-AR52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR30",
+          "claim": "K03-CL-AR30@1",
+          "problem": "前4拍主线4+低音1起音，后加8背景起音，比较。",
+          "reject": "活动角色集合未改变。"
+        },
+        {
+          "caseId": "AR31",
+          "claim": "K03-CL-AR31@1",
+          "problem": "同C5 D5 E5 G5主线，伴奏C3/E3/G3持续或C4 G4 E4 G4各1拍，比较。",
+          "reject": "保护对象被修改。"
+        },
+        {
+          "caseId": "AR32",
+          "claim": "K03-CL-AR32@1",
+          "problem": "仅0–2拍背景起点0/1改.5/1.5，2/3及主线冻结，核。",
+          "reject": "保护区间不允许该修改。"
+        },
+        {
+          "caseId": "AR51",
+          "claim": "K03-CL-AR51@1",
+          "problem": "前主线/低音p，后主线mf/背景mf/低音p，记录。",
+          "reject": "记号依语境与执行，非绝对压力。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "版本保护→对比→重听或回滚",
+      "d4Targets": [
+        "K03.07.03.03",
+        "K03.06.03.04",
+        "K03.07.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 48,
+        "row": "| K03.07 | A02 | P | 版本保护→对比→重听或回滚 | [AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR32@1",
+        "K03-CL-AR50@1",
+        "K03-CL-AR52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR32",
+          "claim": "K03-CL-AR32@1",
+          "problem": "仅0–2拍背景起点0/1改.5/1.5，2/3及主线冻结，核。",
+          "reject": "保护区间不允许该修改。"
+        },
+        {
+          "caseId": "AR50",
+          "claim": "K03-CL-AR50@1",
+          "problem": "三评者要求，r1偏A/r2偏B/r3未答，裁。",
+          "reject": "记录分歧且第三人缺测。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.07",
+      "ability": "A03",
+      "role": "S",
+      "task": "实际宿主、混音与听评由K12/K09/K10",
+      "d4Targets": [
+        "K03.07.03.04",
+        "K03.08.03.04",
+        "K03.08.02.05"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 49,
+        "row": "| K03.07 | A03 | S | 实际宿主、混音与听评由K12/K09/K10 | [AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR52@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        },
+        {
+          "caseId": "AR60",
+          "claim": "K03-CL-AR60@1",
+          "problem": "A p→f、B始终p，裸音符投影？",
+          "reject": "裸投影未保存动态。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.07",
+      "ability": "A04",
+      "role": "P",
+      "task": "前后段/保护字段/派生失效",
+      "d4Targets": [
+        "K03.07.01.03",
+        "K03.07.02.03",
+        "K03.07.03.03",
+        "K03.07.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 50,
+        "row": "| K03.07 | A04 | P | 前后段/保护字段/派生失效 | [AR30/K03.07.01.03](arrangement-r2-knowledge-cases.md#L25)；[AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR30@1",
+        "K03-CL-AR31@1",
+        "K03-CL-AR32@1",
+        "K03-CL-AR52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR30",
+          "claim": "K03-CL-AR30@1",
+          "problem": "前4拍主线4+低音1起音，后加8背景起音，比较。",
+          "reject": "活动角色集合未改变。"
+        },
+        {
+          "caseId": "AR31",
+          "claim": "K03-CL-AR31@1",
+          "problem": "同C5 D5 E5 G5主线，伴奏C3/E3/G3持续或C4 G4 E4 G4各1拍，比较。",
+          "reject": "保护对象被修改。"
+        },
+        {
+          "caseId": "AR32",
+          "claim": "K03-CL-AR32@1",
+          "problem": "仅0–2拍背景起点0/1改.5/1.5，2/3及主线冻结，核。",
+          "reject": "保护区间不允许该修改。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "符号目标、真实反馈及评价条件",
+      "d4Targets": [
+        "K03.06.03.04",
+        "K03.07.01.04",
+        "K03.07.03.04"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 51,
+        "row": "| K03.07 | A05 | P | 符号目标、真实反馈及评价条件 | [AR50/K03.06.03.04](arrangement-r3-knowledge-cases.md#L22)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR50@1",
+        "K03-CL-AR51@1",
+        "K03-CL-AR52@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR50",
+          "claim": "K03-CL-AR50@1",
+          "problem": "三评者要求，r1偏A/r2偏B/r3未答，裁。",
+          "reject": "记录分歧且第三人缺测。"
+        },
+        {
+          "caseId": "AR51",
+          "claim": "K03-CL-AR51@1",
+          "problem": "前主线/低音p，后主线mf/背景mf/低音p，记录。",
+          "reject": "记号依语境与执行，非绝对压力。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.07",
+      "ability": "A06",
+      "role": "P",
+      "task": "分段音符/力度/背景修订记录",
+      "d4Targets": [
+        "K03.07.02.03",
+        "K03.07.03.03",
+        "K03.07.01.04",
+        "K03.08.02.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 52,
+        "row": "| K03.07 | A06 | P | 分段音符/力度/背景修订记录 | [AR31/K03.07.02.03](arrangement-r2-knowledge-cases.md#L26)；[AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR51/K03.07.01.04](arrangement-r3-knowledge-cases.md#L23)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR31@1",
+        "K03-CL-AR32@1",
+        "K03-CL-AR51@1",
+        "K03-CL-AR60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR31",
+          "claim": "K03-CL-AR31@1",
+          "problem": "同C5 D5 E5 G5主线，伴奏C3/E3/G3持续或C4 G4 E4 G4各1拍，比较。",
+          "reject": "保护对象被修改。"
+        },
+        {
+          "caseId": "AR32",
+          "claim": "K03-CL-AR32@1",
+          "problem": "仅0–2拍背景起点0/1改.5/1.5，2/3及主线冻结，核。",
+          "reject": "保护区间不允许该修改。"
+        },
+        {
+          "caseId": "AR51",
+          "claim": "K03-CL-AR51@1",
+          "problem": "前主线/低音p，后主线mf/背景mf/低音p，记录。",
+          "reject": "记号依语境与执行，非绝对压力。"
+        },
+        {
+          "caseId": "AR60",
+          "claim": "K03-CL-AR60@1",
+          "problem": "A p→f、B始终p，裸音符投影？",
+          "reject": "裸投影未保存动态。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "最小修正、回滚、停止",
+      "d4Targets": [
+        "K03.07.03.03",
+        "K03.07.03.04",
+        "K03.08.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 53,
+        "row": "| K03.07 | A07 | P | 最小修正、回滚、停止 | [AR32/K03.07.03.03](arrangement-r2-knowledge-cases.md#L27)；[AR52/K03.07.03.04](arrangement-r3-knowledge-cases.md#L24)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR32@1",
+        "K03-CL-AR52@1",
+        "K03-CL-AR55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR32",
+          "claim": "K03-CL-AR32@1",
+          "problem": "仅0–2拍背景起点0/1改.5/1.5，2/3及主线冻结，核。",
+          "reject": "保护区间不允许该修改。"
+        },
+        {
+          "caseId": "AR52",
+          "claim": "K03-CL-AR52@1",
+          "problem": "低区D4主线锁定，A删两非保护铜管加倍且余f→p，B主线移八度，选。",
+          "reject": "无实际v2同条件听评。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "总分谱、标识、移调与信息损失",
+      "d4Targets": [
+        "K03.08.01.03",
+        "K03.08.02.03",
+        "K03.08.03.03",
+        "K03.08.01.04",
+        "K03.08.02.04",
+        "K03.08.03.04",
+        "K03.01.02.06",
+        "K03.08.01.05",
+        "K03.08.02.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 54,
+        "row": "| K03.08 | A01 | P | 总分谱、标识、移调与信息损失 | [AR07/K03.08.01.03](arrangement-r1-knowledge-cases.md#L11)；[AR08/K03.08.02.03](arrangement-r1-knowledge-cases.md#L12)；[AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR56/K03.01.02.06](arrangement-r4-knowledge-cases.md#L5)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR07@1",
+        "K03-CL-AR08@1",
+        "K03-CL-AR09@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR56@1",
+        "K03-CL-AR59@1",
+        "K03-CL-AR60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR07",
+          "claim": "K03-CL-AR07@1",
+          "problem": "P1 B♭管/P2 C长笛，实音C4 D4，各谱？",
+          "reject": "P1实音错且身份保护失败。"
+        },
+        {
+          "caseId": "AR08",
+          "claim": "K03-CL-AR08@1",
+          "problem": "C♯4/D♭4在C4=60约定下编号？",
+          "reject": "等音投影非单射。"
+        },
+        {
+          "caseId": "AR09",
+          "claim": "K03-CL-AR09@1",
+          "problem": "P1 B♭第二音实音D4改E4，P2不变，分谱？",
+          "reject": "−2后仍为D4。"
+        },
+        {
+          "caseId": "AR53",
+          "claim": "K03-CL-AR53@1",
+          "problem": "divisions2，4/4，voice1四个duration2，voice2 duration8，backup应多少？",
+          "reject": "声部身份保护独立于时值。"
+        },
+        {
+          "caseId": "AR54",
+          "claim": "K03-CL-AR54@1",
+          "problem": "A pizz/arco、B全arco但音符同，投影？",
+          "reject": "此反例仅指定简化投影，控制信息可另存。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        },
+        {
+          "caseId": "AR56",
+          "claim": "K03-CL-AR56@1",
+          "problem": "两管书写C5，各实音？",
+          "reject": "低音管还差八度。"
+        },
+        {
+          "caseId": "AR59",
+          "claim": "K03-CL-AR59@1",
+          "problem": "P3 kick/hat同谱位不同instrument及voice；P1钢琴两staff，怎样表示？",
+          "reject": "一个part可引用多个乐器。"
+        },
+        {
+          "caseId": "AR60",
+          "claim": "K03-CL-AR60@1",
+          "problem": "A p→f、B始终p，裸音符投影？",
+          "reject": "裸投影未保存动态。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "源谱→映射/派生→保真核查",
+      "d4Targets": [
+        "K03.08.01.03",
+        "K03.08.03.03",
+        "K03.08.01.04",
+        "K03.08.03.04"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 55,
+        "row": "| K03.08 | A02 | P | 源谱→映射/派生→保真核查 | [AR07/K03.08.01.03](arrangement-r1-knowledge-cases.md#L11)；[AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR07@1",
+        "K03-CL-AR09@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR55@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR07",
+          "claim": "K03-CL-AR07@1",
+          "problem": "P1 B♭管/P2 C长笛，实音C4 D4，各谱？",
+          "reject": "P1实音错且身份保护失败。"
+        },
+        {
+          "caseId": "AR09",
+          "claim": "K03-CL-AR09@1",
+          "problem": "P1 B♭第二音实音D4改E4，P2不变，分谱？",
+          "reject": "−2后仍为D4。"
+        },
+        {
+          "caseId": "AR53",
+          "claim": "K03-CL-AR53@1",
+          "problem": "divisions2，4/4，voice1四个duration2，voice2 duration8，backup应多少？",
+          "reject": "声部身份保护独立于时值。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.08",
+      "ability": "A03",
+      "role": "S",
+      "task": "规范可表达/软件实际支持分离；K12执行",
+      "d4Targets": [
+        "K03.08.01.04",
+        "K03.08.02.04",
+        "K03.08.03.04",
+        "K03.08.01.05",
+        "K03.08.02.05"
+      ],
+      "limits": "外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 56,
+        "row": "| K03.08 | A03 | S | 规范可表达/软件实际支持分离；K12执行 | [AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 外部工具实际版本/权限/调用未验证；K03仅任务和产物要求。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR53@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR59@1",
+        "K03-CL-AR60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR53",
+          "claim": "K03-CL-AR53@1",
+          "problem": "divisions2，4/4，voice1四个duration2，voice2 duration8，backup应多少？",
+          "reject": "声部身份保护独立于时值。"
+        },
+        {
+          "caseId": "AR54",
+          "claim": "K03-CL-AR54@1",
+          "problem": "A pizz/arco、B全arco但音符同，投影？",
+          "reject": "此反例仅指定简化投影，控制信息可另存。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        },
+        {
+          "caseId": "AR59",
+          "claim": "K03-CL-AR59@1",
+          "problem": "P3 kick/hat同谱位不同instrument及voice；P1钢琴两staff，怎样表示？",
+          "reject": "一个part可引用多个乐器。"
+        },
+        {
+          "caseId": "AR60",
+          "claim": "K03-CL-AR60@1",
+          "problem": "A p→f、B始终p，裸音符投影？",
+          "reject": "裸投影未保存动态。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.08",
+      "ability": "A04",
+      "role": "P",
+      "task": "part/voice/staff/源及派生身份",
+      "d4Targets": [
+        "K03.08.01.03",
+        "K03.08.03.03",
+        "K03.08.01.04",
+        "K03.08.03.04",
+        "K03.08.01.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 57,
+        "row": "| K03.08 | A04 | P | part/voice/staff/源及派生身份 | [AR07/K03.08.01.03](arrangement-r1-knowledge-cases.md#L11)；[AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR07@1",
+        "K03-CL-AR09@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR59@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR07",
+          "claim": "K03-CL-AR07@1",
+          "problem": "P1 B♭管/P2 C长笛，实音C4 D4，各谱？",
+          "reject": "P1实音错且身份保护失败。"
+        },
+        {
+          "caseId": "AR09",
+          "claim": "K03-CL-AR09@1",
+          "problem": "P1 B♭第二音实音D4改E4，P2不变，分谱？",
+          "reject": "−2后仍为D4。"
+        },
+        {
+          "caseId": "AR53",
+          "claim": "K03-CL-AR53@1",
+          "problem": "divisions2，4/4，voice1四个duration2，voice2 duration8，backup应多少？",
+          "reject": "声部身份保护独立于时值。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        },
+        {
+          "caseId": "AR59",
+          "claim": "K03-CL-AR59@1",
+          "problem": "P3 kick/hat同谱位不同instrument及voice；P1钢琴两staff，怎样表示？",
+          "reject": "一个part可引用多个乐器。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "字段等价、损失及未知实际渲染",
+      "d4Targets": [
+        "K03.08.02.03",
+        "K03.08.02.04",
+        "K03.01.01.05",
+        "K03.08.02.05"
+      ],
+      "limits": "限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 58,
+        "row": "| K03.08 | A05 | P | 字段等价、损失及未知实际渲染 | [AR08/K03.08.02.03](arrangement-r1-knowledge-cases.md#L12)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR58/K03.01.01.05](arrangement-r4-knowledge-cases.md#L7)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定符号/硬条件筛选及评价设计；真实演奏/听评UNKNOWN。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR08@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR58@1",
+        "K03-CL-AR60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR08",
+          "claim": "K03-CL-AR08@1",
+          "problem": "C♯4/D♭4在C4=60约定下编号？",
+          "reject": "等音投影非单射。"
+        },
+        {
+          "caseId": "AR54",
+          "claim": "K03-CL-AR54@1",
+          "problem": "A pizz/arco、B全arco但音符同，投影？",
+          "reject": "此反例仅指定简化投影，控制信息可另存。"
+        },
+        {
+          "caseId": "AR58",
+          "claim": "K03-CL-AR58@1",
+          "problem": "定音鼓确认G2，镲无确定音高，和声低音选？",
+          "reject": "触发ID非确定实音。"
+        },
+        {
+          "caseId": "AR60",
+          "claim": "K03-CL-AR60@1",
+          "problem": "A p→f、B始终p，裸音符投影？",
+          "reject": "裸投影未保存动态。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.08",
+      "ability": "A06",
+      "role": "P",
+      "task": "保留可编辑原谱/标记与映射",
+      "d4Targets": [
+        "K03.08.01.03",
+        "K03.08.01.04",
+        "K03.08.02.04",
+        "K03.08.03.04",
+        "K03.08.01.05",
+        "K03.08.02.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 59,
+        "row": "| K03.08 | A06 | P | 保留可编辑原谱/标记与映射 | [AR07/K03.08.01.03](arrangement-r1-knowledge-cases.md#L11)；[AR53/K03.08.01.04](arrangement-r3-knowledge-cases.md#L25)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR59/K03.08.01.05](arrangement-r4-knowledge-cases.md#L8)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR07@1",
+        "K03-CL-AR53@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR59@1",
+        "K03-CL-AR60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR07",
+          "claim": "K03-CL-AR07@1",
+          "problem": "P1 B♭管/P2 C长笛，实音C4 D4，各谱？",
+          "reject": "P1实音错且身份保护失败。"
+        },
+        {
+          "caseId": "AR53",
+          "claim": "K03-CL-AR53@1",
+          "problem": "divisions2，4/4，voice1四个duration2，voice2 duration8，backup应多少？",
+          "reject": "声部身份保护独立于时值。"
+        },
+        {
+          "caseId": "AR54",
+          "claim": "K03-CL-AR54@1",
+          "problem": "A pizz/arco、B全arco但音符同，投影？",
+          "reject": "此反例仅指定简化投影，控制信息可另存。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        },
+        {
+          "caseId": "AR59",
+          "claim": "K03-CL-AR59@1",
+          "problem": "P3 kick/hat同谱位不同instrument及voice；P1钢琴两staff，怎样表示？",
+          "reject": "一个part可引用多个乐器。"
+        },
+        {
+          "caseId": "AR60",
+          "claim": "K03-CL-AR60@1",
+          "problem": "A p→f、B始终p，裸音符投影？",
+          "reject": "裸投影未保存动态。"
+        }
+      ]
+    },
+    {
+      "d2": "K03.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "失效/回转拒绝→原谱恢复→再生成",
+      "d4Targets": [
+        "K03.08.03.03",
+        "K03.08.02.04",
+        "K03.08.03.04",
+        "K03.08.02.05"
+      ],
+      "limits": "限定研究候选，非实际工作流/软件/专业审核。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/arrangement-r5-capability-calibration.md",
+        "blob": "a5d24f39ccb8a5dc4f8eaabba9bc00abd41199f1",
+        "line": 60,
+        "row": "| K03.08 | A07 | P | 失效/回转拒绝→原谱恢复→再生成 | [AR09/K03.08.03.03](arrangement-r1-knowledge-cases.md#L13)；[AR54/K03.08.02.04](arrangement-r3-knowledge-cases.md#L26)；[AR55/K03.08.03.04](arrangement-r3-knowledge-cases.md#L27)；[AR60/K03.08.02.05](arrangement-r4-knowledge-cases.md#L9) | 限定研究候选，非实际工作流/软件/专业审核。 |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K03-CL-AR09@1",
+        "K03-CL-AR54@1",
+        "K03-CL-AR55@1",
+        "K03-CL-AR60@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "AR09",
+          "claim": "K03-CL-AR09@1",
+          "problem": "P1 B♭第二音实音D4改E4，P2不变，分谱？",
+          "reject": "−2后仍为D4。"
+        },
+        {
+          "caseId": "AR54",
+          "claim": "K03-CL-AR54@1",
+          "problem": "A pizz/arco、B全arco但音符同，投影？",
+          "reject": "此反例仅指定简化投影，控制信息可另存。"
+        },
+        {
+          "caseId": "AR55",
+          "claim": "K03-CL-AR55@1",
+          "problem": "v1原谱含pizz，MIDI简化丢失，允许听稿，怎么处理？",
+          "reject": "有损投影不能证明可逆。"
+        },
+        {
+          "caseId": "AR60",
+          "claim": "K03-CL-AR60@1",
+          "problem": "A p→f、B始终p，裸音符投影？",
+          "reject": "裸投影未保存动态。"
+        }
+      ]
+    }
+  ]
+}
