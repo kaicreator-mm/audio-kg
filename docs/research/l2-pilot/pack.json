@@ -56,7 +56,7 @@
         "CQ07",
         "CQ21"
       ],
-      "limits": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "limits": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
       "review": "L1_SCOPED_RESEARCH_NOT_CLAIM_ADMISSION"
     }
   ],
@@ -77,7 +77,7 @@
       "id": "CTX-WINDOW",
       "revision": 1,
       "type": "Context",
-      "condition": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim"
+      "condition": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins"
     }
   ],
   "evidence": [
@@ -261,7 +261,24 @@
         "valid": true,
         "identity": "demo-event-1",
         "referenceIdentity": "demo-event-1",
-        "estimateIdentity": "demo-event-1"
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
       },
       "explanation": "估计误差0，真实及估计目标偏差+165.004 cents。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -283,7 +300,24 @@
         "valid": true,
         "identity": "demo-event-1",
         "referenceIdentity": "demo-event-1",
-        "estimateIdentity": "demo-event-1"
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
       },
       "explanation": "估计相对目标0，估计误差−165.004，真实目标偏差仍+165.004。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -305,7 +339,24 @@
         "valid": true,
         "identity": "demo-event-1",
         "referenceIdentity": "demo-event-1",
-        "estimateIdentity": "demo-event-1"
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
       },
       "explanation": "先查独立参考、估计、目标与同一有效事件窗；非唯一原因。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -327,7 +378,24 @@
         "valid": true,
         "identity": "demo-event-1",
         "referenceIdentity": "demo-event-1",
-        "estimateIdentity": "demo-event-1"
+        "estimateIdentity": "demo-event-1",
+        "clock": "synthetic-clock-1",
+        "referenceClock": "synthetic-clock-1",
+        "estimateClock": "synthetic-clock-1",
+        "window": [
+          0,
+          500
+        ],
+        "referenceWindow": [
+          0,
+          500
+        ],
+        "estimateWindow": [
+          0,
+          500
+        ],
+        "referenceKind": "INDEPENDENT-SYNTH-REF",
+        "estimateKind": "SYNTH-ESTIMATOR"
       },
       "explanation": "真实偏差/估计误差UNKNOWN；可算估计相对目标0，不能诊断。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -341,11 +409,13 @@
       "polarity": "POSITIVE",
       "question": "在固定采样率下分别算窗时长、FFT格点。",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
       "example": {
         "fs": 48000,
         "win": 480,
-        "nfft": 960
+        "nfft": 960,
+        "realInput": true,
+        "oneSided": true
       },
       "explanation": "0.01s观察窗，50Hz格点，481单边格点。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -359,12 +429,14 @@
       "polarity": "NEGATIVE",
       "question": "零填充是否增加真实观察时长？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
       "example": {
         "fs": 48000,
         "win": 480,
         "nfft": 1920,
-        "previousNfft": 960
+        "previousNfft": 960,
+        "realInput": true,
+        "oneSided": true
       },
       "explanation": "nfft增加使格点25Hz，实际窗仍0.01s，不保证分辨力。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
@@ -378,7 +450,7 @@
       "polarity": "POSITIVE",
       "question": "给格点及采样率能反推哪个参数？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
       "example": {
         "fs": 48000,
         "gridHz": 50
@@ -395,7 +467,7 @@
       "polarity": "NEGATIVE",
       "question": "只有FFT格点能否唯一判断实际观察窗或分辨率？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
       "example": {
         "gridHz": 50
       },
@@ -475,7 +547,7 @@
       "polarity": "BOUNDARY",
       "question": "哪些前提改变时原规则不适用？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
       "example": {
         "missingRequiredEvidence": true
       },
@@ -491,7 +563,7 @@
       "polarity": "UNKNOWN",
       "question": "缺少必要证据时怎样处理？",
       "context": "CTX-WINDOW@1",
-      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim",
+      "limit": "fixed fs, same signal/window family/hop/alignment; no actual resolution claim; real-valued input, one-sided STFT bins",
       "example": {
         "missingRequiredEvidence": true
       },
