@@ -67,3 +67,7 @@ G04 R9限定独立PASS已合入；实际44/44，不是摘要43。以[验收候�
 
 ## G06 / T04–T06 L2 语义契约与实际试点候选
 #83；L1已正式冻结。当前[语义契约](../architecture/l2-semantic-contract-candidate.md)、[可执行试点](../research/l2-pilot/README.md)、[完整独立验收合同](../architecture/g06-review-candidate.md)。实际Linux Node24.21.0：127/127新试点断言，原70/70与44/44 nested replay，5独立于公开案例的评测输入，21记录42关系的有限合成证据图；真实LLM、音频、DB、实际授权及生产数据未验。候选Git typed JSON主权威，派生投影待具体资格；L2仍未冻结，G07阻塞。历史15 OPEN/28 SPLIT_OPEN保留，native DAG未物化。
+
+
+## G06 R2 当前复审候选（替代原 G06 试点检查点）
+原 G06 exact c394dbe34ef970a30293476418075ba158a689bd 独立 FAIL，2P1/1P2；保留 L1 冻结及 T04 表达方案候选。修复后 [R2 完整合同](../architecture/g06-r2-remediation-review.md)、[现行试点](../research/l2-pilot/README.md)、[实际回执](../research/l2-pilot/validation-result-rv.json)，185/185，原127项全部保留 +58；合成图21记录42关系；30案例绑定，11实际输入blob匹配 tested HEAD 58135efa5a617c0e4a813bc06d9083a15372844b。精确资格身份、必要跨域依赖、完整公共合成图重放已完成 Builder 验证；独立复审待定。未冻结L2，G07仍阻塞，不做真实LLM/音频/授权/生产DB，不关闭15 OPEN/28 SPLIT_OPEN。
