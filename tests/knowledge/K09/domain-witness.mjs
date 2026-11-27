@@ -9,8 +9,35 @@ export function sendLevel(input,fader,send,pre){if(![input,fader,send].every(Num
 export function panMono(x,theta){if(!Number.isFinite(x)||!Number.isFinite(theta)||theta<0||theta>Math.PI/2)return null;return [x*Math.cos(theta),x*Math.sin(theta)];}
 export function downmix(stereo,weights=[.5,.5]){if(!Array.isArray(stereo)||stereo.length!==2||!Array.isArray(weights)||weights.length!==2||!stereo.concat(weights).every(Number.isFinite))return null;return stereo[0]*weights[0]+stereo[1]*weights[1];}
 export function compressStatic(x,threshold,ratio,makeup=0){if(![x,threshold,ratio,makeup].every(Number.isFinite)||ratio<1)return null;const y=x>threshold?threshold+(x-threshold)/ratio:x;return y+makeup;}
-export function envelope(points,t,mode='LINEAR'){if(!Array.isArray(points)||!Number.isFinite(t)||!['LINEAR','HOLD'].includes(mode)||points.length<2)return null;const p=points.slice().sort((a,b)=>a.t-b.t);if(p.some(x=>!Number.isFinite(x.t)||!Number.isFinite(x.v))||new Set(p.map(x=>x.t)).size!==p.length||t<p[0].t||t>p.at(-1).t)return null;let i=p.findIndex((x,j)=>j<p.length-1&&t>=x.t&&t<=p[j+1].t);if(i<0)return null;if(mode==='HOLD')return p[i].v;const a=p[i],b=p[i+1],u=(t-a.t)/(b.t-a.t);return a.v+(b.v-a.v)*u;}
-export function tempoTime(segments,beat){if(!Array.isArray(segments)||!Number.isFinite(beat)||beat<0)return null;let total=0;for(const s of segments){if(!Number.isFinite(s.startBeat)||!Number.isFinite(s.endBeat)||!Number.isFinite(s.bpm)||s.bpm<=0||s.endBeat<s.startBeat)return null;const stop=Math.min(beat,s.endBeat);if(stop>s.startBeat)total+=(stop-s.startBeat)*60/s.bpm;if(beat<=s.endBeat)return Number.isFinite(total)?total:null;}return null;}
+export function envelope(points,t,mode='LINEAR'){
+ if(!Array.isArray(points)||!Number.isFinite(t)||!['LINEAR','HOLD'].includes(mode)||points.length<2||points.some(x=>!x||typeof x!=='object'||Array.isArray(x)||!Number.isFinite(x.t)||!Number.isFinite(x.v)))return null;
+ const p=points.slice().sort((a,b)=>a.t-b.t);
+ if(new Set(p.map(x=>x.t)).size!==p.length||t<p[0].t||t>p.at(-1).t)return null;
+ // A control point takes effect when its timestamp is reached, including the terminal point.
+ let i=0;while(i+1<p.length&&t>=p[i+1].t)i++;
+ if(mode==='HOLD'||i===p.length-1)return p[i].v;
+ const a=p[i],b=p[i+1],u=(t-a.t)/(b.t-a.t);
+ return a.v+(b.v-a.v)*u;
+}
+export function tempoTime(segments,beat){
+ if(!Array.isArray(segments)||segments.length===0||!Number.isFinite(beat)||beat<0)return null;
+ let previousEnd=0;
+ for(let i=0;i<segments.length;i++){
+  const s=segments[i];
+  if(!s||typeof s!=='object'||Array.isArray(s)||!Number.isFinite(s.startBeat)||!Number.isFinite(s.endBeat)||!Number.isFinite(s.bpm)||s.startBeat<0||s.bpm<=0||s.endBeat<=s.startBeat)return null;
+  if(i===0?s.startBeat!==0:s.startBeat!==previousEnd)return null;
+  previousEnd=s.endBeat;
+ }
+ if(beat>previousEnd)return null;
+ let total=0;
+ for(const s of segments){
+  if(beat<=s.startBeat)break;
+  const stop=Math.min(beat,s.endBeat);
+  if(stop>s.startBeat)total+=(stop-s.startBeat)*60/s.bpm;
+  if(beat<=s.endBeat)break;
+ }
+ return Number.isFinite(total)?total:null;
+}
 export function effectChain(input,ops){if(!Number.isFinite(input)||!Array.isArray(ops))return null;let x=input;for(const o of ops){if(o.type==='GAIN')x*=o.value;else if(o.type==='COMPRESS')x=compressStatic(x,o.threshold,o.ratio);else return null;}return Number.isFinite(x)?x:null;}
 export function compareVersions(a,b,{sameSource=true,matched=false}={}){if(!Array.isArray(a)||!Array.isArray(b)||a.length!==b.length||!a.every(Number.isFinite)||!b.every(Number.isFinite))return 'UNKNOWN';return sameSource&&matched&&eq(a,b)?'MODEL_MATCH_ONLY':'LISTENING_REQUIRED';}
 export function auditDelivery({master,stems,project,rawTakes,dependencies,requiredEdits}={}){if(!Array.isArray(requiredEdits)||!Array.isArray(dependencies))return 'UNKNOWN';if(requiredEdits.includes('EDIT_TAKE')&&!rawTakes)return 'INSUFFICIENT';if(requiredEdits.includes('EDIT_PLUGIN')&&!project)return 'INSUFFICIENT';if(requiredEdits.includes('EDIT_MIX')&&!stems&&!project)return 'INSUFFICIENT';return master?'CANDIDATE':'UNKNOWN';}
@@ -50,6 +77,11 @@ export function checks(t){
  t('MP27 backup closure includes external media and plugin dependencies',backupComplete({required:['M1','M2','plugin-v1'],available:['M1','M2'],independent:true})==='INCOMPLETE'&&backupComplete({required:['M1','M2','plugin-v1'],available:['M1','M2','plugin-v1'],independent:true})==='COMPLETE_CANDIDATE');
  t('MP28 crossfade can cancel anti-phase material',close((1-1/2)*1+(1/2)*-1,0));
  t('MP29 tempo map piecewise integration',close(tempoTime([{startBeat:0,endBeat:4,bpm:120},{startBeat:4,endBeat:8,bpm:60}],6),4));
+ t('K09-RV01 HOLD switches at exact keyframes and terminal point',envelope([{t:0,v:0},{t:2,v:1},{t:4,v:2}],0,'HOLD')===0&&envelope([{t:0,v:0},{t:2,v:1},{t:4,v:2}],1,'HOLD')===0&&envelope([{t:0,v:0},{t:2,v:1},{t:4,v:2}],2,'HOLD')===1&&envelope([{t:0,v:0},{t:2,v:1},{t:4,v:2}],3,'HOLD')===1&&envelope([{t:0,v:0},{t:2,v:1},{t:4,v:2}],4,'HOLD')===2);
+ t('K09-RV01 LINEAR returns exact terminal control-point value',envelope([{t:0,v:0},{t:2,v:1},{t:4,v:2}],4,'LINEAR')===2);
+ t('K09-RV01 malformed control points fail closed',envelope([null,{t:1,v:2}],1,'HOLD')===null&&envelope([{t:0,v:0},{t:0,v:1}],0,'HOLD')===null);
+ t('K09-RV02 tempo maps reject gaps overlaps unsorted and incomplete origin',tempoTime([{startBeat:0,endBeat:4,bpm:120},{startBeat:5,endBeat:8,bpm:60}],6)===null&&tempoTime([{startBeat:0,endBeat:5,bpm:120},{startBeat:4,endBeat:8,bpm:60}],6)===null&&tempoTime([{startBeat:4,endBeat:8,bpm:60},{startBeat:0,endBeat:4,bpm:120}],6)===null&&tempoTime([{startBeat:1,endBeat:4,bpm:120}],2)===null);
+ t('K09-RV02 tempo map validates the full segment list before partial integration',tempoTime([{startBeat:0,endBeat:4,bpm:120},{startBeat:4,endBeat:8,bpm:60},{startBeat:7,endBeat:9,bpm:90}],2)===null&&tempoTime([{startBeat:0,endBeat:4,bpm:120},{startBeat:4,endBeat:8,bpm:60}],4)===2&&tempoTime([{startBeat:0,endBeat:4,bpm:120},{startBeat:4,endBeat:8,bpm:60}],8)===6);
  t('MP30 envelope local point must preserve full curve',envelope([{t:0,v:0},{t:4,v:4},{t:10,v:0},{t:20,v:0}],2)===2&&envelope([{t:0,v:0},{t:10,v:0},{t:20,v:0}],2)===0);
  t('MP31 comp boundary retains source identity',eq(['A','B'].map((take,i)=>({take,from:i*4,to:(i+1)*4})).map(x=>x.to-x.from),[4,4]));
  t('MP32 music onset and acoustic onset distinct',.2-.14===.06&&.5-.2===.3);

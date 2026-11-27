@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import {spawnSync} from 'node:child_process';
 import {openCandidateReader,gitBlob} from '../../../tools/validate-knowledge.mjs';
-import {checks} from './domain-witness.mjs';
+import {checks,hardRubric} from './domain-witness.mjs';
 const m='K14',read=p=>JSON.parse(fs.readFileSync(p,'utf8')),eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b),results=[];
 const t=(name,ok)=>{if(!ok)throw Error(name);results.push([name,true]);};
 const ref=r=>r.id+'@'+r.revision,cp='knowledge/'+m+'/controller-input.json',input=read(cp),entry=input.entries.find(e=>e.pack==='knowledge/'+m+'/candidate.json'),pack=read(entry.pack),manifest=read(entry.manifest),ledger=read('cases/'+m+'/frozen-input-ledger.json'),roles=read('queries/'+m+'/capability-index.json'),legacy=read('queries/'+m+'/legacy-routes.json'),prov=read('sources/'+m+'/provenance.json'),domain=read('knowledge/'+m+'/domain-workflows.json'),frozen=read('ontology/l1-anchor-tree.json'),reader=openCandidateReader(process.cwd(),input.entries),records=new Map(pack.records.map(r=>[ref(r),r])),all=new Map(input.entries.flatMap(e=>read(e.pack).records.map(r=>[ref(r),r]))),cache=new Map();
@@ -34,5 +34,8 @@ t('source registry and canonical reuse',prov.sources.every(s=>anchor(s.anchor)&&
 t('qualified hard dependency obligations',pack.edges.filter(e=>e.type==='requires').length===manifest.obligations.length&&pack.edges.every(e=>all.has(e.from)&&all.has(e.to)));
 t('exact integrated closure bytes',gitBlob(fs.readFileSync(ledger.integratedClosure.file))===ledger.integratedClosure.blob);
 t('all domain workflow targets resolved',domain.workflows.length===new Set(ledger.rows.map(r=>r.d4.split('.').slice(0,2).join('.'))).size&&domain.workflows.every(w=>w.status==='SYNTHETIC_ONLY'&&w.steps.length>=3&&w.cases.every(c=>ledger.rows.some(r=>r.caseId===c))&&w.claimRefs.every(c=>records.has(c))&&w.external==='UNKNOWN_NOT_EXECUTED'));
+const ed44=ledger.rows.find(r=>r.caseId==='ED44'),ed44View=pack.records.find(r=>r.id==='K14-V-ED44-FP');
+const ed44Result=hardRubric(ed44?.assessment);
+t('ED44 ledger, active question, expected result and structured thresholds agree',!!ed44&&!!ed44View&&ed44View.question==='拍型2/2（硬阈值2/2）、目标音高3/4（硬阈值4/4）、开放表达评审A3/4 B2/4；是否满足技术硬项？'&&ed44View.example.directionSpecificProblem===ed44View.question&&ed44View.example.expectedResult===ed44.forwardExpected&&ed44View.example.frozenWitness===ed44.forwardExpected&&eq(ed44View.example.assessment,ed44.assessment)&&ed44Result?.hardOutcome===ed44.assessment.expectedHardOutcome&&ed44Result?.openRatingsOutcome===ed44.assessment.expectedOpenRatingsOutcome);
 checks(t);
 console.log(JSON.stringify({module:m,checks:results.length,passed:results.filter(x=>x[1]).length,results},null,2));

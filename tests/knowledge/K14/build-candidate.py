@@ -68,7 +68,9 @@ for r in rows:
  for direction,polarity,q,answer,reason,w in [('FORWARD','POSITIVE',fq,fpa,statement,r['forwardExpected']),('FORWARD','NEGATIVE',fnq,'REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE',fnr,r['forwardNegative']),('REVERSE','POSITIVE',rpq,rpa,statement,r['reverseWitness']),('REVERSE','NEGATIVE',rnq,'REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN',rnr,r['reverseBoundary'])]:
   assert q!=answer and q!=reason and len(reason)>3
   exp=('裁定：拒绝错误适用或无证据强推。理由：'+reason if polarity=='NEGATIVE' else '限定核验依据：'+reason+'；本题答案：'+answer)
-  views.append(dict(direction=direction,polarity=polarity,context=ctx(id),question=q,example=dict(frozenCase=id,frozenWitness=w,frozenCaseRole='FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION',directionSpecificProblem=q,expectedResult=answer,reasoningBasis=reason,witnessRole='NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT' if polarity=='NEGATIVE' else 'SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED',anchor=r['caseAnchor'],observationStatus='SYNTHETIC_EXPECTED_NOT_OBSERVED'),explanation=exp,limits=limit,evidenceKind='SYNTHETIC_EXPECTED_NOT_OBSERVED'))
+  example=dict(frozenCase=id,frozenWitness=w,frozenCaseRole='FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION',directionSpecificProblem=q,expectedResult=answer,reasoningBasis=reason,witnessRole='NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT' if polarity=='NEGATIVE' else 'SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED',anchor=r['caseAnchor'],observationStatus='SYNTHETIC_EXPECTED_NOT_OBSERVED')
+  if direction=='FORWARD' and polarity=='POSITIVE' and r.get('assessment'):example['assessment']=r['assessment']
+  views.append(dict(direction=direction,polarity=polarity,context=ctx(id),question=q,example=example,explanation=exp,limits=limit,evidenceKind='SYNTHETIC_EXPECTED_NOT_OBSERVED'))
  assert formal[id],(m,id,'no qualified source for claim')
  records.append(rec('Context',ctx(id).split('@')[0],condition=condition))
  records.append(rec('Claim',cid(id).split('@')[0],d4=d,kind='practice',statement=statement,context=ctx(id),status='CANDIDATE',limits=limit,cq=sorted(r['directCQ'])))

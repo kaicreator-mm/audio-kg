@@ -3557,7 +3557,7 @@
     {
       "d4": "K14.07.02.04",
       "caseId": "ED44",
-      "predicate": "原创分项量规：拍型2/2、音高3/4、开放表达评审A3/4 B2/4，硬项目标若音高全对则仍未通过；开放项分歧保留。S563实际综合评分涵盖多个维度，不从其总分反推独立音高分；修改量规需重审。",
+      "predicate": "原创分项量规：节拍2/2达到硬阈值2/2；目标音高3/4低于硬阈值4/4；开放表达评审A3/4与B2/4，技术硬项未通过，开放项分歧独立保留。S563实际综合评分涵盖多个维度，不从其总分反推独立音高分；修改量规需重审。",
       "discovery": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
         "file": "docs/product/calibration/music-education-r3-discovery-cq.md",
@@ -3573,7 +3573,7 @@
         "row": "| ED44 | K14.07.02.04 | S563/S151 | 原创分项量规：拍型2/2、音高3/4、开放表达评审A3/4 B2/4，硬项目标若音高全对则仍未通过；开放项分歧保留。S563实际综合评分涵盖多个维度，不从其总分反推独立音高分；修改量规需重审。 | 用任意权重总分掩盖硬项或推导单项；两人平均就证明一致性。 | 预设指标/分母/容差、量规版本及例外，区分开放表现、真实评价/一致性方法K10。 | 合成量规非官方或已验证。 |"
       },
       "caseSourceLabel": "S563/S151",
-      "forwardExpected": "原创分项量规：拍型2/2、音高3/4、开放表达评审A3/4 B2/4，硬项目标若音高全对则仍未通过；开放项分歧保留。S563实际综合评分涵盖多个维度，不从其总分反推独立音高分；修改量规需重审。",
+      "forwardExpected": "未通过：节拍2/2达到硬阈值2/2，音高3/4低于硬阈值4/4；开放表达A3/4与B2/4的分歧独立保留，不平均且不补偿硬项。",
       "forwardNegative": "用任意权重总分掩盖硬项或推导单项；两人平均就证明一致性。",
       "reverseWitness": "预设指标/分母/容差、量规版本及例外，区分开放表现、真实评价/一致性方法K10。",
       "reverseBoundary": "合成量规非官方或已验证。",
@@ -3622,7 +3622,40 @@
           "sharedProvider": null,
           "role": "FROZEN_LOCATOR_ONLY"
         }
-      ]
+      ],
+      "assessment": {
+        "kind": "SYNTHETIC_RUBRIC_ONLY",
+        "hardItems": [
+          {
+            "id": "beatPattern",
+            "score": 2,
+            "outOf": 2,
+            "minimum": 2
+          },
+          {
+            "id": "targetPitch",
+            "score": 3,
+            "outOf": 4,
+            "minimum": 4
+          }
+        ],
+        "openRatings": [
+          {
+            "rater": "A",
+            "score": 3,
+            "outOf": 4
+          },
+          {
+            "rater": "B",
+            "score": 2,
+            "outOf": 4
+          }
+        ],
+        "expectedHardOutcome": "FAIL_HARD_CONDITION",
+        "expectedOpenRatingsOutcome": "DISAGREEMENT_PRESERVED",
+        "aggregation": "NONE_OPEN_RATINGS_DO_NOT_OVERRIDE_HARD_ITEMS",
+        "provenanceNote": "冻结来源行仅作为历史定位，不是观测结果；其中“若音高全对则仍未通过”不作为本例判定，也不与本例3/4得分合并推断。本合成例只裁定目标音高3/4低于4/4硬阈值；不推断达到4/4时是否还存在其它未满足条件。"
+      }
     },
     {
       "d4": "K14.07.03.04",

@@ -1,0 +1,21 @@
+findings:
+  - id: K09-R3-RECEIPT-01
+    severity: P1
+    expected: cumulative results include accepted R3 K03/K06/K08 test witnesses and identify exact test subject/tree
+    evidence: docs/validation/G07-R4/batch-receipt.json
+  - id: K09-RV01
+    severity: P2
+    expected: HOLD is right-continuous at keyframes and terminal point; malformed input returns null
+    evidence: tests/knowledge/K09/domain-witness.mjs
+  - id: K09-RV02
+    severity: P2
+    expected: invalid tempo-map topology fails closed before integration
+    evidence: tests/knowledge/K09/domain-witness.mjs
+  - id: K14-R3-RECEIPT-01
+    severity: P1
+    expected: same combined exact-subject cumulative receipt as K09
+    evidence: docs/validation/G07-R4/batch-receipt.json
+  - id: K14-ED44-P2-01
+    severity: P2
+    expected: explicit hard thresholds, score consistency and independent rater disagreement
+    evidence: cases/K14/frozen-input-ledger.json; knowledge/K14/candidate.json; tests/knowledge/K14/domain-witness.mjs
