@@ -1,0 +1,1328 @@
+{
+  "format": "audio-kg-task-packs/1",
+  "status": "FROZEN_PLANNING_CHECKPOINT",
+  "version": "v0.1.0",
+  "revision": 1,
+  "frozenL2": "2bdb455ae423844f450ac41d05eb9070dd791237",
+  "ownerRoute": "G06 accepted + Owner continue, #85",
+  "scope": "19 full modules, F00, T07, T08; 22 tasks; no production application",
+  "packs": [
+    {
+      "id": "F00",
+      "title": "G07-F00 资格隔离修复与正式知识最小验证入口",
+      "wave": "Foundation",
+      "dependsOn": [
+        "G06"
+      ],
+      "risk": "high",
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "allowedWriteSet": [
+        "docs/research/l2-pilot/knowledge-pilot.mjs",
+        "docs/research/l2-pilot/validate.mjs",
+        "docs/research/l2-pilot/README.md",
+        "docs/validation/f00/**",
+        "ontology/**",
+        "tools/validate-knowledge.mjs",
+        "tests/knowledge/**"
+      ],
+      "goal": "修复 RV04，建立最小正式候选数据验证/发现基线，先独立验收再消费。仅实现 W1 所需有限类型、版本、来源、条件、关系/绑定/状态约束；不复制整个固定试点为通用生产引擎。",
+      "acceptance": [
+        "RV04: deep freeze private qualification/profile + detach all returned public objects; mutate prior result source/edge/anchor/example or profile then repeat query unchanged; retain all185 checks and actual frozen nested replay.",
+        "Define human-readable per-owner candidate pack plus separate source-specific evidence qualification; exact file/content/anchor identity, revision, actual L1 D4 owner coverage, case F+/F-/R+/R- and conditions, typed H/O closure and inverse; candidate vs accepted evidence explicit; reject missing/dangling/invalid/duplicate/self-support/condition/authority, stale versions, coordinated removal, arbitrary source admission and leak; no runtime self-sealing.",
+        "Use small synthetic/candidate examples only; no formal K01/K07 population or accepted claims. Validate new fields/families with concrete negatives; scope limits recorded. Required affected independent review resolves RV04 and minimum common validation before formal batches."
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K01",
+      "wave": "W1",
+      "title": "G07-K01 乐理正式知识资产",
+      "dependsOn": [
+        "F00"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K01",
+        "discovery": "docs/product/calibration/theory-all-atom-discovery-cq.md",
+        "blob": "d8b1c7b86207732d183416a73a22e5f961ced3b6",
+        "rows": 184
+      },
+      "historicalFindings": [
+        28
+      ],
+      "goal": "音高/调律、节奏、和声、曲式、记谱、跨文化限定；历史与当前D4去重，K01.02.06.02和K01.07.03.01保持开放资格。",
+      "allowedWriteSet": [
+        "knowledge/K01/**",
+        "sources/K01/**",
+        "cases/K01/**",
+        "queries/K01/**",
+        "docs/validation/K01/**",
+        "tests/knowledge/K01/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K07",
+      "wave": "W1",
+      "title": "G07-K07 声学与听觉正式知识资产",
+      "dependsOn": [
+        "F00"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K07",
+        "discovery": "docs/product/calibration/acoustics-r3-discovery-cq.md",
+        "blob": "14dde14b71d479c584a3f619bc4ecbcfcdb89b51",
+        "rows": 51
+      },
+      "historicalFindings": [],
+      "goal": "声音物理、声场、频谱、心理声学、听觉与安全量纲；不把听觉阈值当普适。",
+      "allowedWriteSet": [
+        "knowledge/K07/**",
+        "sources/K07/**",
+        "cases/K07/**",
+        "queries/K07/**",
+        "docs/validation/K07/**",
+        "tests/knowledge/K07/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K05",
+      "wave": "W2",
+      "title": "G07-K05 声乐科学正式知识资产",
+      "dependsOn": [
+        "K01",
+        "K07"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K05",
+        "discovery": "docs/product/calibration/vocal-science-r4-discovery-cq.md",
+        "blob": "648b95fd2ebdda6ea72529e67968407877e0e2f4",
+        "rows": 66
+      },
+      "historicalFindings": [
+        38
+      ],
+      "goal": "发声解剖、生理/声学、测量、健康边界；独立参考与估计，代理量协议，非临床诊断。",
+      "allowedWriteSet": [
+        "knowledge/K05/**",
+        "sources/K05/**",
+        "cases/K05/**",
+        "queries/K05/**",
+        "docs/validation/K05/**",
+        "tests/knowledge/K05/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K08",
+      "wave": "W2",
+      "title": "G07-K08 数字音频正式知识资产",
+      "dependsOn": [
+        "K01",
+        "K07"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K08",
+        "discovery": "docs/product/calibration/digital-audio-r3-discovery-cq.md",
+        "blob": "e6ac3af949236967541bf0de502fa5ab2c491a70",
+        "rows": 54
+      },
+      "historicalFindings": [
+        46
+      ],
+      "goal": "采样、量化、PCM、窗/FFT、编码、接口与时序；文档版本与实际运行分离。",
+      "allowedWriteSet": [
+        "knowledge/K08/**",
+        "sources/K08/**",
+        "cases/K08/**",
+        "queries/K08/**",
+        "docs/validation/K08/**",
+        "tests/knowledge/K08/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K02",
+      "wave": "W3",
+      "title": "G07-K02 作曲创作正式知识资产",
+      "dependsOn": [
+        "K01"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K02",
+        "discovery": "docs/product/calibration/composition-r3-discovery-cq.md",
+        "blob": "40481fdd9c58ad00761f5a3394c6e03eb758f6ce",
+        "rows": 64
+      },
+      "historicalFindings": [],
+      "goal": "形式、动机、旋律、和声、节奏及词曲创作；开放创作多解，惯例不等硬规范。",
+      "allowedWriteSet": [
+        "knowledge/K02/**",
+        "sources/K02/**",
+        "cases/K02/**",
+        "queries/K02/**",
+        "docs/validation/K02/**",
+        "tests/knowledge/K02/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K03",
+      "wave": "W3",
+      "title": "G07-K03 编曲配器正式知识资产",
+      "dependsOn": [
+        "K02"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K03",
+        "discovery": "docs/product/calibration/arrangement-r5-discovery-cq.md",
+        "blob": "151869fd688f8b585aa472ff603e10868e838593",
+        "rows": 60
+      },
+      "historicalFindings": [
+        32
+      ],
+      "goal": "声部织体、配器、移调、保护和转换，书面/实际音及可奏条件分离。",
+      "allowedWriteSet": [
+        "knowledge/K03/**",
+        "sources/K03/**",
+        "cases/K03/**",
+        "queries/K03/**",
+        "docs/validation/K03/**",
+        "tests/knowledge/K03/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K04",
+      "wave": "W3",
+      "title": "G07-K04 演奏表现正式知识资产",
+      "dependsOn": [
+        "K01"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K04",
+        "discovery": "docs/product/calibration/performance-r4-discovery-cq.md",
+        "blob": "71c7bc197049b6cd81d2b79db47d8f3c45954e3f",
+        "rows": 60
+      },
+      "historicalFindings": [
+        35
+      ],
+      "goal": "乐器/技法、时序表现、事件与保护；真实设备/演奏者条件。",
+      "allowedWriteSet": [
+        "knowledge/K04/**",
+        "sources/K04/**",
+        "cases/K04/**",
+        "queries/K04/**",
+        "docs/validation/K04/**",
+        "tests/knowledge/K04/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K06",
+      "wave": "W4",
+      "title": "G07-K06 声乐训练正式知识资产",
+      "dependsOn": [
+        "K05",
+        "K04"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K06",
+        "discovery": "docs/product/calibration/vocal-training-r3-discovery-cq.md",
+        "blob": "66873fadf5dbf8dad8c76e424f36d8115f460935",
+        "rows": 57
+      },
+      "historicalFindings": [
+        41
+      ],
+      "goal": "任务目标、适用性、反馈、复测、许可撤回和安全停止；不做诊断/未经证据的训练处方。",
+      "allowedWriteSet": [
+        "knowledge/K06/**",
+        "sources/K06/**",
+        "cases/K06/**",
+        "queries/K06/**",
+        "docs/validation/K06/**",
+        "tests/knowledge/K06/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K14",
+      "wave": "W4",
+      "title": "G07-K14 音乐教育正式知识资产",
+      "dependsOn": [
+        "K06",
+        "K02"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K14",
+        "discovery": "docs/product/calibration/music-education-r3-discovery-cq.md",
+        "blob": "65f23631f030bc831b2487ed8d71c2e07e393655",
+        "rows": 48
+      },
+      "historicalFindings": [
+        63
+      ],
+      "goal": "教学模式、学习反馈、评价、曝光和迁移条件；不推真实长期效果。",
+      "allowedWriteSet": [
+        "knowledge/K14/**",
+        "sources/K14/**",
+        "cases/K14/**",
+        "queries/K14/**",
+        "docs/validation/K14/**",
+        "tests/knowledge/K14/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K09",
+      "wave": "W5",
+      "title": "G07-K09 音乐制作正式知识资产",
+      "dependsOn": [
+        "K08",
+        "K03",
+        "K04"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K09",
+        "discovery": "docs/product/calibration/production-r3-discovery-cq.md",
+        "blob": "b160e921f945087bb78085882f79e72d66d44fae",
+        "rows": 48
+      },
+      "historicalFindings": [
+        49
+      ],
+      "goal": "编辑、版本、曲线、干湿声、混音响度、母带及交付；原件/保护/依赖失效。",
+      "allowedWriteSet": [
+        "knowledge/K09/**",
+        "sources/K09/**",
+        "cases/K09/**",
+        "queries/K09/**",
+        "docs/validation/K09/**",
+        "tests/knowledge/K09/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K10",
+      "wave": "W5",
+      "title": "G07-K10 音乐理解与评价正式知识资产",
+      "dependsOn": [
+        "K09",
+        "K05",
+        "K02"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K10",
+        "discovery": "docs/product/calibration/evaluation-r3-discovery-cq.md",
+        "blob": "b1f1f55e3042956420a094f38d337b9eb5de6002",
+        "rows": 54
+      },
+      "historicalFindings": [
+        52
+      ],
+      "goal": "评价协议、独立参考、多参考/指标、听感与文化限制、编辑保真；不把单分数等同质量。",
+      "allowedWriteSet": [
+        "knowledge/K10/**",
+        "sources/K10/**",
+        "cases/K10/**",
+        "queries/K10/**",
+        "docs/validation/K10/**",
+        "tests/knowledge/K10/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K15",
+      "wave": "W6",
+      "title": "G07-K15 制作治理与权利正式知识资产",
+      "dependsOn": [
+        "K09"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K15",
+        "discovery": "docs/product/calibration/production-governance-r3-discovery-cq.md",
+        "blob": "64d4be1d0861b852938f6aa78cccdabfa0c62ed3",
+        "rows": 48
+      },
+      "historicalFindings": [],
+      "goal": "来源、主体/委托、对象/用途、许可、撤回、交付治理；具体授权/法域未证即未知。",
+      "allowedWriteSet": [
+        "knowledge/K15/**",
+        "sources/K15/**",
+        "cases/K15/**",
+        "queries/K15/**",
+        "docs/validation/K15/**",
+        "tests/knowledge/K15/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K11",
+      "wave": "W6",
+      "title": "G07-K11 AI音乐模型正式知识资产",
+      "dependsOn": [
+        "K10",
+        "K15"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K11",
+        "discovery": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+        "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+        "rows": 60
+      },
+      "historicalFindings": [
+        55
+      ],
+      "goal": "表示/训练/生成/评价、模型版本、控制和限制；无实际模型能力/许可推断。",
+      "allowedWriteSet": [
+        "knowledge/K11/**",
+        "sources/K11/**",
+        "cases/K11/**",
+        "queries/K11/**",
+        "docs/validation/K11/**",
+        "tests/knowledge/K11/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K12",
+      "wave": "W6",
+      "title": "G07-K12 工具与编排正式知识资产",
+      "dependsOn": [
+        "K11",
+        "K15"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K12",
+        "discovery": "docs/product/calibration/tools-orchestration-r3-discovery-cq.md",
+        "blob": "54d6ee065eff7e2fcb4c6ec205e084f11dd5c24c",
+        "rows": 54
+      },
+      "historicalFindings": [],
+      "goal": "工具版本、操作合同、副作用、能力和状态、失败与回滚；不执行真实未授权工具。",
+      "allowedWriteSet": [
+        "knowledge/K12/**",
+        "sources/K12/**",
+        "cases/K12/**",
+        "queries/K12/**",
+        "docs/validation/K12/**",
+        "tests/knowledge/K12/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K16",
+      "wave": "W8",
+      "title": "G07-K16 音乐学与民族音乐学正式知识资产",
+      "dependsOn": [
+        "K01",
+        "K02",
+        "K15"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K16",
+        "discovery": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "rows": 42
+      },
+      "historicalFindings": [
+        68
+      ],
+      "goal": "史料、乐种、文化语境、原生术语、Myanmar与跨文化边界；13一对一迁移核实，混合槽不等价。",
+      "allowedWriteSet": [
+        "knowledge/K16/**",
+        "sources/K16/**",
+        "cases/K16/**",
+        "queries/K16/**",
+        "docs/validation/K16/**",
+        "tests/knowledge/K16/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K17",
+      "wave": "W8",
+      "title": "G07-K17 音乐心理与认知正式知识资产",
+      "dependsOn": [
+        "K07",
+        "K10",
+        "K14"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K17",
+        "discovery": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "rows": 30
+      },
+      "historicalFindings": [
+        71
+      ],
+      "goal": "认知、知觉、记忆、情绪、学习与样本边界；摘要证据不外推。",
+      "allowedWriteSet": [
+        "knowledge/K17/**",
+        "sources/K17/**",
+        "cases/K17/**",
+        "queries/K17/**",
+        "docs/validation/K17/**",
+        "tests/knowledge/K17/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K13",
+      "wave": "W7",
+      "title": "G07-K13 语言与本地化正式知识资产",
+      "dependsOn": [
+        "K12",
+        "K16",
+        "K17",
+        "K06"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K13",
+        "discovery": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "rows": 20
+      },
+      "historicalFindings": [
+        60
+      ],
+      "goal": "歌词、语音、韵律、可唱适配、评价及多语言，原生语义和权利条件；混合槽按谓词路由。",
+      "allowedWriteSet": [
+        "knowledge/K13/**",
+        "sources/K13/**",
+        "cases/K13/**",
+        "queries/K13/**",
+        "docs/validation/K13/**",
+        "tests/knowledge/K13/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K18",
+      "wave": "W9",
+      "title": "G07-K18 电子音乐与音色设计正式知识资产",
+      "dependsOn": [
+        "K12",
+        "K02"
+      ],
+      "risk": "medium",
+      "discovery": {
+        "id": "K18",
+        "discovery": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+        "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+        "rows": 44
+      },
+      "historicalFindings": [
+        74
+      ],
+      "goal": "合成、采样、信号链、调制与音色评价，参数顺序/宿主资格。",
+      "allowedWriteSet": [
+        "knowledge/K18/**",
+        "sources/K18/**",
+        "cases/K18/**",
+        "queries/K18/**",
+        "docs/validation/K18/**",
+        "tests/knowledge/K18/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "K19",
+      "wave": "W9",
+      "title": "G07-K19 现场音频与扩声正式知识资产",
+      "dependsOn": [
+        "K12",
+        "K04",
+        "K07"
+      ],
+      "risk": "high",
+      "discovery": {
+        "id": "K19",
+        "discovery": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "rows": 40
+      },
+      "historicalFindings": [
+        77
+      ],
+      "goal": "声场、系统链、扩声、网络、反馈及安全；WHO儿童/峰值、Dante profile未知保留，不做真实部署。",
+      "allowedWriteSet": [
+        "knowledge/K19/**",
+        "sources/K19/**",
+        "cases/K19/**",
+        "queries/K19/**",
+        "docs/validation/K19/**",
+        "tests/knowledge/K19/**"
+      ],
+      "acceptance": [
+        "逐当前发现入口D4去重和活跃/历史/开放状态对账；所有实际原子有可解释 disposition（候选主张、源不足UNKNOWN、争议、历史查找、条件路由），不把行数等同验收。每个活跃D2×A01–07按冻结矩阵核实际记录，P/S/C/N/A/UNKNOWN不代表权限。",
+        "源资格、精确定位、知识内容和条件/例外/边界、类型/版本、正反例与正反向绑定、必要及可选跨域关系、来源冲突和历史准入门禁；实质命题不能只是复制D4标题。缺证强主张不得接受，13一对一/28拆分按谓词路由。",
+        "实际执行 F00 及本域具体正负/失效/查询验证，新增逻辑关系先做具体形状/语义测试；发现必要公共schema变更走 owning amendment，不在模块内擅改。完整模块一次独立审查，审查实际专业内容与来源、深度及证据；独立PASS后按精确受审版本准入，保留未接受项和报告。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "T07",
+      "wave": "Integration",
+      "title": "G07-T07 集成覆盖、真实LLM对照验证",
+      "dependsOn": [
+        "K01",
+        "K07",
+        "K05",
+        "K08",
+        "K02",
+        "K03",
+        "K04",
+        "K06",
+        "K14",
+        "K09",
+        "K10",
+        "K15",
+        "K11",
+        "K12",
+        "K16",
+        "K17",
+        "K13",
+        "K18",
+        "K19"
+      ],
+      "risk": "high",
+      "allowedWriteSet": [
+        "docs/validation/integration/**",
+        "docs/research/llm-evaluation/**",
+        "tests/integration/**",
+        "queries/integration/**"
+      ],
+      "goal": "十九域已审核合并后的精确集成候选，26 CQ、159活跃D2×七能力、原子与案例、历史开放门禁、跨域冲突/版本/权利、真实LLM消费对照。",
+      "acceptance": [
+        "独立评价者事先制定/封存未见输入与评分rubric、与公开检索隔离；真实模型实验同模型/可核实版本、相同请求参数与任务、固定上下文预算、四臂无KG/知识无案例/知识+正例/知识+正负双向；记录实际响应、失败、token/耗时、评分、样本及限制，不以结构PASS替代LLM效果。",
+        "授权仅使用aliyun-sg dh-deepseek-api，通过秘密注入环境变量，不打印密钥/请求认证头，不传私密或版权受限资料；只发送人工编写题设及允许公开的原创知识摘要，明确范围/次数/成本上限，模型输出不作知识来源。API不可用或无独立评测则保留BLOCKED，不伪报。",
+        "综合检查全部模块有效审核与变更失效、双向/反例、来源权利、CQ及七能力；实际运行与结果记录，必要修复回拥有者，独立验收前不发布。"
+      ]
+    },
+    {
+      "authority": [
+        "docs/architecture/l2-freeze-record.md",
+        "docs/product/calibration/l1-freeze-record.md",
+        "docs/product/calibration/g05-r1-module-evidence-reconciliation.md",
+        "docs/product/calibration/g05-r2-historical-findings-residual-gates.md",
+        "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "docs/product/case-reasoning-contract.md",
+        "docs/product/capability-coverage.md"
+      ],
+      "mergeTarget": "version/v0.1.0",
+      "executor": "WEB_BUILDER",
+      "agentFreedom": "F1",
+      "reviewPolicy": "required",
+      "validationOwner": "Builder executes; separate independent Reviewer reruns and adjudicates source/professional correctness at exact candidate SHA",
+      "requiredGates": [
+        "actual syntax/structural and scoped semantic validation",
+        "independent exact-head G07a review",
+        "integrate exact reviewed subject before dependency unlock"
+      ],
+      "l3": "JIT exact-base map; concrete typed record/edge, tests and failures for each newly used logical family; no speculative generic runtime",
+      "forbidden": [
+        "unqualified accepted claims or fabricated sources",
+        "rewrite frozen L1/L2 contract without owning amendment",
+        "automatic closure of historic findings/splits",
+        "production application/runtime/DB, actual audio or authorization",
+        "cross-owner duplication, independent assessment leakage",
+        "actual LLM call without task-specific bounded input/authority"
+      ],
+      "id": "T08",
+      "wave": "Closure",
+      "title": "G07b-T08 最终独立集成验收与版本收口",
+      "dependsOn": [
+        "T07"
+      ],
+      "risk": "high",
+      "allowedWriteSet": [
+        "docs/release/**",
+        "docs/validation/closure/**"
+      ],
+      "goal": "冻结 integrated candidate 精确身份，独立验收所有所需批次与T07真实证据；P0/P1清零，P2明确边界和后续。",
+      "acceptance": [
+        "当前集成候选、全部依赖合并证据及审查适用性；最终实际结构/语义/CQ/LLM评估，独立Reviewer按精确SHA核对专业覆盖与实际效果；任何受影响变更重新验证。",
+        "不把G07b等于自动发布；按ADS发布规则单独核实，未满足不得release PASS。"
+      ]
+    }
+  ]
+}
