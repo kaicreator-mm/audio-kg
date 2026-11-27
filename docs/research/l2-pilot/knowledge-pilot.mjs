@@ -15,7 +15,9 @@ function anchor(a){
  insist(a&&a.commit===base&&/^[a-f0-9]{40}$/.test(a.blob)&&Number.isInteger(a.line)&&a.line>0&&/^docs\/(?:product\/calibration|research)\/[a-z0-9-]+\.md$/.test(a.file),"anchor identity");
  const text=read(a.file);insist(blob(text)===a.blob&&text.split("\n")[a.line-1]===a.row,"anchor content "+a.file+":"+a.line);
 }
-const profile=json(dir+"semantic-profile.json");
+const profileText=read(dir+"semantic-profile.json");
+insist(blob(profileText)==="f5e8561389a762389ec5bbb99d8c502a45a37d28","semantic profile identity");
+const profile=JSON.parse(profileText);
 // Separate, exact committed candidate manifest; never reseal from incoming data.
 const manifestText=read(dir+"qualification-manifest.json");
 insist(blob(manifestText)==="e1580c7c708881ddf7c677589d0485109e14acc0","qualification manifest identity");
@@ -144,7 +146,7 @@ function retrieve(p,s,query){
  const source=t=>({id:idref(t),title:t.title,author:t.author,version:t.version,publicationDate:t.publicationDate,accessDate:t.accessDate,uri:t.uri,locator:t.locator,grade:t.grade,rights:t.rights,registration:{commit:t.registration.commit,file:t.registration.file,blob:t.registration.blob,line:t.registration.line},qualification:qualification.sourceQualifications[idref(t)]});
  const rootIds=roots.map(idref);
  const out=[...closure.values()].map(c=>({id:idref(c),d4:c.d4,owner:c.owner,statement:c.statement,status:c.status,limits:c.limits,context:idx.map.get(c.context).condition,contextRef:c.context,selection:rootIds.includes(idref(c))?"QUERY_ROOT":"REQUIRED_SUPPORT",applicability:"CONDITIONAL_NOT_ESTABLISHED_BY_RETRIEVAL",evidence:p.edges.filter(e=>e.from===idref(c)&&e.type==="supported_by").map(e=>{const ev=idx.map.get(e.to);return {id:idref(ev),kind:ev.kind,anchor:ev.anchor,...(ev.caseAnchor?{caseAnchor:ev.caseAnchor}:{}),limits:ev.limits,relation:relation(e,"OUTGOING"),sources:ev.sources.map(x=>source(idx.map.get(x)))};}),relations:p.edges.filter(e=>e.from===idref(c)).map(e=>relation(e,"OUTGOING")),incomingNavigation:p.edges.filter(e=>e.to===idref(c)&&["requires","references"].includes(e.type)).map(e=>relation(e,"INCOMING_LOOKUP_ONLY")),cases:(idx.byClaim.get(idref(c))||[]).map(b=>{const v=idx.map.get(b.view);return {id:idref(v),bindingId:b.id,claimRef:b.claim,role:b.role,condition:ctx(b.condition),direction:v.direction,polarity:v.polarity,question:v.question,example:v.example,explanation:v.explanation,limit:v.limit,evidenceKind:v.evidenceKind};})}));
- return {status:"RESEARCH_ONLY",rootIds,dependencyState:"QUALIFIED_STRUCTURE_ONLY",claims:out};
+ return {status:"RESEARCH_ONLY",rootIds,dependencyState:rootIds.length?"QUALIFIED_STRUCTURE_ONLY":"UNKNOWN_NO_MATCH",claims:out};
 }
 function route(p,old){const m=p.migrations.find(x=>x.old===old);return !m?{state:"UNKNOWN"}:m.type==="alias_of"?{state:"REQUIREMENT_LOOKUP_ONLY",target:m.targets[0].d4}:{state:"SPLIT_OPEN",targets:m.targets,wholeSlotEquivalent:false};}
 function close(a,b){if(typeof a==="number"&&typeof b==="number")return Math.abs(a-b)<=1e-9;if(a&&b&&typeof a==="object"&&typeof b==="object"){let ka=Object.keys(a).sort(),kb=Object.keys(b).sort();return eq(ka,kb)&&ka.every(k=>close(a[k],b[k]));}return a===b;}
