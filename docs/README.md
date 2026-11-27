@@ -316,3 +316,7 @@ G04 [R9独立PASS](https://github.com/kaicreator-mm/audio-kg/pull/79#issuecommen
 
 ## 当前 L1 正式冻结
 [G05/T03 冻结记录](product/calibration/l1-freeze-record.md) 为当前阶段权威；历史DRAFT/未冻结/阻塞记录仅表示原检查点。PR81 exact独立PASS并零差异合入。仅冻结已验收的19域范围、26 CQ、职责与接受条件；15 OPEN/28 SPLIT_OPEN继续约束正式准入。L2 T04/T05候选可推进，G06前不得正式填充。
+
+
+## G06 / T04–T06 L2 语义契约与实际试点候选
+#83；L1已正式冻结。当前[语义契约](architecture/l2-semantic-contract-candidate.md)、[可执行试点](research/l2-pilot/README.md)、[完整独立验收合同](architecture/g06-review-candidate.md)。实际Linux Node24.21.0：127/127新试点断言，原70/70与44/44 nested replay，5独立于公开案例的评测输入，21记录42关系的有限合成证据图；真实LLM、音频、DB、实际授权及生产数据未验。候选Git typed JSON主权威，派生投影待具体资格；L2仍未冻结，G07阻塞。历史15 OPEN/28 SPLIT_OPEN保留，native DAG未物化。
