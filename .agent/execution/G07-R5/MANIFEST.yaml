@@ -19,7 +19,7 @@ agent_freedom: F1_BOUNDED_REMEDIATION
 review_policy: required
 reviewer: OTHER_CONVERSATION_INDEPENDENT_NON_WRITER
 merge_target: version/v0.1.0
-status: BUILDER_IN_PROGRESS
+status: BUILDER_PASS_REVIEW_REQUIRED
 forbidden:
   - merge PR #134
   - change frozen L1/L2 contracts or unrelated module corpora
