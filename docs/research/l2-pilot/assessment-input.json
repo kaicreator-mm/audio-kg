@@ -1,0 +1,61 @@
+{
+  "namespace": "HELD_OUT_INPUTS",
+  "cases": [
+    {
+      "id": "eval-r1",
+      "cq": "CQ01",
+      "operation": "cents",
+      "input": {
+        "reference": 200,
+        "observed": 225
+      }
+    },
+    {
+      "id": "eval-r2",
+      "cq": "CQ06",
+      "operation": "pitch",
+      "input": {
+        "reference": 225,
+        "estimate": 200,
+        "target": 200,
+        "valid": true,
+        "identity": "E1",
+        "referenceIdentity": "E1",
+        "estimateIdentity": "E1"
+      }
+    },
+    {
+      "id": "eval-r3",
+      "cq": "CQ07",
+      "operation": "window",
+      "input": {
+        "fs": 48000,
+        "win": 720,
+        "nfft": 1440
+      }
+    },
+    {
+      "id": "eval-r4",
+      "cq": "CQ06",
+      "operation": "pitch",
+      "input": {
+        "reference": null,
+        "estimate": 200,
+        "target": 200,
+        "valid": true,
+        "identity": "E1",
+        "referenceIdentity": "E1",
+        "estimateIdentity": "E1"
+      }
+    },
+    {
+      "id": "eval-r5",
+      "cq": "CQ07",
+      "operation": "reverseGrid",
+      "input": {
+        "fs": 48000,
+        "gridHz": 25
+      }
+    }
+  ]
+}
