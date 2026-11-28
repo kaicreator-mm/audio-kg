@@ -1,0 +1,154 @@
+{
+  "status": "BUILDER_PARTIAL_COVERAGE_PASS_ONLY",
+  "base": "7d4068980b750af2beaa97665219e2d950b3cc9e",
+  "tree": "cda3bac9c7b3ee9070dc7cfa610e7ce8f6b58338",
+  "testedPreparationHead": "288397ca5d84d7636abf610379653fa07e4b2f23",
+  "coverageExecutionJob": "job_01M8HQ130E00WR9NPV5D0MA5D6",
+  "predecessorReadbackJob": "job_01M8HQ48X9004421Y57WRRP4YN",
+  "counts": {
+    "records": 8750,
+    "claims": 1024,
+    "edges": 3196,
+    "bindings": 6088,
+    "inventory": 1084,
+    "owners": 19,
+    "sources": 470,
+    "views": 4156,
+    "activeD2": 159,
+    "activeCells": 1113,
+    "historicalCells": 35,
+    "cq": 26,
+    "historicalFindings": 36,
+    "openSplits": 28,
+    "crossOwnerRequired": 89,
+    "crossOwnerOptional": 242
+  },
+  "activeCellsWithNoDirectClaim": [
+    {
+      "id": "K01.01/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.02/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.03/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.03/A06",
+      "role": "C",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.04/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.05/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.05/A07",
+      "role": "C",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.06/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.07/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.07/A04",
+      "role": "C",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.07/A06",
+      "role": "C",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.07/A07",
+      "role": "C",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.08/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.09/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.09/A04",
+      "role": "C",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K01.09/A07",
+      "role": "P",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K02.01/A03",
+      "role": "S",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K02.01/A04",
+      "role": "P",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K02.01/A06",
+      "role": "P",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K02.08/A02",
+      "role": "P",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K02.08/A04",
+      "role": "P",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    },
+    {
+      "id": "K02.08/A07",
+      "role": "P",
+      "status": "EXPLICIT_NO_DIRECT_CLAIM_REVIEW_REQUIRED"
+    }
+  ],
+  "unresolvedInventoryCount": 60,
+  "hashes": {
+    "queries/integration/coverage.json": "107d19111f0582fdda7bfae90accea4c141330a7b7f1d33027eb29324c2a3d31",
+    "queries/integration/controller-input.json": "310b1be2c18b8d9e97eed87edc969d8b7c075e7077fdc3b1ff3c200d58437903",
+    "docs/validation/integration/predecessor-readback.json": "ae8591e6c20e3eee3fdbb4f9c6d97e3e5e65f84e59c57498a60538a7c29688f4"
+  },
+  "independentPresealIssue": 147,
+  "actualLLM": "BLOCKED_PENDING_INDEPENDENT_PRESEAL_AND_RUNNER",
+  "actualAudio": "NOT_EXECUTED",
+  "acceptedClaims": 0,
+  "remaining": [
+    "exact review applicability and changed-scope reconciliation",
+    "cross-domain finite semantic and adversarial verification",
+    "LLM context assembly, bounded execution and independent scoring",
+    "T07 independent cumulative review"
+  ]
+}

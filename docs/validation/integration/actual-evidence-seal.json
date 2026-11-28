@@ -1,0 +1,46 @@
+{
+  "status": "ACTUAL_RUN_COMPLETE_UNSCORED",
+  "executionJob": "job_01M8HTGDAW00K3FMGC0VGG6A2K",
+  "preflightJob": "job_01M8HTFNFG00E5Z8HXYGK4VTSF",
+  "verificationAndSealJob": "job_01M8HTZXJC00Y8Q0V2A8M4PFZ3",
+  "approvalComment": 7244606699,
+  "approvalReceiptComment": 7244614171,
+  "reviewedExecutionHead": "848064de753d252389ec7be92577cd146e4a9717",
+  "reviewedExecutionTree": "31fa6d5088ad83a6cd127d3a38b09d2dae661dda",
+  "packet": {
+    "status": "BLIND_PACKET_PREPARED_NOT_SCORED",
+    "valid": 100,
+    "excluded": 4,
+    "packetSha256": "adbbe5096b386b4b38855e88569fdf49b073d91198e775a98e91047bdaeef13a",
+    "mappingSha256": "fe4d81fec66b536e3c70e50d0c85a6bfba6879c7c0696ec2cd1d59e0ddb6942d",
+    "actualSummarySha256": "b1453fd438daa439a1a2b50a0372d8b8c4dcc851ddbe4aaa2ba2992d5340e885"
+  },
+  "privateSealRoot": "/root/.audio-kg-t07-review/seal.0pimzVe3",
+  "archiveHashes": {
+    "execution-evidence.tar.gz": "0d3e69390bed5a7957fcca7c618aba96f449524daaf662b011774dd34d85badb",
+    "blind-evidence.tar.gz": "7aaedc272044d20ab9a2e5da95581ca4f4948853f92aa25bc5e69b5b564d16ad"
+  },
+  "archiveSizes": {
+    "execution-evidence.tar.gz": 325748,
+    "blind-evidence.tar.gz": 110227
+  },
+  "archiveFileCounts": {
+    "execution-evidence.tar.gz": 410,
+    "blind-evidence.tar.gz": 3
+  },
+  "archiveByteVerification": "PASS_ALL_FILES",
+  "archiveSameHostOnly": true,
+  "actualRunReceiptSha256": "ceabe3e5208609f09df5bce128d4e0c02e4abb6e86439b4f41a10ee1a43b1c0a",
+  "regressionReceiptSha256": "087a573e1b6d2364feed216d3627dd5df039022ed860b4b46a6fdf63e05e930a",
+  "scoreAggregationSyntheticTests": "7/7 PASS",
+  "scoreStatus": "NOT_SCORED",
+  "rawPublicDisclosure": false,
+  "limitations": [
+    "No model efficacy claim before independent scoring",
+    "100 valid responses; E01-25 4 predeclared infeasible slots",
+    "Provider version is documented alias, not immutable weights attestation",
+    "Peak-rate estimate, not invoice",
+    "Blind response text may reveal arm cues; mapping held separate until grade seal",
+    "Same-host private backups are not disaster recovery"
+  ]
+}
