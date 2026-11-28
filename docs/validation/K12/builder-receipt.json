@@ -1,0 +1,307 @@
+{
+  "status": "BUILDER_PASS_ONLY",
+  "node": "v24.21.0",
+  "suiteCount": 24,
+  "passedSuites": 24,
+  "checks": 8194,
+  "passed": 8194,
+  "results": [
+    {
+      "suite": "pilot",
+      "command": [
+        "node",
+        "docs/research/l2-pilot/validate.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 189,
+      "passed": 189,
+      "sha256": "115e9260cdac6818053723de389bebc67cca9c4c3fb7cec027e7ab0527aa69c7",
+      "status": "PASS"
+    },
+    {
+      "suite": "k01",
+      "command": [
+        "node",
+        "tests/knowledge/K01/k01.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 2210,
+      "passed": 2210,
+      "sha256": "d2309e4750f149edac7d3dbf3ecc587fa12c85a892a4c5eacdf0e3852aeecc2e",
+      "status": "PASS"
+    },
+    {
+      "suite": "k02",
+      "command": [
+        "node",
+        "tests/knowledge/K02/k02.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 634,
+      "passed": 634,
+      "sha256": "2992fb476a3f3408b0c8e4af761f7d264b909a1885f9001ac8c37e13c117a879",
+      "status": "PASS"
+    },
+    {
+      "suite": "k03",
+      "command": [
+        "node",
+        "tests/knowledge/K03/k03.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 603,
+      "passed": 603,
+      "sha256": "e91b7f3a12037a745dbd00e59540bb23a74e4af766a064c053afbdc993805bb7",
+      "status": "PASS"
+    },
+    {
+      "suite": "k04",
+      "command": [
+        "node",
+        "tests/knowledge/K04/k04.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 597,
+      "passed": 597,
+      "sha256": "6bff7cefedb06631fed51f65fc760a90ac41da52dffef9a5c166776f030c9795",
+      "status": "PASS"
+    },
+    {
+      "suite": "k05",
+      "command": [
+        "node",
+        "tests/knowledge/K05/k05.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 645,
+      "passed": 645,
+      "sha256": "819044812163ae51e813054c6e10127a07f938ccd336aa9a516c160c45ef2cba",
+      "status": "PASS"
+    },
+    {
+      "suite": "k06",
+      "command": [
+        "node",
+        "tests/knowledge/K06/k06.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 585,
+      "passed": 585,
+      "sha256": "4f698763cbd13ed4b7162ab2ad2c999cbeb1652ed6150ab97648a26f81da6155",
+      "status": "PASS"
+    },
+    {
+      "suite": "k07",
+      "command": [
+        "node",
+        "tests/knowledge/K07/k07.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 343,
+      "passed": 343,
+      "sha256": "63cd8e172e7a588019b956b57366b67f1b00709657680490c52341a7e6c7b25c",
+      "status": "PASS"
+    },
+    {
+      "suite": "k08",
+      "command": [
+        "node",
+        "tests/knowledge/K08/k08.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 581,
+      "passed": 581,
+      "sha256": "83bf11c8f9e3ef9f1c2e88b64190d5be75ff277b7ae9fd191643abb33255382c",
+      "status": "PASS"
+    },
+    {
+      "suite": "k09",
+      "command": [
+        "node",
+        "tests/knowledge/K09/k09.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 521,
+      "passed": 521,
+      "sha256": "e16948aa8530d133cf97ab0aa290c2c7246047ae4328106beca63e91f0e25a1d",
+      "status": "PASS"
+    },
+    {
+      "suite": "k10",
+      "command": [
+        "node",
+        "tests/knowledge/K10/k10.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 39,
+      "passed": 39,
+      "sha256": "7aac2324449f711ca3f6788d98bedafa77077aac3b46be21bdb901740c61d309",
+      "status": "PASS"
+    },
+    {
+      "suite": "k11",
+      "command": [
+        "node",
+        "tests/knowledge/K11/k11.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 118,
+      "passed": 118,
+      "sha256": "bfadc13a9a11f99bf17385b796dcbc5886a6f0f4b0a00a6b4407897aabc9f14d",
+      "status": "PASS"
+    },
+    {
+      "suite": "k12",
+      "command": [
+        "node",
+        "tests/knowledge/K12/k12.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 129,
+      "passed": 129,
+      "sha256": "e9adb02d3a47d4f321e844fe694ceb12dbfc3849bf874d45756369c4653f11b9",
+      "status": "PASS"
+    },
+    {
+      "suite": "k14",
+      "command": [
+        "node",
+        "tests/knowledge/K14/k14.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 524,
+      "passed": 524,
+      "sha256": "66e152bf7d1741cd96adfd3d7a93148cb67e0b23f9b405aac7663631d072032d",
+      "status": "PASS"
+    },
+    {
+      "suite": "k15",
+      "command": [
+        "node",
+        "tests/knowledge/K15/k15.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 47,
+      "passed": 47,
+      "sha256": "7328338cac10e47730f77a49af1233fd014eab4c04c44cfbc5dd33b9b4957c33",
+      "status": "PASS"
+    },
+    {
+      "suite": "k16",
+      "command": [
+        "node",
+        "tests/knowledge/K16/k16.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 78,
+      "passed": 78,
+      "sha256": "a35898f9112f5c3fe53b4caf6ca959f2f8cf03fb6807d06d054bc7067649e4fa",
+      "status": "PASS"
+    },
+    {
+      "suite": "k17",
+      "command": [
+        "node",
+        "tests/knowledge/K17/k17.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 79,
+      "passed": 79,
+      "sha256": "b185177d167b3efad9825bb355c8fe599a20dd751bf2406d776fe808fc0c8c50",
+      "status": "PASS"
+    },
+    {
+      "suite": "f00-cq-role",
+      "command": [
+        "node",
+        "tests/knowledge/f00-cq-role.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 21,
+      "passed": 21,
+      "sha256": "cf90e6415659f5f56036bf1b65ee7bd588290c32806a66902ccb842ef3331666",
+      "status": "PASS"
+    },
+    {
+      "suite": "f00-cq2-role",
+      "command": [
+        "node",
+        "tests/knowledge/f00-cq2-role.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 43,
+      "passed": 43,
+      "sha256": "f4c75bd0a8751f9ea6b2ca63dcbb7f27e39843b74e30b64d07ad81ad53a702ae",
+      "status": "PASS"
+    },
+    {
+      "suite": "f00-embedded-source-qualification",
+      "command": [
+        "node",
+        "tests/knowledge/f00-embedded-source-qualification.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 5,
+      "passed": 5,
+      "sha256": "8416a23ee3c0de8681c118e0bb51aa29f9b2d624b37ee6a7936cc681b18486d8",
+      "status": "PASS"
+    },
+    {
+      "suite": "f00-legacy-source-uri",
+      "command": [
+        "node",
+        "tests/knowledge/f00-legacy-source-uri.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 95,
+      "passed": 95,
+      "sha256": "82367647625294032c9c35d86313641a1f93797a5f979b2465b3fb0a56d11947",
+      "status": "PASS"
+    },
+    {
+      "suite": "f00-markdown-links",
+      "command": [
+        "node",
+        "tests/knowledge/f00-markdown-links.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 9,
+      "passed": 9,
+      "sha256": "1e97a1de7a3a7d5a2c1429b094c94df6c24f30c934788f8aa161dbda44f18f8f",
+      "status": "PASS"
+    },
+    {
+      "suite": "f00-module-cq-role",
+      "command": [
+        "node",
+        "tests/knowledge/f00-module-cq-role.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 15,
+      "passed": 15,
+      "sha256": "8b3fd574716b26d35b35df0c756727ffd37f9e7983b61a9a7ef708beb4962b40",
+      "status": "PASS"
+    },
+    {
+      "suite": "f00",
+      "command": [
+        "node",
+        "tests/knowledge/f00.test.mjs"
+      ],
+      "exitCode": 0,
+      "checks": 84,
+      "passed": 84,
+      "sha256": "84dee9535ff4d9b4991c8969ca8cc071de9fa7f00980c0b924ad4cb3b5c71efe",
+      "status": "PASS"
+    }
+  ],
+  "executionJob": "job_01M8HBJMHT003FZ2NVVB4FG9DH",
+  "syntaxChecks": 44,
+  "deterministicReproductionFiles": 13,
+  "testedHead": "f00aae96e723793f6ea2076ab4615ccdc42aef79",
+  "testedTree": "3930f32e1799cb8ff79add365b9ddb87f117d60b",
+  "preExecutionStagedTree": "2e6d1030e0b723605e6e5dfd6d172b1d402cb2b9",
+  "executionNote": "Test execution began on the staged tree before adding only docs/validation/K12/review-contract.md; test and knowledge assets unchanged. All 23 W6 R2 raw suite files byte-identical. K12 initial test detected six duplicate optional edges also hard prerequisites; corrected and reran; final full cumulative execution succeeded.",
+  "base": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+  "scope": "Candidate-only, no external source reread/real execution; independent review required."
+}
