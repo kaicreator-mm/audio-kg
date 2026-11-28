@@ -1,0 +1,163 @@
+{
+  "module": "K10",
+  "checks": 39,
+  "passed": 39,
+  "results": [
+    [
+      "candidate-only status and exact cardinalities",
+      true
+    ],
+    [
+      "all frozen discovery, case and source anchors",
+      true
+    ],
+    [
+      "all claims preserve frozen direct-CQ roles and evidence",
+      true
+    ],
+    [
+      "four independently bound forward/reverse positive/negative views per claim",
+      true
+    ],
+    [
+      "direct CQ queries exclude support-only assignments",
+      true
+    ],
+    [
+      "all source qualifications and provenance remain non-admitting",
+      true
+    ],
+    [
+      "legacy routing and migration state are preserved",
+      true
+    ],
+    [
+      "capability matrix preserves exact P/S roles without execution permission",
+      true
+    ],
+    [
+      "local discovery questions remain separately addressable",
+      true
+    ],
+    [
+      "domain workflows are sequential, bounded and knowledge-only",
+      true
+    ],
+    [
+      "integrated closure and historical obligations remain pinned",
+      true
+    ],
+    [
+      "exact H/O graph and scoped obligations",
+      true
+    ],
+    [
+      "domain-specific adversarial assessment witnesses",
+      true
+    ],
+    [
+      "finite domain witness: octave interval is 1200 cents",
+      true
+    ],
+    [
+      "finite domain witness: zero F0 has no pitch interval",
+      true
+    ],
+    [
+      "finite domain witness: F0 denominators match finite reference witness",
+      true
+    ],
+    [
+      "finite domain witness: unknown reference frame is excluded",
+      true
+    ],
+    [
+      "finite domain witness: pitch candidate and voicing decision remain separate",
+      true
+    ],
+    [
+      "finite domain witness: one estimate cannot satisfy two beat references",
+      true
+    ],
+    [
+      "finite domain witness: beat precision and recall use separate denominators",
+      true
+    ],
+    [
+      "finite domain witness: maximum matching avoids greedy undercount",
+      true
+    ],
+    [
+      "finite domain witness: note matching includes onset/offset/pitch/voice",
+      true
+    ],
+    [
+      "finite domain witness: wrong voice identity is not matched",
+      true
+    ],
+    [
+      "finite domain witness: duration weighting uses duration denominator",
+      true
+    ],
+    [
+      "finite domain witness: unknown segment is excluded from weighted denominator",
+      true
+    ],
+    [
+      "finite domain witness: small impairment selects BS.1116",
+      true
+    ],
+    [
+      "finite domain witness: intermediate quality selects MUSHRA BS.1534",
+      true
+    ],
+    [
+      "finite domain witness: open preference needs a separate protocol",
+      true
+    ],
+    [
+      "finite domain witness: cultural fit is not silently scored by MUSHRA",
+      true
+    ],
+    [
+      "finite domain witness: paired summary uses sample variance",
+      true
+    ],
+    [
+      "finite domain witness: one paired sample cannot estimate variance",
+      true
+    ],
+    [
+      "finite domain witness: same source group across train/test is leakage",
+      true
+    ],
+    [
+      "finite domain witness: disjoint source groups have no overlap",
+      true
+    ],
+    [
+      "finite domain witness: report identity binds every versioned dimension",
+      true
+    ],
+    [
+      "finite domain witness: changed metric version invalidates report",
+      true
+    ],
+    [
+      "finite domain witness: rights UNKNOWN blocks a high technical score",
+      true
+    ],
+    [
+      "finite domain witness: rights FAIL cannot be compensated by score",
+      true
+    ],
+    [
+      "finite domain witness: all independent gates must pass",
+      true
+    ],
+    [
+      "finite domain witness: missing gate never defaults to PASS",
+      true
+    ]
+  ]
+}

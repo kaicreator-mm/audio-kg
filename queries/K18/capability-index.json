@@ -1,0 +1,3400 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K18.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "部分音与滤波目标",
+      "d4Targets": [
+        "K18.01.01.01",
+        "K18.01.02.01",
+        "K18.01.03.01",
+        "K18.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 5,
+        "row": "| K18.01 | A01 | P | 部分音与滤波目标 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7)；[SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD01@1",
+        "K18-CL-SD02@1",
+        "K18-CL-SD03@1",
+        "K18-CL-SD04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD01",
+          "claim": "K18-CL-SD01@1",
+          "problem": "200/400/600Hz三部分音幅度.4/.2/.1，能得到什么峰值界？",
+          "reject": "拒绝该推断。以基频200Hz与部分音400/600Hz、幅度.4/.2/.1构造加法候选；同相时峰值上界.7，不等实际峰值或响度。"
+        },
+        {
+          "caseId": "SD02",
+          "claim": "K18-CL-SD02@1",
+          "problem": "幅度.5/.3/.2经响应1/.5/.1，在限定线性模型下输出多少？",
+          "reject": "拒绝该推断。题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。"
+        },
+        {
+          "caseId": "SD03",
+          "claim": "K18-CL-SD03@1",
+          "problem": "仅降低低通截止并提高共振，哪些音色变化可作候选而不改变音高目标？",
+          "reject": "拒绝该推断。相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。"
+        },
+        {
+          "caseId": "SD04",
+          "claim": "K18-CL-SD04@1",
+          "problem": "48kHz、8kHz基频，哪些正频谐波严格低于Nyquist？",
+          "reject": "拒绝该推断。48kHz下理想谐波基频8kHz，正频率严格低于Nyquist24kHz的谐波只有8/16kHz；边界24kHz不纳入此有限设计。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择加减法、带限及增益",
+      "d4Targets": [
+        "K18.01.01.01",
+        "K18.01.02.01",
+        "K18.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 6,
+        "row": "| K18.01 | A02 | P | 选择加减法、带限及增益 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD01@1",
+        "K18-CL-SD02@1",
+        "K18-CL-SD04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD01",
+          "claim": "K18-CL-SD01@1",
+          "problem": "200/400/600Hz三部分音幅度.4/.2/.1，能得到什么峰值界？",
+          "reject": "拒绝该推断。以基频200Hz与部分音400/600Hz、幅度.4/.2/.1构造加法候选；同相时峰值上界.7，不等实际峰值或响度。"
+        },
+        {
+          "caseId": "SD02",
+          "claim": "K18-CL-SD02@1",
+          "problem": "幅度.5/.3/.2经响应1/.5/.1，在限定线性模型下输出多少？",
+          "reject": "拒绝该推断。题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。"
+        },
+        {
+          "caseId": "SD04",
+          "claim": "K18-CL-SD04@1",
+          "problem": "48kHz、8kHz基频，哪些正频谐波严格低于Nyquist？",
+          "reject": "拒绝该推断。48kHz下理想谐波基频8kHz，正频率严格低于Nyquist24kHz的谐波只有8/16kHz；边界24kHz不纳入此有限设计。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "振荡器/滤波文档与能力",
+      "d4Targets": [
+        "K18.01.02.01",
+        "K18.01.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 7,
+        "row": "| K18.01 | A03 | S | 振荡器/滤波文档与能力 | [SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD02@1",
+        "K18-CL-SD03@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD02",
+          "claim": "K18-CL-SD02@1",
+          "problem": "幅度.5/.3/.2经响应1/.5/.1，在限定线性模型下输出多少？",
+          "reject": "拒绝该推断。题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。"
+        },
+        {
+          "caseId": "SD03",
+          "claim": "K18-CL-SD03@1",
+          "problem": "仅降低低通截止并提高共振，哪些音色变化可作候选而不改变音高目标？",
+          "reject": "拒绝该推断。相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.01",
+      "ability": "A04",
+      "role": "P",
+      "task": "频率相位/滤波状态",
+      "d4Targets": [
+        "K18.01.01.01",
+        "K18.01.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 8,
+        "row": "| K18.01 | A04 | P | 频率相位/滤波状态 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD01@1",
+        "K18-CL-SD03@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD01",
+          "claim": "K18-CL-SD01@1",
+          "problem": "200/400/600Hz三部分音幅度.4/.2/.1，能得到什么峰值界？",
+          "reject": "拒绝该推断。以基频200Hz与部分音400/600Hz、幅度.4/.2/.1构造加法候选；同相时峰值上界.7，不等实际峰值或响度。"
+        },
+        {
+          "caseId": "SD03",
+          "claim": "K18-CL-SD03@1",
+          "problem": "仅降低低通截止并提高共振，哪些音色变化可作候选而不改变音高目标？",
+          "reject": "拒绝该推断。相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "频谱、削波/混叠条件",
+      "d4Targets": [
+        "K18.01.01.01",
+        "K18.01.02.01",
+        "K18.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 9,
+        "row": "| K18.01 | A05 | P | 频谱、削波/混叠条件 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD01@1",
+        "K18-CL-SD02@1",
+        "K18-CL-SD04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD01",
+          "claim": "K18-CL-SD01@1",
+          "problem": "200/400/600Hz三部分音幅度.4/.2/.1，能得到什么峰值界？",
+          "reject": "拒绝该推断。以基频200Hz与部分音400/600Hz、幅度.4/.2/.1构造加法候选；同相时峰值上界.7，不等实际峰值或响度。"
+        },
+        {
+          "caseId": "SD02",
+          "claim": "K18-CL-SD02@1",
+          "problem": "幅度.5/.3/.2经响应1/.5/.1，在限定线性模型下输出多少？",
+          "reject": "拒绝该推断。题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。"
+        },
+        {
+          "caseId": "SD04",
+          "claim": "K18-CL-SD04@1",
+          "problem": "48kHz、8kHz基频，哪些正频谐波严格低于Nyquist？",
+          "reject": "拒绝该推断。48kHz下理想谐波基频8kHz，正频率严格低于Nyquist24kHz的谐波只有8/16kHz；边界24kHz不纳入此有限设计。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.01",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑部分音和滤波参数",
+      "d4Targets": [
+        "K18.01.01.01",
+        "K18.01.02.01",
+        "K18.01.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 10,
+        "row": "| K18.01 | A06 | P | 可编辑部分音和滤波参数 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD01@1",
+        "K18-CL-SD02@1",
+        "K18-CL-SD03@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD01",
+          "claim": "K18-CL-SD01@1",
+          "problem": "200/400/600Hz三部分音幅度.4/.2/.1，能得到什么峰值界？",
+          "reject": "拒绝该推断。以基频200Hz与部分音400/600Hz、幅度.4/.2/.1构造加法候选；同相时峰值上界.7，不等实际峰值或响度。"
+        },
+        {
+          "caseId": "SD02",
+          "claim": "K18-CL-SD02@1",
+          "problem": "幅度.5/.3/.2经响应1/.5/.1，在限定线性模型下输出多少？",
+          "reject": "拒绝该推断。题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。"
+        },
+        {
+          "caseId": "SD03",
+          "claim": "K18-CL-SD03@1",
+          "problem": "仅降低低通截止并提高共振，哪些音色变化可作候选而不改变音高目标？",
+          "reject": "拒绝该推断。相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "定位共振、混叠及重验",
+      "d4Targets": [
+        "K18.01.03.01",
+        "K18.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 11,
+        "row": "| K18.01 | A07 | P | 定位共振、混叠及重验 | [SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7)；[SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD03@1",
+        "K18-CL-SD04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD03",
+          "claim": "K18-CL-SD03@1",
+          "problem": "仅降低低通截止并提高共振，哪些音色变化可作候选而不改变音高目标？",
+          "reject": "拒绝该推断。相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。"
+        },
+        {
+          "caseId": "SD04",
+          "claim": "K18-CL-SD04@1",
+          "problem": "48kHz、8kHz基频，哪些正频谐波严格低于Nyquist？",
+          "reject": "拒绝该推断。48kHz下理想谐波基频8kHz，正频率严格低于Nyquist24kHz的谐波只有8/16kHz；边界24kHz不纳入此有限设计。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "载调频率/指数与边带",
+      "d4Targets": [
+        "K18.02.01.01",
+        "K18.02.02.01",
+        "K18.02.03.01",
+        "K18.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 12,
+        "row": "| K18.02 | A01 | P | 载调频率/指数与边带 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10)；[SD07/K18.02.03.01](sound-design-r1-knowledge-cases.md#L11)；[SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD05@1",
+        "K18-CL-SD06@1",
+        "K18-CL-SD07@1",
+        "K18-CL-SD08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD05",
+          "claim": "K18-CL-SD05@1",
+          "problem": "fc440 fm110 峰频偏220Hz，指数和一阶候选边带是什么？",
+          "reject": "拒绝该推断。正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。"
+        },
+        {
+          "caseId": "SD06",
+          "claim": "K18-CL-SD06@1",
+          "problem": "固定fc440，fm220或300，如何比较边带格而不直接推听觉音高？",
+          "reject": "拒绝该推断。固定fc440,fm220与fm300两种题设；第一组候选为220Hz整数格，第二组可有非简单低整数频比；边带频率格不唯一决定主观音高。"
+        },
+        {
+          "caseId": "SD07",
+          "claim": "K18-CL-SD07@1",
+          "problem": "两个余弦440与110Hz相乘，产物频率与带DC的AM有何不同？",
+          "reject": "拒绝该推断。理想环形调制cos(2π440t)×cos(2π110t)产生330/550Hz各0.5；带直流偏置的AM额外保留载波，FM通过相位/频率改变产生更多边带。"
+        },
+        {
+          "caseId": "SD08",
+          "claim": "K18-CL-SD08@1",
+          "problem": "FM指数由2降0，载波另有ADSR，怎样分析时间变化？",
+          "reject": "拒绝该推断。题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择AM/RM/FM及轨迹",
+      "d4Targets": [
+        "K18.02.01.01",
+        "K18.02.03.01",
+        "K18.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 13,
+        "row": "| K18.02 | A02 | P | 选择AM/RM/FM及轨迹 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD07/K18.02.03.01](sound-design-r1-knowledge-cases.md#L11)；[SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD05@1",
+        "K18-CL-SD07@1",
+        "K18-CL-SD08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD05",
+          "claim": "K18-CL-SD05@1",
+          "problem": "fc440 fm110 峰频偏220Hz，指数和一阶候选边带是什么？",
+          "reject": "拒绝该推断。正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。"
+        },
+        {
+          "caseId": "SD07",
+          "claim": "K18-CL-SD07@1",
+          "problem": "两个余弦440与110Hz相乘，产物频率与带DC的AM有何不同？",
+          "reject": "拒绝该推断。理想环形调制cos(2π440t)×cos(2π110t)产生330/550Hz各0.5；带直流偏置的AM额外保留载波，FM通过相位/频率改变产生更多边带。"
+        },
+        {
+          "caseId": "SD08",
+          "claim": "K18-CL-SD08@1",
+          "problem": "FM指数由2降0，载波另有ADSR，怎样分析时间变化？",
+          "reject": "拒绝该推断。题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.02",
+      "ability": "A03",
+      "role": "S",
+      "task": "foscil具名参数语义",
+      "d4Targets": [
+        "K18.02.01.01",
+        "K18.02.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 14,
+        "row": "| K18.02 | A03 | S | foscil具名参数语义 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD05@1",
+        "K18-CL-SD06@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD05",
+          "claim": "K18-CL-SD05@1",
+          "problem": "fc440 fm110 峰频偏220Hz，指数和一阶候选边带是什么？",
+          "reject": "拒绝该推断。正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。"
+        },
+        {
+          "caseId": "SD06",
+          "claim": "K18-CL-SD06@1",
+          "problem": "固定fc440，fm220或300，如何比较边带格而不直接推听觉音高？",
+          "reject": "拒绝该推断。固定fc440,fm220与fm300两种题设；第一组候选为220Hz整数格，第二组可有非简单低整数频比；边带频率格不唯一决定主观音高。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.02",
+      "ability": "A04",
+      "role": "P",
+      "task": "载调比/指数/包络身份",
+      "d4Targets": [
+        "K18.02.01.01",
+        "K18.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 15,
+        "row": "| K18.02 | A04 | P | 载调比/指数/包络身份 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD05@1",
+        "K18-CL-SD08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD05",
+          "claim": "K18-CL-SD05@1",
+          "problem": "fc440 fm110 峰频偏220Hz，指数和一阶候选边带是什么？",
+          "reject": "拒绝该推断。正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。"
+        },
+        {
+          "caseId": "SD08",
+          "claim": "K18-CL-SD08@1",
+          "problem": "FM指数由2降0，载波另有ADSR，怎样分析时间变化？",
+          "reject": "拒绝该推断。题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "边带、频率格与听感边界",
+      "d4Targets": [
+        "K18.02.01.01",
+        "K18.02.02.01",
+        "K18.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 16,
+        "row": "| K18.02 | A05 | P | 边带、频率格与听感边界 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10)；[SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD05@1",
+        "K18-CL-SD06@1",
+        "K18-CL-SD08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD05",
+          "claim": "K18-CL-SD05@1",
+          "problem": "fc440 fm110 峰频偏220Hz，指数和一阶候选边带是什么？",
+          "reject": "拒绝该推断。正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。"
+        },
+        {
+          "caseId": "SD06",
+          "claim": "K18-CL-SD06@1",
+          "problem": "固定fc440，fm220或300，如何比较边带格而不直接推听觉音高？",
+          "reject": "拒绝该推断。固定fc440,fm220与fm300两种题设；第一组候选为220Hz整数格，第二组可有非简单低整数频比；边带频率格不唯一决定主观音高。"
+        },
+        {
+          "caseId": "SD08",
+          "claim": "K18-CL-SD08@1",
+          "problem": "FM指数由2降0，载波另有ADSR，怎样分析时间变化？",
+          "reject": "拒绝该推断。题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.02",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑载调参数轨迹",
+      "d4Targets": [
+        "K18.02.01.01",
+        "K18.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 17,
+        "row": "| K18.02 | A06 | P | 可编辑载调参数轨迹 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD05@1",
+        "K18-CL-SD08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD05",
+          "claim": "K18-CL-SD05@1",
+          "problem": "fc440 fm110 峰频偏220Hz，指数和一阶候选边带是什么？",
+          "reject": "拒绝该推断。正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。"
+        },
+        {
+          "caseId": "SD08",
+          "claim": "K18-CL-SD08@1",
+          "problem": "FM指数由2降0，载波另有ADSR，怎样分析时间变化？",
+          "reject": "拒绝该推断。题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "检查指数、折返及高音",
+      "d4Targets": [
+        "K18.02.02.01",
+        "K18.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 18,
+        "row": "| K18.02 | A07 | P | 检查指数、折返及高音 | [SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10)；[SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD06@1",
+        "K18-CL-SD08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD06",
+          "claim": "K18-CL-SD06@1",
+          "problem": "固定fc440，fm220或300，如何比较边带格而不直接推听觉音高？",
+          "reject": "拒绝该推断。固定fc440,fm220与fm300两种题设；第一组候选为220Hz整数格，第二组可有非简单低整数频比；边带频率格不唯一决定主观音高。"
+        },
+        {
+          "caseId": "SD08",
+          "claim": "K18-CL-SD08@1",
+          "problem": "FM指数由2降0，载波另有ADSR，怎样分析时间变化？",
+          "reject": "拒绝该推断。题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "周期相位与多帧位置",
+      "d4Targets": [
+        "K18.03.01.01",
+        "K18.03.02.01",
+        "K18.03.03.01",
+        "K18.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 19,
+        "row": "| K18.03 | A01 | P | 周期相位与多帧位置 | [SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13)；[SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14)；[SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15)；[SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD09@1",
+        "K18-CL-SD10@1",
+        "K18-CL-SD11@1",
+        "K18-CL-SD12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD09",
+          "claim": "K18-CL-SD09@1",
+          "problem": "周期表[0,1,0,-1]相位.125，线性插值是多少？",
+          "reject": "拒绝该推断。一个周期表T=[0,1,0,-1]，相位.125对应索引.5；线性插值得.5。扫描周期相位与在多帧表中选帧是两条轴。"
+        },
+        {
+          "caseId": "SD10",
+          "claim": "K18-CL-SD10@1",
+          "problem": "A=[0,1,0,-1]、B=[0,.2,0,-.2]，morph .25在假设模型下是什么？",
+          "reject": "拒绝该推断。题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。"
+        },
+        {
+          "caseId": "SD11",
+          "claim": "K18-CL-SD11@1",
+          "problem": "相位.875跨周期边界，示意插值与抗混叠有什么不同？",
+          "reject": "拒绝该推断。周期末到首插值，T在相位.875索引3.5取−.5；guard point须按实现规范，不能复制错误末值；波表线性插值与高音抗混叠分开。"
+        },
+        {
+          "caseId": "SD12",
+          "claim": "K18-CL-SD12@1",
+          "problem": "Live12默认导入和RAW两模式，如何绑定源与实际表？",
+          "reject": "拒绝该推断。Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择源、对齐、扫描",
+      "d4Targets": [
+        "K18.03.01.01",
+        "K18.03.02.01",
+        "K18.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 20,
+        "row": "| K18.03 | A02 | P | 选择源、对齐、扫描 | [SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13)；[SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14)；[SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD09@1",
+        "K18-CL-SD10@1",
+        "K18-CL-SD12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD09",
+          "claim": "K18-CL-SD09@1",
+          "problem": "周期表[0,1,0,-1]相位.125，线性插值是多少？",
+          "reject": "拒绝该推断。一个周期表T=[0,1,0,-1]，相位.125对应索引.5；线性插值得.5。扫描周期相位与在多帧表中选帧是两条轴。"
+        },
+        {
+          "caseId": "SD10",
+          "claim": "K18-CL-SD10@1",
+          "problem": "A=[0,1,0,-1]、B=[0,.2,0,-.2]，morph .25在假设模型下是什么？",
+          "reject": "拒绝该推断。题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。"
+        },
+        {
+          "caseId": "SD12",
+          "claim": "K18-CL-SD12@1",
+          "problem": "Live12默认导入和RAW两模式，如何绑定源与实际表？",
+          "reject": "拒绝该推断。Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.03",
+      "ability": "A03",
+      "role": "S",
+      "task": "索引、wrap/guard与宿主",
+      "d4Targets": [
+        "K18.03.01.01",
+        "K18.03.03.01",
+        "K18.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 21,
+        "row": "| K18.03 | A03 | S | 索引、wrap/guard与宿主 | [SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13)；[SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15)；[SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD09@1",
+        "K18-CL-SD11@1",
+        "K18-CL-SD12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD09",
+          "claim": "K18-CL-SD09@1",
+          "problem": "周期表[0,1,0,-1]相位.125，线性插值是多少？",
+          "reject": "拒绝该推断。一个周期表T=[0,1,0,-1]，相位.125对应索引.5；线性插值得.5。扫描周期相位与在多帧表中选帧是两条轴。"
+        },
+        {
+          "caseId": "SD11",
+          "claim": "K18-CL-SD11@1",
+          "problem": "相位.875跨周期边界，示意插值与抗混叠有什么不同？",
+          "reject": "拒绝该推断。周期末到首插值，T在相位.875索引3.5取−.5；guard point须按实现规范，不能复制错误末值；波表线性插值与高音抗混叠分开。"
+        },
+        {
+          "caseId": "SD12",
+          "claim": "K18-CL-SD12@1",
+          "problem": "Live12默认导入和RAW两模式，如何绑定源与实际表？",
+          "reject": "拒绝该推断。Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.03",
+      "ability": "A04",
+      "role": "P",
+      "task": "素材、处理模式及表版本",
+      "d4Targets": [
+        "K18.03.02.01",
+        "K18.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 22,
+        "row": "| K18.03 | A04 | P | 素材、处理模式及表版本 | [SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14)；[SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD10@1",
+        "K18-CL-SD12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD10",
+          "claim": "K18-CL-SD10@1",
+          "problem": "A=[0,1,0,-1]、B=[0,.2,0,-.2]，morph .25在假设模型下是什么？",
+          "reject": "拒绝该推断。题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。"
+        },
+        {
+          "caseId": "SD12",
+          "claim": "K18-CL-SD12@1",
+          "problem": "Live12默认导入和RAW两模式，如何绑定源与实际表？",
+          "reject": "拒绝该推断。Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "插值/边界/混叠区分",
+      "d4Targets": [
+        "K18.03.02.01",
+        "K18.03.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 23,
+        "row": "| K18.03 | A05 | P | 插值/边界/混叠区分 | [SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14)；[SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD10@1",
+        "K18-CL-SD11@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD10",
+          "claim": "K18-CL-SD10@1",
+          "problem": "A=[0,1,0,-1]、B=[0,.2,0,-.2]，morph .25在假设模型下是什么？",
+          "reject": "拒绝该推断。题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。"
+        },
+        {
+          "caseId": "SD11",
+          "claim": "K18-CL-SD11@1",
+          "problem": "相位.875跨周期边界，示意插值与抗混叠有什么不同？",
+          "reject": "拒绝该推断。周期末到首插值，T在相位.875索引3.5取−.5；guard point须按实现规范，不能复制错误末值；波表线性插值与高音抗混叠分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.03",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑帧、位置及相位",
+      "d4Targets": [
+        "K18.03.01.01",
+        "K18.03.02.01",
+        "K18.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 24,
+        "row": "| K18.03 | A06 | P | 可编辑帧、位置及相位 | [SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13)；[SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14)；[SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD09@1",
+        "K18-CL-SD10@1",
+        "K18-CL-SD12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD09",
+          "claim": "K18-CL-SD09@1",
+          "problem": "周期表[0,1,0,-1]相位.125，线性插值是多少？",
+          "reject": "拒绝该推断。一个周期表T=[0,1,0,-1]，相位.125对应索引.5；线性插值得.5。扫描周期相位与在多帧表中选帧是两条轴。"
+        },
+        {
+          "caseId": "SD10",
+          "claim": "K18-CL-SD10@1",
+          "problem": "A=[0,1,0,-1]、B=[0,.2,0,-.2]，morph .25在假设模型下是什么？",
+          "reject": "拒绝该推断。题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。"
+        },
+        {
+          "caseId": "SD12",
+          "claim": "K18-CL-SD12@1",
+          "problem": "Live12默认导入和RAW两模式，如何绑定源与实际表？",
+          "reject": "拒绝该推断。Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "边界突变/源替换复核",
+      "d4Targets": [
+        "K18.03.03.01",
+        "K18.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 25,
+        "row": "| K18.03 | A07 | P | 边界突变/源替换复核 | [SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15)；[SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD11@1",
+        "K18-CL-SD12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD11",
+          "claim": "K18-CL-SD11@1",
+          "problem": "相位.875跨周期边界，示意插值与抗混叠有什么不同？",
+          "reject": "拒绝该推断。周期末到首插值，T在相位.875索引3.5取−.5；guard point须按实现规范，不能复制错误末值；波表线性插值与高音抗混叠分开。"
+        },
+        {
+          "caseId": "SD12",
+          "claim": "K18-CL-SD12@1",
+          "problem": "Live12默认导入和RAW两模式，如何绑定源与实际表？",
+          "reject": "拒绝该推断。Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "粒时序/窗/密度",
+      "d4Targets": [
+        "K18.04.01.01",
+        "K18.04.02.01",
+        "K18.04.03.01",
+        "K18.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 26,
+        "row": "| K18.04 | A01 | P | 粒时序/窗/密度 | [SD13/K18.04.01.01](sound-design-r1-knowledge-cases.md#L17)；[SD14/K18.04.02.01](sound-design-r1-knowledge-cases.md#L18)；[SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19)；[SD16/K18.04.04.01](sound-design-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD13@1",
+        "K18-CL-SD14@1",
+        "K18-CL-SD15@1",
+        "K18-CL-SD16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD13",
+          "claim": "K18-CL-SD13@1",
+          "problem": "50ms颗粒、40粒/s，稳态平均重叠多少？",
+          "reject": "拒绝该推断。颗粒时长50ms、均匀密度40粒/s，稳态理想平均重叠2；单颗粒窗、幅度和相关性决定合成峰值。"
+        },
+        {
+          "caseId": "SD14",
+          "claim": "K18-CL-SD14@1",
+          "problem": "粒内两倍读取与慢移粒起点分别控制什么？",
+          "reject": "拒绝该推断。fog的粒内读速率xtrans和粒起点aspd分开；题设按2倍读取同一段提高粒内音高，粒起点轨迹慢移可独立改变时间组织。"
+        },
+        {
+          "caseId": "SD15",
+          "claim": "K18-CL-SD15@1",
+          "problem": "长度48000、起点47000、粒长2400且步进1，无wrap/padding是否合格？",
+          "reject": "拒绝该推断。题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。"
+        },
+        {
+          "caseId": "SD16",
+          "claim": "K18-CL-SD16@1",
+          "problem": "改变seed而素材和其他参数相同，旧评审能否继承？",
+          "reject": "拒绝该推断。固定颗粒起点序列、随机种子、密度、窗、素材版本及宿主；改变seed使随机纹理结果不可直接沿用旧评审。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择起点及粒内读速",
+      "d4Targets": [
+        "K18.04.01.01",
+        "K18.04.02.01",
+        "K18.04.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 27,
+        "row": "| K18.04 | A02 | P | 选择起点及粒内读速 | [SD13/K18.04.01.01](sound-design-r1-knowledge-cases.md#L17)；[SD14/K18.04.02.01](sound-design-r1-knowledge-cases.md#L18)；[SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD13@1",
+        "K18-CL-SD14@1",
+        "K18-CL-SD15@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD13",
+          "claim": "K18-CL-SD13@1",
+          "problem": "50ms颗粒、40粒/s，稳态平均重叠多少？",
+          "reject": "拒绝该推断。颗粒时长50ms、均匀密度40粒/s，稳态理想平均重叠2；单颗粒窗、幅度和相关性决定合成峰值。"
+        },
+        {
+          "caseId": "SD14",
+          "claim": "K18-CL-SD14@1",
+          "problem": "粒内两倍读取与慢移粒起点分别控制什么？",
+          "reject": "拒绝该推断。fog的粒内读速率xtrans和粒起点aspd分开；题设按2倍读取同一段提高粒内音高，粒起点轨迹慢移可独立改变时间组织。"
+        },
+        {
+          "caseId": "SD15",
+          "claim": "K18-CL-SD15@1",
+          "problem": "长度48000、起点47000、粒长2400且步进1，无wrap/padding是否合格？",
+          "reject": "拒绝该推断。题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.04",
+      "ability": "A03",
+      "role": "S",
+      "task": "grain/fog具体单位",
+      "d4Targets": [
+        "K18.04.02.01",
+        "K18.04.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 28,
+        "row": "| K18.04 | A03 | S | grain/fog具体单位 | [SD14/K18.04.02.01](sound-design-r1-knowledge-cases.md#L18)；[SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD14@1",
+        "K18-CL-SD15@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD14",
+          "claim": "K18-CL-SD14@1",
+          "problem": "粒内两倍读取与慢移粒起点分别控制什么？",
+          "reject": "拒绝该推断。fog的粒内读速率xtrans和粒起点aspd分开；题设按2倍读取同一段提高粒内音高，粒起点轨迹慢移可独立改变时间组织。"
+        },
+        {
+          "caseId": "SD15",
+          "claim": "K18-CL-SD15@1",
+          "problem": "长度48000、起点47000、粒长2400且步进1，无wrap/padding是否合格？",
+          "reject": "拒绝该推断。题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.04",
+      "ability": "A04",
+      "role": "P",
+      "task": "颗粒、随机序列、源身份",
+      "d4Targets": [
+        "K18.04.03.01",
+        "K18.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 29,
+        "row": "| K18.04 | A04 | P | 颗粒、随机序列、源身份 | [SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19)；[SD16/K18.04.04.01](sound-design-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD15@1",
+        "K18-CL-SD16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD15",
+          "claim": "K18-CL-SD15@1",
+          "problem": "长度48000、起点47000、粒长2400且步进1，无wrap/padding是否合格？",
+          "reject": "拒绝该推断。题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。"
+        },
+        {
+          "caseId": "SD16",
+          "claim": "K18-CL-SD16@1",
+          "problem": "改变seed而素材和其他参数相同，旧评审能否继承？",
+          "reject": "拒绝该推断。固定颗粒起点序列、随机种子、密度、窗、素材版本及宿主；改变seed使随机纹理结果不可直接沿用旧评审。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "重叠及边界、音高与时长",
+      "d4Targets": [
+        "K18.04.01.01",
+        "K18.04.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 30,
+        "row": "| K18.04 | A05 | P | 重叠及边界、音高与时长 | [SD13/K18.04.01.01](sound-design-r1-knowledge-cases.md#L17)；[SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD13@1",
+        "K18-CL-SD15@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD13",
+          "claim": "K18-CL-SD13@1",
+          "problem": "50ms颗粒、40粒/s，稳态平均重叠多少？",
+          "reject": "拒绝该推断。颗粒时长50ms、均匀密度40粒/s，稳态理想平均重叠2；单颗粒窗、幅度和相关性决定合成峰值。"
+        },
+        {
+          "caseId": "SD15",
+          "claim": "K18-CL-SD15@1",
+          "problem": "长度48000、起点47000、粒长2400且步进1，无wrap/padding是否合格？",
+          "reject": "拒绝该推断。题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑粒事件与控制",
+      "d4Targets": [
+        "K18.04.02.01",
+        "K18.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 31,
+        "row": "| K18.04 | A06 | P | 可编辑粒事件与控制 | [SD14/K18.04.02.01](sound-design-r1-knowledge-cases.md#L18)；[SD16/K18.04.04.01](sound-design-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD14@1",
+        "K18-CL-SD16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD14",
+          "claim": "K18-CL-SD14@1",
+          "problem": "粒内两倍读取与慢移粒起点分别控制什么？",
+          "reject": "拒绝该推断。fog的粒内读速率xtrans和粒起点aspd分开；题设按2倍读取同一段提高粒内音高，粒起点轨迹慢移可独立改变时间组织。"
+        },
+        {
+          "caseId": "SD16",
+          "claim": "K18-CL-SD16@1",
+          "problem": "改变seed而素材和其他参数相同，旧评审能否继承？",
+          "reject": "拒绝该推断。固定颗粒起点序列、随机种子、密度、窗、素材版本及宿主；改变seed使随机纹理结果不可直接沿用旧评审。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "查越界、种子及复现",
+      "d4Targets": [
+        "K18.04.03.01",
+        "K18.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 32,
+        "row": "| K18.04 | A07 | P | 查越界、种子及复现 | [SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19)；[SD16/K18.04.04.01](sound-design-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD15@1",
+        "K18-CL-SD16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD15",
+          "claim": "K18-CL-SD15@1",
+          "problem": "长度48000、起点47000、粒长2400且步进1，无wrap/padding是否合格？",
+          "reject": "拒绝该推断。题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。"
+        },
+        {
+          "caseId": "SD16",
+          "claim": "K18-CL-SD16@1",
+          "problem": "改变seed而素材和其他参数相同，旧评审能否继承？",
+          "reject": "拒绝该推断。固定颗粒起点序列、随机种子、密度、窗、素材版本及宿主；改变seed使随机纹理结果不可直接沿用旧评审。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "激励、反馈与损耗",
+      "d4Targets": [
+        "K18.05.01.01",
+        "K18.05.02.01",
+        "K18.05.03.01",
+        "K18.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 33,
+        "row": "| K18.05 | A01 | P | 激励、反馈与损耗 | [SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22)；[SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23)；[SD20/K18.05.04.01](sound-design-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD17@1",
+        "K18-CL-SD18@1",
+        "K18-CL-SD19@1",
+        "K18-CL-SD20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD17",
+          "claim": "K18-CL-SD17@1",
+          "problem": "fs48000、循环100 samples，理想频率多少，440Hz需何延迟？",
+          "reject": "拒绝该推断。理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。"
+        },
+        {
+          "caseId": "SD18",
+          "claim": "K18-CL-SD18@1",
+          "problem": "wgpluck2中拨弦/拾音/反射各是什么控制，反射系数合法域？",
+          "reject": "拒绝该推断。wgpluck2将拨弦位置、拾音位置及损耗系数分开，反射系数需严格0<r<1（表述为0与1之间）。"
+        },
+        {
+          "caseId": "SD19",
+          "claim": "K18-CL-SD19@1",
+          "problem": "脉冲后g=.5、1、>1的有限标量反馈分别怎样？",
+          "reject": "拒绝该推断。有限标量反馈x[n]=u[n]+g*x[n−1]，脉冲后g=.5时1,.5,.25；g=1不衰减、g>1增长。"
+        },
+        {
+          "caseId": "SD20",
+          "claim": "K18-CL-SD20@1",
+          "problem": "短激励衰减模型与样本回放的可编辑参数有什么区别？",
+          "reject": "拒绝该推断。题设模型A用短激励+衰减回路，B用音频样本回放；模型参数可改激励/损耗，样本需另处理，不能据近似谱质声称真实器物等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "选择模型/参数及限制",
+      "d4Targets": [
+        "K18.05.01.01",
+        "K18.05.02.01",
+        "K18.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 34,
+        "row": "| K18.05 | A02 | P | 选择模型/参数及限制 | [SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22)；[SD20/K18.05.04.01](sound-design-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD17@1",
+        "K18-CL-SD18@1",
+        "K18-CL-SD20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD17",
+          "claim": "K18-CL-SD17@1",
+          "problem": "fs48000、循环100 samples，理想频率多少，440Hz需何延迟？",
+          "reject": "拒绝该推断。理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。"
+        },
+        {
+          "caseId": "SD18",
+          "claim": "K18-CL-SD18@1",
+          "problem": "wgpluck2中拨弦/拾音/反射各是什么控制，反射系数合法域？",
+          "reject": "拒绝该推断。wgpluck2将拨弦位置、拾音位置及损耗系数分开，反射系数需严格0<r<1（表述为0与1之间）。"
+        },
+        {
+          "caseId": "SD20",
+          "claim": "K18-CL-SD20@1",
+          "problem": "短激励衰减模型与样本回放的可编辑参数有什么区别？",
+          "reject": "拒绝该推断。题设模型A用短激励+衰减回路，B用音频样本回放；模型参数可改激励/损耗，样本需另处理，不能据近似谱质声称真实器物等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "pluck/wgpluck2/wguide1",
+      "d4Targets": [
+        "K18.05.01.01",
+        "K18.05.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 35,
+        "row": "| K18.05 | A03 | S | pluck/wgpluck2/wguide1 | [SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD17@1",
+        "K18-CL-SD18@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD17",
+          "claim": "K18-CL-SD17@1",
+          "problem": "fs48000、循环100 samples，理想频率多少，440Hz需何延迟？",
+          "reject": "拒绝该推断。理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。"
+        },
+        {
+          "caseId": "SD18",
+          "claim": "K18-CL-SD18@1",
+          "problem": "wgpluck2中拨弦/拾音/反射各是什么控制，反射系数合法域？",
+          "reject": "拒绝该推断。wgpluck2将拨弦位置、拾音位置及损耗系数分开，反射系数需严格0<r<1（表述为0与1之间）。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.05",
+      "ability": "A04",
+      "role": "P",
+      "task": "激励、延迟、衰减记录",
+      "d4Targets": [
+        "K18.05.02.01",
+        "K18.05.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 36,
+        "row": "| K18.05 | A04 | P | 激励、延迟、衰减记录 | [SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22)；[SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD18@1",
+        "K18-CL-SD19@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD18",
+          "claim": "K18-CL-SD18@1",
+          "problem": "wgpluck2中拨弦/拾音/反射各是什么控制，反射系数合法域？",
+          "reject": "拒绝该推断。wgpluck2将拨弦位置、拾音位置及损耗系数分开，反射系数需严格0<r<1（表述为0与1之间）。"
+        },
+        {
+          "caseId": "SD19",
+          "claim": "K18-CL-SD19@1",
+          "problem": "脉冲后g=.5、1、>1的有限标量反馈分别怎样？",
+          "reject": "拒绝该推断。有限标量反馈x[n]=u[n]+g*x[n−1]，脉冲后g=.5时1,.5,.25；g=1不衰减、g>1增长。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "理想反馈与实测区分",
+      "d4Targets": [
+        "K18.05.01.01",
+        "K18.05.03.01",
+        "K18.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 37,
+        "row": "| K18.05 | A05 | P | 理想反馈与实测区分 | [SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23)；[SD20/K18.05.04.01](sound-design-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD17@1",
+        "K18-CL-SD19@1",
+        "K18-CL-SD20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD17",
+          "claim": "K18-CL-SD17@1",
+          "problem": "fs48000、循环100 samples，理想频率多少，440Hz需何延迟？",
+          "reject": "拒绝该推断。理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。"
+        },
+        {
+          "caseId": "SD19",
+          "claim": "K18-CL-SD19@1",
+          "problem": "脉冲后g=.5、1、>1的有限标量反馈分别怎样？",
+          "reject": "拒绝该推断。有限标量反馈x[n]=u[n]+g*x[n−1]，脉冲后g=.5时1,.5,.25；g=1不衰减、g>1增长。"
+        },
+        {
+          "caseId": "SD20",
+          "claim": "K18-CL-SD20@1",
+          "problem": "短激励衰减模型与样本回放的可编辑参数有什么区别？",
+          "reject": "拒绝该推断。题设模型A用短激励+衰减回路，B用音频样本回放；模型参数可改激励/损耗，样本需另处理，不能据近似谱质声称真实器物等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.05",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑延迟及激励参数",
+      "d4Targets": [
+        "K18.05.01.01",
+        "K18.05.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 38,
+        "row": "| K18.05 | A06 | P | 可编辑延迟及激励参数 | [SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD17@1",
+        "K18-CL-SD18@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD17",
+          "claim": "K18-CL-SD17@1",
+          "problem": "fs48000、循环100 samples，理想频率多少，440Hz需何延迟？",
+          "reject": "拒绝该推断。理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。"
+        },
+        {
+          "caseId": "SD18",
+          "claim": "K18-CL-SD18@1",
+          "problem": "wgpluck2中拨弦/拾音/反射各是什么控制，反射系数合法域？",
+          "reject": "拒绝该推断。wgpluck2将拨弦位置、拾音位置及损耗系数分开，反射系数需严格0<r<1（表述为0与1之间）。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "核音准、稳定及替代",
+      "d4Targets": [
+        "K18.05.01.01",
+        "K18.05.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 39,
+        "row": "| K18.05 | A07 | P | 核音准、稳定及替代 | [SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD17@1",
+        "K18-CL-SD19@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD17",
+          "claim": "K18-CL-SD17@1",
+          "problem": "fs48000、循环100 samples，理想频率多少，440Hz需何延迟？",
+          "reject": "拒绝该推断。理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。"
+        },
+        {
+          "caseId": "SD19",
+          "claim": "K18-CL-SD19@1",
+          "problem": "脉冲后g=.5、1、>1的有限标量反馈分别怎样？",
+          "reject": "拒绝该推断。有限标量反馈x[n]=u[n]+g*x[n−1]，脉冲后g=.5时1,.5,.25；g=1不衰减、g>1增长。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "根音、键域及力度层",
+      "d4Targets": [
+        "K18.06.01.01",
+        "K18.06.02.01",
+        "K18.06.03.01",
+        "K18.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 40,
+        "row": "| K18.06 | A01 | P | 根音、键域及力度层 | [SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5)；[SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6)；[SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD21@1",
+        "K18-CL-SD22@1",
+        "K18-CL-SD23@1",
+        "K18-CL-SD24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD21",
+          "claim": "K18-CL-SD21@1",
+          "problem": "根音60、键域60–63，note62的读速比及note64匹配情况？",
+          "reject": "拒绝该推断。SFZ题设根音60、键域60–63；在12平均律正常跟踪下note62读速比2^(2/12)约1.12246，note64不匹配此region。"
+        },
+        {
+          "caseId": "SD22",
+          "claim": "K18-CL-SD22@1",
+          "problem": "力度层1–63及64–127，63、64、0怎样路由？",
+          "reject": "拒绝该推断。两力度层1–63、64–127，63/64各命中一层；velocity0为note-off而非第三层。重叠region可能叠加，不能默认唯一。"
+        },
+        {
+          "caseId": "SD23",
+          "claim": "K18-CL-SD23@1",
+          "problem": "no_loop/one_shot/loop_continuous/loop_sustain要保留哪些区别？",
+          "reject": "拒绝该推断。明确no_loop/one_shot/loop_continuous/loop_sustain，区分note-off、循环与释放样本；源帧坐标和播放器含端点规则必须固定。"
+        },
+        {
+          "caseId": "SD24",
+          "claim": "K18-CL-SD24@1",
+          "problem": "采样缺失，能否用同名文件代替而认定预设等价？",
+          "reject": "拒绝该推断。采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "区域选择与依赖检查",
+      "d4Targets": [
+        "K18.06.01.01",
+        "K18.06.02.01",
+        "K18.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 41,
+        "row": "| K18.06 | A02 | P | 区域选择与依赖检查 | [SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5)；[SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD21@1",
+        "K18-CL-SD22@1",
+        "K18-CL-SD24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD21",
+          "claim": "K18-CL-SD21@1",
+          "problem": "根音60、键域60–63，note62的读速比及note64匹配情况？",
+          "reject": "拒绝该推断。SFZ题设根音60、键域60–63；在12平均律正常跟踪下note62读速比2^(2/12)约1.12246，note64不匹配此region。"
+        },
+        {
+          "caseId": "SD22",
+          "claim": "K18-CL-SD22@1",
+          "problem": "力度层1–63及64–127，63、64、0怎样路由？",
+          "reject": "拒绝该推断。两力度层1–63、64–127，63/64各命中一层；velocity0为note-off而非第三层。重叠region可能叠加，不能默认唯一。"
+        },
+        {
+          "caseId": "SD24",
+          "claim": "K18-CL-SD24@1",
+          "problem": "采样缺失，能否用同名文件代替而认定预设等价？",
+          "reject": "拒绝该推断。采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.06",
+      "ability": "A03",
+      "role": "S",
+      "task": "SFZ与播放器资格",
+      "d4Targets": [
+        "K18.06.01.01",
+        "K18.06.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 42,
+        "row": "| K18.06 | A03 | S | SFZ与播放器资格 | [SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5)；[SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD21@1",
+        "K18-CL-SD23@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD21",
+          "claim": "K18-CL-SD21@1",
+          "problem": "根音60、键域60–63，note62的读速比及note64匹配情况？",
+          "reject": "拒绝该推断。SFZ题设根音60、键域60–63；在12平均律正常跟踪下note62读速比2^(2/12)约1.12246，note64不匹配此region。"
+        },
+        {
+          "caseId": "SD23",
+          "claim": "K18-CL-SD23@1",
+          "problem": "no_loop/one_shot/loop_continuous/loop_sustain要保留哪些区别？",
+          "reject": "拒绝该推断。明确no_loop/one_shot/loop_continuous/loop_sustain，区分note-off、循环与释放样本；源帧坐标和播放器含端点规则必须固定。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.06",
+      "ability": "A04",
+      "role": "P",
+      "task": "样本、区域、循环身份",
+      "d4Targets": [
+        "K18.06.03.01",
+        "K18.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 43,
+        "row": "| K18.06 | A04 | P | 样本、区域、循环身份 | [SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD23@1",
+        "K18-CL-SD24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD23",
+          "claim": "K18-CL-SD23@1",
+          "problem": "no_loop/one_shot/loop_continuous/loop_sustain要保留哪些区别？",
+          "reject": "拒绝该推断。明确no_loop/one_shot/loop_continuous/loop_sustain，区分note-off、循环与释放样本；源帧坐标和播放器含端点规则必须固定。"
+        },
+        {
+          "caseId": "SD24",
+          "claim": "K18-CL-SD24@1",
+          "problem": "采样缺失，能否用同名文件代替而认定预设等价？",
+          "reject": "拒绝该推断。采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "覆盖/重叠/缺失与重开",
+      "d4Targets": [
+        "K18.06.01.01",
+        "K18.06.02.01",
+        "K18.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 44,
+        "row": "| K18.06 | A05 | P | 覆盖/重叠/缺失与重开 | [SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5)；[SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD21@1",
+        "K18-CL-SD22@1",
+        "K18-CL-SD24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD21",
+          "claim": "K18-CL-SD21@1",
+          "problem": "根音60、键域60–63，note62的读速比及note64匹配情况？",
+          "reject": "拒绝该推断。SFZ题设根音60、键域60–63；在12平均律正常跟踪下note62读速比2^(2/12)约1.12246，note64不匹配此region。"
+        },
+        {
+          "caseId": "SD22",
+          "claim": "K18-CL-SD22@1",
+          "problem": "力度层1–63及64–127，63、64、0怎样路由？",
+          "reject": "拒绝该推断。两力度层1–63、64–127，63/64各命中一层；velocity0为note-off而非第三层。重叠region可能叠加，不能默认唯一。"
+        },
+        {
+          "caseId": "SD24",
+          "claim": "K18-CL-SD24@1",
+          "problem": "采样缺失，能否用同名文件代替而认定预设等价？",
+          "reject": "拒绝该推断。采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.06",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑区域及素材清单",
+      "d4Targets": [
+        "K18.06.01.01",
+        "K18.06.02.01",
+        "K18.06.03.01",
+        "K18.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 45,
+        "row": "| K18.06 | A06 | P | 可编辑区域及素材清单 | [SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5)；[SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6)；[SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD21@1",
+        "K18-CL-SD22@1",
+        "K18-CL-SD23@1",
+        "K18-CL-SD24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD21",
+          "claim": "K18-CL-SD21@1",
+          "problem": "根音60、键域60–63，note62的读速比及note64匹配情况？",
+          "reject": "拒绝该推断。SFZ题设根音60、键域60–63；在12平均律正常跟踪下note62读速比2^(2/12)约1.12246，note64不匹配此region。"
+        },
+        {
+          "caseId": "SD22",
+          "claim": "K18-CL-SD22@1",
+          "problem": "力度层1–63及64–127，63、64、0怎样路由？",
+          "reject": "拒绝该推断。两力度层1–63、64–127，63/64各命中一层；velocity0为note-off而非第三层。重叠region可能叠加，不能默认唯一。"
+        },
+        {
+          "caseId": "SD23",
+          "claim": "K18-CL-SD23@1",
+          "problem": "no_loop/one_shot/loop_continuous/loop_sustain要保留哪些区别？",
+          "reject": "拒绝该推断。明确no_loop/one_shot/loop_continuous/loop_sustain，区分note-off、循环与释放样本；源帧坐标和播放器含端点规则必须固定。"
+        },
+        {
+          "caseId": "SD24",
+          "claim": "K18-CL-SD24@1",
+          "problem": "采样缺失，能否用同名文件代替而认定预设等价？",
+          "reject": "拒绝该推断。采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "修根音、层、循环或回滚",
+      "d4Targets": [
+        "K18.06.02.01",
+        "K18.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 46,
+        "row": "| K18.06 | A07 | P | 修根音、层、循环或回滚 | [SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD22@1",
+        "K18-CL-SD24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD22",
+          "claim": "K18-CL-SD22@1",
+          "problem": "力度层1–63及64–127，63、64、0怎样路由？",
+          "reject": "拒绝该推断。两力度层1–63、64–127，63/64各命中一层；velocity0为note-off而非第三层。重叠region可能叠加，不能默认唯一。"
+        },
+        {
+          "caseId": "SD24",
+          "claim": "K18-CL-SD24@1",
+          "problem": "采样缺失，能否用同名文件代替而认定预设等价？",
+          "reject": "拒绝该推断。采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "包络门控及调制",
+      "d4Targets": [
+        "K18.07.01.01",
+        "K18.07.02.01",
+        "K18.07.03.01",
+        "K18.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 47,
+        "row": "| K18.07 | A01 | P | 包络门控及调制 | [SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9)；[SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10)；[SD27/K18.07.03.01](sound-design-r2-knowledge-cases.md#L11)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD25@1",
+        "K18-CL-SD26@1",
+        "K18-CL-SD27@1",
+        "K18-CL-SD28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD25",
+          "claim": "K18-CL-SD25@1",
+          "problem": "attack .1s，note-off .05s，线性释放应从哪一值开始？",
+          "reject": "拒绝该推断。线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。"
+        },
+        {
+          "caseId": "SD26",
+          "claim": "K18-CL-SD26@1",
+          "problem": "Csound adsr与madsr在预定长度和note-off上的差异？",
+          "reject": "拒绝该推断。Csound7 adsr依预定音符长度计算sustain，不适MIDI事件；madsr采用note-off释放，attack/decay/release不得为0。"
+        },
+        {
+          "caseId": "SD27",
+          "claim": "K18-CL-SD27@1",
+          "problem": "120BPM每两拍一个LFO周期，速率多少？",
+          "reject": "拒绝该推断。120BPM、LFO每2拍一周期则1Hz；自由Hz模式与tempo sync不同；双极[-1,1]、单极[0,1]需区分。"
+        },
+        {
+          "caseId": "SD28",
+          "claim": "K18-CL-SD28@1",
+          "problem": "基础.5，add .2及-.1，multiply .8及1，两种结果？",
+          "reject": "拒绝该推断。Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "选固定时长或实时门控",
+      "d4Targets": [
+        "K18.07.01.01",
+        "K18.07.02.01",
+        "K18.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 48,
+        "row": "| K18.07 | A02 | P | 选固定时长或实时门控 | [SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9)；[SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD25@1",
+        "K18-CL-SD26@1",
+        "K18-CL-SD28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD25",
+          "claim": "K18-CL-SD25@1",
+          "problem": "attack .1s，note-off .05s，线性释放应从哪一值开始？",
+          "reject": "拒绝该推断。线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。"
+        },
+        {
+          "caseId": "SD26",
+          "claim": "K18-CL-SD26@1",
+          "problem": "Csound adsr与madsr在预定长度和note-off上的差异？",
+          "reject": "拒绝该推断。Csound7 adsr依预定音符长度计算sustain，不适MIDI事件；madsr采用note-off释放，attack/decay/release不得为0。"
+        },
+        {
+          "caseId": "SD28",
+          "claim": "K18-CL-SD28@1",
+          "problem": "基础.5，add .2及-.1，multiply .8及1，两种结果？",
+          "reject": "拒绝该推断。Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.07",
+      "ability": "A03",
+      "role": "S",
+      "task": "ADSR、矩阵具体语义",
+      "d4Targets": [
+        "K18.07.02.01",
+        "K18.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 49,
+        "row": "| K18.07 | A03 | S | ADSR、矩阵具体语义 | [SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD26@1",
+        "K18-CL-SD28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD26",
+          "claim": "K18-CL-SD26@1",
+          "problem": "Csound adsr与madsr在预定长度和note-off上的差异？",
+          "reject": "拒绝该推断。Csound7 adsr依预定音符长度计算sustain，不适MIDI事件；madsr采用note-off释放，attack/decay/release不得为0。"
+        },
+        {
+          "caseId": "SD28",
+          "claim": "K18-CL-SD28@1",
+          "problem": "基础.5，add .2及-.1，multiply .8及1，两种结果？",
+          "reject": "拒绝该推断。Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.07",
+      "ability": "A04",
+      "role": "P",
+      "task": "包络阶段、LFO及目标",
+      "d4Targets": [
+        "K18.07.01.01",
+        "K18.07.03.01",
+        "K18.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 50,
+        "row": "| K18.07 | A04 | P | 包络阶段、LFO及目标 | [SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9)；[SD27/K18.07.03.01](sound-design-r2-knowledge-cases.md#L11)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD25@1",
+        "K18-CL-SD27@1",
+        "K18-CL-SD28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD25",
+          "claim": "K18-CL-SD25@1",
+          "problem": "attack .1s，note-off .05s，线性释放应从哪一值开始？",
+          "reject": "拒绝该推断。线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。"
+        },
+        {
+          "caseId": "SD27",
+          "claim": "K18-CL-SD27@1",
+          "problem": "120BPM每两拍一个LFO周期，速率多少？",
+          "reject": "拒绝该推断。120BPM、LFO每2拍一周期则1Hz；自由Hz模式与tempo sync不同；双极[-1,1]、单极[0,1]需区分。"
+        },
+        {
+          "caseId": "SD28",
+          "claim": "K18-CL-SD28@1",
+          "problem": "基础.5，add .2及-.1，multiply .8及1，两种结果？",
+          "reject": "拒绝该推断。Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "时间、组合及范围",
+      "d4Targets": [
+        "K18.07.01.01",
+        "K18.07.02.01",
+        "K18.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 51,
+        "row": "| K18.07 | A05 | P | 时间、组合及范围 | [SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9)；[SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD25@1",
+        "K18-CL-SD26@1",
+        "K18-CL-SD28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD25",
+          "claim": "K18-CL-SD25@1",
+          "problem": "attack .1s，note-off .05s，线性释放应从哪一值开始？",
+          "reject": "拒绝该推断。线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。"
+        },
+        {
+          "caseId": "SD26",
+          "claim": "K18-CL-SD26@1",
+          "problem": "Csound adsr与madsr在预定长度和note-off上的差异？",
+          "reject": "拒绝该推断。Csound7 adsr依预定音符长度计算sustain，不适MIDI事件；madsr采用note-off释放，attack/decay/release不得为0。"
+        },
+        {
+          "caseId": "SD28",
+          "claim": "K18-CL-SD28@1",
+          "problem": "基础.5，add .2及-.1，multiply .8及1，两种结果？",
+          "reject": "拒绝该推断。Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.07",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑曲线/矩阵",
+      "d4Targets": [
+        "K18.07.01.01",
+        "K18.07.03.01",
+        "K18.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 52,
+        "row": "| K18.07 | A06 | P | 可编辑曲线/矩阵 | [SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9)；[SD27/K18.07.03.01](sound-design-r2-knowledge-cases.md#L11)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD25@1",
+        "K18-CL-SD27@1",
+        "K18-CL-SD28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD25",
+          "claim": "K18-CL-SD25@1",
+          "problem": "attack .1s，note-off .05s，线性释放应从哪一值开始？",
+          "reject": "拒绝该推断。线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。"
+        },
+        {
+          "caseId": "SD27",
+          "claim": "K18-CL-SD27@1",
+          "problem": "120BPM每两拍一个LFO周期，速率多少？",
+          "reject": "拒绝该推断。120BPM、LFO每2拍一周期则1Hz；自由Hz模式与tempo sync不同；双极[-1,1]、单极[0,1]需区分。"
+        },
+        {
+          "caseId": "SD28",
+          "claim": "K18-CL-SD28@1",
+          "problem": "基础.5，add .2及-.1，multiply .8及1，两种结果？",
+          "reject": "拒绝该推断。Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "修单位、释放及冲突",
+      "d4Targets": [
+        "K18.07.02.01",
+        "K18.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 53,
+        "row": "| K18.07 | A07 | P | 修单位、释放及冲突 | [SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD26@1",
+        "K18-CL-SD28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD26",
+          "claim": "K18-CL-SD26@1",
+          "problem": "Csound adsr与madsr在预定长度和note-off上的差异？",
+          "reject": "拒绝该推断。Csound7 adsr依预定音符长度计算sustain，不适MIDI事件；madsr采用note-off释放，attack/decay/release不得为0。"
+        },
+        {
+          "caseId": "SD28",
+          "claim": "K18-CL-SD28@1",
+          "problem": "基础.5，add .2及-.1，multiply .8及1，两种结果？",
+          "reject": "拒绝该推断。Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "端口、通道与反馈",
+      "d4Targets": [
+        "K18.08.01.01",
+        "K18.08.02.01",
+        "K18.08.03.01",
+        "K18.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 54,
+        "row": "| K18.08 | A01 | P | 端口、通道与反馈 | [SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13)；[SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14)；[SD31/K18.08.03.01](sound-design-r2-knowledge-cases.md#L15)；[SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD29@1",
+        "K18-CL-SD30@1",
+        "K18-CL-SD31@1",
+        "K18-CL-SD32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD29",
+          "claim": "K18-CL-SD29@1",
+          "problem": "Rack三声部primary，次级mono 2或[2,3]分别如何映射？",
+          "reject": "拒绝该推断。区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。"
+        },
+        {
+          "caseId": "SD30",
+          "claim": "K18-CL-SD30@1",
+          "problem": "声明延迟节点之外仍有零延迟子环，如何判候选？",
+          "reject": "拒绝该推断。Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。"
+        },
+        {
+          "caseId": "SD31",
+          "claim": "K18-CL-SD31@1",
+          "problem": "基准440Hz的1V/oct示意，±1V各映射多少？",
+          "reject": "拒绝该推断。1V/oct在基准440Hz下+1V→880Hz、−1V→220Hz；控制电压和频率需明确基准，Rack模型不等实体模块。"
+        },
+        {
+          "caseId": "SD32",
+          "claim": "K18-CL-SD32@1",
+          "problem": "OSC→FILTER→AMP与OSC→AMP→FILTER，是否一般等价？",
+          "reject": "拒绝该推断。patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "连线、审查循环和回滚",
+      "d4Targets": [
+        "K18.08.01.01",
+        "K18.08.02.01",
+        "K18.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 55,
+        "row": "| K18.08 | A02 | P | 连线、审查循环和回滚 | [SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13)；[SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14)；[SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD29@1",
+        "K18-CL-SD30@1",
+        "K18-CL-SD32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD29",
+          "claim": "K18-CL-SD29@1",
+          "problem": "Rack三声部primary，次级mono 2或[2,3]分别如何映射？",
+          "reject": "拒绝该推断。区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。"
+        },
+        {
+          "caseId": "SD30",
+          "claim": "K18-CL-SD30@1",
+          "problem": "声明延迟节点之外仍有零延迟子环，如何判候选？",
+          "reject": "拒绝该推断。Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。"
+        },
+        {
+          "caseId": "SD32",
+          "claim": "K18-CL-SD32@1",
+          "problem": "OSC→FILTER→AMP与OSC→AMP→FILTER，是否一般等价？",
+          "reject": "拒绝该推断。patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.08",
+      "ability": "A03",
+      "role": "S",
+      "task": "WebAudio/Rack特定约定",
+      "d4Targets": [
+        "K18.08.01.01",
+        "K18.08.02.01",
+        "K18.08.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 56,
+        "row": "| K18.08 | A03 | S | WebAudio/Rack特定约定 | [SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13)；[SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14)；[SD31/K18.08.03.01](sound-design-r2-knowledge-cases.md#L15) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD29@1",
+        "K18-CL-SD30@1",
+        "K18-CL-SD31@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD29",
+          "claim": "K18-CL-SD29@1",
+          "problem": "Rack三声部primary，次级mono 2或[2,3]分别如何映射？",
+          "reject": "拒绝该推断。区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。"
+        },
+        {
+          "caseId": "SD30",
+          "claim": "K18-CL-SD30@1",
+          "problem": "声明延迟节点之外仍有零延迟子环，如何判候选？",
+          "reject": "拒绝该推断。Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。"
+        },
+        {
+          "caseId": "SD31",
+          "claim": "K18-CL-SD31@1",
+          "problem": "基准440Hz的1V/oct示意，±1V各映射多少？",
+          "reject": "拒绝该推断。1V/oct在基准440Hz下+1V→880Hz、−1V→220Hz；控制电压和频率需明确基准，Rack模型不等实体模块。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.08",
+      "ability": "A04",
+      "role": "P",
+      "task": "图边、端口、依赖版本",
+      "d4Targets": [
+        "K18.08.01.01",
+        "K18.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 57,
+        "row": "| K18.08 | A04 | P | 图边、端口、依赖版本 | [SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13)；[SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD29@1",
+        "K18-CL-SD32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD29",
+          "claim": "K18-CL-SD29@1",
+          "problem": "Rack三声部primary，次级mono 2或[2,3]分别如何映射？",
+          "reject": "拒绝该推断。区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。"
+        },
+        {
+          "caseId": "SD32",
+          "claim": "K18-CL-SD32@1",
+          "problem": "OSC→FILTER→AMP与OSC→AMP→FILTER，是否一般等价？",
+          "reject": "拒绝该推断。patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "零延迟子环及稳定性",
+      "d4Targets": [
+        "K18.08.02.01",
+        "K18.08.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 58,
+        "row": "| K18.08 | A05 | P | 零延迟子环及稳定性 | [SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14)；[SD31/K18.08.03.01](sound-design-r2-knowledge-cases.md#L15) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD30@1",
+        "K18-CL-SD31@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD30",
+          "claim": "K18-CL-SD30@1",
+          "problem": "声明延迟节点之外仍有零延迟子环，如何判候选？",
+          "reject": "拒绝该推断。Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。"
+        },
+        {
+          "caseId": "SD31",
+          "claim": "K18-CL-SD31@1",
+          "problem": "基准440Hz的1V/oct示意，±1V各映射多少？",
+          "reject": "拒绝该推断。1V/oct在基准440Hz下+1V→880Hz、−1V→220Hz；控制电压和频率需明确基准，Rack模型不等实体模块。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.08",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑patch与边",
+      "d4Targets": [
+        "K18.08.01.01",
+        "K18.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 59,
+        "row": "| K18.08 | A06 | P | 可编辑patch与边 | [SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13)；[SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD29@1",
+        "K18-CL-SD32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD29",
+          "claim": "K18-CL-SD29@1",
+          "problem": "Rack三声部primary，次级mono 2或[2,3]分别如何映射？",
+          "reject": "拒绝该推断。区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。"
+        },
+        {
+          "caseId": "SD32",
+          "claim": "K18-CL-SD32@1",
+          "problem": "OSC→FILTER→AMP与OSC→AMP→FILTER，是否一般等价？",
+          "reject": "拒绝该推断。patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "核变更、反馈及回退",
+      "d4Targets": [
+        "K18.08.02.01",
+        "K18.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 60,
+        "row": "| K18.08 | A07 | P | 核变更、反馈及回退 | [SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14)；[SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD30@1",
+        "K18-CL-SD32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD30",
+          "claim": "K18-CL-SD30@1",
+          "problem": "声明延迟节点之外仍有零延迟子环，如何判候选？",
+          "reject": "拒绝该推断。Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。"
+        },
+        {
+          "caseId": "SD32",
+          "claim": "K18-CL-SD32@1",
+          "problem": "OSC→FILTER→AMP与OSC→AMP→FILTER，是否一般等价？",
+          "reject": "拒绝该推断。patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.09",
+      "ability": "A01",
+      "role": "P",
+      "task": "预设、宏及外部依赖",
+      "d4Targets": [
+        "K18.09.01.01",
+        "K18.09.02.01",
+        "K18.09.03.01",
+        "K18.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 61,
+        "row": "| K18.09 | A01 | P | 预设、宏及外部依赖 | [SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD33@1",
+        "K18-CL-SD34@1",
+        "K18-CL-SD35@1",
+        "K18-CL-SD36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD33",
+          "claim": "K18-CL-SD33@1",
+          "problem": "模块预设与整patch、外部素材和实时状态有什么差别？",
+          "reject": "拒绝该推断。区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。"
+        },
+        {
+          "caseId": "SD34",
+          "claim": "K18-CL-SD34@1",
+          "problem": "Rack major/minor和Max8 client path不同，能否直接继承旧状态？",
+          "reject": "拒绝该推断。Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。"
+        },
+        {
+          "caseId": "SD35",
+          "claim": "K18-CL-SD35@1",
+          "problem": "宏.5映射cutoff 200–2000Hz及gain 1–.5，两个值是什么？",
+          "reject": "拒绝该推断。宏旋钮0–1映射两个目标：cutoff线性200–2000Hz、增益反向1–.5；.5时1100Hz/.75。保留曲线/单位/范围及目标ID。"
+        },
+        {
+          "caseId": "SD36",
+          "claim": "K18-CL-SD36@1",
+          "problem": "只改filter参数，导出与旧评审是否有效？",
+          "reject": "拒绝该推断。编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.09",
+      "ability": "A02",
+      "role": "P",
+      "task": "保存、恢复、兼容检查",
+      "d4Targets": [
+        "K18.09.01.01",
+        "K18.09.02.01",
+        "K18.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 62,
+        "row": "| K18.09 | A02 | P | 保存、恢复、兼容检查 | [SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD33@1",
+        "K18-CL-SD34@1",
+        "K18-CL-SD36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD33",
+          "claim": "K18-CL-SD33@1",
+          "problem": "模块预设与整patch、外部素材和实时状态有什么差别？",
+          "reject": "拒绝该推断。区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。"
+        },
+        {
+          "caseId": "SD34",
+          "claim": "K18-CL-SD34@1",
+          "problem": "Rack major/minor和Max8 client path不同，能否直接继承旧状态？",
+          "reject": "拒绝该推断。Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。"
+        },
+        {
+          "caseId": "SD36",
+          "claim": "K18-CL-SD36@1",
+          "problem": "只改filter参数，导出与旧评审是否有效？",
+          "reject": "拒绝该推断。编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.09",
+      "ability": "A03",
+      "role": "S",
+      "task": "Rack/Max8范围及版本",
+      "d4Targets": [
+        "K18.09.01.01",
+        "K18.09.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 63,
+        "row": "| K18.09 | A03 | S | Rack/Max8范围及版本 | [SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD33@1",
+        "K18-CL-SD34@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD33",
+          "claim": "K18-CL-SD33@1",
+          "problem": "模块预设与整patch、外部素材和实时状态有什么差别？",
+          "reject": "拒绝该推断。区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。"
+        },
+        {
+          "caseId": "SD34",
+          "claim": "K18-CL-SD34@1",
+          "problem": "Rack major/minor和Max8 client path不同，能否直接继承旧状态？",
+          "reject": "拒绝该推断。Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.09",
+      "ability": "A04",
+      "role": "P",
+      "task": "快照、路径/素材身份",
+      "d4Targets": [
+        "K18.09.01.01",
+        "K18.09.02.01",
+        "K18.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 64,
+        "row": "| K18.09 | A04 | P | 快照、路径/素材身份 | [SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD33@1",
+        "K18-CL-SD34@1",
+        "K18-CL-SD36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD33",
+          "claim": "K18-CL-SD33@1",
+          "problem": "模块预设与整patch、外部素材和实时状态有什么差别？",
+          "reject": "拒绝该推断。区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。"
+        },
+        {
+          "caseId": "SD34",
+          "claim": "K18-CL-SD34@1",
+          "problem": "Rack major/minor和Max8 client path不同，能否直接继承旧状态？",
+          "reject": "拒绝该推断。Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。"
+        },
+        {
+          "caseId": "SD36",
+          "claim": "K18-CL-SD36@1",
+          "problem": "只改filter参数，导出与旧评审是否有效？",
+          "reject": "拒绝该推断。编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.09",
+      "ability": "A05",
+      "role": "P",
+      "task": "依赖、重开和映射条件",
+      "d4Targets": [
+        "K18.09.02.01",
+        "K18.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 65,
+        "row": "| K18.09 | A05 | P | 依赖、重开和映射条件 | [SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD34@1",
+        "K18-CL-SD36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD34",
+          "claim": "K18-CL-SD34@1",
+          "problem": "Rack major/minor和Max8 client path不同，能否直接继承旧状态？",
+          "reject": "拒绝该推断。Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。"
+        },
+        {
+          "caseId": "SD36",
+          "claim": "K18-CL-SD36@1",
+          "problem": "只改filter参数，导出与旧评审是否有效？",
+          "reject": "拒绝该推断。编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.09",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑预设/patch区别",
+      "d4Targets": [
+        "K18.09.01.01",
+        "K18.09.03.01",
+        "K18.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 66,
+        "row": "| K18.09 | A06 | P | 可编辑预设/patch区别 | [SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD33@1",
+        "K18-CL-SD35@1",
+        "K18-CL-SD36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD33",
+          "claim": "K18-CL-SD33@1",
+          "problem": "模块预设与整patch、外部素材和实时状态有什么差别？",
+          "reject": "拒绝该推断。区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。"
+        },
+        {
+          "caseId": "SD35",
+          "claim": "K18-CL-SD35@1",
+          "problem": "宏.5映射cutoff 200–2000Hz及gain 1–.5，两个值是什么？",
+          "reject": "拒绝该推断。宏旋钮0–1映射两个目标：cutoff线性200–2000Hz、增益反向1–.5；.5时1100Hz/.75。保留曲线/单位/范围及目标ID。"
+        },
+        {
+          "caseId": "SD36",
+          "claim": "K18-CL-SD36@1",
+          "problem": "只改filter参数，导出与旧评审是否有效？",
+          "reject": "拒绝该推断。编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.09",
+      "ability": "A07",
+      "role": "P",
+      "task": "缺插件/版本复核",
+      "d4Targets": [
+        "K18.09.02.01",
+        "K18.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 67,
+        "row": "| K18.09 | A07 | P | 缺插件/版本复核 | [SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD34@1",
+        "K18-CL-SD36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD34",
+          "claim": "K18-CL-SD34@1",
+          "problem": "Rack major/minor和Max8 client path不同，能否直接继承旧状态？",
+          "reject": "拒绝该推断。Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。"
+        },
+        {
+          "caseId": "SD36",
+          "claim": "K18-CL-SD36@1",
+          "problem": "只改filter参数，导出与旧评审是否有效？",
+          "reject": "拒绝该推断。编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.10",
+      "ability": "A01",
+      "role": "P",
+      "task": "表演动作和消息",
+      "d4Targets": [
+        "K18.10.01.01",
+        "K18.10.02.01",
+        "K18.10.03.01",
+        "K18.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 68,
+        "row": "| K18.10 | A01 | P | 表演动作和消息 | [SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21)；[SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23)；[SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD37@1",
+        "K18-CL-SD38@1",
+        "K18-CL-SD39@1",
+        "K18-CL-SD40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD37",
+          "claim": "K18-CL-SD37@1",
+          "problem": "LSB0 MSB64的14位bend值及含义？",
+          "reject": "拒绝该推断。MIDI1.0 pitch bend LSB0 MSB64=8192中心，16383为上端；接收端灵敏度另定，不能将数值直接当半音。"
+        },
+        {
+          "caseId": "SD38",
+          "claim": "K18-CL-SD38@1",
+          "problem": "丢note-off后，All Sound Off/All Notes Off能否证明真实静音？",
+          "reject": "拒绝该推断。按note-on/off及声部身份追踪门控，丢note-off可能留下声部；All Sound Off/All Notes Off为不同channel-mode消息，发送不代表设备实际静音。"
+        },
+        {
+          "caseId": "SD39",
+          "claim": "K18-CL-SD39@1",
+          "problem": "velocity、channel pressure与poly key pressure分别是什么映射对象？",
+          "reject": "拒绝该推断。表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。"
+        },
+        {
+          "caseId": "SD40",
+          "claim": "K18-CL-SD40@1",
+          "problem": "上限4而5个note-on同时出现，候选规则如何处理？",
+          "reject": "拒绝该推断。题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.10",
+      "ability": "A02",
+      "role": "P",
+      "task": "分配声部、停点和复核",
+      "d4Targets": [
+        "K18.10.02.01",
+        "K18.10.03.01",
+        "K18.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 69,
+        "row": "| K18.10 | A02 | P | 分配声部、停点和复核 | [SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23)；[SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD38@1",
+        "K18-CL-SD39@1",
+        "K18-CL-SD40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD38",
+          "claim": "K18-CL-SD38@1",
+          "problem": "丢note-off后，All Sound Off/All Notes Off能否证明真实静音？",
+          "reject": "拒绝该推断。按note-on/off及声部身份追踪门控，丢note-off可能留下声部；All Sound Off/All Notes Off为不同channel-mode消息，发送不代表设备实际静音。"
+        },
+        {
+          "caseId": "SD39",
+          "claim": "K18-CL-SD39@1",
+          "problem": "velocity、channel pressure与poly key pressure分别是什么映射对象？",
+          "reject": "拒绝该推断。表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。"
+        },
+        {
+          "caseId": "SD40",
+          "claim": "K18-CL-SD40@1",
+          "problem": "上限4而5个note-on同时出现，候选规则如何处理？",
+          "reject": "拒绝该推断。题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.10",
+      "ability": "A03",
+      "role": "S",
+      "task": "MIDI1.0消息/接收能力",
+      "d4Targets": [
+        "K18.10.01.01",
+        "K18.10.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 70,
+        "row": "| K18.10 | A03 | S | MIDI1.0消息/接收能力 | [SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21)；[SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD37@1",
+        "K18-CL-SD39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD37",
+          "claim": "K18-CL-SD37@1",
+          "problem": "LSB0 MSB64的14位bend值及含义？",
+          "reject": "拒绝该推断。MIDI1.0 pitch bend LSB0 MSB64=8192中心，16383为上端；接收端灵敏度另定，不能将数值直接当半音。"
+        },
+        {
+          "caseId": "SD39",
+          "claim": "K18-CL-SD39@1",
+          "problem": "velocity、channel pressure与poly key pressure分别是什么映射对象？",
+          "reject": "拒绝该推断。表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.10",
+      "ability": "A04",
+      "role": "P",
+      "task": "声部门控/实时状态",
+      "d4Targets": [
+        "K18.10.02.01",
+        "K18.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 71,
+        "row": "| K18.10 | A04 | P | 声部门控/实时状态 | [SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD38@1",
+        "K18-CL-SD40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD38",
+          "claim": "K18-CL-SD38@1",
+          "problem": "丢note-off后，All Sound Off/All Notes Off能否证明真实静音？",
+          "reject": "拒绝该推断。按note-on/off及声部身份追踪门控，丢note-off可能留下声部；All Sound Off/All Notes Off为不同channel-mode消息，发送不代表设备实际静音。"
+        },
+        {
+          "caseId": "SD40",
+          "claim": "K18-CL-SD40@1",
+          "problem": "上限4而5个note-on同时出现，候选规则如何处理？",
+          "reject": "拒绝该推断。题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.10",
+      "ability": "A05",
+      "role": "P",
+      "task": "压力、bend及实时条件",
+      "d4Targets": [
+        "K18.10.01.01",
+        "K18.10.03.01",
+        "K18.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 72,
+        "row": "| K18.10 | A05 | P | 压力、bend及实时条件 | [SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21)；[SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23)；[SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD37@1",
+        "K18-CL-SD39@1",
+        "K18-CL-SD40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD37",
+          "claim": "K18-CL-SD37@1",
+          "problem": "LSB0 MSB64的14位bend值及含义？",
+          "reject": "拒绝该推断。MIDI1.0 pitch bend LSB0 MSB64=8192中心，16383为上端；接收端灵敏度另定，不能将数值直接当半音。"
+        },
+        {
+          "caseId": "SD39",
+          "claim": "K18-CL-SD39@1",
+          "problem": "velocity、channel pressure与poly key pressure分别是什么映射对象？",
+          "reject": "拒绝该推断。表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。"
+        },
+        {
+          "caseId": "SD40",
+          "claim": "K18-CL-SD40@1",
+          "problem": "上限4而5个note-on同时出现，候选规则如何处理？",
+          "reject": "拒绝该推断。题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.10",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑映射与状态规则",
+      "d4Targets": [
+        "K18.10.01.01",
+        "K18.10.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 73,
+        "row": "| K18.10 | A06 | P | 可编辑映射与状态规则 | [SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21)；[SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD37@1",
+        "K18-CL-SD39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD37",
+          "claim": "K18-CL-SD37@1",
+          "problem": "LSB0 MSB64的14位bend值及含义？",
+          "reject": "拒绝该推断。MIDI1.0 pitch bend LSB0 MSB64=8192中心，16383为上端；接收端灵敏度另定，不能将数值直接当半音。"
+        },
+        {
+          "caseId": "SD39",
+          "claim": "K18-CL-SD39@1",
+          "problem": "velocity、channel pressure与poly key pressure分别是什么映射对象？",
+          "reject": "拒绝该推断。表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.10",
+      "ability": "A07",
+      "role": "P",
+      "task": "丢note-off、负载及回退",
+      "d4Targets": [
+        "K18.10.02.01",
+        "K18.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 74,
+        "row": "| K18.10 | A07 | P | 丢note-off、负载及回退 | [SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD38@1",
+        "K18-CL-SD40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD38",
+          "claim": "K18-CL-SD38@1",
+          "problem": "丢note-off后，All Sound Off/All Notes Off能否证明真实静音？",
+          "reject": "拒绝该推断。按note-on/off及声部身份追踪门控，丢note-off可能留下声部；All Sound Off/All Notes Off为不同channel-mode消息，发送不代表设备实际静音。"
+        },
+        {
+          "caseId": "SD40",
+          "claim": "K18-CL-SD40@1",
+          "problem": "上限4而5个note-on同时出现，候选规则如何处理？",
+          "reject": "拒绝该推断。题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.11",
+      "ability": "A01",
+      "role": "P",
+      "task": "音色目标、客观/主观",
+      "d4Targets": [
+        "K18.11.01.01",
+        "K18.11.02.01",
+        "K18.11.03.01",
+        "K18.11.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 75,
+        "row": "| K18.11 | A01 | P | 音色目标、客观/主观 | [SD41/K18.11.01.01](sound-design-r2-knowledge-cases.md#L25)；[SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD41@1",
+        "K18-CL-SD42@1",
+        "K18-CL-SD43@1",
+        "K18-CL-SD44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD41",
+          "claim": "K18-CL-SD41@1",
+          "problem": "频率[100,300,500]、幅度[1,2,1]的质心是多少？",
+          "reject": "拒绝该推断。幅度谱f=[100,300,500]、a=[1,2,1]，质心300Hz；全零谱在本知识谓词为UNKNOWN，不作音色评分。"
+        },
+        {
+          "caseId": "SD42",
+          "claim": "K18-CL-SD42@1",
+          "problem": "两音色同质心但起音、衰减不同，如何比较？",
+          "reject": "拒绝该推断。A/B具有相同质心但不同起音/衰减与频谱形状；题设对比音色目标应包含时间演化、噪声/混叠、动态与音乐用途。"
+        },
+        {
+          "caseId": "SD43",
+          "claim": "K18-CL-SD43@1",
+          "problem": "比较音色需固定哪些音乐、呈现与技术硬项，能否直接称MUSHRA？",
+          "reject": "拒绝该推断。音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。"
+        },
+        {
+          "caseId": "SD44",
+          "claim": "K18-CL-SD44@1",
+          "problem": "只准改cutoff/depth，怎样保护素材、patch和旋律？",
+          "reject": "拒绝该推断。题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.11",
+      "ability": "A02",
+      "role": "P",
+      "task": "同条件比较及局部修订",
+      "d4Targets": [
+        "K18.11.02.01",
+        "K18.11.03.01",
+        "K18.11.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 76,
+        "row": "| K18.11 | A02 | P | 同条件比较及局部修订 | [SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD42@1",
+        "K18-CL-SD43@1",
+        "K18-CL-SD44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD42",
+          "claim": "K18-CL-SD42@1",
+          "problem": "两音色同质心但起音、衰减不同，如何比较？",
+          "reject": "拒绝该推断。A/B具有相同质心但不同起音/衰减与频谱形状；题设对比音色目标应包含时间演化、噪声/混叠、动态与音乐用途。"
+        },
+        {
+          "caseId": "SD43",
+          "claim": "K18-CL-SD43@1",
+          "problem": "比较音色需固定哪些音乐、呈现与技术硬项，能否直接称MUSHRA？",
+          "reject": "拒绝该推断。音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。"
+        },
+        {
+          "caseId": "SD44",
+          "claim": "K18-CL-SD44@1",
+          "problem": "只准改cutoff/depth，怎样保护素材、patch和旋律？",
+          "reject": "拒绝该推断。题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.11",
+      "ability": "A03",
+      "role": "S",
+      "task": "描述符/评价适用范围",
+      "d4Targets": [
+        "K18.11.01.01",
+        "K18.11.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 77,
+        "row": "| K18.11 | A03 | S | 描述符/评价适用范围 | [SD41/K18.11.01.01](sound-design-r2-knowledge-cases.md#L25)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD41@1",
+        "K18-CL-SD43@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD41",
+          "claim": "K18-CL-SD41@1",
+          "problem": "频率[100,300,500]、幅度[1,2,1]的质心是多少？",
+          "reject": "拒绝该推断。幅度谱f=[100,300,500]、a=[1,2,1]，质心300Hz；全零谱在本知识谓词为UNKNOWN，不作音色评分。"
+        },
+        {
+          "caseId": "SD43",
+          "claim": "K18-CL-SD43@1",
+          "problem": "比较音色需固定哪些音乐、呈现与技术硬项，能否直接称MUSHRA？",
+          "reject": "拒绝该推断。音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.11",
+      "ability": "A04",
+      "role": "P",
+      "task": "候选与评审身份、失效",
+      "d4Targets": [
+        "K18.11.03.01",
+        "K18.11.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 78,
+        "row": "| K18.11 | A04 | P | 候选与评审身份、失效 | [SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD43@1",
+        "K18-CL-SD44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD43",
+          "claim": "K18-CL-SD43@1",
+          "problem": "比较音色需固定哪些音乐、呈现与技术硬项，能否直接称MUSHRA？",
+          "reject": "拒绝该推断。音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。"
+        },
+        {
+          "caseId": "SD44",
+          "claim": "K18-CL-SD44@1",
+          "problem": "只准改cutoff/depth，怎样保护素材、patch和旋律？",
+          "reject": "拒绝该推断。题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.11",
+      "ability": "A05",
+      "role": "P",
+      "task": "质心/瞬态/偏好独立",
+      "d4Targets": [
+        "K18.11.01.01",
+        "K18.11.02.01",
+        "K18.11.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 79,
+        "row": "| K18.11 | A05 | P | 质心/瞬态/偏好独立 | [SD41/K18.11.01.01](sound-design-r2-knowledge-cases.md#L25)；[SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD41@1",
+        "K18-CL-SD42@1",
+        "K18-CL-SD43@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD41",
+          "claim": "K18-CL-SD41@1",
+          "problem": "频率[100,300,500]、幅度[1,2,1]的质心是多少？",
+          "reject": "拒绝该推断。幅度谱f=[100,300,500]、a=[1,2,1]，质心300Hz；全零谱在本知识谓词为UNKNOWN，不作音色评分。"
+        },
+        {
+          "caseId": "SD42",
+          "claim": "K18-CL-SD42@1",
+          "problem": "两音色同质心但起音、衰减不同，如何比较？",
+          "reject": "拒绝该推断。A/B具有相同质心但不同起音/衰减与频谱形状；题设对比音色目标应包含时间演化、噪声/混叠、动态与音乐用途。"
+        },
+        {
+          "caseId": "SD43",
+          "claim": "K18-CL-SD43@1",
+          "problem": "比较音色需固定哪些音乐、呈现与技术硬项，能否直接称MUSHRA？",
+          "reject": "拒绝该推断。音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.11",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑参数和保护内容",
+      "d4Targets": [
+        "K18.11.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 80,
+        "row": "| K18.11 | A06 | P | 可编辑参数和保护内容 | [SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD44",
+          "claim": "K18-CL-SD44@1",
+          "problem": "只准改cutoff/depth，怎样保护素材、patch和旋律？",
+          "reject": "拒绝该推断。题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。"
+        }
+      ]
+    },
+    {
+      "d2": "K18.11",
+      "ability": "A07",
+      "role": "P",
+      "task": "最小修订、复核与回滚",
+      "d4Targets": [
+        "K18.11.02.01",
+        "K18.11.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r3-capability-calibration.md",
+        "blob": "ad401924bf8067b519d02519c2545ece3a02053d",
+        "line": 81,
+        "row": "| K18.11 | A07 | P | 最小修订、复核与回滚 | [SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K18-CL-SD42@1",
+        "K18-CL-SD44@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "SD42",
+          "claim": "K18-CL-SD42@1",
+          "problem": "两音色同质心但起音、衰减不同，如何比较？",
+          "reject": "拒绝该推断。A/B具有相同质心但不同起音/衰减与频谱形状；题设对比音色目标应包含时间演化、噪声/混叠、动态与音乐用途。"
+        },
+        {
+          "caseId": "SD44",
+          "claim": "K18-CL-SD44@1",
+          "problem": "只准改cutoff/depth，怎样保护素材、patch和旋律？",
+          "reject": "拒绝该推断。题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。"
+        }
+      ]
+    }
+  ]
+}

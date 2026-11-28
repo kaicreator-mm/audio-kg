@@ -1,0 +1,881 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K19",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "196dea024e69cfa13e52b978900d2749642f876b",
+  "sourceQualifications": [
+    {
+      "source": "S618@1",
+      "scope": "| S618 | [AVIXA A102.01:2022](https://www.avixa.org/resources/standards/audio-coverage-uniformity) L76–98 | READ_SCOPE_ONLY；2022年4月，听众区域早到达能量均匀性测量与分类；未取得标准正文、公式/采点/容差，不自称ACU符合。 |",
+      "limits": "| S618 | [AVIXA A102.01:2022](https://www.avixa.org/resources/standards/audio-coverage-uniformity) L76–98 | READ_SCOPE_ONLY；2022年4月，听众区域早到达能量均匀性测量与分类；未取得标准正文、公式/采点/容差，不自称ACU符合。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.avixa.org/resources/standards/audio-coverage-uniformity"
+    },
+    {
+      "source": "S619@1",
+      "scope": "| S619 | [AVIXA A103.01:2022](https://www.avixa.org/resources/standards/sound-system-spectral-balance) L69–84 | READ_SCOPE_ONLY；以传递函数表征听众区域频响差异。页面同时称in development，保留页面状态冲突；不据此断定最新发布状态或正式符合。 |",
+      "limits": "| S619 | [AVIXA A103.01:2022](https://www.avixa.org/resources/standards/sound-system-spectral-balance) L69–84 | READ_SCOPE_ONLY；以传递函数表征听众区域频响差异。页面同时称in development，保留页面状态冲突；不据此断定最新发布状态或正式符合。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.avixa.org/resources/standards/sound-system-spectral-balance"
+    },
+    {
+      "source": "S620@1",
+      "scope": "| S620 | [IEC 60268-16:2020](https://webstore.iec.ch/en/publication/26771) L52–63；[COR1:2025](https://webstore.iec.ch/en/publication/107581) L50–58 | READ_SCOPE_ONLY；STI客观语音清晰度方法，限制含回声、语音编码、波动噪声未覆盖；2025勘误具名入口，未读正文和勘误内容，不给通用合格阈值。 |",
+      "limits": "| S620 | [IEC 60268-16:2020](https://webstore.iec.ch/en/publication/26771) L52–63；[COR1:2025](https://webstore.iec.ch/en/publication/107581) L50–58 | READ_SCOPE_ONLY；STI客观语音清晰度方法，限制含回声、语音编码、波动噪声未覆盖；2025勘误具名入口，未读正文和勘误内容，不给通用合格阈值。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://webstore.iec.ch/en/publication/26771"
+    },
+    {
+      "source": "S621@1",
+      "scope": "| S621 | [Yamaha Mixing 101 MG10XU](https://au.yamaha.com/en/education/greatstart/articles/music-technology/mixing101.html) L60–78；[Aux Sends and Returns](https://hub.yamaha.com/proaudio/livesound/aux-sends-and-returns/) L74–99 | READ_LOCATOR；通道gain/pad/EQ/fader、主总线、pre/post tap、MGP12X示例及多监听总线；非所有调音台结构/真实电平。 |",
+      "limits": "| S621 | [Yamaha Mixing 101 MG10XU](https://au.yamaha.com/en/education/greatstart/articles/music-technology/mixing101.html) L60–78；[Aux Sends and Returns](https://hub.yamaha.com/proaudio/livesound/aux-sends-and-returns/) L74–99 | READ_LOCATOR；通道gain/pad/EQ/fader、主总线、pre/post tap、MGP12X示例及多监听总线；非所有调音台结构/真实电平。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://au.yamaha.com/en/education/greatstart/articles/music-technology/mixing101.html"
+    },
+    {
+      "source": "S622@1",
+      "scope": "| S622 | [Yamaha Using Solo During Live Mixing](https://hub.yamaha.com/proaudio/livesound/using-solo/) L55–56/78 | READ_LOCATOR；PFL、TF系列CUE/AFL监听位置，不能从CUE推主扩输出。 |",
+      "limits": "| S622 | [Yamaha Using Solo During Live Mixing](https://hub.yamaha.com/proaudio/livesound/using-solo/) L55–56/78 | READ_LOCATOR；PFL、TF系列CUE/AFL监听位置，不能从CUE推主扩输出。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://hub.yamaha.com/proaudio/livesound/using-solo/"
+    },
+    {
+      "source": "S623@1",
+      "scope": "| S623 | [Yamaha Using Scene Memory](https://hub.yamaha.com/proaudio/livesound/using-scene-memory/) L56/70–83 | READ_LOCATOR；参数记忆、部分宿主safe/filter、离线场景；不保证跨型号完整召回、实际状态或安全。 |",
+      "limits": "| S623 | [Yamaha Using Scene Memory](https://hub.yamaha.com/proaudio/livesound/using-scene-memory/) L56/70–83 | READ_LOCATOR；参数记忆、部分宿主safe/filter、离线场景；不保证跨型号完整召回、实际状态或安全。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://hub.yamaha.com/proaudio/livesound/using-scene-memory/"
+    },
+    {
+      "source": "S624@1",
+      "scope": "| S624 | [Shure How to Control Feedback](https://www.shure.com/en-GB/insights/how-to-control-feedback-in-a-sound-system) L114–142/146–160 | READ_LOCATOR；声学闭环、几何/方向/开放麦/增益风险与距离经验；不采用文中诱发反馈测试段，不从音调唯一诊断，不复制其操作或无条件6dB经验。 |",
+      "limits": "| S624 | [Shure How to Control Feedback](https://www.shure.com/en-GB/insights/how-to-control-feedback-in-a-sound-system) L114–142/146–160 | READ_LOCATOR；声学闭环、几何/方向/开放麦/增益风险与距离经验；不采用文中诱发反馈测试段，不从音调唯一诊断，不复制其操作或无条件6dB经验。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.shure.com/en-GB/insights/how-to-control-feedback-in-a-sound-system"
+    },
+    {
+      "source": "S625@1",
+      "scope": "| S625 | [Shure In Ear Monitoring Basics](https://www.shure.com/en-US/insights/in-ear-monitoring-basics) L133–146 | READ_LOCATOR；舞台楔形监听漏声、反馈路径及个人监听可能性；厂商说明，不保证IEM安全、低暴露或消除所有反馈。 |",
+      "limits": "| S625 | [Shure In Ear Monitoring Basics](https://www.shure.com/en-US/insights/in-ear-monitoring-basics) L133–146 | READ_LOCATOR；舞台楔形监听漏声、反馈路径及个人监听可能性；厂商说明，不保证IEM安全、低暴露或消除所有反馈。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.shure.com/en-US/insights/in-ear-monitoring-basics"
+    },
+    {
+      "source": "S626@1",
+      "scope": "| S626 | [Dante Clock Synchronization](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/clock_synchronization.htm) L29–32/52–58；[Clock Status Monitoring](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/clock_status_monitoring.htm) L44–46 | READ_LOCATOR；标准Dante leader/follower PTP、冗余及domain边界时钟，失锁/恢复事件日志；不是所有AoIP，未查实际设备。 |",
+      "limits": "| S626 | [Dante Clock Synchronization](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/clock_synchronization.htm) L29–32/52–58；[Clock Status Monitoring](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/clock_status_monitoring.htm) L44–46 | READ_LOCATOR；标准Dante leader/follower PTP、冗余及domain边界时钟，失锁/恢复事件日志；不是所有AoIP，未查实际设备。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/clock_synchronization.htm"
+    },
+    {
+      "source": "S627@1",
+      "scope": "| S627 | [Dante Latency](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/latency.htm) L33–46；[Latency Tab](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/latency_tab.htm) L36–40/64–85 | READ_LOCATOR；实际重读发现Latency L34与Latency Tab L67对Ultimo最小延迟示例（1ms/2ms）冲突，具体设备/固件/配置最小值UNKNOWN待专属证据；L70计数的是含至少一个迟到包的测量间隔数，非包数；需绑定订阅、时窗、监测覆盖、可用性；有效延迟不等端到端，不在线变更。 |",
+      "limits": "| S627 | [Dante Latency](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/latency.htm) L33–46；[Latency Tab](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/latency_tab.htm) L36–40/64–85 | READ_LOCATOR；实际重读发现Latency L34与Latency Tab L67对Ultimo最小延迟示例（1ms/2ms）冲突，具体设备/固件/配置最小值UNKNOWN待专属证据；L70计数的是含至少一个迟到包的测量间隔数，非包数；需绑定订阅、时窗、监测覆盖、可用性；有效延迟不等端到端，不在线变更。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/latency.htm"
+    },
+    {
+      "source": "S628@1",
+      "scope": "| S628 | [Dante Routing Media](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/routing_media.htm) L38–74 | READ_LOCATOR；Tx/Rx订阅、共同格式、冗余两独立网络/同链速、单播/组播流；不把普通双口等于冗余或保证故障切换。 |",
+      "limits": "| S628 | [Dante Routing Media](https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/routing_media.htm) L38–74 | READ_LOCATOR；Tx/Rx订阅、共同格式、冗余两独立网络/同链速、单播/组播流；不把普通双口等于冗余或保证故障切换。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://dev.audinate.com/GA/dante-controller/userguide/webhelp/content/routing_media.htm"
+    },
+    {
+      "source": "S629@1",
+      "scope": "| S629 | WHO 2022 [Global standard PDF](https://iris.who.int/bitstream/handle/10665/352277/9789240043114-eng.pdf) 文本L250–277/859–917/3156–3208/3226–3239；零基29/30/92截图403/timeout/403；[WHO 2024 festival official HTML](https://www.who.int/news-room/feature-stories/detail/who-hearing-guidelines-implemented-at-major-arts-festival) L213–228 | 原PDF TEXT_LOCATOR_LIMITED，HTML READ_LOCATOR；G04 [同版英文替代PDF](https://worldhearingday.org/wp-content/uploads/2023/02/WHO-Global-standard-for-safe-listening-venues-and-events-English.pdf) 实际零基26/27/29截图（印17/18/20），F1.1.4–6/F1.2/F1.3/F1.5.3 READ_LOCATOR_LIMITED，未验证与原不可访问PDF字节相同。一般观众移动窗口上限为风险降低非目标/无风险；峰值独立，儿童针对性活动选择更保守适用政策及峰值条件，年龄/目标观众未知不得直接沿用一般政策；Annex4/5仍限原文本，非全标准、当地法律、职业或个人耳道限值。 |",
+      "limits": "| S629 | WHO 2022 [Global standard PDF](https://iris.who.int/bitstream/handle/10665/352277/9789240043114-eng.pdf) 文本L250–277/859–917/3156–3208/3226–3239；零基29/30/92截图403/timeout/403；[WHO 2024 festival official HTML](https://www.who.int/news-room/feature-stories/detail/who-hearing-guidelines-implemented-at-major-arts-festival) L213–228 | 原PDF TEXT_LOCATOR_LIMITED，HTML READ_LOCATOR；G04 [同版英文替代PDF](https://worldhearingday.org/wp-content/uploads/2023/02/WHO-Global-standard-for-safe-listening-venues-and-events-English.pdf) 实际零基26/27/29截图（印17/18/20），F1.1.4–6/F1.2/F1.3/F1.5.3 READ_LOCATOR_LIMITED，未验证与原不可访问PDF字节相同。一般观众移动窗口上限为风险降低非目标/无风险；峰值独立，儿童针对性活动选择更保守适用政策及峰值条件，年龄/目标观众未知不得直接沿用一般政策；Annex4/5仍限原文本，非全标准、当地法律、职业或个人耳道限值。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://iris.who.int/bitstream/handle/10665/352277/9789240043114-eng.pdf"
+    },
+    {
+      "source": "S630@1",
+      "scope": "| S630 | [CDC/NIOSH Understand Noise Exposure](https://www.cdc.gov/niosh/noise/prevent/understand.html) L34–36/46–62/78–108/109–128；[Noise-Induced Hearing Loss](https://www.cdc.gov/niosh/noise/about/noise.html) 仅检索摘要 | READ_LOCATOR（前一HTML）；职业REL 85 dBA/8h、3dB交换、A计权、个人dosimeter阈值80 dBA和校准；非WHO观众口径或当地法律，不保证任何个体安全。 |",
+      "limits": "| S630 | [CDC/NIOSH Understand Noise Exposure](https://www.cdc.gov/niosh/noise/prevent/understand.html) L34–36/46–62/78–108/109–128；[Noise-Induced Hearing Loss](https://www.cdc.gov/niosh/noise/about/noise.html) 仅检索摘要 | READ_LOCATOR（前一HTML）；职业REL 85 dBA/8h、3dB交换、A计权、个人dosimeter阈值80 dBA和校准；非WHO观众口径或当地法律，不保证任何个体安全。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K19-E-LS01-SUPPORTED-BY-K19-EV-LS01",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未确认场地/许可/安全条件则只做方案，不实际执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS01-APPLIES-UNDER-K19-CTX-LS01",
+      "scope": "明确题设及证据条件。",
+      "limits": "未确认场地/许可/安全条件则只做方案，不实际执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS01-REFERENCES-K19-CL-LS02",
+      "scope": "服务对象及安全政策分开",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS02-SUPPORTED-BY-K19-EV-LS02",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无缅甸法规核验；未知停止实际放行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS02-APPLIES-UNDER-K19-CTX-LS02",
+      "scope": "明确题设及证据条件。",
+      "limits": "无缅甸法规核验；未知停止实际放行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS02-REQUIRES-K07-CL-AC25",
+      "scope": "观众与职业暴露口径独立",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS03-SUPPORTED-BY-K19-EV-LS03",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不做电气/吊挂/消防设计或施工。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS03-APPLIES-UNDER-K19-CTX-LS03",
+      "scope": "明确题设及证据条件。",
+      "limits": "不做电气/吊挂/消防设计或施工。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS03-REFERENCES-K19-CL-LS04",
+      "scope": "负责人及验收独立证据",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS04-SUPPORTED-BY-K19-EV-LS04",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅合成项目阈值。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS04-APPLIES-UNDER-K19-CTX-LS04",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅合成项目阈值。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS04-REQUIRES-K19-CL-LS01",
+      "scope": "明确场地、对象及目标",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS05-SUPPORTED-BY-K19-EV-LS05",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不从距离计算可安全输出功率；S631仅检索线索。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS05-APPLIES-UNDER-K19-CTX-LS05",
+      "scope": "明确题设及证据条件。",
+      "limits": "不从距离计算可安全输出功率；S631仅检索线索。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS05-REFERENCES-K19-CL-LS07",
+      "scope": "理想传播与时延条件分开",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS06-SUPPORTED-BY-K19-EV-LS06",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不做实际扬声器安装或吊挂。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS06-APPLIES-UNDER-K19-CTX-LS06",
+      "scope": "明确题设及证据条件。",
+      "limits": "不做实际扬声器安装或吊挂。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS06-REFERENCES-K19-CL-LS08",
+      "scope": "覆盖点与频率响应分开",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS07-SUPPORTED-BY-K19-EV-LS07",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅理想计算，禁止未经授权修改系统。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS07-APPLIES-UNDER-K19-CTX-LS07",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅理想计算，禁止未经授权修改系统。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS07-REFERENCES-K19-CL-LS05",
+      "scope": "传播模型及距离条件",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS08-SUPPORTED-BY-K19-EV-LS08",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未读AVIXA全文，不推其算法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS08-APPLIES-UNDER-K19-CTX-LS08",
+      "scope": "明确题设及证据条件。",
+      "limits": "未读AVIXA全文，不推其算法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS08-REQUIRES-K19-CL-LS04",
+      "scope": "阈值必须绑定项目协议",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS09-SUPPORTED-BY-K19-EV-LS09",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "D25原候选ID；不代K15权限/K07暴露。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS09-APPLIES-UNDER-K19-CTX-LS09",
+      "scope": "明确题设及证据条件。",
+      "limits": "D25原候选ID；不代K15权限/K07暴露。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS09-REQUIRES-K15-CL-GV02",
+      "scope": "实际权限必须当前",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS10-SUPPORTED-BY-K19-EV-LS10",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不下发电平指令。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS10-APPLIES-UNDER-K19-CTX-LS10",
+      "scope": "明确题设及证据条件。",
+      "limits": "不下发电平指令。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS10-REFERENCES-K19-CL-LS11",
+      "scope": "表计位置与声压参考不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS11-SUPPORTED-BY-K19-EV-LS11",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未知实际声压，禁止估算安全许可。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS11-APPLIES-UNDER-K19-CTX-LS11",
+      "scope": "明确题设及证据条件。",
+      "limits": "未知实际声压，禁止估算安全许可。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS11-REQUIRES-K19-CL-LS14",
+      "scope": "实际声级需要校准与测量",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS12-SUPPORTED-BY-K19-EV-LS12",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际接口K12，现场不执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS12-APPLIES-UNDER-K19-CTX-LS12",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际接口K12，现场不执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS12-REQUIRES-K09-CL-MP01",
+      "scope": "对象身份不能以名字替代",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS13-SUPPORTED-BY-K19-EV-LS13",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "D25原候选；正式标准阈值未知。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS13-APPLIES-UNDER-K19-CTX-LS13",
+      "scope": "明确题设及证据条件。",
+      "limits": "D25原候选；正式标准阈值未知。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS13-REQUIRES-K19-CL-LS04",
+      "scope": "不同指标独立验收合同",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS14-SUPPORTED-BY-K19-EV-LS14",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不指导实际校准操作或给通用容差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS14-APPLIES-UNDER-K19-CTX-LS14",
+      "scope": "明确题设及证据条件。",
+      "limits": "不指导实际校准操作或给通用容差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS14-REFERENCES-K19-CL-LS16",
+      "scope": "测量条件与场景版本绑定",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS15-SUPPORTED-BY-K19-EV-LS15",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅范围入口，未实现STI算法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS15-APPLIES-UNDER-K19-CTX-LS15",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅范围入口，未实现STI算法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS15-REFERENCES-K19-CL-LS13",
+      "scope": "语音清晰度不是音乐偏好",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS16-SUPPORTED-BY-K19-EV-LS16",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅合成验收数据。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS16-APPLIES-UNDER-K19-CTX-LS16",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅合成验收数据。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS16-REQUIRES-K19-CL-LS14",
+      "scope": "测量记录和版本变动",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS17-SUPPORTED-BY-K19-EV-LS17",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "D25候选原ID；未实际监听。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS17-APPLIES-UNDER-K19-CTX-LS17",
+      "scope": "明确题设及证据条件。",
+      "limits": "D25候选原ID；未实际监听。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS17-REFERENCES-K19-CL-LS18",
+      "scope": "不同总线及tap条件",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS18-SUPPORTED-BY-K19-EV-LS18",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅线性算术，不对实体发指令。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS18-APPLIES-UNDER-K19-CTX-LS18",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅线性算术，不对实体发指令。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS18-REFERENCES-K19-CL-LS10",
+      "scope": "共享前级不可由fader隔离",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS19-SUPPORTED-BY-K19-EV-LS19",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "非医学或个人耳道测量方案。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS19-APPLIES-UNDER-K19-CTX-LS19",
+      "scope": "明确题设及证据条件。",
+      "limits": "非医学或个人耳道测量方案。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS19-REQUIRES-K19-CL-LS02",
+      "scope": "个体耳道与人群暴露独立",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS20-SUPPORTED-BY-K19-EV-LS20",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不调用设备，不放行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS20-APPLIES-UNDER-K19-CTX-LS20",
+      "scope": "明确题设及证据条件。",
+      "limits": "不调用设备，不放行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS20-REFERENCES-K19-CL-LS17",
+      "scope": "监听选择不等真实输出",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS21-SUPPORTED-BY-K19-EV-LS21",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不发送控制命令。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS21-APPLIES-UNDER-K19-CTX-LS21",
+      "scope": "明确题设及证据条件。",
+      "limits": "不发送控制命令。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS21-REQUIRES-K12-CL-TO26",
+      "scope": "快照及设备版本组合须复核",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS22-SUPPORTED-BY-K19-EV-LS22",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未操作任何scene。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS22-APPLIES-UNDER-K19-CTX-LS22",
+      "scope": "明确题设及证据条件。",
+      "limits": "未操作任何scene。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS22-REQUIRES-K19-CL-LS21",
+      "scope": "召回保护需当前快照证据",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS23-SUPPORTED-BY-K19-EV-LS23",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "知识层审批，不设计真实自动控制。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS23-APPLIES-UNDER-K19-CTX-LS23",
+      "scope": "明确题设及证据条件。",
+      "limits": "知识层审批，不设计真实自动控制。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS23-REQUIRES-K19-CL-LS16",
+      "scope": "变更影响测量版本",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS24-SUPPORTED-BY-K19-EV-LS24",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实设备或故障注入。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS24-APPLIES-UNDER-K19-CTX-LS24",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实设备或故障注入。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS24-REQUIRES-K12-CL-TO23",
+      "scope": "请求结果不确定先查已有状态",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS25-SUPPORTED-BY-K19-EV-LS25",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "D25原ID；禁止危险复现。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS25-APPLIES-UNDER-K19-CTX-LS25",
+      "scope": "明确题设及证据条件。",
+      "limits": "D25原ID；禁止危险复现。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS25-REFERENCES-K19-CL-LS27",
+      "scope": "主扩与监听的闭环路径候选",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS26-SUPPORTED-BY-K19-EV-LS26",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "D25原ID；不实施危险电气处置。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS26-APPLIES-UNDER-K19-CTX-LS26",
+      "scope": "明确题设及证据条件。",
+      "limits": "D25原ID；不实施危险电气处置。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS26-REFERENCES-K19-CL-LS25",
+      "scope": "不同故障解释与停止边界",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS27-SUPPORTED-BY-K19-EV-LS27",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "禁止实地诱发。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS27-APPLIES-UNDER-K19-CTX-LS27",
+      "scope": "明确题设及证据条件。",
+      "limits": "禁止实地诱发。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS27-REFERENCES-K19-CL-LS17",
+      "scope": "返回路径与服务对象不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS28-SUPPORTED-BY-K19-EV-LS28",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不主动制造断路或变更网络。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS28-APPLIES-UNDER-K19-CTX-LS28",
+      "scope": "明确题设及证据条件。",
+      "limits": "不主动制造断路或变更网络。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS28-REFERENCES-K19-CL-LS29",
+      "scope": "时钟与媒体订阅独立",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS29-SUPPORTED-BY-K19-EV-LS29",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不改PTP优先级或时钟。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS29-APPLIES-UNDER-K19-CTX-LS29",
+      "scope": "明确题设及证据条件。",
+      "limits": "不改PTP优先级或时钟。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS29-REFERENCES-K19-CL-LS30",
+      "scope": "时钟同步与迟到监控分离",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS30-SUPPORTED-BY-K19-EV-LS30",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不指导在线调整。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS30-APPLIES-UNDER-K19-CTX-LS30",
+      "scope": "明确题设及证据条件。",
+      "limits": "不指导在线调整。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS30-REFERENCES-K19-CL-LS32",
+      "scope": "延迟与格式/端点条件不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS31-SUPPORTED-BY-K19-EV-LS31",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不进行真实切换或接线。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS31-APPLIES-UNDER-K19-CTX-LS31",
+      "scope": "明确题设及证据条件。",
+      "limits": "不进行真实切换或接线。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS31-REFERENCES-K19-CL-LS29",
+      "scope": "冗余独立故障域与时钟另核",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS32-SUPPORTED-BY-K19-EV-LS32",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不执行订阅或组播配置。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS32-APPLIES-UNDER-K19-CTX-LS32",
+      "scope": "明确题设及证据条件。",
+      "limits": "不执行订阅或组播配置。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS32-REFERENCES-K19-CL-LS29",
+      "scope": "格式不等时钟锁定",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS33-SUPPORTED-BY-K19-EV-LS33",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "D25原ID；禁止主动制造高声级。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS33-APPLIES-UNDER-K19-CTX-LS33",
+      "scope": "明确题设及证据条件。",
+      "limits": "D25原ID；禁止主动制造高声级。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS33-REQUIRES-K19-CL-LS34",
+      "scope": "适用人群及峰值政策",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS33-REQUIRES-K19-CL-LS35",
+      "scope": "职业剂量证据独立",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS34-SUPPORTED-BY-K19-EV-LS34",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "原PDF截图失败，替代同版PDF零基26/27/29实际核读，HTML佐证六项；非当地法律或现场批准。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS34-APPLIES-UNDER-K19-CTX-LS34",
+      "scope": "明确题设及证据条件。",
+      "limits": "原PDF截图失败，替代同版PDF零基26/27/29实际核读，HTML佐证六项；非当地法律或现场批准。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS34-REQUIRES-K19-CL-LS02",
+      "scope": "人群政策不可互代",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS35-SUPPORTED-BY-K19-EV-LS35",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅职业政策例，不给高声级可暴露时长建议。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS35-APPLIES-UNDER-K19-CTX-LS35",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅职业政策例，不给高声级可暴露时长建议。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS35-REQUIRES-K07-CL-AC25",
+      "scope": "职业参考适用范围",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS36-SUPPORTED-BY-K19-EV-LS36",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "没有真实声音；峰值与个人剂量不由该值替代。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS36-APPLIES-UNDER-K19-CTX-LS36",
+      "scope": "明确题设及证据条件。",
+      "limits": "没有真实声音；峰值与个人剂量不由该值替代。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS36-REQUIRES-K07-CL-AC49",
+      "scope": "能量比及实际暴露记录条件",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS37-SUPPORTED-BY-K19-EV-LS37",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不包含真实人员或场地数据。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS37-APPLIES-UNDER-K19-CTX-LS37",
+      "scope": "明确题设及证据条件。",
+      "limits": "不包含真实人员或场地数据。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS37-REFERENCES-K19-CL-LS38",
+      "scope": "时间相关性与实际因果分开",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS38-SUPPORTED-BY-K19-EV-LS38",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不安排危险复现。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS38-APPLIES-UNDER-K19-CTX-LS38",
+      "scope": "明确题设及证据条件。",
+      "limits": "不安排危险复现。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS38-REFERENCES-K19-CL-LS28",
+      "scope": "断续的竞争解释",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K19-E-LS39-SUPPORTED-BY-K19-EV-LS39",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅合成版本判断。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS39-APPLIES-UNDER-K19-CTX-LS39",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅合成版本判断。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS39-REQUIRES-K19-CL-LS21",
+      "scope": "回退须当前状态及保护约束",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS40-SUPPORTED-BY-K19-EV-LS40",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "K15治理、K10评价；不宣称真实验收。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS40-APPLIES-UNDER-K19-CTX-LS40",
+      "scope": "明确题设及证据条件。",
+      "limits": "K15治理、K10评价；不宣称真实验收。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K19-E-LS40-REQUIRES-K19-CL-LS13",
+      "scope": "各验收维度证据完整",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K19-E-LS40-REQUIRES-K19-CL-LS33",
+      "scope": "独立安全停止边界",
+      "limits": "限定必要知识，供给方适用性另核。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K19-E-LS02-REQUIRES-K07-CL-AC25",
+      "consumer": "K19-CL-LS02@1",
+      "provider": "K07-CL-AC25@1",
+      "condition": "K19-CTX-LS02@1",
+      "providerContext": "K07-CTX-AC25@1",
+      "group": "K19-GR-LS02@1"
+    },
+    {
+      "edge": "K19-E-LS04-REQUIRES-K19-CL-LS01",
+      "consumer": "K19-CL-LS04@1",
+      "provider": "K19-CL-LS01@1",
+      "condition": "K19-CTX-LS04@1",
+      "providerContext": "K19-CTX-LS01@1",
+      "group": "K19-GR-LS04@1"
+    },
+    {
+      "edge": "K19-E-LS08-REQUIRES-K19-CL-LS04",
+      "consumer": "K19-CL-LS08@1",
+      "provider": "K19-CL-LS04@1",
+      "condition": "K19-CTX-LS08@1",
+      "providerContext": "K19-CTX-LS04@1",
+      "group": "K19-GR-LS08@1"
+    },
+    {
+      "edge": "K19-E-LS09-REQUIRES-K15-CL-GV02",
+      "consumer": "K19-CL-LS09@1",
+      "provider": "K15-CL-GV02@1",
+      "condition": "K19-CTX-LS09@1",
+      "providerContext": "K15-CTX-GV02@1",
+      "group": "K19-GR-LS09@1"
+    },
+    {
+      "edge": "K19-E-LS11-REQUIRES-K19-CL-LS14",
+      "consumer": "K19-CL-LS11@1",
+      "provider": "K19-CL-LS14@1",
+      "condition": "K19-CTX-LS11@1",
+      "providerContext": "K19-CTX-LS14@1",
+      "group": "K19-GR-LS11@1"
+    },
+    {
+      "edge": "K19-E-LS12-REQUIRES-K09-CL-MP01",
+      "consumer": "K19-CL-LS12@1",
+      "provider": "K09-CL-MP01@1",
+      "condition": "K19-CTX-LS12@1",
+      "providerContext": "K09-CTX-MP01@1",
+      "group": "K19-GR-LS12@1"
+    },
+    {
+      "edge": "K19-E-LS13-REQUIRES-K19-CL-LS04",
+      "consumer": "K19-CL-LS13@1",
+      "provider": "K19-CL-LS04@1",
+      "condition": "K19-CTX-LS13@1",
+      "providerContext": "K19-CTX-LS04@1",
+      "group": "K19-GR-LS13@1"
+    },
+    {
+      "edge": "K19-E-LS16-REQUIRES-K19-CL-LS14",
+      "consumer": "K19-CL-LS16@1",
+      "provider": "K19-CL-LS14@1",
+      "condition": "K19-CTX-LS16@1",
+      "providerContext": "K19-CTX-LS14@1",
+      "group": "K19-GR-LS16@1"
+    },
+    {
+      "edge": "K19-E-LS19-REQUIRES-K19-CL-LS02",
+      "consumer": "K19-CL-LS19@1",
+      "provider": "K19-CL-LS02@1",
+      "condition": "K19-CTX-LS19@1",
+      "providerContext": "K19-CTX-LS02@1",
+      "group": "K19-GR-LS19@1"
+    },
+    {
+      "edge": "K19-E-LS21-REQUIRES-K12-CL-TO26",
+      "consumer": "K19-CL-LS21@1",
+      "provider": "K12-CL-TO26@1",
+      "condition": "K19-CTX-LS21@1",
+      "providerContext": "K12-CTX-TO26@1",
+      "group": "K19-GR-LS21@1"
+    },
+    {
+      "edge": "K19-E-LS22-REQUIRES-K19-CL-LS21",
+      "consumer": "K19-CL-LS22@1",
+      "provider": "K19-CL-LS21@1",
+      "condition": "K19-CTX-LS22@1",
+      "providerContext": "K19-CTX-LS21@1",
+      "group": "K19-GR-LS22@1"
+    },
+    {
+      "edge": "K19-E-LS23-REQUIRES-K19-CL-LS16",
+      "consumer": "K19-CL-LS23@1",
+      "provider": "K19-CL-LS16@1",
+      "condition": "K19-CTX-LS23@1",
+      "providerContext": "K19-CTX-LS16@1",
+      "group": "K19-GR-LS23@1"
+    },
+    {
+      "edge": "K19-E-LS24-REQUIRES-K12-CL-TO23",
+      "consumer": "K19-CL-LS24@1",
+      "provider": "K12-CL-TO23@1",
+      "condition": "K19-CTX-LS24@1",
+      "providerContext": "K12-CTX-TO23@1",
+      "group": "K19-GR-LS24@1"
+    },
+    {
+      "edge": "K19-E-LS33-REQUIRES-K19-CL-LS34",
+      "consumer": "K19-CL-LS33@1",
+      "provider": "K19-CL-LS34@1",
+      "condition": "K19-CTX-LS33@1",
+      "providerContext": "K19-CTX-LS34@1",
+      "group": "K19-GR-LS33@1"
+    },
+    {
+      "edge": "K19-E-LS33-REQUIRES-K19-CL-LS35",
+      "consumer": "K19-CL-LS33@1",
+      "provider": "K19-CL-LS35@1",
+      "condition": "K19-CTX-LS33@1",
+      "providerContext": "K19-CTX-LS35@1",
+      "group": "K19-GR-LS33@1"
+    },
+    {
+      "edge": "K19-E-LS34-REQUIRES-K19-CL-LS02",
+      "consumer": "K19-CL-LS34@1",
+      "provider": "K19-CL-LS02@1",
+      "condition": "K19-CTX-LS34@1",
+      "providerContext": "K19-CTX-LS02@1",
+      "group": "K19-GR-LS34@1"
+    },
+    {
+      "edge": "K19-E-LS35-REQUIRES-K07-CL-AC25",
+      "consumer": "K19-CL-LS35@1",
+      "provider": "K07-CL-AC25@1",
+      "condition": "K19-CTX-LS35@1",
+      "providerContext": "K07-CTX-AC25@1",
+      "group": "K19-GR-LS35@1"
+    },
+    {
+      "edge": "K19-E-LS36-REQUIRES-K07-CL-AC49",
+      "consumer": "K19-CL-LS36@1",
+      "provider": "K07-CL-AC49@1",
+      "condition": "K19-CTX-LS36@1",
+      "providerContext": "K07-CTX-AC49@1",
+      "group": "K19-GR-LS36@1"
+    },
+    {
+      "edge": "K19-E-LS39-REQUIRES-K19-CL-LS21",
+      "consumer": "K19-CL-LS39@1",
+      "provider": "K19-CL-LS21@1",
+      "condition": "K19-CTX-LS39@1",
+      "providerContext": "K19-CTX-LS21@1",
+      "group": "K19-GR-LS39@1"
+    },
+    {
+      "edge": "K19-E-LS40-REQUIRES-K19-CL-LS13",
+      "consumer": "K19-CL-LS40@1",
+      "provider": "K19-CL-LS13@1",
+      "condition": "K19-CTX-LS40@1",
+      "providerContext": "K19-CTX-LS13@1",
+      "group": "K19-GR-LS40@1"
+    },
+    {
+      "edge": "K19-E-LS40-REQUIRES-K19-CL-LS33",
+      "consumer": "K19-CL-LS40@1",
+      "provider": "K19-CL-LS33@1",
+      "condition": "K19-CTX-LS40@1",
+      "providerContext": "K19-CTX-LS33@1",
+      "group": "K19-GR-LS40@1"
+    }
+  ]
+}

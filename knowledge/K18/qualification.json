@@ -1,0 +1,931 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K18",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "75389933ceba87e70feb1be12662baf27ec31c1c",
+  "sourceQualifications": [
+    {
+      "source": "S603@1",
+      "scope": "| S603 | [W3C Web Audio API 2021-06-17](https://www.w3.org/TR/2021/REC-webaudio-20210617/) §1.26/1.28 L8558–8596、§rendering loop L9793–9843 | READ_LOCATOR 固定REC；PeriodicWave Fourier正弦/余弦系数与归一化、DC清零；有DelayNode的环路拆解，剩余环路静音、最小一render quantum，AudioParam输入合并。非通用所有宿主行为或浏览器实际测试。 |",
+      "limits": "| S603 | [W3C Web Audio API 2021-06-17](https://www.w3.org/TR/2021/REC-webaudio-20210617/) §1.26/1.28 L8558–8596、§rendering loop L9793–9843 | READ_LOCATOR 固定REC；PeriodicWave Fourier正弦/余弦系数与归一化、DC清零；有DelayNode的环路拆解，剩余环路静音、最小一render quantum，AudioParam输入合并。非通用所有宿主行为或浏览器实际测试。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/TR/2021/REC-webaudio-20210617/"
+    },
+    {
+      "source": "S604@1",
+      "scope": "| S604 | [Csound7 moogladder](https://csound.com/manual/opcodes/moogladder/) L225–247 | READ_LOCATOR；输入/截止/共振及历史状态；高共振可能混叠，特定单位及算法不泛化所有滤波器。 |",
+      "limits": "| S604 | [Csound7 moogladder](https://csound.com/manual/opcodes/moogladder/) L225–247 | READ_LOCATOR；输入/截止/共振及历史状态；高共振可能混叠，特定单位及算法不泛化所有滤波器。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://csound.com/manual/opcodes/moogladder/"
+    },
+    {
+      "source": "S605@1",
+      "scope": "| S605 | Chowning 1973 [AES书目](https://aes.org/publications/elibrary/elibrary-page/?id=1954) L219–254；1977 CMJ重印[UVic PDF](https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf) 零基0/1/2截图（封面/印46/47），L30–74 | READ_LOCATOR_LIMITED；载波、调制频率、峰值频偏，图1边带与调制深度、印47公式1/2与Bessel系数/相位；原1973 JAES21(7)526–534、1977 CMJ1(2)46–54重印。未验证后续全部页或计算Bessel数值或现代实现。 |",
+      "limits": "| S605 | Chowning 1973 [AES书目](https://aes.org/publications/elibrary/elibrary-page/?id=1954) L219–254；1977 CMJ重印[UVic PDF](https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf) 零基0/1/2截图（封面/印46/47），L30–74 | READ_LOCATOR_LIMITED；载波、调制频率、峰值频偏，图1边带与调制深度、印47公式1/2与Bessel系数/相位；原1973 JAES21(7)526–534、1977 CMJ1(2)46–54重印。未验证后续全部页或计算Bessel数值或现代实现。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://aes.org/publications/elibrary/elibrary-page/?id=1954"
+    },
+    {
+      "source": "S606@1",
+      "scope": "| S606 | [Csound7 foscil](https://csound.com/manual/opcodes/foscil/) L219–246 | READ_LOCATOR；kcps×xcar、kcps×xmod、调制指数、周期表guard point。其特定实现说明不当通用基频/听感判据。 |",
+      "limits": "| S606 | [Csound7 foscil](https://csound.com/manual/opcodes/foscil/) L219–246 | READ_LOCATOR；kcps×xcar、kcps×xmod、调制指数、周期表guard point。其特定实现说明不当通用基频/听感判据。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://csound.com/manual/opcodes/foscil/"
+    },
+    {
+      "source": "S607@1",
+      "scope": "| S607 | [Max7 Test Tone](https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01) L51–65；[Csound7 tablei](https://csound.com/manual/opcodes/tablei/) L233–249 | READ_LOCATOR；周期表读相位、线性插值，原始/归一化索引及wrap/guard；插值非抗混叠保证。 |",
+      "limits": "| S607 | [Max7 Test Tone](https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01) L51–65；[Csound7 tablei](https://csound.com/manual/opcodes/tablei/) L233–249 | READ_LOCATOR；周期表读相位、线性插值，原始/归一化索引及wrap/guard；插值非抗混叠保证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01"
+    },
+    {
+      "source": "S608@1",
+      "scope": "| S608 | [Ableton Live12 Instrument Reference](https://www.ableton.com/en/live-manual/12/live-instrument-reference/) §31.13 L1855–1884/1915–1984/1986–2021 | READ_LOCATOR；波表位置与调音、导入RAW、加法/乘法调制中性值0/1、包络循环/释放、LFO Hz/拍、MIDI矩阵及unison。特定宿主语义，未实际运行。 |",
+      "limits": "| S608 | [Ableton Live12 Instrument Reference](https://www.ableton.com/en/live-manual/12/live-instrument-reference/) §31.13 L1855–1884/1915–1984/1986–2021 | READ_LOCATOR；波表位置与调音、导入RAW、加法/乘法调制中性值0/1、包络循环/释放、LFO Hz/拍、MIDI矩阵及unison。特定宿主语义，未实际运行。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.ableton.com/en/live-manual/12/live-instrument-reference/"
+    },
+    {
+      "source": "S609@1",
+      "scope": "| S609 | [Csound7 grain](https://csound.com/manual/opcodes/grain/) L240–252/327–345；[fog](https://csound.com/manual/opcodes/fog/) L249–252 | READ_LOCATOR；颗粒密度/长度、grain pitch及源表采样率，fog读起点与粒内读速率分开；不是任意颗粒引擎参数单位。 |",
+      "limits": "| S609 | [Csound7 grain](https://csound.com/manual/opcodes/grain/) L240–252/327–345；[fog](https://csound.com/manual/opcodes/fog/) L249–252 | READ_LOCATOR；颗粒密度/长度、grain pitch及源表采样率，fog读起点与粒内读速率分开；不是任意颗粒引擎参数单位。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://csound.com/manual/opcodes/grain/"
+    },
+    {
+      "source": "S610@1",
+      "scope": "| S610 | [Csound7 pluck](https://csound.com/manual/opcodes/pluck/) L253；[wgpluck2](https://csound.com/manual/opcodes/wgpluck2/) L233–245；[wguide1](https://csound.com/manual/opcodes/wguide1/) L214–240 | READ_LOCATOR；Karplus-Strong离散延迟误差、重采样实现；拨弦点/拾音位置/损耗反射系数严格0–1；激励/延迟/低通/反馈。未实测或泛化真实弦乐器。 |",
+      "limits": "| S610 | [Csound7 pluck](https://csound.com/manual/opcodes/pluck/) L253；[wgpluck2](https://csound.com/manual/opcodes/wgpluck2/) L233–245；[wguide1](https://csound.com/manual/opcodes/wguide1/) L214–240 | READ_LOCATOR；Karplus-Strong离散延迟误差、重采样实现；拨弦点/拾音位置/损耗反射系数严格0–1；激励/延迟/低通/反馈。未实测或泛化真实弦乐器。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://csound.com/manual/opcodes/pluck/"
+    },
+    {
+      "source": "S611@1",
+      "scope": "| S611 | [SFZ basics](https://sfzformat.com/tutorials/basics/) L181–207/251–277；[lovel/hivel](https://sfzformat.com/opcodes/hivel/) L42–44；[loop_mode](https://sfzformat.com/opcodes/loopmode/) L55–69 | READ_LOCATOR；根音/键域/力度层、velocity0 note-off、循环默认值及特定播放器one_shot区别，未验具体播放器或样本权利。 |",
+      "limits": "| S611 | [SFZ basics](https://sfzformat.com/tutorials/basics/) L181–207/251–277；[lovel/hivel](https://sfzformat.com/opcodes/hivel/) L42–44；[loop_mode](https://sfzformat.com/opcodes/loopmode/) L55–69 | READ_LOCATOR；根音/键域/力度层、velocity0 note-off、循环默认值及特定播放器one_shot区别，未验具体播放器或样本权利。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://sfzformat.com/tutorials/basics/"
+    },
+    {
+      "source": "S612@1",
+      "scope": "| S612 | [Csound7 adsr](https://csound.com/manual/opcodes/adsr/) L251–253；[madsr](https://csound.com/manual/opcodes/madsr/) L244–257 | READ_LOCATOR；固定音符长度adsr与MIDI note-off触发释放madsr区别，madsr时间不能为0；非所有ADSR实现。 |",
+      "limits": "| S612 | [Csound7 adsr](https://csound.com/manual/opcodes/adsr/) L251–253；[madsr](https://csound.com/manual/opcodes/madsr/) L244–257 | READ_LOCATOR；固定音符长度adsr与MIDI note-off触发释放madsr区别，madsr时间不能为0；非所有ADSR实现。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://csound.com/manual/opcodes/adsr/"
+    },
+    {
+      "source": "S613@1",
+      "scope": "| S613 | [VCV Rack Voltage Standards](https://vcvrack.com/manual/VoltageStandards) L37/65/70–82 | READ_LOCATOR；1V/oct模型及primary polyphony、mono广播/不足多声道补0等Rack约定，明确非实际Eurorack所有模块规范。 |",
+      "limits": "| S613 | [VCV Rack Voltage Standards](https://vcvrack.com/manual/VoltageStandards) L37/65/70–82 | READ_LOCATOR；1V/oct模型及primary polyphony、mono广播/不足多声道补0等Rack约定，明确非实际Eurorack所有模块规范。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://vcvrack.com/manual/VoltageStandards"
+    },
+    {
+      "source": "S614@1",
+      "scope": "| S614 | [VCV Module Presets](https://vcvrack.com/manual/Presets) L38–50；[Versioning](https://vcvrack.com/manual/Version) L40–48；[Max8 pattrstorage](https://docs.cycling74.com/legacy/max8/refpages/pattrstorage) L173–179/470–471 | READ_LOCATOR；模块预设参数/内部JSON不能包含patch storage文件；Rack主版本及minor方向；Max8匹配client path及保存模式。非完整可重开保证。 |",
+      "limits": "| S614 | [VCV Module Presets](https://vcvrack.com/manual/Presets) L38–50；[Versioning](https://vcvrack.com/manual/Version) L40–48；[Max8 pattrstorage](https://docs.cycling74.com/legacy/max8/refpages/pattrstorage) L173–179/470–471 | READ_LOCATOR；模块预设参数/内部JSON不能包含patch storage文件；Rack主版本及minor方向；Max8匹配client path及保存模式。非完整可重开保证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://vcvrack.com/manual/Presets"
+    },
+    {
+      "source": "S615@1",
+      "scope": "| S615 | [MIDI Association MIDI1.0消息](https://midi.org/summary-of-midi-1-0-messages) L62–87/113–118 | READ_LOCATOR；7-bit CC/压力、14-bit bend中心8192/接收端灵敏度，channel mode与时钟；非完整协议/实际设备支持，不从发送推实际状态。 |",
+      "limits": "| S615 | [MIDI Association MIDI1.0消息](https://midi.org/summary-of-midi-1-0-messages) L62–87/113–118 | READ_LOCATOR；7-bit CC/压力、14-bit bend中心8192/接收端灵敏度，channel mode与时钟；非完整协议/实际设备支持，不从发送推实际状态。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://midi.org/summary-of-midi-1-0-messages"
+    },
+    {
+      "source": "S616@1",
+      "scope": "| S616 | [librosa 0.11.0 spectral_centroid](https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html) L11–16/28–72 | READ_LOCATOR；幅度谱权重、Hz、FFT/窗/帧对齐，零和本模块UNKNOWN而非声称库返回；描述符不是美感/身份。 |",
+      "limits": "| S616 | [librosa 0.11.0 spectral_centroid](https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html) L11–16/28–72 | READ_LOCATOR；幅度谱权重、Hz、FFT/窗/帧对齐，零和本模块UNKNOWN而非声称库返回；描述符不是美感/身份。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html"
+    },
+    {
+      "source": "S617@1",
+      "scope": "| S617 | [ITU-R BS.1534-3 (10/2015)](https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en) L7–12 | READ_SCOPE_ONLY；中等质量音频系统主观评价的具名规范入口。实际方法全文本轮未读，不宣称音色偏好试验等于MUSHRA；K10既有S516全文资格不升级。 |",
+      "limits": "| S617 | [ITU-R BS.1534-3 (10/2015)](https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en) L7–12 | READ_SCOPE_ONLY；中等质量音频系统主观评价的具名规范入口。实际方法全文本轮未读，不宣称音色偏好试验等于MUSHRA；K10既有S516全文资格不升级。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K18-E-SD01-SUPPORTED-BY-K18-EV-SD01",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "有限理论，不声明渲染结果。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD01-APPLIES-UNDER-K18-CTX-SD01",
+      "scope": "明确题设及证据条件。",
+      "limits": "有限理论，不声明渲染结果。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD01-REFERENCES-K18-CL-SD02",
+      "scope": "叠加峰值与滤波响应不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD02-SUPPORTED-BY-K18-EV-SD02",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不是moogladder实测频响。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD02-APPLIES-UNDER-K18-CTX-SD02",
+      "scope": "明确题设及证据条件。",
+      "limits": "不是moogladder实测频响。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD02-REFERENCES-K18-CL-SD03",
+      "scope": "线性响应与实际滤波状态分开",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD03-SUPPORTED-BY-K18-EV-SD03",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "K08实际DSP、K07安全。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD03-APPLIES-UNDER-K18-CTX-SD03",
+      "scope": "明确题设及证据条件。",
+      "limits": "K08实际DSP、K07安全。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD03-REFERENCES-K18-CL-SD04",
+      "scope": "非线性混叠另核",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD04-SUPPORTED-BY-K18-EV-SD04",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅严格低于Nyquist的频率筛选，不保证全链无混叠。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD04-APPLIES-UNDER-K18-CTX-SD04",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅严格低于Nyquist的频率筛选，不保证全链无混叠。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD04-REQUIRES-K08-CL-DA01",
+      "scope": "采样定理的严格带限条件",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD05-SUPPORTED-BY-K18-EV-SD05",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不计算Bessel数值或听觉基音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD05-APPLIES-UNDER-K18-CTX-SD05",
+      "scope": "明确题设及证据条件。",
+      "limits": "不计算Bessel数值或听觉基音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD05-REFERENCES-K18-CL-SD06",
+      "scope": "FM频率格与实际幅度不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD06-SUPPORTED-BY-K18-EV-SD06",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不将特定foscil文档基本音描述泛化。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD06-APPLIES-UNDER-K18-CTX-SD06",
+      "scope": "明确题设及证据条件。",
+      "limits": "不将特定foscil文档基本音描述泛化。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD06-REQUIRES-K18-CL-SD05",
+      "scope": "FM指数及带符号边带条件",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD07-SUPPORTED-BY-K18-EV-SD07",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "限正弦、定常；真实实现K08。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD07-APPLIES-UNDER-K18-CTX-SD07",
+      "scope": "明确题设及证据条件。",
+      "limits": "限正弦、定常；真实实现K08。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD07-REFERENCES-K18-CL-SD05",
+      "scope": "环调与FM机制对照",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD08-SUPPORTED-BY-K18-EV-SD08",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际乐器仿真。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD08-APPLIES-UNDER-K18-CTX-SD08",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际乐器仿真。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD08-REQUIRES-K18-CL-SD05",
+      "scope": "随时间改变指数而非固定谱",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD09-SUPPORTED-BY-K18-EV-SD09",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数值为原创表，非Max或Csound输出实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD09-APPLIES-UNDER-K18-CTX-SD09",
+      "scope": "明确题设及证据条件。",
+      "limits": "数值为原创表，非Max或Csound输出实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD09-REFERENCES-K18-CL-SD10",
+      "scope": "周期相位与帧间morph不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD10-SUPPORTED-BY-K18-EV-SD10",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "有限线性morph不是Live算法证明。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD10-APPLIES-UNDER-K18-CTX-SD10",
+      "scope": "明确题设及证据条件。",
+      "limits": "有限线性morph不是Live算法证明。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD10-REQUIRES-K18-CL-SD09",
+      "scope": "相位与帧选择独立",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD11-SUPPORTED-BY-K18-EV-SD11",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不宣称实际频谱质量。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD11-APPLIES-UNDER-K18-CTX-SD11",
+      "scope": "明确题设及证据条件。",
+      "limits": "不宣称实际频谱质量。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD11-REQUIRES-K18-CL-SD09",
+      "scope": "循环表相位定义",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD12-SUPPORTED-BY-K18-EV-SD12",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "素材使用权限K15另核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD12-APPLIES-UNDER-K18-CTX-SD12",
+      "scope": "明确题设及证据条件。",
+      "limits": "素材使用权限K15另核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD12-REQUIRES-K12-CL-TO26",
+      "scope": "宿主版本不可继承旧验证",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD13-SUPPORTED-BY-K18-EV-SD13",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "边界/随机过程另计，不是资源实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD13-APPLIES-UNDER-K18-CTX-SD13",
+      "scope": "明确题设及证据条件。",
+      "limits": "边界/随机过程另计，不是资源实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD13-REFERENCES-K18-CL-SD14",
+      "scope": "颗粒密度与粒内读速率独立",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD14-SUPPORTED-BY-K18-EV-SD14",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不泛化具体算法音高保真。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD14-APPLIES-UNDER-K18-CTX-SD14",
+      "scope": "明确题设及证据条件。",
+      "limits": "不泛化具体算法音高保真。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD14-REFERENCES-K18-CL-SD15",
+      "scope": "粒内读取边界另核",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD15-SUPPORTED-BY-K18-EV-SD15",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "只限定正向整数读速有限例。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD15-APPLIES-UNDER-K18-CTX-SD15",
+      "scope": "明确题设及证据条件。",
+      "limits": "只限定正向整数读速有限例。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD15-REFERENCES-K18-CL-SD13",
+      "scope": "事件时长与素材坐标",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD16-SUPPORTED-BY-K18-EV-SD16",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不声称确定性音频哈希。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD16-APPLIES-UNDER-K18-CTX-SD16",
+      "scope": "明确题设及证据条件。",
+      "limits": "不声称确定性音频哈希。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD16-REQUIRES-K11-CL-AM26",
+      "scope": "随机源与版本复现条件",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD17-SUPPORTED-BY-K18-EV-SD17",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "理想单循环模型，非真实弦长度。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD17-APPLIES-UNDER-K18-CTX-SD17",
+      "scope": "明确题设及证据条件。",
+      "limits": "理想单循环模型，非真实弦长度。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD17-REFERENCES-K18-CL-SD18",
+      "scope": "理想延迟频率与具名模型",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD18-SUPPORTED-BY-K18-EV-SD18",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不把该范围当所有物理建模规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD18-APPLIES-UNDER-K18-CTX-SD18",
+      "scope": "明确题设及证据条件。",
+      "limits": "不把该范围当所有物理建模规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD18-REFERENCES-K18-CL-SD19",
+      "scope": "特定损耗参数非一般稳定性",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD19-SUPPORTED-BY-K18-EV-SD19",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅一阶标量模型，现场物理反馈K19。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD19-APPLIES-UNDER-K18-CTX-SD19",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅一阶标量模型，现场物理反馈K19。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD19-REFERENCES-K18-CL-SD30",
+      "scope": "标量反馈与拓扑筛查非等价",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD20-SUPPORTED-BY-K18-EV-SD20",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "器物实体K03/K16，未实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD20-APPLIES-UNDER-K18-CTX-SD20",
+      "scope": "明确题设及证据条件。",
+      "limits": "器物实体K03/K16，未实测。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD20-REFERENCES-K18-CL-SD17",
+      "scope": "模型参数与样本回放不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD21-SUPPORTED-BY-K18-EV-SD21",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅假设无额外转调/warp的比例。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD21-APPLIES-UNDER-K18-CTX-SD21",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅假设无额外转调/warp的比例。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD21-REFERENCES-K18-CL-SD22",
+      "scope": "根音键域和力度区间分开",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD22-SUPPORTED-BY-K18-EV-SD22",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "本例唯一层策略，不概括SFZ所有行为。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD22-APPLIES-UNDER-K18-CTX-SD22",
+      "scope": "明确题设及证据条件。",
+      "limits": "本例唯一层策略，不概括SFZ所有行为。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD22-REFERENCES-K18-CL-SD23",
+      "scope": "触发与循环释放独立",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD23-SUPPORTED-BY-K18-EV-SD23",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未运行播放器，不断言通用loop端点。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD23-APPLIES-UNDER-K18-CTX-SD23",
+      "scope": "明确题设及证据条件。",
+      "limits": "未运行播放器，不断言通用loop端点。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD23-REFERENCES-K18-CL-SD24",
+      "scope": "循环及外部样本身份",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD24-SUPPORTED-BY-K18-EV-SD24",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "K15具体许可，K12工具执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD24-APPLIES-UNDER-K18-CTX-SD24",
+      "scope": "明确题设及证据条件。",
+      "limits": "K15具体许可，K12工具执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD24-REQUIRES-K09-CL-MP21",
+      "scope": "重建必须核依赖闭包",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD25-SUPPORTED-BY-K18-EV-SD25",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "限定门控线性模型，不声明所有宿主行为。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD25-APPLIES-UNDER-K18-CTX-SD25",
+      "scope": "明确题设及证据条件。",
+      "limits": "限定门控线性模型，不声明所有宿主行为。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD25-REFERENCES-K18-CL-SD26",
+      "scope": "线性示意与具名包络实现",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD26-SUPPORTED-BY-K18-EV-SD26",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "具体文档条件，未运行Csound。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD26-APPLIES-UNDER-K18-CTX-SD26",
+      "scope": "明确题设及证据条件。",
+      "limits": "具体文档条件，未运行Csound。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD26-REFERENCES-K18-CL-SD25",
+      "scope": "实际门控和示意释放",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD27-SUPPORTED-BY-K18-EV-SD27",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅四分拍BPM和简单周期。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD27-APPLIES-UNDER-K18-CTX-SD27",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅四分拍BPM和简单周期。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD27-REFERENCES-K18-CL-SD28",
+      "scope": "调制频率与组合单位独立",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD28-SUPPORTED-BY-K18-EV-SD28",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不从数值推真实参数范围。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD28-APPLIES-UNDER-K18-CTX-SD28",
+      "scope": "明确题设及证据条件。",
+      "limits": "不从数值推真实参数范围。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD28-REFERENCES-K18-CL-SD35",
+      "scope": "目标映射曲线与组合不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD29-SUPPORTED-BY-K18-EV-SD29",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅Rack文档约定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD29-APPLIES-UNDER-K18-CTX-SD29",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅Rack文档约定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD29-REFERENCES-K18-CL-SD31",
+      "scope": "宿主约定不是设备标准",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD30-SUPPORTED-BY-K18-EV-SD30",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "固定Web Audio规则与设计保守门禁区别。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD30-APPLIES-UNDER-K18-CTX-SD30",
+      "scope": "明确题设及证据条件。",
+      "limits": "固定Web Audio规则与设计保守门禁区别。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD30-REQUIRES-K18-CL-SD19",
+      "scope": "有延迟不等稳定",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD31-SUPPORTED-BY-K18-EV-SD31",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不指导硬件接线。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD31-APPLIES-UNDER-K18-CTX-SD31",
+      "scope": "明确题设及证据条件。",
+      "limits": "不指导硬件接线。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD31-REFERENCES-K18-CL-SD29",
+      "scope": "端口及量纲条件",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD32-SUPPORTED-BY-K18-EV-SD32",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不假定所有线性定常级联不交换。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD32-APPLIES-UNDER-K18-CTX-SD32",
+      "scope": "明确题设及证据条件。",
+      "limits": "不假定所有线性定常级联不交换。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD32-REQUIRES-K18-CL-SD30",
+      "scope": "变更路由须独立核零延迟子环",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD33-SUPPORTED-BY-K18-EV-SD33",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未实际加载Rack。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD33-APPLIES-UNDER-K18-CTX-SD33",
+      "scope": "明确题设及证据条件。",
+      "limits": "未实际加载Rack。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD33-REQUIRES-K18-CL-SD24",
+      "scope": "外部素材与预设分开",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD34-SUPPORTED-BY-K18-EV-SD34",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不宣称兼容所有插件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD34-APPLIES-UNDER-K18-CTX-SD34",
+      "scope": "明确题设及证据条件。",
+      "limits": "不宣称兼容所有插件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD34-REQUIRES-K12-CL-TO53",
+      "scope": "接口和内部状态兼容不同",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD35-SUPPORTED-BY-K18-EV-SD35",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设线性非通用感知尺度。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD35-APPLIES-UNDER-K18-CTX-SD35",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设线性非通用感知尺度。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD35-REFERENCES-K18-CL-SD28",
+      "scope": "宏映射与调制矩阵",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD36-SUPPORTED-BY-K18-EV-SD36",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "K09工程管理/K15治理另证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD36-APPLIES-UNDER-K18-CTX-SD36",
+      "scope": "明确题设及证据条件。",
+      "limits": "K09工程管理/K15治理另证。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD36-REQUIRES-K12-CL-TO51",
+      "scope": "变更下游失效边界",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD37-SUPPORTED-BY-K18-EV-SD37",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未发送MIDI。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD37-APPLIES-UNDER-K18-CTX-SD37",
+      "scope": "明确题设及证据条件。",
+      "limits": "未发送MIDI。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD37-REFERENCES-K18-CL-SD39",
+      "scope": "消息及接收端映射身份",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD38-SUPPORTED-BY-K18-EV-SD38",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "安全K07/K19，未控制设备。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD38-APPLIES-UNDER-K18-CTX-SD38",
+      "scope": "明确题设及证据条件。",
+      "limits": "安全K07/K19，未控制设备。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD38-REQUIRES-K12-CL-TO23",
+      "scope": "发送不等实际状态，未知副作用不可重发",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD39-SUPPORTED-BY-K18-EV-SD39",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不证明MPE或MIDI2支持。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD39-APPLIES-UNDER-K18-CTX-SD39",
+      "scope": "明确题设及证据条件。",
+      "limits": "不证明MPE或MIDI2支持。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD39-REFERENCES-K18-CL-SD37",
+      "scope": "MIDI通道键及控制范围",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD40-SUPPORTED-BY-K18-EV-SD40",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实时设备测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD40-APPLIES-UNDER-K18-CTX-SD40",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实时设备测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD40-REQUIRES-K08-CL-DA26",
+      "scope": "实际块时限和实时负载独立",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD41-SUPPORTED-BY-K18-EV-SD41",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不是librosa实际运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD41-APPLIES-UNDER-K18-CTX-SD41",
+      "scope": "明确题设及证据条件。",
+      "limits": "不是librosa实际运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD41-REFERENCES-K18-CL-SD42",
+      "scope": "同描述符不等同音色",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD42-SUPPORTED-BY-K18-EV-SD42",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实听辨或机制推断。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD42-APPLIES-UNDER-K18-CTX-SD42",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实听辨或机制推断。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD42-REQUIRES-K18-CL-SD41",
+      "scope": "质心解释的有限范围",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD43-SUPPORTED-BY-K18-EV-SD43",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "本轮仅读规范入口，无实际符合性。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD43-APPLIES-UNDER-K18-CTX-SD43",
+      "scope": "明确题设及证据条件。",
+      "limits": "本轮仅读规范入口，无实际符合性。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD43-REFERENCES-K18-CL-SD42",
+      "scope": "技术指标及听评目标分离",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K18-E-SD44-SUPPORTED-BY-K18-EV-SD44",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不做真实音频/DAW。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD44-APPLIES-UNDER-K18-CTX-SD44",
+      "scope": "明确题设及证据条件。",
+      "limits": "不做真实音频/DAW。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K18-E-SD44-REQUIRES-K18-CL-SD36",
+      "scope": "变更后报告必须当前",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD44-REQUIRES-K18-CL-SD32",
+      "scope": "固定图及保护内容",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K18-E-SD44-REFERENCES-K15-CL-GV02",
+      "scope": "实际许可与候选知识不同",
+      "limits": "可选导航，非等价或逻辑逆。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K18-E-SD04-REQUIRES-K08-CL-DA01",
+      "consumer": "K18-CL-SD04@1",
+      "provider": "K08-CL-DA01@1",
+      "condition": "K18-CTX-SD04@1",
+      "providerContext": "K08-CTX-DA01@1",
+      "group": "K18-GR-SD04@1"
+    },
+    {
+      "edge": "K18-E-SD06-REQUIRES-K18-CL-SD05",
+      "consumer": "K18-CL-SD06@1",
+      "provider": "K18-CL-SD05@1",
+      "condition": "K18-CTX-SD06@1",
+      "providerContext": "K18-CTX-SD05@1",
+      "group": "K18-GR-SD06@1"
+    },
+    {
+      "edge": "K18-E-SD08-REQUIRES-K18-CL-SD05",
+      "consumer": "K18-CL-SD08@1",
+      "provider": "K18-CL-SD05@1",
+      "condition": "K18-CTX-SD08@1",
+      "providerContext": "K18-CTX-SD05@1",
+      "group": "K18-GR-SD08@1"
+    },
+    {
+      "edge": "K18-E-SD10-REQUIRES-K18-CL-SD09",
+      "consumer": "K18-CL-SD10@1",
+      "provider": "K18-CL-SD09@1",
+      "condition": "K18-CTX-SD10@1",
+      "providerContext": "K18-CTX-SD09@1",
+      "group": "K18-GR-SD10@1"
+    },
+    {
+      "edge": "K18-E-SD11-REQUIRES-K18-CL-SD09",
+      "consumer": "K18-CL-SD11@1",
+      "provider": "K18-CL-SD09@1",
+      "condition": "K18-CTX-SD11@1",
+      "providerContext": "K18-CTX-SD09@1",
+      "group": "K18-GR-SD11@1"
+    },
+    {
+      "edge": "K18-E-SD12-REQUIRES-K12-CL-TO26",
+      "consumer": "K18-CL-SD12@1",
+      "provider": "K12-CL-TO26@1",
+      "condition": "K18-CTX-SD12@1",
+      "providerContext": "K12-CTX-TO26@1",
+      "group": "K18-GR-SD12@1"
+    },
+    {
+      "edge": "K18-E-SD16-REQUIRES-K11-CL-AM26",
+      "consumer": "K18-CL-SD16@1",
+      "provider": "K11-CL-AM26@1",
+      "condition": "K18-CTX-SD16@1",
+      "providerContext": "K11-CTX-AM26@1",
+      "group": "K18-GR-SD16@1"
+    },
+    {
+      "edge": "K18-E-SD24-REQUIRES-K09-CL-MP21",
+      "consumer": "K18-CL-SD24@1",
+      "provider": "K09-CL-MP21@1",
+      "condition": "K18-CTX-SD24@1",
+      "providerContext": "K09-CTX-MP21@1",
+      "group": "K18-GR-SD24@1"
+    },
+    {
+      "edge": "K18-E-SD30-REQUIRES-K18-CL-SD19",
+      "consumer": "K18-CL-SD30@1",
+      "provider": "K18-CL-SD19@1",
+      "condition": "K18-CTX-SD30@1",
+      "providerContext": "K18-CTX-SD19@1",
+      "group": "K18-GR-SD30@1"
+    },
+    {
+      "edge": "K18-E-SD32-REQUIRES-K18-CL-SD30",
+      "consumer": "K18-CL-SD32@1",
+      "provider": "K18-CL-SD30@1",
+      "condition": "K18-CTX-SD32@1",
+      "providerContext": "K18-CTX-SD30@1",
+      "group": "K18-GR-SD32@1"
+    },
+    {
+      "edge": "K18-E-SD33-REQUIRES-K18-CL-SD24",
+      "consumer": "K18-CL-SD33@1",
+      "provider": "K18-CL-SD24@1",
+      "condition": "K18-CTX-SD33@1",
+      "providerContext": "K18-CTX-SD24@1",
+      "group": "K18-GR-SD33@1"
+    },
+    {
+      "edge": "K18-E-SD34-REQUIRES-K12-CL-TO53",
+      "consumer": "K18-CL-SD34@1",
+      "provider": "K12-CL-TO53@1",
+      "condition": "K18-CTX-SD34@1",
+      "providerContext": "K12-CTX-TO53@1",
+      "group": "K18-GR-SD34@1"
+    },
+    {
+      "edge": "K18-E-SD36-REQUIRES-K12-CL-TO51",
+      "consumer": "K18-CL-SD36@1",
+      "provider": "K12-CL-TO51@1",
+      "condition": "K18-CTX-SD36@1",
+      "providerContext": "K12-CTX-TO51@1",
+      "group": "K18-GR-SD36@1"
+    },
+    {
+      "edge": "K18-E-SD38-REQUIRES-K12-CL-TO23",
+      "consumer": "K18-CL-SD38@1",
+      "provider": "K12-CL-TO23@1",
+      "condition": "K18-CTX-SD38@1",
+      "providerContext": "K12-CTX-TO23@1",
+      "group": "K18-GR-SD38@1"
+    },
+    {
+      "edge": "K18-E-SD40-REQUIRES-K08-CL-DA26",
+      "consumer": "K18-CL-SD40@1",
+      "provider": "K08-CL-DA26@1",
+      "condition": "K18-CTX-SD40@1",
+      "providerContext": "K08-CTX-DA26@1",
+      "group": "K18-GR-SD40@1"
+    },
+    {
+      "edge": "K18-E-SD42-REQUIRES-K18-CL-SD41",
+      "consumer": "K18-CL-SD42@1",
+      "provider": "K18-CL-SD41@1",
+      "condition": "K18-CTX-SD42@1",
+      "providerContext": "K18-CTX-SD41@1",
+      "group": "K18-GR-SD42@1"
+    },
+    {
+      "edge": "K18-E-SD44-REQUIRES-K18-CL-SD36",
+      "consumer": "K18-CL-SD44@1",
+      "provider": "K18-CL-SD36@1",
+      "condition": "K18-CTX-SD44@1",
+      "providerContext": "K18-CTX-SD36@1",
+      "group": "K18-GR-SD44@1"
+    },
+    {
+      "edge": "K18-E-SD44-REQUIRES-K18-CL-SD32",
+      "consumer": "K18-CL-SD44@1",
+      "provider": "K18-CL-SD32@1",
+      "condition": "K18-CTX-SD44@1",
+      "providerContext": "K18-CTX-SD32@1",
+      "group": "K18-GR-SD44@1"
+    }
+  ]
+}

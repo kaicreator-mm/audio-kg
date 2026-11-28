@@ -241,8 +241,8 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    for(const [d,x] of frozenSupportCQ)if(d.startsWith(k.owner+"::")){unique(x,"duplicate frozen K15 support CQ");frozenSupportCQ.set(d,x.sort())}
    fail([...frozenDirectCQ.keys()].filter(d=>d.startsWith(k.owner+"::")).length===disc.count,"K15 frozen CQ D4 coverage");
   }
-  if(["K11","K16","K17"].includes(k.owner)&&k.coverageMode==="MODULE"){
-   const prefix={K11:"AM",K16:"MU",K17:"MC"}[k.owner];
+  if(["K11","K12","K13","K16","K17","K18","K19"].includes(k.owner)&&k.coverageMode==="MODULE"){
+   const prefix={K11:"AM",K12:"TO",K13:"LA",K16:"MU",K17:"MC",K18:"SD",K19:"LS"}[k.owner];
    const d4Rows=new Map();
    for(const row of bytes.toString("utf8").split("\n")){
     if(!row.startsWith("| "+k.owner+"."))continue;
@@ -261,7 +261,7 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
     if(!/^\|\s*CQ(?:0[1-9]|1[0-9]|2[0-6])\s*\|/.test(row))continue;
     const cols=row.split("|").slice(1,-1).map(x=>x.trim());
     fail(cols.length===4,"frozen "+k.owner+" CQ row shape");
-    const cq=cols[0],role=cols[1],targets=k.owner==="K11"?cols[2]:cols[3];
+    const cq=cols[0],role=cols[1],targets=["K11","K12","K13"].includes(k.owner)?cols[2]:cols[3];
     fail(!seenCQ.has(cq)&&["D","S","O"].includes(role),"frozen "+k.owner+" CQ identity/role");
     seenCQ.add(cq);
     if(role==="O"){
@@ -270,8 +270,8 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
     }
     const map=role==="D"?frozenDirectCQ:frozenSupportCQ;
     const matches=[...targets.matchAll(new RegExp("\\[("+prefix+"\\d+)/("+k.owner+"\\.\\d{2}\\.\\d{2}\\.\\d{2})\\]\\(","g"))];
-    if(k.owner==="K11"&&role==="S"&&/上表全部60条/.test(targets)){
-     fail(disc.count===60&&matches.length===0,"K11 all-row support role shape");
+    if(["K11","K12","K13"].includes(k.owner)&&role==="S"&&targets.includes("上表全部"+disc.count)){
+     fail(disc.count==={K11:60,K12:54,K13:20}[k.owner]&&matches.length===0,k.owner+" all-row support role shape");
      for(const d4 of d4Rows.values())map.get(k.owner+"::"+d4).push(cq);
     }else{
      fail(matches.length>0,"frozen "+k.owner+" D/S CQ requires explicit exact case targets");
@@ -352,7 +352,7 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
   }else if(r.type==="Context")fail(token(r.condition),"context");
   else if(r.type==="Claim"){
    fail(d4.test(r.d4)&&r.d4.startsWith(r.owner+".")&&r.status==="CANDIDATE"&&p.claimKinds.includes(r.kind)&&token(r.statement)&&token(r.limits)&&list(r.cq)&&r.cq.every(x=>/^CQ(?:0[1-9]|1[0-9]|2[0-6])$/.test(x))&&rowsByClaim.has(id),"claim scope/status");
-   if(["K10","K15","K11","K16","K17"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"){
+   if(["K10","K15","K11","K12","K13","K16","K17","K18","K19"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"){
     const expected=frozenDirectCQ.get(r.owner+"::"+r.d4);fail(list(expected)&&equal([...r.cq].sort(),expected),"claim CQ does not match frozen direct role "+r.d4);
    }else fail(r.cq.length>0||(["K01","K02"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"),"claim requires direct CQ");
    unique(r.cq,"duplicate CQ");fail(get(r.context,"Context").owner===r.owner,"claim context owner");
