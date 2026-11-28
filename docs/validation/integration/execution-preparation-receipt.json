@@ -1,0 +1,70 @@
+{
+  "status": "BUILDER_PREPARATION_PASS_ONLY_EXECUTION_GATE_PENDING",
+  "kgBase": "7d4068980b750af2beaa97665219e2d950b3cc9e",
+  "kgTree": "cda3bac9c7b3ee9070dc7cfa610e7ce8f6b58338",
+  "presealComment": 7244130072,
+  "assemblerMock": 11,
+  "runnerMock": 17,
+  "crossDomainNamed": 5,
+  "frozenR8": 70,
+  "frozenR9": 44,
+  "reviewedMergeContributions": 21,
+  "fullTreeMatches": 14,
+  "parallelExactDeltaMatches": 7,
+  "reviewedPaths": 790,
+  "actualRequests": 0,
+  "actualScores": 0,
+  "actualAudio": "NOT_EXECUTED",
+  "acceptedClaims": 0,
+  "executionJobs": {
+    "mockFinal": "job_01M8HRZ9SY00YYFWV7JBRDF4C5",
+    "reviewChain": "job_01M8HS1WD400TGB8SFE6CSBZ3G",
+    "crossDomain": "job_01M8HS6A7Q00HD57G4FMK891WB",
+    "tokenizerInstall": "job_01M8HRSHAV00GBXAKXV68P42G9",
+    "isolatedDraft": "job_01M8HRQ0YV000WTJCJX26MT5FK",
+    "tokenizedDraft": "job_01M8HRW8KY00B0S8Z2XXHPJECS",
+    "offlineRunnerValidation": "job_01M8HS6SZG00EAYA86FM39FHQG"
+  },
+  "draft": {
+    "selectionFileSha256": "aaa964eaf08cacfdad94abce9b2cdb6f9231ef3ebaf9eee7b687d69d6287081c",
+    "bundleSha256": "b93569b4a4ec017a292dbb66c1329a03716fbc051943d51c406869d1038263d7",
+    "tasks": 26,
+    "readySlots": 100,
+    "infeasibleSlots": 4,
+    "maxOfflinePromptTokens": 4219,
+    "maxReservedInputBound": 4731,
+    "nominalPeakWorstUSD": "0.3833856",
+    "status": "NOT_INDEPENDENTLY_APPROVED"
+  },
+  "isolation": {
+    "account": "audio-kg-t07",
+    "runnerRoot": "/tmp/audio-kg-t07-runner.124R9Mp2",
+    "nonRoot": true,
+    "evaluatorAccessDenied": true,
+    "rawHeldoutInGitHub": false,
+    "rubricInStage": false,
+    "approvalAbsentRunRejected": true
+  },
+  "codeSha256": {
+    "tests/integration/draft-selection.mjs": "753b1aec5ac9818c10be684ed161f98fe70d57c5f0d9291d379bc4e402a805a1",
+    "tests/integration/prepare-llm-bundle.mjs": "3bb79bc339c9118784b33ea2b5fc7701ac9f2a089dbe0be644f0a4151b4c59ea",
+    "tests/integration/run-llm-bundle.py": "76e1fdd41fdec0d3fdfd891facf508ac21859bfeb77a883fc85dae403d342145",
+    "tests/integration/offline-tokenizer.py": "33535cab520f7bf8549132c8394985eefdf71045b739c2c334465517c975e564",
+    "tests/integration/llm-bundle.test.mjs": "63d627cdb22dfedaf8f604cb4d3e4a0de08098e51a06b91a6559f9cff9e5959b",
+    "tests/integration/llm-runner.test.py": "f342067b21ccfa1699241022529b9fba6c66a3a80f03be1db97cbddbc450607a",
+    "tests/integration/verify-review-chain.py": "9c77ca414619a442ea26f8c9db965fffd8482b04e3336e2b1055a5142810eaa7",
+    "tests/integration/cross-domain.test.mjs": "2b54e30a27e1c25438297c9d7b75897ea6b244b95a02d8b4cc7a8d0090bbde3c"
+  },
+  "limitations": [
+    "draft B may include embedded examples; independent semantic review mandatory",
+    "one draft task context infeasible; do not drop or replace task",
+    "actual model identity/fingerprint/usage not yet observed",
+    "full 8616 cumulative regression to be rerun at final T07 submission; prior exact KG paths unchanged"
+  ],
+  "earlierFailures": [
+    "review-chain first SKIP assertion case mismatch corrected; no data change",
+    "cross-domain first fixture tuple shape assertion corrected; actual states exact",
+    "remote update attempt blocked before write, safe patch subsequently verified",
+    "mock fixture seal handling corrected; production refuses mock seals"
+  ]
+}

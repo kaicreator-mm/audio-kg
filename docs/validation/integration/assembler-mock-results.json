@@ -1,0 +1,51 @@
+{
+  "status": "MOCK_ONLY_NO_MODEL",
+  "passed": 11,
+  "results": [
+    [
+      "104 exact paired slots across 26 CQ with real integrated root/required closure",
+      true
+    ],
+    [
+      "sealed input and comparison bytes reject replacement",
+      true
+    ],
+    [
+      "exact pointers refuse missing or prototype traversal",
+      true
+    ],
+    [
+      "missing direct owner and out-of-CQ claim rejected",
+      true
+    ],
+    [
+      "missing H closure and optional invention refused",
+      true
+    ],
+    [
+      "summary and example cannot inject fabricated held-out answers",
+      true
+    ],
+    [
+      "duplicate or missing schedule slot rejected",
+      true
+    ],
+    [
+      "all arms become infeasible together under common cap",
+      true
+    ],
+    [
+      "no rubric-shaped extra input fields accepted",
+      true
+    ],
+    [
+      "exact schedule and source pointer order cannot be swapped",
+      true
+    ],
+    [
+      "proposed principle paraphrase must bind exact source basis and remain draft",
+      true
+    ]
+  ],
+  "feasibleSmokeTasks": 25
+}

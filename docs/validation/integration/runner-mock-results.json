@@ -1,0 +1,24 @@
+{
+  "status": "MOCK_ONLY_NO_NETWORK",
+  "passed": 17,
+  "results": [
+    "paired exact shape and budget cap",
+    "production runner refuses mock input/protocol seal",
+    "duplicate slot rejection",
+    "model request parameter mutation refusal",
+    "prompt bound mismatch refusal",
+    "common system mutation refusal",
+    "model mismatch refusal",
+    "fingerprint mismatch refusal",
+    "usage excess refusal",
+    "max output refusal",
+    "truncated response is not valid",
+    "successful mock accounting and repeated run denial",
+    "stop and preserve 104 slot statuses on drift",
+    "stop and preserve 104 slot statuses on http",
+    "stop and preserve 104 slot statuses on secret",
+    "stop and preserve 104 slot statuses on timeout",
+    "stop and preserve 104 slot statuses on usage"
+  ],
+  "worstCaseUSD": "0.3833856"
+}
