@@ -1,0 +1,218 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+  "cases": [
+    {
+      "caseId": "T1 史料身份",
+      "stage": "T1 史料身份",
+      "conditions": "目录号、记录日/事件日/发行日、作者/来源及问题类型",
+      "rejectOrStop": "目录即听音、口述即同期、发表日即作品日",
+      "entryLinks": [
+        {
+          "label": "MU01/K16.01.01.01",
+          "uri": "musicology-r1-knowledge-cases.md#L5"
+        },
+        {
+          "label": "MU27/K16.01.04.01",
+          "uri": "musicology-r2-knowledge-cases.md#L5"
+        },
+        {
+          "label": "MU28/K16.01.05.01",
+          "uri": "musicology-r2-knowledge-cases.md#L6"
+        },
+        {
+          "label": "MU33/K16.03.04.01",
+          "uri": "musicology-r2-knowledge-cases.md#L11"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r4-integrated-closure.md",
+        "blob": "450a99adb813ddf85822eeb00d7f39cab8a696ea",
+        "line": 13,
+        "row": "| T1 史料身份 | 目录号、记录日/事件日/发行日、作者/来源及问题类型 | 目录即听音、口述即同期、发表日即作品日 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5)/[MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)/[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6)/[MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "T2 史实与传播",
+      "stage": "T2 史实与传播",
+      "conditions": "只有具体接触证据和日期才形成影响候选，保留竞争路径",
+      "rejectOrStop": "两动机相似就补造直接改编、传播方向",
+      "entryLinks": [
+        {
+          "label": "MU03/K16.01.03.01",
+          "uri": "musicology-r1-knowledge-cases.md#L7"
+        },
+        {
+          "label": "MU04/K16.02.01.01",
+          "uri": "musicology-r1-knowledge-cases.md#L8"
+        },
+        {
+          "label": "MU05/K16.02.02.01",
+          "uri": "musicology-r1-knowledge-cases.md#L9"
+        },
+        {
+          "label": "MU29/K16.02.05.01",
+          "uri": "musicology-r2-knowledge-cases.md#L7"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r4-integrated-closure.md",
+        "blob": "450a99adb813ddf85822eeb00d7f39cab8a696ea",
+        "line": 14,
+        "row": "| T2 史实与传播 | 只有具体接触证据和日期才形成影响候选，保留竞争路径 | 两动机相似就补造直接改编、传播方向 | [MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7)/[MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8)/[MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9)/[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "T3 表演语境",
+      "stage": "T3 表演语境",
+      "conditions": "分古典曲集/竖琴及hsaing场合，保存13/16弦不同来源和疑问地名",
+      "rejectOrStop": "同名器物必须一致；所有曲目均仪式",
+      "entryLinks": [
+        {
+          "label": "MU10/K16.03.01.01",
+          "uri": "musicology-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "MU11/K16.03.01.02",
+          "uri": "musicology-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "MU31/K16.03.02.01",
+          "uri": "musicology-r2-knowledge-cases.md#L9"
+        },
+        {
+          "label": "MU32/K16.03.03.01",
+          "uri": "musicology-r2-knowledge-cases.md#L10"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r4-integrated-closure.md",
+        "blob": "450a99adb813ddf85822eeb00d7f39cab8a696ea",
+        "line": 15,
+        "row": "| T3 表演语境 | 分古典曲集/竖琴及hsaing场合，保存13/16弦不同来源和疑问地名 | 同名器物必须一致；所有曲目均仪式 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14)/[MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15)/[MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)/[MU32/K16.03.03.01](musicology-r2-knowledge-cases.md#L10) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "T4 田野与社会",
+      "stage": "T4 田野与社会",
+      "conditions": "分参与者/研究者/外部评价、场合、观察样本与未知身份",
+      "rejectOrStop": "60社会即每个人、音色/语言推个人身份",
+      "entryLinks": [
+        {
+          "label": "MU12/K16.04.01.01",
+          "uri": "musicology-r1-knowledge-cases.md#L16"
+        },
+        {
+          "label": "MU13/K16.04.02.01",
+          "uri": "musicology-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "MU15/K16.05.01.02",
+          "uri": "musicology-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "MU16/K16.05.02.01",
+          "uri": "musicology-r1-knowledge-cases.md#L20"
+        },
+        {
+          "label": "MU34/K16.04.03.01",
+          "uri": "musicology-r2-knowledge-cases.md#L12"
+        },
+        {
+          "label": "MU36/K16.04.05.01",
+          "uri": "musicology-r2-knowledge-cases.md#L14"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r4-integrated-closure.md",
+        "blob": "450a99adb813ddf85822eeb00d7f39cab8a696ea",
+        "line": 16,
+        "row": "| T4 田野与社会 | 分参与者/研究者/外部评价、场合、观察样本与未知身份 | 60社会即每个人、音色/语言推个人身份 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16)/[MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17)/[MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19)/[MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20)/[MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12)/[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "T5 术语与价值",
+      "stage": "T5 术语与价值",
+      "conditions": "Hnyìnloùn示例原数值与近似残差保留；真实性分维度、争议并列",
+      "rejectOrStop": "12-TET映射即本土概念，历史争议即全体认同",
+      "entryLinks": [
+        {
+          "label": "MU18/K16.06.01.01",
+          "uri": "musicology-r1-knowledge-cases.md#L22"
+        },
+        {
+          "label": "MU19/K16.06.02.01",
+          "uri": "musicology-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "MU20/K16.06.02.02",
+          "uri": "musicology-r1-knowledge-cases.md#L24"
+        },
+        {
+          "label": "MU22/K16.07.01.02",
+          "uri": "musicology-r1-knowledge-cases.md#L26"
+        },
+        {
+          "label": "MU23/K16.07.02.01",
+          "uri": "musicology-r1-knowledge-cases.md#L27"
+        },
+        {
+          "label": "MU24/K16.07.02.02",
+          "uri": "musicology-r1-knowledge-cases.md#L28"
+        },
+        {
+          "label": "MU40/K16.06.04.01",
+          "uri": "musicology-r2-knowledge-cases.md#L18"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r4-integrated-closure.md",
+        "blob": "450a99adb813ddf85822eeb00d7f39cab8a696ea",
+        "line": 17,
+        "row": "| T5 术语与价值 | Hnyìnloùn示例原数值与近似残差保留；真实性分维度、争议并列 | 12-TET映射即本土概念，历史争议即全体认同 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)/[MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23)/[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)/[MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26)/[MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27)/[MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28)/[MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "T6 交付及停止",
+      "stage": "T6 交付及停止",
+      "conditions": "可编辑研究记录保留来源与范围，查项目用途和伦理访问/权利；无许可或未知保持待核",
+      "rejectOrStop": "公开目录=可下载/训练；旧研究同意自动升级",
+      "entryLinks": [
+        {
+          "label": "MU25/K16.07.03.01",
+          "uri": "musicology-r1-knowledge-cases.md#L29"
+        },
+        {
+          "label": "MU26/K16.07.03.02",
+          "uri": "musicology-r1-knowledge-cases.md#L30"
+        },
+        {
+          "label": "MU41/K16.07.04.01",
+          "uri": "musicology-r2-knowledge-cases.md#L19"
+        },
+        {
+          "label": "MU42/K16.07.05.01",
+          "uri": "musicology-r2-knowledge-cases.md#L20"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r4-integrated-closure.md",
+        "blob": "450a99adb813ddf85822eeb00d7f39cab8a696ea",
+        "line": 18,
+        "row": "| T6 交付及停止 | 可编辑研究记录保留来源与范围，查项目用途和伦理访问/权利；无许可或未知保持待核 | 公开目录=可下载/训练；旧研究同意自动升级 | [MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29)/[MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30)/[MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19)/[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    }
+  ],
+  "history": []
+}

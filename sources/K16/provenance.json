@@ -1,0 +1,1319 @@
+{
+  "format": "audio-kg-K16-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S571",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 5,
+        "row": "| S571 | [UCLA Ethnomusicology Primary Sources](https://guides.library.ucla.edu/ethno/primary-sources) L74–91 | READ_LOCATOR 方法指南；一手证据相对于问题，原作品/同期材料/回忆/田野可为一手，二手为综合解释；不等真值。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "UCLA Ethnomusicology Primary Sources",
+          "uri": "https://guides.library.ucla.edu/ethno/primary-sources"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.01.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 5,
+            "row": "| K16.01.01.01 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | 题设1920节目单记演出、1980口述回忆1920、2003研究者据二者解释；分别记证据身份、作者、记录日和所指事件日。节目单只证计划非实际发生。 |"
+          }
+        },
+        {
+          "d4": "K16.01.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 6,
+            "row": "| K16.01.02.01 | [MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。 |"
+          }
+        },
+        {
+          "d4": "K16.01.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 7,
+            "row": "| K16.01.03.01 | [MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8) | 两个合成旋律动机相似但无接触证据，仅记相似；若另得带日期的改编记录且来源可靠，建立影响候选。 |"
+          }
+        },
+        {
+          "d4": "K16.01.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 31,
+            "row": "| K16.01.04.01 | [MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5) | [S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S571](../../research/source-qualification-musicology-r1-r2.md#L5) | RISM示例Caccini 1618印本引用含馆藏I-MOe D.39和RISM990007800；作品、印本、馆藏、目录记录四类身份独立。 |"
+          }
+        },
+        {
+          "d4": "K16.01.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 32,
+            "row": "| K16.01.05.01 | [MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) | [S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S571](../../research/source-qualification-musicology-r1-r2.md#L5) | 题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。 |"
+          }
+        }
+      ],
+      "scope": "| S571 | [UCLA Ethnomusicology Primary Sources](https://guides.library.ucla.edu/ethno/primary-sources) L74–91 | READ_LOCATOR 方法指南；一手证据相对于问题，原作品/同期材料/回忆/田野可为一手，二手为综合解释；不等真值。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S572",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 6,
+        "row": "| S572 | [OHA Best Practices](https://oralhistory.org/best-practices/) L98–113/118–129/130–148 | READ_LOCATOR 专业实践指南；研究准备、同意、访谈主体/日期/场所、开放问题/拒答、审核与归档/访问限制；非单一法律规则，访谈与事件日期分开。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "OHA Best Practices",
+          "uri": "https://oralhistory.org/best-practices/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.01.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 5,
+            "row": "| K16.01.01.01 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | 题设1920节目单记演出、1980口述回忆1920、2003研究者据二者解释；分别记证据身份、作者、记录日和所指事件日。节目单只证计划非实际发生。 |"
+          }
+        },
+        {
+          "d4": "K16.01.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 6,
+            "row": "| K16.01.02.01 | [MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。 |"
+          }
+        },
+        {
+          "d4": "K16.04.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 16,
+            "row": "| K16.04.01.01 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15) | 题设两位参与者P1/P2对同场活动说明不同，研究者观察仅限一场；登记陈述者、时地、招募及未访问群体。 |"
+          }
+        },
+        {
+          "d4": "K16.04.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 17,
+            "row": "| K16.04.02.01 | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15) | 同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。 |"
+          }
+        },
+        {
+          "d4": "K16.05.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 19,
+            "row": "| K16.05.01.02 | [MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。 |"
+          }
+        },
+        {
+          "d4": "K16.05.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 20,
+            "row": "| K16.05.02.01 | [MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 题设仅听到语言及相似音色，个体身份和社群自称UNKNOWN；文化标签描述作品或事件而非个人。 |"
+          }
+        },
+        {
+          "d4": "K16.05.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 21,
+            "row": "| K16.05.02.02 | [MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | 题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。 |"
+          }
+        },
+        {
+          "d4": "K16.07.03.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 30,
+            "row": "| K16.07.03.02 | [MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。 |"
+          }
+        },
+        {
+          "d4": "K16.04.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 38,
+            "row": "| K16.04.03.01 | [MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12) | [S582](../../research/source-qualification-musicology-r1-r2.md#L16)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | Mehr等研究的民族志60个抽样社会皆有歌曲报告；题设5/8被访者同意只表示该题设样本。缺报不当否定。 |"
+          }
+        },
+        {
+          "d4": "K16.04.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 40,
+            "row": "| K16.04.05.01 | [MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。 |"
+          }
+        },
+        {
+          "d4": "K16.05.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 42,
+            "row": "| K16.05.04.01 | [MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。 |"
+          }
+        },
+        {
+          "d4": "K16.07.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 45,
+            "row": "| K16.07.04.01 | [MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19) | [S584](../../research/source-qualification-musicology-r1-r2.md#L18)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 题设访谈同意研究与档案限阅，不含发布；新用途需另与相关主体核，保留撤回或限制变更时间与影响。 |"
+          }
+        },
+        {
+          "d4": "K16.07.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 46,
+            "row": "| K16.07.05.01 | [MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20) | 题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。 |"
+          }
+        }
+      ],
+      "scope": "| S572 | [OHA Best Practices](https://oralhistory.org/best-practices/) L98–113/118–129/130–148 | READ_LOCATOR 专业实践指南；研究准备、同意、访谈主体/日期/场所、开放问题/拒答、审核与归档/访问限制；非单一法律规则，访谈与事件日期分开。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S573",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 7,
+        "row": "| S573 | [College Music Society Myanmar/Burma](https://www.music.org/international-engagement/cms-ambassador-reports/myanmar-burma.html) L108–118/157 | READ_LOCATOR 报告概览；记述宫廷曲词、戏剧/广播/学校/传习、hsaing与小型室内编制不同、地域传统多样；报告时代性及概括非今日普查、全族群结论或某个曲目实际谱音。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "College Music Society Myanmar/Burma",
+          "uri": "https://www.music.org/international-engagement/cms-ambassador-reports/myanmar-burma.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.01.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 6,
+            "row": "| K16.01.02.01 | [MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。 |"
+          }
+        },
+        {
+          "d4": "K16.02.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 8,
+            "row": "| K16.02.01.01 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | CMS报告描述宫廷传统经戏剧、学校和私人传习延续；SFW40492录音为2000 Rangoon，不能给该录音补传承谱系。分别记录时地、群体、来源与未见字段。 |"
+          }
+        },
+        {
+          "d4": "K16.02.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 9,
+            "row": "| K16.02.02.01 | [MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8) | 2013 Ferguson摘要记改写缅语歌词且保留部分国际歌曲旋律/风格；题设另有明确源作品与改编者记录才绑定一对一关系。 |"
+          }
+        },
+        {
+          "d4": "K16.02.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 10,
+            "row": "| K16.02.02.02 | [MU06/K16.02.02.02](musicology-r1-knowledge-cases.md#L10) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | CMS记电影广播及西式乐器适配；NIU第6卷为介绍音乐的广播项目。分别是历史概括和目录证据，不能据后者确定所有传播路径。 |"
+          }
+        },
+        {
+          "d4": "K16.02.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 11,
+            "row": "| K16.02.03.01 | [MU07/K16.02.03.01](musicology-r1-knowledge-cases.md#L11) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | Folkways专辑市场genre字段为World、介绍称thachìn gyì；二者分别标发行分类和报告所称传统，不将World当当地自称。 |"
+          }
+        },
+        {
+          "d4": "K16.02.03.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 12,
+            "row": "| K16.02.03.02 | [MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 同一传统目录可以按曲种、编制、用途或发行类型多维索引；题设两地两年代异类标签并存，各有规则。 |"
+          }
+        },
+        {
+          "d4": "K16.03.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 15,
+            "row": "| K16.03.01.02 | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | SFW40492为竖琴与人声古典曲目选录；CMS报告hsaing可在节庆/戏剧/仪式，小型室内编制也可演相关曲目。分别记录曲集、编制与场合。 |"
+          }
+        },
+        {
+          "d4": "K16.05.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 18,
+            "row": "| K16.05.01.01 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | 目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。 |"
+          }
+        },
+        {
+          "d4": "K16.07.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 25,
+            "row": "| K16.07.01.01 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S573](../../research/source-qualification-musicology-r1-r2.md#L7) | S577原文列Hnyìnloùn等竖琴调律标签和适用语境；S573的thachin gyi为曲种/传统名。保存原转写及不同术语对象，不以字形归一。 |"
+          }
+        },
+        {
+          "d4": "K16.02.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 33,
+            "row": "| K16.02.05.01 | [MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | 历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。 |"
+          }
+        },
+        {
+          "d4": "K16.02.06.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 34,
+            "row": "| K16.02.06.01 | [MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。 |"
+          }
+        },
+        {
+          "d4": "K16.05.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 41,
+            "row": "| K16.05.03.01 | [MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。 |"
+          }
+        }
+      ],
+      "scope": "| S573 | [College Music Society Myanmar/Burma](https://www.music.org/international-engagement/cms-ambassador-reports/myanmar-burma.html) L108–118/157 | READ_LOCATOR 报告概览；记述宫廷曲词、戏剧/广播/学校/传习、hsaing与小型室内编制不同、地域传统多样；报告时代性及概括非今日普查、全族群结论或某个曲目实际谱音。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S574",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 8,
+        "row": "| S574 | Ferguson 2013 [ANU publication record](https://researchportalplus.anu.edu.au/en/publications/burmese-super-trouper-how-burmese-poets-and-musicians-turn-global/) L16–27/52–53 DOI10.1080/14442213.2013.787449 | ABSTRACT_ONLY；描述国际歌曲旋律风格与缅语改写、意义忠实程度可变；作者解释为跨文化转写，不外推所有歌曲、2026流行度或许可。未读全文。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "ANU publication record",
+          "uri": "https://researchportalplus.anu.edu.au/en/publications/burmese-super-trouper-how-burmese-poets-and-musicians-turn-global/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.01.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 7,
+            "row": "| K16.01.03.01 | [MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8) | 两个合成旋律动机相似但无接触证据，仅记相似；若另得带日期的改编记录且来源可靠，建立影响候选。 |"
+          }
+        },
+        {
+          "d4": "K16.02.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 9,
+            "row": "| K16.02.02.01 | [MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8) | 2013 Ferguson摘要记改写缅语歌词且保留部分国际歌曲旋律/风格；题设另有明确源作品与改编者记录才绑定一对一关系。 |"
+          }
+        },
+        {
+          "d4": "K16.02.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 13,
+            "row": "| K16.02.04.01 | [MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13) | [S574](../../research/source-qualification-musicology-r1-r2.md#L8)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | Ferguson 2013摘要描述copy thachin中不同程度的词义忠实；2016年另一研究摘要记录支持者的学习论与批评者的衍生性论。2013/2016是文献发表年份，非具体田野观察年份；只标作者转述。 |"
+          }
+        },
+        {
+          "d4": "K16.02.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 33,
+            "row": "| K16.02.05.01 | [MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | 历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。 |"
+          }
+        }
+      ],
+      "scope": "| S574 | Ferguson 2013 [ANU publication record](https://researchportalplus.anu.edu.au/en/publications/burmese-super-trouper-how-burmese-poets-and-musicians-turn-global/) L16–27/52–53 DOI10.1080/14442213.2013.787449 | ABSTRACT_ONLY；描述国际歌曲旋律风格与缅语改写、意义忠实程度可变；作者解释为跨文化转写，不外推所有歌曲、2026流行度或许可。未读全文。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S575",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 9,
+        "row": "| S575 | Ferguson 2016, Yesterday Once More: [Tracking (un)Popular Music in Contemporary Myanmar](https://www.niu.edu/burma/publications/journal/abstracts-old.shtml) L688–693；Volume20.2重复记录L1012–1016；[NIU作者出版目录](https://www.niu.edu/burma/about/foundation/trustees/jane-ferguson.shtml) L21核 Journal of Burma Studies 20(2), 229–257；ANU repository 403；发表时间非田野时间 | ABSTRACT_ONLY；不同评价及历史产业条件的作者摘要，未取得受访者原文/样本比例或现行法律；不可把摘要两次索引当独立来源。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Tracking (un)Popular Music in Contemporary Myanmar",
+          "uri": "https://www.niu.edu/burma/publications/journal/abstracts-old.shtml"
+        },
+        {
+          "label": "NIU作者出版目录",
+          "uri": "https://www.niu.edu/burma/about/foundation/trustees/jane-ferguson.shtml"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.02.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 13,
+            "row": "| K16.02.04.01 | [MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13) | [S574](../../research/source-qualification-musicology-r1-r2.md#L8)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | Ferguson 2013摘要描述copy thachin中不同程度的词义忠实；2016年另一研究摘要记录支持者的学习论与批评者的衍生性论。2013/2016是文献发表年份，非具体田野观察年份；只标作者转述。 |"
+          }
+        },
+        {
+          "d4": "K16.06.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 22,
+            "row": "| K16.06.01.01 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22) | [S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S583](../../research/source-qualification-musicology-r1-r2.md#L17) | Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。 |"
+          }
+        },
+        {
+          "d4": "K16.06.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 24,
+            "row": "| K16.06.02.02 | [MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24) | [S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S583](../../research/source-qualification-musicology-r1-r2.md#L17) | 题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。 |"
+          }
+        },
+        {
+          "d4": "K16.02.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 33,
+            "row": "| K16.02.05.01 | [MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | 历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。 |"
+          }
+        },
+        {
+          "d4": "K16.05.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 41,
+            "row": "| K16.05.03.01 | [MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。 |"
+          }
+        },
+        {
+          "d4": "K16.06.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 44,
+            "row": "| K16.06.04.01 | [MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | SEP以羽管键琴/钢琴之争讨论音响、乐器、情境等真实性维度；题设A符合谱面、B更合解释目标，分维比较，不预设总排序。 |"
+          }
+        }
+      ],
+      "scope": "| S575 | Ferguson 2016, Yesterday Once More: [Tracking (un)Popular Music in Contemporary Myanmar](https://www.niu.edu/burma/publications/journal/abstracts-old.shtml) L688–693；Volume20.2重复记录L1012–1016；[NIU作者出版目录](https://www.niu.edu/burma/about/foundation/trustees/jane-ferguson.shtml) L21核 Journal of Burma Studies 20(2), 229–257；ANU repository 403；发表时间非田野时间 | ABSTRACT_ONLY；不同评价及历史产业条件的作者摘要，未取得受访者原文/样本比例或现行法律；不可把摘要两次索引当独立来源。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S576",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 10,
+        "row": "| S576 | Smithsonian Folkways [Mahagitá SFW40492](https://folkways.si.edu/inle-myint-maung-and-yi-yi-thant/mahagita-harp-and-vocal-music-of-burma/world/album/smithsonian) L444–474/484–534 | READ_CATALOG；具名2000 Rangoon录音，2003发行，9首目录与乐器/语言字段；未读liner notes或听音，非创作年份、宫廷原声或权利。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Mahagitá SFW40492",
+          "uri": "https://folkways.si.edu/inle-myint-maung-and-yi-yi-thant/mahagita-harp-and-vocal-music-of-burma/world/album/smithsonian"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.01.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 5,
+            "row": "| K16.01.01.01 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | 题设1920节目单记演出、1980口述回忆1920、2003研究者据二者解释；分别记证据身份、作者、记录日和所指事件日。节目单只证计划非实际发生。 |"
+          }
+        },
+        {
+          "d4": "K16.02.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 8,
+            "row": "| K16.02.01.01 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | CMS报告描述宫廷传统经戏剧、学校和私人传习延续；SFW40492录音为2000 Rangoon，不能给该录音补传承谱系。分别记录时地、群体、来源与未见字段。 |"
+          }
+        },
+        {
+          "d4": "K16.02.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 11,
+            "row": "| K16.02.03.01 | [MU07/K16.02.03.01](musicology-r1-knowledge-cases.md#L11) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | Folkways专辑市场genre字段为World、介绍称thachìn gyì；二者分别标发行分类和报告所称传统，不将World当当地自称。 |"
+          }
+        },
+        {
+          "d4": "K16.02.03.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 12,
+            "row": "| K16.02.03.02 | [MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 同一传统目录可以按曲种、编制、用途或发行类型多维索引；题设两地两年代异类标签并存，各有规则。 |"
+          }
+        },
+        {
+          "d4": "K16.03.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 15,
+            "row": "| K16.03.01.02 | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | SFW40492为竖琴与人声古典曲目选录；CMS报告hsaing可在节庆/戏剧/仪式，小型室内编制也可演相关曲目。分别记录曲集、编制与场合。 |"
+          }
+        },
+        {
+          "d4": "K16.03.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 37,
+            "row": "| K16.03.04.01 | [MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) | [S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。 |"
+          }
+        },
+        {
+          "d4": "K16.06.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 43,
+            "row": "| K16.06.03.01 | [MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。 |"
+          }
+        }
+      ],
+      "scope": "| S576 | Smithsonian Folkways [Mahagitá SFW40492](https://folkways.si.edu/inle-myint-maung-and-yi-yi-thant/mahagita-harp-and-vocal-music-of-burma/world/album/smithsonian) L444–474/484–534 | READ_CATALOG；具名2000 Rangoon录音，2003发行，9首目录与乐器/语言字段；未读liner notes或听音，非创作年份、宫廷原声或权利。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S577",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 11,
+        "row": "| S577 | Smithsonian Folkways [Mahagitá Soundscapes](https://folkways.si.edu/mahagita-harp-vocal-burma/world/music/article/smithsonian) L445–462/463–481/487–502 | READ_LOCATOR；作者列出的竖琴示例音列、参考最高音G可移动、不同琴师/曲目/地域及具体Hnyìnloùn音偏移，固定音高乐器选择区别；本文描述16弦。音频与谱图未实际听读/测量，不认定所有调律、标准频率、历史原始拼写。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Mahagitá Soundscapes",
+          "uri": "https://folkways.si.edu/mahagita-harp-vocal-burma/world/music/article/smithsonian"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.06.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 23,
+            "row": "| K16.06.02.01 | [MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | 题设传统惯例A、作品明确要求B、演奏者艺术选择C；SEP讨论不同作品对乐器的要求不同，不能把一般习惯等同作品规范。 |"
+          }
+        },
+        {
+          "d4": "K16.07.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 25,
+            "row": "| K16.07.01.01 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S573](../../research/source-qualification-musicology-r1-r2.md#L7) | S577原文列Hnyìnloùn等竖琴调律标签和适用语境；S573的thachin gyi为曲种/传统名。保存原转写及不同术语对象，不以字形归一。 |"
+          }
+        },
+        {
+          "d4": "K16.07.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 26,
+            "row": "| K16.07.01.02 | [MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | S577以西方音名加偏移描述竖琴示例，固定音高乐器选用不同音；S585文字仅提示athan语义需按使用场合核。映射为近似表示不是原生概念等价。 |"
+          }
+        },
+        {
+          "d4": "K16.07.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 27,
+            "row": "| K16.07.02.01 | [MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11) | S577明确同一演奏者不同曲目、不同演奏者和地区可异，所列最高G为记谱参考，实际可移；Hnyìnloùn例E约低56 cents、B约低62 cents仅该琴师示例。 |"
+          }
+        },
+        {
+          "d4": "K16.07.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 28,
+            "row": "| K16.07.02.02 | [MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | 保存来源拼写Hnyìnloùn、Aupyan、myìn zäìn等；对另一历史转写题设T2仅登记未证对应，不自动拼写合并。 |"
+          }
+        },
+        {
+          "d4": "K16.03.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 35,
+            "row": "| K16.03.02.01 | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9) | [S578](../../research/source-qualification-musicology-r1-r2.md#L12)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。 |"
+          }
+        },
+        {
+          "d4": "K16.04.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 39,
+            "row": "| K16.04.04.01 | [MU35/K16.04.04.01](musicology-r2-knowledge-cases.md#L13) | [S582](../../research/source-qualification-musicology-r1-r2.md#L16)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | 比较同一功能类别的声学标注时，控制记录场合、语料、表示和单位；题设A内差20/B内差30，跨组差10，不以跨组均值证明无内部差异。 |"
+          }
+        }
+      ],
+      "scope": "| S577 | Smithsonian Folkways [Mahagitá Soundscapes](https://folkways.si.edu/mahagita-harp-vocal-burma/world/music/article/smithsonian) L445–462/463–481/487–502 | READ_LOCATOR；作者列出的竖琴示例音列、参考最高音G可移动、不同琴师/曲目/地域及具体Hnyìnloùn音偏移，固定音高乐器选择区别；本文描述16弦。音频与谱图未实际听读/测量，不认定所有调律、标准频率、历史原始拼写。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S578",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 12,
+        "row": "| S578 | Met [Saùng-Gauk object 89.4.1465a,b](https://www.metmuseum.org/art/collection/search/502040) L22–33/60–69 | READ_CATALOG；馆藏19世纪、Mandalay带问号、13弦和材料/图饰，1889收藏登记不当制造日期；页面图像公版标识不覆盖其他素材，未验实物/音频或起源证据链。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Saùng-Gauk object 89.4.1465a,b",
+          "uri": "https://www.metmuseum.org/art/collection/search/502040"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.03.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 35,
+            "row": "| K16.03.02.01 | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9) | [S578](../../research/source-qualification-musicology-r1-r2.md#L12)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。 |"
+          }
+        }
+      ],
+      "scope": "| S578 | Met [Saùng-Gauk object 89.4.1465a,b](https://www.metmuseum.org/art/collection/search/502040) L22–33/60–69 | READ_CATALOG；馆藏19世纪、Mandalay带问号、13弦和材料/图饰，1889收藏登记不当制造日期；页面图像公版标识不覆盖其他素材，未验实物/音频或起源证据链。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S579",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 13,
+        "row": "| S579 | NIU [Music of Burma: Muriel Williamson Collection](https://www.niu.edu/burma/collections/music.shtml) L6–62/66–72 | READ_CATALOG；目录14卷，Kyo不同编制、Nat Pwe、广播、民歌、歌与竖琴等；目录分类非完整作品/实听/许可；专辑信息与S576相关非独立演奏观察。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Music of Burma: Muriel Williamson Collection",
+          "uri": "https://www.niu.edu/burma/collections/music.shtml"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.02.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 8,
+            "row": "| K16.02.01.01 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | CMS报告描述宫廷传统经戏剧、学校和私人传习延续；SFW40492录音为2000 Rangoon，不能给该录音补传承谱系。分别记录时地、群体、来源与未见字段。 |"
+          }
+        },
+        {
+          "d4": "K16.02.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 10,
+            "row": "| K16.02.02.02 | [MU06/K16.02.02.02](musicology-r1-knowledge-cases.md#L10) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | CMS记电影广播及西式乐器适配；NIU第6卷为介绍音乐的广播项目。分别是历史概括和目录证据，不能据后者确定所有传播路径。 |"
+          }
+        },
+        {
+          "d4": "K16.02.03.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 12,
+            "row": "| K16.02.03.02 | [MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 同一传统目录可以按曲种、编制、用途或发行类型多维索引；题设两地两年代异类标签并存，各有规则。 |"
+          }
+        },
+        {
+          "d4": "K16.03.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 14,
+            "row": "| K16.03.01.01 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14) | [S579](../../research/source-qualification-musicology-r1-r2.md#L13)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | NIU目录Kyo有voice+pattala及混合编制两卷；2021论文摘要特定Yangon合奏的一次仪式分析，记录具体场合及变体证据类型。 |"
+          }
+        },
+        {
+          "d4": "K16.03.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 15,
+            "row": "| K16.03.01.02 | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | SFW40492为竖琴与人声古典曲目选录；CMS报告hsaing可在节庆/戏剧/仪式，小型室内编制也可演相关曲目。分别记录曲集、编制与场合。 |"
+          }
+        },
+        {
+          "d4": "K16.05.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 18,
+            "row": "| K16.05.01.01 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | 目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。 |"
+          }
+        },
+        {
+          "d4": "K16.02.06.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 34,
+            "row": "| K16.02.06.01 | [MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。 |"
+          }
+        },
+        {
+          "d4": "K16.03.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 37,
+            "row": "| K16.03.04.01 | [MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) | [S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。 |"
+          }
+        },
+        {
+          "d4": "K16.05.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 41,
+            "row": "| K16.05.03.01 | [MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。 |"
+          }
+        }
+      ],
+      "scope": "| S579 | NIU [Music of Burma: Muriel Williamson Collection](https://www.niu.edu/burma/collections/music.shtml) L6–62/66–72 | READ_CATALOG；目录14卷，Kyo不同编制、Nat Pwe、广播、民歌、歌与竖琴等；目录分类非完整作品/实听/许可；专辑信息与S576相关非独立演奏观察。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S580",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 14,
+        "row": "| S580 | Chiarofonte 2021 [AAWM 9(1) Do Ko Gyi Kyaw](https://journal.iftawm.org/previous/vol9no1/chiarofonte/) L13–25/33–34 | ABSTRACT_ONLY；Yangon具名合奏一次仪式表演的旋律/节奏/舞蹈互动及研究方法范围，非所有仪式或生理/超自然因果证明；页面另列资料传播限制，未读PDF及实际音视频。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "AAWM 9(1) Do Ko Gyi Kyaw",
+          "uri": "https://journal.iftawm.org/previous/vol9no1/chiarofonte/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.03.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 14,
+            "row": "| K16.03.01.01 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14) | [S579](../../research/source-qualification-musicology-r1-r2.md#L13)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | NIU目录Kyo有voice+pattala及混合编制两卷；2021论文摘要特定Yangon合奏的一次仪式分析，记录具体场合及变体证据类型。 |"
+          }
+        },
+        {
+          "d4": "K16.04.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 17,
+            "row": "| K16.04.02.01 | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15) | 同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。 |"
+          }
+        },
+        {
+          "d4": "K16.05.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 18,
+            "row": "| K16.05.01.01 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | 目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。 |"
+          }
+        },
+        {
+          "d4": "K16.05.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 19,
+            "row": "| K16.05.01.02 | [MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。 |"
+          }
+        },
+        {
+          "d4": "K16.05.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 21,
+            "row": "| K16.05.02.02 | [MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | 题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。 |"
+          }
+        },
+        {
+          "d4": "K16.06.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 24,
+            "row": "| K16.06.02.02 | [MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24) | [S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S583](../../research/source-qualification-musicology-r1-r2.md#L17) | 题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。 |"
+          }
+        },
+        {
+          "d4": "K16.07.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 29,
+            "row": "| K16.07.03.01 | [MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | S580摘要是具名一次仪式研究；题设仪式音段R可现场听不代表可录、复制或训练；参与者/仪式材料与访问条件分开。 |"
+          }
+        },
+        {
+          "d4": "K16.03.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 36,
+            "row": "| K16.03.03.01 | [MU32/K16.03.03.01](musicology-r2-knowledge-cases.md#L10) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | 2021摘要限定一次Do Ko Gyi Kyaw的旋律展开、节奏及舞蹈互动；题设两次演出共享基本动机但装饰和速度不同，需依据具体表演分析。 |"
+          }
+        },
+        {
+          "d4": "K16.05.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 42,
+            "row": "| K16.05.04.01 | [MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。 |"
+          }
+        }
+      ],
+      "scope": "| S580 | Chiarofonte 2021 [AAWM 9(1) Do Ko Gyi Kyaw](https://journal.iftawm.org/previous/vol9no1/chiarofonte/) L13–25/33–34 | ABSTRACT_ONLY；Yangon具名合奏一次仪式表演的旋律/节奏/舞蹈互动及研究方法范围，非所有仪式或生理/超自然因果证明；页面另列资料传播限制，未读PDF及实际音视频。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S581",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 15,
+        "row": "| S581 | Chiarofonte [Acusfere, In pellegrinaggio con un nat kadaw](https://limateneo.com/index.php/acusfere/article/view/46) L20–37 | ABSTRACT_ONLY；两位神灵的庆典及一位仪式专家的朝圣经历（具体场次未核），田野笔记、非正式访谈和视听材料的再分析，研究者位置；期号2022、网页2023，非表演日期。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Acusfere, In pellegrinaggio con un nat kadaw",
+          "uri": "https://limateneo.com/index.php/acusfere/article/view/46"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.04.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 16,
+            "row": "| K16.04.01.01 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15) | 题设两位参与者P1/P2对同场活动说明不同，研究者观察仅限一场；登记陈述者、时地、招募及未访问群体。 |"
+          }
+        },
+        {
+          "d4": "K16.04.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 17,
+            "row": "| K16.04.02.01 | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15) | 同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。 |"
+          }
+        },
+        {
+          "d4": "K16.05.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 19,
+            "row": "| K16.05.01.02 | [MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。 |"
+          }
+        },
+        {
+          "d4": "K16.04.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 40,
+            "row": "| K16.04.05.01 | [MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。 |"
+          }
+        },
+        {
+          "d4": "K16.05.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 42,
+            "row": "| K16.05.04.01 | [MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。 |"
+          }
+        }
+      ],
+      "scope": "| S581 | Chiarofonte [Acusfere, In pellegrinaggio con un nat kadaw](https://limateneo.com/index.php/acusfere/article/view/46) L20–37 | ABSTRACT_ONLY；两位神灵的庆典及一位仪式专家的朝圣经历（具体场次未核），田野笔记、非正式访谈和视听材料的再分析，研究者位置；期号2022、网页2023，非表演日期。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S582",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 16,
+        "row": "| S582 | Mehr等2019 [Universality and diversity in human song](https://pmc.ncbi.nlm.nih.gov/articles/PMC7001657/) L230–241/250–255/272–281 | READ_LOCATOR；60个被抽样社会的民族志语料皆报告歌曲，另有四行为类别录音语料；报告选择、类别、语料与机制假设分离，非每个个体/器乐/传统的必然性质。无数据或再分析。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Universality and diversity in human song",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7001657/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.04.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 38,
+            "row": "| K16.04.03.01 | [MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12) | [S582](../../research/source-qualification-musicology-r1-r2.md#L16)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | Mehr等研究的民族志60个抽样社会皆有歌曲报告；题设5/8被访者同意只表示该题设样本。缺报不当否定。 |"
+          }
+        },
+        {
+          "d4": "K16.04.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 39,
+            "row": "| K16.04.04.01 | [MU35/K16.04.04.01](musicology-r2-knowledge-cases.md#L13) | [S582](../../research/source-qualification-musicology-r1-r2.md#L16)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | 比较同一功能类别的声学标注时，控制记录场合、语料、表示和单位；题设A内差20/B内差30，跨组差10，不以跨组均值证明无内部差异。 |"
+          }
+        }
+      ],
+      "scope": "| S582 | Mehr等2019 [Universality and diversity in human song](https://pmc.ncbi.nlm.nih.gov/articles/PMC7001657/) L230–241/250–255/272–281 | READ_LOCATOR；60个被抽样社会的民族志语料皆报告歌曲，另有四行为类别录音语料；报告选择、类别、语料与机制假设分离，非每个个体/器乐/传统的必然性质。无数据或再分析。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S583",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 17,
+        "row": "| S583 | Stanford Encyclopedia of Philosophy [The Philosophy of Music, Spring 2026](https://plato.stanford.edu/archives/spr2026/entries/music/) L66/93–114 | READ_LOCATOR；西方作品本体及表演真实性争论中维度、价值与忠实分开，形式/情境、乐谱及解释立场有分歧；不是民族志或通用真实性规则。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "The Philosophy of Music, Spring 2026",
+          "uri": "https://plato.stanford.edu/archives/spr2026/entries/music/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.06.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 22,
+            "row": "| K16.06.01.01 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22) | [S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S583](../../research/source-qualification-musicology-r1-r2.md#L17) | Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。 |"
+          }
+        },
+        {
+          "d4": "K16.06.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 23,
+            "row": "| K16.06.02.01 | [MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | 题设传统惯例A、作品明确要求B、演奏者艺术选择C；SEP讨论不同作品对乐器的要求不同，不能把一般习惯等同作品规范。 |"
+          }
+        },
+        {
+          "d4": "K16.06.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 24,
+            "row": "| K16.06.02.02 | [MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24) | [S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S583](../../research/source-qualification-musicology-r1-r2.md#L17) | 题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。 |"
+          }
+        },
+        {
+          "d4": "K16.06.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 43,
+            "row": "| K16.06.03.01 | [MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。 |"
+          }
+        },
+        {
+          "d4": "K16.06.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 44,
+            "row": "| K16.06.04.01 | [MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | SEP以羽管键琴/钢琴之争讨论音响、乐器、情境等真实性维度；题设A符合谱面、B更合解释目标，分维比较，不预设总排序。 |"
+          }
+        }
+      ],
+      "scope": "| S583 | Stanford Encyclopedia of Philosophy [The Philosophy of Music, Spring 2026](https://plato.stanford.edu/archives/spr2026/entries/music/) L66/93–114 | READ_LOCATOR；西方作品本体及表演真实性争论中维度、价值与忠实分开，形式/情境、乐谱及解释立场有分歧；不是民族志或通用真实性规则。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S584",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 18,
+        "row": "| S584 | [British Forum for Ethnomusicology Ethics Statement](https://bfe.org.uk/node/301) L23–39/42–43 | READ_LOCATOR 伦理指导；相互尊重、同意、保密、长期责任与文化适宜传播；与权利许可/法律或具体社群习惯分开。UNESCO ethics入口反机器人壳，未提升为已读。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "British Forum for Ethnomusicology Ethics Statement",
+          "uri": "https://bfe.org.uk/node/301"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.05.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 20,
+            "row": "| K16.05.02.01 | [MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 题设仅听到语言及相似音色，个体身份和社群自称UNKNOWN；文化标签描述作品或事件而非个人。 |"
+          }
+        },
+        {
+          "d4": "K16.07.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 29,
+            "row": "| K16.07.03.01 | [MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | S580摘要是具名一次仪式研究；题设仪式音段R可现场听不代表可录、复制或训练；参与者/仪式材料与访问条件分开。 |"
+          }
+        },
+        {
+          "d4": "K16.07.03.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 30,
+            "row": "| K16.07.03.02 | [MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。 |"
+          }
+        },
+        {
+          "d4": "K16.04.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 40,
+            "row": "| K16.04.05.01 | [MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。 |"
+          }
+        },
+        {
+          "d4": "K16.07.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 45,
+            "row": "| K16.07.04.01 | [MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19) | [S584](../../research/source-qualification-musicology-r1-r2.md#L18)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 题设访谈同意研究与档案限阅，不含发布；新用途需另与相关主体核，保留撤回或限制变更时间与影响。 |"
+          }
+        },
+        {
+          "d4": "K16.07.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 46,
+            "row": "| K16.07.05.01 | [MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20) | 题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。 |"
+          }
+        }
+      ],
+      "scope": "| S584 | [British Forum for Ethnomusicology Ethics Statement](https://bfe.org.uk/node/301) L23–39/42–43 | READ_LOCATOR 伦理指导；相互尊重、同意、保密、长期责任与文化适宜传播；与权利许可/法律或具体社群习惯分开。UNESCO ethics入口反机器人壳，未提升为已读。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S585",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 19,
+        "row": "| S585 | Chiarofonte 2020 [SOAS thesis](https://eprints.soas.ac.uk/37915/1/Chiarofonte_2020.pdf) 文本提取L1290–1297/4212–4215/4447–4471/4765–4788 | TEXT_LOCATOR_LIMITED；文本显示田野方法、语汇语境、基本旋律与变奏讨论；零基141/142/152截图均502，未核图谱/页号/音频，不作具体谱图数值或正式调律结论。主要论证依其他已读HTML；此项只辅助追索。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "SOAS thesis",
+          "uri": "https://eprints.soas.ac.uk/37915/1/Chiarofonte_2020.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.07.01.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 26,
+            "row": "| K16.07.01.02 | [MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | S577以西方音名加偏移描述竖琴示例，固定音高乐器选用不同音；S585文字仅提示athan语义需按使用场合核。映射为近似表示不是原生概念等价。 |"
+          }
+        },
+        {
+          "d4": "K16.07.02.02",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 28,
+            "row": "| K16.07.02.02 | [MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | 保存来源拼写Hnyìnloùn、Aupyan、myìn zäìn等；对另一历史转写题设T2仅登记未证对应，不自动拼写合并。 |"
+          }
+        },
+        {
+          "d4": "K16.03.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 36,
+            "row": "| K16.03.03.01 | [MU32/K16.03.03.01](musicology-r2-knowledge-cases.md#L10) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | 2021摘要限定一次Do Ko Gyi Kyaw的旋律展开、节奏及舞蹈互动；题设两次演出共享基本动机但装饰和速度不同，需依据具体表演分析。 |"
+          }
+        }
+      ],
+      "scope": "| S585 | Chiarofonte 2020 [SOAS thesis](https://eprints.soas.ac.uk/37915/1/Chiarofonte_2020.pdf) 文本提取L1290–1297/4212–4215/4447–4471/4765–4788 | TEXT_LOCATOR_LIMITED；文本显示田野方法、语汇语境、基本旋律与变奏讨论；零基141/142/152截图均502，未核图谱/页号/音频，不作具体谱图数值或正式调律结论。主要论证依其他已读HTML；此项只辅助追索。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S586",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-musicology-r1-r2.md",
+        "blob": "346bbfe77e6781c80821305acd7a320ed3ff72e4",
+        "line": 20,
+        "row": "| S586 | RISM [FAQ](https://rism.info/service/faq.html) L7–24；[2022 citation guidance](https://rism.info/new_at_rism/2022/05/19/how-to-cite-rism.html) L13–30/46–50；[cataloging 260](https://guidelines.rism.info/masks.html) L1036–1058 | READ_LOCATOR；历史源目录不完整且有时代偏重，源日期与作品日期不同、约数及不明地点；具名引用实例是1618 Caccini印本、I-MOe D.39、RISM990007800（未实际打开该馆藏或乐谱）。目录数据许可与底层乐谱权利不同；未核最新引用指南或实施接口。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "FAQ",
+          "uri": "https://rism.info/service/faq.html"
+        },
+        {
+          "label": "2022 citation guidance",
+          "uri": "https://rism.info/new_at_rism/2022/05/19/how-to-cite-rism.html"
+        },
+        {
+          "label": "cataloging 260",
+          "uri": "https://guidelines.rism.info/masks.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K16.01.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 31,
+            "row": "| K16.01.04.01 | [MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5) | [S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S571](../../research/source-qualification-musicology-r1-r2.md#L5) | RISM示例Caccini 1618印本引用含馆藏I-MOe D.39和RISM990007800；作品、印本、馆藏、目录记录四类身份独立。 |"
+          }
+        },
+        {
+          "d4": "K16.01.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 32,
+            "row": "| K16.01.05.01 | [MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) | [S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S571](../../research/source-qualification-musicology-r1-r2.md#L5) | 题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。 |"
+          }
+        },
+        {
+          "d4": "K16.02.06.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 34,
+            "row": "| K16.02.06.01 | [MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。 |"
+          }
+        },
+        {
+          "d4": "K16.07.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+            "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+            "line": 46,
+            "row": "| K16.07.05.01 | [MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20) | 题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。 |"
+          }
+        }
+      ],
+      "scope": "| S586 | RISM [FAQ](https://rism.info/service/faq.html) L7–24；[2022 citation guidance](https://rism.info/new_at_rism/2022/05/19/how-to-cite-rism.html) L13–30/46–50；[cataloging 260](https://guidelines.rism.info/masks.html) L1036–1058 | READ_LOCATOR；历史源目录不完整且有时代偏重，源日期与作品日期不同、约数及不明地点；具名引用实例是1618 Caccini印本、I-MOe D.39、RISM990007800（未实际打开该馆藏或乐谱）。目录数据许可与底层乐谱权利不同；未核最新引用指南或实施接口。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

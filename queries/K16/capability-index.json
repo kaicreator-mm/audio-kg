@@ -1,0 +1,2516 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K16.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "史料身份/年代/争议",
+      "d4Targets": [
+        "K16.01.01.01",
+        "K16.01.02.01",
+        "K16.01.03.01",
+        "K16.01.04.01",
+        "K16.01.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 5,
+        "row": "| K16.01 | A01 | P | 史料身份/年代/争议 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5)；[MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6)；[MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7)；[MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU01@1",
+        "K16-CL-MU02@1",
+        "K16-CL-MU03@1",
+        "K16-CL-MU27@1",
+        "K16-CL-MU28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU01",
+          "claim": "K16-CL-MU01@1",
+          "problem": "1920节目单列某演出，1980口述回忆该演出，2003研究引用二者。分别能确证哪类信息？",
+          "reject": "不可以；证据类别与时间不同。"
+        },
+        {
+          "caseId": "MU02",
+          "claim": "K16-CL-MU02@1",
+          "problem": "1930史料说私传、1970说学校传习，如何处理两记录？",
+          "reject": "不能作该推断。限定证据及正确处理：题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。"
+        },
+        {
+          "caseId": "MU03",
+          "claim": "K16-CL-MU03@1",
+          "problem": "两首旋律有相似动机，但缺接触记录。应建立什么关系？",
+          "reject": "不能；相似不等历史因果或权利裁决。"
+        },
+        {
+          "caseId": "MU27",
+          "claim": "K16-CL-MU27@1",
+          "problem": "Caccini 1618印本、馆藏I-MOe D.39及RISM990007800，如何区分身份？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM示例Caccini 1618印本引用含馆藏I-MOe D.39和RISM990007800；作品、印本、馆藏、目录记录四类身份独立。"
+        },
+        {
+          "caseId": "MU28",
+          "claim": "K16-CL-MU28@1",
+          "problem": "作品1700、手稿约1750、现代校订2000，如何登记日期？",
+          "reject": "不能作该推断。限定证据及正确处理：题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "从来源查证到解释、争议登记",
+      "d4Targets": [
+        "K16.01.01.01",
+        "K16.01.04.01",
+        "K16.01.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 6,
+        "row": "| K16.01 | A02 | P | 从来源查证到解释、争议登记 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5)；[MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU01@1",
+        "K16-CL-MU27@1",
+        "K16-CL-MU28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU01",
+          "claim": "K16-CL-MU01@1",
+          "problem": "1920节目单列某演出，1980口述回忆该演出，2003研究引用二者。分别能确证哪类信息？",
+          "reject": "不可以；证据类别与时间不同。"
+        },
+        {
+          "caseId": "MU27",
+          "claim": "K16-CL-MU27@1",
+          "problem": "Caccini 1618印本、馆藏I-MOe D.39及RISM990007800，如何区分身份？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM示例Caccini 1618印本引用含馆藏I-MOe D.39和RISM990007800；作品、印本、馆藏、目录记录四类身份独立。"
+        },
+        {
+          "caseId": "MU28",
+          "claim": "K16-CL-MU28@1",
+          "problem": "作品1700、手稿约1750、现代校订2000，如何登记日期？",
+          "reject": "不能作该推断。限定证据及正确处理：题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "目录/馆藏检索资格；K12执行",
+      "d4Targets": [
+        "K16.01.04.01",
+        "K16.01.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 7,
+        "row": "| K16.01 | A03 | S | 目录/馆藏检索资格；K12执行 | [MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU27@1",
+        "K16-CL-MU28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU27",
+          "claim": "K16-CL-MU27@1",
+          "problem": "Caccini 1618印本、馆藏I-MOe D.39及RISM990007800，如何区分身份？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM示例Caccini 1618印本引用含馆藏I-MOe D.39和RISM990007800；作品、印本、馆藏、目录记录四类身份独立。"
+        },
+        {
+          "caseId": "MU28",
+          "claim": "K16-CL-MU28@1",
+          "problem": "作品1700、手稿约1750、现代校订2000，如何登记日期？",
+          "reject": "不能作该推断。限定证据及正确处理：题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.01",
+      "ability": "A04",
+      "role": "C",
+      "task": "材料与研究记录修订条件，非工程态",
+      "d4Targets": [
+        "K16.01.02.01",
+        "K16.01.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 8,
+        "row": "| K16.01 | A04 | C | 材料与研究记录修订条件，非工程态 | [MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU02@1",
+        "K16-CL-MU28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU02",
+          "claim": "K16-CL-MU02@1",
+          "problem": "1930史料说私传、1970说学校传习，如何处理两记录？",
+          "reject": "不能作该推断。限定证据及正确处理：题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。"
+        },
+        {
+          "caseId": "MU28",
+          "claim": "K16-CL-MU28@1",
+          "problem": "作品1700、手稿约1750、现代校订2000，如何登记日期？",
+          "reject": "不能作该推断。限定证据及正确处理：题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "出处、独立性、年代冲突",
+      "d4Targets": [
+        "K16.01.01.01",
+        "K16.01.02.01",
+        "K16.01.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 9,
+        "row": "| K16.01 | A05 | P | 出处、独立性、年代冲突 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5)；[MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6)；[MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU01@1",
+        "K16-CL-MU02@1",
+        "K16-CL-MU03@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU01",
+          "claim": "K16-CL-MU01@1",
+          "problem": "1920节目单列某演出，1980口述回忆该演出，2003研究引用二者。分别能确证哪类信息？",
+          "reject": "不可以；证据类别与时间不同。"
+        },
+        {
+          "caseId": "MU02",
+          "claim": "K16-CL-MU02@1",
+          "problem": "1930史料说私传、1970说学校传习，如何处理两记录？",
+          "reject": "不能作该推断。限定证据及正确处理：题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。"
+        },
+        {
+          "caseId": "MU03",
+          "claim": "K16-CL-MU03@1",
+          "problem": "两首旋律有相似动机，但缺接触记录。应建立什么关系？",
+          "reject": "不能；相似不等历史因果或权利裁决。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.01",
+      "ability": "A06",
+      "role": "P",
+      "task": "带引述/版本的可编辑来源记录",
+      "d4Targets": [
+        "K16.01.04.01",
+        "K16.01.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 10,
+        "row": "| K16.01 | A06 | P | 带引述/版本的可编辑来源记录 | [MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU27@1",
+        "K16-CL-MU28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU27",
+          "claim": "K16-CL-MU27@1",
+          "problem": "Caccini 1618印本、馆藏I-MOe D.39及RISM990007800，如何区分身份？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM示例Caccini 1618印本引用含馆藏I-MOe D.39和RISM990007800；作品、印本、馆藏、目录记录四类身份独立。"
+        },
+        {
+          "caseId": "MU28",
+          "claim": "K16-CL-MU28@1",
+          "problem": "作品1700、手稿约1750、现代校订2000，如何登记日期？",
+          "reject": "不能作该推断。限定证据及正确处理：题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "发现异文、冻结旧版本再核",
+      "d4Targets": [
+        "K16.01.02.01",
+        "K16.01.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 11,
+        "row": "| K16.01 | A07 | P | 发现异文、冻结旧版本再核 | [MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU02@1",
+        "K16-CL-MU28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU02",
+          "claim": "K16-CL-MU02@1",
+          "problem": "1930史料说私传、1970说学校传习，如何处理两记录？",
+          "reject": "不能作该推断。限定证据及正确处理：题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。"
+        },
+        {
+          "caseId": "MU28",
+          "claim": "K16-CL-MU28@1",
+          "problem": "作品1700、手稿约1750、现代校订2000，如何登记日期？",
+          "reject": "不能作该推断。限定证据及正确处理：题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "传播、历史、分类",
+      "d4Targets": [
+        "K16.02.01.01",
+        "K16.02.02.01",
+        "K16.02.02.02",
+        "K16.02.03.01",
+        "K16.02.03.02",
+        "K16.02.04.01",
+        "K16.02.05.01",
+        "K16.02.06.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 12,
+        "row": "| K16.02 | A01 | P | 传播、历史、分类 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8)；[MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9)；[MU06/K16.02.02.02](musicology-r1-knowledge-cases.md#L10)；[MU07/K16.02.03.01](musicology-r1-knowledge-cases.md#L11)；[MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12)；[MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13)；[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7)；[MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU04@1",
+        "K16-CL-MU05@1",
+        "K16-CL-MU06@1",
+        "K16-CL-MU07@1",
+        "K16-CL-MU08@1",
+        "K16-CL-MU09@1",
+        "K16-CL-MU29@1",
+        "K16-CL-MU30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU04",
+          "claim": "K16-CL-MU04@1",
+          "problem": "CMS的宫廷传统延续报告与2000 Rangoon录音资料分别能支持什么？",
+          "reject": "不能作该推断。限定证据及正确处理：CMS报告描述宫廷传统经戏剧、学校和私人传习延续；SFW40492录音为2000 Rangoon，不能给该录音补传承谱系。分别记录时地、群体、来源与未见字段。"
+        },
+        {
+          "caseId": "MU05",
+          "claim": "K16-CL-MU05@1",
+          "problem": "Ferguson 2013摘要说改写缅语词、保留部分国际旋律风格，何时能登记某首歌一对一改编关系？",
+          "reject": "不能作该推断。限定证据及正确处理：2013 Ferguson摘要记改写缅语歌词且保留部分国际歌曲旋律/风格；题设另有明确源作品与改编者记录才绑定一对一关系。"
+        },
+        {
+          "caseId": "MU06",
+          "claim": "K16-CL-MU06@1",
+          "problem": "CMS电影广播概述与NIU第6卷广播目录应怎样区别？",
+          "reject": "不能作该推断。限定证据及正确处理：CMS记电影广播及西式乐器适配；NIU第6卷为介绍音乐的广播项目。分别是历史概括和目录证据，不能据后者确定所有传播路径。"
+        },
+        {
+          "caseId": "MU07",
+          "claim": "K16-CL-MU07@1",
+          "problem": "专辑市场字段为 World，介绍称 thachìn gyì。怎样登记两标签？",
+          "reject": "不能；市场分类不等社群自称。"
+        },
+        {
+          "caseId": "MU08",
+          "claim": "K16-CL-MU08@1",
+          "problem": "两地两年代对同类曲目按曲种、编制、用途、发行类别分类，如何并存？",
+          "reject": "不能作该推断。限定证据及正确处理：同一传统目录可以按曲种、编制、用途或发行类型多维索引；题设两地两年代异类标签并存，各有规则。"
+        },
+        {
+          "caseId": "MU09",
+          "claim": "K16-CL-MU09@1",
+          "problem": "2013与2016 Ferguson摘要涉及改写忠实及不同评价，如何记录年代与主体？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson 2013摘要描述copy thachin中不同程度的词义忠实；2016年另一研究摘要记录支持者的学习论与批评者的衍生性论。2013/2016是文献发表年份，非具体田野观察年份；只标作者转述。"
+        },
+        {
+          "caseId": "MU29",
+          "claim": "K16-CL-MU29@1",
+          "problem": "传播A→B有媒介日期，B→C仅相似，哪条路径可列为有证？",
+          "reject": "不能作该推断。限定证据及正确处理：历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。"
+        },
+        {
+          "caseId": "MU30",
+          "claim": "K16-CL-MU30@1",
+          "problem": "历史手稿/印本目录与广播民歌目录的时间线如何组合？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "查年代→媒介→路径→替代解释",
+      "d4Targets": [
+        "K16.02.01.01",
+        "K16.02.02.01",
+        "K16.02.02.02",
+        "K16.02.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 13,
+        "row": "| K16.02 | A02 | P | 查年代→媒介→路径→替代解释 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8)；[MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9)；[MU06/K16.02.02.02](musicology-r1-knowledge-cases.md#L10)；[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU04@1",
+        "K16-CL-MU05@1",
+        "K16-CL-MU06@1",
+        "K16-CL-MU29@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU04",
+          "claim": "K16-CL-MU04@1",
+          "problem": "CMS的宫廷传统延续报告与2000 Rangoon录音资料分别能支持什么？",
+          "reject": "不能作该推断。限定证据及正确处理：CMS报告描述宫廷传统经戏剧、学校和私人传习延续；SFW40492录音为2000 Rangoon，不能给该录音补传承谱系。分别记录时地、群体、来源与未见字段。"
+        },
+        {
+          "caseId": "MU05",
+          "claim": "K16-CL-MU05@1",
+          "problem": "Ferguson 2013摘要说改写缅语词、保留部分国际旋律风格，何时能登记某首歌一对一改编关系？",
+          "reject": "不能作该推断。限定证据及正确处理：2013 Ferguson摘要记改写缅语歌词且保留部分国际歌曲旋律/风格；题设另有明确源作品与改编者记录才绑定一对一关系。"
+        },
+        {
+          "caseId": "MU06",
+          "claim": "K16-CL-MU06@1",
+          "problem": "CMS电影广播概述与NIU第6卷广播目录应怎样区别？",
+          "reject": "不能作该推断。限定证据及正确处理：CMS记电影广播及西式乐器适配；NIU第6卷为介绍音乐的广播项目。分别是历史概括和目录证据，不能据后者确定所有传播路径。"
+        },
+        {
+          "caseId": "MU29",
+          "claim": "K16-CL-MU29@1",
+          "problem": "传播A→B有媒介日期，B→C仅相似，哪条路径可列为有证？",
+          "reject": "不能作该推断。限定证据及正确处理：历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.02",
+      "ability": "A03",
+      "role": "S",
+      "task": "历史档案/广播索引；非工具实跑",
+      "d4Targets": [
+        "K16.02.02.02",
+        "K16.02.06.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 14,
+        "row": "| K16.02 | A03 | S | 历史档案/广播索引；非工具实跑 | [MU06/K16.02.02.02](musicology-r1-knowledge-cases.md#L10)；[MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU06@1",
+        "K16-CL-MU30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU06",
+          "claim": "K16-CL-MU06@1",
+          "problem": "CMS电影广播概述与NIU第6卷广播目录应怎样区别？",
+          "reject": "不能作该推断。限定证据及正确处理：CMS记电影广播及西式乐器适配；NIU第6卷为介绍音乐的广播项目。分别是历史概括和目录证据，不能据后者确定所有传播路径。"
+        },
+        {
+          "caseId": "MU30",
+          "claim": "K16-CL-MU30@1",
+          "problem": "历史手稿/印本目录与广播民歌目录的时间线如何组合？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.02",
+      "ability": "A04",
+      "role": "C",
+      "task": "传播图边来源状态",
+      "d4Targets": [
+        "K16.02.03.01",
+        "K16.02.03.02",
+        "K16.02.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 15,
+        "row": "| K16.02 | A04 | C | 传播图边来源状态 | [MU07/K16.02.03.01](musicology-r1-knowledge-cases.md#L11)；[MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12)；[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU07@1",
+        "K16-CL-MU08@1",
+        "K16-CL-MU29@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU07",
+          "claim": "K16-CL-MU07@1",
+          "problem": "专辑市场字段为 World，介绍称 thachìn gyì。怎样登记两标签？",
+          "reject": "不能；市场分类不等社群自称。"
+        },
+        {
+          "caseId": "MU08",
+          "claim": "K16-CL-MU08@1",
+          "problem": "两地两年代对同类曲目按曲种、编制、用途、发行类别分类，如何并存？",
+          "reject": "不能作该推断。限定证据及正确处理：同一传统目录可以按曲种、编制、用途或发行类型多维索引；题设两地两年代异类标签并存，各有规则。"
+        },
+        {
+          "caseId": "MU29",
+          "claim": "K16-CL-MU29@1",
+          "problem": "传播A→B有媒介日期，B→C仅相似，哪条路径可列为有证？",
+          "reject": "不能作该推断。限定证据及正确处理：历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "时序、接触证据与替代路径",
+      "d4Targets": [
+        "K16.02.02.01",
+        "K16.02.04.01",
+        "K16.02.05.01",
+        "K16.02.06.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 16,
+        "row": "| K16.02 | A05 | P | 时序、接触证据与替代路径 | [MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9)；[MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13)；[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7)；[MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU05@1",
+        "K16-CL-MU09@1",
+        "K16-CL-MU29@1",
+        "K16-CL-MU30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU05",
+          "claim": "K16-CL-MU05@1",
+          "problem": "Ferguson 2013摘要说改写缅语词、保留部分国际旋律风格，何时能登记某首歌一对一改编关系？",
+          "reject": "不能作该推断。限定证据及正确处理：2013 Ferguson摘要记改写缅语歌词且保留部分国际歌曲旋律/风格；题设另有明确源作品与改编者记录才绑定一对一关系。"
+        },
+        {
+          "caseId": "MU09",
+          "claim": "K16-CL-MU09@1",
+          "problem": "2013与2016 Ferguson摘要涉及改写忠实及不同评价，如何记录年代与主体？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson 2013摘要描述copy thachin中不同程度的词义忠实；2016年另一研究摘要记录支持者的学习论与批评者的衍生性论。2013/2016是文献发表年份，非具体田野观察年份；只标作者转述。"
+        },
+        {
+          "caseId": "MU29",
+          "claim": "K16-CL-MU29@1",
+          "problem": "传播A→B有媒介日期，B→C仅相似，哪条路径可列为有证？",
+          "reject": "不能作该推断。限定证据及正确处理：历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。"
+        },
+        {
+          "caseId": "MU30",
+          "claim": "K16-CL-MU30@1",
+          "problem": "历史手稿/印本目录与广播民歌目录的时间线如何组合？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.02",
+      "ability": "A06",
+      "role": "P",
+      "task": "带日期/标签主体的关系表",
+      "d4Targets": [
+        "K16.02.01.01",
+        "K16.02.03.01",
+        "K16.02.03.02",
+        "K16.02.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 17,
+        "row": "| K16.02 | A06 | P | 带日期/标签主体的关系表 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8)；[MU07/K16.02.03.01](musicology-r1-knowledge-cases.md#L11)；[MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12)；[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU04@1",
+        "K16-CL-MU07@1",
+        "K16-CL-MU08@1",
+        "K16-CL-MU29@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU04",
+          "claim": "K16-CL-MU04@1",
+          "problem": "CMS的宫廷传统延续报告与2000 Rangoon录音资料分别能支持什么？",
+          "reject": "不能作该推断。限定证据及正确处理：CMS报告描述宫廷传统经戏剧、学校和私人传习延续；SFW40492录音为2000 Rangoon，不能给该录音补传承谱系。分别记录时地、群体、来源与未见字段。"
+        },
+        {
+          "caseId": "MU07",
+          "claim": "K16-CL-MU07@1",
+          "problem": "专辑市场字段为 World，介绍称 thachìn gyì。怎样登记两标签？",
+          "reject": "不能；市场分类不等社群自称。"
+        },
+        {
+          "caseId": "MU08",
+          "claim": "K16-CL-MU08@1",
+          "problem": "两地两年代对同类曲目按曲种、编制、用途、发行类别分类，如何并存？",
+          "reject": "不能作该推断。限定证据及正确处理：同一传统目录可以按曲种、编制、用途或发行类型多维索引；题设两地两年代异类标签并存，各有规则。"
+        },
+        {
+          "caseId": "MU29",
+          "claim": "K16-CL-MU29@1",
+          "problem": "传播A→B有媒介日期，B→C仅相似，哪条路径可列为有证？",
+          "reject": "不能作该推断。限定证据及正确处理：历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "新史料更新受影响路径不删历史",
+      "d4Targets": [
+        "K16.02.02.02",
+        "K16.02.04.01",
+        "K16.02.05.01",
+        "K16.02.06.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 18,
+        "row": "| K16.02 | A07 | P | 新史料更新受影响路径不删历史 | [MU06/K16.02.02.02](musicology-r1-knowledge-cases.md#L10)；[MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13)；[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7)；[MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU06@1",
+        "K16-CL-MU09@1",
+        "K16-CL-MU29@1",
+        "K16-CL-MU30@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU06",
+          "claim": "K16-CL-MU06@1",
+          "problem": "CMS电影广播概述与NIU第6卷广播目录应怎样区别？",
+          "reject": "不能作该推断。限定证据及正确处理：CMS记电影广播及西式乐器适配；NIU第6卷为介绍音乐的广播项目。分别是历史概括和目录证据，不能据后者确定所有传播路径。"
+        },
+        {
+          "caseId": "MU09",
+          "claim": "K16-CL-MU09@1",
+          "problem": "2013与2016 Ferguson摘要涉及改写忠实及不同评价，如何记录年代与主体？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson 2013摘要描述copy thachin中不同程度的词义忠实；2016年另一研究摘要记录支持者的学习论与批评者的衍生性论。2013/2016是文献发表年份，非具体田野观察年份；只标作者转述。"
+        },
+        {
+          "caseId": "MU29",
+          "claim": "K16-CL-MU29@1",
+          "problem": "传播A→B有媒介日期，B→C仅相似，哪条路径可列为有证？",
+          "reject": "不能作该推断。限定证据及正确处理：历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。"
+        },
+        {
+          "caseId": "MU30",
+          "claim": "K16-CL-MU30@1",
+          "problem": "历史手稿/印本目录与广播民歌目录的时间线如何组合？",
+          "reject": "不能作该推断。限定证据及正确处理：RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "曲目、实践、器物史",
+      "d4Targets": [
+        "K16.03.01.01",
+        "K16.03.01.02",
+        "K16.03.02.01",
+        "K16.03.03.01",
+        "K16.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 19,
+        "row": "| K16.03 | A01 | P | 曲目、实践、器物史 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14)；[MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15)；[MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)；[MU32/K16.03.03.01](musicology-r2-knowledge-cases.md#L10)；[MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU10@1",
+        "K16-CL-MU11@1",
+        "K16-CL-MU31@1",
+        "K16-CL-MU32@1",
+        "K16-CL-MU33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU10",
+          "claim": "K16-CL-MU10@1",
+          "problem": "NIU目录中Kyo两种编制与2021一次仪式研究应分别登记什么？",
+          "reject": "不能作该推断。限定证据及正确处理：NIU目录Kyo有voice+pattala及混合编制两卷；2021论文摘要特定Yangon合奏的一次仪式分析，记录具体场合及变体证据类型。"
+        },
+        {
+          "caseId": "MU11",
+          "claim": "K16-CL-MU11@1",
+          "problem": "SFW40492竖琴人声选录、CMS的hsaing节庆戏剧仪式说明，应如何区分曲集、编制、场合？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492为竖琴与人声古典曲目选录；CMS报告hsaing可在节庆/戏剧/仪式，小型室内编制也可演相关曲目。分别记录曲集、编制与场合。"
+        },
+        {
+          "caseId": "MU31",
+          "claim": "K16-CL-MU31@1",
+          "problem": "Met十九世纪13弦物件与Folkways16弦说明如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。"
+        },
+        {
+          "caseId": "MU32",
+          "claim": "K16-CL-MU32@1",
+          "problem": "一次Do Ko Gyi Kyaw演出分析与两场共享动机但装饰速度不同的题设，怎样比较？",
+          "reject": "不能作该推断。限定证据及正确处理：2021摘要限定一次Do Ko Gyi Kyaw的旋律展开、节奏及舞蹈互动；题设两次演出共享基本动机但装饰和速度不同，需依据具体表演分析。"
+        },
+        {
+          "caseId": "MU33",
+          "claim": "K16-CL-MU33@1",
+          "problem": "SFW40492九曲、2000录音、2003发行；NIU另14卷，怎样索引日期和层级？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "分曲目、版本、场景、对象",
+      "d4Targets": [
+        "K16.03.01.01",
+        "K16.03.01.02",
+        "K16.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 20,
+        "row": "| K16.03 | A02 | P | 分曲目、版本、场景、对象 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14)；[MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15)；[MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU10@1",
+        "K16-CL-MU11@1",
+        "K16-CL-MU33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU10",
+          "claim": "K16-CL-MU10@1",
+          "problem": "NIU目录中Kyo两种编制与2021一次仪式研究应分别登记什么？",
+          "reject": "不能作该推断。限定证据及正确处理：NIU目录Kyo有voice+pattala及混合编制两卷；2021论文摘要特定Yangon合奏的一次仪式分析，记录具体场合及变体证据类型。"
+        },
+        {
+          "caseId": "MU11",
+          "claim": "K16-CL-MU11@1",
+          "problem": "SFW40492竖琴人声选录、CMS的hsaing节庆戏剧仪式说明，应如何区分曲集、编制、场合？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492为竖琴与人声古典曲目选录；CMS报告hsaing可在节庆/戏剧/仪式，小型室内编制也可演相关曲目。分别记录曲集、编制与场合。"
+        },
+        {
+          "caseId": "MU33",
+          "claim": "K16-CL-MU33@1",
+          "problem": "SFW40492九曲、2000录音、2003发行；NIU另14卷，怎样索引日期和层级？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.03",
+      "ability": "A03",
+      "role": "S",
+      "task": "唱片/馆藏目录检索，实际播放另核",
+      "d4Targets": [
+        "K16.03.02.01",
+        "K16.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 21,
+        "row": "| K16.03 | A03 | S | 唱片/馆藏目录检索，实际播放另核 | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)；[MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU31@1",
+        "K16-CL-MU33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU31",
+          "claim": "K16-CL-MU31@1",
+          "problem": "Met十九世纪13弦物件与Folkways16弦说明如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。"
+        },
+        {
+          "caseId": "MU33",
+          "claim": "K16-CL-MU33@1",
+          "problem": "SFW40492九曲、2000录音、2003发行；NIU另14卷，怎样索引日期和层级？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.03",
+      "ability": "A04",
+      "role": "C",
+      "task": "表演/目录/器物身份修订条件",
+      "d4Targets": [
+        "K16.03.02.01",
+        "K16.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 22,
+        "row": "| K16.03 | A04 | C | 表演/目录/器物身份修订条件 | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)；[MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU31@1",
+        "K16-CL-MU33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU31",
+          "claim": "K16-CL-MU31@1",
+          "problem": "Met十九世纪13弦物件与Folkways16弦说明如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。"
+        },
+        {
+          "caseId": "MU33",
+          "claim": "K16-CL-MU33@1",
+          "problem": "SFW40492九曲、2000录音、2003发行；NIU另14卷，怎样索引日期和层级？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "证据范围、变体及来源",
+      "d4Targets": [
+        "K16.03.01.01",
+        "K16.03.02.01",
+        "K16.03.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 23,
+        "row": "| K16.03 | A05 | P | 证据范围、变体及来源 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14)；[MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)；[MU32/K16.03.03.01](musicology-r2-knowledge-cases.md#L10) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU10@1",
+        "K16-CL-MU31@1",
+        "K16-CL-MU32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU10",
+          "claim": "K16-CL-MU10@1",
+          "problem": "NIU目录中Kyo两种编制与2021一次仪式研究应分别登记什么？",
+          "reject": "不能作该推断。限定证据及正确处理：NIU目录Kyo有voice+pattala及混合编制两卷；2021论文摘要特定Yangon合奏的一次仪式分析，记录具体场合及变体证据类型。"
+        },
+        {
+          "caseId": "MU31",
+          "claim": "K16-CL-MU31@1",
+          "problem": "Met十九世纪13弦物件与Folkways16弦说明如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。"
+        },
+        {
+          "caseId": "MU32",
+          "claim": "K16-CL-MU32@1",
+          "problem": "一次Do Ko Gyi Kyaw演出分析与两场共享动机但装饰速度不同的题设，怎样比较？",
+          "reject": "不能作该推断。限定证据及正确处理：2021摘要限定一次Do Ko Gyi Kyaw的旋律展开、节奏及舞蹈互动；题设两次演出共享基本动机但装饰和速度不同，需依据具体表演分析。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.03",
+      "ability": "A06",
+      "role": "P",
+      "task": "曲目和场合元数据可编辑",
+      "d4Targets": [
+        "K16.03.01.02",
+        "K16.03.02.01",
+        "K16.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 24,
+        "row": "| K16.03 | A06 | P | 曲目和场合元数据可编辑 | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15)；[MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)；[MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU11@1",
+        "K16-CL-MU31@1",
+        "K16-CL-MU33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU11",
+          "claim": "K16-CL-MU11@1",
+          "problem": "SFW40492竖琴人声选录、CMS的hsaing节庆戏剧仪式说明，应如何区分曲集、编制、场合？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492为竖琴与人声古典曲目选录；CMS报告hsaing可在节庆/戏剧/仪式，小型室内编制也可演相关曲目。分别记录曲集、编制与场合。"
+        },
+        {
+          "caseId": "MU31",
+          "claim": "K16-CL-MU31@1",
+          "problem": "Met十九世纪13弦物件与Folkways16弦说明如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。"
+        },
+        {
+          "caseId": "MU33",
+          "claim": "K16-CL-MU33@1",
+          "problem": "SFW40492九曲、2000录音、2003发行；NIU另14卷，怎样索引日期和层级？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "错场合/同名异物回查",
+      "d4Targets": [
+        "K16.03.02.01",
+        "K16.03.03.01",
+        "K16.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 25,
+        "row": "| K16.03 | A07 | P | 错场合/同名异物回查 | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)；[MU32/K16.03.03.01](musicology-r2-knowledge-cases.md#L10)；[MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU31@1",
+        "K16-CL-MU32@1",
+        "K16-CL-MU33@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU31",
+          "claim": "K16-CL-MU31@1",
+          "problem": "Met十九世纪13弦物件与Folkways16弦说明如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。"
+        },
+        {
+          "caseId": "MU32",
+          "claim": "K16-CL-MU32@1",
+          "problem": "一次Do Ko Gyi Kyaw演出分析与两场共享动机但装饰速度不同的题设，怎样比较？",
+          "reject": "不能作该推断。限定证据及正确处理：2021摘要限定一次Do Ko Gyi Kyaw的旋律展开、节奏及舞蹈互动；题设两次演出共享基本动机但装饰和速度不同，需依据具体表演分析。"
+        },
+        {
+          "caseId": "MU33",
+          "claim": "K16-CL-MU33@1",
+          "problem": "SFW40492九曲、2000录音、2003发行；NIU另14卷，怎样索引日期和层级？",
+          "reject": "不能作该推断。限定证据及正确处理：SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "田野方法、比较",
+      "d4Targets": [
+        "K16.04.01.01",
+        "K16.04.02.01",
+        "K16.04.03.01",
+        "K16.04.04.01",
+        "K16.04.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 26,
+        "row": "| K16.04 | A01 | P | 田野方法、比较 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16)；[MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17)；[MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12)；[MU35/K16.04.04.01](musicology-r2-knowledge-cases.md#L13)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU12@1",
+        "K16-CL-MU13@1",
+        "K16-CL-MU34@1",
+        "K16-CL-MU35@1",
+        "K16-CL-MU36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU12",
+          "claim": "K16-CL-MU12@1",
+          "problem": "P1、P2 对同一场活动用途解释不同，研究者只观察一场，如何记录？",
+          "reject": "不能；不同陈述可能并存且样本有限。"
+        },
+        {
+          "caseId": "MU13",
+          "claim": "K16-CL-MU13@1",
+          "problem": "参与者称用途X、研究者解释Y、外部听众偏好Z，应如何记录三者？",
+          "reject": "不能作该推断。限定证据及正确处理：同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。"
+        },
+        {
+          "caseId": "MU34",
+          "claim": "K16-CL-MU34@1",
+          "problem": "民族志60抽样社会均有歌曲报告，题设5/8受访者同意；各结论覆盖什么？",
+          "reject": "不能作该推断。限定证据及正确处理：Mehr等研究的民族志60个抽样社会皆有歌曲报告；题设5/8被访者同意只表示该题设样本。缺报不当否定。"
+        },
+        {
+          "caseId": "MU35",
+          "claim": "K16-CL-MU35@1",
+          "problem": "功能类别A内差20、B内差30、跨组差10，如何解释？",
+          "reject": "不能作该推断。限定证据及正确处理：比较同一功能类别的声学标注时，控制记录场合、语料、表示和单位；题设A内差20/B内差30，跨组差10，不以跨组均值证明无内部差异。"
+        },
+        {
+          "caseId": "MU36",
+          "claim": "K16-CL-MU36@1",
+          "problem": "访谈、参与观察、场记、视听资料分别怎样登记与约定访问？",
+          "reject": "不能作该推断。限定证据及正确处理：访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "研究问题→伦理→抽样→记录→解释",
+      "d4Targets": [
+        "K16.04.01.01",
+        "K16.04.05.01",
+        "K16.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 27,
+        "row": "| K16.04 | A02 | P | 研究问题→伦理→抽样→记录→解释 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14)；[MU35/K16.04.04.01](musicology-r2-knowledge-cases.md#L13) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU12@1",
+        "K16-CL-MU36@1",
+        "K16-CL-MU35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU12",
+          "claim": "K16-CL-MU12@1",
+          "problem": "P1、P2 对同一场活动用途解释不同，研究者只观察一场，如何记录？",
+          "reject": "不能；不同陈述可能并存且样本有限。"
+        },
+        {
+          "caseId": "MU36",
+          "claim": "K16-CL-MU36@1",
+          "problem": "访谈、参与观察、场记、视听资料分别怎样登记与约定访问？",
+          "reject": "不能作该推断。限定证据及正确处理：访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。"
+        },
+        {
+          "caseId": "MU35",
+          "claim": "K16-CL-MU35@1",
+          "problem": "功能类别A内差20、B内差30、跨组差10，如何解释？",
+          "reject": "不能作该推断。限定证据及正确处理：比较同一功能类别的声学标注时，控制记录场合、语料、表示和单位；题设A内差20/B内差30，跨组差10，不以跨组均值证明无内部差异。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.04",
+      "ability": "A03",
+      "role": "S",
+      "task": "访谈/语料方法与输入资格，K12执行",
+      "d4Targets": [
+        "K16.04.03.01",
+        "K16.04.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 28,
+        "row": "| K16.04 | A03 | S | 访谈/语料方法与输入资格，K12执行 | [MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU34@1",
+        "K16-CL-MU36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU34",
+          "claim": "K16-CL-MU34@1",
+          "problem": "民族志60抽样社会均有歌曲报告，题设5/8受访者同意；各结论覆盖什么？",
+          "reject": "不能作该推断。限定证据及正确处理：Mehr等研究的民族志60个抽样社会皆有歌曲报告；题设5/8被访者同意只表示该题设样本。缺报不当否定。"
+        },
+        {
+          "caseId": "MU36",
+          "claim": "K16-CL-MU36@1",
+          "problem": "访谈、参与观察、场记、视听资料分别怎样登记与约定访问？",
+          "reject": "不能作该推断。限定证据及正确处理：访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.04",
+      "ability": "A04",
+      "role": "C",
+      "task": "样本/方法及笔记版本条件",
+      "d4Targets": [
+        "K16.04.01.01",
+        "K16.04.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 29,
+        "row": "| K16.04 | A04 | C | 样本/方法及笔记版本条件 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU12@1",
+        "K16-CL-MU36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU12",
+          "claim": "K16-CL-MU12@1",
+          "problem": "P1、P2 对同一场活动用途解释不同，研究者只观察一场，如何记录？",
+          "reject": "不能；不同陈述可能并存且样本有限。"
+        },
+        {
+          "caseId": "MU36",
+          "claim": "K16-CL-MU36@1",
+          "problem": "访谈、参与观察、场记、视听资料分别怎样登记与约定访问？",
+          "reject": "不能作该推断。限定证据及正确处理：访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "抽样框、缺报、参与者视角",
+      "d4Targets": [
+        "K16.04.01.01",
+        "K16.04.02.01",
+        "K16.04.03.01",
+        "K16.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 30,
+        "row": "| K16.04 | A05 | P | 抽样框、缺报、参与者视角 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16)；[MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17)；[MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12)；[MU35/K16.04.04.01](musicology-r2-knowledge-cases.md#L13) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU12@1",
+        "K16-CL-MU13@1",
+        "K16-CL-MU34@1",
+        "K16-CL-MU35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU12",
+          "claim": "K16-CL-MU12@1",
+          "problem": "P1、P2 对同一场活动用途解释不同，研究者只观察一场，如何记录？",
+          "reject": "不能；不同陈述可能并存且样本有限。"
+        },
+        {
+          "caseId": "MU13",
+          "claim": "K16-CL-MU13@1",
+          "problem": "参与者称用途X、研究者解释Y、外部听众偏好Z，应如何记录三者？",
+          "reject": "不能作该推断。限定证据及正确处理：同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。"
+        },
+        {
+          "caseId": "MU34",
+          "claim": "K16-CL-MU34@1",
+          "problem": "民族志60抽样社会均有歌曲报告，题设5/8受访者同意；各结论覆盖什么？",
+          "reject": "不能作该推断。限定证据及正确处理：Mehr等研究的民族志60个抽样社会皆有歌曲报告；题设5/8被访者同意只表示该题设样本。缺报不当否定。"
+        },
+        {
+          "caseId": "MU35",
+          "claim": "K16-CL-MU35@1",
+          "problem": "功能类别A内差20、B内差30、跨组差10，如何解释？",
+          "reject": "不能作该推断。限定证据及正确处理：比较同一功能类别的声学标注时，控制记录场合、语料、表示和单位；题设A内差20/B内差30，跨组差10，不以跨组均值证明无内部差异。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "匿名化访谈索引与分析记录",
+      "d4Targets": [
+        "K16.04.01.01",
+        "K16.04.02.01",
+        "K16.04.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 31,
+        "row": "| K16.04 | A06 | P | 匿名化访谈索引与分析记录 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16)；[MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU12@1",
+        "K16-CL-MU13@1",
+        "K16-CL-MU36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU12",
+          "claim": "K16-CL-MU12@1",
+          "problem": "P1、P2 对同一场活动用途解释不同，研究者只观察一场，如何记录？",
+          "reject": "不能；不同陈述可能并存且样本有限。"
+        },
+        {
+          "caseId": "MU13",
+          "claim": "K16-CL-MU13@1",
+          "problem": "参与者称用途X、研究者解释Y、外部听众偏好Z，应如何记录三者？",
+          "reject": "不能作该推断。限定证据及正确处理：同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。"
+        },
+        {
+          "caseId": "MU36",
+          "claim": "K16-CL-MU36@1",
+          "problem": "访谈、参与观察、场记、视听资料分别怎样登记与约定访问？",
+          "reject": "不能作该推断。限定证据及正确处理：访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "补证/重新编码/保留原材料",
+      "d4Targets": [
+        "K16.04.02.01",
+        "K16.04.03.01",
+        "K16.04.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 32,
+        "row": "| K16.04 | A07 | P | 补证/重新编码/保留原材料 | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17)；[MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU13@1",
+        "K16-CL-MU34@1",
+        "K16-CL-MU36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU13",
+          "claim": "K16-CL-MU13@1",
+          "problem": "参与者称用途X、研究者解释Y、外部听众偏好Z，应如何记录三者？",
+          "reject": "不能作该推断。限定证据及正确处理：同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。"
+        },
+        {
+          "caseId": "MU34",
+          "claim": "K16-CL-MU34@1",
+          "problem": "民族志60抽样社会均有歌曲报告，题设5/8受访者同意；各结论覆盖什么？",
+          "reject": "不能作该推断。限定证据及正确处理：Mehr等研究的民族志60个抽样社会皆有歌曲报告；题设5/8被访者同意只表示该题设样本。缺报不当否定。"
+        },
+        {
+          "caseId": "MU36",
+          "claim": "K16-CL-MU36@1",
+          "problem": "访谈、参与观察、场记、视听资料分别怎样登记与约定访问？",
+          "reject": "不能作该推断。限定证据及正确处理：访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "社会功能与意义",
+      "d4Targets": [
+        "K16.05.01.01",
+        "K16.05.01.02",
+        "K16.05.02.01",
+        "K16.05.02.02",
+        "K16.05.03.01",
+        "K16.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 33,
+        "row": "| K16.05 | A01 | P | 社会功能与意义 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18)；[MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19)；[MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20)；[MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21)；[MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15)；[MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU14@1",
+        "K16-CL-MU15@1",
+        "K16-CL-MU16@1",
+        "K16-CL-MU17@1",
+        "K16-CL-MU37@1",
+        "K16-CL-MU38@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU14",
+          "claim": "K16-CL-MU14@1",
+          "problem": "目录列Nat Pwe、广播、民歌，同曲在仪式及教学演出有记录，如何标功能？",
+          "reject": "不能作该推断。限定证据及正确处理：目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。"
+        },
+        {
+          "caseId": "MU15",
+          "claim": "K16-CL-MU15@1",
+          "problem": "研究摘要谈表演舞蹈互动，演奏者称庆典意义、听众称审美意义，如何表达？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。"
+        },
+        {
+          "caseId": "MU16",
+          "claim": "K16-CL-MU16@1",
+          "problem": "一段录音有可辨语言和相似音色，但无当事人自称或身份记录。如何标注？",
+          "reject": "不能；这些是非唯一的声音线索，不是身份确认。"
+        },
+        {
+          "caseId": "MU17",
+          "claim": "K16-CL-MU17@1",
+          "problem": "仪式参与者A、观察者B与拟翻唱目标听众C应如何分表？",
+          "reject": "不能作该推断。限定证据及正确处理：题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。"
+        },
+        {
+          "caseId": "MU37",
+          "claim": "K16-CL-MU37@1",
+          "problem": "广播、发行目录、政策与历史copy thachin争议分别是什么层证据？",
+          "reject": "不能作该推断。限定证据及正确处理：广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。"
+        },
+        {
+          "caseId": "MU38",
+          "claim": "K16-CL-MU38@1",
+          "problem": "演奏者、舞者、仪式专家A/B/C可能兼任，怎样按事件登记？",
+          "reject": "不能作该推断。限定证据及正确处理：仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "分角色、场合、陈述、假设",
+      "d4Targets": [
+        "K16.05.01.01",
+        "K16.05.01.02",
+        "K16.05.02.02",
+        "K16.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 34,
+        "row": "| K16.05 | A02 | P | 分角色、场合、陈述、假设 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18)；[MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19)；[MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21)；[MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU14@1",
+        "K16-CL-MU15@1",
+        "K16-CL-MU17@1",
+        "K16-CL-MU38@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU14",
+          "claim": "K16-CL-MU14@1",
+          "problem": "目录列Nat Pwe、广播、民歌，同曲在仪式及教学演出有记录，如何标功能？",
+          "reject": "不能作该推断。限定证据及正确处理：目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。"
+        },
+        {
+          "caseId": "MU15",
+          "claim": "K16-CL-MU15@1",
+          "problem": "研究摘要谈表演舞蹈互动，演奏者称庆典意义、听众称审美意义，如何表达？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。"
+        },
+        {
+          "caseId": "MU17",
+          "claim": "K16-CL-MU17@1",
+          "problem": "仪式参与者A、观察者B与拟翻唱目标听众C应如何分表？",
+          "reject": "不能作该推断。限定证据及正确处理：题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。"
+        },
+        {
+          "caseId": "MU38",
+          "claim": "K16-CL-MU38@1",
+          "problem": "演奏者、舞者、仪式专家A/B/C可能兼任，怎样按事件登记？",
+          "reject": "不能作该推断。限定证据及正确处理：仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "社会语境目录/访谈检索资格",
+      "d4Targets": [
+        "K16.05.01.01",
+        "K16.05.03.01",
+        "K16.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 35,
+        "row": "| K16.05 | A03 | S | 社会语境目录/访谈检索资格 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18)；[MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15)；[MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU14@1",
+        "K16-CL-MU37@1",
+        "K16-CL-MU38@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU14",
+          "claim": "K16-CL-MU14@1",
+          "problem": "目录列Nat Pwe、广播、民歌，同曲在仪式及教学演出有记录，如何标功能？",
+          "reject": "不能作该推断。限定证据及正确处理：目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。"
+        },
+        {
+          "caseId": "MU37",
+          "claim": "K16-CL-MU37@1",
+          "problem": "广播、发行目录、政策与历史copy thachin争议分别是什么层证据？",
+          "reject": "不能作该推断。限定证据及正确处理：广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。"
+        },
+        {
+          "caseId": "MU38",
+          "claim": "K16-CL-MU38@1",
+          "problem": "演奏者、舞者、仪式专家A/B/C可能兼任，怎样按事件登记？",
+          "reject": "不能作该推断。限定证据及正确处理：仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.05",
+      "ability": "A04",
+      "role": "C",
+      "task": "事件/解释状态与不同主体",
+      "d4Targets": [
+        "K16.05.01.02",
+        "K16.05.02.02",
+        "K16.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 36,
+        "row": "| K16.05 | A04 | C | 事件/解释状态与不同主体 | [MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19)；[MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21)；[MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU15@1",
+        "K16-CL-MU17@1",
+        "K16-CL-MU38@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU15",
+          "claim": "K16-CL-MU15@1",
+          "problem": "研究摘要谈表演舞蹈互动，演奏者称庆典意义、听众称审美意义，如何表达？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。"
+        },
+        {
+          "caseId": "MU17",
+          "claim": "K16-CL-MU17@1",
+          "problem": "仪式参与者A、观察者B与拟翻唱目标听众C应如何分表？",
+          "reject": "不能作该推断。限定证据及正确处理：题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。"
+        },
+        {
+          "caseId": "MU38",
+          "claim": "K16-CL-MU38@1",
+          "problem": "演奏者、舞者、仪式专家A/B/C可能兼任，怎样按事件登记？",
+          "reject": "不能作该推断。限定证据及正确处理：仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "观察与推断、目标群体差异",
+      "d4Targets": [
+        "K16.05.01.02",
+        "K16.05.02.01",
+        "K16.05.02.02",
+        "K16.05.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 37,
+        "row": "| K16.05 | A05 | P | 观察与推断、目标群体差异 | [MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19)；[MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20)；[MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21)；[MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU15@1",
+        "K16-CL-MU16@1",
+        "K16-CL-MU17@1",
+        "K16-CL-MU37@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU15",
+          "claim": "K16-CL-MU15@1",
+          "problem": "研究摘要谈表演舞蹈互动，演奏者称庆典意义、听众称审美意义，如何表达？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。"
+        },
+        {
+          "caseId": "MU16",
+          "claim": "K16-CL-MU16@1",
+          "problem": "一段录音有可辨语言和相似音色，但无当事人自称或身份记录。如何标注？",
+          "reject": "不能；这些是非唯一的声音线索，不是身份确认。"
+        },
+        {
+          "caseId": "MU17",
+          "claim": "K16-CL-MU17@1",
+          "problem": "仪式参与者A、观察者B与拟翻唱目标听众C应如何分表？",
+          "reject": "不能作该推断。限定证据及正确处理：题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。"
+        },
+        {
+          "caseId": "MU37",
+          "claim": "K16-CL-MU37@1",
+          "problem": "广播、发行目录、政策与历史copy thachin争议分别是什么层证据？",
+          "reject": "不能作该推断。限定证据及正确处理：广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.05",
+      "ability": "A06",
+      "role": "P",
+      "task": "事件/功能/赋义主体记录",
+      "d4Targets": [
+        "K16.05.01.01",
+        "K16.05.01.02",
+        "K16.05.02.02",
+        "K16.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 38,
+        "row": "| K16.05 | A06 | P | 事件/功能/赋义主体记录 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18)；[MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19)；[MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21)；[MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU14@1",
+        "K16-CL-MU15@1",
+        "K16-CL-MU17@1",
+        "K16-CL-MU38@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU14",
+          "claim": "K16-CL-MU14@1",
+          "problem": "目录列Nat Pwe、广播、民歌，同曲在仪式及教学演出有记录，如何标功能？",
+          "reject": "不能作该推断。限定证据及正确处理：目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。"
+        },
+        {
+          "caseId": "MU15",
+          "claim": "K16-CL-MU15@1",
+          "problem": "研究摘要谈表演舞蹈互动，演奏者称庆典意义、听众称审美意义，如何表达？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。"
+        },
+        {
+          "caseId": "MU17",
+          "claim": "K16-CL-MU17@1",
+          "problem": "仪式参与者A、观察者B与拟翻唱目标听众C应如何分表？",
+          "reject": "不能作该推断。限定证据及正确处理：题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。"
+        },
+        {
+          "caseId": "MU38",
+          "claim": "K16-CL-MU38@1",
+          "problem": "演奏者、舞者、仪式专家A/B/C可能兼任，怎样按事件登记？",
+          "reject": "不能作该推断。限定证据及正确处理：仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "替代解释与冲突留存",
+      "d4Targets": [
+        "K16.05.01.02",
+        "K16.05.02.02",
+        "K16.05.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 39,
+        "row": "| K16.05 | A07 | P | 替代解释与冲突留存 | [MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19)；[MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21)；[MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU15@1",
+        "K16-CL-MU17@1",
+        "K16-CL-MU37@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU15",
+          "claim": "K16-CL-MU15@1",
+          "problem": "研究摘要谈表演舞蹈互动，演奏者称庆典意义、听众称审美意义，如何表达？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。"
+        },
+        {
+          "caseId": "MU17",
+          "claim": "K16-CL-MU17@1",
+          "problem": "仪式参与者A、观察者B与拟翻唱目标听众C应如何分表？",
+          "reject": "不能作该推断。限定证据及正确处理：题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。"
+        },
+        {
+          "caseId": "MU37",
+          "claim": "K16-CL-MU37@1",
+          "problem": "广播、发行目录、政策与历史copy thachin争议分别是什么层证据？",
+          "reject": "不能作该推断。限定证据及正确处理：广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "美学/哲学争论",
+      "d4Targets": [
+        "K16.06.01.01",
+        "K16.06.02.01",
+        "K16.06.02.02",
+        "K16.06.03.01",
+        "K16.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 40,
+        "row": "| K16.06 | A01 | P | 美学/哲学争论 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17)；[MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU18@1",
+        "K16-CL-MU19@1",
+        "K16-CL-MU20@1",
+        "K16-CL-MU39@1",
+        "K16-CL-MU40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU18",
+          "claim": "K16-CL-MU18@1",
+          "problem": "copy thachin不同评价与SEP真实性维度如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。"
+        },
+        {
+          "caseId": "MU19",
+          "claim": "K16-CL-MU19@1",
+          "problem": "传统惯例A、作品明确要求B、演奏者选择C冲突，怎样区分？",
+          "reject": "不能作该推断。限定证据及正确处理：题设传统惯例A、作品明确要求B、演奏者艺术选择C；SEP讨论不同作品对乐器的要求不同，不能把一般习惯等同作品规范。"
+        },
+        {
+          "caseId": "MU20",
+          "claim": "K16-CL-MU20@1",
+          "problem": "同一改编被解释成学习借鉴或衍生性，如何保留两种解释？",
+          "reject": "不能作该推断。限定证据及正确处理：题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。"
+        },
+        {
+          "caseId": "MU39",
+          "claim": "K16-CL-MU39@1",
+          "problem": "同一作品两场演出及一录音，如何建身份与关系？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。"
+        },
+        {
+          "caseId": "MU40",
+          "claim": "K16-CL-MU40@1",
+          "problem": "A符合谱面，B更合解释目标，真实性比较怎样组织？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP以羽管键琴/钢琴之争讨论音响、乐器、情境等真实性维度；题设A符合谱面、B更合解释目标，分维比较，不预设总排序。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "明确对象、立场、维度及争议",
+      "d4Targets": [
+        "K16.06.01.01",
+        "K16.06.02.01",
+        "K16.06.02.02",
+        "K16.06.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 41,
+        "row": "| K16.06 | A02 | P | 明确对象、立场、维度及争议 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU18@1",
+        "K16-CL-MU19@1",
+        "K16-CL-MU20@1",
+        "K16-CL-MU39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU18",
+          "claim": "K16-CL-MU18@1",
+          "problem": "copy thachin不同评价与SEP真实性维度如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。"
+        },
+        {
+          "caseId": "MU19",
+          "claim": "K16-CL-MU19@1",
+          "problem": "传统惯例A、作品明确要求B、演奏者选择C冲突，怎样区分？",
+          "reject": "不能作该推断。限定证据及正确处理：题设传统惯例A、作品明确要求B、演奏者艺术选择C；SEP讨论不同作品对乐器的要求不同，不能把一般习惯等同作品规范。"
+        },
+        {
+          "caseId": "MU20",
+          "claim": "K16-CL-MU20@1",
+          "problem": "同一改编被解释成学习借鉴或衍生性，如何保留两种解释？",
+          "reject": "不能作该推断。限定证据及正确处理：题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。"
+        },
+        {
+          "caseId": "MU39",
+          "claim": "K16-CL-MU39@1",
+          "problem": "同一作品两场演出及一录音，如何建身份与关系？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.06",
+      "ability": "A03",
+      "role": "S",
+      "task": "哲学文献检索，非审美自动打分",
+      "d4Targets": [
+        "K16.06.03.01",
+        "K16.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 42,
+        "row": "| K16.06 | A03 | S | 哲学文献检索，非审美自动打分 | [MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17)；[MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU39@1",
+        "K16-CL-MU40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU39",
+          "claim": "K16-CL-MU39@1",
+          "problem": "同一作品两场演出及一录音，如何建身份与关系？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。"
+        },
+        {
+          "caseId": "MU40",
+          "claim": "K16-CL-MU40@1",
+          "problem": "A符合谱面，B更合解释目标，真实性比较怎样组织？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP以羽管键琴/钢琴之争讨论音响、乐器、情境等真实性维度；题设A符合谱面、B更合解释目标，分维比较，不预设总排序。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.06",
+      "ability": "A04",
+      "role": "C",
+      "task": "解释及立场条件版本",
+      "d4Targets": [
+        "K16.06.01.01",
+        "K16.06.02.02",
+        "K16.06.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 43,
+        "row": "| K16.06 | A04 | C | 解释及立场条件版本 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU18@1",
+        "K16-CL-MU20@1",
+        "K16-CL-MU39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU18",
+          "claim": "K16-CL-MU18@1",
+          "problem": "copy thachin不同评价与SEP真实性维度如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。"
+        },
+        {
+          "caseId": "MU20",
+          "claim": "K16-CL-MU20@1",
+          "problem": "同一改编被解释成学习借鉴或衍生性，如何保留两种解释？",
+          "reject": "不能作该推断。限定证据及正确处理：题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。"
+        },
+        {
+          "caseId": "MU39",
+          "claim": "K16-CL-MU39@1",
+          "problem": "同一作品两场演出及一录音，如何建身份与关系？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "真实性维度/价值/规范分离",
+      "d4Targets": [
+        "K16.06.01.01",
+        "K16.06.02.01",
+        "K16.06.02.02",
+        "K16.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 44,
+        "row": "| K16.06 | A05 | P | 真实性维度/价值/规范分离 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU18@1",
+        "K16-CL-MU19@1",
+        "K16-CL-MU20@1",
+        "K16-CL-MU40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU18",
+          "claim": "K16-CL-MU18@1",
+          "problem": "copy thachin不同评价与SEP真实性维度如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。"
+        },
+        {
+          "caseId": "MU19",
+          "claim": "K16-CL-MU19@1",
+          "problem": "传统惯例A、作品明确要求B、演奏者选择C冲突，怎样区分？",
+          "reject": "不能作该推断。限定证据及正确处理：题设传统惯例A、作品明确要求B、演奏者艺术选择C；SEP讨论不同作品对乐器的要求不同，不能把一般习惯等同作品规范。"
+        },
+        {
+          "caseId": "MU20",
+          "claim": "K16-CL-MU20@1",
+          "problem": "同一改编被解释成学习借鉴或衍生性，如何保留两种解释？",
+          "reject": "不能作该推断。限定证据及正确处理：题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。"
+        },
+        {
+          "caseId": "MU40",
+          "claim": "K16-CL-MU40@1",
+          "problem": "A符合谱面，B更合解释目标，真实性比较怎样组织？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP以羽管键琴/钢琴之争讨论音响、乐器、情境等真实性维度；题设A符合谱面、B更合解释目标，分维比较，不预设总排序。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.06",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑论证/反例/立场记录",
+      "d4Targets": [
+        "K16.06.01.01",
+        "K16.06.02.02",
+        "K16.06.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 45,
+        "row": "| K16.06 | A06 | P | 可编辑论证/反例/立场记录 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU18@1",
+        "K16-CL-MU20@1",
+        "K16-CL-MU39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU18",
+          "claim": "K16-CL-MU18@1",
+          "problem": "copy thachin不同评价与SEP真实性维度如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。"
+        },
+        {
+          "caseId": "MU20",
+          "claim": "K16-CL-MU20@1",
+          "problem": "同一改编被解释成学习借鉴或衍生性，如何保留两种解释？",
+          "reject": "不能作该推断。限定证据及正确处理：题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。"
+        },
+        {
+          "caseId": "MU39",
+          "claim": "K16-CL-MU39@1",
+          "problem": "同一作品两场演出及一录音，如何建身份与关系？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "新证据与观点反例再审",
+      "d4Targets": [
+        "K16.06.01.01",
+        "K16.06.02.02",
+        "K16.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 46,
+        "row": "| K16.06 | A07 | P | 新证据与观点反例再审 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU18@1",
+        "K16-CL-MU20@1",
+        "K16-CL-MU40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU18",
+          "claim": "K16-CL-MU18@1",
+          "problem": "copy thachin不同评价与SEP真实性维度如何记录？",
+          "reject": "不能作该推断。限定证据及正确处理：Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。"
+        },
+        {
+          "caseId": "MU20",
+          "claim": "K16-CL-MU20@1",
+          "problem": "同一改编被解释成学习借鉴或衍生性，如何保留两种解释？",
+          "reject": "不能作该推断。限定证据及正确处理：题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。"
+        },
+        {
+          "caseId": "MU40",
+          "claim": "K16-CL-MU40@1",
+          "problem": "A符合谱面，B更合解释目标，真实性比较怎样组织？",
+          "reject": "不能作该推断。限定证据及正确处理：SEP以羽管键琴/钢琴之争讨论音响、乐器、情境等真实性维度；题设A符合谱面、B更合解释目标，分维比较，不预设总排序。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "本土概念及伦理",
+      "d4Targets": [
+        "K16.07.01.01",
+        "K16.07.01.02",
+        "K16.07.02.01",
+        "K16.07.02.02",
+        "K16.07.03.01",
+        "K16.07.03.02",
+        "K16.07.04.01",
+        "K16.07.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 47,
+        "row": "| K16.07 | A01 | P | 本土概念及伦理 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25)；[MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26)；[MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27)；[MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28)；[MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29)；[MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30)；[MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19)；[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU21@1",
+        "K16-CL-MU22@1",
+        "K16-CL-MU23@1",
+        "K16-CL-MU24@1",
+        "K16-CL-MU25@1",
+        "K16-CL-MU26@1",
+        "K16-CL-MU41@1",
+        "K16-CL-MU42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU21",
+          "claim": "K16-CL-MU21@1",
+          "problem": "原文把 Hnyìnloùn 用于竖琴调律，把 thachin gyi 用于曲种或传统。应如何保存？",
+          "reject": "不能；两者所指对象不同。"
+        },
+        {
+          "caseId": "MU22",
+          "claim": "K16-CL-MU22@1",
+          "problem": "S577用西方音名和偏移描述调律，S585提示athan语境依赖，应如何映射？",
+          "reject": "不能作该推断。限定证据及正确处理：S577以西方音名加偏移描述竖琴示例，固定音高乐器选用不同音；S585文字仅提示athan语义需按使用场合核。映射为近似表示不是原生概念等价。"
+        },
+        {
+          "caseId": "MU23",
+          "claim": "K16-CL-MU23@1",
+          "problem": "同琴师曲目和地区可异，最高G为记谱参考；Hnyìnloùn例E/B偏低56/62 cents，适用范围？",
+          "reject": "不能作该推断。限定证据及正确处理：S577明确同一演奏者不同曲目、不同演奏者和地区可异，所列最高G为记谱参考，实际可移；Hnyìnloùn例E约低56 cents、B约低62 cents仅该琴师示例。"
+        },
+        {
+          "caseId": "MU24",
+          "claim": "K16-CL-MU24@1",
+          "problem": "Hnyìnloùn、Aupyan、myìn zäìn等转写与未知历史转写T2，如何保存？",
+          "reject": "不能作该推断。限定证据及正确处理：保存来源拼写Hnyìnloùn、Aupyan、myìn zäìn等；对另一历史转写题设T2仅登记未证对应，不自动拼写合并。"
+        },
+        {
+          "caseId": "MU25",
+          "claim": "K16-CL-MU25@1",
+          "problem": "一次仪式可现场听，是否就可录制、复制或训练？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要是具名一次仪式研究；题设仪式音段R可现场听不代表可录、复制或训练；参与者/仪式材料与访问条件分开。"
+        },
+        {
+          "caseId": "MU26",
+          "claim": "K16-CL-MU26@1",
+          "problem": "社群A允许内部研究，目录公开录音受限，如何登记惯例和访问？",
+          "reject": "不能作该推断。限定证据及正确处理：题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。"
+        },
+        {
+          "caseId": "MU41",
+          "claim": "K16-CL-MU41@1",
+          "problem": "访谈同意研究、档案限阅，不含发布；新用途如何办理？",
+          "reject": "不能作该推断。限定证据及正确处理：题设访谈同意研究与档案限阅，不含发布；新用途需另与相关主体核，保留撤回或限制变更时间与影响。"
+        },
+        {
+          "caseId": "MU42",
+          "claim": "K16-CL-MU42@1",
+          "problem": "公开目录、受限音频与逐字稿，怎样提供最小公开元数据？",
+          "reject": "不能作该推断。限定证据及正确处理：题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "术语→来源/语境→同意/用途核查",
+      "d4Targets": [
+        "K16.07.01.01",
+        "K16.07.01.02",
+        "K16.07.03.01",
+        "K16.07.03.02",
+        "K16.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 48,
+        "row": "| K16.07 | A02 | P | 术语→来源/语境→同意/用途核查 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25)；[MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26)；[MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29)；[MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30)；[MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU21@1",
+        "K16-CL-MU22@1",
+        "K16-CL-MU25@1",
+        "K16-CL-MU26@1",
+        "K16-CL-MU41@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU21",
+          "claim": "K16-CL-MU21@1",
+          "problem": "原文把 Hnyìnloùn 用于竖琴调律，把 thachin gyi 用于曲种或传统。应如何保存？",
+          "reject": "不能；两者所指对象不同。"
+        },
+        {
+          "caseId": "MU22",
+          "claim": "K16-CL-MU22@1",
+          "problem": "S577用西方音名和偏移描述调律，S585提示athan语境依赖，应如何映射？",
+          "reject": "不能作该推断。限定证据及正确处理：S577以西方音名加偏移描述竖琴示例，固定音高乐器选用不同音；S585文字仅提示athan语义需按使用场合核。映射为近似表示不是原生概念等价。"
+        },
+        {
+          "caseId": "MU25",
+          "claim": "K16-CL-MU25@1",
+          "problem": "一次仪式可现场听，是否就可录制、复制或训练？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要是具名一次仪式研究；题设仪式音段R可现场听不代表可录、复制或训练；参与者/仪式材料与访问条件分开。"
+        },
+        {
+          "caseId": "MU26",
+          "claim": "K16-CL-MU26@1",
+          "problem": "社群A允许内部研究，目录公开录音受限，如何登记惯例和访问？",
+          "reject": "不能作该推断。限定证据及正确处理：题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。"
+        },
+        {
+          "caseId": "MU41",
+          "claim": "K16-CL-MU41@1",
+          "problem": "访谈同意研究、档案限阅，不含发布；新用途如何办理？",
+          "reject": "不能作该推断。限定证据及正确处理：题设访谈同意研究与档案限阅，不含发布；新用途需另与相关主体核，保留撤回或限制变更时间与影响。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.07",
+      "ability": "A03",
+      "role": "S",
+      "task": "来源/档案访问资格，K12执行",
+      "d4Targets": [
+        "K16.07.02.01",
+        "K16.07.03.02",
+        "K16.07.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 49,
+        "row": "| K16.07 | A03 | S | 来源/档案访问资格，K12执行 | [MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27)；[MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30)；[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU23@1",
+        "K16-CL-MU26@1",
+        "K16-CL-MU42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU23",
+          "claim": "K16-CL-MU23@1",
+          "problem": "同琴师曲目和地区可异，最高G为记谱参考；Hnyìnloùn例E/B偏低56/62 cents，适用范围？",
+          "reject": "不能作该推断。限定证据及正确处理：S577明确同一演奏者不同曲目、不同演奏者和地区可异，所列最高G为记谱参考，实际可移；Hnyìnloùn例E约低56 cents、B约低62 cents仅该琴师示例。"
+        },
+        {
+          "caseId": "MU26",
+          "claim": "K16-CL-MU26@1",
+          "problem": "社群A允许内部研究，目录公开录音受限，如何登记惯例和访问？",
+          "reject": "不能作该推断。限定证据及正确处理：题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。"
+        },
+        {
+          "caseId": "MU42",
+          "claim": "K16-CL-MU42@1",
+          "problem": "公开目录、受限音频与逐字稿，怎样提供最小公开元数据？",
+          "reject": "不能作该推断。限定证据及正确处理：题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.07",
+      "ability": "A04",
+      "role": "C",
+      "task": "许可与研究范围改变条件，K15主责",
+      "d4Targets": [
+        "K16.07.02.02",
+        "K16.07.03.02",
+        "K16.07.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 50,
+        "row": "| K16.07 | A04 | C | 许可与研究范围改变条件，K15主责 | [MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28)；[MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30)；[MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU24@1",
+        "K16-CL-MU26@1",
+        "K16-CL-MU41@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU24",
+          "claim": "K16-CL-MU24@1",
+          "problem": "Hnyìnloùn、Aupyan、myìn zäìn等转写与未知历史转写T2，如何保存？",
+          "reject": "不能作该推断。限定证据及正确处理：保存来源拼写Hnyìnloùn、Aupyan、myìn zäìn等；对另一历史转写题设T2仅登记未证对应，不自动拼写合并。"
+        },
+        {
+          "caseId": "MU26",
+          "claim": "K16-CL-MU26@1",
+          "problem": "社群A允许内部研究，目录公开录音受限，如何登记惯例和访问？",
+          "reject": "不能作该推断。限定证据及正确处理：题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。"
+        },
+        {
+          "caseId": "MU41",
+          "claim": "K16-CL-MU41@1",
+          "problem": "访谈同意研究、档案限阅，不含发布；新用途如何办理？",
+          "reject": "不能作该推断。限定证据及正确处理：题设访谈同意研究与档案限阅，不含发布；新用途需另与相关主体核，保留撤回或限制变更时间与影响。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "语义对应证据与访问限制",
+      "d4Targets": [
+        "K16.07.01.01",
+        "K16.07.01.02",
+        "K16.07.02.01",
+        "K16.07.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 51,
+        "row": "| K16.07 | A05 | P | 语义对应证据与访问限制 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25)；[MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26)；[MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27)；[MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU21@1",
+        "K16-CL-MU22@1",
+        "K16-CL-MU23@1",
+        "K16-CL-MU25@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU21",
+          "claim": "K16-CL-MU21@1",
+          "problem": "原文把 Hnyìnloùn 用于竖琴调律，把 thachin gyi 用于曲种或传统。应如何保存？",
+          "reject": "不能；两者所指对象不同。"
+        },
+        {
+          "caseId": "MU22",
+          "claim": "K16-CL-MU22@1",
+          "problem": "S577用西方音名和偏移描述调律，S585提示athan语境依赖，应如何映射？",
+          "reject": "不能作该推断。限定证据及正确处理：S577以西方音名加偏移描述竖琴示例，固定音高乐器选用不同音；S585文字仅提示athan语义需按使用场合核。映射为近似表示不是原生概念等价。"
+        },
+        {
+          "caseId": "MU23",
+          "claim": "K16-CL-MU23@1",
+          "problem": "同琴师曲目和地区可异，最高G为记谱参考；Hnyìnloùn例E/B偏低56/62 cents，适用范围？",
+          "reject": "不能作该推断。限定证据及正确处理：S577明确同一演奏者不同曲目、不同演奏者和地区可异，所列最高G为记谱参考，实际可移；Hnyìnloùn例E约低56 cents、B约低62 cents仅该琴师示例。"
+        },
+        {
+          "caseId": "MU25",
+          "claim": "K16-CL-MU25@1",
+          "problem": "一次仪式可现场听，是否就可录制、复制或训练？",
+          "reject": "不能作该推断。限定证据及正确处理：S580摘要是具名一次仪式研究；题设仪式音段R可现场听不代表可录、复制或训练；参与者/仪式材料与访问条件分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.07",
+      "ability": "A06",
+      "role": "P",
+      "task": "原转写/语境/受限字段记录",
+      "d4Targets": [
+        "K16.07.01.01",
+        "K16.07.02.02",
+        "K16.07.03.02",
+        "K16.07.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 52,
+        "row": "| K16.07 | A06 | P | 原转写/语境/受限字段记录 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25)；[MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28)；[MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30)；[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU21@1",
+        "K16-CL-MU24@1",
+        "K16-CL-MU26@1",
+        "K16-CL-MU42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU21",
+          "claim": "K16-CL-MU21@1",
+          "problem": "原文把 Hnyìnloùn 用于竖琴调律，把 thachin gyi 用于曲种或传统。应如何保存？",
+          "reject": "不能；两者所指对象不同。"
+        },
+        {
+          "caseId": "MU24",
+          "claim": "K16-CL-MU24@1",
+          "problem": "Hnyìnloùn、Aupyan、myìn zäìn等转写与未知历史转写T2，如何保存？",
+          "reject": "不能作该推断。限定证据及正确处理：保存来源拼写Hnyìnloùn、Aupyan、myìn zäìn等；对另一历史转写题设T2仅登记未证对应，不自动拼写合并。"
+        },
+        {
+          "caseId": "MU26",
+          "claim": "K16-CL-MU26@1",
+          "problem": "社群A允许内部研究，目录公开录音受限，如何登记惯例和访问？",
+          "reject": "不能作该推断。限定证据及正确处理：题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。"
+        },
+        {
+          "caseId": "MU42",
+          "claim": "K16-CL-MU42@1",
+          "problem": "公开目录、受限音频与逐字稿，怎样提供最小公开元数据？",
+          "reject": "不能作该推断。限定证据及正确处理：题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。"
+        }
+      ]
+    },
+    {
+      "d2": "K16.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "新用途/撤回/术语冲突暂停再核",
+      "d4Targets": [
+        "K16.07.02.02",
+        "K16.07.03.02",
+        "K16.07.04.01",
+        "K16.07.05.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "Knowledge responsibility only; no runtime or permission.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-capability-calibration.md",
+        "blob": "c4fcd56d523a06df7817be6591d3e518c220793f",
+        "line": 53,
+        "row": "| K16.07 | A07 | P | 新用途/撤回/术语冲突暂停再核 | [MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28)；[MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30)；[MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19)；[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K16-CL-MU24@1",
+        "K16-CL-MU26@1",
+        "K16-CL-MU41@1",
+        "K16-CL-MU42@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "MU24",
+          "claim": "K16-CL-MU24@1",
+          "problem": "Hnyìnloùn、Aupyan、myìn zäìn等转写与未知历史转写T2，如何保存？",
+          "reject": "不能作该推断。限定证据及正确处理：保存来源拼写Hnyìnloùn、Aupyan、myìn zäìn等；对另一历史转写题设T2仅登记未证对应，不自动拼写合并。"
+        },
+        {
+          "caseId": "MU26",
+          "claim": "K16-CL-MU26@1",
+          "problem": "社群A允许内部研究，目录公开录音受限，如何登记惯例和访问？",
+          "reject": "不能作该推断。限定证据及正确处理：题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。"
+        },
+        {
+          "caseId": "MU41",
+          "claim": "K16-CL-MU41@1",
+          "problem": "访谈同意研究、档案限阅，不含发布；新用途如何办理？",
+          "reject": "不能作该推断。限定证据及正确处理：题设访谈同意研究与档案限阅，不含发布；新用途需另与相关主体核，保留撤回或限制变更时间与影响。"
+        },
+        {
+          "caseId": "MU42",
+          "claim": "K16-CL-MU42@1",
+          "problem": "公开目录、受限音频与逐字稿，怎样提供最小公开元数据？",
+          "reject": "不能作该推断。限定证据及正确处理：题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。"
+        }
+      ]
+    }
+  ]
+}

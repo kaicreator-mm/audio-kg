@@ -1,0 +1,525 @@
+{
+  "status": "CONDITIONAL_DISCOVERY_ONLY",
+  "questions": [
+    {
+      "id": "CQ01",
+      "type": "S",
+      "question": "原生调律参考、映射损失交K01",
+      "scope": "原生调律参考、映射损失交K01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 50,
+        "row": "| CQ01 | S | 原生调律参考、映射损失交K01 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25)；[MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26)；[MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27)；[MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28) |"
+      }
+    },
+    {
+      "id": "CQ02",
+      "type": "S",
+      "question": "流派/原生调式语境，形式分析交K01",
+      "scope": "流派/原生调式语境，形式分析交K01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 51,
+        "row": "| CQ02 | S | 流派/原生调式语境，形式分析交K01 | [MU07/K16.02.03.01](musicology-r1-knowledge-cases.md#L11)；[MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12)；[MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26) |"
+      }
+    },
+    {
+      "id": "CQ03",
+      "type": "S",
+      "question": "历史编制与器物用途条件，配器交K03",
+      "scope": "历史编制与器物用途条件，配器交K03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 52,
+        "row": "| CQ03 | S | 历史编制与器物用途条件，配器交K03 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14)；[MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15)；[MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9) |"
+      }
+    },
+    {
+      "id": "CQ04",
+      "type": "S",
+      "question": "改编语义历史证据，具体音节对齐K13",
+      "scope": "改编语义历史证据，具体音节对齐K13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 53,
+        "row": "| CQ04 | S | 改编语义历史证据，具体音节对齐K13 | [MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13) |"
+      }
+    },
+    {
+      "id": "CQ05",
+      "type": "O",
+      "question": "声学生理主责K05/K07",
+      "scope": "声学生理主责K05/K07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 54,
+        "row": "| CQ05 | O | 声学生理主责K05/K07 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ06",
+      "type": "O",
+      "question": "音准检测、健康K05/K06/K07",
+      "scope": "音准检测、健康K05/K06/K07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 55,
+        "row": "| CQ06 | O | 音准检测、健康K05/K06/K07 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ07",
+      "type": "O",
+      "question": "基频谐波检测K07/K08",
+      "scope": "基频谐波检测K07/K08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 56,
+        "row": "| CQ07 | O | 基频谐波检测K07/K08 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ08",
+      "type": "O",
+      "question": "音频规范K08/K09",
+      "scope": "音频规范K08/K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 57,
+        "row": "| CQ08 | O | 音频规范K08/K09 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ09",
+      "type": "O",
+      "question": "生成模型K11/K12",
+      "scope": "生成模型K11/K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 58,
+        "row": "| CQ09 | O | 生成模型K11/K12 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ10",
+      "type": "O",
+      "question": "分离修复K08/K12",
+      "scope": "分离修复K08/K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 59,
+        "row": "| CQ10 | O | 分离修复K08/K12 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ11",
+      "type": "S",
+      "question": "文化解释与外部偏好不可混同；实际评价K10",
+      "scope": "文化解释与外部偏好不可混同；实际评价K10",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 60,
+        "row": "| CQ11 | S | 文化解释与外部偏好不可混同；实际评价K10 | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17)；[MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) |"
+      }
+    },
+    {
+      "id": "CQ12",
+      "type": "S",
+      "question": "copy thachin历史与当代授权分开，适配流程K13/K15",
+      "scope": "copy thachin历史与当代授权分开，适配流程K13/K15",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 61,
+        "row": "| CQ12 | S | copy thachin历史与当代授权分开，适配流程K13/K15 | [MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9)；[MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13)；[MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29) |"
+      }
+    },
+    {
+      "id": "CQ13",
+      "type": "D",
+      "question": "证据身份、日期、版本、争议及目录",
+      "scope": "证据身份、日期、版本、争议及目录",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 62,
+        "row": "| CQ13 | D | 证据身份、日期、版本、争议及目录 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5)；[MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6)；[MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) |"
+      }
+    },
+    {
+      "id": "CQ14",
+      "type": "S",
+      "question": "目录入口资格，工具版本能力K12",
+      "scope": "目录入口资格，工具版本能力K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 63,
+        "row": "| CQ14 | S | 目录入口资格，工具版本能力K12 | [MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      }
+    },
+    {
+      "id": "CQ15",
+      "type": "S",
+      "question": "传习/地域场合条件，教育流程K14",
+      "scope": "传习/地域场合条件，教育流程K14",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 64,
+        "row": "| CQ15 | S | 传习/地域场合条件，教育流程K14 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8)；[MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18) |"
+      }
+    },
+    {
+      "id": "CQ16",
+      "type": "O",
+      "question": "工程局部编辑K09/K12；K16研究记录非工程态",
+      "scope": "工程局部编辑K09/K12；K16研究记录非工程态",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 65,
+        "row": "| CQ16 | O | 工程局部编辑K09/K12；K16研究记录非工程态 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ17",
+      "type": "D",
+      "question": "史实/习惯/价值/统计及规范分层",
+      "scope": "史实/习惯/价值/统计及规范分层",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 66,
+        "row": "| CQ17 | D | 史实/习惯/价值/统计及规范分层 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12) |"
+      }
+    },
+    {
+      "id": "CQ18",
+      "type": "D",
+      "question": "缅甸具体术语、调律、曲目、表演与变体",
+      "scope": "缅甸具体术语、调律、曲目、表演与变体",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 67,
+        "row": "| CQ18 | D | 缅甸具体术语、调律、曲目、表演与变体 | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15)；[MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25)；[MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26)；[MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27)；[MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28)；[MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9) |"
+      }
+    },
+    {
+      "id": "CQ19",
+      "type": "S",
+      "question": "文化研究条件与拒绝，创作制作流程K02/K09/K13",
+      "scope": "文化研究条件与拒绝，创作制作流程K02/K09/K13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 68,
+        "row": "| CQ19 | S | 文化研究条件与拒绝，创作制作流程K02/K09/K13 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16)；[MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14)；[MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19) |"
+      }
+    },
+    {
+      "id": "CQ20",
+      "type": "S",
+      "question": "档案可访问、版本与许可另核，工具K12",
+      "scope": "档案可访问、版本与许可另核，工具K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 69,
+        "row": "| CQ20 | S | 档案可访问、版本与许可另核，工具K12 | [MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      }
+    },
+    {
+      "id": "CQ21",
+      "type": "S",
+      "question": "史料/解释修订条件，工程状态K09/K12",
+      "scope": "史料/解释修订条件，工程状态K09/K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 70,
+        "row": "| CQ21 | S | 史料/解释修订条件，工程状态K09/K12 | [MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6)；[MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6)；[MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) |"
+      }
+    },
+    {
+      "id": "CQ22",
+      "type": "S",
+      "question": "观点/真实性/偏好界限，协议K10",
+      "scope": "观点/真实性/偏好界限，协议K10",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 71,
+        "row": "| CQ22 | S | 观点/真实性/偏好界限，协议K10 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22)；[MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23)；[MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24)；[MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) |"
+      }
+    },
+    {
+      "id": "CQ23",
+      "type": "O",
+      "question": "可编辑音乐交付物K01/K08/K09/K12",
+      "scope": "可编辑音乐交付物K01/K08/K09/K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 72,
+        "row": "| CQ23 | O | 可编辑音乐交付物K01/K08/K09/K12 | 无K16主答案 |"
+      }
+    },
+    {
+      "id": "CQ24",
+      "type": "S",
+      "question": "文化证据错配/缺证回查，业务闭环其他域",
+      "scope": "文化证据错配/缺证回查，业务闭环其他域",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 73,
+        "row": "| CQ24 | S | 文化证据错配/缺证回查，业务闭环其他域 | [MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7)；[MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9)；[MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19) |"
+      }
+    },
+    {
+      "id": "CQ25",
+      "type": "D",
+      "question": "研究来源/输入/选择/证据与限定综合",
+      "scope": "研究来源/输入/选择/证据与限定综合",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 74,
+        "row": "| CQ25 | D | 研究来源/输入/选择/证据与限定综合 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5)；[MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5)；[MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14)；[MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) |"
+      }
+    },
+    {
+      "id": "CQ26",
+      "type": "D",
+      "question": "跨文化、时代、场合与原生体系边界",
+      "scope": "跨文化、时代、场合与原生体系边界",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 75,
+        "row": "| CQ26 | D | 跨文化、时代、场合与原生体系边界 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8)；[MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12)；[MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15)；[MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12)；[MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17) |"
+      }
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K16-01",
+      "question": "同期记录与口述可否互换？",
+      "caseIds": [
+        "MU01"
+      ],
+      "limits": "事件/记录时间独立",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 79,
+        "row": "| CQ-K16-01 | 同期记录与口述可否互换？ | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5) | 事件/记录时间独立 |"
+      }
+    },
+    {
+      "id": "CQ-K16-02",
+      "question": "相似性证明影响吗？",
+      "caseIds": [
+        "MU03"
+      ],
+      "limits": "接触、时序和竞争路径",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 80,
+        "row": "| CQ-K16-02 | 相似性证明影响吗？ | [MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7) | 接触、时序和竞争路径 |"
+      }
+    },
+    {
+      "id": "CQ-K16-03",
+      "question": "历史copy thachin能否授权今日改编？",
+      "caseIds": [
+        "MU09"
+      ],
+      "limits": "历史/评价/许可各层",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 81,
+        "row": "| CQ-K16-03 | 历史copy thachin能否授权今日改编？ | [MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13) | 历史/评价/许可各层 |"
+      }
+    },
+    {
+      "id": "CQ-K16-04",
+      "question": "曲种、乐器、场合是否同一？",
+      "caseIds": [
+        "MU11"
+      ],
+      "limits": "曲集/编制/用途分开",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 82,
+        "row": "| CQ-K16-04 | 曲种、乐器、场合是否同一？ | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15) | 曲集/编制/用途分开 |"
+      }
+    },
+    {
+      "id": "CQ-K16-05",
+      "question": "研究者意见等于参与者陈述吗？",
+      "caseIds": [
+        "MU13"
+      ],
+      "limits": "观点主体",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 83,
+        "row": "| CQ-K16-05 | 研究者意见等于参与者陈述吗？ | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17) | 观点主体 |"
+      }
+    },
+    {
+      "id": "CQ-K16-06",
+      "question": "语言音色可否推身份？",
+      "caseIds": [
+        "MU16"
+      ],
+      "limits": "不推断个人身份",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 84,
+        "row": "| CQ-K16-06 | 语言音色可否推身份？ | [MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20) | 不推断个人身份 |"
+      }
+    },
+    {
+      "id": "CQ-K16-07",
+      "question": "真实性等于质量吗？",
+      "caseIds": [
+        "MU18"
+      ],
+      "limits": "维度/主体/语境",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 85,
+        "row": "| CQ-K16-07 | 真实性等于质量吗？ | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22) | 维度/主体/语境 |"
+      }
+    },
+    {
+      "id": "CQ-K16-08",
+      "question": "近似十二平均律等于原生概念吗？",
+      "caseIds": [
+        "MU22"
+      ],
+      "limits": "语义证据独立",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 86,
+        "row": "| CQ-K16-08 | 近似十二平均律等于原生概念吗？ | [MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26) | 语义证据独立 |"
+      }
+    },
+    {
+      "id": "CQ-K16-09",
+      "question": "参考G是否固定，偏移是否通用？",
+      "caseIds": [
+        "MU23"
+      ],
+      "limits": "参考、琴师、曲目",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 87,
+        "row": "| CQ-K16-09 | 参考G是否固定，偏移是否通用？ | [MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27) | 参考、琴师、曲目 |"
+      }
+    },
+    {
+      "id": "CQ-K16-10",
+      "question": "13弦与16弦必冲突吗？",
+      "caseIds": [
+        "MU31"
+      ],
+      "limits": "器物范围与年代",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 88,
+        "row": "| CQ-K16-10 | 13弦与16弦必冲突吗？ | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9) | 器物范围与年代 |"
+      }
+    },
+    {
+      "id": "CQ-K16-11",
+      "question": "60/60样本说明什么？",
+      "caseIds": [
+        "MU34"
+      ],
+      "limits": "观察样本非每个个体",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 89,
+        "row": "| CQ-K16-11 | 60/60样本说明什么？ | [MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12) | 观察样本非每个个体 |"
+      }
+    },
+    {
+      "id": "CQ-K16-12",
+      "question": "目录公开是否等于媒体可重用？",
+      "caseIds": [
+        "MU42"
+      ],
+      "limits": "独立访问/许可",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 90,
+        "row": "| CQ-K16-12 | 目录公开是否等于媒体可重用？ | [MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) | 独立访问/许可 |"
+      }
+    }
+  ]
+}

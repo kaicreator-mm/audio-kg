@@ -1,0 +1,81 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+  "cases": [
+    {
+      "caseId": "C1 保护字段不变，人声[10,71,72,40]，目标T1",
+      "stage": "C1 保护字段不变，人声[10,71,72,40]，目标T1",
+      "conditions": "有限对象通过",
+      "rejectOrStop": "保留候选；真实权利/实际版本/资源/独立质量仍UNKNOWN，不得正式执行或交付",
+      "entryLinks": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 16,
+        "row": "| C1 保护字段不变，人声[10,71,72,40]，目标T1 | 有限对象通过 | 保留候选；真实权利/实际版本/资源/独立质量仍UNKNOWN，不得正式执行或交付 |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "C2 第二音改65，其余同C1",
+      "stage": "C2 第二音改65，其余同C1",
+      "conditions": "旋律保护失败",
+      "rejectOrStop": "拒绝",
+      "entryLinks": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 17,
+        "row": "| C2 第二音改65，其余同C1 | 旋律保护失败 | 拒绝 |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "C3 词顺序a/c/b/d，其余同C1",
+      "stage": "C3 词顺序a/c/b/d，其余同C1",
+      "conditions": "词序保护失败",
+      "rejectOrStop": "拒绝",
+      "entryLinks": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 18,
+        "row": "| C3 词顺序a/c/b/d，其余同C1 | 词序保护失败 | 拒绝 |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "C4 伴奏改[1,2,4,4]，其余同C1",
+      "stage": "C4 伴奏改[1,2,4,4]，其余同C1",
+      "conditions": "伴奏保护失败",
+      "rejectOrStop": "拒绝",
+      "entryLinks": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 19,
+        "row": "| C4 伴奏改[1,2,4,4]，其余同C1 | 伴奏保护失败 | 拒绝 |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    },
+    {
+      "caseId": "C5 人声[11,71,72,40]，其余同C1",
+      "stage": "C5 人声[11,71,72,40]，其余同C1",
+      "conditions": "区域外保护失败",
+      "rejectOrStop": "拒绝",
+      "entryLinks": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 20,
+        "row": "| C5 人声[11,71,72,40]，其余同C1 | 区域外保护失败 | 拒绝 |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+    }
+  ],
+  "history": []
+}

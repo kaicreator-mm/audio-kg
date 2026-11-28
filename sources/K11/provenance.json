@@ -1,0 +1,1805 @@
+{
+  "format": "audio-kg-K11-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S064",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 26,
+        "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+      },
+      "d4": "K11.07.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-vocal-digital.md",
+        "blob": "73ac66934ae016a125ecc6302fa7fa3875faab16",
+        "line": 26,
+        "row": "| S064 | SigSep MUSDB18 https://sigsep.github.io/datasets/musdb.html MUSDB18-HQ / SiSEC 2018 | K08.08 K11/K10 | READ_LOCATOR；数据集版本与可比性，未下载，许可和评分协议待核 |"
+      },
+      "uri": "https://sigsep.github.io/datasets/musdb.html",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S484",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "d4": "K11.07.02.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "uri": "https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S484",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "d4": "K11.10.01.03",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "uri": "https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S484",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "d4": "K11.07.02.04",
+      "formalUse": "REUSE_EXACT_CANONICAL_PROVIDER",
+      "provider": "K08",
+      "canonicalAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-digital-audio-r2.md",
+        "blob": "36d8c4ad25daad34d591f3d031a0bc95df588998",
+        "line": 10,
+        "row": "| S484 | [Le Roux等 ICASSP2019 SDR—Half-Baked or Well Done?](https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf) §2.1–2.3 Eq1–5，实际截图零基1 | READ_LOCATOR；参考投影SI-SDR及不惩罚尺度的限制，BSS_eval不同版本含不同容许变换；本文语音任务，不推广具体排名、评价协议K10。 |"
+      },
+      "uri": "https://www.jonathanleroux.org/pdf/LeRoux2019ICASSP05sdr.pdf",
+      "localUriLinkPresent": true
+    },
+    {
+      "sourceId": "S112",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 11,
+        "row": "| S112 | MuseCoco [arXiv:2306.00110](https://arxiv.org/abs/2306.00110) Abstract | K11.04 | ABSTRACT_READ；文本→音乐属性→符号序列；具体控制精度为作者实验 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "arXiv:2306.00110",
+          "uri": "https://arxiv.org/abs/2306.00110"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 8,
+            "row": "| K11.02.01.03 | [AM04/K11.02.01.03](ai-models-r1-knowledge-cases.md#L8) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13)；[S127](../../research/source-qualification-ai-orchestration.md#L26) | 原创note e1 pitch MIDI69、beat0、duration2、velocity80，120四分音符/分时长1s；改pitch72不必改其它字段，渲染依赖音色/演奏/tempo。 |"
+          }
+        },
+        {
+          "d4": "K11.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 14,
+            "row": "| K11.04.01.03 | [AM10/K11.04.01.03](ai-models-r1-knowledge-cases.md#L14) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13) | 合成任务指定C4–G4、4/4、一小节4拍；事件(60,0,1),(64,1,1),(67,2,2)满足音域和覆盖，另pitch69超范围应拒；条件文本仅请求，输出要复核。 |"
+          }
+        },
+        {
+          "d4": "K11.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 16,
+            "row": "| K11.04.03.03 | [AM12/K11.04.03.03](ai-models-r1-knowledge-cases.md#L16) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S127](../../research/source-qualification-ai-orchestration.md#L26)；[S128](../../research/source-qualification-ai-orchestration.md#L27) | 同一符号片段分别渲染不同音色，两个波形可不同但事件相同；保留符号版本及renderer/控制条件，音频输出不保证可逆。 |"
+          }
+        },
+        {
+          "d4": "K11.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 38,
+            "row": "| K11.02.01.04 | [AM34/K11.02.01.04](ai-models-r2-knowledge-cases.md#L22) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13) | 两个音符分别beat0持续1与beat1持续1，tempo前1拍120后1拍60，总1.5s；统一乘.5会少.5s。 |"
+          }
+        },
+        {
+          "d4": "K11.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 44,
+            "row": "| K11.04.01.04 | [AM40/K11.04.01.04](ai-models-r2-knowledge-cases.md#L28) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13) | 4/4的符号任务要求每拍一事件，音高集合60/64/67；候选60,64,67,60合法，候选60,65,67,60违反集合，均不评价艺术价值。 |"
+          }
+        },
+        {
+          "d4": "K11.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 46,
+            "row": "| K11.04.03.04 | [AM42/K11.04.03.04](ai-models-r2-knowledge-cases.md#L30) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S112](../../research/source-qualification-ai-orchestration.md#L11) | 源符号e1含力度80、e2含力度60及两个乐器；导出只保留音高和时值后即使听感相近也丢失控制字段。 |"
+          }
+        }
+      ],
+      "scope": "| S112 | MuseCoco [arXiv:2306.00110](https://arxiv.org/abs/2306.00110) Abstract | K11.04 | ABSTRACT_READ；文本→音乐属性→符号序列；具体控制精度为作者实验 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S116",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 15,
+        "row": "| S116 | Stable Audio 3 [arXiv:2605.17991v1](https://arxiv.org/abs/2605.17991v1) Abstract | K11.01–03/05/09 | ABSTRACT_READ；可变长音频latent diffusion、inpainting与语义声学autoencoder；发布范围、资源、许可另核 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "arXiv:2605.17991v1",
+          "uri": "https://arxiv.org/abs/2605.17991v1"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 19,
+            "row": "| K11.05.03.03 | [AM15/K11.05.03.03](ai-models-r1-knowledge-cases.md#L19) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S116](../../research/source-qualification-ai-orchestration.md#L15) | 局部mask={1,2}原合成向量[1,2,3,4]，候选[1,7,8,4]保外，另一[.9,7,8,4]越界；latent mask并不保证解码波形保外；cover、续写、重绘和全曲再生目标不同。 |"
+          }
+        }
+      ],
+      "scope": "| S116 | Stable Audio 3 [arXiv:2605.17991v1](https://arxiv.org/abs/2605.17991v1) Abstract | K11.01–03/05/09 | ABSTRACT_READ；可变长音频latent diffusion、inpainting与语义声学autoencoder；发布范围、资源、许可另核 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S118",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 17,
+        "row": "| S118 | HT Demucs [arXiv:2211.08553v1](https://arxiv.org/abs/2211.08553v1) Abstract | K11.07/10 | ABSTRACT_READ；时间/频谱混合网络，作者报告额外训练数据改变结果；不混比训练条件 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "arXiv:2211.08553v1",
+          "uri": "https://arxiv.org/abs/2211.08553v1"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.07.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 24,
+            "row": "| K11.07.02.03 | [AM20/K11.07.02.03](ai-models-r1-knowledge-cases.md#L24) | [S118](../../research/source-qualification-ai-orchestration.md#L17)；[S064](../../research/source-qualification-vocal-digital.md#L26)；[S484](../../research/source-qualification-digital-audio-r2.md#L10) | 参考人声v=[1,0]、伴奏b=[0,1]，混合[1,1]，估计人声[.8,.1]含目标衰减及串音；模型输出不等原始录音。 |"
+          }
+        },
+        {
+          "d4": "K11.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 25,
+            "row": "| K11.07.03.03 | [AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25) | [S529](../../research/source-qualification-ai-models-r1.md#L11)；[S118](../../research/source-qualification-ai-orchestration.md#L17) | 两阶段A分离→B转换，保留输入x、分离s、转换y及版本；若s已损目标，y失真可能继承或新生；有授权干净参考时做隔离对照，必要时重录或停止。 |"
+          }
+        },
+        {
+          "d4": "K11.10.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 32,
+            "row": "| K11.10.01.03 | [AM28/K11.10.01.03](ai-models-r1-knowledge-cases.md#L32) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S118](../../research/source-qualification-ai-orchestration.md#L17)；[S484](../../research/source-qualification-digital-audio-r2.md#L10) | 题设同数据同协议两模型技术指标A8/B9才可作该维度比较；不同参考、训练额外数据、任务、指标定义不能直接排榜。 |"
+          }
+        },
+        {
+          "d4": "K11.07.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 54,
+            "row": "| K11.07.02.04 | [AM50/K11.07.02.04](ai-models-r2-knowledge-cases.md#L38) | [S118](../../research/source-qualification-ai-orchestration.md#L17)；[S484](../../research/source-qualification-digital-audio-r2.md#L10) | 原v=[1,0],b=[0,1]，估计v=[.8,.2],b=[.2,.8]，相加等于混合[1,1]仍两轨有串音与衰减。 |"
+          }
+        },
+        {
+          "d4": "K11.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 55,
+            "row": "| K11.07.03.04 | [AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39) | [S529](../../research/source-qualification-ai-models-r1.md#L11)；[S118](../../research/source-qualification-ai-orchestration.md#L17) | 两阶段输入x→分离s→转换y，s版本S1更换S2后y及评价E1依赖失效；未改变授权的原始x不覆盖。 |"
+          }
+        }
+      ],
+      "scope": "| S118 | HT Demucs [arXiv:2211.08553v1](https://arxiv.org/abs/2211.08553v1) Abstract | K11.07/10 | ABSTRACT_READ；时间/频谱混合网络，作者报告额外训练数据改变结果；不混比训练条件 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S121",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 20,
+        "row": "| S121 | Music Flamingo [arXiv:2511.10289](https://arxiv.org/abs/2511.10289) Abstract | K11.08/10、K10引用 | ABSTRACT_READ；音乐理解与数据、后训练和奖励研究；不视为全文化审美真值或音乐生成能力 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "arXiv:2511.10289",
+          "uri": "https://arxiv.org/abs/2511.10289"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 28,
+            "row": "| K11.08.03.03 | [AM24/K11.08.03.03](ai-models-r1-knowledge-cases.md#L28) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S533](../../research/source-qualification-ai-models-r1.md#L15)；[S121](../../research/source-qualification-ai-orchestration.md#L20) | 题设代理奖励A .9/B .8而独立人类表达量规A6/B8，代理与目标冲突；蒸馏教师→学生和奖励优化是不同训练目标，减少采样步需验证质量。 |"
+          }
+        }
+      ],
+      "scope": "| S121 | Music Flamingo [arXiv:2511.10289](https://arxiv.org/abs/2511.10289) Abstract | K11.08/10、K10引用 | ABSTRACT_READ；音乐理解与数据、后训练和奖励研究；不视为全文化审美真值或音乐生成能力 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S123",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 22,
+        "row": "| S123 | PyTorch 2.13 [Reproducibility](https://docs.pytorch.org/docs/2.13/notes/randomness.html) intro / warning | K11.09 K12.09 | READ_LOCATOR；不同版本、平台和设备不保证完全复现；无具体音乐模型硬件测试 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Reproducibility",
+          "uri": "https://docs.pytorch.org/docs/2.13/notes/randomness.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.09.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 29,
+            "row": "| K11.09.01.03 | [AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S123](../../research/source-qualification-ai-orchestration.md#L22)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 假设3B参数FP16权重原始预算6GB十进制，另KV/激活/codec/条件/allocator及并发开销；8GB显存不能单凭6GB判断可运行，作者不同GPU速度不可迁移。 |"
+          }
+        },
+        {
+          "d4": "K11.09.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 30,
+            "row": "| K11.09.02.03 | [AM26/K11.09.02.03](ai-models-r1-knowledge-cases.md#L30) | [S123](../../research/source-qualification-ai-orchestration.md#L22)；[S523](../../research/source-qualification-ai-models-r1.md#L5) | 同seed、不同checkpoint/tokenizer/renderer/采样温度或设备可能不同；记录全部身份、软件与随机源，复现标准可为容差/指标而非逐位。 |"
+          }
+        },
+        {
+          "d4": "K11.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 31,
+            "row": "| K11.09.03.03 | [AM27/K11.09.03.03](ai-models-r1-knowledge-cases.md#L31) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S123](../../research/source-qualification-ai-orchestration.md#L22) | 题设OOM候选改30s→15s或改精度，改变任务/质量条件须另建候选和报告；超时未知输出不可直接重试覆盖，损坏产物与低质量分开。 |"
+          }
+        },
+        {
+          "d4": "K11.09.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 59,
+            "row": "| K11.09.01.04 | [AM55/K11.09.01.04](ai-models-r2-knowledge-cases.md#L43) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S123](../../research/source-qualification-ai-orchestration.md#L22) | 假设1B权重16bit为2GB；标准MHA式示意KV=2×层24×序列1000×头8×维64×2byte=49,152,000B/样本；batch2翻倍，实际GQA/cache/allocator另核。 |"
+          }
+        },
+        {
+          "d4": "K11.09.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 60,
+            "row": "| K11.09.02.04 | [AM56/K11.09.02.04](ai-models-r2-knowledge-cases.md#L44) | [S123](../../research/source-qualification-ai-orchestration.md#L22)；[S523](../../research/source-qualification-ai-models-r1.md#L5) | 同seed42但temperature0.7与1.0为不同实验；条件ID、代码/权重/tokenizer、采样器或设备变化也需要新运行身份。 |"
+          }
+        },
+        {
+          "d4": "K11.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 61,
+            "row": "| K11.09.03.04 | [AM57/K11.09.03.04](ai-models-r2-knowledge-cases.md#L45) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S123](../../research/source-qualification-ai-orchestration.md#L22) | 题设job J1超时，产物状态UNKNOWN；回读发现Y1完整但未评价，不能盲重提；若无产物仍需核是否可安全重试。 |"
+          }
+        }
+      ],
+      "scope": "| S123 | PyTorch 2.13 [Reproducibility](https://docs.pytorch.org/docs/2.13/notes/randomness.html) intro / warning | K11.09 K12.09 | READ_LOCATOR；不同版本、平台和设备不保证完全复现；无具体音乐模型硬件测试 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S124",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 23,
+        "row": "| S124 | [facebook/musicgen-melody](https://huggingface.co/facebook/musicgen-melody) Model card / Intended use / Limitations and biases / License metadata | K11.01/05/10 K12.05/09 | READ_LOCATOR；模型卡标记CC-BY-NC-4.0、旋律条件、非真实歌声、英文描述和文化限制；卡片未固定revision，许可正文及权重身份待验 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "facebook/musicgen-melody",
+          "uri": "https://huggingface.co/facebook/musicgen-melody"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 7,
+            "row": "| K11.01.03.03 | [AM03/K11.01.03.03](ai-models-r1-knowledge-cases.md#L7) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S125](../../research/source-qualification-ai-orchestration.md#L24)；[S124](../../research/source-qualification-ai-orchestration.md#L23) | 假设100个样本，语言A80/B20，过滤后A72/B8，B占比20%→10%；记录选择偏差和每项作品/录音/表演/用途授权，公开下载不等训练许可。 |"
+          }
+        },
+        {
+          "d4": "K11.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 17,
+            "row": "| K11.05.01.03 | [AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17) | [S124](../../research/source-qualification-ai-orchestration.md#L23)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 任务要求歌词w1/w2、旋律、伴奏和时长；S124特定melody模型卡仅候选文本/旋律且非真实歌词演唱，YuE/ACE论文的歌声/条件是另一证据类别；须实际版本测试才准入。 |"
+          }
+        }
+      ],
+      "scope": "| S124 | [facebook/musicgen-melody](https://huggingface.co/facebook/musicgen-melody) Model card / Intended use / Limitations and biases / License metadata | K11.01/05/10 K12.05/09 | READ_LOCATOR；模型卡标记CC-BY-NC-4.0、旋律条件、非真实歌声、英文描述和文化限制；卡片未固定revision，许可正文及权重身份待验 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S125",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 24,
+        "row": "| S125 | Stable Audio Open [arXiv:2407.14358](https://arxiv.org/abs/2407.14358) Abstract/§1 | K11.01/02；音频表征参考 | READ_LOCATOR；开权重音频生成和训练数据许可披露；权重许可仍须核验；不证明符号乐谱生成 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "arXiv:2407.14358",
+          "uri": "https://arxiv.org/abs/2407.14358"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 7,
+            "row": "| K11.01.03.03 | [AM03/K11.01.03.03](ai-models-r1-knowledge-cases.md#L7) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S125](../../research/source-qualification-ai-orchestration.md#L24)；[S124](../../research/source-qualification-ai-orchestration.md#L23) | 假设100个样本，语言A80/B20，过滤后A72/B8，B占比20%→10%；记录选择偏差和每项作品/录音/表演/用途授权，公开下载不等训练许可。 |"
+          }
+        }
+      ],
+      "scope": "| S125 | Stable Audio Open [arXiv:2407.14358](https://arxiv.org/abs/2407.14358) Abstract/§1 | K11.01/02；音频表征参考 | READ_LOCATOR；开权重音频生成和训练数据许可披露；权重许可仍须核验；不证明符号乐谱生成 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S127",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 26,
+        "row": "| S127 | MIDI Association [Standard MIDI Files](https://midi.org/standard-midi-files) overview / specification index | K12.04 | READ_LOCATOR；带时间戳MIDI事件及轨道、tempo信息；未读PDF正文 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Standard MIDI Files",
+          "uri": "https://midi.org/standard-midi-files"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 8,
+            "row": "| K11.02.01.03 | [AM04/K11.02.01.03](ai-models-r1-knowledge-cases.md#L8) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13)；[S127](../../research/source-qualification-ai-orchestration.md#L26) | 原创note e1 pitch MIDI69、beat0、duration2、velocity80，120四分音符/分时长1s；改pitch72不必改其它字段，渲染依赖音色/演奏/tempo。 |"
+          }
+        },
+        {
+          "d4": "K11.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 16,
+            "row": "| K11.04.03.03 | [AM12/K11.04.03.03](ai-models-r1-knowledge-cases.md#L16) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S127](../../research/source-qualification-ai-orchestration.md#L26)；[S128](../../research/source-qualification-ai-orchestration.md#L27) | 同一符号片段分别渲染不同音色，两个波形可不同但事件相同；保留符号版本及renderer/控制条件，音频输出不保证可逆。 |"
+          }
+        }
+      ],
+      "scope": "| S127 | MIDI Association [Standard MIDI Files](https://midi.org/standard-midi-files) overview / specification index | K12.04 | READ_LOCATOR；带时间戳MIDI事件及轨道、tempo信息；未读PDF正文 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S128",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-orchestration.md",
+        "blob": "dc5a5152e6c3117461f69ad38922a0263173253b",
+        "line": 27,
+        "row": "| S128 | MusicXML 4.0 [Final Community Group Report](https://www.w3.org/2021/06/musicxml40/) intro/index | K12.04/08 | READ_LOCATOR；2021-06-01 版本及schema入口；具体交换语义引用S075/S076/S078，不宣称所有宿主支持 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Final Community Group Report",
+          "uri": "https://www.w3.org/2021/06/musicxml40/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 16,
+            "row": "| K11.04.03.03 | [AM12/K11.04.03.03](ai-models-r1-knowledge-cases.md#L16) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S127](../../research/source-qualification-ai-orchestration.md#L26)；[S128](../../research/source-qualification-ai-orchestration.md#L27) | 同一符号片段分别渲染不同音色，两个波形可不同但事件相同；保留符号版本及renderer/控制条件，音频输出不保证可逆。 |"
+          }
+        }
+      ],
+      "scope": "| S128 | MusicXML 4.0 [Final Community Group Report](https://www.w3.org/2021/06/musicxml40/) intro/index | K12.04/08 | READ_LOCATOR；2021-06-01 版本及schema入口；具体交换语义引用S075/S076/S078，不宣称所有宿主支持 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S523",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 5,
+        "row": "| S523 | [MusicGen 2306.05284v3](https://arxiv.org/pdf/2306.05284v3) 实际截图零基2/3/4（印刷3/4/5）§2.1–2.4/3.1–3.2 | READ_LOCATOR；RVQ、码本间依赖/交错、文本及chroma条件、特定32kHz mono stride640/50Hz/4×2048码本；作者训练/测试条件非所有版本或实际速度。HTML访问失败，PDF补证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "MusicGen 2306.05284v3",
+          "uri": "https://arxiv.org/pdf/2306.05284v3"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.01.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 5,
+            "row": "| K11.01.01.03 | [AM01/K11.01.01.03](ai-models-r1-knowledge-cases.md#L5) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 合成语料work W1、recording R1、源文件F1和转码F2 hash不同但同源；片段和派生标签继承group G1，训练/验证/测试按预设隔离目标分组。 |"
+          }
+        },
+        {
+          "d4": "K11.01.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 7,
+            "row": "| K11.01.03.03 | [AM03/K11.01.03.03](ai-models-r1-knowledge-cases.md#L7) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S125](../../research/source-qualification-ai-orchestration.md#L24)；[S124](../../research/source-qualification-ai-orchestration.md#L23) | 假设100个样本，语言A80/B20，过滤后A72/B8，B占比20%→10%；记录选择偏差和每项作品/录音/表演/用途授权，公开下载不等训练许可。 |"
+          }
+        },
+        {
+          "d4": "K11.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 9,
+            "row": "| K11.02.02.03 | [AM05/K11.02.02.03](ai-models-r1-knowledge-cases.md#L9) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S524](../../research/source-qualification-ai-models-r1.md#L6) | 特定论文mono32k stride640得50帧/s、四码本每2048项11bit，固定长度索引50×4×11=2200bit/s，不含封装/熵编码/附加信息；30s1500帧6000索引。 有限输出重建反例：参考[.4,.8]，固定解码器g(z)=[z,2z]，z=0输出平方误差和.8，z=.5得.05；若换h(z)=[z,-2z]，z=.5误差和3.25。相同latent/索引不等输出；源/解码器/时钟/通道必须匹配，不推感知。 |"
+          }
+        },
+        {
+          "d4": "K11.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 10,
+            "row": "| K11.02.03.03 | [AM06/K11.02.03.03](ai-models-r1-knowledge-cases.md#L10) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S524](../../research/source-qualification-ai-models-r1.md#L6) | 题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。 |"
+          }
+        },
+        {
+          "d4": "K11.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 11,
+            "row": "| K11.03.01.03 | [AM07/K11.03.01.03](ai-models-r1-knowledge-cases.md#L11) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 三帧四码本共12索引；全展平12个预测位置，理想并行每帧1步共3步但条件依赖不同；delay交错需另记起止padding/模式，不能以索引数当实际步数。 |"
+          }
+        },
+        {
+          "d4": "K11.04.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 16,
+            "row": "| K11.04.03.03 | [AM12/K11.04.03.03](ai-models-r1-knowledge-cases.md#L16) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S127](../../research/source-qualification-ai-orchestration.md#L26)；[S128](../../research/source-qualification-ai-orchestration.md#L27) | 同一符号片段分别渲染不同音色，两个波形可不同但事件相同；保留符号版本及renderer/控制条件，音频输出不保证可逆。 |"
+          }
+        },
+        {
+          "d4": "K11.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 17,
+            "row": "| K11.05.01.03 | [AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17) | [S124](../../research/source-qualification-ai-orchestration.md#L23)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 任务要求歌词w1/w2、旋律、伴奏和时长；S124特定melody模型卡仅候选文本/旋律且非真实歌词演唱，YuE/ACE论文的歌声/条件是另一证据类别；须实际版本测试才准入。 |"
+          }
+        },
+        {
+          "d4": "K11.09.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 29,
+            "row": "| K11.09.01.03 | [AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S123](../../research/source-qualification-ai-orchestration.md#L22)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 假设3B参数FP16权重原始预算6GB十进制，另KV/激活/codec/条件/allocator及并发开销；8GB显存不能单凭6GB判断可运行，作者不同GPU速度不可迁移。 |"
+          }
+        },
+        {
+          "d4": "K11.09.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 30,
+            "row": "| K11.09.02.03 | [AM26/K11.09.02.03](ai-models-r1-knowledge-cases.md#L30) | [S123](../../research/source-qualification-ai-orchestration.md#L22)；[S523](../../research/source-qualification-ai-models-r1.md#L5) | 同seed、不同checkpoint/tokenizer/renderer/采样温度或设备可能不同；记录全部身份、软件与随机源，复现标准可为容差/指标而非逐位。 |"
+          }
+        },
+        {
+          "d4": "K11.10.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 32,
+            "row": "| K11.10.01.03 | [AM28/K11.10.01.03](ai-models-r1-knowledge-cases.md#L32) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S118](../../research/source-qualification-ai-orchestration.md#L17)；[S484](../../research/source-qualification-digital-audio-r2.md#L10) | 题设同数据同协议两模型技术指标A8/B9才可作该维度比较；不同参考、训练额外数据、任务、指标定义不能直接排榜。 |"
+          }
+        },
+        {
+          "d4": "K11.10.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 33,
+            "row": "| K11.10.02.03 | [AM29/K11.10.02.03](ai-models-r1-knowledge-cases.md#L33) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 合成train s1与test s2 hash不同但同work/recording G1，若目标未见作品则失败；若目标未见歌手需额外group singer，未见语言独立分层。 |"
+          }
+        },
+        {
+          "d4": "K11.10.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 34,
+            "row": "| K11.10.03.03 | [AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9)；[S534](../../research/source-qualification-ai-models-r1.md#L16) | 论文、模型卡、源码、权重hash、实际运行和独立评价是不同证据；S117已撤回，不作有效能力证据；更新checkpoint或接口使旧报告适用性待核。 |"
+          }
+        },
+        {
+          "d4": "K11.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 35,
+            "row": "| K11.01.01.04 | [AM31/K11.01.01.04](ai-models-r2-knowledge-cases.md#L19) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 将同一作品的两个录音分别登记 W1/R1、W1/R2，改编作品 W2 声明派生 W1；未见作品协议按 W1 派生簇隔离，未见录音协议才可区分 R1/R2。 |"
+          }
+        },
+        {
+          "d4": "K11.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 37,
+            "row": "| K11.01.03.04 | [AM33/K11.01.03.04](ai-models-r2-knowledge-cases.md#L21) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 虚构训练集A类90/100通过筛选、B类10/100通过；保留率90%/10%，过滤后占比90%/10%，不等原始分布50%/50%。 |"
+          }
+        },
+        {
+          "d4": "K11.02.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 39,
+            "row": "| K11.02.02.04 | [AM35/K11.02.02.04](ai-models-r2-knowledge-cases.md#L23) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S524](../../research/source-qualification-ai-models-r1.md#L6) | 题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。 |"
+          }
+        },
+        {
+          "d4": "K11.02.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 40,
+            "row": "| K11.02.03.04 | [AM36/K11.02.03.04](ai-models-r2-knowledge-cases.md#L24) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 两个候选共享节拍格与音级C，但MIDI60与72及不同音色；符号音高条件可区分八度，chroma条件不能单独约束。 |"
+          }
+        },
+        {
+          "d4": "K11.03.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 41,
+            "row": "| K11.03.01.04 | [AM37/K11.03.01.04](ai-models-r2-knowledge-cases.md#L25) | [S523](../../research/source-qualification-ai-models-r1.md#L5) | 自建3帧、4码本，delay[q]=q，位置t+q覆盖0..5共6列，12有效索引，24网格位含12空位；另计初始符号和尾处理。 |"
+          }
+        },
+        {
+          "d4": "K11.04.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 46,
+            "row": "| K11.04.03.04 | [AM42/K11.04.03.04](ai-models-r2-knowledge-cases.md#L30) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S112](../../research/source-qualification-ai-orchestration.md#L11) | 源符号e1含力度80、e2含力度60及两个乐器；导出只保留音高和时值后即使听感相近也丢失控制字段。 |"
+          }
+        },
+        {
+          "d4": "K11.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 47,
+            "row": "| K11.05.01.04 | [AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 任务矩阵要求歌词、指定旋律、独立伴奏、局部改词。仅文本+chroma报告的候选不足；报告含分轨或重绘的候选也要查实际版本与各项保留条件。 |"
+          }
+        },
+        {
+          "d4": "K11.09.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 59,
+            "row": "| K11.09.01.04 | [AM55/K11.09.01.04](ai-models-r2-knowledge-cases.md#L43) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S123](../../research/source-qualification-ai-orchestration.md#L22) | 假设1B权重16bit为2GB；标准MHA式示意KV=2×层24×序列1000×头8×维64×2byte=49,152,000B/样本；batch2翻倍，实际GQA/cache/allocator另核。 |"
+          }
+        },
+        {
+          "d4": "K11.09.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 60,
+            "row": "| K11.09.02.04 | [AM56/K11.09.02.04](ai-models-r2-knowledge-cases.md#L44) | [S123](../../research/source-qualification-ai-orchestration.md#L22)；[S523](../../research/source-qualification-ai-models-r1.md#L5) | 同seed42但temperature0.7与1.0为不同实验；条件ID、代码/权重/tokenizer、采样器或设备变化也需要新运行身份。 |"
+          }
+        },
+        {
+          "d4": "K11.10.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 62,
+            "row": "| K11.10.01.04 | [AM58/K11.10.01.04](ai-models-r2-knowledge-cases.md#L46) | [S537](ai-models-r2-knowledge-cases.md#L11)；[S523](../../research/source-qualification-ai-models-r1.md#L5) | 一维高斯题设参考均值0方差1、A均值1方差1、B均值0方差4，Fréchet距离平方形式均为1；相同分数不意味着同分布或听感。 S537固定arXiv 2311.01616v2 §2 Eq1与§3.1–3.3，题设为平方Wasserstein-2形式（不再开根）；样本数、嵌入、参考及估计方法均须对齐。 |"
+          }
+        },
+        {
+          "d4": "K11.10.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 63,
+            "row": "| K11.10.02.04 | [AM59/K11.10.02.04](ai-models-r2-knowledge-cases.md#L47) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 留出目标为未见歌手且未见作品：train(W1,T1)，test(W2,T1)作品隔离但歌手失败；test(W1,T2)反之；test(W2,T2)通过这两个已登记ID检查。 |"
+          }
+        }
+      ],
+      "scope": "| S523 | [MusicGen 2306.05284v3](https://arxiv.org/pdf/2306.05284v3) 实际截图零基2/3/4（印刷3/4/5）§2.1–2.4/3.1–3.2 | READ_LOCATOR；RVQ、码本间依赖/交错、文本及chroma条件、特定32kHz mono stride640/50Hz/4×2048码本；作者训练/测试条件非所有版本或实际速度。HTML访问失败，PDF补证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S524",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 6,
+        "row": "| S524 | [EnCodec 2210.13438](https://arxiv.org/abs/2210.13438) 网页实际呈现正文引言/摘要 | READ_LOCATOR；量化latent编解码、感知损失及24k mono/48k stereo作者实验；PDF/HTML路径访问失败，不冒充读过全正文，不证明无损。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "EnCodec 2210.13438",
+          "uri": "https://arxiv.org/abs/2210.13438"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.02.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 9,
+            "row": "| K11.02.02.03 | [AM05/K11.02.02.03](ai-models-r1-knowledge-cases.md#L9) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S524](../../research/source-qualification-ai-models-r1.md#L6) | 特定论文mono32k stride640得50帧/s、四码本每2048项11bit，固定长度索引50×4×11=2200bit/s，不含封装/熵编码/附加信息；30s1500帧6000索引。 有限输出重建反例：参考[.4,.8]，固定解码器g(z)=[z,2z]，z=0输出平方误差和.8，z=.5得.05；若换h(z)=[z,-2z]，z=.5误差和3.25。相同latent/索引不等输出；源/解码器/时钟/通道必须匹配，不推感知。 |"
+          }
+        },
+        {
+          "d4": "K11.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 10,
+            "row": "| K11.02.03.03 | [AM06/K11.02.03.03](ai-models-r1-knowledge-cases.md#L10) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S524](../../research/source-qualification-ai-models-r1.md#L6) | 题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。 |"
+          }
+        },
+        {
+          "d4": "K11.02.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 39,
+            "row": "| K11.02.02.04 | [AM35/K11.02.02.04](ai-models-r2-knowledge-cases.md#L23) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S524](../../research/source-qualification-ai-models-r1.md#L6) | 题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。 |"
+          }
+        }
+      ],
+      "scope": "| S524 | [EnCodec 2210.13438](https://arxiv.org/abs/2210.13438) 网页实际呈现正文引言/摘要 | READ_LOCATOR；量化latent编解码、感知损失及24k mono/48k stereo作者实验；PDF/HTML路径访问失败，不冒充读过全正文，不证明无损。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S525",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 7,
+        "row": "| S525 | [Flow Matching 2210.02747v2](https://arxiv.org/html/2210.02747) §3/3.2 Eq5/9 | READ_LOCATOR；给定概率路径向量场回归、条件目标及ODE推理，扩散路径可包含于其框架；原实验图像非音乐效果保证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Flow Matching 2210.02747v2",
+          "uri": "https://arxiv.org/html/2210.02747"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.03.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 12,
+            "row": "| K11.03.02.03 | [AM08/K11.03.02.03](ai-models-r1-knowledge-cases.md#L12) | [S525](../../research/source-qualification-ai-models-r1.md#L7)；[S528](../../research/source-qualification-ai-models-r1.md#L10) | 题设直线概率路径单样本x0=0,x1=2，x(t)=2t、目标速度2；t=.5值1；FM回归速度场，扩散示例逐步噪声/逆过程，采样求解器和目标不同但路径框架可交叉。 |"
+          }
+        },
+        {
+          "d4": "K11.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 42,
+            "row": "| K11.03.02.04 | [AM38/K11.03.02.04](ai-models-r2-knowledge-cases.md#L26) | [S525](../../research/source-qualification-ai-models-r1.md#L7)；[S535](ai-models-r2-knowledge-cases.md#L9) | DDPM边际例题设alpha_bar=.64、x0=2、epsilon=1，则xt=.8×2+.6×1=2.2；直线路径从0到2的速度目标2，与噪声预测目标1不是同单位。 |"
+          }
+        }
+      ],
+      "scope": "| S525 | [Flow Matching 2210.02747v2](https://arxiv.org/html/2210.02747) §3/3.2 Eq5/9 | READ_LOCATOR；给定概率路径向量场回归、条件目标及ODE推理，扩散路径可包含于其框架；原实验图像非音乐效果保证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S526",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 8,
+        "row": "| S526 | [YuE 2503.08638v1](https://arxiv.org/html/2503.08638v1) §3.2.2/3.2.3及结构图目录 | READ_LOCATOR；分轨条件与分段歌词、参考音频上下文；特定报告机制不保证对齐/真正独立原始分轨或任意语言。非固定部署。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "YuE 2503.08638v1",
+          "uri": "https://arxiv.org/html/2503.08638v1"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 6,
+            "row": "| K11.01.02.03 | [AM02/K11.01.02.03](ai-models-r1-knowledge-cases.md#L6) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 同一合成音段的人工词ID w1在[.2,.6)，自动标签a1在[.3,.7)且置信.8；保存原时钟、标注来源、版本和分歧，不自动覆盖。 |"
+          }
+        },
+        {
+          "d4": "K11.02.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 10,
+            "row": "| K11.02.03.03 | [AM06/K11.02.03.03](ai-models-r1-knowledge-cases.md#L10) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S524](../../research/source-qualification-ai-models-r1.md#L6) | 题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。 |"
+          }
+        },
+        {
+          "d4": "K11.03.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 11,
+            "row": "| K11.03.01.03 | [AM07/K11.03.01.03](ai-models-r1-knowledge-cases.md#L11) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 三帧四码本共12索引；全展平12个预测位置，理想并行每帧1步共3步但条件依赖不同；delay交错需另记起止padding/模式，不能以索引数当实际步数。 |"
+          }
+        },
+        {
+          "d4": "K11.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 15,
+            "row": "| K11.04.02.03 | [AM11/K11.04.02.03](ai-models-r1-knowledge-cases.md#L15) | [S531](../../research/source-qualification-ai-models-r1.md#L13)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 计划ABA，A含动机m1、B含m2，末A允许变化但保留m1身份；修改A1局部节奏需检查A2对应关系及段落边界，不把同标签当实际音乐重复。 |"
+          }
+        },
+        {
+          "d4": "K11.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 17,
+            "row": "| K11.05.01.03 | [AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17) | [S124](../../research/source-qualification-ai-orchestration.md#L23)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 任务要求歌词w1/w2、旋律、伴奏和时长；S124特定melody模型卡仅候选文本/旋律且非真实歌词演唱，YuE/ACE论文的歌声/条件是另一证据类别；须实际版本测试才准入。 |"
+          }
+        },
+        {
+          "d4": "K11.05.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 18,
+            "row": "| K11.05.02.03 | [AM14/K11.05.02.03](ai-models-r1-knowledge-cases.md#L18) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 原创段计划verse[0,8)、chorus[8,16)，每段词ID分别a/b，若chorus输出a重复则结构标签正确仍歌词错误；分段条件和前后连贯独立核。 |"
+          }
+        },
+        {
+          "d4": "K11.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 27,
+            "row": "| K11.08.02.03 | [AM23/K11.08.02.03](ai-models-r1-knowledge-cases.md#L27) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S530](../../research/source-qualification-ai-models-r1.md#L12) | 推理参考条件C1→C2可不改权重W；LoRA适配使有效W+ΔW改变，二者都可能影响音色/语言但需隔离对照。 |"
+          }
+        },
+        {
+          "d4": "K11.10.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 33,
+            "row": "| K11.10.02.03 | [AM29/K11.10.02.03](ai-models-r1-knowledge-cases.md#L33) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 合成train s1与test s2 hash不同但同work/recording G1，若目标未见作品则失败；若目标未见歌手需额外group singer，未见语言独立分层。 |"
+          }
+        },
+        {
+          "d4": "K11.02.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 40,
+            "row": "| K11.02.03.04 | [AM36/K11.02.03.04](ai-models-r2-knowledge-cases.md#L24) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 两个候选共享节拍格与音级C，但MIDI60与72及不同音色；符号音高条件可区分八度，chroma条件不能单独约束。 |"
+          }
+        },
+        {
+          "d4": "K11.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 45,
+            "row": "| K11.04.02.04 | [AM41/K11.04.02.04](ai-models-r2-knowledge-cases.md#L29) | [S531](../../research/source-qualification-ai-models-r1.md#L13)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 段A1和A2共享m1，B用m2；约束A2节奏可变但音程序列[+2,-1]固定；候选[+2,-1]合法、[+2,+1]违反保护。 |"
+          }
+        },
+        {
+          "d4": "K11.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 47,
+            "row": "| K11.05.01.04 | [AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 任务矩阵要求歌词、指定旋律、独立伴奏、局部改词。仅文本+chroma报告的候选不足；报告含分轨或重绘的候选也要查实际版本与各项保留条件。 |"
+          }
+        },
+        {
+          "d4": "K11.05.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 48,
+            "row": "| K11.05.02.04 | [AM44/K11.05.02.04](ai-models-r2-knowledge-cases.md#L32) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 段落时钟0–8、8–16秒，词ID a,b与c,d；生成顺序a,b,d,c词集合正确但顺序错误，若d跨边界还需独立时间核对。 |"
+          }
+        },
+        {
+          "d4": "K11.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 57,
+            "row": "| K11.08.02.04 | [AM53/K11.08.02.04](ai-models-r2-knowledge-cases.md#L41) | [S530](../../research/source-qualification-ai-models-r1.md#L12)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 对照四格W0/W1×C0/C1，题设质量3/5/4/8（依次W0C0,W0C1,W1C0,W1C1），参考效应2/4，交互差2；单看W1C1无法归因。 |"
+          }
+        },
+        {
+          "d4": "K11.10.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 63,
+            "row": "| K11.10.02.04 | [AM59/K11.10.02.04](ai-models-r2-knowledge-cases.md#L47) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 留出目标为未见歌手且未见作品：train(W1,T1)，test(W2,T1)作品隔离但歌手失败；test(W1,T2)反之；test(W2,T2)通过这两个已登记ID检查。 |"
+          }
+        }
+      ],
+      "scope": "| S526 | [YuE 2503.08638v1](https://arxiv.org/html/2503.08638v1) §3.2.2/3.2.3及结构图目录 | READ_LOCATOR；分轨条件与分段歌词、参考音频上下文；特定报告机制不保证对齐/真正独立原始分轨或任意语言。非固定部署。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S527",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 9,
+        "row": "| S527 | [ACE-Step 1.5 2602.00744v3](https://arxiv.org/html/2602.00744) §2/2.1/3.3、摘要 | READ_LOCATOR；模型标注管线/过滤、LM规划与DiT、局部任务与作者蒸馏报告；速度/语言/资源/质量仅作者声称，实际权重/许可/掩码保护未知。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "ACE-Step 1.5 2602.00744v3",
+          "uri": "https://arxiv.org/html/2602.00744"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.01.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 5,
+            "row": "| K11.01.01.03 | [AM01/K11.01.01.03](ai-models-r1-knowledge-cases.md#L5) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 合成语料work W1、recording R1、源文件F1和转码F2 hash不同但同源；片段和派生标签继承group G1，训练/验证/测试按预设隔离目标分组。 |"
+          }
+        },
+        {
+          "d4": "K11.01.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 6,
+            "row": "| K11.01.02.03 | [AM02/K11.01.02.03](ai-models-r1-knowledge-cases.md#L6) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 同一合成音段的人工词ID w1在[.2,.6)，自动标签a1在[.3,.7)且置信.8；保存原时钟、标注来源、版本和分歧，不自动覆盖。 |"
+          }
+        },
+        {
+          "d4": "K11.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 13,
+            "row": "| K11.03.03.03 | [AM09/K11.03.03.03](ai-models-r1-knowledge-cases.md#L13) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S532](../../research/source-qualification-ai-models-r1.md#L14) | planner产出条件对象P，renderer消费P并产出latent，codec解码为波形；外部多组件依赖不同于MoE一层内部按输入稀疏选专家。 |"
+          }
+        },
+        {
+          "d4": "K11.05.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 17,
+            "row": "| K11.05.01.03 | [AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17) | [S124](../../research/source-qualification-ai-orchestration.md#L23)；[S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 任务要求歌词w1/w2、旋律、伴奏和时长；S124特定melody模型卡仅候选文本/旋律且非真实歌词演唱，YuE/ACE论文的歌声/条件是另一证据类别；须实际版本测试才准入。 |"
+          }
+        },
+        {
+          "d4": "K11.05.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 18,
+            "row": "| K11.05.02.03 | [AM14/K11.05.02.03](ai-models-r1-knowledge-cases.md#L18) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 原创段计划verse[0,8)、chorus[8,16)，每段词ID分别a/b，若chorus输出a重复则结构标签正确仍歌词错误；分段条件和前后连贯独立核。 |"
+          }
+        },
+        {
+          "d4": "K11.05.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 19,
+            "row": "| K11.05.03.03 | [AM15/K11.05.03.03](ai-models-r1-knowledge-cases.md#L19) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S116](../../research/source-qualification-ai-orchestration.md#L15) | 局部mask={1,2}原合成向量[1,2,3,4]，候选[1,7,8,4]保外，另一[.9,7,8,4]越界；latent mask并不保证解码波形保外；cover、续写、重绘和全曲再生目标不同。 |"
+          }
+        },
+        {
+          "d4": "K11.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 28,
+            "row": "| K11.08.03.03 | [AM24/K11.08.03.03](ai-models-r1-knowledge-cases.md#L28) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S533](../../research/source-qualification-ai-models-r1.md#L15)；[S121](../../research/source-qualification-ai-orchestration.md#L20) | 题设代理奖励A .9/B .8而独立人类表达量规A6/B8，代理与目标冲突；蒸馏教师→学生和奖励优化是不同训练目标，减少采样步需验证质量。 |"
+          }
+        },
+        {
+          "d4": "K11.09.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 29,
+            "row": "| K11.09.01.03 | [AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S123](../../research/source-qualification-ai-orchestration.md#L22)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 假设3B参数FP16权重原始预算6GB十进制，另KV/激活/codec/条件/allocator及并发开销；8GB显存不能单凭6GB判断可运行，作者不同GPU速度不可迁移。 |"
+          }
+        },
+        {
+          "d4": "K11.09.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 31,
+            "row": "| K11.09.03.03 | [AM27/K11.09.03.03](ai-models-r1-knowledge-cases.md#L31) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S123](../../research/source-qualification-ai-orchestration.md#L22) | 题设OOM候选改30s→15s或改精度，改变任务/质量条件须另建候选和报告；超时未知输出不可直接重试覆盖，损坏产物与低质量分开。 |"
+          }
+        },
+        {
+          "d4": "K11.10.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 34,
+            "row": "| K11.10.03.03 | [AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9)；[S534](../../research/source-qualification-ai-models-r1.md#L16) | 论文、模型卡、源码、权重hash、实际运行和独立评价是不同证据；S117已撤回，不作有效能力证据；更新checkpoint或接口使旧报告适用性待核。 |"
+          }
+        },
+        {
+          "d4": "K11.01.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 35,
+            "row": "| K11.01.01.04 | [AM31/K11.01.01.04](ai-models-r2-knowledge-cases.md#L19) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 将同一作品的两个录音分别登记 W1/R1、W1/R2，改编作品 W2 声明派生 W1；未见作品协议按 W1 派生簇隔离，未见录音协议才可区分 R1/R2。 |"
+          }
+        },
+        {
+          "d4": "K11.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 36,
+            "row": "| K11.01.02.04 | [AM32/K11.01.02.04](ai-models-r2-knowledge-cases.md#L20) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S528](../../research/source-qualification-ai-models-r1.md#L10) | 音符[0,1)、词w1[0,.6)、w2[.6,1)，自动标注w1结束.65、w2开始.55形成.10s重叠；单声部互斥标注合同要求人工复核或保留冲突。 |"
+          }
+        },
+        {
+          "d4": "K11.01.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 37,
+            "row": "| K11.01.03.04 | [AM33/K11.01.03.04](ai-models-r2-knowledge-cases.md#L21) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 虚构训练集A类90/100通过筛选、B类10/100通过；保留率90%/10%，过滤后占比90%/10%，不等原始分布50%/50%。 |"
+          }
+        },
+        {
+          "d4": "K11.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 43,
+            "row": "| K11.03.03.04 | [AM39/K11.03.03.04](ai-models-r2-knowledge-cases.md#L27) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S532](../../research/source-qualification-ai-models-r1.md#L14) | 假设四个专家各100参数、每token选2个，专家总400/激活200，另共享层50则总450/激活250；外部planner+renderer有独立工件及失败。 |"
+          }
+        },
+        {
+          "d4": "K11.05.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 47,
+            "row": "| K11.05.01.04 | [AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 任务矩阵要求歌词、指定旋律、独立伴奏、局部改词。仅文本+chroma报告的候选不足；报告含分轨或重绘的候选也要查实际版本与各项保留条件。 |"
+          }
+        },
+        {
+          "d4": "K11.05.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 48,
+            "row": "| K11.05.02.04 | [AM44/K11.05.02.04](ai-models-r2-knowledge-cases.md#L32) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 段落时钟0–8、8–16秒，词ID a,b与c,d；生成顺序a,b,d,c词集合正确但顺序错误，若d跨边界还需独立时间核对。 |"
+          }
+        },
+        {
+          "d4": "K11.05.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 49,
+            "row": "| K11.05.03.04 | [AM45/K11.05.03.04](ai-models-r2-knowledge-cases.md#L33) | [S527](../../research/source-qualification-ai-models-r1.md#L9) | 保护区索引0/3，原[1,2,3,4]；局部编辑索引1/2后[1,8,9,4]合格于离散保护，题设后处理相邻平均使索引0变4.5而原为1.5，需重查输出域保护。 |"
+          }
+        },
+        {
+          "d4": "K11.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 58,
+            "row": "| K11.08.03.04 | [AM54/K11.08.03.04](ai-models-r2-knowledge-cases.md#L42) | [S533](../../research/source-qualification-ai-models-r1.md#L15)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 题设教师分布[.8,.2]，学生[.6,.4]，同一argmax但概率差；奖励候选A/B .9/.8与独立任务分数6/8反序。 |"
+          }
+        },
+        {
+          "d4": "K11.09.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 61,
+            "row": "| K11.09.03.04 | [AM57/K11.09.03.04](ai-models-r2-knowledge-cases.md#L45) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S123](../../research/source-qualification-ai-orchestration.md#L22) | 题设job J1超时，产物状态UNKNOWN；回读发现Y1完整但未评价，不能盲重提；若无产物仍需核是否可安全重试。 |"
+          }
+        },
+        {
+          "d4": "K11.10.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 64,
+            "row": "| K11.10.03.04 | [AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48) | [S534](../../research/source-qualification-ai-models-r1.md#L16)；[S527](../../research/source-qualification-ai-models-r1.md#L9)；[S537](ai-models-r2-knowledge-cases.md#L11) | 报告E1绑定权重W1、接口I1、数据D1及指标M1；升级W2仅作者宣称改进时E1保持历史，实际W2须新证据；撤回S117不得作为有效支持。 |"
+          }
+        }
+      ],
+      "scope": "| S527 | [ACE-Step 1.5 2602.00744v3](https://arxiv.org/html/2602.00744) §2/2.1/3.3、摘要 | READ_LOCATOR；模型标注管线/过滤、LM规划与DiT、局部任务与作者蒸馏报告；速度/语言/资源/质量仅作者声称，实际权重/许可/掩码保护未知。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S528",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 10,
+        "row": "| S528 | [DiffSinger AAAI 2022](https://cdn.aaai.org/ojs/21350/21350-13-25363-1-2-20220628.pdf) 实际截图零基0/1印刷11020/11021，引言/§2 | READ_LOCATOR；乐谱歌词/音高/时值→mel声学模型→vocoder，浅层扩散从预测mel加噪起点；中文作者实验和DiffSpeech独立扩展，非声库/语种兼容。原arXiv路径失败。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "DiffSinger AAAI 2022",
+          "uri": "https://cdn.aaai.org/ojs/21350/21350-13-25363-1-2-20220628.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.03.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 12,
+            "row": "| K11.03.02.03 | [AM08/K11.03.02.03](ai-models-r1-knowledge-cases.md#L12) | [S525](../../research/source-qualification-ai-models-r1.md#L7)；[S528](../../research/source-qualification-ai-models-r1.md#L10) | 题设直线概率路径单样本x0=0,x1=2，x(t)=2t、目标速度2；t=.5值1；FM回归速度场，扩散示例逐步噪声/逆过程，采样求解器和目标不同但路径框架可交叉。 |"
+          }
+        },
+        {
+          "d4": "K11.06.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 20,
+            "row": "| K11.06.01.03 | [AM16/K11.06.01.03](ai-models-r1-knowledge-cases.md#L20) | [S528](../../research/source-qualification-ai-models-r1.md#L10) | SVS输入题设note A4一拍+词a，目标音高/时值/语言音素；普通TTS只提供文本并不要求按谱的F0和拍时值，DiffSpeech是另任务。 |"
+          }
+        },
+        {
+          "d4": "K11.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 21,
+            "row": "| K11.06.02.03 | [AM17/K11.06.02.03](ai-models-r1-knowledge-cases.md#L21) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S529](../../research/source-qualification-ai-models-r1.md#L11) | 题设音节辅音区间[0,.08)无声、元音[.08,.5)有声，目标音符440Hz但F0仅对有声区定义；音符目标与连续颤音轨迹分别记录。 |"
+          }
+        },
+        {
+          "d4": "K11.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 22,
+            "row": "| K11.06.03.03 | [AM18/K11.06.03.03](ai-models-r1-knowledge-cases.md#L22) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S529](../../research/source-qualification-ai-models-r1.md#L11) | mel预测M1和vocoderV1是独立组件，候选音色条件C1/C2只比较指定目标；换vocoder可能改变输出伪影，声线相似非身份或权限证明。 |"
+          }
+        },
+        {
+          "d4": "K11.01.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 36,
+            "row": "| K11.01.02.04 | [AM32/K11.01.02.04](ai-models-r2-knowledge-cases.md#L20) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S528](../../research/source-qualification-ai-models-r1.md#L10) | 音符[0,1)、词w1[0,.6)、w2[.6,1)，自动标注w1结束.65、w2开始.55形成.10s重叠；单声部互斥标注合同要求人工复核或保留冲突。 |"
+          }
+        },
+        {
+          "d4": "K11.06.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 50,
+            "row": "| K11.06.01.04 | [AM46/K11.06.01.04](ai-models-r2-knowledge-cases.md#L34) | [S528](../../research/source-qualification-ai-models-r1.md#L10) | 谱面音符A4持续1拍、tempo120时.5s，给定同歌词TTS输出.8s，不满足该SVS时值合同；仅缩时也未证明音准。 |"
+          }
+        },
+        {
+          "d4": "K11.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 51,
+            "row": "| K11.06.02.04 | [AM47/K11.06.02.04](ai-models-r2-knowledge-cases.md#L35) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S529](../../research/source-qualification-ai-models-r1.md#L11) | 一音符A4有三个有声帧430,440,450Hz和一个无声帧；计算有声帧均值440，不将无声帧置0混算330。 |"
+          }
+        },
+        {
+          "d4": "K11.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 52,
+            "row": "| K11.06.03.04 | [AM48/K11.06.03.04](ai-models-r2-knowledge-cases.md#L36) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S536](ai-models-r2-knowledge-cases.md#L10) | 同一mel工件M1的两个渲染器V1/V2，各产出Y1/Y2；题设Y2词不变却出现伪影，比较固定mel和vocoder版本隔离变量。 |"
+          }
+        }
+      ],
+      "scope": "| S528 | [DiffSinger AAAI 2022](https://cdn.aaai.org/ojs/21350/21350-13-25363-1-2-20220628.pdf) 实际截图零基0/1印刷11020/11021，引言/§2 | READ_LOCATOR；乐谱歌词/音高/时值→mel声学模型→vocoder，浅层扩散从预测mel加噪起点；中文作者实验和DiffSpeech独立扩展，非声库/语种兼容。原arXiv路径失败。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S529",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 11,
+        "row": "| S529 | [SVCC2023 T02 2310.05118](https://arxiv.org/abs/2310.05118) 页面实际正文摘要/§1 | READ_LOCATOR；SVC内容/F0/音色条件与解耦误差、VITS和后处理、目标适配；作者比赛结果不支持无训练任意目标音色、权利或泛化。替代S117有效任务语义。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "SVCC2023 T02 2310.05118",
+          "uri": "https://arxiv.org/abs/2310.05118"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.06.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 21,
+            "row": "| K11.06.02.03 | [AM17/K11.06.02.03](ai-models-r1-knowledge-cases.md#L21) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S529](../../research/source-qualification-ai-models-r1.md#L11) | 题设音节辅音区间[0,.08)无声、元音[.08,.5)有声，目标音符440Hz但F0仅对有声区定义；音符目标与连续颤音轨迹分别记录。 |"
+          }
+        },
+        {
+          "d4": "K11.06.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 22,
+            "row": "| K11.06.03.03 | [AM18/K11.06.03.03](ai-models-r1-knowledge-cases.md#L22) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S529](../../research/source-qualification-ai-models-r1.md#L11) | mel预测M1和vocoderV1是独立组件，候选音色条件C1/C2只比较指定目标；换vocoder可能改变输出伪影，声线相似非身份或权限证明。 |"
+          }
+        },
+        {
+          "d4": "K11.07.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 23,
+            "row": "| K11.07.01.03 | [AM19/K11.07.01.03](ai-models-r1-knowledge-cases.md#L23) | [S529](../../research/source-qualification-ai-models-r1.md#L11) | 合成任务source e1内容token a、F0=440、时值1s；目标匿名音色T，仅允许改变音色，候选保留a/440/1s才满足这些字段；内容/音高/音色解耦可能有泄漏。 |"
+          }
+        },
+        {
+          "d4": "K11.07.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 25,
+            "row": "| K11.07.03.03 | [AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25) | [S529](../../research/source-qualification-ai-models-r1.md#L11)；[S118](../../research/source-qualification-ai-orchestration.md#L17) | 两阶段A分离→B转换，保留输入x、分离s、转换y及版本；若s已损目标，y失真可能继承或新生；有授权干净参考时做隔离对照，必要时重录或停止。 |"
+          }
+        },
+        {
+          "d4": "K11.06.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 51,
+            "row": "| K11.06.02.04 | [AM47/K11.06.02.04](ai-models-r2-knowledge-cases.md#L35) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S529](../../research/source-qualification-ai-models-r1.md#L11) | 一音符A4有三个有声帧430,440,450Hz和一个无声帧；计算有声帧均值440，不将无声帧置0混算330。 |"
+          }
+        },
+        {
+          "d4": "K11.07.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 53,
+            "row": "| K11.07.01.04 | [AM49/K11.07.01.04](ai-models-r2-knowledge-cases.md#L37) | [S529](../../research/source-qualification-ai-models-r1.md#L11)；[S536](ai-models-r2-knowledge-cases.md#L10) | 匿名目标T，源音符轨迹440→445→440；保护音符中心440，若任务允许风格改变，可接受不同颤音；若要求连续F0精确则必须独立满足。 |"
+          }
+        },
+        {
+          "d4": "K11.07.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 55,
+            "row": "| K11.07.03.04 | [AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39) | [S529](../../research/source-qualification-ai-models-r1.md#L11)；[S118](../../research/source-qualification-ai-orchestration.md#L17) | 两阶段输入x→分离s→转换y，s版本S1更换S2后y及评价E1依赖失效；未改变授权的原始x不覆盖。 |"
+          }
+        }
+      ],
+      "scope": "| S529 | [SVCC2023 T02 2310.05118](https://arxiv.org/abs/2310.05118) 页面实际正文摘要/§1 | READ_LOCATOR；SVC内容/F0/音色条件与解耦误差、VITS和后处理、目标适配；作者比赛结果不支持无训练任意目标音色、权利或泛化。替代S117有效任务语义。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S530",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 12,
+        "row": "| S530 | [LoRA 2106.09685v2](https://arxiv.org/html/2106.09685) §4/4.1及摘要 | READ_LOCATOR；冻结基座与低秩更新、可合并线性权重的条件；原LLM实验非音乐适配质量或通用加载。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "LoRA 2106.09685v2",
+          "uri": "https://arxiv.org/html/2106.09685"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.08.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 26,
+            "row": "| K11.08.01.03 | [AM22/K11.08.01.03](ai-models-r1-knowledge-cases.md#L26) | [S530](../../research/source-qualification-ai-models-r1.md#L12) | W形状4096×4096，rank8，LoRA A/B共8×(4096+4096)=65536参数，约全矩阵0.390625%；冻结基座与全量微调、预训练/SFT为不同训练选择。 |"
+          }
+        },
+        {
+          "d4": "K11.08.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 27,
+            "row": "| K11.08.02.03 | [AM23/K11.08.02.03](ai-models-r1-knowledge-cases.md#L27) | [S526](../../research/source-qualification-ai-models-r1.md#L8)；[S530](../../research/source-qualification-ai-models-r1.md#L12) | 推理参考条件C1→C2可不改权重W；LoRA适配使有效W+ΔW改变，二者都可能影响音色/语言但需隔离对照。 |"
+          }
+        },
+        {
+          "d4": "K11.08.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 56,
+            "row": "| K11.08.01.04 | [AM52/K11.08.01.04](ai-models-r2-knowledge-cases.md#L40) | [S530](../../research/source-qualification-ai-models-r1.md#L12) | 线性层W为4×3，rank1时A 1×3、B 4×1，7训练参数；A=[1,0,0]、B=[1,2,3,4]只影响第一列，另有缩放。 |"
+          }
+        },
+        {
+          "d4": "K11.08.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 57,
+            "row": "| K11.08.02.04 | [AM53/K11.08.02.04](ai-models-r2-knowledge-cases.md#L41) | [S530](../../research/source-qualification-ai-models-r1.md#L12)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 对照四格W0/W1×C0/C1，题设质量3/5/4/8（依次W0C0,W0C1,W1C0,W1C1），参考效应2/4，交互差2；单看W1C1无法归因。 |"
+          }
+        }
+      ],
+      "scope": "| S530 | [LoRA 2106.09685v2](https://arxiv.org/html/2106.09685) §4/4.1及摘要 | READ_LOCATOR；冻结基座与低秩更新、可合并线性权重的条件；原LLM实验非音乐适配质量或通用加载。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S531",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 13,
+        "row": "| S531 | [Music Transformer 1809.04281v3](https://arxiv.org/abs/1809.04281v3)（实际打开无版本URL显示v3）摘要 | ABSTRACT_READ；相对时序、多尺度重复及符号序列研究；相对位置中间表示内存降低不等全部注意力线性，不证明任意长全曲结构。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Music Transformer 1809.04281v3",
+          "uri": "https://arxiv.org/abs/1809.04281v3"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.02.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 8,
+            "row": "| K11.02.01.03 | [AM04/K11.02.01.03](ai-models-r1-knowledge-cases.md#L8) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13)；[S127](../../research/source-qualification-ai-orchestration.md#L26) | 原创note e1 pitch MIDI69、beat0、duration2、velocity80，120四分音符/分时长1s；改pitch72不必改其它字段，渲染依赖音色/演奏/tempo。 |"
+          }
+        },
+        {
+          "d4": "K11.04.01.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 14,
+            "row": "| K11.04.01.03 | [AM10/K11.04.01.03](ai-models-r1-knowledge-cases.md#L14) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13) | 合成任务指定C4–G4、4/4、一小节4拍；事件(60,0,1),(64,1,1),(67,2,2)满足音域和覆盖，另pitch69超范围应拒；条件文本仅请求，输出要复核。 |"
+          }
+        },
+        {
+          "d4": "K11.04.02.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 15,
+            "row": "| K11.04.02.03 | [AM11/K11.04.02.03](ai-models-r1-knowledge-cases.md#L15) | [S531](../../research/source-qualification-ai-models-r1.md#L13)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 计划ABA，A含动机m1、B含m2，末A允许变化但保留m1身份；修改A1局部节奏需检查A2对应关系及段落边界，不把同标签当实际音乐重复。 |"
+          }
+        },
+        {
+          "d4": "K11.02.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 38,
+            "row": "| K11.02.01.04 | [AM34/K11.02.01.04](ai-models-r2-knowledge-cases.md#L22) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13) | 两个音符分别beat0持续1与beat1持续1，tempo前1拍120后1拍60，总1.5s；统一乘.5会少.5s。 |"
+          }
+        },
+        {
+          "d4": "K11.04.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 44,
+            "row": "| K11.04.01.04 | [AM40/K11.04.01.04](ai-models-r2-knowledge-cases.md#L28) | [S112](../../research/source-qualification-ai-orchestration.md#L11)；[S531](../../research/source-qualification-ai-models-r1.md#L13) | 4/4的符号任务要求每拍一事件，音高集合60/64/67；候选60,64,67,60合法，候选60,65,67,60违反集合，均不评价艺术价值。 |"
+          }
+        },
+        {
+          "d4": "K11.04.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 45,
+            "row": "| K11.04.02.04 | [AM41/K11.04.02.04](ai-models-r2-knowledge-cases.md#L29) | [S531](../../research/source-qualification-ai-models-r1.md#L13)；[S526](../../research/source-qualification-ai-models-r1.md#L8) | 段A1和A2共享m1，B用m2；约束A2节奏可变但音程序列[+2,-1]固定；候选[+2,-1]合法、[+2,+1]违反保护。 |"
+          }
+        }
+      ],
+      "scope": "| S531 | [Music Transformer 1809.04281v3](https://arxiv.org/abs/1809.04281v3)（实际打开无版本URL显示v3）摘要 | ABSTRACT_READ；相对时序、多尺度重复及符号序列研究；相对位置中间表示内存降低不等全部注意力线性，不证明任意长全曲结构。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S532",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 14,
+        "row": "| S532 | [Sparsely-Gated MoE 1701.06538](https://arxiv.org/abs/1701.06538) 摘要 | ABSTRACT_READ；门控稀疏专家模型，非外部多模型流水线、实际专家路由/显存另核。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Sparsely-Gated MoE 1701.06538",
+          "uri": "https://arxiv.org/abs/1701.06538"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.03.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 13,
+            "row": "| K11.03.03.03 | [AM09/K11.03.03.03](ai-models-r1-knowledge-cases.md#L13) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S532](../../research/source-qualification-ai-models-r1.md#L14) | planner产出条件对象P，renderer消费P并产出latent，codec解码为波形；外部多组件依赖不同于MoE一层内部按输入稀疏选专家。 |"
+          }
+        },
+        {
+          "d4": "K11.03.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 43,
+            "row": "| K11.03.03.04 | [AM39/K11.03.03.04](ai-models-r2-knowledge-cases.md#L27) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S532](../../research/source-qualification-ai-models-r1.md#L14) | 假设四个专家各100参数、每token选2个，专家总400/激活200，另共享层50则总450/激活250；外部planner+renderer有独立工件及失败。 |"
+          }
+        }
+      ],
+      "scope": "| S532 | [Sparsely-Gated MoE 1701.06538](https://arxiv.org/abs/1701.06538) 摘要 | ABSTRACT_READ；门控稀疏专家模型，非外部多模型流水线、实际专家路由/显存另核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S533",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 15,
+        "row": "| S533 | [Distilling the Knowledge in a Neural Network 1503.02531](https://arxiv.org/abs/1503.02531) 摘要 | ABSTRACT_READ；教师学生知识迁移，原分类研究非音乐生成/扩散步数无损证明。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Distilling the Knowledge in a Neural Network 1503.02531",
+          "uri": "https://arxiv.org/abs/1503.02531"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.08.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 28,
+            "row": "| K11.08.03.03 | [AM24/K11.08.03.03](ai-models-r1-knowledge-cases.md#L28) | [S527](../../research/source-qualification-ai-models-r1.md#L9)；[S533](../../research/source-qualification-ai-models-r1.md#L15)；[S121](../../research/source-qualification-ai-orchestration.md#L20) | 题设代理奖励A .9/B .8而独立人类表达量规A6/B8，代理与目标冲突；蒸馏教师→学生和奖励优化是不同训练目标，减少采样步需验证质量。 |"
+          }
+        },
+        {
+          "d4": "K11.08.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 58,
+            "row": "| K11.08.03.04 | [AM54/K11.08.03.04](ai-models-r2-knowledge-cases.md#L42) | [S533](../../research/source-qualification-ai-models-r1.md#L15)；[S527](../../research/source-qualification-ai-models-r1.md#L9) | 题设教师分布[.8,.2]，学生[.6,.4]，同一argmax但概率差；奖励候选A/B .9/.8与独立任务分数6/8反序。 |"
+          }
+        }
+      ],
+      "scope": "| S533 | [Distilling the Knowledge in a Neural Network 1503.02531](https://arxiv.org/abs/1503.02531) 摘要 | ABSTRACT_READ；教师学生知识迁移，原分类研究非音乐生成/扩散步数无损证明。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S534",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-ai-models-r1.md",
+        "blob": "d53d472946b6c97958a96bcbacda6cecbf401ea2",
+        "line": 16,
+        "row": "| S534 | [SaMoye 2407.07728 最新v5](https://arxiv.org/abs/2407.07728) withdrawal与submission history | WITHDRAWN_STATUS；作者2024-11-15撤回，说明需大改重投；不得作为有效技术/性能/能力证据。原S117历史引用纠正，后续逐槽检查。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "SaMoye 2407.07728 最新v5",
+          "uri": "https://arxiv.org/abs/2407.07728"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.10.03.03",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 34,
+            "row": "| K11.10.03.03 | [AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34) | [S523](../../research/source-qualification-ai-models-r1.md#L5)；[S527](../../research/source-qualification-ai-models-r1.md#L9)；[S534](../../research/source-qualification-ai-models-r1.md#L16) | 论文、模型卡、源码、权重hash、实际运行和独立评价是不同证据；S117已撤回，不作有效能力证据；更新checkpoint或接口使旧报告适用性待核。 |"
+          }
+        },
+        {
+          "d4": "K11.10.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 64,
+            "row": "| K11.10.03.04 | [AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48) | [S534](../../research/source-qualification-ai-models-r1.md#L16)；[S527](../../research/source-qualification-ai-models-r1.md#L9)；[S537](ai-models-r2-knowledge-cases.md#L11) | 报告E1绑定权重W1、接口I1、数据D1及指标M1；升级W2仅作者宣称改进时E1保持历史，实际W2须新证据；撤回S117不得作为有效支持。 |"
+          }
+        }
+      ],
+      "scope": "| S534 | [SaMoye 2407.07728 最新v5](https://arxiv.org/abs/2407.07728) withdrawal与submission history | WITHDRAWN_STATUS；作者2024-11-15撤回，说明需大改重投；不得作为有效技术/性能/能力证据。原S117历史引用纠正，后续逐槽检查。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S535",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r2-knowledge-cases.md",
+        "blob": "688511658593db1d7f38966706a2c8c1847bf468",
+        "line": 9,
+        "row": "| S535 | [DDPM v2](https://arxiv.org/html/2006.11239) 实际HTML显示v2 2020-12-16，§1/2 正逆过程，v2摘要另读 | READ_LOCATOR，图像论文，不证明音频生成质量；边际公式为数学示例，实际scheduler独立核。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "DDPM v2",
+          "uri": "https://arxiv.org/html/2006.11239"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.03.02.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 42,
+            "row": "| K11.03.02.04 | [AM38/K11.03.02.04](ai-models-r2-knowledge-cases.md#L26) | [S525](../../research/source-qualification-ai-models-r1.md#L7)；[S535](ai-models-r2-knowledge-cases.md#L9) | DDPM边际例题设alpha_bar=.64、x0=2、epsilon=1，则xt=.8×2+.6×1=2.2；直线路径从0到2的速度目标2，与噪声预测目标1不是同单位。 |"
+          }
+        }
+      ],
+      "scope": "| S535 | [DDPM v2](https://arxiv.org/html/2006.11239) 实际HTML显示v2 2020-12-16，§1/2 正逆过程，v2摘要另读 | READ_LOCATOR，图像论文，不证明音频生成质量；边际公式为数学示例，实际scheduler独立核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S536",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r2-knowledge-cases.md",
+        "blob": "688511658593db1d7f38966706a2c8c1847bf468",
+        "line": 10,
+        "row": "| S536 | [SVCC2023 official](https://vc-challenge.org/svcc2023/index.html) Tasks of this Challenge / Evaluation / introductory definition | READ_LOCATOR；固定比赛条件，目标歌手训练数据与源、域内/跨域、谱面与风格及自然度/相似度分别评价；不证明任意模型或权限。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "SVCC2023 official",
+          "uri": "https://vc-challenge.org/svcc2023/index.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.06.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 52,
+            "row": "| K11.06.03.04 | [AM48/K11.06.03.04](ai-models-r2-knowledge-cases.md#L36) | [S528](../../research/source-qualification-ai-models-r1.md#L10)；[S536](ai-models-r2-knowledge-cases.md#L10) | 同一mel工件M1的两个渲染器V1/V2，各产出Y1/Y2；题设Y2词不变却出现伪影，比较固定mel和vocoder版本隔离变量。 |"
+          }
+        },
+        {
+          "d4": "K11.07.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 53,
+            "row": "| K11.07.01.04 | [AM49/K11.07.01.04](ai-models-r2-knowledge-cases.md#L37) | [S529](../../research/source-qualification-ai-models-r1.md#L11)；[S536](ai-models-r2-knowledge-cases.md#L10) | 匿名目标T，源音符轨迹440→445→440；保护音符中心440，若任务允许风格改变，可接受不同颤音；若要求连续F0精确则必须独立满足。 |"
+          }
+        }
+      ],
+      "scope": "| S536 | [SVCC2023 official](https://vc-challenge.org/svcc2023/index.html) Tasks of this Challenge / Evaluation / introductory definition | READ_LOCATOR；固定比赛条件，目标歌手训练数据与源、域内/跨域、谱面与风格及自然度/相似度分别评价；不证明任意模型或权限。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S537",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r2-knowledge-cases.md",
+        "blob": "688511658593db1d7f38966706a2c8c1847bf468",
+        "line": 11,
+        "row": "| S537 | [Adapting Frechet Audio Distance for Generative Music Evaluation](https://arxiv.org/html/2311.01616v2) arXiv:2311.01616v2 (2024-03-05)，本轮实际HTML §2 Eq1 L59–63，§3.1–3.3 L65–90 | READ_LOCATOR；平方Fréchet约定、参考集/嵌入/样本量偏差；不提升为实际库或听觉真值。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Adapting Frechet Audio Distance for Generative Music Evaluation",
+          "uri": "https://arxiv.org/html/2311.01616v2"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K11.10.01.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 62,
+            "row": "| K11.10.01.04 | [AM58/K11.10.01.04](ai-models-r2-knowledge-cases.md#L46) | [S537](ai-models-r2-knowledge-cases.md#L11)；[S523](../../research/source-qualification-ai-models-r1.md#L5) | 一维高斯题设参考均值0方差1、A均值1方差1、B均值0方差4，Fréchet距离平方形式均为1；相同分数不意味着同分布或听感。 S537固定arXiv 2311.01616v2 §2 Eq1与§3.1–3.3，题设为平方Wasserstein-2形式（不再开根）；样本数、嵌入、参考及估计方法均须对齐。 |"
+          }
+        },
+        {
+          "d4": "K11.10.03.04",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/ai-models-r3-discovery-cq.md",
+            "blob": "f3d5922a08b9e911db805cb429828475fc3bda0f",
+            "line": 64,
+            "row": "| K11.10.03.04 | [AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48) | [S534](../../research/source-qualification-ai-models-r1.md#L16)；[S527](../../research/source-qualification-ai-models-r1.md#L9)；[S537](ai-models-r2-knowledge-cases.md#L11) | 报告E1绑定权重W1、接口I1、数据D1及指标M1；升级W2仅作者宣称改进时E1保持历史，实际W2须新证据；撤回S117不得作为有效支持。 |"
+          }
+        }
+      ],
+      "scope": "| S537 | [Adapting Frechet Audio Distance for Generative Music Evaluation](https://arxiv.org/html/2311.01616v2) arXiv:2311.01616v2 (2024-03-05)，本轮实际HTML §2 Eq1 L59–63，§3.1–3.3 L65–90 | READ_LOCATOR；平方Fréchet约定、参考集/嵌入/样本量偏差；不提升为实际库或听觉真值。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

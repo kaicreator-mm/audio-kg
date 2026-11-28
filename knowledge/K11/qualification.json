@@ -1,0 +1,1455 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K11",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "55291038a92387f444ae613c1d5d7b56d84871a2",
+  "sourceQualifications": [
+    {
+      "source": "S112@1",
+      "scope": "| S112 | MuseCoco [arXiv:2306.00110](https://arxiv.org/abs/2306.00110) Abstract | K11.04 | ABSTRACT_READ；文本→音乐属性→符号序列；具体控制精度为作者实验 |",
+      "limits": "| S112 | MuseCoco [arXiv:2306.00110](https://arxiv.org/abs/2306.00110) Abstract | K11.04 | ABSTRACT_READ；文本→音乐属性→符号序列；具体控制精度为作者实验 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2306.00110"
+    },
+    {
+      "source": "S116@1",
+      "scope": "| S116 | Stable Audio 3 [arXiv:2605.17991v1](https://arxiv.org/abs/2605.17991v1) Abstract | K11.01–03/05/09 | ABSTRACT_READ；可变长音频latent diffusion、inpainting与语义声学autoencoder；发布范围、资源、许可另核 |",
+      "limits": "| S116 | Stable Audio 3 [arXiv:2605.17991v1](https://arxiv.org/abs/2605.17991v1) Abstract | K11.01–03/05/09 | ABSTRACT_READ；可变长音频latent diffusion、inpainting与语义声学autoencoder；发布范围、资源、许可另核 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2605.17991v1"
+    },
+    {
+      "source": "S118@1",
+      "scope": "| S118 | HT Demucs [arXiv:2211.08553v1](https://arxiv.org/abs/2211.08553v1) Abstract | K11.07/10 | ABSTRACT_READ；时间/频谱混合网络，作者报告额外训练数据改变结果；不混比训练条件 |",
+      "limits": "| S118 | HT Demucs [arXiv:2211.08553v1](https://arxiv.org/abs/2211.08553v1) Abstract | K11.07/10 | ABSTRACT_READ；时间/频谱混合网络，作者报告额外训练数据改变结果；不混比训练条件 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2211.08553v1"
+    },
+    {
+      "source": "S121@1",
+      "scope": "| S121 | Music Flamingo [arXiv:2511.10289](https://arxiv.org/abs/2511.10289) Abstract | K11.08/10、K10引用 | ABSTRACT_READ；音乐理解与数据、后训练和奖励研究；不视为全文化审美真值或音乐生成能力 |",
+      "limits": "| S121 | Music Flamingo [arXiv:2511.10289](https://arxiv.org/abs/2511.10289) Abstract | K11.08/10、K10引用 | ABSTRACT_READ；音乐理解与数据、后训练和奖励研究；不视为全文化审美真值或音乐生成能力 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2511.10289"
+    },
+    {
+      "source": "S123@1",
+      "scope": "| S123 | PyTorch 2.13 [Reproducibility](https://docs.pytorch.org/docs/2.13/notes/randomness.html) intro / warning | K11.09 K12.09 | READ_LOCATOR；不同版本、平台和设备不保证完全复现；无具体音乐模型硬件测试 |",
+      "limits": "| S123 | PyTorch 2.13 [Reproducibility](https://docs.pytorch.org/docs/2.13/notes/randomness.html) intro / warning | K11.09 K12.09 | READ_LOCATOR；不同版本、平台和设备不保证完全复现；无具体音乐模型硬件测试 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://docs.pytorch.org/docs/2.13/notes/randomness.html"
+    },
+    {
+      "source": "S124@1",
+      "scope": "| S124 | [facebook/musicgen-melody](https://huggingface.co/facebook/musicgen-melody) Model card / Intended use / Limitations and biases / License metadata | K11.01/05/10 K12.05/09 | READ_LOCATOR；模型卡标记CC-BY-NC-4.0、旋律条件、非真实歌声、英文描述和文化限制；卡片未固定revision，许可正文及权重身份待验 |",
+      "limits": "| S124 | [facebook/musicgen-melody](https://huggingface.co/facebook/musicgen-melody) Model card / Intended use / Limitations and biases / License metadata | K11.01/05/10 K12.05/09 | READ_LOCATOR；模型卡标记CC-BY-NC-4.0、旋律条件、非真实歌声、英文描述和文化限制；卡片未固定revision，许可正文及权重身份待验 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://huggingface.co/facebook/musicgen-melody"
+    },
+    {
+      "source": "S125@1",
+      "scope": "| S125 | Stable Audio Open [arXiv:2407.14358](https://arxiv.org/abs/2407.14358) Abstract/§1 | K11.01/02；音频表征参考 | READ_LOCATOR；开权重音频生成和训练数据许可披露；权重许可仍须核验；不证明符号乐谱生成 |",
+      "limits": "| S125 | Stable Audio Open [arXiv:2407.14358](https://arxiv.org/abs/2407.14358) Abstract/§1 | K11.01/02；音频表征参考 | READ_LOCATOR；开权重音频生成和训练数据许可披露；权重许可仍须核验；不证明符号乐谱生成 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2407.14358"
+    },
+    {
+      "source": "S127@1",
+      "scope": "| S127 | MIDI Association [Standard MIDI Files](https://midi.org/standard-midi-files) overview / specification index | K12.04 | READ_LOCATOR；带时间戳MIDI事件及轨道、tempo信息；未读PDF正文 |",
+      "limits": "| S127 | MIDI Association [Standard MIDI Files](https://midi.org/standard-midi-files) overview / specification index | K12.04 | READ_LOCATOR；带时间戳MIDI事件及轨道、tempo信息；未读PDF正文 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://midi.org/standard-midi-files"
+    },
+    {
+      "source": "S128@1",
+      "scope": "| S128 | MusicXML 4.0 [Final Community Group Report](https://www.w3.org/2021/06/musicxml40/) intro/index | K12.04/08 | READ_LOCATOR；2021-06-01 版本及schema入口；具体交换语义引用S075/S076/S078，不宣称所有宿主支持 |",
+      "limits": "| S128 | MusicXML 4.0 [Final Community Group Report](https://www.w3.org/2021/06/musicxml40/) intro/index | K12.04/08 | READ_LOCATOR；2021-06-01 版本及schema入口；具体交换语义引用S075/S076/S078，不宣称所有宿主支持 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.w3.org/2021/06/musicxml40/"
+    },
+    {
+      "source": "S523@1",
+      "scope": "| S523 | [MusicGen 2306.05284v3](https://arxiv.org/pdf/2306.05284v3) 实际截图零基2/3/4（印刷3/4/5）§2.1–2.4/3.1–3.2 | READ_LOCATOR；RVQ、码本间依赖/交错、文本及chroma条件、特定32kHz mono stride640/50Hz/4×2048码本；作者训练/测试条件非所有版本或实际速度。HTML访问失败，PDF补证。 |",
+      "limits": "| S523 | [MusicGen 2306.05284v3](https://arxiv.org/pdf/2306.05284v3) 实际截图零基2/3/4（印刷3/4/5）§2.1–2.4/3.1–3.2 | READ_LOCATOR；RVQ、码本间依赖/交错、文本及chroma条件、特定32kHz mono stride640/50Hz/4×2048码本；作者训练/测试条件非所有版本或实际速度。HTML访问失败，PDF补证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/pdf/2306.05284v3"
+    },
+    {
+      "source": "S524@1",
+      "scope": "| S524 | [EnCodec 2210.13438](https://arxiv.org/abs/2210.13438) 网页实际呈现正文引言/摘要 | READ_LOCATOR；量化latent编解码、感知损失及24k mono/48k stereo作者实验；PDF/HTML路径访问失败，不冒充读过全正文，不证明无损。 |",
+      "limits": "| S524 | [EnCodec 2210.13438](https://arxiv.org/abs/2210.13438) 网页实际呈现正文引言/摘要 | READ_LOCATOR；量化latent编解码、感知损失及24k mono/48k stereo作者实验；PDF/HTML路径访问失败，不冒充读过全正文，不证明无损。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2210.13438"
+    },
+    {
+      "source": "S525@1",
+      "scope": "| S525 | [Flow Matching 2210.02747v2](https://arxiv.org/html/2210.02747) §3/3.2 Eq5/9 | READ_LOCATOR；给定概率路径向量场回归、条件目标及ODE推理，扩散路径可包含于其框架；原实验图像非音乐效果保证。 |",
+      "limits": "| S525 | [Flow Matching 2210.02747v2](https://arxiv.org/html/2210.02747) §3/3.2 Eq5/9 | READ_LOCATOR；给定概率路径向量场回归、条件目标及ODE推理，扩散路径可包含于其框架；原实验图像非音乐效果保证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/html/2210.02747"
+    },
+    {
+      "source": "S526@1",
+      "scope": "| S526 | [YuE 2503.08638v1](https://arxiv.org/html/2503.08638v1) §3.2.2/3.2.3及结构图目录 | READ_LOCATOR；分轨条件与分段歌词、参考音频上下文；特定报告机制不保证对齐/真正独立原始分轨或任意语言。非固定部署。 |",
+      "limits": "| S526 | [YuE 2503.08638v1](https://arxiv.org/html/2503.08638v1) §3.2.2/3.2.3及结构图目录 | READ_LOCATOR；分轨条件与分段歌词、参考音频上下文；特定报告机制不保证对齐/真正独立原始分轨或任意语言。非固定部署。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/html/2503.08638v1"
+    },
+    {
+      "source": "S527@1",
+      "scope": "| S527 | [ACE-Step 1.5 2602.00744v3](https://arxiv.org/html/2602.00744) §2/2.1/3.3、摘要 | READ_LOCATOR；模型标注管线/过滤、LM规划与DiT、局部任务与作者蒸馏报告；速度/语言/资源/质量仅作者声称，实际权重/许可/掩码保护未知。 |",
+      "limits": "| S527 | [ACE-Step 1.5 2602.00744v3](https://arxiv.org/html/2602.00744) §2/2.1/3.3、摘要 | READ_LOCATOR；模型标注管线/过滤、LM规划与DiT、局部任务与作者蒸馏报告；速度/语言/资源/质量仅作者声称，实际权重/许可/掩码保护未知。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/html/2602.00744"
+    },
+    {
+      "source": "S528@1",
+      "scope": "| S528 | [DiffSinger AAAI 2022](https://cdn.aaai.org/ojs/21350/21350-13-25363-1-2-20220628.pdf) 实际截图零基0/1印刷11020/11021，引言/§2 | READ_LOCATOR；乐谱歌词/音高/时值→mel声学模型→vocoder，浅层扩散从预测mel加噪起点；中文作者实验和DiffSpeech独立扩展，非声库/语种兼容。原arXiv路径失败。 |",
+      "limits": "| S528 | [DiffSinger AAAI 2022](https://cdn.aaai.org/ojs/21350/21350-13-25363-1-2-20220628.pdf) 实际截图零基0/1印刷11020/11021，引言/§2 | READ_LOCATOR；乐谱歌词/音高/时值→mel声学模型→vocoder，浅层扩散从预测mel加噪起点；中文作者实验和DiffSpeech独立扩展，非声库/语种兼容。原arXiv路径失败。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://cdn.aaai.org/ojs/21350/21350-13-25363-1-2-20220628.pdf"
+    },
+    {
+      "source": "S529@1",
+      "scope": "| S529 | [SVCC2023 T02 2310.05118](https://arxiv.org/abs/2310.05118) 页面实际正文摘要/§1 | READ_LOCATOR；SVC内容/F0/音色条件与解耦误差、VITS和后处理、目标适配；作者比赛结果不支持无训练任意目标音色、权利或泛化。替代S117有效任务语义。 |",
+      "limits": "| S529 | [SVCC2023 T02 2310.05118](https://arxiv.org/abs/2310.05118) 页面实际正文摘要/§1 | READ_LOCATOR；SVC内容/F0/音色条件与解耦误差、VITS和后处理、目标适配；作者比赛结果不支持无训练任意目标音色、权利或泛化。替代S117有效任务语义。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2310.05118"
+    },
+    {
+      "source": "S530@1",
+      "scope": "| S530 | [LoRA 2106.09685v2](https://arxiv.org/html/2106.09685) §4/4.1及摘要 | READ_LOCATOR；冻结基座与低秩更新、可合并线性权重的条件；原LLM实验非音乐适配质量或通用加载。 |",
+      "limits": "| S530 | [LoRA 2106.09685v2](https://arxiv.org/html/2106.09685) §4/4.1及摘要 | READ_LOCATOR；冻结基座与低秩更新、可合并线性权重的条件；原LLM实验非音乐适配质量或通用加载。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/html/2106.09685"
+    },
+    {
+      "source": "S531@1",
+      "scope": "| S531 | [Music Transformer 1809.04281v3](https://arxiv.org/abs/1809.04281v3)（实际打开无版本URL显示v3）摘要 | ABSTRACT_READ；相对时序、多尺度重复及符号序列研究；相对位置中间表示内存降低不等全部注意力线性，不证明任意长全曲结构。 |",
+      "limits": "| S531 | [Music Transformer 1809.04281v3](https://arxiv.org/abs/1809.04281v3)（实际打开无版本URL显示v3）摘要 | ABSTRACT_READ；相对时序、多尺度重复及符号序列研究；相对位置中间表示内存降低不等全部注意力线性，不证明任意长全曲结构。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/1809.04281v3"
+    },
+    {
+      "source": "S532@1",
+      "scope": "| S532 | [Sparsely-Gated MoE 1701.06538](https://arxiv.org/abs/1701.06538) 摘要 | ABSTRACT_READ；门控稀疏专家模型，非外部多模型流水线、实际专家路由/显存另核。 |",
+      "limits": "| S532 | [Sparsely-Gated MoE 1701.06538](https://arxiv.org/abs/1701.06538) 摘要 | ABSTRACT_READ；门控稀疏专家模型，非外部多模型流水线、实际专家路由/显存另核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/1701.06538"
+    },
+    {
+      "source": "S533@1",
+      "scope": "| S533 | [Distilling the Knowledge in a Neural Network 1503.02531](https://arxiv.org/abs/1503.02531) 摘要 | ABSTRACT_READ；教师学生知识迁移，原分类研究非音乐生成/扩散步数无损证明。 |",
+      "limits": "| S533 | [Distilling the Knowledge in a Neural Network 1503.02531](https://arxiv.org/abs/1503.02531) 摘要 | ABSTRACT_READ；教师学生知识迁移，原分类研究非音乐生成/扩散步数无损证明。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/1503.02531"
+    },
+    {
+      "source": "S534@1",
+      "scope": "| S534 | [SaMoye 2407.07728 最新v5](https://arxiv.org/abs/2407.07728) withdrawal与submission history | WITHDRAWN_STATUS；作者2024-11-15撤回，说明需大改重投；不得作为有效技术/性能/能力证据。原S117历史引用纠正，后续逐槽检查。 |",
+      "limits": "| S534 | [SaMoye 2407.07728 最新v5](https://arxiv.org/abs/2407.07728) withdrawal与submission history | WITHDRAWN_STATUS；作者2024-11-15撤回，说明需大改重投；不得作为有效技术/性能/能力证据。原S117历史引用纠正，后续逐槽检查。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/abs/2407.07728"
+    },
+    {
+      "source": "S535@1",
+      "scope": "| S535 | [DDPM v2](https://arxiv.org/html/2006.11239) 实际HTML显示v2 2020-12-16，§1/2 正逆过程，v2摘要另读 | READ_LOCATOR，图像论文，不证明音频生成质量；边际公式为数学示例，实际scheduler独立核。 |",
+      "limits": "| S535 | [DDPM v2](https://arxiv.org/html/2006.11239) 实际HTML显示v2 2020-12-16，§1/2 正逆过程，v2摘要另读 | READ_LOCATOR，图像论文，不证明音频生成质量；边际公式为数学示例，实际scheduler独立核。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/html/2006.11239"
+    },
+    {
+      "source": "S536@1",
+      "scope": "| S536 | [SVCC2023 official](https://vc-challenge.org/svcc2023/index.html) Tasks of this Challenge / Evaluation / introductory definition | READ_LOCATOR；固定比赛条件，目标歌手训练数据与源、域内/跨域、谱面与风格及自然度/相似度分别评价；不证明任意模型或权限。 |",
+      "limits": "| S536 | [SVCC2023 official](https://vc-challenge.org/svcc2023/index.html) Tasks of this Challenge / Evaluation / introductory definition | READ_LOCATOR；固定比赛条件，目标歌手训练数据与源、域内/跨域、谱面与风格及自然度/相似度分别评价；不证明任意模型或权限。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://vc-challenge.org/svcc2023/index.html"
+    },
+    {
+      "source": "S537@1",
+      "scope": "| S537 | [Adapting Frechet Audio Distance for Generative Music Evaluation](https://arxiv.org/html/2311.01616v2) arXiv:2311.01616v2 (2024-03-05)，本轮实际HTML §2 Eq1 L59–63，§3.1–3.3 L65–90 | READ_LOCATOR；平方Fréchet约定、参考集/嵌入/样本量偏差；不提升为实际库或听觉真值。 |",
+      "limits": "| S537 | [Adapting Frechet Audio Distance for Generative Music Evaluation](https://arxiv.org/html/2311.01616v2) arXiv:2311.01616v2 (2024-03-05)，本轮实际HTML §2 Eq1 L59–63，§3.1–3.3 L65–90 | READ_LOCATOR；平方Fréchet约定、参考集/嵌入/样本量偏差；不提升为实际库或听觉真值。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://arxiv.org/html/2311.01616v2"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K11-E-AM01-SUPPORTED-BY-K11-EV-AM01",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际语料或许可，K15权利。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM01-APPLIES-UNDER-K11-CTX-AM01",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际语料或许可，K15权利。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM01-REFERENCES-K15-CL-GV19",
+      "scope": "数据集及各素材的身份、版本与用途需单独登记；留出身份检查不替代许可。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM02-SUPPORTED-BY-K11-EV-AM02",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "置信数字题设，不推校准。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM02-APPLIES-UNDER-K11-CTX-AM02",
+      "scope": "明确题设及证据条件。",
+      "limits": "置信数字题设，不推校准。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM02-REFERENCES-K10-CL-EV27",
+      "scope": "标注版本、参考与时间对齐的评测报告必须随冲突复核而绑定。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM03-SUPPORTED-BY-K11-EV-AM03",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不核真实许可，K15决定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM03-APPLIES-UNDER-K11-CTX-AM03",
+      "scope": "明确题设及证据条件。",
+      "limits": "不核真实许可，K15决定。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM03-REFERENCES-K15-CL-GV43",
+      "scope": "过滤后样本构成与素材训练许可是不同检查；录音及标注用途不自动继承。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM04-SUPPORTED-BY-K11-EV-AM04",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "有限符号对象，无实际文件或合成。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM04-APPLIES-UNDER-K11-CTX-AM04",
+      "scope": "明确题设及证据条件。",
+      "limits": "有限符号对象，无实际文件或合成。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM04-REFERENCES-K01-CL-04-10-01",
+      "scope": "符号持续量转换为时间时须按实际tempo分段积分。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM05-SUPPORTED-BY-K11-EV-AM05",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "论文设置及数学，未运行codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM05-APPLIES-UNDER-K11-CTX-AM05",
+      "scope": "明确题设及证据条件。",
+      "limits": "论文设置及数学，未运行codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM06-SUPPORTED-BY-K11-EV-AM06",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成概念，非实际chroma或codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM06-APPLIES-UNDER-K11-CTX-AM06",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成概念，非实际chroma或codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM06-REFERENCES-K01-CL-09-04-01",
+      "scope": "在声明十二平均律的表示中八度归约可丢失音区，不能由音级反求完整音高。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM07-SUPPORTED-BY-K11-EV-AM07",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "自建计数，实际MusicGen步数以论文口径。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM07-APPLIES-UNDER-K11-CTX-AM07",
+      "scope": "明确题设及证据条件。",
+      "limits": "自建计数，实际MusicGen步数以论文口径。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM07-REFERENCES-K08-CL-DA04",
+      "scope": "有效索引的原始存储计数与模型预测位置不同；PCM公式只用于说明对象单位区别。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM08-SUPPORTED-BY-K11-EV-AM08",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "单样本直线示意，不是训练或通用采样。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM08-APPLIES-UNDER-K11-CTX-AM08",
+      "scope": "明确题设及证据条件。",
+      "limits": "单样本直线示意，不是训练或通用采样。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM09-SUPPORTED-BY-K11-EV-AM09",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "架构语义非运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM09-APPLIES-UNDER-K11-CTX-AM09",
+      "scope": "明确题设及证据条件。",
+      "limits": "架构语义非运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM09-REFERENCES-K09-CL-MP02",
+      "scope": "多组件的工件流可以表示为有向端口图；不把工程路由等同层内稀疏专家选择。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM10-SUPPORTED-BY-K11-EV-AM10",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "原创符号有限检查。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM10-APPLIES-UNDER-K11-CTX-AM10",
+      "scope": "明确题设及证据条件。",
+      "limits": "原创符号有限检查。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM10-REFERENCES-K01-CL-08-05-01",
+      "scope": "符号约束的音符起点、时值与每声部覆盖须独立核验。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM11-SUPPORTED-BY-K11-EV-AM11",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际音乐或长序列生成。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM11-APPLIES-UNDER-K11-CTX-AM11",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际音乐或长序列生成。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM11-REFERENCES-K01-CL-07-05-02",
+      "scope": "曲式标签不能证明主题身份，需核各段主题关系与边界。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM12-SUPPORTED-BY-K11-EV-AM12",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无实际渲染，K09/K12交付。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM12-APPLIES-UNDER-K11-CTX-AM12",
+      "scope": "明确题设及证据条件。",
+      "limits": "无实际渲染，K09/K12交付。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM12-REFERENCES-K02-CL-CO-50",
+      "scope": "符号/文本与实际混合音频的可编辑身份不等价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM13-SUPPORTED-BY-K11-EV-AM13",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无版本实测，不推荐实际产品。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM13-APPLIES-UNDER-K11-CTX-AM13",
+      "scope": "明确题设及证据条件。",
+      "limits": "无版本实测，不推荐实际产品。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM13-REFERENCES-K15-CL-GV04",
+      "scope": "任务需要多个交付对象，单一音频或单项控制报告不能证明其余对象满足。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM14-SUPPORTED-BY-K11-EV-AM14",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "占位token非歌词/音乐。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM14-APPLIES-UNDER-K11-CTX-AM14",
+      "scope": "明确题设及证据条件。",
+      "limits": "占位token非歌词/音乐。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM14-REFERENCES-K10-CL-EV12",
+      "scope": "词与音符事件绑定、文本和时间一致性及编辑字段需要独立评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM15-SUPPORTED-BY-K11-EV-AM15",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅有限对象，不实际生成或处理声音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM15-APPLIES-UNDER-K11-CTX-AM15",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅有限对象，不实际生成或处理声音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM15-REFERENCES-K01-CL-08-06-03",
+      "scope": "在明确允许字段集的符号修订中，受保护事件不得变化；latent及波形保护仍须另测。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM16-SUPPORTED-BY-K11-EV-AM16",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实语言或声音生成。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM16-APPLIES-UNDER-K11-CTX-AM16",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实语言或声音生成。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM16-REFERENCES-K06-CL-VT12",
+      "scope": "歌唱目标需分别对齐音节、音符及发音起点，不从普通TTS推谱面一致。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM17-SUPPORTED-BY-K11-EV-AM17",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不推任意语种发音，K13语言。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM17-APPLIES-UNDER-K11-CTX-AM17",
+      "scope": "明确题设及证据条件。",
+      "limits": "不推任意语种发音，K13语言。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM17-REFERENCES-K10-CL-EV01",
+      "scope": "F0统计必须绑定有声参考及有效分母，无声并非零音高。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM18-SUPPORTED-BY-K11-EV-AM18",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "虚构音色ID，无真人/参考音频。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM18-APPLIES-UNDER-K11-CTX-AM18",
+      "scope": "明确题设及证据条件。",
+      "limits": "虚构音色ID，无真人/参考音频。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM18-REFERENCES-K05-CL-VS45",
+      "scope": "固定音高下音色还可能受声源、声道、采集影响；组件对照不能识别个体身份。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM19-SUPPORTED-BY-K11-EV-AM19",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不提供真人克隆操作；无声音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM19-APPLIES-UNDER-K11-CTX-AM19",
+      "scope": "明确题设及证据条件。",
+      "limits": "不提供真人克隆操作；无声音。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM19-REFERENCES-K09-CL-MP08",
+      "scope": "音高中心、颤音与滑音保护须分开定义，转换保留目标依具体任务。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM20-SUPPORTED-BY-K11-EV-AM20",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成向量，K08机制/K10评价。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM20-APPLIES-UNDER-K11-CTX-AM20",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成向量，K08机制/K10评价。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM20-REFERENCES-K08-CL-DA22",
+      "scope": "混合一致性不等分离真值，目标轨保留和串音需参考。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM21-SUPPORTED-BY-K11-EV-AM21",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成工作流，不执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM21-APPLIES-UNDER-K11-CTX-AM21",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成工作流，不执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM21-REFERENCES-K15-CL-GV21",
+      "scope": "派生关系及来源谱系可用于定位中间工件和下游失效，实际授权另核。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM22-SUPPORTED-BY-K11-EV-AM22",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "单线性层数学，不承诺音乐质量。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM22-APPLIES-UNDER-K11-CTX-AM22",
+      "scope": "明确题设及证据条件。",
+      "limits": "单线性层数学，不承诺音乐质量。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM22-REFERENCES-K15-CL-GV09",
+      "scope": "低秩训练的基座、有效参数与配置版本须绑定；工程可复现身份供导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM23-SUPPORTED-BY-K11-EV-AM23",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实音色、参数训练或推理。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM23-APPLIES-UNDER-K11-CTX-AM23",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实音色、参数训练或推理。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM23-REFERENCES-K10-CL-EV52",
+      "scope": "参考与权重变化应使用相同输入条件和明确配对设计以分离变量。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM24-SUPPORTED-BY-K11-EV-AM24",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设分数，不实际训练/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM24-APPLIES-UNDER-K11-CTX-AM24",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设分数，不实际训练/听评。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM24-REFERENCES-K10-CL-EV49",
+      "scope": "代理奖励不能取代硬条件、独立目标与开放量规评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM25-SUPPORTED-BY-K11-EV-AM25",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅理论权重下界，未测试任何GPU。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM25-APPLIES-UNDER-K11-CTX-AM25",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅理论权重下界，未测试任何GPU。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM25-REFERENCES-K08-CL-DA04",
+      "scope": "数据载荷的数量×字节计数仅对应明确对象，不能代替完整运行资源预算。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM26-SUPPORTED-BY-K11-EV-AM26",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "继承S123，未运行框架。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM26-APPLIES-UNDER-K11-CTX-AM26",
+      "scope": "明确题设及证据条件。",
+      "limits": "继承S123，未运行框架。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM26-REFERENCES-K02-CL-CO-45",
+      "scope": "随机流复现要求算法、版本、种子、抽取顺序及映射，不只一个seed。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM27-SUPPORTED-BY-K11-EV-AM27",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成失败分类，K12实际运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM27-APPLIES-UNDER-K11-CTX-AM27",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成失败分类，K12实际运行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM27-REFERENCES-K08-CL-DA18",
+      "scope": "故障日志、实际样本缺失、派生产物与未知状态须分别保留，不能盲目覆盖。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM28-SUPPORTED-BY-K11-EV-AM28",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "作者报告非本地测量，K10指标。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM28-APPLIES-UNDER-K11-CTX-AM28",
+      "scope": "明确题设及证据条件。",
+      "limits": "作者报告非本地测量，K10指标。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM28-REFERENCES-K10-CL-EV54",
+      "scope": "数据划分、参考、实现和参数是指标比较的报告身份；不同定义不能直接合并。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM29-SUPPORTED-BY-K11-EV-AM29",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实数据或训练。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM29-APPLIES-UNDER-K11-CTX-AM29",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实数据或训练。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM29-REFERENCES-K15-CL-GV19",
+      "scope": "数据集及各素材的身份、版本与用途需单独登记；留出身份检查不替代许可。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM30-SUPPORTED-BY-K11-EV-AM30",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无权重下载、部署或测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM30-APPLIES-UNDER-K11-CTX-AM30",
+      "scope": "明确题设及证据条件。",
+      "limits": "无权重下载、部署或测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM30-REFERENCES-K10-CL-EV27",
+      "scope": "具体候选、输入、参考和指标版本改变会使旧报告不再适用，历史证据仍保留。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM31-SUPPORTED-BY-K11-EV-AM31",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不同作品是否同源无证据则UNKNOWN，不以音频指纹阴性证明。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM31-APPLIES-UNDER-K11-CTX-AM31",
+      "scope": "明确题设及证据条件。",
+      "limits": "不同作品是否同源无证据则UNKNOWN，不以音频指纹阴性证明。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM31-REQUIRES-K11-CL-AM01",
+      "scope": "本扩展案例使用前一基础案例的同源作品/录音与派生分组；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM31-REFERENCES-K15-CL-GV19",
+      "scope": "数据集及各素材的身份、版本与用途需单独登记；留出身份检查不替代许可。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM32-SUPPORTED-BY-K11-EV-AM32",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "多声部或允许重叠的音素不能套用单声部互斥。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM32-APPLIES-UNDER-K11-CTX-AM32",
+      "scope": "明确题设及证据条件。",
+      "limits": "多声部或允许重叠的音素不能套用单声部互斥。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM32-REFERENCES-K10-CL-EV27",
+      "scope": "标注版本、参考与时间对齐的评测报告必须随冲突复核而绑定。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM32-REQUIRES-K11-CL-AM02",
+      "scope": "本扩展案例使用前一基础案例的标注对象、时钟与来源分歧；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM33-SUPPORTED-BY-K11-EV-AM33",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "语言、族群或权利未知不自行补全；K15/K13/K16。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM33-APPLIES-UNDER-K11-CTX-AM33",
+      "scope": "明确题设及证据条件。",
+      "limits": "语言、族群或权利未知不自行补全；K15/K13/K16。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM33-REQUIRES-K11-CL-AM03",
+      "scope": "本扩展案例使用前一基础案例的过滤计数及用途许可边界；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM33-REFERENCES-K15-CL-GV43",
+      "scope": "过滤后样本构成与素材训练许可是不同检查；录音及标注用途不自动继承。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM34-SUPPORTED-BY-K11-EV-AM34",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未指定速度时不能输出唯一秒数。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM34-APPLIES-UNDER-K11-CTX-AM34",
+      "scope": "明确题设及证据条件。",
+      "limits": "未指定速度时不能输出唯一秒数。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM34-REFERENCES-K01-CL-04-10-01",
+      "scope": "符号持续量转换为时间时须按实际tempo分段积分。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM34-REQUIRES-K11-CL-AM04",
+      "scope": "本扩展案例使用前一基础案例的符号事件与tempo时间映射；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM35-SUPPORTED-BY-K11-EV-AM35",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "有限一维残差例，不是实际RVQ实现或听觉误差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM35-APPLIES-UNDER-K11-CTX-AM35",
+      "scope": "明确题设及证据条件。",
+      "limits": "有限一维残差例，不是实际RVQ实现或听觉误差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM35-REFERENCES-K01-CL-02-06-01",
+      "scope": "多对一量化无法仅由目标标签恢复原值；此处只借鉴信息丢失原则，不把音高量化等同RVQ。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM35-REQUIRES-K11-CL-AM05",
+      "scope": "本扩展案例使用前一基础案例的编码索引、解码器与重建误差；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM36-SUPPORTED-BY-K11-EV-AM36",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "没有模型版本支持证据，不宣称能接受任意符号条件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM36-APPLIES-UNDER-K11-CTX-AM36",
+      "scope": "明确题设及证据条件。",
+      "limits": "没有模型版本支持证据，不宣称能接受任意符号条件。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM36-REFERENCES-K01-CL-09-04-01",
+      "scope": "在声明十二平均律的表示中八度归约可丢失音区，不能由音级反求完整音高。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM36-REQUIRES-K11-CL-AM06",
+      "scope": "本扩展案例使用前一基础案例的音级、八度与声学表示分离；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM37-SUPPORTED-BY-K11-EV-AM37",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不是AudioCraft实现或速度测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM37-APPLIES-UNDER-K11-CTX-AM37",
+      "scope": "明确题设及证据条件。",
+      "limits": "不是AudioCraft实现或速度测试。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM37-REFERENCES-K08-CL-DA04",
+      "scope": "有效索引的原始存储计数与模型预测位置不同；PCM公式只用于说明对象单位区别。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM37-REQUIRES-K11-CL-AM07",
+      "scope": "本扩展案例使用前一基础案例的预测位置、索引数与交错边界；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM38-SUPPORTED-BY-K11-EV-AM38",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数学示例不测生成质量，DDPM原实验图像非音乐。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM38-APPLIES-UNDER-K11-CTX-AM38",
+      "scope": "明确题设及证据条件。",
+      "limits": "数学示例不测生成质量，DDPM原实验图像非音乐。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM38-REQUIRES-K11-CL-AM08",
+      "scope": "本扩展案例使用前一基础案例的路径参数化和训练目标定义；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM39-SUPPORTED-BY-K11-EV-AM39",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "参数计数不是显存或速度。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM39-APPLIES-UNDER-K11-CTX-AM39",
+      "scope": "明确题设及证据条件。",
+      "limits": "参数计数不是显存或速度。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM39-REFERENCES-K09-CL-MP02",
+      "scope": "多组件的工件流可以表示为有向端口图；不把工程路由等同层内稀疏专家选择。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM39-REQUIRES-K11-CL-AM09",
+      "scope": "本扩展案例使用前一基础案例的层内专家路由与外部组件边界；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM40-SUPPORTED-BY-K11-EV-AM40",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "只在题设硬集合成立，不是通用作曲规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM40-APPLIES-UNDER-K11-CTX-AM40",
+      "scope": "明确题设及证据条件。",
+      "limits": "只在题设硬集合成立，不是通用作曲规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM40-REFERENCES-K01-CL-08-05-01",
+      "scope": "符号约束的音符起点、时值与每声部覆盖须独立核验。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM40-REQUIRES-K11-CL-AM10",
+      "scope": "本扩展案例使用前一基础案例的符号音域及拍覆盖约束；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM41-SUPPORTED-BY-K11-EV-AM41",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不声称音程序列足以认定音乐结构。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM41-APPLIES-UNDER-K11-CTX-AM41",
+      "scope": "明确题设及证据条件。",
+      "limits": "不声称音程序列足以认定音乐结构。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM41-REFERENCES-K01-CL-07-05-02",
+      "scope": "曲式标签不能证明主题身份，需核各段主题关系与边界。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM41-REQUIRES-K11-CL-AM11",
+      "scope": "本扩展案例使用前一基础案例的段落动机身份与保护条件；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM42-SUPPORTED-BY-K11-EV-AM42",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "渲染质量与可编辑性独立；K09/K12实际格式。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM42-APPLIES-UNDER-K11-CTX-AM42",
+      "scope": "明确题设及证据条件。",
+      "limits": "渲染质量与可编辑性独立；K09/K12实际格式。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM42-REFERENCES-K02-CL-CO-50",
+      "scope": "符号/文本与实际混合音频的可编辑身份不等价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM42-REQUIRES-K11-CL-AM12",
+      "scope": "本扩展案例使用前一基础案例的符号字段及渲染可逆边界；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM43-SUPPORTED-BY-K11-EV-AM43",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "K12具体工具未测，K15许可未确认。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM43-APPLIES-UNDER-K11-CTX-AM43",
+      "scope": "明确题设及证据条件。",
+      "limits": "K12具体工具未测，K15许可未确认。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM43-REQUIRES-K11-CL-AM13",
+      "scope": "本扩展案例使用前一基础案例的歌词、旋律、伴奏及时长能力合同；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM43-REFERENCES-K15-CL-GV04",
+      "scope": "任务需要多个交付对象，单一音频或单项控制报告不能证明其余对象满足。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM44-SUPPORTED-BY-K11-EV-AM44",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实听评，词ID不等语音识别。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM44-APPLIES-UNDER-K11-CTX-AM44",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实听评，词ID不等语音识别。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM44-REFERENCES-K10-CL-EV12",
+      "scope": "词与音符事件绑定、文本和时间一致性及编辑字段需要独立评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM44-REQUIRES-K11-CL-AM14",
+      "scope": "本扩展案例使用前一基础案例的段落、词身份与时间边界；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM45-SUPPORTED-BY-K11-EV-AM45",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "有限线性平均非实际模型解码器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM45-APPLIES-UNDER-K11-CTX-AM45",
+      "scope": "明确题设及证据条件。",
+      "limits": "有限线性平均非实际模型解码器。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM45-REFERENCES-K01-CL-08-06-03",
+      "scope": "在明确允许字段集的符号修订中，受保护事件不得变化；latent及波形保护仍须另测。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM45-REQUIRES-K11-CL-AM15",
+      "scope": "本扩展案例使用前一基础案例的局部掩码及受保护输出域；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM46-SUPPORTED-BY-K11-EV-AM46",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不以玩具时值推模型支持。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM46-APPLIES-UNDER-K11-CTX-AM46",
+      "scope": "明确题设及证据条件。",
+      "limits": "不以玩具时值推模型支持。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM46-REFERENCES-K06-CL-VT12",
+      "scope": "歌唱目标需分别对齐音节、音符及发音起点，不从普通TTS推谱面一致。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM46-REQUIRES-K11-CL-AM16",
+      "scope": "本扩展案例使用前一基础案例的歌唱音符时值与TTS目标区别；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM47-SUPPORTED-BY-K11-EV-AM47",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "算术均值非通用音准指标或唱法判断。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM47-APPLIES-UNDER-K11-CTX-AM47",
+      "scope": "明确题设及证据条件。",
+      "limits": "算术均值非通用音准指标或唱法判断。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM47-REFERENCES-K10-CL-EV01",
+      "scope": "F0统计必须绑定有声参考及有效分母，无声并非零音高。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM47-REQUIRES-K11-CL-AM17",
+      "scope": "本扩展案例使用前一基础案例的有声掩码及目标F0条件；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM48-SUPPORTED-BY-K11-EV-AM48",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真人、音频或声库资格。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM48-APPLIES-UNDER-K11-CTX-AM48",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真人、音频或声库资格。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM48-REFERENCES-K05-CL-VS45",
+      "scope": "固定音高下音色还可能受声源、声道、采集影响；组件对照不能识别个体身份。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM48-REQUIRES-K11-CL-AM18",
+      "scope": "本扩展案例使用前一基础案例的mel/vocoder组件版本与条件隔离；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM49-SUPPORTED-BY-K11-EV-AM49",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "SVCC2023明确区分谱面和部分歌手相关风格；无声线操作。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM49-APPLIES-UNDER-K11-CTX-AM49",
+      "scope": "明确题设及证据条件。",
+      "limits": "SVCC2023明确区分谱面和部分歌手相关风格；无声线操作。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM49-REFERENCES-K09-CL-MP08",
+      "scope": "音高中心、颤音与滑音保护须分开定义，转换保留目标依具体任务。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM49-REQUIRES-K11-CL-AM19",
+      "scope": "本扩展案例使用前一基础案例的音色改变与保护内容、F0、时值；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM50-SUPPORTED-BY-K11-EV-AM50",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实分离或SDR计算。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM50-APPLIES-UNDER-K11-CTX-AM50",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实分离或SDR计算。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM50-REFERENCES-K08-CL-DA22",
+      "scope": "混合一致性不等分离真值，目标轨保留和串音需参考。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM50-REQUIRES-K11-CL-AM20",
+      "scope": "本扩展案例使用前一基础案例的参考轨、混合及分离误差；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM51-SUPPORTED-BY-K11-EV-AM51",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未知参考则不做唯一归因；K09/K12状态。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM51-APPLIES-UNDER-K11-CTX-AM51",
+      "scope": "明确题设及证据条件。",
+      "limits": "未知参考则不做唯一归因；K09/K12状态。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM51-REQUIRES-K11-CL-AM21",
+      "scope": "本扩展案例使用前一基础案例的级联工件与误差来源版本；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM51-REFERENCES-K15-CL-GV21",
+      "scope": "派生关系及来源谱系可用于定位中间工件和下游失效，实际授权另核。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM52-SUPPORTED-BY-K11-EV-AM52",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不外推整体训练显存或声音质量。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM52-APPLIES-UNDER-K11-CTX-AM52",
+      "scope": "明确题设及证据条件。",
+      "limits": "不外推整体训练显存或声音质量。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM52-REQUIRES-K11-CL-AM22",
+      "scope": "本扩展案例使用前一基础案例的低秩矩阵形状和训练参数范围；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM52-REFERENCES-K15-CL-GV09",
+      "scope": "低秩训练的基座、有效参数与配置版本须绑定；工程可复现身份供导航。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM53-SUPPORTED-BY-K11-EV-AM53",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设分数非模型或人体实验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM53-APPLIES-UNDER-K11-CTX-AM53",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设分数非模型或人体实验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM53-REFERENCES-K10-CL-EV52",
+      "scope": "参考与权重变化应使用相同输入条件和明确配对设计以分离变量。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM53-REQUIRES-K11-CL-AM23",
+      "scope": "本扩展案例使用前一基础案例的推理参考与权重变化的独立变量；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM54-SUPPORTED-BY-K11-EV-AM54",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "概率/分数有限示意，无训练。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM54-APPLIES-UNDER-K11-CTX-AM54",
+      "scope": "明确题设及证据条件。",
+      "limits": "概率/分数有限示意，无训练。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM54-REFERENCES-K10-CL-EV49",
+      "scope": "代理奖励不能取代硬条件、独立目标与开放量规评价。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM54-REQUIRES-K11-CL-AM24",
+      "scope": "本扩展案例使用前一基础案例的代理目标及独立评价边界；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM55-SUPPORTED-BY-K11-EV-AM55",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不声称GPU兼容。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM55-APPLIES-UNDER-K11-CTX-AM55",
+      "scope": "明确题设及证据条件。",
+      "limits": "不声称GPU兼容。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM55-REFERENCES-K08-CL-DA04",
+      "scope": "数据载荷的数量×字节计数仅对应明确对象，不能代替完整运行资源预算。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM55-REQUIRES-K11-CL-AM25",
+      "scope": "本扩展案例使用前一基础案例的权重存储与其余运行资源；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM56-SUPPORTED-BY-K11-EV-AM56",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "未运行框架。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM56-APPLIES-UNDER-K11-CTX-AM56",
+      "scope": "明确题设及证据条件。",
+      "limits": "未运行框架。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM56-REFERENCES-K02-CL-CO-45",
+      "scope": "随机流复现要求算法、版本、种子、抽取顺序及映射，不只一个seed。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM56-REQUIRES-K11-CL-AM26",
+      "scope": "本扩展案例使用前一基础案例的随机源、模型版本与复现条件；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM57-SUPPORTED-BY-K11-EV-AM57",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "实际API状态和幂等能力K12；无执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM57-APPLIES-UNDER-K11-CTX-AM57",
+      "scope": "明确题设及证据条件。",
+      "limits": "实际API状态和幂等能力K12；无执行。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM57-REFERENCES-K08-CL-DA18",
+      "scope": "故障日志、实际样本缺失、派生产物与未知状态须分别保留，不能盲目覆盖。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM57-REQUIRES-K11-CL-AM27",
+      "scope": "本扩展案例使用前一基础案例的失败与未知产物的安全处置；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM58-SUPPORTED-BY-K11-EV-AM58",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "只是高斯标量公式，不是实际FAD工具或音频。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM58-APPLIES-UNDER-K11-CTX-AM58",
+      "scope": "明确题设及证据条件。",
+      "limits": "只是高斯标量公式，不是实际FAD工具或音频。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM58-REFERENCES-K10-CL-EV54",
+      "scope": "数据划分、参考、实现和参数是指标比较的报告身份；不同定义不能直接合并。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM58-REQUIRES-K11-CL-AM28",
+      "scope": "本扩展案例使用前一基础案例的数据、参考及指标协议可比性；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM59-SUPPORTED-BY-K11-EV-AM59",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "登记ID不证明无未标识重复。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM59-APPLIES-UNDER-K11-CTX-AM59",
+      "scope": "明确题设及证据条件。",
+      "limits": "登记ID不证明无未标识重复。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM59-REQUIRES-K11-CL-AM29",
+      "scope": "本扩展案例使用前一基础案例的明确任务留出目标和身份分组；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K11-E-AM59-REFERENCES-K15-CL-GV19",
+      "scope": "数据集及各素材的身份、版本与用途需单独登记；留出身份检查不替代许可。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM60-SUPPORTED-BY-K11-EV-AM60",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不推断S117撤回导致所有相关研究失效。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM60-APPLIES-UNDER-K11-CTX-AM60",
+      "scope": "明确题设及证据条件。",
+      "limits": "不推断S117撤回导致所有相关研究失效。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K11-E-AM60-REFERENCES-K10-CL-EV27",
+      "scope": "具体候选、输入、参考和指标版本改变会使旧报告不再适用，历史证据仍保留。",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K11-E-AM60-REQUIRES-K11-CL-AM30",
+      "scope": "本扩展案例使用前一基础案例的模型版本、证据层和撤回状态；先满足相同专业定义，才可解释扩展题设。",
+      "limits": "限定必要知识，供给方适用性另核。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K11-E-AM31-REQUIRES-K11-CL-AM01",
+      "consumer": "K11-CL-AM31@1",
+      "provider": "K11-CL-AM01@1",
+      "condition": "K11-CTX-AM31@1",
+      "providerContext": "K11-CTX-AM01@1",
+      "group": "K11-GR-AM31@1"
+    },
+    {
+      "edge": "K11-E-AM32-REQUIRES-K11-CL-AM02",
+      "consumer": "K11-CL-AM32@1",
+      "provider": "K11-CL-AM02@1",
+      "condition": "K11-CTX-AM32@1",
+      "providerContext": "K11-CTX-AM02@1",
+      "group": "K11-GR-AM32@1"
+    },
+    {
+      "edge": "K11-E-AM33-REQUIRES-K11-CL-AM03",
+      "consumer": "K11-CL-AM33@1",
+      "provider": "K11-CL-AM03@1",
+      "condition": "K11-CTX-AM33@1",
+      "providerContext": "K11-CTX-AM03@1",
+      "group": "K11-GR-AM33@1"
+    },
+    {
+      "edge": "K11-E-AM34-REQUIRES-K11-CL-AM04",
+      "consumer": "K11-CL-AM34@1",
+      "provider": "K11-CL-AM04@1",
+      "condition": "K11-CTX-AM34@1",
+      "providerContext": "K11-CTX-AM04@1",
+      "group": "K11-GR-AM34@1"
+    },
+    {
+      "edge": "K11-E-AM35-REQUIRES-K11-CL-AM05",
+      "consumer": "K11-CL-AM35@1",
+      "provider": "K11-CL-AM05@1",
+      "condition": "K11-CTX-AM35@1",
+      "providerContext": "K11-CTX-AM05@1",
+      "group": "K11-GR-AM35@1"
+    },
+    {
+      "edge": "K11-E-AM36-REQUIRES-K11-CL-AM06",
+      "consumer": "K11-CL-AM36@1",
+      "provider": "K11-CL-AM06@1",
+      "condition": "K11-CTX-AM36@1",
+      "providerContext": "K11-CTX-AM06@1",
+      "group": "K11-GR-AM36@1"
+    },
+    {
+      "edge": "K11-E-AM37-REQUIRES-K11-CL-AM07",
+      "consumer": "K11-CL-AM37@1",
+      "provider": "K11-CL-AM07@1",
+      "condition": "K11-CTX-AM37@1",
+      "providerContext": "K11-CTX-AM07@1",
+      "group": "K11-GR-AM37@1"
+    },
+    {
+      "edge": "K11-E-AM38-REQUIRES-K11-CL-AM08",
+      "consumer": "K11-CL-AM38@1",
+      "provider": "K11-CL-AM08@1",
+      "condition": "K11-CTX-AM38@1",
+      "providerContext": "K11-CTX-AM08@1",
+      "group": "K11-GR-AM38@1"
+    },
+    {
+      "edge": "K11-E-AM39-REQUIRES-K11-CL-AM09",
+      "consumer": "K11-CL-AM39@1",
+      "provider": "K11-CL-AM09@1",
+      "condition": "K11-CTX-AM39@1",
+      "providerContext": "K11-CTX-AM09@1",
+      "group": "K11-GR-AM39@1"
+    },
+    {
+      "edge": "K11-E-AM40-REQUIRES-K11-CL-AM10",
+      "consumer": "K11-CL-AM40@1",
+      "provider": "K11-CL-AM10@1",
+      "condition": "K11-CTX-AM40@1",
+      "providerContext": "K11-CTX-AM10@1",
+      "group": "K11-GR-AM40@1"
+    },
+    {
+      "edge": "K11-E-AM41-REQUIRES-K11-CL-AM11",
+      "consumer": "K11-CL-AM41@1",
+      "provider": "K11-CL-AM11@1",
+      "condition": "K11-CTX-AM41@1",
+      "providerContext": "K11-CTX-AM11@1",
+      "group": "K11-GR-AM41@1"
+    },
+    {
+      "edge": "K11-E-AM42-REQUIRES-K11-CL-AM12",
+      "consumer": "K11-CL-AM42@1",
+      "provider": "K11-CL-AM12@1",
+      "condition": "K11-CTX-AM42@1",
+      "providerContext": "K11-CTX-AM12@1",
+      "group": "K11-GR-AM42@1"
+    },
+    {
+      "edge": "K11-E-AM43-REQUIRES-K11-CL-AM13",
+      "consumer": "K11-CL-AM43@1",
+      "provider": "K11-CL-AM13@1",
+      "condition": "K11-CTX-AM43@1",
+      "providerContext": "K11-CTX-AM13@1",
+      "group": "K11-GR-AM43@1"
+    },
+    {
+      "edge": "K11-E-AM44-REQUIRES-K11-CL-AM14",
+      "consumer": "K11-CL-AM44@1",
+      "provider": "K11-CL-AM14@1",
+      "condition": "K11-CTX-AM44@1",
+      "providerContext": "K11-CTX-AM14@1",
+      "group": "K11-GR-AM44@1"
+    },
+    {
+      "edge": "K11-E-AM45-REQUIRES-K11-CL-AM15",
+      "consumer": "K11-CL-AM45@1",
+      "provider": "K11-CL-AM15@1",
+      "condition": "K11-CTX-AM45@1",
+      "providerContext": "K11-CTX-AM15@1",
+      "group": "K11-GR-AM45@1"
+    },
+    {
+      "edge": "K11-E-AM46-REQUIRES-K11-CL-AM16",
+      "consumer": "K11-CL-AM46@1",
+      "provider": "K11-CL-AM16@1",
+      "condition": "K11-CTX-AM46@1",
+      "providerContext": "K11-CTX-AM16@1",
+      "group": "K11-GR-AM46@1"
+    },
+    {
+      "edge": "K11-E-AM47-REQUIRES-K11-CL-AM17",
+      "consumer": "K11-CL-AM47@1",
+      "provider": "K11-CL-AM17@1",
+      "condition": "K11-CTX-AM47@1",
+      "providerContext": "K11-CTX-AM17@1",
+      "group": "K11-GR-AM47@1"
+    },
+    {
+      "edge": "K11-E-AM48-REQUIRES-K11-CL-AM18",
+      "consumer": "K11-CL-AM48@1",
+      "provider": "K11-CL-AM18@1",
+      "condition": "K11-CTX-AM48@1",
+      "providerContext": "K11-CTX-AM18@1",
+      "group": "K11-GR-AM48@1"
+    },
+    {
+      "edge": "K11-E-AM49-REQUIRES-K11-CL-AM19",
+      "consumer": "K11-CL-AM49@1",
+      "provider": "K11-CL-AM19@1",
+      "condition": "K11-CTX-AM49@1",
+      "providerContext": "K11-CTX-AM19@1",
+      "group": "K11-GR-AM49@1"
+    },
+    {
+      "edge": "K11-E-AM50-REQUIRES-K11-CL-AM20",
+      "consumer": "K11-CL-AM50@1",
+      "provider": "K11-CL-AM20@1",
+      "condition": "K11-CTX-AM50@1",
+      "providerContext": "K11-CTX-AM20@1",
+      "group": "K11-GR-AM50@1"
+    },
+    {
+      "edge": "K11-E-AM51-REQUIRES-K11-CL-AM21",
+      "consumer": "K11-CL-AM51@1",
+      "provider": "K11-CL-AM21@1",
+      "condition": "K11-CTX-AM51@1",
+      "providerContext": "K11-CTX-AM21@1",
+      "group": "K11-GR-AM51@1"
+    },
+    {
+      "edge": "K11-E-AM52-REQUIRES-K11-CL-AM22",
+      "consumer": "K11-CL-AM52@1",
+      "provider": "K11-CL-AM22@1",
+      "condition": "K11-CTX-AM52@1",
+      "providerContext": "K11-CTX-AM22@1",
+      "group": "K11-GR-AM52@1"
+    },
+    {
+      "edge": "K11-E-AM53-REQUIRES-K11-CL-AM23",
+      "consumer": "K11-CL-AM53@1",
+      "provider": "K11-CL-AM23@1",
+      "condition": "K11-CTX-AM53@1",
+      "providerContext": "K11-CTX-AM23@1",
+      "group": "K11-GR-AM53@1"
+    },
+    {
+      "edge": "K11-E-AM54-REQUIRES-K11-CL-AM24",
+      "consumer": "K11-CL-AM54@1",
+      "provider": "K11-CL-AM24@1",
+      "condition": "K11-CTX-AM54@1",
+      "providerContext": "K11-CTX-AM24@1",
+      "group": "K11-GR-AM54@1"
+    },
+    {
+      "edge": "K11-E-AM55-REQUIRES-K11-CL-AM25",
+      "consumer": "K11-CL-AM55@1",
+      "provider": "K11-CL-AM25@1",
+      "condition": "K11-CTX-AM55@1",
+      "providerContext": "K11-CTX-AM25@1",
+      "group": "K11-GR-AM55@1"
+    },
+    {
+      "edge": "K11-E-AM56-REQUIRES-K11-CL-AM26",
+      "consumer": "K11-CL-AM56@1",
+      "provider": "K11-CL-AM26@1",
+      "condition": "K11-CTX-AM56@1",
+      "providerContext": "K11-CTX-AM26@1",
+      "group": "K11-GR-AM56@1"
+    },
+    {
+      "edge": "K11-E-AM57-REQUIRES-K11-CL-AM27",
+      "consumer": "K11-CL-AM57@1",
+      "provider": "K11-CL-AM27@1",
+      "condition": "K11-CTX-AM57@1",
+      "providerContext": "K11-CTX-AM27@1",
+      "group": "K11-GR-AM57@1"
+    },
+    {
+      "edge": "K11-E-AM58-REQUIRES-K11-CL-AM28",
+      "consumer": "K11-CL-AM58@1",
+      "provider": "K11-CL-AM28@1",
+      "condition": "K11-CTX-AM58@1",
+      "providerContext": "K11-CTX-AM28@1",
+      "group": "K11-GR-AM58@1"
+    },
+    {
+      "edge": "K11-E-AM59-REQUIRES-K11-CL-AM29",
+      "consumer": "K11-CL-AM59@1",
+      "provider": "K11-CL-AM29@1",
+      "condition": "K11-CTX-AM59@1",
+      "providerContext": "K11-CTX-AM29@1",
+      "group": "K11-GR-AM59@1"
+    },
+    {
+      "edge": "K11-E-AM60-REQUIRES-K11-CL-AM30",
+      "consumer": "K11-CL-AM60@1",
+      "provider": "K11-CL-AM30@1",
+      "condition": "K11-CTX-AM60@1",
+      "providerContext": "K11-CTX-AM30@1",
+      "group": "K11-GR-AM60@1"
+    }
+  ]
+}

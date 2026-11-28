@@ -1,0 +1,949 @@
+{
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "rows": [
+    {
+      "d4": "K16.01.01.01",
+      "claim": "K16-CL-MU01@1",
+      "directCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "supportCQ": [],
+      "localCQ": [
+        "CQ-K16-01"
+      ],
+      "caseId": "MU01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 5,
+        "row": "| K16.01.01.01 | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | 题设1920节目单记演出、1980口述回忆1920、2003研究者据二者解释；分别记证据身份、作者、记录日和所指事件日。节目单只证计划非实际发生。 |"
+      }
+    },
+    {
+      "d4": "K16.01.02.01",
+      "claim": "K16-CL-MU02@1",
+      "directCQ": [
+        "CQ13"
+      ],
+      "supportCQ": [
+        "CQ21"
+      ],
+      "localCQ": [],
+      "caseId": "MU02",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 6,
+        "row": "| K16.01.02.01 | [MU02/K16.01.02.01](musicology-r1-knowledge-cases.md#L6) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 题设1930描述私传、1970描述学校传习，记时地及两个研究者不同范围；并存不必互斥。 |"
+      }
+    },
+    {
+      "d4": "K16.01.03.01",
+      "claim": "K16-CL-MU03@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ24"
+      ],
+      "localCQ": [
+        "CQ-K16-02"
+      ],
+      "caseId": "MU03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 7,
+        "row": "| K16.01.03.01 | [MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7) | [S571](../../research/source-qualification-musicology-r1-r2.md#L5)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8) | 两个合成旋律动机相似但无接触证据，仅记相似；若另得带日期的改编记录且来源可靠，建立影响候选。 |"
+      }
+    },
+    {
+      "d4": "K16.02.01.01",
+      "claim": "K16-CL-MU04@1",
+      "directCQ": [
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ15"
+      ],
+      "localCQ": [],
+      "caseId": "MU04",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 8,
+        "row": "| K16.02.01.01 | [MU04/K16.02.01.01](musicology-r1-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | CMS报告描述宫廷传统经戏剧、学校和私人传习延续；SFW40492录音为2000 Rangoon，不能给该录音补传承谱系。分别记录时地、群体、来源与未见字段。 |"
+      }
+    },
+    {
+      "d4": "K16.02.02.01",
+      "claim": "K16-CL-MU05@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ12"
+      ],
+      "localCQ": [],
+      "caseId": "MU05",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 9,
+        "row": "| K16.02.02.01 | [MU05/K16.02.02.01](musicology-r1-knowledge-cases.md#L9) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8) | 2013 Ferguson摘要记改写缅语歌词且保留部分国际歌曲旋律/风格；题设另有明确源作品与改编者记录才绑定一对一关系。 |"
+      }
+    },
+    {
+      "d4": "K16.02.02.02",
+      "claim": "K16-CL-MU06@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU06",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 10,
+        "row": "| K16.02.02.02 | [MU06/K16.02.02.02](musicology-r1-knowledge-cases.md#L10) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | CMS记电影广播及西式乐器适配；NIU第6卷为介绍音乐的广播项目。分别是历史概括和目录证据，不能据后者确定所有传播路径。 |"
+      }
+    },
+    {
+      "d4": "K16.02.03.01",
+      "claim": "K16-CL-MU07@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "localCQ": [],
+      "caseId": "MU07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 11,
+        "row": "| K16.02.03.01 | [MU07/K16.02.03.01](musicology-r1-knowledge-cases.md#L11) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | Folkways专辑市场genre字段为World、介绍称thachìn gyì；二者分别标发行分类和报告所称传统，不将World当当地自称。 |"
+      }
+    },
+    {
+      "d4": "K16.02.03.02",
+      "claim": "K16-CL-MU08@1",
+      "directCQ": [
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ02"
+      ],
+      "localCQ": [],
+      "caseId": "MU08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 12,
+        "row": "| K16.02.03.02 | [MU08/K16.02.03.02](musicology-r1-knowledge-cases.md#L12) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 同一传统目录可以按曲种、编制、用途或发行类型多维索引；题设两地两年代异类标签并存，各有规则。 |"
+      }
+    },
+    {
+      "d4": "K16.02.04.01",
+      "claim": "K16-CL-MU09@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ04",
+        "CQ12"
+      ],
+      "localCQ": [
+        "CQ-K16-03"
+      ],
+      "caseId": "MU09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 13,
+        "row": "| K16.02.04.01 | [MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13) | [S574](../../research/source-qualification-musicology-r1-r2.md#L8)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | Ferguson 2013摘要描述copy thachin中不同程度的词义忠实；2016年另一研究摘要记录支持者的学习论与批评者的衍生性论。2013/2016是文献发表年份，非具体田野观察年份；只标作者转述。 |"
+      }
+    },
+    {
+      "d4": "K16.03.01.01",
+      "claim": "K16-CL-MU10@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ03"
+      ],
+      "localCQ": [],
+      "caseId": "MU10",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 14,
+        "row": "| K16.03.01.01 | [MU10/K16.03.01.01](musicology-r1-knowledge-cases.md#L14) | [S579](../../research/source-qualification-musicology-r1-r2.md#L13)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | NIU目录Kyo有voice+pattala及混合编制两卷；2021论文摘要特定Yangon合奏的一次仪式分析，记录具体场合及变体证据类型。 |"
+      }
+    },
+    {
+      "d4": "K16.03.01.02",
+      "claim": "K16-CL-MU11@1",
+      "directCQ": [
+        "CQ18",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ03"
+      ],
+      "localCQ": [
+        "CQ-K16-04"
+      ],
+      "caseId": "MU11",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 15,
+        "row": "| K16.03.01.02 | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | SFW40492为竖琴与人声古典曲目选录；CMS报告hsaing可在节庆/戏剧/仪式，小型室内编制也可演相关曲目。分别记录曲集、编制与场合。 |"
+      }
+    },
+    {
+      "d4": "K16.04.01.01",
+      "claim": "K16-CL-MU12@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ19"
+      ],
+      "localCQ": [],
+      "caseId": "MU12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 16,
+        "row": "| K16.04.01.01 | [MU12/K16.04.01.01](musicology-r1-knowledge-cases.md#L16) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15) | 题设两位参与者P1/P2对同场活动说明不同，研究者观察仅限一场；登记陈述者、时地、招募及未访问群体。 |"
+      }
+    },
+    {
+      "d4": "K16.04.02.01",
+      "claim": "K16-CL-MU13@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ11"
+      ],
+      "localCQ": [
+        "CQ-K16-05"
+      ],
+      "caseId": "MU13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 17,
+        "row": "| K16.04.02.01 | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15) | 同一题设事件中参与者说用途X，研究者提出解释Y，外部听众偏好Z；三列不互相替代，研究者说明自己的位置。 |"
+      }
+    },
+    {
+      "d4": "K16.05.01.01",
+      "claim": "K16-CL-MU14@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ15"
+      ],
+      "localCQ": [],
+      "caseId": "MU14",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 18,
+        "row": "| K16.05.01.01 | [MU14/K16.05.01.01](musicology-r1-knowledge-cases.md#L18) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | 目录分别列Nat Pwe、广播介绍、民歌；题设同曲在仪式、娱乐或教学的两场记录各按证实功能标记，可多标签。 |"
+      }
+    },
+    {
+      "d4": "K16.05.01.02",
+      "claim": "K16-CL-MU15@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU15",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 19,
+        "row": "| K16.05.01.02 | [MU15/K16.05.01.02](musicology-r1-knowledge-cases.md#L19) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | S580摘要讨论表演与舞蹈互动；题设演奏者与听众对同段分别赋予庆典意义、审美意义，标主体和场合。 |"
+      }
+    },
+    {
+      "d4": "K16.05.02.01",
+      "claim": "K16-CL-MU16@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [
+        "CQ-K16-06"
+      ],
+      "caseId": "MU16",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 20,
+        "row": "| K16.05.02.01 | [MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 题设仅听到语言及相似音色，个体身份和社群自称UNKNOWN；文化标签描述作品或事件而非个人。 |"
+      }
+    },
+    {
+      "d4": "K16.05.02.02",
+      "claim": "K16-CL-MU17@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU17",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 21,
+        "row": "| K16.05.02.02 | [MU17/K16.05.02.02](musicology-r1-knowledge-cases.md#L21) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14) | 题设仪式现场有参与者A、观察者B；另有翻唱项目目标听众C。现场观察与项目假设分表，不用A代C。 |"
+      }
+    },
+    {
+      "d4": "K16.06.01.01",
+      "claim": "K16-CL-MU18@1",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "localCQ": [
+        "CQ-K16-07"
+      ],
+      "caseId": "MU18",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 22,
+        "row": "| K16.06.01.01 | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22) | [S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S583](../../research/source-qualification-musicology-r1-r2.md#L17) | Ferguson摘要两种copy thachin评价；SEP真实性争论按不同忠实维度与价值区分。各自保留评价主体、依据及年代。 |"
+      }
+    },
+    {
+      "d4": "K16.06.02.01",
+      "claim": "K16-CL-MU19@1",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ22"
+      ],
+      "localCQ": [],
+      "caseId": "MU19",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 23,
+        "row": "| K16.06.02.01 | [MU19/K16.06.02.01](musicology-r1-knowledge-cases.md#L23) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | 题设传统惯例A、作品明确要求B、演奏者艺术选择C；SEP讨论不同作品对乐器的要求不同，不能把一般习惯等同作品规范。 |"
+      }
+    },
+    {
+      "d4": "K16.06.02.02",
+      "claim": "K16-CL-MU20@1",
+      "directCQ": [
+        "CQ17"
+      ],
+      "supportCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "localCQ": [],
+      "caseId": "MU20",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 24,
+        "row": "| K16.06.02.02 | [MU20/K16.06.02.02](musicology-r1-knowledge-cases.md#L24) | [S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S583](../../research/source-qualification-musicology-r1-r2.md#L17) | 题设同一改编被解释为学习借鉴或衍生性，分别记证据、价值维度及情境；相同资料可容不同解释。 |"
+      }
+    },
+    {
+      "d4": "K16.07.01.01",
+      "claim": "K16-CL-MU21@1",
+      "directCQ": [
+        "CQ18"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "localCQ": [],
+      "caseId": "MU21",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 25,
+        "row": "| K16.07.01.01 | [MU21/K16.07.01.01](musicology-r1-knowledge-cases.md#L25) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S573](../../research/source-qualification-musicology-r1-r2.md#L7) | S577原文列Hnyìnloùn等竖琴调律标签和适用语境；S573的thachin gyi为曲种/传统名。保存原转写及不同术语对象，不以字形归一。 |"
+      }
+    },
+    {
+      "d4": "K16.07.01.02",
+      "claim": "K16-CL-MU22@1",
+      "directCQ": [
+        "CQ18"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ02"
+      ],
+      "localCQ": [
+        "CQ-K16-08"
+      ],
+      "caseId": "MU22",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 26,
+        "row": "| K16.07.01.02 | [MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | S577以西方音名加偏移描述竖琴示例，固定音高乐器选用不同音；S585文字仅提示athan语义需按使用场合核。映射为近似表示不是原生概念等价。 |"
+      }
+    },
+    {
+      "d4": "K16.07.02.01",
+      "claim": "K16-CL-MU23@1",
+      "directCQ": [
+        "CQ18"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "localCQ": [
+        "CQ-K16-09"
+      ],
+      "caseId": "MU23",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 27,
+        "row": "| K16.07.02.01 | [MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11) | S577明确同一演奏者不同曲目、不同演奏者和地区可异，所列最高G为记谱参考，实际可移；Hnyìnloùn例E约低56 cents、B约低62 cents仅该琴师示例。 |"
+      }
+    },
+    {
+      "d4": "K16.07.02.02",
+      "claim": "K16-CL-MU24@1",
+      "directCQ": [
+        "CQ18"
+      ],
+      "supportCQ": [
+        "CQ01"
+      ],
+      "localCQ": [],
+      "caseId": "MU24",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 28,
+        "row": "| K16.07.02.02 | [MU24/K16.07.02.02](musicology-r1-knowledge-cases.md#L28) | [S577](../../research/source-qualification-musicology-r1-r2.md#L11)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | 保存来源拼写Hnyìnloùn、Aupyan、myìn zäìn等；对另一历史转写题设T2仅登记未证对应，不自动拼写合并。 |"
+      }
+    },
+    {
+      "d4": "K16.07.03.01",
+      "claim": "K16-CL-MU25@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ12",
+        "CQ19"
+      ],
+      "localCQ": [],
+      "caseId": "MU25",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 29,
+        "row": "| K16.07.03.01 | [MU25/K16.07.03.01](musicology-r1-knowledge-cases.md#L29) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | S580摘要是具名一次仪式研究；题设仪式音段R可现场听不代表可录、复制或训练；参与者/仪式材料与访问条件分开。 |"
+      }
+    },
+    {
+      "d4": "K16.07.03.02",
+      "claim": "K16-CL-MU26@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU26",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 30,
+        "row": "| K16.07.03.02 | [MU26/K16.07.03.02](musicology-r1-knowledge-cases.md#L30) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 题设社群A仅允许内部研究，档案目录公开而录音受限；记录惯例来源、适用主体、时间和变化，访问与再用分开。 |"
+      }
+    },
+    {
+      "d4": "K16.01.04.01",
+      "claim": "K16-CL-MU27@1",
+      "directCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ20"
+      ],
+      "localCQ": [],
+      "caseId": "MU27",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 31,
+        "row": "| K16.01.04.01 | [MU27/K16.01.04.01](musicology-r2-knowledge-cases.md#L5) | [S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S571](../../research/source-qualification-musicology-r1-r2.md#L5) | RISM示例Caccini 1618印本引用含馆藏I-MOe D.39和RISM990007800；作品、印本、馆藏、目录记录四类身份独立。 |"
+      }
+    },
+    {
+      "d4": "K16.01.05.01",
+      "claim": "K16-CL-MU28@1",
+      "directCQ": [
+        "CQ13"
+      ],
+      "supportCQ": [
+        "CQ21"
+      ],
+      "localCQ": [],
+      "caseId": "MU28",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 32,
+        "row": "| K16.01.05.01 | [MU28/K16.01.05.01](musicology-r2-knowledge-cases.md#L6) | [S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S571](../../research/source-qualification-musicology-r1-r2.md#L5) | 题设作品作于1700，手稿约1750，现代校订版2000；RISM260日期属载体非作品。记录约数和校订者决定。 |"
+      }
+    },
+    {
+      "d4": "K16.02.05.01",
+      "claim": "K16-CL-MU29@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ21"
+      ],
+      "localCQ": [],
+      "caseId": "MU29",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 33,
+        "row": "| K16.02.05.01 | [MU29/K16.02.05.01](musicology-r2-knowledge-cases.md#L7) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S574](../../research/source-qualification-musicology-r1-r2.md#L8)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | 历史传播图题设A→B有媒介及日期，B→C仅相似。只列有证路径A→B；C保留候选，不能经未证边传递。 |"
+      }
+    },
+    {
+      "d4": "K16.02.06.01",
+      "claim": "K16-CL-MU30@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU30",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 34,
+        "row": "| K16.02.06.01 | [MU30/K16.02.06.01](musicology-r2-knowledge-cases.md#L8) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | RISM偏历史手稿/印本，NIU目录含广播与民歌；不同历史证据载体覆盖不同，时间线允许同代不同传统。 |"
+      }
+    },
+    {
+      "d4": "K16.03.02.01",
+      "claim": "K16-CL-MU31@1",
+      "directCQ": [
+        "CQ18"
+      ],
+      "supportCQ": [
+        "CQ03",
+        "CQ24"
+      ],
+      "localCQ": [
+        "CQ-K16-10"
+      ],
+      "caseId": "MU31",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 35,
+        "row": "| K16.03.02.01 | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9) | [S578](../../research/source-qualification-musicology-r1-r2.md#L12)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | Met对象89.4.1465a,b为19世纪13弦、Mandalay?；Folkways说明文描述16弦竖琴。对象/时期/来源不同，保留并存，不能直接推出历时演变。 |"
+      }
+    },
+    {
+      "d4": "K16.03.03.01",
+      "claim": "K16-CL-MU32@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU32",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 36,
+        "row": "| K16.03.03.01 | [MU32/K16.03.03.01](musicology-r2-knowledge-cases.md#L10) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S585](../../research/source-qualification-musicology-r1-r2.md#L19) | 2021摘要限定一次Do Ko Gyi Kyaw的旋律展开、节奏及舞蹈互动；题设两次演出共享基本动机但装饰和速度不同，需依据具体表演分析。 |"
+      }
+    },
+    {
+      "d4": "K16.03.04.01",
+      "claim": "K16-CL-MU33@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU33",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 37,
+        "row": "| K16.03.04.01 | [MU33/K16.03.04.01](musicology-r2-knowledge-cases.md#L11) | [S576](../../research/source-qualification-musicology-r1-r2.md#L10)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | SFW40492列9曲、2000录音、2003发行；NIU另列14卷。按目录层级保留卷/轨/版本、场合与来源，不把发行日期作表演日期。 |"
+      }
+    },
+    {
+      "d4": "K16.04.03.01",
+      "claim": "K16-CL-MU34@1",
+      "directCQ": [
+        "CQ17",
+        "CQ26"
+      ],
+      "supportCQ": [],
+      "localCQ": [
+        "CQ-K16-11"
+      ],
+      "caseId": "MU34",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 38,
+        "row": "| K16.04.03.01 | [MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12) | [S582](../../research/source-qualification-musicology-r1-r2.md#L16)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | Mehr等研究的民族志60个抽样社会皆有歌曲报告；题设5/8被访者同意只表示该题设样本。缺报不当否定。 |"
+      }
+    },
+    {
+      "d4": "K16.04.04.01",
+      "claim": "K16-CL-MU35@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU35",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 39,
+        "row": "| K16.04.04.01 | [MU35/K16.04.04.01](musicology-r2-knowledge-cases.md#L13) | [S582](../../research/source-qualification-musicology-r1-r2.md#L16)；[S577](../../research/source-qualification-musicology-r1-r2.md#L11) | 比较同一功能类别的声学标注时，控制记录场合、语料、表示和单位；题设A内差20/B内差30，跨组差10，不以跨组均值证明无内部差异。 |"
+      }
+    },
+    {
+      "d4": "K16.04.05.01",
+      "claim": "K16-CL-MU36@1",
+      "directCQ": [
+        "CQ25"
+      ],
+      "supportCQ": [
+        "CQ19"
+      ],
+      "localCQ": [],
+      "caseId": "MU36",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 40,
+        "row": "| K16.04.05.01 | [MU36/K16.04.05.01](musicology-r2-knowledge-cases.md#L14) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18) | 访谈、参与观察、场记及视听资料分开记录，先约目的和访问，允许拒答；Acusfere摘要报告三种材料的再分析及研究者位置。 |"
+      }
+    },
+    {
+      "d4": "K16.05.03.01",
+      "claim": "K16-CL-MU37@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU37",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 41,
+        "row": "| K16.05.03.01 | [MU37/K16.05.03.01](musicology-r2-knowledge-cases.md#L15) | [S573](../../research/source-qualification-musicology-r1-r2.md#L7)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9)；[S579](../../research/source-qualification-musicology-r1-r2.md#L13) | 广播、发行目录和产业政策是媒介层证据；Ferguson摘要将copy thachin争议置于特定历史产业条件，不推2026分布。 |"
+      }
+    },
+    {
+      "d4": "K16.05.04.01",
+      "claim": "K16-CL-MU38@1",
+      "directCQ": [],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU38",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 42,
+        "row": "| K16.05.04.01 | [MU38/K16.05.04.01](musicology-r2-knowledge-cases.md#L16) | [S580](../../research/source-qualification-musicology-r1-r2.md#L14)；[S581](../../research/source-qualification-musicology-r1-r2.md#L15)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 仪式研究摘要分别描述演奏者、舞者与仪式专家；题设角色A/B/C可兼任且随场合变化，不以单人身份推其所有实践。 |"
+      }
+    },
+    {
+      "d4": "K16.06.03.01",
+      "claim": "K16-CL-MU39@1",
+      "directCQ": [
+        "CQ26"
+      ],
+      "supportCQ": [],
+      "localCQ": [],
+      "caseId": "MU39",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 43,
+        "row": "| K16.06.03.01 | [MU39/K16.06.03.01](musicology-r2-knowledge-cases.md#L17) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S576](../../research/source-qualification-musicology-r1-r2.md#L10) | SEP讨论作品本体和作品实现：西方谱面、作品与表演的关系存在多种立场。题设同一作品的两演出和一录音分别登记。 |"
+      }
+    },
+    {
+      "d4": "K16.06.04.01",
+      "claim": "K16-CL-MU40@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ11",
+        "CQ22"
+      ],
+      "localCQ": [],
+      "caseId": "MU40",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 44,
+        "row": "| K16.06.04.01 | [MU40/K16.06.04.01](musicology-r2-knowledge-cases.md#L18) | [S583](../../research/source-qualification-musicology-r1-r2.md#L17)；[S575](../../research/source-qualification-musicology-r1-r2.md#L9) | SEP以羽管键琴/钢琴之争讨论音响、乐器、情境等真实性维度；题设A符合谱面、B更合解释目标，分维比较，不预设总排序。 |"
+      }
+    },
+    {
+      "d4": "K16.07.04.01",
+      "claim": "K16-CL-MU41@1",
+      "directCQ": [],
+      "supportCQ": [
+        "CQ19",
+        "CQ24"
+      ],
+      "localCQ": [],
+      "caseId": "MU41",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 45,
+        "row": "| K16.07.04.01 | [MU41/K16.07.04.01](musicology-r2-knowledge-cases.md#L19) | [S584](../../research/source-qualification-musicology-r1-r2.md#L18)；[S572](../../research/source-qualification-musicology-r1-r2.md#L6) | 题设访谈同意研究与档案限阅，不含发布；新用途需另与相关主体核，保留撤回或限制变更时间与影响。 |"
+      }
+    },
+    {
+      "d4": "K16.07.05.01",
+      "claim": "K16-CL-MU42@1",
+      "directCQ": [
+        "CQ25"
+      ],
+      "supportCQ": [
+        "CQ14",
+        "CQ20"
+      ],
+      "localCQ": [
+        "CQ-K16-12"
+      ],
+      "caseId": "MU42",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 46,
+        "row": "| K16.07.05.01 | [MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) | [S572](../../research/source-qualification-musicology-r1-r2.md#L6)；[S584](../../research/source-qualification-musicology-r1-r2.md#L18)；[S586](../../research/source-qualification-musicology-r1-r2.md#L20) | 题设档案目录公开、受限音频和逐字稿只对授权研究者开放；最小公开元数据不泄露个人/敏感场合，拒绝按目录开放继承。 |"
+      }
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K16-01",
+      "question": "同期记录与口述可否互换？",
+      "caseIds": [
+        "MU01"
+      ],
+      "limits": "事件/记录时间独立",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 79,
+        "row": "| CQ-K16-01 | 同期记录与口述可否互换？ | [MU01/K16.01.01.01](musicology-r1-knowledge-cases.md#L5) | 事件/记录时间独立 |"
+      }
+    },
+    {
+      "id": "CQ-K16-02",
+      "question": "相似性证明影响吗？",
+      "caseIds": [
+        "MU03"
+      ],
+      "limits": "接触、时序和竞争路径",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 80,
+        "row": "| CQ-K16-02 | 相似性证明影响吗？ | [MU03/K16.01.03.01](musicology-r1-knowledge-cases.md#L7) | 接触、时序和竞争路径 |"
+      }
+    },
+    {
+      "id": "CQ-K16-03",
+      "question": "历史copy thachin能否授权今日改编？",
+      "caseIds": [
+        "MU09"
+      ],
+      "limits": "历史/评价/许可各层",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 81,
+        "row": "| CQ-K16-03 | 历史copy thachin能否授权今日改编？ | [MU09/K16.02.04.01](musicology-r1-knowledge-cases.md#L13) | 历史/评价/许可各层 |"
+      }
+    },
+    {
+      "id": "CQ-K16-04",
+      "question": "曲种、乐器、场合是否同一？",
+      "caseIds": [
+        "MU11"
+      ],
+      "limits": "曲集/编制/用途分开",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 82,
+        "row": "| CQ-K16-04 | 曲种、乐器、场合是否同一？ | [MU11/K16.03.01.02](musicology-r1-knowledge-cases.md#L15) | 曲集/编制/用途分开 |"
+      }
+    },
+    {
+      "id": "CQ-K16-05",
+      "question": "研究者意见等于参与者陈述吗？",
+      "caseIds": [
+        "MU13"
+      ],
+      "limits": "观点主体",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 83,
+        "row": "| CQ-K16-05 | 研究者意见等于参与者陈述吗？ | [MU13/K16.04.02.01](musicology-r1-knowledge-cases.md#L17) | 观点主体 |"
+      }
+    },
+    {
+      "id": "CQ-K16-06",
+      "question": "语言音色可否推身份？",
+      "caseIds": [
+        "MU16"
+      ],
+      "limits": "不推断个人身份",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 84,
+        "row": "| CQ-K16-06 | 语言音色可否推身份？ | [MU16/K16.05.02.01](musicology-r1-knowledge-cases.md#L20) | 不推断个人身份 |"
+      }
+    },
+    {
+      "id": "CQ-K16-07",
+      "question": "真实性等于质量吗？",
+      "caseIds": [
+        "MU18"
+      ],
+      "limits": "维度/主体/语境",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 85,
+        "row": "| CQ-K16-07 | 真实性等于质量吗？ | [MU18/K16.06.01.01](musicology-r1-knowledge-cases.md#L22) | 维度/主体/语境 |"
+      }
+    },
+    {
+      "id": "CQ-K16-08",
+      "question": "近似十二平均律等于原生概念吗？",
+      "caseIds": [
+        "MU22"
+      ],
+      "limits": "语义证据独立",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 86,
+        "row": "| CQ-K16-08 | 近似十二平均律等于原生概念吗？ | [MU22/K16.07.01.02](musicology-r1-knowledge-cases.md#L26) | 语义证据独立 |"
+      }
+    },
+    {
+      "id": "CQ-K16-09",
+      "question": "参考G是否固定，偏移是否通用？",
+      "caseIds": [
+        "MU23"
+      ],
+      "limits": "参考、琴师、曲目",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 87,
+        "row": "| CQ-K16-09 | 参考G是否固定，偏移是否通用？ | [MU23/K16.07.02.01](musicology-r1-knowledge-cases.md#L27) | 参考、琴师、曲目 |"
+      }
+    },
+    {
+      "id": "CQ-K16-10",
+      "question": "13弦与16弦必冲突吗？",
+      "caseIds": [
+        "MU31"
+      ],
+      "limits": "器物范围与年代",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 88,
+        "row": "| CQ-K16-10 | 13弦与16弦必冲突吗？ | [MU31/K16.03.02.01](musicology-r2-knowledge-cases.md#L9) | 器物范围与年代 |"
+      }
+    },
+    {
+      "id": "CQ-K16-11",
+      "question": "60/60样本说明什么？",
+      "caseIds": [
+        "MU34"
+      ],
+      "limits": "观察样本非每个个体",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 89,
+        "row": "| CQ-K16-11 | 60/60样本说明什么？ | [MU34/K16.04.03.01](musicology-r2-knowledge-cases.md#L12) | 观察样本非每个个体 |"
+      }
+    },
+    {
+      "id": "CQ-K16-12",
+      "question": "目录公开是否等于媒体可重用？",
+      "caseIds": [
+        "MU42"
+      ],
+      "limits": "独立访问/许可",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/musicology-r3-discovery-cq.md",
+        "blob": "6cfe046c283f827ab0172a890e6cf2e569bb3db7",
+        "line": 90,
+        "row": "| CQ-K16-12 | 目录公开是否等于媒体可重用？ | [MU42/K16.07.05.01](musicology-r2-knowledge-cases.md#L20) | 独立访问/许可 |"
+      }
+    }
+  ]
+}

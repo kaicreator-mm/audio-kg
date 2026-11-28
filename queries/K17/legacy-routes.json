@@ -1,0 +1,383 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "sourceD4": "K17.06.01.01",
+      "originalRequirement": "认知实证的语言文化经验、样本与外推条件；非偏好评分",
+      "originalInventory": "S166/S167/S169；K13.08.01.01、K13.08.03.01",
+      "disposition": "D25_SPLIT_PROPOSED_PENDING_REVIEW",
+      "routes": [
+        "K17.06.01.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC21",
+          "d4": "K17.06.01.01",
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Single D25 split candidate; remains proposed and non-admitting.",
+      "equivalence": false,
+      "status": "D25_SPLIT_PROPOSED_PENDING_REVIEW",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 5,
+        "row": "| [K17.06.01.01](domain-mixed-migration-predicate-batch.md#L20) | 认知实证的语言文化经验、样本与外推条件；非偏好评分 | S166/S167/S169；K13.08.01.01、K13.08.03.01 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) |"
+      },
+      "claimRefs": [
+        "K17-CL-MC21@1"
+      ]
+    },
+    {
+      "sourceD4": "K13.04.01.02",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K16.04=参与者陈述与研究解释；K10.08=实际偏好评价；K17.06 REF实证机制",
+      "predicateRoute": "[K13.04.01.02](domain-mixed-migration-predicate-batch.md#L47)：K16.04.02.01；K10.08.02.01 K10.08.02.02；K17.06",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.06.01.01",
+        "K17.06.02.01",
+        "K17.06.04.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC21",
+          "d4": "K17.06.01.01",
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        },
+        {
+          "caseId": "MC22",
+          "d4": "K17.06.02.01",
+          "label": "MC22/K17.06.02.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L10"
+        },
+        {
+          "caseId": "MC24",
+          "d4": "K17.06.04.01",
+          "label": "MC24/K17.06.04.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L12"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 8,
+        "row": "| [K13.04.01.02](domain-migration-implementation.md#L24) | SPLIT / — / SPLIT_OPEN | K16.04=参与者陈述与研究解释；K10.08=实际偏好评价；K17.06 REF实证机制 | [K13.04.01.02](domain-mixed-migration-predicate-batch.md#L47)：K16.04.02.01；K10.08.02.01 K10.08.02.02；K17.06 | REF实证，[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |"
+      },
+      "claimRefs": [
+        "K17-CL-MC21@1",
+        "K17-CL-MC22@1",
+        "K17-CL-MC24@1"
+      ]
+    },
+    {
+      "sourceD4": "K13.04.03.02",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K10.08/K10.09=评价条件与替代解释；K16.06=文化解释；K17.07 REF实证",
+      "predicateRoute": "[K13.04.03.02](domain-mixed-migration-predicate-batch.md#L50)：K16.06.02.02；K10.08.03.01 K10.09.02.01；K17.07",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.07.01.01",
+        "K17.07.04.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC25",
+          "d4": "K17.07.01.01",
+          "label": "MC25/K17.07.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "MC28",
+          "d4": "K17.07.04.01",
+          "label": "MC28/K17.07.04.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 9,
+        "row": "| [K13.04.03.02](domain-migration-implementation.md#L28) | SPLIT / — / SPLIT_OPEN | K10.08/K10.09=评价条件与替代解释；K16.06=文化解释；K17.07 REF实证 | [K13.04.03.02](domain-mixed-migration-predicate-batch.md#L50)：K16.06.02.02；K10.08.03.01 K10.09.02.01；K17.07 | REF实证实验，[MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) |"
+      },
+      "claimRefs": [
+        "K17-CL-MC25@1",
+        "K17-CL-MC28@1"
+      ]
+    },
+    {
+      "sourceD4": "K13.08.01.01",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K13.08=本地化人群/目标；K10.09=实验招募与协议；K17.06=机制研究",
+      "predicateRoute": "[K13.08.01.01](domain-mixed-migration-predicate-batch.md#L55)：K13.08.01.03 K17.06.01.01；K10.09.01.01；—",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.06.01.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC21",
+          "d4": "K17.06.01.01",
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 10,
+        "row": "| [K13.08.01.01](domain-migration-implementation.md#L47) | SPLIT / — / SPLIT_OPEN | K13.08=本地化人群/目标；K10.09=实验招募与协议；K17.06=机制研究 | [K13.08.01.01](domain-mixed-migration-predicate-batch.md#L55)：K13.08.01.03 K17.06.01.01；K10.09.01.01；— | 候选认知外推，[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) |"
+      },
+      "claimRefs": [
+        "K17-CL-MC21@1"
+      ]
+    },
+    {
+      "sourceD4": "K13.08.03.01",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K11.01=训练语料与标注偏差；K12.03/K12.05/K12.09=具体工具模型版本与适用性；K10.09=听评样本代表性；K17.06=认知人群外推；K13.08=母语任务偏差约束",
+      "predicateRoute": "[K13.08.03.01](domain-mixed-migration-predicate-batch.md#L59)：K13.08.03.03 K17.06.01.01；K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01；—",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.06.01.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC21",
+          "d4": "K17.06.01.01",
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 11,
+        "row": "| [K13.08.03.01](domain-migration-implementation.md#L51) | SPLIT / — / SPLIT_OPEN | K11.01=训练语料与标注偏差；K12.03/K12.05/K12.09=具体工具模型版本与适用性；K10.09=听评样本代表性；K17.06=认知人群外推；K13.08=母语任务偏差约束 | [K13.08.03.01](domain-mixed-migration-predicate-batch.md#L59)：K13.08.03.03 K17.06.01.01；K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01；— | 候选认知外推，[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) |"
+      },
+      "claimRefs": [
+        "K17-CL-MC21@1"
+      ]
+    }
+  ],
+  "splitRoutes": [
+    {
+      "sourceD4": "K13.04.01.02",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K16.04=参与者陈述与研究解释；K10.08=实际偏好评价；K17.06 REF实证机制",
+      "predicateRoute": "[K13.04.01.02](domain-mixed-migration-predicate-batch.md#L47)：K16.04.02.01；K10.08.02.01 K10.08.02.02；K17.06",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.06.01.01",
+        "K17.06.02.01",
+        "K17.06.04.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC21",
+          "d4": "K17.06.01.01",
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        },
+        {
+          "caseId": "MC22",
+          "d4": "K17.06.02.01",
+          "label": "MC22/K17.06.02.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L10"
+        },
+        {
+          "caseId": "MC24",
+          "d4": "K17.06.04.01",
+          "label": "MC24/K17.06.04.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L12"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 8,
+        "row": "| [K13.04.01.02](domain-migration-implementation.md#L24) | SPLIT / — / SPLIT_OPEN | K16.04=参与者陈述与研究解释；K10.08=实际偏好评价；K17.06 REF实证机制 | [K13.04.01.02](domain-mixed-migration-predicate-batch.md#L47)：K16.04.02.01；K10.08.02.01 K10.08.02.02；K17.06 | REF实证，[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |"
+      }
+    },
+    {
+      "sourceD4": "K13.04.03.02",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K10.08/K10.09=评价条件与替代解释；K16.06=文化解释；K17.07 REF实证",
+      "predicateRoute": "[K13.04.03.02](domain-mixed-migration-predicate-batch.md#L50)：K16.06.02.02；K10.08.03.01 K10.09.02.01；K17.07",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.07.01.01",
+        "K17.07.04.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC25",
+          "d4": "K17.07.01.01",
+          "label": "MC25/K17.07.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "MC28",
+          "d4": "K17.07.04.01",
+          "label": "MC28/K17.07.04.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 9,
+        "row": "| [K13.04.03.02](domain-migration-implementation.md#L28) | SPLIT / — / SPLIT_OPEN | K10.08/K10.09=评价条件与替代解释；K16.06=文化解释；K17.07 REF实证 | [K13.04.03.02](domain-mixed-migration-predicate-batch.md#L50)：K16.06.02.02；K10.08.03.01 K10.09.02.01；K17.07 | REF实证实验，[MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) |"
+      }
+    },
+    {
+      "sourceD4": "K13.08.01.01",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K13.08=本地化人群/目标；K10.09=实验招募与协议；K17.06=机制研究",
+      "predicateRoute": "[K13.08.01.01](domain-mixed-migration-predicate-batch.md#L55)：K13.08.01.03 K17.06.01.01；K10.09.01.01；—",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.06.01.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC21",
+          "d4": "K17.06.01.01",
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 10,
+        "row": "| [K13.08.01.01](domain-migration-implementation.md#L47) | SPLIT / — / SPLIT_OPEN | K13.08=本地化人群/目标；K10.09=实验招募与协议；K17.06=机制研究 | [K13.08.01.01](domain-mixed-migration-predicate-batch.md#L55)：K13.08.01.03 K17.06.01.01；K10.09.01.01；— | 候选认知外推，[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) |"
+      }
+    },
+    {
+      "sourceD4": "K13.08.03.01",
+      "originalRequirement": "SPLIT / — / SPLIT_OPEN",
+      "originalRoute": "K11.01=训练语料与标注偏差；K12.03/K12.05/K12.09=具体工具模型版本与适用性；K10.09=听评样本代表性；K17.06=认知人群外推；K13.08=母语任务偏差约束",
+      "predicateRoute": "[K13.08.03.01](domain-mixed-migration-predicate-batch.md#L59)：K13.08.03.03 K17.06.01.01；K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01；—",
+      "disposition": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "routes": [
+        "K17.06.01.01"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "MC21",
+          "d4": "K17.06.01.01",
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "unresolved": [],
+      "limits": "Original SPLIT_OPEN remains open; K17 may be REF, not owner, on some routes.",
+      "equivalence": false,
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-legacy-convergence.md",
+        "blob": "1d604962a2bd89ac925d57f61583f97a2c0f82e4",
+        "line": 11,
+        "row": "| [K13.08.03.01](domain-migration-implementation.md#L51) | SPLIT / — / SPLIT_OPEN | K11.01=训练语料与标注偏差；K12.03/K12.05/K12.09=具体工具模型版本与适用性；K10.09=听评样本代表性；K17.06=认知人群外推；K13.08=母语任务偏差约束 | [K13.08.03.01](domain-mixed-migration-predicate-batch.md#L59)：K13.08.03.03 K17.06.01.01；K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01；— | 候选认知外推，[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) |"
+      }
+    }
+  ],
+  "historicalFinding": 71,
+  "historicalOpenIssues": [
+    {
+      "number": 28,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 32,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 35,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 38,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 41,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 46,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 49,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 52,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 55,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 60,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 63,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 68,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    },
+    {
+      "number": 71,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    }
+  ],
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}

@@ -1,0 +1,2107 @@
+{
+  "status": "HISTORICAL_MIGRATION_NAVIGATION_ONLY",
+  "rows": [
+    {
+      "sourceD4": "K11.01.01.01",
+      "originalRequirement": "歌曲录音分轨乐谱歌词的配对和来源身份",
+      "originalInventory": "[K11.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L7)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.01.01.03",
+        "K11.01.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM01",
+          "d4": "K11.01.01.03",
+          "label": "AM01/K11.01.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L5"
+        },
+        {
+          "caseId": "AM31",
+          "d4": "K11.01.01.04",
+          "label": "AM31/K11.01.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品/录音/文件/派生配对身份；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 5,
+        "row": "| K11.01.01.01 | 歌曲录音分轨乐谱歌词的配对和来源身份 | [K11.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L7) | ROUTER_CANDIDATE | [AM01/K11.01.01.03](ai-models-r1-knowledge-cases.md#L5)；[AM31/K11.01.01.04](ai-models-r2-knowledge-cases.md#L19) | 作品/录音/文件/派生配对身份；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.01.01.02",
+      "originalRequirement": "划分训练验证测试及衍生版本",
+      "originalInventory": "[K11.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L7)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.01.01.03",
+        "K11.01.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM01",
+          "d4": "K11.01.01.03",
+          "label": "AM01/K11.01.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L5"
+        },
+        {
+          "caseId": "AM31",
+          "d4": "K11.01.01.04",
+          "label": "AM31/K11.01.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品簇和录音级划分与重复UNKNOWN；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 6,
+        "row": "| K11.01.01.02 | 划分训练验证测试及衍生版本 | [K11.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L7) | BOUNDED_COMPOSITION | [AM01/K11.01.01.03](ai-models-r1-knowledge-cases.md#L5)；[AM31/K11.01.01.04](ai-models-r2-knowledge-cases.md#L19) | 作品簇和录音级划分与重复UNKNOWN；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.01.02.01",
+      "originalRequirement": "音素音符段落及参考音频的时间基准",
+      "originalInventory": "[K11.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L8)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.01.02.03",
+        "K11.01.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM02",
+          "d4": "K11.01.02.03",
+          "label": "AM02/K11.01.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L6"
+        },
+        {
+          "caseId": "AM32",
+          "d4": "K11.01.02.04",
+          "label": "AM32/K11.01.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L20"
+        }
+      ],
+      "unresolved": [],
+      "limits": "词/音素/音符/声部和参考时基；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 7,
+        "row": "| K11.01.02.01 | 音素音符段落及参考音频的时间基准 | [K11.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L8) | ROUTER_CANDIDATE | [AM02/K11.01.02.03](ai-models-r1-knowledge-cases.md#L6)；[AM32/K11.01.02.04](ai-models-r2-knowledge-cases.md#L20) | 词/音素/音符/声部和参考时基；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.01.02.02",
+      "originalRequirement": "区分人工标注自动标签和不确定性",
+      "originalInventory": "[K11.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L8)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.01.02.03",
+        "K11.01.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM02",
+          "d4": "K11.01.02.03",
+          "label": "AM02/K11.01.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L6"
+        },
+        {
+          "caseId": "AM32",
+          "d4": "K11.01.02.04",
+          "label": "AM32/K11.01.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L20"
+        }
+      ],
+      "unresolved": [],
+      "limits": "自动与人工、重叠/冲突和置信校准待证；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 8,
+        "row": "| K11.01.02.02 | 区分人工标注自动标签和不确定性 | [K11.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L8) | BOUNDED_COMPOSITION | [AM02/K11.01.02.03](ai-models-r1-knowledge-cases.md#L6)；[AM32/K11.01.02.04](ai-models-r2-knowledge-cases.md#L20) | 自动与人工、重叠/冲突和置信校准待证；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.01.03.01",
+      "originalRequirement": "区分语料许可录音作品表演和使用目的",
+      "originalInventory": "[K11.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L9)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.01.03.03",
+        "K11.01.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM03",
+          "d4": "K11.01.03.03",
+          "label": "AM03/K11.01.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L7"
+        },
+        {
+          "caseId": "AM33",
+          "d4": "K11.01.03.04",
+          "label": "AM33/K11.01.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L21"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品/表演/录音用途许可交K15；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 9,
+        "row": "| K11.01.03.01 | 区分语料许可录音作品表演和使用目的 | [K11.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L9) | ROUTER_CANDIDATE | [AM03/K11.01.03.03](ai-models-r1-knowledge-cases.md#L7)；[AM33/K11.01.03.04](ai-models-r2-knowledge-cases.md#L21) | 作品/表演/录音用途许可交K15；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.01.03.02",
+      "originalRequirement": "记录语言流派人群偏差及清洗影响",
+      "originalInventory": "[K11.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L9)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.01.03.03",
+        "K11.01.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM03",
+          "d4": "K11.01.03.03",
+          "label": "AM03/K11.01.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L7"
+        },
+        {
+          "caseId": "AM33",
+          "d4": "K11.01.03.04",
+          "label": "AM33/K11.01.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L21"
+        }
+      ],
+      "unresolved": [],
+      "limits": "分组分布、清洗保留率与覆盖偏差；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 10,
+        "row": "| K11.01.03.02 | 记录语言流派人群偏差及清洗影响 | [K11.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L9) | BOUNDED_COMPOSITION | [AM03/K11.01.03.03](ai-models-r1-knowledge-cases.md#L7)；[AM33/K11.01.03.04](ai-models-r2-knowledge-cases.md#L21) | 分组分布、清洗保留率与覆盖偏差；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.02.01.01",
+      "originalRequirement": "区分事件音符乐谱音级及控制参数",
+      "originalInventory": "[K11.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L10)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.02.01.03",
+        "K11.02.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM04",
+          "d4": "K11.02.01.03",
+          "label": "AM04/K11.02.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L8"
+        },
+        {
+          "caseId": "AM34",
+          "d4": "K11.02.01.04",
+          "label": "AM34/K11.02.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L22"
+        }
+      ],
+      "unresolved": [],
+      "limits": "事件/音级/音符/控制与声学表示不同",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 11,
+        "row": "| K11.02.01.01 | 区分事件音符乐谱音级及控制参数 | [K11.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L10) | ROUTER_CANDIDATE | [AM04/K11.02.01.03](ai-models-r1-knowledge-cases.md#L8)；[AM34/K11.02.01.04](ai-models-r2-knowledge-cases.md#L22) | 事件/音级/音符/控制与声学表示不同 |"
+      }
+    },
+    {
+      "sourceD4": "K11.02.01.02",
+      "originalRequirement": "记录时值力度节拍表示和损失",
+      "originalInventory": "[K11.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L10)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.02.01.03",
+        "K11.02.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM04",
+          "d4": "K11.02.01.03",
+          "label": "AM04/K11.02.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L8"
+        },
+        {
+          "caseId": "AM34",
+          "d4": "K11.02.01.04",
+          "label": "AM34/K11.02.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L22"
+        }
+      ],
+      "unresolved": [],
+      "limits": "tempo map、力度、时值与渲染损失",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 12,
+        "row": "| K11.02.01.02 | 记录时值力度节拍表示和损失 | [K11.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L10) | BOUNDED_COMPOSITION | [AM04/K11.02.01.03](ai-models-r1-knowledge-cases.md#L8)；[AM34/K11.02.01.04](ai-models-r2-knowledge-cases.md#L22) | tempo map、力度、时值与渲染损失 |"
+      }
+    },
+    {
+      "sourceD4": "K11.02.02.01",
+      "originalRequirement": "区分波形连续latent离散token与codebook",
+      "originalInventory": "[K11.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L11)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.02.02.03",
+        "K11.02.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM05",
+          "d4": "K11.02.02.03",
+          "label": "AM05/K11.02.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L9"
+        },
+        {
+          "caseId": "AM35",
+          "d4": "K11.02.02.04",
+          "label": "AM35/K11.02.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L23"
+        }
+      ],
+      "unresolved": [],
+      "limits": "连续latent/离散索引/码本及残差",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 13,
+        "row": "| K11.02.02.01 | 区分波形连续latent离散token与codebook | [K11.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L11) | ROUTER_CANDIDATE | [AM05/K11.02.02.03](ai-models-r1-knowledge-cases.md#L9)；[AM35/K11.02.02.04](ai-models-r2-knowledge-cases.md#L23) | 连续latent/离散索引/码本及残差 |"
+      }
+    },
+    {
+      "sourceD4": "K11.02.02.02",
+      "originalRequirement": "记录编码时间分辨率码率及重建条件",
+      "originalInventory": "[K11.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L11)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.02.02.03",
+        "K11.02.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM05",
+          "d4": "K11.02.02.03",
+          "label": "AM05/K11.02.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L9"
+        },
+        {
+          "caseId": "AM35",
+          "d4": "K11.02.02.04",
+          "label": "AM35/K11.02.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L23"
+        }
+      ],
+      "unresolved": [],
+      "limits": "固定论文码率、时钟、量化及重建条件",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 14,
+        "row": "| K11.02.02.02 | 记录编码时间分辨率码率及重建条件 | [K11.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L11) | BOUNDED_COMPOSITION | [AM05/K11.02.02.03](ai-models-r1-knowledge-cases.md#L9)；[AM35/K11.02.02.04](ai-models-r2-knowledge-cases.md#L23) | 固定论文码率、时钟、量化及重建条件 |"
+      }
+    },
+    {
+      "sourceD4": "K11.02.03.01",
+      "originalRequirement": "区分音乐内容表征与声学重建信息",
+      "originalInventory": "[K11.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L12)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.02.03.03",
+        "K11.02.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM06",
+          "d4": "K11.02.03.03",
+          "label": "AM06/K11.02.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L10"
+        },
+        {
+          "caseId": "AM36",
+          "d4": "K11.02.03.04",
+          "label": "AM36/K11.02.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L24"
+        }
+      ],
+      "unresolved": [],
+      "limits": "音级/绝对音高/声音细节不可互推",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 15,
+        "row": "| K11.02.03.01 | 区分音乐内容表征与声学重建信息 | [K11.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L12) | ROUTER_CANDIDATE | [AM06/K11.02.03.03](ai-models-r1-knowledge-cases.md#L10)；[AM36/K11.02.03.04](ai-models-r2-knowledge-cases.md#L24) | 音级/绝对音高/声音细节不可互推 |"
+      }
+    },
+    {
+      "sourceD4": "K11.02.03.02",
+      "originalRequirement": "核验多时间尺度和条件信息保留",
+      "originalInventory": "[K11.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L12)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.02.03.03",
+        "K11.02.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM06",
+          "d4": "K11.02.03.03",
+          "label": "AM06/K11.02.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L10"
+        },
+        {
+          "caseId": "AM36",
+          "d4": "K11.02.03.04",
+          "label": "AM36/K11.02.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L24"
+        }
+      ],
+      "unresolved": [],
+      "limits": "语义瓶颈、时间尺度与条件覆盖",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 16,
+        "row": "| K11.02.03.02 | 核验多时间尺度和条件信息保留 | [K11.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L12) | BOUNDED_COMPOSITION | [AM06/K11.02.03.03](ai-models-r1-knowledge-cases.md#L10)；[AM36/K11.02.03.04](ai-models-r2-knowledge-cases.md#L24) | 语义瓶颈、时间尺度与条件覆盖 |"
+      }
+    },
+    {
+      "sourceD4": "K11.03.01.01",
+      "originalRequirement": "区分AR逐步预测与并行或分阶段生成",
+      "originalInventory": "[K11.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L13)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.03.01.03",
+        "K11.03.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM07",
+          "d4": "K11.03.01.03",
+          "label": "AM07/K11.03.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L11"
+        },
+        {
+          "caseId": "AM37",
+          "d4": "K11.03.01.04",
+          "label": "AM37/K11.03.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "unresolved": [],
+      "limits": "AR、并行、分阶段生成区别",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 17,
+        "row": "| K11.03.01.01 | 区分AR逐步预测与并行或分阶段生成 | [K11.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L13) | ROUTER_CANDIDATE | [AM07/K11.03.01.03](ai-models-r1-knowledge-cases.md#L11)；[AM37/K11.03.01.04](ai-models-r2-knowledge-cases.md#L25) | AR、并行、分阶段生成区别 |"
+      }
+    },
+    {
+      "sourceD4": "K11.03.01.02",
+      "originalRequirement": "记录序列长度token交错及条件约束",
+      "originalInventory": "[K11.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L13)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.03.01.03",
+        "K11.03.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM07",
+          "d4": "K11.03.01.03",
+          "label": "AM07/K11.03.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L11"
+        },
+        {
+          "caseId": "AM37",
+          "d4": "K11.03.01.04",
+          "label": "AM37/K11.03.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "unresolved": [],
+      "limits": "索引、延迟格及起止口径；实际依赖另核",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 18,
+        "row": "| K11.03.01.02 | 记录序列长度token交错及条件约束 | [K11.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L13) | BOUNDED_COMPOSITION | [AM07/K11.03.01.03](ai-models-r1-knowledge-cases.md#L11)；[AM37/K11.03.01.04](ai-models-r2-knowledge-cases.md#L25) | 索引、延迟格及起止口径；实际依赖另核 |"
+      }
+    },
+    {
+      "sourceD4": "K11.03.02.01",
+      "originalRequirement": "区分扩散与flow matching训练目标及推理采样",
+      "originalInventory": "[K11.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L14)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.03.02.03",
+        "K11.03.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM08",
+          "d4": "K11.03.02.03",
+          "label": "AM08/K11.03.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L12"
+        },
+        {
+          "caseId": "AM38",
+          "d4": "K11.03.02.04",
+          "label": "AM38/K11.03.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L26"
+        }
+      ],
+      "unresolved": [],
+      "limits": "DDPM噪声目标/FM速度场及共同框架",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 19,
+        "row": "| K11.03.02.01 | 区分扩散与flow matching训练目标及推理采样 | [K11.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L14) | ROUTER_CANDIDATE | [AM08/K11.03.02.03](ai-models-r1-knowledge-cases.md#L12)；[AM38/K11.03.02.04](ai-models-r2-knowledge-cases.md#L26) | DDPM噪声目标/FM速度场及共同框架 |"
+      }
+    },
+    {
+      "sourceD4": "K11.03.02.02",
+      "originalRequirement": "记录latent尺度步数调度及计算限制",
+      "originalInventory": "[K11.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L14)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.03.02.03",
+        "K11.03.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM08",
+          "d4": "K11.03.02.03",
+          "label": "AM08/K11.03.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L12"
+        },
+        {
+          "caseId": "AM38",
+          "d4": "K11.03.02.04",
+          "label": "AM38/K11.03.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L26"
+        }
+      ],
+      "unresolved": [],
+      "limits": "latent尺度、scheduler/NFE和算力未测",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 20,
+        "row": "| K11.03.02.02 | 记录latent尺度步数调度及计算限制 | [K11.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L14) | BOUNDED_COMPOSITION | [AM08/K11.03.02.03](ai-models-r1-knowledge-cases.md#L12)；[AM38/K11.03.02.04](ai-models-r2-knowledge-cases.md#L26) | latent尺度、scheduler/NFE和算力未测 |"
+      }
+    },
+    {
+      "sourceD4": "K11.03.03.01",
+      "originalRequirement": "识别planner codec renderer及条件接口",
+      "originalInventory": "[K11.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L15)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.03.03.03",
+        "K11.03.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM09",
+          "d4": "K11.03.03.03",
+          "label": "AM09/K11.03.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "AM39",
+          "d4": "K11.03.03.04",
+          "label": "AM39/K11.03.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L27"
+        }
+      ],
+      "unresolved": [],
+      "limits": "外部planner/renderer工件和条件",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 21,
+        "row": "| K11.03.03.01 | 识别planner codec renderer及条件接口 | [K11.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L15) | ROUTER_CANDIDATE | [AM09/K11.03.03.03](ai-models-r1-knowledge-cases.md#L13)；[AM39/K11.03.03.04](ai-models-r2-knowledge-cases.md#L27) | 外部planner/renderer工件和条件 |"
+      }
+    },
+    {
+      "sourceD4": "K11.03.03.02",
+      "originalRequirement": "区分MoE参数路由与多模型流水线",
+      "originalInventory": "[K11.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L15)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.03.03.03",
+        "K11.03.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM09",
+          "d4": "K11.03.03.03",
+          "label": "AM09/K11.03.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "AM39",
+          "d4": "K11.03.03.04",
+          "label": "AM39/K11.03.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L27"
+        }
+      ],
+      "unresolved": [],
+      "limits": "MoE稀疏激活/共享与总驻留不同",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 22,
+        "row": "| K11.03.03.02 | 区分MoE参数路由与多模型流水线 | [K11.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L15) | BOUNDED_COMPOSITION | [AM09/K11.03.03.03](ai-models-r1-knowledge-cases.md#L13)；[AM39/K11.03.03.04](ai-models-r2-knowledge-cases.md#L27) | MoE稀疏激活/共享与总驻留不同 |"
+      }
+    },
+    {
+      "sourceD4": "K11.04.01.01",
+      "originalRequirement": "定义旋律和弦节奏等约束与事件输出",
+      "originalInventory": "[K11.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L16)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.04.01.03",
+        "K11.04.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM10",
+          "d4": "K11.04.01.03",
+          "label": "AM10/K11.04.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "AM40",
+          "d4": "K11.04.01.04",
+          "label": "AM40/K11.04.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L28"
+        }
+      ],
+      "unresolved": [],
+      "limits": "硬/软符号音域、和弦、节奏和输出",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 23,
+        "row": "| K11.04.01.01 | 定义旋律和弦节奏等约束与事件输出 | [K11.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L16) | ROUTER_CANDIDATE | [AM10/K11.04.01.03](ai-models-r1-knowledge-cases.md#L14)；[AM40/K11.04.01.04](ai-models-r2-knowledge-cases.md#L28) | 硬/软符号音域、和弦、节奏和输出 |"
+      }
+    },
+    {
+      "sourceD4": "K11.04.01.02",
+      "originalRequirement": "记录条件满足验证和开放候选",
+      "originalInventory": "[K11.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L16)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.04.01.03",
+        "K11.04.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM10",
+          "d4": "K11.04.01.03",
+          "label": "AM10/K11.04.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "AM40",
+          "d4": "K11.04.01.04",
+          "label": "AM40/K11.04.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L28"
+        }
+      ],
+      "unresolved": [],
+      "limits": "有限事件验收，多解与艺术开放",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 24,
+        "row": "| K11.04.01.02 | 记录条件满足验证和开放候选 | [K11.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L16) | BOUNDED_COMPOSITION | [AM10/K11.04.01.03](ai-models-r1-knowledge-cases.md#L14)；[AM40/K11.04.01.04](ai-models-r2-knowledge-cases.md#L28) | 有限事件验收，多解与艺术开放 |"
+      }
+    },
+    {
+      "sourceD4": "K11.04.02.01",
+      "originalRequirement": "区分作品段落乐句动机和音符层",
+      "originalInventory": "[K11.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L17)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.04.02.03",
+        "K11.04.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM11",
+          "d4": "K11.04.02.03",
+          "label": "AM11/K11.04.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "AM41",
+          "d4": "K11.04.02.04",
+          "label": "AM41/K11.04.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L29"
+        }
+      ],
+      "unresolved": [],
+      "limits": "段/乐句/动机/音符层级",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 25,
+        "row": "| K11.04.02.01 | 区分作品段落乐句动机和音符层 | [K11.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L17) | ROUTER_CANDIDATE | [AM11/K11.04.02.03](ai-models-r1-knowledge-cases.md#L15)；[AM41/K11.04.02.04](ai-models-r2-knowledge-cases.md#L29) | 段/乐句/动机/音符层级 |"
+      }
+    },
+    {
+      "sourceD4": "K11.04.02.02",
+      "originalRequirement": "定义层间约束及变更影响",
+      "originalInventory": "[K11.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L17)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.04.02.03",
+        "K11.04.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM11",
+          "d4": "K11.04.02.03",
+          "label": "AM11/K11.04.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "AM41",
+          "d4": "K11.04.02.04",
+          "label": "AM41/K11.04.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L29"
+        }
+      ],
+      "unresolved": [],
+      "limits": "局部修改依赖传播及保护，实际音乐连贯待证",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 26,
+        "row": "| K11.04.02.02 | 定义层间约束及变更影响 | [K11.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L17) | BOUNDED_COMPOSITION | [AM11/K11.04.02.03](ai-models-r1-knowledge-cases.md#L15)；[AM41/K11.04.02.04](ai-models-r2-knowledge-cases.md#L29) | 局部修改依赖传播及保护，实际音乐连贯待证 |"
+      }
+    },
+    {
+      "sourceD4": "K11.04.03.01",
+      "originalRequirement": "区分符号渲染与声学模型条件生成",
+      "originalInventory": "[K11.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L18)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.04.03.03",
+        "K11.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM12",
+          "d4": "K11.04.03.03",
+          "label": "AM12/K11.04.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L16"
+        },
+        {
+          "caseId": "AM42",
+          "d4": "K11.04.03.04",
+          "label": "AM42/K11.04.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L30"
+        }
+      ],
+      "unresolved": [],
+      "limits": "符号渲染与声学生成区分",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 27,
+        "row": "| K11.04.03.01 | 区分符号渲染与声学模型条件生成 | [K11.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L18) | ROUTER_CANDIDATE | [AM12/K11.04.03.03](ai-models-r1-knowledge-cases.md#L16)；[AM42/K11.04.03.04](ai-models-r2-knowledge-cases.md#L30) | 符号渲染与声学生成区分 |"
+      }
+    },
+    {
+      "sourceD4": "K11.04.03.02",
+      "originalRequirement": "记录音色演奏控制和可编辑性损失",
+      "originalInventory": "[K11.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L18)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.04.03.03",
+        "K11.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM12",
+          "d4": "K11.04.03.03",
+          "label": "AM12/K11.04.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L16"
+        },
+        {
+          "caseId": "AM42",
+          "d4": "K11.04.03.04",
+          "label": "AM42/K11.04.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L30"
+        }
+      ],
+      "unresolved": [],
+      "limits": "音色/力度/tempo和可编辑控制字段损失",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 28,
+        "row": "| K11.04.03.02 | 记录音色演奏控制和可编辑性损失 | [K11.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L18) | BOUNDED_COMPOSITION | [AM12/K11.04.03.03](ai-models-r1-knowledge-cases.md#L16)；[AM42/K11.04.03.04](ai-models-r2-knowledge-cases.md#L30) | 音色/力度/tempo和可编辑控制字段损失 |"
+      }
+    },
+    {
+      "sourceD4": "K11.05.01.01",
+      "originalRequirement": "区分文本风格歌词时长结构及参考条件",
+      "originalInventory": "[K11.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L19)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.05.01.03",
+        "K11.05.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM13",
+          "d4": "K11.05.01.03",
+          "label": "AM13/K11.05.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L17"
+        },
+        {
+          "caseId": "AM43",
+          "d4": "K11.05.01.04",
+          "label": "AM43/K11.05.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L31"
+        }
+      ],
+      "unresolved": [],
+      "limits": "文本、风格、歌词、时长、结构、参考的任务差异",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 29,
+        "row": "| K11.05.01.01 | 区分文本风格歌词时长结构及参考条件 | [K11.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L19) | ROUTER_CANDIDATE | [AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17)；[AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31) | 文本、风格、歌词、时长、结构、参考的任务差异 |"
+      }
+    },
+    {
+      "sourceD4": "K11.05.01.02",
+      "originalRequirement": "记录模型实际支持的模态和约束",
+      "originalInventory": "[K11.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L19)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.05.01.03",
+        "K11.05.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM13",
+          "d4": "K11.05.01.03",
+          "label": "AM13/K11.05.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L17"
+        },
+        {
+          "caseId": "AM43",
+          "d4": "K11.05.01.04",
+          "label": "AM43/K11.05.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L31"
+        }
+      ],
+      "unresolved": [],
+      "limits": "报告能力与版本/硬条件逐项查验，实际接口K12",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 30,
+        "row": "| K11.05.01.02 | 记录模型实际支持的模态和约束 | [K11.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L19) | BOUNDED_COMPOSITION | [AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17)；[AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31) | 报告能力与版本/硬条件逐项查验，实际接口K12 |"
+      }
+    },
+    {
+      "sourceD4": "K11.05.02.01",
+      "originalRequirement": "记录分段规划声部交互和语言边界",
+      "originalInventory": "[K11.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L20)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.05.02.03",
+        "K11.05.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM14",
+          "d4": "K11.05.02.03",
+          "label": "AM14/K11.05.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L18"
+        },
+        {
+          "caseId": "AM44",
+          "d4": "K11.05.02.04",
+          "label": "AM44/K11.05.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L32"
+        }
+      ],
+      "unresolved": [],
+      "limits": "段计划、词ID顺序、声部及语境",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 31,
+        "row": "| K11.05.02.01 | 记录分段规划声部交互和语言边界 | [K11.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L20) | ROUTER_CANDIDATE | [AM14/K11.05.02.03](ai-models-r1-knowledge-cases.md#L18)；[AM44/K11.05.02.04](ai-models-r2-knowledge-cases.md#L32) | 段计划、词ID顺序、声部及语境 |"
+      }
+    },
+    {
+      "sourceD4": "K11.05.02.02",
+      "originalRequirement": "评价内容可懂结构一致和续写衔接",
+      "originalInventory": "[K11.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L20)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.05.02.03",
+        "K11.05.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM14",
+          "d4": "K11.05.02.03",
+          "label": "AM14/K11.05.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L18"
+        },
+        {
+          "caseId": "AM44",
+          "d4": "K11.05.02.04",
+          "label": "AM44/K11.05.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L32"
+        }
+      ],
+      "unresolved": [],
+      "limits": "内容可懂、时间对齐、衔接需实际独立评价",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 32,
+        "row": "| K11.05.02.02 | 评价内容可懂结构一致和续写衔接 | [K11.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L20) | BOUNDED_COMPOSITION | [AM14/K11.05.02.03](ai-models-r1-knowledge-cases.md#L18)；[AM44/K11.05.02.04](ai-models-r2-knowledge-cases.md#L32) | 内容可懂、时间对齐、衔接需实际独立评价 |"
+      }
+    },
+    {
+      "sourceD4": "K11.05.03.01",
+      "originalRequirement": "区分cover repaint continuation和全曲再生成",
+      "originalInventory": "[K11.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L21)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.05.03.03",
+        "K11.05.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM15",
+          "d4": "K11.05.03.03",
+          "label": "AM15/K11.05.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L19"
+        },
+        {
+          "caseId": "AM45",
+          "d4": "K11.05.03.04",
+          "label": "AM45/K11.05.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L33"
+        }
+      ],
+      "unresolved": [],
+      "limits": "cover/repaint/continuation/全局再生目标区分",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 33,
+        "row": "| K11.05.03.01 | 区分cover repaint continuation和全曲再生成 | [K11.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L21) | ROUTER_CANDIDATE | [AM15/K11.05.03.03](ai-models-r1-knowledge-cases.md#L19)；[AM45/K11.05.03.04](ai-models-r2-knowledge-cases.md#L33) | cover/repaint/continuation/全局再生目标区分 |"
+      }
+    },
+    {
+      "sourceD4": "K11.05.03.02",
+      "originalRequirement": "定义需保留的旋律歌词非目标区及音色",
+      "originalInventory": "[K11.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L21)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.05.03.03",
+        "K11.05.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM15",
+          "d4": "K11.05.03.03",
+          "label": "AM15/K11.05.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L19"
+        },
+        {
+          "caseId": "AM45",
+          "d4": "K11.05.03.04",
+          "label": "AM45/K11.05.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L33"
+        }
+      ],
+      "unresolved": [],
+      "limits": "mask所在域与非目标保护，后处理/旋律歌词音色核验",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 34,
+        "row": "| K11.05.03.02 | 定义需保留的旋律歌词非目标区及音色 | [K11.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L21) | BOUNDED_COMPOSITION | [AM15/K11.05.03.03](ai-models-r1-knowledge-cases.md#L19)；[AM45/K11.05.03.04](ai-models-r2-knowledge-cases.md#L33) | mask所在域与非目标保护，后处理/旋律歌词音色核验 |"
+      }
+    },
+    {
+      "sourceD4": "K11.06.01.01",
+      "originalRequirement": "区分乐谱条件歌声合成与文本朗读",
+      "originalInventory": "[K11.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L22)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.06.01.03",
+        "K11.06.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM16",
+          "d4": "K11.06.01.03",
+          "label": "AM16/K11.06.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "AM46",
+          "d4": "K11.06.01.04",
+          "label": "AM46/K11.06.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L34"
+        }
+      ],
+      "unresolved": [],
+      "limits": "SVS谱词条件与TTS/SVC区分；S117无效；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 35,
+        "row": "| K11.06.01.01 | 区分乐谱条件歌声合成与文本朗读 | [K11.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L22) | ROUTER_CANDIDATE | [AM16/K11.06.01.03](ai-models-r1-knowledge-cases.md#L20)；[AM46/K11.06.01.04](ai-models-r2-knowledge-cases.md#L34) | SVS谱词条件与TTS/SVC区分；S117无效；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.06.01.02",
+      "originalRequirement": "定义音高时值音素的控制语义",
+      "originalInventory": "[K11.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L22)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.06.01.03",
+        "K11.06.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM16",
+          "d4": "K11.06.01.03",
+          "label": "AM16/K11.06.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "AM46",
+          "d4": "K11.06.01.04",
+          "label": "AM46/K11.06.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L34"
+        }
+      ],
+      "unresolved": [],
+      "limits": "音高/时值/音素合同，真实语言需K13；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 36,
+        "row": "| K11.06.01.02 | 定义音高时值音素的控制语义 | [K11.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L22) | BOUNDED_COMPOSITION | [AM16/K11.06.01.03](ai-models-r1-knowledge-cases.md#L20)；[AM46/K11.06.01.04](ai-models-r2-knowledge-cases.md#L34) | 音高/时值/音素合同，真实语言需K13；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.06.02.01",
+      "originalRequirement": "记录语言音素词典对齐及音高轨迹",
+      "originalInventory": "[K11.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L23)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.06.02.03",
+        "K11.06.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM17",
+          "d4": "K11.06.02.03",
+          "label": "AM17/K11.06.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "AM47",
+          "d4": "K11.06.02.04",
+          "label": "AM47/K11.06.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L35"
+        }
+      ],
+      "unresolved": [],
+      "limits": "语言词典、音素与有声区时基；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 37,
+        "row": "| K11.06.02.01 | 记录语言音素词典对齐及音高轨迹 | [K11.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L23) | ROUTER_CANDIDATE | [AM17/K11.06.02.03](ai-models-r1-knowledge-cases.md#L21)；[AM47/K11.06.02.04](ai-models-r2-knowledge-cases.md#L35) | 语言词典、音素与有声区时基；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.06.02.02",
+      "originalRequirement": "区分离散目标音连续表现和模型预测",
+      "originalInventory": "[K11.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L23)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.06.02.03",
+        "K11.06.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM17",
+          "d4": "K11.06.02.03",
+          "label": "AM17/K11.06.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "AM47",
+          "d4": "K11.06.02.04",
+          "label": "AM47/K11.06.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L35"
+        }
+      ],
+      "unresolved": [],
+      "limits": "离散音符/连续F0和无声帧分离，非通用均值评价；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 38,
+        "row": "| K11.06.02.02 | 区分离散目标音连续表现和模型预测 | [K11.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L23) | BOUNDED_COMPOSITION | [AM17/K11.06.02.03](ai-models-r1-knowledge-cases.md#L21)；[AM47/K11.06.02.04](ai-models-r2-knowledge-cases.md#L35) | 离散音符/连续F0和无声帧分离，非通用均值评价；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.06.03.01",
+      "originalRequirement": "区分声学预测与vocoder声库参考条件",
+      "originalInventory": "[K11.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L24)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.06.03.03",
+        "K11.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM18",
+          "d4": "K11.06.03.03",
+          "label": "AM18/K11.06.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L22"
+        },
+        {
+          "caseId": "AM48",
+          "d4": "K11.06.03.04",
+          "label": "AM48/K11.06.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L36"
+        }
+      ],
+      "unresolved": [],
+      "limits": "声学预测、vocoder、声库/参考及版本；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 39,
+        "row": "| K11.06.03.01 | 区分声学预测与vocoder声库参考条件 | [K11.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L24) | ROUTER_CANDIDATE | [AM18/K11.06.03.03](ai-models-r1-knowledge-cases.md#L22)；[AM48/K11.06.03.04](ai-models-r2-knowledge-cases.md#L36) | 声学预测、vocoder、声库/参考及版本；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.06.03.02",
+      "originalRequirement": "核验训练范围音域语言和伪影",
+      "originalInventory": "[K11.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L24)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.06.03.03",
+        "K11.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM18",
+          "d4": "K11.06.03.03",
+          "label": "AM18/K11.06.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L22"
+        },
+        {
+          "caseId": "AM48",
+          "d4": "K11.06.03.04",
+          "label": "AM48/K11.06.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L36"
+        }
+      ],
+      "unresolved": [],
+      "limits": "训练范围/音域/语言/伪影未知；自然度与相似分开；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 40,
+        "row": "| K11.06.03.02 | 核验训练范围音域语言和伪影 | [K11.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L24) | BOUNDED_COMPOSITION | [AM18/K11.06.03.03](ai-models-r1-knowledge-cases.md#L22)；[AM48/K11.06.03.04](ai-models-r2-knowledge-cases.md#L36) | 训练范围/音域/语言/伪影未知；自然度与相似分开；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.07.01.01",
+      "originalRequirement": "区分来源演唱目标音色内容和F0",
+      "originalInventory": "[K11.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L25)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.07.01.03",
+        "K11.07.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM19",
+          "d4": "K11.07.01.03",
+          "label": "AM19/K11.07.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L23"
+        },
+        {
+          "caseId": "AM49",
+          "d4": "K11.07.01.04",
+          "label": "AM49/K11.07.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L37"
+        }
+      ],
+      "unresolved": [],
+      "limits": "源内容、目标音色、F0与表达保护；S529/S536；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 41,
+        "row": "| K11.07.01.01 | 区分来源演唱目标音色内容和F0 | [K11.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L25) | ROUTER_CANDIDATE | [AM19/K11.07.01.03](ai-models-r1-knowledge-cases.md#L23)；[AM49/K11.07.01.04](ai-models-r2-knowledge-cases.md#L37) | 源内容、目标音色、F0与表达保护；S529/S536；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.07.01.02",
+      "originalRequirement": "记录特征解耦误差与授权范围",
+      "originalInventory": "[K11.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L25)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.07.01.03",
+        "K11.07.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM19",
+          "d4": "K11.07.01.03",
+          "label": "AM19/K11.07.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L23"
+        },
+        {
+          "caseId": "AM49",
+          "d4": "K11.07.01.04",
+          "label": "AM49/K11.07.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L37"
+        }
+      ],
+      "unresolved": [],
+      "limits": "解耦/风格、许可K15、S117无效；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 42,
+        "row": "| K11.07.01.02 | 记录特征解耦误差与授权范围 | [K11.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L25) | BOUNDED_COMPOSITION | [AM19/K11.07.01.03](ai-models-r1-knowledge-cases.md#L23)；[AM49/K11.07.01.04](ai-models-r2-knowledge-cases.md#L37) | 解耦/风格、许可K15、S117无效；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.07.02.01",
+      "originalRequirement": "区分混合源分离声源目标及模型特定训练",
+      "originalInventory": "[K11.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L26)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.07.02.03",
+        "K11.07.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM20",
+          "d4": "K11.07.02.03",
+          "label": "AM20/K11.07.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L24"
+        },
+        {
+          "caseId": "AM50",
+          "d4": "K11.07.02.04",
+          "label": "AM50/K11.07.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L38"
+        }
+      ],
+      "unresolved": [],
+      "limits": "混合/目标源/训练与模型特定条件；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 43,
+        "row": "| K11.07.02.01 | 区分混合源分离声源目标及模型特定训练 | [K11.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L26) | ROUTER_CANDIDATE | [AM20/K11.07.02.03](ai-models-r1-knowledge-cases.md#L24)；[AM50/K11.07.02.04](ai-models-r2-knowledge-cases.md#L38) | 混合/目标源/训练与模型特定条件；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.07.02.02",
+      "originalRequirement": "验证串音损伤与参考协议",
+      "originalInventory": "[K11.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L26)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.07.02.03",
+        "K11.07.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM20",
+          "d4": "K11.07.02.03",
+          "label": "AM20/K11.07.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L24"
+        },
+        {
+          "caseId": "AM50",
+          "d4": "K11.07.02.04",
+          "label": "AM50/K11.07.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L38"
+        }
+      ],
+      "unresolved": [],
+      "limits": "混合一致不证明独立源准确；参考和协议K10；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 44,
+        "row": "| K11.07.02.02 | 验证串音损伤与参考协议 | [K11.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L26) | BOUNDED_COMPOSITION | [AM20/K11.07.02.03](ai-models-r1-knowledge-cases.md#L24)；[AM50/K11.07.02.04](ai-models-r2-knowledge-cases.md#L38) | 混合一致不证明独立源准确；参考和协议K10；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.07.03.01",
+      "originalRequirement": "记录输入干净程度分离伪影及转换依赖",
+      "originalInventory": "[K11.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L27)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.07.03.03",
+        "K11.07.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM21",
+          "d4": "K11.07.03.03",
+          "label": "AM21/K11.07.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L25"
+        },
+        {
+          "caseId": "AM51",
+          "d4": "K11.07.03.04",
+          "label": "AM51/K11.07.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L39"
+        }
+      ],
+      "unresolved": [],
+      "limits": "分离输入、伪影与后续转换依赖；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 45,
+        "row": "| K11.07.03.01 | 记录输入干净程度分离伪影及转换依赖 | [K11.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L27) | ROUTER_CANDIDATE | [AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25)；[AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39) | 分离输入、伪影与后续转换依赖；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.07.03.02",
+      "originalRequirement": "选择重录或转换及失败退路",
+      "originalInventory": "[K11.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L27)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.07.03.03",
+        "K11.07.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM21",
+          "d4": "K11.07.03.03",
+          "label": "AM21/K11.07.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L25"
+        },
+        {
+          "caseId": "AM51",
+          "d4": "K11.07.03.04",
+          "label": "AM51/K11.07.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L39"
+        }
+      ],
+      "unresolved": [],
+      "limits": "固定对照、重录/停止与失效，实际工具K12；原S117仅历史路由，排除有效支持，见S534",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 46,
+        "row": "| K11.07.03.02 | 选择重录或转换及失败退路 | [K11.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L27) | BOUNDED_COMPOSITION | [AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25)；[AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39) | 固定对照、重录/停止与失效，实际工具K12；原S117仅历史路由，排除有效支持，见S534 |"
+      }
+    },
+    {
+      "sourceD4": "K11.08.01.01",
+      "originalRequirement": "区分预训练SFT全量微调LoRA等方法",
+      "originalInventory": "[K11.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L28)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.08.01.03",
+        "K11.08.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM22",
+          "d4": "K11.08.01.03",
+          "label": "AM22/K11.08.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L26"
+        },
+        {
+          "caseId": "AM52",
+          "d4": "K11.08.01.04",
+          "label": "AM52/K11.08.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L40"
+        }
+      ],
+      "unresolved": [],
+      "limits": "预训练/SFT/全量/低秩适配的训练范围",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 47,
+        "row": "| K11.08.01.01 | 区分预训练SFT全量微调LoRA等方法 | [K11.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L28) | ROUTER_CANDIDATE | [AM22/K11.08.01.03](ai-models-r1-knowledge-cases.md#L26)；[AM52/K11.08.01.04](ai-models-r2-knowledge-cases.md#L40) | 预训练/SFT/全量/低秩适配的训练范围 |"
+      }
+    },
+    {
+      "sourceD4": "K11.08.01.02",
+      "originalRequirement": "记录冻结层目标模块rank基础权重及数据",
+      "originalInventory": "[K11.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L28)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.08.01.03",
+        "K11.08.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM22",
+          "d4": "K11.08.01.03",
+          "label": "AM22/K11.08.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L26"
+        },
+        {
+          "caseId": "AM52",
+          "d4": "K11.08.01.04",
+          "label": "AM52/K11.08.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L40"
+        }
+      ],
+      "unresolved": [],
+      "limits": "基座/形状/目标层/rank/缩放和授权数据",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 48,
+        "row": "| K11.08.01.02 | 记录冻结层目标模块rank基础权重及数据 | [K11.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L28) | BOUNDED_COMPOSITION | [AM22/K11.08.01.03](ai-models-r1-knowledge-cases.md#L26)；[AM52/K11.08.01.04](ai-models-r2-knowledge-cases.md#L40) | 基座/形状/目标层/rank/缩放和授权数据 |"
+      }
+    },
+    {
+      "sourceD4": "K11.08.02.01",
+      "originalRequirement": "区分推理参考音频与参数训练",
+      "originalInventory": "[K11.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L29)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.08.02.03",
+        "K11.08.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM23",
+          "d4": "K11.08.02.03",
+          "label": "AM23/K11.08.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L27"
+        },
+        {
+          "caseId": "AM53",
+          "d4": "K11.08.02.04",
+          "label": "AM53/K11.08.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L41"
+        }
+      ],
+      "unresolved": [],
+      "limits": "参考条件与参数更新分离",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 49,
+        "row": "| K11.08.02.01 | 区分推理参考音频与参数训练 | [K11.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L29) | ROUTER_CANDIDATE | [AM23/K11.08.02.03](ai-models-r1-knowledge-cases.md#L27)；[AM53/K11.08.02.04](ai-models-r2-knowledge-cases.md#L41) | 参考条件与参数更新分离 |"
+      }
+    },
+    {
+      "sourceD4": "K11.08.02.02",
+      "originalRequirement": "验证音色语种控制之间的干扰",
+      "originalInventory": "[K11.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L29)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.08.02.03",
+        "K11.08.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM23",
+          "d4": "K11.08.02.03",
+          "label": "AM23/K11.08.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L27"
+        },
+        {
+          "caseId": "AM53",
+          "d4": "K11.08.02.04",
+          "label": "AM53/K11.08.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L41"
+        }
+      ],
+      "unresolved": [],
+      "limits": "四格对照交互；语言/音色干扰与真实评估待证",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 50,
+        "row": "| K11.08.02.02 | 验证音色语种控制之间的干扰 | [K11.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L29) | BOUNDED_COMPOSITION | [AM23/K11.08.02.03](ai-models-r1-knowledge-cases.md#L27)；[AM53/K11.08.02.04](ai-models-r2-knowledge-cases.md#L41) | 四格对照交互；语言/音色干扰与真实评估待证 |"
+      }
+    },
+    {
+      "sourceD4": "K11.08.03.01",
+      "originalRequirement": "区分偏好训练奖励优化和教师学生压缩",
+      "originalInventory": "[K11.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L30)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.08.03.03",
+        "K11.08.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM24",
+          "d4": "K11.08.03.03",
+          "label": "AM24/K11.08.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L28"
+        },
+        {
+          "caseId": "AM54",
+          "d4": "K11.08.03.04",
+          "label": "AM54/K11.08.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L42"
+        }
+      ],
+      "unresolved": [],
+      "limits": "偏好/奖励和教师学生目标不同",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 51,
+        "row": "| K11.08.03.01 | 区分偏好训练奖励优化和教师学生压缩 | [K11.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L30) | ROUTER_CANDIDATE | [AM24/K11.08.03.03](ai-models-r1-knowledge-cases.md#L28)；[AM54/K11.08.03.04](ai-models-r2-knowledge-cases.md#L42) | 偏好/奖励和教师学生目标不同 |"
+      }
+    },
+    {
+      "sourceD4": "K11.08.03.02",
+      "originalRequirement": "记录代理指标偏差及外部评价",
+      "originalInventory": "[K11.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L30)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.08.03.03",
+        "K11.08.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM24",
+          "d4": "K11.08.03.03",
+          "label": "AM24/K11.08.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L28"
+        },
+        {
+          "caseId": "AM54",
+          "d4": "K11.08.03.04",
+          "label": "AM54/K11.08.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L42"
+        }
+      ],
+      "unresolved": [],
+      "limits": "代理反序、分布差异、外部评价与任务范围",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 52,
+        "row": "| K11.08.03.02 | 记录代理指标偏差及外部评价 | [K11.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L30) | BOUNDED_COMPOSITION | [AM24/K11.08.03.03](ai-models-r1-knowledge-cases.md#L28)；[AM54/K11.08.03.04](ai-models-r2-knowledge-cases.md#L42) | 代理反序、分布差异、外部评价与任务范围 |"
+      }
+    },
+    {
+      "sourceD4": "K11.09.01.01",
+      "originalRequirement": "记录模型权重精度设备显存及中间缓存",
+      "originalInventory": "[K11.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L31)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.09.01.03",
+        "K11.09.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM25",
+          "d4": "K11.09.01.03",
+          "label": "AM25/K11.09.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "AM55",
+          "d4": "K11.09.01.04",
+          "label": "AM55/K11.09.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L43"
+        }
+      ],
+      "unresolved": [],
+      "limits": "权重/精度/KV/激活/设备资源下界",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 53,
+        "row": "| K11.09.01.01 | 记录模型权重精度设备显存及中间缓存 | [K11.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L31) | ROUTER_CANDIDATE | [AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29)；[AM55/K11.09.01.04](ai-models-r2-knowledge-cases.md#L43) | 权重/精度/KV/激活/设备资源下界 |"
+      }
+    },
+    {
+      "sourceD4": "K11.09.01.02",
+      "originalRequirement": "区分作者基准与同环境实际测量",
+      "originalInventory": "[K11.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L31)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.09.01.03",
+        "K11.09.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM25",
+          "d4": "K11.09.01.03",
+          "label": "AM25/K11.09.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "AM55",
+          "d4": "K11.09.01.04",
+          "label": "AM55/K11.09.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L43"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作者基准非同环境峰值/兼容性",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 54,
+        "row": "| K11.09.01.02 | 区分作者基准与同环境实际测量 | [K11.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L31) | BOUNDED_COMPOSITION | [AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29)；[AM55/K11.09.01.04](ai-models-r2-knowledge-cases.md#L43) | 作者基准非同环境峰值/兼容性 |"
+      }
+    },
+    {
+      "sourceD4": "K11.09.02.01",
+      "originalRequirement": "固定checkpoint tokenizer renderer和采样参数",
+      "originalInventory": "[K11.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L32)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.09.02.03",
+        "K11.09.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM26",
+          "d4": "K11.09.02.03",
+          "label": "AM26/K11.09.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "AM56",
+          "d4": "K11.09.02.04",
+          "label": "AM56/K11.09.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L44"
+        }
+      ],
+      "unresolved": [],
+      "limits": "权重/代码/tokenizer/renderer/采样及条件身份",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 55,
+        "row": "| K11.09.02.01 | 固定checkpoint tokenizer renderer和采样参数 | [K11.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L32) | ROUTER_CANDIDATE | [AM26/K11.09.02.03](ai-models-r1-knowledge-cases.md#L30)；[AM56/K11.09.02.04](ai-models-r2-knowledge-cases.md#L44) | 权重/代码/tokenizer/renderer/采样及条件身份 |"
+      }
+    },
+    {
+      "sourceD4": "K11.09.02.02",
+      "originalRequirement": "记录设备依赖随机种子与兼容性",
+      "originalInventory": "[K11.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L32)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.09.02.03",
+        "K11.09.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM26",
+          "d4": "K11.09.02.03",
+          "label": "AM26/K11.09.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "AM56",
+          "d4": "K11.09.02.04",
+          "label": "AM56/K11.09.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L44"
+        }
+      ],
+      "unresolved": [],
+      "limits": "随机源/设备/容差/环境实测另核",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 56,
+        "row": "| K11.09.02.02 | 记录设备依赖随机种子与兼容性 | [K11.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L32) | BOUNDED_COMPOSITION | [AM26/K11.09.02.03](ai-models-r1-knowledge-cases.md#L30)；[AM56/K11.09.02.04](ai-models-r2-knowledge-cases.md#L44) | 随机源/设备/容差/环境实测另核 |"
+      }
+    },
+    {
+      "sourceD4": "K11.09.03.01",
+      "originalRequirement": "区分OOM超时输出损坏及性能退化",
+      "originalInventory": "[K11.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L33)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.09.03.03",
+        "K11.09.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM27",
+          "d4": "K11.09.03.03",
+          "label": "AM27/K11.09.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L31"
+        },
+        {
+          "caseId": "AM57",
+          "d4": "K11.09.03.04",
+          "label": "AM57/K11.09.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L45"
+        }
+      ],
+      "unresolved": [],
+      "limits": "OOM/超时/损坏/质量退化及未知副作用区分",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 57,
+        "row": "| K11.09.03.01 | 区分OOM超时输出损坏及性能退化 | [K11.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L33) | ROUTER_CANDIDATE | [AM27/K11.09.03.03](ai-models-r1-knowledge-cases.md#L31)；[AM57/K11.09.03.04](ai-models-r2-knowledge-cases.md#L45) | OOM/超时/损坏/质量退化及未知副作用区分 |"
+      }
+    },
+    {
+      "sourceD4": "K11.09.03.02",
+      "originalRequirement": "定义降级切换和重新验证条件",
+      "originalInventory": "[K11.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L33)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.09.03.03",
+        "K11.09.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM27",
+          "d4": "K11.09.03.03",
+          "label": "AM27/K11.09.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L31"
+        },
+        {
+          "caseId": "AM57",
+          "d4": "K11.09.03.04",
+          "label": "AM57/K11.09.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L45"
+        }
+      ],
+      "unresolved": [],
+      "limits": "经授权降级新合同、回读、复测及停止",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 58,
+        "row": "| K11.09.03.02 | 定义降级切换和重新验证条件 | [K11.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L33) | BOUNDED_COMPOSITION | [AM27/K11.09.03.03](ai-models-r1-knowledge-cases.md#L31)；[AM57/K11.09.03.04](ai-models-r2-knowledge-cases.md#L45) | 经授权降级新合同、回读、复测及停止 |"
+      }
+    },
+    {
+      "sourceD4": "K11.10.01.01",
+      "originalRequirement": "按生成理解转换分离任务区分指标",
+      "originalInventory": "[K11.10.01](../ai-orchestration/fine-grained-ai-orchestration.md#L34)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.10.01.03",
+        "K11.10.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM28",
+          "d4": "K11.10.01.03",
+          "label": "AM28/K11.10.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L32"
+        },
+        {
+          "caseId": "AM58",
+          "d4": "K11.10.01.04",
+          "label": "AM58/K11.10.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L46"
+        }
+      ],
+      "unresolved": [],
+      "limits": "生成/转换/理解/分离评价任务分开",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 59,
+        "row": "| K11.10.01.01 | 按生成理解转换分离任务区分指标 | [K11.10.01](../ai-orchestration/fine-grained-ai-orchestration.md#L34) | ROUTER_CANDIDATE | [AM28/K11.10.01.03](ai-models-r1-knowledge-cases.md#L32)；[AM58/K11.10.01.04](ai-models-r2-knowledge-cases.md#L46) | 生成/转换/理解/分离评价任务分开 |"
+      }
+    },
+    {
+      "sourceD4": "K11.10.01.02",
+      "originalRequirement": "固定基准样本条件参考和指标代码",
+      "originalInventory": "[K11.10.01](../ai-orchestration/fine-grained-ai-orchestration.md#L34)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.10.01.03",
+        "K11.10.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM28",
+          "d4": "K11.10.01.03",
+          "label": "AM28/K11.10.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L32"
+        },
+        {
+          "caseId": "AM58",
+          "d4": "K11.10.01.04",
+          "label": "AM58/K11.10.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L46"
+        }
+      ],
+      "unresolved": [],
+      "limits": "参考/嵌入/指标/训练和样本量同协议",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 60,
+        "row": "| K11.10.01.02 | 固定基准样本条件参考和指标代码 | [K11.10.01](../ai-orchestration/fine-grained-ai-orchestration.md#L34) | BOUNDED_COMPOSITION | [AM28/K11.10.01.03](ai-models-r1-knowledge-cases.md#L32)；[AM58/K11.10.01.04](ai-models-r2-knowledge-cases.md#L46) | 参考/嵌入/指标/训练和样本量同协议 |"
+      }
+    },
+    {
+      "sourceD4": "K11.10.02.01",
+      "originalRequirement": "核查歌曲版本歌手语言及训练测试重叠",
+      "originalInventory": "[K11.10.02](../ai-orchestration/fine-grained-ai-orchestration.md#L35)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.10.02.03",
+        "K11.10.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM29",
+          "d4": "K11.10.02.03",
+          "label": "AM29/K11.10.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L33"
+        },
+        {
+          "caseId": "AM59",
+          "d4": "K11.10.02.04",
+          "label": "AM59/K11.10.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L47"
+        }
+      ],
+      "unresolved": [],
+      "limits": "作品、歌手、语言和录音隔离按目标",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 61,
+        "row": "| K11.10.02.01 | 核查歌曲版本歌手语言及训练测试重叠 | [K11.10.02](../ai-orchestration/fine-grained-ai-orchestration.md#L35) | ROUTER_CANDIDATE | [AM29/K11.10.02.03](ai-models-r1-knowledge-cases.md#L33)；[AM59/K11.10.02.04](ai-models-r2-knowledge-cases.md#L47) | 作品、歌手、语言和录音隔离按目标 |"
+      }
+    },
+    {
+      "sourceD4": "K11.10.02.02",
+      "originalRequirement": "定义未见条件和失败分层",
+      "originalInventory": "[K11.10.02](../ai-orchestration/fine-grained-ai-orchestration.md#L35)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.10.02.03",
+        "K11.10.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM29",
+          "d4": "K11.10.02.03",
+          "label": "AM29/K11.10.02.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L33"
+        },
+        {
+          "caseId": "AM59",
+          "d4": "K11.10.02.04",
+          "label": "AM59/K11.10.02.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L47"
+        }
+      ],
+      "unresolved": [],
+      "limits": "未知重叠与未见维度分层，非泛化保证",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 62,
+        "row": "| K11.10.02.02 | 定义未见条件和失败分层 | [K11.10.02](../ai-orchestration/fine-grained-ai-orchestration.md#L35) | BOUNDED_COMPOSITION | [AM29/K11.10.02.03](ai-models-r1-knowledge-cases.md#L33)；[AM59/K11.10.02.04](ai-models-r2-knowledge-cases.md#L47) | 未知重叠与未见维度分层，非泛化保证 |"
+      }
+    },
+    {
+      "sourceD4": "K11.10.03.01",
+      "originalRequirement": "区分论文自报模型卡源码实测及独立复核",
+      "originalInventory": "[K11.10.03](../ai-orchestration/fine-grained-ai-orchestration.md#L36)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K11.10.03.03",
+        "K11.10.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM30",
+          "d4": "K11.10.03.03",
+          "label": "AM30/K11.10.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L34"
+        },
+        {
+          "caseId": "AM60",
+          "d4": "K11.10.03.04",
+          "label": "AM60/K11.10.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L48"
+        }
+      ],
+      "unresolved": [],
+      "limits": "报告/模型卡/源码/权重/实测/独立评价分层",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 63,
+        "row": "| K11.10.03.01 | 区分论文自报模型卡源码实测及独立复核 | [K11.10.03](../ai-orchestration/fine-grained-ai-orchestration.md#L36) | ROUTER_CANDIDATE | [AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34)；[AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48) | 报告/模型卡/源码/权重/实测/独立评价分层 |"
+      }
+    },
+    {
+      "sourceD4": "K11.10.03.02",
+      "originalRequirement": "绑定实际权重接口及评估产物",
+      "originalInventory": "[K11.10.03](../ai-orchestration/fine-grained-ai-orchestration.md#L36)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K11.10.03.03",
+        "K11.10.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "AM30",
+          "d4": "K11.10.03.03",
+          "label": "AM30/K11.10.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L34"
+        },
+        {
+          "caseId": "AM60",
+          "d4": "K11.10.03.04",
+          "label": "AM60/K11.10.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L48"
+        }
+      ],
+      "unresolved": [],
+      "limits": "版本绑定、撤回历史、实际结果不继承",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r3-legacy-convergence.md",
+        "blob": "9d0728a329e97664922cc1c7f4bde567c7037ecc",
+        "line": 64,
+        "row": "| K11.10.03.02 | 绑定实际权重接口及评估产物 | [K11.10.03](../ai-orchestration/fine-grained-ai-orchestration.md#L36) | BOUNDED_COMPOSITION | [AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34)；[AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48) | 版本绑定、撤回历史、实际结果不继承 |"
+      }
+    }
+  ],
+  "splitOpenCount": 0,
+  "noClaimAdmission": true
+}
