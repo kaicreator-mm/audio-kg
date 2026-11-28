@@ -199,4 +199,31 @@ t('AM06/AM35 lossy encoding collision and conditional exact reconstruction',()=>
  assert.match(view('AM06','RN').reasoningBasis,/同码碰撞/);
  assert.match(view('AM35','FP').expectedResult,/不同连续输入映射到同一索引/);
 });
+t('KC-A11 all 37 scenario links match exact bracket-safe frozen navigation',()=>{
+ const readLinks=row=>Array.from(row.matchAll(/\[([^\[\]\r\n]+)\]\(([^()\s]+)\)/g),m=>({label:m[1],uri:m[2]}));
+ const lines=[23,24,25,26,27,28,29,56];
+ const f='docs/product/calibration/ai-models-r4-integrated-closure.md';
+ const frozenRows=fs.readFileSync(f,'utf8').split('\n');
+ const pairs=lines.flatMap(n=>readLinks(frozenRows[n-1]));
+ const expected=[...new Map(pairs.map(x=>[JSON.stringify(x),x])).values()];
+ assert.equal(expected.length,37);
+ const exact=x=>JSON.stringify(x)===JSON.stringify(expected);
+ assert.ok(exact(sc.entryLinks));
+ assert.ok(exact(ledger.integratedScenario.entryLinks));
+ assert.deepEqual(readLinks(frozenRows[55]),[
+  {label:'AM05',uri:'ai-models-r1-knowledge-cases.md#L9'},
+  {label:'AM35',uri:'ai-models-r2-knowledge-cases.md#L23'},
+  {label:'AM58',uri:'ai-models-r2-knowledge-cases.md#L46'}]);
+ assert.deepEqual(readLinks('mask [1,3)；参考[AM05](ai-models-r1-knowledge-cases.md#L9)'),[expected.find(x=>x.label==='AM05')]);
+ for(const x of expected){
+  assert.match(x.label,/^AM\d{2}(?:\/K11\.\d{2}\.\d{2}\.\d{2})?$/);
+  const match=x.uri.match(/^([^#]+)#L(\d+)$/);assert.ok(match);
+  const target=fs.readFileSync('docs/product/calibration/'+match[1],'utf8').split('\n')[Number(match[2])-1];
+  assert.equal(target.split('|')[1].trim(),x.label.split('/')[0]);
+ }
+ const malformed=structuredClone(expected);malformed.find(x=>x.label==='AM05').label='1,3)、参考[AM05';
+ assert.equal(exact(malformed),false);assert.equal(exact(expected.slice(1)),false);
+ const wrongUri=structuredClone(expected);wrongUri[0].uri='ai-models-r1-knowledge-cases.md#L99';assert.equal(exact(wrongUri),false);
+ assert.equal(exact([...expected,expected[0]]),false);
+});
 console.log(JSON.stringify({module:m,passed:results.length,results},null,2));

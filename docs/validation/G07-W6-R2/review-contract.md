@@ -1,0 +1,7 @@
+# G07 W6 R2 — sole residual P2 independent delta review
+
+PR #143, task #99; base 9a5745be6f99de274d530025716b3beda5fe945a; failed R1 head d8b66887775c45ea6a902459300894a5e0f3eebf, tree c4bcb938ce93e7d54ca2f3c8b8e26c527f779a8f. Prior independent comment 7239867084: FAIL, P0/P1/P2/P3=0/0/1/0; all previous P1 and original P2 core resolved, only P2-W6-R1-01 remains. K16/K17 and #139/#140/#141/#142 scoped acceptances remain valid.
+
+Verify the sole correction: KC-A11 scenario entryLinks in cases/K11/integrated-cases.json and cases/K11/frozen-input-ledger.json must match all 37 ordered distinct exact label+URI pairs derived from frozen ai-models-r4-integrated-closure.md lines 23–29,56. In particular line 56 literal mask [1,3) must not be swallowed into the AM05 link label; exact AM05 / ai-models-r1-knowledge-cases.md#L9. Verify target IDs and independent bracket-safe extraction; malformed, missing, wrong-URI and duplicate links must be rejected. Confirm candidate rows, gates, claims, pack/qualification/controller identities, K17, K16 and F00 and all frozen inputs unchanged. No full-module professional rereview.
+
+Rerun all 23 cumulative suites on clean exact final PR head with python3 docs/validation/G07-W6/run-suites.py; preserve all 8064 prior named checks and verify R2 receipt and result bytes/hashes. Review only this residual P2 plus cumulative regression. Write verdict to #99 and PR #143; record exact head/tree and P0/P1/P2/P3. Do not change sources or merge. No admission, real execution or authorization.

@@ -42,6 +42,16 @@ for item in integrated['cases']:
 for item in integrated.get('history',[]): verify(item['anchor'])
 assert integrated['scenario']==ledger['integratedScenario'] and integrated['cases']==ledger['integratedCases']
 for a in integrated['scenario']['anchors']: verify(a)
+# Restricted frozen local Markdown links: do not absorb literal mask [1,3)
+# or nested/non-link brackets into a label. Preserve ordered unique pairs.
+scenario_links=[]
+for a in integrated['scenario']['anchors']:
+ if a['line'] not in (23,24,25,26,27,28,29,56): continue
+ for label,uri in re.findall(r'\[([^\[\]\r\n]+)\]\(([^()\s]+)\)',a['row']):
+  entry=dict(label=label,uri=uri)
+  if entry not in scenario_links: scenario_links.append(entry)
+assert len(scenario_links)==37 and integrated['scenario']['entryLinks']==scenario_links
+
 assert all(c['scenarioId']==integrated['scenario']['id'] for c in integrated['cases'])
 records=[];edges=[];bindings=[];sq=[];eq=[];ob=[];inv=[];provenance=[];src={};formal={}
 for r in rows:
