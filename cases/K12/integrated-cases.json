@@ -1,0 +1,1363 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+  "cases": [
+    {
+      "caseId": "EX01",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 4,
+        "row": "## EX01 交换与工具选择"
+      },
+      "body": [
+        {
+          "text": "[TO04/K12.02.01.03](tools-orchestration-r1-knowledge-cases.md#L8)；[TO05/K12.02.02.03](tools-orchestration-r1-knowledge-cases.md#L9)；[TO06/K12.02.03.03](tools-orchestration-r1-knowledge-cases.md#L10)；[TO07/K12.03.01.03](tools-orchestration-r1-knowledge-cases.md#L11)；[TO08/K12.03.02.03](tools-orchestration-r1-knowledge-cases.md#L12)；[TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO31/K12.02.01.04](tools-orchestration-r2-knowledge-cases.md#L8)；[TO32/K12.02.02.04](tools-orchestration-r2-knowledge-cases.md#L9)；[TO33/K12.02.03.04](tools-orchestration-r2-knowledge-cases.md#L10)；[TO34/K12.03.01.04](tools-orchestration-r2-knowledge-cases.md#L11)；[TO35/K12.03.02.04](tools-orchestration-r2-knowledge-cases.md#L12)；[TO36/K12.03.03.04](tools-orchestration-r2-knowledge-cases.md#L13)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16)；[TO52/K12.09.01.04](tools-orchestration-r2-knowledge-cases.md#L29)；[TO53/K12.09.02.04](tools-orchestration-r2-knowledge-cases.md#L30)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31)",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 5,
+            "row": "[TO04/K12.02.01.03](tools-orchestration-r1-knowledge-cases.md#L8)；[TO05/K12.02.02.03](tools-orchestration-r1-knowledge-cases.md#L9)；[TO06/K12.02.03.03](tools-orchestration-r1-knowledge-cases.md#L10)；[TO07/K12.03.01.03](tools-orchestration-r1-knowledge-cases.md#L11)；[TO08/K12.03.02.03](tools-orchestration-r1-knowledge-cases.md#L12)；[TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO31/K12.02.01.04](tools-orchestration-r2-knowledge-cases.md#L8)；[TO32/K12.02.02.04](tools-orchestration-r2-knowledge-cases.md#L9)；[TO33/K12.02.03.04](tools-orchestration-r2-knowledge-cases.md#L10)；[TO34/K12.03.01.04](tools-orchestration-r2-knowledge-cases.md#L11)；[TO35/K12.03.02.04](tools-orchestration-r2-knowledge-cases.md#L12)；[TO36/K12.03.03.04](tools-orchestration-r2-knowledge-cases.md#L13)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16)；[TO52/K12.09.01.04](tools-orchestration-r2-knowledge-cases.md#L29)；[TO53/K12.09.02.04](tools-orchestration-r2-knowledge-cases.md#L30)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31)"
+          }
+        },
+        {
+          "text": "要求保存可编辑的原工程、插件状态和自动化。给定宿主源Bitwig5.0.9、目标Studio One6.5，S543历史FAQ明确CLAP数据及Clip Launcher不读，故要求这些字段的无损交换不成立；不能从已打开文件推导成功。若用户单独允许只交stem，则是新合同，仅验证音频时钟/起点/声道及内容，保留原工程；不视为可编辑工程。反向Studio One→Bitwig的AU数据不读，仅限定该历史FAQ；S547没有AU具体运行正文证据。真实宿主版本和字段回读另验。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 6,
+            "row": "要求保存可编辑的原工程、插件状态和自动化。给定宿主源Bitwig5.0.9、目标Studio One6.5，S543历史FAQ明确CLAP数据及Clip Launcher不读，故要求这些字段的无损交换不成立；不能从已打开文件推导成功。若用户单独允许只交stem，则是新合同，仅验证音频时钟/起点/声道及内容，保留原工程；不视为可编辑工程。反向Studio One→Bitwig的AU数据不读，仅限定该历史FAQ；S547没有AU具体运行正文证据。真实宿主版本和字段回读另验。"
+          }
+        },
+        {
+          "text": "有限字段表（题设已证audio，插件未知）：audio=PRESERVED，plugin=UNKNOWN；必须两者时BLOCK；只要求audio且明确新合同时LOSS_GATE_PASS（仅字段门禁）。若目标只给渲染结果，不证明原自动化。PPQ480、tempo120、4个四分音符=2s；48kHz原点4800帧=.1s，目标44.1kHz对应4410帧；保持起点和时钟，而非复制帧数。CLAP 128帧48kHz块预算2.667ms；3ms工作已超过题设预算，LLM规划非实时；不从预算推真实延迟。文档版本与安装版本不同。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 7,
+            "row": "有限字段表（题设已证audio，插件未知）：audio=PRESERVED，plugin=UNKNOWN；必须两者时BLOCK；只要求audio且明确新合同时LOSS_GATE_PASS（仅字段门禁）。若目标只给渲染结果，不证明原自动化。PPQ480、tempo120、4个四分音符=2s；48kHz原点4800帧=.1s，目标44.1kHz对应4410帧；保持起点和时钟，而非复制帧数。CLAP 128帧48kHz块预算2.667ms；3ms工作已超过题设预算，LLM规划非实时；不从预算推真实延迟。文档版本与安装版本不同。"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "EX02",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 9,
+        "row": "## EX02 发现、权限、回读和失效"
+      },
+      "body": [
+        {
+          "text": "[TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO18/K12.06.03.03](tools-orchestration-r1-knowledge-cases.md#L22)；[TO19/K12.07.01.03](tools-orchestration-r1-knowledge-cases.md#L23)；[TO20/K12.07.02.03](tools-orchestration-r1-knowledge-cases.md#L24)；[TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO22/K12.08.01.03](tools-orchestration-r1-knowledge-cases.md#L26)；[TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21)；[TO45/K12.06.03.04](tools-orchestration-r2-knowledge-cases.md#L22)；[TO46/K12.07.01.04](tools-orchestration-r2-knowledge-cases.md#L23)；[TO47/K12.07.02.04](tools-orchestration-r2-knowledge-cases.md#L24)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25)；[TO49/K12.08.01.04](tools-orchestration-r2-knowledge-cases.md#L26)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28)",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 10,
+            "row": "[TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO18/K12.06.03.03](tools-orchestration-r1-knowledge-cases.md#L22)；[TO19/K12.07.01.03](tools-orchestration-r1-knowledge-cases.md#L23)；[TO20/K12.07.02.03](tools-orchestration-r1-knowledge-cases.md#L24)；[TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO22/K12.08.01.03](tools-orchestration-r1-knowledge-cases.md#L26)；[TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21)；[TO45/K12.06.03.04](tools-orchestration-r2-knowledge-cases.md#L22)；[TO46/K12.07.01.04](tools-orchestration-r2-knowledge-cases.md#L23)；[TO47/K12.07.02.04](tools-orchestration-r2-knowledge-cases.md#L24)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25)；[TO49/K12.08.01.04](tools-orchestration-r2-knowledge-cases.md#L26)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28)"
+          }
+        },
+        {
+          "text": "工具发现页1=read,nextCursor，页2=write，完整后仍须核当前schema/权限。外部文本要求上传未授权T2不改变本地T1合同。MCP协议请求ID不是业务幂等标记；operation E1预期rev7，超时，实际读回E1标记且rev8时ALREADY_APPLIED，不重复添加clip。读失败或rev8但无可信操作标记为UNKNOWN_STOP；只有确认无效果、当前rev7且有明确幂等合同才RETRY_ALLOWED_BY_CONTRACT。对不同写操作分别定义确认条件，回读和重试均受权限。权限撤回或真实安全未知不得继续受影响生成/披露/试听；不把退出码、工具回执或自评当交付。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 11,
+            "row": "工具发现页1=read,nextCursor，页2=write，完整后仍须核当前schema/权限。外部文本要求上传未授权T2不改变本地T1合同。MCP协议请求ID不是业务幂等标记；operation E1预期rev7，超时，实际读回E1标记且rev8时ALREADY_APPLIED，不重复添加clip。读失败或rev8但无可信操作标记为UNKNOWN_STOP；只有确认无效果、当前rev7且有明确幂等合同才RETRY_ALLOWED_BY_CONTRACT。对不同写操作分别定义确认条件，回读和重试均受权限。权限撤回或真实安全未知不得继续受影响生成/披露/试听；不把退出码、工具回执或自评当交付。"
+          }
+        },
+        {
+          "text": "有限依赖：S0源、B0伴奏、R0参考；P1依赖S0；Y1依赖P1/B0/R0；M1混合依赖Y1/B0；E1评价依赖M1。Y1更新使Y1/M1/E1对新候选失效；S0变化使S0/P1/Y1/M1/E1失效，独立B0/R0可复核后复用；保留原版本/失败候选。A→B→A无法拓扑推进。实际工程/调度器未实现。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 12,
+            "row": "有限依赖：S0源、B0伴奏、R0参考；P1依赖S0；Y1依赖P1/B0/R0；M1混合依赖Y1/B0；E1评价依赖M1。Y1更新使Y1/M1/E1对新候选失效；S0变化使S0/P1/Y1/M1/E1失效，独立B0/R0可复核后复用；保留原版本/失败候选。A→B→A无法拓扑推进。实际工程/调度器未实现。"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "KC-TO12",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 14,
+        "row": "## KC-TO12：保留旋律与词谱、仅修订授权目标歌声的局部候选"
+      },
+      "body": [
+        {
+          "text": "复用AI-A01/KC-A11，强调工具合同和可观察业务状态而非再次定义模型机制。源P0/S0，时钟PPQ480_T120，note=[60,64,67,60]，dur=[480,480,480,480]，词=[a,b,c,d]，伴奏=[1,2,3,4]，声部=[10,20,30,40]，target=T0，automation=[.4,.6]，plugin=P1/state-A。仅允许候选工程P1内声部索引1、2（半开[1,3)）编辑为target T1；输出candidate voice=[10,71,72,40]，原工程P0及所有其它字段保护；T1是符号标签非真实声线相似度证明。源、权限epoch、时钟、mask及模型/工具/宿主/格式版本需绑定。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 15,
+            "row": "复用AI-A01/KC-A11，强调工具合同和可观察业务状态而非再次定义模型机制。源P0/S0，时钟PPQ480_T120，note=[60,64,67,60]，dur=[480,480,480,480]，词=[a,b,c,d]，伴奏=[1,2,3,4]，声部=[10,20,30,40]，target=T0，automation=[.4,.6]，plugin=P1/state-A。仅允许候选工程P1内声部索引1、2（半开[1,3)）编辑为target T1；输出candidate voice=[10,71,72,40]，原工程P0及所有其它字段保护；T1是符号标签非真实声线相似度证明。源、权限epoch、时钟、mask及模型/工具/宿主/格式版本需绑定。"
+          }
+        },
+        {
+          "text": "| 候选 | 变化 | 有限判断 |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 16,
+            "row": "| 候选 | 变化 | 有限判断 |"
+          }
+        },
+        {
+          "text": "|---|---|---|",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 17,
+            "row": "|---|---|---|"
+          }
+        },
+        {
+          "text": "| C1 | 仅允许voice索引1/2、candidate P1和目标标签T1 | SCOPED_SYNTHETIC_CANDIDATE（各虚构门禁为真） |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 18,
+            "row": "| C1 | 仅允许voice索引1/2、candidate P1和目标标签T1 | SCOPED_SYNTHETIC_CANDIDATE（各虚构门禁为真） |"
+          }
+        },
+        {
+          "text": "| C2 | clock改PPQ960_T120 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 19,
+            "row": "| C2 | clock改PPQ960_T120 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C3 | 第二个duration=960 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 20,
+            "row": "| C3 | 第二个duration=960 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C4 | target=T2 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 21,
+            "row": "| C4 | target=T2 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C5 | note第二个65 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 22,
+            "row": "| C5 | note第二个65 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C6 | 词序a,c,b,d | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 23,
+            "row": "| C6 | 词序a,c,b,d | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C7 | 伴奏第二值99 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 24,
+            "row": "| C7 | 伴奏第二值99 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C8 | 非目标voice索引0改99 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 25,
+            "row": "| C8 | 非目标voice索引0改99 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C9 | automation第二值.8 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 26,
+            "row": "| C9 | automation第二值.8 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C10 | plugin改P2/state-A | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 27,
+            "row": "| C10 | plugin改P2/state-A | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C11 | 在原P0写入 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 28,
+            "row": "| C11 | 在原P0写入 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "| C12 | 来源变S1 | REJECT_PROTECTION |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 29,
+            "row": "| C12 | 来源变S1 | REJECT_PROTECTION |"
+          }
+        },
+        {
+          "text": "硬门禁：当前授权真、epoch E1、本地允许才进入其余条件；UNKNOWN/撤回/云端越权STOP_PERMISSION。保护失败优先REJECT_PROTECTION；工具/版本/资源/质量/保护任一未证PENDING_EVIDENCE；实际播放暴露安全未知STOP_AUDITION，若急性听力损失停止并按K07及时寻求医疗评估。所有模拟标记真也只SCOPED_SYNTHETIC_CANDIDATE，真实请求仍需真实证据。硬项失败分9不能覆盖硬项通过分7；C1无实际音频/许可/独立听评，非真实合格。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 31,
+            "row": "硬门禁：当前授权真、epoch E1、本地允许才进入其余条件；UNKNOWN/撤回/云端越权STOP_PERMISSION。保护失败优先REJECT_PROTECTION；工具/版本/资源/质量/保护任一未证PENDING_EVIDENCE；实际播放暴露安全未知STOP_AUDITION，若急性听力损失停止并按K07及时寻求医疗评估。所有模拟标记真也只SCOPED_SYNTHETIC_CANDIDATE，真实请求仍需真实证据。硬项失败分9不能覆盖硬项通过分7；C1无实际音频/许可/独立听评，非真实合格。"
+          }
+        },
+        {
+          "text": "回执身份：source S0/condition C0/model M1/tool G1/host H1/format F1/permission E1/mask 1:3/clock PPQ480_T120/target T1/output Y1/protocol Q1；任一改变旧回执不复用。两次修订预算耗尽停止，保留失败记录；可重新协商新目标，但不自动放宽硬项。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 32,
+            "row": "回执身份：source S0/condition C0/model M1/tool G1/host H1/format F1/permission E1/mask 1:3/clock PPQ480_T120/target T1/output Y1/protocol Q1；任一改变旧回执不复用。两次修订预算耗尽停止，保留失败记录；可重新协商新目标，但不自动放宽硬项。"
+          }
+        },
+        {
+          "text": "| 能力 | 专业动作 | 精确入口 |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 33,
+            "row": "| 能力 | 专业动作 | 精确入口 |"
+          }
+        },
+        {
+          "text": "|---|---|---|",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 34,
+            "row": "|---|---|---|"
+          }
+        },
+        {
+          "text": "| A01 知 | 读对象、时钟、格式、模型卡及权限条件 | [TO01/K12.01.01.03](tools-orchestration-r1-knowledge-cases.md#L5)；[TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO13/K12.05.01.03](tools-orchestration-r1-knowledge-cases.md#L17)；[TO28/K12.01.01.04](tools-orchestration-r2-knowledge-cases.md#L5)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14)；[TO40/K12.05.01.04](tools-orchestration-r2-knowledge-cases.md#L17) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 35,
+            "row": "| A01 知 | 读对象、时钟、格式、模型卡及权限条件 | [TO01/K12.01.01.03](tools-orchestration-r1-knowledge-cases.md#L5)；[TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO13/K12.05.01.03](tools-orchestration-r1-knowledge-cases.md#L17)；[TO28/K12.01.01.04](tools-orchestration-r2-knowledge-cases.md#L5)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14)；[TO40/K12.05.01.04](tools-orchestration-r2-knowledge-cases.md#L17) |"
+          }
+        },
+        {
+          "text": "| A02 流 | 权利→分析→发现→选型→转换/候选→回读→评价，依赖与预算 | [TO14/K12.05.02.03](tools-orchestration-r1-knowledge-cases.md#L18)；[TO19/K12.07.01.03](tools-orchestration-r1-knowledge-cases.md#L23)；[TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO41/K12.05.02.04](tools-orchestration-r2-knowledge-cases.md#L18)；[TO46/K12.07.01.04](tools-orchestration-r2-knowledge-cases.md#L23)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 36,
+            "row": "| A02 流 | 权利→分析→发现→选型→转换/候选→回读→评价，依赖与预算 | [TO14/K12.05.02.03](tools-orchestration-r1-knowledge-cases.md#L18)；[TO19/K12.07.01.03](tools-orchestration-r1-knowledge-cases.md#L23)；[TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO41/K12.05.02.04](tools-orchestration-r2-knowledge-cases.md#L18)；[TO46/K12.07.01.04](tools-orchestration-r2-knowledge-cases.md#L23)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25) |"
+          }
+        },
+        {
+          "text": "| A03 工 | 选择具体版本工具并验证接口、schema、插件与模型证据 | [TO04/K12.02.01.03](tools-orchestration-r1-knowledge-cases.md#L8)；[TO07/K12.03.01.03](tools-orchestration-r1-knowledge-cases.md#L11)；[TO13/K12.05.01.03](tools-orchestration-r1-knowledge-cases.md#L17)；[TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO31/K12.02.01.04](tools-orchestration-r2-knowledge-cases.md#L8)；[TO34/K12.03.01.04](tools-orchestration-r2-knowledge-cases.md#L11)；[TO40/K12.05.01.04](tools-orchestration-r2-knowledge-cases.md#L17)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 37,
+            "row": "| A03 工 | 选择具体版本工具并验证接口、schema、插件与模型证据 | [TO04/K12.02.01.03](tools-orchestration-r1-knowledge-cases.md#L8)；[TO07/K12.03.01.03](tools-orchestration-r1-knowledge-cases.md#L11)；[TO13/K12.05.01.03](tools-orchestration-r1-knowledge-cases.md#L17)；[TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO31/K12.02.01.04](tools-orchestration-r2-knowledge-cases.md#L8)；[TO34/K12.03.01.04](tools-orchestration-r2-knowledge-cases.md#L11)；[TO40/K12.05.01.04](tools-orchestration-r2-knowledge-cases.md#L17)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20) |"
+          }
+        },
+        {
+          "text": "| A04 态 | 源、计划、候选、operation、版本及失效回执 | [TO02/K12.01.02.03](tools-orchestration-r1-knowledge-cases.md#L6)；[TO03/K12.01.03.03](tools-orchestration-r1-knowledge-cases.md#L7)；[TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO29/K12.01.02.04](tools-orchestration-r2-knowledge-cases.md#L6)；[TO30/K12.01.03.04](tools-orchestration-r2-knowledge-cases.md#L7)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 38,
+            "row": "| A04 态 | 源、计划、候选、operation、版本及失效回执 | [TO02/K12.01.02.03](tools-orchestration-r1-knowledge-cases.md#L6)；[TO03/K12.01.03.03](tools-orchestration-r1-knowledge-cases.md#L7)；[TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO29/K12.01.02.04](tools-orchestration-r2-knowledge-cases.md#L6)；[TO30/K12.01.03.04](tools-orchestration-r2-knowledge-cases.md#L7)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28) |"
+          }
+        },
+        {
+          "text": "| A05 评 | 硬保护/字段/产物验证、独立任务质量 | [TO08/K12.03.02.03](tools-orchestration-r1-knowledge-cases.md#L12)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO35/K12.03.02.04](tools-orchestration-r2-knowledge-cases.md#L12)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 39,
+            "row": "| A05 评 | 硬保护/字段/产物验证、独立任务质量 | [TO08/K12.03.02.03](tools-orchestration-r1-knowledge-cases.md#L12)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO35/K12.03.02.04](tools-orchestration-r2-knowledge-cases.md#L12)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25) |"
+          }
+        },
+        {
+          "text": "| A06 编 | 可编辑原工程、候选局部mask、声部及自动化不覆盖 | [TO03/K12.01.03.03](tools-orchestration-r1-knowledge-cases.md#L7)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO22/K12.08.01.03](tools-orchestration-r1-knowledge-cases.md#L26)；[TO30/K12.01.03.04](tools-orchestration-r2-knowledge-cases.md#L7)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16)；[TO49/K12.08.01.04](tools-orchestration-r2-knowledge-cases.md#L26) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 40,
+            "row": "| A06 编 | 可编辑原工程、候选局部mask、声部及自动化不覆盖 | [TO03/K12.01.03.03](tools-orchestration-r1-knowledge-cases.md#L7)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO22/K12.08.01.03](tools-orchestration-r1-knowledge-cases.md#L26)；[TO30/K12.01.03.04](tools-orchestration-r2-knowledge-cases.md#L7)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16)；[TO49/K12.08.01.04](tools-orchestration-r2-knowledge-cases.md#L26) |"
+          }
+        },
+        {
+          "text": "| A07 循 | 未知副作用回读、最小修订、重验、回滚/停止 | [TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO27/K12.09.03.03](tools-orchestration-r1-knowledge-cases.md#L31)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+            "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+            "line": 41,
+            "row": "| A07 循 | 未知副作用回读、最小修订、重验、回滚/停止 | [TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO27/K12.09.03.03](tools-orchestration-r1-knowledge-cases.md#L31)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31) |"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "RV01",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 4,
+        "row": "## RV01 — 具名真实候选能力卡"
+      },
+      "body": [
+        {
+          "text": "| 字段 | MC-MG：facebook/musicgen-melody | MC-DS：DiffSinger MIDI SVS B版 |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 5,
+            "row": "| 字段 | MC-MG：facebook/musicgen-melody | MC-DS：DiffSinger MIDI SVS B版 |"
+          }
+        },
+        {
+          "text": "|---|---|---|",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 6,
+            "row": "|---|---|---|"
+          }
+        },
+        {
+          "text": "| 来源身份 | S550 固定卡revision4326add9aea0fdd07d62c7bbf789493fc99547f6；作者v1/1.5B；不等运行时权重哈希 | S551 固定代码commit4662c53a27a5ac662821eae23a7d71cfcff7356d；作者发布名0228_opencpop_ds100_rel.zip；包内容/哈希UNKNOWN |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 7,
+            "row": "| 来源身份 | S550 固定卡revision4326add9aea0fdd07d62c7bbf789493fc99547f6；作者v1/1.5B；不等运行时权重哈希 | S551 固定代码commit4662c53a27a5ac662821eae23a7d71cfcff7356d；作者发布名0228_opencpop_ds100_rel.zip；包内容/哈希UNKNOWN |"
+          }
+        },
+        {
+          "text": "| 接口及条件 | 本地AudioCraft MusicGen melody入口；文本描述，旋律音频及采样率传给chroma条件生成；可无条件/文本生成；不是MIDI音符时值硬约束 | 本地inference/svs/ds_e2e.py；usr/configs/midi/e2e/opencpop/ds100_adj_rel.yaml；experiment名0228_opencpop_ds100_rel；word模式text/notes/notes_duration，phoneme模式ph_seq/note_seq/note_dur_seq/is_slur_seq，输入字段对齐按作者文档；不是任意参考音色转换 |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 8,
+            "row": "| 接口及条件 | 本地AudioCraft MusicGen melody入口；文本描述，旋律音频及采样率传给chroma条件生成；可无条件/文本生成；不是MIDI音符时值硬约束 | 本地inference/svs/ds_e2e.py；usr/configs/midi/e2e/opencpop/ds100_adj_rel.yaml；experiment名0228_opencpop_ds100_rel；word模式text/notes/notes_duration，phoneme模式ph_seq/note_seq/note_dur_seq/is_slur_seq，输入字段对齐按作者文档；不是任意参考音色转换 |"
+          }
+        },
+        {
+          "text": "| 输出及长度 | waveform并示例写WAV；duration=8秒为作者示例参数，实际长度/最大长度/精确音符保持UNKNOWN | 作者文档默认infer_out，源码调用vocoder产生波形；歌声时值由词谱条件控制，实际输出时长/上限/对齐精度UNKNOWN；不能对重复逐音素的note_dur_seq直接求和作全曲时长 |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 9,
+            "row": "| 输出及长度 | waveform并示例写WAV；duration=8秒为作者示例参数，实际长度/最大长度/精确音符保持UNKNOWN | 作者文档默认infer_out，源码调用vocoder产生波形；歌声时值由词谱条件控制，实际输出时长/上限/对齐精度UNKNOWN；不能对重复逐音素的note_dur_seq直接求和作全曲时长 |"
+          }
+        },
+        {
+          "text": "| 环境和资源 | audiocraft、torchaudio、ffmpeg；依赖revision/设备/峰值/配额及远程服务可用性UNKNOWN | 作者历史Python3.8/Torch1.9.0、2080Ti CUDA10.2及3090 CUDA11.4环境说明；关联0109_hifigan_bigpopcs_hop128及配置pe_ckpt 0102_xiaoma_pe；实际组合、显存/速度/平台/配额UNKNOWN |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 10,
+            "row": "| 环境和资源 | audiocraft、torchaudio、ffmpeg；依赖revision/设备/峰值/配额及远程服务可用性UNKNOWN | 作者历史Python3.8/Torch1.9.0、2080Ti CUDA10.2及3090 CUDA11.4环境说明；关联0109_hifigan_bigpopcs_hop128及配置pe_ckpt 0102_xiaoma_pe；实际组合、显存/速度/平台/配额UNKNOWN |"
+          }
+        },
+        {
+          "text": "| 语言和目标限制 | 卡明确真实歌声限制，英文描述训练、风格文化表现非均一；不具有已证歌词控制 | 中文词/音素、音符和时值的文档路径；作者提醒Opencpop相对vocoder训练域差异可影响质量；缅甸语、任意目标音色/声库选择、实际自然度、精确F0保护UNKNOWN |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 11,
+            "row": "| 语言和目标限制 | 卡明确真实歌声限制，英文描述训练、风格文化表现非均一；不具有已证歌词控制 | 中文词/音素、音符和时值的文档路径；作者提醒Opencpop相对vocoder训练域差异可影响质量；缅甸语、任意目标音色/声库选择、实际自然度、精确F0保护UNKNOWN |"
+          }
+        },
+        {
+          "text": "| 权利及服务 | S550报告代码MIT、权重CC-BY-NC4.0；权重使用条款适用性/训练数据权利、参考音频、服务及输出用途分别核验 | S551仓库LICENSE MIT仅代码；README明确Opencpop访问不能由作者授予；权重/vocoder/数据/参考/服务及输出权利UNKNOWN，不能将代码MIT继承给发布包 |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 12,
+            "row": "| 权利及服务 | S550报告代码MIT、权重CC-BY-NC4.0；权重使用条款适用性/训练数据权利、参考音频、服务及输出用途分别核验 | S551仓库LICENSE MIT仅代码；README明确Opencpop访问不能由作者授予；权重/vocoder/数据/参考/服务及输出权利UNKNOWN，不能将代码MIT继承给发布包 |"
+          }
+        },
+        {
+          "text": "| 实际资格 | DOCUMENTED_CANDIDATE或DOCUMENTED_REJECT，不是运行PASS | DOCUMENTED_CANDIDATE或DOCUMENTED_PENDING，不是运行PASS |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 13,
+            "row": "| 实际资格 | DOCUMENTED_CANDIDATE或DOCUMENTED_REJECT，不是运行PASS | DOCUMENTED_CANDIDATE或DOCUMENTED_PENDING，不是运行PASS |"
+          }
+        },
+        {
+          "text": "选择题（仅文档阶段）：Q1 研究性英文描述+已获准的旋律音频条件、无需真实歌唱，MC-MG文档候选；Q2 明确歌词和真实歌唱为硬项，MC-MG拒绝，不能通过调整prompt推导能力；Q3 中文词谱/音符/时值输入齐全，MC-DS文档候选，仍需权重/vocoder/版本/资源/许可及真实产物评价；Q4 无notes/duration或音素对齐缺失，MC-DS待补前置，不凭文本冒充词谱；Q5 缅甸语歌词或授权参考声线的目标匹配未证，MC-DS待证而不是否定或肯定；Q6 8s示例不等最大值，45s请求不能从卡判定直接/分段等价；远程接口、作业、配额未知，不能认为本地示例证明服务成功。Q7 商业使用/参考上传需K15依据当前用途分别核验；即使两卡的技术候选命中，未证实际许可和运行资格均STOP/PENDING；不因MIT而自动批准。所需原子：TO13/40能力条件，TO14/41接口资源，TO15/42权利；CQ09/14/20/23/26与A01–07按职责引用。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 15,
+            "row": "选择题（仅文档阶段）：Q1 研究性英文描述+已获准的旋律音频条件、无需真实歌唱，MC-MG文档候选；Q2 明确歌词和真实歌唱为硬项，MC-MG拒绝，不能通过调整prompt推导能力；Q3 中文词谱/音符/时值输入齐全，MC-DS文档候选，仍需权重/vocoder/版本/资源/许可及真实产物评价；Q4 无notes/duration或音素对齐缺失，MC-DS待补前置，不凭文本冒充词谱；Q5 缅甸语歌词或授权参考声线的目标匹配未证，MC-DS待证而不是否定或肯定；Q6 8s示例不等最大值，45s请求不能从卡判定直接/分段等价；远程接口、作业、配额未知，不能认为本地示例证明服务成功。Q7 商业使用/参考上传需K15依据当前用途分别核验；即使两卡的技术候选命中，未证实际许可和运行资格均STOP/PENDING；不因MIT而自动批准。所需原子：TO13/40能力条件，TO14/41接口资源，TO15/42权利；CQ09/14/20/23/26与A01–07按职责引用。"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "RV02",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 17,
+        "row": "## RV02 — 多轨delta及特殊时钟"
+      },
+      "body": [
+        {
+          "text": "S548原资格保持，S552补第三方HTML/Microsoft。format0单track；format1共同时间轴，设tempo map初始500000us/qn、PPQ480，T1 delta480、T2 delta480各自从0累积，所以两个事件同在.5s，不是.5s与1s；format2各独立pattern，保留patternID与各自时间解释，不默认并入同一歌曲；无拼接合同即待证。SMPTE division高字节有符号-29代表30 drop-frame而非29fps；按通常NTSC 30000/1001实际帧率且每帧40ticks的明确题设，1200ticks为1.001s，绝对值29会得到约1.03448s；不是把时间码跳号当丢音频帧。实际实现未支持该模式或不明时钟则UNKNOWN/拒绝转换，不回退PPQ或29fps。原TO37/49算式保持。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 18,
+            "row": "S548原资格保持，S552补第三方HTML/Microsoft。format0单track；format1共同时间轴，设tempo map初始500000us/qn、PPQ480，T1 delta480、T2 delta480各自从0累积，所以两个事件同在.5s，不是.5s与1s；format2各独立pattern，保留patternID与各自时间解释，不默认并入同一歌曲；无拼接合同即待证。SMPTE division高字节有符号-29代表30 drop-frame而非29fps；按通常NTSC 30000/1001实际帧率且每帧40ticks的明确题设，1200ticks为1.001s，绝对值29会得到约1.03448s；不是把时间码跳号当丢音频帧。实际实现未支持该模式或不明时钟则UNKNOWN/拒绝转换，不回退PPQ或29fps。原TO37/49算式保持。"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "RV03",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 20,
+        "row": "## RV03 — 失败经验的证据资格与复用"
+      },
+      "body": [
+        {
+          "text": "虚构经验L1：任务editable_exchange、源H1/目标H2、格式F1、插件P1、必需state字段、保护scope preserve_state、授权epoch E1；候选X1实际题设回读state缺失，证据EV1（源/目标身份、版本、字段对照及失败报告），在该条件下结论“不得以打开文件证明该字段保真”。记录状态REVIEW_PENDING，属于限定研究候选经验，非accepted claim。后续同条件检索到L1仅作为风险线索/候选约束，仍核当前权限、对象与执行证据；H2升级、P1变化、格式、保护要求、证据撤回、授权epoch变化任一触发REQUALIFY，不把历史失败推断为其他版本不支持，也不把历史批准当授权。保留原失败记录及经验与证据关联，不删除历史；经过独立证据审核才考虑正式知识准入。绑定TO48、旧K12.07.03.02、A07/CQ24，不设计运行平台。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 21,
+            "row": "虚构经验L1：任务editable_exchange、源H1/目标H2、格式F1、插件P1、必需state字段、保护scope preserve_state、授权epoch E1；候选X1实际题设回读state缺失，证据EV1（源/目标身份、版本、字段对照及失败报告），在该条件下结论“不得以打开文件证明该字段保真”。记录状态REVIEW_PENDING，属于限定研究候选经验，非accepted claim。后续同条件检索到L1仅作为风险线索/候选约束，仍核当前权限、对象与执行证据；H2升级、P1变化、格式、保护要求、证据撤回、授权epoch变化任一触发REQUALIFY，不把历史失败推断为其他版本不支持，也不把历史批准当授权。保留原失败记录及经验与证据关联，不删除历史；经过独立证据审核才考虑正式知识准入。绑定TO48、旧K12.07.03.02、A07/CQ24，不设计运行平台。"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "RV04",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 23,
+        "row": "## RV04 — mask与回执严格绑定"
+      },
+      "body": [
+        {
+          "text": "追加独立有限例：源S0@rev7，时钟clk0，voice长度4、稳定ID[u0,u1,u2,u3]；mask以源索引为坐标，半开[1,3)，整数边界且0≤start<end≤4，绑定源版本、时钟；候选声部长度、ID及顺序与源一致，并核区外值。正例[10,71,72,40]；插入尾部999、删除末项、交换u1/u2身份（即使数值不变）、负界/越界/空区间/非整数/输出坐标/过期源版本或时钟均拒绝。保持R4原11变异、其他字段、授权和安全门禁不变；形状/坐标负例仅证明有限规则。真实音频插入/重采样需另定义映射，不直接沿用索引。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 24,
+            "row": "追加独立有限例：源S0@rev7，时钟clk0，voice长度4、稳定ID[u0,u1,u2,u3]；mask以源索引为坐标，半开[1,3)，整数边界且0≤start<end≤4，绑定源版本、时钟；候选声部长度、ID及顺序与源一致，并核区外值。正例[10,71,72,40]；插入尾部999、删除末项、交换u1/u2身份（即使数值不变）、负界/越界/空区间/非整数/输出坐标/过期源版本或时钟均拒绝。保持R4原11变异、其他字段、授权和安全门禁不变；形状/坐标负例仅证明有限规则。真实音频插入/重采样需另定义映射，不直接沿用索引。"
+          }
+        },
+        {
+          "text": "回执扩展原12字段，新增明确配置对象（seed=11,gain=.8,schema=sch1）、outputDigest=digestA、outputRev=1；相同model/tool名称但seed、gain或schema变化均拒绝复用；同一output ID内容摘要或版本变化也拒绝。实际digest应按不可变工件内容计算，本题digestA/B为合成标记，不声称已哈希音频。实际配置须完整规范化绑定（此有限例以固定字段对象相等比较，不声称通用canonical hash）。权限/保护/安全仍独立门禁。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 25,
+            "row": "回执扩展原12字段，新增明确配置对象（seed=11,gain=.8,schema=sch1）、outputDigest=digestA、outputRev=1；相同model/tool名称但seed、gain或schema变化均拒绝复用；同一output ID内容摘要或版本变化也拒绝。实际digest应按不可变工件内容计算，本题digestA/B为合成标记，不声称已哈希音频。实际配置须完整规范化绑定（此有限例以固定字段对象相等比较，不声称通用canonical hash）。权限/保护/安全仍独立门禁。"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    }
+  ],
+  "scenario": {
+    "id": "KC-TO12",
+    "baseline": {
+      "project": "P0",
+      "source": "S0",
+      "clock": "PPQ480_T120",
+      "note": [
+        60,
+        64,
+        67,
+        60
+      ],
+      "dur": [
+        480,
+        480,
+        480,
+        480
+      ],
+      "lyrics": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "backing": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "voice": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "target": "T0",
+      "automation": [
+        0.4,
+        0.6
+      ],
+      "plugin": "P1/state-A"
+    },
+    "candidate": {
+      "project": "P1",
+      "source": "S0",
+      "clock": "PPQ480_T120",
+      "note": [
+        60,
+        64,
+        67,
+        60
+      ],
+      "dur": [
+        480,
+        480,
+        480,
+        480
+      ],
+      "lyrics": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "backing": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "voice": [
+        10,
+        71,
+        72,
+        40
+      ],
+      "target": "T1",
+      "automation": [
+        0.4,
+        0.6
+      ],
+      "plugin": "P1/state-A"
+    },
+    "mask": {
+      "source": "S0@rev7",
+      "clock": "clk0",
+      "coordinate": "SOURCE_INDEX",
+      "start": 1,
+      "end": 3
+    },
+    "voiceIds": [
+      "u0",
+      "u1",
+      "u2",
+      "u3"
+    ],
+    "reportIdentity": {
+      "source": "S0",
+      "condition": "C0",
+      "model": "M1",
+      "tool": "G1",
+      "host": "H1",
+      "format": "F1",
+      "permission": "E1",
+      "mask": "1:3",
+      "clock": "PPQ480_T120",
+      "target": "T1",
+      "output": "Y1",
+      "protocol": "Q1",
+      "config": {
+        "seed": 11,
+        "gain": 0.8,
+        "schema": "sch1"
+      },
+      "outputDigest": "digestA",
+      "outputRev": 1
+    },
+    "realExecutionAllowed": false,
+    "realRights": "UNKNOWN",
+    "realAuditionAllowed": false,
+    "anchors": [
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 15,
+        "row": "复用AI-A01/KC-A11，强调工具合同和可观察业务状态而非再次定义模型机制。源P0/S0，时钟PPQ480_T120，note=[60,64,67,60]，dur=[480,480,480,480]，词=[a,b,c,d]，伴奏=[1,2,3,4]，声部=[10,20,30,40]，target=T0，automation=[.4,.6]，plugin=P1/state-A。仅允许候选工程P1内声部索引1、2（半开[1,3)）编辑为target T1；输出candidate voice=[10,71,72,40]，原工程P0及所有其它字段保护；T1是符号标签非真实声线相似度证明。源、权限epoch、时钟、mask及模型/工具/宿主/格式版本需绑定。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 18,
+        "row": "| C1 | 仅允许voice索引1/2、candidate P1和目标标签T1 | SCOPED_SYNTHETIC_CANDIDATE（各虚构门禁为真） |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 19,
+        "row": "| C2 | clock改PPQ960_T120 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 20,
+        "row": "| C3 | 第二个duration=960 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 21,
+        "row": "| C4 | target=T2 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 22,
+        "row": "| C5 | note第二个65 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 23,
+        "row": "| C6 | 词序a,c,b,d | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 24,
+        "row": "| C7 | 伴奏第二值99 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 25,
+        "row": "| C8 | 非目标voice索引0改99 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 26,
+        "row": "| C9 | automation第二值.8 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 27,
+        "row": "| C10 | plugin改P2/state-A | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 28,
+        "row": "| C11 | 在原P0写入 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 29,
+        "row": "| C12 | 来源变S1 | REJECT_PROTECTION |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 31,
+        "row": "硬门禁：当前授权真、epoch E1、本地允许才进入其余条件；UNKNOWN/撤回/云端越权STOP_PERMISSION。保护失败优先REJECT_PROTECTION；工具/版本/资源/质量/保护任一未证PENDING_EVIDENCE；实际播放暴露安全未知STOP_AUDITION，若急性听力损失停止并按K07及时寻求医疗评估。所有模拟标记真也只SCOPED_SYNTHETIC_CANDIDATE，真实请求仍需真实证据。硬项失败分9不能覆盖硬项通过分7；C1无实际音频/许可/独立听评，非真实合格。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r4-integrated-closure.md",
+        "blob": "f64936674b8b41ce69425d83ce5707460adf8be3",
+        "line": 32,
+        "row": "回执身份：source S0/condition C0/model M1/tool G1/host H1/format F1/permission E1/mask 1:3/clock PPQ480_T120/target T1/output Y1/protocol Q1；任一改变旧回执不复用。两次修订预算耗尽停止，保留失败记录；可重新协商新目标，但不自动放宽硬项。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 23,
+        "row": "## RV04 — mask与回执严格绑定"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 24,
+        "row": "追加独立有限例：源S0@rev7，时钟clk0，voice长度4、稳定ID[u0,u1,u2,u3]；mask以源索引为坐标，半开[1,3)，整数边界且0≤start<end≤4，绑定源版本、时钟；候选声部长度、ID及顺序与源一致，并核区外值。正例[10,71,72,40]；插入尾部999、删除末项、交换u1/u2身份（即使数值不变）、负界/越界/空区间/非整数/输出坐标/过期源版本或时钟均拒绝。保持R4原11变异、其他字段、授权和安全门禁不变；形状/坐标负例仅证明有限规则。真实音频插入/重采样需另定义映射，不直接沿用索引。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 25,
+        "row": "回执扩展原12字段，新增明确配置对象（seed=11,gain=.8,schema=sch1）、outputDigest=digestA、outputRev=1；相同model/tool名称但seed、gain或schema变化均拒绝复用；同一output ID内容摘要或版本变化也拒绝。实际digest应按不可变工件内容计算，本题digestA/B为合成标记，不声称已哈希音频。实际配置须完整规范化绑定（此有限例以固定字段对象相等比较，不声称通用canonical hash）。权限/保护/安全仍独立门禁。"
+      }
+    ],
+    "modelCards": {
+      "musicgen": {
+        "id": "MC-MG",
+        "model": "facebook/musicgen-melody",
+        "cardRevision": "4326add9aea0fdd07d62c7bbf789493fc99547f6",
+        "source": "S550",
+        "documentedMode": "TEXT_CHROMA",
+        "weightHash": "UNKNOWN",
+        "runtime": "UNKNOWN",
+        "referenceUse": "UNKNOWN",
+        "lyricsControl": "NOT_DOCUMENTED",
+        "realVocal": "DOCUMENTED_LIMITATION"
+      },
+      "diffsinger": {
+        "id": "MC-DS",
+        "model": "DiffSinger MIDI SVS B",
+        "codeCommit": "4662c53a27a5ac662821eae23a7d71cfcff7356d",
+        "package": "0228_opencpop_ds100_rel.zip",
+        "source": "S551",
+        "documentedMode": "CHINESE_SCORE",
+        "weightHash": "UNKNOWN",
+        "runtime": "UNKNOWN",
+        "referenceUse": "UNKNOWN",
+        "myanmar": "UNKNOWN"
+      },
+      "rows": [
+        {
+          "field": "来源身份",
+          "musicgen": "S550 固定卡revision4326add9aea0fdd07d62c7bbf789493fc99547f6；作者v1/1.5B；不等运行时权重哈希",
+          "diffsinger": "S551 固定代码commit4662c53a27a5ac662821eae23a7d71cfcff7356d；作者发布名0228_opencpop_ds100_rel.zip；包内容/哈希UNKNOWN",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 7,
+            "row": "| 来源身份 | S550 固定卡revision4326add9aea0fdd07d62c7bbf789493fc99547f6；作者v1/1.5B；不等运行时权重哈希 | S551 固定代码commit4662c53a27a5ac662821eae23a7d71cfcff7356d；作者发布名0228_opencpop_ds100_rel.zip；包内容/哈希UNKNOWN |"
+          }
+        },
+        {
+          "field": "接口及条件",
+          "musicgen": "本地AudioCraft MusicGen melody入口；文本描述，旋律音频及采样率传给chroma条件生成；可无条件/文本生成；不是MIDI音符时值硬约束",
+          "diffsinger": "本地inference/svs/ds_e2e.py；usr/configs/midi/e2e/opencpop/ds100_adj_rel.yaml；experiment名0228_opencpop_ds100_rel；word模式text/notes/notes_duration，phoneme模式ph_seq/note_seq/note_dur_seq/is_slur_seq，输入字段对齐按作者文档；不是任意参考音色转换",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 8,
+            "row": "| 接口及条件 | 本地AudioCraft MusicGen melody入口；文本描述，旋律音频及采样率传给chroma条件生成；可无条件/文本生成；不是MIDI音符时值硬约束 | 本地inference/svs/ds_e2e.py；usr/configs/midi/e2e/opencpop/ds100_adj_rel.yaml；experiment名0228_opencpop_ds100_rel；word模式text/notes/notes_duration，phoneme模式ph_seq/note_seq/note_dur_seq/is_slur_seq，输入字段对齐按作者文档；不是任意参考音色转换 |"
+          }
+        },
+        {
+          "field": "输出及长度",
+          "musicgen": "waveform并示例写WAV；duration=8秒为作者示例参数，实际长度/最大长度/精确音符保持UNKNOWN",
+          "diffsinger": "作者文档默认infer_out，源码调用vocoder产生波形；歌声时值由词谱条件控制，实际输出时长/上限/对齐精度UNKNOWN；不能对重复逐音素的note_dur_seq直接求和作全曲时长",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 9,
+            "row": "| 输出及长度 | waveform并示例写WAV；duration=8秒为作者示例参数，实际长度/最大长度/精确音符保持UNKNOWN | 作者文档默认infer_out，源码调用vocoder产生波形；歌声时值由词谱条件控制，实际输出时长/上限/对齐精度UNKNOWN；不能对重复逐音素的note_dur_seq直接求和作全曲时长 |"
+          }
+        },
+        {
+          "field": "环境和资源",
+          "musicgen": "audiocraft、torchaudio、ffmpeg；依赖revision/设备/峰值/配额及远程服务可用性UNKNOWN",
+          "diffsinger": "作者历史Python3.8/Torch1.9.0、2080Ti CUDA10.2及3090 CUDA11.4环境说明；关联0109_hifigan_bigpopcs_hop128及配置pe_ckpt 0102_xiaoma_pe；实际组合、显存/速度/平台/配额UNKNOWN",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 10,
+            "row": "| 环境和资源 | audiocraft、torchaudio、ffmpeg；依赖revision/设备/峰值/配额及远程服务可用性UNKNOWN | 作者历史Python3.8/Torch1.9.0、2080Ti CUDA10.2及3090 CUDA11.4环境说明；关联0109_hifigan_bigpopcs_hop128及配置pe_ckpt 0102_xiaoma_pe；实际组合、显存/速度/平台/配额UNKNOWN |"
+          }
+        },
+        {
+          "field": "语言和目标限制",
+          "musicgen": "卡明确真实歌声限制，英文描述训练、风格文化表现非均一；不具有已证歌词控制",
+          "diffsinger": "中文词/音素、音符和时值的文档路径；作者提醒Opencpop相对vocoder训练域差异可影响质量；缅甸语、任意目标音色/声库选择、实际自然度、精确F0保护UNKNOWN",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 11,
+            "row": "| 语言和目标限制 | 卡明确真实歌声限制，英文描述训练、风格文化表现非均一；不具有已证歌词控制 | 中文词/音素、音符和时值的文档路径；作者提醒Opencpop相对vocoder训练域差异可影响质量；缅甸语、任意目标音色/声库选择、实际自然度、精确F0保护UNKNOWN |"
+          }
+        },
+        {
+          "field": "权利及服务",
+          "musicgen": "S550报告代码MIT、权重CC-BY-NC4.0；权重使用条款适用性/训练数据权利、参考音频、服务及输出用途分别核验",
+          "diffsinger": "S551仓库LICENSE MIT仅代码；README明确Opencpop访问不能由作者授予；权重/vocoder/数据/参考/服务及输出权利UNKNOWN，不能将代码MIT继承给发布包",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 12,
+            "row": "| 权利及服务 | S550报告代码MIT、权重CC-BY-NC4.0；权重使用条款适用性/训练数据权利、参考音频、服务及输出用途分别核验 | S551仓库LICENSE MIT仅代码；README明确Opencpop访问不能由作者授予；权重/vocoder/数据/参考/服务及输出权利UNKNOWN，不能将代码MIT继承给发布包 |"
+          }
+        },
+        {
+          "field": "实际资格",
+          "musicgen": "DOCUMENTED_CANDIDATE或DOCUMENTED_REJECT，不是运行PASS",
+          "diffsinger": "DOCUMENTED_CANDIDATE或DOCUMENTED_PENDING，不是运行PASS",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+            "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+            "line": 13,
+            "row": "| 实际资格 | DOCUMENTED_CANDIDATE或DOCUMENTED_REJECT，不是运行PASS | DOCUMENTED_CANDIDATE或DOCUMENTED_PENDING，不是运行PASS |"
+          }
+        }
+      ],
+      "selectionAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 15,
+        "row": "选择题（仅文档阶段）：Q1 研究性英文描述+已获准的旋律音频条件、无需真实歌唱，MC-MG文档候选；Q2 明确歌词和真实歌唱为硬项，MC-MG拒绝，不能通过调整prompt推导能力；Q3 中文词谱/音符/时值输入齐全，MC-DS文档候选，仍需权重/vocoder/版本/资源/许可及真实产物评价；Q4 无notes/duration或音素对齐缺失，MC-DS待补前置，不凭文本冒充词谱；Q5 缅甸语歌词或授权参考声线的目标匹配未证，MC-DS待证而不是否定或肯定；Q6 8s示例不等最大值，45s请求不能从卡判定直接/分段等价；远程接口、作业、配额未知，不能认为本地示例证明服务成功。Q7 商业使用/参考上传需K15依据当前用途分别核验；即使两卡的技术候选命中，未证实际许可和运行资格均STOP/PENDING；不因MIT而自动批准。所需原子：TO13/40能力条件，TO14/41接口资源，TO15/42权利；CQ09/14/20/23/26与A01–07按职责引用。"
+      }
+    },
+    "entryLinks": [
+      {
+        "caseId": "TO04",
+        "d4": "K12.02.01.03",
+        "label": "TO04/K12.02.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L8"
+      },
+      {
+        "caseId": "TO05",
+        "d4": "K12.02.02.03",
+        "label": "TO05/K12.02.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L9"
+      },
+      {
+        "caseId": "TO06",
+        "d4": "K12.02.03.03",
+        "label": "TO06/K12.02.03.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L10"
+      },
+      {
+        "caseId": "TO07",
+        "d4": "K12.03.01.03",
+        "label": "TO07/K12.03.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L11"
+      },
+      {
+        "caseId": "TO08",
+        "d4": "K12.03.02.03",
+        "label": "TO08/K12.03.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L12"
+      },
+      {
+        "caseId": "TO10",
+        "d4": "K12.04.01.03",
+        "label": "TO10/K12.04.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L14"
+      },
+      {
+        "caseId": "TO11",
+        "d4": "K12.04.02.03",
+        "label": "TO11/K12.04.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L15"
+      },
+      {
+        "caseId": "TO12",
+        "d4": "K12.04.03.03",
+        "label": "TO12/K12.04.03.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L16"
+      },
+      {
+        "caseId": "TO31",
+        "d4": "K12.02.01.04",
+        "label": "TO31/K12.02.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L8"
+      },
+      {
+        "caseId": "TO32",
+        "d4": "K12.02.02.04",
+        "label": "TO32/K12.02.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L9"
+      },
+      {
+        "caseId": "TO33",
+        "d4": "K12.02.03.04",
+        "label": "TO33/K12.02.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L10"
+      },
+      {
+        "caseId": "TO34",
+        "d4": "K12.03.01.04",
+        "label": "TO34/K12.03.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L11"
+      },
+      {
+        "caseId": "TO35",
+        "d4": "K12.03.02.04",
+        "label": "TO35/K12.03.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L12"
+      },
+      {
+        "caseId": "TO36",
+        "d4": "K12.03.03.04",
+        "label": "TO36/K12.03.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L13"
+      },
+      {
+        "caseId": "TO37",
+        "d4": "K12.04.01.04",
+        "label": "TO37/K12.04.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L14"
+      },
+      {
+        "caseId": "TO38",
+        "d4": "K12.04.02.04",
+        "label": "TO38/K12.04.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L15"
+      },
+      {
+        "caseId": "TO39",
+        "d4": "K12.04.03.04",
+        "label": "TO39/K12.04.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L16"
+      },
+      {
+        "caseId": "TO52",
+        "d4": "K12.09.01.04",
+        "label": "TO52/K12.09.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L29"
+      },
+      {
+        "caseId": "TO53",
+        "d4": "K12.09.02.04",
+        "label": "TO53/K12.09.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L30"
+      },
+      {
+        "caseId": "TO54",
+        "d4": "K12.09.03.04",
+        "label": "TO54/K12.09.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L31"
+      },
+      {
+        "caseId": "TO16",
+        "d4": "K12.06.01.03",
+        "label": "TO16/K12.06.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L20"
+      },
+      {
+        "caseId": "TO17",
+        "d4": "K12.06.02.03",
+        "label": "TO17/K12.06.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L21"
+      },
+      {
+        "caseId": "TO18",
+        "d4": "K12.06.03.03",
+        "label": "TO18/K12.06.03.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L22"
+      },
+      {
+        "caseId": "TO19",
+        "d4": "K12.07.01.03",
+        "label": "TO19/K12.07.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L23"
+      },
+      {
+        "caseId": "TO20",
+        "d4": "K12.07.02.03",
+        "label": "TO20/K12.07.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L24"
+      },
+      {
+        "caseId": "TO21",
+        "d4": "K12.07.03.03",
+        "label": "TO21/K12.07.03.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L25"
+      },
+      {
+        "caseId": "TO22",
+        "d4": "K12.08.01.03",
+        "label": "TO22/K12.08.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L26"
+      },
+      {
+        "caseId": "TO23",
+        "d4": "K12.08.02.03",
+        "label": "TO23/K12.08.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L27"
+      },
+      {
+        "caseId": "TO24",
+        "d4": "K12.08.03.03",
+        "label": "TO24/K12.08.03.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L28"
+      },
+      {
+        "caseId": "TO43",
+        "d4": "K12.06.01.04",
+        "label": "TO43/K12.06.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L20"
+      },
+      {
+        "caseId": "TO44",
+        "d4": "K12.06.02.04",
+        "label": "TO44/K12.06.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L21"
+      },
+      {
+        "caseId": "TO45",
+        "d4": "K12.06.03.04",
+        "label": "TO45/K12.06.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L22"
+      },
+      {
+        "caseId": "TO46",
+        "d4": "K12.07.01.04",
+        "label": "TO46/K12.07.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L23"
+      },
+      {
+        "caseId": "TO47",
+        "d4": "K12.07.02.04",
+        "label": "TO47/K12.07.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L24"
+      },
+      {
+        "caseId": "TO48",
+        "d4": "K12.07.03.04",
+        "label": "TO48/K12.07.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L25"
+      },
+      {
+        "caseId": "TO49",
+        "d4": "K12.08.01.04",
+        "label": "TO49/K12.08.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L26"
+      },
+      {
+        "caseId": "TO50",
+        "d4": "K12.08.02.04",
+        "label": "TO50/K12.08.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L27"
+      },
+      {
+        "caseId": "TO51",
+        "d4": "K12.08.03.04",
+        "label": "TO51/K12.08.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L28"
+      },
+      {
+        "caseId": "TO01",
+        "d4": "K12.01.01.03",
+        "label": "TO01/K12.01.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L5"
+      },
+      {
+        "caseId": "TO13",
+        "d4": "K12.05.01.03",
+        "label": "TO13/K12.05.01.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L17"
+      },
+      {
+        "caseId": "TO28",
+        "d4": "K12.01.01.04",
+        "label": "TO28/K12.01.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L5"
+      },
+      {
+        "caseId": "TO40",
+        "d4": "K12.05.01.04",
+        "label": "TO40/K12.05.01.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L17"
+      },
+      {
+        "caseId": "TO14",
+        "d4": "K12.05.02.03",
+        "label": "TO14/K12.05.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L18"
+      },
+      {
+        "caseId": "TO41",
+        "d4": "K12.05.02.04",
+        "label": "TO41/K12.05.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L18"
+      },
+      {
+        "caseId": "TO02",
+        "d4": "K12.01.02.03",
+        "label": "TO02/K12.01.02.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L6"
+      },
+      {
+        "caseId": "TO03",
+        "d4": "K12.01.03.03",
+        "label": "TO03/K12.01.03.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L7"
+      },
+      {
+        "caseId": "TO29",
+        "d4": "K12.01.02.04",
+        "label": "TO29/K12.01.02.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L6"
+      },
+      {
+        "caseId": "TO30",
+        "d4": "K12.01.03.04",
+        "label": "TO30/K12.01.03.04",
+        "uri": "tools-orchestration-r2-knowledge-cases.md#L7"
+      },
+      {
+        "caseId": "TO27",
+        "d4": "K12.09.03.03",
+        "label": "TO27/K12.09.03.03",
+        "uri": "tools-orchestration-r1-knowledge-cases.md#L31"
+      }
+    ],
+    "expectedCases": [
+      {
+        "id": "C1",
+        "change": {},
+        "expected": "SCOPED_SYNTHETIC_CANDIDATE"
+      },
+      {
+        "id": "C2",
+        "change": {
+          "clock": "PPQ960_T120"
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C3",
+        "change": {
+          "dur": [
+            480,
+            960,
+            480,
+            480
+          ]
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C4",
+        "change": {
+          "target": "T2"
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C5",
+        "change": {
+          "note": [
+            60,
+            65,
+            67,
+            60
+          ]
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C6",
+        "change": {
+          "lyrics": [
+            "a",
+            "c",
+            "b",
+            "d"
+          ]
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C7",
+        "change": {
+          "backing": [
+            1,
+            99,
+            3,
+            4
+          ]
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C8",
+        "change": {
+          "voice": [
+            99,
+            71,
+            72,
+            40
+          ]
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C9",
+        "change": {
+          "automation": [
+            0.4,
+            0.8
+          ]
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C10",
+        "change": {
+          "plugin": "P2/state-A"
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C11",
+        "change": {
+          "project": "P0"
+        },
+        "expected": "REJECT_PROTECTION"
+      },
+      {
+        "id": "C12",
+        "change": {
+          "source": "S1"
+        },
+        "expected": "REJECT_PROTECTION"
+      }
+    ],
+    "gates": {
+      "permissionFailure": "STOP_PERMISSION",
+      "protectionFailure": "REJECT_PROTECTION",
+      "evidenceUnknown": "PENDING_EVIDENCE",
+      "auditionUnknown": "STOP_AUDITION",
+      "syntheticPass": "SCOPED_SYNTHETIC_CANDIDATE"
+    },
+    "lesson": {
+      "id": "L1",
+      "task": "editable_exchange",
+      "source": "H1",
+      "target": "H2",
+      "format": "F1",
+      "plugin": "P1",
+      "field": "state",
+      "scope": "preserve_state",
+      "permission": "E1",
+      "candidate": "X1",
+      "evidence": "EV1",
+      "status": "REVIEW_PENDING",
+      "outcome": "STATE_MISSING",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r6-review-remediation.md",
+        "blob": "84ba74fa53595ca412ce986f0bc9ba60566a456e",
+        "line": 21,
+        "row": "虚构经验L1：任务editable_exchange、源H1/目标H2、格式F1、插件P1、必需state字段、保护scope preserve_state、授权epoch E1；候选X1实际题设回读state缺失，证据EV1（源/目标身份、版本、字段对照及失败报告），在该条件下结论“不得以打开文件证明该字段保真”。记录状态REVIEW_PENDING，属于限定研究候选经验，非accepted claim。后续同条件检索到L1仅作为风险线索/候选约束，仍核当前权限、对象与执行证据；H2升级、P1变化、格式、保护要求、证据撤回、授权epoch变化任一触发REQUALIFY，不把历史失败推断为其他版本不支持，也不把历史批准当授权。保留原失败记录及经验与证据关联，不删除历史；经过独立证据审核才考虑正式知识准入。绑定TO48、旧K12.07.03.02、A07/CQ24，不设计运行平台。"
+      }
+    }
+  },
+  "history": []
+}

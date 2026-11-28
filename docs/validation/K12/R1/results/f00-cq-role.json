@@ -1,0 +1,95 @@
+{
+  "status": "CQ_ROLE_TEST_ONLY",
+  "checks": 21,
+  "passed": 21,
+  "results": [
+    [
+      "actual frozen K01 184 rows, 59 S-only and 54 among 158 precise primary cases",
+      true
+    ],
+    [
+      "real multi-direct role fixture uses actual CQ01, CQ17, CQ23",
+      true
+    ],
+    [
+      "empty direct CQ accepted only within actual formal role context",
+      true
+    ],
+    [
+      "S-only exact D4 and revision retrieval independent of CQ roots",
+      true
+    ],
+    [
+      "H closure includes support-only but not root",
+      true
+    ],
+    [
+      "direct role split union with individual exact direct root selection",
+      true
+    ],
+    [
+      "support inverse binding stays necessary not primary for consumer view",
+      true
+    ],
+    [
+      "actual isolated public CLI preserves H without S promotion",
+      true
+    ],
+    [
+      "freshly pinned support-only claim promoted to S as D",
+      true
+    ],
+    [
+      "freshly pinned mixed D/S claim promotes S",
+      true
+    ],
+    [
+      "freshly pinned direct claim loses all direct coverage",
+      true
+    ],
+    [
+      "split direct role missing from aggregate",
+      true
+    ],
+    [
+      "duplicate valid direct IDs still rejected",
+      true
+    ],
+    [
+      "non-CQ or malformed direct IDs rejected",
+      true
+    ],
+    [
+      "non-array CQ rejected",
+      true
+    ],
+    [
+      "wrong owner direct role cannot transfer",
+      true
+    ],
+    [
+      "support H edge lost under fresh pins",
+      true
+    ],
+    [
+      "support case binding lost under fresh pins",
+      true
+    ],
+    [
+      "same-row narrow claim may have no direct role if sibling covers exact union",
+      true
+    ],
+    [
+      "tampered manifest still fail closed",
+      true
+    ],
+    [
+      "tampered frozen role ledger still fail closed",
+      true
+    ]
+  ],
+  "limits": [
+    "no formal K01 knowledge admission",
+    "formal K01 D/S only; other owner formats unchanged"
+  ]
+}
