@@ -1,0 +1,915 @@
+{
+  "workflow": {
+    "records": 21,
+    "edges": 42,
+    "checks": 34,
+    "affected": [
+      "A04@1",
+      "A05@1",
+      "A06@1",
+      "A07@1",
+      "E-RECEIPT@2",
+      "EDITABLE@1",
+      "RESULT@1"
+    ],
+    "trace": {
+      "state": "STATIC_CANDIDATE_ONLY",
+      "primary": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07"
+      ],
+      "supports": [
+        "S-A11",
+        "S-GV02",
+        "S-V06"
+      ],
+      "evidence": [
+        "E-EST",
+        "E-OBS",
+        "E-RECEIPT"
+      ],
+      "result": {
+        "state": "STATIC_CANDIDATE_ONLY",
+        "candidate": "C/c2",
+        "report": "R2/r2",
+        "referenceId": "OBS-A-01",
+        "estimateId": "EST-2",
+        "estimateError": 0,
+        "actualGoalError": 165.00422849992202,
+        "estimatedGoalError": 165.00422849992202
+      },
+      "refs": [
+        "A01@1",
+        "S-V06@1",
+        "S-GV02@1",
+        "GRANT@1",
+        "A02@1",
+        "HOST@1",
+        "MODEL@1",
+        "A03@1",
+        "S-A11@1",
+        "CTX@1",
+        "E-OBS@1",
+        "E-EST@2",
+        "C@2",
+        "E-RECEIPT@2",
+        "ORIGINAL@1",
+        "A04@1",
+        "A05@1",
+        "A06@1",
+        "RESULT@1",
+        "EDITABLE@1",
+        "A07@1"
+      ],
+      "release": false
+    },
+    "graphDigest": "67edbcf19efc0378ad91e4b57fdf385427d9270c50c381ab8785cfd86147747f",
+    "boundedResolution": {
+      "disputed": {
+        "state": "DISPUTED",
+        "referenceHz": null,
+        "acceptedClaim": false,
+        "actualObservation": false,
+        "release": false
+      },
+      "resolved": {
+        "state": "SYNTHETIC_REFERENCE_QUALIFIED",
+        "referenceHz": 220,
+        "matched": [
+          "H-OBS-220"
+        ],
+        "notSupported": [
+          "H-OBS-200"
+        ],
+        "acceptedClaim": false,
+        "actualObservation": false,
+        "release": false
+      },
+      "rollbackPlan": {
+        "state": "PENDING_REVALIDATION",
+        "from": "C/c3",
+        "target": "C/c2",
+        "proposal": "NEW_REVISION_REQUIRED",
+        "historicalReceipt": "R2/r2",
+        "reuseHistoricalReceipt": false,
+        "requiresNewReceipt": true,
+        "requiresCurrentGrant": true,
+        "release": false,
+        "executed": false
+      }
+    },
+    "limits": "fixed actual witness projection; not general runtime or actual authorization"
+  },
+  "status": "RESEARCH_ONLY",
+  "node": "v24.21.0",
+  "checks": 189,
+  "passed": 189,
+  "results": [
+    [
+      "actual pack parses and validates",
+      true
+    ],
+    [
+      "roundtrip CENTS-FP",
+      true
+    ],
+    [
+      "roundtrip CENTS-FN",
+      true
+    ],
+    [
+      "roundtrip CENTS-RP",
+      true
+    ],
+    [
+      "roundtrip CENTS-RN",
+      true
+    ],
+    [
+      "roundtrip PITCH-FP",
+      true
+    ],
+    [
+      "roundtrip PITCH-FN",
+      true
+    ],
+    [
+      "roundtrip PITCH-RP",
+      true
+    ],
+    [
+      "roundtrip PITCH-RN",
+      true
+    ],
+    [
+      "roundtrip WINDOW-FP",
+      true
+    ],
+    [
+      "roundtrip WINDOW-FN",
+      true
+    ],
+    [
+      "roundtrip WINDOW-RP",
+      true
+    ],
+    [
+      "roundtrip WINDOW-RN",
+      true
+    ],
+    [
+      "roundtrip CENTS-BOUND",
+      true
+    ],
+    [
+      "roundtrip CENTS-UNK",
+      true
+    ],
+    [
+      "roundtrip PITCH-BOUND",
+      true
+    ],
+    [
+      "roundtrip PITCH-UNK",
+      true
+    ],
+    [
+      "roundtrip WINDOW-BOUND",
+      true
+    ],
+    [
+      "roundtrip WINDOW-UNK",
+      true
+    ],
+    [
+      "heldout eval-r1",
+      true
+    ],
+    [
+      "heldout eval-r2",
+      true
+    ],
+    [
+      "heldout eval-r3",
+      true
+    ],
+    [
+      "heldout eval-r4",
+      true
+    ],
+    [
+      "heldout eval-r5",
+      true
+    ],
+    [
+      "public F+ cents",
+      true
+    ],
+    [
+      "public F- equal Hz difference unequal ratio",
+      true
+    ],
+    [
+      "public R+ frequency inverse under given reference",
+      true
+    ],
+    [
+      "public R- lacks reference",
+      true
+    ],
+    [
+      "public PITCH-FP",
+      true
+    ],
+    [
+      "public PITCH-FN",
+      true
+    ],
+    [
+      "public PITCH-RP",
+      true
+    ],
+    [
+      "public PITCH-RN cannot infer true deviation",
+      true
+    ],
+    [
+      "public WINDOW-FP",
+      true
+    ],
+    [
+      "public WINDOW-FN no extra observation",
+      true
+    ],
+    [
+      "public WINDOW-RP partial reverse",
+      true
+    ],
+    [
+      "public WINDOW-RN insufficient reverse",
+      true
+    ],
+    [
+      "invalid frequency",
+      true
+    ],
+    [
+      "wrong event",
+      true
+    ],
+    [
+      "wrong independent clock",
+      true
+    ],
+    [
+      "wrong estimate window",
+      true
+    ],
+    [
+      "wrong reference kind",
+      true
+    ],
+    [
+      "missing musical target",
+      true
+    ],
+    [
+      "same observation different grid",
+      true
+    ],
+    [
+      "complex or unqualified one-sided bins",
+      true
+    ],
+    [
+      "invalid fft length",
+      true
+    ],
+    [
+      "reverse multiple windows",
+      true
+    ],
+    [
+      "historical alias",
+      true
+    ],
+    [
+      "split not equivalent",
+      true
+    ],
+    [
+      "unregistered route unknown",
+      true
+    ],
+    [
+      "retrieval CQ01",
+      true
+    ],
+    [
+      "no heldout content CQ01",
+      true
+    ],
+    [
+      "retrieval CQ06",
+      true
+    ],
+    [
+      "no heldout content CQ06",
+      true
+    ],
+    [
+      "retrieval CQ07",
+      true
+    ],
+    [
+      "no heldout content CQ07",
+      true
+    ],
+    [
+      "retrieval CQ21",
+      true
+    ],
+    [
+      "no heldout content CQ21",
+      true
+    ],
+    [
+      "retrieval CQ25",
+      true
+    ],
+    [
+      "no heldout content CQ25",
+      true
+    ],
+    [
+      "eval id not retrievable",
+      true
+    ],
+    [
+      "unmatched query explicitly unknown",
+      true
+    ],
+    [
+      "public-only tree excludes input/rubric",
+      true
+    ],
+    [
+      "public process CQ01",
+      true
+    ],
+    [
+      "no unrelated workflow CQ01",
+      true
+    ],
+    [
+      "public process CQ06",
+      true
+    ],
+    [
+      "no unrelated workflow CQ06",
+      true
+    ],
+    [
+      "public process CQ07",
+      true
+    ],
+    [
+      "no unrelated workflow CQ07",
+      true
+    ],
+    [
+      "public process CQ21",
+      true
+    ],
+    [
+      "public typed workflow CQ21",
+      true
+    ],
+    [
+      "actual public exported graph requery CQ21",
+      true
+    ],
+    [
+      "public process CQ25",
+      true
+    ],
+    [
+      "public typed workflow CQ25",
+      true
+    ],
+    [
+      "actual public exported graph requery CQ25",
+      true
+    ],
+    [
+      "public process K05.07.01.05",
+      true
+    ],
+    [
+      "no unrelated workflow K05.07.01.05",
+      true
+    ],
+    [
+      "public process CL-PITCH@1",
+      true
+    ],
+    [
+      "no unrelated workflow CL-PITCH@1",
+      true
+    ],
+    [
+      "public process CL-WINDOW@1",
+      true
+    ],
+    [
+      "no unrelated workflow CL-WINDOW@1",
+      true
+    ],
+    [
+      "public process eval-r1",
+      true
+    ],
+    [
+      "no unrelated workflow eval-r1",
+      true
+    ],
+    [
+      "reject tampered authority file qualification-manifest.json",
+      true
+    ],
+    [
+      "reject tampered authority file semantic-profile.json",
+      true
+    ],
+    [
+      "duplicate record",
+      true
+    ],
+    [
+      "wrong owner",
+      true
+    ],
+    [
+      "wrong topic",
+      true
+    ],
+    [
+      "unsupported accepted",
+      true
+    ],
+    [
+      "claim missing condition",
+      true
+    ],
+    [
+      "source row forged",
+      true
+    ],
+    [
+      "source blob forged",
+      true
+    ],
+    [
+      "source unauthorized import",
+      true
+    ],
+    [
+      "limited source grade promotion",
+      true
+    ],
+    [
+      "source dangling",
+      true
+    ],
+    [
+      "evidence wrong predicate",
+      true
+    ],
+    [
+      "evidence self support",
+      true
+    ],
+    [
+      "unsupported inverse edge",
+      true
+    ],
+    [
+      "dangling revision",
+      true
+    ],
+    [
+      "duplicate edge",
+      true
+    ],
+    [
+      "dependency cycle",
+      true
+    ],
+    [
+      "missing source edge",
+      true
+    ],
+    [
+      "wrong context",
+      true
+    ],
+    [
+      "wrong primary binding",
+      true
+    ],
+    [
+      "generic D2 binding",
+      true
+    ],
+    [
+      "duplicate binding",
+      true
+    ],
+    [
+      "missing reverse negative",
+      true
+    ],
+    [
+      "unverified observed case",
+      true
+    ],
+    [
+      "private assessment field",
+      true
+    ],
+    [
+      "illegal whole slot alias",
+      true
+    ],
+    [
+      "swap migration role",
+      true
+    ],
+    [
+      "drop migration target",
+      true
+    ],
+    [
+      "stale migration status",
+      true
+    ],
+    [
+      "RV01 fabricated locator version and author",
+      true
+    ],
+    [
+      "RV01 substring URI",
+      true
+    ],
+    [
+      "RV01 false statement same revision",
+      true
+    ],
+    [
+      "RV01 false context same revision",
+      true
+    ],
+    [
+      "RV01 false case same revision",
+      true
+    ],
+    [
+      "RV01 coordinated statement condition case",
+      true
+    ],
+    [
+      "RV01 unqualified new claim revision",
+      true
+    ],
+    [
+      "RV01 same-revision evidence scope drift",
+      true
+    ],
+    [
+      "RV01 stale source revision",
+      true
+    ],
+    [
+      "RV01 fabricate date while locator unchanged",
+      true
+    ],
+    [
+      "RV01 changed case input same revision",
+      true
+    ],
+    [
+      "RV02 both H edges and all support bindings deleted",
+      true
+    ],
+    [
+      "RV02 window H edge and support bindings deleted",
+      true
+    ],
+    [
+      "RV02 one view missing support",
+      true
+    ],
+    [
+      "RV02 downgrade H to O",
+      true
+    ],
+    [
+      "RV02 stale provider ref",
+      true
+    ],
+    [
+      "RV02 dependency condition mismatch",
+      true
+    ],
+    [
+      "RV02 binding condition mismatch",
+      true
+    ],
+    [
+      "RV02 precise H closure K05.07.01.05",
+      true
+    ],
+    [
+      "RV02 scoped support evidence K05.07.01.05",
+      true
+    ],
+    [
+      "RV02 precise H closure CL-PITCH@1",
+      true
+    ],
+    [
+      "RV02 scoped support evidence CL-PITCH@1",
+      true
+    ],
+    [
+      "RV02 precise H closure CQ06",
+      true
+    ],
+    [
+      "RV02 scoped support evidence CQ06",
+      true
+    ],
+    [
+      "RV02 precise H closure CQ25",
+      true
+    ],
+    [
+      "RV02 scoped support evidence CQ25",
+      true
+    ],
+    [
+      "RV02 O does not expand closure",
+      true
+    ],
+    [
+      "RV02 optional navigation removal not mandatory failure",
+      true
+    ],
+    [
+      "RV01 alternate PDF provenance distinct from original publisher",
+      true
+    ],
+    [
+      "RV01 positive qualified S022",
+      true
+    ],
+    [
+      "RV04 detached prior result cannot mutate next source/edge/anchor/case projection",
+      true
+    ],
+    [
+      "RV04 caller pack and sources preserved",
+      true
+    ],
+    [
+      "RV04 exported type profile deeply frozen",
+      true
+    ],
+    [
+      "RV04 second in-process precise H retrieval immutable",
+      true
+    ],
+    [
+      "R8a actual replay",
+      true
+    ],
+    [
+      "R9 actual replay",
+      true
+    ],
+    [
+      "bounded offline alternative",
+      true
+    ],
+    [
+      "bounded revision failure and revalidation",
+      true
+    ],
+    [
+      "bounded failure prohibits release",
+      true
+    ],
+    [
+      "CQ25 seven stages",
+      true
+    ],
+    [
+      "CQ25 support/evidence",
+      true
+    ],
+    [
+      "pilot calculation matches actual trace",
+      true
+    ],
+    [
+      "CQ25 actual knowledge route",
+      true
+    ],
+    [
+      "workflow: complete exported graph roundtrip",
+      true
+    ],
+    [
+      "workflow: export without permission epoch refuses",
+      true
+    ],
+    [
+      "workflow: export without permission status refuses",
+      true
+    ],
+    [
+      "workflow: revocation precedes stale revision",
+      true
+    ],
+    [
+      "workflow: typed graph roundtrip full route",
+      true
+    ],
+    [
+      "workflow: primary and support reverse discovery",
+      true
+    ],
+    [
+      "workflow: CQ21 actual dependent invalidation",
+      true
+    ],
+    [
+      "workflow: old receipt cannot qualify new candidate",
+      true
+    ],
+    [
+      "workflow: grant revoked stops",
+      true
+    ],
+    [
+      "workflow: grant epoch not role authority",
+      true
+    ],
+    [
+      "workflow: unknown authority not allowed",
+      true
+    ],
+    [
+      "workflow: wrong complete result",
+      true
+    ],
+    [
+      "workflow: partial result",
+      true
+    ],
+    [
+      "workflow: missing observation node",
+      true
+    ],
+    [
+      "workflow: missing receipt dependency",
+      true
+    ],
+    [
+      "workflow: missing per-event grant",
+      true
+    ],
+    [
+      "workflow: role as grant",
+      true
+    ],
+    [
+      "workflow: forged observation with recalculated digest",
+      true
+    ],
+    [
+      "workflow: forged candidate with recalculated digest",
+      true
+    ],
+    [
+      "workflow: wrong version edge",
+      true
+    ],
+    [
+      "workflow: wrong relation direction",
+      true
+    ],
+    [
+      "workflow: duplicate typed edge",
+      true
+    ],
+    [
+      "workflow: extra unregistered authority",
+      true
+    ],
+    [
+      "workflow: forged support case",
+      true
+    ],
+    [
+      "workflow: conflicting observations without independent reference remain disputed",
+      true
+    ],
+    [
+      "workflow: single unsupported observation remains unknown",
+      true
+    ],
+    [
+      "workflow: fixed synthetic independent reference distinguishes hypotheses",
+      true
+    ],
+    [
+      "workflow: forged independent observation cannot resolve dispute",
+      true
+    ],
+    [
+      "workflow: different observation window not same dispute",
+      true
+    ],
+    [
+      "workflow: rollback plan preserves old subject and demands new receipt",
+      true
+    ],
+    [
+      "workflow: rollback revoke stops",
+      true
+    ],
+    [
+      "workflow: rollback unknown grant refuses",
+      true
+    ],
+    [
+      "workflow: rollback fabricated historical content refuses",
+      true
+    ],
+    [
+      "workflow: rollback old receipt does not qualify new revision",
+      true
+    ]
+  ],
+  "records": 35,
+  "bindings": 30,
+  "heldout": 5,
+  "replayed": {
+    "xc": 70,
+    "r9": 44
+  },
+  "trace": {
+    "state": "STATIC_CANDIDATE_ONLY",
+    "primary": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07"
+    ],
+    "support": [
+      "S-V06",
+      "S-GV02",
+      "S-A11"
+    ],
+    "evidence": [
+      "E-OBS",
+      "E-EST",
+      "E-RECEIPT"
+    ],
+    "result": {
+      "state": "STATIC_CANDIDATE_ONLY",
+      "candidate": "C/c2",
+      "report": "R2/r2",
+      "referenceId": "OBS-A-01",
+      "estimateId": "EST-2",
+      "estimateError": 0,
+      "actualGoalError": 165.00422849992202,
+      "estimatedGoalError": 165.00422849992202
+    }
+  },
+  "limits": [
+    "no actual LLM/audio/tool/permission",
+    "only exercised relationship subset",
+    "no production acceptance/DB",
+    "no exhaustive migration"
+  ]
+}
