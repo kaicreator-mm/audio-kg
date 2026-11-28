@@ -1,0 +1,2792 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [
+    {
+      "sourceD4": "K12.01.01.01",
+      "originalRequirement": "区分DAW工程API脚本插件宿主和控制面",
+      "originalInventory": "[K12.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L37)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.01.01.03",
+        "K12.01.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO01",
+          "d4": "K12.01.01.03",
+          "label": "TO01/K12.01.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L5"
+        },
+        {
+          "caseId": "TO28",
+          "d4": "K12.01.01.04",
+          "label": "TO28/K12.01.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L5"
+        }
+      ],
+      "unresolved": [],
+      "limits": "区分宿主脚本、播放与不同对象的操作入口",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 5,
+        "row": "| K12.01.01.01 | 区分DAW工程API脚本插件宿主和控制面 | [K12.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L37) | ROUTER_CANDIDATE | [TO01/K12.01.01.03](tools-orchestration-r1-knowledge-cases.md#L5)；[TO28/K12.01.01.04](tools-orchestration-r2-knowledge-cases.md#L5) | 区分宿主脚本、播放与不同对象的操作入口 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO01@1",
+        "K12-CL-TO28@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.01.01.02",
+      "originalRequirement": "登记版本支持的读写对象和操作粒度",
+      "originalInventory": "[K12.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L37)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.01.01.03",
+        "K12.01.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO01",
+          "d4": "K12.01.01.03",
+          "label": "TO01/K12.01.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L5"
+        },
+        {
+          "caseId": "TO28",
+          "d4": "K12.01.01.04",
+          "label": "TO28/K12.01.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L5"
+        }
+      ],
+      "unresolved": [],
+      "limits": "工具版本/对象类型/权限及读写粒度须绑定，不能从播放推导修改",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 6,
+        "row": "| K12.01.01.02 | 登记版本支持的读写对象和操作粒度 | [K12.01.01](../ai-orchestration/fine-grained-ai-orchestration.md#L37) | BOUNDED_COMPOSITION | [TO01/K12.01.01.03](tools-orchestration-r1-knowledge-cases.md#L5)；[TO28/K12.01.01.04](tools-orchestration-r2-knowledge-cases.md#L5) | 工具版本/对象类型/权限及读写粒度须绑定，不能从播放推导修改 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO01@1",
+        "K12-CL-TO28@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.01.02.01",
+      "originalRequirement": "记录工程轨道clip素材自动化身份",
+      "originalInventory": "[K12.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L38)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.01.02.03",
+        "K12.01.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO02",
+          "d4": "K12.01.02.03",
+          "label": "TO02/K12.01.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L6"
+        },
+        {
+          "caseId": "TO29",
+          "d4": "K12.01.02.04",
+          "label": "TO29/K12.01.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L6"
+        }
+      ],
+      "unresolved": [],
+      "limits": "工程/轨道/clip/素材身份与引用，稳定ID非名称",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 7,
+        "row": "| K12.01.02.01 | 记录工程轨道clip素材自动化身份 | [K12.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L38) | ROUTER_CANDIDATE | [TO02/K12.01.02.03](tools-orchestration-r1-knowledge-cases.md#L6)；[TO29/K12.01.02.04](tools-orchestration-r2-knowledge-cases.md#L6) | 工程/轨道/clip/素材身份与引用，稳定ID非名称 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO02@1",
+        "K12-CL-TO29@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.01.02.02",
+      "originalRequirement": "区分读取修改保存撤销和并发状态",
+      "originalInventory": "[K12.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L38)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.01.02.03",
+        "K12.01.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO02",
+          "d4": "K12.01.02.03",
+          "label": "TO02/K12.01.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L6"
+        },
+        {
+          "caseId": "TO29",
+          "d4": "K12.01.02.04",
+          "label": "TO29/K12.01.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L6"
+        }
+      ],
+      "unresolved": [],
+      "limits": "保存/撤销、版本冲突与隔离候选；无原子合同不承诺事务",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 8,
+        "row": "| K12.01.02.02 | 区分读取修改保存撤销和并发状态 | [K12.01.02](../ai-orchestration/fine-grained-ai-orchestration.md#L38) | BOUNDED_COMPOSITION | [TO02/K12.01.02.03](tools-orchestration-r1-knowledge-cases.md#L6)；[TO29/K12.01.02.04](tools-orchestration-r2-knowledge-cases.md#L6) | 保存/撤销、版本冲突与隔离候选；无原子合同不承诺事务 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO02@1",
+        "K12-CL-TO29@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.01.03.01",
+      "originalRequirement": "定义编辑回读渲染和状态验证",
+      "originalInventory": "[K12.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L39)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.01.03.03",
+        "K12.01.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO03",
+          "d4": "K12.01.03.03",
+          "label": "TO03/K12.01.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L7"
+        },
+        {
+          "caseId": "TO30",
+          "d4": "K12.01.03.04",
+          "label": "TO30/K12.01.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L7"
+        }
+      ],
+      "unresolved": [],
+      "limits": "返回、对象回读、重新打开及渲染/报告身份",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 9,
+        "row": "| K12.01.03.01 | 定义编辑回读渲染和状态验证 | [K12.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L39) | ROUTER_CANDIDATE | [TO03/K12.01.03.03](tools-orchestration-r1-knowledge-cases.md#L7)；[TO30/K12.01.03.04](tools-orchestration-r2-knowledge-cases.md#L7) | 返回、对象回读、重新打开及渲染/报告身份 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO03@1",
+        "K12-CL-TO30@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.01.03.02",
+      "originalRequirement": "登记工具限制与原工程保护",
+      "originalInventory": "[K12.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L39)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.01.03.03",
+        "K12.01.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO03",
+          "d4": "K12.01.03.03",
+          "label": "TO03/K12.01.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L7"
+        },
+        {
+          "caseId": "TO30",
+          "d4": "K12.01.03.04",
+          "label": "TO30/K12.01.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L7"
+        }
+      ],
+      "unresolved": [],
+      "limits": "限定写范围与原工程保护，实际效果独立验证",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 10,
+        "row": "| K12.01.03.02 | 登记工具限制与原工程保护 | [K12.01.03](../ai-orchestration/fine-grained-ai-orchestration.md#L39) | BOUNDED_COMPOSITION | [TO03/K12.01.03.03](tools-orchestration-r1-knowledge-cases.md#L7)；[TO30/K12.01.03.04](tools-orchestration-r2-knowledge-cases.md#L7) | 限定写范围与原工程保护，实际效果独立验证 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO03@1",
+        "K12-CL-TO30@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.02.01.01",
+      "originalRequirement": "区分插件格式宿主支持及运行架构",
+      "originalInventory": "[K12.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L40)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.02.01.03",
+        "K12.02.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO04",
+          "d4": "K12.02.01.03",
+          "label": "TO04/K12.02.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L8"
+        },
+        {
+          "caseId": "TO31",
+          "d4": "K12.02.01.04",
+          "label": "TO31/K12.02.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L8"
+        }
+      ],
+      "unresolved": [],
+      "limits": "CLAP固定接口、VST3组件角色、AU仅线索",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 11,
+        "row": "| K12.02.01.01 | 区分插件格式宿主支持及运行架构 | [K12.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L40) | ROUTER_CANDIDATE | [TO04/K12.02.01.03](tools-orchestration-r1-knowledge-cases.md#L8)；[TO31/K12.02.01.04](tools-orchestration-r2-knowledge-cases.md#L8) | CLAP固定接口、VST3组件角色、AU仅线索 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO04@1",
+        "K12-CL-TO31@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.02.01.02",
+      "originalRequirement": "记录声道配置参数与状态序列化",
+      "originalInventory": "[K12.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L40)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.02.01.03",
+        "K12.02.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO04",
+          "d4": "K12.02.01.03",
+          "label": "TO04/K12.02.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L8"
+        },
+        {
+          "caseId": "TO31",
+          "d4": "K12.02.01.04",
+          "label": "TO31/K12.02.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L8"
+        }
+      ],
+      "unresolved": [],
+      "limits": "端口/ABI/激活/状态版本条件，不能由扩展名推断",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 12,
+        "row": "| K12.02.01.02 | 记录声道配置参数与状态序列化 | [K12.02.01](../ai-orchestration/fine-grained-ai-orchestration.md#L40) | BOUNDED_COMPOSITION | [TO04/K12.02.01.03](tools-orchestration-r1-knowledge-cases.md#L8)；[TO31/K12.02.01.04](tools-orchestration-r2-knowledge-cases.md#L8) | 端口/ABI/激活/状态版本条件，不能由扩展名推断 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO04@1",
+        "K12-CL-TO31@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.02.02.01",
+      "originalRequirement": "定义实时回调与非实时控制职责",
+      "originalInventory": "[K12.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L41)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.02.02.03",
+        "K12.02.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO05",
+          "d4": "K12.02.02.03",
+          "label": "TO05/K12.02.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L9"
+        },
+        {
+          "caseId": "TO32",
+          "d4": "K12.02.02.04",
+          "label": "TO32/K12.02.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "unresolved": [],
+      "limits": "块大小/采样率预算及逻辑线程角色",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 13,
+        "row": "| K12.02.02.01 | 定义实时回调与非实时控制职责 | [K12.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L41) | ROUTER_CANDIDATE | [TO05/K12.02.02.03](tools-orchestration-r1-knowledge-cases.md#L9)；[TO32/K12.02.02.04](tools-orchestration-r2-knowledge-cases.md#L9) | 块大小/采样率预算及逻辑线程角色 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO05@1",
+        "K12-CL-TO32@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.02.02.02",
+      "originalRequirement": "记录缓冲延迟及非阻塞要求",
+      "originalInventory": "[K12.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L41)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.02.02.03",
+        "K12.02.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO05",
+          "d4": "K12.02.02.03",
+          "label": "TO05/K12.02.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L9"
+        },
+        {
+          "caseId": "TO32",
+          "d4": "K12.02.02.04",
+          "label": "TO32/K12.02.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "unresolved": [],
+      "limits": "非实时LLM、锁/等待与处理边界，实际最坏耗时待测",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 14,
+        "row": "| K12.02.02.02 | 记录缓冲延迟及非阻塞要求 | [K12.02.02](../ai-orchestration/fine-grained-ai-orchestration.md#L41) | BOUNDED_COMPOSITION | [TO05/K12.02.02.03](tools-orchestration-r1-knowledge-cases.md#L9)；[TO32/K12.02.02.04](tools-orchestration-r2-knowledge-cases.md#L9) | 非实时LLM、锁/等待与处理边界，实际最坏耗时待测 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO05@1",
+        "K12-CL-TO32@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.02.03.01",
+      "originalRequirement": "区分插件参数自动化预设与内部状态",
+      "originalInventory": "[K12.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L42)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.02.03.03",
+        "K12.02.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO06",
+          "d4": "K12.02.03.03",
+          "label": "TO06/K12.02.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L10"
+        },
+        {
+          "caseId": "TO33",
+          "d4": "K12.02.03.04",
+          "label": "TO33/K12.02.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L10"
+        }
+      ],
+      "unresolved": [],
+      "limits": "稳定参数ID、值域和归一化/单位、内部状态",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 15,
+        "row": "| K12.02.03.01 | 区分插件参数自动化预设与内部状态 | [K12.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L42) | ROUTER_CANDIDATE | [TO06/K12.02.03.03](tools-orchestration-r1-knowledge-cases.md#L10)；[TO33/K12.02.03.04](tools-orchestration-r2-knowledge-cases.md#L10) | 稳定参数ID、值域和归一化/单位、内部状态 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO06@1",
+        "K12-CL-TO33@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.02.03.02",
+      "originalRequirement": "记录标识范围单位及保存恢复验证",
+      "originalInventory": "[K12.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L42)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.02.03.03",
+        "K12.02.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO06",
+          "d4": "K12.02.03.03",
+          "label": "TO06/K12.02.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L10"
+        },
+        {
+          "caseId": "TO33",
+          "d4": "K12.02.03.04",
+          "label": "TO33/K12.02.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L10"
+        }
+      ],
+      "unresolved": [],
+      "limits": "自动化块偏移、状态恢复与回读；GUI值非完整状态",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 16,
+        "row": "| K12.02.03.02 | 记录标识范围单位及保存恢复验证 | [K12.02.03](../ai-orchestration/fine-grained-ai-orchestration.md#L42) | BOUNDED_COMPOSITION | [TO06/K12.02.03.03](tools-orchestration-r1-knowledge-cases.md#L10)；[TO33/K12.02.03.04](tools-orchestration-r2-knowledge-cases.md#L10) | 自动化块偏移、状态恢复与回读；GUI值非完整状态 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO06@1",
+        "K12-CL-TO33@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.03.01.01",
+      "originalRequirement": "描述库CLI输入输出单位格式及版本",
+      "originalInventory": "[K12.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L43)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.03.01.03",
+        "K12.03.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO07",
+          "d4": "K12.03.01.03",
+          "label": "TO07/K12.03.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L11"
+        },
+        {
+          "caseId": "TO34",
+          "d4": "K12.03.01.04",
+          "label": "TO34/K12.03.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L11"
+        }
+      ],
+      "unresolved": [],
+      "limits": "显式流选择、格式及编码/滤镜能力",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 17,
+        "row": "| K12.03.01.01 | 描述库CLI输入输出单位格式及版本 | [K12.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L43) | ROUTER_CANDIDATE | [TO07/K12.03.01.03](tools-orchestration-r1-knowledge-cases.md#L11)；[TO34/K12.03.01.04](tools-orchestration-r2-knowledge-cases.md#L11) | 显式流选择、格式及编码/滤镜能力 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO07@1",
+        "K12-CL-TO34@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.03.01.02",
+      "originalRequirement": "记录可调用操作的前置条件与参数范围",
+      "originalInventory": "[K12.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L43)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.03.01.03",
+        "K12.03.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO07",
+          "d4": "K12.03.01.03",
+          "label": "TO07/K12.03.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L11"
+        },
+        {
+          "caseId": "TO34",
+          "d4": "K12.03.01.04",
+          "label": "TO34/K12.03.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L11"
+        }
+      ],
+      "unresolved": [],
+      "limits": "参数单位、流映射、构建版本和真实输入前置",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 18,
+        "row": "| K12.03.01.02 | 记录可调用操作的前置条件与参数范围 | [K12.03.01](../ai-orchestration/fine-grained-ai-orchestration.md#L43) | BOUNDED_COMPOSITION | [TO07/K12.03.01.03](tools-orchestration-r1-knowledge-cases.md#L11)；[TO34/K12.03.01.04](tools-orchestration-r2-knowledge-cases.md#L11) | 参数单位、流映射、构建版本和真实输入前置 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO07@1",
+        "K12-CL-TO34@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.03.02.01",
+      "originalRequirement": "区分进程状态标准输出错误流及实际产物",
+      "originalInventory": "[K12.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L44)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.03.02.03",
+        "K12.03.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO08",
+          "d4": "K12.03.02.03",
+          "label": "TO08/K12.03.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L12"
+        },
+        {
+          "caseId": "TO35",
+          "d4": "K12.03.02.04",
+          "label": "TO35/K12.03.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L12"
+        }
+      ],
+      "unresolved": [],
+      "limits": "进程/输出状态及解析和实际内容分开",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 19,
+        "row": "| K12.03.02.01 | 区分进程状态标准输出错误流及实际产物 | [K12.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L44) | ROUTER_CANDIDATE | [TO08/K12.03.02.03](tools-orchestration-r1-knowledge-cases.md#L12)；[TO35/K12.03.02.04](tools-orchestration-r2-knowledge-cases.md#L12) | 进程/输出状态及解析和实际内容分开 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO08@1",
+        "K12-CL-TO35@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.03.02.02",
+      "originalRequirement": "验证文件身份完整性和业务条件",
+      "originalInventory": "[K12.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L44)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.03.02.03",
+        "K12.03.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO08",
+          "d4": "K12.03.02.03",
+          "label": "TO08/K12.03.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L12"
+        },
+        {
+          "caseId": "TO35",
+          "d4": "K12.03.02.04",
+          "label": "TO35/K12.03.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L12"
+        }
+      ],
+      "unresolved": [],
+      "limits": "新工件身份/目标结构/时长，旧文件或错误不等无副作用",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 20,
+        "row": "| K12.03.02.02 | 验证文件身份完整性和业务条件 | [K12.03.02](../ai-orchestration/fine-grained-ai-orchestration.md#L44) | BOUNDED_COMPOSITION | [TO08/K12.03.02.03](tools-orchestration-r1-knowledge-cases.md#L12)；[TO35/K12.03.02.04](tools-orchestration-r2-knowledge-cases.md#L12) | 新工件身份/目标结构/时长，旧文件或错误不等无副作用 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO08@1",
+        "K12-CL-TO35@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.03.03.01",
+      "originalRequirement": "记录运行时原生依赖资源和权限",
+      "originalInventory": "[K12.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L45)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.03.03.03",
+        "K12.03.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO09",
+          "d4": "K12.03.03.03",
+          "label": "TO09/K12.03.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "TO36",
+          "d4": "K12.03.03.04",
+          "label": "TO36/K12.03.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L13"
+        }
+      ],
+      "unresolved": [],
+      "limits": "构建、依赖、设备与权限分别登记",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 21,
+        "row": "| K12.03.03.01 | 记录运行时原生依赖资源和权限 | [K12.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L45) | ROUTER_CANDIDATE | [TO09/K12.03.03.03](tools-orchestration-r1-knowledge-cases.md#L13)；[TO36/K12.03.03.04](tools-orchestration-r2-knowledge-cases.md#L13) | 构建、依赖、设备与权限分别登记 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO09@1",
+        "K12-CL-TO36@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.03.03.02",
+      "originalRequirement": "定义离线在线及确定性限制",
+      "originalInventory": "[K12.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L45)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.03.03.03",
+        "K12.03.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO09",
+          "d4": "K12.03.03.03",
+          "label": "TO09/K12.03.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "TO36",
+          "d4": "K12.03.03.04",
+          "label": "TO36/K12.03.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L13"
+        }
+      ],
+      "unresolved": [],
+      "limits": "离线/联网、资源和可复现性按实际环境",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 22,
+        "row": "| K12.03.03.02 | 定义离线在线及确定性限制 | [K12.03.03](../ai-orchestration/fine-grained-ai-orchestration.md#L45) | BOUNDED_COMPOSITION | [TO09/K12.03.03.03](tools-orchestration-r1-knowledge-cases.md#L13)；[TO36/K12.03.03.04](tools-orchestration-r2-knowledge-cases.md#L13) | 离线/联网、资源和可复现性按实际环境 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO09@1",
+        "K12-CL-TO36@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.04.01.01",
+      "originalRequirement": "区分SMF MusicXML MEI语义及版本",
+      "originalInventory": "[K12.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L46)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.04.01.03",
+        "K12.04.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO10",
+          "d4": "K12.04.01.03",
+          "label": "TO10/K12.04.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO37",
+          "d4": "K12.04.01.04",
+          "label": "TO37/K12.04.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L14"
+        }
+      ],
+      "unresolved": [],
+      "limits": "SMF1.0、MusicXML4.0、MEI5.1语义/时钟分开 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17)",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 23,
+        "row": "| K12.04.01.01 | 区分SMF MusicXML MEI语义及版本 | [K12.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L46) | ROUTER_CANDIDATE | [TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14) | SMF1.0、MusicXML4.0、MEI5.1语义/时钟分开 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO10@1",
+        "K12-CL-TO37@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.04.01.02",
+      "originalRequirement": "定义谱面事件表情和标注保真需求",
+      "originalInventory": "[K12.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L46)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.04.01.03",
+        "K12.04.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO10",
+          "d4": "K12.04.01.03",
+          "label": "TO10/K12.04.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO37",
+          "d4": "K12.04.01.04",
+          "label": "TO37/K12.04.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L14"
+        }
+      ],
+      "unresolved": [],
+      "limits": "记谱/演奏/标注的保真、格式默认与显式损失 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17)",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 24,
+        "row": "| K12.04.01.02 | 定义谱面事件表情和标注保真需求 | [K12.04.01](../ai-orchestration/fine-grained-ai-orchestration.md#L46) | BOUNDED_COMPOSITION | [TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14) | 记谱/演奏/标注的保真、格式默认与显式损失 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO10@1",
+        "K12-CL-TO37@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.04.02.01",
+      "originalRequirement": "区分DAWproject与宿主原生工程",
+      "originalInventory": "[K12.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L47)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.04.02.03",
+        "K12.04.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO11",
+          "d4": "K12.04.02.03",
+          "label": "TO11/K12.04.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO38",
+          "d4": "K12.04.02.04",
+          "label": "TO38/K12.04.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L15"
+        }
+      ],
+      "unresolved": [],
+      "limits": "方向性DAWproject与宿主原生工程",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 25,
+        "row": "| K12.04.02.01 | 区分DAWproject与宿主原生工程 | [K12.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L47) | ROUTER_CANDIDATE | [TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15) | 方向性DAWproject与宿主原生工程 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO11@1",
+        "K12-CL-TO38@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.04.02.02",
+      "originalRequirement": "记录音频插件自动化及不支持功能",
+      "originalInventory": "[K12.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L47)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.04.02.03",
+        "K12.04.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO11",
+          "d4": "K12.04.02.03",
+          "label": "TO11/K12.04.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO38",
+          "d4": "K12.04.02.04",
+          "label": "TO38/K12.04.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L15"
+        }
+      ],
+      "unresolved": [],
+      "limits": "插件状态/自动化/clip缺失须核版本，stem不替代可编辑工程",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 26,
+        "row": "| K12.04.02.02 | 记录音频插件自动化及不支持功能 | [K12.04.02](../ai-orchestration/fine-grained-ai-orchestration.md#L47) | BOUNDED_COMPOSITION | [TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15) | 插件状态/自动化/clip缺失须核版本，stem不替代可编辑工程 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO11@1",
+        "K12-CL-TO38@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.04.03.01",
+      "originalRequirement": "区分容器编码采样率声道和起点",
+      "originalInventory": "[K12.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L48)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.04.03.03",
+        "K12.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO12",
+          "d4": "K12.04.03.03",
+          "label": "TO12/K12.04.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L16"
+        },
+        {
+          "caseId": "TO39",
+          "d4": "K12.04.03.04",
+          "label": "TO39/K12.04.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "unresolved": [],
+      "limits": "容器/编码、声道、采样率与原点",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 27,
+        "row": "| K12.04.03.01 | 区分容器编码采样率声道和起点 | [K12.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L48) | ROUTER_CANDIDATE | [TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16) | 容器/编码、声道、采样率与原点 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO12@1",
+        "K12-CL-TO39@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.04.03.02",
+      "originalRequirement": "定义loss mapping及目标交付约束",
+      "originalInventory": "[K12.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L48)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.04.03.03",
+        "K12.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO12",
+          "d4": "K12.04.03.03",
+          "label": "TO12/K12.04.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L16"
+        },
+        {
+          "caseId": "TO39",
+          "d4": "K12.04.03.04",
+          "label": "TO39/K12.04.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "unresolved": [],
+      "limits": "转换延迟/舍入、stem对齐及原工程引用",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 28,
+        "row": "| K12.04.03.02 | 定义loss mapping及目标交付约束 | [K12.04.03](../ai-orchestration/fine-grained-ai-orchestration.md#L48) | BOUNDED_COMPOSITION | [TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16) | 转换延迟/舍入、stem对齐及原工程引用 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO12@1",
+        "K12-CL-TO39@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.05.01.01",
+      "originalRequirement": "记录模型版本输入输出模态和控制粒度",
+      "originalInventory": "[K12.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L49)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.05.01.03",
+        "K12.05.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO13",
+          "d4": "K12.05.01.03",
+          "label": "TO13/K12.05.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L17"
+        },
+        {
+          "caseId": "TO40",
+          "d4": "K12.05.01.04",
+          "label": "TO40/K12.05.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L17"
+        }
+      ],
+      "unresolved": [],
+      "limits": "具体checkpoint/接口的模态与控制粒度 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4)",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 29,
+        "row": "| K12.05.01.01 | 记录模型版本输入输出模态和控制粒度 | [K12.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L49) | ROUTER_CANDIDATE | [TO13/K12.05.01.03](tools-orchestration-r1-knowledge-cases.md#L17)；[TO40/K12.05.01.04](tools-orchestration-r2-knowledge-cases.md#L17) | 具体checkpoint/接口的模态与控制粒度 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO13@1",
+        "K12-CL-TO40@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.05.01.02",
+      "originalRequirement": "区分作者报告实际接口已实测和未知",
+      "originalInventory": "[K12.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L49)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.05.01.03",
+        "K12.05.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO13",
+          "d4": "K12.05.01.03",
+          "label": "TO13/K12.05.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L17"
+        },
+        {
+          "caseId": "TO40",
+          "d4": "K12.05.01.04",
+          "label": "TO40/K12.05.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L17"
+        }
+      ],
+      "unresolved": [],
+      "limits": "论文、模型卡、实测分级，不把家族能力继承给当前版本 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4)",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 30,
+        "row": "| K12.05.01.02 | 区分作者报告实际接口已实测和未知 | [K12.05.01](../ai-orchestration/fine-grained-ai-orchestration.md#L49) | BOUNDED_COMPOSITION | [TO13/K12.05.01.03](tools-orchestration-r1-knowledge-cases.md#L17)；[TO40/K12.05.01.04](tools-orchestration-r2-knowledge-cases.md#L17) | 论文、模型卡、实测分级，不把家族能力继承给当前版本 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO13@1",
+        "K12-CL-TO40@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.05.02.01",
+      "originalRequirement": "记录本地远程接口参数配额设备和权限",
+      "originalInventory": "[K12.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L50)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.05.02.03",
+        "K12.05.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO14",
+          "d4": "K12.05.02.03",
+          "label": "TO14/K12.05.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L18"
+        },
+        {
+          "caseId": "TO41",
+          "d4": "K12.05.02.04",
+          "label": "TO41/K12.05.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L18"
+        }
+      ],
+      "unresolved": [],
+      "limits": "本地/云接口、长度/资源/配额与授权 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4)",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 31,
+        "row": "| K12.05.02.01 | 记录本地远程接口参数配额设备和权限 | [K12.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L50) | ROUTER_CANDIDATE | [TO14/K12.05.02.03](tools-orchestration-r1-knowledge-cases.md#L18)；[TO41/K12.05.02.04](tools-orchestration-r2-knowledge-cases.md#L18) | 本地/云接口、长度/资源/配额与授权 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO14@1",
+        "K12-CL-TO41@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.05.02.02",
+      "originalRequirement": "区分推理成功与生成任务质量",
+      "originalInventory": "[K12.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L50)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.05.02.03",
+        "K12.05.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO14",
+          "d4": "K12.05.02.03",
+          "label": "TO14/K12.05.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L18"
+        },
+        {
+          "caseId": "TO41",
+          "d4": "K12.05.02.04",
+          "label": "TO41/K12.05.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L18"
+        }
+      ],
+      "unresolved": [],
+      "limits": "异步请求与质量验收分离，降级不能擅改目标 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4)",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 32,
+        "row": "| K12.05.02.02 | 区分推理成功与生成任务质量 | [K12.05.02](../ai-orchestration/fine-grained-ai-orchestration.md#L50) | BOUNDED_COMPOSITION | [TO14/K12.05.02.03](tools-orchestration-r1-knowledge-cases.md#L18)；[TO41/K12.05.02.04](tools-orchestration-r2-knowledge-cases.md#L18) | 异步请求与质量验收分离，降级不能擅改目标 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO14@1",
+        "K12-CL-TO41@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.05.03.01",
+      "originalRequirement": "记录参考音频来源用途保留项和模型许可",
+      "originalInventory": "[K12.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L51)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.05.03.03",
+        "K12.05.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO15",
+          "d4": "K12.05.03.03",
+          "label": "TO15/K12.05.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L19"
+        },
+        {
+          "caseId": "TO42",
+          "d4": "K12.05.03.04",
+          "label": "TO42/K12.05.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "unresolved": [],
+      "limits": "参考用途及保留项、代码/权重来源 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4)",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 33,
+        "row": "| K12.05.03.01 | 记录参考音频来源用途保留项和模型许可 | [K12.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L51) | ROUTER_CANDIDATE | [TO15/K12.05.03.03](tools-orchestration-r1-knowledge-cases.md#L19)；[TO42/K12.05.03.04](tools-orchestration-r2-knowledge-cases.md#L19) | 参考用途及保留项、代码/权重来源 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO15@1",
+        "K12-CL-TO42@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.05.03.02",
+      "originalRequirement": "区分代码权重数据服务条款及输出权利",
+      "originalInventory": "[K12.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L51)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.05.03.03",
+        "K12.05.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO15",
+          "d4": "K12.05.03.03",
+          "label": "TO15/K12.05.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L19"
+        },
+        {
+          "caseId": "TO42",
+          "d4": "K12.05.03.04",
+          "label": "TO42/K12.05.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L19"
+        }
+      ],
+      "unresolved": [],
+      "limits": "K15实际权利，数据/服务/输出许可分开，撤回停止 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4)",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 34,
+        "row": "| K12.05.03.02 | 区分代码权重数据服务条款及输出权利 | [K12.05.03](../ai-orchestration/fine-grained-ai-orchestration.md#L51) | BOUNDED_COMPOSITION | [TO15/K12.05.03.03](tools-orchestration-r1-knowledge-cases.md#L19)；[TO42/K12.05.03.04](tools-orchestration-r2-knowledge-cases.md#L19) | K15实际权利，数据/服务/输出许可分开，撤回停止 ；两具名卡及具体判定 [RV01](tools-orchestration-r6-review-remediation.md#L4) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO15@1",
+        "K12-CL-TO42@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.06.01.01",
+      "originalRequirement": "登记工具名称说明schema版本及能力边界",
+      "originalInventory": "[K12.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L52)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.06.01.03",
+        "K12.06.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO16",
+          "d4": "K12.06.01.03",
+          "label": "TO16/K12.06.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "TO43",
+          "d4": "K12.06.01.04",
+          "label": "TO43/K12.06.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L20"
+        }
+      ],
+      "unresolved": [],
+      "limits": "协议版本、分页、schema和Skill/工具区别",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 35,
+        "row": "| K12.06.01.01 | 登记工具名称说明schema版本及能力边界 | [K12.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L52) | ROUTER_CANDIDATE | [TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20) | 协议版本、分页、schema和Skill/工具区别 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO16@1",
+        "K12-CL-TO43@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.06.01.02",
+      "originalRequirement": "Skill知识流程与MCP调用接口分别描述",
+      "originalInventory": "[K12.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L52)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.06.01.03",
+        "K12.06.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO16",
+          "d4": "K12.06.01.03",
+          "label": "TO16/K12.06.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "TO43",
+          "d4": "K12.06.01.04",
+          "label": "TO43/K12.06.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L20"
+        }
+      ],
+      "unresolved": [],
+      "limits": "声明非能力实测，能力边界和发现快照",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 36,
+        "row": "| K12.06.01.02 | Skill知识流程与MCP调用接口分别描述 | [K12.06.01](../ai-orchestration/fine-grained-ai-orchestration.md#L52) | BOUNDED_COMPOSITION | [TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20) | 声明非能力实测，能力边界和发现快照 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO16@1",
+        "K12-CL-TO43@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.06.02.01",
+      "originalRequirement": "记录敏感操作权限输入校验和输出证据",
+      "originalInventory": "[K12.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L53)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.06.02.03",
+        "K12.06.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO17",
+          "d4": "K12.06.02.03",
+          "label": "TO17/K12.06.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "TO44",
+          "d4": "K12.06.02.04",
+          "label": "TO44/K12.06.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L21"
+        }
+      ],
+      "unresolved": [],
+      "limits": "schema/权限/执行及实际工件门禁",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 37,
+        "row": "| K12.06.02.01 | 记录敏感操作权限输入校验和输出证据 | [K12.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L53) | ROUTER_CANDIDATE | [TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21) | schema/权限/执行及实际工件门禁 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO17@1",
+        "K12-CL-TO44@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.06.02.02",
+      "originalRequirement": "区分协议错误与工具执行错误",
+      "originalInventory": "[K12.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L53)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.06.02.03",
+        "K12.06.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO17",
+          "d4": "K12.06.02.03",
+          "label": "TO17/K12.06.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "TO44",
+          "d4": "K12.06.02.04",
+          "label": "TO44/K12.06.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L21"
+        }
+      ],
+      "unresolved": [],
+      "limits": "JSON-RPC与isError/业务错误分别处理，未知副作用读回",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 38,
+        "row": "| K12.06.02.02 | 区分协议错误与工具执行错误 | [K12.06.02](../ai-orchestration/fine-grained-ai-orchestration.md#L53) | BOUNDED_COMPOSITION | [TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21) | JSON-RPC与isError/业务错误分别处理，未知副作用读回 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO17@1",
+        "K12-CL-TO44@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.06.03.01",
+      "originalRequirement": "按意图对象状态前置条件和知识检索选择工具",
+      "originalInventory": "[K12.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L54)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.06.03.03",
+        "K12.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO18",
+          "d4": "K12.06.03.03",
+          "label": "TO18/K12.06.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L22"
+        },
+        {
+          "caseId": "TO45",
+          "d4": "K12.06.03.04",
+          "label": "TO45/K12.06.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L22"
+        }
+      ],
+      "unresolved": [],
+      "limits": "任务意图和对象、前置状态、能力清单",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 39,
+        "row": "| K12.06.03.01 | 按意图对象状态前置条件和知识检索选择工具 | [K12.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L54) | ROUTER_CANDIDATE | [TO18/K12.06.03.03](tools-orchestration-r1-knowledge-cases.md#L22)；[TO45/K12.06.03.04](tools-orchestration-r2-knowledge-cases.md#L22) | 任务意图和对象、前置状态、能力清单 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO18@1",
+        "K12-CL-TO45@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.06.03.02",
+      "originalRequirement": "记录能力变化与不可信外部内容边界",
+      "originalInventory": "[K12.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L54)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.06.03.03",
+        "K12.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO18",
+          "d4": "K12.06.03.03",
+          "label": "TO18/K12.06.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L22"
+        },
+        {
+          "caseId": "TO45",
+          "d4": "K12.06.03.04",
+          "label": "TO45/K12.06.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L22"
+        }
+      ],
+      "unresolved": [],
+      "limits": "外部结果非指令/授权，列表变化重新发现",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 40,
+        "row": "| K12.06.03.02 | 记录能力变化与不可信外部内容边界 | [K12.06.03](../ai-orchestration/fine-grained-ai-orchestration.md#L54) | BOUNDED_COMPOSITION | [TO18/K12.06.03.03](tools-orchestration-r1-knowledge-cases.md#L22)；[TO45/K12.06.03.04](tools-orchestration-r2-knowledge-cases.md#L22) | 外部结果非指令/授权，列表变化重新发现 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO18@1",
+        "K12-CL-TO45@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.07.01.01",
+      "originalRequirement": "区分用户需求任务分解及业务状态",
+      "originalInventory": "[K12.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L55)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.07.01.03",
+        "K12.07.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO19",
+          "d4": "K12.07.01.03",
+          "label": "TO19/K12.07.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L23"
+        },
+        {
+          "caseId": "TO46",
+          "d4": "K12.07.01.04",
+          "label": "TO46/K12.07.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L23"
+        }
+      ],
+      "unresolved": [],
+      "limits": "需求、依赖图、预算和业务状态",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 41,
+        "row": "| K12.07.01.01 | 区分用户需求任务分解及业务状态 | [K12.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L55) | ROUTER_CANDIDATE | [TO19/K12.07.01.03](tools-orchestration-r1-knowledge-cases.md#L23)；[TO46/K12.07.01.04](tools-orchestration-r2-knowledge-cases.md#L23) | 需求、依赖图、预算和业务状态 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO19@1",
+        "K12-CL-TO46@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.07.01.02",
+      "originalRequirement": "按依赖预算权限和失败边界选择流程",
+      "originalInventory": "[K12.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L55)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.07.01.03",
+        "K12.07.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO19",
+          "d4": "K12.07.01.03",
+          "label": "TO19/K12.07.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L23"
+        },
+        {
+          "caseId": "TO46",
+          "d4": "K12.07.01.04",
+          "label": "TO46/K12.07.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L23"
+        }
+      ],
+      "unresolved": [],
+      "limits": "前置/并行独立/循环拒绝、缺权限停止",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 42,
+        "row": "| K12.07.01.02 | 按依赖预算权限和失败边界选择流程 | [K12.07.01](../ai-orchestration/fine-grained-ai-orchestration.md#L55) | BOUNDED_COMPOSITION | [TO19/K12.07.01.03](tools-orchestration-r1-knowledge-cases.md#L23)；[TO46/K12.07.01.04](tools-orchestration-r2-knowledge-cases.md#L23) | 前置/并行独立/循环拒绝、缺权限停止 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO19@1",
+        "K12-CL-TO46@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.07.02.01",
+      "originalRequirement": "区分推理代理专业知识确定性工具及验证",
+      "originalInventory": "[K12.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L56)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.07.02.03",
+        "K12.07.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO20",
+          "d4": "K12.07.02.03",
+          "label": "TO20/K12.07.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L24"
+        },
+        {
+          "caseId": "TO47",
+          "d4": "K12.07.02.04",
+          "label": "TO47/K12.07.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L24"
+        }
+      ],
+      "unresolved": [],
+      "limits": "知识规则、Agent推理、确定性计算与Harness边界",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 43,
+        "row": "| K12.07.02.01 | 区分推理代理专业知识确定性工具及验证 | [K12.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L56) | ROUTER_CANDIDATE | [TO20/K12.07.02.03](tools-orchestration-r1-knowledge-cases.md#L24)；[TO47/K12.07.02.04](tools-orchestration-r2-knowledge-cases.md#L24) | 知识规则、Agent推理、确定性计算与Harness边界 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO20@1",
+        "K12-CL-TO47@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.07.02.02",
+      "originalRequirement": "明确各自控制权限和责任",
+      "originalInventory": "[K12.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L56)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.07.02.03",
+        "K12.07.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO20",
+          "d4": "K12.07.02.03",
+          "label": "TO20/K12.07.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L24"
+        },
+        {
+          "caseId": "TO47",
+          "d4": "K12.07.02.04",
+          "label": "TO47/K12.07.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L24"
+        }
+      ],
+      "unresolved": [],
+      "limits": "独立验收和实际控制责任；不实现SDK",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 44,
+        "row": "| K12.07.02.02 | 明确各自控制权限和责任 | [K12.07.02](../ai-orchestration/fine-grained-ai-orchestration.md#L56) | BOUNDED_COMPOSITION | [TO20/K12.07.02.03](tools-orchestration-r1-knowledge-cases.md#L24)；[TO47/K12.07.02.04](tools-orchestration-r2-knowledge-cases.md#L24) | 独立验收和实际控制责任；不实现SDK |"
+      },
+      "claimRefs": [
+        "K12-CL-TO20@1",
+        "K12-CL-TO47@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.07.03.01",
+      "originalRequirement": "记录候选评价问题定位修订和人工决策",
+      "originalInventory": "[K12.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L57)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.07.03.03",
+        "K12.07.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO21",
+          "d4": "K12.07.03.03",
+          "label": "TO21/K12.07.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L25"
+        },
+        {
+          "caseId": "TO48",
+          "d4": "K12.07.03.04",
+          "label": "TO48/K12.07.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "unresolved": [],
+      "limits": "候选硬项、定位、最小修订和偏好",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 45,
+        "row": "| K12.07.03.01 | 记录候选评价问题定位修订和人工决策 | [K12.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L57) | ROUTER_CANDIDATE | [TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25) | 候选硬项、定位、最小修订和偏好 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO21@1",
+        "K12-CL-TO48@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.07.03.02",
+      "originalRequirement": "定义回滚停止失败转交和经验沉淀",
+      "originalInventory": "[K12.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L57)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.07.03.03",
+        "K12.07.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO21",
+          "d4": "K12.07.03.03",
+          "label": "TO21/K12.07.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L25"
+        },
+        {
+          "caseId": "TO48",
+          "d4": "K12.07.03.04",
+          "label": "TO48/K12.07.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L25"
+        }
+      ],
+      "unresolved": [],
+      "limits": "有限预算、停止/转交/保留历史与重评 ；证据绑定经验、适用条件及失效 [RV03](tools-orchestration-r6-review-remediation.md#L20)",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 46,
+        "row": "| K12.07.03.02 | 定义回滚停止失败转交和经验沉淀 | [K12.07.03](../ai-orchestration/fine-grained-ai-orchestration.md#L57) | BOUNDED_COMPOSITION | [TO21/K12.07.03.03](tools-orchestration-r1-knowledge-cases.md#L25)；[TO48/K12.07.03.04](tools-orchestration-r2-knowledge-cases.md#L25) | 有限预算、停止/转交/保留历史与重评 ；证据绑定经验、适用条件及失效 [RV03](tools-orchestration-r6-review-remediation.md#L20) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO21@1",
+        "K12-CL-TO48@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.08.01.01",
+      "originalRequirement": "定义源目标数据语义和转换条件",
+      "originalInventory": "[K12.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L58)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.08.01.03",
+        "K12.08.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO22",
+          "d4": "K12.08.01.03",
+          "label": "TO22/K12.08.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L26"
+        },
+        {
+          "caseId": "TO49",
+          "d4": "K12.08.01.04",
+          "label": "TO49/K12.08.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L26"
+        }
+      ],
+      "unresolved": [],
+      "limits": "源目标字段含义、单位时基、对象 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17)",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 47,
+        "row": "| K12.08.01.01 | 定义源目标数据语义和转换条件 | [K12.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L58) | ROUTER_CANDIDATE | [TO22/K12.08.01.03](tools-orchestration-r1-knowledge-cases.md#L26)；[TO49/K12.08.01.04](tools-orchestration-r2-knowledge-cases.md#L26) | 源目标字段含义、单位时基、对象 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO22@1",
+        "K12-CL-TO49@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.08.01.02",
+      "originalRequirement": "登记单位时基ID及缺失字段映射",
+      "originalInventory": "[K12.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L58)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.08.01.03",
+        "K12.08.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO22",
+          "d4": "K12.08.01.03",
+          "label": "TO22/K12.08.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L26"
+        },
+        {
+          "caseId": "TO49",
+          "d4": "K12.08.01.04",
+          "label": "TO49/K12.08.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L26"
+        }
+      ],
+      "unresolved": [],
+      "limits": "缺失/舍入/损失映射及必需项拒绝 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17)",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 48,
+        "row": "| K12.08.01.02 | 登记单位时基ID及缺失字段映射 | [K12.08.01](../ai-orchestration/fine-grained-ai-orchestration.md#L58) | BOUNDED_COMPOSITION | [TO22/K12.08.01.03](tools-orchestration-r1-knowledge-cases.md#L26)；[TO49/K12.08.01.04](tools-orchestration-r2-knowledge-cases.md#L26) | 缺失/舍入/损失映射及必需项拒绝 ；多轨与特殊division [RV02](tools-orchestration-r6-review-remediation.md#L17) |"
+      },
+      "claimRefs": [
+        "K12-CL-TO22@1",
+        "K12-CL-TO49@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.08.02.01",
+      "originalRequirement": "区分读取可重试修改操作及不确定副作用",
+      "originalInventory": "[K12.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L59)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.08.02.03",
+        "K12.08.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO23",
+          "d4": "K12.08.02.03",
+          "label": "TO23/K12.08.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L27"
+        },
+        {
+          "caseId": "TO50",
+          "d4": "K12.08.02.04",
+          "label": "TO50/K12.08.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L27"
+        }
+      ],
+      "unresolved": [],
+      "limits": "读/写语义和不确定副作用",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 49,
+        "row": "| K12.08.02.01 | 区分读取可重试修改操作及不确定副作用 | [K12.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L59) | ROUTER_CANDIDATE | [TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27) | 读/写语义和不确定副作用 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO23@1",
+        "K12-CL-TO50@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.08.02.02",
+      "originalRequirement": "记录请求身份状态回读及重复提交风险",
+      "originalInventory": "[K12.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L59)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.08.02.03",
+        "K12.08.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO23",
+          "d4": "K12.08.02.03",
+          "label": "TO23/K12.08.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L27"
+        },
+        {
+          "caseId": "TO50",
+          "d4": "K12.08.02.04",
+          "label": "TO50/K12.08.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L27"
+        }
+      ],
+      "unresolved": [],
+      "limits": "操作身份、版本及回读；协议请求ID非幂等",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 50,
+        "row": "| K12.08.02.02 | 记录请求身份状态回读及重复提交风险 | [K12.08.02](../ai-orchestration/fine-grained-ai-orchestration.md#L59) | BOUNDED_COMPOSITION | [TO23/K12.08.02.03](tools-orchestration-r1-knowledge-cases.md#L27)；[TO50/K12.08.02.04](tools-orchestration-r2-knowledge-cases.md#L27) | 操作身份、版本及回读；协议请求ID非幂等 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO23@1",
+        "K12-CL-TO50@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.08.03.01",
+      "originalRequirement": "绑定每步输入工具版本参数输出及证据",
+      "originalInventory": "[K12.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L60)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.08.03.03",
+        "K12.08.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO24",
+          "d4": "K12.08.03.03",
+          "label": "TO24/K12.08.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L28"
+        },
+        {
+          "caseId": "TO51",
+          "d4": "K12.08.03.04",
+          "label": "TO51/K12.08.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L28"
+        }
+      ],
+      "unresolved": [],
+      "limits": "依赖工件身份、版本和报告",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 51,
+        "row": "| K12.08.03.01 | 绑定每步输入工具版本参数输出及证据 | [K12.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L60) | ROUTER_CANDIDATE | [TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28) | 依赖工件身份、版本和报告 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO24@1",
+        "K12-CL-TO51@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.08.03.02",
+      "originalRequirement": "隔离候选产物和基线并使下游失效",
+      "originalInventory": "[K12.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L60)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.08.03.03",
+        "K12.08.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO24",
+          "d4": "K12.08.03.03",
+          "label": "TO24/K12.08.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L28"
+        },
+        {
+          "caseId": "TO51",
+          "d4": "K12.08.03.04",
+          "label": "TO51/K12.08.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L28"
+        }
+      ],
+      "unresolved": [],
+      "limits": "候选隔离、失效闭包，不删除历史",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 52,
+        "row": "| K12.08.03.02 | 隔离候选产物和基线并使下游失效 | [K12.08.03](../ai-orchestration/fine-grained-ai-orchestration.md#L60) | BOUNDED_COMPOSITION | [TO24/K12.08.03.03](tools-orchestration-r1-knowledge-cases.md#L28)；[TO51/K12.08.03.04](tools-orchestration-r2-knowledge-cases.md#L28) | 候选隔离、失效闭包，不删除历史 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO24@1",
+        "K12-CL-TO51@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.09.01.01",
+      "originalRequirement": "区分必需能力和可选质量指标",
+      "originalInventory": "[K12.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L61)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.09.01.03",
+        "K12.09.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO25",
+          "d4": "K12.09.01.03",
+          "label": "TO25/K12.09.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "TO52",
+          "d4": "K12.09.01.04",
+          "label": "TO52/K12.09.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L29"
+        }
+      ],
+      "unresolved": [],
+      "limits": "必需能力与软质量选型",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 53,
+        "row": "| K12.09.01.01 | 区分必需能力和可选质量指标 | [K12.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L61) | ROUTER_CANDIDATE | [TO25/K12.09.01.03](tools-orchestration-r1-knowledge-cases.md#L29)；[TO52/K12.09.01.04](tools-orchestration-r2-knowledge-cases.md#L29) | 必需能力与软质量选型 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO25@1",
+        "K12-CL-TO52@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.09.01.02",
+      "originalRequirement": "核验版本许可资源接口及替代路径",
+      "originalInventory": "[K12.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L61)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.09.01.03",
+        "K12.09.01.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO25",
+          "d4": "K12.09.01.03",
+          "label": "TO25/K12.09.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "TO52",
+          "d4": "K12.09.01.04",
+          "label": "TO52/K12.09.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L29"
+        }
+      ],
+      "unresolved": [],
+      "limits": "版本/许可/资源硬门禁与替代方案",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 54,
+        "row": "| K12.09.01.02 | 核验版本许可资源接口及替代路径 | [K12.09.01](../ai-orchestration/fine-grained-ai-orchestration.md#L61) | BOUNDED_COMPOSITION | [TO25/K12.09.01.03](tools-orchestration-r1-knowledge-cases.md#L29)；[TO52/K12.09.01.04](tools-orchestration-r2-knowledge-cases.md#L29) | 版本/许可/资源硬门禁与替代方案 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO25@1",
+        "K12-CL-TO52@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.09.02.01",
+      "originalRequirement": "登记精确版本依赖格式及维护证据",
+      "originalInventory": "[K12.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L62)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.09.02.03",
+        "K12.09.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO26",
+          "d4": "K12.09.02.03",
+          "label": "TO26/K12.09.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "TO53",
+          "d4": "K12.09.02.04",
+          "label": "TO53/K12.09.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L30"
+        }
+      ],
+      "unresolved": [],
+      "limits": "接口、状态、任务保真三种兼容",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 55,
+        "row": "| K12.09.02.01 | 登记精确版本依赖格式及维护证据 | [K12.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L62) | ROUTER_CANDIDATE | [TO26/K12.09.02.03](tools-orchestration-r1-knowledge-cases.md#L30)；[TO53/K12.09.02.04](tools-orchestration-r2-knowledge-cases.md#L30) | 接口、状态、任务保真三种兼容 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO26@1",
+        "K12-CL-TO53@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.09.02.02",
+      "originalRequirement": "评估更新对能力及历史产物的影响",
+      "originalInventory": "[K12.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L62)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.09.02.03",
+        "K12.09.02.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO26",
+          "d4": "K12.09.02.03",
+          "label": "TO26/K12.09.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "TO53",
+          "d4": "K12.09.02.04",
+          "label": "TO53/K12.09.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L30"
+        }
+      ],
+      "unresolved": [],
+      "limits": "精确版本/依赖升级触发重核，保留原产物",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 56,
+        "row": "| K12.09.02.02 | 评估更新对能力及历史产物的影响 | [K12.09.02](../ai-orchestration/fine-grained-ai-orchestration.md#L62) | BOUNDED_COMPOSITION | [TO26/K12.09.02.03](tools-orchestration-r1-knowledge-cases.md#L30)；[TO53/K12.09.02.04](tools-orchestration-r2-knowledge-cases.md#L30) | 精确版本/依赖升级触发重核，保留原产物 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO26@1",
+        "K12-CL-TO53@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.09.03.01",
+      "originalRequirement": "区分发现文档已查源码验证和运行证据",
+      "originalInventory": "[K12.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L63)",
+      "disposition": "ROUTER_CANDIDATE",
+      "routes": [
+        "K12.09.03.03",
+        "K12.09.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO27",
+          "d4": "K12.09.03.03",
+          "label": "TO27/K12.09.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L31"
+        },
+        {
+          "caseId": "TO54",
+          "d4": "K12.09.03.04",
+          "label": "TO54/K12.09.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L31"
+        }
+      ],
+      "unresolved": [],
+      "limits": "逐能力资格分级、证据范围",
+      "equivalence": false,
+      "status": "ROUTER_CANDIDATE",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 57,
+        "row": "| K12.09.03.01 | 区分发现文档已查源码验证和运行证据 | [K12.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L63) | ROUTER_CANDIDATE | [TO27/K12.09.03.03](tools-orchestration-r1-knowledge-cases.md#L31)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31) | 逐能力资格分级、证据范围 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO27@1",
+        "K12-CL-TO54@1"
+      ]
+    },
+    {
+      "sourceD4": "K12.09.03.02",
+      "originalRequirement": "定义负例失败恢复及证据有效期",
+      "originalInventory": "[K12.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L63)",
+      "disposition": "BOUNDED_COMPOSITION",
+      "routes": [
+        "K12.09.03.03",
+        "K12.09.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO27",
+          "d4": "K12.09.03.03",
+          "label": "TO27/K12.09.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L31"
+        },
+        {
+          "caseId": "TO54",
+          "d4": "K12.09.03.04",
+          "label": "TO54/K12.09.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L31"
+        }
+      ],
+      "unresolved": [],
+      "limits": "正负输入/未知/复核触发，不推广单次成功",
+      "equivalence": false,
+      "status": "BOUNDED_COMPOSITION",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 58,
+        "row": "| K12.09.03.02 | 定义负例失败恢复及证据有效期 | [K12.09.03](../ai-orchestration/fine-grained-ai-orchestration.md#L63) | BOUNDED_COMPOSITION | [TO27/K12.09.03.03](tools-orchestration-r1-knowledge-cases.md#L31)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31) | 正负输入/未知/复核触发，不推广单次成功 |"
+      },
+      "claimRefs": [
+        "K12-CL-TO27@1",
+        "K12-CL-TO54@1"
+      ]
+    }
+  ],
+  "splitRoutes": [
+    {
+      "sourceD4": "K13.02.01.02",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K16.07=原生概念对应证据；K01.02/K01.03=数值及形式映射；K12.04 REF表示实现",
+      "predicateScope": "K12.04：保留原生调律/记谱字段及交换损失，不定义文化概念或调律。",
+      "routes": [
+        "K12.04.01.03",
+        "K12.04.02.03",
+        "K12.04.03.03",
+        "K12.04.01.04",
+        "K12.04.02.04",
+        "K12.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO10",
+          "d4": "K12.04.01.03",
+          "label": "TO10/K12.04.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO11",
+          "d4": "K12.04.02.03",
+          "label": "TO11/K12.04.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO12",
+          "d4": "K12.04.03.03",
+          "label": "TO12/K12.04.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L16"
+        },
+        {
+          "caseId": "TO37",
+          "d4": "K12.04.01.04",
+          "label": "TO37/K12.04.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO38",
+          "d4": "K12.04.02.04",
+          "label": "TO38/K12.04.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO39",
+          "d4": "K12.04.03.04",
+          "label": "TO39/K12.04.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 63,
+        "row": "| [K13.02.01.02](domain-migration-implementation.md#L12) | SPLIT；— / SPLIT_OPEN；K16.07=原生概念对应证据；K01.02/K01.03=数值及形式映射；K12.04 REF表示实现 | K12.04：保留原生调律/记谱字段及交换损失，不定义文化概念或调律。 | [TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 8,
+        "row": "| K13.02.01.02 | 概念对应依据与形式/数值映射 | K16.07.01.02 | K01.02.06.01 K01.03.01.01 | K12.04 | 缺原值/映射上下文；非等价 | [MX-K13.02.01.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 12,
+        "row": "| K13.02.01.02 | 区分体系概念和跨体系近似映射 | SPLIT | — / SPLIT_OPEN | K16.07=原生概念对应证据；K01.02/K01.03=数值及形式映射；K12.04 REF表示实现 | S133/S134/S136/S141 | FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 |"
+      }
+    },
+    {
+      "sourceD4": "K13.02.02.02",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K01.02=转换损失计算；K16.07=原生语义保留；K12.04 REF编码",
+      "predicateScope": "K12.04：编码选择、舍入及不可逆损失，调律计算K01、文化语义K16。",
+      "routes": [
+        "K12.04.01.03",
+        "K12.04.02.03",
+        "K12.04.03.03",
+        "K12.04.01.04",
+        "K12.04.02.04",
+        "K12.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO10",
+          "d4": "K12.04.01.03",
+          "label": "TO10/K12.04.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO11",
+          "d4": "K12.04.02.03",
+          "label": "TO11/K12.04.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO12",
+          "d4": "K12.04.03.03",
+          "label": "TO12/K12.04.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L16"
+        },
+        {
+          "caseId": "TO37",
+          "d4": "K12.04.01.04",
+          "label": "TO37/K12.04.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO38",
+          "d4": "K12.04.02.04",
+          "label": "TO38/K12.04.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO39",
+          "d4": "K12.04.03.04",
+          "label": "TO39/K12.04.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 64,
+        "row": "| [K13.02.02.02](domain-migration-implementation.md#L14) | SPLIT；— / SPLIT_OPEN；K01.02=转换损失计算；K16.07=原生语义保留；K12.04 REF编码 | K12.04：编码选择、舍入及不可逆损失，调律计算K01、文化语义K16。 | [TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 10,
+        "row": "| K13.02.02.02 | 原生语义与映射损失 | K16.07.01.02 | K01.02.06.01 | K12.04 | 多对一损失不可逆；保留原值 | [MX-K13.02.02.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 14,
+        "row": "| K13.02.02.02 | 区分原生调律与十二平均律转换损失 | SPLIT | — / SPLIT_OPEN | K01.02=转换损失计算；K16.07=原生语义保留；K12.04 REF编码 | S133/S134/S136/S141 | FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 |"
+      }
+    },
+    {
+      "sourceD4": "K13.02.03.02",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K16.07=社群访问习惯；K15.05/K15.07=用途许可和数据访问；K12.06 REF执行授权",
+      "predicateScope": "K12.06：核任务授权、访问范围及工具；社群访问与权利归K16/K15。",
+      "routes": [
+        "K12.06.01.03",
+        "K12.06.02.03",
+        "K12.06.03.03",
+        "K12.06.01.04",
+        "K12.06.02.04",
+        "K12.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO16",
+          "d4": "K12.06.01.03",
+          "label": "TO16/K12.06.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "TO17",
+          "d4": "K12.06.02.03",
+          "label": "TO17/K12.06.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "TO18",
+          "d4": "K12.06.03.03",
+          "label": "TO18/K12.06.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L22"
+        },
+        {
+          "caseId": "TO43",
+          "d4": "K12.06.01.04",
+          "label": "TO43/K12.06.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "TO44",
+          "d4": "K12.06.02.04",
+          "label": "TO44/K12.06.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "TO45",
+          "d4": "K12.06.03.04",
+          "label": "TO45/K12.06.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L22"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 65,
+        "row": "| [K13.02.03.02](domain-migration-implementation.md#L16) | SPLIT；— / SPLIT_OPEN；K16.07=社群访问习惯；K15.05/K15.07=用途许可和数据访问；K12.06 REF执行授权 | K12.06：核任务授权、访问范围及工具；社群访问与权利归K16/K15。 | [TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO18/K12.06.03.03](tools-orchestration-r1-knowledge-cases.md#L22)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21)；[TO45/K12.06.03.04](tools-orchestration-r2-knowledge-cases.md#L22) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 12,
+        "row": "| K13.02.03.02 | 访问惯例、用途范围和数据访问 | K16.07.03.02 | K15.05.02.02 K15.07.02.02 | K12.06 | 访问习惯不等再用权限 | [MX-K13.02.03.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 16,
+        "row": "| K13.02.03.02 | 登记社群访问习惯及许可范围 | SPLIT | — / SPLIT_OPEN | K16.07=社群访问习惯；K15.05/K15.07=用途许可和数据访问；K12.06 REF执行授权 | S133/S134/S136/S141 | FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 |"
+      }
+    },
+    {
+      "sourceD4": "K13.06.03.02",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K13.06=原词译稿版本；K09.01/K01.08=工程/谱面保真；K15.05=授权版本；K12.04 REF交换",
+      "predicateScope": "K12.04：原词译稿/谱面交换身份和损失，语言版本K13、实际授权K15。",
+      "routes": [
+        "K12.04.01.03",
+        "K12.04.02.03",
+        "K12.04.03.03",
+        "K12.04.01.04",
+        "K12.04.02.04",
+        "K12.04.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO10",
+          "d4": "K12.04.01.03",
+          "label": "TO10/K12.04.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO11",
+          "d4": "K12.04.02.03",
+          "label": "TO11/K12.04.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO12",
+          "d4": "K12.04.03.03",
+          "label": "TO12/K12.04.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L16"
+        },
+        {
+          "caseId": "TO37",
+          "d4": "K12.04.01.04",
+          "label": "TO37/K12.04.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L14"
+        },
+        {
+          "caseId": "TO38",
+          "d4": "K12.04.02.04",
+          "label": "TO38/K12.04.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L15"
+        },
+        {
+          "caseId": "TO39",
+          "d4": "K12.04.03.04",
+          "label": "TO39/K12.04.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 66,
+        "row": "| [K13.06.03.02](domain-migration-implementation.md#L40) | SPLIT；— / SPLIT_OPEN；K13.06=原词译稿版本；K09.01/K01.08=工程/谱面保真；K15.05=授权版本；K12.04 REF交换 | K12.04：原词译稿/谱面交换身份和损失，语言版本K13、实际授权K15。 | [TO10/K12.04.01.03](tools-orchestration-r1-knowledge-cases.md#L14)；[TO11/K12.04.02.03](tools-orchestration-r1-knowledge-cases.md#L15)；[TO12/K12.04.03.03](tools-orchestration-r1-knowledge-cases.md#L16)；[TO37/K12.04.01.04](tools-orchestration-r2-knowledge-cases.md#L14)；[TO38/K12.04.02.04](tools-orchestration-r2-knowledge-cases.md#L15)；[TO39/K12.04.03.04](tools-orchestration-r2-knowledge-cases.md#L16) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 19,
+        "row": "| K13.06.03.02 | 原词译稿、工程谱面及授权版本 | K13.06.03.03 | K09.01.03.02 K01.08.06.03 K15.05.01.02 | K12.04 | 原词/译稿/谱面/授权分别版本化 | [MX-K13.06.03.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 40,
+        "row": "| K13.06.03.02 | 维护原词译稿谱面和授权版本 | SPLIT | — / SPLIT_OPEN | K13.06=原词译稿版本；K09.01/K01.08=工程/谱面保真；K15.05=授权版本；K12.04 REF交换 | S142/S143/S137/S144 | FG-K13.06.03 / CP-K13.06；CQ04/CQ12/CQ16/CQ19/CQ23/CQ26；A01/A02/A04/A05/A06/A07词曲与版本，A03引用工具 |"
+      }
+    },
+    {
+      "sourceD4": "K13.08.03.01",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K11.01=训练语料与标注偏差；K12.03/K12.05/K12.09=具体工具模型版本与适用性；K10.09=听评样本代表性；K17.06=认知人群外推；K13.08=母语任务偏差约束",
+      "predicateScope": "K12.03/.05/.09：具体标注工具、模型checkpoint和资格，不代K11语料、K10样本、K17认知或K13偏差。",
+      "routes": [
+        "K12.03.01.03",
+        "K12.03.02.03",
+        "K12.03.03.03",
+        "K12.03.01.04",
+        "K12.03.02.04",
+        "K12.03.03.04",
+        "K12.05.01.03",
+        "K12.05.02.03",
+        "K12.05.03.03",
+        "K12.05.01.04",
+        "K12.05.02.04",
+        "K12.05.03.04",
+        "K12.09.01.03",
+        "K12.09.02.03",
+        "K12.09.03.03",
+        "K12.09.01.04",
+        "K12.09.02.04",
+        "K12.09.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO07",
+          "d4": "K12.03.01.03",
+          "label": "TO07/K12.03.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L11"
+        },
+        {
+          "caseId": "TO08",
+          "d4": "K12.03.02.03",
+          "label": "TO08/K12.03.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L12"
+        },
+        {
+          "caseId": "TO09",
+          "d4": "K12.03.03.03",
+          "label": "TO09/K12.03.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "TO34",
+          "d4": "K12.03.01.04",
+          "label": "TO34/K12.03.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L11"
+        },
+        {
+          "caseId": "TO35",
+          "d4": "K12.03.02.04",
+          "label": "TO35/K12.03.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L12"
+        },
+        {
+          "caseId": "TO36",
+          "d4": "K12.03.03.04",
+          "label": "TO36/K12.03.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L13"
+        },
+        {
+          "caseId": "TO13",
+          "d4": "K12.05.01.03",
+          "label": "TO13/K12.05.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L17"
+        },
+        {
+          "caseId": "TO14",
+          "d4": "K12.05.02.03",
+          "label": "TO14/K12.05.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L18"
+        },
+        {
+          "caseId": "TO15",
+          "d4": "K12.05.03.03",
+          "label": "TO15/K12.05.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L19"
+        },
+        {
+          "caseId": "TO40",
+          "d4": "K12.05.01.04",
+          "label": "TO40/K12.05.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L17"
+        },
+        {
+          "caseId": "TO41",
+          "d4": "K12.05.02.04",
+          "label": "TO41/K12.05.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L18"
+        },
+        {
+          "caseId": "TO42",
+          "d4": "K12.05.03.04",
+          "label": "TO42/K12.05.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L19"
+        },
+        {
+          "caseId": "TO25",
+          "d4": "K12.09.01.03",
+          "label": "TO25/K12.09.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "TO26",
+          "d4": "K12.09.02.03",
+          "label": "TO26/K12.09.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "TO27",
+          "d4": "K12.09.03.03",
+          "label": "TO27/K12.09.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L31"
+        },
+        {
+          "caseId": "TO52",
+          "d4": "K12.09.01.04",
+          "label": "TO52/K12.09.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "TO53",
+          "d4": "K12.09.02.04",
+          "label": "TO53/K12.09.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "TO54",
+          "d4": "K12.09.03.04",
+          "label": "TO54/K12.09.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L31"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 67,
+        "row": "| [K13.08.03.01](domain-migration-implementation.md#L51) | SPLIT；— / SPLIT_OPEN；K11.01=训练语料与标注偏差；K12.03/K12.05/K12.09=具体工具模型版本与适用性；K10.09=听评样本代表性；K17.06=认知人群外推；K13.08=母语任务偏差约束 | K12.03/.05/.09：具体标注工具、模型checkpoint和资格，不代K11语料、K10样本、K17认知或K13偏差。 | [TO07/K12.03.01.03](tools-orchestration-r1-knowledge-cases.md#L11)；[TO08/K12.03.02.03](tools-orchestration-r1-knowledge-cases.md#L12)；[TO09/K12.03.03.03](tools-orchestration-r1-knowledge-cases.md#L13)；[TO34/K12.03.01.04](tools-orchestration-r2-knowledge-cases.md#L11)；[TO35/K12.03.02.04](tools-orchestration-r2-knowledge-cases.md#L12)；[TO36/K12.03.03.04](tools-orchestration-r2-knowledge-cases.md#L13)；[TO13/K12.05.01.03](tools-orchestration-r1-knowledge-cases.md#L17)；[TO14/K12.05.02.03](tools-orchestration-r1-knowledge-cases.md#L18)；[TO15/K12.05.03.03](tools-orchestration-r1-knowledge-cases.md#L19)；[TO40/K12.05.01.04](tools-orchestration-r2-knowledge-cases.md#L17)；[TO41/K12.05.02.04](tools-orchestration-r2-knowledge-cases.md#L18)；[TO42/K12.05.03.04](tools-orchestration-r2-knowledge-cases.md#L19)；[TO25/K12.09.01.03](tools-orchestration-r1-knowledge-cases.md#L29)；[TO26/K12.09.02.03](tools-orchestration-r1-knowledge-cases.md#L30)；[TO27/K12.09.03.03](tools-orchestration-r1-knowledge-cases.md#L31)；[TO52/K12.09.01.04](tools-orchestration-r2-knowledge-cases.md#L29)；[TO53/K12.09.02.04](tools-orchestration-r2-knowledge-cases.md#L30)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 27,
+        "row": "| K13.08.03.01 | 适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推 | K13.08.03.03 K17.06.01.01 | K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01 | — | 训练数据、实际工具、听者代表性和认知外推独立 | [MX-K13.08.03.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 51,
+        "row": "| K13.08.03.01 | 检查训练语料标注工具及听者代表性 | SPLIT | — / SPLIT_OPEN | K11.01=训练语料与标注偏差；K12.03/K12.05/K12.09=具体工具模型版本与适用性；K10.09=听评样本代表性；K17.06=认知人群外推；K13.08=母语任务偏差约束 | S135/S143/S141 | FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 |"
+      }
+    },
+    {
+      "sourceD4": "K13.08.03.02",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K13.08=适配结论UNKNOWN；各证据owner保留各自UNKNOWN；K10.09=评测限制；K11.10/K12.09=模型工具证据限制",
+      "predicateScope": "K12.09：工具或版本未证保持UNKNOWN，不代K13适配结论。",
+      "routes": [
+        "K12.09.01.03",
+        "K12.09.02.03",
+        "K12.09.03.03",
+        "K12.09.01.04",
+        "K12.09.02.04",
+        "K12.09.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO25",
+          "d4": "K12.09.01.03",
+          "label": "TO25/K12.09.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "TO26",
+          "d4": "K12.09.02.03",
+          "label": "TO26/K12.09.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "TO27",
+          "d4": "K12.09.03.03",
+          "label": "TO27/K12.09.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L31"
+        },
+        {
+          "caseId": "TO52",
+          "d4": "K12.09.01.04",
+          "label": "TO52/K12.09.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L29"
+        },
+        {
+          "caseId": "TO53",
+          "d4": "K12.09.02.04",
+          "label": "TO53/K12.09.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L30"
+        },
+        {
+          "caseId": "TO54",
+          "d4": "K12.09.03.04",
+          "label": "TO54/K12.09.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L31"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 68,
+        "row": "| [K13.08.03.02](domain-migration-implementation.md#L52) | SPLIT；— / SPLIT_OPEN；K13.08=适配结论UNKNOWN；各证据owner保留各自UNKNOWN；K10.09=评测限制；K11.10/K12.09=模型工具证据限制 | K12.09：工具或版本未证保持UNKNOWN，不代K13适配结论。 | [TO25/K12.09.01.03](tools-orchestration-r1-knowledge-cases.md#L29)；[TO26/K12.09.02.03](tools-orchestration-r1-knowledge-cases.md#L30)；[TO27/K12.09.03.03](tools-orchestration-r1-knowledge-cases.md#L31)；[TO52/K12.09.01.04](tools-orchestration-r2-knowledge-cases.md#L29)；[TO53/K12.09.02.04](tools-orchestration-r2-knowledge-cases.md#L30)；[TO54/K12.09.03.04](tools-orchestration-r2-knowledge-cases.md#L31) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 28,
+        "row": "| K13.08.03.02 | 适配UNKNOWN、评测及模型工具证据限制 | K13.08.03.04 | K10.09.02.01 K11.10.03.01 K12.09.03.01 | — | 各owner缺证分别UNKNOWN，不能补造 | [MX-K13.08.03.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 52,
+        "row": "| K13.08.03.02 | 记录无充分证据时的UNKNOWN | SPLIT | — / SPLIT_OPEN | K13.08=适配结论UNKNOWN；各证据owner保留各自UNKNOWN；K10.09=评测限制；K11.10/K12.09=模型工具证据限制 | S135/S143/S141 | FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 |"
+      }
+    },
+    {
+      "sourceD4": "K09.07.02.01",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K19.05=现场主扩声与舞台监听；K08.04=通用路由；K04.06=音乐协作监听目标；K12.01 REF具体宿主",
+      "predicateScope": "K12.01：宿主具体对象/路由证据，不代K19实际现场、K08路由、K04监听。",
+      "routes": [
+        "K12.01.01.03",
+        "K12.01.02.03",
+        "K12.01.03.03",
+        "K12.01.01.04",
+        "K12.01.02.04",
+        "K12.01.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO01",
+          "d4": "K12.01.01.03",
+          "label": "TO01/K12.01.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L5"
+        },
+        {
+          "caseId": "TO02",
+          "d4": "K12.01.02.03",
+          "label": "TO02/K12.01.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L6"
+        },
+        {
+          "caseId": "TO03",
+          "d4": "K12.01.03.03",
+          "label": "TO03/K12.01.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L7"
+        },
+        {
+          "caseId": "TO28",
+          "d4": "K12.01.01.04",
+          "label": "TO28/K12.01.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L5"
+        },
+        {
+          "caseId": "TO29",
+          "d4": "K12.01.02.04",
+          "label": "TO29/K12.01.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L6"
+        },
+        {
+          "caseId": "TO30",
+          "d4": "K12.01.03.04",
+          "label": "TO30/K12.01.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L7"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 69,
+        "row": "| [K09.07.02.01](domain-migration-implementation.md#L55) | SPLIT；— / SPLIT_OPEN；K19.05=现场主扩声与舞台监听；K08.04=通用路由；K04.06=音乐协作监听目标；K12.01 REF具体宿主 | K12.01：宿主具体对象/路由证据，不代K19实际现场、K08路由、K04监听。 | [TO01/K12.01.01.03](tools-orchestration-r1-knowledge-cases.md#L5)；[TO02/K12.01.02.03](tools-orchestration-r1-knowledge-cases.md#L6)；[TO03/K12.01.03.03](tools-orchestration-r1-knowledge-cases.md#L7)；[TO28/K12.01.01.04](tools-orchestration-r2-knowledge-cases.md#L5)；[TO29/K12.01.02.04](tools-orchestration-r2-knowledge-cases.md#L6)；[TO30/K12.01.03.04](tools-orchestration-r2-knowledge-cases.md#L7) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 31,
+        "row": "| K09.07.02.01 | 主扩监听、通用路由和协作目标 | K19.05.01.01 | K08.04.01.01 K08.04.03.01 K04.06.02.01 | K12.01 | 主扩与监听独立服务目标，非通用总线等价 | [MX-K09.07.02.01](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 55,
+        "row": "| K09.07.02.01 | 区分主扩声、舞台监听、总线及发送 | SPLIT | — / SPLIT_OPEN | K19.05=现场主扩声与舞台监听；K08.04=通用路由；K04.06=音乐协作监听目标；K12.01 REF具体宿主 | S096/S092/S033 | FG-K09.07.02 / CP-K09.07；CQ07/CQ19/CQ22/CQ24；A01/A02/A04/A05/A07现场与安全；A03工具引用、A06配置按任务 |"
+      }
+    },
+    {
+      "sourceD4": "K09.07.02.02",
+      "originalState": "SPLIT；— / SPLIT_OPEN；K19.03=现场安全核对；K15.01/K15.04=权限与验收责任；K07.08=听音安全；K12.06 REF工具权限",
+      "predicateScope": "K12.06：工具执行授权与回读，不代K19/K07现场安全或K15许可。",
+      "routes": [
+        "K12.06.01.03",
+        "K12.06.02.03",
+        "K12.06.03.03",
+        "K12.06.01.04",
+        "K12.06.02.04",
+        "K12.06.03.04"
+      ],
+      "routeLinks": [
+        {
+          "caseId": "TO16",
+          "d4": "K12.06.01.03",
+          "label": "TO16/K12.06.01.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "TO17",
+          "d4": "K12.06.02.03",
+          "label": "TO17/K12.06.02.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "TO18",
+          "d4": "K12.06.03.03",
+          "label": "TO18/K12.06.03.03",
+          "uri": "tools-orchestration-r1-knowledge-cases.md#L22"
+        },
+        {
+          "caseId": "TO43",
+          "d4": "K12.06.01.04",
+          "label": "TO43/K12.06.01.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L20"
+        },
+        {
+          "caseId": "TO44",
+          "d4": "K12.06.02.04",
+          "label": "TO44/K12.06.02.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L21"
+        },
+        {
+          "caseId": "TO45",
+          "d4": "K12.06.03.04",
+          "label": "TO45/K12.06.03.04",
+          "uri": "tools-orchestration-r2-knowledge-cases.md#L22"
+        }
+      ],
+      "status": "SPLIT_OPEN_NAVIGATION_ONLY",
+      "equivalence": false,
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/tools-orchestration-r3-legacy-convergence.md",
+        "blob": "ebfd9cc3502677f44e508b507d5c68e591a8c265",
+        "line": 70,
+        "row": "| [K09.07.02.02](domain-migration-implementation.md#L56) | SPLIT；— / SPLIT_OPEN；K19.03=现场安全核对；K15.01/K15.04=权限与验收责任；K07.08=听音安全；K12.06 REF工具权限 | K12.06：工具执行授权与回读，不代K19/K07现场安全或K15许可。 | [TO16/K12.06.01.03](tools-orchestration-r1-knowledge-cases.md#L20)；[TO17/K12.06.02.03](tools-orchestration-r1-knowledge-cases.md#L21)；[TO18/K12.06.03.03](tools-orchestration-r1-knowledge-cases.md#L22)；[TO43/K12.06.01.04](tools-orchestration-r2-knowledge-cases.md#L20)；[TO44/K12.06.02.04](tools-orchestration-r2-knowledge-cases.md#L21)；[TO45/K12.06.03.04](tools-orchestration-r2-knowledge-cases.md#L22) |"
+      },
+      "g05Anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/g05-r3-split-disposition-candidate.md",
+        "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
+        "line": 32,
+        "row": "| K09.07.02.02 | 现场核对、权限、停止和暴露 | K19.03.01.01 | K15.01.02.01 K15.04.03.02 K07.08.02.01 | K12.06 | 实际场地权限/安全/路由证据另核 | [MX-K09.07.02.02](domain-mixed-migration-case-demands.md) |"
+      },
+      "originalMigrationAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-migration-implementation.md",
+        "blob": "516ea2e35f527e05778c9a32316cba887b4896ac",
+        "line": 56,
+        "row": "| K09.07.02.02 | 在权限与安全边界下核对路由及电平 | SPLIT | — / SPLIT_OPEN | K19.03=现场安全核对；K15.01/K15.04=权限与验收责任；K07.08=听音安全；K12.06 REF工具权限 | S096/S092/S033 | FG-K09.07.02 / CP-K09.07；CQ07/CQ19/CQ22/CQ24；A01/A02/A04/A05/A07现场与安全；A03工具引用、A06配置按任务 |"
+      }
+    }
+  ],
+  "historicalFinding": null,
+  "historicalOpenIssues": [],
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}
