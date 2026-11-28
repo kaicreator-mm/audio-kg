@@ -40,6 +40,9 @@ for item in integrated['cases']:
   verify(item['headingAnchor'])
   for body in item['body']: verify(body['anchor'])
 for item in integrated.get('history',[]): verify(item['anchor'])
+assert integrated['scenario']==ledger['integratedScenario'] and integrated['cases']==ledger['integratedCases']
+for a in integrated['scenario']['anchors']: verify(a)
+assert all(c['scenarioId']==integrated['scenario']['id'] for c in integrated['cases'])
 records=[];edges=[];bindings=[];sq=[];eq=[];ob=[];inv=[];provenance=[];src={};formal={}
 for r in rows:
  verify(r['discovery']);verify(r['caseAnchor']);ids=[]

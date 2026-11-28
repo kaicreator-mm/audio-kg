@@ -1,3 +1,4 @@
+import {finiteGate,playbackGate} from './integrated-witness.mjs';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {gitBlob,openCandidateReader} from '../../../tools/validate-knowledge.mjs';
@@ -128,5 +129,74 @@ t('curated hard prerequisites and optional navigation are distinct',()=>{
 t('integrated workflow records retain frozen conditions and stop gates',()=>{
  const w=read('cases/'+m+'/integrated-cases.json');assert.deepEqual(w.cases,ledger.integratedCases);
  for(const c of w.cases){anchor(c.anchor);assert.ok(c.conditions.length&&c.rejectOrStop.length);assert.equal(c.status,'FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY');}
+});
+const integ=read('cases/K11/integrated-cases.json'), sc=integ.scenario, b=sc.baseline, identity=sc.reportIdentity, flags=sc.syntheticConditions;
+const rp={identity:structuredClone(identity),synthetic:true,complete:true,observed:false};
+const c1=integ.cases[0].candidate;
+const gate=(c=c1,id=identity,r=rp,f=flags)=>finiteGate(sc,c,id,r,f);
+t('KC-A11 exact frozen baseline, report identity and navigable inputs',()=>{
+ assert.deepEqual(sc,ledger.integratedScenario);
+ assert.equal(sc.id,'KC-A11');
+ assert.deepEqual(b,{work:'W0',originalTarget:'T0',target:'T1',melody:[60,64,67,60],lyrics:['a','b','c','d'],noteBeats:[1,1,1,1],bpm:120,clock:'120BPM/tm1',duration:2,backing:[1,2,3,4],voice:[10,20,30,40],mask:[1,3]});
+ assert.equal(b.noteBeats.reduce((a,v)=>a+v,0)*60/b.bpm,2);
+ assert.deepEqual(identity,{source:'S1',condition:'P1',model:'W1',target:'T1',permissionEpoch:'E1',mask:[1,3],clock:'120BPM/tm1',duration:2,output:'Y1',protocol:'Q1'});
+ assert.ok(sc.anchors.some(a=>a.line===12)&&sc.anchors.some(a=>a.line===56));
+ for(const a of sc.anchors)anchor(a);
+ for(const c of integ.cases){
+  assert.equal(c.scenarioId,sc.id);assert.ok(c.entryLinks.length);
+  for(const l of c.entryLinks){
+   const match=l.uri.match(/^([^#]+)#L(\d+)$/);assert.ok(match);
+   const row=fs.readFileSync('docs/product/calibration/'+match[1],'utf8').split('\n')[Number(match[2])-1];
+   assert.ok(row.includes(l.label.split('/')[0]));
+   assert.ok(sc.anchors.some(a=>a.row.includes('['+l.label+']('+l.uri+')')));
+  }
+ }
+ assert.equal(sc.realExecutionAllowed,false);assert.equal(sc.realDeliveryAllowed,false);assert.equal(sc.realRights,'UNKNOWN');assert.equal(sc.realPlaybackAllowed,false);
+});
+t('KC-A11 five actual candidate objects independently discriminate protected fields',()=>{
+ assert.deepEqual(c1.voice,[10,71,72,40]);
+ assert.deepEqual(integ.cases.map(c=>gate(c.candidate)),['FINITE_CANDIDATE_ONLY','REJECT_PROTECTION','REJECT_PROTECTION','REJECT_PROTECTION','REJECT_PROTECTION']);
+ assert.deepEqual(integ.cases.map(c=>c.candidateId),['C1','C2','C3','C4','C5']);
+ assert.deepEqual(integ.cases[1].candidate,{...c1,melody:[60,65,67,60]});
+ assert.deepEqual(integ.cases[2].candidate,{...c1,lyrics:['a','c','b','d']});
+ assert.deepEqual(integ.cases[3].candidate,{...c1,backing:[1,2,4,4]});
+ assert.deepEqual(integ.cases[4].candidate,{...c1,voice:[11,71,72,40]});
+ assert.deepEqual(b.voice,[10,20,30,40]);
+});
+for(const [field,value] of Object.entries({duration:3,clock:'90BPM/tm2',target:'T2',mask:[0,4],noteBeats:[1,2,1,1],bpm:90,voice:[10,71,72,41]})){
+ t('KC-A11 independent protected '+field+' cannot be bypassed by new report',()=>{
+  const c={...c1,[field]:value},id={...identity,...(Object.hasOwn(identity,field)?{[field]:value}:{})};
+  assert.equal(gate(c,id,{...rp,identity:id}),'REJECT_PROTECTION');
+ });
+}
+for(const field of Object.keys(identity)){
+ t('KC-A11 stale/missing report identity '+field,()=>{
+  const value=Array.isArray(identity[field])?[0,4]:'changed';
+  assert.equal(gate(c1,identity,{...rp,identity:{...identity,[field]:value}}),'PENDING_REVALIDATION');
+  const missing={...identity};delete missing[field];
+  assert.equal(gate(c1,identity,{...rp,identity:missing}),'PENDING_REVALIDATION');
+  const changed={...identity,[field]:value};
+  assert.equal(gate(c1,changed,{...rp,identity:changed}),'PENDING_REVALIDATION');
+ });
+}
+t('KC-A11 unknown qualification pending, withdrawal stops and playback is never authorized',()=>{
+ for(const key of ['permission','version','resources','quality'])assert.equal(gate(c1,identity,rp,{...flags,[key]:'UNKNOWN'}),'PENDING');
+ assert.equal(gate(c1,identity,rp,{...flags,permission:'WITHDRAWN'}),'STOP');
+ assert.equal(gate({...c1,duration:3},identity,rp,{...flags,permission:'WITHDRAWN'}),'STOP');
+ assert.equal(playbackGate(sc,flags),'REAL_PLAYBACK_NOT_ALLOWED');
+ assert.equal(playbackGate(sc,{...flags,playbackSafety:'KNOWN_SYNTHETIC'}),'REAL_PLAYBACK_NOT_ALLOWED');
+ assert.equal(playbackGate(sc,{...flags,permission:'WITHDRAWN'}),'STOP');
+});
+t('AM06/AM35 lossy encoding collision and conditional exact reconstruction',()=>{
+ const x=[0,.4],y=[0,.3],quantize=a=>a.map(v=>Math.round(v));
+ assert.notDeepEqual(x,y);assert.deepEqual(quantize(x),quantize(y));
+ const decoder=z=>z.map(v=>v);assert.deepEqual(decoder(quantize(x)),decoder(quantize(y)));
+ const claim=pack.records.find(r=>r.id==='K11-CL-AM06');
+ assert.ok(claim.statement.includes('有损编码可能碰撞')&&claim.statement.includes('固定确定性解码器'));
+ assert.match(view('AM06','FP').expectedResult,/同一有损码可以对应不同源/);
+ assert.match(view('AM06','FN').reasoningBasis,/不同输入碰撞/);
+ assert.match(view('AM06','RP').expectedResult,/实际码序列/);
+ assert.match(view('AM06','RN').reasoningBasis,/同码碰撞/);
+ assert.match(view('AM35','FP').expectedResult,/不同连续输入映射到同一索引/);
 });
 console.log(JSON.stringify({module:m,passed:results.length,results},null,2));

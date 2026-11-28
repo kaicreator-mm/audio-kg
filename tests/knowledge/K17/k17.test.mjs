@@ -1,3 +1,4 @@
+import {researchGate} from './integrated-witness.mjs';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {gitBlob,openCandidateReader} from '../../../tools/validate-knowledge.mjs';
@@ -129,5 +130,35 @@ t('curated hard prerequisites and optional navigation are distinct',()=>{
 t('integrated workflow records retain frozen conditions and stop gates',()=>{
  const w=read('cases/'+m+'/integrated-cases.json');assert.deepEqual(w.cases,ledger.integratedCases);
  for(const c of w.cases){anchor(c.anchor);assert.ok(c.conditions.length&&c.rejectOrStop.length);assert.equal(c.status,'FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY');}
+});
+const integ=read('cases/K17/integrated-cases.json'),sc=integ.scenario,b=sc.baselineIdentity,r=sc.report,f=sc.conditions;
+const gate=(c=b,report=r,flags=f)=>researchGate(sc,c,report,flags);
+t('KC-MC17 exact fixed research identity and independent baseline',()=>{
+ assert.deepEqual(sc,ledger.integratedScenario);assert.equal(sc.id,'KC-MC17');assert.equal(sc.project,'J');
+ assert.deepEqual(b,{task:'old-new',stimulus:'SET-A@1',items:'A-B-C-D',exposure:'EX1',labels:'L1',clock:'T1',instructions:'I1',presentation:'P1',sample:'SYNTHETIC-SAMPLE-1',analysis:'AN1',metric:'SDT-fixed'});
+ assert.deepEqual(r,{identity:b,source:'synthetic',observed:false,complete:true});
+ assert.deepEqual(f,{syntheticOnly:true,actualParticipants:false,controlMatched:true,currentEvidence:true});
+ assert.ok(sc.anchors.some(a=>a.line===10)&&sc.anchors.some(a=>a.line===41)&&sc.anchors.some(a=>a.line===75));
+ for(const a of sc.anchors)anchor(a);
+ for(const c of integ.cases){assert.equal(c.scenarioId,sc.id);assert.ok(c.entryLinks.length);}
+ assert.equal(gate(),'SYNTHETIC_ANALYSIS_ONLY');
+ for(const k of ['realParticipantsAllowed','realAudioAllowed','clinicalResearchAllowed','recordingAllowed','dataCollectionAllowed'])assert.equal(sc[k],false);
+ assert.equal(sc.realPermission,'UNKNOWN');
+});
+for(const k of Object.keys(b)){
+ t('KC-MC17 fixed candidate and stale envelope reject '+k,()=>{
+  const c={...b,[k]:'changed'};
+  assert.equal(gate(c,{...r,identity:c}),'PENDING');
+  assert.equal(gate(b,{...r,identity:c}),'PENDING');
+  const missing={...b};delete missing[k];
+  assert.equal(gate(missing,r),'PENDING');
+  assert.equal(gate(b,{...r,identity:missing}),'PENDING');
+ });
+}
+t('KC-MC17 unknown conditions and real execution requests refuse',()=>{
+ for(const k of Object.keys(f))assert.equal(gate(b,r,{...f,[k]:null}),'PENDING');
+ for(const k of ['actualParticipants','realAudio','clinicalResearch','recording','dataCollection'])assert.equal(gate(b,r,{...f,[k]:true}),'PENDING');
+ for(const [k,v] of Object.entries({source:'observed',observed:true,complete:false}))assert.equal(gate(b,{...r,[k]:v}),'PENDING');
+ assert.equal(gate({...b,extra:'unqualified'},{...r,identity:{...b,extra:'unqualified'}}),'PENDING');
 });
 console.log(JSON.stringify({module:m,passed:results.length,results},null,2));

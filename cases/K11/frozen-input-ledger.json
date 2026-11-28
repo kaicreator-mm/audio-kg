@@ -10561,7 +10561,24 @@
       "stage": "C1 保护字段不变，人声[10,71,72,40]，目标T1",
       "conditions": "有限对象通过",
       "rejectOrStop": "保留候选；真实权利/实际版本/资源/独立质量仍UNKNOWN，不得正式执行或交付",
-      "entryLinks": [],
+      "entryLinks": [
+        {
+          "label": "AM15/K11.05.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "AM19/K11.07.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "AM45/K11.05.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L33"
+        },
+        {
+          "label": "AM49/K11.07.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L37"
+        }
+      ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
         "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
@@ -10569,14 +10586,76 @@
         "line": 16,
         "row": "| C1 保护字段不变，人声[10,71,72,40]，目标T1 | 有限对象通过 | 保留候选；真实权利/实际版本/资源/独立质量仍UNKNOWN，不得正式执行或交付 |"
       },
-      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-A11",
+      "candidateId": "C1",
+      "candidate": {
+        "work": "W0",
+        "originalTarget": "T0",
+        "target": "T1",
+        "melody": [
+          60,
+          64,
+          67,
+          60
+        ],
+        "lyrics": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "noteBeats": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "bpm": 120,
+        "clock": "120BPM/tm1",
+        "duration": 2,
+        "backing": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "voice": [
+          10,
+          71,
+          72,
+          40
+        ],
+        "mask": [
+          1,
+          3
+        ]
+      },
+      "expectedProtection": "FINITE_CANDIDATE_ONLY"
     },
     {
       "caseId": "C2 第二音改65，其余同C1",
       "stage": "C2 第二音改65，其余同C1",
       "conditions": "旋律保护失败",
       "rejectOrStop": "拒绝",
-      "entryLinks": [],
+      "entryLinks": [
+        {
+          "label": "AM15/K11.05.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "AM19/K11.07.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "AM45/K11.05.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L33"
+        },
+        {
+          "label": "AM49/K11.07.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L37"
+        }
+      ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
         "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
@@ -10584,14 +10663,76 @@
         "line": 17,
         "row": "| C2 第二音改65，其余同C1 | 旋律保护失败 | 拒绝 |"
       },
-      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-A11",
+      "candidateId": "C2",
+      "candidate": {
+        "work": "W0",
+        "originalTarget": "T0",
+        "target": "T1",
+        "melody": [
+          60,
+          65,
+          67,
+          60
+        ],
+        "lyrics": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "noteBeats": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "bpm": 120,
+        "clock": "120BPM/tm1",
+        "duration": 2,
+        "backing": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "voice": [
+          10,
+          71,
+          72,
+          40
+        ],
+        "mask": [
+          1,
+          3
+        ]
+      },
+      "expectedProtection": "REJECT_PROTECTION"
     },
     {
       "caseId": "C3 词顺序a/c/b/d，其余同C1",
       "stage": "C3 词顺序a/c/b/d，其余同C1",
       "conditions": "词序保护失败",
       "rejectOrStop": "拒绝",
-      "entryLinks": [],
+      "entryLinks": [
+        {
+          "label": "AM15/K11.05.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "AM19/K11.07.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "AM45/K11.05.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L33"
+        },
+        {
+          "label": "AM49/K11.07.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L37"
+        }
+      ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
         "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
@@ -10599,14 +10740,76 @@
         "line": 18,
         "row": "| C3 词顺序a/c/b/d，其余同C1 | 词序保护失败 | 拒绝 |"
       },
-      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-A11",
+      "candidateId": "C3",
+      "candidate": {
+        "work": "W0",
+        "originalTarget": "T0",
+        "target": "T1",
+        "melody": [
+          60,
+          64,
+          67,
+          60
+        ],
+        "lyrics": [
+          "a",
+          "c",
+          "b",
+          "d"
+        ],
+        "noteBeats": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "bpm": 120,
+        "clock": "120BPM/tm1",
+        "duration": 2,
+        "backing": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "voice": [
+          10,
+          71,
+          72,
+          40
+        ],
+        "mask": [
+          1,
+          3
+        ]
+      },
+      "expectedProtection": "REJECT_PROTECTION"
     },
     {
       "caseId": "C4 伴奏改[1,2,4,4]，其余同C1",
       "stage": "C4 伴奏改[1,2,4,4]，其余同C1",
       "conditions": "伴奏保护失败",
       "rejectOrStop": "拒绝",
-      "entryLinks": [],
+      "entryLinks": [
+        {
+          "label": "AM15/K11.05.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "AM19/K11.07.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "AM45/K11.05.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L33"
+        },
+        {
+          "label": "AM49/K11.07.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L37"
+        }
+      ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
         "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
@@ -10614,14 +10817,76 @@
         "line": 19,
         "row": "| C4 伴奏改[1,2,4,4]，其余同C1 | 伴奏保护失败 | 拒绝 |"
       },
-      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-A11",
+      "candidateId": "C4",
+      "candidate": {
+        "work": "W0",
+        "originalTarget": "T0",
+        "target": "T1",
+        "melody": [
+          60,
+          64,
+          67,
+          60
+        ],
+        "lyrics": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "noteBeats": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "bpm": 120,
+        "clock": "120BPM/tm1",
+        "duration": 2,
+        "backing": [
+          1,
+          2,
+          4,
+          4
+        ],
+        "voice": [
+          10,
+          71,
+          72,
+          40
+        ],
+        "mask": [
+          1,
+          3
+        ]
+      },
+      "expectedProtection": "REJECT_PROTECTION"
     },
     {
       "caseId": "C5 人声[11,71,72,40]，其余同C1",
       "stage": "C5 人声[11,71,72,40]，其余同C1",
       "conditions": "区域外保护失败",
       "rejectOrStop": "拒绝",
-      "entryLinks": [],
+      "entryLinks": [
+        {
+          "label": "AM15/K11.05.03.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L19"
+        },
+        {
+          "label": "AM19/K11.07.01.03",
+          "uri": "ai-models-r1-knowledge-cases.md#L23"
+        },
+        {
+          "label": "AM45/K11.05.03.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L33"
+        },
+        {
+          "label": "AM49/K11.07.01.04",
+          "uri": "ai-models-r2-knowledge-cases.md#L37"
+        }
+      ],
       "anchor": {
         "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
         "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
@@ -10629,7 +10894,52 @@
         "line": 20,
         "row": "| C5 人声[11,71,72,40]，其余同C1 | 区域外保护失败 | 拒绝 |"
       },
-      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY"
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-A11",
+      "candidateId": "C5",
+      "candidate": {
+        "work": "W0",
+        "originalTarget": "T0",
+        "target": "T1",
+        "melody": [
+          60,
+          64,
+          67,
+          60
+        ],
+        "lyrics": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "noteBeats": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "bpm": 120,
+        "clock": "120BPM/tm1",
+        "duration": 2,
+        "backing": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "voice": [
+          11,
+          71,
+          72,
+          40
+        ],
+        "mask": [
+          1,
+          3
+        ]
+      },
+      "expectedProtection": "REJECT_PROTECTION"
     }
   ],
   "integratedClosure": {
@@ -11237,5 +11547,319 @@
         "row": "| CQ26 | D | [AM03/K11.01.03.03](ai-models-r1-knowledge-cases.md#L7)；[AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17)；[AM17/K11.06.02.03](ai-models-r1-knowledge-cases.md#L21)；[AM18/K11.06.03.03](ai-models-r1-knowledge-cases.md#L22)；[AM23/K11.08.02.03](ai-models-r1-knowledge-cases.md#L27)；[AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29)；[AM29/K11.10.02.03](ai-models-r1-knowledge-cases.md#L33)；[AM33/K11.01.03.04](ai-models-r2-knowledge-cases.md#L21)；[AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31)；[AM47/K11.06.02.04](ai-models-r2-knowledge-cases.md#L35)；[AM48/K11.06.03.04](ai-models-r2-knowledge-cases.md#L36)；[AM53/K11.08.02.04](ai-models-r2-knowledge-cases.md#L41)；[AM55/K11.09.01.04](ai-models-r2-knowledge-cases.md#L43)；[AM59/K11.10.02.04](ai-models-r2-knowledge-cases.md#L47) | 数据覆盖/语言/资源外推限定，非文化实证 |"
       }
     }
-  ]
+  ],
+  "integratedScenario": {
+    "id": "KC-A11",
+    "baseline": {
+      "work": "W0",
+      "originalTarget": "T0",
+      "target": "T1",
+      "melody": [
+        60,
+        64,
+        67,
+        60
+      ],
+      "lyrics": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "noteBeats": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "bpm": 120,
+      "clock": "120BPM/tm1",
+      "duration": 2,
+      "backing": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "voice": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "mask": [
+        1,
+        3
+      ]
+    },
+    "reportIdentity": {
+      "source": "S1",
+      "condition": "P1",
+      "model": "W1",
+      "target": "T1",
+      "permissionEpoch": "E1",
+      "mask": [
+        1,
+        3
+      ],
+      "clock": "120BPM/tm1",
+      "duration": 2,
+      "output": "Y1",
+      "protocol": "Q1"
+    },
+    "syntheticConditions": {
+      "permission": "CURRENT_SYNTHETIC_ONLY",
+      "version": "KNOWN_SYNTHETIC",
+      "resources": "KNOWN_SYNTHETIC",
+      "quality": "KNOWN_SYNTHETIC",
+      "playbackSafety": "UNKNOWN"
+    },
+    "realExecutionAllowed": false,
+    "realDeliveryAllowed": false,
+    "realRights": "UNKNOWN",
+    "realPlaybackAllowed": false,
+    "gateStates": {
+      "protectionFailure": "REJECT_PROTECTION",
+      "staleReport": "PENDING_REVALIDATION",
+      "withdrawal": "STOP",
+      "missingCapabilityEvidence": "PENDING",
+      "finitePass": "FINITE_CANDIDATE_ONLY"
+    },
+    "anchors": [
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 3,
+        "row": "DRAFT / #53 / PR54；复用原AI-A01，不新增主D4。所有数据、候选、授权标志均为虚构有限对象，非模型执行、真实权限或音频。真实授权UNKNOWN禁止执行；实际能力、语言、质量、设备另证。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 6,
+        "row": "已有合格授权源演唱且只需改变音色目标，比较SVC任务；有词谱无合格演唱，比较SVS任务；需要新词曲伴奏时才比较全曲生成及分阶段方案。TTS朗读不是SVS，文本/chroma条件非歌词硬保证，分离结果非原始独立录音。歌词、旋律、分轨、局部编辑若为硬项，逐项确认实际版本、输入输出及保护条件；任一必需项UNKNOWN拒绝准入。无合格路径则停止/转人工，不擅自改变需求。[AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17)；[AM16/K11.06.01.03](ai-models-r1-knowledge-cases.md#L20)；[AM19/K11.07.01.03](ai-models-r1-knowledge-cases.md#L23)；[AM20/K11.07.02.03](ai-models-r1-knowledge-cases.md#L24)；[AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25)；[AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31)；[AM46/K11.06.01.04](ai-models-r2-knowledge-cases.md#L34)；[AM49/K11.07.01.04](ai-models-r2-knowledge-cases.md#L37)；[AM50/K11.07.02.04](ai-models-r2-knowledge-cases.md#L38)；[AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39)。K12实际版本及接口，K15权利，K13语言，K09制作，K10评价分别提供证据。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 9,
+        "row": "W0/W1×C0/C1四格控制权重适配与参考条件，给定3/5/4/8时参考效应2/4、交互2；只比较两端不能归因。按作品簇/歌手留出，泄漏或未知身份阻断相应泛化；不同权重不得继承旧报告。权重/KV是限定预算，设备、长度、batch、kernel、真实峰值和速度另核；FAD/奖励不等艺术质量，参考、嵌入、样本量不一致不直接排行。[AM01/K11.01.01.03](ai-models-r1-knowledge-cases.md#L5)；[AM22/K11.08.01.03](ai-models-r1-knowledge-cases.md#L26)；[AM23/K11.08.02.03](ai-models-r1-knowledge-cases.md#L27)；[AM24/K11.08.03.03](ai-models-r1-knowledge-cases.md#L28)；[AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29)；[AM26/K11.09.02.03](ai-models-r1-knowledge-cases.md#L30)；[AM28/K11.10.01.03](ai-models-r1-knowledge-cases.md#L32)；[AM29/K11.10.02.03](ai-models-r1-knowledge-cases.md#L33)；[AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34)；[AM31/K11.01.01.04](ai-models-r2-knowledge-cases.md#L19)；[AM52/K11.08.01.04](ai-models-r2-knowledge-cases.md#L40)；[AM53/K11.08.02.04](ai-models-r2-knowledge-cases.md#L41)；[AM54/K11.08.03.04](ai-models-r2-knowledge-cases.md#L42)；[AM55/K11.09.01.04](ai-models-r2-knowledge-cases.md#L43)；[AM56/K11.09.02.04](ai-models-r2-knowledge-cases.md#L44)；[AM58/K11.10.01.04](ai-models-r2-knowledge-cases.md#L46)；[AM59/K11.10.02.04](ai-models-r2-knowledge-cases.md#L47)；[AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 12,
+        "row": "原W0、T0，目标T1，只允许编辑离散人声索引[1,3)。四个1拍音符60/64/67/60、词a/b/c/d，120四分音符每分，总2s；原伴奏[1,2,3,4]、人声[10,20,30,40]仅有限对象而非音频。保护音符、词序、时值、时钟、全部伴奏及人声索引0/3；目标T1只是标签，不能证明声学音色或真人身份。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 23,
+        "row": "- A01 知：区分SVC/SVS/cover、分离与渲染、离散保护与连续F0/风格语义；任务来源分别确认。[AM15/K11.05.03.03](ai-models-r1-knowledge-cases.md#L19)；[AM16/K11.06.01.03](ai-models-r1-knowledge-cases.md#L20)；[AM19/K11.07.01.03](ai-models-r1-knowledge-cases.md#L23)；[AM20/K11.07.02.03](ai-models-r1-knowledge-cases.md#L24)；[AM45/K11.05.03.04](ai-models-r2-knowledge-cases.md#L33)；[AM46/K11.06.01.04](ai-models-r2-knowledge-cases.md#L34)；[AM49/K11.07.01.04](ai-models-r2-knowledge-cases.md#L37)；[AM50/K11.07.02.04](ai-models-r2-knowledge-cases.md#L38)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 24,
+        "row": "- A02 流：权限及目标→源分析→候选路径→保留原件→生成副本（计划）→独立保护/质量→授权修订或停止；分离失败可在合法授权下改干净来源或重录，不自行改词/旋律。[AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17)；[AM15/K11.05.03.03](ai-models-r1-knowledge-cases.md#L19)；[AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25)；[AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31)；[AM45/K11.05.03.04](ai-models-r2-knowledge-cases.md#L33)；[AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 25,
+        "row": "- A03 工：模型机制仅用于候选筛选，实际权重、接口、语言、mask域、资源及权利由K12/K15确认。[AM13/K11.05.01.03](ai-models-r1-knowledge-cases.md#L17)；[AM25/K11.09.01.03](ai-models-r1-knowledge-cases.md#L29)；[AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34)；[AM43/K11.05.01.04](ai-models-r2-knowledge-cases.md#L31)；[AM55/K11.09.01.04](ai-models-r2-knowledge-cases.md#L43)；[AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 26,
+        "row": "- A04 态：B0不可覆盖，C1绑定源S1、条件P1、模型W1，报告E1绑定S1/W1/Y1；S2或W2使报告不适用。超时先回读，UNKNOWN不盲重试。[AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25)；[AM26/K11.09.02.03](ai-models-r1-knowledge-cases.md#L30)；[AM27/K11.09.03.03](ai-models-r1-knowledge-cases.md#L31)；[AM30/K11.10.03.03](ai-models-r1-knowledge-cases.md#L34)；[AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39)；[AM56/K11.09.02.04](ai-models-r2-knowledge-cases.md#L44)；[AM57/K11.09.03.04](ai-models-r2-knowledge-cases.md#L45)；[AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 27,
+        "row": "- A05 评：硬保护后分别评价词/音高/目标音色/自然度/串音/听评；自评分、混合一致、FAD不证明艺术或保护。[AM17/K11.06.02.03](ai-models-r1-knowledge-cases.md#L21)；[AM18/K11.06.03.03](ai-models-r1-knowledge-cases.md#L22)；[AM20/K11.07.02.03](ai-models-r1-knowledge-cases.md#L24)；[AM24/K11.08.03.03](ai-models-r1-knowledge-cases.md#L28)；[AM28/K11.10.01.03](ai-models-r1-knowledge-cases.md#L32)；[AM47/K11.06.02.04](ai-models-r2-knowledge-cases.md#L35)；[AM48/K11.06.03.04](ai-models-r2-knowledge-cases.md#L36)；[AM50/K11.07.02.04](ai-models-r2-knowledge-cases.md#L38)；[AM54/K11.08.03.04](ai-models-r2-knowledge-cases.md#L42)；[AM58/K11.10.01.04](ai-models-r2-knowledge-cases.md#L46)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 28,
+        "row": "- A06 编：保存词谱、tempo map、原轨（如真实可用）、条件与副本，latent不能替代可编辑乐谱；格式K12、工程K09。[AM04/K11.02.01.03](ai-models-r1-knowledge-cases.md#L8)；[AM05/K11.02.02.03](ai-models-r1-knowledge-cases.md#L9)；[AM12/K11.04.03.03](ai-models-r1-knowledge-cases.md#L16)；[AM15/K11.05.03.03](ai-models-r1-knowledge-cases.md#L19)；[AM34/K11.02.01.04](ai-models-r2-knowledge-cases.md#L22)；[AM35/K11.02.02.04](ai-models-r2-knowledge-cases.md#L23)；[AM42/K11.04.03.04](ai-models-r2-knowledge-cases.md#L30)；[AM45/K11.05.03.04](ai-models-r2-knowledge-cases.md#L33)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 29,
+        "row": "- A07 循：记录负例，定位失败、最小授权修订、复核或停止；降精度/重试次数不代替质量。[AM21/K11.07.03.03](ai-models-r1-knowledge-cases.md#L25)；[AM27/K11.09.03.03](ai-models-r1-knowledge-cases.md#L31)；[AM51/K11.07.03.04](ai-models-r2-knowledge-cases.md#L39)；[AM57/K11.09.03.04](ai-models-r2-knowledge-cases.md#L45)；[AM60/K11.10.03.04](ai-models-r2-knowledge-cases.md#L48)。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/ai-models-r4-integrated-closure.md",
+        "blob": "6c159bc6778e6c5bbdeb7520c2e164cc9d97a942",
+        "line": 56,
+        "row": "KC-A11 R2b 当前报告必须绑定 source S1、condition P1、model W1、target T1、permissionEpoch E1、mask [1,3)、clock 120BPM/tm1、duration 2s、output Y1、protocol Q1。C1相同受保护字段与合成候选许可仅作有限资格；单独改变duration、clock、target均REJECT_PROTECTION，不能由新报告绕过；报告任一绑定不一致PENDING_REVALIDATION。当前授权撤回STOP，实际播放安全未知不得试听；模型/资源/版本/真实质量待证为PENDING而非保护失败。参考[AM05](ai-models-r1-knowledge-cases.md#L9)/[AM35](ai-models-r2-knowledge-cases.md#L23)解码重建、[AM58](ai-models-r2-knowledge-cases.md#L46)固定S537版本。"
+      }
+    ],
+    "entryLinks": [
+      {
+        "label": "AM15/K11.05.03.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L19"
+      },
+      {
+        "label": "AM16/K11.06.01.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L20"
+      },
+      {
+        "label": "AM19/K11.07.01.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L23"
+      },
+      {
+        "label": "AM20/K11.07.02.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L24"
+      },
+      {
+        "label": "AM45/K11.05.03.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L33"
+      },
+      {
+        "label": "AM46/K11.06.01.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L34"
+      },
+      {
+        "label": "AM49/K11.07.01.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L37"
+      },
+      {
+        "label": "AM50/K11.07.02.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L38"
+      },
+      {
+        "label": "AM13/K11.05.01.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L17"
+      },
+      {
+        "label": "AM21/K11.07.03.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L25"
+      },
+      {
+        "label": "AM43/K11.05.01.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L31"
+      },
+      {
+        "label": "AM51/K11.07.03.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L39"
+      },
+      {
+        "label": "AM25/K11.09.01.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L29"
+      },
+      {
+        "label": "AM30/K11.10.03.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L34"
+      },
+      {
+        "label": "AM55/K11.09.01.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L43"
+      },
+      {
+        "label": "AM60/K11.10.03.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L48"
+      },
+      {
+        "label": "AM26/K11.09.02.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L30"
+      },
+      {
+        "label": "AM27/K11.09.03.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L31"
+      },
+      {
+        "label": "AM56/K11.09.02.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L44"
+      },
+      {
+        "label": "AM57/K11.09.03.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L45"
+      },
+      {
+        "label": "AM17/K11.06.02.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L21"
+      },
+      {
+        "label": "AM18/K11.06.03.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L22"
+      },
+      {
+        "label": "AM24/K11.08.03.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L28"
+      },
+      {
+        "label": "AM28/K11.10.01.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L32"
+      },
+      {
+        "label": "AM47/K11.06.02.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L35"
+      },
+      {
+        "label": "AM48/K11.06.03.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L36"
+      },
+      {
+        "label": "AM54/K11.08.03.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L42"
+      },
+      {
+        "label": "AM58/K11.10.01.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L46"
+      },
+      {
+        "label": "AM04/K11.02.01.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L8"
+      },
+      {
+        "label": "AM05/K11.02.02.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L9"
+      },
+      {
+        "label": "AM12/K11.04.03.03",
+        "uri": "ai-models-r1-knowledge-cases.md#L16"
+      },
+      {
+        "label": "AM34/K11.02.01.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L22"
+      },
+      {
+        "label": "AM35/K11.02.02.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L23"
+      },
+      {
+        "label": "AM42/K11.04.03.04",
+        "uri": "ai-models-r2-knowledge-cases.md#L30"
+      },
+      {
+        "label": "1,3)、clock 120BPM/tm1、duration 2s、output Y1、protocol Q1。C1相同受保护字段与合成候选许可仅作有限资格；单独改变duration、clock、target均REJECT_PROTECTION，不能由新报告绕过；报告任一绑定不一致PENDING_REVALIDATION。当前授权撤回STOP，实际播放安全未知不得试听；模型/资源/版本/真实质量待证为PENDING而非保护失败。参考[AM05",
+        "uri": "ai-models-r1-knowledge-cases.md#L9"
+      },
+      {
+        "label": "AM35",
+        "uri": "ai-models-r2-knowledge-cases.md#L23"
+      },
+      {
+        "label": "AM58",
+        "uri": "ai-models-r2-knowledge-cases.md#L46"
+      }
+    ]
+  }
 }

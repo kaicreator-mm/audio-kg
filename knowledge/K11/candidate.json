@@ -1960,7 +1960,7 @@
       "owner": "K11",
       "d4": "K11.02.03.03",
       "kind": "practice",
-      "statement": "题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
+      "statement": "440/880Hz两个合成正弦信号具有不同基频及波形，可共享音级chroma。声学编码是否相同须按实际encoder、量化和条件测量；有损编码可能碰撞。仅在固定确定性解码器与相同其余条件下要求精确恢复两种不同波形时，完整解码输入必须可区分。",
       "context": "K11-CTX-AM06@1",
       "status": "CANDIDATE",
       "limits": "合成概念，非实际chroma或codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
@@ -2006,14 +2006,14 @@
       "direction": "FORWARD",
       "polarity": "POSITIVE",
       "context": "K11-CTX-AM06@1",
-      "question": "440Hz与880Hz两个合成信号在哪些音高表示上可相同，哪些不同？",
+      "question": "440Hz与880Hz两个合成信号在哪些表示上可相同？若有损编码将两者映射到同一码，是否矛盾？",
       "example": {
         "frozenCase": "AM06",
         "frozenWitness": "题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
-        "directionSpecificProblem": "440Hz与880Hz两个合成信号在哪些音高表示上可相同，哪些不同？",
-        "expectedResult": "题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
-        "reasoningBasis": "题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
+        "directionSpecificProblem": "440Hz与880Hz两个合成信号在哪些表示上可相同？若有损编码将两者映射到同一码，是否矛盾？",
+        "expectedResult": "音级chroma可相同，基频和源波形不同；同一有损码可以对应不同源。精确分别重建需要可区分的完整解码输入。",
+        "reasoningBasis": "440/880Hz两个合成正弦信号具有不同基频及波形，可共享音级chroma。声学编码是否相同须按实际encoder、量化和条件测量；有损编码可能碰撞。仅在固定确定性解码器与相同其余条件下要求精确恢复两种不同波形时，完整解码输入必须可区分。",
         "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -2024,7 +2024,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "限定核验依据：题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。；本题答案：题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
+      "explanation": "限定核验依据：440/880Hz两个合成正弦信号具有不同基频及波形，可共享音级chroma。声学编码是否相同须按实际encoder、量化和条件测量；有损编码可能碰撞。仅在固定确定性解码器与相同其余条件下要求精确恢复两种不同波形时，完整解码输入必须可区分。；本题答案：音级chroma可相同，基频和源波形不同；同一有损码可以对应不同源。精确分别重建需要可区分的完整解码输入。",
       "limits": "合成概念，非实际chroma或codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -2037,14 +2037,14 @@
       "direction": "FORWARD",
       "polarity": "NEGATIVE",
       "context": "K11-CTX-AM06@1",
-      "question": "是否可以这样判断：语义相同即精确旋律/音色/波形相同；首码本是可编辑谱。？",
+      "question": "仅因源波形不同就断言其声学latent一定不同，或由相同语义断言音色和波形完全一致，是否成立？",
       "example": {
         "frozenCase": "AM06",
         "frozenWitness": "语义相同即精确旋律/音色/波形相同；首码本是可编辑谱。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
-        "directionSpecificProblem": "是否可以这样判断：语义相同即精确旋律/音色/波形相同；首码本是可编辑谱。？",
+        "directionSpecificProblem": "仅因源波形不同就断言其声学latent一定不同，或由相同语义断言音色和波形完全一致，是否成立？",
         "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
-        "reasoningBasis": "不能作该推断。限定证据及正确处理：题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
+        "reasoningBasis": "不成立。量化、信息瓶颈可能使不同输入碰撞；仅可在固定解码条件及精确重建合同下要求完整输入可区分。",
         "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -2055,7 +2055,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "裁定：拒绝错误适用或无证据强推。理由：不能作该推断。限定证据及正确处理：题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
+      "explanation": "裁定：拒绝错误适用或无证据强推。理由：不成立。量化、信息瓶颈可能使不同输入碰撞；仅可在固定解码条件及精确重建合同下要求完整输入可区分。",
       "limits": "合成概念，非实际chroma或codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -2068,14 +2068,14 @@
       "direction": "REVERSE",
       "polarity": "POSITIVE",
       "context": "K11-CTX-AM06@1",
-      "question": "共享音级的表示需要核对哪些声学差别？",
+      "question": "若报告声称两个输入声学码相同或不同，须回查什么？",
       "example": {
         "frozenCase": "AM06",
         "frozenWitness": "核时间尺度、条件信息瓶颈/码本残差、独立渲染和保留项。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
-        "directionSpecificProblem": "共享音级的表示需要核对哪些声学差别？",
-        "expectedResult": "核时间尺度、条件信息瓶颈/码本残差、独立渲染和保留项。",
-        "reasoningBasis": "题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。",
+        "directionSpecificProblem": "若报告声称两个输入声学码相同或不同，须回查什么？",
+        "expectedResult": "核实际编码器及版本、输入和时钟、码本及量化、条件、实际码序列；若主张重建区分，还须核解码器和完整条件及输出。",
+        "reasoningBasis": "440/880Hz两个合成正弦信号具有不同基频及波形，可共享音级chroma。声学编码是否相同须按实际encoder、量化和条件测量；有损编码可能碰撞。仅在固定确定性解码器与相同其余条件下要求精确恢复两种不同波形时，完整解码输入必须可区分。",
         "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -2086,7 +2086,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "限定核验依据：题设两个440/880Hz信号同音级chroma，音高和波形不同；语义/音级表征可共享但声学latent需不同，粗层条件不能恢复全部细节。；本题答案：核时间尺度、条件信息瓶颈/码本残差、独立渲染和保留项。",
+      "explanation": "限定核验依据：440/880Hz两个合成正弦信号具有不同基频及波形，可共享音级chroma。声学编码是否相同须按实际encoder、量化和条件测量；有损编码可能碰撞。仅在固定确定性解码器与相同其余条件下要求精确恢复两种不同波形时，完整解码输入必须可区分。；本题答案：核实际编码器及版本、输入和时钟、码本及量化、条件、实际码序列；若主张重建区分，还须核解码器和完整条件及输出。",
       "limits": "合成概念，非实际chroma或codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -2099,14 +2099,14 @@
       "direction": "REVERSE",
       "polarity": "NEGATIVE",
       "context": "K11-CTX-AM06@1",
-      "question": "只有chroma能否恢复八度与波形？",
+      "question": "仅有chroma或不同的原始波形，能否确定实际声学latent是否不同或恢复精确波形？",
       "example": {
         "frozenCase": "AM06",
         "frozenWitness": "合成概念，非实际chroma或codec。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
-        "directionSpecificProblem": "只有chroma能否恢复八度与波形？",
+        "directionSpecificProblem": "仅有chroma或不同的原始波形，能否确定实际声学latent是否不同或恢复精确波形？",
         "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
-        "reasoningBasis": "现有条件不足以支持该推断。合成概念，非实际chroma或codec。",
+        "reasoningBasis": "不能；实际编码身份与重建质量均须独立证据；同码碰撞及其他解码条件均可能存在。合成概念不代表实际codec。",
         "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -2117,7 +2117,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "裁定：拒绝错误适用或无证据强推。理由：现有条件不足以支持该推断。合成概念，非实际chroma或codec。",
+      "explanation": "裁定：拒绝错误适用或无证据强推。理由：不能；实际编码身份与重建质量均须独立证据；同码碰撞及其他解码条件均可能存在。合成概念不代表实际codec。",
       "limits": "合成概念，非实际chroma或codec。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -7049,7 +7049,7 @@
       "owner": "K11",
       "d4": "K11.02.02.04",
       "kind": "practice",
-      "statement": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
+      "statement": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。",
       "context": "K11-CTX-AM35@1",
       "status": "CANDIDATE",
       "limits": "有限一维残差例，不是实际RVQ实现或听觉误差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
@@ -7100,8 +7100,8 @@
         "frozenWitness": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
         "directionSpecificProblem": "z=.4，两级中心分别0/1及0/.5，逐级最近邻和残差重建如何算？",
-        "expectedResult": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
-        "reasoningBasis": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
+        "expectedResult": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。",
+        "reasoningBasis": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。",
         "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -7112,7 +7112,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "限定核验依据：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；本题答案：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
+      "explanation": "限定核验依据：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。；本题答案：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。",
       "limits": "有限一维残差例，不是实际RVQ实现或听觉误差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -7132,7 +7132,7 @@
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
         "directionSpecificProblem": "是否可以这样判断：第二码本必使真实感知质量无损或等于独立声部。？",
         "expectedResult": "REJECT_MISAPPLICATION_OR_OUT_OF_SCOPE",
-        "reasoningBasis": "不能作该推断。限定证据及正确处理：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
+        "reasoningBasis": "不能作该推断。限定证据及正确处理：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。",
         "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -7143,7 +7143,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "裁定：拒绝错误适用或无证据强推。理由：不能作该推断。限定证据及正确处理：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
+      "explanation": "裁定：拒绝错误适用或无证据强推。理由：不能作该推断。限定证据及正确处理：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。",
       "limits": "有限一维残差例，不是实际RVQ实现或听觉误差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -7162,8 +7162,8 @@
         "frozenWitness": "核量化准则、重建误差、码本顺序和解码器；固定索引组合与时钟。",
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
         "directionSpecificProblem": "比较latent误差与输出误差需回查什么？",
-        "expectedResult": "核量化准则、重建误差、码本顺序和解码器；固定索引组合与时钟。",
-        "reasoningBasis": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。",
+        "expectedResult": "核量化准则、重建误差、码本顺序和解码器；固定索引组合与时钟。；另查是否存在编码碰撞及额外解码条件。",
+        "reasoningBasis": "题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。",
         "witnessRole": "SCOPED_SYNTHETIC_EXPECTED_NOT_OBSERVED",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -7174,7 +7174,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "限定核验依据：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；本题答案：核量化准则、重建误差、码本顺序和解码器；固定索引组合与时钟。",
+      "explanation": "限定核验依据：题设连续latent z=0.4，码本中心0/1，最近邻量化为0，残差.4，第二码本中心0/.5得.5，重建latent .5，误差绝对值.1；两级索引不等样本。 参见AM05，latent绝对误差.1不能单独推输出误差；固定g、z=.5得.05，换h得3.25；比较仅在参考/解码器/时间/通道定义匹配下有意义。；量化可使不同连续输入映射到同一索引，不以源波形不同推实际码不同（AM06）。；本题答案：核量化准则、重建误差、码本顺序和解码器；固定索引组合与时钟。；另查是否存在编码碰撞及额外解码条件。",
       "limits": "有限一维残差例，不是实际RVQ实现或听觉误差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
@@ -7194,7 +7194,7 @@
         "frozenCaseRole": "FROZEN_GROUP_PROVENANCE_NOT_ACTIVE_QUESTION",
         "directionSpecificProblem": "没有固定解码器能否由latent绝对误差推波形误差？",
         "expectedResult": "REJECT_UNSUPPORTED_INFERENCE_OR_RETAIN_UNKNOWN",
-        "reasoningBasis": "现有条件不足以支持该推断。有限一维残差例，不是实际RVQ实现或听觉误差。",
+        "reasoningBasis": "现有条件不足以支持该推断。有限一维残差例，不是实际RVQ实现或听觉误差。；不同输入可同码，不能以码身份替代源身份。",
         "witnessRole": "NEGATIVE_INPUT_OR_BOUNDARY_NOT_FACT",
         "anchor": {
           "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
@@ -7205,7 +7205,7 @@
         },
         "observationStatus": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
       },
-      "explanation": "裁定：拒绝错误适用或无证据强推。理由：现有条件不足以支持该推断。有限一维残差例，不是实际RVQ实现或听觉误差。",
+      "explanation": "裁定：拒绝错误适用或无证据强推。理由：现有条件不足以支持该推断。有限一维残差例，不是实际RVQ实现或听觉误差。；不同输入可同码，不能以码身份替代源身份。",
       "limits": "有限一维残差例，不是实际RVQ实现或听觉误差。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。",
       "evidenceKind": "SYNTHETIC_EXPECTED_NOT_OBSERVED"
     },
