@@ -91,7 +91,7 @@ const view=(caseId,key)=>pack.records.find(r=>r.id===m+'-V-'+caseId+'-'+key).exa
 const verify=(caseId,key,part)=>assert.ok(view(caseId,key).expectedResult.includes(part),caseId+' '+key+' bound result');
 
 const integ=read('cases/K12/integrated-cases.json'),s=integ.scenario,base=s.baseline,positive=s.candidate,identity=s.reportIdentity;
-const flags={permission:true,epoch:'E1',local:true,tool:true,version:true,resources:true,quality:true,protection:true,auditionRequested:false,playbackSafety:null};
+const flags={permission:true,epoch:'E1',local:true,tool:true,version:true,resources:true,quality:true,protection:true,auditionRequested:false,playbackSafety:null,mask:structuredClone(s.mask),voiceIds:[...s.voiceIds]};
 const f=(c=positive,actual=identity,report=identity,fl=flags)=>finiteGate(s,c,actual,report,fl);
 t('K12 independent exact CQ roles, no support promotion',()=>{
  const direct=new Map(ledger.rows.map(r=>[r.caseId,[]])),support=new Map(ledger.rows.map(r=>[r.caseId,[]]));
@@ -250,5 +250,72 @@ t('TO22/TO49 onset vs duration, explicit tempo and units',()=>{
 });
 t('TO06 physical gain mapping not same parameter identity',()=>{
  assert.ok(Math.abs(20*Math.log10(.5)-(-6.020599913))<1e-8);verify('TO06','FP','-6.02dB');
+});
+
+// W7-R1 adversarial gates: bind actual evidence to final finite verdict.
+const modelTaskMG={phase:'DOCUMENTED_ONLY',language:'en',referenceAuthorized:true,melodyReference:true,researchUse:true};
+const modelTaskDS={phase:'DOCUMENTED_ONLY',language:'zh',text:'synthetic',notes:[60],durations:[1],aligned:true};
+for(const [key,task] of [['musicgen',modelTaskMG],['diffsinger',modelTaskDS]]){
+ const card=s.modelCards[key];
+ t('R1 RV01 exact '+key+' positive and replacement envelope',()=>{
+  assert.equal(modelCardGate(structuredClone(card),task),'DOCUMENTED_CANDIDATE');
+  for(const bad of [{...card,extra:'unqualified'},null,{id:card.id}])assert.equal(modelCardGate(bad,task),'DOCUMENTED_PENDING');
+ });
+ for(const field of Object.keys(card))t('R1 RV01 '+key+' changed/missing identity '+field,()=>{
+  const changed={...card,[field]:'other'},missing={...card};delete missing[field];
+  assert.equal(modelCardGate(changed,task),'DOCUMENTED_PENDING');
+  assert.equal(modelCardGate(missing,task),'DOCUMENTED_PENDING');
+  assert.equal(modelCardGate({...changed},structuredClone(task)),'DOCUMENTED_PENDING');
+ });
+}
+t('R1 RV01 DS rejects invalid score-note representation and missing alignment',()=>{
+ const card=s.modelCards.diffsinger;
+ for(const notes of [[null],[{}],['60'],[NaN],[Infinity],[-1],[128],[60.5],[],null])assert.equal(modelCardGate(card,{...modelTaskDS,notes}),'DOCUMENTED_PENDING');
+ for(const delta of [{aligned:false},{aligned:undefined},{durations:[0]},{durations:[Infinity]},{durations:[1,2]},{text:' '},{text:null}])assert.equal(modelCardGate(card,{...modelTaskDS,...delta}),'DOCUMENTED_PENDING');
+ const missing={...modelTaskDS};delete missing.aligned;
+ assert.equal(modelCardGate(card,missing),'DOCUMENTED_PENDING');
+ assert.equal(modelCardGate(card,{...modelTaskDS,notes:[0,127],durations:[1,2]}),'DOCUMENTED_CANDIDATE');
+});
+t('R1 RV01 documentary hard controls and reference qualification do not inherit',()=>{
+ const mg=s.modelCards.musicgen,ds=s.modelCards.diffsinger;
+ for(const x of [{targetVoiceRequired:true},{exactNoteRequired:true},{remote:true},{commercial:true},{exactDurationRequired:true},{unknownHardRequirement:true},{referenceAuthorized:null},{targetVoiceRequired:'true'}])assert.equal(modelCardGate(mg,{...modelTaskMG,...x}),'DOCUMENTED_PENDING');
+ for(const x of [{referenceRequired:true,referenceAuthorized:false},{referenceRequired:true,referenceAuthorized:true},{referenceRequired:true},{melodyReference:true},{targetVoiceRequired:true},{language:'my'},{exactNoteRequired:true},{exactDurationRequired:true},{commercial:true},{unknownHardRequirement:true}])assert.equal(modelCardGate(ds,{...modelTaskDS,...x}),'DOCUMENTED_PENDING');
+ assert.equal(modelCardGate(ds,{...modelTaskDS,referenceAuthorized:false}),'DOCUMENTED_CANDIDATE');
+ assert.equal(modelCardGate(mg,{...modelTaskMG,realVocal:true,lyricsRequired:true}),'DOCUMENTED_REJECT');
+ for(const [card,task] of [[mg,modelTaskMG],[ds,modelTaskDS]])assert.equal(modelCardGate(card,{...task,phase:'REAL_EXECUTION'}),'PENDING_REAL_EVIDENCE');
+});
+t('R1 RV04 final verdict binds actual source coordinate and stable IDs',()=>{
+ assert.equal(f(),'SCOPED_SYNTHETIC_CANDIDATE');
+ const variants=[
+  {mask:{...s.mask,source:'S0@rev8'}},{mask:{...s.mask,clock:'clk1'}},{mask:{...s.mask,coordinate:'OUTPUT_INDEX'}},
+  {mask:{...s.mask,start:-1}},{mask:{...s.mask,end:5}},{mask:{...s.mask,end:1}},{mask:{...s.mask,start:1.5}},
+  {mask:null},{mask:{}},{mask:undefined},{voiceIds:['u0','u2','u1','u3']},{voiceIds:['u0','u1','u2']},
+  {voiceIds:['u0','u1','u2','u3','u4']},{voiceIds:['u0','u1','u1','u3']},{voiceIds:null},{voiceIds:undefined}
+ ];
+ for(const delta of variants){
+  const actualFlags={...flags,...delta};
+  assert.equal(f(positive,identity,identity,actualFlags),'REJECT_PROTECTION');
+  const replacement={...identity,outputDigest:'replacement'};
+  assert.equal(f(positive,replacement,replacement,actualFlags),'REJECT_PROTECTION');
+  assert.equal(f(positive,identity,identity,{...actualFlags,permission:false}),'STOP_PERMISSION');
+ }
+ for(const key of ['mask','voiceIds']){
+  const missing={...flags};delete missing[key];assert.equal(f(positive,identity,identity,missing),'REJECT_PROTECTION');
+ }
+ for(const voice of [[10,71,72],[10,71,72,40,999],[99,71,72,40],[10,71,72,99],[10,NaN,72,40]])assert.equal(f({...positive,voice},identity,identity,flags),'REJECT_PROTECTION');
+ assert.equal(f(positive,identity,{...identity,outputRev:2},flags),'PENDING_EVIDENCE');
+ assert.equal(f(positive,identity,identity,{...flags,auditionRequested:true,playbackSafety:null}),'STOP_AUDITION');
+});
+
+t('R1 dense finite inputs and real requests cannot bypass synthetic scope',()=>{
+ const ds=s.modelCards.diffsinger,notes=Array(1),durations=Array(1);
+ assert.equal(modelCardGate(ds,{...modelTaskDS,notes}),'DOCUMENTED_PENDING');
+ assert.equal(modelCardGate(ds,{...modelTaskDS,durations}),'DOCUMENTED_PENDING');
+ const voice=[...positive.voice];delete voice[1];
+ assert.equal(f({...positive,voice}),'REJECT_PROTECTION');
+ assert.equal(maskGate(s,s.mask,s.voiceIds,voice),false);
+ assert.equal(f(positive,identity,identity,{...flags,realExecutionRequested:true}),'PENDING_EVIDENCE');
+ assert.equal(f(positive,identity,identity,{...flags,realDeliveryRequested:true}),'PENDING_EVIDENCE');
+ assert.equal(f(positive,identity,identity,{...flags,realAuditionRequested:true,playbackSafety:true}),'STOP_AUDITION');
 });
 console.log(JSON.stringify({module:m,passed:results.length,results},null,2));
