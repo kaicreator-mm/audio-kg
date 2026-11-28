@@ -1,0 +1,27 @@
+{
+  "suite": "F00_EMBEDDED_SOURCE_QUALIFICATION",
+  "checks": 5,
+  "passed": 5,
+  "results": [
+    [
+      "S535/S536/S537 are the only embedded qualification Source records",
+      true
+    ],
+    [
+      "case rows cannot be used as embedded source qualification anchors",
+      true
+    ],
+    [
+      "unknown source IDs cannot use the embedded qualification exception",
+      true
+    ],
+    [
+      "malformed embedded source rows fail before anchor acceptance",
+      true
+    ],
+    [
+      "embedded source grade cannot be upgraded or substituted",
+      true
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "passed": 12,
+  "results": [
+    [
+      "K12 exact direct support optional frozen role map and all query roots",
+      true
+    ],
+    [
+      "K13 exact direct support optional frozen role map and all query roots",
+      true
+    ],
+    [
+      "K18 exact direct support optional frozen role map and all query roots",
+      true
+    ],
+    [
+      "K19 exact direct support optional frozen role map and all query roots",
+      true
+    ],
+    [
+      "K12 arbitrary empty direct CQ refused",
+      true
+    ],
+    [
+      "K13 arbitrary empty direct CQ refused",
+      true
+    ],
+    [
+      "K18 arbitrary empty direct CQ refused",
+      true
+    ],
+    [
+      "K18 support-only CQ promotion refused",
+      true
+    ],
+    [
+      "K18 targetless direct invention refused",
+      true
+    ],
+    [
+      "K19 arbitrary empty direct CQ refused",
+      true
+    ],
+    [
+      "K19 support-only CQ promotion refused",
+      true
+    ],
+    [
+      "K19 targetless direct invention refused",
+      true
+    ]
+  ]
+}
