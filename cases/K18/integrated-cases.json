@@ -1,0 +1,3302 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+  "cases": [
+    {
+      "caseId": "EX01",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 4,
+        "row": "## EX01 合成设计中的频率、时间与控制"
+      },
+      "body": [
+        {
+          "text": "加法峰值上界为幅度绝对值之和，不等实际峰值；线性定常频响的幅度乘法不能套到非线性共振。理想谐波严格低于Nyquist仅为局部频率筛选，不能证明后续非线性、FM或波表抗混叠。Chowning原1973论文之1977重印（S605封面及印46/47实际截图）提供载波/调制频率/频偏、边带图。正弦定常FM指数I=Δf/fm，fc+n fm是频率候选，权重受Bessel及相位影响，负频率折返与相位合并不能用绝对值后简单重复计数；本见证只计算有符号候选和指数，不求Bessel或真实听觉。S606具体opcode参数另核。波表单周期线性相位插值与帧间morph、guard、抗混叠分开；S608 Live12波表位置与音高控制、RAW以及加/乘法调制为具名文档，不声称帧间线性实现。S609 fog起点轨迹与粒内读取率分开，50ms×40/s=2仅理想稳态平均重叠，不能推出峰值。S610物理模型使用激励/延迟/滤波/反馈，fs/D仅理想延迟频率，wgpluck2特定反射系数严格介于0和1，标量回路衰减不能证明一般模型稳定。[SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8)；[SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10)；[SD07/K18.02.03.01](sound-design-r1-knowledge-cases.md#L11)；[SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13)；[SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14)；[SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15)；[SD13/K18.04.01.01](sound-design-r1-knowledge-cases.md#L17)；[SD14/K18.04.02.01](sound-design-r1-knowledge-cases.md#L18)；[SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19)；[SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22)；[SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23)",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 5,
+            "row": "加法峰值上界为幅度绝对值之和，不等实际峰值；线性定常频响的幅度乘法不能套到非线性共振。理想谐波严格低于Nyquist仅为局部频率筛选，不能证明后续非线性、FM或波表抗混叠。Chowning原1973论文之1977重印（S605封面及印46/47实际截图）提供载波/调制频率/频偏、边带图。正弦定常FM指数I=Δf/fm，fc+n fm是频率候选，权重受Bessel及相位影响，负频率折返与相位合并不能用绝对值后简单重复计数；本见证只计算有符号候选和指数，不求Bessel或真实听觉。S606具体opcode参数另核。波表单周期线性相位插值与帧间morph、guard、抗混叠分开；S608 Live12波表位置与音高控制、RAW以及加/乘法调制为具名文档，不声称帧间线性实现。S609 fog起点轨迹与粒内读取率分开，50ms×40/s=2仅理想稳态平均重叠，不能推出峰值。S610物理模型使用激励/延迟/滤波/反馈，fs/D仅理想延迟频率，wgpluck2特定反射系数严格介于0和1，标量回路衰减不能证明一般模型稳定。[SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8)；[SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9)；[SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10)；[SD07/K18.02.03.01](sound-design-r1-knowledge-cases.md#L11)；[SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13)；[SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14)；[SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15)；[SD13/K18.04.01.01](sound-design-r1-knowledge-cases.md#L17)；[SD14/K18.04.02.01](sound-design-r1-knowledge-cases.md#L18)；[SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19)；[SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21)；[SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22)；[SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23)"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "EX02",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 7,
+        "row": "## EX02 可编辑乐器、电子表演与评价"
+      },
+      "body": [
+        {
+          "text": "S611根音/键域/力度区间与循环分别保存，velocity0是note-off，重叠层非默认唯一；播放器特定循环行为独立。S612 adsr vs madsr特定MIDI释放条件，不能把一般门控线性包络示意当实际opcode。S608加法0中性/乘法1中性，LFO拍或Hz、极性与目标单位明确。S603 Web Audio固定REC的环路排序先处理DelayNode、仍存环路节点静音，render quantum延迟约束；本有限保守拓扑筛选只删除题设已合格延迟节点的瞬时子图，存在任何剩余环则拒绝，不证明反馈稳定或宿主实际运行。S613 Rack的primary polyphony与mono广播/不足多声道补0、1V/oct是Rack约定，不泛化硬件。S614 Rack模块预设不含patch storage文件、版本兼容方向及Max8 client path精确匹配不意味着完整重开。S615 MIDI1.0 14位bend中心8192，范围由接收端配置；All Sound Off和All Notes Off不同，发送非真实静音。S616幅度谱质心与窗/频率、时点绑定；静音分母0本例UNKNOWN，不声称库实际行为；同质心不同谱及动态，技术与审美分开。S617仅规范范围入口，不自称MUSHRA或正式听评。[SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5)；[SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6)；[SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8)；[SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9)；[SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10)；[SD27/K18.07.03.01](sound-design-r2-knowledge-cases.md#L11)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12)；[SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13)；[SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14)；[SD31/K18.08.03.01](sound-design-r2-knowledge-cases.md#L15)；[SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20)；[SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21)；[SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23)；[SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24)；[SD41/K18.11.01.01](sound-design-r2-knowledge-cases.md#L25)；[SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27)",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 8,
+            "row": "S611根音/键域/力度区间与循环分别保存，velocity0是note-off，重叠层非默认唯一；播放器特定循环行为独立。S612 adsr vs madsr特定MIDI释放条件，不能把一般门控线性包络示意当实际opcode。S608加法0中性/乘法1中性，LFO拍或Hz、极性与目标单位明确。S603 Web Audio固定REC的环路排序先处理DelayNode、仍存环路节点静音，render quantum延迟约束；本有限保守拓扑筛选只删除题设已合格延迟节点的瞬时子图，存在任何剩余环则拒绝，不证明反馈稳定或宿主实际运行。S613 Rack的primary polyphony与mono广播/不足多声道补0、1V/oct是Rack约定，不泛化硬件。S614 Rack模块预设不含patch storage文件、版本兼容方向及Max8 client path精确匹配不意味着完整重开。S615 MIDI1.0 14位bend中心8192，范围由接收端配置；All Sound Off和All Notes Off不同，发送非真实静音。S616幅度谱质心与窗/频率、时点绑定；静音分母0本例UNKNOWN，不声称库实际行为；同质心不同谱及动态，技术与审美分开。S617仅规范范围入口，不自称MUSHRA或正式听评。[SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5)；[SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6)；[SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8)；[SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9)；[SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10)；[SD27/K18.07.03.01](sound-design-r2-knowledge-cases.md#L11)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12)；[SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13)；[SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14)；[SD31/K18.08.03.01](sound-design-r2-knowledge-cases.md#L15)；[SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20)；[SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21)；[SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23)；[SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24)；[SD41/K18.11.01.01](sound-design-r2-knowledge-cases.md#L25)；[SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27)"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    },
+    {
+      "caseId": "KC-SD18",
+      "headingAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 10,
+        "row": "## KC-SD18 — 保护旋律和素材的局部音色修订"
+      },
+      "body": [
+        {
+          "text": "原创有限任务SD-J1：保护PPQ480/T120下三事件(pitch,start,dur)=(60,0,480),(62,480,480),(64,960,240)，原表、样本、seed、host/plugin、连线、宏映射、依赖、增益和量规均不可改。本例唯一允许cutoffHz在[200,2000]、depth在[0,1]；基础1000/.2，修订800/.3；变更后patch/output标记从PATCH1/D1到PATCH2/D2，标签仅题设标记非实际hash。非线性/宿主变化、实际导出/重开、测量和权利另证，不由合成回执构造事实。图OSC→FILTER→AMP→OUT固定。固定素材之外的改变需新合格场景，不用新回执绕过。候选不实际渲染；仅验证能否推导合成任务当前接受条件。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 11,
+            "row": "原创有限任务SD-J1：保护PPQ480/T120下三事件(pitch,start,dur)=(60,0,480),(62,480,480),(64,960,240)，原表、样本、seed、host/plugin、连线、宏映射、依赖、增益和量规均不可改。本例唯一允许cutoffHz在[200,2000]、depth在[0,1]；基础1000/.2，修订800/.3；变更后patch/output标记从PATCH1/D1到PATCH2/D2，标签仅题设标记非实际hash。非线性/宿主变化、实际导出/重开、测量和权利另证，不由合成回执构造事实。图OSC→FILTER→AMP→OUT固定。固定素材之外的改变需新合格场景，不用新回执绕过。候选不实际渲染；仅验证能否推导合成任务当前接受条件。"
+          }
+        },
+        {
+          "text": "| 阶段 | 条件与产物 | 反例/停止 | 入口 |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 12,
+            "row": "| 阶段 | 条件与产物 | 反例/停止 | 入口 |"
+          }
+        },
+        {
+          "text": "|---|---|---|---|",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 13,
+            "row": "|---|---|---|---|"
+          }
+        },
+        {
+          "text": "| 目标 | 声音设计目标、保护符号旋律、输入版本，选择减法与调制 | 把更亮当更好或以音色相似代旋律保真 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7)；[SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 14,
+            "row": "| 目标 | 声音设计目标、保护符号旋律、输入版本，选择减法与调制 | 把更亮当更好或以音色相似代旋律保真 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5)；[SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6)；[SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7)；[SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+          }
+        },
+        {
+          "text": "| 编辑 | 保持固定源、patch图及宏映射，调整两指定参数 | 源替换、图修改、gain变化、越界，即使fresh Q | [SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12)；[SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16)；[SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 15,
+            "row": "| 编辑 | 保持固定源、patch图及宏映射，调整两指定参数 | 源替换、图修改、gain变化、越界，即使fresh Q | [SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16)；[SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8)；[SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12)；[SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16)；[SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) |"
+          }
+        },
+        {
+          "text": "| 复核 | 依赖完整及重开/编辑、技术/音乐/保护、当前身份和失效复核均题设合格 | 缺插件、旧报告、输出标记重用、未知复核 | [SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8)；[SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 16,
+            "row": "| 复核 | 依赖完整及重开/编辑、技术/音乐/保护、当前身份和失效复核均题设合格 | 缺插件、旧报告、输出标记重用、未知复核 | [SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8)；[SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17)；[SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18)；[SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+          }
+        },
+        {
+          "text": "| 输出 | 当前权利/安全分别题设，合成候选仅SYNTHETIC_CANDIDATE_ONLY，失败保留原始快照 | 把新回执、音频存在、发送MIDI当真实放行或设备安全 | [SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 17,
+            "row": "| 输出 | 当前权利/安全分别题设，合成候选仅SYNTHETIC_CANDIDATE_ONLY，失败保留原始快照 | 把新回执、音频存在、发送MIDI当真实放行或设备安全 | [SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22)；[SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27)；[SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) |"
+          }
+        },
+        {
+          "text": "其他owner：K01/K13真实旋律和适配、K08数字实现、K09工程、K10真实评价、K12工具执行、K15真实权利/治理、K07/K19安全/现场，均未由本模块合成结果获得真实证据。重新合格需按变化重新建立场景而非放宽本验证。实际不执行音频、硬件、MIDI或宿主。",
+          "anchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+            "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+            "line": 18,
+            "row": "其他owner：K01/K13真实旋律和适配、K08数字实现、K09工程、K10真实评价、K12工具执行、K15真实权利/治理、K07/K19安全/现场，均未由本模块合成结果获得真实证据。重新合格需按变化重新建立场景而非放宽本验证。实际不执行音频、硬件、MIDI或宿主。"
+          }
+        }
+      ],
+      "status": "FROZEN_FINITE_CONDITIONS_NOT_EXECUTED"
+    }
+  ],
+  "scenario": {
+    "id": "KC-SD18",
+    "realExecutionAllowed": false,
+    "realRights": "UNKNOWN",
+    "realAuditionAllowed": false,
+    "anchors": [
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 4,
+        "row": "## EX01 合成设计中的频率、时间与控制"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 7,
+        "row": "## EX02 可编辑乐器、电子表演与评价"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 10,
+        "row": "## KC-SD18 — 保护旋律和素材的局部音色修订"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 23,
+        "row": "function runK18Finite(){"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 24,
+        "row": " const eq=(a,b)=>{if(a===b)return true;if(a===null||b===null||typeof a!==\"object\"||typeof b!==\"object\"||Array.isArray(a)!==Array.isArray(b))return false;if(Array.isArray(a))return a.length===b.length&&a.every((v,i)=>eq(v,b[i]));const keys=Object.keys(a);return keys.length===Object.keys(b).length&&keys.every(k=>Object.hasOwn(b,k)&&eq(a[k],b[k]))},cp=x=>JSON.parse(JSON.stringify(x)),close=(a,b)=>Math.abs(a-b)<1e-9,finite=Number.isFinite;"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 25,
+        "row": " function harmonicGrid(f,fs,n){if(!finite(f)||f<=0||!finite(fs)||fs<=0||!Number.isSafeInteger(n)||n<1||n>1024)return null;return Array.from({length:n},(_,i)=>f*(i+1)).filter(v=>v<fs/2)}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 26,
+        "row": " function peakBound(a){return Array.isArray(a)&&a.length&&a.every(finite)?a.reduce((s,v)=>s+Math.abs(v),0):null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 27,
+        "row": " function linearFilter(a,g){return Array.isArray(a)&&Array.isArray(g)&&a.length>0&&a.length===g.length&&a.every(v=>finite(v)&&v>=0)&&g.every(v=>finite(v)&&v>=0)?a.map((v,i)=>v*g[i]):null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 28,
+        "row": " function fmGrid(fc,fm,dev,n){if(![fc,fm,dev].every(finite)||fc<=0||fm<=0||dev<0||!Number.isSafeInteger(n)||n<0||n>1024)return null;return {index:dev/fm,signedCandidates:dev===0?[fc]:Array.from({length:2*n+1},(_,i)=>fc+(i-n)*fm)}}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 29,
+        "row": " function tableAt(t,phase){if(!Array.isArray(t)||t.length<2||!t.every(finite)||!finite(phase)||phase<0||phase>1)return null;const k=(phase%1)*t.length,i=Math.floor(k),q=k-i;return t[i]*(1-q)+t[(i+1)%t.length]*q}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 30,
+        "row": " function morph(a,b,x){return Array.isArray(a)&&Array.isArray(b)&&a.length>=2&&a.length===b.length&&[...a,...b].every(finite)&&finite(x)&&x>=0&&x<=1?a.map((v,i)=>v*(1-x)+b[i]*x):null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 31,
+        "row": " function grainOverlap(seconds,density){return [seconds,density].every(finite)&&seconds>0&&density>=0?seconds*density:null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 32,
+        "row": " // Only positive integer sample step; length is number of read events."
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 33,
+        "row": " function grainInBounds(start,count,step,N){return [start,count,step,N].every(Number.isSafeInteger)&&start>=0&&count>0&&step>0&&N>0&&start+(count-1)*step<N}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 34,
+        "row": " function delayHz(fs,D){return finite(fs)&&fs>0&&finite(D)&&D>0?fs/D:null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 35,
+        "row": " function reflection(x){return finite(x)&&x>0&&x<1}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 36,
+        "row": " function rate(note,root){return [note,root].every(x=>Number.isInteger(x)&&x>=0&&x<=127)?2**((note-root)/12):null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 37,
+        "row": " const regions=[{id:\"LOW\",lo:60,hi:63,vlo:1,vhi:63,root:60},{id:\"HIGH\",lo:60,hi:63,vlo:64,vhi:127,root:60}];"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 38,
+        "row": " function regionMatches(n,v){if(![n,v].every(x=>Number.isInteger(x)&&x>=0&&x<=127)||v===0)return [];return regions.filter(r=>n>=r.lo&&n<=r.hi&&v>=r.vlo&&v<=r.vhi).map(r=>r.id)}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 39,
+        "row": " function envEarlyRelease(t,off,attack,release){if(![t,off,attack,release].every(finite)||t<0||off<0||off>attack||attack<=0||release<=0)return null;return t<off?t/attack:(off/attack)*Math.max(0,1-(t-off)/release)}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 40,
+        "row": " function mod(base,sources,mode){if(!finite(base)||!Array.isArray(sources)||!sources.every(finite))return null;if(mode===\"add\")return base+sources.reduce((a,b)=>a+b,0);if(mode===\"multiply\"&&sources.every(v=>v>=0))return base*sources.reduce((a,b)=>a*b,1);return null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 41,
+        "row": " function polySecondary(N,values){if(!Number.isInteger(N)||N<1||N>16||!Array.isArray(values)||values.length<1||values.length>16||!values.every(finite))return null;return Array.from({length:N},(_,i)=>values.length===1?values[0]:values[i]??0)}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 42,
+        "row": " function bend(lsb,msb){return [lsb,msb].every(v=>Number.isInteger(v)&&v>=0&&v<128)?lsb+128*msb:null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 43,
+        "row": " function centroid(f,a){if(!Array.isArray(f)||!Array.isArray(a)||!f.length||f.length!==a.length||!f.every(v=>finite(v)&&v>=0)||!a.every(v=>finite(v)&&v>=0))return null;const s=a.reduce((x,y)=>x+y,0);return s>0?f.reduce((x,y,i)=>x+y*a[i],0)/s:null}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 44,
+        "row": " // Conservative topology screen, not Web Audio renderer. Remove each declared"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 45,
+        "row": " // delay node from the instantaneous subgraph; any residual cycle is rejected."
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 46,
+        "row": " function routing(nodes,edges,delays){if(!Array.isArray(nodes)||!nodes.length||new Set(nodes).size!==nodes.length||!Array.isArray(edges)||!Array.isArray(delays)||!delays.every(n=>nodes.includes(n))||!edges.every(e=>Array.isArray(e)&&e.length===2&&e.every(n=>nodes.includes(n))))return \"UNKNOWN\";const live=nodes.filter(n=>!delays.includes(n)),state=new Map();function visit(n){if(state.get(n)===1)return false;if(state.get(n)===2)return true;state.set(n,1);for(const [u,v] of edges)if(u===n&&live.includes(v)&&!visit(v))return false;state.set(n,2);return true}return live.every(visit)?\"TOPOLOGY_CANDIDATE_ONLY\":\"ZERO_DELAY_CYCLE\"}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 47,
+        "row": " const protectedNotes=[{pitch:60,start:0,dur:480},{pitch:62,start:480,dur:480},{pitch:64,start:960,dur:240}];"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 48,
+        "row": " const base={fixture:\"SD-J1\",clock:\"PPQ480-T120\",notes:cp(protectedNotes),source:\"ORIGINAL-SYNTHETIC-TABLE1\",waveTable:[0,1,0,-1],sample:\"SYNTHETIC-SAMPLE1\",seed:17,host:\"H1@1\",plugin:\"P1@1\",patch:\"PATCH1\",graph:[[\"OSC\",\"FILTER\"],[\"FILTER\",\"AMP\"],[\"AMP\",\"OUT\"]],params:{cutoffHz:1000,depth:.2,gain:.5},mapping:\"MAP1\",deps:[\"H1@1\",\"P1@1\",\"ORIGINAL-SYNTHETIC-TABLE1\",\"SYNTHETIC-SAMPLE1\"],output:\"D1\",rubric:\"Q1\"};"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 49,
+        "row": " const keys=Object.keys(base),paramKeys=Object.keys(base.params);"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 50,
+        "row": " function sameKeys(a,k){return !!a&&typeof a===\"object\"&&Object.keys(a).length===k.length&&k.every(s=>Object.hasOwn(a,s))}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 51,
+        "row": " function exact(a,b){return sameKeys(a,keys)&&sameKeys(b,keys)&&keys.every(k=>eq(a[k],b[k]))}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 52,
+        "row": " // Only cutoff and depth may change, plus a new patch/output marker after edit."
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 53,
+        "row": " function allowedCandidate(c){if(!sameKeys(c,keys)||!sameKeys(c.params,paramKeys))return false;const fixed=keys.filter(k=>![\"params\",\"patch\",\"output\"].includes(k));if(!fixed.every(k=>eq(c[k],base[k]))||c.params.gain!==base.params.gain||!finite(c.params.cutoffHz)||c.params.cutoffHz<200||c.params.cutoffHz>2000||!finite(c.params.depth)||c.params.depth<0||c.params.depth>1)return false;const changed=c.params.cutoffHz!==base.params.cutoffHz||c.params.depth!==base.params.depth;return changed?c.patch===\"PATCH2\"&&c.output===\"D2\":c.patch===base.patch&&c.output===base.output}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 54,
+        "row": " function receipt(c){return {identity:cp(c),kind:\"SYNTHETIC_STIPULATION\",technical:true,musical:true,protectedContent:true,editable:true,depsVerified:true,reopened:true,reviewCurrent:true}}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 55,
+        "row": " function gate(c,q,g){if(!allowedCandidate(c))return \"OUTSIDE_FIXTURE\";if(!g||g.syntheticOnly!==true||g.actualOutput!==false||g.rights!==true||g.safety!==true)return \"STOP_OR_PENDING\";if(!q||!exact(c,q.identity)||q.kind!==\"SYNTHETIC_STIPULATION\"||![\"technical\",\"musical\",\"protectedContent\",\"editable\",\"depsVerified\",\"reopened\",\"reviewCurrent\"].every(k=>q[k]===true))return \"NOT_READY\";return \"SYNTHETIC_CANDIDATE_ONLY\"}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 56,
+        "row": " const g={syntheticOnly:true,actualOutput:false,rights:true,safety:true};"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 57,
+        "row": " const edit={...cp(base),params:{cutoffHz:800,depth:.3,gain:.5},patch:\"PATCH2\",output:\"D2\"};"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 58,
+        "row": " const tests=["
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 59,
+        "row": " [\"partial amplitude bound\",close(peakBound([.4,.2,.1]),.7)],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 60,
+        "row": " [\"linear steady response\",linearFilter([.5,.3,.2],[1,.5,.1]).every((v,i)=>close(v,[.5,.15,.02][i]))],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 61,
+        "row": " [\"strict Nyquist harmonic screening\",eq(harmonicGrid(8000,48000,8),[8000,16000])],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 62,
+        "row": " [\"invalid oscillator bounds\",harmonicGrid(0,48000,8)===null&&harmonicGrid(440,0,8)===null],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 63,
+        "row": " [\"FM index and signed frequency candidates\",eq(fmGrid(440,110,220,1),{index:2,signedCandidates:[330,440,550]})],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 64,
+        "row": " [\"zero deviation carrier only\",eq(fmGrid(440,110,0,3),{index:0,signedCandidates:[440]})],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 65,
+        "row": " [\"negative frequencies retained for analysis not discarded\",eq(fmGrid(100,300,300,1).signedCandidates,[-200,100,400])],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 66,
+        "row": " [\"invalid modulator refused\",fmGrid(440,0,220,1)===null],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 67,
+        "row": " [\"single-cycle interpolation\",tableAt([0,1,0,-1],.125)===.5],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 68,
+        "row": " [\"table end wraps\",tableAt([0,1,0,-1],.875)===-.5&&tableAt([0,1,0,-1],1)===0],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 69,
+        "row": " [\"invalid phase and table\",tableAt([0,1],1.1)===null&&tableAt([0],.1)===null],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 70,
+        "row": " [\"frame morph\",eq(morph([0,1,0,-1],[0,.2,0,-.2],.25),[0,.8,0,-.8])],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 71,
+        "row": " [\"misaligned table lengths refuse\",morph([0,1],[0,1,0],.5)===null],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 72,
+        "row": " [\"ideal average overlap\",grainOverlap(.05,40)===2],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 73,
+        "row": " [\"grain boundary checks\",!grainInBounds(47000,2400,1,48000)&&grainInBounds(45600,2400,1,48000)&&!grainInBounds(45601,2400,1,48000)],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 74,
+        "row": " [\"step and endpoints\",grainInBounds(0,3,2,5)&&!grainInBounds(0,3,2,4)&&!grainInBounds(0,3,0,5)],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 75,
+        "row": " [\"ideal delay pitch\",delayHz(48000,100)===480&&close(delayHz(48000,48000/440),440)],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 76,
+        "row": " [\"reflection strict bound\",reflection(.5)&&!reflection(0)&&!reflection(1)&&!reflection(1.1)],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 77,
+        "row": " [\"scalar impulse decay\",eq([0,1,2].map(n=>.5**n),[1,.5,.25])],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 78,
+        "row": " [\"sample transposition ratio\",close(rate(62,60),2**(1/6))&&rate(72,60)===2],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 79,
+        "row": " [\"key and velocity boundaries\",eq(regionMatches(60,63),[\"LOW\"])&&eq(regionMatches(63,64),[\"HIGH\"])&&eq(regionMatches(64,64),[])&&eq(regionMatches(60,0),[])],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 80,
+        "row": " [\"early noteoff no jump to sustain\",close(envEarlyRelease(.05,.05,.1,.3),.5)&&close(envEarlyRelease(.2,.05,.1,.3),.25)&&close(envEarlyRelease(.35,.05,.1,.3),0)],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 81,
+        "row": " [\"tempo sync 2 beats\",120/60/2===1],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 82,
+        "row": " [\"additive multiplicative modulation\",close(mod(.5,[.2,-.1],\"add\"),.6)&&close(mod(.5,[.8,1],\"multiply\"),.4)],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 83,
+        "row": " [\"neutral values and zero multiplier\",mod(.5,[0],\"add\")===.5&&mod(.5,[1],\"multiply\")===.5&&mod(.5,[0],\"multiply\")===0],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 84,
+        "row": " [\"Rack mono and missing channel policy\",eq(polySecondary(3,[2]),[2,2,2])&&eq(polySecondary(3,[2,3]),[2,3,0])&&eq(polySecondary(2,[1,2,3]),[1,2])],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 85,
+        "row": " [\"voltage octave relation\",440*2**1===880&&440*2**-1===220],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 86,
+        "row": " [\"routing ordinary DAG\",routing([\"A\",\"B\"],[[\"A\",\"B\"]],[])===\"TOPOLOGY_CANDIDATE_ONLY\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 87,
+        "row": " [\"routing delayed cycle only structural\",routing([\"A\",\"D\"],[[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"TOPOLOGY_CANDIDATE_ONLY\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 88,
+        "row": " [\"residual zero-delay subcycle with delay elsewhere\",routing([\"A\",\"B\",\"D\"],[[\"A\",\"B\"],[\"B\",\"A\"],[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"ZERO_DELAY_CYCLE\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 89,
+        "row": " [\"self-loop and unknown node\",routing([\"A\"],[[\"A\",\"A\"]],[])===\"ZERO_DELAY_CYCLE\"&&routing([\"A\"],[[\"A\",\"X\"]],[])===\"UNKNOWN\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 90,
+        "row": " [\"macro mapping\",200+(2000-200)*.5===1100&&1-.5*.5===.75],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 91,
+        "row": " [\"MIDI 14-bit center and extremes\",bend(0,64)===8192&&bend(127,127)===16383&&bend(0,0)===0&&bend(128,0)===null],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 92,
+        "row": " [\"spectral centroid and silent unknown\",centroid([100,300,500],[1,2,1])===300&&centroid([100,300,500],[0,0,0])===null],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 93,
+        "row": " [\"same centroid different spectra\",centroid([100,300,500],[1,0,1])===centroid([100,300,500],[0,2,0])],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 94,
+        "row": " [\"fixed candidate positive\",gate(base,receipt(base),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 95,
+        "row": " [\"current allowed edit positive\",gate(edit,receipt(edit),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 96,
+        "row": " [\"old receipt after edit rejects\",gate(edit,receipt(base),g)===\"NOT_READY\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 97,
+        "row": " [\"fresh receipt cannot authorize changed source or graph or dependency\",[\"source\",\"sample\",\"waveTable\",\"seed\",\"host\",\"plugin\",\"graph\",\"mapping\",\"deps\",\"notes\",\"clock\",\"rubric\",\"fixture\"].every(k=>{const c={...cp(edit),[k]:\"changed\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 98,
+        "row": " [\"same content marker after changed patch refuses\",gate({...edit,output:\"D1\"},receipt({...edit,output:\"D1\"}),g)===\"OUTSIDE_FIXTURE\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 99,
+        "row": " [\"protected gain and parameter bounds\",[{gain:.7},{cutoffHz:50},{depth:1.1},{extra:1}].every(o=>{const c={...cp(edit),params:{...edit.params,...o}};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 100,
+        "row": " [\"missing actual dependency verification or reopen or review refuses\",[\"depsVerified\",\"reopened\",\"reviewCurrent\",\"editable\",\"protectedContent\",\"technical\",\"musical\"].every(k=>gate(edit,{...receipt(edit),[k]:null},g)===\"NOT_READY\")],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 101,
+        "row": " [\"synthetic rights safety and output flags independently bound\",[\"syntheticOnly\",\"rights\",\"safety\"].every(k=>gate(edit,receipt(edit),{...g,[k]:null})===\"STOP_OR_PENDING\")&&gate(edit,receipt(edit),{...g,actualOutput:true})===\"STOP_OR_PENDING\"],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 102,
+        "row": " [\"all current receipt identity fields exact\",keys.every(k=>gate(edit,{...receipt(edit),identity:{...cp(edit),[k]:\"changed\"}},g)===\"NOT_READY\")],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 103,
+        "row": ""
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 104,
+        "row": " [\"order-only base map same marker accepted\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000}};return gate(c,receipt(c),g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 105,
+        "row": " [\"order-only base map new marker rejected\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000},patch:\"PATCH2\",output:\"D2\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})()],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 106,
+        "row": " [\"same semantic receipt with reordered params and top keys accepted\",(()=>{const q=receipt(edit);q.identity=Object.fromEntries(Object.entries(q.identity).reverse());q.identity.params={gain:.5,depth:.3,cutoffHz:800};return gate(edit,q,g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 107,
+        "row": " [\"ordered notes and graph cannot be reversed\",[\"notes\",\"graph\"].every(k=>{const c={...cp(edit),[k]:[...edit[k]].reverse()};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 108,
+        "row": " [\"receipt ordered arrays still exact\",[\"notes\",\"graph\"].every(k=>{const q=receipt(edit);q.identity[k].reverse();return gate(edit,q,g)===\"NOT_READY\"})]"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 109,
+        "row": ""
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 110,
+        "row": " ];"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 111,
+        "row": " return tests;"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 112,
+        "row": "}"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 113,
+        "row": "console.log(runK18Finite());"
+      }
+    ],
+    "entryLinks": [
+      {
+        "caseId": "SD01",
+        "d4": "K18.01.01.01",
+        "label": "SD01/K18.01.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L5"
+      },
+      {
+        "caseId": "SD02",
+        "d4": "K18.01.02.01",
+        "label": "SD02/K18.01.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L6"
+      },
+      {
+        "caseId": "SD04",
+        "d4": "K18.01.04.01",
+        "label": "SD04/K18.01.04.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L8"
+      },
+      {
+        "caseId": "SD05",
+        "d4": "K18.02.01.01",
+        "label": "SD05/K18.02.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L9"
+      },
+      {
+        "caseId": "SD06",
+        "d4": "K18.02.02.01",
+        "label": "SD06/K18.02.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L10"
+      },
+      {
+        "caseId": "SD07",
+        "d4": "K18.02.03.01",
+        "label": "SD07/K18.02.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L11"
+      },
+      {
+        "caseId": "SD09",
+        "d4": "K18.03.01.01",
+        "label": "SD09/K18.03.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L13"
+      },
+      {
+        "caseId": "SD10",
+        "d4": "K18.03.02.01",
+        "label": "SD10/K18.03.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L14"
+      },
+      {
+        "caseId": "SD11",
+        "d4": "K18.03.03.01",
+        "label": "SD11/K18.03.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L15"
+      },
+      {
+        "caseId": "SD13",
+        "d4": "K18.04.01.01",
+        "label": "SD13/K18.04.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L17"
+      },
+      {
+        "caseId": "SD14",
+        "d4": "K18.04.02.01",
+        "label": "SD14/K18.04.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L18"
+      },
+      {
+        "caseId": "SD15",
+        "d4": "K18.04.03.01",
+        "label": "SD15/K18.04.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L19"
+      },
+      {
+        "caseId": "SD17",
+        "d4": "K18.05.01.01",
+        "label": "SD17/K18.05.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L21"
+      },
+      {
+        "caseId": "SD18",
+        "d4": "K18.05.02.01",
+        "label": "SD18/K18.05.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L22"
+      },
+      {
+        "caseId": "SD19",
+        "d4": "K18.05.03.01",
+        "label": "SD19/K18.05.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L23"
+      },
+      {
+        "caseId": "SD21",
+        "d4": "K18.06.01.01",
+        "label": "SD21/K18.06.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L5"
+      },
+      {
+        "caseId": "SD22",
+        "d4": "K18.06.02.01",
+        "label": "SD22/K18.06.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L6"
+      },
+      {
+        "caseId": "SD23",
+        "d4": "K18.06.03.01",
+        "label": "SD23/K18.06.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L7"
+      },
+      {
+        "caseId": "SD24",
+        "d4": "K18.06.04.01",
+        "label": "SD24/K18.06.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L8"
+      },
+      {
+        "caseId": "SD25",
+        "d4": "K18.07.01.01",
+        "label": "SD25/K18.07.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L9"
+      },
+      {
+        "caseId": "SD26",
+        "d4": "K18.07.02.01",
+        "label": "SD26/K18.07.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L10"
+      },
+      {
+        "caseId": "SD27",
+        "d4": "K18.07.03.01",
+        "label": "SD27/K18.07.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L11"
+      },
+      {
+        "caseId": "SD28",
+        "d4": "K18.07.04.01",
+        "label": "SD28/K18.07.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L12"
+      },
+      {
+        "caseId": "SD29",
+        "d4": "K18.08.01.01",
+        "label": "SD29/K18.08.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L13"
+      },
+      {
+        "caseId": "SD30",
+        "d4": "K18.08.02.01",
+        "label": "SD30/K18.08.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L14"
+      },
+      {
+        "caseId": "SD31",
+        "d4": "K18.08.03.01",
+        "label": "SD31/K18.08.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L15"
+      },
+      {
+        "caseId": "SD33",
+        "d4": "K18.09.01.01",
+        "label": "SD33/K18.09.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L17"
+      },
+      {
+        "caseId": "SD34",
+        "d4": "K18.09.02.01",
+        "label": "SD34/K18.09.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L18"
+      },
+      {
+        "caseId": "SD35",
+        "d4": "K18.09.03.01",
+        "label": "SD35/K18.09.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L19"
+      },
+      {
+        "caseId": "SD36",
+        "d4": "K18.09.04.01",
+        "label": "SD36/K18.09.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L20"
+      },
+      {
+        "caseId": "SD37",
+        "d4": "K18.10.01.01",
+        "label": "SD37/K18.10.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L21"
+      },
+      {
+        "caseId": "SD38",
+        "d4": "K18.10.02.01",
+        "label": "SD38/K18.10.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L22"
+      },
+      {
+        "caseId": "SD39",
+        "d4": "K18.10.03.01",
+        "label": "SD39/K18.10.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L23"
+      },
+      {
+        "caseId": "SD40",
+        "d4": "K18.10.04.01",
+        "label": "SD40/K18.10.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L24"
+      },
+      {
+        "caseId": "SD41",
+        "d4": "K18.11.01.01",
+        "label": "SD41/K18.11.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L25"
+      },
+      {
+        "caseId": "SD42",
+        "d4": "K18.11.02.01",
+        "label": "SD42/K18.11.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L26"
+      },
+      {
+        "caseId": "SD43",
+        "d4": "K18.11.03.01",
+        "label": "SD43/K18.11.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L27"
+      },
+      {
+        "caseId": "SD03",
+        "d4": "K18.01.03.01",
+        "label": "SD03/K18.01.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L7"
+      },
+      {
+        "caseId": "SD44",
+        "d4": "K18.11.04.01",
+        "label": "SD44/K18.11.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L28"
+      },
+      {
+        "caseId": "SD12",
+        "d4": "K18.03.04.01",
+        "label": "SD12/K18.03.04.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L16"
+      },
+      {
+        "caseId": "SD32",
+        "d4": "K18.08.04.01",
+        "label": "SD32/K18.08.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L16"
+      }
+    ],
+    "allCaseLinks": [
+      {
+        "label": "SD01/K18.01.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L5",
+        "caseId": "SD01",
+        "d4": "K18.01.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 5,
+          "row": "| SD01 | K18.01.01.01 | S603 | 以基频200Hz与部分音400/600Hz、幅度.4/.2/.1构造加法候选；同相时峰值上界.7，不等实际峰值或响度。 | 把三部分音相加的幅度当实际峰值；按单振荡器幅度判断总线无削波。 | 查频率、相位、包络及叠加后的峰值；实际响度K08/K09。 | 有限理论，不声明渲染结果。 |"
+        }
+      },
+      {
+        "label": "SD02/K18.01.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L6",
+        "caseId": "SD02",
+        "d4": "K18.01.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 6,
+          "row": "| SD02 | K18.01.02.01 | S603/S604 | 题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。 | 将截止频率理解为硬切所有高频；实际共振非线性仍乘固定比例。 | 核实际滤波型、频响、共振、状态与电平；未知响应不能计算。 | 不是moogladder实测频响。 |"
+        }
+      },
+      {
+        "label": "SD04/K18.01.04.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L8",
+        "caseId": "SD04",
+        "d4": "K18.01.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 8,
+          "row": "| SD04 | K18.01.04.01 | S603/S607 | 48kHz下理想谐波基频8kHz，正频率严格低于Nyquist24kHz的谐波只有8/16kHz；边界24kHz不纳入此有限设计。 | 直接保留理想锯齿无限谐波，插值就能防混叠。 | 按最高音、部分音及调制频谱核带限策略，实际频谱需测。 | 仅严格低于Nyquist的频率筛选，不保证全链无混叠。 |"
+        }
+      },
+      {
+        "label": "SD05/K18.02.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L9",
+        "caseId": "SD05",
+        "d4": "K18.02.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 9,
+          "row": "| SD05 | K18.02.01.01 | S605/S606 | 正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。 | 把I=2解释为两个边带或2Hz偏移；频率出现即非零幅度。 | 核载波/调制频率、频偏、Bessel权重与时间变化；反射边带需合并。 | 不计算Bessel数值或听觉基音。 |"
+        }
+      },
+      {
+        "label": "SD06/K18.02.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L10",
+        "caseId": "SD06",
+        "d4": "K18.02.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 10,
+          "row": "| SD06 | K18.02.02.01 | S605/S606 | 固定fc440,fm220与fm300两种题设；第一组候选为220Hz整数格，第二组可有非简单低整数频比；边带频率格不唯一决定主观音高。 | 所有非整数载调比必无基音；载波即感知音高。 | 查频率比、指数、负频率折返/相位、幅度和听评。 | 不将特定foscil文档基本音描述泛化。 |"
+        }
+      },
+      {
+        "label": "SD07/K18.02.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L11",
+        "caseId": "SD07",
+        "d4": "K18.02.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 11,
+          "row": "| SD07 | K18.02.03.01 | S605/S608 | 理想环形调制cos(2π440t)×cos(2π110t)产生330/550Hz各0.5；带直流偏置的AM额外保留载波，FM通过相位/频率改变产生更多边带。 | AM、RM、FM、PM同一参数或频谱；乘法等于相加。 | 核信号公式、DC、频率/相位单位与实际路由。 | 限正弦、定常；真实实现K08。 |"
+        }
+      },
+      {
+        "label": "SD09/K18.03.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L13",
+        "caseId": "SD09",
+        "d4": "K18.03.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 13,
+          "row": "| SD09 | K18.03.01.01 | S607/S608 | 一个周期表T=[0,1,0,-1]，相位.125对应索引.5；线性插值得.5。扫描周期相位与在多帧表中选帧是两条轴。 | 把帧位置当周期频率，或将相位1读成新周期外的样本。 | 查表长度、相位单位、wrap/guard和frame选择。 | 数值为原创表，非Max或Csound输出实测。 |"
+        }
+      },
+      {
+        "label": "SD10/K18.03.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L14",
+        "caseId": "SD10",
+        "d4": "K18.03.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 14,
+          "row": "| SD10 | K18.03.02.01 | S607/S608 | 题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。 | 假定任意宿主都使用线性帧插值；帧间相位未对齐仍保证无抵消。 | 核具体插值算法、对齐、归一化、帧数和原始素材。 | 有限线性morph不是Live算法证明。 |"
+        }
+      },
+      {
+        "label": "SD11/K18.03.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L15",
+        "caseId": "SD11",
+        "d4": "K18.03.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 15,
+          "row": "| SD11 | K18.03.03.01 | S603/S607 | 周期末到首插值，T在相位.875索引3.5取−.5；guard point须按实现规范，不能复制错误末值；波表线性插值与高音抗混叠分开。 | 表尾不wrap、拿guard当独立第5个采样；插值即带限。 | 核有效长度/guard、索引范围和频率相关带限表。 | 不宣称实际频谱质量。 |"
+        }
+      },
+      {
+        "label": "SD13/K18.04.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L17",
+        "caseId": "SD13",
+        "d4": "K18.04.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 17,
+          "row": "| SD13 | K18.04.01.01 | S609 | 颗粒时长50ms、均匀密度40粒/s，稳态理想平均重叠2；单颗粒窗、幅度和相关性决定合成峰值。 | 重叠2意味着峰值正好2倍或固定声部数；密度是Hz音高。 | 查事件开始时间、时长分布、窗和叠加策略。 | 边界/随机过程另计，不是资源实测。 |"
+        }
+      },
+      {
+        "label": "SD14/K18.04.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L18",
+        "caseId": "SD14",
+        "d4": "K18.04.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 18,
+          "row": "| SD14 | K18.04.02.01 | S609 | fog的粒内读速率xtrans和粒起点aspd分开；题设按2倍读取同一段提高粒内音高，粒起点轨迹慢移可独立改变时间组织。 | 认为播放指针速度与粒内转调必相同；任何算法独立变速都无失真。 | 查单位、粒内读速、起点、窗口和跳跃边界。 | 不泛化具体算法音高保真。 |"
+        }
+      },
+      {
+        "label": "SD15/K18.04.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L19",
+        "caseId": "SD15",
+        "d4": "K18.04.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 19,
+          "row": "| SD15 | K18.04.03.01 | S609/S608 | 题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。 | 越界默认wrap或静音不写策略；改粒窗仍宣称原素材未变。 | 核读方向、采样率、边界、长度及明确循环/补零策略。 | 只限定正向整数读速有限例。 |"
+        }
+      },
+      {
+        "label": "SD17/K18.05.01.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L21",
+        "caseId": "SD17",
+        "d4": "K18.05.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 21,
+          "row": "| SD17 | K18.05.01.01 | S610 | 理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。 | 固定整数延迟得到精确任意音高；忽略滤波相位和插值。 | 核延迟定义、实际反馈滤波相位、分数延迟、测频。 | 理想单循环模型，非真实弦长度。 |"
+        }
+      },
+      {
+        "label": "SD18/K18.05.02.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L22",
+        "caseId": "SD18",
+        "d4": "K18.05.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 22,
+          "row": "| SD18 | K18.05.02.01 | S610 | wgpluck2将拨弦位置、拾音位置及损耗系数分开，反射系数需严格0<r<1（表述为0与1之间）。 | 反射1等于无限自然延音且安全；拨弦点与拾音点互换。 | 核特定操作符的合法域、激励、滤波及实际衰减。 | 不把该范围当所有物理建模规则。 |"
+        }
+      },
+      {
+        "label": "SD19/K18.05.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L23",
+        "caseId": "SD19",
+        "d4": "K18.05.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 23,
+          "row": "| SD19 | K18.05.03.01 | S610/S604 | 有限标量反馈x[n]=u[n]+g*x[n−1]，脉冲后g=.5时1,.5,.25；g=1不衰减、g>1增长。 | 有延迟即稳定；单个滤波器标量近似可证明复杂非线性系统稳定。 | 核环路增益/相位、频率依赖和实际稳定性；未知不放行。 | 仅一阶标量模型，现场物理反馈K19。 |"
+        }
+      },
+      {
+        "label": "SD21/K18.06.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L5",
+        "caseId": "SD21",
+        "d4": "K18.06.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 5,
+          "row": "| SD21 | K18.06.01.01 | S611 | SFZ题设根音60、键域60–63；在12平均律正常跟踪下note62读速比2^(2/12)约1.12246，note64不匹配此region。 | 键域边界都触发；把根音改为播放键或默认固定Hz。 | 核映射端点、根音、音律及跟踪/调音修正。 | 仅假设无额外转调/warp的比例。 |"
+        }
+      },
+      {
+        "label": "SD22/K18.06.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L6",
+        "caseId": "SD22",
+        "d4": "K18.06.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 6,
+          "row": "| SD22 | K18.06.02.01 | S611 | 两力度层1–63、64–127，63/64各命中一层；velocity0为note-off而非第三层。重叠region可能叠加，不能默认唯一。 | 0是最安静触发；重叠由播放器自动选一个。 | 核区域、力度曲线、重叠、crossfade、round-robin策略和播放器。 | 本例唯一层策略，不概括SFZ所有行为。 |"
+        }
+      },
+      {
+        "label": "SD23/K18.06.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L7",
+        "caseId": "SD23",
+        "d4": "K18.06.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 7,
+          "row": "| SD23 | K18.06.03.01 | S611/S608 | 明确no_loop/one_shot/loop_continuous/loop_sustain，区分note-off、循环与释放样本；源帧坐标和播放器含端点规则必须固定。 | 有循环元数据即所有播放器相同；one_shot收到note-off一定立即停。 | 查模式、起止定义、释放、播放器文档及试听验证。 | 未运行播放器，不断言通用loop端点。 |"
+        }
+      },
+      {
+        "label": "SD24/K18.06.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L8",
+        "caseId": "SD24",
+        "d4": "K18.06.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 8,
+          "row": "| SD24 | K18.06.04.01 | S611/S614 | 采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。 | 只导出音频或SFZ文本即包含素材及完整许可；换源后沿用旧验证。 | 核依赖清单、版本/哈希、许可证及重开实际证据。 | K15具体许可，K12工具执行。 |"
+        }
+      },
+      {
+        "label": "SD25/K18.07.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L9",
+        "caseId": "SD25",
+        "d4": "K18.07.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 9,
+          "row": "| SD25 | K18.07.01.01 | S612/S608 | 线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。 | 把sustain当时间；提前note-off后仍完成attack或强跳sustain。 | 核事件时刻、包络类型、重触发及释放起点。 | 限定门控线性模型，不声明所有宿主行为。 |"
+        }
+      },
+      {
+        "label": "SD26/K18.07.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L10",
+        "caseId": "SD26",
+        "d4": "K18.07.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 10,
+          "row": "| SD26 | K18.07.02.01 | S612 | Csound7 adsr依预定音符长度计算sustain，不适MIDI事件；madsr采用note-off释放，attack/decay/release不得为0。 | 只因名称ADSR相同即可替代MIDI包络；0时间一定有效。 | 核实际opcode、时间域、门控、释放延长及合法值。 | 具体文档条件，未运行Csound。 |"
+        }
+      },
+      {
+        "label": "SD27/K18.07.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L11",
+        "caseId": "SD27",
+        "d4": "K18.07.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 11,
+          "row": "| SD27 | K18.07.03.01 | S608 | 120BPM、LFO每2拍一周期则1Hz；自由Hz模式与tempo sync不同；双极[-1,1]、单极[0,1]需区分。 | 2拍等于2Hz；tempo改变而同步频率不变。 | 查拍定义、tempo、波形相位、reset及速率单位。 | 仅四分拍BPM和简单周期。 |"
+        }
+      },
+      {
+        "label": "SD28/K18.07.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L12",
+        "caseId": "SD28",
+        "d4": "K18.07.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 12,
+          "row": "| SD28 | K18.07.04.01 | S608 | Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。 | 把所有深度直接相加或所有默认归零；乘法0是中性。 | 回查目标语义、组合/范围、平滑及宿主版本。 | 不从数值推真实参数范围。 |"
+        }
+      },
+      {
+        "label": "SD29/K18.08.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L13",
+        "caseId": "SD29",
+        "d4": "K18.08.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 13,
+          "row": "| SD29 | K18.08.01.01 | S603/S613 | 区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。 | 所有CV均mono或自动混音；通道数等同音频立体声。 | 核端口类型、primary输入、通道转换及模块特定行为。 | 仅Rack文档约定。 |"
+        }
+      },
+      {
+        "label": "SD30/K18.08.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L14",
+        "caseId": "SD30",
+        "d4": "K18.08.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 14,
+          "row": "| SD30 | K18.08.02.01 | S603/S610 | Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。 | 只要图中任意位置有DelayNode就允许所有循环；延迟保证不爆音。 | 逐路径查零延迟子环、最小render quantum、环路增益。 | 固定Web Audio规则与设计保守门禁区别。 |"
+        }
+      },
+      {
+        "label": "SD31/K18.08.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L15",
+        "caseId": "SD31",
+        "d4": "K18.08.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 15,
+          "row": "| SD31 | K18.08.03.01 | S613/S608 | 1V/oct在基准440Hz下+1V→880Hz、−1V→220Hz；控制电压和频率需明确基准，Rack模型不等实体模块。 | 所有控制端都按1V/oct；直接用音频幅度当硬件CV。 | 核端口量纲、校准、设备规范及安全边界。 | 不指导硬件接线。 |"
+        }
+      },
+      {
+        "label": "SD33/K18.09.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L17",
+        "caseId": "SD33",
+        "d4": "K18.09.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 17,
+          "row": "| SD33 | K18.09.01.01 | S614/S608 | 区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。 | 加载预设即恢复全部连接/素材/内部运行态。 | 列实际依赖、宿主版本、模块身份及存储范围，另需重开验证。 | 未实际加载Rack。 |"
+        }
+      },
+      {
+        "label": "SD34/K18.09.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L18",
+        "caseId": "SD34",
+        "d4": "K18.09.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 18,
+          "row": "| SD34 | K18.09.02.01 | S614 | Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。 | 只看显示名称或版本字符串相近就保证兼容；不匹配路径仍算成功。 | 核版本/ABI方向、client path、参数语义和实际加载结果。 | 不宣称兼容所有插件。 |"
+        }
+      },
+      {
+        "label": "SD35/K18.09.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L19",
+        "caseId": "SD35",
+        "d4": "K18.09.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 19,
+          "row": "| SD35 | K18.09.03.01 | S608/S614 | 宏旋钮0–1映射两个目标：cutoff线性200–2000Hz、增益反向1–.5；.5时1100Hz/.75。保留曲线/单位/范围及目标ID。 | 复制宏值即同音色；改目标范围后沿用旧验收。 | 核映射函数、曲线、目标、版本及越界策略。 | 题设线性非通用感知尺度。 |"
+        }
+      },
+      {
+        "label": "SD36/K18.09.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L20",
+        "caseId": "SD36",
+        "d4": "K18.09.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 20,
+          "row": "| SD36 | K18.09.04.01 | S614/S609 | 编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。 | 同名preset或相同导出标记即精确重开；新验收封套掩盖缺插件。 | 核完整当前依赖和受影响范围，回滚至精确旧快照。 | K09工程管理/K15治理另证。 |"
+        }
+      },
+      {
+        "label": "SD37/K18.10.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L21",
+        "caseId": "SD37",
+        "d4": "K18.10.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 21,
+          "row": "| SD37 | K18.10.01.01 | S615/S608 | MIDI1.0 pitch bend LSB0 MSB64=8192中心，16383为上端；接收端灵敏度另定，不能将数值直接当半音。 | 把bend当7位CC；不同接收端必相同音程。 | 核消息通道/字节顺序/RPN范围与实际映射。 | 未发送MIDI。 |"
+        }
+      },
+      {
+        "label": "SD38/K18.10.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L22",
+        "caseId": "SD38",
+        "d4": "K18.10.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 22,
+          "row": "| SD38 | K18.10.02.01 | S615/S612 | 按note-on/off及声部身份追踪门控，丢note-off可能留下声部；All Sound Off/All Notes Off为不同channel-mode消息，发送不代表设备实际静音。 | 只清UI状态即清设备；对未验设备承诺panic必成功。 | 先停止进一步动作，查实际状态/路由及设备支持，再按权限复核；未知保持待核。 | 安全K07/K19，未控制设备。 |"
+        }
+      },
+      {
+        "label": "SD39/K18.10.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L23",
+        "caseId": "SD39",
+        "d4": "K18.10.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 23,
+          "row": "| SD39 | K18.10.03.01 | S608/S615 | 表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。 | 每通道压力等于每音独立控制；控制器支持消息即接收端支持。 | 核输入消息、通道/键身份、接收能力及映射；K12版本另证。 | 不证明MPE或MIDI2支持。 |"
+        }
+      },
+      {
+        "label": "SD40/K18.10.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L24",
+        "caseId": "SD40",
+        "d4": "K18.10.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 24,
+          "row": "| SD40 | K18.10.04.01 | S613/S608 | 题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。 | 无限叠加或steal不影响音乐目标；只看标称声部即实时稳定。 | 核分配策略、尾音、实时负载、缓存和现场条件，无法满足则待核。 | 无实时设备测试。 |"
+        }
+      },
+      {
+        "label": "SD41/K18.11.01.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L25",
+        "caseId": "SD41",
+        "d4": "K18.11.01.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 25,
+          "row": "| SD41 | K18.11.01.01 | S616 | 幅度谱f=[100,300,500]、a=[1,2,1]，质心300Hz；全零谱在本知识谓词为UNKNOWN，不作音色评分。 | 将功率谱直接代幅度谱；静音质心0等于暗音色。 | 核幅度/频率单位、窗、帧、有效分母及对齐。 | 不是librosa实际运行。 |"
+        }
+      },
+      {
+        "label": "SD42/K18.11.02.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L26",
+        "caseId": "SD42",
+        "d4": "K18.11.02.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 26,
+          "row": "| SD42 | K18.11.02.01 | S605/S616 | A/B具有相同质心但不同起音/衰减与频谱形状；题设对比音色目标应包含时间演化、噪声/混叠、动态与音乐用途。 | 质心相同即音色相同或更高即更好。 | 回查谱分布、时域包络、演奏音域和主观目标。 | 无真实听辨或机制推断。 |"
+        }
+      },
+      {
+        "label": "SD43/K18.11.03.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L27",
+        "caseId": "SD43",
+        "d4": "K18.11.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 27,
+          "row": "| SD43 | K18.11.03.01 | S617/S616 | 音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。 | 无参考/锚/协议仍称MUSHRA符合；音质分=音色审美。 | 核评价目标、参考、协议、匹配条件、听者及不确定性，K10实际评测。 | 本轮仅读规范入口，无实际符合性。 |"
+        }
+      },
+      {
+        "label": "SD03/K18.01.03.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L7",
+        "caseId": "SD03",
+        "d4": "K18.01.03.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 7,
+          "row": "| SD03 | K18.01.03.01 | S604/S608 | 相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。 | 所有滤波器共振参数同一单位；更高共振等同更安全或更响。 | 核滤波算法、参数单位、采样率、历史状态及峰值/混叠。 | K08实际DSP、K07安全。 |"
+        }
+      },
+      {
+        "label": "SD44/K18.11.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L28",
+        "caseId": "SD44",
+        "d4": "K18.11.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 28,
+          "row": "| SD44 | K18.11.04.01 | S614/S616/S608 | 题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。 | 音色相似即保护内容完好；更换源或路由仍算局部改动。 | 核保护约束、当前依赖、差异、评价条件、失败回滚与真实验收。 | 不做真实音频/DAW。 |"
+        }
+      },
+      {
+        "label": "SD12/K18.03.04.01",
+        "uri": "sound-design-r1-knowledge-cases.md#L16",
+        "caseId": "SD12",
+        "d4": "K18.03.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r1-knowledge-cases.md",
+          "blob": "c8ba52f0b732d00db07d7b5cdbb36e95456b8ab3",
+          "line": 16,
+          "row": "| SD12 | K18.03.04.01 | S608/S614 | Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。 | RAW等于无噪声；同文件名换内容仍复用旧波表。 | 回查导入源与实际生成表、处理模式、相位、许可和宿主版本。 | 素材使用权限K15另核。 |"
+        }
+      },
+      {
+        "label": "SD32/K18.08.04.01",
+        "uri": "sound-design-r2-knowledge-cases.md#L16",
+        "caseId": "SD32",
+        "d4": "K18.08.04.01",
+        "targetAnchor": {
+          "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+          "file": "docs/product/calibration/sound-design-r2-knowledge-cases.md",
+          "blob": "89678ec87eb7ec8aa0f6e59c6e6efce9ba13c1be",
+          "line": 16,
+          "row": "| SD32 | K18.08.04.01 | S603/S614 | patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。 | 交换节点顺序必等价；只保存参数表不保存连线。 | 比对端口、顺序、依赖、回滚身份和重新评估。 | 不假定所有线性定常级联不交换。 |"
+        }
+      }
+    ],
+    "frozenWitness": {
+      "start": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 22,
+        "row": "```javascript"
+      },
+      "end": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 114,
+        "row": "```"
+      },
+      "source": "function runK18Finite(){\n const eq=(a,b)=>{if(a===b)return true;if(a===null||b===null||typeof a!==\"object\"||typeof b!==\"object\"||Array.isArray(a)!==Array.isArray(b))return false;if(Array.isArray(a))return a.length===b.length&&a.every((v,i)=>eq(v,b[i]));const keys=Object.keys(a);return keys.length===Object.keys(b).length&&keys.every(k=>Object.hasOwn(b,k)&&eq(a[k],b[k]))},cp=x=>JSON.parse(JSON.stringify(x)),close=(a,b)=>Math.abs(a-b)<1e-9,finite=Number.isFinite;\n function harmonicGrid(f,fs,n){if(!finite(f)||f<=0||!finite(fs)||fs<=0||!Number.isSafeInteger(n)||n<1||n>1024)return null;return Array.from({length:n},(_,i)=>f*(i+1)).filter(v=>v<fs/2)}\n function peakBound(a){return Array.isArray(a)&&a.length&&a.every(finite)?a.reduce((s,v)=>s+Math.abs(v),0):null}\n function linearFilter(a,g){return Array.isArray(a)&&Array.isArray(g)&&a.length>0&&a.length===g.length&&a.every(v=>finite(v)&&v>=0)&&g.every(v=>finite(v)&&v>=0)?a.map((v,i)=>v*g[i]):null}\n function fmGrid(fc,fm,dev,n){if(![fc,fm,dev].every(finite)||fc<=0||fm<=0||dev<0||!Number.isSafeInteger(n)||n<0||n>1024)return null;return {index:dev/fm,signedCandidates:dev===0?[fc]:Array.from({length:2*n+1},(_,i)=>fc+(i-n)*fm)}}\n function tableAt(t,phase){if(!Array.isArray(t)||t.length<2||!t.every(finite)||!finite(phase)||phase<0||phase>1)return null;const k=(phase%1)*t.length,i=Math.floor(k),q=k-i;return t[i]*(1-q)+t[(i+1)%t.length]*q}\n function morph(a,b,x){return Array.isArray(a)&&Array.isArray(b)&&a.length>=2&&a.length===b.length&&[...a,...b].every(finite)&&finite(x)&&x>=0&&x<=1?a.map((v,i)=>v*(1-x)+b[i]*x):null}\n function grainOverlap(seconds,density){return [seconds,density].every(finite)&&seconds>0&&density>=0?seconds*density:null}\n // Only positive integer sample step; length is number of read events.\n function grainInBounds(start,count,step,N){return [start,count,step,N].every(Number.isSafeInteger)&&start>=0&&count>0&&step>0&&N>0&&start+(count-1)*step<N}\n function delayHz(fs,D){return finite(fs)&&fs>0&&finite(D)&&D>0?fs/D:null}\n function reflection(x){return finite(x)&&x>0&&x<1}\n function rate(note,root){return [note,root].every(x=>Number.isInteger(x)&&x>=0&&x<=127)?2**((note-root)/12):null}\n const regions=[{id:\"LOW\",lo:60,hi:63,vlo:1,vhi:63,root:60},{id:\"HIGH\",lo:60,hi:63,vlo:64,vhi:127,root:60}];\n function regionMatches(n,v){if(![n,v].every(x=>Number.isInteger(x)&&x>=0&&x<=127)||v===0)return [];return regions.filter(r=>n>=r.lo&&n<=r.hi&&v>=r.vlo&&v<=r.vhi).map(r=>r.id)}\n function envEarlyRelease(t,off,attack,release){if(![t,off,attack,release].every(finite)||t<0||off<0||off>attack||attack<=0||release<=0)return null;return t<off?t/attack:(off/attack)*Math.max(0,1-(t-off)/release)}\n function mod(base,sources,mode){if(!finite(base)||!Array.isArray(sources)||!sources.every(finite))return null;if(mode===\"add\")return base+sources.reduce((a,b)=>a+b,0);if(mode===\"multiply\"&&sources.every(v=>v>=0))return base*sources.reduce((a,b)=>a*b,1);return null}\n function polySecondary(N,values){if(!Number.isInteger(N)||N<1||N>16||!Array.isArray(values)||values.length<1||values.length>16||!values.every(finite))return null;return Array.from({length:N},(_,i)=>values.length===1?values[0]:values[i]??0)}\n function bend(lsb,msb){return [lsb,msb].every(v=>Number.isInteger(v)&&v>=0&&v<128)?lsb+128*msb:null}\n function centroid(f,a){if(!Array.isArray(f)||!Array.isArray(a)||!f.length||f.length!==a.length||!f.every(v=>finite(v)&&v>=0)||!a.every(v=>finite(v)&&v>=0))return null;const s=a.reduce((x,y)=>x+y,0);return s>0?f.reduce((x,y,i)=>x+y*a[i],0)/s:null}\n // Conservative topology screen, not Web Audio renderer. Remove each declared\n // delay node from the instantaneous subgraph; any residual cycle is rejected.\n function routing(nodes,edges,delays){if(!Array.isArray(nodes)||!nodes.length||new Set(nodes).size!==nodes.length||!Array.isArray(edges)||!Array.isArray(delays)||!delays.every(n=>nodes.includes(n))||!edges.every(e=>Array.isArray(e)&&e.length===2&&e.every(n=>nodes.includes(n))))return \"UNKNOWN\";const live=nodes.filter(n=>!delays.includes(n)),state=new Map();function visit(n){if(state.get(n)===1)return false;if(state.get(n)===2)return true;state.set(n,1);for(const [u,v] of edges)if(u===n&&live.includes(v)&&!visit(v))return false;state.set(n,2);return true}return live.every(visit)?\"TOPOLOGY_CANDIDATE_ONLY\":\"ZERO_DELAY_CYCLE\"}\n const protectedNotes=[{pitch:60,start:0,dur:480},{pitch:62,start:480,dur:480},{pitch:64,start:960,dur:240}];\n const base={fixture:\"SD-J1\",clock:\"PPQ480-T120\",notes:cp(protectedNotes),source:\"ORIGINAL-SYNTHETIC-TABLE1\",waveTable:[0,1,0,-1],sample:\"SYNTHETIC-SAMPLE1\",seed:17,host:\"H1@1\",plugin:\"P1@1\",patch:\"PATCH1\",graph:[[\"OSC\",\"FILTER\"],[\"FILTER\",\"AMP\"],[\"AMP\",\"OUT\"]],params:{cutoffHz:1000,depth:.2,gain:.5},mapping:\"MAP1\",deps:[\"H1@1\",\"P1@1\",\"ORIGINAL-SYNTHETIC-TABLE1\",\"SYNTHETIC-SAMPLE1\"],output:\"D1\",rubric:\"Q1\"};\n const keys=Object.keys(base),paramKeys=Object.keys(base.params);\n function sameKeys(a,k){return !!a&&typeof a===\"object\"&&Object.keys(a).length===k.length&&k.every(s=>Object.hasOwn(a,s))}\n function exact(a,b){return sameKeys(a,keys)&&sameKeys(b,keys)&&keys.every(k=>eq(a[k],b[k]))}\n // Only cutoff and depth may change, plus a new patch/output marker after edit.\n function allowedCandidate(c){if(!sameKeys(c,keys)||!sameKeys(c.params,paramKeys))return false;const fixed=keys.filter(k=>![\"params\",\"patch\",\"output\"].includes(k));if(!fixed.every(k=>eq(c[k],base[k]))||c.params.gain!==base.params.gain||!finite(c.params.cutoffHz)||c.params.cutoffHz<200||c.params.cutoffHz>2000||!finite(c.params.depth)||c.params.depth<0||c.params.depth>1)return false;const changed=c.params.cutoffHz!==base.params.cutoffHz||c.params.depth!==base.params.depth;return changed?c.patch===\"PATCH2\"&&c.output===\"D2\":c.patch===base.patch&&c.output===base.output}\n function receipt(c){return {identity:cp(c),kind:\"SYNTHETIC_STIPULATION\",technical:true,musical:true,protectedContent:true,editable:true,depsVerified:true,reopened:true,reviewCurrent:true}}\n function gate(c,q,g){if(!allowedCandidate(c))return \"OUTSIDE_FIXTURE\";if(!g||g.syntheticOnly!==true||g.actualOutput!==false||g.rights!==true||g.safety!==true)return \"STOP_OR_PENDING\";if(!q||!exact(c,q.identity)||q.kind!==\"SYNTHETIC_STIPULATION\"||![\"technical\",\"musical\",\"protectedContent\",\"editable\",\"depsVerified\",\"reopened\",\"reviewCurrent\"].every(k=>q[k]===true))return \"NOT_READY\";return \"SYNTHETIC_CANDIDATE_ONLY\"}\n const g={syntheticOnly:true,actualOutput:false,rights:true,safety:true};\n const edit={...cp(base),params:{cutoffHz:800,depth:.3,gain:.5},patch:\"PATCH2\",output:\"D2\"};\n const tests=[\n [\"partial amplitude bound\",close(peakBound([.4,.2,.1]),.7)],\n [\"linear steady response\",linearFilter([.5,.3,.2],[1,.5,.1]).every((v,i)=>close(v,[.5,.15,.02][i]))],\n [\"strict Nyquist harmonic screening\",eq(harmonicGrid(8000,48000,8),[8000,16000])],\n [\"invalid oscillator bounds\",harmonicGrid(0,48000,8)===null&&harmonicGrid(440,0,8)===null],\n [\"FM index and signed frequency candidates\",eq(fmGrid(440,110,220,1),{index:2,signedCandidates:[330,440,550]})],\n [\"zero deviation carrier only\",eq(fmGrid(440,110,0,3),{index:0,signedCandidates:[440]})],\n [\"negative frequencies retained for analysis not discarded\",eq(fmGrid(100,300,300,1).signedCandidates,[-200,100,400])],\n [\"invalid modulator refused\",fmGrid(440,0,220,1)===null],\n [\"single-cycle interpolation\",tableAt([0,1,0,-1],.125)===.5],\n [\"table end wraps\",tableAt([0,1,0,-1],.875)===-.5&&tableAt([0,1,0,-1],1)===0],\n [\"invalid phase and table\",tableAt([0,1],1.1)===null&&tableAt([0],.1)===null],\n [\"frame morph\",eq(morph([0,1,0,-1],[0,.2,0,-.2],.25),[0,.8,0,-.8])],\n [\"misaligned table lengths refuse\",morph([0,1],[0,1,0],.5)===null],\n [\"ideal average overlap\",grainOverlap(.05,40)===2],\n [\"grain boundary checks\",!grainInBounds(47000,2400,1,48000)&&grainInBounds(45600,2400,1,48000)&&!grainInBounds(45601,2400,1,48000)],\n [\"step and endpoints\",grainInBounds(0,3,2,5)&&!grainInBounds(0,3,2,4)&&!grainInBounds(0,3,0,5)],\n [\"ideal delay pitch\",delayHz(48000,100)===480&&close(delayHz(48000,48000/440),440)],\n [\"reflection strict bound\",reflection(.5)&&!reflection(0)&&!reflection(1)&&!reflection(1.1)],\n [\"scalar impulse decay\",eq([0,1,2].map(n=>.5**n),[1,.5,.25])],\n [\"sample transposition ratio\",close(rate(62,60),2**(1/6))&&rate(72,60)===2],\n [\"key and velocity boundaries\",eq(regionMatches(60,63),[\"LOW\"])&&eq(regionMatches(63,64),[\"HIGH\"])&&eq(regionMatches(64,64),[])&&eq(regionMatches(60,0),[])],\n [\"early noteoff no jump to sustain\",close(envEarlyRelease(.05,.05,.1,.3),.5)&&close(envEarlyRelease(.2,.05,.1,.3),.25)&&close(envEarlyRelease(.35,.05,.1,.3),0)],\n [\"tempo sync 2 beats\",120/60/2===1],\n [\"additive multiplicative modulation\",close(mod(.5,[.2,-.1],\"add\"),.6)&&close(mod(.5,[.8,1],\"multiply\"),.4)],\n [\"neutral values and zero multiplier\",mod(.5,[0],\"add\")===.5&&mod(.5,[1],\"multiply\")===.5&&mod(.5,[0],\"multiply\")===0],\n [\"Rack mono and missing channel policy\",eq(polySecondary(3,[2]),[2,2,2])&&eq(polySecondary(3,[2,3]),[2,3,0])&&eq(polySecondary(2,[1,2,3]),[1,2])],\n [\"voltage octave relation\",440*2**1===880&&440*2**-1===220],\n [\"routing ordinary DAG\",routing([\"A\",\"B\"],[[\"A\",\"B\"]],[])===\"TOPOLOGY_CANDIDATE_ONLY\"],\n [\"routing delayed cycle only structural\",routing([\"A\",\"D\"],[[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"TOPOLOGY_CANDIDATE_ONLY\"],\n [\"residual zero-delay subcycle with delay elsewhere\",routing([\"A\",\"B\",\"D\"],[[\"A\",\"B\"],[\"B\",\"A\"],[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"ZERO_DELAY_CYCLE\"],\n [\"self-loop and unknown node\",routing([\"A\"],[[\"A\",\"A\"]],[])===\"ZERO_DELAY_CYCLE\"&&routing([\"A\"],[[\"A\",\"X\"]],[])===\"UNKNOWN\"],\n [\"macro mapping\",200+(2000-200)*.5===1100&&1-.5*.5===.75],\n [\"MIDI 14-bit center and extremes\",bend(0,64)===8192&&bend(127,127)===16383&&bend(0,0)===0&&bend(128,0)===null],\n [\"spectral centroid and silent unknown\",centroid([100,300,500],[1,2,1])===300&&centroid([100,300,500],[0,0,0])===null],\n [\"same centroid different spectra\",centroid([100,300,500],[1,0,1])===centroid([100,300,500],[0,2,0])],\n [\"fixed candidate positive\",gate(base,receipt(base),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],\n [\"current allowed edit positive\",gate(edit,receipt(edit),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],\n [\"old receipt after edit rejects\",gate(edit,receipt(base),g)===\"NOT_READY\"],\n [\"fresh receipt cannot authorize changed source or graph or dependency\",[\"source\",\"sample\",\"waveTable\",\"seed\",\"host\",\"plugin\",\"graph\",\"mapping\",\"deps\",\"notes\",\"clock\",\"rubric\",\"fixture\"].every(k=>{const c={...cp(edit),[k]:\"changed\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],\n [\"same content marker after changed patch refuses\",gate({...edit,output:\"D1\"},receipt({...edit,output:\"D1\"}),g)===\"OUTSIDE_FIXTURE\"],\n [\"protected gain and parameter bounds\",[{gain:.7},{cutoffHz:50},{depth:1.1},{extra:1}].every(o=>{const c={...cp(edit),params:{...edit.params,...o}};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],\n [\"missing actual dependency verification or reopen or review refuses\",[\"depsVerified\",\"reopened\",\"reviewCurrent\",\"editable\",\"protectedContent\",\"technical\",\"musical\"].every(k=>gate(edit,{...receipt(edit),[k]:null},g)===\"NOT_READY\")],\n [\"synthetic rights safety and output flags independently bound\",[\"syntheticOnly\",\"rights\",\"safety\"].every(k=>gate(edit,receipt(edit),{...g,[k]:null})===\"STOP_OR_PENDING\")&&gate(edit,receipt(edit),{...g,actualOutput:true})===\"STOP_OR_PENDING\"],\n [\"all current receipt identity fields exact\",keys.every(k=>gate(edit,{...receipt(edit),identity:{...cp(edit),[k]:\"changed\"}},g)===\"NOT_READY\")],\n\n [\"order-only base map same marker accepted\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000}};return gate(c,receipt(c),g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],\n [\"order-only base map new marker rejected\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000},patch:\"PATCH2\",output:\"D2\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})()],\n [\"same semantic receipt with reordered params and top keys accepted\",(()=>{const q=receipt(edit);q.identity=Object.fromEntries(Object.entries(q.identity).reverse());q.identity.params={gain:.5,depth:.3,cutoffHz:800};return gate(edit,q,g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],\n [\"ordered notes and graph cannot be reversed\",[\"notes\",\"graph\"].every(k=>{const c={...cp(edit),[k]:[...edit[k]].reverse()};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],\n [\"receipt ordered arrays still exact\",[\"notes\",\"graph\"].every(k=>{const q=receipt(edit);q.identity[k].reverse();return gate(edit,q,g)===\"NOT_READY\"})]\n\n ];\n return tests;\n}\nconsole.log(runK18Finite());\n"
+    },
+    "baseline": {
+      "fixture": "SD-J1",
+      "clock": "PPQ480-T120",
+      "notes": [
+        {
+          "pitch": 60,
+          "start": 0,
+          "dur": 480
+        },
+        {
+          "pitch": 62,
+          "start": 480,
+          "dur": 480
+        },
+        {
+          "pitch": 64,
+          "start": 960,
+          "dur": 240
+        }
+      ],
+      "source": "ORIGINAL-SYNTHETIC-TABLE1",
+      "waveTable": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "sample": "SYNTHETIC-SAMPLE1",
+      "seed": 17,
+      "host": "H1@1",
+      "plugin": "P1@1",
+      "patch": "PATCH1",
+      "graph": [
+        [
+          "OSC",
+          "FILTER"
+        ],
+        [
+          "FILTER",
+          "AMP"
+        ],
+        [
+          "AMP",
+          "OUT"
+        ]
+      ],
+      "params": {
+        "cutoffHz": 1000,
+        "depth": 0.2,
+        "gain": 0.5
+      },
+      "mapping": "MAP1",
+      "deps": [
+        "H1@1",
+        "P1@1",
+        "ORIGINAL-SYNTHETIC-TABLE1",
+        "SYNTHETIC-SAMPLE1"
+      ],
+      "output": "D1",
+      "rubric": "Q1"
+    },
+    "candidate": {
+      "fixture": "SD-J1",
+      "clock": "PPQ480-T120",
+      "notes": [
+        {
+          "pitch": 60,
+          "start": 0,
+          "dur": 480
+        },
+        {
+          "pitch": 62,
+          "start": 480,
+          "dur": 480
+        },
+        {
+          "pitch": 64,
+          "start": 960,
+          "dur": 240
+        }
+      ],
+      "source": "ORIGINAL-SYNTHETIC-TABLE1",
+      "waveTable": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "sample": "SYNTHETIC-SAMPLE1",
+      "seed": 17,
+      "host": "H1@1",
+      "plugin": "P1@1",
+      "patch": "PATCH2",
+      "graph": [
+        [
+          "OSC",
+          "FILTER"
+        ],
+        [
+          "FILTER",
+          "AMP"
+        ],
+        [
+          "AMP",
+          "OUT"
+        ]
+      ],
+      "params": {
+        "cutoffHz": 800,
+        "depth": 0.3,
+        "gain": 0.5
+      },
+      "mapping": "MAP1",
+      "deps": [
+        "H1@1",
+        "P1@1",
+        "ORIGINAL-SYNTHETIC-TABLE1",
+        "SYNTHETIC-SAMPLE1"
+      ],
+      "output": "D2",
+      "rubric": "Q1"
+    },
+    "syntheticScope": {
+      "syntheticOnly": true,
+      "actualOutput": false,
+      "rights": true,
+      "safety": true
+    },
+    "receipt": {
+      "identity": {
+        "fixture": "SD-J1",
+        "clock": "PPQ480-T120",
+        "notes": [
+          {
+            "pitch": 60,
+            "start": 0,
+            "dur": 480
+          },
+          {
+            "pitch": 62,
+            "start": 480,
+            "dur": 480
+          },
+          {
+            "pitch": 64,
+            "start": 960,
+            "dur": 240
+          }
+        ],
+        "source": "ORIGINAL-SYNTHETIC-TABLE1",
+        "waveTable": [
+          0,
+          1,
+          0,
+          -1
+        ],
+        "sample": "SYNTHETIC-SAMPLE1",
+        "seed": 17,
+        "host": "H1@1",
+        "plugin": "P1@1",
+        "patch": "PATCH2",
+        "graph": [
+          [
+            "OSC",
+            "FILTER"
+          ],
+          [
+            "FILTER",
+            "AMP"
+          ],
+          [
+            "AMP",
+            "OUT"
+          ]
+        ],
+        "params": {
+          "cutoffHz": 800,
+          "depth": 0.3,
+          "gain": 0.5
+        },
+        "mapping": "MAP1",
+        "deps": [
+          "H1@1",
+          "P1@1",
+          "ORIGINAL-SYNTHETIC-TABLE1",
+          "SYNTHETIC-SAMPLE1"
+        ],
+        "output": "D2",
+        "rubric": "Q1"
+      },
+      "kind": "SYNTHETIC_STIPULATION",
+      "technical": true,
+      "musical": true,
+      "protectedContent": true,
+      "editable": true,
+      "depsVerified": true,
+      "reopened": true,
+      "reviewCurrent": true
+    },
+    "frozenExpectedChecks": [
+      "partial amplitude bound",
+      "linear steady response",
+      "strict Nyquist harmonic screening",
+      "invalid oscillator bounds",
+      "FM index and signed frequency candidates",
+      "zero deviation carrier only",
+      "negative frequencies retained for analysis not discarded",
+      "invalid modulator refused",
+      "single-cycle interpolation",
+      "table end wraps",
+      "invalid phase and table",
+      "frame morph",
+      "misaligned table lengths refuse",
+      "ideal average overlap",
+      "grain boundary checks",
+      "step and endpoints",
+      "ideal delay pitch",
+      "reflection strict bound",
+      "scalar impulse decay",
+      "sample transposition ratio",
+      "key and velocity boundaries",
+      "early noteoff no jump to sustain",
+      "tempo sync 2 beats",
+      "additive multiplicative modulation",
+      "neutral values and zero multiplier",
+      "Rack mono and missing channel policy",
+      "voltage octave relation",
+      "routing ordinary DAG",
+      "routing delayed cycle only structural",
+      "residual zero-delay subcycle with delay elsewhere",
+      "self-loop and unknown node",
+      "macro mapping",
+      "MIDI 14-bit center and extremes",
+      "spectral centroid and silent unknown",
+      "same centroid different spectra",
+      "fixed candidate positive",
+      "current allowed edit positive",
+      "old receipt after edit rejects",
+      "fresh receipt cannot authorize changed source or graph or dependency",
+      "same content marker after changed patch refuses",
+      "protected gain and parameter bounds",
+      "missing actual dependency verification or reopen or review refuses",
+      "synthetic rights safety and output flags independently bound",
+      "all current receipt identity fields exact",
+      "order-only base map same marker accepted",
+      "order-only base map new marker rejected",
+      "same semantic receipt with reordered params and top keys accepted",
+      "ordered notes and graph cannot be reversed",
+      "receipt ordered arrays still exact"
+    ]
+  },
+  "history": [
+    {
+      "text": "## 实际可重放有限JS见证",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 20,
+        "row": "## 实际可重放有限JS见证"
+      }
+    },
+    {
+      "text": "以下函数是实际执行的同一函数；固定原创数值及题设标记。数学与条件检查非通用DSP/音频库、通用授权/验收或真实宿主输出。routing的delays输入为题设已声明合格延迟节点，不测延迟大小、环路增益或稳定性；表插值仅一周期示例；SD-J1只允许指定素材和两参数范围，新标记不等实际内容摘要，receipt及g是题设证据、并非真实观察。所有拒绝与合格均限定本例。G04 #74修正：固定JSON型命名映射比较键集合和值，不比较插入顺序；数组（音符/路径等）顺序保留。实际修改仅cutoff/depth值变动。历史44项结果保存在原受审6715ca2b6f177600098bdb2f1c58b87656674334（R4 blob cc9491d905d2bcec05833f395e02f66c1fb9e930），本轮实际重放原44及修订后49（原44+5新增），不累计为93。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 21,
+        "row": "以下函数是实际执行的同一函数；固定原创数值及题设标记。数学与条件检查非通用DSP/音频库、通用授权/验收或真实宿主输出。routing的delays输入为题设已声明合格延迟节点，不测延迟大小、环路增益或稳定性；表插值仅一周期示例；SD-J1只允许指定素材和两参数范围，新标记不等实际内容摘要，receipt及g是题设证据、并非真实观察。所有拒绝与合格均限定本例。G04 #74修正：固定JSON型命名映射比较键集合和值，不比较插入顺序；数组（音符/路径等）顺序保留。实际修改仅cutoff/depth值变动。历史44项结果保存在原受审6715ca2b6f177600098bdb2f1c58b87656674334（R4 blob cc9491d905d2bcec05833f395e02f66c1fb9e930），本轮实际重放原44及修订后49（原44+5新增），不累计为93。"
+      }
+    },
+    {
+      "text": "```javascript",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 22,
+        "row": "```javascript"
+      }
+    },
+    {
+      "text": "function runK18Finite(){",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 23,
+        "row": "function runK18Finite(){"
+      }
+    },
+    {
+      "text": " const eq=(a,b)=>{if(a===b)return true;if(a===null||b===null||typeof a!==\"object\"||typeof b!==\"object\"||Array.isArray(a)!==Array.isArray(b))return false;if(Array.isArray(a))return a.length===b.length&&a.every((v,i)=>eq(v,b[i]));const keys=Object.keys(a);return keys.length===Object.keys(b).length&&keys.every(k=>Object.hasOwn(b,k)&&eq(a[k],b[k]))},cp=x=>JSON.parse(JSON.stringify(x)),close=(a,b)=>Math.abs(a-b)<1e-9,finite=Number.isFinite;",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 24,
+        "row": " const eq=(a,b)=>{if(a===b)return true;if(a===null||b===null||typeof a!==\"object\"||typeof b!==\"object\"||Array.isArray(a)!==Array.isArray(b))return false;if(Array.isArray(a))return a.length===b.length&&a.every((v,i)=>eq(v,b[i]));const keys=Object.keys(a);return keys.length===Object.keys(b).length&&keys.every(k=>Object.hasOwn(b,k)&&eq(a[k],b[k]))},cp=x=>JSON.parse(JSON.stringify(x)),close=(a,b)=>Math.abs(a-b)<1e-9,finite=Number.isFinite;"
+      }
+    },
+    {
+      "text": " function harmonicGrid(f,fs,n){if(!finite(f)||f<=0||!finite(fs)||fs<=0||!Number.isSafeInteger(n)||n<1||n>1024)return null;return Array.from({length:n},(_,i)=>f*(i+1)).filter(v=>v<fs/2)}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 25,
+        "row": " function harmonicGrid(f,fs,n){if(!finite(f)||f<=0||!finite(fs)||fs<=0||!Number.isSafeInteger(n)||n<1||n>1024)return null;return Array.from({length:n},(_,i)=>f*(i+1)).filter(v=>v<fs/2)}"
+      }
+    },
+    {
+      "text": " function peakBound(a){return Array.isArray(a)&&a.length&&a.every(finite)?a.reduce((s,v)=>s+Math.abs(v),0):null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 26,
+        "row": " function peakBound(a){return Array.isArray(a)&&a.length&&a.every(finite)?a.reduce((s,v)=>s+Math.abs(v),0):null}"
+      }
+    },
+    {
+      "text": " function linearFilter(a,g){return Array.isArray(a)&&Array.isArray(g)&&a.length>0&&a.length===g.length&&a.every(v=>finite(v)&&v>=0)&&g.every(v=>finite(v)&&v>=0)?a.map((v,i)=>v*g[i]):null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 27,
+        "row": " function linearFilter(a,g){return Array.isArray(a)&&Array.isArray(g)&&a.length>0&&a.length===g.length&&a.every(v=>finite(v)&&v>=0)&&g.every(v=>finite(v)&&v>=0)?a.map((v,i)=>v*g[i]):null}"
+      }
+    },
+    {
+      "text": " function fmGrid(fc,fm,dev,n){if(![fc,fm,dev].every(finite)||fc<=0||fm<=0||dev<0||!Number.isSafeInteger(n)||n<0||n>1024)return null;return {index:dev/fm,signedCandidates:dev===0?[fc]:Array.from({length:2*n+1},(_,i)=>fc+(i-n)*fm)}}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 28,
+        "row": " function fmGrid(fc,fm,dev,n){if(![fc,fm,dev].every(finite)||fc<=0||fm<=0||dev<0||!Number.isSafeInteger(n)||n<0||n>1024)return null;return {index:dev/fm,signedCandidates:dev===0?[fc]:Array.from({length:2*n+1},(_,i)=>fc+(i-n)*fm)}}"
+      }
+    },
+    {
+      "text": " function tableAt(t,phase){if(!Array.isArray(t)||t.length<2||!t.every(finite)||!finite(phase)||phase<0||phase>1)return null;const k=(phase%1)*t.length,i=Math.floor(k),q=k-i;return t[i]*(1-q)+t[(i+1)%t.length]*q}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 29,
+        "row": " function tableAt(t,phase){if(!Array.isArray(t)||t.length<2||!t.every(finite)||!finite(phase)||phase<0||phase>1)return null;const k=(phase%1)*t.length,i=Math.floor(k),q=k-i;return t[i]*(1-q)+t[(i+1)%t.length]*q}"
+      }
+    },
+    {
+      "text": " function morph(a,b,x){return Array.isArray(a)&&Array.isArray(b)&&a.length>=2&&a.length===b.length&&[...a,...b].every(finite)&&finite(x)&&x>=0&&x<=1?a.map((v,i)=>v*(1-x)+b[i]*x):null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 30,
+        "row": " function morph(a,b,x){return Array.isArray(a)&&Array.isArray(b)&&a.length>=2&&a.length===b.length&&[...a,...b].every(finite)&&finite(x)&&x>=0&&x<=1?a.map((v,i)=>v*(1-x)+b[i]*x):null}"
+      }
+    },
+    {
+      "text": " function grainOverlap(seconds,density){return [seconds,density].every(finite)&&seconds>0&&density>=0?seconds*density:null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 31,
+        "row": " function grainOverlap(seconds,density){return [seconds,density].every(finite)&&seconds>0&&density>=0?seconds*density:null}"
+      }
+    },
+    {
+      "text": " // Only positive integer sample step; length is number of read events.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 32,
+        "row": " // Only positive integer sample step; length is number of read events."
+      }
+    },
+    {
+      "text": " function grainInBounds(start,count,step,N){return [start,count,step,N].every(Number.isSafeInteger)&&start>=0&&count>0&&step>0&&N>0&&start+(count-1)*step<N}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 33,
+        "row": " function grainInBounds(start,count,step,N){return [start,count,step,N].every(Number.isSafeInteger)&&start>=0&&count>0&&step>0&&N>0&&start+(count-1)*step<N}"
+      }
+    },
+    {
+      "text": " function delayHz(fs,D){return finite(fs)&&fs>0&&finite(D)&&D>0?fs/D:null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 34,
+        "row": " function delayHz(fs,D){return finite(fs)&&fs>0&&finite(D)&&D>0?fs/D:null}"
+      }
+    },
+    {
+      "text": " function reflection(x){return finite(x)&&x>0&&x<1}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 35,
+        "row": " function reflection(x){return finite(x)&&x>0&&x<1}"
+      }
+    },
+    {
+      "text": " function rate(note,root){return [note,root].every(x=>Number.isInteger(x)&&x>=0&&x<=127)?2**((note-root)/12):null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 36,
+        "row": " function rate(note,root){return [note,root].every(x=>Number.isInteger(x)&&x>=0&&x<=127)?2**((note-root)/12):null}"
+      }
+    },
+    {
+      "text": " const regions=[{id:\"LOW\",lo:60,hi:63,vlo:1,vhi:63,root:60},{id:\"HIGH\",lo:60,hi:63,vlo:64,vhi:127,root:60}];",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 37,
+        "row": " const regions=[{id:\"LOW\",lo:60,hi:63,vlo:1,vhi:63,root:60},{id:\"HIGH\",lo:60,hi:63,vlo:64,vhi:127,root:60}];"
+      }
+    },
+    {
+      "text": " function regionMatches(n,v){if(![n,v].every(x=>Number.isInteger(x)&&x>=0&&x<=127)||v===0)return [];return regions.filter(r=>n>=r.lo&&n<=r.hi&&v>=r.vlo&&v<=r.vhi).map(r=>r.id)}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 38,
+        "row": " function regionMatches(n,v){if(![n,v].every(x=>Number.isInteger(x)&&x>=0&&x<=127)||v===0)return [];return regions.filter(r=>n>=r.lo&&n<=r.hi&&v>=r.vlo&&v<=r.vhi).map(r=>r.id)}"
+      }
+    },
+    {
+      "text": " function envEarlyRelease(t,off,attack,release){if(![t,off,attack,release].every(finite)||t<0||off<0||off>attack||attack<=0||release<=0)return null;return t<off?t/attack:(off/attack)*Math.max(0,1-(t-off)/release)}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 39,
+        "row": " function envEarlyRelease(t,off,attack,release){if(![t,off,attack,release].every(finite)||t<0||off<0||off>attack||attack<=0||release<=0)return null;return t<off?t/attack:(off/attack)*Math.max(0,1-(t-off)/release)}"
+      }
+    },
+    {
+      "text": " function mod(base,sources,mode){if(!finite(base)||!Array.isArray(sources)||!sources.every(finite))return null;if(mode===\"add\")return base+sources.reduce((a,b)=>a+b,0);if(mode===\"multiply\"&&sources.every(v=>v>=0))return base*sources.reduce((a,b)=>a*b,1);return null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 40,
+        "row": " function mod(base,sources,mode){if(!finite(base)||!Array.isArray(sources)||!sources.every(finite))return null;if(mode===\"add\")return base+sources.reduce((a,b)=>a+b,0);if(mode===\"multiply\"&&sources.every(v=>v>=0))return base*sources.reduce((a,b)=>a*b,1);return null}"
+      }
+    },
+    {
+      "text": " function polySecondary(N,values){if(!Number.isInteger(N)||N<1||N>16||!Array.isArray(values)||values.length<1||values.length>16||!values.every(finite))return null;return Array.from({length:N},(_,i)=>values.length===1?values[0]:values[i]??0)}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 41,
+        "row": " function polySecondary(N,values){if(!Number.isInteger(N)||N<1||N>16||!Array.isArray(values)||values.length<1||values.length>16||!values.every(finite))return null;return Array.from({length:N},(_,i)=>values.length===1?values[0]:values[i]??0)}"
+      }
+    },
+    {
+      "text": " function bend(lsb,msb){return [lsb,msb].every(v=>Number.isInteger(v)&&v>=0&&v<128)?lsb+128*msb:null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 42,
+        "row": " function bend(lsb,msb){return [lsb,msb].every(v=>Number.isInteger(v)&&v>=0&&v<128)?lsb+128*msb:null}"
+      }
+    },
+    {
+      "text": " function centroid(f,a){if(!Array.isArray(f)||!Array.isArray(a)||!f.length||f.length!==a.length||!f.every(v=>finite(v)&&v>=0)||!a.every(v=>finite(v)&&v>=0))return null;const s=a.reduce((x,y)=>x+y,0);return s>0?f.reduce((x,y,i)=>x+y*a[i],0)/s:null}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 43,
+        "row": " function centroid(f,a){if(!Array.isArray(f)||!Array.isArray(a)||!f.length||f.length!==a.length||!f.every(v=>finite(v)&&v>=0)||!a.every(v=>finite(v)&&v>=0))return null;const s=a.reduce((x,y)=>x+y,0);return s>0?f.reduce((x,y,i)=>x+y*a[i],0)/s:null}"
+      }
+    },
+    {
+      "text": " // Conservative topology screen, not Web Audio renderer. Remove each declared",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 44,
+        "row": " // Conservative topology screen, not Web Audio renderer. Remove each declared"
+      }
+    },
+    {
+      "text": " // delay node from the instantaneous subgraph; any residual cycle is rejected.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 45,
+        "row": " // delay node from the instantaneous subgraph; any residual cycle is rejected."
+      }
+    },
+    {
+      "text": " function routing(nodes,edges,delays){if(!Array.isArray(nodes)||!nodes.length||new Set(nodes).size!==nodes.length||!Array.isArray(edges)||!Array.isArray(delays)||!delays.every(n=>nodes.includes(n))||!edges.every(e=>Array.isArray(e)&&e.length===2&&e.every(n=>nodes.includes(n))))return \"UNKNOWN\";const live=nodes.filter(n=>!delays.includes(n)),state=new Map();function visit(n){if(state.get(n)===1)return false;if(state.get(n)===2)return true;state.set(n,1);for(const [u,v] of edges)if(u===n&&live.includes(v)&&!visit(v))return false;state.set(n,2);return true}return live.every(visit)?\"TOPOLOGY_CANDIDATE_ONLY\":\"ZERO_DELAY_CYCLE\"}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 46,
+        "row": " function routing(nodes,edges,delays){if(!Array.isArray(nodes)||!nodes.length||new Set(nodes).size!==nodes.length||!Array.isArray(edges)||!Array.isArray(delays)||!delays.every(n=>nodes.includes(n))||!edges.every(e=>Array.isArray(e)&&e.length===2&&e.every(n=>nodes.includes(n))))return \"UNKNOWN\";const live=nodes.filter(n=>!delays.includes(n)),state=new Map();function visit(n){if(state.get(n)===1)return false;if(state.get(n)===2)return true;state.set(n,1);for(const [u,v] of edges)if(u===n&&live.includes(v)&&!visit(v))return false;state.set(n,2);return true}return live.every(visit)?\"TOPOLOGY_CANDIDATE_ONLY\":\"ZERO_DELAY_CYCLE\"}"
+      }
+    },
+    {
+      "text": " const protectedNotes=[{pitch:60,start:0,dur:480},{pitch:62,start:480,dur:480},{pitch:64,start:960,dur:240}];",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 47,
+        "row": " const protectedNotes=[{pitch:60,start:0,dur:480},{pitch:62,start:480,dur:480},{pitch:64,start:960,dur:240}];"
+      }
+    },
+    {
+      "text": " const base={fixture:\"SD-J1\",clock:\"PPQ480-T120\",notes:cp(protectedNotes),source:\"ORIGINAL-SYNTHETIC-TABLE1\",waveTable:[0,1,0,-1],sample:\"SYNTHETIC-SAMPLE1\",seed:17,host:\"H1@1\",plugin:\"P1@1\",patch:\"PATCH1\",graph:[[\"OSC\",\"FILTER\"],[\"FILTER\",\"AMP\"],[\"AMP\",\"OUT\"]],params:{cutoffHz:1000,depth:.2,gain:.5},mapping:\"MAP1\",deps:[\"H1@1\",\"P1@1\",\"ORIGINAL-SYNTHETIC-TABLE1\",\"SYNTHETIC-SAMPLE1\"],output:\"D1\",rubric:\"Q1\"};",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 48,
+        "row": " const base={fixture:\"SD-J1\",clock:\"PPQ480-T120\",notes:cp(protectedNotes),source:\"ORIGINAL-SYNTHETIC-TABLE1\",waveTable:[0,1,0,-1],sample:\"SYNTHETIC-SAMPLE1\",seed:17,host:\"H1@1\",plugin:\"P1@1\",patch:\"PATCH1\",graph:[[\"OSC\",\"FILTER\"],[\"FILTER\",\"AMP\"],[\"AMP\",\"OUT\"]],params:{cutoffHz:1000,depth:.2,gain:.5},mapping:\"MAP1\",deps:[\"H1@1\",\"P1@1\",\"ORIGINAL-SYNTHETIC-TABLE1\",\"SYNTHETIC-SAMPLE1\"],output:\"D1\",rubric:\"Q1\"};"
+      }
+    },
+    {
+      "text": " const keys=Object.keys(base),paramKeys=Object.keys(base.params);",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 49,
+        "row": " const keys=Object.keys(base),paramKeys=Object.keys(base.params);"
+      }
+    },
+    {
+      "text": " function sameKeys(a,k){return !!a&&typeof a===\"object\"&&Object.keys(a).length===k.length&&k.every(s=>Object.hasOwn(a,s))}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 50,
+        "row": " function sameKeys(a,k){return !!a&&typeof a===\"object\"&&Object.keys(a).length===k.length&&k.every(s=>Object.hasOwn(a,s))}"
+      }
+    },
+    {
+      "text": " function exact(a,b){return sameKeys(a,keys)&&sameKeys(b,keys)&&keys.every(k=>eq(a[k],b[k]))}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 51,
+        "row": " function exact(a,b){return sameKeys(a,keys)&&sameKeys(b,keys)&&keys.every(k=>eq(a[k],b[k]))}"
+      }
+    },
+    {
+      "text": " // Only cutoff and depth may change, plus a new patch/output marker after edit.",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 52,
+        "row": " // Only cutoff and depth may change, plus a new patch/output marker after edit."
+      }
+    },
+    {
+      "text": " function allowedCandidate(c){if(!sameKeys(c,keys)||!sameKeys(c.params,paramKeys))return false;const fixed=keys.filter(k=>![\"params\",\"patch\",\"output\"].includes(k));if(!fixed.every(k=>eq(c[k],base[k]))||c.params.gain!==base.params.gain||!finite(c.params.cutoffHz)||c.params.cutoffHz<200||c.params.cutoffHz>2000||!finite(c.params.depth)||c.params.depth<0||c.params.depth>1)return false;const changed=c.params.cutoffHz!==base.params.cutoffHz||c.params.depth!==base.params.depth;return changed?c.patch===\"PATCH2\"&&c.output===\"D2\":c.patch===base.patch&&c.output===base.output}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 53,
+        "row": " function allowedCandidate(c){if(!sameKeys(c,keys)||!sameKeys(c.params,paramKeys))return false;const fixed=keys.filter(k=>![\"params\",\"patch\",\"output\"].includes(k));if(!fixed.every(k=>eq(c[k],base[k]))||c.params.gain!==base.params.gain||!finite(c.params.cutoffHz)||c.params.cutoffHz<200||c.params.cutoffHz>2000||!finite(c.params.depth)||c.params.depth<0||c.params.depth>1)return false;const changed=c.params.cutoffHz!==base.params.cutoffHz||c.params.depth!==base.params.depth;return changed?c.patch===\"PATCH2\"&&c.output===\"D2\":c.patch===base.patch&&c.output===base.output}"
+      }
+    },
+    {
+      "text": " function receipt(c){return {identity:cp(c),kind:\"SYNTHETIC_STIPULATION\",technical:true,musical:true,protectedContent:true,editable:true,depsVerified:true,reopened:true,reviewCurrent:true}}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 54,
+        "row": " function receipt(c){return {identity:cp(c),kind:\"SYNTHETIC_STIPULATION\",technical:true,musical:true,protectedContent:true,editable:true,depsVerified:true,reopened:true,reviewCurrent:true}}"
+      }
+    },
+    {
+      "text": " function gate(c,q,g){if(!allowedCandidate(c))return \"OUTSIDE_FIXTURE\";if(!g||g.syntheticOnly!==true||g.actualOutput!==false||g.rights!==true||g.safety!==true)return \"STOP_OR_PENDING\";if(!q||!exact(c,q.identity)||q.kind!==\"SYNTHETIC_STIPULATION\"||![\"technical\",\"musical\",\"protectedContent\",\"editable\",\"depsVerified\",\"reopened\",\"reviewCurrent\"].every(k=>q[k]===true))return \"NOT_READY\";return \"SYNTHETIC_CANDIDATE_ONLY\"}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 55,
+        "row": " function gate(c,q,g){if(!allowedCandidate(c))return \"OUTSIDE_FIXTURE\";if(!g||g.syntheticOnly!==true||g.actualOutput!==false||g.rights!==true||g.safety!==true)return \"STOP_OR_PENDING\";if(!q||!exact(c,q.identity)||q.kind!==\"SYNTHETIC_STIPULATION\"||![\"technical\",\"musical\",\"protectedContent\",\"editable\",\"depsVerified\",\"reopened\",\"reviewCurrent\"].every(k=>q[k]===true))return \"NOT_READY\";return \"SYNTHETIC_CANDIDATE_ONLY\"}"
+      }
+    },
+    {
+      "text": " const g={syntheticOnly:true,actualOutput:false,rights:true,safety:true};",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 56,
+        "row": " const g={syntheticOnly:true,actualOutput:false,rights:true,safety:true};"
+      }
+    },
+    {
+      "text": " const edit={...cp(base),params:{cutoffHz:800,depth:.3,gain:.5},patch:\"PATCH2\",output:\"D2\"};",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 57,
+        "row": " const edit={...cp(base),params:{cutoffHz:800,depth:.3,gain:.5},patch:\"PATCH2\",output:\"D2\"};"
+      }
+    },
+    {
+      "text": " const tests=[",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 58,
+        "row": " const tests=["
+      }
+    },
+    {
+      "text": " [\"partial amplitude bound\",close(peakBound([.4,.2,.1]),.7)],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 59,
+        "row": " [\"partial amplitude bound\",close(peakBound([.4,.2,.1]),.7)],"
+      }
+    },
+    {
+      "text": " [\"linear steady response\",linearFilter([.5,.3,.2],[1,.5,.1]).every((v,i)=>close(v,[.5,.15,.02][i]))],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 60,
+        "row": " [\"linear steady response\",linearFilter([.5,.3,.2],[1,.5,.1]).every((v,i)=>close(v,[.5,.15,.02][i]))],"
+      }
+    },
+    {
+      "text": " [\"strict Nyquist harmonic screening\",eq(harmonicGrid(8000,48000,8),[8000,16000])],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 61,
+        "row": " [\"strict Nyquist harmonic screening\",eq(harmonicGrid(8000,48000,8),[8000,16000])],"
+      }
+    },
+    {
+      "text": " [\"invalid oscillator bounds\",harmonicGrid(0,48000,8)===null&&harmonicGrid(440,0,8)===null],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 62,
+        "row": " [\"invalid oscillator bounds\",harmonicGrid(0,48000,8)===null&&harmonicGrid(440,0,8)===null],"
+      }
+    },
+    {
+      "text": " [\"FM index and signed frequency candidates\",eq(fmGrid(440,110,220,1),{index:2,signedCandidates:[330,440,550]})],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 63,
+        "row": " [\"FM index and signed frequency candidates\",eq(fmGrid(440,110,220,1),{index:2,signedCandidates:[330,440,550]})],"
+      }
+    },
+    {
+      "text": " [\"zero deviation carrier only\",eq(fmGrid(440,110,0,3),{index:0,signedCandidates:[440]})],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 64,
+        "row": " [\"zero deviation carrier only\",eq(fmGrid(440,110,0,3),{index:0,signedCandidates:[440]})],"
+      }
+    },
+    {
+      "text": " [\"negative frequencies retained for analysis not discarded\",eq(fmGrid(100,300,300,1).signedCandidates,[-200,100,400])],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 65,
+        "row": " [\"negative frequencies retained for analysis not discarded\",eq(fmGrid(100,300,300,1).signedCandidates,[-200,100,400])],"
+      }
+    },
+    {
+      "text": " [\"invalid modulator refused\",fmGrid(440,0,220,1)===null],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 66,
+        "row": " [\"invalid modulator refused\",fmGrid(440,0,220,1)===null],"
+      }
+    },
+    {
+      "text": " [\"single-cycle interpolation\",tableAt([0,1,0,-1],.125)===.5],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 67,
+        "row": " [\"single-cycle interpolation\",tableAt([0,1,0,-1],.125)===.5],"
+      }
+    },
+    {
+      "text": " [\"table end wraps\",tableAt([0,1,0,-1],.875)===-.5&&tableAt([0,1,0,-1],1)===0],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 68,
+        "row": " [\"table end wraps\",tableAt([0,1,0,-1],.875)===-.5&&tableAt([0,1,0,-1],1)===0],"
+      }
+    },
+    {
+      "text": " [\"invalid phase and table\",tableAt([0,1],1.1)===null&&tableAt([0],.1)===null],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 69,
+        "row": " [\"invalid phase and table\",tableAt([0,1],1.1)===null&&tableAt([0],.1)===null],"
+      }
+    },
+    {
+      "text": " [\"frame morph\",eq(morph([0,1,0,-1],[0,.2,0,-.2],.25),[0,.8,0,-.8])],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 70,
+        "row": " [\"frame morph\",eq(morph([0,1,0,-1],[0,.2,0,-.2],.25),[0,.8,0,-.8])],"
+      }
+    },
+    {
+      "text": " [\"misaligned table lengths refuse\",morph([0,1],[0,1,0],.5)===null],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 71,
+        "row": " [\"misaligned table lengths refuse\",morph([0,1],[0,1,0],.5)===null],"
+      }
+    },
+    {
+      "text": " [\"ideal average overlap\",grainOverlap(.05,40)===2],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 72,
+        "row": " [\"ideal average overlap\",grainOverlap(.05,40)===2],"
+      }
+    },
+    {
+      "text": " [\"grain boundary checks\",!grainInBounds(47000,2400,1,48000)&&grainInBounds(45600,2400,1,48000)&&!grainInBounds(45601,2400,1,48000)],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 73,
+        "row": " [\"grain boundary checks\",!grainInBounds(47000,2400,1,48000)&&grainInBounds(45600,2400,1,48000)&&!grainInBounds(45601,2400,1,48000)],"
+      }
+    },
+    {
+      "text": " [\"step and endpoints\",grainInBounds(0,3,2,5)&&!grainInBounds(0,3,2,4)&&!grainInBounds(0,3,0,5)],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 74,
+        "row": " [\"step and endpoints\",grainInBounds(0,3,2,5)&&!grainInBounds(0,3,2,4)&&!grainInBounds(0,3,0,5)],"
+      }
+    },
+    {
+      "text": " [\"ideal delay pitch\",delayHz(48000,100)===480&&close(delayHz(48000,48000/440),440)],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 75,
+        "row": " [\"ideal delay pitch\",delayHz(48000,100)===480&&close(delayHz(48000,48000/440),440)],"
+      }
+    },
+    {
+      "text": " [\"reflection strict bound\",reflection(.5)&&!reflection(0)&&!reflection(1)&&!reflection(1.1)],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 76,
+        "row": " [\"reflection strict bound\",reflection(.5)&&!reflection(0)&&!reflection(1)&&!reflection(1.1)],"
+      }
+    },
+    {
+      "text": " [\"scalar impulse decay\",eq([0,1,2].map(n=>.5**n),[1,.5,.25])],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 77,
+        "row": " [\"scalar impulse decay\",eq([0,1,2].map(n=>.5**n),[1,.5,.25])],"
+      }
+    },
+    {
+      "text": " [\"sample transposition ratio\",close(rate(62,60),2**(1/6))&&rate(72,60)===2],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 78,
+        "row": " [\"sample transposition ratio\",close(rate(62,60),2**(1/6))&&rate(72,60)===2],"
+      }
+    },
+    {
+      "text": " [\"key and velocity boundaries\",eq(regionMatches(60,63),[\"LOW\"])&&eq(regionMatches(63,64),[\"HIGH\"])&&eq(regionMatches(64,64),[])&&eq(regionMatches(60,0),[])],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 79,
+        "row": " [\"key and velocity boundaries\",eq(regionMatches(60,63),[\"LOW\"])&&eq(regionMatches(63,64),[\"HIGH\"])&&eq(regionMatches(64,64),[])&&eq(regionMatches(60,0),[])],"
+      }
+    },
+    {
+      "text": " [\"early noteoff no jump to sustain\",close(envEarlyRelease(.05,.05,.1,.3),.5)&&close(envEarlyRelease(.2,.05,.1,.3),.25)&&close(envEarlyRelease(.35,.05,.1,.3),0)],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 80,
+        "row": " [\"early noteoff no jump to sustain\",close(envEarlyRelease(.05,.05,.1,.3),.5)&&close(envEarlyRelease(.2,.05,.1,.3),.25)&&close(envEarlyRelease(.35,.05,.1,.3),0)],"
+      }
+    },
+    {
+      "text": " [\"tempo sync 2 beats\",120/60/2===1],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 81,
+        "row": " [\"tempo sync 2 beats\",120/60/2===1],"
+      }
+    },
+    {
+      "text": " [\"additive multiplicative modulation\",close(mod(.5,[.2,-.1],\"add\"),.6)&&close(mod(.5,[.8,1],\"multiply\"),.4)],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 82,
+        "row": " [\"additive multiplicative modulation\",close(mod(.5,[.2,-.1],\"add\"),.6)&&close(mod(.5,[.8,1],\"multiply\"),.4)],"
+      }
+    },
+    {
+      "text": " [\"neutral values and zero multiplier\",mod(.5,[0],\"add\")===.5&&mod(.5,[1],\"multiply\")===.5&&mod(.5,[0],\"multiply\")===0],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 83,
+        "row": " [\"neutral values and zero multiplier\",mod(.5,[0],\"add\")===.5&&mod(.5,[1],\"multiply\")===.5&&mod(.5,[0],\"multiply\")===0],"
+      }
+    },
+    {
+      "text": " [\"Rack mono and missing channel policy\",eq(polySecondary(3,[2]),[2,2,2])&&eq(polySecondary(3,[2,3]),[2,3,0])&&eq(polySecondary(2,[1,2,3]),[1,2])],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 84,
+        "row": " [\"Rack mono and missing channel policy\",eq(polySecondary(3,[2]),[2,2,2])&&eq(polySecondary(3,[2,3]),[2,3,0])&&eq(polySecondary(2,[1,2,3]),[1,2])],"
+      }
+    },
+    {
+      "text": " [\"voltage octave relation\",440*2**1===880&&440*2**-1===220],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 85,
+        "row": " [\"voltage octave relation\",440*2**1===880&&440*2**-1===220],"
+      }
+    },
+    {
+      "text": " [\"routing ordinary DAG\",routing([\"A\",\"B\"],[[\"A\",\"B\"]],[])===\"TOPOLOGY_CANDIDATE_ONLY\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 86,
+        "row": " [\"routing ordinary DAG\",routing([\"A\",\"B\"],[[\"A\",\"B\"]],[])===\"TOPOLOGY_CANDIDATE_ONLY\"],"
+      }
+    },
+    {
+      "text": " [\"routing delayed cycle only structural\",routing([\"A\",\"D\"],[[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"TOPOLOGY_CANDIDATE_ONLY\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 87,
+        "row": " [\"routing delayed cycle only structural\",routing([\"A\",\"D\"],[[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"TOPOLOGY_CANDIDATE_ONLY\"],"
+      }
+    },
+    {
+      "text": " [\"residual zero-delay subcycle with delay elsewhere\",routing([\"A\",\"B\",\"D\"],[[\"A\",\"B\"],[\"B\",\"A\"],[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"ZERO_DELAY_CYCLE\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 88,
+        "row": " [\"residual zero-delay subcycle with delay elsewhere\",routing([\"A\",\"B\",\"D\"],[[\"A\",\"B\"],[\"B\",\"A\"],[\"A\",\"D\"],[\"D\",\"A\"]],[\"D\"])===\"ZERO_DELAY_CYCLE\"],"
+      }
+    },
+    {
+      "text": " [\"self-loop and unknown node\",routing([\"A\"],[[\"A\",\"A\"]],[])===\"ZERO_DELAY_CYCLE\"&&routing([\"A\"],[[\"A\",\"X\"]],[])===\"UNKNOWN\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 89,
+        "row": " [\"self-loop and unknown node\",routing([\"A\"],[[\"A\",\"A\"]],[])===\"ZERO_DELAY_CYCLE\"&&routing([\"A\"],[[\"A\",\"X\"]],[])===\"UNKNOWN\"],"
+      }
+    },
+    {
+      "text": " [\"macro mapping\",200+(2000-200)*.5===1100&&1-.5*.5===.75],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 90,
+        "row": " [\"macro mapping\",200+(2000-200)*.5===1100&&1-.5*.5===.75],"
+      }
+    },
+    {
+      "text": " [\"MIDI 14-bit center and extremes\",bend(0,64)===8192&&bend(127,127)===16383&&bend(0,0)===0&&bend(128,0)===null],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 91,
+        "row": " [\"MIDI 14-bit center and extremes\",bend(0,64)===8192&&bend(127,127)===16383&&bend(0,0)===0&&bend(128,0)===null],"
+      }
+    },
+    {
+      "text": " [\"spectral centroid and silent unknown\",centroid([100,300,500],[1,2,1])===300&&centroid([100,300,500],[0,0,0])===null],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 92,
+        "row": " [\"spectral centroid and silent unknown\",centroid([100,300,500],[1,2,1])===300&&centroid([100,300,500],[0,0,0])===null],"
+      }
+    },
+    {
+      "text": " [\"same centroid different spectra\",centroid([100,300,500],[1,0,1])===centroid([100,300,500],[0,2,0])],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 93,
+        "row": " [\"same centroid different spectra\",centroid([100,300,500],[1,0,1])===centroid([100,300,500],[0,2,0])],"
+      }
+    },
+    {
+      "text": " [\"fixed candidate positive\",gate(base,receipt(base),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 94,
+        "row": " [\"fixed candidate positive\",gate(base,receipt(base),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],"
+      }
+    },
+    {
+      "text": " [\"current allowed edit positive\",gate(edit,receipt(edit),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 95,
+        "row": " [\"current allowed edit positive\",gate(edit,receipt(edit),g)===\"SYNTHETIC_CANDIDATE_ONLY\"],"
+      }
+    },
+    {
+      "text": " [\"old receipt after edit rejects\",gate(edit,receipt(base),g)===\"NOT_READY\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 96,
+        "row": " [\"old receipt after edit rejects\",gate(edit,receipt(base),g)===\"NOT_READY\"],"
+      }
+    },
+    {
+      "text": " [\"fresh receipt cannot authorize changed source or graph or dependency\",[\"source\",\"sample\",\"waveTable\",\"seed\",\"host\",\"plugin\",\"graph\",\"mapping\",\"deps\",\"notes\",\"clock\",\"rubric\",\"fixture\"].every(k=>{const c={...cp(edit),[k]:\"changed\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 97,
+        "row": " [\"fresh receipt cannot authorize changed source or graph or dependency\",[\"source\",\"sample\",\"waveTable\",\"seed\",\"host\",\"plugin\",\"graph\",\"mapping\",\"deps\",\"notes\",\"clock\",\"rubric\",\"fixture\"].every(k=>{const c={...cp(edit),[k]:\"changed\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],"
+      }
+    },
+    {
+      "text": " [\"same content marker after changed patch refuses\",gate({...edit,output:\"D1\"},receipt({...edit,output:\"D1\"}),g)===\"OUTSIDE_FIXTURE\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 98,
+        "row": " [\"same content marker after changed patch refuses\",gate({...edit,output:\"D1\"},receipt({...edit,output:\"D1\"}),g)===\"OUTSIDE_FIXTURE\"],"
+      }
+    },
+    {
+      "text": " [\"protected gain and parameter bounds\",[{gain:.7},{cutoffHz:50},{depth:1.1},{extra:1}].every(o=>{const c={...cp(edit),params:{...edit.params,...o}};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 99,
+        "row": " [\"protected gain and parameter bounds\",[{gain:.7},{cutoffHz:50},{depth:1.1},{extra:1}].every(o=>{const c={...cp(edit),params:{...edit.params,...o}};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],"
+      }
+    },
+    {
+      "text": " [\"missing actual dependency verification or reopen or review refuses\",[\"depsVerified\",\"reopened\",\"reviewCurrent\",\"editable\",\"protectedContent\",\"technical\",\"musical\"].every(k=>gate(edit,{...receipt(edit),[k]:null},g)===\"NOT_READY\")],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 100,
+        "row": " [\"missing actual dependency verification or reopen or review refuses\",[\"depsVerified\",\"reopened\",\"reviewCurrent\",\"editable\",\"protectedContent\",\"technical\",\"musical\"].every(k=>gate(edit,{...receipt(edit),[k]:null},g)===\"NOT_READY\")],"
+      }
+    },
+    {
+      "text": " [\"synthetic rights safety and output flags independently bound\",[\"syntheticOnly\",\"rights\",\"safety\"].every(k=>gate(edit,receipt(edit),{...g,[k]:null})===\"STOP_OR_PENDING\")&&gate(edit,receipt(edit),{...g,actualOutput:true})===\"STOP_OR_PENDING\"],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 101,
+        "row": " [\"synthetic rights safety and output flags independently bound\",[\"syntheticOnly\",\"rights\",\"safety\"].every(k=>gate(edit,receipt(edit),{...g,[k]:null})===\"STOP_OR_PENDING\")&&gate(edit,receipt(edit),{...g,actualOutput:true})===\"STOP_OR_PENDING\"],"
+      }
+    },
+    {
+      "text": " [\"all current receipt identity fields exact\",keys.every(k=>gate(edit,{...receipt(edit),identity:{...cp(edit),[k]:\"changed\"}},g)===\"NOT_READY\")],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 102,
+        "row": " [\"all current receipt identity fields exact\",keys.every(k=>gate(edit,{...receipt(edit),identity:{...cp(edit),[k]:\"changed\"}},g)===\"NOT_READY\")],"
+      }
+    },
+    {
+      "text": " [\"order-only base map same marker accepted\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000}};return gate(c,receipt(c),g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 104,
+        "row": " [\"order-only base map same marker accepted\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000}};return gate(c,receipt(c),g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],"
+      }
+    },
+    {
+      "text": " [\"order-only base map new marker rejected\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000},patch:\"PATCH2\",output:\"D2\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})()],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 105,
+        "row": " [\"order-only base map new marker rejected\",(()=>{const c={...cp(base),params:{gain:.5,depth:.2,cutoffHz:1000},patch:\"PATCH2\",output:\"D2\"};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})()],"
+      }
+    },
+    {
+      "text": " [\"same semantic receipt with reordered params and top keys accepted\",(()=>{const q=receipt(edit);q.identity=Object.fromEntries(Object.entries(q.identity).reverse());q.identity.params={gain:.5,depth:.3,cutoffHz:800};return gate(edit,q,g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 106,
+        "row": " [\"same semantic receipt with reordered params and top keys accepted\",(()=>{const q=receipt(edit);q.identity=Object.fromEntries(Object.entries(q.identity).reverse());q.identity.params={gain:.5,depth:.3,cutoffHz:800};return gate(edit,q,g)===\"SYNTHETIC_CANDIDATE_ONLY\"})()],"
+      }
+    },
+    {
+      "text": " [\"ordered notes and graph cannot be reversed\",[\"notes\",\"graph\"].every(k=>{const c={...cp(edit),[k]:[...edit[k]].reverse()};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 107,
+        "row": " [\"ordered notes and graph cannot be reversed\",[\"notes\",\"graph\"].every(k=>{const c={...cp(edit),[k]:[...edit[k]].reverse()};return gate(c,receipt(c),g)===\"OUTSIDE_FIXTURE\"})],"
+      }
+    },
+    {
+      "text": " [\"receipt ordered arrays still exact\",[\"notes\",\"graph\"].every(k=>{const q=receipt(edit);q.identity[k].reverse();return gate(edit,q,g)===\"NOT_READY\"})]",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 108,
+        "row": " [\"receipt ordered arrays still exact\",[\"notes\",\"graph\"].every(k=>{const q=receipt(edit);q.identity[k].reverse();return gate(edit,q,g)===\"NOT_READY\"})]"
+      }
+    },
+    {
+      "text": " ];",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 110,
+        "row": " ];"
+      }
+    },
+    {
+      "text": " return tests;",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 111,
+        "row": " return tests;"
+      }
+    },
+    {
+      "text": "}",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 112,
+        "row": "}"
+      }
+    },
+    {
+      "text": "console.log(runK18Finite());",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 113,
+        "row": "console.log(runK18Finite());"
+      }
+    },
+    {
+      "text": "```",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 114,
+        "row": "```"
+      }
+    },
+    {
+      "text": "## G04 实际结果",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 115,
+        "row": "## G04 实际结果"
+      }
+    },
+    {
+      "text": "1. partial amplitude bound: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 116,
+        "row": "1. partial amplitude bound: true"
+      }
+    },
+    {
+      "text": "2. linear steady response: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 117,
+        "row": "2. linear steady response: true"
+      }
+    },
+    {
+      "text": "3. strict Nyquist harmonic screening: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 118,
+        "row": "3. strict Nyquist harmonic screening: true"
+      }
+    },
+    {
+      "text": "4. invalid oscillator bounds: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 119,
+        "row": "4. invalid oscillator bounds: true"
+      }
+    },
+    {
+      "text": "5. FM index and signed frequency candidates: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 120,
+        "row": "5. FM index and signed frequency candidates: true"
+      }
+    },
+    {
+      "text": "6. zero deviation carrier only: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 121,
+        "row": "6. zero deviation carrier only: true"
+      }
+    },
+    {
+      "text": "7. negative frequencies retained for analysis not discarded: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 122,
+        "row": "7. negative frequencies retained for analysis not discarded: true"
+      }
+    },
+    {
+      "text": "8. invalid modulator refused: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 123,
+        "row": "8. invalid modulator refused: true"
+      }
+    },
+    {
+      "text": "9. single-cycle interpolation: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 124,
+        "row": "9. single-cycle interpolation: true"
+      }
+    },
+    {
+      "text": "10. table end wraps: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 125,
+        "row": "10. table end wraps: true"
+      }
+    },
+    {
+      "text": "11. invalid phase and table: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 126,
+        "row": "11. invalid phase and table: true"
+      }
+    },
+    {
+      "text": "12. frame morph: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 127,
+        "row": "12. frame morph: true"
+      }
+    },
+    {
+      "text": "13. misaligned table lengths refuse: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 128,
+        "row": "13. misaligned table lengths refuse: true"
+      }
+    },
+    {
+      "text": "14. ideal average overlap: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 129,
+        "row": "14. ideal average overlap: true"
+      }
+    },
+    {
+      "text": "15. grain boundary checks: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 130,
+        "row": "15. grain boundary checks: true"
+      }
+    },
+    {
+      "text": "16. step and endpoints: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 131,
+        "row": "16. step and endpoints: true"
+      }
+    },
+    {
+      "text": "17. ideal delay pitch: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 132,
+        "row": "17. ideal delay pitch: true"
+      }
+    },
+    {
+      "text": "18. reflection strict bound: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 133,
+        "row": "18. reflection strict bound: true"
+      }
+    },
+    {
+      "text": "19. scalar impulse decay: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 134,
+        "row": "19. scalar impulse decay: true"
+      }
+    },
+    {
+      "text": "20. sample transposition ratio: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 135,
+        "row": "20. sample transposition ratio: true"
+      }
+    },
+    {
+      "text": "21. key and velocity boundaries: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 136,
+        "row": "21. key and velocity boundaries: true"
+      }
+    },
+    {
+      "text": "22. early noteoff no jump to sustain: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 137,
+        "row": "22. early noteoff no jump to sustain: true"
+      }
+    },
+    {
+      "text": "23. tempo sync 2 beats: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 138,
+        "row": "23. tempo sync 2 beats: true"
+      }
+    },
+    {
+      "text": "24. additive multiplicative modulation: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 139,
+        "row": "24. additive multiplicative modulation: true"
+      }
+    },
+    {
+      "text": "25. neutral values and zero multiplier: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 140,
+        "row": "25. neutral values and zero multiplier: true"
+      }
+    },
+    {
+      "text": "26. Rack mono and missing channel policy: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 141,
+        "row": "26. Rack mono and missing channel policy: true"
+      }
+    },
+    {
+      "text": "27. voltage octave relation: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 142,
+        "row": "27. voltage octave relation: true"
+      }
+    },
+    {
+      "text": "28. routing ordinary DAG: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 143,
+        "row": "28. routing ordinary DAG: true"
+      }
+    },
+    {
+      "text": "29. routing delayed cycle only structural: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 144,
+        "row": "29. routing delayed cycle only structural: true"
+      }
+    },
+    {
+      "text": "30. residual zero-delay subcycle with delay elsewhere: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 145,
+        "row": "30. residual zero-delay subcycle with delay elsewhere: true"
+      }
+    },
+    {
+      "text": "31. self-loop and unknown node: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 146,
+        "row": "31. self-loop and unknown node: true"
+      }
+    },
+    {
+      "text": "32. macro mapping: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 147,
+        "row": "32. macro mapping: true"
+      }
+    },
+    {
+      "text": "33. MIDI 14-bit center and extremes: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 148,
+        "row": "33. MIDI 14-bit center and extremes: true"
+      }
+    },
+    {
+      "text": "34. spectral centroid and silent unknown: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 149,
+        "row": "34. spectral centroid and silent unknown: true"
+      }
+    },
+    {
+      "text": "35. same centroid different spectra: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 150,
+        "row": "35. same centroid different spectra: true"
+      }
+    },
+    {
+      "text": "36. fixed candidate positive: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 151,
+        "row": "36. fixed candidate positive: true"
+      }
+    },
+    {
+      "text": "37. current allowed edit positive: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 152,
+        "row": "37. current allowed edit positive: true"
+      }
+    },
+    {
+      "text": "38. old receipt after edit rejects: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 153,
+        "row": "38. old receipt after edit rejects: true"
+      }
+    },
+    {
+      "text": "39. fresh receipt cannot authorize changed source or graph or dependency: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 154,
+        "row": "39. fresh receipt cannot authorize changed source or graph or dependency: true"
+      }
+    },
+    {
+      "text": "40. same content marker after changed patch refuses: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 155,
+        "row": "40. same content marker after changed patch refuses: true"
+      }
+    },
+    {
+      "text": "41. protected gain and parameter bounds: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 156,
+        "row": "41. protected gain and parameter bounds: true"
+      }
+    },
+    {
+      "text": "42. missing actual dependency verification or reopen or review refuses: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 157,
+        "row": "42. missing actual dependency verification or reopen or review refuses: true"
+      }
+    },
+    {
+      "text": "43. synthetic rights safety and output flags independently bound: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 158,
+        "row": "43. synthetic rights safety and output flags independently bound: true"
+      }
+    },
+    {
+      "text": "44. all current receipt identity fields exact: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 159,
+        "row": "44. all current receipt identity fields exact: true"
+      }
+    },
+    {
+      "text": "45. order-only base map same marker accepted: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 160,
+        "row": "45. order-only base map same marker accepted: true"
+      }
+    },
+    {
+      "text": "46. order-only base map new marker rejected: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 161,
+        "row": "46. order-only base map new marker rejected: true"
+      }
+    },
+    {
+      "text": "47. same semantic receipt with reordered params and top keys accepted: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 162,
+        "row": "47. same semantic receipt with reordered params and top keys accepted: true"
+      }
+    },
+    {
+      "text": "48. ordered notes and graph cannot be reversed: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 163,
+        "row": "48. ordered notes and graph cannot be reversed: true"
+      }
+    },
+    {
+      "text": "49. receipt ordered arrays still exact: true",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 164,
+        "row": "49. receipt ordered arrays still exact: true"
+      }
+    },
+    {
+      "text": "49/49 实际有限检查通过，历史审核不改变；当前修订待G04独立核验。非通用JSON canonical hash、真实DSP、宿主、音频、权限或accepted claims。",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/sound-design-r4-integrated-closure.md",
+        "blob": "4ad23451a59bb98bc3bda4236e9ec5abab801351",
+        "line": 165,
+        "row": "49/49 实际有限检查通过，历史审核不改变；当前修订待G04独立核验。非通用JSON canonical hash、真实DSP、宿主、音频、权限或accepted claims。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "status": "CONDITIONAL_NAVIGATION_NO_EQUIVALENCE",
+  "routes": [],
+  "splitRoutes": [],
+  "ownershipRoutes": [
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 5,
+      "row": "| K18.01 | 音色部分音/滤波设计 | K01音高，K07物理，K08通用DSP |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 6,
+      "row": "| K18.02 | 音色载调结构与变化 | K08数字实现，K12工具 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 7,
+      "row": "| K18.03 | 波表选择/帧扫描及可编辑表 | K08插值实现，K15素材权利 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 8,
+      "row": "| K18.04 | 颗粒事件与纹理设计 | K08变速/DSP，K12实现 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 9,
+      "row": "| K18.05 | 合成模型及设计参数 | K03真实器物，K07物理，K08实现 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 10,
+      "row": "| K18.06 | 采样乐器键域/层/循环映射 | K09工程素材，K12播放器，K15权利 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 11,
+      "row": "| K18.07 | 设计包络与调制矩阵 | K08通用DSP，K12实际操作 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 12,
+      "row": "| K18.08 | patch端口及信号/控制设计 | K08通用路由，K19现场扩声反馈 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 13,
+      "row": "| K18.09 | 预设、宏、可编辑音色 | K09工程版本，K12宿主，K15放行 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 14,
+      "row": "| K18.10 | 电子乐器动作/实时映射 | K04音乐表演，K12接口，K19现场安全 |"
+    },
+    {
+      "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+      "file": "docs/product/calibration/sound-design-r3-legacy-convergence.md",
+      "blob": "8ffcc806e2cd9fc79a19b2942ce6b9d001a9c69d",
+      "line": 15,
+      "row": "| K18.11 | 音色目标及局部修改 | K10实际评价，K09交付，K15权限 |"
+    }
+  ],
+  "historicalFinding": 74,
+  "historicalOpenIssues": [
+    {
+      "number": 74,
+      "status": "OPEN_NOT_CLOSED_BY_THIS_TASK"
+    }
+  ],
+  "historicalStatus": "OPEN_GATE_NOT_CLOSED_BY_AUTHOR"
+}

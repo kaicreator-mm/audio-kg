@@ -1,0 +1,1117 @@
+{
+  "format": "audio-kg-K18-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S603",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 5,
+        "row": "| S603 | [W3C Web Audio API 2021-06-17](https://www.w3.org/TR/2021/REC-webaudio-20210617/) §1.26/1.28 L8558–8596、§rendering loop L9793–9843 | READ_LOCATOR 固定REC；PeriodicWave Fourier正弦/余弦系数与归一化、DC清零；有DelayNode的环路拆解，剩余环路静音、最小一render quantum，AudioParam输入合并。非通用所有宿主行为或浏览器实际测试。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "W3C Web Audio API 2021-06-17",
+          "uri": "https://www.w3.org/TR/2021/REC-webaudio-20210617/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.01.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 5,
+            "row": "| K18.01.01.01 | [SD01/K18.01.01.01](sound-design-r1-knowledge-cases.md#L5) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5) | 以基频200Hz与部分音400/600Hz、幅度.4/.2/.1构造加法候选；同相时峰值上界.7，不等实际峰值或响度。 |"
+          }
+        },
+        {
+          "d4": "K18.01.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 6,
+            "row": "| K18.01.02.01 | [SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S604](../../research/source-qualification-sound-design-r1-r2.md#L6) | 题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。 |"
+          }
+        },
+        {
+          "d4": "K18.01.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 8,
+            "row": "| K18.01.04.01 | [SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S607](../../research/source-qualification-sound-design-r1-r2.md#L9) | 48kHz下理想谐波基频8kHz，正频率严格低于Nyquist24kHz的谐波只有8/16kHz；边界24kHz不纳入此有限设计。 |"
+          }
+        },
+        {
+          "d4": "K18.03.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 15,
+            "row": "| K18.03.03.01 | [SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S607](../../research/source-qualification-sound-design-r1-r2.md#L9) | 周期末到首插值，T在相位.875索引3.5取−.5；guard point须按实现规范，不能复制错误末值；波表线性插值与高音抗混叠分开。 |"
+          }
+        },
+        {
+          "d4": "K18.08.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 33,
+            "row": "| K18.08.01.01 | [SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S613](../../research/source-qualification-sound-design-r1-r2.md#L15) | 区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。 |"
+          }
+        },
+        {
+          "d4": "K18.08.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 34,
+            "row": "| K18.08.02.01 | [SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S610](../../research/source-qualification-sound-design-r1-r2.md#L12) | Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。 |"
+          }
+        },
+        {
+          "d4": "K18.08.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 36,
+            "row": "| K18.08.04.01 | [SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。 |"
+          }
+        }
+      ],
+      "scope": "| S603 | [W3C Web Audio API 2021-06-17](https://www.w3.org/TR/2021/REC-webaudio-20210617/) §1.26/1.28 L8558–8596、§rendering loop L9793–9843 | READ_LOCATOR 固定REC；PeriodicWave Fourier正弦/余弦系数与归一化、DC清零；有DelayNode的环路拆解，剩余环路静音、最小一render quantum，AudioParam输入合并。非通用所有宿主行为或浏览器实际测试。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S604",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 6,
+        "row": "| S604 | [Csound7 moogladder](https://csound.com/manual/opcodes/moogladder/) L225–247 | READ_LOCATOR；输入/截止/共振及历史状态；高共振可能混叠，特定单位及算法不泛化所有滤波器。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Csound7 moogladder",
+          "uri": "https://csound.com/manual/opcodes/moogladder/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.01.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 6,
+            "row": "| K18.01.02.01 | [SD02/K18.01.02.01](sound-design-r1-knowledge-cases.md#L6) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S604](../../research/source-qualification-sound-design-r1-r2.md#L6) | 题设滤波前200/400/800Hz幅度.5/.3/.2；目标响应幅度1/.5/.1后为.5/.15/.02（线性定常幅值模型）。 |"
+          }
+        },
+        {
+          "d4": "K18.01.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 7,
+            "row": "| K18.01.03.01 | [SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7) | [S604](../../research/source-qualification-sound-design-r1-r2.md#L6)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。 |"
+          }
+        },
+        {
+          "d4": "K18.05.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 23,
+            "row": "| K18.05.03.01 | [SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23) | [S610](../../research/source-qualification-sound-design-r1-r2.md#L12)；[S604](../../research/source-qualification-sound-design-r1-r2.md#L6) | 有限标量反馈x[n]=u[n]+g*x[n−1]，脉冲后g=.5时1,.5,.25；g=1不衰减、g>1增长。 |"
+          }
+        }
+      ],
+      "scope": "| S604 | [Csound7 moogladder](https://csound.com/manual/opcodes/moogladder/) L225–247 | READ_LOCATOR；输入/截止/共振及历史状态；高共振可能混叠，特定单位及算法不泛化所有滤波器。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S605",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 7,
+        "row": "| S605 | Chowning 1973 [AES书目](https://aes.org/publications/elibrary/elibrary-page/?id=1954) L219–254；1977 CMJ重印[UVic PDF](https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf) 零基0/1/2截图（封面/印46/47），L30–74 | READ_LOCATOR_LIMITED；载波、调制频率、峰值频偏，图1边带与调制深度、印47公式1/2与Bessel系数/相位；原1973 JAES21(7)526–534、1977 CMJ1(2)46–54重印。未验证后续全部页或计算Bessel数值或现代实现。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "AES书目",
+          "uri": "https://aes.org/publications/elibrary/elibrary-page/?id=1954"
+        },
+        {
+          "label": "UVic PDF",
+          "uri": "https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.02.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 9,
+            "row": "| K18.02.01.01 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S606](../../research/source-qualification-sound-design-r1-r2.md#L8) | 正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。 |"
+          }
+        },
+        {
+          "d4": "K18.02.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 10,
+            "row": "| K18.02.02.01 | [SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S606](../../research/source-qualification-sound-design-r1-r2.md#L8) | 固定fc440,fm220与fm300两种题设；第一组候选为220Hz整数格，第二组可有非简单低整数频比；边带频率格不唯一决定主观音高。 |"
+          }
+        },
+        {
+          "d4": "K18.02.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 11,
+            "row": "| K18.02.03.01 | [SD07/K18.02.03.01](sound-design-r1-knowledge-cases.md#L11) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 理想环形调制cos(2π440t)×cos(2π110t)产生330/550Hz各0.5；带直流偏置的AM额外保留载波，FM通过相位/频率改变产生更多边带。 |"
+          }
+        },
+        {
+          "d4": "K18.02.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 12,
+            "row": "| K18.02.04.01 | [SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。 |"
+          }
+        },
+        {
+          "d4": "K18.11.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 46,
+            "row": "| K18.11.02.01 | [SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18) | A/B具有相同质心但不同起音/衰减与频谱形状；题设对比音色目标应包含时间演化、噪声/混叠、动态与音乐用途。 |"
+          }
+        }
+      ],
+      "scope": "| S605 | Chowning 1973 [AES书目](https://aes.org/publications/elibrary/elibrary-page/?id=1954) L219–254；1977 CMJ重印[UVic PDF](https://web.uvic.ca/~aschloss/course_mat/MU307/MUS307_MATERIALS/Chowning_FM.pdf) 零基0/1/2截图（封面/印46/47），L30–74 | READ_LOCATOR_LIMITED；载波、调制频率、峰值频偏，图1边带与调制深度、印47公式1/2与Bessel系数/相位；原1973 JAES21(7)526–534、1977 CMJ1(2)46–54重印。未验证后续全部页或计算Bessel数值或现代实现。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S606",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 8,
+        "row": "| S606 | [Csound7 foscil](https://csound.com/manual/opcodes/foscil/) L219–246 | READ_LOCATOR；kcps×xcar、kcps×xmod、调制指数、周期表guard point。其特定实现说明不当通用基频/听感判据。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Csound7 foscil",
+          "uri": "https://csound.com/manual/opcodes/foscil/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.02.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 9,
+            "row": "| K18.02.01.01 | [SD05/K18.02.01.01](sound-design-r1-knowledge-cases.md#L9) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S606](../../research/source-qualification-sound-design-r1-r2.md#L8) | 正弦稳态FM：fc440,fm110,峰频偏220Hz，则I=2，候选边带fc+n fm；n=±1为330/550Hz，幅度受指数和相位决定。 |"
+          }
+        },
+        {
+          "d4": "K18.02.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 10,
+            "row": "| K18.02.02.01 | [SD06/K18.02.02.01](sound-design-r1-knowledge-cases.md#L10) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S606](../../research/source-qualification-sound-design-r1-r2.md#L8) | 固定fc440,fm220与fm300两种题设；第一组候选为220Hz整数格，第二组可有非简单低整数频比；边带频率格不唯一决定主观音高。 |"
+          }
+        }
+      ],
+      "scope": "| S606 | [Csound7 foscil](https://csound.com/manual/opcodes/foscil/) L219–246 | READ_LOCATOR；kcps×xcar、kcps×xmod、调制指数、周期表guard point。其特定实现说明不当通用基频/听感判据。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S607",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 9,
+        "row": "| S607 | [Max7 Test Tone](https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01) L51–65；[Csound7 tablei](https://csound.com/manual/opcodes/tablei/) L233–249 | READ_LOCATOR；周期表读相位、线性插值，原始/归一化索引及wrap/guard；插值非抗混叠保证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Max7 Test Tone",
+          "uri": "https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01"
+        },
+        {
+          "label": "Csound7 tablei",
+          "uri": "https://csound.com/manual/opcodes/tablei/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.01.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 8,
+            "row": "| K18.01.04.01 | [SD04/K18.01.04.01](sound-design-r1-knowledge-cases.md#L8) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S607](../../research/source-qualification-sound-design-r1-r2.md#L9) | 48kHz下理想谐波基频8kHz，正频率严格低于Nyquist24kHz的谐波只有8/16kHz；边界24kHz不纳入此有限设计。 |"
+          }
+        },
+        {
+          "d4": "K18.03.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 13,
+            "row": "| K18.03.01.01 | [SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13) | [S607](../../research/source-qualification-sound-design-r1-r2.md#L9)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 一个周期表T=[0,1,0,-1]，相位.125对应索引.5；线性插值得.5。扫描周期相位与在多帧表中选帧是两条轴。 |"
+          }
+        },
+        {
+          "d4": "K18.03.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 14,
+            "row": "| K18.03.02.01 | [SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14) | [S607](../../research/source-qualification-sound-design-r1-r2.md#L9)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。 |"
+          }
+        },
+        {
+          "d4": "K18.03.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 15,
+            "row": "| K18.03.03.01 | [SD11/K18.03.03.01](sound-design-r1-knowledge-cases.md#L15) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S607](../../research/source-qualification-sound-design-r1-r2.md#L9) | 周期末到首插值，T在相位.875索引3.5取−.5；guard point须按实现规范，不能复制错误末值；波表线性插值与高音抗混叠分开。 |"
+          }
+        }
+      ],
+      "scope": "| S607 | [Max7 Test Tone](https://docs.cycling74.com/legacy/max7/tutorials/05_mspbasicchapter01) L51–65；[Csound7 tablei](https://csound.com/manual/opcodes/tablei/) L233–249 | READ_LOCATOR；周期表读相位、线性插值，原始/归一化索引及wrap/guard；插值非抗混叠保证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S608",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 10,
+        "row": "| S608 | [Ableton Live12 Instrument Reference](https://www.ableton.com/en/live-manual/12/live-instrument-reference/) §31.13 L1855–1884/1915–1984/1986–2021 | READ_LOCATOR；波表位置与调音、导入RAW、加法/乘法调制中性值0/1、包络循环/释放、LFO Hz/拍、MIDI矩阵及unison。特定宿主语义，未实际运行。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Ableton Live12 Instrument Reference",
+          "uri": "https://www.ableton.com/en/live-manual/12/live-instrument-reference/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.01.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 7,
+            "row": "| K18.01.03.01 | [SD03/K18.01.03.01](sound-design-r1-knowledge-cases.md#L7) | [S604](../../research/source-qualification-sound-design-r1-r2.md#L6)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 相同振荡器降低低通截止可能改变频谱，提升共振可增强附近成分，独立保留音高目标；Csound moogladder高共振文档警示混叠。 |"
+          }
+        },
+        {
+          "d4": "K18.02.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 11,
+            "row": "| K18.02.03.01 | [SD07/K18.02.03.01](sound-design-r1-knowledge-cases.md#L11) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 理想环形调制cos(2π440t)×cos(2π110t)产生330/550Hz各0.5；带直流偏置的AM额外保留载波，FM通过相位/频率改变产生更多边带。 |"
+          }
+        },
+        {
+          "d4": "K18.02.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 12,
+            "row": "| K18.02.04.01 | [SD08/K18.02.04.01](sound-design-r1-knowledge-cases.md#L12) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设FM指数包络从2降至0而载波幅度另有ADSR；稳态I=0仅载波，时间变化会使频谱演化，不能按一个静态谱验全过程。 |"
+          }
+        },
+        {
+          "d4": "K18.03.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 13,
+            "row": "| K18.03.01.01 | [SD09/K18.03.01.01](sound-design-r1-knowledge-cases.md#L13) | [S607](../../research/source-qualification-sound-design-r1-r2.md#L9)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 一个周期表T=[0,1,0,-1]，相位.125对应索引.5；线性插值得.5。扫描周期相位与在多帧表中选帧是两条轴。 |"
+          }
+        },
+        {
+          "d4": "K18.03.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 14,
+            "row": "| K18.03.02.01 | [SD10/K18.03.02.01](sound-design-r1-knowledge-cases.md#L14) | [S607](../../research/source-qualification-sound-design-r1-r2.md#L9)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设两等长、相位对齐帧A=[0,1,0,-1]、B=[0,.2,0,-.2]，线性morph .25产生[0,.8,0,-.8]。 |"
+          }
+        },
+        {
+          "d4": "K18.03.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 16,
+            "row": "| K18.03.04.01 | [SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。 |"
+          }
+        },
+        {
+          "d4": "K18.04.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 19,
+            "row": "| K18.04.03.01 | [SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19) | [S609](../../research/source-qualification-sound-design-r1-r2.md#L11)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。 |"
+          }
+        },
+        {
+          "d4": "K18.06.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 27,
+            "row": "| K18.06.03.01 | [SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7) | [S611](../../research/source-qualification-sound-design-r1-r2.md#L13)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 明确no_loop/one_shot/loop_continuous/loop_sustain，区分note-off、循环与释放样本；源帧坐标和播放器含端点规则必须固定。 |"
+          }
+        },
+        {
+          "d4": "K18.07.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 29,
+            "row": "| K18.07.01.01 | [SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9) | [S612](../../research/source-qualification-sound-design-r1-r2.md#L14)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。 |"
+          }
+        },
+        {
+          "d4": "K18.07.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 31,
+            "row": "| K18.07.03.01 | [SD27/K18.07.03.01](sound-design-r2-knowledge-cases.md#L11) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 120BPM、LFO每2拍一周期则1Hz；自由Hz模式与tempo sync不同；双极[-1,1]、单极[0,1]需区分。 |"
+          }
+        },
+        {
+          "d4": "K18.07.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 32,
+            "row": "| K18.07.04.01 | [SD28/K18.07.04.01](sound-design-r2-knowledge-cases.md#L12) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | Live12示例加法基础.5加.2减.1=.6；乘法基础.5×.8×1=.4；中性分别0/1。矩阵定义目标、单位、深度、极性及组合。 |"
+          }
+        },
+        {
+          "d4": "K18.08.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 35,
+            "row": "| K18.08.03.01 | [SD31/K18.08.03.01](sound-design-r2-knowledge-cases.md#L15) | [S613](../../research/source-qualification-sound-design-r1-r2.md#L15)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 1V/oct在基准440Hz下+1V→880Hz、−1V→220Hz；控制电压和频率需明确基准，Rack模型不等实体模块。 |"
+          }
+        },
+        {
+          "d4": "K18.09.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 37,
+            "row": "| K18.09.01.01 | [SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。 |"
+          }
+        },
+        {
+          "d4": "K18.09.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 39,
+            "row": "| K18.09.03.01 | [SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | 宏旋钮0–1映射两个目标：cutoff线性200–2000Hz、增益反向1–.5；.5时1100Hz/.75。保留曲线/单位/范围及目标ID。 |"
+          }
+        },
+        {
+          "d4": "K18.10.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 41,
+            "row": "| K18.10.01.01 | [SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21) | [S615](../../research/source-qualification-sound-design-r1-r2.md#L17)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | MIDI1.0 pitch bend LSB0 MSB64=8192中心，16383为上端；接收端灵敏度另定，不能将数值直接当半音。 |"
+          }
+        },
+        {
+          "d4": "K18.10.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 43,
+            "row": "| K18.10.03.01 | [SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10)；[S615](../../research/source-qualification-sound-design-r1-r2.md#L17) | 表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。 |"
+          }
+        },
+        {
+          "d4": "K18.10.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 44,
+            "row": "| K18.10.04.01 | [SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24) | [S613](../../research/source-qualification-sound-design-r1-r2.md#L15)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。 |"
+          }
+        },
+        {
+          "d4": "K18.11.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 48,
+            "row": "| K18.11.04.01 | [SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。 |"
+          }
+        }
+      ],
+      "scope": "| S608 | [Ableton Live12 Instrument Reference](https://www.ableton.com/en/live-manual/12/live-instrument-reference/) §31.13 L1855–1884/1915–1984/1986–2021 | READ_LOCATOR；波表位置与调音、导入RAW、加法/乘法调制中性值0/1、包络循环/释放、LFO Hz/拍、MIDI矩阵及unison。特定宿主语义，未实际运行。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S609",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 11,
+        "row": "| S609 | [Csound7 grain](https://csound.com/manual/opcodes/grain/) L240–252/327–345；[fog](https://csound.com/manual/opcodes/fog/) L249–252 | READ_LOCATOR；颗粒密度/长度、grain pitch及源表采样率，fog读起点与粒内读速率分开；不是任意颗粒引擎参数单位。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Csound7 grain",
+          "uri": "https://csound.com/manual/opcodes/grain/"
+        },
+        {
+          "label": "fog",
+          "uri": "https://csound.com/manual/opcodes/fog/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.04.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 17,
+            "row": "| K18.04.01.01 | [SD13/K18.04.01.01](sound-design-r1-knowledge-cases.md#L17) | [S609](../../research/source-qualification-sound-design-r1-r2.md#L11) | 颗粒时长50ms、均匀密度40粒/s，稳态理想平均重叠2；单颗粒窗、幅度和相关性决定合成峰值。 |"
+          }
+        },
+        {
+          "d4": "K18.04.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 18,
+            "row": "| K18.04.02.01 | [SD14/K18.04.02.01](sound-design-r1-knowledge-cases.md#L18) | [S609](../../research/source-qualification-sound-design-r1-r2.md#L11) | fog的粒内读速率xtrans和粒起点aspd分开；题设按2倍读取同一段提高粒内音高，粒起点轨迹慢移可独立改变时间组织。 |"
+          }
+        },
+        {
+          "d4": "K18.04.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 19,
+            "row": "| K18.04.03.01 | [SD15/K18.04.03.01](sound-design-r1-knowledge-cases.md#L19) | [S609](../../research/source-qualification-sound-design-r1-r2.md#L11)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设48kHz素材长度48000，起点47000、粒长2400、读速1，非wrap/非padding策略下越界，必须拒绝或改范围。 |"
+          }
+        },
+        {
+          "d4": "K18.04.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 20,
+            "row": "| K18.04.04.01 | [SD16/K18.04.04.01](sound-design-r1-knowledge-cases.md#L20) | [S609](../../research/source-qualification-sound-design-r1-r2.md#L11)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | 固定颗粒起点序列、随机种子、密度、窗、素材版本及宿主；改变seed使随机纹理结果不可直接沿用旧评审。 |"
+          }
+        },
+        {
+          "d4": "K18.09.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 40,
+            "row": "| K18.09.04.01 | [SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16)；[S609](../../research/source-qualification-sound-design-r1-r2.md#L11) | 编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。 |"
+          }
+        }
+      ],
+      "scope": "| S609 | [Csound7 grain](https://csound.com/manual/opcodes/grain/) L240–252/327–345；[fog](https://csound.com/manual/opcodes/fog/) L249–252 | READ_LOCATOR；颗粒密度/长度、grain pitch及源表采样率，fog读起点与粒内读速率分开；不是任意颗粒引擎参数单位。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S610",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 12,
+        "row": "| S610 | [Csound7 pluck](https://csound.com/manual/opcodes/pluck/) L253；[wgpluck2](https://csound.com/manual/opcodes/wgpluck2/) L233–245；[wguide1](https://csound.com/manual/opcodes/wguide1/) L214–240 | READ_LOCATOR；Karplus-Strong离散延迟误差、重采样实现；拨弦点/拾音位置/损耗反射系数严格0–1；激励/延迟/低通/反馈。未实测或泛化真实弦乐器。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Csound7 pluck",
+          "uri": "https://csound.com/manual/opcodes/pluck/"
+        },
+        {
+          "label": "wgpluck2",
+          "uri": "https://csound.com/manual/opcodes/wgpluck2/"
+        },
+        {
+          "label": "wguide1",
+          "uri": "https://csound.com/manual/opcodes/wguide1/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.05.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 21,
+            "row": "| K18.05.01.01 | [SD17/K18.05.01.01](sound-design-r1-knowledge-cases.md#L21) | [S610](../../research/source-qualification-sound-design-r1-r2.md#L12) | 理想循环延迟D=100 samples、fs48000，周期频率480Hz；若目标440Hz需约109.09样点，整数延迟109只近似。 |"
+          }
+        },
+        {
+          "d4": "K18.05.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 22,
+            "row": "| K18.05.02.01 | [SD18/K18.05.02.01](sound-design-r1-knowledge-cases.md#L22) | [S610](../../research/source-qualification-sound-design-r1-r2.md#L12) | wgpluck2将拨弦位置、拾音位置及损耗系数分开，反射系数需严格0<r<1（表述为0与1之间）。 |"
+          }
+        },
+        {
+          "d4": "K18.05.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 23,
+            "row": "| K18.05.03.01 | [SD19/K18.05.03.01](sound-design-r1-knowledge-cases.md#L23) | [S610](../../research/source-qualification-sound-design-r1-r2.md#L12)；[S604](../../research/source-qualification-sound-design-r1-r2.md#L6) | 有限标量反馈x[n]=u[n]+g*x[n−1]，脉冲后g=.5时1,.5,.25；g=1不衰减、g>1增长。 |"
+          }
+        },
+        {
+          "d4": "K18.05.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 24,
+            "row": "| K18.05.04.01 | [SD20/K18.05.04.01](sound-design-r1-knowledge-cases.md#L24) | [S610](../../research/source-qualification-sound-design-r1-r2.md#L12)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18) | 题设模型A用短激励+衰减回路，B用音频样本回放；模型参数可改激励/损耗，样本需另处理，不能据近似谱质声称真实器物等价。 |"
+          }
+        },
+        {
+          "d4": "K18.08.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 34,
+            "row": "| K18.08.02.01 | [SD30/K18.08.02.01](sound-design-r2-knowledge-cases.md#L14) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S610](../../research/source-qualification-sound-design-r1-r2.md#L12) | Web Audio 2021含DelayNode的环路拆解后仍有环路则静音涉及节点；本设计只允许带声明延迟且剩余无环的候选，另核反馈稳定性。 |"
+          }
+        }
+      ],
+      "scope": "| S610 | [Csound7 pluck](https://csound.com/manual/opcodes/pluck/) L253；[wgpluck2](https://csound.com/manual/opcodes/wgpluck2/) L233–245；[wguide1](https://csound.com/manual/opcodes/wguide1/) L214–240 | READ_LOCATOR；Karplus-Strong离散延迟误差、重采样实现；拨弦点/拾音位置/损耗反射系数严格0–1；激励/延迟/低通/反馈。未实测或泛化真实弦乐器。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S611",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 13,
+        "row": "| S611 | [SFZ basics](https://sfzformat.com/tutorials/basics/) L181–207/251–277；[lovel/hivel](https://sfzformat.com/opcodes/hivel/) L42–44；[loop_mode](https://sfzformat.com/opcodes/loopmode/) L55–69 | READ_LOCATOR；根音/键域/力度层、velocity0 note-off、循环默认值及特定播放器one_shot区别，未验具体播放器或样本权利。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "SFZ basics",
+          "uri": "https://sfzformat.com/tutorials/basics/"
+        },
+        {
+          "label": "lovel/hivel",
+          "uri": "https://sfzformat.com/opcodes/hivel/"
+        },
+        {
+          "label": "loop_mode",
+          "uri": "https://sfzformat.com/opcodes/loopmode/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.06.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 25,
+            "row": "| K18.06.01.01 | [SD21/K18.06.01.01](sound-design-r2-knowledge-cases.md#L5) | [S611](../../research/source-qualification-sound-design-r1-r2.md#L13) | SFZ题设根音60、键域60–63；在12平均律正常跟踪下note62读速比2^(2/12)约1.12246，note64不匹配此region。 |"
+          }
+        },
+        {
+          "d4": "K18.06.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 26,
+            "row": "| K18.06.02.01 | [SD22/K18.06.02.01](sound-design-r2-knowledge-cases.md#L6) | [S611](../../research/source-qualification-sound-design-r1-r2.md#L13) | 两力度层1–63、64–127，63/64各命中一层；velocity0为note-off而非第三层。重叠region可能叠加，不能默认唯一。 |"
+          }
+        },
+        {
+          "d4": "K18.06.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 27,
+            "row": "| K18.06.03.01 | [SD23/K18.06.03.01](sound-design-r2-knowledge-cases.md#L7) | [S611](../../research/source-qualification-sound-design-r1-r2.md#L13)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 明确no_loop/one_shot/loop_continuous/loop_sustain，区分note-off、循环与释放样本；源帧坐标和播放器含端点规则必须固定。 |"
+          }
+        },
+        {
+          "d4": "K18.06.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 28,
+            "row": "| K18.06.04.01 | [SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) | [S611](../../research/source-qualification-sound-design-r1-r2.md#L13)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | 采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。 |"
+          }
+        }
+      ],
+      "scope": "| S611 | [SFZ basics](https://sfzformat.com/tutorials/basics/) L181–207/251–277；[lovel/hivel](https://sfzformat.com/opcodes/hivel/) L42–44；[loop_mode](https://sfzformat.com/opcodes/loopmode/) L55–69 | READ_LOCATOR；根音/键域/力度层、velocity0 note-off、循环默认值及特定播放器one_shot区别，未验具体播放器或样本权利。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S612",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 14,
+        "row": "| S612 | [Csound7 adsr](https://csound.com/manual/opcodes/adsr/) L251–253；[madsr](https://csound.com/manual/opcodes/madsr/) L244–257 | READ_LOCATOR；固定音符长度adsr与MIDI note-off触发释放madsr区别，madsr时间不能为0；非所有ADSR实现。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Csound7 adsr",
+          "uri": "https://csound.com/manual/opcodes/adsr/"
+        },
+        {
+          "label": "madsr",
+          "uri": "https://csound.com/manual/opcodes/madsr/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.07.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 29,
+            "row": "| K18.07.01.01 | [SD25/K18.07.01.01](sound-design-r2-knowledge-cases.md#L9) | [S612](../../research/source-qualification-sound-design-r1-r2.md#L14)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 线性ADSR题设attack .1s、decay .2s、sustain .6、release .3s，note-off在.05s时当前.5，释放应从当前值到目标0而非跳到.6。 |"
+          }
+        },
+        {
+          "d4": "K18.07.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 30,
+            "row": "| K18.07.02.01 | [SD26/K18.07.02.01](sound-design-r2-knowledge-cases.md#L10) | [S612](../../research/source-qualification-sound-design-r1-r2.md#L14) | Csound7 adsr依预定音符长度计算sustain，不适MIDI事件；madsr采用note-off释放，attack/decay/release不得为0。 |"
+          }
+        },
+        {
+          "d4": "K18.10.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 42,
+            "row": "| K18.10.02.01 | [SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22) | [S615](../../research/source-qualification-sound-design-r1-r2.md#L17)；[S612](../../research/source-qualification-sound-design-r1-r2.md#L14) | 按note-on/off及声部身份追踪门控，丢note-off可能留下声部；All Sound Off/All Notes Off为不同channel-mode消息，发送不代表设备实际静音。 |"
+          }
+        }
+      ],
+      "scope": "| S612 | [Csound7 adsr](https://csound.com/manual/opcodes/adsr/) L251–253；[madsr](https://csound.com/manual/opcodes/madsr/) L244–257 | READ_LOCATOR；固定音符长度adsr与MIDI note-off触发释放madsr区别，madsr时间不能为0；非所有ADSR实现。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S613",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 15,
+        "row": "| S613 | [VCV Rack Voltage Standards](https://vcvrack.com/manual/VoltageStandards) L37/65/70–82 | READ_LOCATOR；1V/oct模型及primary polyphony、mono广播/不足多声道补0等Rack约定，明确非实际Eurorack所有模块规范。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "VCV Rack Voltage Standards",
+          "uri": "https://vcvrack.com/manual/VoltageStandards"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.08.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 33,
+            "row": "| K18.08.01.01 | [SD29/K18.08.01.01](sound-design-r2-knowledge-cases.md#L13) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S613](../../research/source-qualification-sound-design-r1-r2.md#L15) | 区分音频信号、调制控制、门控事件及通道语义；题设主输入3声部，Rack次级mono值2广播[2,2,2]；次级2声部[2,3]补[2,3,0]。 |"
+          }
+        },
+        {
+          "d4": "K18.08.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 35,
+            "row": "| K18.08.03.01 | [SD31/K18.08.03.01](sound-design-r2-knowledge-cases.md#L15) | [S613](../../research/source-qualification-sound-design-r1-r2.md#L15)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 1V/oct在基准440Hz下+1V→880Hz、−1V→220Hz；控制电压和频率需明确基准，Rack模型不等实体模块。 |"
+          }
+        },
+        {
+          "d4": "K18.10.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 44,
+            "row": "| K18.10.04.01 | [SD40/K18.10.04.01](sound-design-r2-knowledge-cases.md#L24) | [S613](../../research/source-qualification-sound-design-r1-r2.md#L15)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设polyphony上限4，5个同时note-on需明确拒绝或steal规则；unison每声部振荡器数量变化会改变预算，不能由声部数直接得CPU。 |"
+          }
+        }
+      ],
+      "scope": "| S613 | [VCV Rack Voltage Standards](https://vcvrack.com/manual/VoltageStandards) L37/65/70–82 | READ_LOCATOR；1V/oct模型及primary polyphony、mono广播/不足多声道补0等Rack约定，明确非实际Eurorack所有模块规范。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S614",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 16,
+        "row": "| S614 | [VCV Module Presets](https://vcvrack.com/manual/Presets) L38–50；[Versioning](https://vcvrack.com/manual/Version) L40–48；[Max8 pattrstorage](https://docs.cycling74.com/legacy/max8/refpages/pattrstorage) L173–179/470–471 | READ_LOCATOR；模块预设参数/内部JSON不能包含patch storage文件；Rack主版本及minor方向；Max8匹配client path及保存模式。非完整可重开保证。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "VCV Module Presets",
+          "uri": "https://vcvrack.com/manual/Presets"
+        },
+        {
+          "label": "Versioning",
+          "uri": "https://vcvrack.com/manual/Version"
+        },
+        {
+          "label": "Max8 pattrstorage",
+          "uri": "https://docs.cycling74.com/legacy/max8/refpages/pattrstorage"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.03.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 16,
+            "row": "| K18.03.04.01 | [SD12/K18.03.04.01](sound-design-r1-knowledge-cases.md#L16) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | Live12导入WAV/AIFF可默认处理、RAW绕过处理；保存素材ID、处理模式、表帧定义、预设版本。 |"
+          }
+        },
+        {
+          "d4": "K18.04.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 20,
+            "row": "| K18.04.04.01 | [SD16/K18.04.04.01](sound-design-r1-knowledge-cases.md#L20) | [S609](../../research/source-qualification-sound-design-r1-r2.md#L11)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | 固定颗粒起点序列、随机种子、密度、窗、素材版本及宿主；改变seed使随机纹理结果不可直接沿用旧评审。 |"
+          }
+        },
+        {
+          "d4": "K18.06.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 28,
+            "row": "| K18.06.04.01 | [SD24/K18.06.04.01](sound-design-r2-knowledge-cases.md#L8) | [S611](../../research/source-qualification-sound-design-r1-r2.md#L13)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | 采样乐器包括region映射、源文件身份、采样率、根音、循环、层和实际权限记录；样本缺失时不能用同名替代后认旧预设等价。 |"
+          }
+        },
+        {
+          "d4": "K18.08.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 36,
+            "row": "| K18.08.04.01 | [SD32/K18.08.04.01](sound-design-r2-knowledge-cases.md#L16) | [S603](../../research/source-qualification-sound-design-r1-r2.md#L5)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | patch从OSC→FILTER→AMP→OUT变为OSC→AMP→FILTER→OUT，非线性或时变处理一般不保证等价；只修改授权边，保存旧图与版本。 |"
+          }
+        },
+        {
+          "d4": "K18.09.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 37,
+            "row": "| K18.09.01.01 | [SD33/K18.09.01.01](sound-design-r2-knowledge-cases.md#L17) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 区分模块预设、整patch、外部素材、宿主和实时状态；Rack JSON预设不保存patch storage文件。 |"
+          }
+        },
+        {
+          "d4": "K18.09.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 38,
+            "row": "| K18.09.02.01 | [SD34/K18.09.02.01](sound-design-r2-knowledge-cases.md#L18) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | Rack插件major须匹配，minor兼容方向有条件；Max8复制preset时client path不一致会忽略数据，改名需明确迁移。 |"
+          }
+        },
+        {
+          "d4": "K18.09.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 39,
+            "row": "| K18.09.03.01 | [SD35/K18.09.03.01](sound-design-r2-knowledge-cases.md#L19) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10)；[S614](../../research/source-qualification-sound-design-r1-r2.md#L16) | 宏旋钮0–1映射两个目标：cutoff线性200–2000Hz、增益反向1–.5；.5时1100Hz/.75。保留曲线/单位/范围及目标ID。 |"
+          }
+        },
+        {
+          "d4": "K18.09.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 40,
+            "row": "| K18.09.04.01 | [SD36/K18.09.04.01](sound-design-r2-knowledge-cases.md#L20) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16)；[S609](../../research/source-qualification-sound-design-r1-r2.md#L11) | 编辑器预设与素材、路由、运行种子及参数身份分开；修改filter参数使导出与评审待复核，保留不相关素材。 |"
+          }
+        },
+        {
+          "d4": "K18.11.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 48,
+            "row": "| K18.11.04.01 | [SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。 |"
+          }
+        }
+      ],
+      "scope": "| S614 | [VCV Module Presets](https://vcvrack.com/manual/Presets) L38–50；[Versioning](https://vcvrack.com/manual/Version) L40–48；[Max8 pattrstorage](https://docs.cycling74.com/legacy/max8/refpages/pattrstorage) L173–179/470–471 | READ_LOCATOR；模块预设参数/内部JSON不能包含patch storage文件；Rack主版本及minor方向；Max8匹配client path及保存模式。非完整可重开保证。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S615",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 17,
+        "row": "| S615 | [MIDI Association MIDI1.0消息](https://midi.org/summary-of-midi-1-0-messages) L62–87/113–118 | READ_LOCATOR；7-bit CC/压力、14-bit bend中心8192/接收端灵敏度，channel mode与时钟；非完整协议/实际设备支持，不从发送推实际状态。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "MIDI Association MIDI1.0消息",
+          "uri": "https://midi.org/summary-of-midi-1-0-messages"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.10.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 41,
+            "row": "| K18.10.01.01 | [SD37/K18.10.01.01](sound-design-r2-knowledge-cases.md#L21) | [S615](../../research/source-qualification-sound-design-r1-r2.md#L17)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | MIDI1.0 pitch bend LSB0 MSB64=8192中心，16383为上端；接收端灵敏度另定，不能将数值直接当半音。 |"
+          }
+        },
+        {
+          "d4": "K18.10.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 42,
+            "row": "| K18.10.02.01 | [SD38/K18.10.02.01](sound-design-r2-knowledge-cases.md#L22) | [S615](../../research/source-qualification-sound-design-r1-r2.md#L17)；[S612](../../research/source-qualification-sound-design-r1-r2.md#L14) | 按note-on/off及声部身份追踪门控，丢note-off可能留下声部；All Sound Off/All Notes Off为不同channel-mode消息，发送不代表设备实际静音。 |"
+          }
+        },
+        {
+          "d4": "K18.10.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 43,
+            "row": "| K18.10.03.01 | [SD39/K18.10.03.01](sound-design-r2-knowledge-cases.md#L23) | [S608](../../research/source-qualification-sound-design-r1-r2.md#L10)；[S615](../../research/source-qualification-sound-design-r1-r2.md#L17) | 表演映射将velocity、channel pressure、poly key pressure区分；同一键的独立压力与整通道压力目标不同。 |"
+          }
+        }
+      ],
+      "scope": "| S615 | [MIDI Association MIDI1.0消息](https://midi.org/summary-of-midi-1-0-messages) L62–87/113–118 | READ_LOCATOR；7-bit CC/压力、14-bit bend中心8192/接收端灵敏度，channel mode与时钟；非完整协议/实际设备支持，不从发送推实际状态。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S616",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 18,
+        "row": "| S616 | [librosa 0.11.0 spectral_centroid](https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html) L11–16/28–72 | READ_LOCATOR；幅度谱权重、Hz、FFT/窗/帧对齐，零和本模块UNKNOWN而非声称库返回；描述符不是美感/身份。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "librosa 0.11.0 spectral_centroid",
+          "uri": "https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.05.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 24,
+            "row": "| K18.05.04.01 | [SD20/K18.05.04.01](sound-design-r1-knowledge-cases.md#L24) | [S610](../../research/source-qualification-sound-design-r1-r2.md#L12)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18) | 题设模型A用短激励+衰减回路，B用音频样本回放；模型参数可改激励/损耗，样本需另处理，不能据近似谱质声称真实器物等价。 |"
+          }
+        },
+        {
+          "d4": "K18.11.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 45,
+            "row": "| K18.11.01.01 | [SD41/K18.11.01.01](sound-design-r2-knowledge-cases.md#L25) | [S616](../../research/source-qualification-sound-design-r1-r2.md#L18) | 幅度谱f=[100,300,500]、a=[1,2,1]，质心300Hz；全零谱在本知识谓词为UNKNOWN，不作音色评分。 |"
+          }
+        },
+        {
+          "d4": "K18.11.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 46,
+            "row": "| K18.11.02.01 | [SD42/K18.11.02.01](sound-design-r2-knowledge-cases.md#L26) | [S605](../../research/source-qualification-sound-design-r1-r2.md#L7)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18) | A/B具有相同质心但不同起音/衰减与频谱形状；题设对比音色目标应包含时间演化、噪声/混叠、动态与音乐用途。 |"
+          }
+        },
+        {
+          "d4": "K18.11.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 47,
+            "row": "| K18.11.03.01 | [SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27) | [S617](../../research/source-qualification-sound-design-r1-r2.md#L19)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18) | 音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。 |"
+          }
+        },
+        {
+          "d4": "K18.11.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 48,
+            "row": "| K18.11.04.01 | [SD44/K18.11.04.01](sound-design-r2-knowledge-cases.md#L28) | [S614](../../research/source-qualification-sound-design-r1-r2.md#L16)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18)；[S608](../../research/source-qualification-sound-design-r1-r2.md#L10) | 题设音色修订只允许filter及调制深度；保持音符、素材、时序与其他patch参数，输出需绑定当前版本与复核，旧评分不可直接沿用。 |"
+          }
+        }
+      ],
+      "scope": "| S616 | [librosa 0.11.0 spectral_centroid](https://librosa.org/doc/0.11.0/generated/librosa.feature.spectral_centroid.html) L11–16/28–72 | READ_LOCATOR；幅度谱权重、Hz、FFT/窗/帧对齐，零和本模块UNKNOWN而非声称库返回；描述符不是美感/身份。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S617",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-sound-design-r1-r2.md",
+        "blob": "0299805d921323bcb6168674ffbb18e6eb0543fb",
+        "line": 19,
+        "row": "| S617 | [ITU-R BS.1534-3 (10/2015)](https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en) L7–12 | READ_SCOPE_ONLY；中等质量音频系统主观评价的具名规范入口。实际方法全文本轮未读，不宣称音色偏好试验等于MUSHRA；K10既有S516全文资格不升级。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "ITU-R BS.1534-3 (10/2015)",
+          "uri": "https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K18.11.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/sound-design-r3-discovery-cq.md",
+            "blob": "b565a7c24ce1bf7d8fc26959a72a09f3a36abdec",
+            "line": 47,
+            "row": "| K18.11.03.01 | [SD43/K18.11.03.01](sound-design-r2-knowledge-cases.md#L27) | [S617](../../research/source-qualification-sound-design-r1-r2.md#L19)；[S616](../../research/source-qualification-sound-design-r1-r2.md#L18) | 音色候选比较固定同谱/音域/呈现及适当响度条件，分技术硬项与偏好；BS.1534-3是特定中等音质测试范围，不自动适用任意风格。 |"
+          }
+        }
+      ],
+      "scope": "| S617 | [ITU-R BS.1534-3 (10/2015)](https://www.itu.int/rec/R-REC-BS.1534-3-201510-I/en) L7–12 | READ_SCOPE_ONLY；中等质量音频系统主观评价的具名规范入口。实际方法全文本轮未读，不宣称音色偏好试验等于MUSHRA；K10既有S516全文资格不升级。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

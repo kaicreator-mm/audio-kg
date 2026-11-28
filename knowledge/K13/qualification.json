@@ -1,0 +1,484 @@
+{
+  "format": "audio-kg-qualification/1",
+  "owner": "K13",
+  "status": "CANDIDATE_QUALIFICATION_ONLY",
+  "packBlob": "6a71ac97fd2329a6f259f075d51beacdf95fab92",
+  "sourceQualifications": [
+    {
+      "source": "S137@1",
+      "scope": "| S137 | Watkins 2001 [Burmese](https://doi.org/10.1017/S0025100301002122)，[原PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/334DD11C94575EF39A51109B008FB090/S0025100301002122a.pdf/burmese.pdf)，p.293 Tones/Stress（PDF索引2截图核对） | K13.05/06/07 K05.06 | READ_LOCATOR；该分析非弱化音节四声调、多维音高/发声类型/时长、连读；口语不是歌唱，不能定为唯一分类 |",
+      "limits": "| S137 | Watkins 2001 [Burmese](https://doi.org/10.1017/S0025100301002122)，[原PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/334DD11C94575EF39A51109B008FB090/S0025100301002122a.pdf/burmese.pdf)，p.293 Tones/Stress（PDF索引2截图核对） | K13.05/06/07 K05.06 | READ_LOCATOR；该分析非弱化音节四声调、多维音高/发声类型/时长、连读；口语不是歌唱，不能定为唯一分类 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://doi.org/10.1017/S0025100301002122"
+    },
+    {
+      "source": "S139@1",
+      "scope": "| S139 | Tian 2015 [A grammatical analysis of the 'induced creaky tone' in Burmese](https://hub.hku.hk/handle/10722/255391)，Abstract及记录 | K13.05/07 | ABSTRACT_READ；现代标准缅语的特定语法声调交替、五调分析与7名受访者，不能直接与S137合并；CC BY-NC-ND 4.0记录，未读全文 |",
+      "limits": "| S139 | Tian 2015 [A grammatical analysis of the 'induced creaky tone' in Burmese](https://hub.hku.hk/handle/10722/255391)，Abstract及记录 | K13.05/07 | ABSTRACT_READ；现代标准缅语的特定语法声调交替、五调分析与7名受访者，不能直接与S137合并；CC BY-NC-ND 4.0记录，未读全文 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://hub.hku.hk/handle/10722/255391"
+    },
+    {
+      "source": "S553@1",
+      "scope": "| S553 | Unicode 17.0.0 [Core Specification Chapter 16 §16.3.1](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-16/) Ordering of Syllable Components, Table16-4, Spacing；实际HTML L303–327及导言 | READ_LOCATOR；编码/显示顺序、规范化、书写体系与现代缅语范围；不证明音系、分词或歌唱读音。 |",
+      "limits": "| S553 | Unicode 17.0.0 [Core Specification Chapter 16 §16.3.1](https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-16/) Ordering of Syllable Components, Table16-4, Spacing；实际HTML L303–327及导言 | READ_LOCATOR；编码/显示顺序、规范化、书写体系与现代缅语范围；不证明音系、分词或歌唱读音。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-16/"
+    },
+    {
+      "source": "S554@1",
+      "scope": "| S554 | James Gruber [Perceptual Cues to Lexical Tone in Burmese](https://journals.linguisticsociety.org/proceedings/index.php/ExtendedAbs/article/download/557/468/618) §1–3，实际PDF零基0/1截图、文本L4–37 | READ_LOCATOR；孤立音节感知实验、单说话人刺激/10听者、不同F0/时长/发声类型条件；160/180为未改变录音辨识作者报告，非全部刺激或歌唱、人群泛化。 |",
+      "limits": "| S554 | James Gruber [Perceptual Cues to Lexical Tone in Burmese](https://journals.linguisticsociety.org/proceedings/index.php/ExtendedAbs/article/download/557/468/618) §1–3，实际PDF零基0/1截图、文本L4–37 | READ_LOCATOR；孤立音节感知实验、单说话人刺激/10听者、不同F0/时长/发声类型条件；160/180为未改变录音辨识作者报告，非全部刺激或歌唱、人群泛化。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://journals.linguisticsociety.org/proceedings/index.php/ExtendedAbs/article/download/557/468/618"
+    },
+    {
+      "source": "S555@1",
+      "scope": "| S555 | Štěpánková & Rosa 2025 [Song Lyrics Adaptations](https://aclanthology.org/2025.nlp4dh-1.11.pdf) DOI10.18653/v1/2025.nlp4dh-1.11，实际PDF零基0/2/8（印117/119/125），§1,2.2–2.5 Eq2–5,§6/Limitations | READ_LOCATOR；英捷文本到文本，无旋律输入，五维操作化与韵脚Jaccard/音节距离、偏好差异，研究数据许可限制；不证明实唱、缅语或权利。补S143摘要；不下载数据。 |",
+      "limits": "| S555 | Štěpánková & Rosa 2025 [Song Lyrics Adaptations](https://aclanthology.org/2025.nlp4dh-1.11.pdf) DOI10.18653/v1/2025.nlp4dh-1.11，实际PDF零基0/2/8（印117/119/125），§1,2.2–2.5 Eq2–5,§6/Limitations | READ_LOCATOR；英捷文本到文本，无旋律输入，五维操作化与韵脚Jaccard/音节距离、偏好差异，研究数据许可限制；不证明实唱、缅语或权利。补S143摘要；不下载数据。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://aclanthology.org/2025.nlp4dh-1.11.pdf"
+    },
+    {
+      "source": "S556@1",
+      "scope": "| S556 | Guo et al. 2022 [Automatic Song Translation for Tonal Languages](https://aclanthology.org/2022.findings-acl.60/) Abstract, DOI10.18653/v1/2022.findings-acl.60 | ABSTRACT_READ；英汉基准、语义/可唱性/可懂性及音调与旋律关联，作者报告，非全文或缅语实测；具体方法及评价待R3核验。 |",
+      "limits": "| S556 | Guo et al. 2022 [Automatic Song Translation for Tonal Languages](https://aclanthology.org/2022.findings-acl.60/) Abstract, DOI10.18653/v1/2022.findings-acl.60 | ABSTRACT_READ；英汉基准、语义/可唱性/可懂性及音调与旋律关联，作者报告，非全文或缅语实测；具体方法及评价待R3核验。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "locatorKind": "FROZEN_QUALIFICATION_LOCATOR",
+      "accessedUri": "https://aclanthology.org/2022.findings-acl.60/"
+    }
+  ],
+  "edgeQualifications": [
+    {
+      "edge": "K13-E-LA01-SUPPORTED-BY-K13-EV-LA01",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅编码示例，不判实际歌词发音；Unicode正字法非歌唱规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA01-APPLIES-UNDER-K13-CTX-LA01",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅编码示例，不判实际歌词发音；Unicode正字法非歌唱规则。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA01-REQUIRES-K13-CL-LA11",
+      "scope": "编码与原始串身份不能由规范化串代替",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA02-SUPPORTED-BY-K13-EV-LA02",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无语音测量、声带诊断或唱法处方；S139五调分析仅摘要。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA02-APPLIES-UNDER-K13-CTX-LA02",
+      "scope": "明确题设及证据条件。",
+      "limits": "无语音测量、声带诊断或唱法处方；S139五调分析仅摘要。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA02-REFERENCES-K13-CL-LA12",
+      "scope": "同一口语实验的刺激/分母条件",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K13-E-LA03-SUPPORTED-BY-K13-EV-LA03",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "历史研究不是现代全体歌手规律；无真实唱样。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA03-APPLIES-UNDER-K13-CTX-LA03",
+      "scope": "明确题设及证据条件。",
+      "limits": "历史研究不是现代全体歌手规律；无真实唱样。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA03-REQUIRES-K13-CL-LA02",
+      "scope": "区分口语线索与歌唱证据",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA04-SUPPORTED-BY-K13-EV-LA04",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "题设语义非实际翻译；S142正文403，五维以S555原论文操作化。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA04-APPLIES-UNDER-K13-CTX-LA04",
+      "scope": "明确题设及证据条件。",
+      "limits": "题设语义非实际翻译；S142正文403，五维以S555原论文操作化。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA04-REQUIRES-K15-CL-GV02",
+      "scope": "任务许可与主体边界",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA05-SUPPORTED-BY-K13-EV-LA05",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不指定真实缅语发声或可延长音素，具体由语言/歌唱证据核验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA05-APPLIES-UNDER-K13-CTX-LA05",
+      "scope": "明确题设及证据条件。",
+      "limits": "不指定真实缅语发声或可延长音素，具体由语言/歌唱证据核验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA05-REQUIRES-K13-CL-LA04",
+      "scope": "硬语义和原旋律合同前置",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA06-SUPPORTED-BY-K13-EV-LA06",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "没有真实歌词、听评或翻译实验；K10评价协议、K15实际授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA06-APPLIES-UNDER-K13-CTX-LA06",
+      "scope": "明确题设及证据条件。",
+      "limits": "没有真实歌词、听评或翻译实验；K10评价协议、K15实际授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA06-REQUIRES-K13-CL-LA05",
+      "scope": "符号对齐与实际观察分离",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA07-SUPPORTED-BY-K13-EV-LA07",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "原文只读正文，不复制谱例/音频；无母语专家核验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA07-APPLIES-UNDER-K13-CTX-LA07",
+      "scope": "明确题设及证据条件。",
+      "limits": "原文只读正文，不复制谱例/音频；无母语专家核验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA07-REFERENCES-K13-CL-LA17",
+      "scope": "同一历史作者语境与原术语",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K13-E-LA08-SUPPORTED-BY-K13-EV-LA08",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "数字为合成组计数，不是缅语人群结果或显著性。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA08-APPLIES-UNDER-K13-CTX-LA08",
+      "scope": "明确题设及证据条件。",
+      "limits": "数字为合成组计数，不是缅语人群结果或显著性。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA08-REQUIRES-K10-CL-EV17",
+      "scope": "识别、发音、表达和技术独立",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA09-SUPPORTED-BY-K13-EV-LA09",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "原创抽象例，不评现实文化真实性。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA09-APPLIES-UNDER-K13-CTX-LA09",
+      "scope": "明确题设及证据条件。",
+      "limits": "原创抽象例，不评现实文化真实性。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA09-REQUIRES-K13-CL-LA04",
+      "scope": "硬语义合同先于软取舍",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA10-SUPPORTED-BY-K13-EV-LA10",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成数值非真实基准；K13负责适配结论，不重复模型能力或评价方法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA10-APPLIES-UNDER-K13-CTX-LA10",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成数值非真实基准；K13负责适配结论，不重复模型能力或评价方法。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA10-REQUIRES-K12-CL-TO40",
+      "scope": "具体模型能力卡不能继承家族能力",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA11-SUPPORTED-BY-K13-EV-LA11",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "仅Unicode规范文档，不声称已实现分词、转写或母语校验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA11-APPLIES-UNDER-K13-CTX-LA11",
+      "scope": "明确题设及证据条件。",
+      "limits": "仅Unicode规范文档，不声称已实现分词、转写或母语校验。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA11-REFERENCES-K13-CL-LA01",
+      "scope": "NFC与原始span的实例",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K13-E-LA12-SUPPORTED-BY-K13-EV-LA12",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "来源作者报告，非重新试验，不给声带动作训练。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA12-APPLIES-UNDER-K13-CTX-LA12",
+      "scope": "明确题设及证据条件。",
+      "limits": "来源作者报告，非重新试验，不给声带动作训练。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA12-REFERENCES-K13-CL-LA02",
+      "scope": "声调线索及口语实验条件",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K13-E-LA13-SUPPORTED-BY-K13-EV-LA13",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "符号方向是有限算例，未调用声学模型。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA13-APPLIES-UNDER-K13-CTX-LA13",
+      "scope": "明确题设及证据条件。",
+      "limits": "符号方向是有限算例，未调用声学模型。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA13-REQUIRES-K13-CL-LA03",
+      "scope": "歌唱方向不等口语规则",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA14-SUPPORTED-BY-K13-EV-LA14",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "无真实歌词内容或授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA14-APPLIES-UNDER-K13-CTX-LA14",
+      "scope": "明确题设及证据条件。",
+      "limits": "无真实歌词内容或授权。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA14-REQUIRES-K13-CL-LA04",
+      "scope": "语义合同决定是否允许新创作",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA15-SUPPORTED-BY-K13-EV-LA15",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "英捷研究的度量形式仅限定操作化；目标语言音节/韵脚须先核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA15-APPLIES-UNDER-K13-CTX-LA15",
+      "scope": "明确题设及证据条件。",
+      "limits": "英捷研究的度量形式仅限定操作化；目标语言音节/韵脚须先核。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA15-REFERENCES-K13-CL-LA05",
+      "scope": "音节与音符对齐不等度量",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K13-E-LA16-SUPPORTED-BY-K13-EV-LA16",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不实现工作流或实际试听；K12操作/状态与K15授权各主责。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA16-APPLIES-UNDER-K13-CTX-LA16",
+      "scope": "明确题设及证据条件。",
+      "limits": "不实现工作流或实际试听；K12操作/状态与K15授权各主责。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA16-REQUIRES-K12-CL-TO24",
+      "scope": "输入版本与报告依赖失效",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA16-REFERENCES-K15-CL-GV18",
+      "scope": "撤回后暂停相关任务",
+      "limits": "可选导航，非等价或逻辑逆。"
+    },
+    {
+      "edge": "K13-E-LA17-SUPPORTED-BY-K13-EV-LA17",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "S144正文定向重读、未检查原谱或录音；无具体缅文译词质量证据。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA17-APPLIES-UNDER-K13-CTX-LA17",
+      "scope": "明确题设及证据条件。",
+      "limits": "S144正文定向重读、未检查原谱或录音；无具体缅文译词质量证据。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA17-REQUIRES-K13-CL-LA07",
+      "scope": "历史tone two与现代分类不可强合",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA18-SUPPORTED-BY-K13-EV-LA18",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "合成计数、阈值由题设，不是标准或真实母语者。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA18-APPLIES-UNDER-K13-CTX-LA18",
+      "scope": "明确题设及证据条件。",
+      "limits": "合成计数、阈值由题设，不是标准或真实母语者。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA18-REQUIRES-K13-CL-LA08",
+      "scope": "独立音频观察及分母条件",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA19-SUPPORTED-BY-K13-EV-LA19",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不评现实文化真实性或从音色推身份。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA19-APPLIES-UNDER-K13-CTX-LA19",
+      "scope": "明确题设及证据条件。",
+      "limits": "不评现实文化真实性或从音色推身份。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA19-REQUIRES-K13-CL-LA09",
+      "scope": "硬保护通过才比较软偏好",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA20-SUPPORTED-BY-K13-EV-LA20",
+      "scope": "来源定位及限定专业范围。",
+      "limits": "不宣称任何真实缅语模型运行或文化覆盖。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA20-APPLIES-UNDER-K13-CTX-LA20",
+      "scope": "明确题设及证据条件。",
+      "limits": "不宣称任何真实缅语模型运行或文化覆盖。；仅冻结范围及明确合成题设，不作实际观察、授权、效果、宿主或质量证明。"
+    },
+    {
+      "edge": "K13-E-LA20-REQUIRES-K13-CL-LA10",
+      "scope": "未见语种的分层证据边界",
+      "limits": "限定必要知识，供给方适用性另核。"
+    },
+    {
+      "edge": "K13-E-LA20-REFERENCES-K11-CL-AM30",
+      "scope": "机制与运行证据分层",
+      "limits": "可选导航，非等价或逻辑逆。"
+    }
+  ],
+  "obligations": [
+    {
+      "edge": "K13-E-LA01-REQUIRES-K13-CL-LA11",
+      "consumer": "K13-CL-LA01@1",
+      "provider": "K13-CL-LA11@1",
+      "condition": "K13-CTX-LA01@1",
+      "providerContext": "K13-CTX-LA11@1",
+      "group": "K13-GR-LA01@1"
+    },
+    {
+      "edge": "K13-E-LA03-REQUIRES-K13-CL-LA02",
+      "consumer": "K13-CL-LA03@1",
+      "provider": "K13-CL-LA02@1",
+      "condition": "K13-CTX-LA03@1",
+      "providerContext": "K13-CTX-LA02@1",
+      "group": "K13-GR-LA03@1"
+    },
+    {
+      "edge": "K13-E-LA04-REQUIRES-K15-CL-GV02",
+      "consumer": "K13-CL-LA04@1",
+      "provider": "K15-CL-GV02@1",
+      "condition": "K13-CTX-LA04@1",
+      "providerContext": "K15-CTX-GV02@1",
+      "group": "K13-GR-LA04@1"
+    },
+    {
+      "edge": "K13-E-LA05-REQUIRES-K13-CL-LA04",
+      "consumer": "K13-CL-LA05@1",
+      "provider": "K13-CL-LA04@1",
+      "condition": "K13-CTX-LA05@1",
+      "providerContext": "K13-CTX-LA04@1",
+      "group": "K13-GR-LA05@1"
+    },
+    {
+      "edge": "K13-E-LA06-REQUIRES-K13-CL-LA05",
+      "consumer": "K13-CL-LA06@1",
+      "provider": "K13-CL-LA05@1",
+      "condition": "K13-CTX-LA06@1",
+      "providerContext": "K13-CTX-LA05@1",
+      "group": "K13-GR-LA06@1"
+    },
+    {
+      "edge": "K13-E-LA08-REQUIRES-K10-CL-EV17",
+      "consumer": "K13-CL-LA08@1",
+      "provider": "K10-CL-EV17@1",
+      "condition": "K13-CTX-LA08@1",
+      "providerContext": "K10-CTX-EV17@1",
+      "group": "K13-GR-LA08@1"
+    },
+    {
+      "edge": "K13-E-LA09-REQUIRES-K13-CL-LA04",
+      "consumer": "K13-CL-LA09@1",
+      "provider": "K13-CL-LA04@1",
+      "condition": "K13-CTX-LA09@1",
+      "providerContext": "K13-CTX-LA04@1",
+      "group": "K13-GR-LA09@1"
+    },
+    {
+      "edge": "K13-E-LA10-REQUIRES-K12-CL-TO40",
+      "consumer": "K13-CL-LA10@1",
+      "provider": "K12-CL-TO40@1",
+      "condition": "K13-CTX-LA10@1",
+      "providerContext": "K12-CTX-TO40@1",
+      "group": "K13-GR-LA10@1"
+    },
+    {
+      "edge": "K13-E-LA13-REQUIRES-K13-CL-LA03",
+      "consumer": "K13-CL-LA13@1",
+      "provider": "K13-CL-LA03@1",
+      "condition": "K13-CTX-LA13@1",
+      "providerContext": "K13-CTX-LA03@1",
+      "group": "K13-GR-LA13@1"
+    },
+    {
+      "edge": "K13-E-LA14-REQUIRES-K13-CL-LA04",
+      "consumer": "K13-CL-LA14@1",
+      "provider": "K13-CL-LA04@1",
+      "condition": "K13-CTX-LA14@1",
+      "providerContext": "K13-CTX-LA04@1",
+      "group": "K13-GR-LA14@1"
+    },
+    {
+      "edge": "K13-E-LA16-REQUIRES-K12-CL-TO24",
+      "consumer": "K13-CL-LA16@1",
+      "provider": "K12-CL-TO24@1",
+      "condition": "K13-CTX-LA16@1",
+      "providerContext": "K12-CTX-TO24@1",
+      "group": "K13-GR-LA16@1"
+    },
+    {
+      "edge": "K13-E-LA17-REQUIRES-K13-CL-LA07",
+      "consumer": "K13-CL-LA17@1",
+      "provider": "K13-CL-LA07@1",
+      "condition": "K13-CTX-LA17@1",
+      "providerContext": "K13-CTX-LA07@1",
+      "group": "K13-GR-LA17@1"
+    },
+    {
+      "edge": "K13-E-LA18-REQUIRES-K13-CL-LA08",
+      "consumer": "K13-CL-LA18@1",
+      "provider": "K13-CL-LA08@1",
+      "condition": "K13-CTX-LA18@1",
+      "providerContext": "K13-CTX-LA08@1",
+      "group": "K13-GR-LA18@1"
+    },
+    {
+      "edge": "K13-E-LA19-REQUIRES-K13-CL-LA09",
+      "consumer": "K13-CL-LA19@1",
+      "provider": "K13-CL-LA09@1",
+      "condition": "K13-CTX-LA19@1",
+      "providerContext": "K13-CTX-LA09@1",
+      "group": "K13-GR-LA19@1"
+    },
+    {
+      "edge": "K13-E-LA20-REQUIRES-K13-CL-LA10",
+      "consumer": "K13-CL-LA20@1",
+      "provider": "K13-CL-LA10@1",
+      "condition": "K13-CTX-LA20@1",
+      "providerContext": "K13-CTX-LA10@1",
+      "group": "K13-GR-LA20@1"
+    }
+  ]
+}

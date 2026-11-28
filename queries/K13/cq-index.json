@@ -1,0 +1,744 @@
+{
+  "status": "CONDITIONAL_DISCOVERY_ONLY",
+  "questions": [
+    {
+      "id": "CQ01",
+      "type": "S",
+      "question": "词谱音符条件引用K01；不定义文化音级",
+      "scope": "词谱音符条件引用K01；不定义文化音级",
+      "caseIds": [
+        "LA05",
+        "LA15"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 29,
+        "row": "| CQ01 | S | [LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9) | 词谱音符条件引用K01；不定义文化音级 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ02",
+      "type": "O",
+      "question": "作曲与历史流派K02/K16",
+      "scope": "作曲与历史流派K02/K16",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 30,
+        "row": "| CQ02 | O | — | 作曲与历史流派K02/K16 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ03",
+      "type": "O",
+      "question": "配器K03",
+      "scope": "配器K03",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 31,
+        "row": "| CQ03 | O | — | 配器K03 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ04",
+      "type": "D",
+      "question": "语言音节/歌唱词曲条件",
+      "scope": "语言音节/歌唱词曲条件",
+      "caseIds": [
+        "LA01",
+        "LA11",
+        "LA02",
+        "LA12",
+        "LA03",
+        "LA13",
+        "LA04",
+        "LA14",
+        "LA05",
+        "LA15",
+        "LA06",
+        "LA16",
+        "LA07",
+        "LA17"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 32,
+        "row": "| CQ04 | D | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5)；[LA02/K13.05.02.03](localization-r1-knowledge-cases.md#L6)；[LA12/K13.05.02.04](localization-r2-knowledge-cases.md#L6)；[LA03/K13.05.03.03](localization-r1-knowledge-cases.md#L7)；[LA13/K13.05.03.04](localization-r2-knowledge-cases.md#L7)；[LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8)；[LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9)；[LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10)；[LA07/K13.07.03.03](localization-r1-knowledge-cases.md#L11)；[LA17/K13.07.03.04](localization-r2-knowledge-cases.md#L11) | 语言音节/歌唱词曲条件 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ05",
+      "type": "O",
+      "question": "发声生理K05",
+      "scope": "发声生理K05",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 33,
+        "row": "| CQ05 | O | — | 发声生理K05 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ06",
+      "type": "O",
+      "question": "训练K06",
+      "scope": "训练K06",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 34,
+        "row": "| CQ06 | O | — | 训练K06 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ07",
+      "type": "O",
+      "question": "声学与安全K07",
+      "scope": "声学与安全K07",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 35,
+        "row": "| CQ07 | O | — | 声学与安全K07 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ08",
+      "type": "O",
+      "question": "音频DSP/交付K08/K09",
+      "scope": "音频DSP/交付K08/K09",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 36,
+        "row": "| CQ08 | O | — | 音频DSP/交付K08/K09 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ09",
+      "type": "S",
+      "question": "模型机制K11、实际工具K12",
+      "scope": "模型机制K11、实际工具K12",
+      "caseIds": [
+        "LA10",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 37,
+        "row": "| CQ09 | S | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 模型机制K11、实际工具K12 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ10",
+      "type": "O",
+      "question": "源分离K08/K11",
+      "scope": "源分离K08/K11",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 38,
+        "row": "| CQ10 | O | — | 源分离K08/K11 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ11",
+      "type": "D",
+      "question": "本地化评价目标和人群条件；K10评价",
+      "scope": "本地化评价目标和人群条件；K10评价",
+      "caseIds": [
+        "LA08",
+        "LA18",
+        "LA09",
+        "LA19",
+        "LA10",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 39,
+        "row": "| CQ11 | D | [LA08/K13.08.01.03](localization-r1-knowledge-cases.md#L12)；[LA18/K13.08.01.04](localization-r2-knowledge-cases.md#L12)；[LA09/K13.08.02.03](localization-r1-knowledge-cases.md#L13)；[LA19/K13.08.02.04](localization-r2-knowledge-cases.md#L13)；[LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 本地化评价目标和人群条件；K10评价 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ12",
+      "type": "D",
+      "question": "本地化翻唱词谱和语言",
+      "scope": "本地化翻唱词谱和语言",
+      "caseIds": [
+        "LA01",
+        "LA11",
+        "LA02",
+        "LA12",
+        "LA03",
+        "LA13",
+        "LA04",
+        "LA14",
+        "LA05",
+        "LA15",
+        "LA06",
+        "LA16",
+        "LA07",
+        "LA17"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 40,
+        "row": "| CQ12 | D | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5)；[LA02/K13.05.02.03](localization-r1-knowledge-cases.md#L6)；[LA12/K13.05.02.04](localization-r2-knowledge-cases.md#L6)；[LA03/K13.05.03.03](localization-r1-knowledge-cases.md#L7)；[LA13/K13.05.03.04](localization-r2-knowledge-cases.md#L7)；[LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8)；[LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9)；[LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10)；[LA07/K13.07.03.03](localization-r1-knowledge-cases.md#L11)；[LA17/K13.07.03.04](localization-r2-knowledge-cases.md#L11) | 本地化翻唱词谱和语言 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ13",
+      "type": "S",
+      "question": "静态来源与主原子追踪",
+      "scope": "静态来源与主原子追踪",
+      "caseIds": [
+        "LA01",
+        "LA02",
+        "LA03",
+        "LA04",
+        "LA05",
+        "LA06",
+        "LA07",
+        "LA08",
+        "LA09",
+        "LA10",
+        "LA11",
+        "LA12",
+        "LA13",
+        "LA14",
+        "LA15",
+        "LA16",
+        "LA17",
+        "LA18",
+        "LA19",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 41,
+        "row": "| CQ13 | S | 上表全部20逐原子 | 静态来源与主原子追踪 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ14",
+      "type": "S",
+      "question": "工具版本由K12；本地化证据缺口",
+      "scope": "工具版本由K12；本地化证据缺口",
+      "caseIds": [
+        "LA10",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 42,
+        "row": "| CQ14 | S | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 工具版本由K12；本地化证据缺口 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ15",
+      "type": "O",
+      "question": "音乐教学K14",
+      "scope": "音乐教学K14",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 43,
+        "row": "| CQ15 | O | — | 音乐教学K14 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ16",
+      "type": "D",
+      "question": "词曲硬保留、适配候选",
+      "scope": "词曲硬保留、适配候选",
+      "caseIds": [
+        "LA04",
+        "LA14",
+        "LA05",
+        "LA15",
+        "LA06",
+        "LA16"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 44,
+        "row": "| CQ16 | D | [LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8)；[LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9)；[LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10) | 词曲硬保留、适配候选 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ17",
+      "type": "O",
+      "question": "文化解释K16、认知K17",
+      "scope": "文化解释K16、认知K17",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 45,
+        "row": "| CQ17 | O | — | 文化解释K16、认知K17 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ18",
+      "type": "D",
+      "question": "限语言/适配具名资料；历史文化K16，不代表全部非西方文化",
+      "scope": "限语言/适配具名资料；历史文化K16，不代表全部非西方文化",
+      "caseIds": [
+        "LA01",
+        "LA11",
+        "LA02",
+        "LA12",
+        "LA03",
+        "LA13"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 46,
+        "row": "| CQ18 | D | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5)；[LA02/K13.05.02.03](localization-r1-knowledge-cases.md#L6)；[LA12/K13.05.02.04](localization-r2-knowledge-cases.md#L6)；[LA03/K13.05.03.03](localization-r1-knowledge-cases.md#L7)；[LA13/K13.05.03.04](localization-r2-knowledge-cases.md#L7) | 限语言/适配具名资料；历史文化K16，不代表全部非西方文化 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ19",
+      "type": "D",
+      "question": "词曲适配工作流",
+      "scope": "词曲适配工作流",
+      "caseIds": [
+        "LA04",
+        "LA14",
+        "LA05",
+        "LA15",
+        "LA06",
+        "LA16"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 47,
+        "row": "| CQ19 | D | [LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8)；[LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9)；[LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10) | 词曲适配工作流 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ20",
+      "type": "S",
+      "question": "具体工具K12",
+      "scope": "具体工具K12",
+      "caseIds": [
+        "LA10",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 48,
+        "row": "| CQ20 | S | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 具体工具K12 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ21",
+      "type": "S",
+      "question": "词谱候选与证据状态支持",
+      "scope": "词谱候选与证据状态支持",
+      "caseIds": [
+        "LA06",
+        "LA16"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 49,
+        "row": "| CQ21 | S | [LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10) | 词谱候选与证据状态支持 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ22",
+      "type": "D",
+      "question": "母语理解、偏好、技术质量分别",
+      "scope": "母语理解、偏好、技术质量分别",
+      "caseIds": [
+        "LA08",
+        "LA18",
+        "LA09",
+        "LA19",
+        "LA10",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 50,
+        "row": "| CQ22 | D | [LA08/K13.08.01.03](localization-r1-knowledge-cases.md#L12)；[LA18/K13.08.01.04](localization-r2-knowledge-cases.md#L12)；[LA09/K13.08.02.03](localization-r1-knowledge-cases.md#L13)；[LA19/K13.08.02.04](localization-r2-knowledge-cases.md#L13)；[LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 母语理解、偏好、技术质量分别 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ23",
+      "type": "D",
+      "question": "歌词与谱面编辑映射",
+      "scope": "歌词与谱面编辑映射",
+      "caseIds": [
+        "LA04",
+        "LA14",
+        "LA05",
+        "LA15",
+        "LA06",
+        "LA16"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 51,
+        "row": "| CQ23 | D | [LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8)；[LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9)；[LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10) | 歌词与谱面编辑映射 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ24",
+      "type": "S",
+      "question": "反馈修订与适配未知支持",
+      "scope": "反馈修订与适配未知支持",
+      "caseIds": [
+        "LA06",
+        "LA10",
+        "LA16",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 52,
+        "row": "| CQ24 | S | [LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 反馈修订与适配未知支持 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ25",
+      "type": "S",
+      "question": "静态发现/来源和适配条件，非图谱",
+      "scope": "静态发现/来源和适配条件，非图谱",
+      "caseIds": [
+        "LA01",
+        "LA02",
+        "LA03",
+        "LA04",
+        "LA05",
+        "LA06",
+        "LA07",
+        "LA08",
+        "LA09",
+        "LA10",
+        "LA11",
+        "LA12",
+        "LA13",
+        "LA14",
+        "LA15",
+        "LA16",
+        "LA17",
+        "LA18",
+        "LA19",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 53,
+        "row": "| CQ25 | S | 上表全部20逐原子；局部偏差问题另见下表 | 静态发现/来源和适配条件，非图谱 |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ26",
+      "type": "D",
+      "question": "本地化条件、证据与真实权限边界",
+      "scope": "本地化条件、证据与真实权限边界",
+      "caseIds": [
+        "LA01",
+        "LA11",
+        "LA02",
+        "LA12",
+        "LA03",
+        "LA13",
+        "LA04",
+        "LA14",
+        "LA05",
+        "LA15",
+        "LA06",
+        "LA16",
+        "LA07",
+        "LA17",
+        "LA08",
+        "LA18",
+        "LA09",
+        "LA19",
+        "LA10",
+        "LA20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 54,
+        "row": "| CQ26 | D | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5)；[LA02/K13.05.02.03](localization-r1-knowledge-cases.md#L6)；[LA12/K13.05.02.04](localization-r2-knowledge-cases.md#L6)；[LA03/K13.05.03.03](localization-r1-knowledge-cases.md#L7)；[LA13/K13.05.03.04](localization-r2-knowledge-cases.md#L7)；[LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8)；[LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9)；[LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10)；[LA07/K13.07.03.03](localization-r1-knowledge-cases.md#L11)；[LA17/K13.07.03.04](localization-r2-knowledge-cases.md#L11)；[LA08/K13.08.01.03](localization-r1-knowledge-cases.md#L12)；[LA18/K13.08.01.04](localization-r2-knowledge-cases.md#L12)；[LA09/K13.08.02.03](localization-r1-knowledge-cases.md#L13)；[LA19/K13.08.02.04](localization-r2-knowledge-cases.md#L13)；[LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 本地化条件、证据与真实权限边界 |"
+      },
+      "navigationOnly": false
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K13-01",
+      "question": "码点与音节是否等价？",
+      "caseIds": [
+        "LA01",
+        "LA11"
+      ],
+      "decision": "编码/显示/音系独立，不用字符计音节",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 59,
+        "row": "| CQ-K13-01 | 码点与音节是否等价？ | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5) | 编码/显示/音系独立，不用字符计音节 |"
+      }
+    },
+    {
+      "id": "CQ-K13-02",
+      "question": "同字形能否确定语种？",
+      "caseIds": [
+        "LA01",
+        "LA11"
+      ],
+      "decision": "语言方言，Myanmar script不等Burmese",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 60,
+        "row": "| CQ-K13-02 | 同字形能否确定语种？ | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5) | 语言方言，Myanmar script不等Burmese |"
+      }
+    },
+    {
+      "id": "CQ-K13-03",
+      "question": "口语声调如何比较？",
+      "caseIds": [
+        "LA02",
+        "LA12"
+      ],
+      "decision": "F0/时长/发声及语境，多体系不强合",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 61,
+        "row": "| CQ-K13-03 | 口语声调如何比较？ | [LA02/K13.05.02.03](localization-r1-knowledge-cases.md#L6)；[LA12/K13.05.02.04](localization-r2-knowledge-cases.md#L6) | F0/时长/发声及语境，多体系不强合 |"
+      }
+    },
+    {
+      "id": "CQ-K13-04",
+      "question": "口语声调是否决定歌唱旋律？",
+      "caseIds": [
+        "LA03",
+        "LA13"
+      ],
+      "decision": "历史/歌唱专项与母语验证，非固定规则",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 62,
+        "row": "| CQ-K13-04 | 口语声调是否决定歌唱旋律？ | [LA03/K13.05.03.03](localization-r1-knowledge-cases.md#L7)；[LA13/K13.05.03.04](localization-r2-knowledge-cases.md#L7) | 历史/歌唱专项与母语验证，非固定规则 |"
+      }
+    },
+    {
+      "id": "CQ-K13-05",
+      "question": "翻译还是可唱改编？",
+      "caseIds": [
+        "LA04",
+        "LA14"
+      ],
+      "decision": "目标及硬保留、权利分开",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 63,
+        "row": "| CQ-K13-05 | 翻译还是可唱改编？ | [LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8) | 目标及硬保留、权利分开 |"
+      }
+    },
+    {
+      "id": "CQ-K13-06",
+      "question": "音节数相同能否直接演唱？",
+      "caseIds": [
+        "LA05",
+        "LA15"
+      ],
+      "decision": "音节-音符/语义/时值/韵律对齐",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 64,
+        "row": "| CQ-K13-06 | 音节数相同能否直接演唱？ | [LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9) | 音节-音符/语义/时值/韵律对齐 |"
+      }
+    },
+    {
+      "id": "CQ-K13-07",
+      "question": "文本评价是否证明歌唱？",
+      "caseIds": [
+        "LA06",
+        "LA16"
+      ],
+      "decision": "版本及真正听评证据另核",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 65,
+        "row": "| CQ-K13-07 | 文本评价是否证明歌唱？ | [LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10) | 版本及真正听评证据另核 |"
+      }
+    },
+    {
+      "id": "CQ-K13-08",
+      "question": "缅语历史tone two如何使用？",
+      "caseIds": [
+        "LA07",
+        "LA17"
+      ],
+      "decision": "历史原术语及伴奏语境，不硬映射现代",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 66,
+        "row": "| CQ-K13-08 | 缅语历史tone two如何使用？ | [LA07/K13.07.03.03](localization-r1-knowledge-cases.md#L11)；[LA17/K13.07.03.04](localization-r2-knowledge-cases.md#L11) | 历史原术语及伴奏语境，不硬映射现代 |"
+      }
+    },
+    {
+      "id": "CQ-K13-09",
+      "question": "母语理解与喜好是否相同？",
+      "caseIds": [
+        "LA08",
+        "LA18"
+      ],
+      "decision": "任务人群、分母、评价维度分开",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 67,
+        "row": "| CQ-K13-09 | 母语理解与喜好是否相同？ | [LA08/K13.08.01.03](localization-r1-knowledge-cases.md#L12)；[LA18/K13.08.01.04](localization-r2-knowledge-cases.md#L12) | 任务人群、分母、评价维度分开 |"
+      }
+    },
+    {
+      "id": "CQ-K13-10",
+      "question": "何为允许差异？",
+      "caseIds": [
+        "LA09",
+        "LA19"
+      ],
+      "decision": "硬保护与软偏好，保留分歧",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 68,
+        "row": "| CQ-K13-10 | 何为允许差异？ | [LA09/K13.08.02.03](localization-r1-knowledge-cases.md#L13)；[LA19/K13.08.02.04](localization-r2-knowledge-cases.md#L13) | 硬保护与软偏好，保留分歧 |"
+      }
+    },
+    {
+      "id": "CQ-K13-11",
+      "question": "总体分数能否推缅语能力？",
+      "caseIds": [
+        "LA10",
+        "LA20"
+      ],
+      "decision": "分层证据、无样本UNKNOWN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 69,
+        "row": "| CQ-K13-11 | 总体分数能否推缅语能力？ | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 分层证据、无样本UNKNOWN |"
+      }
+    },
+    {
+      "id": "CQ-K13-12",
+      "question": "实际工具和语言资格如何联动？",
+      "caseIds": [
+        "LA10",
+        "LA20"
+      ],
+      "decision": "K12具体版本、K11语料、K10评价；K13适配",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 70,
+        "row": "| CQ-K13-12 | 实际工具和语言资格如何联动？ | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | K12具体版本、K11语料、K10评价；K13适配 |"
+      }
+    }
+  ]
+}

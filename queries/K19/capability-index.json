@@ -1,0 +1,3127 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_PERMISSION",
+  "roles": [
+    {
+      "d2": "K19.01",
+      "ability": "A01",
+      "role": "P",
+      "task": "场地、服务对象、验收约束",
+      "d4Targets": [
+        "K19.01.01.01",
+        "K19.01.02.01",
+        "K19.01.03.01",
+        "K19.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 5,
+        "row": "| K19.01 | A01 | P | 场地、服务对象、验收约束 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS02/K19.01.02.01](live-sound-r1-knowledge-cases.md#L6)；[LS03/K19.01.03.01](live-sound-r1-knowledge-cases.md#L7)；[LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS01@1",
+        "K19-CL-LS02@1",
+        "K19-CL-LS03@1",
+        "K19-CL-LS04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS01",
+          "claim": "K19-CL-LS01@1",
+          "problem": "观众A/B、舞台M和控制位C，验收需求如何按对象区分？",
+          "reject": "拒绝该推断。题设J有观众区A/B、舞台M、控制位C；分别定义节目、服务对象（含年龄及是否儿童针对性活动）、覆盖、清晰度、声级及运行可靠性，批准场地图及验收协议；适用人群政策未知停止。"
+        },
+        {
+          "caseId": "LS02",
+          "claim": "K19-CL-LS02@1",
+          "problem": "观众、工作人员、表演者及儿童活动可否共用一套暴露政策？",
+          "reject": "拒绝该推断。观众与工作人员、表演者、邻界是不同对象；观众中儿童针对性活动需独立更保守政策及峰值条件，不以一般观众政策替代。题设观众参考位、工作人员剂量协议分开，年龄/政策及现场法定限制未知停止。"
+        },
+        {
+          "caseId": "LS03",
+          "claim": "K19-CL-LS03@1",
+          "problem": "输入清单及交接角色有哪些证据，电源吊挂谁负责？",
+          "reject": "拒绝该推断。输入清单标声源/通道/监听需求、场景与交接角色；空间、电源、吊挂、疏散由合格现场责任人另确认。"
+        },
+        {
+          "caseId": "LS04",
+          "claim": "K19-CL-LS04@1",
+          "problem": "项目自设覆盖极差4dB，能否作为正式AVIXA阈值？",
+          "reject": "拒绝该推断。预先给每项指标独立对象、方法、条件与阈值来源；题设覆盖差≤4dB为项目自定，不称AVIXA阈值；清晰度单设协议。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.01",
+      "ability": "A02",
+      "role": "P",
+      "task": "需求→场地/权限→目标与协议",
+      "d4Targets": [
+        "K19.01.01.01",
+        "K19.01.03.01",
+        "K19.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 6,
+        "row": "| K19.01 | A02 | P | 需求→场地/权限→目标与协议 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS03/K19.01.03.01](live-sound-r1-knowledge-cases.md#L7)；[LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS01@1",
+        "K19-CL-LS03@1",
+        "K19-CL-LS04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS01",
+          "claim": "K19-CL-LS01@1",
+          "problem": "观众A/B、舞台M和控制位C，验收需求如何按对象区分？",
+          "reject": "拒绝该推断。题设J有观众区A/B、舞台M、控制位C；分别定义节目、服务对象（含年龄及是否儿童针对性活动）、覆盖、清晰度、声级及运行可靠性，批准场地图及验收协议；适用人群政策未知停止。"
+        },
+        {
+          "caseId": "LS03",
+          "claim": "K19-CL-LS03@1",
+          "problem": "输入清单及交接角色有哪些证据，电源吊挂谁负责？",
+          "reject": "拒绝该推断。输入清单标声源/通道/监听需求、场景与交接角色；空间、电源、吊挂、疏散由合格现场责任人另确认。"
+        },
+        {
+          "caseId": "LS04",
+          "claim": "K19-CL-LS04@1",
+          "problem": "项目自设覆盖极差4dB，能否作为正式AVIXA阈值？",
+          "reject": "拒绝该推断。预先给每项指标独立对象、方法、条件与阈值来源；题设覆盖差≤4dB为项目自定，不称AVIXA阈值；清晰度单设协议。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.01",
+      "ability": "A03",
+      "role": "S",
+      "task": "场地资料及工具资格，不执行",
+      "d4Targets": [
+        "K19.01.01.01",
+        "K19.01.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 7,
+        "row": "| K19.01 | A03 | S | 场地资料及工具资格，不执行 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS03/K19.01.03.01](live-sound-r1-knowledge-cases.md#L7) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS01@1",
+        "K19-CL-LS03@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS01",
+          "claim": "K19-CL-LS01@1",
+          "problem": "观众A/B、舞台M和控制位C，验收需求如何按对象区分？",
+          "reject": "拒绝该推断。题设J有观众区A/B、舞台M、控制位C；分别定义节目、服务对象（含年龄及是否儿童针对性活动）、覆盖、清晰度、声级及运行可靠性，批准场地图及验收协议；适用人群政策未知停止。"
+        },
+        {
+          "caseId": "LS03",
+          "claim": "K19-CL-LS03@1",
+          "problem": "输入清单及交接角色有哪些证据，电源吊挂谁负责？",
+          "reject": "拒绝该推断。输入清单标声源/通道/监听需求、场景与交接角色；空间、电源、吊挂、疏散由合格现场责任人另确认。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.01",
+      "ability": "A04",
+      "role": "P",
+      "task": "场地/节目/目标身份及版本",
+      "d4Targets": [
+        "K19.01.01.01",
+        "K19.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 8,
+        "row": "| K19.01 | A04 | P | 场地/节目/目标身份及版本 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS01@1",
+        "K19-CL-LS04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS01",
+          "claim": "K19-CL-LS01@1",
+          "problem": "观众A/B、舞台M和控制位C，验收需求如何按对象区分？",
+          "reject": "拒绝该推断。题设J有观众区A/B、舞台M、控制位C；分别定义节目、服务对象（含年龄及是否儿童针对性活动）、覆盖、清晰度、声级及运行可靠性，批准场地图及验收协议；适用人群政策未知停止。"
+        },
+        {
+          "caseId": "LS04",
+          "claim": "K19-CL-LS04@1",
+          "problem": "项目自设覆盖极差4dB，能否作为正式AVIXA阈值？",
+          "reject": "拒绝该推断。预先给每项指标独立对象、方法、条件与阈值来源；题设覆盖差≤4dB为项目自定，不称AVIXA阈值；清晰度单设协议。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.01",
+      "ability": "A05",
+      "role": "P",
+      "task": "各指标及阈值来源",
+      "d4Targets": [
+        "K19.01.02.01",
+        "K19.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 9,
+        "row": "| K19.01 | A05 | P | 各指标及阈值来源 | [LS02/K19.01.02.01](live-sound-r1-knowledge-cases.md#L6)；[LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS02@1",
+        "K19-CL-LS04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS02",
+          "claim": "K19-CL-LS02@1",
+          "problem": "观众、工作人员、表演者及儿童活动可否共用一套暴露政策？",
+          "reject": "拒绝该推断。观众与工作人员、表演者、邻界是不同对象；观众中儿童针对性活动需独立更保守政策及峰值条件，不以一般观众政策替代。题设观众参考位、工作人员剂量协议分开，年龄/政策及现场法定限制未知停止。"
+        },
+        {
+          "caseId": "LS04",
+          "claim": "K19-CL-LS04@1",
+          "problem": "项目自设覆盖极差4dB，能否作为正式AVIXA阈值？",
+          "reject": "拒绝该推断。预先给每项指标独立对象、方法、条件与阈值来源；题设覆盖差≤4dB为项目自定，不称AVIXA阈值；清晰度单设协议。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.01",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑场地/输入/验收计划",
+      "d4Targets": [
+        "K19.01.01.01",
+        "K19.01.03.01",
+        "K19.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 10,
+        "row": "| K19.01 | A06 | P | 可编辑场地/输入/验收计划 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS03/K19.01.03.01](live-sound-r1-knowledge-cases.md#L7)；[LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS01@1",
+        "K19-CL-LS03@1",
+        "K19-CL-LS04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS01",
+          "claim": "K19-CL-LS01@1",
+          "problem": "观众A/B、舞台M和控制位C，验收需求如何按对象区分？",
+          "reject": "拒绝该推断。题设J有观众区A/B、舞台M、控制位C；分别定义节目、服务对象（含年龄及是否儿童针对性活动）、覆盖、清晰度、声级及运行可靠性，批准场地图及验收协议；适用人群政策未知停止。"
+        },
+        {
+          "caseId": "LS03",
+          "claim": "K19-CL-LS03@1",
+          "problem": "输入清单及交接角色有哪些证据，电源吊挂谁负责？",
+          "reject": "拒绝该推断。输入清单标声源/通道/监听需求、场景与交接角色；空间、电源、吊挂、疏散由合格现场责任人另确认。"
+        },
+        {
+          "caseId": "LS04",
+          "claim": "K19-CL-LS04@1",
+          "problem": "项目自设覆盖极差4dB，能否作为正式AVIXA阈值？",
+          "reject": "拒绝该推断。预先给每项指标独立对象、方法、条件与阈值来源；题设覆盖差≤4dB为项目自定，不称AVIXA阈值；清晰度单设协议。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.01",
+      "ability": "A07",
+      "role": "P",
+      "task": "条件变化及需求复核",
+      "d4Targets": [
+        "K19.01.03.01",
+        "K19.01.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 11,
+        "row": "| K19.01 | A07 | P | 条件变化及需求复核 | [LS03/K19.01.03.01](live-sound-r1-knowledge-cases.md#L7)；[LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS03@1",
+        "K19-CL-LS04@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS03",
+          "claim": "K19-CL-LS03@1",
+          "problem": "输入清单及交接角色有哪些证据，电源吊挂谁负责？",
+          "reject": "拒绝该推断。输入清单标声源/通道/监听需求、场景与交接角色；空间、电源、吊挂、疏散由合格现场责任人另确认。"
+        },
+        {
+          "caseId": "LS04",
+          "claim": "K19-CL-LS04@1",
+          "problem": "项目自设覆盖极差4dB，能否作为正式AVIXA阈值？",
+          "reject": "拒绝该推断。预先给每项指标独立对象、方法、条件与阈值来源；题设覆盖差≤4dB为项目自定，不称AVIXA阈值；清晰度单设协议。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.02",
+      "ability": "A01",
+      "role": "P",
+      "task": "传播、覆盖候选与布局",
+      "d4Targets": [
+        "K19.02.01.01",
+        "K19.02.02.01",
+        "K19.02.03.01",
+        "K19.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 12,
+        "row": "| K19.02 | A01 | P | 传播、覆盖候选与布局 | [LS05/K19.02.01.01](live-sound-r1-knowledge-cases.md#L9)；[LS06/K19.02.02.01](live-sound-r1-knowledge-cases.md#L10)；[LS07/K19.02.03.01](live-sound-r1-knowledge-cases.md#L11)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS05@1",
+        "K19-CL-LS06@1",
+        "K19-CL-LS07@1",
+        "K19-CL-LS08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS05",
+          "claim": "K19-CL-LS05@1",
+          "problem": "理想自由场同方向2至4m，理论压力级差是多少？",
+          "reject": "拒绝该推断。理想自由场单点源同辐射方向、远场且无反射条件，距离2→4m，压力级差−20log10(4/2)≈−6.02dB。"
+        },
+        {
+          "caseId": "LS06",
+          "claim": "K19-CL-LS06@1",
+          "problem": "主扩、补声、边界及重叠区怎样分别定义覆盖？",
+          "reject": "拒绝该推断。候选分区布局区分主扩、补声、覆盖边界和重叠区；同区域各频带响应需记录，厂商名义角度不是全频实测。"
+        },
+        {
+          "caseId": "LS07",
+          "claim": "K19-CL-LS07@1",
+          "problem": "假定路径差3.43m、声速343m/s，理想到达差多少？",
+          "reject": "拒绝该推断。题设直达路径差3.43m，声速假设343m/s，理想到达时间差10ms；与设备/DSP延迟另列。"
+        },
+        {
+          "caseId": "LS08",
+          "claim": "K19-CL-LS08@1",
+          "problem": "同协议A/B/C为-3/0/-1，项目极差多少？",
+          "reject": "拒绝该推断。题设A/B/C同协议的早到达能量级[−3,0,−1]相对基准，极差3dB；项目候选统计与标准正式分类分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.02",
+      "ability": "A02",
+      "role": "P",
+      "task": "分区及计划→测量→复核",
+      "d4Targets": [
+        "K19.02.02.01",
+        "K19.02.03.01",
+        "K19.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 13,
+        "row": "| K19.02 | A02 | P | 分区及计划→测量→复核 | [LS06/K19.02.02.01](live-sound-r1-knowledge-cases.md#L10)；[LS07/K19.02.03.01](live-sound-r1-knowledge-cases.md#L11)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS06@1",
+        "K19-CL-LS07@1",
+        "K19-CL-LS08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS06",
+          "claim": "K19-CL-LS06@1",
+          "problem": "主扩、补声、边界及重叠区怎样分别定义覆盖？",
+          "reject": "拒绝该推断。候选分区布局区分主扩、补声、覆盖边界和重叠区；同区域各频带响应需记录，厂商名义角度不是全频实测。"
+        },
+        {
+          "caseId": "LS07",
+          "claim": "K19-CL-LS07@1",
+          "problem": "假定路径差3.43m、声速343m/s，理想到达差多少？",
+          "reject": "拒绝该推断。题设直达路径差3.43m，声速假设343m/s，理想到达时间差10ms；与设备/DSP延迟另列。"
+        },
+        {
+          "caseId": "LS08",
+          "claim": "K19-CL-LS08@1",
+          "problem": "同协议A/B/C为-3/0/-1，项目极差多少？",
+          "reject": "拒绝该推断。题设A/B/C同协议的早到达能量级[−3,0,−1]相对基准，极差3dB；项目候选统计与标准正式分类分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.02",
+      "ability": "A03",
+      "role": "S",
+      "task": "设备指向/测量资料资格",
+      "d4Targets": [
+        "K19.02.02.01",
+        "K19.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 14,
+        "row": "| K19.02 | A03 | S | 设备指向/测量资料资格 | [LS06/K19.02.02.01](live-sound-r1-knowledge-cases.md#L10)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS06@1",
+        "K19-CL-LS08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS06",
+          "claim": "K19-CL-LS06@1",
+          "problem": "主扩、补声、边界及重叠区怎样分别定义覆盖？",
+          "reject": "拒绝该推断。候选分区布局区分主扩、补声、覆盖边界和重叠区；同区域各频带响应需记录，厂商名义角度不是全频实测。"
+        },
+        {
+          "caseId": "LS08",
+          "claim": "K19-CL-LS08@1",
+          "problem": "同协议A/B/C为-3/0/-1，项目极差多少？",
+          "reject": "拒绝该推断。题设A/B/C同协议的早到达能量级[−3,0,−1]相对基准，极差3dB；项目候选统计与标准正式分类分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.02",
+      "ability": "A04",
+      "role": "P",
+      "task": "位置/布局/条件版本",
+      "d4Targets": [
+        "K19.02.02.01",
+        "K19.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 15,
+        "row": "| K19.02 | A04 | P | 位置/布局/条件版本 | [LS06/K19.02.02.01](live-sound-r1-knowledge-cases.md#L10)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS06@1",
+        "K19-CL-LS08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS06",
+          "claim": "K19-CL-LS06@1",
+          "problem": "主扩、补声、边界及重叠区怎样分别定义覆盖？",
+          "reject": "拒绝该推断。候选分区布局区分主扩、补声、覆盖边界和重叠区；同区域各频带响应需记录，厂商名义角度不是全频实测。"
+        },
+        {
+          "caseId": "LS08",
+          "claim": "K19-CL-LS08@1",
+          "problem": "同协议A/B/C为-3/0/-1，项目极差多少？",
+          "reject": "拒绝该推断。题设A/B/C同协议的早到达能量级[−3,0,−1]相对基准，极差3dB；项目候选统计与标准正式分类分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.02",
+      "ability": "A05",
+      "role": "P",
+      "task": "均匀性、响应、缺点",
+      "d4Targets": [
+        "K19.02.01.01",
+        "K19.02.03.01",
+        "K19.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 16,
+        "row": "| K19.02 | A05 | P | 均匀性、响应、缺点 | [LS05/K19.02.01.01](live-sound-r1-knowledge-cases.md#L9)；[LS07/K19.02.03.01](live-sound-r1-knowledge-cases.md#L11)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS05@1",
+        "K19-CL-LS07@1",
+        "K19-CL-LS08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS05",
+          "claim": "K19-CL-LS05@1",
+          "problem": "理想自由场同方向2至4m，理论压力级差是多少？",
+          "reject": "拒绝该推断。理想自由场单点源同辐射方向、远场且无反射条件，距离2→4m，压力级差−20log10(4/2)≈−6.02dB。"
+        },
+        {
+          "caseId": "LS07",
+          "claim": "K19-CL-LS07@1",
+          "problem": "假定路径差3.43m、声速343m/s，理想到达差多少？",
+          "reject": "拒绝该推断。题设直达路径差3.43m，声速假设343m/s，理想到达时间差10ms；与设备/DSP延迟另列。"
+        },
+        {
+          "caseId": "LS08",
+          "claim": "K19-CL-LS08@1",
+          "problem": "同协议A/B/C为-3/0/-1，项目极差多少？",
+          "reject": "拒绝该推断。题设A/B/C同协议的早到达能量级[−3,0,−1]相对基准，极差3dB；项目候选统计与标准正式分类分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.02",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑分区与覆盖记录",
+      "d4Targets": [
+        "K19.02.02.01",
+        "K19.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 17,
+        "row": "| K19.02 | A06 | P | 可编辑分区与覆盖记录 | [LS06/K19.02.02.01](live-sound-r1-knowledge-cases.md#L10)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS06@1",
+        "K19-CL-LS08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS06",
+          "claim": "K19-CL-LS06@1",
+          "problem": "主扩、补声、边界及重叠区怎样分别定义覆盖？",
+          "reject": "拒绝该推断。候选分区布局区分主扩、补声、覆盖边界和重叠区；同区域各频带响应需记录，厂商名义角度不是全频实测。"
+        },
+        {
+          "caseId": "LS08",
+          "claim": "K19-CL-LS08@1",
+          "problem": "同协议A/B/C为-3/0/-1，项目极差多少？",
+          "reject": "拒绝该推断。题设A/B/C同协议的早到达能量级[−3,0,−1]相对基准，极差3dB；项目候选统计与标准正式分类分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.02",
+      "ability": "A07",
+      "role": "P",
+      "task": "覆盖缺点及方案修订",
+      "d4Targets": [
+        "K19.02.03.01",
+        "K19.02.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 18,
+        "row": "| K19.02 | A07 | P | 覆盖缺点及方案修订 | [LS07/K19.02.03.01](live-sound-r1-knowledge-cases.md#L11)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS07@1",
+        "K19-CL-LS08@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS07",
+          "claim": "K19-CL-LS07@1",
+          "problem": "假定路径差3.43m、声速343m/s，理想到达差多少？",
+          "reject": "拒绝该推断。题设直达路径差3.43m，声速假设343m/s，理想到达时间差10ms；与设备/DSP延迟另列。"
+        },
+        {
+          "caseId": "LS08",
+          "claim": "K19-CL-LS08@1",
+          "problem": "同协议A/B/C为-3/0/-1，项目极差多少？",
+          "reject": "拒绝该推断。题设A/B/C同协议的早到达能量级[−3,0,−1]相对基准，极差3dB；项目候选统计与标准正式分类分开。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.03",
+      "ability": "A01",
+      "role": "P",
+      "task": "现场信号与量纲",
+      "d4Targets": [
+        "K19.03.01.01",
+        "K19.03.02.01",
+        "K19.03.03.01",
+        "K19.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 19,
+        "row": "| K19.03 | A01 | P | 现场信号与量纲 | [LS09/K19.03.01.01](live-sound-r1-knowledge-cases.md#L13)；[LS10/K19.03.02.01](live-sound-r1-knowledge-cases.md#L14)；[LS11/K19.03.03.01](live-sound-r1-knowledge-cases.md#L15)；[LS12/K19.03.04.01](live-sound-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS09@1",
+        "K19-CL-LS10@1",
+        "K19-CL-LS11@1",
+        "K19-CL-LS12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS09",
+          "claim": "K19-CL-LS09@1",
+          "problem": "批准通道路由图与同版本电平记录可以支持何种只读判断？",
+          "reject": "拒绝该推断。根据批准的通道→总线→处理→输出图和同版本电平记录核对现场路径；题设仅只读配置，实际动作须权限与安全。"
+        },
+        {
+          "caseId": "LS10",
+          "claim": "K19-CL-LS10@1",
+          "problem": "前级过载后衰减fader，能否判失真已消失？",
+          "reject": "拒绝该推断。输入gain/pad、通道fader、总线与输出处理各位置不同；前级过载即使后级衰减也不证明失真消失。"
+        },
+        {
+          "caseId": "LS11",
+          "claim": "K19-CL-LS11@1",
+          "problem": "指定tap为-12dBFS，能否直接推听者SPL？",
+          "reject": "拒绝该推断。题设数字表−12dBFS只是指定tap的数字参考；现场SPL需实际校准传递关系、位置和窗口。"
+        },
+        {
+          "caseId": "LS12",
+          "claim": "K19-CL-LS12@1",
+          "problem": "同名CH1换stagebox，旧映射可否继承？",
+          "reject": "拒绝该推断。题设V1声源→CH1→MAIN与MON1分别有映射；同名CH1来自另一stagebox时身份已变，须重核来源和订阅。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.03",
+      "ability": "A02",
+      "role": "P",
+      "task": "核端点/总线→只读证据→停点",
+      "d4Targets": [
+        "K19.03.01.01",
+        "K19.03.02.01",
+        "K19.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 20,
+        "row": "| K19.03 | A02 | P | 核端点/总线→只读证据→停点 | [LS09/K19.03.01.01](live-sound-r1-knowledge-cases.md#L13)；[LS10/K19.03.02.01](live-sound-r1-knowledge-cases.md#L14)；[LS12/K19.03.04.01](live-sound-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS09@1",
+        "K19-CL-LS10@1",
+        "K19-CL-LS12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS09",
+          "claim": "K19-CL-LS09@1",
+          "problem": "批准通道路由图与同版本电平记录可以支持何种只读判断？",
+          "reject": "拒绝该推断。根据批准的通道→总线→处理→输出图和同版本电平记录核对现场路径；题设仅只读配置，实际动作须权限与安全。"
+        },
+        {
+          "caseId": "LS10",
+          "claim": "K19-CL-LS10@1",
+          "problem": "前级过载后衰减fader，能否判失真已消失？",
+          "reject": "拒绝该推断。输入gain/pad、通道fader、总线与输出处理各位置不同；前级过载即使后级衰减也不证明失真消失。"
+        },
+        {
+          "caseId": "LS12",
+          "claim": "K19-CL-LS12@1",
+          "problem": "同名CH1换stagebox，旧映射可否继承？",
+          "reject": "拒绝该推断。题设V1声源→CH1→MAIN与MON1分别有映射；同名CH1来自另一stagebox时身份已变，须重核来源和订阅。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.03",
+      "ability": "A03",
+      "role": "S",
+      "task": "台/路由/表计资格",
+      "d4Targets": [
+        "K19.03.02.01",
+        "K19.03.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 21,
+        "row": "| K19.03 | A03 | S | 台/路由/表计资格 | [LS10/K19.03.02.01](live-sound-r1-knowledge-cases.md#L14)；[LS11/K19.03.03.01](live-sound-r1-knowledge-cases.md#L15) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS10@1",
+        "K19-CL-LS11@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS10",
+          "claim": "K19-CL-LS10@1",
+          "problem": "前级过载后衰减fader，能否判失真已消失？",
+          "reject": "拒绝该推断。输入gain/pad、通道fader、总线与输出处理各位置不同；前级过载即使后级衰减也不证明失真消失。"
+        },
+        {
+          "caseId": "LS11",
+          "claim": "K19-CL-LS11@1",
+          "problem": "指定tap为-12dBFS，能否直接推听者SPL？",
+          "reject": "拒绝该推断。题设数字表−12dBFS只是指定tap的数字参考；现场SPL需实际校准传递关系、位置和窗口。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.03",
+      "ability": "A04",
+      "role": "P",
+      "task": "端点、tap、状态和电平记录",
+      "d4Targets": [
+        "K19.03.01.01",
+        "K19.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 22,
+        "row": "| K19.03 | A04 | P | 端点、tap、状态和电平记录 | [LS09/K19.03.01.01](live-sound-r1-knowledge-cases.md#L13)；[LS12/K19.03.04.01](live-sound-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS09@1",
+        "K19-CL-LS12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS09",
+          "claim": "K19-CL-LS09@1",
+          "problem": "批准通道路由图与同版本电平记录可以支持何种只读判断？",
+          "reject": "拒绝该推断。根据批准的通道→总线→处理→输出图和同版本电平记录核对现场路径；题设仅只读配置，实际动作须权限与安全。"
+        },
+        {
+          "caseId": "LS12",
+          "claim": "K19-CL-LS12@1",
+          "problem": "同名CH1换stagebox，旧映射可否继承？",
+          "reject": "拒绝该推断。题设V1声源→CH1→MAIN与MON1分别有映射；同名CH1来自另一stagebox时身份已变，须重核来源和订阅。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.03",
+      "ability": "A05",
+      "role": "P",
+      "task": "上游过载、参考量纲和证据",
+      "d4Targets": [
+        "K19.03.02.01",
+        "K19.03.03.01",
+        "K19.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 23,
+        "row": "| K19.03 | A05 | P | 上游过载、参考量纲和证据 | [LS10/K19.03.02.01](live-sound-r1-knowledge-cases.md#L14)；[LS11/K19.03.03.01](live-sound-r1-knowledge-cases.md#L15)；[LS12/K19.03.04.01](live-sound-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS10@1",
+        "K19-CL-LS11@1",
+        "K19-CL-LS12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS10",
+          "claim": "K19-CL-LS10@1",
+          "problem": "前级过载后衰减fader，能否判失真已消失？",
+          "reject": "拒绝该推断。输入gain/pad、通道fader、总线与输出处理各位置不同；前级过载即使后级衰减也不证明失真消失。"
+        },
+        {
+          "caseId": "LS11",
+          "claim": "K19-CL-LS11@1",
+          "problem": "指定tap为-12dBFS，能否直接推听者SPL？",
+          "reject": "拒绝该推断。题设数字表−12dBFS只是指定tap的数字参考；现场SPL需实际校准传递关系、位置和窗口。"
+        },
+        {
+          "caseId": "LS12",
+          "claim": "K19-CL-LS12@1",
+          "problem": "同名CH1换stagebox，旧映射可否继承？",
+          "reject": "拒绝该推断。题设V1声源→CH1→MAIN与MON1分别有映射；同名CH1来自另一stagebox时身份已变，须重核来源和订阅。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.03",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑现场拓扑和映射",
+      "d4Targets": [
+        "K19.03.01.01",
+        "K19.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 24,
+        "row": "| K19.03 | A06 | P | 可编辑现场拓扑和映射 | [LS09/K19.03.01.01](live-sound-r1-knowledge-cases.md#L13)；[LS12/K19.03.04.01](live-sound-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS09@1",
+        "K19-CL-LS12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS09",
+          "claim": "K19-CL-LS09@1",
+          "problem": "批准通道路由图与同版本电平记录可以支持何种只读判断？",
+          "reject": "拒绝该推断。根据批准的通道→总线→处理→输出图和同版本电平记录核对现场路径；题设仅只读配置，实际动作须权限与安全。"
+        },
+        {
+          "caseId": "LS12",
+          "claim": "K19-CL-LS12@1",
+          "problem": "同名CH1换stagebox，旧映射可否继承？",
+          "reject": "拒绝该推断。题设V1声源→CH1→MAIN与MON1分别有映射；同名CH1来自另一stagebox时身份已变，须重核来源和订阅。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.03",
+      "ability": "A07",
+      "role": "P",
+      "task": "错误路由/旧端点复核",
+      "d4Targets": [
+        "K19.03.01.01",
+        "K19.03.02.01",
+        "K19.03.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 25,
+        "row": "| K19.03 | A07 | P | 错误路由/旧端点复核 | [LS09/K19.03.01.01](live-sound-r1-knowledge-cases.md#L13)；[LS10/K19.03.02.01](live-sound-r1-knowledge-cases.md#L14)；[LS12/K19.03.04.01](live-sound-r1-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS09@1",
+        "K19-CL-LS10@1",
+        "K19-CL-LS12@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS09",
+          "claim": "K19-CL-LS09@1",
+          "problem": "批准通道路由图与同版本电平记录可以支持何种只读判断？",
+          "reject": "拒绝该推断。根据批准的通道→总线→处理→输出图和同版本电平记录核对现场路径；题设仅只读配置，实际动作须权限与安全。"
+        },
+        {
+          "caseId": "LS10",
+          "claim": "K19-CL-LS10@1",
+          "problem": "前级过载后衰减fader，能否判失真已消失？",
+          "reject": "拒绝该推断。输入gain/pad、通道fader、总线与输出处理各位置不同；前级过载即使后级衰减也不证明失真消失。"
+        },
+        {
+          "caseId": "LS12",
+          "claim": "K19-CL-LS12@1",
+          "problem": "同名CH1换stagebox，旧映射可否继承？",
+          "reject": "拒绝该推断。题设V1声源→CH1→MAIN与MON1分别有映射；同名CH1来自另一stagebox时身份已变，须重核来源和订阅。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.04",
+      "ability": "A01",
+      "role": "P",
+      "task": "覆盖、频响、清晰度、校准",
+      "d4Targets": [
+        "K19.04.01.01",
+        "K19.04.02.01",
+        "K19.04.03.01",
+        "K19.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 26,
+        "row": "| K19.04 | A01 | P | 覆盖、频响、清晰度、校准 | [LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS14/K19.04.02.01](live-sound-r1-knowledge-cases.md#L18)；[LS15/K19.04.03.01](live-sound-r1-knowledge-cases.md#L19)；[LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS13@1",
+        "K19-CL-LS14@1",
+        "K19-CL-LS15@1",
+        "K19-CL-LS16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS13",
+          "claim": "K19-CL-LS13@1",
+          "problem": "A/B覆盖证据完整但B缺STI，能否整体验收？",
+          "reject": "拒绝该推断。覆盖早到达能量、频谱平衡、STI语音清晰度、稳定性、暴露分别有指标与证据。题设同场A/B都有覆盖证据但B的STI缺失，整体验收待核。"
+        },
+        {
+          "caseId": "LS14",
+          "claim": "K19-CL-LS14@1",
+          "problem": "后校准漂移超过项目容差，相关测量怎样处置？",
+          "reject": "拒绝该推断。记录仪器ID、校准前后结果、测点、计权、窗口、时钟、现场状态；若后校准漂移超已批准容差，则相关测量待核。"
+        },
+        {
+          "caseId": "LS15",
+          "claim": "K19-CL-LS15@1",
+          "problem": "强波动噪声下是否能从公开IEC范围认定STI正式合格？",
+          "reject": "拒绝该推断。STI针对语音传输而非音乐喜好；IEC公开说明波动噪声不在方法覆盖范围，回声/语音编码有限制；题设有强波动噪声时不直接作标准合格判定。"
+        },
+        {
+          "caseId": "LS16",
+          "claim": "K19-CL-LS16@1",
+          "problem": "场景V1改布局V2，旧测点记录是否可用？",
+          "reject": "拒绝该推断。题设预定A/B/C点、固定场景V1、同协议P1；改覆盖布局V2后旧记录作为历史，新测需要重绑场景/条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.04",
+      "ability": "A02",
+      "role": "P",
+      "task": "预定测点、校准及指标方案",
+      "d4Targets": [
+        "K19.04.01.01",
+        "K19.04.02.01",
+        "K19.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 27,
+        "row": "| K19.04 | A02 | P | 预定测点、校准及指标方案 | [LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS14/K19.04.02.01](live-sound-r1-knowledge-cases.md#L18)；[LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS13@1",
+        "K19-CL-LS14@1",
+        "K19-CL-LS16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS13",
+          "claim": "K19-CL-LS13@1",
+          "problem": "A/B覆盖证据完整但B缺STI，能否整体验收？",
+          "reject": "拒绝该推断。覆盖早到达能量、频谱平衡、STI语音清晰度、稳定性、暴露分别有指标与证据。题设同场A/B都有覆盖证据但B的STI缺失，整体验收待核。"
+        },
+        {
+          "caseId": "LS14",
+          "claim": "K19-CL-LS14@1",
+          "problem": "后校准漂移超过项目容差，相关测量怎样处置？",
+          "reject": "拒绝该推断。记录仪器ID、校准前后结果、测点、计权、窗口、时钟、现场状态；若后校准漂移超已批准容差，则相关测量待核。"
+        },
+        {
+          "caseId": "LS16",
+          "claim": "K19-CL-LS16@1",
+          "problem": "场景V1改布局V2，旧测点记录是否可用？",
+          "reject": "拒绝该推断。题设预定A/B/C点、固定场景V1、同协议P1；改覆盖布局V2后旧记录作为历史，新测需要重绑场景/条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.04",
+      "ability": "A03",
+      "role": "S",
+      "task": "标准范围、仪器/测量资格",
+      "d4Targets": [
+        "K19.04.02.01",
+        "K19.04.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 28,
+        "row": "| K19.04 | A03 | S | 标准范围、仪器/测量资格 | [LS14/K19.04.02.01](live-sound-r1-knowledge-cases.md#L18)；[LS15/K19.04.03.01](live-sound-r1-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS14@1",
+        "K19-CL-LS15@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS14",
+          "claim": "K19-CL-LS14@1",
+          "problem": "后校准漂移超过项目容差，相关测量怎样处置？",
+          "reject": "拒绝该推断。记录仪器ID、校准前后结果、测点、计权、窗口、时钟、现场状态；若后校准漂移超已批准容差，则相关测量待核。"
+        },
+        {
+          "caseId": "LS15",
+          "claim": "K19-CL-LS15@1",
+          "problem": "强波动噪声下是否能从公开IEC范围认定STI正式合格？",
+          "reject": "拒绝该推断。STI针对语音传输而非音乐喜好；IEC公开说明波动噪声不在方法覆盖范围，回声/语音编码有限制；题设有强波动噪声时不直接作标准合格判定。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.04",
+      "ability": "A04",
+      "role": "P",
+      "task": "校准、位置、条件及版本",
+      "d4Targets": [
+        "K19.04.02.01",
+        "K19.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 29,
+        "row": "| K19.04 | A04 | P | 校准、位置、条件及版本 | [LS14/K19.04.02.01](live-sound-r1-knowledge-cases.md#L18)；[LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS14@1",
+        "K19-CL-LS16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS14",
+          "claim": "K19-CL-LS14@1",
+          "problem": "后校准漂移超过项目容差，相关测量怎样处置？",
+          "reject": "拒绝该推断。记录仪器ID、校准前后结果、测点、计权、窗口、时钟、现场状态；若后校准漂移超已批准容差，则相关测量待核。"
+        },
+        {
+          "caseId": "LS16",
+          "claim": "K19-CL-LS16@1",
+          "problem": "场景V1改布局V2，旧测点记录是否可用？",
+          "reject": "拒绝该推断。题设预定A/B/C点、固定场景V1、同协议P1；改覆盖布局V2后旧记录作为历史，新测需要重绑场景/条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.04",
+      "ability": "A05",
+      "role": "P",
+      "task": "多维指标独立、缺测拒绝",
+      "d4Targets": [
+        "K19.04.01.01",
+        "K19.04.03.01",
+        "K19.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 30,
+        "row": "| K19.04 | A05 | P | 多维指标独立、缺测拒绝 | [LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS15/K19.04.03.01](live-sound-r1-knowledge-cases.md#L19)；[LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS13@1",
+        "K19-CL-LS15@1",
+        "K19-CL-LS16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS13",
+          "claim": "K19-CL-LS13@1",
+          "problem": "A/B覆盖证据完整但B缺STI，能否整体验收？",
+          "reject": "拒绝该推断。覆盖早到达能量、频谱平衡、STI语音清晰度、稳定性、暴露分别有指标与证据。题设同场A/B都有覆盖证据但B的STI缺失，整体验收待核。"
+        },
+        {
+          "caseId": "LS15",
+          "claim": "K19-CL-LS15@1",
+          "problem": "强波动噪声下是否能从公开IEC范围认定STI正式合格？",
+          "reject": "拒绝该推断。STI针对语音传输而非音乐喜好；IEC公开说明波动噪声不在方法覆盖范围，回声/语音编码有限制；题设有强波动噪声时不直接作标准合格判定。"
+        },
+        {
+          "caseId": "LS16",
+          "claim": "K19-CL-LS16@1",
+          "problem": "场景V1改布局V2，旧测点记录是否可用？",
+          "reject": "拒绝该推断。题设预定A/B/C点、固定场景V1、同协议P1；改覆盖布局V2后旧记录作为历史，新测需要重绑场景/条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.04",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑测点及报告记录",
+      "d4Targets": [
+        "K19.04.01.01",
+        "K19.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 31,
+        "row": "| K19.04 | A06 | P | 可编辑测点及报告记录 | [LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS13@1",
+        "K19-CL-LS16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS13",
+          "claim": "K19-CL-LS13@1",
+          "problem": "A/B覆盖证据完整但B缺STI，能否整体验收？",
+          "reject": "拒绝该推断。覆盖早到达能量、频谱平衡、STI语音清晰度、稳定性、暴露分别有指标与证据。题设同场A/B都有覆盖证据但B的STI缺失，整体验收待核。"
+        },
+        {
+          "caseId": "LS16",
+          "claim": "K19-CL-LS16@1",
+          "problem": "场景V1改布局V2，旧测点记录是否可用？",
+          "reject": "拒绝该推断。题设预定A/B/C点、固定场景V1、同协议P1；改覆盖布局V2后旧记录作为历史，新测需要重绑场景/条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.04",
+      "ability": "A07",
+      "role": "P",
+      "task": "漂移/缺测/布局变更复核",
+      "d4Targets": [
+        "K19.04.02.01",
+        "K19.04.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 32,
+        "row": "| K19.04 | A07 | P | 漂移/缺测/布局变更复核 | [LS14/K19.04.02.01](live-sound-r1-knowledge-cases.md#L18)；[LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS14@1",
+        "K19-CL-LS16@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS14",
+          "claim": "K19-CL-LS14@1",
+          "problem": "后校准漂移超过项目容差，相关测量怎样处置？",
+          "reject": "拒绝该推断。记录仪器ID、校准前后结果、测点、计权、窗口、时钟、现场状态；若后校准漂移超已批准容差，则相关测量待核。"
+        },
+        {
+          "caseId": "LS16",
+          "claim": "K19-CL-LS16@1",
+          "problem": "场景V1改布局V2，旧测点记录是否可用？",
+          "reject": "拒绝该推断。题设预定A/B/C点、固定场景V1、同协议P1；改覆盖布局V2后旧记录作为历史，新测需要重绑场景/条件。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.05",
+      "ability": "A01",
+      "role": "P",
+      "task": "主扩与表演者监听",
+      "d4Targets": [
+        "K19.05.01.01",
+        "K19.05.02.01",
+        "K19.05.03.01",
+        "K19.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 33,
+        "row": "| K19.05 | A01 | P | 主扩与表演者监听 | [LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21)；[LS18/K19.05.02.01](live-sound-r1-knowledge-cases.md#L22)；[LS19/K19.05.03.01](live-sound-r1-knowledge-cases.md#L23)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS17@1",
+        "K19-CL-LS18@1",
+        "K19-CL-LS19@1",
+        "K19-CL-LS20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS17",
+          "claim": "K19-CL-LS17@1",
+          "problem": "主扩与MON-A/MON-B服务对象为何应独立？",
+          "reject": "拒绝该推断。主扩服务观众，MON-A/MON-B服务不同表演者，独立总线与需求；舞台漏声可能影响观众。"
+        },
+        {
+          "caseId": "LS18",
+          "claim": "K19-CL-LS18@1",
+          "problem": "题设输入1、send .5、fader .4，pre/post各是多少？",
+          "reject": "拒绝该推断。理想无其他变化的pre-fader send取通道fader前信号；post随fader，题设输入1、send.5、fader.4得pre.5/post.2。"
+        },
+        {
+          "caseId": "LS19",
+          "claim": "K19-CL-LS19@1",
+          "problem": "IEM改变声学路径，能否证明个体耳道安全？",
+          "reject": "拒绝该推断。楔形监听存在舞台漏声与声学回路；IEM改变该路径但耳道暴露、隔音、设备/权限需独立评估。"
+        },
+        {
+          "caseId": "LS20",
+          "claim": "K19-CL-LS20@1",
+          "problem": "PFL听CH2与AFL听MON-A，能否代替实际输出？",
+          "reject": "拒绝该推断。题设PFL听CH2、AFL听MON-A，服务对象与实际输出均不同；提交表演者确认和现场输出记录。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.05",
+      "ability": "A02",
+      "role": "P",
+      "task": "需求→独立bus/tap→实际确认",
+      "d4Targets": [
+        "K19.05.01.01",
+        "K19.05.03.01",
+        "K19.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 34,
+        "row": "| K19.05 | A02 | P | 需求→独立bus/tap→实际确认 | [LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21)；[LS19/K19.05.03.01](live-sound-r1-knowledge-cases.md#L23)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS17@1",
+        "K19-CL-LS19@1",
+        "K19-CL-LS20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS17",
+          "claim": "K19-CL-LS17@1",
+          "problem": "主扩与MON-A/MON-B服务对象为何应独立？",
+          "reject": "拒绝该推断。主扩服务观众，MON-A/MON-B服务不同表演者，独立总线与需求；舞台漏声可能影响观众。"
+        },
+        {
+          "caseId": "LS19",
+          "claim": "K19-CL-LS19@1",
+          "problem": "IEM改变声学路径，能否证明个体耳道安全？",
+          "reject": "拒绝该推断。楔形监听存在舞台漏声与声学回路；IEM改变该路径但耳道暴露、隔音、设备/权限需独立评估。"
+        },
+        {
+          "caseId": "LS20",
+          "claim": "K19-CL-LS20@1",
+          "problem": "PFL听CH2与AFL听MON-A，能否代替实际输出？",
+          "reject": "拒绝该推断。题设PFL听CH2、AFL听MON-A，服务对象与实际输出均不同；提交表演者确认和现场输出记录。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.05",
+      "ability": "A03",
+      "role": "S",
+      "task": "pre/post、PFL/AFL具名支持",
+      "d4Targets": [
+        "K19.05.02.01",
+        "K19.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 35,
+        "row": "| K19.05 | A03 | S | pre/post、PFL/AFL具名支持 | [LS18/K19.05.02.01](live-sound-r1-knowledge-cases.md#L22)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS18@1",
+        "K19-CL-LS20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS18",
+          "claim": "K19-CL-LS18@1",
+          "problem": "题设输入1、send .5、fader .4，pre/post各是多少？",
+          "reject": "拒绝该推断。理想无其他变化的pre-fader send取通道fader前信号；post随fader，题设输入1、send.5、fader.4得pre.5/post.2。"
+        },
+        {
+          "caseId": "LS20",
+          "claim": "K19-CL-LS20@1",
+          "problem": "PFL听CH2与AFL听MON-A，能否代替实际输出？",
+          "reject": "拒绝该推断。题设PFL听CH2、AFL听MON-A，服务对象与实际输出均不同；提交表演者确认和现场输出记录。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.05",
+      "ability": "A04",
+      "role": "P",
+      "task": "监听目标、路径、状态",
+      "d4Targets": [
+        "K19.05.01.01",
+        "K19.05.02.01",
+        "K19.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 36,
+        "row": "| K19.05 | A04 | P | 监听目标、路径、状态 | [LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21)；[LS18/K19.05.02.01](live-sound-r1-knowledge-cases.md#L22)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS17@1",
+        "K19-CL-LS18@1",
+        "K19-CL-LS20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS17",
+          "claim": "K19-CL-LS17@1",
+          "problem": "主扩与MON-A/MON-B服务对象为何应独立？",
+          "reject": "拒绝该推断。主扩服务观众，MON-A/MON-B服务不同表演者，独立总线与需求；舞台漏声可能影响观众。"
+        },
+        {
+          "caseId": "LS18",
+          "claim": "K19-CL-LS18@1",
+          "problem": "题设输入1、send .5、fader .4，pre/post各是多少？",
+          "reject": "拒绝该推断。理想无其他变化的pre-fader send取通道fader前信号；post随fader，题设输入1、send.5、fader.4得pre.5/post.2。"
+        },
+        {
+          "caseId": "LS20",
+          "claim": "K19-CL-LS20@1",
+          "problem": "PFL听CH2与AFL听MON-A，能否代替实际输出？",
+          "reject": "拒绝该推断。题设PFL听CH2、AFL听MON-A，服务对象与实际输出均不同；提交表演者确认和现场输出记录。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.05",
+      "ability": "A05",
+      "role": "P",
+      "task": "漏声、监听与暴露分开",
+      "d4Targets": [
+        "K19.05.03.01",
+        "K19.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 37,
+        "row": "| K19.05 | A05 | P | 漏声、监听与暴露分开 | [LS19/K19.05.03.01](live-sound-r1-knowledge-cases.md#L23)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS19@1",
+        "K19-CL-LS20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS19",
+          "claim": "K19-CL-LS19@1",
+          "problem": "IEM改变声学路径，能否证明个体耳道安全？",
+          "reject": "拒绝该推断。楔形监听存在舞台漏声与声学回路；IEM改变该路径但耳道暴露、隔音、设备/权限需独立评估。"
+        },
+        {
+          "caseId": "LS20",
+          "claim": "K19-CL-LS20@1",
+          "problem": "PFL听CH2与AFL听MON-A，能否代替实际输出？",
+          "reject": "拒绝该推断。题设PFL听CH2、AFL听MON-A，服务对象与实际输出均不同；提交表演者确认和现场输出记录。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.05",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑监听清单及路由",
+      "d4Targets": [
+        "K19.05.01.01",
+        "K19.05.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 38,
+        "row": "| K19.05 | A06 | P | 可编辑监听清单及路由 | [LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21)；[LS18/K19.05.02.01](live-sound-r1-knowledge-cases.md#L22) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS17@1",
+        "K19-CL-LS18@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS17",
+          "claim": "K19-CL-LS17@1",
+          "problem": "主扩与MON-A/MON-B服务对象为何应独立？",
+          "reject": "拒绝该推断。主扩服务观众，MON-A/MON-B服务不同表演者，独立总线与需求；舞台漏声可能影响观众。"
+        },
+        {
+          "caseId": "LS18",
+          "claim": "K19-CL-LS18@1",
+          "problem": "题设输入1、send .5、fader .4，pre/post各是多少？",
+          "reject": "拒绝该推断。理想无其他变化的pre-fader send取通道fader前信号；post随fader，题设输入1、send.5、fader.4得pre.5/post.2。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.05",
+      "ability": "A07",
+      "role": "P",
+      "task": "异常与角色确认",
+      "d4Targets": [
+        "K19.05.03.01",
+        "K19.05.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 39,
+        "row": "| K19.05 | A07 | P | 异常与角色确认 | [LS19/K19.05.03.01](live-sound-r1-knowledge-cases.md#L23)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS19@1",
+        "K19-CL-LS20@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS19",
+          "claim": "K19-CL-LS19@1",
+          "problem": "IEM改变声学路径，能否证明个体耳道安全？",
+          "reject": "拒绝该推断。楔形监听存在舞台漏声与声学回路；IEM改变该路径但耳道暴露、隔音、设备/权限需独立评估。"
+        },
+        {
+          "caseId": "LS20",
+          "claim": "K19-CL-LS20@1",
+          "problem": "PFL听CH2与AFL听MON-A，能否代替实际输出？",
+          "reject": "拒绝该推断。题设PFL听CH2、AFL听MON-A，服务对象与实际输出均不同；提交表演者确认和现场输出记录。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.06",
+      "ability": "A01",
+      "role": "P",
+      "task": "实时混音与场景",
+      "d4Targets": [
+        "K19.06.01.01",
+        "K19.06.02.01",
+        "K19.06.03.01",
+        "K19.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 40,
+        "row": "| K19.06 | A01 | P | 实时混音与场景 | [LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS22/K19.06.02.01](live-sound-r2-knowledge-cases.md#L6)；[LS23/K19.06.03.01](live-sound-r2-knowledge-cases.md#L7)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS21@1",
+        "K19-CL-LS22@1",
+        "K19-CL-LS23@1",
+        "K19-CL-LS24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS21",
+          "claim": "K19-CL-LS21@1",
+          "problem": "旧scene S1存在，是否可直接回退而认定安全？",
+          "reject": "拒绝该推断。保存scene S1及实际设备状态；请求只改指定候选参数且保护监听/路由/系统处理，核diff及权限后才可由专业人实施。"
+        },
+        {
+          "caseId": "LS22",
+          "claim": "K19-CL-LS22@1",
+          "problem": "旧scene会改变MON1且声称recall safe，是否自动无害？",
+          "reject": "拒绝该推断。scene recall safe/filter仅具名支持参数；题设保护MON1和系统配置，旧scene里包含改变MON1的值时不得直接视为无害。"
+        },
+        {
+          "caseId": "LS23",
+          "claim": "K19-CL-LS23@1",
+          "problem": "同场一项变更后，哪些旧测量需要重新证明适用？",
+          "reject": "拒绝该推断。同场不同段落保留目标、时点、受影响总线、版本与确认；一项变更后旧对应测量失效，非受影响记录也须证明独立。"
+        },
+        {
+          "caseId": "LS24",
+          "claim": "K19-CL-LS24@1",
+          "problem": "请求发出确认丢失，当前设备状态怎样记录？",
+          "reject": "拒绝该推断。请求已发送但确认丢失，设备当前状态UNKNOWN；禁止以重发或旧UI认定成功，先由授权人核实际状态。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.06",
+      "ability": "A02",
+      "role": "P",
+      "task": "批准变更→保护→核状态",
+      "d4Targets": [
+        "K19.06.01.01",
+        "K19.06.02.01",
+        "K19.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 41,
+        "row": "| K19.06 | A02 | P | 批准变更→保护→核状态 | [LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS22/K19.06.02.01](live-sound-r2-knowledge-cases.md#L6)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS21@1",
+        "K19-CL-LS22@1",
+        "K19-CL-LS24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS21",
+          "claim": "K19-CL-LS21@1",
+          "problem": "旧scene S1存在，是否可直接回退而认定安全？",
+          "reject": "拒绝该推断。保存scene S1及实际设备状态；请求只改指定候选参数且保护监听/路由/系统处理，核diff及权限后才可由专业人实施。"
+        },
+        {
+          "caseId": "LS22",
+          "claim": "K19-CL-LS22@1",
+          "problem": "旧scene会改变MON1且声称recall safe，是否自动无害？",
+          "reject": "拒绝该推断。scene recall safe/filter仅具名支持参数；题设保护MON1和系统配置，旧scene里包含改变MON1的值时不得直接视为无害。"
+        },
+        {
+          "caseId": "LS24",
+          "claim": "K19-CL-LS24@1",
+          "problem": "请求发出确认丢失，当前设备状态怎样记录？",
+          "reject": "拒绝该推断。请求已发送但确认丢失，设备当前状态UNKNOWN；禁止以重发或旧UI认定成功，先由授权人核实际状态。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.06",
+      "ability": "A03",
+      "role": "S",
+      "task": "scene/filter/设备资格",
+      "d4Targets": [
+        "K19.06.01.01",
+        "K19.06.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 42,
+        "row": "| K19.06 | A03 | S | scene/filter/设备资格 | [LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS22/K19.06.02.01](live-sound-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS21@1",
+        "K19-CL-LS22@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS21",
+          "claim": "K19-CL-LS21@1",
+          "problem": "旧scene S1存在，是否可直接回退而认定安全？",
+          "reject": "拒绝该推断。保存scene S1及实际设备状态；请求只改指定候选参数且保护监听/路由/系统处理，核diff及权限后才可由专业人实施。"
+        },
+        {
+          "caseId": "LS22",
+          "claim": "K19-CL-LS22@1",
+          "problem": "旧scene会改变MON1且声称recall safe，是否自动无害？",
+          "reject": "拒绝该推断。scene recall safe/filter仅具名支持参数；题设保护MON1和系统配置，旧scene里包含改变MON1的值时不得直接视为无害。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.06",
+      "ability": "A04",
+      "role": "P",
+      "task": "状态、快照、请求/回执",
+      "d4Targets": [
+        "K19.06.01.01",
+        "K19.06.03.01",
+        "K19.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 43,
+        "row": "| K19.06 | A04 | P | 状态、快照、请求/回执 | [LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS23/K19.06.03.01](live-sound-r2-knowledge-cases.md#L7)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS21@1",
+        "K19-CL-LS23@1",
+        "K19-CL-LS24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS21",
+          "claim": "K19-CL-LS21@1",
+          "problem": "旧scene S1存在，是否可直接回退而认定安全？",
+          "reject": "拒绝该推断。保存scene S1及实际设备状态；请求只改指定候选参数且保护监听/路由/系统处理，核diff及权限后才可由专业人实施。"
+        },
+        {
+          "caseId": "LS23",
+          "claim": "K19-CL-LS23@1",
+          "problem": "同场一项变更后，哪些旧测量需要重新证明适用？",
+          "reject": "拒绝该推断。同场不同段落保留目标、时点、受影响总线、版本与确认；一项变更后旧对应测量失效，非受影响记录也须证明独立。"
+        },
+        {
+          "caseId": "LS24",
+          "claim": "K19-CL-LS24@1",
+          "problem": "请求发出确认丢失，当前设备状态怎样记录？",
+          "reject": "拒绝该推断。请求已发送但确认丢失，设备当前状态UNKNOWN；禁止以重发或旧UI认定成功，先由授权人核实际状态。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.06",
+      "ability": "A05",
+      "role": "P",
+      "task": "受影响指标、确认及保护",
+      "d4Targets": [
+        "K19.06.02.01",
+        "K19.06.03.01",
+        "K19.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 44,
+        "row": "| K19.06 | A05 | P | 受影响指标、确认及保护 | [LS22/K19.06.02.01](live-sound-r2-knowledge-cases.md#L6)；[LS23/K19.06.03.01](live-sound-r2-knowledge-cases.md#L7)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS22@1",
+        "K19-CL-LS23@1",
+        "K19-CL-LS24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS22",
+          "claim": "K19-CL-LS22@1",
+          "problem": "旧scene会改变MON1且声称recall safe，是否自动无害？",
+          "reject": "拒绝该推断。scene recall safe/filter仅具名支持参数；题设保护MON1和系统配置，旧scene里包含改变MON1的值时不得直接视为无害。"
+        },
+        {
+          "caseId": "LS23",
+          "claim": "K19-CL-LS23@1",
+          "problem": "同场一项变更后，哪些旧测量需要重新证明适用？",
+          "reject": "拒绝该推断。同场不同段落保留目标、时点、受影响总线、版本与确认；一项变更后旧对应测量失效，非受影响记录也须证明独立。"
+        },
+        {
+          "caseId": "LS24",
+          "claim": "K19-CL-LS24@1",
+          "problem": "请求发出确认丢失，当前设备状态怎样记录？",
+          "reject": "拒绝该推断。请求已发送但确认丢失，设备当前状态UNKNOWN；禁止以重发或旧UI认定成功，先由授权人核实际状态。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.06",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑scene/变更清单",
+      "d4Targets": [
+        "K19.06.01.01",
+        "K19.06.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 45,
+        "row": "| K19.06 | A06 | P | 可编辑scene/变更清单 | [LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS22/K19.06.02.01](live-sound-r2-knowledge-cases.md#L6) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS21@1",
+        "K19-CL-LS22@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS21",
+          "claim": "K19-CL-LS21@1",
+          "problem": "旧scene S1存在，是否可直接回退而认定安全？",
+          "reject": "拒绝该推断。保存scene S1及实际设备状态；请求只改指定候选参数且保护监听/路由/系统处理，核diff及权限后才可由专业人实施。"
+        },
+        {
+          "caseId": "LS22",
+          "claim": "K19-CL-LS22@1",
+          "problem": "旧scene会改变MON1且声称recall safe，是否自动无害？",
+          "reject": "拒绝该推断。scene recall safe/filter仅具名支持参数；题设保护MON1和系统配置，旧scene里包含改变MON1的值时不得直接视为无害。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.06",
+      "ability": "A07",
+      "role": "P",
+      "task": "UNKNOWN不盲重发/回滚",
+      "d4Targets": [
+        "K19.06.03.01",
+        "K19.06.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 46,
+        "row": "| K19.06 | A07 | P | UNKNOWN不盲重发/回滚 | [LS23/K19.06.03.01](live-sound-r2-knowledge-cases.md#L7)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS23@1",
+        "K19-CL-LS24@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS23",
+          "claim": "K19-CL-LS23@1",
+          "problem": "同场一项变更后，哪些旧测量需要重新证明适用？",
+          "reject": "拒绝该推断。同场不同段落保留目标、时点、受影响总线、版本与确认；一项变更后旧对应测量失效，非受影响记录也须证明独立。"
+        },
+        {
+          "caseId": "LS24",
+          "claim": "K19-CL-LS24@1",
+          "problem": "请求发出确认丢失，当前设备状态怎样记录？",
+          "reject": "拒绝该推断。请求已发送但确认丢失，设备当前状态UNKNOWN；禁止以重发或旧UI认定成功，先由授权人核实际状态。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.07",
+      "ability": "A01",
+      "role": "P",
+      "task": "反馈与故障候选",
+      "d4Targets": [
+        "K19.07.01.01",
+        "K19.07.01.02",
+        "K19.07.02.01",
+        "K19.07.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 47,
+        "row": "| K19.07 | A01 | P | 反馈与故障候选 | [LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS26/K19.07.01.02](live-sound-r2-knowledge-cases.md#L10)；[LS27/K19.07.02.01](live-sound-r2-knowledge-cases.md#L11)；[LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS25@1",
+        "K19-CL-LS26@1",
+        "K19-CL-LS27@1",
+        "K19-CL-LS28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS25",
+          "claim": "K19-CL-LS25@1",
+          "problem": "MAIN→空气→MIC→MAIN构成何种候选路径，是否证明振荡？",
+          "reject": "拒绝该推断。现场图若有MAIN→空气→MIC→MAIN，构成可能声学闭环；另一个开放麦也可能参与。存在路径不证明实际振荡。"
+        },
+        {
+          "caseId": "LS26",
+          "claim": "K19-CL-LS26@1",
+          "problem": "既有嗡声同时存在多种可能原因，如何判断？",
+          "reject": "拒绝该推断。题设既有嗡声记录，电气噪声、增益、布置、反馈和设备异常均候选；只读既有路由/时段/表计，证据不足保留多解释。"
+        },
+        {
+          "caseId": "LS27",
+          "claim": "K19-CL-LS27@1",
+          "problem": "主扩/监听均可能返回声学路径，是否能推稳定裕量？",
+          "reject": "拒绝该推断。主扩/监听均可形成声学返回路径，舞台漏声也能恶化清晰度；方向图受频率及使用状态影响。"
+        },
+        {
+          "caseId": "LS28",
+          "claim": "K19-CL-LS28@1",
+          "problem": "音频断续与迟到日志同时出现，能否唯一归因网络？",
+          "reject": "拒绝该推断。题设音频断续可由网络迟到、时钟失锁、输入源、路由或设备问题引起；日志时间关联仅为诊断候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.07",
+      "ability": "A02",
+      "role": "P",
+      "task": "先停、读现有证据、升级",
+      "d4Targets": [
+        "K19.07.01.01",
+        "K19.07.01.02",
+        "K19.07.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 48,
+        "row": "| K19.07 | A02 | P | 先停、读现有证据、升级 | [LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS26/K19.07.01.02](live-sound-r2-knowledge-cases.md#L10)；[LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS25@1",
+        "K19-CL-LS26@1",
+        "K19-CL-LS28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS25",
+          "claim": "K19-CL-LS25@1",
+          "problem": "MAIN→空气→MIC→MAIN构成何种候选路径，是否证明振荡？",
+          "reject": "拒绝该推断。现场图若有MAIN→空气→MIC→MAIN，构成可能声学闭环；另一个开放麦也可能参与。存在路径不证明实际振荡。"
+        },
+        {
+          "caseId": "LS26",
+          "claim": "K19-CL-LS26@1",
+          "problem": "既有嗡声同时存在多种可能原因，如何判断？",
+          "reject": "拒绝该推断。题设既有嗡声记录，电气噪声、增益、布置、反馈和设备异常均候选；只读既有路由/时段/表计，证据不足保留多解释。"
+        },
+        {
+          "caseId": "LS28",
+          "claim": "K19-CL-LS28@1",
+          "problem": "音频断续与迟到日志同时出现，能否唯一归因网络？",
+          "reject": "拒绝该推断。题设音频断续可由网络迟到、时钟失锁、输入源、路由或设备问题引起；日志时间关联仅为诊断候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.07",
+      "ability": "A03",
+      "role": "S",
+      "task": "诊断数据/仪器资格",
+      "d4Targets": [
+        "K19.07.01.02",
+        "K19.07.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 49,
+        "row": "| K19.07 | A03 | S | 诊断数据/仪器资格 | [LS26/K19.07.01.02](live-sound-r2-knowledge-cases.md#L10)；[LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS26@1",
+        "K19-CL-LS28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS26",
+          "claim": "K19-CL-LS26@1",
+          "problem": "既有嗡声同时存在多种可能原因，如何判断？",
+          "reject": "拒绝该推断。题设既有嗡声记录，电气噪声、增益、布置、反馈和设备异常均候选；只读既有路由/时段/表计，证据不足保留多解释。"
+        },
+        {
+          "caseId": "LS28",
+          "claim": "K19-CL-LS28@1",
+          "problem": "音频断续与迟到日志同时出现，能否唯一归因网络？",
+          "reject": "拒绝该推断。题设音频断续可由网络迟到、时钟失锁、输入源、路由或设备问题引起；日志时间关联仅为诊断候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.07",
+      "ability": "A04",
+      "role": "P",
+      "task": "已观察路径、日志、时点",
+      "d4Targets": [
+        "K19.07.01.01",
+        "K19.07.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 50,
+        "row": "| K19.07 | A04 | P | 已观察路径、日志、时点 | [LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS25@1",
+        "K19-CL-LS28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS25",
+          "claim": "K19-CL-LS25@1",
+          "problem": "MAIN→空气→MIC→MAIN构成何种候选路径，是否证明振荡？",
+          "reject": "拒绝该推断。现场图若有MAIN→空气→MIC→MAIN，构成可能声学闭环；另一个开放麦也可能参与。存在路径不证明实际振荡。"
+        },
+        {
+          "caseId": "LS28",
+          "claim": "K19-CL-LS28@1",
+          "problem": "音频断续与迟到日志同时出现，能否唯一归因网络？",
+          "reject": "拒绝该推断。题设音频断续可由网络迟到、时钟失锁、输入源、路由或设备问题引起；日志时间关联仅为诊断候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.07",
+      "ability": "A05",
+      "role": "P",
+      "task": "反馈/噪声/迟到非唯一原因",
+      "d4Targets": [
+        "K19.07.01.01",
+        "K19.07.01.02",
+        "K19.07.02.01",
+        "K19.07.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 51,
+        "row": "| K19.07 | A05 | P | 反馈/噪声/迟到非唯一原因 | [LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS26/K19.07.01.02](live-sound-r2-knowledge-cases.md#L10)；[LS27/K19.07.02.01](live-sound-r2-knowledge-cases.md#L11)；[LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS25@1",
+        "K19-CL-LS26@1",
+        "K19-CL-LS27@1",
+        "K19-CL-LS28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS25",
+          "claim": "K19-CL-LS25@1",
+          "problem": "MAIN→空气→MIC→MAIN构成何种候选路径，是否证明振荡？",
+          "reject": "拒绝该推断。现场图若有MAIN→空气→MIC→MAIN，构成可能声学闭环；另一个开放麦也可能参与。存在路径不证明实际振荡。"
+        },
+        {
+          "caseId": "LS26",
+          "claim": "K19-CL-LS26@1",
+          "problem": "既有嗡声同时存在多种可能原因，如何判断？",
+          "reject": "拒绝该推断。题设既有嗡声记录，电气噪声、增益、布置、反馈和设备异常均候选；只读既有路由/时段/表计，证据不足保留多解释。"
+        },
+        {
+          "caseId": "LS27",
+          "claim": "K19-CL-LS27@1",
+          "problem": "主扩/监听均可能返回声学路径，是否能推稳定裕量？",
+          "reject": "拒绝该推断。主扩/监听均可形成声学返回路径，舞台漏声也能恶化清晰度；方向图受频率及使用状态影响。"
+        },
+        {
+          "caseId": "LS28",
+          "claim": "K19-CL-LS28@1",
+          "problem": "音频断续与迟到日志同时出现，能否唯一归因网络？",
+          "reject": "拒绝该推断。题设音频断续可由网络迟到、时钟失锁、输入源、路由或设备问题引起；日志时间关联仅为诊断候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.07",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑故障证据和候选图",
+      "d4Targets": [
+        "K19.07.01.01",
+        "K19.07.01.02"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 52,
+        "row": "| K19.07 | A06 | P | 可编辑故障证据和候选图 | [LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS26/K19.07.01.02](live-sound-r2-knowledge-cases.md#L10) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS25@1",
+        "K19-CL-LS26@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS25",
+          "claim": "K19-CL-LS25@1",
+          "problem": "MAIN→空气→MIC→MAIN构成何种候选路径，是否证明振荡？",
+          "reject": "拒绝该推断。现场图若有MAIN→空气→MIC→MAIN，构成可能声学闭环；另一个开放麦也可能参与。存在路径不证明实际振荡。"
+        },
+        {
+          "caseId": "LS26",
+          "claim": "K19-CL-LS26@1",
+          "problem": "既有嗡声同时存在多种可能原因，如何判断？",
+          "reject": "拒绝该推断。题设既有嗡声记录，电气噪声、增益、布置、反馈和设备异常均候选；只读既有路由/时段/表计，证据不足保留多解释。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.07",
+      "ability": "A07",
+      "role": "P",
+      "task": "替代原因、危险复现拒绝",
+      "d4Targets": [
+        "K19.07.01.02",
+        "K19.07.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 53,
+        "row": "| K19.07 | A07 | P | 替代原因、危险复现拒绝 | [LS26/K19.07.01.02](live-sound-r2-knowledge-cases.md#L10)；[LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS26@1",
+        "K19-CL-LS28@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS26",
+          "claim": "K19-CL-LS26@1",
+          "problem": "既有嗡声同时存在多种可能原因，如何判断？",
+          "reject": "拒绝该推断。题设既有嗡声记录，电气噪声、增益、布置、反馈和设备异常均候选；只读既有路由/时段/表计，证据不足保留多解释。"
+        },
+        {
+          "caseId": "LS28",
+          "claim": "K19-CL-LS28@1",
+          "problem": "音频断续与迟到日志同时出现，能否唯一归因网络？",
+          "reject": "拒绝该推断。题设音频断续可由网络迟到、时钟失锁、输入源、路由或设备问题引起；日志时间关联仅为诊断候选。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.08",
+      "ability": "A01",
+      "role": "P",
+      "task": "网络、同步与冗余",
+      "d4Targets": [
+        "K19.08.01.01",
+        "K19.08.02.01",
+        "K19.08.03.01",
+        "K19.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 54,
+        "row": "| K19.08 | A01 | P | 网络、同步与冗余 | [LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13)；[LS30/K19.08.02.01](live-sound-r2-knowledge-cases.md#L14)；[LS31/K19.08.03.01](live-sound-r2-knowledge-cases.md#L15)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS29@1",
+        "K19-CL-LS30@1",
+        "K19-CL-LS31@1",
+        "K19-CL-LS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS29",
+          "claim": "K19-CL-LS29@1",
+          "problem": "Dante时钟锁定能否证明媒体订阅与格式正常？",
+          "reject": "拒绝该推断。Dante标准网络选举leader，followers同步；媒体订阅/格式和时钟锁定分开；跨子网domain边界时钟条件另核。"
+        },
+        {
+          "caseId": "LS30",
+          "claim": "K19-CL-LS30@1",
+          "problem": "48kHz 48 samples时长多少，Ultimo冲突值及迟到间隔如何处理？",
+          "reject": "拒绝该推断。接收设置与有效订阅延迟、网络迟到及端到端不同；48kHz的48 samples=1ms仅采样时间。S627两文档的Ultimo最小值冲突，确切设备/固件/配置未核为UNKNOWN；含迟到包的测量间隔数不是包数，绑定订阅、监测范围、时窗及可用性。"
+        },
+        {
+          "caseId": "LS31",
+          "claim": "K19-CL-LS31@1",
+          "problem": "双端口共用一张网络能否证明独立冗余？",
+          "reject": "拒绝该推断。Dante冗余需支持设备、分离primary/secondary网络及相同链速；题设双端口共用一个网络不能证明独立冗余。"
+        },
+        {
+          "caseId": "LS32",
+          "claim": "K19-CL-LS32@1",
+          "problem": "48kHz发送、只96kHz接收且无转换，共同格式满足吗？",
+          "reject": "拒绝该推断。订阅绑定Tx/Rx端点及共同媒体格式；单播/组播资源与流数不同。题设48kHz发送、仅96kHz接收且无转换，不满足共同格式。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.08",
+      "ability": "A02",
+      "role": "P",
+      "task": "订阅/格式/时钟/拓扑核验",
+      "d4Targets": [
+        "K19.08.01.01",
+        "K19.08.03.01",
+        "K19.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 55,
+        "row": "| K19.08 | A02 | P | 订阅/格式/时钟/拓扑核验 | [LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13)；[LS31/K19.08.03.01](live-sound-r2-knowledge-cases.md#L15)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS29@1",
+        "K19-CL-LS31@1",
+        "K19-CL-LS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS29",
+          "claim": "K19-CL-LS29@1",
+          "problem": "Dante时钟锁定能否证明媒体订阅与格式正常？",
+          "reject": "拒绝该推断。Dante标准网络选举leader，followers同步；媒体订阅/格式和时钟锁定分开；跨子网domain边界时钟条件另核。"
+        },
+        {
+          "caseId": "LS31",
+          "claim": "K19-CL-LS31@1",
+          "problem": "双端口共用一张网络能否证明独立冗余？",
+          "reject": "拒绝该推断。Dante冗余需支持设备、分离primary/secondary网络及相同链速；题设双端口共用一个网络不能证明独立冗余。"
+        },
+        {
+          "caseId": "LS32",
+          "claim": "K19-CL-LS32@1",
+          "problem": "48kHz发送、只96kHz接收且无转换，共同格式满足吗？",
+          "reject": "拒绝该推断。订阅绑定Tx/Rx端点及共同媒体格式；单播/组播资源与流数不同。题设48kHz发送、仅96kHz接收且无转换，不满足共同格式。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.08",
+      "ability": "A03",
+      "role": "S",
+      "task": "Dante具体状态/版本资格",
+      "d4Targets": [
+        "K19.08.01.01",
+        "K19.08.02.01",
+        "K19.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 56,
+        "row": "| K19.08 | A03 | S | Dante具体状态/版本资格 | [LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13)；[LS30/K19.08.02.01](live-sound-r2-knowledge-cases.md#L14)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS29@1",
+        "K19-CL-LS30@1",
+        "K19-CL-LS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS29",
+          "claim": "K19-CL-LS29@1",
+          "problem": "Dante时钟锁定能否证明媒体订阅与格式正常？",
+          "reject": "拒绝该推断。Dante标准网络选举leader，followers同步；媒体订阅/格式和时钟锁定分开；跨子网domain边界时钟条件另核。"
+        },
+        {
+          "caseId": "LS30",
+          "claim": "K19-CL-LS30@1",
+          "problem": "48kHz 48 samples时长多少，Ultimo冲突值及迟到间隔如何处理？",
+          "reject": "拒绝该推断。接收设置与有效订阅延迟、网络迟到及端到端不同；48kHz的48 samples=1ms仅采样时间。S627两文档的Ultimo最小值冲突，确切设备/固件/配置未核为UNKNOWN；含迟到包的测量间隔数不是包数，绑定订阅、监测范围、时窗及可用性。"
+        },
+        {
+          "caseId": "LS32",
+          "claim": "K19-CL-LS32@1",
+          "problem": "48kHz发送、只96kHz接收且无转换，共同格式满足吗？",
+          "reject": "拒绝该推断。订阅绑定Tx/Rx端点及共同媒体格式；单播/组播资源与流数不同。题设48kHz发送、仅96kHz接收且无转换，不满足共同格式。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.08",
+      "ability": "A04",
+      "role": "P",
+      "task": "端点、锁定、延迟、故障域",
+      "d4Targets": [
+        "K19.08.01.01",
+        "K19.08.03.01",
+        "K19.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 57,
+        "row": "| K19.08 | A04 | P | 端点、锁定、延迟、故障域 | [LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13)；[LS31/K19.08.03.01](live-sound-r2-knowledge-cases.md#L15)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS29@1",
+        "K19-CL-LS31@1",
+        "K19-CL-LS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS29",
+          "claim": "K19-CL-LS29@1",
+          "problem": "Dante时钟锁定能否证明媒体订阅与格式正常？",
+          "reject": "拒绝该推断。Dante标准网络选举leader，followers同步；媒体订阅/格式和时钟锁定分开；跨子网domain边界时钟条件另核。"
+        },
+        {
+          "caseId": "LS31",
+          "claim": "K19-CL-LS31@1",
+          "problem": "双端口共用一张网络能否证明独立冗余？",
+          "reject": "拒绝该推断。Dante冗余需支持设备、分离primary/secondary网络及相同链速；题设双端口共用一个网络不能证明独立冗余。"
+        },
+        {
+          "caseId": "LS32",
+          "claim": "K19-CL-LS32@1",
+          "problem": "48kHz发送、只96kHz接收且无转换，共同格式满足吗？",
+          "reject": "拒绝该推断。订阅绑定Tx/Rx端点及共同媒体格式；单播/组播资源与流数不同。题设48kHz发送、仅96kHz接收且无转换，不满足共同格式。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.08",
+      "ability": "A05",
+      "role": "P",
+      "task": "时钟、迟到、媒体可靠性",
+      "d4Targets": [
+        "K19.08.02.01",
+        "K19.08.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 58,
+        "row": "| K19.08 | A05 | P | 时钟、迟到、媒体可靠性 | [LS30/K19.08.02.01](live-sound-r2-knowledge-cases.md#L14)；[LS31/K19.08.03.01](live-sound-r2-knowledge-cases.md#L15) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS30@1",
+        "K19-CL-LS31@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS30",
+          "claim": "K19-CL-LS30@1",
+          "problem": "48kHz 48 samples时长多少，Ultimo冲突值及迟到间隔如何处理？",
+          "reject": "拒绝该推断。接收设置与有效订阅延迟、网络迟到及端到端不同；48kHz的48 samples=1ms仅采样时间。S627两文档的Ultimo最小值冲突，确切设备/固件/配置未核为UNKNOWN；含迟到包的测量间隔数不是包数，绑定订阅、监测范围、时窗及可用性。"
+        },
+        {
+          "caseId": "LS31",
+          "claim": "K19-CL-LS31@1",
+          "problem": "双端口共用一张网络能否证明独立冗余？",
+          "reject": "拒绝该推断。Dante冗余需支持设备、分离primary/secondary网络及相同链速；题设双端口共用一个网络不能证明独立冗余。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.08",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑拓扑/订阅与日志",
+      "d4Targets": [
+        "K19.08.03.01",
+        "K19.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 59,
+        "row": "| K19.08 | A06 | P | 可编辑拓扑/订阅与日志 | [LS31/K19.08.03.01](live-sound-r2-knowledge-cases.md#L15)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS31@1",
+        "K19-CL-LS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS31",
+          "claim": "K19-CL-LS31@1",
+          "problem": "双端口共用一张网络能否证明独立冗余？",
+          "reject": "拒绝该推断。Dante冗余需支持设备、分离primary/secondary网络及相同链速；题设双端口共用一个网络不能证明独立冗余。"
+        },
+        {
+          "caseId": "LS32",
+          "claim": "K19-CL-LS32@1",
+          "problem": "48kHz发送、只96kHz接收且无转换，共同格式满足吗？",
+          "reject": "拒绝该推断。订阅绑定Tx/Rx端点及共同媒体格式；单播/组播资源与流数不同。题设48kHz发送、仅96kHz接收且无转换，不满足共同格式。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.08",
+      "ability": "A07",
+      "role": "P",
+      "task": "失锁/缺证停止并升级",
+      "d4Targets": [
+        "K19.08.01.01",
+        "K19.08.02.01",
+        "K19.08.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 60,
+        "row": "| K19.08 | A07 | P | 失锁/缺证停止并升级 | [LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13)；[LS30/K19.08.02.01](live-sound-r2-knowledge-cases.md#L14)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS29@1",
+        "K19-CL-LS30@1",
+        "K19-CL-LS32@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS29",
+          "claim": "K19-CL-LS29@1",
+          "problem": "Dante时钟锁定能否证明媒体订阅与格式正常？",
+          "reject": "拒绝该推断。Dante标准网络选举leader，followers同步；媒体订阅/格式和时钟锁定分开；跨子网domain边界时钟条件另核。"
+        },
+        {
+          "caseId": "LS30",
+          "claim": "K19-CL-LS30@1",
+          "problem": "48kHz 48 samples时长多少，Ultimo冲突值及迟到间隔如何处理？",
+          "reject": "拒绝该推断。接收设置与有效订阅延迟、网络迟到及端到端不同；48kHz的48 samples=1ms仅采样时间。S627两文档的Ultimo最小值冲突，确切设备/固件/配置未核为UNKNOWN；含迟到包的测量间隔数不是包数，绑定订阅、监测范围、时窗及可用性。"
+        },
+        {
+          "caseId": "LS32",
+          "claim": "K19-CL-LS32@1",
+          "problem": "48kHz发送、只96kHz接收且无转换，共同格式满足吗？",
+          "reject": "拒绝该推断。订阅绑定Tx/Rx端点及共同媒体格式；单播/组播资源与流数不同。题设48kHz发送、仅96kHz接收且无转换，不满足共同格式。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.09",
+      "ability": "A01",
+      "role": "P",
+      "task": "声级与安全",
+      "d4Targets": [
+        "K19.09.01.01",
+        "K19.09.02.01",
+        "K19.09.03.01",
+        "K19.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 61,
+        "row": "| K19.09 | A01 | P | 声级与安全 | [LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19)；[LS36/K19.09.04.01](live-sound-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS33@1",
+        "K19-CL-LS34@1",
+        "K19-CL-LS35@1",
+        "K19-CL-LS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS33",
+          "claim": "K19-CL-LS33@1",
+          "problem": "人群政策、峰值、职业或现场权限任一未知时如何裁决？",
+          "reject": "拒绝该推断。题设观众声级缺参考位/校准、儿童/一般政策未知、峰值缺适用条件或结果、职业暴露无独立证据、场地权限未知中的任一项即停止；当前合格记录及授权确认才可复核，已复核不等于合格。"
+        },
+        {
+          "caseId": "LS34",
+          "claim": "K19-CL-LS34@1",
+          "problem": "WHO一般观众移动15分钟参考与儿童针对活动、峰值条件能否互代？",
+          "reject": "拒绝该推断。WHO 2022 F1.1.5/F1.2为一般观众有人时参考位移动15分钟LAeq风险降低上限，非目标；F1.3峰值为独立风险，F1.5.3儿童针对性活动需更保守适用政策及独立峰值条件。人群/适用政策不明停止，不以一般规则代儿童政策。六项措施还含监控、系统优化、防护、安静区、培训。"
+        },
+        {
+          "caseId": "LS35",
+          "claim": "K19-CL-LS35@1",
+          "problem": "NIOSH职业口径8h 85dBA对应何种有限剂量解释？",
+          "reject": "拒绝该推断。NIOSH职业REL 85dBA/8h、3dB交换；个人剂量与区域测量不同，题设8h 85dBA对应该口径100%不是安全余量；实际设备阈值与记录需核。"
+        },
+        {
+          "caseId": "LS36",
+          "claim": "K19-CL-LS36@1",
+          "problem": "等时合成70/76dB按能量平均多少？",
+          "reject": "拒绝该推断。等时两段已存合成LAeq 70/76dB，能量平均10log10((10^7+10^7.6)/2)≈73.96dB，不是算术73；只说明数学。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.09",
+      "ability": "A02",
+      "role": "P",
+      "task": "对象/规则/证据→停止/复核",
+      "d4Targets": [
+        "K19.09.01.01",
+        "K19.09.02.01",
+        "K19.09.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 62,
+        "row": "| K19.09 | A02 | P | 对象/规则/证据→停止/复核 | [LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS33@1",
+        "K19-CL-LS34@1",
+        "K19-CL-LS35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS33",
+          "claim": "K19-CL-LS33@1",
+          "problem": "人群政策、峰值、职业或现场权限任一未知时如何裁决？",
+          "reject": "拒绝该推断。题设观众声级缺参考位/校准、儿童/一般政策未知、峰值缺适用条件或结果、职业暴露无独立证据、场地权限未知中的任一项即停止；当前合格记录及授权确认才可复核，已复核不等于合格。"
+        },
+        {
+          "caseId": "LS34",
+          "claim": "K19-CL-LS34@1",
+          "problem": "WHO一般观众移动15分钟参考与儿童针对活动、峰值条件能否互代？",
+          "reject": "拒绝该推断。WHO 2022 F1.1.5/F1.2为一般观众有人时参考位移动15分钟LAeq风险降低上限，非目标；F1.3峰值为独立风险，F1.5.3儿童针对性活动需更保守适用政策及独立峰值条件。人群/适用政策不明停止，不以一般规则代儿童政策。六项措施还含监控、系统优化、防护、安静区、培训。"
+        },
+        {
+          "caseId": "LS35",
+          "claim": "K19-CL-LS35@1",
+          "problem": "NIOSH职业口径8h 85dBA对应何种有限剂量解释？",
+          "reject": "拒绝该推断。NIOSH职业REL 85dBA/8h、3dB交换；个人剂量与区域测量不同，题设8h 85dBA对应该口径100%不是安全余量；实际设备阈值与记录需核。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.09",
+      "ability": "A03",
+      "role": "S",
+      "task": "仪器/计权/窗口资格",
+      "d4Targets": [
+        "K19.09.02.01",
+        "K19.09.03.01",
+        "K19.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 63,
+        "row": "| K19.09 | A03 | S | 仪器/计权/窗口资格 | [LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19)；[LS36/K19.09.04.01](live-sound-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS34@1",
+        "K19-CL-LS35@1",
+        "K19-CL-LS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS34",
+          "claim": "K19-CL-LS34@1",
+          "problem": "WHO一般观众移动15分钟参考与儿童针对活动、峰值条件能否互代？",
+          "reject": "拒绝该推断。WHO 2022 F1.1.5/F1.2为一般观众有人时参考位移动15分钟LAeq风险降低上限，非目标；F1.3峰值为独立风险，F1.5.3儿童针对性活动需更保守适用政策及独立峰值条件。人群/适用政策不明停止，不以一般规则代儿童政策。六项措施还含监控、系统优化、防护、安静区、培训。"
+        },
+        {
+          "caseId": "LS35",
+          "claim": "K19-CL-LS35@1",
+          "problem": "NIOSH职业口径8h 85dBA对应何种有限剂量解释？",
+          "reject": "拒绝该推断。NIOSH职业REL 85dBA/8h、3dB交换；个人剂量与区域测量不同，题设8h 85dBA对应该口径100%不是安全余量；实际设备阈值与记录需核。"
+        },
+        {
+          "caseId": "LS36",
+          "claim": "K19-CL-LS36@1",
+          "problem": "等时合成70/76dB按能量平均多少？",
+          "reject": "拒绝该推断。等时两段已存合成LAeq 70/76dB，能量平均10log10((10^7+10^7.6)/2)≈73.96dB，不是算术73；只说明数学。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.09",
+      "ability": "A04",
+      "role": "P",
+      "task": "参考位、暴露、批准与监控",
+      "d4Targets": [
+        "K19.09.01.01",
+        "K19.09.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 64,
+        "row": "| K19.09 | A04 | P | 参考位、暴露、批准与监控 | [LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS33@1",
+        "K19-CL-LS34@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS33",
+          "claim": "K19-CL-LS33@1",
+          "problem": "人群政策、峰值、职业或现场权限任一未知时如何裁决？",
+          "reject": "拒绝该推断。题设观众声级缺参考位/校准、儿童/一般政策未知、峰值缺适用条件或结果、职业暴露无独立证据、场地权限未知中的任一项即停止；当前合格记录及授权确认才可复核，已复核不等于合格。"
+        },
+        {
+          "caseId": "LS34",
+          "claim": "K19-CL-LS34@1",
+          "problem": "WHO一般观众移动15分钟参考与儿童针对活动、峰值条件能否互代？",
+          "reject": "拒绝该推断。WHO 2022 F1.1.5/F1.2为一般观众有人时参考位移动15分钟LAeq风险降低上限，非目标；F1.3峰值为独立风险，F1.5.3儿童针对性活动需更保守适用政策及独立峰值条件。人群/适用政策不明停止，不以一般规则代儿童政策。六项措施还含监控、系统优化、防护、安静区、培训。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.09",
+      "ability": "A05",
+      "role": "P",
+      "task": "WHO/NIOSH及本地规则区分",
+      "d4Targets": [
+        "K19.09.02.01",
+        "K19.09.03.01",
+        "K19.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 65,
+        "row": "| K19.09 | A05 | P | WHO/NIOSH及本地规则区分 | [LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19)；[LS36/K19.09.04.01](live-sound-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS34@1",
+        "K19-CL-LS35@1",
+        "K19-CL-LS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS34",
+          "claim": "K19-CL-LS34@1",
+          "problem": "WHO一般观众移动15分钟参考与儿童针对活动、峰值条件能否互代？",
+          "reject": "拒绝该推断。WHO 2022 F1.1.5/F1.2为一般观众有人时参考位移动15分钟LAeq风险降低上限，非目标；F1.3峰值为独立风险，F1.5.3儿童针对性活动需更保守适用政策及独立峰值条件。人群/适用政策不明停止，不以一般规则代儿童政策。六项措施还含监控、系统优化、防护、安静区、培训。"
+        },
+        {
+          "caseId": "LS35",
+          "claim": "K19-CL-LS35@1",
+          "problem": "NIOSH职业口径8h 85dBA对应何种有限剂量解释？",
+          "reject": "拒绝该推断。NIOSH职业REL 85dBA/8h、3dB交换；个人剂量与区域测量不同，题设8h 85dBA对应该口径100%不是安全余量；实际设备阈值与记录需核。"
+        },
+        {
+          "caseId": "LS36",
+          "claim": "K19-CL-LS36@1",
+          "problem": "等时合成70/76dB按能量平均多少？",
+          "reject": "拒绝该推断。等时两段已存合成LAeq 70/76dB，能量平均10log10((10^7+10^7.6)/2)≈73.96dB，不是算术73；只说明数学。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.09",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑安全条件、记录",
+      "d4Targets": [
+        "K19.09.01.01",
+        "K19.09.02.01",
+        "K19.09.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 66,
+        "row": "| K19.09 | A06 | P | 可编辑安全条件、记录 | [LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS33@1",
+        "K19-CL-LS34@1",
+        "K19-CL-LS35@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS33",
+          "claim": "K19-CL-LS33@1",
+          "problem": "人群政策、峰值、职业或现场权限任一未知时如何裁决？",
+          "reject": "拒绝该推断。题设观众声级缺参考位/校准、儿童/一般政策未知、峰值缺适用条件或结果、职业暴露无独立证据、场地权限未知中的任一项即停止；当前合格记录及授权确认才可复核，已复核不等于合格。"
+        },
+        {
+          "caseId": "LS34",
+          "claim": "K19-CL-LS34@1",
+          "problem": "WHO一般观众移动15分钟参考与儿童针对活动、峰值条件能否互代？",
+          "reject": "拒绝该推断。WHO 2022 F1.1.5/F1.2为一般观众有人时参考位移动15分钟LAeq风险降低上限，非目标；F1.3峰值为独立风险，F1.5.3儿童针对性活动需更保守适用政策及独立峰值条件。人群/适用政策不明停止，不以一般规则代儿童政策。六项措施还含监控、系统优化、防护、安静区、培训。"
+        },
+        {
+          "caseId": "LS35",
+          "claim": "K19-CL-LS35@1",
+          "problem": "NIOSH职业口径8h 85dBA对应何种有限剂量解释？",
+          "reject": "拒绝该推断。NIOSH职业REL 85dBA/8h、3dB交换；个人剂量与区域测量不同，题设8h 85dBA对应该口径100%不是安全余量；实际设备阈值与记录需核。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.09",
+      "ability": "A07",
+      "role": "P",
+      "task": "缺证、异常、现场安全升级",
+      "d4Targets": [
+        "K19.09.01.01",
+        "K19.09.02.01",
+        "K19.09.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 67,
+        "row": "| K19.09 | A07 | P | 缺证、异常、现场安全升级 | [LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS36/K19.09.04.01](live-sound-r2-knowledge-cases.md#L20) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS33@1",
+        "K19-CL-LS34@1",
+        "K19-CL-LS36@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS33",
+          "claim": "K19-CL-LS33@1",
+          "problem": "人群政策、峰值、职业或现场权限任一未知时如何裁决？",
+          "reject": "拒绝该推断。题设观众声级缺参考位/校准、儿童/一般政策未知、峰值缺适用条件或结果、职业暴露无独立证据、场地权限未知中的任一项即停止；当前合格记录及授权确认才可复核，已复核不等于合格。"
+        },
+        {
+          "caseId": "LS34",
+          "claim": "K19-CL-LS34@1",
+          "problem": "WHO一般观众移动15分钟参考与儿童针对活动、峰值条件能否互代？",
+          "reject": "拒绝该推断。WHO 2022 F1.1.5/F1.2为一般观众有人时参考位移动15分钟LAeq风险降低上限，非目标；F1.3峰值为独立风险，F1.5.3儿童针对性活动需更保守适用政策及独立峰值条件。人群/适用政策不明停止，不以一般规则代儿童政策。六项措施还含监控、系统优化、防护、安静区、培训。"
+        },
+        {
+          "caseId": "LS36",
+          "claim": "K19-CL-LS36@1",
+          "problem": "等时合成70/76dB按能量平均多少？",
+          "reject": "拒绝该推断。等时两段已存合成LAeq 70/76dB，能量平均10log10((10^7+10^7.6)/2)≈73.96dB，不是算术73；只说明数学。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.10",
+      "ability": "A01",
+      "role": "P",
+      "task": "现场复盘",
+      "d4Targets": [
+        "K19.10.01.01",
+        "K19.10.02.01",
+        "K19.10.03.01",
+        "K19.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 68,
+        "row": "| K19.10 | A01 | P | 现场复盘 | [LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21)；[LS38/K19.10.02.01](live-sound-r2-knowledge-cases.md#L22)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS37@1",
+        "K19-CL-LS38@1",
+        "K19-CL-LS39@1",
+        "K19-CL-LS40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS37",
+          "claim": "K19-CL-LS37@1",
+          "problem": "事后日志包含设备操作，能否证明实际声场输出？",
+          "reject": "拒绝该推断。事后保存节目/场地/配置、时钟/网络日志、测点、状态与事件的版本和时间，不把操作日志当实际输出。"
+        },
+        {
+          "caseId": "LS38",
+          "claim": "K19-CL-LS38@1",
+          "problem": "回路候选与迟到事件同一时刻出现，应如何复盘？",
+          "reject": "拒绝该推断。既有异常时刻同时出现舞台回路候选与网络迟到事件，复盘并列假设及证据，不能用相关性判唯一根因。"
+        },
+        {
+          "caseId": "LS39",
+          "claim": "K19-CL-LS39@1",
+          "problem": "V2只准改批准参数，如何保护监听、布局和当前权限？",
+          "reject": "拒绝该推断。题设修订候选V2只改变批准参数，保护原布局/监听/权限，回滚方案须独立核当前实际状态，受影响结果重新验收。"
+        },
+        {
+          "caseId": "LS40",
+          "claim": "K19-CL-LS40@1",
+          "problem": "无真实覆盖、STI和剂量观察，可以关闭现场验收吗？",
+          "reject": "拒绝该推断。复盘闭环记录发现→证据→候选原因→负责人→修订范围→复测与待证状态；未测真实覆盖、STI、剂量不能关闭现场验收。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.10",
+      "ability": "A02",
+      "role": "P",
+      "task": "保留现场证据→候选→复核",
+      "d4Targets": [
+        "K19.10.01.01",
+        "K19.10.03.01",
+        "K19.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 69,
+        "row": "| K19.10 | A02 | P | 保留现场证据→候选→复核 | [LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS37@1",
+        "K19-CL-LS39@1",
+        "K19-CL-LS40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS37",
+          "claim": "K19-CL-LS37@1",
+          "problem": "事后日志包含设备操作，能否证明实际声场输出？",
+          "reject": "拒绝该推断。事后保存节目/场地/配置、时钟/网络日志、测点、状态与事件的版本和时间，不把操作日志当实际输出。"
+        },
+        {
+          "caseId": "LS39",
+          "claim": "K19-CL-LS39@1",
+          "problem": "V2只准改批准参数，如何保护监听、布局和当前权限？",
+          "reject": "拒绝该推断。题设修订候选V2只改变批准参数，保护原布局/监听/权限，回滚方案须独立核当前实际状态，受影响结果重新验收。"
+        },
+        {
+          "caseId": "LS40",
+          "claim": "K19-CL-LS40@1",
+          "problem": "无真实覆盖、STI和剂量观察，可以关闭现场验收吗？",
+          "reject": "拒绝该推断。复盘闭环记录发现→证据→候选原因→负责人→修订范围→复测与待证状态；未测真实覆盖、STI、剂量不能关闭现场验收。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.10",
+      "ability": "A03",
+      "role": "S",
+      "task": "日志/场景资料资格",
+      "d4Targets": [
+        "K19.10.01.01",
+        "K19.10.02.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 70,
+        "row": "| K19.10 | A03 | S | 日志/场景资料资格 | [LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21)；[LS38/K19.10.02.01](live-sound-r2-knowledge-cases.md#L22) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS37@1",
+        "K19-CL-LS38@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS37",
+          "claim": "K19-CL-LS37@1",
+          "problem": "事后日志包含设备操作，能否证明实际声场输出？",
+          "reject": "拒绝该推断。事后保存节目/场地/配置、时钟/网络日志、测点、状态与事件的版本和时间，不把操作日志当实际输出。"
+        },
+        {
+          "caseId": "LS38",
+          "claim": "K19-CL-LS38@1",
+          "problem": "回路候选与迟到事件同一时刻出现，应如何复盘？",
+          "reject": "拒绝该推断。既有异常时刻同时出现舞台回路候选与网络迟到事件，复盘并列假设及证据，不能用相关性判唯一根因。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.10",
+      "ability": "A04",
+      "role": "P",
+      "task": "事件、变更及报告版本",
+      "d4Targets": [
+        "K19.10.01.01",
+        "K19.10.03.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 71,
+        "row": "| K19.10 | A04 | P | 事件、变更及报告版本 | [LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS37@1",
+        "K19-CL-LS39@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS37",
+          "claim": "K19-CL-LS37@1",
+          "problem": "事后日志包含设备操作，能否证明实际声场输出？",
+          "reject": "拒绝该推断。事后保存节目/场地/配置、时钟/网络日志、测点、状态与事件的版本和时间，不把操作日志当实际输出。"
+        },
+        {
+          "caseId": "LS39",
+          "claim": "K19-CL-LS39@1",
+          "problem": "V2只准改批准参数，如何保护监听、布局和当前权限？",
+          "reject": "拒绝该推断。题设修订候选V2只改变批准参数，保护原布局/监听/权限，回滚方案须独立核当前实际状态，受影响结果重新验收。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.10",
+      "ability": "A05",
+      "role": "P",
+      "task": "独立复测和关闭条件",
+      "d4Targets": [
+        "K19.10.02.01",
+        "K19.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 72,
+        "row": "| K19.10 | A05 | P | 独立复测和关闭条件 | [LS38/K19.10.02.01](live-sound-r2-knowledge-cases.md#L22)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS38@1",
+        "K19-CL-LS40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS38",
+          "claim": "K19-CL-LS38@1",
+          "problem": "回路候选与迟到事件同一时刻出现，应如何复盘？",
+          "reject": "拒绝该推断。既有异常时刻同时出现舞台回路候选与网络迟到事件，复盘并列假设及证据，不能用相关性判唯一根因。"
+        },
+        {
+          "caseId": "LS40",
+          "claim": "K19-CL-LS40@1",
+          "problem": "无真实覆盖、STI和剂量观察，可以关闭现场验收吗？",
+          "reject": "拒绝该推断。复盘闭环记录发现→证据→候选原因→负责人→修订范围→复测与待证状态；未测真实覆盖、STI、剂量不能关闭现场验收。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.10",
+      "ability": "A06",
+      "role": "P",
+      "task": "可编辑复盘/差异/报告",
+      "d4Targets": [
+        "K19.10.01.01",
+        "K19.10.03.01",
+        "K19.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 73,
+        "row": "| K19.10 | A06 | P | 可编辑复盘/差异/报告 | [LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS37@1",
+        "K19-CL-LS39@1",
+        "K19-CL-LS40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS37",
+          "claim": "K19-CL-LS37@1",
+          "problem": "事后日志包含设备操作，能否证明实际声场输出？",
+          "reject": "拒绝该推断。事后保存节目/场地/配置、时钟/网络日志、测点、状态与事件的版本和时间，不把操作日志当实际输出。"
+        },
+        {
+          "caseId": "LS39",
+          "claim": "K19-CL-LS39@1",
+          "problem": "V2只准改批准参数，如何保护监听、布局和当前权限？",
+          "reject": "拒绝该推断。题设修订候选V2只改变批准参数，保护原布局/监听/权限，回滚方案须独立核当前实际状态，受影响结果重新验收。"
+        },
+        {
+          "caseId": "LS40",
+          "claim": "K19-CL-LS40@1",
+          "problem": "无真实覆盖、STI和剂量观察，可以关闭现场验收吗？",
+          "reject": "拒绝该推断。复盘闭环记录发现→证据→候选原因→负责人→修订范围→复测与待证状态；未测真实覆盖、STI、剂量不能关闭现场验收。"
+        }
+      ]
+    },
+    {
+      "d2": "K19.10",
+      "ability": "A07",
+      "role": "P",
+      "task": "原因、最小修订、回滚待证",
+      "d4Targets": [
+        "K19.10.02.01",
+        "K19.10.03.01",
+        "K19.10.04.01"
+      ],
+      "historicalTargets": [],
+      "status": "ACTIVE",
+      "limits": "原域职责及冻结专业任务；非真实执行或权限",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-capability-calibration.md",
+        "blob": "7b7e605316f8ccf66a982b1cc34578b6860e1739",
+        "line": 74,
+        "row": "| K19.10 | A07 | P | 原因、最小修订、回滚待证 | [LS38/K19.10.02.01](live-sound-r2-knowledge-cases.md#L22)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) |"
+      },
+      "externalStatus": "UNKNOWN_NOT_EXECUTED",
+      "claimRefs": [
+        "K19-CL-LS38@1",
+        "K19-CL-LS39@1",
+        "K19-CL-LS40@1"
+      ],
+      "localWitnesses": [
+        {
+          "caseId": "LS38",
+          "claim": "K19-CL-LS38@1",
+          "problem": "回路候选与迟到事件同一时刻出现，应如何复盘？",
+          "reject": "拒绝该推断。既有异常时刻同时出现舞台回路候选与网络迟到事件，复盘并列假设及证据，不能用相关性判唯一根因。"
+        },
+        {
+          "caseId": "LS39",
+          "claim": "K19-CL-LS39@1",
+          "problem": "V2只准改批准参数，如何保护监听、布局和当前权限？",
+          "reject": "拒绝该推断。题设修订候选V2只改变批准参数，保护原布局/监听/权限，回滚方案须独立核当前实际状态，受影响结果重新验收。"
+        },
+        {
+          "caseId": "LS40",
+          "claim": "K19-CL-LS40@1",
+          "problem": "无真实覆盖、STI和剂量观察，可以关闭现场验收吗？",
+          "reject": "拒绝该推断。复盘闭环记录发现→证据→候选原因→负责人→修订范围→复测与待证状态；未测真实覆盖、STI、剂量不能关闭现场验收。"
+        }
+      ]
+    }
+  ]
+}

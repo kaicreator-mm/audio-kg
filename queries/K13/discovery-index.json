@@ -1,0 +1,721 @@
+{
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "rows": [
+    {
+      "d4": "K13.05.01.03",
+      "claim": "K13-CL-LA01@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ18",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-01",
+        "CQ-K13-02"
+      ],
+      "caseId": "LA01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 5,
+        "row": "| K13.05.01.03 | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5) | [S553](../../research/source-qualification-localization-r1-r2.md#L5)；[S137](../../research/source-qualification-culture-education-rights.md#L10) | Unicode17.0 §16.3.1 Myanmar U+1000与U+1031组成的序列 ကေ；e符号编码在辅音后、显示在前。2个码点不等2个音节或两个音符。书写、音节、音素、词、实际发音分别标注；同一Myanmar文字也用于不同语言。 NFC反例：原始1000 103A 1037与1000 1037 103A在Unicode规范化下等价，原始ID/码点span仍不同，须记录映射；视觉前置1031与标准逻辑顺序非自动等价。U+200B仅断行线索，不是词身份；词典ID、语言/方言和查找结果独立，未知不猜。 |"
+      }
+    },
+    {
+      "d4": "K13.05.02.03",
+      "claim": "K13-CL-LA02@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ18",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-03"
+      ],
+      "caseId": "LA02",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 6,
+        "row": "| K13.05.02.03 | [LA02/K13.05.02.03](localization-r1-knowledge-cases.md#L6) | [S137](../../research/source-qualification-culture-education-rights.md#L10)；[S554](../../research/source-qualification-localization-r1-r2.md#L6)；[S139](../../research/source-qualification-culture-education-rights.md#L12) | 口语声调可由F0轨迹、发声类型、时长及其他线索共同区分。Gruber的孤立音节感知实验以同一说话人多条件刺激测试10名缅语听者；某固定F0条件的判断仍受发声类型/时长影响，非只按绝对Hz分类。 |"
+      }
+    },
+    {
+      "d4": "K13.05.03.03",
+      "claim": "K13-CL-LA03@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ18",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-04"
+      ],
+      "caseId": "LA03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 7,
+        "row": "| K13.05.03.03 | [LA03/K13.05.03.03](localization-r1-knowledge-cases.md#L7) | [S144](../../research/source-qualification-composition-r2.md#L5)；[S554](../../research/source-qualification-localization-r1-r2.md#L6) | 词汇声调与歌曲音高有潜在冲突；Garfias 1981观察特定传统的伴奏与语词关系，明确无法量化每次词/曲支配程度。给定同一词音节配长音与短音两候选，口语线索仅提出歧义风险。 |"
+      }
+    },
+    {
+      "d4": "K13.06.01.03",
+      "claim": "K13-CL-LA04@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-05"
+      ],
+      "caseId": "LA04",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 8,
+        "row": "| K13.06.01.03 | [LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S556](../../research/source-qualification-localization-r1-r2.md#L8)；[S142](../../research/source-qualification-culture-education-rights.md#L15) | 原创语义合同：说话人承诺明天返回。理解用译文可优先完整语义；可唱改编还需适配原旋律时值；重新创作可改变主题仅在目标明确允许时。五维取舍与硬保留分开。 |"
+      }
+    },
+    {
+      "d4": "K13.06.02.03",
+      "claim": "K13-CL-LA05@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-06"
+      ],
+      "caseId": "LA05",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 9,
+        "row": "| K13.06.02.03 | [LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S556](../../research/source-qualification-localization-r1-r2.md#L8) | 四拍120BPM、音符时值[1,1,1,1]拍共2秒；题设词音节s1/s2/s3映射n1/n2/(n3,n4)，一音节可跨两音符（melisma），不必强求四音节。若第三音节要求短闭合且该配法拖长，应作为风险重新候选。 另设独立对照（不是前述2秒例）：同为3音节4音符，固定每音符时长.25s及休止区间[1,1.25)，候选s1→n1+n2或s1→n1使首音节.5/.25s；其余按题设s2→n3或n2+n3、s3→n4，词边界策略显式固定。计数一致不等分组/时值一致。 |"
+      }
+    },
+    {
+      "d4": "K13.06.03.03",
+      "claim": "K13-CL-LA06@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ21",
+        "CQ24",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-07"
+      ],
+      "caseId": "LA06",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 10,
+        "row": "| K13.06.03.03 | [LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S556](../../research/source-qualification-localization-r1-r2.md#L8) | 文本候选语义符合且音节数一致，不证明实际听懂；S555英语至捷克语实验无旋律输入。保存原词V0、译稿V1、谱面N0、对齐A1、评价E1；改V2使A1/E1需重新核验。 |"
+      }
+    },
+    {
+      "d4": "K13.07.03.03",
+      "claim": "K13-CL-LA07@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-08"
+      ],
+      "caseId": "LA07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 11,
+        "row": "| K13.07.03.03 | [LA07/K13.07.03.03](localization-r1-knowledge-cases.md#L11) | [S144](../../research/source-qualification-composition-r2.md#L5)；[S137](../../research/source-qualification-culture-education-rights.md#L10)；[S554](../../research/source-qualification-localization-r1-r2.md#L6)；[S553](../../research/source-qualification-localization-r1-r2.md#L5) | Garfias 1981特定古典曲目讨论伴奏短降型与其历史tone two，作者推测帮助与另一声调区分；该编号不自动等于Watkins或Gruber现代口语分类。拟定缅语词谱记录 original Unicode、语言/方言、音节ID、音符ID、时值、来源与母语校验待办。 |"
+      }
+    },
+    {
+      "d4": "K13.08.01.03",
+      "claim": "K13-CL-LA08@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-09"
+      ],
+      "caseId": "LA08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 12,
+        "row": "| K13.08.01.03 | [LA08/K13.08.01.03](localization-r1-knowledge-cases.md#L12) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S554](../../research/source-qualification-localization-r1-r2.md#L6) | 题设听者组A熟悉目标语言及曲种、组B熟悉语言不熟曲种；同一候选A组理解8/10、B组6/10，不能仅归因为发音。语义辨识、自然度/文化适合、喜好及技术质量分开。 听者音频独立词识别与知晓目标词的表演者自评、文字辅助理解分别登记条件及分母。即使同刺激同群体，后两者不能充当独立音频识别；缺独立音频观察则该指标UNKNOWN，不把反应数当独立受试数。 |"
+      }
+    },
+    {
+      "d4": "K13.08.02.03",
+      "claim": "K13-CL-LA09@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-10"
+      ],
+      "caseId": "LA09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 13,
+        "row": "| K13.08.02.03 | [LA09/K13.08.02.03](localization-r1-knowledge-cases.md#L13) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S144](../../research/source-qualification-composition-r2.md#L5) | 目标合同仅保留语义核心M与旋律N，允许韵脚取舍；候选A保留M/N且不同押韵，B押韵好但将肯定改否定。A可能为许可变体，B是硬项错误；不同听者对A偏好分歧可并存。 |"
+      }
+    },
+    {
+      "d4": "K13.08.03.03",
+      "claim": "K13-CL-LA10@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ13",
+        "CQ14",
+        "CQ20",
+        "CQ24",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-11",
+        "CQ-K13-12"
+      ],
+      "caseId": "LA10",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 14,
+        "row": "| K13.08.03.03 | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14) | [S550](../../research/source-qualification-tools-orchestration-r6.md#L5)；[S551](../../research/source-qualification-tools-orchestration-r6.md#L6)；[S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S554](../../research/source-qualification-localization-r1-r2.md#L6) | 语种能力限定：K12具体DiffSinger Opencpop B文档为中文词谱，MusicGen Melody卡英文描述及真实歌声限制；都不是缅语歌唱实测。假设评估A语言90例正确81，B语言10例正确3，整体84%，B仅30%。 |"
+      }
+    },
+    {
+      "d4": "K13.05.01.04",
+      "claim": "K13-CL-LA11@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ18",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-01",
+        "CQ-K13-02"
+      ],
+      "caseId": "LA11",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 15,
+        "row": "| K13.05.01.04 | [LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5) | [S553](../../research/source-qualification-localization-r1-r2.md#L5)；[S137](../../research/source-qualification-culture-education-rights.md#L10) | 同一Myanmar文字可写Burmese、Karen等语言；Unicode17.0 §16.3.1表16-4仅现代缅语，其他语种需要扩展。原始串R、规范化串N、显示序列V、转写T、音节S和音素P用独立ID及对应关系；规范化不作词义或读音转换。 同NFC串可有不同原始序列、span与版本；查词还需词典版本/词ID、语言/方言与未知处理，见LA01；不按规范化串替换原文。 |"
+      }
+    },
+    {
+      "d4": "K13.05.02.04",
+      "claim": "K13-CL-LA12@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ18",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-03"
+      ],
+      "caseId": "LA12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 16,
+        "row": "| K13.05.02.04 | [LA12/K13.05.02.04](localization-r2-knowledge-cases.md#L6) | [S554](../../research/source-qualification-localization-r1-r2.md#L6)；[S137](../../research/source-qualification-culture-education-rights.md#L10)；[S139](../../research/source-qualification-culture-education-rights.md#L12) | Gruber §2–3实验包含216重合成+24对照刺激，10名听者、单一说话人、孤立音节；作者报告自然记录160/180=88.89%，不能推广歌唱。示意相同F0=200的不同持续/发声类型不唯一确定声调；保存不同分析体系的四调/五调标签，不按序号强等价。 |"
+      }
+    },
+    {
+      "d4": "K13.05.03.04",
+      "claim": "K13-CL-LA13@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ18",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-04"
+      ],
+      "caseId": "LA13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 17,
+        "row": "| K13.05.03.04 | [LA13/K13.05.03.04](localization-r2-knowledge-cases.md#L7) | [S144](../../research/source-qualification-composition-r2.md#L5)；[S556](../../research/source-qualification-localization-r1-r2.md#L8)；[S554](../../research/source-qualification-localization-r1-r2.md#L6) | 符号旋律[60,62,60]的两个相邻方向为上/下；目标音节词汇声调/语调描述T1、T2、T3并非MIDI值。S556英汉研究以词义/可唱性/可懂性为目标、非缅语；方向对齐指标仅候选筛选。 |"
+      }
+    },
+    {
+      "d4": "K13.06.01.04",
+      "claim": "K13-CL-LA14@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-05"
+      ],
+      "caseId": "LA14",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 18,
+        "row": "| K13.06.01.04 | [LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S556](../../research/source-qualification-localization-r1-r2.md#L8) | 同一原创事件M=(返程,明日,承诺)，翻译候选A保留3语义字段却多一音节，B合节拍但时间变成今晚；原合同固定M/N。B硬拒绝，A待词曲重新适配而非直接通过。若用户允许新创作则建立新版本/任务。 |"
+      }
+    },
+    {
+      "d4": "K13.06.02.04",
+      "claim": "K13-CL-LA15@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ01",
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-06"
+      ],
+      "caseId": "LA15",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 19,
+        "row": "| K13.06.02.04 | [LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S556](../../research/source-qualification-localization-r1-r2.md#L8) | Rhyme scheme图只按题设行尾音韵边：源边{1-2,3-4}，候选{1-2,2-3}，Jaccard=1/3；源音节数4、候选5，S555 §2.5对称距离单行=.5×(1/4+1/5)=.225；两者不证明语义或旋律重音。 空韵边并集时Jaccard按题设记N/A（或另声明约定），不得默认1；音节分母为0、缺失或单位不可比则该距离N/A/UNKNOWN，不能填0。已知正分母4/5才适用原例。 |"
+      }
+    },
+    {
+      "d4": "K13.06.03.04",
+      "claim": "K13-CL-LA16@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ16",
+        "CQ19",
+        "CQ23",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ21",
+        "CQ24",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-07"
+      ],
+      "caseId": "LA16",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 20,
+        "row": "| K13.06.03.04 | [LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S556](../../research/source-qualification-localization-r1-r2.md#L8)；[S144](../../research/source-qualification-composition-r2.md#L5) | 有限版本关系：E1绑定原文O1/译稿V1/谱N1/对齐A1/母语任务Q1。译稿只改一词V2时受影响音节与相邻语境需复核，若旋律不变N1可留；E1不能证明V2。实际听评若缺，文本合格与真实歌唱仍分开。 |"
+      }
+    },
+    {
+      "d4": "K13.07.03.04",
+      "claim": "K13-CL-LA17@1",
+      "directCQ": [
+        "CQ04",
+        "CQ12",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-08"
+      ],
+      "caseId": "LA17",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 21,
+        "row": "| K13.07.03.04 | [LA17/K13.07.03.04](localization-r2-knowledge-cases.md#L11) | [S553](../../research/source-qualification-localization-r1-r2.md#L5)；[S554](../../research/source-qualification-localization-r1-r2.md#L6)；[S144](../../research/source-qualification-composition-r2.md#L5) | 具体历史来源Garfias 1981开篇与末段：词曲相互制约；在作者论述的特定传统中tone two与dyan伴奏型关联，属于历史观察及可懂性解释，不等于歌手声线强制变化。对齐例只用原创新符号：原词码点保存、s1→n1,s2→n2+n3，标注未知读音和语言版本，目标缅语母语者核验。 |"
+      }
+    },
+    {
+      "d4": "K13.08.01.04",
+      "claim": "K13-CL-LA18@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-09"
+      ],
+      "caseId": "LA18",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 22,
+        "row": "| K13.08.01.04 | [LA18/K13.08.01.04](localization-r2-knowledge-cases.md#L12) | [S554](../../research/source-qualification-localization-r1-r2.md#L6)；[S555](../../research/source-qualification-localization-r1-r2.md#L7) | 题设两组母语者均10个词辨识：A=9/10且偏好2/5，B=7/10且偏好5/5；按任务硬阈值理解≥.8仅A满足该有限判据，偏好高不能补偿B。若B熟悉度低，需区分语言/曲种/任务因素。 匹配刺激与目标人群，独立音频识别的正确数/有效响应分母单列；表演者知情评分、看文本辅助回答与缺失条件另列，不替代独立音频识别或宣称独立试验。 |"
+      }
+    },
+    {
+      "d4": "K13.08.02.04",
+      "claim": "K13-CL-LA19@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ13",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-10"
+      ],
+      "caseId": "LA19",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 23,
+        "row": "| K13.08.02.04 | [LA19/K13.08.02.04](localization-r2-knowledge-cases.md#L13) | [S555](../../research/source-qualification-localization-r1-r2.md#L7)；[S144](../../research/source-qualification-composition-r2.md#L5) | 两候选A/B均保留词义M、旋律N；A自然度4/5、韵脚2/5，B自然度3/5、韵脚5/5（合成）。若二者硬项均满足且不同软指标优先，则互不支配；保留A/B及选择理由。若候选C损伤M，硬拒绝而非列入偏好Pareto。 |"
+      }
+    },
+    {
+      "d4": "K13.08.03.04",
+      "claim": "K13-CL-LA20@1",
+      "directCQ": [
+        "CQ11",
+        "CQ22",
+        "CQ26"
+      ],
+      "supportCQ": [
+        "CQ09",
+        "CQ13",
+        "CQ14",
+        "CQ20",
+        "CQ24",
+        "CQ25"
+      ],
+      "localCQ": [
+        "CQ-K13-11",
+        "CQ-K13-12"
+      ],
+      "caseId": "LA20",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 24,
+        "row": "| K13.08.03.04 | [LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | [S550](../../research/source-qualification-tools-orchestration-r6.md#L5)；[S551](../../research/source-qualification-tools-orchestration-r6.md#L6)；[S554](../../research/source-qualification-localization-r1-r2.md#L6)；[S555](../../research/source-qualification-localization-r1-r2.md#L7) | 题设训练/评估登记只覆盖中文和英语，缅语测试n=0；缅语准确率为UNKNOWN不是0%也不是总体平均。若有合成10/12则报告条件及12分母，不外推未见方言或少数语言。S554单说话人/10听者口语实验不能补模型歌唱缺失，S555英捷文本研究亦不能。 |"
+      }
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K13-01",
+      "question": "码点与音节是否等价？",
+      "caseIds": [
+        "LA01",
+        "LA11"
+      ],
+      "decision": "编码/显示/音系独立，不用字符计音节",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 59,
+        "row": "| CQ-K13-01 | 码点与音节是否等价？ | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5) | 编码/显示/音系独立，不用字符计音节 |"
+      }
+    },
+    {
+      "id": "CQ-K13-02",
+      "question": "同字形能否确定语种？",
+      "caseIds": [
+        "LA01",
+        "LA11"
+      ],
+      "decision": "语言方言，Myanmar script不等Burmese",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 60,
+        "row": "| CQ-K13-02 | 同字形能否确定语种？ | [LA01/K13.05.01.03](localization-r1-knowledge-cases.md#L5)；[LA11/K13.05.01.04](localization-r2-knowledge-cases.md#L5) | 语言方言，Myanmar script不等Burmese |"
+      }
+    },
+    {
+      "id": "CQ-K13-03",
+      "question": "口语声调如何比较？",
+      "caseIds": [
+        "LA02",
+        "LA12"
+      ],
+      "decision": "F0/时长/发声及语境，多体系不强合",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 61,
+        "row": "| CQ-K13-03 | 口语声调如何比较？ | [LA02/K13.05.02.03](localization-r1-knowledge-cases.md#L6)；[LA12/K13.05.02.04](localization-r2-knowledge-cases.md#L6) | F0/时长/发声及语境，多体系不强合 |"
+      }
+    },
+    {
+      "id": "CQ-K13-04",
+      "question": "口语声调是否决定歌唱旋律？",
+      "caseIds": [
+        "LA03",
+        "LA13"
+      ],
+      "decision": "历史/歌唱专项与母语验证，非固定规则",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 62,
+        "row": "| CQ-K13-04 | 口语声调是否决定歌唱旋律？ | [LA03/K13.05.03.03](localization-r1-knowledge-cases.md#L7)；[LA13/K13.05.03.04](localization-r2-knowledge-cases.md#L7) | 历史/歌唱专项与母语验证，非固定规则 |"
+      }
+    },
+    {
+      "id": "CQ-K13-05",
+      "question": "翻译还是可唱改编？",
+      "caseIds": [
+        "LA04",
+        "LA14"
+      ],
+      "decision": "目标及硬保留、权利分开",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 63,
+        "row": "| CQ-K13-05 | 翻译还是可唱改编？ | [LA04/K13.06.01.03](localization-r1-knowledge-cases.md#L8)；[LA14/K13.06.01.04](localization-r2-knowledge-cases.md#L8) | 目标及硬保留、权利分开 |"
+      }
+    },
+    {
+      "id": "CQ-K13-06",
+      "question": "音节数相同能否直接演唱？",
+      "caseIds": [
+        "LA05",
+        "LA15"
+      ],
+      "decision": "音节-音符/语义/时值/韵律对齐",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 64,
+        "row": "| CQ-K13-06 | 音节数相同能否直接演唱？ | [LA05/K13.06.02.03](localization-r1-knowledge-cases.md#L9)；[LA15/K13.06.02.04](localization-r2-knowledge-cases.md#L9) | 音节-音符/语义/时值/韵律对齐 |"
+      }
+    },
+    {
+      "id": "CQ-K13-07",
+      "question": "文本评价是否证明歌唱？",
+      "caseIds": [
+        "LA06",
+        "LA16"
+      ],
+      "decision": "版本及真正听评证据另核",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 65,
+        "row": "| CQ-K13-07 | 文本评价是否证明歌唱？ | [LA06/K13.06.03.03](localization-r1-knowledge-cases.md#L10)；[LA16/K13.06.03.04](localization-r2-knowledge-cases.md#L10) | 版本及真正听评证据另核 |"
+      }
+    },
+    {
+      "id": "CQ-K13-08",
+      "question": "缅语历史tone two如何使用？",
+      "caseIds": [
+        "LA07",
+        "LA17"
+      ],
+      "decision": "历史原术语及伴奏语境，不硬映射现代",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 66,
+        "row": "| CQ-K13-08 | 缅语历史tone two如何使用？ | [LA07/K13.07.03.03](localization-r1-knowledge-cases.md#L11)；[LA17/K13.07.03.04](localization-r2-knowledge-cases.md#L11) | 历史原术语及伴奏语境，不硬映射现代 |"
+      }
+    },
+    {
+      "id": "CQ-K13-09",
+      "question": "母语理解与喜好是否相同？",
+      "caseIds": [
+        "LA08",
+        "LA18"
+      ],
+      "decision": "任务人群、分母、评价维度分开",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 67,
+        "row": "| CQ-K13-09 | 母语理解与喜好是否相同？ | [LA08/K13.08.01.03](localization-r1-knowledge-cases.md#L12)；[LA18/K13.08.01.04](localization-r2-knowledge-cases.md#L12) | 任务人群、分母、评价维度分开 |"
+      }
+    },
+    {
+      "id": "CQ-K13-10",
+      "question": "何为允许差异？",
+      "caseIds": [
+        "LA09",
+        "LA19"
+      ],
+      "decision": "硬保护与软偏好，保留分歧",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 68,
+        "row": "| CQ-K13-10 | 何为允许差异？ | [LA09/K13.08.02.03](localization-r1-knowledge-cases.md#L13)；[LA19/K13.08.02.04](localization-r2-knowledge-cases.md#L13) | 硬保护与软偏好，保留分歧 |"
+      }
+    },
+    {
+      "id": "CQ-K13-11",
+      "question": "总体分数能否推缅语能力？",
+      "caseIds": [
+        "LA10",
+        "LA20"
+      ],
+      "decision": "分层证据、无样本UNKNOWN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 69,
+        "row": "| CQ-K13-11 | 总体分数能否推缅语能力？ | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | 分层证据、无样本UNKNOWN |"
+      }
+    },
+    {
+      "id": "CQ-K13-12",
+      "question": "实际工具和语言资格如何联动？",
+      "caseIds": [
+        "LA10",
+        "LA20"
+      ],
+      "decision": "K12具体版本、K11语料、K10评价；K13适配",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/localization-r3-discovery-cq.md",
+        "blob": "4d40c58d20bf31a17dedbdf531f05daa5c850b99",
+        "line": 70,
+        "row": "| CQ-K13-12 | 实际工具和语言资格如何联动？ | [LA10/K13.08.03.03](localization-r1-knowledge-cases.md#L14)；[LA20/K13.08.03.04](localization-r2-knowledge-cases.md#L14) | K12具体版本、K11语料、K10评价；K13适配 |"
+      }
+    }
+  ]
+}

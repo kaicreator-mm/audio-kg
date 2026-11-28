@@ -1,0 +1,680 @@
+{
+  "status": "CONDITIONAL_DISCOVERY_ONLY",
+  "questions": [
+    {
+      "id": "CQ01",
+      "type": "O",
+      "question": "音高理论K01",
+      "scope": "音高理论K01",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 48,
+        "row": "| CQ01 | O | 音高理论K01 | 无K19主答案 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ02",
+      "type": "O",
+      "question": "调式和曲式K01/K02",
+      "scope": "调式和曲式K01/K02",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 49,
+        "row": "| CQ02 | O | 调式和曲式K01/K02 | 无K19主答案 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ03",
+      "type": "S",
+      "question": "场地/监听约束，配器K03",
+      "scope": "场地/监听约束，配器K03",
+      "caseIds": [
+        "LS01",
+        "LS17"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 50,
+        "row": "| CQ03 | S | 场地/监听约束，配器K03 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ04",
+      "type": "O",
+      "question": "词曲和音节K13",
+      "scope": "词曲和音节K13",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 51,
+        "row": "| CQ04 | O | 词曲和音节K13 | 无K19主答案 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ05",
+      "type": "S",
+      "question": "监听及声级不代声学生理K05/K07",
+      "scope": "监听及声级不代声学生理K05/K07",
+      "caseIds": [
+        "LS19",
+        "LS33"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 52,
+        "row": "| CQ05 | S | 监听及声级不代声学生理K05/K07 | [LS19/K19.05.03.01](live-sound-r1-knowledge-cases.md#L23)；[LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ06",
+      "type": "O",
+      "question": "声乐训练K06/K07",
+      "scope": "声乐训练K06/K07",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 53,
+        "row": "| CQ06 | O | 声乐训练K06/K07 | 无K19主答案 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ07",
+      "type": "S",
+      "question": "反馈传播、测量，通用声学K07/K08",
+      "scope": "反馈传播、测量，通用声学K07/K08",
+      "caseIds": [
+        "LS05",
+        "LS25",
+        "LS27"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 54,
+        "row": "| CQ07 | S | 反馈传播、测量，通用声学K07/K08 | [LS05/K19.02.01.01](live-sound-r1-knowledge-cases.md#L9)；[LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS27/K19.07.02.01](live-sound-r2-knowledge-cases.md#L11) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ08",
+      "type": "S",
+      "question": "表计/过载/现场声级区别",
+      "scope": "表计/过载/现场声级区别",
+      "caseIds": [
+        "LS10",
+        "LS11",
+        "LS36"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 55,
+        "row": "| CQ08 | S | 表计/过载/现场声级区别 | [LS10/K19.03.02.01](live-sound-r1-knowledge-cases.md#L14)；[LS11/K19.03.03.01](live-sound-r1-knowledge-cases.md#L15)；[LS36/K19.09.04.01](live-sound-r2-knowledge-cases.md#L20) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ09",
+      "type": "O",
+      "question": "模型K11/K12",
+      "scope": "模型K11/K12",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 56,
+        "row": "| CQ09 | O | 模型K11/K12 | 无K19主答案 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ10",
+      "type": "O",
+      "question": "分离修复K08/K12",
+      "scope": "分离修复K08/K12",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 57,
+        "row": "| CQ10 | O | 分离修复K08/K12 | 无K19主答案 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ11",
+      "type": "S",
+      "question": "现场指标/评价条件K10",
+      "scope": "现场指标/评价条件K10",
+      "caseIds": [
+        "LS13",
+        "LS15",
+        "LS20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 58,
+        "row": "| CQ11 | S | 现场指标/评价条件K10 | [LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS15/K19.04.03.01](live-sound-r1-knowledge-cases.md#L19)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ12",
+      "type": "S",
+      "question": "现场节目与可交付记录K09",
+      "scope": "现场节目与可交付记录K09",
+      "caseIds": [
+        "LS03",
+        "LS37"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 59,
+        "row": "| CQ12 | S | 现场节目与可交付记录K09 | [LS03/K19.01.03.01](live-sound-r1-knowledge-cases.md#L7)；[LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ13",
+      "type": "D",
+      "question": "场地/设备/标准/方法来源和条件",
+      "scope": "场地/设备/标准/方法来源和条件",
+      "caseIds": [
+        "LS04",
+        "LS13",
+        "LS14",
+        "LS16"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 60,
+        "row": "| CQ13 | D | 场地/设备/标准/方法来源和条件 | [LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8)；[LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS14/K19.04.02.01](live-sound-r1-knowledge-cases.md#L18)；[LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ14",
+      "type": "S",
+      "question": "台/网络接口文档资格，K12执行",
+      "scope": "台/网络接口文档资格，K12执行",
+      "caseIds": [
+        "LS18",
+        "LS29",
+        "LS32"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 61,
+        "row": "| CQ14 | S | 台/网络接口文档资格，K12执行 | [LS18/K19.05.02.01](live-sound-r1-knowledge-cases.md#L22)；[LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ15",
+      "type": "S",
+      "question": "表演者监听与确认，教育K14",
+      "scope": "表演者监听与确认，教育K14",
+      "caseIds": [
+        "LS17",
+        "LS20"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 62,
+        "row": "| CQ15 | S | 表演者监听与确认，教育K14 | [LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21)；[LS20/K19.05.04.01](live-sound-r1-knowledge-cases.md#L24) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ16",
+      "type": "D",
+      "question": "现场状态保护与批准变更（非DAW）",
+      "scope": "现场状态保护与批准变更（非DAW）",
+      "caseIds": [
+        "LS21",
+        "LS22",
+        "LS23",
+        "LS24"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 63,
+        "row": "| CQ16 | D | 现场状态保护与批准变更（非DAW） | [LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS22/K19.06.02.01](live-sound-r2-knowledge-cases.md#L6)；[LS23/K19.06.03.01](live-sound-r2-knowledge-cases.md#L7)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ17",
+      "type": "D",
+      "question": "传播/宿主约定/标准范围/安全条件",
+      "scope": "传播/宿主约定/标准范围/安全条件",
+      "caseIds": [
+        "LS05",
+        "LS18",
+        "LS31",
+        "LS34",
+        "LS35"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 64,
+        "row": "| CQ17 | D | 传播/宿主约定/标准范围/安全条件 | [LS05/K19.02.01.01](live-sound-r1-knowledge-cases.md#L9)；[LS18/K19.05.02.01](live-sound-r1-knowledge-cases.md#L22)；[LS31/K19.08.03.01](live-sound-r2-knowledge-cases.md#L15)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ18",
+      "type": "O",
+      "question": "文化及本土音乐K13/K16",
+      "scope": "文化及本土音乐K13/K16",
+      "caseIds": [],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 65,
+        "row": "| CQ18 | O | 文化及本土音乐K13/K16 | 无K19主答案 |"
+      },
+      "navigationOnly": true
+    },
+    {
+      "id": "CQ19",
+      "type": "D",
+      "question": "需求/场地/验收/故障流程",
+      "scope": "需求/场地/验收/故障流程",
+      "caseIds": [
+        "LS01",
+        "LS04",
+        "LS09",
+        "LS33"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 66,
+        "row": "| CQ19 | D | 需求/场地/验收/故障流程 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS04/K19.01.04.01](live-sound-r1-knowledge-cases.md#L8)；[LS09/K19.03.01.01](live-sound-r1-knowledge-cases.md#L13)；[LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ20",
+      "type": "S",
+      "question": "工具/设备资格与权限K12/K15",
+      "scope": "工具/设备资格与权限K12/K15",
+      "caseIds": [
+        "LS09",
+        "LS14",
+        "LS29"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 67,
+        "row": "| CQ20 | S | 工具/设备资格与权限K12/K15 | [LS09/K19.03.01.01](live-sound-r1-knowledge-cases.md#L13)；[LS14/K19.04.02.01](live-sound-r1-knowledge-cases.md#L18)；[LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ21",
+      "type": "D",
+      "question": "实际状态、变更、失效与回执",
+      "scope": "实际状态、变更、失效与回执",
+      "caseIds": [
+        "LS16",
+        "LS21",
+        "LS24",
+        "LS39"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 68,
+        "row": "| CQ21 | D | 实际状态、变更、失效与回执 | [LS16/K19.04.04.01](live-sound-r1-knowledge-cases.md#L20)；[LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ22",
+      "type": "D",
+      "question": "现场覆盖、清晰度、稳定及安全分别核",
+      "scope": "现场覆盖、清晰度、稳定及安全分别核",
+      "caseIds": [
+        "LS13",
+        "LS15",
+        "LS34"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 69,
+        "row": "| CQ22 | D | 现场覆盖、清晰度、稳定及安全分别核 | [LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS15/K19.04.03.01](live-sound-r1-knowledge-cases.md#L19)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ23",
+      "type": "D",
+      "question": "现场可编辑配置与记录不等实际设备",
+      "scope": "现场可编辑配置与记录不等实际设备",
+      "caseIds": [
+        "LS12",
+        "LS21",
+        "LS37"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 70,
+        "row": "| CQ23 | D | 现场可编辑配置与记录不等实际设备 | [LS12/K19.03.04.01](live-sound-r1-knowledge-cases.md#L16)；[LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ24",
+      "type": "D",
+      "question": "诊断、停止、复盘和重验",
+      "scope": "诊断、停止、复盘和重验",
+      "caseIds": [
+        "LS25",
+        "LS28",
+        "LS33",
+        "LS40"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 71,
+        "row": "| CQ24 | D | 诊断、停止、复盘和重验 | [LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12)；[LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ25",
+      "type": "D",
+      "question": "综合现场验收链",
+      "scope": "综合现场验收链",
+      "caseIds": [
+        "LS01",
+        "LS13",
+        "LS24",
+        "LS39",
+        "LS40"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 72,
+        "row": "| CQ25 | D | 综合现场验收链 | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) |"
+      },
+      "navigationOnly": false
+    },
+    {
+      "id": "CQ26",
+      "type": "S",
+      "question": "节目/空间/听者/设备约束",
+      "scope": "节目/空间/听者/设备约束",
+      "caseIds": [
+        "LS02",
+        "LS06",
+        "LS17",
+        "LS19",
+        "LS35"
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 73,
+        "row": "| CQ26 | S | 节目/空间/听者/设备约束 | [LS02/K19.01.02.01](live-sound-r1-knowledge-cases.md#L6)；[LS06/K19.02.02.01](live-sound-r1-knowledge-cases.md#L10)；[LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21)；[LS19/K19.05.03.01](live-sound-r1-knowledge-cases.md#L23)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19) |"
+      },
+      "navigationOnly": false
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K19-01",
+      "question": "一个测点可以代表全场吗？",
+      "caseIds": [
+        "LS01",
+        "LS08",
+        "LS13"
+      ],
+      "decision": "覆盖范围和缺测",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 77,
+        "row": "| CQ-K19-01 | 一个测点可以代表全场吗？ | [LS01/K19.01.01.01](live-sound-r1-knowledge-cases.md#L5)；[LS08/K19.02.04.01](live-sound-r1-knowledge-cases.md#L12)；[LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17) | 覆盖范围和缺测 |"
+      }
+    },
+    {
+      "id": "CQ-K19-02",
+      "question": "距离翻倍必然少6dB吗？",
+      "caseIds": [
+        "LS05",
+        "LS06"
+      ],
+      "decision": "自由场点源条件",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 78,
+        "row": "| CQ-K19-02 | 距离翻倍必然少6dB吗？ | [LS05/K19.02.01.01](live-sound-r1-knowledge-cases.md#L9)；[LS06/K19.02.02.01](live-sound-r1-knowledge-cases.md#L10) | 自由场点源条件 |"
+      }
+    },
+    {
+      "id": "CQ-K19-03",
+      "question": "输入dBFS可换算听者dBA吗？",
+      "caseIds": [
+        "LS10",
+        "LS11"
+      ],
+      "decision": "参考及校准",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 79,
+        "row": "| CQ-K19-03 | 输入dBFS可换算听者dBA吗？ | [LS10/K19.03.02.01](live-sound-r1-knowledge-cases.md#L14)；[LS11/K19.03.03.01](live-sound-r1-knowledge-cases.md#L15) | 参考及校准 |"
+      }
+    },
+    {
+      "id": "CQ-K19-04",
+      "question": "STI可代替音质和声级吗？",
+      "caseIds": [
+        "LS13",
+        "LS15"
+      ],
+      "decision": "不同指标",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 80,
+        "row": "| CQ-K19-04 | STI可代替音质和声级吗？ | [LS13/K19.04.01.01](live-sound-r1-knowledge-cases.md#L17)；[LS15/K19.04.03.01](live-sound-r1-knowledge-cases.md#L19) | 不同指标 |"
+      }
+    },
+    {
+      "id": "CQ-K19-05",
+      "question": "pre-fader能否隔离所有变更？",
+      "caseIds": [
+        "LS17",
+        "LS18"
+      ],
+      "decision": "tap、共享前级及mute",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 81,
+        "row": "| CQ-K19-05 | pre-fader能否隔离所有变更？ | [LS17/K19.05.01.01](live-sound-r1-knowledge-cases.md#L21)；[LS18/K19.05.02.01](live-sound-r1-knowledge-cases.md#L22) | tap、共享前级及mute |"
+      }
+    },
+    {
+      "id": "CQ-K19-06",
+      "question": "IEM能否保证安全？",
+      "caseIds": [
+        "LS19",
+        "LS33"
+      ],
+      "decision": "耳道与观众不同",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 82,
+        "row": "| CQ-K19-06 | IEM能否保证安全？ | [LS19/K19.05.03.01](live-sound-r1-knowledge-cases.md#L23)；[LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17) | 耳道与观众不同 |"
+      }
+    },
+    {
+      "id": "CQ-K19-07",
+      "question": "scene recall safe一定保护全部吗？",
+      "caseIds": [
+        "LS21",
+        "LS22",
+        "LS24"
+      ],
+      "decision": "范围/观察/UNKNOWN",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 83,
+        "row": "| CQ-K19-07 | scene recall safe一定保护全部吗？ | [LS21/K19.06.01.01](live-sound-r2-knowledge-cases.md#L5)；[LS22/K19.06.02.01](live-sound-r2-knowledge-cases.md#L6)；[LS24/K19.06.04.01](live-sound-r2-knowledge-cases.md#L8) | 范围/观察/UNKNOWN |"
+      }
+    },
+    {
+      "id": "CQ-K19-08",
+      "question": "啸叫或嗡声能否唯一定位原因？",
+      "caseIds": [
+        "LS25",
+        "LS26",
+        "LS27"
+      ],
+      "decision": "路径、候选与停止",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 84,
+        "row": "| CQ-K19-08 | 啸叫或嗡声能否唯一定位原因？ | [LS25/K19.07.01.01](live-sound-r2-knowledge-cases.md#L9)；[LS26/K19.07.01.02](live-sound-r2-knowledge-cases.md#L10)；[LS27/K19.07.02.01](live-sound-r2-knowledge-cases.md#L11) | 路径、候选与停止 |"
+      }
+    },
+    {
+      "id": "CQ-K19-09",
+      "question": "网络可达等于同步和媒体正常吗？",
+      "caseIds": [
+        "LS28",
+        "LS29",
+        "LS30"
+      ],
+      "decision": "锁定/订阅/迟到",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 85,
+        "row": "| CQ-K19-09 | 网络可达等于同步和媒体正常吗？ | [LS28/K19.07.03.01](live-sound-r2-knowledge-cases.md#L12)；[LS29/K19.08.01.01](live-sound-r2-knowledge-cases.md#L13)；[LS30/K19.08.02.01](live-sound-r2-knowledge-cases.md#L14) | 锁定/订阅/迟到 |"
+      }
+    },
+    {
+      "id": "CQ-K19-10",
+      "question": "双接口等于独立冗余吗？",
+      "caseIds": [
+        "LS31",
+        "LS32"
+      ],
+      "decision": "故障域与格式",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 86,
+        "row": "| CQ-K19-10 | 双接口等于独立冗余吗？ | [LS31/K19.08.03.01](live-sound-r2-knowledge-cases.md#L15)；[LS32/K19.08.04.01](live-sound-r2-knowledge-cases.md#L16) | 故障域与格式 |"
+      }
+    },
+    {
+      "id": "CQ-K19-11",
+      "question": "WHO与NIOSH可互代吗？",
+      "caseIds": [
+        "LS33",
+        "LS34",
+        "LS35",
+        "LS36"
+      ],
+      "decision": "人群、窗口、剂量",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 87,
+        "row": "| CQ-K19-11 | WHO与NIOSH可互代吗？ | [LS33/K19.09.01.01](live-sound-r2-knowledge-cases.md#L17)；[LS34/K19.09.02.01](live-sound-r2-knowledge-cases.md#L18)；[LS35/K19.09.03.01](live-sound-r2-knowledge-cases.md#L19)；[LS36/K19.09.04.01](live-sound-r2-knowledge-cases.md#L20) | 人群、窗口、剂量 |"
+      }
+    },
+    {
+      "id": "CQ-K19-12",
+      "question": "没有投诉是否可关闭验收？",
+      "caseIds": [
+        "LS37",
+        "LS38",
+        "LS39",
+        "LS40"
+      ],
+      "decision": "证据、复测与关闭",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/live-sound-r3-discovery-cq.md",
+        "blob": "d27396a03df7fb860b37461fb542f644d373c587",
+        "line": 88,
+        "row": "| CQ-K19-12 | 没有投诉是否可关闭验收？ | [LS37/K19.10.01.01](live-sound-r2-knowledge-cases.md#L21)；[LS38/K19.10.02.01](live-sound-r2-knowledge-cases.md#L22)；[LS39/K19.10.03.01](live-sound-r2-knowledge-cases.md#L23)；[LS40/K19.10.04.01](live-sound-r2-knowledge-cases.md#L24) | 证据、复测与关闭 |"
+      }
+    }
+  ]
+}
