@@ -204,4 +204,70 @@ t('KC-L13 malformed or unbound candidate and observation cannot enter finite suc
  assert.equal(g(positive,identity,identity,{...flags,realExecutionRequested:null}),'PENDING_EVIDENCE');
  assert.equal(independentRate({kind:'INDEPENDENT_AUDIO_RECOGNITION',correct:9,validResponses:10},{}),null);
 });
+
+const d25file='docs/product/calibration/domain-mixed-migration-predicate-batch.md';
+const d25lines=fs.readFileSync(d25file,'utf8').split('\n');
+const col25=l=>l.split('|').slice(1,-1).map(x=>x.trim());
+const pred25=new Map(),cand25=new Map();
+for(const [i,l] of d25lines.entries()){
+ if(!/^\| K13\.\d{2}\.\d{2}\.\d{2} \|/.test(l))continue;
+ const c=col25(l),map=c.length===8?pred25:c.length===4?cand25:null;
+ if(map){assert.ok(!map.has(c[0]));map.set(c[0],{c,line:i+1});}
+}
+function exactD25(rows){
+ assert.equal(rows.length,22);
+ assert.equal(new Set(rows.map(r=>r.sourceD4)).size,22);
+ const pairs=[];
+ for(const r of rows){
+  const p=pred25.get(r.sourceD4);assert.ok(p);
+  assert.equal(r.status,'SPLIT_OPEN_NAVIGATION_ONLY');assert.equal(r.equivalence,false);
+  anchor(r.originalPredicateAnchor);assert.equal(r.originalPredicateAnchor.file,d25file);assert.equal(r.originalPredicateAnchor.line,p.line);
+  assert.deepEqual(r.d25Predicate,{predicate:p.c[2],new:p.c[3],reuse:p.c[4],ref:p.c[5],historicalEvidence:p.c[6],compositionCase:p.c[7]});
+  assert.equal(r.originalRequirement,p.c[1]);
+  const expected=[...cand25].filter(([k,v])=>v.c[3].split('、').includes(r.sourceD4));
+  assert.deepEqual(r.originalCandidateBindings.map(b=>b.candidateD4).sort(),expected.map(([k])=>k).sort());
+  for(const b of r.originalCandidateBindings){
+   const q=cand25.get(b.candidateD4);assert.equal(b.sourceD4,r.sourceD4);
+   assert.ok(p.c[3].split(' ').includes(b.candidateD4));
+   assert.deepEqual(b.originalSourceD4s,q.c[3].split('、'));assert.deepEqual(b.originalSourceIds,q.c[2].split('/'));assert.equal(b.originalRequirement,q.c[1]);
+   assert.equal(b.originalCandidateAnchor.file,d25file);assert.equal(b.originalCandidateAnchor.line,q.line);anchor(b.originalCandidateAnchor);
+   pairs.push(b.candidateD4+'|'+b.sourceD4);
+  }
+ }
+ assert.equal(cand25.size,7);assert.equal(pairs.length,8);assert.equal(new Set(pairs).size,8);
+}
+t('R1 K13 complete 22 D25 predicates and 7 candidate identities in 8 bindings',()=>{
+ const q=read('queries/K13/legacy-routes.json'),v=read('queries/K13/migration-routes.json');
+ assert.equal(pred25.size,22);
+ for(const rows of [ledger.splitRoutes,ledger.legacyRoutes.filter(r=>r.status==='SPLIT_OPEN_NAVIGATION_ONLY'),ledger.migrationRows.filter(r=>r.status==='SPLIT_OPEN_NAVIGATION_ONLY'),q.splitRoutes,q.routes.filter(r=>r.status==='SPLIT_OPEN_NAVIGATION_ONLY'),v.rows.filter(r=>r.status==='SPLIT_OPEN_NAVIGATION_ONLY')])exactD25(rows);
+ assert.deepEqual(v.rows,ledger.migrationRows);assert.deepEqual(q.splitRoutes,ledger.splitRoutes);
+ assert.deepEqual(q.routes.map(({claimRefs,...r})=>r),ledger.legacyRoutes);
+});
+t('R1 K13 missing swapped or invented D25 routes fail the exact check',()=>{
+ for(const change of [
+  r=>delete r[0].originalPredicateAnchor,
+  r=>r[0].originalPredicateAnchor=r[1].originalPredicateAnchor,
+  r=>r[0].d25Predicate.new='K13.08.03.03',
+  r=>r.find(x=>x.originalCandidateBindings.length).originalCandidateBindings.pop(),
+  r=>r.find(x=>x.originalCandidateBindings.length).originalCandidateBindings[0].sourceD4='K13.02.01.01',
+  r=>r[0].equivalence=true
+ ]){const r=structuredClone(ledger.splitRoutes);change(r);assert.throws(()=>exactD25(r));}
+});
+t('R1 four reverse answers explicitly preserve R2b fixed rest and independent denominator conditions',()=>{
+ const cases={
+ LA05:['.25s','.5s','s1→n1+n2','s1→n1','s2→n3或n2+n3','s3→n4','[1,1.25)','词界策略不变'],
+ LA08:['独立音频词识别','表演者自评','文字辅助理解','有效响应分母','不可替代独立音频识别','UNKNOWN'],
+ LA15:['空韵边并集','Jaccard=N/A','不默认1','分母为0','单位不可比','UNKNOWN','不能填0'],
+ LA18:['不能。','知情表演者评分','文字辅助回答','不得替代独立音频识别','理解指标UNKNOWN','有效响应分母','零分母UNKNOWN']
+ };
+ for(const [id,parts] of Object.entries(cases)){
+  const a=pack.records.find(r=>r.id==='K13-V-'+id+'-RP');assert.ok(a);
+  const ans=a.example.expectedResult;
+  for(const p of parts)assert.ok(ans.includes(p),id+' RP missing '+p);
+  assert.ok(a.explanation.endsWith('本题答案：'+ans));
+  const old=ledger.rows.find(r=>r.caseId===id).reverseWitness;
+  assert.notEqual(ans,old);
+  assert.equal(a.example.frozenWitness,old);
+ }
+});
 console.log(JSON.stringify({module:m,passed:results.length,results},null,2));

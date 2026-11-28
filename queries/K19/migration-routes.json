@@ -2,7 +2,14 @@
   "status": "HISTORICAL_MIGRATION_NAVIGATION_ONLY",
   "rows": [
     {
-      "sourceD4": "S096/S092/S033；K09.07.01.01",
+      "sourceD4": "K09.07.01.01",
+      "candidateD4": "K19.07.01.01",
+      "originalSourceIds": [
+        "S096",
+        "S092",
+        "S033"
+      ],
+      "originalSourceLocator": "S096/S092/S033；K09.07.01.01",
       "originalRequirement": "给定现场拓扑的反馈诊断及排除证据；禁止危险复现",
       "routes": [
         "K19.07.01.01"
@@ -33,7 +40,14 @@
       }
     },
     {
-      "sourceD4": "S096/S092/S033；K09.07.01.02",
+      "sourceD4": "K09.07.01.02",
+      "candidateD4": "K19.07.01.02",
+      "originalSourceIds": [
+        "S096",
+        "S092",
+        "S033"
+      ],
+      "originalSourceLocator": "S096/S092/S033；K09.07.01.02",
       "originalRequirement": "现场增益、布置、电气噪声候选及安全限制；不唯一归因",
       "routes": [
         "K19.07.01.02"
@@ -64,7 +78,14 @@
       }
     },
     {
-      "sourceD4": "S096/S092/S165；K09.07.02.01",
+      "sourceD4": "K09.07.02.01",
+      "candidateD4": "K19.05.01.01",
+      "originalSourceIds": [
+        "S096",
+        "S092",
+        "S165"
+      ],
+      "originalSourceLocator": "S096/S092/S165；K09.07.02.01",
       "originalRequirement": "现场主扩、舞台监听的服务对象、用途及各自路由",
       "routes": [
         "K19.05.01.01"
@@ -95,7 +116,14 @@
       }
     },
     {
-      "sourceD4": "S096/S092/S165；K09.07.02.02",
+      "sourceD4": "K09.07.02.02",
+      "candidateD4": "K19.03.01.01",
+      "originalSourceIds": [
+        "S096",
+        "S092",
+        "S165"
+      ],
+      "originalSourceLocator": "S096/S092/S165；K09.07.02.02",
       "originalRequirement": "在权限和安全条件下核对现场路由、电平记录",
       "routes": [
         "K19.03.01.01"
@@ -126,7 +154,15 @@
       }
     },
     {
-      "sourceD4": "S096/S092/S033/S165；K09.07.03.01",
+      "sourceD4": "K09.07.03.01",
+      "candidateD4": "K19.04.01.01",
+      "originalSourceIds": [
+        "S096",
+        "S092",
+        "S033",
+        "S165"
+      ],
+      "originalSourceLocator": "S096/S092/S033/S165；K09.07.03.01",
       "originalRequirement": "现场覆盖、清晰度、稳定性分别验收，绑定位置、条件和实测证据",
       "routes": [
         "K19.04.01.01"
@@ -157,7 +193,15 @@
       }
     },
     {
-      "sourceD4": "S096/S092/S033/S165；K09.07.03.02",
+      "sourceD4": "K09.07.03.02",
+      "candidateD4": "K19.09.01.01",
+      "originalSourceIds": [
+        "S096",
+        "S092",
+        "S033",
+        "S165"
+      ],
+      "originalSourceLocator": "S096/S092/S033/S165；K09.07.03.02",
       "originalRequirement": "场地约束、声级与权限下停止、修订及复测条件",
       "routes": [
         "K19.09.01.01"

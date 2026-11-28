@@ -192,4 +192,44 @@ t('KC-LS19 audience and peak/telemetry policy gates remain independent',()=>{
 t(m+' explicit unknown real request stays outside finite acceptance',()=>{
  for(const key of ['realExecutionRequested','realAuditionRequested','realDeliveryRequested'])assert.equal(f(edit,receipt(edit),{...scope,[key]:null}),'STOP_OR_PENDING');
 });
+
+const d25file='docs/product/calibration/domain-mixed-migration-predicate-batch.md';
+const d25=fs.readFileSync(d25file,'utf8').split('\n');
+const cols25=l=>l.split('|').slice(1,-1).map(x=>x.trim());
+const cand25=new Map(),pred25=new Map();
+for(const [i,l] of d25.entries()){
+ if(/^\| K19\.\d{2}\.\d{2}\.\d{2} \|/.test(l)){const c=cols25(l);assert.equal(c.length,4);assert.ok(!cand25.has(c[3]));cand25.set(c[3],{c,line:i+1});}
+ if(/^\| K09\.07\.\d{2}\.\d{2} \|/.test(l)){const c=cols25(l);if(c.length!==8)continue;assert.ok(!pred25.has(c[0]));pred25.set(c[0],{c,line:i+1});}
+}
+function exactRoutes(rows,splits){
+ assert.equal(rows.length,6);assert.equal(splits.length,6);assert.equal(cand25.size,6);assert.equal(pred25.size,6);
+ for(const [id,{c,line}] of cand25){
+  const hits=rows.filter(r=>r.sourceD4===id),sp=splits.filter(r=>r.sourceD4===id);
+  assert.equal(hits.length,1);assert.equal(sp.length,1);
+  const r=hits[0],p=sp[0];
+  assert.equal(r.candidateD4,c[0]);assert.deepEqual(r.routes,[c[0]]);
+  assert.deepEqual(r.originalSourceIds,c[2].split('/'));assert.equal(r.originalSourceLocator,c[2]+'；'+id);assert.equal(r.originalRequirement,c[1]);
+  assert.equal(r.originalCandidateAnchor.file,d25file);assert.equal(r.originalCandidateAnchor.line,line);anchor(r.originalCandidateAnchor);
+  assert.equal(p.originalPredicateAnchor.file,d25file);assert.equal(p.originalPredicateAnchor.line,pred25.get(id).line);anchor(p.originalPredicateAnchor);
+  assert.ok(pred25.get(id).c[3].split(' ').includes(c[0]));assert.deepEqual(p.routes,r.routes);assert.deepEqual(r.routeLinks,p.routeLinks);
+  assert.equal(r.status,'D25_CANDIDATE_NAVIGATION_ONLY');assert.equal(p.status,'SPLIT_OPEN_NAVIGATION_ONLY');assert.equal(r.equivalence,false);assert.equal(p.equivalence,false);
+  assert.ok(r.anchor.row.includes(r.originalSourceLocator));
+ }
+}
+t('R1 K19 six canonical old D4 lookups each bind one candidate and one open split',()=>{
+ const q=read('queries/K19/legacy-routes.json'),v=read('queries/K19/migration-routes.json');
+ exactRoutes(ledger.legacyRoutes,ledger.splitRoutes);
+ exactRoutes(q.routes,q.splitRoutes);
+ exactRoutes(v.rows.filter(r=>r.status==='D25_CANDIDATE_NAVIGATION_ONLY'),v.rows.filter(r=>r.status==='SPLIT_OPEN_NAVIGATION_ONLY'));
+ assert.deepEqual(q.routes.map(({claimRefs,...r})=>r),ledger.legacyRoutes);assert.deepEqual(q.splitRoutes,ledger.splitRoutes);assert.deepEqual(v.rows,ledger.migrationRows);
+});
+t('R1 K19 concatenated source IDs, wrong candidate, swapped anchor and closed split fail exact lookup',()=>{
+ for(const change of [
+  (r,s)=>r[0].sourceD4=r[0].originalSourceLocator,
+  (r,s)=>r[0].candidateD4=r[1].candidateD4,
+  (r,s)=>r[0].originalSourceIds.pop(),
+  (r,s)=>r[0].originalCandidateAnchor=r[1].originalCandidateAnchor,
+  (r,s)=>s[0].status='CLOSED'
+ ]){const r=structuredClone(ledger.legacyRoutes),s=structuredClone(ledger.splitRoutes);change(r,s);assert.throws(()=>exactRoutes(r,s));}
+});
 console.log(JSON.stringify({module:m,passed:results.length,results},null,2));

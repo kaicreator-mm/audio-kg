@@ -2070,7 +2070,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 7,
         "row": "| K13.02.01.01 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | 缺原生术语/社群/调式曲式证据；K01.07.03.01 RESIDUAL_OPEN | [MX-K13.02.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 39,
+        "row": "| K13.02.01.01 | 原生术语音级节奏曲式与社会语境 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "原生术语/社会语境与抽象音级、节奏、结构",
+        "new": "K16.07.01.01",
+        "reuse": "K01.03.01.01 K01.04.05.01 K01.07.03.01",
+        "ref": "K13.05",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.01.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.01.02",
@@ -2103,7 +2119,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 8,
         "row": "| K13.02.01.02 | 概念对应依据与形式/数值映射 | K16.07.01.02 | K01.02.06.01 K01.03.01.01 | K12.04 | 缺原值/映射上下文；非等价 | [MX-K13.02.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 40,
+        "row": "| K13.02.01.02 | 区分体系概念和跨体系近似映射 | 概念对应依据与形式/数值映射 | K16.07.01.02 | K01.02.06.01 K01.03.01.01 | K12.04 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "概念对应依据与形式/数值映射",
+        "new": "K16.07.01.02",
+        "reuse": "K01.02.06.01 K01.03.01.01",
+        "ref": "K12.04",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.02.01",
@@ -2136,7 +2168,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 9,
         "row": "| K13.02.02.01 | 演奏者差异、参考音相对量及测量 | K16.07.02.01 | K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01 | — | 演奏者样本和校准；不得推广单一参考 | [MX-K13.02.02.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 41,
+        "row": "| K13.02.02.01 | 记录参考音相对音高测量及演奏者差异 | 演奏者差异、参考音相对量及测量 | K16.07.02.01 | K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01 | — | S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.02.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "演奏者差异、参考音相对量及测量",
+        "new": "K16.07.02.01",
+        "reuse": "K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01",
+        "ref": "—",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.02.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.02.02",
@@ -2169,7 +2217,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 10,
         "row": "| K13.02.02.02 | 原生语义与映射损失 | K16.07.01.02 | K01.02.06.01 | K12.04 | 多对一损失不可逆；保留原值 | [MX-K13.02.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 42,
+        "row": "| K13.02.02.02 | 区分原生调律与十二平均律转换损失 | 原生语义与映射损失 | K16.07.01.02 | K01.02.06.01 | K12.04 | S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "原生语义与映射损失",
+        "new": "K16.07.01.02",
+        "reuse": "K01.02.06.01",
+        "ref": "K12.04",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.03.01",
@@ -2202,7 +2266,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 11,
         "row": "| K13.02.03.01 | 仪式用途与实际许可 | K16.07.03.01 | K15.05.01.01 K15.05.02.01 | — | 仪式使用不等录音训练许可 | [MX-K13.02.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 43,
+        "row": "| K13.02.03.01 | 区分艺术材料与仪式使用权限 | 仪式用途与实际许可 | K16.07.03.01 | K15.05.01.01 K15.05.02.01 | — | S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "仪式用途与实际许可",
+        "new": "K16.07.03.01",
+        "reuse": "K15.05.01.01 K15.05.02.01",
+        "ref": "—",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.03.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.03.02",
@@ -2235,7 +2315,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 12,
         "row": "| K13.02.03.02 | 访问惯例、用途范围和数据访问 | K16.07.03.02 | K15.05.02.02 K15.07.02.02 | K12.06 | 访问习惯不等再用权限 | [MX-K13.02.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 44,
+        "row": "| K13.02.03.02 | 登记社群访问习惯及许可范围 | 访问惯例、用途范围和数据访问 | K16.07.03.02 | K15.05.02.02 K15.07.02.02 | K12.06 | S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "访问惯例、用途范围和数据访问",
+        "new": "K16.07.03.02",
+        "reuse": "K15.05.02.02 K15.07.02.02",
+        "ref": "K12.06",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.03.01.01",
@@ -2372,7 +2468,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 13,
         "row": "| K13.03.03.01 | 传统证据与实际技法 | K16.03.01.01 | K04.04.02.02 K06.07.01.01 | — | 变体/实践必须有主体和条件 | [MX-K13.03.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 45,
+        "row": "| K13.03.03.01 | 描述特定传统的可观察表现和变体 | 传统证据与实际技法 | K16.03.01.01 | K04.04.02.02 K06.07.01.01 | — | S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.03.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "传统证据与实际技法",
+        "new": "K16.03.01.01",
+        "reuse": "K04.04.02.02 K06.07.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.03.03.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.03.03.02",
@@ -2405,7 +2517,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 14,
         "row": "| K13.03.03.02 | 惯例、规范、艺术选择与评价协议 | K16.06.02.01 | K10.08.02.02 | K02.07 | 规范与选择分离；评价不当硬规则 | [MX-K13.03.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 46,
+        "row": "| K13.03.03.02 | 区分惯例规范和艺术选择 | 惯例、规范、艺术选择与评价协议 | K16.06.02.01 | K10.08.02.02 | K02.07 | S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.03.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "惯例、规范、艺术选择与评价协议",
+        "new": "K16.06.02.01",
+        "reuse": "K10.08.02.02",
+        "ref": "K02.07",
+        "historicalEvidence": "S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.03.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.01.01",
@@ -2464,7 +2592,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 15,
         "row": "| K13.04.01.02 | 陈述、研究解释及外部偏好 | K16.04.02.01 | K10.08.02.01 K10.08.02.02 | K17.06 | 参与者与研究者身份/语境独立 | [MX-K13.04.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 47,
+        "row": "| K13.04.01.02 | 区分参与者陈述研究者解释及外部偏好 | 陈述、研究解释及外部偏好 | K16.04.02.01 | K10.08.02.01 K10.08.02.02 | K17.06 | S134/S135/S141；FG-K13.04.01 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "陈述、研究解释及外部偏好",
+        "new": "K16.04.02.01",
+        "reuse": "K10.08.02.01 K10.08.02.02",
+        "ref": "K17.06",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.01 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.02.01",
@@ -2523,7 +2667,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 16,
         "row": "| K13.04.02.02 | 身份解释边界与个人数据权限 | K16.05.02.01 | K15.06.01.01 K15.07.02.01 | K10.08 | 不由声色或语言推身份；实际权利另核 | [MX-K13.04.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 48,
+        "row": "| K13.04.02.02 | 避免以音色或语言推断身份 | 身份解释边界与个人数据权限 | K16.05.02.01 | K15.06.01.01 K15.07.02.01 | K10.08 | S134/S135/S141；FG-K13.04.02 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "身份解释边界与个人数据权限",
+        "new": "K16.05.02.01",
+        "reuse": "K15.06.01.01 K15.07.02.01",
+        "ref": "K10.08",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.02 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.03.01",
@@ -2600,7 +2760,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 17,
         "row": "| K13.04.03.01 | 实际受众、场合、适配及评价目标 | K16.05.02.02 K13.08.01.03 | K10.08.01.02 | — | 目标受众≠实际听众，保留语境 | [MX-K13.04.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 49,
+        "row": "| K13.04.03.01 | 记录受众场合文化和作品目标 | 实际受众、场合、适配及评价目标 | K16.05.02.02 K13.08.01.03 | K10.08.01.02 | — | S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "实际受众、场合、适配及评价目标",
+        "new": "K16.05.02.02 K13.08.01.03",
+        "reuse": "K10.08.01.02",
+        "ref": "—",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.03.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.03",
+          "sourceD4": "K13.04.03.01",
+          "originalSourceD4s": [
+            "K13.04.03.01",
+            "K13.08.01.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明本地化目标语种及目标人群；不替代实际招募",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 22,
+            "row": "| K13.08.01.03 | 声明本地化目标语种及目标人群；不替代实际招募 | S135/S143/S141 | K13.04.03.01、K13.08.01.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.04.03.02",
@@ -2633,7 +2831,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 18,
         "row": "| K13.04.03.02 | 文化竞争解释及评价条件不确定性 | K16.06.02.02 | K10.08.03.01 K10.09.02.01 | K17.07 | 竞争解释及评价不确定，非唯一因果 | [MX-K13.04.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 50,
+        "row": "| K13.04.03.02 | 限定评价条件及可替代解释 | 文化竞争解释及评价条件不确定性 | K16.06.02.02 | K10.08.03.01 K10.09.02.01 | K17.07 | S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "文化竞争解释及评价条件不确定性",
+        "new": "K16.06.02.02",
+        "reuse": "K10.08.03.01 K10.09.02.01",
+        "ref": "K17.07",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.05.01.01",
@@ -3144,7 +3358,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 19,
         "row": "| K13.06.03.02 | 原词译稿、工程谱面及授权版本 | K13.06.03.03 | K09.01.03.02 K01.08.06.03 K15.05.01.02 | K12.04 | 原词/译稿/谱面/授权分别版本化 | [MX-K13.06.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 51,
+        "row": "| K13.06.03.02 | 维护原词译稿谱面和授权版本 | 原词译稿、工程谱面及授权版本 | K13.06.03.03 | K09.01.03.02 K01.08.06.03 K15.05.01.02 | K12.04 | S142/S143/S137/S144；FG-K13.06.03 / CP-K13.06；CQ04/CQ12/CQ16/CQ19/CQ23/CQ26；A01/A02/A04/A05/A06/A07词曲与版本，A03引用工具 | MX-K13.06.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "原词译稿、工程谱面及授权版本",
+        "new": "K13.06.03.03",
+        "reuse": "K09.01.03.02 K01.08.06.03 K15.05.01.02",
+        "ref": "K12.04",
+        "historicalEvidence": "S142/S143/S137/S144；FG-K13.06.03 / CP-K13.06；CQ04/CQ12/CQ16/CQ19/CQ23/CQ26；A01/A02/A04/A05/A06/A07词曲与版本，A03引用工具",
+        "compositionCase": "MX-K13.06.03.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.06.03.03",
+          "sourceD4": "K13.06.03.02",
+          "originalSourceD4s": [
+            "K13.06.03.02"
+          ],
+          "originalSourceIds": [
+            "S142",
+            "S143",
+            "S137",
+            "S144"
+          ],
+          "originalRequirement": "维护原词、译稿身份、语言、目标与版本依赖",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 21,
+            "row": "| K13.06.03.03 | 维护原词、译稿身份、语言、目标与版本依赖 | S142/S143/S137/S144 | K13.06.03.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.07.01.01",
@@ -3221,7 +3473,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 20,
         "row": "| K13.07.01.01 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | 曲种/器物/场合不得混同 | [MX-K13.07.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 52,
+        "row": "| K13.07.01.01 | 记录Mahagita竖琴及hsaing等独立语境 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "曲目文化场合、器物实体、实际动作",
+        "new": "K16.03.01.02",
+        "reuse": "K03.01.01.01 K03.01.01.02 K04.01.01.01",
+        "ref": "K13.06",
+        "historicalEvidence": "S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.01.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.01.02",
@@ -3254,7 +3522,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 21,
         "row": "| K13.07.01.02 | 本土名称变体、原值映射和测量 | K16.07.02.02 | K01.02.06.01 K01.02.06.02 | K07.07 | 本土术语S585未证；K01.02.06.02 EVIDENCE_OPEN | [MX-K13.07.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 53,
+        "row": "| K13.07.01.02 | 保留本土调律名称及来源待核的术语与变体 | 本土名称变体、原值映射和测量 | K16.07.02.02 | K01.02.06.01 K01.02.06.02 | K07.07 | S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "本土名称变体、原值映射和测量",
+        "new": "K16.07.02.02",
+        "reuse": "K01.02.06.01 K01.02.06.02",
+        "ref": "K07.07",
+        "historicalEvidence": "S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.02.01",
@@ -3401,7 +3685,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 22,
         "row": "| K13.07.02.02 | 历史事实、权利对象、用途及授权链 | — | K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02 | K13.06 | 历史文化事实不授当前许可 | [MX-K13.07.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 54,
+        "row": "| K13.07.02.02 | 区分描述性文化事实与当前授权规则 | 历史事实、权利对象、用途及授权链 | — | K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02 | K13.06 | S135历史研究摘要；S140线索；S154权利版本待核；FG-K13.07.02 / CP-K13.07；CQ12/CQ17/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "历史事实、权利对象、用途及授权链",
+        "new": "—",
+        "reuse": "K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02",
+        "ref": "K13.06",
+        "historicalEvidence": "S135历史研究摘要；S140线索；S154权利版本待核；FG-K13.07.02 / CP-K13.07；CQ12/CQ17/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.03.01",
@@ -3534,7 +3834,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 23,
         "row": "| K13.08.01.01 | 目标人群、实际样本、认知外推 | K13.08.01.03 K17.06.01.01 | K10.09.01.01 | — | 目标人群与真实样本/经验分开 | [MX-K13.08.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 55,
+        "row": "| K13.08.01.01 | 定义母语者文化背景熟悉度及目标 | 目标人群、实际样本、认知外推 | K13.08.01.03 K17.06.01.01 | K10.09.01.01 | — | S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "目标人群、实际样本、认知外推",
+        "new": "K13.08.01.03 K17.06.01.01",
+        "reuse": "K10.09.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.01.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.03",
+          "sourceD4": "K13.08.01.01",
+          "originalSourceD4s": [
+            "K13.04.03.01",
+            "K13.08.01.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明本地化目标语种及目标人群；不替代实际招募",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 22,
+            "row": "| K13.08.01.03 | 声明本地化目标语种及目标人群；不替代实际招募 | S135/S143/S141 | K13.04.03.01、K13.08.01.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.01.02",
@@ -3583,7 +3921,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 24,
         "row": "| K13.08.01.02 | 理解、技术质量、审美分别评价 | K13.08.01.04 | K10.06.02.01 K10.07.03.01 K10.08.03.01 | — | 理解准确、技术、审美分别判定 | [MX-K13.08.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 56,
+        "row": "| K13.08.01.02 | 区分理解准确性审美与技术质量 | 理解、技术质量、审美分别评价 | K13.08.01.04 | K10.06.02.01 K10.07.03.01 K10.08.03.01 | — | S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "理解、技术质量、审美分别评价",
+        "new": "K13.08.01.04",
+        "reuse": "K10.06.02.01 K10.07.03.01 K10.08.03.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.01.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.04",
+          "sourceD4": "K13.08.01.02",
+          "originalSourceD4s": [
+            "K13.08.01.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "本地化理解/可唱任务判据及母语条件；非审美或技术总分",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 23,
+            "row": "| K13.08.01.04 | 本地化理解/可唱任务判据及母语条件；非审美或技术总分 | S135/S143/S141 | K13.08.01.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.02.01",
@@ -3632,7 +4007,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 25,
         "row": "| K13.08.02.01 | 适配理由、文化解释、评委分歧 | K13.08.02.03 K16.06.02.02 | K10.09.02.01 | — | 保存来源、适配理由及分歧 | [MX-K13.08.02.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 57,
+        "row": "| K13.08.02.01 | 保存评价理由分歧及来源语境 | 适配理由、文化解释、评委分歧 | K13.08.02.03 K16.06.02.02 | K10.09.02.01 | — | S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.02.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配理由、文化解释、评委分歧",
+        "new": "K13.08.02.03 K16.06.02.02",
+        "reuse": "K10.09.02.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.02.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.02.03",
+          "sourceD4": "K13.08.02.01",
+          "originalSourceD4s": [
+            "K13.08.02.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "保存适配选择的语言文化理由及任务语境",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 24,
+            "row": "| K13.08.02.03 | 保存适配选择的语言文化理由及任务语境 | S135/S143/S141 | K13.08.02.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.02.02",
@@ -3681,7 +4093,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 26,
         "row": "| K13.08.02.02 | 允许差异、明确错误、评价效度 | K13.08.02.04 | K10.08.01.02 K10.09.02.02 | K01 | 按任务确定允许差异，未知不判错 | [MX-K13.08.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 58,
+        "row": "| K13.08.02.02 | 按任务区分可接受差异和明确错误 | 允许差异、明确错误、评价效度 | K13.08.02.04 | K10.08.01.02 K10.09.02.02 | K01 | S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "允许差异、明确错误、评价效度",
+        "new": "K13.08.02.04",
+        "reuse": "K10.08.01.02 K10.09.02.02",
+        "ref": "K01",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.02.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.02.04",
+          "sourceD4": "K13.08.02.02",
+          "originalSourceD4s": [
+            "K13.08.02.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明适配任务允许差异及明确错误条件",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 25,
+            "row": "| K13.08.02.04 | 声明适配任务允许差异及明确错误条件 | S135/S143/S141 | K13.08.02.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.03.01",
@@ -3730,7 +4179,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 27,
         "row": "| K13.08.03.01 | 适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推 | K13.08.03.03 K17.06.01.01 | K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01 | — | 训练数据、实际工具、听者代表性和认知外推独立 | [MX-K13.08.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 59,
+        "row": "| K13.08.03.01 | 检查训练语料标注工具及听者代表性 | 适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推 | K13.08.03.03 K17.06.01.01 | K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01 | — | S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推",
+        "new": "K13.08.03.03 K17.06.01.01",
+        "reuse": "K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.03.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.03.03",
+          "sourceD4": "K13.08.03.01",
+          "originalSourceD4s": [
+            "K13.08.03.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "本地化语言、方言、文化偏差及证据要求；不替代语料、工具或样本评价",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 26,
+            "row": "| K13.08.03.03 | 本地化语言、方言、文化偏差及证据要求；不替代语料、工具或样本评价 | S135/S143/S141 | K13.08.03.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.03.02",
@@ -3779,7 +4265,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 28,
         "row": "| K13.08.03.02 | 适配UNKNOWN、评测及模型工具证据限制 | K13.08.03.04 | K10.09.02.01 K11.10.03.01 K12.09.03.01 | — | 各owner缺证分别UNKNOWN，不能补造 | [MX-K13.08.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 60,
+        "row": "| K13.08.03.02 | 记录无充分证据时的UNKNOWN | 适配UNKNOWN、评测及模型工具证据限制 | K13.08.03.04 | K10.09.02.01 K11.10.03.01 K12.09.03.01 | — | S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配UNKNOWN、评测及模型工具证据限制",
+        "new": "K13.08.03.04",
+        "reuse": "K10.09.02.01 K11.10.03.01 K12.09.03.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.03.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.03.04",
+          "sourceD4": "K13.08.03.02",
+          "originalSourceD4s": [
+            "K13.08.03.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "适配结论缺证时保留UNKNOWN及缺项；各owner状态独立",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 27,
+            "row": "| K13.08.03.04 | 适配结论缺证时保留UNKNOWN及缺项；各owner状态独立 | S135/S143/S141 | K13.08.03.02 |"
+          }
+        }
+      ]
     }
   ],
   "roles": [
@@ -5432,7 +5955,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 7,
         "row": "| K13.02.01.01 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | 缺原生术语/社群/调式曲式证据；K01.07.03.01 RESIDUAL_OPEN | [MX-K13.02.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 39,
+        "row": "| K13.02.01.01 | 原生术语音级节奏曲式与社会语境 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "原生术语/社会语境与抽象音级、节奏、结构",
+        "new": "K16.07.01.01",
+        "reuse": "K01.03.01.01 K01.04.05.01 K01.07.03.01",
+        "ref": "K13.05",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.01.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.01.02",
@@ -5465,7 +6004,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 8,
         "row": "| K13.02.01.02 | 概念对应依据与形式/数值映射 | K16.07.01.02 | K01.02.06.01 K01.03.01.01 | K12.04 | 缺原值/映射上下文；非等价 | [MX-K13.02.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 40,
+        "row": "| K13.02.01.02 | 区分体系概念和跨体系近似映射 | 概念对应依据与形式/数值映射 | K16.07.01.02 | K01.02.06.01 K01.03.01.01 | K12.04 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "概念对应依据与形式/数值映射",
+        "new": "K16.07.01.02",
+        "reuse": "K01.02.06.01 K01.03.01.01",
+        "ref": "K12.04",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.02.01",
@@ -5498,7 +6053,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 9,
         "row": "| K13.02.02.01 | 演奏者差异、参考音相对量及测量 | K16.07.02.01 | K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01 | — | 演奏者样本和校准；不得推广单一参考 | [MX-K13.02.02.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 41,
+        "row": "| K13.02.02.01 | 记录参考音相对音高测量及演奏者差异 | 演奏者差异、参考音相对量及测量 | K16.07.02.01 | K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01 | — | S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.02.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "演奏者差异、参考音相对量及测量",
+        "new": "K16.07.02.01",
+        "reuse": "K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01",
+        "ref": "—",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.02.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.02.02",
@@ -5531,7 +6102,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 10,
         "row": "| K13.02.02.02 | 原生语义与映射损失 | K16.07.01.02 | K01.02.06.01 | K12.04 | 多对一损失不可逆；保留原值 | [MX-K13.02.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 42,
+        "row": "| K13.02.02.02 | 区分原生调律与十二平均律转换损失 | 原生语义与映射损失 | K16.07.01.02 | K01.02.06.01 | K12.04 | S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "原生语义与映射损失",
+        "new": "K16.07.01.02",
+        "reuse": "K01.02.06.01",
+        "ref": "K12.04",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.03.01",
@@ -5564,7 +6151,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 11,
         "row": "| K13.02.03.01 | 仪式用途与实际许可 | K16.07.03.01 | K15.05.01.01 K15.05.02.01 | — | 仪式使用不等录音训练许可 | [MX-K13.02.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 43,
+        "row": "| K13.02.03.01 | 区分艺术材料与仪式使用权限 | 仪式用途与实际许可 | K16.07.03.01 | K15.05.01.01 K15.05.02.01 | — | S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "仪式用途与实际许可",
+        "new": "K16.07.03.01",
+        "reuse": "K15.05.01.01 K15.05.02.01",
+        "ref": "—",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.03.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.03.02",
@@ -5597,7 +6200,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 12,
         "row": "| K13.02.03.02 | 访问惯例、用途范围和数据访问 | K16.07.03.02 | K15.05.02.02 K15.07.02.02 | K12.06 | 访问习惯不等再用权限 | [MX-K13.02.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 44,
+        "row": "| K13.02.03.02 | 登记社群访问习惯及许可范围 | 访问惯例、用途范围和数据访问 | K16.07.03.02 | K15.05.02.02 K15.07.02.02 | K12.06 | S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "访问惯例、用途范围和数据访问",
+        "new": "K16.07.03.02",
+        "reuse": "K15.05.02.02 K15.07.02.02",
+        "ref": "K12.06",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.03.01.01",
@@ -5734,7 +6353,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 13,
         "row": "| K13.03.03.01 | 传统证据与实际技法 | K16.03.01.01 | K04.04.02.02 K06.07.01.01 | — | 变体/实践必须有主体和条件 | [MX-K13.03.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 45,
+        "row": "| K13.03.03.01 | 描述特定传统的可观察表现和变体 | 传统证据与实际技法 | K16.03.01.01 | K04.04.02.02 K06.07.01.01 | — | S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.03.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "传统证据与实际技法",
+        "new": "K16.03.01.01",
+        "reuse": "K04.04.02.02 K06.07.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.03.03.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.03.03.02",
@@ -5767,7 +6402,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 14,
         "row": "| K13.03.03.02 | 惯例、规范、艺术选择与评价协议 | K16.06.02.01 | K10.08.02.02 | K02.07 | 规范与选择分离；评价不当硬规则 | [MX-K13.03.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 46,
+        "row": "| K13.03.03.02 | 区分惯例规范和艺术选择 | 惯例、规范、艺术选择与评价协议 | K16.06.02.01 | K10.08.02.02 | K02.07 | S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.03.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "惯例、规范、艺术选择与评价协议",
+        "new": "K16.06.02.01",
+        "reuse": "K10.08.02.02",
+        "ref": "K02.07",
+        "historicalEvidence": "S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.03.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.01.01",
@@ -5826,7 +6477,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 15,
         "row": "| K13.04.01.02 | 陈述、研究解释及外部偏好 | K16.04.02.01 | K10.08.02.01 K10.08.02.02 | K17.06 | 参与者与研究者身份/语境独立 | [MX-K13.04.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 47,
+        "row": "| K13.04.01.02 | 区分参与者陈述研究者解释及外部偏好 | 陈述、研究解释及外部偏好 | K16.04.02.01 | K10.08.02.01 K10.08.02.02 | K17.06 | S134/S135/S141；FG-K13.04.01 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "陈述、研究解释及外部偏好",
+        "new": "K16.04.02.01",
+        "reuse": "K10.08.02.01 K10.08.02.02",
+        "ref": "K17.06",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.01 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.02.01",
@@ -5885,7 +6552,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 16,
         "row": "| K13.04.02.02 | 身份解释边界与个人数据权限 | K16.05.02.01 | K15.06.01.01 K15.07.02.01 | K10.08 | 不由声色或语言推身份；实际权利另核 | [MX-K13.04.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 48,
+        "row": "| K13.04.02.02 | 避免以音色或语言推断身份 | 身份解释边界与个人数据权限 | K16.05.02.01 | K15.06.01.01 K15.07.02.01 | K10.08 | S134/S135/S141；FG-K13.04.02 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "身份解释边界与个人数据权限",
+        "new": "K16.05.02.01",
+        "reuse": "K15.06.01.01 K15.07.02.01",
+        "ref": "K10.08",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.02 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.03.01",
@@ -5962,7 +6645,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 17,
         "row": "| K13.04.03.01 | 实际受众、场合、适配及评价目标 | K16.05.02.02 K13.08.01.03 | K10.08.01.02 | — | 目标受众≠实际听众，保留语境 | [MX-K13.04.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 49,
+        "row": "| K13.04.03.01 | 记录受众场合文化和作品目标 | 实际受众、场合、适配及评价目标 | K16.05.02.02 K13.08.01.03 | K10.08.01.02 | — | S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "实际受众、场合、适配及评价目标",
+        "new": "K16.05.02.02 K13.08.01.03",
+        "reuse": "K10.08.01.02",
+        "ref": "—",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.03.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.03",
+          "sourceD4": "K13.04.03.01",
+          "originalSourceD4s": [
+            "K13.04.03.01",
+            "K13.08.01.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明本地化目标语种及目标人群；不替代实际招募",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 22,
+            "row": "| K13.08.01.03 | 声明本地化目标语种及目标人群；不替代实际招募 | S135/S143/S141 | K13.04.03.01、K13.08.01.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.04.03.02",
@@ -5995,7 +6716,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 18,
         "row": "| K13.04.03.02 | 文化竞争解释及评价条件不确定性 | K16.06.02.02 | K10.08.03.01 K10.09.02.01 | K17.07 | 竞争解释及评价不确定，非唯一因果 | [MX-K13.04.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 50,
+        "row": "| K13.04.03.02 | 限定评价条件及可替代解释 | 文化竞争解释及评价条件不确定性 | K16.06.02.02 | K10.08.03.01 K10.09.02.01 | K17.07 | S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "文化竞争解释及评价条件不确定性",
+        "new": "K16.06.02.02",
+        "reuse": "K10.08.03.01 K10.09.02.01",
+        "ref": "K17.07",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.05.01.01",
@@ -6506,7 +7243,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 19,
         "row": "| K13.06.03.02 | 原词译稿、工程谱面及授权版本 | K13.06.03.03 | K09.01.03.02 K01.08.06.03 K15.05.01.02 | K12.04 | 原词/译稿/谱面/授权分别版本化 | [MX-K13.06.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 51,
+        "row": "| K13.06.03.02 | 维护原词译稿谱面和授权版本 | 原词译稿、工程谱面及授权版本 | K13.06.03.03 | K09.01.03.02 K01.08.06.03 K15.05.01.02 | K12.04 | S142/S143/S137/S144；FG-K13.06.03 / CP-K13.06；CQ04/CQ12/CQ16/CQ19/CQ23/CQ26；A01/A02/A04/A05/A06/A07词曲与版本，A03引用工具 | MX-K13.06.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "原词译稿、工程谱面及授权版本",
+        "new": "K13.06.03.03",
+        "reuse": "K09.01.03.02 K01.08.06.03 K15.05.01.02",
+        "ref": "K12.04",
+        "historicalEvidence": "S142/S143/S137/S144；FG-K13.06.03 / CP-K13.06；CQ04/CQ12/CQ16/CQ19/CQ23/CQ26；A01/A02/A04/A05/A06/A07词曲与版本，A03引用工具",
+        "compositionCase": "MX-K13.06.03.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.06.03.03",
+          "sourceD4": "K13.06.03.02",
+          "originalSourceD4s": [
+            "K13.06.03.02"
+          ],
+          "originalSourceIds": [
+            "S142",
+            "S143",
+            "S137",
+            "S144"
+          ],
+          "originalRequirement": "维护原词、译稿身份、语言、目标与版本依赖",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 21,
+            "row": "| K13.06.03.03 | 维护原词、译稿身份、语言、目标与版本依赖 | S142/S143/S137/S144 | K13.06.03.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.07.01.01",
@@ -6583,7 +7358,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 20,
         "row": "| K13.07.01.01 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | 曲种/器物/场合不得混同 | [MX-K13.07.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 52,
+        "row": "| K13.07.01.01 | 记录Mahagita竖琴及hsaing等独立语境 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "曲目文化场合、器物实体、实际动作",
+        "new": "K16.03.01.02",
+        "reuse": "K03.01.01.01 K03.01.01.02 K04.01.01.01",
+        "ref": "K13.06",
+        "historicalEvidence": "S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.01.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.01.02",
@@ -6616,7 +7407,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 21,
         "row": "| K13.07.01.02 | 本土名称变体、原值映射和测量 | K16.07.02.02 | K01.02.06.01 K01.02.06.02 | K07.07 | 本土术语S585未证；K01.02.06.02 EVIDENCE_OPEN | [MX-K13.07.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 53,
+        "row": "| K13.07.01.02 | 保留本土调律名称及来源待核的术语与变体 | 本土名称变体、原值映射和测量 | K16.07.02.02 | K01.02.06.01 K01.02.06.02 | K07.07 | S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "本土名称变体、原值映射和测量",
+        "new": "K16.07.02.02",
+        "reuse": "K01.02.06.01 K01.02.06.02",
+        "ref": "K07.07",
+        "historicalEvidence": "S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.02.01",
@@ -6763,7 +7570,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 22,
         "row": "| K13.07.02.02 | 历史事实、权利对象、用途及授权链 | — | K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02 | K13.06 | 历史文化事实不授当前许可 | [MX-K13.07.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 54,
+        "row": "| K13.07.02.02 | 区分描述性文化事实与当前授权规则 | 历史事实、权利对象、用途及授权链 | — | K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02 | K13.06 | S135历史研究摘要；S140线索；S154权利版本待核；FG-K13.07.02 / CP-K13.07；CQ12/CQ17/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "历史事实、权利对象、用途及授权链",
+        "new": "—",
+        "reuse": "K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02",
+        "ref": "K13.06",
+        "historicalEvidence": "S135历史研究摘要；S140线索；S154权利版本待核；FG-K13.07.02 / CP-K13.07；CQ12/CQ17/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.03.01",
@@ -6896,7 +7719,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 23,
         "row": "| K13.08.01.01 | 目标人群、实际样本、认知外推 | K13.08.01.03 K17.06.01.01 | K10.09.01.01 | — | 目标人群与真实样本/经验分开 | [MX-K13.08.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 55,
+        "row": "| K13.08.01.01 | 定义母语者文化背景熟悉度及目标 | 目标人群、实际样本、认知外推 | K13.08.01.03 K17.06.01.01 | K10.09.01.01 | — | S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "目标人群、实际样本、认知外推",
+        "new": "K13.08.01.03 K17.06.01.01",
+        "reuse": "K10.09.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.01.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.03",
+          "sourceD4": "K13.08.01.01",
+          "originalSourceD4s": [
+            "K13.04.03.01",
+            "K13.08.01.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明本地化目标语种及目标人群；不替代实际招募",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 22,
+            "row": "| K13.08.01.03 | 声明本地化目标语种及目标人群；不替代实际招募 | S135/S143/S141 | K13.04.03.01、K13.08.01.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.01.02",
@@ -6945,7 +7806,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 24,
         "row": "| K13.08.01.02 | 理解、技术质量、审美分别评价 | K13.08.01.04 | K10.06.02.01 K10.07.03.01 K10.08.03.01 | — | 理解准确、技术、审美分别判定 | [MX-K13.08.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 56,
+        "row": "| K13.08.01.02 | 区分理解准确性审美与技术质量 | 理解、技术质量、审美分别评价 | K13.08.01.04 | K10.06.02.01 K10.07.03.01 K10.08.03.01 | — | S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "理解、技术质量、审美分别评价",
+        "new": "K13.08.01.04",
+        "reuse": "K10.06.02.01 K10.07.03.01 K10.08.03.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.01.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.04",
+          "sourceD4": "K13.08.01.02",
+          "originalSourceD4s": [
+            "K13.08.01.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "本地化理解/可唱任务判据及母语条件；非审美或技术总分",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 23,
+            "row": "| K13.08.01.04 | 本地化理解/可唱任务判据及母语条件；非审美或技术总分 | S135/S143/S141 | K13.08.01.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.02.01",
@@ -6994,7 +7892,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 25,
         "row": "| K13.08.02.01 | 适配理由、文化解释、评委分歧 | K13.08.02.03 K16.06.02.02 | K10.09.02.01 | — | 保存来源、适配理由及分歧 | [MX-K13.08.02.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 57,
+        "row": "| K13.08.02.01 | 保存评价理由分歧及来源语境 | 适配理由、文化解释、评委分歧 | K13.08.02.03 K16.06.02.02 | K10.09.02.01 | — | S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.02.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配理由、文化解释、评委分歧",
+        "new": "K13.08.02.03 K16.06.02.02",
+        "reuse": "K10.09.02.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.02.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.02.03",
+          "sourceD4": "K13.08.02.01",
+          "originalSourceD4s": [
+            "K13.08.02.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "保存适配选择的语言文化理由及任务语境",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 24,
+            "row": "| K13.08.02.03 | 保存适配选择的语言文化理由及任务语境 | S135/S143/S141 | K13.08.02.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.02.02",
@@ -7043,7 +7978,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 26,
         "row": "| K13.08.02.02 | 允许差异、明确错误、评价效度 | K13.08.02.04 | K10.08.01.02 K10.09.02.02 | K01 | 按任务确定允许差异，未知不判错 | [MX-K13.08.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 58,
+        "row": "| K13.08.02.02 | 按任务区分可接受差异和明确错误 | 允许差异、明确错误、评价效度 | K13.08.02.04 | K10.08.01.02 K10.09.02.02 | K01 | S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "允许差异、明确错误、评价效度",
+        "new": "K13.08.02.04",
+        "reuse": "K10.08.01.02 K10.09.02.02",
+        "ref": "K01",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.02.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.02.04",
+          "sourceD4": "K13.08.02.02",
+          "originalSourceD4s": [
+            "K13.08.02.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明适配任务允许差异及明确错误条件",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 25,
+            "row": "| K13.08.02.04 | 声明适配任务允许差异及明确错误条件 | S135/S143/S141 | K13.08.02.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.03.01",
@@ -7092,7 +8064,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 27,
         "row": "| K13.08.03.01 | 适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推 | K13.08.03.03 K17.06.01.01 | K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01 | — | 训练数据、实际工具、听者代表性和认知外推独立 | [MX-K13.08.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 59,
+        "row": "| K13.08.03.01 | 检查训练语料标注工具及听者代表性 | 适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推 | K13.08.03.03 K17.06.01.01 | K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01 | — | S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推",
+        "new": "K13.08.03.03 K17.06.01.01",
+        "reuse": "K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.03.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.03.03",
+          "sourceD4": "K13.08.03.01",
+          "originalSourceD4s": [
+            "K13.08.03.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "本地化语言、方言、文化偏差及证据要求；不替代语料、工具或样本评价",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 26,
+            "row": "| K13.08.03.03 | 本地化语言、方言、文化偏差及证据要求；不替代语料、工具或样本评价 | S135/S143/S141 | K13.08.03.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.03.02",
@@ -7141,7 +8150,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 28,
         "row": "| K13.08.03.02 | 适配UNKNOWN、评测及模型工具证据限制 | K13.08.03.04 | K10.09.02.01 K11.10.03.01 K12.09.03.01 | — | 各owner缺证分别UNKNOWN，不能补造 | [MX-K13.08.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 60,
+        "row": "| K13.08.03.02 | 记录无充分证据时的UNKNOWN | 适配UNKNOWN、评测及模型工具证据限制 | K13.08.03.04 | K10.09.02.01 K11.10.03.01 K12.09.03.01 | — | S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配UNKNOWN、评测及模型工具证据限制",
+        "new": "K13.08.03.04",
+        "reuse": "K10.09.02.01 K11.10.03.01 K12.09.03.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.03.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.03.04",
+          "sourceD4": "K13.08.03.02",
+          "originalSourceD4s": [
+            "K13.08.03.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "适配结论缺证时保留UNKNOWN及缺项；各owner状态独立",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 27,
+            "row": "| K13.08.03.04 | 适配结论缺证时保留UNKNOWN及缺项；各owner状态独立 | S135/S143/S141 | K13.08.03.02 |"
+          }
+        }
+      ]
     }
   ],
   "splitRoutes": [
@@ -7220,7 +8266,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 7,
         "row": "| K13.02.01.01 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | 缺原生术语/社群/调式曲式证据；K01.07.03.01 RESIDUAL_OPEN | [MX-K13.02.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 39,
+        "row": "| K13.02.01.01 | 原生术语音级节奏曲式与社会语境 | 原生术语/社会语境与抽象音级、节奏、结构 | K16.07.01.01 | K01.03.01.01 K01.04.05.01 K01.07.03.01 | K13.05 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "原生术语/社会语境与抽象音级、节奏、结构",
+        "new": "K16.07.01.01",
+        "reuse": "K01.03.01.01 K01.04.05.01 K01.07.03.01",
+        "ref": "K13.05",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.01.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.01.02",
@@ -7253,7 +8315,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 8,
         "row": "| K13.02.01.02 | 概念对应依据与形式/数值映射 | K16.07.01.02 | K01.02.06.01 K01.03.01.01 | K12.04 | 缺原值/映射上下文；非等价 | [MX-K13.02.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 40,
+        "row": "| K13.02.01.02 | 区分体系概念和跨体系近似映射 | 概念对应依据与形式/数值映射 | K16.07.01.02 | K01.02.06.01 K01.03.01.01 | K12.04 | S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "概念对应依据与形式/数值映射",
+        "new": "K16.07.01.02",
+        "reuse": "K01.02.06.01 K01.03.01.01",
+        "ref": "K12.04",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.01 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.02.01",
@@ -7286,7 +8364,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 9,
         "row": "| K13.02.02.01 | 演奏者差异、参考音相对量及测量 | K16.07.02.01 | K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01 | — | 演奏者样本和校准；不得推广单一参考 | [MX-K13.02.02.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 41,
+        "row": "| K13.02.02.01 | 记录参考音相对音高测量及演奏者差异 | 演奏者差异、参考音相对量及测量 | K16.07.02.01 | K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01 | — | S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.02.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "演奏者差异、参考音相对量及测量",
+        "new": "K16.07.02.01",
+        "reuse": "K01.02.01.01 K01.02.01.02 K07.07.02.01 K07.07.03.01",
+        "ref": "—",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.02.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.02.02",
@@ -7319,7 +8413,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 10,
         "row": "| K13.02.02.02 | 原生语义与映射损失 | K16.07.01.02 | K01.02.06.01 | K12.04 | 多对一损失不可逆；保留原值 | [MX-K13.02.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 42,
+        "row": "| K13.02.02.02 | 区分原生调律与十二平均律转换损失 | 原生语义与映射损失 | K16.07.01.02 | K01.02.06.01 | K12.04 | S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "原生语义与映射损失",
+        "new": "K16.07.01.02",
+        "reuse": "K01.02.06.01",
+        "ref": "K12.04",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.02 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.03.01",
@@ -7352,7 +8462,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 11,
         "row": "| K13.02.03.01 | 仪式用途与实际许可 | K16.07.03.01 | K15.05.01.01 K15.05.02.01 | — | 仪式使用不等录音训练许可 | [MX-K13.02.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 43,
+        "row": "| K13.02.03.01 | 区分艺术材料与仪式使用权限 | 仪式用途与实际许可 | K16.07.03.01 | K15.05.01.01 K15.05.02.01 | — | S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "仪式用途与实际许可",
+        "new": "K16.07.03.01",
+        "reuse": "K15.05.01.01 K15.05.02.01",
+        "ref": "—",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.03.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.02.03.02",
@@ -7385,7 +8511,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 12,
         "row": "| K13.02.03.02 | 访问惯例、用途范围和数据访问 | K16.07.03.02 | K15.05.02.02 K15.07.02.02 | K12.06 | 访问习惯不等再用权限 | [MX-K13.02.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 44,
+        "row": "| K13.02.03.02 | 登记社群访问习惯及许可范围 | 访问惯例、用途范围和数据访问 | K16.07.03.02 | K15.05.02.02 K15.07.02.02 | K12.06 | S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.02.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "访问惯例、用途范围和数据访问",
+        "new": "K16.07.03.02",
+        "reuse": "K15.05.02.02 K15.07.02.02",
+        "ref": "K12.06",
+        "historicalEvidence": "S133/S134/S136/S141；FG-K13.02.03 / CP-K13.02；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.02.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.03.03.01",
@@ -7418,7 +8560,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 13,
         "row": "| K13.03.03.01 | 传统证据与实际技法 | K16.03.01.01 | K04.04.02.02 K06.07.01.01 | — | 变体/实践必须有主体和条件 | [MX-K13.03.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 45,
+        "row": "| K13.03.03.01 | 描述特定传统的可观察表现和变体 | 传统证据与实际技法 | K16.03.01.01 | K04.04.02.02 K06.07.01.01 | — | S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.03.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "传统证据与实际技法",
+        "new": "K16.03.01.01",
+        "reuse": "K04.04.02.02 K06.07.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.03.03.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.03.03.02",
@@ -7451,7 +8609,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 14,
         "row": "| K13.03.03.02 | 惯例、规范、艺术选择与评价协议 | K16.06.02.01 | K10.08.02.02 | K02.07 | 规范与选择分离；评价不当硬规则 | [MX-K13.03.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 46,
+        "row": "| K13.03.03.02 | 区分惯例规范和艺术选择 | 惯例、规范、艺术选择与评价协议 | K16.06.02.01 | K10.08.02.02 | K02.07 | S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.03.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "惯例、规范、艺术选择与评价协议",
+        "new": "K16.06.02.01",
+        "reuse": "K10.08.02.02",
+        "ref": "K02.07",
+        "historicalEvidence": "S135/S136/S140；FG-K13.03.03 / CP-K13.03；CQ02/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.03.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.01.02",
@@ -7484,7 +8658,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 15,
         "row": "| K13.04.01.02 | 陈述、研究解释及外部偏好 | K16.04.02.01 | K10.08.02.01 K10.08.02.02 | K17.06 | 参与者与研究者身份/语境独立 | [MX-K13.04.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 47,
+        "row": "| K13.04.01.02 | 区分参与者陈述研究者解释及外部偏好 | 陈述、研究解释及外部偏好 | K16.04.02.01 | K10.08.02.01 K10.08.02.02 | K17.06 | S134/S135/S141；FG-K13.04.01 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "陈述、研究解释及外部偏好",
+        "new": "K16.04.02.01",
+        "reuse": "K10.08.02.01 K10.08.02.02",
+        "ref": "K17.06",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.01 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.02.02",
@@ -7517,7 +8707,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 16,
         "row": "| K13.04.02.02 | 身份解释边界与个人数据权限 | K16.05.02.01 | K15.06.01.01 K15.07.02.01 | K10.08 | 不由声色或语言推身份；实际权利另核 | [MX-K13.04.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 48,
+        "row": "| K13.04.02.02 | 避免以音色或语言推断身份 | 身份解释边界与个人数据权限 | K16.05.02.01 | K15.06.01.01 K15.07.02.01 | K10.08 | S134/S135/S141；FG-K13.04.02 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "身份解释边界与个人数据权限",
+        "new": "K16.05.02.01",
+        "reuse": "K15.06.01.01 K15.07.02.01",
+        "ref": "K10.08",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.02 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.04.03.01",
@@ -7594,7 +8800,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 17,
         "row": "| K13.04.03.01 | 实际受众、场合、适配及评价目标 | K16.05.02.02 K13.08.01.03 | K10.08.01.02 | — | 目标受众≠实际听众，保留语境 | [MX-K13.04.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 49,
+        "row": "| K13.04.03.01 | 记录受众场合文化和作品目标 | 实际受众、场合、适配及评价目标 | K16.05.02.02 K13.08.01.03 | K10.08.01.02 | — | S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "实际受众、场合、适配及评价目标",
+        "new": "K16.05.02.02 K13.08.01.03",
+        "reuse": "K10.08.01.02",
+        "ref": "—",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.03.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.03",
+          "sourceD4": "K13.04.03.01",
+          "originalSourceD4s": [
+            "K13.04.03.01",
+            "K13.08.01.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明本地化目标语种及目标人群；不替代实际招募",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 22,
+            "row": "| K13.08.01.03 | 声明本地化目标语种及目标人群；不替代实际招募 | S135/S143/S141 | K13.04.03.01、K13.08.01.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.04.03.02",
@@ -7627,7 +8871,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 18,
         "row": "| K13.04.03.02 | 文化竞争解释及评价条件不确定性 | K16.06.02.02 | K10.08.03.01 K10.09.02.01 | K17.07 | 竞争解释及评价不确定，非唯一因果 | [MX-K13.04.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 50,
+        "row": "| K13.04.03.02 | 限定评价条件及可替代解释 | 文化竞争解释及评价条件不确定性 | K16.06.02.02 | K10.08.03.01 K10.09.02.01 | K17.07 | S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.04.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "文化竞争解释及评价条件不确定性",
+        "new": "K16.06.02.02",
+        "reuse": "K10.08.03.01 K10.09.02.01",
+        "ref": "K17.07",
+        "historicalEvidence": "S134/S135/S141；FG-K13.04.03 / CP-K13.04；CQ11/CQ22/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.04.03.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.06.03.02",
@@ -7676,7 +8936,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 19,
         "row": "| K13.06.03.02 | 原词译稿、工程谱面及授权版本 | K13.06.03.03 | K09.01.03.02 K01.08.06.03 K15.05.01.02 | K12.04 | 原词/译稿/谱面/授权分别版本化 | [MX-K13.06.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 51,
+        "row": "| K13.06.03.02 | 维护原词译稿谱面和授权版本 | 原词译稿、工程谱面及授权版本 | K13.06.03.03 | K09.01.03.02 K01.08.06.03 K15.05.01.02 | K12.04 | S142/S143/S137/S144；FG-K13.06.03 / CP-K13.06；CQ04/CQ12/CQ16/CQ19/CQ23/CQ26；A01/A02/A04/A05/A06/A07词曲与版本，A03引用工具 | MX-K13.06.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "原词译稿、工程谱面及授权版本",
+        "new": "K13.06.03.03",
+        "reuse": "K09.01.03.02 K01.08.06.03 K15.05.01.02",
+        "ref": "K12.04",
+        "historicalEvidence": "S142/S143/S137/S144；FG-K13.06.03 / CP-K13.06；CQ04/CQ12/CQ16/CQ19/CQ23/CQ26；A01/A02/A04/A05/A06/A07词曲与版本，A03引用工具",
+        "compositionCase": "MX-K13.06.03.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.06.03.03",
+          "sourceD4": "K13.06.03.02",
+          "originalSourceD4s": [
+            "K13.06.03.02"
+          ],
+          "originalSourceIds": [
+            "S142",
+            "S143",
+            "S137",
+            "S144"
+          ],
+          "originalRequirement": "维护原词、译稿身份、语言、目标与版本依赖",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 21,
+            "row": "| K13.06.03.03 | 维护原词、译稿身份、语言、目标与版本依赖 | S142/S143/S137/S144 | K13.06.03.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.07.01.01",
@@ -7753,7 +9051,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 20,
         "row": "| K13.07.01.01 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | 曲种/器物/场合不得混同 | [MX-K13.07.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 52,
+        "row": "| K13.07.01.01 | 记录Mahagita竖琴及hsaing等独立语境 | 曲目文化场合、器物实体、实际动作 | K16.03.01.02 | K03.01.01.01 K03.01.01.02 K04.01.01.01 | K13.06 | S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "曲目文化场合、器物实体、实际动作",
+        "new": "K16.03.01.02",
+        "reuse": "K03.01.01.01 K03.01.01.02 K04.01.01.01",
+        "ref": "K13.06",
+        "historicalEvidence": "S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.01.01"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.01.02",
@@ -7786,7 +9100,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 21,
         "row": "| K13.07.01.02 | 本土名称变体、原值映射和测量 | K16.07.02.02 | K01.02.06.01 K01.02.06.02 | K07.07 | 本土术语S585未证；K01.02.06.02 EVIDENCE_OPEN | [MX-K13.07.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 53,
+        "row": "| K13.07.01.02 | 保留本土调律名称及来源待核的术语与变体 | 本土名称变体、原值映射和测量 | K16.07.02.02 | K01.02.06.01 K01.02.06.02 | K07.07 | S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "本土名称变体、原值映射和测量",
+        "new": "K16.07.02.02",
+        "reuse": "K01.02.06.01 K01.02.06.02",
+        "ref": "K07.07",
+        "historicalEvidence": "S133 Mahagitá；S134田野摘要；本土术语/变体待查；FG-K13.07.01 / CP-K13.07；CQ01/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.01.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.07.02.02",
@@ -7863,7 +9193,23 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 22,
         "row": "| K13.07.02.02 | 历史事实、权利对象、用途及授权链 | — | K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02 | K13.06 | 历史文化事实不授当前许可 | [MX-K13.07.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 54,
+        "row": "| K13.07.02.02 | 区分描述性文化事实与当前授权规则 | 历史事实、权利对象、用途及授权链 | — | K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02 | K13.06 | S135历史研究摘要；S140线索；S154权利版本待核；FG-K13.07.02 / CP-K13.07；CQ12/CQ17/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务 | MX-K13.07.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "历史事实、权利对象、用途及授权链",
+        "new": "—",
+        "reuse": "K16.02.04.01 K15.05.01.01 K15.05.02.01 K15.05.01.02",
+        "ref": "K13.06",
+        "historicalEvidence": "S135历史研究摘要；S140线索；S154权利版本待核；FG-K13.07.02 / CP-K13.07；CQ12/CQ17/CQ18/CQ26；A01/A05来源及语境；A02/A06研究或适配产物按任务",
+        "compositionCase": "MX-K13.07.02.02"
+      },
+      "originalCandidateBindings": []
     },
     {
       "sourceD4": "K13.08.01.01",
@@ -7912,7 +9258,45 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 23,
         "row": "| K13.08.01.01 | 目标人群、实际样本、认知外推 | K13.08.01.03 K17.06.01.01 | K10.09.01.01 | — | 目标人群与真实样本/经验分开 | [MX-K13.08.01.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 55,
+        "row": "| K13.08.01.01 | 定义母语者文化背景熟悉度及目标 | 目标人群、实际样本、认知外推 | K13.08.01.03 K17.06.01.01 | K10.09.01.01 | — | S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.01.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "目标人群、实际样本、认知外推",
+        "new": "K13.08.01.03 K17.06.01.01",
+        "reuse": "K10.09.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.01.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.03",
+          "sourceD4": "K13.08.01.01",
+          "originalSourceD4s": [
+            "K13.04.03.01",
+            "K13.08.01.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明本地化目标语种及目标人群；不替代实际招募",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 22,
+            "row": "| K13.08.01.03 | 声明本地化目标语种及目标人群；不替代实际招募 | S135/S143/S141 | K13.04.03.01、K13.08.01.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.01.02",
@@ -7961,7 +9345,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 24,
         "row": "| K13.08.01.02 | 理解、技术质量、审美分别评价 | K13.08.01.04 | K10.06.02.01 K10.07.03.01 K10.08.03.01 | — | 理解准确、技术、审美分别判定 | [MX-K13.08.01.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 56,
+        "row": "| K13.08.01.02 | 区分理解准确性审美与技术质量 | 理解、技术质量、审美分别评价 | K13.08.01.04 | K10.06.02.01 K10.07.03.01 K10.08.03.01 | — | S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.01.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "理解、技术质量、审美分别评价",
+        "new": "K13.08.01.04",
+        "reuse": "K10.06.02.01 K10.07.03.01 K10.08.03.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.01 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.01.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.01.04",
+          "sourceD4": "K13.08.01.02",
+          "originalSourceD4s": [
+            "K13.08.01.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "本地化理解/可唱任务判据及母语条件；非审美或技术总分",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 23,
+            "row": "| K13.08.01.04 | 本地化理解/可唱任务判据及母语条件；非审美或技术总分 | S135/S143/S141 | K13.08.01.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.02.01",
@@ -8010,7 +9431,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 25,
         "row": "| K13.08.02.01 | 适配理由、文化解释、评委分歧 | K13.08.02.03 K16.06.02.02 | K10.09.02.01 | — | 保存来源、适配理由及分歧 | [MX-K13.08.02.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 57,
+        "row": "| K13.08.02.01 | 保存评价理由分歧及来源语境 | 适配理由、文化解释、评委分歧 | K13.08.02.03 K16.06.02.02 | K10.09.02.01 | — | S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.02.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配理由、文化解释、评委分歧",
+        "new": "K13.08.02.03 K16.06.02.02",
+        "reuse": "K10.09.02.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.02.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.02.03",
+          "sourceD4": "K13.08.02.01",
+          "originalSourceD4s": [
+            "K13.08.02.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "保存适配选择的语言文化理由及任务语境",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 24,
+            "row": "| K13.08.02.03 | 保存适配选择的语言文化理由及任务语境 | S135/S143/S141 | K13.08.02.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.02.02",
@@ -8059,7 +9517,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 26,
         "row": "| K13.08.02.02 | 允许差异、明确错误、评价效度 | K13.08.02.04 | K10.08.01.02 K10.09.02.02 | K01 | 按任务确定允许差异，未知不判错 | [MX-K13.08.02.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 58,
+        "row": "| K13.08.02.02 | 按任务区分可接受差异和明确错误 | 允许差异、明确错误、评价效度 | K13.08.02.04 | K10.08.01.02 K10.09.02.02 | K01 | S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.02.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "允许差异、明确错误、评价效度",
+        "new": "K13.08.02.04",
+        "reuse": "K10.08.01.02 K10.09.02.02",
+        "ref": "K01",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.02 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.02.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.02.04",
+          "sourceD4": "K13.08.02.02",
+          "originalSourceD4s": [
+            "K13.08.02.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "声明适配任务允许差异及明确错误条件",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 25,
+            "row": "| K13.08.02.04 | 声明适配任务允许差异及明确错误条件 | S135/S143/S141 | K13.08.02.02 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.03.01",
@@ -8108,7 +9603,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 27,
         "row": "| K13.08.03.01 | 适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推 | K13.08.03.03 K17.06.01.01 | K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01 | — | 训练数据、实际工具、听者代表性和认知外推独立 | [MX-K13.08.03.01](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 59,
+        "row": "| K13.08.03.01 | 检查训练语料标注工具及听者代表性 | 适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推 | K13.08.03.03 K17.06.01.01 | K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01 | — | S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.03.01 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配偏差要求、训练语料标注、工具适用性、听者样本及认知外推",
+        "new": "K13.08.03.03 K17.06.01.01",
+        "reuse": "K11.01.02.02 K11.01.03.02 K12.03.01.01 K12.05.01.01 K12.09.01.01 K10.09.01.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.03.01"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.03.03",
+          "sourceD4": "K13.08.03.01",
+          "originalSourceD4s": [
+            "K13.08.03.01"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "本地化语言、方言、文化偏差及证据要求；不替代语料、工具或样本评价",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 26,
+            "row": "| K13.08.03.03 | 本地化语言、方言、文化偏差及证据要求；不替代语料、工具或样本评价 | S135/S143/S141 | K13.08.03.01 |"
+          }
+        }
+      ]
     },
     {
       "sourceD4": "K13.08.03.02",
@@ -8157,7 +9689,44 @@
         "blob": "2729189fa6b999527e1f84e198d643e7cdbf137c",
         "line": 28,
         "row": "| K13.08.03.02 | 适配UNKNOWN、评测及模型工具证据限制 | K13.08.03.04 | K10.09.02.01 K11.10.03.01 K12.09.03.01 | — | 各owner缺证分别UNKNOWN，不能补造 | [MX-K13.08.03.02](domain-mixed-migration-case-demands.md) |"
-      }
+      },
+      "originalPredicateAnchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+        "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+        "line": 60,
+        "row": "| K13.08.03.02 | 记录无充分证据时的UNKNOWN | 适配UNKNOWN、评测及模型工具证据限制 | K13.08.03.04 | K10.09.02.01 K11.10.03.01 K12.09.03.01 | — | S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务 | MX-K13.08.03.02 |"
+      },
+      "d25Predicate": {
+        "predicate": "适配UNKNOWN、评测及模型工具证据限制",
+        "new": "K13.08.03.04",
+        "reuse": "K10.09.02.01 K11.10.03.01 K12.09.03.01",
+        "ref": "—",
+        "historicalEvidence": "S135/S143/S141；FG-K13.08.03 / CP-K13.08；CQ11/CQ22/CQ25/CQ26；A01/A05/A07评价及偏差；A03工具证据、A04版本按任务",
+        "compositionCase": "MX-K13.08.03.02"
+      },
+      "originalCandidateBindings": [
+        {
+          "candidateD4": "K13.08.03.04",
+          "sourceD4": "K13.08.03.02",
+          "originalSourceD4s": [
+            "K13.08.03.02"
+          ],
+          "originalSourceIds": [
+            "S135",
+            "S143",
+            "S141"
+          ],
+          "originalRequirement": "适配结论缺证时保留UNKNOWN及缺项；各owner状态独立",
+          "originalCandidateAnchor": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/domain-mixed-migration-predicate-batch.md",
+            "blob": "dbc1a0d71d8314186f51e4d6a5893bfaf03c1c9a",
+            "line": 27,
+            "row": "| K13.08.03.04 | 适配结论缺证时保留UNKNOWN及缺项；各owner状态独立 | S135/S143/S141 | K13.08.03.02 |"
+          }
+        }
+      ]
     }
   ],
   "ownershipRoutes": [],

@@ -108,13 +108,20 @@ elif M=='K19':
  for n,l in enumerate(read(f),1):
   if l.startswith('| [K19.'):
    c=cols(l);d=links(c[0])[0]['label'];rr=case_links(f,c[3]);assert [x['d4'] for x in rr]==[d]
-   item=dict(sourceD4=c[2],originalRequirement=c[1],routes=[d],routeLinks=rr,equivalence=False,status='D25_CANDIDATE_NAVIGATION_ONLY',anchor=anchor(f,n),originalCandidateAnchor=target(f,links(c[0])[0]))
+   ca=target(f,links(c[0])[0]);cc=cols(ca['row'])
+   src,oldId=c[2].split('；');assert re.fullmatch(r'K09\.07\.\d{2}\.\d{2}',oldId)
+   assert cc==[d,c[1],src,oldId] and all(re.fullmatch(r'S\d{3}',x) for x in src.split('/'))
+   item=dict(sourceD4=oldId,candidateD4=d,originalSourceIds=src.split('/'),originalSourceLocator=c[2],originalRequirement=c[1],routes=[d],routeLinks=rr,equivalence=False,status='D25_CANDIDATE_NAVIGATION_ONLY',anchor=anchor(f,n),originalCandidateAnchor=ca)
    legacy.append(item);migration.append(item)
   elif l.startswith('| [K09.'):
    old,state,route,predicate,entry=cols(l);d=links(old)[0]['label'];rr=case_links(f,entry)
    item=dict(sourceD4=d,originalState=state,originalRoute=route,predicateRoute=predicate,routes=[x['d4'] for x in rr],routeLinks=rr,status='SPLIT_OPEN_NAVIGATION_ONLY',equivalence=False,anchor=anchor(f,n),g05Anchor=g05anchor(d),originalMigrationAnchor=target(f,links(old)[0]),originalPredicateAnchor=target(f,links(predicate)[0]))
    splits.append(item);migration.append(item)
  assert len(legacy)==len(splits)==6
+ assert len({r['sourceD4'] for r in legacy})==6 and {r['sourceD4'] for r in legacy}=={r['sourceD4'] for r in splits}
+ for r in legacy:
+  sp=next(x for x in splits if x['sourceD4']==r['sourceD4'])
+  assert sp['routes']==r['routes'] and r['candidateD4'] in cols(sp['originalPredicateAnchor']['row'])[3].split()
 else:
  assert M=='K18'
 ownership=[anchor(f,n) for n,l in enumerate(read(f),1) if re.match(r'^\| K18\.\d{2} \|',l)]

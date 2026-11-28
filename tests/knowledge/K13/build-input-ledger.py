@@ -96,14 +96,40 @@ legacy=[];splits=[];migration=[];f=md('r3-legacy-convergence');g05=P+'g05-r3-spl
 def g05anchor(d):
  gg=[i for i,line in enumerate(read(g05),1) if line.startswith('| '+d+' |')];assert len(gg)==1,(d,gg);return anchor(g05,gg[0])
 if M=='K13':
+ d25=P+'domain-mixed-migration-predicate-batch.md'
+ predicates={};candidates={}
+ for n,line in enumerate(read(d25),1):
+  if not re.match(r'^\| K13\.\d{2}\.\d{2}\.\d{2} \|',line):continue
+  c=cols(line)
+  if len(c)==8:
+   assert c[0] not in predicates;predicates[c[0]]=(c,anchor(d25,n))
+  elif len(c)==4:
+   assert c[0] not in candidates
+   candidates[c[0]]=(c,anchor(d25,n))
+ assert len(predicates)==22 and len(candidates)==7
+ bound=set()
  for n,l in enumerate(read(f),1):
   if not re.match(r'^\| K13\.\d{2}\.\d{2}\.\d{2} \|',l):continue
   d,req,src,oldstate,oldroute,disp,entry=cols(l);rr=case_links(f,entry);al=next(x for x in links(src) if x['label']==d);orig=target(f,al)
   assert orig['row'].startswith('| '+d+' |')
   item=dict(sourceD4=d,originalRequirement=req,originalInventory=src,originalState=oldstate,originalRoute=oldroute,disposition=disp,routes=[x['d4'] for x in rr],routeLinks=rr,equivalence=False,status='SPLIT_OPEN_NAVIGATION_ONLY' if oldstate.startswith('SPLIT') else disp,anchor=anchor(f,n),originalMigrationAnchor=orig)
-  if oldstate.startswith('SPLIT'):item['g05Anchor']=g05anchor(d);splits.append(item)
+  if oldstate.startswith('SPLIT'):
+   c,pa=predicates[d];assert c[0]==d and c[1]==req and c[7]=='MX-'+d
+   item['g05Anchor']=g05anchor(d)
+   item['originalPredicateAnchor']=pa
+   item['d25Predicate']=dict(predicate=c[2],new=c[3],reuse=c[4],ref=c[5],historicalEvidence=c[6],compositionCase=c[7])
+   item['originalCandidateBindings']=[]
+   for newId in c[3].split():
+    if not newId.startswith('K13.'):continue
+    cc,ca=candidates[newId];oldIds=cc[3].split('、')
+    assert d in oldIds and newId in {r['d4'] for r in rows}
+    item['originalCandidateBindings'].append(dict(candidateD4=newId,sourceD4=d,originalSourceD4s=oldIds,originalSourceIds=cc[2].split('/'),originalRequirement=cc[1],originalCandidateAnchor=ca))
+    bound.add((d,newId))
+   splits.append(item)
   legacy.append(item);migration.append(item)
  assert len(legacy)==48 and len(splits)==22
+ assert {r['sourceD4'] for r in splits}==set(predicates)
+ assert bound=={(d,k) for k,(c,a) in candidates.items() for d in c[3].split('、')} and len(bound)==8
 elif M=='K19':
  for n,l in enumerate(read(f),1):
   if l.startswith('| [K19.'):
