@@ -17,6 +17,49 @@ const equal=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
 const keys=(x,expected,msg)=>fail(obj(x)&&equal(Object.keys(x).sort(),[...expected].sort()),msg);
 const unique=(xs,msg)=>fail(new Set(xs).size===xs.length,msg);
 export function gitBlob(bytes){const b=Buffer.isBuffer(bytes)?bytes:Buffer.from(bytes);return crypto.createHash("sha1").update("blob "+b.length+"\0").update(b).digest("hex")}
+export function extractMarkdownUrls(markdown){
+ const source=String(markdown),urls=[];
+ let cursor=0;
+ while(true){
+  const marker=source.indexOf("](",cursor);
+  if(marker<0)break;
+  let depth=0,escaped=false,angle=false,close=-1;
+  for(let i=marker+1;i<source.length;i++){
+   const ch=source[i];
+   if(escaped){escaped=false;continue}
+   if(ch==="\\"){escaped=true;continue}
+   if(angle){if(ch===">")angle=false;continue}
+   if(ch==="<"){angle=true;continue}
+   if(ch==="("){depth++;continue}
+   if(ch===")"){
+    depth--;
+    if(depth===0){close=i;break}
+   }
+  }
+  if(close<0){cursor=marker+2;continue}
+  const content=source.slice(marker+2,close).trim();
+  let destination="";
+  if(content.startsWith("<")){
+   const end=content.indexOf(">");
+   if(end>0)destination=content.slice(1,end);
+  }else{
+   let nested=0,slash=false,end=content.length;
+   for(let i=0;i<content.length;i++){
+    const ch=content[i];
+    if(slash){slash=false;continue}
+    if(ch==="\\"){slash=true;continue}
+    if(ch==="("){nested++;continue}
+    if(ch===")"){if(nested===0){end=i;break}nested--;continue}
+    if(/\s/.test(ch)&&nested===0){end=i;break}
+   }
+   destination=content.slice(0,end);
+  }
+  destination=destination.replace(/\\([\\()<>])/g,"$1");
+  if(/^https?:\/\//i.test(destination))urls.push(destination);
+  cursor=close+1;
+ }
+ return urls;
+}
 const copy=structuredClone;
 function canonical(x){return x===null?"null":Array.isArray(x)?"["+x.map(canonical).join(",")+"]":typeof x==="object"?"{"+Object.keys(x).sort().map(k=>JSON.stringify(k)+":"+canonical(x[k])).join(",")+"}":JSON.stringify(x)}
 const recordDigest=x=>crypto.createHash("sha256").update(canonical(x)).digest("hex");
@@ -51,11 +94,18 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
  keys(frozenTree,["format","commit","tree","paths"],"frozen L1 tree shape");
  fail(frozenTree.format==="audio-kg-frozen-anchor-tree/1"&&frozenTree.commit===p.authority.l1Commit&&frozenTree.tree===L1_TREE&&obj(frozenTree.paths),"frozen L1 tree identity");
  const anchorCache=new Map();
- function anchor(a,kind){
+ function anchor(a,kind,sourceId){
   keys(a,["commit","file","blob","line","row"],"anchor shape");
   fail(a.commit===p.authority.l1Commit&&sha.test(a.blob)&&Number.isSafeInteger(a.line)&&a.line>0&&token(a.row),"anchor identity");
-  if(kind==="source")fail(/^docs\/research\/source-qualification-[a-z0-9-]+\.md$/.test(a.file),"source path");
-  else fail(/^docs\/product\/calibration\/[a-z0-9-]+\.md$/.test(a.file),"case/discovery path");
+  if(kind==="source"){
+   const researchSource=/^docs\/research\/source-qualification-[a-z0-9-]+\.md$/.test(a.file);
+   const embeddedK11Source=a.file==="docs/product/calibration/ai-models-r2-knowledge-cases.md"&&["S535","S536","S537"].includes(sourceId);
+   fail(researchSource||embeddedK11Source,"source path");
+   if(embeddedK11Source){
+    const c=a.row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(c.length===3&&c[0]===sourceId&&extractMarkdownUrls(a.row).length>0&&/\bREAD_LOCATOR\b/.test(c[2]),"embedded source qualification row");
+   }
+  }else fail(/^docs\/product\/calibration\/[a-z0-9-]+\.md$/.test(a.file),"case/discovery path");
   fail(Object.hasOwn(frozenTree.paths,a.file)&&frozenTree.paths[a.file]===a.blob,"anchor not in frozen L1 tree "+a.file);
   const k=a.file+"@"+a.blob;let lines=anchorCache.get(k);
   if(!lines){const bytes=safeRead(root,a.file);fail(gitBlob(bytes)===a.blob,"anchor blob "+a.file);lines=bytes.toString("utf8").split("\n");anchorCache.set(k,lines)}
@@ -191,6 +241,56 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
    for(const [d,x] of frozenSupportCQ)if(d.startsWith(k.owner+"::")){unique(x,"duplicate frozen K15 support CQ");frozenSupportCQ.set(d,x.sort())}
    fail([...frozenDirectCQ.keys()].filter(d=>d.startsWith(k.owner+"::")).length===disc.count,"K15 frozen CQ D4 coverage");
   }
+  if(["K11","K16","K17"].includes(k.owner)&&k.coverageMode==="MODULE"){
+   const prefix={K11:"AM",K16:"MU",K17:"MC"}[k.owner];
+   const d4Rows=new Map();
+   for(const row of bytes.toString("utf8").split("\n")){
+    if(!row.startsWith("| "+k.owner+"."))continue;
+    const cols=row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(cols.length===4,"frozen "+k.owner+" discovery D4 row shape");
+    const d4=cols[0],m=cols[1].match(new RegExp("\\["+prefix+"(\\d+)/"+k.owner+"\\.\\d{2}\\.\\d{2}\\.\\d{2}\\]"));
+    fail(actual.size===disc.count&&[...actual.values()].includes(d4)&&m&&!d4Rows.has(m[1]),"frozen "+k.owner+" D4 identity/uniqueness");
+    d4Rows.set(m[1],d4);
+    const key=k.owner+"::"+d4;
+    fail(!frozenDirectCQ.has(key)&&!frozenSupportCQ.has(key),"duplicate "+k.owner+" CQ D4 map");
+    frozenDirectCQ.set(key,[]);frozenSupportCQ.set(key,[]);
+   }
+   fail(d4Rows.size===disc.count,"frozen "+k.owner+" D4 coverage");
+   const seenCQ=new Set();
+   for(const row of bytes.toString("utf8").split("\n")){
+    if(!/^\|\s*CQ(?:0[1-9]|1[0-9]|2[0-6])\s*\|/.test(row))continue;
+    const cols=row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(cols.length===4,"frozen "+k.owner+" CQ row shape");
+    const cq=cols[0],role=cols[1],targets=k.owner==="K11"?cols[2]:cols[3];
+    fail(!seenCQ.has(cq)&&["D","S","O"].includes(role),"frozen "+k.owner+" CQ identity/role");
+    seenCQ.add(cq);
+    if(role==="O"){
+     fail(!/\[[^\]]+\]\(/.test(targets),"frozen "+k.owner+" optional CQ must be targetless");
+     continue;
+    }
+    const map=role==="D"?frozenDirectCQ:frozenSupportCQ;
+    const matches=[...targets.matchAll(new RegExp("\\[("+prefix+"\\d+)/("+k.owner+"\\.\\d{2}\\.\\d{2}\\.\\d{2})\\]\\(","g"))];
+    if(k.owner==="K11"&&role==="S"&&/上表全部60条/.test(targets)){
+     fail(disc.count===60&&matches.length===0,"K11 all-row support role shape");
+     for(const d4 of d4Rows.values())map.get(k.owner+"::"+d4).push(cq);
+    }else{
+     fail(matches.length>0,"frozen "+k.owner+" D/S CQ requires explicit exact case targets");
+     for(const m of matches){
+      const caseNumber=m[1].slice(prefix.length),d4=m[2],actualD4=d4Rows.get(caseNumber),key=k.owner+"::"+d4;
+      fail(actualD4===d4&&map.has(key),"frozen "+k.owner+" CQ target must name exact D4/case");
+      map.get(key).push(cq);
+     }
+    }
+   }
+   fail(seenCQ.size===26,"frozen "+k.owner+" global CQ coverage");
+   for(const d4 of d4Rows.values()){
+    const key=k.owner+"::"+d4;
+    unique(frozenDirectCQ.get(key),"duplicate frozen "+k.owner+" direct CQ "+d4);
+    unique(frozenSupportCQ.get(key),"duplicate frozen "+k.owner+" support CQ "+d4);
+    frozenDirectCQ.set(key,frozenDirectCQ.get(key).sort());
+    frozenSupportCQ.set(key,frozenSupportCQ.get(key).sort());
+   }
+  }
   const seen=new Set();
   for(const row of k.inventory){
    keys(row,["line","d4","disposition","claimRefs","reason"],"inventory row shape");
@@ -223,8 +323,12 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
  for(const [id,r] of records){
   if(r.type==="Source"){
    fail(/^S\d+$/.test(r.sourceId)&&r.id===r.sourceId&&[r.title,r.author,r.version,r.publicationDate,r.accessDate,r.uri,r.locator].every(token)&&p.sourceGrades.includes(r.grade)&&r.rights==="UNKNOWN_NO_IMPORT","source metadata");
-   anchor(r.anchor,"source");fail(new RegExp("(^|[^A-Z0-9])"+r.sourceId+"([^0-9]|$)").test(r.anchor.row),"source anchor id");
-   const urls=[...r.anchor.row.matchAll(/\((https?:\/\/[^)\s]+)\)/g)].map(m=>m[1]);
+   anchor(r.anchor,"source",r.sourceId);fail(new RegExp("(^|[^A-Z0-9])"+r.sourceId+"([^0-9]|$)").test(r.anchor.row),"source anchor id");
+   if(r.anchor.file==="docs/product/calibration/ai-models-r2-knowledge-cases.md"){
+    const c=r.anchor.row.split("|").slice(1,-1).map(x=>x.trim());
+    fail(c[0]===r.sourceId&&r.grade==="READ_LOCATOR"&&/\bREAD_LOCATOR\b/.test(c[2]),"embedded source qualification identity/grade");
+   }
+   const urls=extractMarkdownUrls(r.anchor.row);
    // Frozen legacy vocal/digital qualification has plain URI tokens in its source column.
    // Do not interpret arbitrary text, other files, or another source's row as a locator.
    if(r.anchor.file==="docs/research/source-qualification-vocal-digital.md"&&r.anchor.blob==="73ac66934ae016a125ecc6302fa7fa3875faab16"){
@@ -243,12 +347,12 @@ export function openCandidateReader(rootPath,entries,{allowFixture=false,priorRe
 
     for(const u of c[1].matchAll(/(?:^|[\s；])((?:https):\/\/[^\s；，]+)(?=$|[\s；，])/g))urls.push(u[1]);
    }
-   const q=sourceQual.get(id);fail(q&&urls.includes(r.uri)&&(q.accessedUri==="UNKNOWN"||urls.includes(q.accessedUri)),"source exact URI/qualification");
+   const q=sourceQual.get(id);fail(q&&urls.includes(r.uri)&&(q.accessedUri==="UNKNOWN"||urls.includes(q.accessedUri)),"source exact URI/qualification "+r.sourceId+" uri="+r.uri+" accessed="+(q?.accessedUri??"MISSING")+" urls="+urls.join(" | "));
    if(r.grade==="READ_LOCATOR")fail(/READ_LOCATOR|重读|已读|实际阅读/.test(r.anchor.row),"unsupported source grade");
   }else if(r.type==="Context")fail(token(r.condition),"context");
   else if(r.type==="Claim"){
    fail(d4.test(r.d4)&&r.d4.startsWith(r.owner+".")&&r.status==="CANDIDATE"&&p.claimKinds.includes(r.kind)&&token(r.statement)&&token(r.limits)&&list(r.cq)&&r.cq.every(x=>/^CQ(?:0[1-9]|1[0-9]|2[0-6])$/.test(x))&&rowsByClaim.has(id),"claim scope/status");
-   if(["K10","K15"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"){
+   if(["K10","K15","K11","K16","K17"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"){
     const expected=frozenDirectCQ.get(r.owner+"::"+r.d4);fail(list(expected)&&equal([...r.cq].sort(),expected),"claim CQ does not match frozen direct role "+r.d4);
    }else fail(r.cq.length>0||(["K01","K02"].includes(r.owner)&&owned.get(r.owner).coverageMode==="MODULE"),"claim requires direct CQ");
    unique(r.cq,"duplicate CQ");fail(get(r.context,"Context").owner===r.owner,"claim context owner");

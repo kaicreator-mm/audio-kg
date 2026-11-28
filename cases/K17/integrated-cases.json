@@ -1,0 +1,340 @@
+{
+  "status": "KNOWLEDGE_ONLY_NOT_EXECUTED",
+  "cases": [
+    {
+      "caseId": "STAGE-01",
+      "stage": "目标分离",
+      "conditions": "旋律保持物理事件K01/K13；同步、记忆、契合、期待、情绪各自测量",
+      "rejectOrStop": "同一偏好分数代全部认知或歌词准确",
+      "entryLinks": [
+        {
+          "label": "MC05/K17.02.01.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L9"
+        },
+        {
+          "label": "MC06/K17.02.02.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L10"
+        },
+        {
+          "label": "MC08/K17.02.04.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L12"
+        },
+        {
+          "label": "MC17/K17.05.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L5"
+        },
+        {
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 13,
+        "row": "| 目标分离 | 旋律保持物理事件K01/K13；同步、记忆、契合、期待、情绪各自测量 | 同一偏好分数代全部认知或歌词准确 | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9)；[MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10)；[MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12)；[MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-MC17"
+    },
+    {
+      "caseId": "STAGE-02",
+      "stage": "方案与刺激",
+      "conditions": "设计匹配刺激/指令/顺序/时基及暴露记录，旧新任务和目标身份分开",
+      "rejectOrStop": "同轮廓自动判旧；同时改音量和调性归一因素",
+      "entryLinks": [
+        {
+          "label": "MC09/K17.03.01.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L13"
+        },
+        {
+          "label": "MC11/K17.03.03.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L15"
+        },
+        {
+          "label": "MC13/K17.04.01.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L17"
+        },
+        {
+          "label": "MC25/K17.07.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L13"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 14,
+        "row": "| 方案与刺激 | 设计匹配刺激/指令/顺序/时基及暴露记录，旧新任务和目标身份分开 | 同轮廓自动判旧；同时改音量和调性归一因素 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15)；[MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-MC17"
+    },
+    {
+      "caseId": "STAGE-03",
+      "stage": "分析",
+      "conditions": "合成时间戳、命中/虚报、熵/信息量、配对差值及独立人数",
+      "rejectOrStop": "分母为空、极端率、伪重复、超出有限统计表不得填0",
+      "entryLinks": [
+        {
+          "label": "MC01/K17.01.01.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L5"
+        },
+        {
+          "label": "MC04/K17.01.04.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L8"
+        },
+        {
+          "label": "MC10/K17.03.02.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L14"
+        },
+        {
+          "label": "MC14/K17.04.02.01",
+          "uri": "music-cognition-r1-knowledge-cases.md#L18"
+        },
+        {
+          "label": "MC26/K17.07.02.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L14"
+        },
+        {
+          "label": "MC27/K17.07.03.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L15"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 15,
+        "row": "| 分析 | 合成时间戳、命中/虚报、熵/信息量、配对差值及独立人数 | 分母为空、极端率、伪重复、超出有限统计表不得填0 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8)；[MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14)；[MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18)；[MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14)；[MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-MC17"
+    },
+    {
+      "caseId": "STAGE-04",
+      "stage": "解释与外推",
+      "conditions": "记录目标语言、样本、文化经验、任务及替代机制；区别实证与模型",
+      "rejectOrStop": "Tsimane'或39组替代目标缅语听者；生理反应当诊断",
+      "entryLinks": [
+        {
+          "label": "MC18/K17.05.02.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L6"
+        },
+        {
+          "label": "MC19/K17.05.03.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L7"
+        },
+        {
+          "label": "MC21/K17.06.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L9"
+        },
+        {
+          "label": "MC22/K17.06.02.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L10"
+        },
+        {
+          "label": "MC23/K17.06.03.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L11"
+        },
+        {
+          "label": "MC28/K17.07.04.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L16"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 16,
+        "row": "| 解释与外推 | 记录目标语言、样本、文化经验、任务及替代机制；区别实证与模型 | Tsimane'或39组替代目标缅语听者；生理反应当诊断 | [MC18/K17.05.02.01](music-cognition-r2-knowledge-cases.md#L6)；[MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7)；[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-MC17"
+    },
+    {
+      "caseId": "STAGE-05",
+      "stage": "版本/复核",
+      "conditions": "每项刺激/曝光/标签/任务/样本/分析改变，旧结果保留但不可沿用；此固定场景新身份需新合格见证",
+      "rejectOrStop": "新报告封套不能使新刺激在原固定案例内通过",
+      "entryLinks": [
+        {
+          "label": "MC25/K17.07.01.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L13"
+        },
+        {
+          "label": "MC29/K17.07.05.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L17"
+        },
+        {
+          "label": "MC30/K17.07.06.01",
+          "uri": "music-cognition-r2-knowledge-cases.md#L18"
+        }
+      ],
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 17,
+        "row": "| 版本/复核 | 每项刺激/曝光/标签/任务/样本/分析改变，旧结果保留但不可沿用；此固定场景新身份需新合格见证 | 新报告封套不能使新刺激在原固定案例内通过 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17)；[MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) |"
+      },
+      "status": "FINITE_SYNTHETIC_OR_RESEARCH_SCOPE_ONLY",
+      "scenarioId": "KC-MC17"
+    }
+  ],
+  "history": [],
+  "scenario": {
+    "id": "KC-MC17",
+    "project": "J",
+    "baselineIdentity": {
+      "task": "old-new",
+      "stimulus": "SET-A@1",
+      "items": "A-B-C-D",
+      "exposure": "EX1",
+      "labels": "L1",
+      "clock": "T1",
+      "instructions": "I1",
+      "presentation": "P1",
+      "sample": "SYNTHETIC-SAMPLE-1",
+      "analysis": "AN1",
+      "metric": "SDT-fixed"
+    },
+    "report": {
+      "identity": {
+        "task": "old-new",
+        "stimulus": "SET-A@1",
+        "items": "A-B-C-D",
+        "exposure": "EX1",
+        "labels": "L1",
+        "clock": "T1",
+        "instructions": "I1",
+        "presentation": "P1",
+        "sample": "SYNTHETIC-SAMPLE-1",
+        "analysis": "AN1",
+        "metric": "SDT-fixed"
+      },
+      "source": "synthetic",
+      "observed": false,
+      "complete": true
+    },
+    "conditions": {
+      "syntheticOnly": true,
+      "actualParticipants": false,
+      "controlMatched": true,
+      "currentEvidence": true
+    },
+    "realParticipantsAllowed": false,
+    "realAudioAllowed": false,
+    "clinicalResearchAllowed": false,
+    "recordingAllowed": false,
+    "dataCollectionAllowed": false,
+    "realPermission": "UNKNOWN",
+    "realEquipment": "UNKNOWN",
+    "realSafety": "UNKNOWN",
+    "gateStates": {
+      "finitePass": "SYNTHETIC_ANALYSIS_ONLY",
+      "mismatch": "PENDING"
+    },
+    "anchors": [
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 10,
+        "row": "合成研究J，要求为K13同旋律适配提供研究问题与可编辑方案，不制作或播放任何实际音乐。固定题设SET-A@1，旧新项目/曝光EX1、标签L1、时钟T1、指令I1、呈现P1、合成样本SYNTHETIC-SAMPLE-1、分析AN1与SDT-fixed。原候选只允许合成演算，任何实际参与者、临床研究、录音、数据收集未批准，真实听众/真实许可/设备/现场安全保持未知。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 17,
+        "row": "| 版本/复核 | 每项刺激/曝光/标签/任务/样本/分析改变，旧结果保留但不可沿用；此固定场景新身份需新合格见证 | 新报告封套不能使新刺激在原固定案例内通过 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17)；[MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) |"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 18,
+        "row": "上述为认知研究条件，不代K10质量评估与真实招募/评价、K13词曲适配、K14教学结果、K16文化史与语境、K07安全/声学、K12执行和K15伦理权利资料。无音频、人类试验、临床诊断、真实听者结论或神经活动测量。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 21,
+        "row": "固定原创合成对象；不构造通用心理统计工具或真实伦理/授权门禁。分位数是预先给定标准正态数值；时间配对为题设，不能从两个未校准时间列自动确定配对。研究gate只准合成分析，不代表任何真实实验通过。来源S600资格谓词只是固定已读摘要的题设元组，不是自动事实抽取。"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 41,
+        "row": " function researchGate(candidate,rep,conditions){"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 43,
+        "row": "   if(!conditions||conditions.syntheticOnly!==true||conditions.actualParticipants!==false||conditions.controlMatched!==true||conditions.currentEvidence!==true)return \"PENDING\";"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 44,
+        "row": "   return \"SYNTHETIC_ANALYSIS_ONLY\";"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 45,
+        "row": " }"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 46,
+        "row": " const cond={syntheticOnly:true,actualParticipants:false,controlMatched:true,currentEvidence:true};"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 75,
+        "row": " [\"every candidate identity change with new envelope refuses\",keys.every(k=>{const c={...base,[k]:\"changed\"};return researchGate(c,{...report,identity:{...c}},cond)===\"PENDING\"})],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 76,
+        "row": " [\"every stale report field refuses\",keys.every(k=>researchGate(base,{...report,identity:{...base,[k]:\"changed\"}},cond)===\"PENDING\")],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 77,
+        "row": " [\"missing candidate or report identity refuses\",keys.every(k=>{const c={...base};delete c[k];return researchGate(c,report,cond)===\"PENDING\"&&researchGate(base,{...report,identity:c},cond)===\"PENDING\"})],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 78,
+        "row": " [\"unknown controls or evidence refuses\",[\"controlMatched\",\"currentEvidence\",\"syntheticOnly\"].every(k=>researchGate(base,report,{...cond,[k]:null})===\"PENDING\")],"
+      },
+      {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r4-integrated-closure.md",
+        "blob": "44672a638515228ffd8f328d120858b9a94af208",
+        "line": 79,
+        "row": " [\"actual people not allowed by synthetic fixture\",researchGate(base,report,{...cond,actualParticipants:true})===\"PENDING\"&&researchGate(base,{...report,observed:true},cond)===\"PENDING\"],"
+      }
+    ]
+  }
+}

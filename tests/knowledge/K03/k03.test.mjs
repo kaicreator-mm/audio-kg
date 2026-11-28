@@ -33,6 +33,11 @@ t('source registry and canonical reuse',prov.sources.every(s=>anchor(s.anchor)&&
 t('qualified hard dependency obligations',pack.edges.filter(e=>e.type==='requires').length===manifest.obligations.length&&pack.edges.every(e=>all.has(e.from)&&all.has(e.to)));
 t('exact integrated closure bytes',gitBlob(fs.readFileSync(ledger.integratedClosure.file))===ledger.integratedClosure.blob);
 t('all domain workflow targets resolved',domain.workflows.length===new Set(ledger.rows.map(r=>r.d4.split('.').slice(0,2).join('.'))).size&&domain.workflows.every(w=>w.status==='SYNTHETIC_ONLY'&&w.steps.length>=3&&w.cases.every(c=>ledger.rows.some(r=>r.caseId===c))&&w.claimRefs.every(c=>records.has(c))&&w.external==='UNKNOWN_NOT_EXECUTED'));
+const s340='https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_2e_(Gotham_et_al.)/01%3A_Fundamentals/1.20%3A_Texture';
+const s340Record=pack.records.find(r=>r.type==='Source'&&r.id==='S340');
+const s340Prov=prov.sources.find(r=>r.sourceId==='S340');
+const s340Qualification=manifest.sourceQualifications.find(r=>r.source==='S340@1');
+t('shared F00 Markdown parser preserves S340 balanced-parenthesis URL',s340Record.uri===s340&&s340Prov.allRegisteredLinks.some(x=>x.uri===s340)&&s340Qualification.accessedUri===s340&&ledger.rows.flatMap(r=>r.sourceRoutes).filter(r=>r.sourceId==='S340').every(r=>r.registeredLinks.some(x=>x.uri===s340)));
 const supplemental=read('sources/K03/supplemental-routes.json');
 t('qualified alias/internal routes no direct source promotion',supplemental.routes.length===4&&supplemental.routes.filter(r=>r.canonicalSource).every(r=>anchor(r.canonicalAnchor)&&all.has(r.canonicalSource)&&r.method.every(x=>anchor(x.anchor))&&!records.has('K03-CL-'+r.caseId+'@1'))&&supplemental.routes.filter(r=>r.sourceAnchor).every(r=>anchor(r.sourceAnchor)&&anchor(r.caseAnchor))&&['S341','S358','S362','S363','S374','S375'].every(id=>!records.has(id+'@1')));
 checks(t);

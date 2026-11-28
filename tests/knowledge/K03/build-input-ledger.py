@@ -32,7 +32,7 @@ for i,l in enumerate(lines(disc),1):
  droles=ds.split('/');sroles=ss.split('/');assert all(re.fullmatch('CQ(?:0[1-9]|1[0-9]|2[0-6])',x) for x in droles+sroles);assert len(droles+sroles)==len(set(droles+sroles)),(d,droles,sroles)
  refs=[];no=[]
  for sid_,file,line in re.findall(r'\[(S\d{3})\]\(\.\./\.\./research/([^)#]+)#L(\d+)\)',sourceLinks):
-  sf=res+file;sa=anc(sf,int(line));assert re.search(r'\b'+sid_+r'\b',sa['row']),(d,sid_,sa);urls=re.findall(r'\[([^]]+)\]\((https?://[^)\s]+)\)',sa['row']);provider=sourceProviders.get(sid_)
+  sf=res+file;sa=anc(sf,int(line));assert re.search(r'\b'+sid_+r'\b',sa['row']),(d,sid_,sa);urls=re.findall(r'\[([^]]+)\]\((https?://(?:[^()\s]|\([^()\s]*\))+)\)',sa['row']);provider=sourceProviders.get(sid_)
   # Record exact original qualification; no assumed same-publication identity if URIs differ.
   route=dict(sourceId=sid_,anchor=sa,registeredLinks=[dict(title=t,uri=u) for t,u in urls],sharedProvider=provider,role='FROZEN_LOCATOR_ONLY')
   refs.append(route);sourceUse[sid_].append((d,sa['file'],sa['line']))

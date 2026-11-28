@@ -1,0 +1,534 @@
+{
+  "status": "CONDITIONAL_DISCOVERY_ONLY",
+  "questions": [
+    {
+      "id": "CQ01",
+      "type": "S",
+      "question": "音程/轮廓/调性知觉条件，计算K01",
+      "scope": "音程/轮廓/调性知觉条件，计算K01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 38,
+        "row": "| CQ01 | S | 音程/轮廓/调性知觉条件，计算K01 | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9)；[MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10) |"
+      }
+    },
+    {
+      "id": "CQ02",
+      "type": "S",
+      "question": "调性契合与语境；形式规则K01",
+      "scope": "调性契合与语境；形式规则K01",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 39,
+        "row": "| CQ02 | S | 调性契合与语境；形式规则K01 | [MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10)；[MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11)；[MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12) |"
+      }
+    },
+    {
+      "id": "CQ03",
+      "type": "S",
+      "question": "刺激音色/注意条件，配器K03",
+      "scope": "刺激音色/注意条件，配器K03",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 40,
+        "row": "| CQ03 | S | 刺激音色/注意条件，配器K03 | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) |"
+      }
+    },
+    {
+      "id": "CQ04",
+      "type": "S",
+      "question": "语种及经验外推，音节对齐K13",
+      "scope": "语种及经验外推，音节对齐K13",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 41,
+        "row": "| CQ04 | S | 语种及经验外推，音节对齐K13 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) |"
+      }
+    },
+    {
+      "id": "CQ05",
+      "type": "O",
+      "question": "生理与声学K05/K07",
+      "scope": "生理与声学K05/K07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 42,
+        "row": "| CQ05 | O | 生理与声学K05/K07 | 无K17主答案 |"
+      }
+    },
+    {
+      "id": "CQ06",
+      "type": "S",
+      "question": "动作时差与感知机制非诊断，K06/K07",
+      "scope": "动作时差与感知机制非诊断，K06/K07",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 43,
+        "row": "| CQ06 | S | 动作时差与感知机制非诊断，K06/K07 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) |"
+      }
+    },
+    {
+      "id": "CQ07",
+      "type": "O",
+      "question": "信号分析K07/K08",
+      "scope": "信号分析K07/K08",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 44,
+        "row": "| CQ07 | O | 信号分析K07/K08 | 无K17主答案 |"
+      }
+    },
+    {
+      "id": "CQ08",
+      "type": "O",
+      "question": "数字电平与音频规范K08/K09",
+      "scope": "数字电平与音频规范K08/K09",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 45,
+        "row": "| CQ08 | O | 数字电平与音频规范K08/K09 | 无K17主答案 |"
+      }
+    },
+    {
+      "id": "CQ09",
+      "type": "O",
+      "question": "模型选型K11/K12",
+      "scope": "模型选型K11/K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 46,
+        "row": "| CQ09 | O | 模型选型K11/K12 | 无K17主答案 |"
+      }
+    },
+    {
+      "id": "CQ10",
+      "type": "O",
+      "question": "分离修复K08/K12",
+      "scope": "分离修复K08/K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 47,
+        "row": "| CQ10 | O | 分离修复K08/K12 | 无K17主答案 |"
+      }
+    },
+    {
+      "id": "CQ11",
+      "type": "D",
+      "question": "偏好/观察/模型与实证机制分层",
+      "scope": "偏好/观察/模型与实证机制分层",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 48,
+        "row": "| CQ11 | D | 偏好/观察/模型与实证机制分层 | [MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12)；[MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10) |"
+      }
+    },
+    {
+      "id": "CQ12",
+      "type": "S",
+      "question": "本地化人群与测试目标；生产K13/K15",
+      "scope": "本地化人群与测试目标；生产K13/K15",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 49,
+        "row": "| CQ12 | S | 本地化人群与测试目标；生产K13/K15 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13) |"
+      }
+    },
+    {
+      "id": "CQ13",
+      "type": "D",
+      "question": "实证方法、限定来源和对照、版本",
+      "scope": "实证方法、限定来源和对照、版本",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 50,
+        "row": "| CQ13 | D | 实证方法、限定来源和对照、版本 | [MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11)；[MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) |"
+      }
+    },
+    {
+      "id": "CQ14",
+      "type": "S",
+      "question": "模型历史/工具资格，实际版本K12",
+      "scope": "模型历史/工具资格，实际版本K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 51,
+        "row": "| CQ14 | S | 模型历史/工具资格，实际版本K12 | [MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19)；[MC16/K17.04.04.01](music-cognition-r1-knowledge-cases.md#L20) |"
+      }
+    },
+    {
+      "id": "CQ15",
+      "type": "S",
+      "question": "识别/保持与训练外推，教学K14",
+      "scope": "识别/保持与训练外推，教学K14",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 52,
+        "row": "| CQ15 | S | 识别/保持与训练外推，教学K14 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13)；[MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |"
+      }
+    },
+    {
+      "id": "CQ16",
+      "type": "O",
+      "question": "音频编辑K09/K12；研究版本不代工程",
+      "scope": "音频编辑K09/K12；研究版本不代工程",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 53,
+        "row": "| CQ16 | O | 音频编辑K09/K12；研究版本不代工程 | 无K17主答案 |"
+      }
+    },
+    {
+      "id": "CQ17",
+      "type": "D",
+      "question": "模型假设、统计与经验非规范",
+      "scope": "模型假设、统计与经验非规范",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 54,
+        "row": "| CQ17 | D | 模型假设、统计与经验非规范 | [MC02/K17.01.02.01](music-cognition-r1-knowledge-cases.md#L6)；[MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18)；[MC18/K17.05.02.01](music-cognition-r2-knowledge-cases.md#L6)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) |"
+      }
+    },
+    {
+      "id": "CQ18",
+      "type": "S",
+      "question": "跨文化比较不能替代本土田野K16",
+      "scope": "跨文化比较不能替代本土田野K16",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 55,
+        "row": "| CQ18 | S | 跨文化比较不能替代本土田野K16 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11) |"
+      }
+    },
+    {
+      "id": "CQ19",
+      "type": "S",
+      "question": "认知实验的流程/停止，生产流程其他owner",
+      "scope": "认知实验的流程/停止，生产流程其他owner",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 56,
+        "row": "| CQ19 | S | 认知实验的流程/停止，生产流程其他owner | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17)；[MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) |"
+      }
+    },
+    {
+      "id": "CQ20",
+      "type": "S",
+      "question": "分析工具输入与模型范围K12",
+      "scope": "分析工具输入与模型范围K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 57,
+        "row": "| CQ20 | S | 分析工具输入与模型范围K12 | [MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19)；[MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14) |"
+      }
+    },
+    {
+      "id": "CQ21",
+      "type": "D",
+      "question": "刺激、条件、样本和报告证据状态（仅研究）",
+      "scope": "刺激、条件、样本和报告证据状态（仅研究）",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 58,
+        "row": "| CQ21 | D | 刺激、条件、样本和报告证据状态（仅研究） | [MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15)；[MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) |"
+      }
+    },
+    {
+      "id": "CQ22",
+      "type": "D",
+      "question": "机制证据与偏好/报告、统计限定；K10评价协议",
+      "scope": "机制证据与偏好/报告、统计限定；K10评价协议",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 59,
+        "row": "| CQ22 | D | 机制证据与偏好/报告、统计限定；K10评价协议 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8)；[MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10)；[MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) |"
+      }
+    },
+    {
+      "id": "CQ23",
+      "type": "O",
+      "question": "WAV/stem/MIDI等交付物K01/K08/K09/K12",
+      "scope": "WAV/stem/MIDI等交付物K01/K08/K09/K12",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 60,
+        "row": "| CQ23 | O | WAV/stem/MIDI等交付物K01/K08/K09/K12 | 无K17主答案 |"
+      }
+    },
+    {
+      "id": "CQ24",
+      "type": "S",
+      "question": "实验混杂、遗漏、重验，业务闭环其他域",
+      "scope": "实验混杂、遗漏、重验，业务闭环其他域",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 61,
+        "row": "| CQ24 | S | 实验混杂、遗漏、重验，业务闭环其他域 | [MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8)；[MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17)；[MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) |"
+      }
+    },
+    {
+      "id": "CQ25",
+      "type": "D",
+      "question": "综合认知案例来源/条件与结果",
+      "scope": "综合认知案例来源/条件与结果",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 62,
+        "row": "| CQ25 | D | 综合认知案例来源/条件与结果 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13)；[MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) |"
+      }
+    },
+    {
+      "id": "CQ26",
+      "type": "D",
+      "question": "任务/经验、目标样本与外推拒绝",
+      "scope": "任务/经验、目标样本与外推拒绝",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 63,
+        "row": "| CQ26 | D | 任务/经验、目标样本与外推拒绝 | [MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11)；[MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11)；[MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) |"
+      }
+    }
+  ],
+  "localQuestions": [
+    {
+      "id": "CQ-K17-01",
+      "question": "平均异步0是否完全同步？",
+      "caseIds": [
+        "MC01",
+        "MC04"
+      ],
+      "limits": "偏向、绝对误差、配对",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 67,
+        "row": "| CQ-K17-01 | 平均异步0是否完全同步？ | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5)；[MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) | 偏向、绝对误差、配对 |"
+      }
+    },
+    {
+      "id": "CQ-K17-02",
+      "question": "轮廓相同能否断言识别？",
+      "caseIds": [
+        "MC05",
+        "MC09"
+      ],
+      "limits": "物理关系不等行为",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 68,
+        "row": "| CQ-K17-02 | 轮廓相同能否断言识别？ | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9)；[MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13) | 物理关系不等行为 |"
+      }
+    },
+    {
+      "id": "CQ-K17-03",
+      "question": "人工音流学习可否推新调性？",
+      "caseIds": [
+        "MC07"
+      ],
+      "limits": "材料与任务",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 69,
+        "row": "| CQ-K17-03 | 人工音流学习可否推新调性？ | [MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11) | 材料与任务 |"
+      }
+    },
+    {
+      "id": "CQ-K17-04",
+      "question": "全答旧能否高敏感度？",
+      "caseIds": [
+        "MC10",
+        "MC11"
+      ],
+      "limits": "命中与虚报分母",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 70,
+        "row": "| CQ-K17-04 | 全答旧能否高敏感度？ | [MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14)；[MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15) | 命中与虚报分母 |"
+      }
+    },
+    {
+      "id": "CQ-K17-05",
+      "question": "立即高分可否推延迟保持？",
+      "caseIds": [
+        "MC12"
+      ],
+      "limits": "延迟/曝光及对照",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 71,
+        "row": "| CQ-K17-05 | 立即高分可否推延迟保持？ | [MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) | 延迟/曝光及对照 |"
+      }
+    },
+    {
+      "id": "CQ-K17-06",
+      "question": "漏报是否听不见？",
+      "caseIds": [
+        "MC13"
+      ],
+      "limits": "注意和报告不是诊断",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 72,
+        "row": "| CQ-K17-06 | 漏报是否听不见？ | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17) | 注意和报告不是诊断 |"
+      }
+    },
+    {
+      "id": "CQ-K17-07",
+      "question": "熵与惊讶度是否同义？",
+      "caseIds": [
+        "MC14",
+        "MC15"
+      ],
+      "limits": "分布/事件与未来泄漏",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 73,
+        "row": "| CQ-K17-07 | 熵与惊讶度是否同义？ | [MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18)；[MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19) | 分布/事件与未来泄漏 |"
+      }
+    },
+    {
+      "id": "CQ-K17-08",
+      "question": "情绪表达等于诱发情绪吗？",
+      "caseIds": [
+        "MC17",
+        "MC18"
+      ],
+      "limits": "测量与机制",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 74,
+        "row": "| CQ-K17-08 | 情绪表达等于诱发情绪吗？ | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5)；[MC18/K17.05.02.01](music-cognition-r2-knowledge-cases.md#L6) | 测量与机制 |"
+      }
+    },
+    {
+      "id": "CQ-K17-09",
+      "question": "心率/寒颤可以直接推多巴胺吗？",
+      "caseIds": [
+        "MC19",
+        "MC20"
+      ],
+      "limits": "不同方法、筛选",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 75,
+        "row": "| CQ-K17-09 | 心率/寒颤可以直接推多巴胺吗？ | [MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7)；[MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) | 不同方法、筛选 |"
+      }
+    },
+    {
+      "id": "CQ-K17-10",
+      "question": "39组可否代表所有文化？",
+      "caseIds": [
+        "MC21",
+        "MC23"
+      ],
+      "limits": "样本单位/经验",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 76,
+        "row": "| CQ-K17-10 | 39组可否代表所有文化？ | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9)；[MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11) | 样本单位/经验 |"
+      }
+    },
+    {
+      "id": "CQ-K17-11",
+      "question": "重复试次可否充当独立人？",
+      "caseIds": [
+        "MC26",
+        "MC27"
+      ],
+      "limits": "配对/层级",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 77,
+        "row": "| CQ-K17-11 | 重复试次可否充当独立人？ | [MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14)；[MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15) | 配对/层级 |"
+      }
+    },
+    {
+      "id": "CQ-K17-12",
+      "question": "不显著就是等效吗？",
+      "caseIds": [
+        "MC28",
+        "MC29"
+      ],
+      "limits": "区间及当前协议",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+        "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+        "line": 78,
+        "row": "| CQ-K17-12 | 不显著就是等效吗？ | [MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16)；[MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) | 区间及当前协议 |"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "suite": "F00_MODULE_CQ_ROLE",
+  "checks": 15,
+  "passed": 15,
+  "results": [
+    [
+      "K10 frozen D/S role mapping matches all module D4 rows",
+      true
+    ],
+    [
+      "K10 direct CQ retrieval never promotes support-only assignments",
+      true
+    ],
+    [
+      "K10 all 26 CQ result sets equal frozen direct assignments",
+      true
+    ],
+    [
+      "K15 frozen D/S role mapping matches all module D4 rows",
+      true
+    ],
+    [
+      "K15 direct CQ retrieval never promotes support-only assignments",
+      true
+    ],
+    [
+      "K15 all 26 CQ result sets equal frozen direct assignments",
+      true
+    ],
+    [
+      "K15 optional O rows remain navigation-only and targetless",
+      true
+    ],
+    [
+      "K11 exact frozen D/S/O matrix and all 26 direct-query result sets",
+      true
+    ],
+    [
+      "K11 candidate graph, source qualifications, history and capability boundaries",
+      true
+    ],
+    [
+      "K16 exact frozen D/S/O matrix and all 26 direct-query result sets",
+      true
+    ],
+    [
+      "K16 candidate graph, source qualifications, history and capability boundaries",
+      true
+    ],
+    [
+      "K17 exact frozen D/S/O matrix and all 26 direct-query result sets",
+      true
+    ],
+    [
+      "K17 candidate graph, source qualifications, history and capability boundaries",
+      true
+    ],
+    [
+      "F00 R2 arbitrary empty direct CQ is rejected",
+      true
+    ],
+    [
+      "F00 R2 support-only CQ cannot be promoted into direct Claim.cq",
+      true
+    ]
+  ]
+}

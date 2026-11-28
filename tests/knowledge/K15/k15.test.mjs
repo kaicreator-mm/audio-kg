@@ -220,4 +220,20 @@ if(m==='K15'){
  });
 }
 for(const [name,ok] of methodChecks)t('finite domain witness: '+name,()=>assert.ok(ok));
+t('P2-W5-01 DDEX balanced-parenthesis source URLs round-trip exactly',()=>{
+ const rin='https://kb.ddex.net/implementing-each-standard/recording-information-notification-(rin)/rin-explained/structure-of-rin/';
+ const ern='https://kb.ddex.net/implementing-each-standard/electronic-release-notification-message-suite-(ern)/ern-4-explained/ern-4-structure/';
+ const sourceMap=new Map(pack.records.filter(r=>r.type==='Source').map(r=>[r.id,r]));
+ assert.equal(sourceMap.get('S564').uri,'https://rin.ddex.net/recording-information-notification/');
+ assert.equal(sourceMap.get('S565').uri,ern);
+ const pmap=new Map(provenance.sources.map(r=>[r.sourceId,r]));
+ assert.ok(pmap.get('S564').allRegisteredLinks.some(x=>x.uri===rin));
+ assert.ok(pmap.get('S565').allRegisteredLinks.some(x=>x.uri===ern));
+ const qmap=new Map(manifest.sourceQualifications.map(r=>[r.source,r]));
+ assert.equal(qmap.get('S565@1').accessedUri,ern);
+ const register=fs.readFileSync('sources/K15/source-register.md','utf8');
+ assert.ok(register.includes(ern)&&register.includes(rin));
+ for(const r of ledger.rows.flatMap(x=>x.sourceRoutes).filter(x=>['S564','S565'].includes(x.sourceId)))assert.ok(r.registeredLinks.some(x=>x.uri===(r.sourceId==='S564'?rin:ern)));
+ assert.ok(!register.includes('message-suite-(ern |'));
+});
 console.log(JSON.stringify({module:m,checks:results.length,passed:results.length,results},null,2));

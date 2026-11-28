@@ -1,0 +1,935 @@
+{
+  "format": "audio-kg-K17-provenance/1",
+  "status": "CANDIDATE_NOT_ADMITTED",
+  "frozenCommit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+  "sources": [
+    {
+      "sourceId": "S587",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 5,
+        "row": "| S587 | Repp 2005 [Sensorimotor synchronization: a review of the tapping literature](https://pubmed.ncbi.nlm.nih.gov/16615317/) L238–240 | ABSTRACT_ONLY；敲击、负平均异步、变异、相位/周期校正的理论区分，未读完整综述，不由行为单独定脑机制。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Sensorimotor synchronization: a review of the tapping literature",
+          "uri": "https://pubmed.ncbi.nlm.nih.gov/16615317/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.01.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 5,
+            "row": "| K17.01.01.01 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5) | [S587](../../research/source-qualification-music-cognition-r1-r2.md#L5)；[S588](../../research/source-qualification-music-cognition-r1-r2.md#L6) | 外部事件t=[0,500,1000]ms，敲击r=[-20,490,980]ms，已配对同钟，异步r−t=[-20,-10,-20]ms，均值−16.67ms；负号表示提前。 |"
+          }
+        },
+        {
+          "d4": "K17.01.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 6,
+            "row": "| K17.01.02.01 | [MC02/K17.01.02.01](music-cognition-r1-knowledge-cases.md#L6) | [S587](../../research/source-qualification-music-cognition-r1-r2.md#L5)；[S589](../../research/source-qualification-music-cognition-r1-r2.md#L7) | 题设节拍器单次相位移后恢复原周期；另一条件持续改变周期。相位调整与内部周期更新是不同模型机制，不能单一误差量识别。 |"
+          }
+        },
+        {
+          "d4": "K17.01.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 8,
+            "row": "| K17.01.04.01 | [MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) | [S587](../../research/source-qualification-music-cognition-r1-r2.md#L5)；[S588](../../research/source-qualification-music-cognition-r1-r2.md#L6) | 合成A误差[-30,30,-30,30]、B[-5,-5,5,5]均值0但平均绝对误差30/5ms；分开偏向和离散程度。 |"
+          }
+        }
+      ],
+      "scope": "| S587 | Repp 2005 [Sensorimotor synchronization: a review of the tapping literature](https://pubmed.ncbi.nlm.nih.gov/16615317/) L238–240 | ABSTRACT_ONLY；敲击、负平均异步、变异、相位/周期校正的理论区分，未读完整综述，不由行为单独定脑机制。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S588",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 6,
+        "row": "| S588 | Repp & Su 2013 [SMS review](https://link.springer.com/content/pdf/10.3758/s13423-012-0371-2.pdf) 零基0截图（印403）及L13–14 | READ_LOCATOR_LIMITED；综述外部节奏与运动同步、敲击/其他动作/人际/神经研究范围，不替代原2005全文，不从综述入口判效应量。PubMed入口验证壳。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "SMS review",
+          "uri": "https://link.springer.com/content/pdf/10.3758/s13423-012-0371-2.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.01.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 5,
+            "row": "| K17.01.01.01 | [MC01/K17.01.01.01](music-cognition-r1-knowledge-cases.md#L5) | [S587](../../research/source-qualification-music-cognition-r1-r2.md#L5)；[S588](../../research/source-qualification-music-cognition-r1-r2.md#L6) | 外部事件t=[0,500,1000]ms，敲击r=[-20,490,980]ms，已配对同钟，异步r−t=[-20,-10,-20]ms，均值−16.67ms；负号表示提前。 |"
+          }
+        },
+        {
+          "d4": "K17.01.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 7,
+            "row": "| K17.01.03.01 | [MC03/K17.01.03.01](music-cognition-r1-knowledge-cases.md#L7) | [S588](../../research/source-qualification-music-cognition-r1-r2.md#L6)；[S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 外部刺激间隔[250,250,500]ms可按和归一为[.25,.25,.5]；再现任务估计比率偏向，敲击同步测时差，两问题不同。 |"
+          }
+        },
+        {
+          "d4": "K17.01.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 8,
+            "row": "| K17.01.04.01 | [MC04/K17.01.04.01](music-cognition-r1-knowledge-cases.md#L8) | [S587](../../research/source-qualification-music-cognition-r1-r2.md#L5)；[S588](../../research/source-qualification-music-cognition-r1-r2.md#L6) | 合成A误差[-30,30,-30,30]、B[-5,-5,5,5]均值0但平均绝对误差30/5ms；分开偏向和离散程度。 |"
+          }
+        }
+      ],
+      "scope": "| S588 | Repp & Su 2013 [SMS review](https://link.springer.com/content/pdf/10.3758/s13423-012-0371-2.pdf) 零基0截图（印403）及L13–14 | READ_LOCATOR_LIMITED；综述外部节奏与运动同步、敲击/其他动作/人际/神经研究范围，不替代原2005全文，不从综述入口判效应量。PubMed入口验证壳。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S589",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 7,
+        "row": "| S589 | Repp, Keller & Jacoby 2012 [Quantifying phase correction](https://pubmed.ncbi.nlm.nih.gov/22305349/) L218–220/244 | ABSTRACT_ONLY；三类范式固定节拍器/相位扰动/适应节拍器，校正参数估计依范式与模型，未复核全文或报告具体参数。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Quantifying phase correction",
+          "uri": "https://pubmed.ncbi.nlm.nih.gov/22305349/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.01.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 6,
+            "row": "| K17.01.02.01 | [MC02/K17.01.02.01](music-cognition-r1-knowledge-cases.md#L6) | [S587](../../research/source-qualification-music-cognition-r1-r2.md#L5)；[S589](../../research/source-qualification-music-cognition-r1-r2.md#L7) | 题设节拍器单次相位移后恢复原周期；另一条件持续改变周期。相位调整与内部周期更新是不同模型机制，不能单一误差量识别。 |"
+          }
+        }
+      ],
+      "scope": "| S589 | Repp, Keller & Jacoby 2012 [Quantifying phase correction](https://pubmed.ncbi.nlm.nih.gov/22305349/) L218–220/244 | ABSTRACT_ONLY；三类范式固定节拍器/相位扰动/适应节拍器，校正参数估计依范式与模型，未复核全文或报告具体参数。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S590",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 8,
+        "row": "| S590 | Dowling 1978 [Scale and contour](https://bpb-us-e2.wpmucdn.com/labs.utdallas.edu/dist/f/100/files/2021/03/1978-2.pdf) 零基0截图（印341）及L6–16 | READ_LOCATOR_LIMITED；调性标准刺激与同轮廓比较的识别混淆，精确移调、调性应答与无调性条件不同；二成分模型为解释，不把历史理论泛化。文本提取作者误作Bowling，截图为Dowling。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Scale and contour",
+          "uri": "https://bpb-us-e2.wpmucdn.com/labs.utdallas.edu/dist/f/100/files/2021/03/1978-2.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.02.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 9,
+            "row": "| K17.02.01.01 | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9) | [S590](../../research/source-qualification-music-cognition-r1-r2.md#L8)；[S602](../../research/source-qualification-music-cognition-r1-r2.md#L20) | 音高序列A[60,62,61,65]，B[65,67,66,70]保留有符号音程[2,-1,4]；C[60,64,63,68]只同轮廓[+,-,+]。刺激关系不是已测识别率。 |"
+          }
+        },
+        {
+          "d4": "K17.03.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 13,
+            "row": "| K17.03.01.01 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13) | [S590](../../research/source-qualification-music-cognition-r1-r2.md#L8)；[S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S632](../../research/source-qualification-music-cognition-r1-r2.md#L21) | 题设学习列表含A而未含同轮廓C，识别A为旧是命中，称C为旧是虚报；自由回忆无项目特定提示，提示回忆则可在学习时建立提示与目标关联，测试给首动机并要求生成其余段，不是选择旧/新；两种回忆的提示与评分分别声明。 |"
+          }
+        },
+        {
+          "d4": "K17.03.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 15,
+            "row": "| K17.03.03.01 | [MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15) | [S590](../../research/source-qualification-music-cognition-r1-r2.md#L8)；[S593](../../research/source-qualification-music-cognition-r1-r2.md#L11) | 题设保持相同音程移调B与只保留轮廓C作为诱饵，旧新规则明确按是否真正呈现的确切项目；若目标改为移调等价，标签随协议重建。 |"
+          }
+        }
+      ],
+      "scope": "| S590 | Dowling 1978 [Scale and contour](https://bpb-us-e2.wpmucdn.com/labs.utdallas.edu/dist/f/100/files/2021/03/1978-2.pdf) 零基0截图（印341）及L6–16 | READ_LOCATOR_LIMITED；调性标准刺激与同轮廓比较的识别混淆，精确移调、调性应答与无调性条件不同；二成分模型为解释，不把历史理论泛化。文本提取作者误作Bowling，截图为Dowling。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S591",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 9,
+        "row": "| S591 | Sauvé, Satkunarajah & Zendel 2023 [Tracking emergence of a pitch hierarchy](https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2023.1027259/full) L269–300 | READ_LOCATOR；probe-tone方法、两种Bohlen–Pierce人工语法30分钟暴露前后结果未支持语法学习，延长暴露是作者建议。Krumhansl/Kessler1982原PubMed只有书目无摘要，方法属二手回顾。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Tracking emergence of a pitch hierarchy",
+          "uri": "https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2023.1027259/full"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.02.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 10,
+            "row": "| K17.02.02.01 | [MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10) | [S591](../../research/source-qualification-music-cognition-r1-r2.md#L9)；[S602](../../research/source-qualification-music-cognition-r1-r2.md#L20) | probe-tone范式先呈调性语境再单音，要求评契合而非美感；同一音在不同语境可获不同契合评分。 |"
+          }
+        },
+        {
+          "d4": "K17.02.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 11,
+            "row": "| K17.02.03.01 | [MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11) | [S591](../../research/source-qualification-music-cognition-r1-r2.md#L9)；[S592](../../research/source-qualification-music-cognition-r1-r2.md#L10) | 2023两种Bohlen–Pierce人工语法30min暴露前后相关结果未支持学习；1999人工音流分段任务不同。分别记录暴露、材料和结果。 |"
+          }
+        }
+      ],
+      "scope": "| S591 | Sauvé, Satkunarajah & Zendel 2023 [Tracking emergence of a pitch hierarchy](https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2023.1027259/full) L269–300 | READ_LOCATOR；probe-tone方法、两种Bohlen–Pierce人工语法30分钟暴露前后结果未支持语法学习，延长暴露是作者建议。Krumhansl/Kessler1982原PubMed只有书目无摘要，方法属二手回顾。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S592",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 10,
+        "row": "| S592 | Saffran等1999 [Statistical learning of tone sequences](https://infantlearning.waisman.wisc.edu/wp-content/uploads/sites/70/2017/02/Saffran_etal1999.pdf) L18–25；原地址零基0截图404，ScienceDirect403，PubMed壳；G04 [作者实验室替代PDF](https://infantlearning.waisman.wisc.edu/wp-content/uploads/sites/817/2017/02/Saffran_etal1999.pdf) 实际零基0截图（印27）及L17–22 | ABSTRACT_ONLY（替代定位已核摘要，历史TEXT_LOCATOR_LIMITED保留）；抽取摘要成人与8月龄婴儿对人工音流统计分段结果，S591 L297二手回顾成人任务；不证明通用音乐语法掌握或同一测试量表，不用未核图表。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Statistical learning of tone sequences",
+          "uri": "https://infantlearning.waisman.wisc.edu/wp-content/uploads/sites/70/2017/02/Saffran_etal1999.pdf"
+        },
+        {
+          "label": "作者实验室替代PDF",
+          "uri": "https://infantlearning.waisman.wisc.edu/wp-content/uploads/sites/817/2017/02/Saffran_etal1999.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.02.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 11,
+            "row": "| K17.02.03.01 | [MC07/K17.02.03.01](music-cognition-r1-knowledge-cases.md#L11) | [S591](../../research/source-qualification-music-cognition-r1-r2.md#L9)；[S592](../../research/source-qualification-music-cognition-r1-r2.md#L10) | 2023两种Bohlen–Pierce人工语法30min暴露前后相关结果未支持学习；1999人工音流分段任务不同。分别记录暴露、材料和结果。 |"
+          }
+        },
+        {
+          "d4": "K17.04.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 20,
+            "row": "| K17.04.04.01 | [MC16/K17.04.04.01](music-cognition-r1-knowledge-cases.md#L20) | [S595](../../research/source-qualification-music-cognition-r1-r2.md#L13)；[S592](../../research/source-qualification-music-cognition-r1-r2.md#L10) | 2012报告分组边界预测与人类/专家标注比较：1705德国民歌P=.76/R=.50，15陌生流行旋律25听者P=.57/R=.73；精确结果源表，模型非真值。 |"
+          }
+        }
+      ],
+      "scope": "| S592 | Saffran等1999 [Statistical learning of tone sequences](https://infantlearning.waisman.wisc.edu/wp-content/uploads/sites/70/2017/02/Saffran_etal1999.pdf) L18–25；原地址零基0截图404，ScienceDirect403，PubMed壳；G04 [作者实验室替代PDF](https://infantlearning.waisman.wisc.edu/wp-content/uploads/sites/817/2017/02/Saffran_etal1999.pdf) 实际零基0截图（印27）及L17–22 | ABSTRACT_ONLY（替代定位已核摘要，历史TEXT_LOCATOR_LIMITED保留）；抽取摘要成人与8月龄婴儿对人工音流统计分段结果，S591 L297二手回顾成人任务；不证明通用音乐语法掌握或同一测试量表，不用未核图表。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S593",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 11,
+        "row": "| S593 | [OECS Signal Detection Theory](https://oecs.mit.edu/pub/608a12kc/release/1/?readingCollection=9dd2a47d) L24–26/71–106/141/157–161 | READ_LOCATOR；旧新二分类的命中/虚报各自分母，等方差高斯SDT d'=z(H)-z(F)，极端率修正可选；本模块预先限定无边界修正则UNKNOWN，避免任意替代或无分母计算。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "OECS Signal Detection Theory",
+          "uri": "https://oecs.mit.edu/pub/608a12kc/release/1/?readingCollection=9dd2a47d"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.03.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 13,
+            "row": "| K17.03.01.01 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13) | [S590](../../research/source-qualification-music-cognition-r1-r2.md#L8)；[S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S632](../../research/source-qualification-music-cognition-r1-r2.md#L21) | 题设学习列表含A而未含同轮廓C，识别A为旧是命中，称C为旧是虚报；自由回忆无项目特定提示，提示回忆则可在学习时建立提示与目标关联，测试给首动机并要求生成其余段，不是选择旧/新；两种回忆的提示与评分分别声明。 |"
+          }
+        },
+        {
+          "d4": "K17.03.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 14,
+            "row": "| K17.03.02.01 | [MC10/K17.03.02.01](music-cognition-r1-knowledge-cases.md#L14) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11) | 题设40旧、40新，32命中、8虚报，H=.8,F=.2，等方差高斯d'约1.683；40旧40新全答旧H=F=1，不能直接求z。 |"
+          }
+        },
+        {
+          "d4": "K17.03.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 15,
+            "row": "| K17.03.03.01 | [MC11/K17.03.03.01](music-cognition-r1-knowledge-cases.md#L15) | [S590](../../research/source-qualification-music-cognition-r1-r2.md#L8)；[S593](../../research/source-qualification-music-cognition-r1-r2.md#L11) | 题设保持相同音程移调B与只保留轮廓C作为诱饵，旧新规则明确按是否真正呈现的确切项目；若目标改为移调等价，标签随协议重建。 |"
+          }
+        },
+        {
+          "d4": "K17.03.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 16,
+            "row": "| K17.03.04.01 | [MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设即刻识别30/40、7天后新匹配项目24/40；报告延迟、暴露和分母、是否相同或独立样本；不同题组难度需控制。 |"
+          }
+        },
+        {
+          "d4": "K17.07.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 29,
+            "row": "| K17.07.01.01 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S594](../../research/source-qualification-music-cognition-r1-r2.md#L12)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设研究冻结刺激ID及版本、真实标签、音量校准、播放链、注意任务指令、时点、随机顺序及量表；改变一个因素才解释其差异。 |"
+          }
+        },
+        {
+          "d4": "K17.07.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 31,
+            "row": "| K17.07.03.01 | [MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15) | [S601](../../research/source-qualification-music-cognition-r1-r2.md#L19)；[S593](../../research/source-qualification-music-cognition-r1-r2.md#L11) | 题设12人各20试次，240为试次并非240独立参与者；跨人/项目的依赖需相应设计和分析，退出和缺失需记录。 |"
+          }
+        },
+        {
+          "d4": "K17.07.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 33,
+            "row": "| K17.07.05.01 | [MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S595](../../research/source-qualification-music-cognition-r1-r2.md#L13)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 研究候选记录绑定刺激、目标、曝光、响应协议、时基、样本ID及分析版本；任何变化旧报告只作历史，不沿用对照。 |"
+          }
+        }
+      ],
+      "scope": "| S593 | [OECS Signal Detection Theory](https://oecs.mit.edu/pub/608a12kc/release/1/?readingCollection=9dd2a47d) L24–26/71–106/141/157–161 | READ_LOCATOR；旧新二分类的命中/虚报各自分母，等方差高斯SDT d'=z(H)-z(F)，极端率修正可选；本模块预先限定无边界修正则UNKNOWN，避免任意替代或无分母计算。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S594",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 12,
+        "row": "| S594 | Koreimann, Gula & Vitouch 2014 [Inattentional deafness in music](https://cognition.aau.at/download/Publikationen/Gula/Koreimann_etal_2014.pdf) 零基0截图（印304）L9–26 | READ_LOCATOR_LIMITED；计定音鼓vs只听，意外电吉他，研究1分析115人，研究2 47人更显著刺激；音乐经验未消除该效应。不是听力诊断或所有注意任务。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Inattentional deafness in music",
+          "uri": "https://cognition.aau.at/download/Publikationen/Gula/Koreimann_etal_2014.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.04.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 17,
+            "row": "| K17.04.01.01 | [MC13/K17.04.01.01](music-cognition-r1-knowledge-cases.md#L17) | [S594](../../research/source-qualification-music-cognition-r1-r2.md#L12) | 2014具名实验计数定音鼓与自由听，意外电吉他；两项研究分析115/47，第二项提高意外刺激显著性。聚焦任务可漏报意外事件。 |"
+          }
+        },
+        {
+          "d4": "K17.06.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 28,
+            "row": "| K17.06.04.01 | [MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) | [S594](../../research/source-qualification-music-cognition-r1-r2.md#L12)；[S598](../../research/source-qualification-music-cognition-r1-r2.md#L16)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设有训练组均值80、无训练组70，组内范围重叠；训练自选与年龄/熟悉度混杂，不能从组均值预测个体或训练因果。 |"
+          }
+        },
+        {
+          "d4": "K17.07.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 29,
+            "row": "| K17.07.01.01 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S594](../../research/source-qualification-music-cognition-r1-r2.md#L12)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设研究冻结刺激ID及版本、真实标签、音量校准、播放链、注意任务指令、时点、随机顺序及量表；改变一个因素才解释其差异。 |"
+          }
+        }
+      ],
+      "scope": "| S594 | Koreimann, Gula & Vitouch 2014 [Inattentional deafness in music](https://cognition.aau.at/download/Publikationen/Gula/Koreimann_etal_2014.pdf) 零基0截图（印304）L9–26 | READ_LOCATOR_LIMITED；计定音鼓vs只听，意外电吉他，研究1分析115人，研究2 47人更显著刺激；音乐经验未消除该效应。不是听力诊断或所有注意任务。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S595",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 13,
+        "row": "| S595 | Pearce & Wiggins 2012 [Auditory expectation](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1756-8765.2012.01214.x) L121–136/163/200–201/235–254 | READ_LOCATOR；信息量/预测熵、长期训练语料与当前旋律、当时单声部限制，分组预测与人工边界比较不完美；模型条件概率非个体脑状态。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Auditory expectation",
+          "uri": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1756-8765.2012.01214.x"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.02.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 12,
+            "row": "| K17.02.04.01 | [MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12) | [S595](../../research/source-qualification-music-cognition-r1-r2.md#L13)；[S602](../../research/source-qualification-music-cognition-r1-r2.md#L20) | 合成同一目标音在上下文A概率.5、B概率.125，模型预期不同；实际听者契合、反应时、命中各另测。 |"
+          }
+        },
+        {
+          "d4": "K17.04.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 18,
+            "row": "| K17.04.02.01 | [MC14/K17.04.02.01](music-cognition-r1-knowledge-cases.md#L18) | [S595](../../research/source-qualification-music-cognition-r1-r2.md#L13) | 题设P(A given c)=.5、P(B given c)=.25、P(C given c)=.25，A信息量1bit，B/C各2bit，预测熵1.5bit；信息量针对已发生事件，熵针对分布。 |"
+          }
+        },
+        {
+          "d4": "K17.04.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 19,
+            "row": "| K17.04.03.01 | [MC15/K17.04.03.01](music-cognition-r1-knowledge-cases.md#L19) | [S595](../../research/source-qualification-music-cognition-r1-r2.md#L13) | 2012 IDyOM长期语料与当前旋律短期上下文，预测分布结合；训练和测试材料必须记录，预测时不能读取未来。 |"
+          }
+        },
+        {
+          "d4": "K17.04.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 20,
+            "row": "| K17.04.04.01 | [MC16/K17.04.04.01](music-cognition-r1-knowledge-cases.md#L20) | [S595](../../research/source-qualification-music-cognition-r1-r2.md#L13)；[S592](../../research/source-qualification-music-cognition-r1-r2.md#L10) | 2012报告分组边界预测与人类/专家标注比较：1705德国民歌P=.76/R=.50，15陌生流行旋律25听者P=.57/R=.73；精确结果源表，模型非真值。 |"
+          }
+        },
+        {
+          "d4": "K17.07.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 33,
+            "row": "| K17.07.05.01 | [MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S595](../../research/source-qualification-music-cognition-r1-r2.md#L13)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 研究候选记录绑定刺激、目标、曝光、响应协议、时基、样本ID及分析版本；任何变化旧报告只作历史，不沿用对照。 |"
+          }
+        }
+      ],
+      "scope": "| S595 | Pearce & Wiggins 2012 [Auditory expectation](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1756-8765.2012.01214.x) L121–136/163/200–201/235–254 | READ_LOCATOR；信息量/预测熵、长期训练语料与当前旋律、当时单声部限制，分组预测与人工边界比较不完美；模型条件概率非个体脑状态。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S596",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 14,
+        "row": "| S596 | Juslin & Västfjäll 2008 [Emotional responses to music](https://pubmed.ncbi.nlm.nih.gov/18826699/) L240–242 | ABSTRACT_ONLY；作者提出认知评估之外六机制（脑干反射、评价条件化、情绪感染、意象、情景记忆、音乐期待），非穷尽或已证每次机制，区分机制假设与观测。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Emotional responses to music",
+          "uri": "https://pubmed.ncbi.nlm.nih.gov/18826699/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.05.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 21,
+            "row": "| K17.05.01.01 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5) | [S596](../../research/source-qualification-music-cognition-r1-r2.md#L14)；[S597](../../research/source-qualification-music-cognition-r1-r2.md#L15) | 题设听者报告音乐表达悲伤5/7，自己感到愉悦6/7，唤醒4/7；分开感知情绪、实际感受、偏好和生理指标。 |"
+          }
+        },
+        {
+          "d4": "K17.05.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 22,
+            "row": "| K17.05.02.01 | [MC18/K17.05.02.01](music-cognition-r2-knowledge-cases.md#L6) | [S596](../../research/source-qualification-music-cognition-r1-r2.md#L14) | 2008理论提出认知评估之外六机制；同一怀旧反应可能涉及情景记忆或期待，题设不能唯一判机制。 |"
+          }
+        },
+        {
+          "d4": "K17.05.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 24,
+            "row": "| K17.05.04.01 | [MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) | [S596](../../research/source-qualification-music-cognition-r1-r2.md#L14)；[S597](../../research/source-qualification-music-cognition-r1-r2.md#L15) | 题设峰值愉悦自报与皮电同时升高；这是不同测量相关，个体和乐曲熟悉性可影响。对照不完全匹配需保留。 |"
+          }
+        }
+      ],
+      "scope": "| S596 | Juslin & Västfjäll 2008 [Emotional responses to music](https://pubmed.ncbi.nlm.nih.gov/18826699/) L240–242 | ABSTRACT_ONLY；作者提出认知评估之外六机制（脑干反射、评价条件化、情绪感染、意象、情景记忆、音乐期待），非穷尽或已证每次机制，区分机制假设与观测。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S597",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 15,
+        "row": "| S597 | Salimpoor等2011 [Anatomically distinct dopamine release](https://www.zlab.mcgill.ca/publications/docs/salimpoor_2011_nn.pdf) 零基0/5截图（印257/262），L7–19/205–216；G04实际零基6 Online Methods截图 L742–771/790–816/826–855 | READ_LOCATOR；217应答、10入选、两PET数据因不适排除、分析8；PET愉悦音乐与中性音乐配体结合对比；fMRI一扫描终止，对比愉悦音乐内峰值/前15秒与中性评分时段（非中性音乐条件）；非逐时直接测多巴胺。自选刺激、PET对照匹配非完全；非日常个体、疗效或操控。Nature入口失败。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Anatomically distinct dopamine release",
+          "uri": "https://www.zlab.mcgill.ca/publications/docs/salimpoor_2011_nn.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.05.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 21,
+            "row": "| K17.05.01.01 | [MC17/K17.05.01.01](music-cognition-r2-knowledge-cases.md#L5) | [S596](../../research/source-qualification-music-cognition-r1-r2.md#L14)；[S597](../../research/source-qualification-music-cognition-r1-r2.md#L15) | 题设听者报告音乐表达悲伤5/7，自己感到愉悦6/7，唤醒4/7；分开感知情绪、实际感受、偏好和生理指标。 |"
+          }
+        },
+        {
+          "d4": "K17.05.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 23,
+            "row": "| K17.05.03.01 | [MC19/K17.05.03.01](music-cognition-r2-knowledge-cases.md#L7) | [S597](../../research/source-qualification-music-cognition-r1-r2.md#L15) | 2011初始217应答、筛选10、PET排除2后分析8；PET比较愉悦音乐与中性音乐的配体结合估计，fMRI比较愉悦音乐内峰值及其前15秒与中性评分时段（一扫描终止），非同一中性音乐对照。 |"
+          }
+        },
+        {
+          "d4": "K17.05.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 24,
+            "row": "| K17.05.04.01 | [MC20/K17.05.04.01](music-cognition-r2-knowledge-cases.md#L8) | [S596](../../research/source-qualification-music-cognition-r1-r2.md#L14)；[S597](../../research/source-qualification-music-cognition-r1-r2.md#L15) | 题设峰值愉悦自报与皮电同时升高；这是不同测量相关，个体和乐曲熟悉性可影响。对照不完全匹配需保留。 |"
+          }
+        },
+        {
+          "d4": "K17.07.06.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 34,
+            "row": "| K17.07.06.01 | [MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) | [S601](../../research/source-qualification-music-cognition-r1-r2.md#L19)；[S597](../../research/source-qualification-music-cognition-r1-r2.md#L15) | 题设仅允许合成资料分析，真实人类参与、脑成像、数据录制及再用未获批准；候选实验只能提出方案。 |"
+          }
+        }
+      ],
+      "scope": "| S597 | Salimpoor等2011 [Anatomically distinct dopamine release](https://www.zlab.mcgill.ca/publications/docs/salimpoor_2011_nn.pdf) 零基0/5截图（印257/262），L7–19/205–216；G04实际零基6 Online Methods截图 L742–771/790–816/826–855 | READ_LOCATOR；217应答、10入选、两PET数据因不适排除、分析8；PET愉悦音乐与中性音乐配体结合对比；fMRI一扫描终止，对比愉悦音乐内峰值/前15秒与中性评分时段（非中性音乐条件）；非逐时直接测多巴胺。自选刺激、PET对照匹配非完全；非日常个体、疗效或操控。Nature入口失败。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S598",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 16,
+        "row": "| S598 | McDermott等2016 [Indifference to dissonance](https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf) 零基0/1截图（印547/548）及L8–24 | READ_LOCATOR；两研究特定Tsimane'及玻利维亚城市/乡镇、美国样本，愉悦评分、粗糙偏好和区分任务不等价。研究1群体差异与经验关联，不以未显著差异证明严格相等或民族本质，也不推缅甸。Nature入口失败。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Indifference to dissonance",
+          "uri": "https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.06.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 25,
+            "row": "| K17.06.01.01 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) | [S598](../../research/source-qualification-music-cognition-r1-r2.md#L16)；[S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 目标是缅语听者的认知机制；2016 Tsimane'及美国/玻利维亚样本、2024 39组15国仅提供限定对照，不替代缅语样本或同任务。 |"
+          }
+        },
+        {
+          "d4": "K17.06.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 26,
+            "row": "| K17.06.02.01 | [MC22/K17.06.02.01](music-cognition-r2-knowledge-cases.md#L10) | [S598](../../research/source-qualification-music-cognition-r1-r2.md#L16) | 2016研究特定样本对合成/歌声和弦愉悦评分，Tsimane'未观察到同西方样本一致的协和偏好；粗糙度和区分任务是不同条件。 |"
+          }
+        },
+        {
+          "d4": "K17.06.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 28,
+            "row": "| K17.06.04.01 | [MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) | [S594](../../research/source-qualification-music-cognition-r1-r2.md#L12)；[S598](../../research/source-qualification-music-cognition-r1-r2.md#L16)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设有训练组均值80、无训练组70，组内范围重叠；训练自选与年龄/熟悉度混杂，不能从组均值预测个体或训练因果。 |"
+          }
+        },
+        {
+          "d4": "K17.07.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 32,
+            "row": "| K17.07.04.01 | [MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) | [S601](../../research/source-qualification-music-cognition-r1-r2.md#L19)；[S598](../../research/source-qualification-music-cognition-r1-r2.md#L16) | 题设效应差0.1且95%CI[-.4,.6]包含0，未支持确定方向；若等效界限±.2，该区间不足以证明等效。 |"
+          }
+        }
+      ],
+      "scope": "| S598 | McDermott等2016 [Indifference to dissonance](https://mcdermottlab.mit.edu/papers/McDermott_etal_2016_consonance.pdf) 零基0/1截图（印547/548）及L8–24 | READ_LOCATOR；两研究特定Tsimane'及玻利维亚城市/乡镇、美国样本，愉悦评分、粗糙偏好和区分任务不等价。研究1群体差异与经验关联，不以未显著差异证明严格相等或民族本质，也不推缅甸。Nature入口失败。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S599",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 17,
+        "row": "| S599 | Jacoby & McDermott 2017 [Integer ratio priors](https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby17) L5–15 | ABSTRACT_ONLY；迭代再现的两/三间隔简单节奏、美国与亚马孙样本，整数比峰值权重经验差异，非普遍最优节奏、直接神经测量。DOI全文403。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Integer ratio priors",
+          "uri": "https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby17"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.01.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 7,
+            "row": "| K17.01.03.01 | [MC03/K17.01.03.01](music-cognition-r1-knowledge-cases.md#L7) | [S588](../../research/source-qualification-music-cognition-r1-r2.md#L6)；[S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 外部刺激间隔[250,250,500]ms可按和归一为[.25,.25,.5]；再现任务估计比率偏向，敲击同步测时差，两问题不同。 |"
+          }
+        },
+        {
+          "d4": "K17.06.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 25,
+            "row": "| K17.06.01.01 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) | [S598](../../research/source-qualification-music-cognition-r1-r2.md#L16)；[S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 目标是缅语听者的认知机制；2016 Tsimane'及美国/玻利维亚样本、2024 39组15国仅提供限定对照，不替代缅语样本或同任务。 |"
+          }
+        },
+        {
+          "d4": "K17.06.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 27,
+            "row": "| K17.06.03.01 | [MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11) | [S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 2017迭代再现两/三间隔；2024 39组15国，受测各组整数比峰值但权重不同，提示共同与经验差异。 |"
+          }
+        }
+      ],
+      "scope": "| S599 | Jacoby & McDermott 2017 [Integer ratio priors](https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby17) L5–15 | ABSTRACT_ONLY；迭代再现的两/三间隔简单节奏、美国与亚马孙样本，整数比峰值权重经验差异，非普遍最优节奏、直接神经测量。DOI全文403。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S600",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 18,
+        "row": "| S600 | Jacoby等2024 [Rhythm priors in 15 countries](https://www.repository.cam.ac.uk/items/9a7b5d5c-7e18-444b-a2c9-9518b0e03e87) L45–47/69–75；[作者摘要](https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby24) L5–13 | ABSTRACT_ONLY；39组15国迭代再现、所有受测组峰值小整数比但权重变化；组非国家全体，重复摘要非独立研究，PMC验证壳，未读完整数据和刺激。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Rhythm priors in 15 countries",
+          "uri": "https://www.repository.cam.ac.uk/items/9a7b5d5c-7e18-444b-a2c9-9518b0e03e87"
+        },
+        {
+          "label": "作者摘要",
+          "uri": "https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby24"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.01.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 7,
+            "row": "| K17.01.03.01 | [MC03/K17.01.03.01](music-cognition-r1-knowledge-cases.md#L7) | [S588](../../research/source-qualification-music-cognition-r1-r2.md#L6)；[S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 外部刺激间隔[250,250,500]ms可按和归一为[.25,.25,.5]；再现任务估计比率偏向，敲击同步测时差，两问题不同。 |"
+          }
+        },
+        {
+          "d4": "K17.06.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 25,
+            "row": "| K17.06.01.01 | [MC21/K17.06.01.01](music-cognition-r2-knowledge-cases.md#L9) | [S598](../../research/source-qualification-music-cognition-r1-r2.md#L16)；[S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 目标是缅语听者的认知机制；2016 Tsimane'及美国/玻利维亚样本、2024 39组15国仅提供限定对照，不替代缅语样本或同任务。 |"
+          }
+        },
+        {
+          "d4": "K17.06.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 27,
+            "row": "| K17.06.03.01 | [MC23/K17.06.03.01](music-cognition-r2-knowledge-cases.md#L11) | [S599](../../research/source-qualification-music-cognition-r1-r2.md#L17)；[S600](../../research/source-qualification-music-cognition-r1-r2.md#L18) | 2017迭代再现两/三间隔；2024 39组15国，受测各组整数比峰值但权重不同，提示共同与经验差异。 |"
+          }
+        }
+      ],
+      "scope": "| S600 | Jacoby等2024 [Rhythm priors in 15 countries](https://www.repository.cam.ac.uk/items/9a7b5d5c-7e18-444b-a2c9-9518b0e03e87) L45–47/69–75；[作者摘要](https://mcdermottlab.mit.edu/bib2php/pubs/makeAbs.php?loc=jacoby24) L5–13 | ABSTRACT_ONLY；39组15国迭代再现、所有受测组峰值小整数比但权重变化；组非国家全体，重复摘要非独立研究，PMC验证壳，未读完整数据和刺激。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S601",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 19,
+        "row": "| S601 | Lakens 2013 [Effect sizes primer](https://pmc.ncbi.nlm.nih.gov/articles/PMC3840331/) L101/110–130/137–162/288–289 | READ_LOCATOR；独立组d_s与配对d_z差值标准差、报告标准化分母及不确定性，不将p值/固定效应大小阈值作实用或等效结论。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Effect sizes primer",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3840331/"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.03.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 16,
+            "row": "| K17.03.04.01 | [MC12/K17.03.04.01](music-cognition-r1-knowledge-cases.md#L16) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设即刻识别30/40、7天后新匹配项目24/40；报告延迟、暴露和分母、是否相同或独立样本；不同题组难度需控制。 |"
+          }
+        },
+        {
+          "d4": "K17.06.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 28,
+            "row": "| K17.06.04.01 | [MC24/K17.06.04.01](music-cognition-r2-knowledge-cases.md#L12) | [S594](../../research/source-qualification-music-cognition-r1-r2.md#L12)；[S598](../../research/source-qualification-music-cognition-r1-r2.md#L16)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设有训练组均值80、无训练组70，组内范围重叠；训练自选与年龄/熟悉度混杂，不能从组均值预测个体或训练因果。 |"
+          }
+        },
+        {
+          "d4": "K17.07.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 29,
+            "row": "| K17.07.01.01 | [MC25/K17.07.01.01](music-cognition-r2-knowledge-cases.md#L13) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S594](../../research/source-qualification-music-cognition-r1-r2.md#L12)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 题设研究冻结刺激ID及版本、真实标签、音量校准、播放链、注意任务指令、时点、随机顺序及量表；改变一个因素才解释其差异。 |"
+          }
+        },
+        {
+          "d4": "K17.07.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 30,
+            "row": "| K17.07.02.01 | [MC26/K17.07.02.01](music-cognition-r2-knowledge-cases.md#L14) | [S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 配对差值[1,2,3]均值2、样本SD=1，d_z=2；独立组d_s使用组内合并SD，不能用同一分母。 |"
+          }
+        },
+        {
+          "d4": "K17.07.03.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 31,
+            "row": "| K17.07.03.01 | [MC27/K17.07.03.01](music-cognition-r2-knowledge-cases.md#L15) | [S601](../../research/source-qualification-music-cognition-r1-r2.md#L19)；[S593](../../research/source-qualification-music-cognition-r1-r2.md#L11) | 题设12人各20试次，240为试次并非240独立参与者；跨人/项目的依赖需相应设计和分析，退出和缺失需记录。 |"
+          }
+        },
+        {
+          "d4": "K17.07.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 32,
+            "row": "| K17.07.04.01 | [MC28/K17.07.04.01](music-cognition-r2-knowledge-cases.md#L16) | [S601](../../research/source-qualification-music-cognition-r1-r2.md#L19)；[S598](../../research/source-qualification-music-cognition-r1-r2.md#L16) | 题设效应差0.1且95%CI[-.4,.6]包含0，未支持确定方向；若等效界限±.2，该区间不足以证明等效。 |"
+          }
+        },
+        {
+          "d4": "K17.07.05.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 33,
+            "row": "| K17.07.05.01 | [MC29/K17.07.05.01](music-cognition-r2-knowledge-cases.md#L17) | [S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S595](../../research/source-qualification-music-cognition-r1-r2.md#L13)；[S601](../../research/source-qualification-music-cognition-r1-r2.md#L19) | 研究候选记录绑定刺激、目标、曝光、响应协议、时基、样本ID及分析版本；任何变化旧报告只作历史，不沿用对照。 |"
+          }
+        },
+        {
+          "d4": "K17.07.06.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 34,
+            "row": "| K17.07.06.01 | [MC30/K17.07.06.01](music-cognition-r2-knowledge-cases.md#L18) | [S601](../../research/source-qualification-music-cognition-r1-r2.md#L19)；[S597](../../research/source-qualification-music-cognition-r1-r2.md#L15) | 题设仅允许合成资料分析，真实人类参与、脑成像、数据录制及再用未获批准；候选实验只能提出方案。 |"
+          }
+        }
+      ],
+      "scope": "| S601 | Lakens 2013 [Effect sizes primer](https://pmc.ncbi.nlm.nih.gov/articles/PMC3840331/) L101/110–130/137–162/288–289 | READ_LOCATOR；独立组d_s与配对d_z差值标准差、报告标准化分母及不确定性，不将p值/固定效应大小阈值作实用或等效结论。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S602",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 20,
+        "row": "| S602 | [Memory for musical tones: impact of tonality and false memories](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00582/full) L367–394（引言/Table1） | READ_LOCATOR_LIMITED；西方调性语境及probe tone二手说明、启动/期待与记忆研究入口；本轮仅定位引言，不宣称已复核其自身试验结果。PMC壳。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "Memory for musical tones: impact of tonality and false memories",
+          "uri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00582/full"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.02.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 9,
+            "row": "| K17.02.01.01 | [MC05/K17.02.01.01](music-cognition-r1-knowledge-cases.md#L9) | [S590](../../research/source-qualification-music-cognition-r1-r2.md#L8)；[S602](../../research/source-qualification-music-cognition-r1-r2.md#L20) | 音高序列A[60,62,61,65]，B[65,67,66,70]保留有符号音程[2,-1,4]；C[60,64,63,68]只同轮廓[+,-,+]。刺激关系不是已测识别率。 |"
+          }
+        },
+        {
+          "d4": "K17.02.02.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 10,
+            "row": "| K17.02.02.01 | [MC06/K17.02.02.01](music-cognition-r1-knowledge-cases.md#L10) | [S591](../../research/source-qualification-music-cognition-r1-r2.md#L9)；[S602](../../research/source-qualification-music-cognition-r1-r2.md#L20) | probe-tone范式先呈调性语境再单音，要求评契合而非美感；同一音在不同语境可获不同契合评分。 |"
+          }
+        },
+        {
+          "d4": "K17.02.04.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 12,
+            "row": "| K17.02.04.01 | [MC08/K17.02.04.01](music-cognition-r1-knowledge-cases.md#L12) | [S595](../../research/source-qualification-music-cognition-r1-r2.md#L13)；[S602](../../research/source-qualification-music-cognition-r1-r2.md#L20) | 合成同一目标音在上下文A概率.5、B概率.125，模型预期不同；实际听者契合、反应时、命中各另测。 |"
+          }
+        }
+      ],
+      "scope": "| S602 | [Memory for musical tones: impact of tonality and false memories](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00582/full) L367–394（引言/Table1） | READ_LOCATOR_LIMITED；西方调性语境及probe tone二手说明、启动/期待与记忆研究入口；本轮仅定位引言，不宣称已复核其自身试验结果。PMC壳。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    },
+    {
+      "sourceId": "S632",
+      "anchor": {
+        "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+        "file": "docs/research/source-qualification-music-cognition-r1-r2.md",
+        "blob": "93d3ac00bfc1b5dc2d2636bce6199fe28d6b5400",
+        "line": 21,
+        "row": "| S632 | [APA Dictionary: cued recall](https://dictionary.apa.org/cued-recall) 2018-04-19更新，G04实际HTML L8 | READ_LOCATOR；学习阶段提示与待忆项目关联，测试以提示唤起目标；非识别备选项。仅术语，不宣称音乐试验结果。 |"
+      },
+      "allRegisteredLinks": [
+        {
+          "label": "APA Dictionary: cued recall",
+          "uri": "https://dictionary.apa.org/cued-recall"
+        }
+      ],
+      "uses": [
+        {
+          "d4": "K17.03.01.01",
+          "discovery": {
+            "commit": "280d3be584ab717211b9b99925ac07705f2ab64c",
+            "file": "docs/product/calibration/music-cognition-r3-discovery-cq.md",
+            "blob": "1f68792c4429e8e7c0057643c427d9e3cb784784",
+            "line": 13,
+            "row": "| K17.03.01.01 | [MC09/K17.03.01.01](music-cognition-r1-knowledge-cases.md#L13) | [S590](../../research/source-qualification-music-cognition-r1-r2.md#L8)；[S593](../../research/source-qualification-music-cognition-r1-r2.md#L11)；[S632](../../research/source-qualification-music-cognition-r1-r2.md#L21) | 题设学习列表含A而未含同轮廓C，识别A为旧是命中，称C为旧是虚报；自由回忆无项目特定提示，提示回忆则可在学习时建立提示与目标关联，测试给首动机并要求生成其余段，不是选择旧/新；两种回忆的提示与评分分别声明。 |"
+          }
+        }
+      ],
+      "scope": "| S632 | [APA Dictionary: cued recall](https://dictionary.apa.org/cued-recall) 2018-04-19更新，G04实际HTML L8 | READ_LOCATOR；学习阶段提示与待忆项目关联，测试以提示唤起目标；非识别备选项。仅术语，不宣称音乐试验结果。 |；继承冻结资格定位，未在本轮外部重读；同出版谱系不作为独立重复证据。",
+      "formalUse": "QUALIFIED_CANDIDATE_LOCATOR_NOT_ADMISSION"
+    }
+  ]
+}

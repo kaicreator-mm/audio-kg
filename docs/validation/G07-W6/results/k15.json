@@ -1,0 +1,195 @@
+{
+  "module": "K15",
+  "checks": 47,
+  "passed": 47,
+  "results": [
+    [
+      "candidate-only status and exact cardinalities",
+      true
+    ],
+    [
+      "all frozen discovery, case and source anchors",
+      true
+    ],
+    [
+      "all claims preserve frozen direct-CQ roles and evidence",
+      true
+    ],
+    [
+      "four independently bound forward/reverse positive/negative views per claim",
+      true
+    ],
+    [
+      "direct CQ queries exclude support-only assignments",
+      true
+    ],
+    [
+      "all source qualifications and provenance remain non-admitting",
+      true
+    ],
+    [
+      "legacy routing and migration state are preserved",
+      true
+    ],
+    [
+      "capability matrix preserves exact P/S roles without execution permission",
+      true
+    ],
+    [
+      "local discovery questions remain separately addressable",
+      true
+    ],
+    [
+      "domain workflows are sequential, bounded and knowledge-only",
+      true
+    ],
+    [
+      "integrated closure and historical obligations remain pinned",
+      true
+    ],
+    [
+      "exact H/O graph and scoped obligations",
+      true
+    ],
+    [
+      "domain-specific adversarial assessment witnesses",
+      true
+    ],
+    [
+      "historical R8 54/54 finite object-binding assertions replay",
+      true
+    ],
+    [
+      "finite domain witness: authorization requires every scope dimension",
+      true
+    ],
+    [
+      "finite domain witness: object mismatch rejects otherwise matching grant",
+      true
+    ],
+    [
+      "finite domain witness: action mismatch rejects grant",
+      true
+    ],
+    [
+      "finite domain witness: missing authorization field fails closed",
+      true
+    ],
+    [
+      "finite domain witness: BY-NC-ND permits attributed noncommercial unadapted sharing",
+      true
+    ],
+    [
+      "finite domain witness: BY-NC-ND prohibits commercial sharing",
+      true
+    ],
+    [
+      "finite domain witness: BY-NC-ND does not permit sharing an adaptation",
+      true
+    ],
+    [
+      "finite domain witness: BY-NC-ND private noncommercial adaptation is distinct from sharing",
+      true
+    ],
+    [
+      "finite domain witness: unknown CC version remains unknown",
+      true
+    ],
+    [
+      "finite domain witness: BY-SA adapted sharing requires same or compatible license",
+      true
+    ],
+    [
+      "finite domain witness: BY-SA allows commercial use subject to other terms",
+      true
+    ],
+    [
+      "finite domain witness: ISRC is not ownership proof",
+      true
+    ],
+    [
+      "finite domain witness: ISWC is not ownership proof",
+      true
+    ],
+    [
+      "finite domain witness: RIN and ERN are not rights proof",
+      true
+    ],
+    [
+      "finite domain witness: ACK does not prove external publication",
+      true
+    ],
+    [
+      "finite domain witness: external availability requires observation",
+      true
+    ],
+    [
+      "finite domain witness: takedown request is not takedown confirmation",
+      true
+    ],
+    [
+      "finite domain witness: takedown requires external observation",
+      true
+    ],
+    [
+      "finite domain witness: rights UNKNOWN hard-holds release",
+      true
+    ],
+    [
+      "finite domain witness: failed rights gate cannot be compensated",
+      true
+    ],
+    [
+      "finite domain witness: missing consent gate never defaults to pass",
+      true
+    ],
+    [
+      "finite domain witness: Myanmar section 41 screen is candidate-only even when all conditions supplied",
+      true
+    ],
+    [
+      "finite domain witness: Myanmar section 41 does not create blanket AI-training permission",
+      true
+    ],
+    [
+      "finite domain witness: published teaching material does not pass face-to-face teaching screen",
+      true
+    ],
+    [
+      "finite domain witness: withdrawal separates future use and existing distribution",
+      true
+    ],
+    [
+      "finite domain witness: fresh grant cannot override changed fixed reference",
+      true
+    ],
+    [
+      "finite domain witness: fresh grant cannot override changed backing",
+      true
+    ],
+    [
+      "finite domain witness: same fixed objects retain baseline only",
+      true
+    ],
+    [
+      "finite domain witness: dependency invalidation reaches descendants",
+      true
+    ],
+    [
+      "finite domain witness: independent branch is not invalidated",
+      true
+    ],
+    [
+      "finite domain witness: R8 historical finite witness has exactly 54 checks",
+      true
+    ],
+    [
+      "finite domain witness: R8 historical finite witness passes all 54 checks",
+      true
+    ],
+    [
+      "P2-W5-01 DDEX balanced-parenthesis source URLs round-trip exactly",
+      true
+    ]
+  ]
+}
