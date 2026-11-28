@@ -1,0 +1,2347 @@
+{
+  "module": "K06",
+  "checks": 585,
+  "passed": 585,
+  "results": [
+    [
+      "exact frozen inventory",
+      true
+    ],
+    [
+      "exact row/locator VT01",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT01",
+      true
+    ],
+    [
+      "qualified source and H closure VT01",
+      true
+    ],
+    [
+      "primary bindings VT01",
+      true
+    ],
+    [
+      "four distinct directional views VT01",
+      true
+    ],
+    [
+      "active scenario VT01 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT01 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT01 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT01 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT02",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT02",
+      true
+    ],
+    [
+      "qualified source and H closure VT02",
+      true
+    ],
+    [
+      "primary bindings VT02",
+      true
+    ],
+    [
+      "four distinct directional views VT02",
+      true
+    ],
+    [
+      "active scenario VT02 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT02 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT02 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT02 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT03",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT03",
+      true
+    ],
+    [
+      "qualified source and H closure VT03",
+      true
+    ],
+    [
+      "primary bindings VT03",
+      true
+    ],
+    [
+      "four distinct directional views VT03",
+      true
+    ],
+    [
+      "active scenario VT03 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT03 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT03 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT03 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT04",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT04",
+      true
+    ],
+    [
+      "qualified source and H closure VT04",
+      true
+    ],
+    [
+      "primary bindings VT04",
+      true
+    ],
+    [
+      "four distinct directional views VT04",
+      true
+    ],
+    [
+      "active scenario VT04 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT04 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT04 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT04 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT05",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT05",
+      true
+    ],
+    [
+      "qualified source and H closure VT05",
+      true
+    ],
+    [
+      "primary bindings VT05",
+      true
+    ],
+    [
+      "four distinct directional views VT05",
+      true
+    ],
+    [
+      "active scenario VT05 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT05 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT05 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT05 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT06",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT06",
+      true
+    ],
+    [
+      "qualified source and H closure VT06",
+      true
+    ],
+    [
+      "primary bindings VT06",
+      true
+    ],
+    [
+      "four distinct directional views VT06",
+      true
+    ],
+    [
+      "active scenario VT06 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT06 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT06 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT06 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT07",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT07",
+      true
+    ],
+    [
+      "qualified source and H closure VT07",
+      true
+    ],
+    [
+      "primary bindings VT07",
+      true
+    ],
+    [
+      "four distinct directional views VT07",
+      true
+    ],
+    [
+      "active scenario VT07 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT07 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT07 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT07 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT08",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT08",
+      true
+    ],
+    [
+      "qualified source and H closure VT08",
+      true
+    ],
+    [
+      "primary bindings VT08",
+      true
+    ],
+    [
+      "four distinct directional views VT08",
+      true
+    ],
+    [
+      "active scenario VT08 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT08 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT08 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT08 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT09",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT09",
+      true
+    ],
+    [
+      "qualified source and H closure VT09",
+      true
+    ],
+    [
+      "primary bindings VT09",
+      true
+    ],
+    [
+      "four distinct directional views VT09",
+      true
+    ],
+    [
+      "active scenario VT09 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT09 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT09 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT09 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT10",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT10",
+      true
+    ],
+    [
+      "qualified source and H closure VT10",
+      true
+    ],
+    [
+      "primary bindings VT10",
+      true
+    ],
+    [
+      "four distinct directional views VT10",
+      true
+    ],
+    [
+      "active scenario VT10 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT10 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT10 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT10 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT11",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT11",
+      true
+    ],
+    [
+      "qualified source and H closure VT11",
+      true
+    ],
+    [
+      "primary bindings VT11",
+      true
+    ],
+    [
+      "four distinct directional views VT11",
+      true
+    ],
+    [
+      "active scenario VT11 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT11 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT11 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT11 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT12",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT12",
+      true
+    ],
+    [
+      "qualified source and H closure VT12",
+      true
+    ],
+    [
+      "primary bindings VT12",
+      true
+    ],
+    [
+      "four distinct directional views VT12",
+      true
+    ],
+    [
+      "active scenario VT12 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT12 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT12 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT12 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT13",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT13",
+      true
+    ],
+    [
+      "qualified source and H closure VT13",
+      true
+    ],
+    [
+      "primary bindings VT13",
+      true
+    ],
+    [
+      "four distinct directional views VT13",
+      true
+    ],
+    [
+      "active scenario VT13 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT13 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT13 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT13 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT14",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT14",
+      true
+    ],
+    [
+      "qualified source and H closure VT14",
+      true
+    ],
+    [
+      "primary bindings VT14",
+      true
+    ],
+    [
+      "four distinct directional views VT14",
+      true
+    ],
+    [
+      "active scenario VT14 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT14 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT14 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT14 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT15",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT15",
+      true
+    ],
+    [
+      "qualified source and H closure VT15",
+      true
+    ],
+    [
+      "primary bindings VT15",
+      true
+    ],
+    [
+      "four distinct directional views VT15",
+      true
+    ],
+    [
+      "active scenario VT15 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT15 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT15 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT15 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT16",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT16",
+      true
+    ],
+    [
+      "qualified source and H closure VT16",
+      true
+    ],
+    [
+      "primary bindings VT16",
+      true
+    ],
+    [
+      "four distinct directional views VT16",
+      true
+    ],
+    [
+      "active scenario VT16 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT16 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT16 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT16 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT17",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT17",
+      true
+    ],
+    [
+      "qualified source and H closure VT17",
+      true
+    ],
+    [
+      "primary bindings VT17",
+      true
+    ],
+    [
+      "four distinct directional views VT17",
+      true
+    ],
+    [
+      "active scenario VT17 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT17 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT17 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT17 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT18",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT18",
+      true
+    ],
+    [
+      "qualified source and H closure VT18",
+      true
+    ],
+    [
+      "primary bindings VT18",
+      true
+    ],
+    [
+      "four distinct directional views VT18",
+      true
+    ],
+    [
+      "active scenario VT18 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT18 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT18 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT18 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT19",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT19",
+      true
+    ],
+    [
+      "qualified source and H closure VT19",
+      true
+    ],
+    [
+      "primary bindings VT19",
+      true
+    ],
+    [
+      "four distinct directional views VT19",
+      true
+    ],
+    [
+      "active scenario VT19 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT19 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT19 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT19 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT20",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT20",
+      true
+    ],
+    [
+      "qualified source and H closure VT20",
+      true
+    ],
+    [
+      "primary bindings VT20",
+      true
+    ],
+    [
+      "four distinct directional views VT20",
+      true
+    ],
+    [
+      "active scenario VT20 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT20 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT20 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT20 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT21",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT21",
+      true
+    ],
+    [
+      "qualified source and H closure VT21",
+      true
+    ],
+    [
+      "primary bindings VT21",
+      true
+    ],
+    [
+      "four distinct directional views VT21",
+      true
+    ],
+    [
+      "active scenario VT21 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT21 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT21 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT21 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT22",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT22",
+      true
+    ],
+    [
+      "qualified source and H closure VT22",
+      true
+    ],
+    [
+      "primary bindings VT22",
+      true
+    ],
+    [
+      "four distinct directional views VT22",
+      true
+    ],
+    [
+      "active scenario VT22 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT22 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT22 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT22 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT23",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT23",
+      true
+    ],
+    [
+      "qualified source and H closure VT23",
+      true
+    ],
+    [
+      "primary bindings VT23",
+      true
+    ],
+    [
+      "four distinct directional views VT23",
+      true
+    ],
+    [
+      "active scenario VT23 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT23 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT23 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT23 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT24",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT24",
+      true
+    ],
+    [
+      "qualified source and H closure VT24",
+      true
+    ],
+    [
+      "primary bindings VT24",
+      true
+    ],
+    [
+      "four distinct directional views VT24",
+      true
+    ],
+    [
+      "active scenario VT24 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT24 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT24 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT24 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT25",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT25",
+      true
+    ],
+    [
+      "qualified source and H closure VT25",
+      true
+    ],
+    [
+      "primary bindings VT25",
+      true
+    ],
+    [
+      "four distinct directional views VT25",
+      true
+    ],
+    [
+      "active scenario VT25 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT25 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT25 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT25 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT26",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT26",
+      true
+    ],
+    [
+      "qualified source and H closure VT26",
+      true
+    ],
+    [
+      "primary bindings VT26",
+      true
+    ],
+    [
+      "four distinct directional views VT26",
+      true
+    ],
+    [
+      "active scenario VT26 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT26 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT26 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT26 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT27",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT27",
+      true
+    ],
+    [
+      "qualified source and H closure VT27",
+      true
+    ],
+    [
+      "primary bindings VT27",
+      true
+    ],
+    [
+      "four distinct directional views VT27",
+      true
+    ],
+    [
+      "active scenario VT27 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT27 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT27 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT27 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT28",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT28",
+      true
+    ],
+    [
+      "qualified source and H closure VT28",
+      true
+    ],
+    [
+      "primary bindings VT28",
+      true
+    ],
+    [
+      "four distinct directional views VT28",
+      true
+    ],
+    [
+      "active scenario VT28 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT28 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT28 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT28 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT29",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT29",
+      true
+    ],
+    [
+      "qualified source and H closure VT29",
+      true
+    ],
+    [
+      "primary bindings VT29",
+      true
+    ],
+    [
+      "four distinct directional views VT29",
+      true
+    ],
+    [
+      "active scenario VT29 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT29 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT29 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT29 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT30",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT30",
+      true
+    ],
+    [
+      "qualified source and H closure VT30",
+      true
+    ],
+    [
+      "primary bindings VT30",
+      true
+    ],
+    [
+      "four distinct directional views VT30",
+      true
+    ],
+    [
+      "active scenario VT30 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT30 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT30 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT30 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT31",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT31",
+      true
+    ],
+    [
+      "qualified source and H closure VT31",
+      true
+    ],
+    [
+      "primary bindings VT31",
+      true
+    ],
+    [
+      "four distinct directional views VT31",
+      true
+    ],
+    [
+      "active scenario VT31 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT31 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT31 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT31 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT32",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT32",
+      true
+    ],
+    [
+      "qualified source and H closure VT32",
+      true
+    ],
+    [
+      "primary bindings VT32",
+      true
+    ],
+    [
+      "four distinct directional views VT32",
+      true
+    ],
+    [
+      "active scenario VT32 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT32 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT32 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT32 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT33",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT33",
+      true
+    ],
+    [
+      "qualified source and H closure VT33",
+      true
+    ],
+    [
+      "primary bindings VT33",
+      true
+    ],
+    [
+      "four distinct directional views VT33",
+      true
+    ],
+    [
+      "active scenario VT33 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT33 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT33 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT33 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT34",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT34",
+      true
+    ],
+    [
+      "qualified source and H closure VT34",
+      true
+    ],
+    [
+      "primary bindings VT34",
+      true
+    ],
+    [
+      "four distinct directional views VT34",
+      true
+    ],
+    [
+      "active scenario VT34 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT34 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT34 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT34 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT35",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT35",
+      true
+    ],
+    [
+      "qualified source and H closure VT35",
+      true
+    ],
+    [
+      "primary bindings VT35",
+      true
+    ],
+    [
+      "four distinct directional views VT35",
+      true
+    ],
+    [
+      "active scenario VT35 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT35 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT35 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT35 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT36",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT36",
+      true
+    ],
+    [
+      "qualified source and H closure VT36",
+      true
+    ],
+    [
+      "primary bindings VT36",
+      true
+    ],
+    [
+      "four distinct directional views VT36",
+      true
+    ],
+    [
+      "active scenario VT36 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT36 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT36 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT36 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT37",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT37",
+      true
+    ],
+    [
+      "qualified source and H closure VT37",
+      true
+    ],
+    [
+      "primary bindings VT37",
+      true
+    ],
+    [
+      "four distinct directional views VT37",
+      true
+    ],
+    [
+      "active scenario VT37 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT37 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT37 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT37 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT38",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT38",
+      true
+    ],
+    [
+      "qualified source and H closure VT38",
+      true
+    ],
+    [
+      "primary bindings VT38",
+      true
+    ],
+    [
+      "four distinct directional views VT38",
+      true
+    ],
+    [
+      "active scenario VT38 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT38 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT38 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT38 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT39",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT39",
+      true
+    ],
+    [
+      "qualified source and H closure VT39",
+      true
+    ],
+    [
+      "primary bindings VT39",
+      true
+    ],
+    [
+      "four distinct directional views VT39",
+      true
+    ],
+    [
+      "active scenario VT39 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT39 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT39 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT39 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT40",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT40",
+      true
+    ],
+    [
+      "qualified source and H closure VT40",
+      true
+    ],
+    [
+      "primary bindings VT40",
+      true
+    ],
+    [
+      "four distinct directional views VT40",
+      true
+    ],
+    [
+      "active scenario VT40 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT40 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT40 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT40 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT41",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT41",
+      true
+    ],
+    [
+      "qualified source and H closure VT41",
+      true
+    ],
+    [
+      "primary bindings VT41",
+      true
+    ],
+    [
+      "four distinct directional views VT41",
+      true
+    ],
+    [
+      "active scenario VT41 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT41 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT41 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT41 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT42",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT42",
+      true
+    ],
+    [
+      "qualified source and H closure VT42",
+      true
+    ],
+    [
+      "primary bindings VT42",
+      true
+    ],
+    [
+      "four distinct directional views VT42",
+      true
+    ],
+    [
+      "active scenario VT42 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT42 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT42 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT42 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT43",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT43",
+      true
+    ],
+    [
+      "qualified source and H closure VT43",
+      true
+    ],
+    [
+      "primary bindings VT43",
+      true
+    ],
+    [
+      "four distinct directional views VT43",
+      true
+    ],
+    [
+      "active scenario VT43 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT43 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT43 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT43 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT44",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT44",
+      true
+    ],
+    [
+      "qualified source and H closure VT44",
+      true
+    ],
+    [
+      "primary bindings VT44",
+      true
+    ],
+    [
+      "four distinct directional views VT44",
+      true
+    ],
+    [
+      "active scenario VT44 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT44 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT44 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT44 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT45",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT45",
+      true
+    ],
+    [
+      "qualified source and H closure VT45",
+      true
+    ],
+    [
+      "primary bindings VT45",
+      true
+    ],
+    [
+      "four distinct directional views VT45",
+      true
+    ],
+    [
+      "active scenario VT45 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT45 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT45 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT45 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT46",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT46",
+      true
+    ],
+    [
+      "qualified source and H closure VT46",
+      true
+    ],
+    [
+      "primary bindings VT46",
+      true
+    ],
+    [
+      "four distinct directional views VT46",
+      true
+    ],
+    [
+      "active scenario VT46 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT46 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT46 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT46 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT47",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT47",
+      true
+    ],
+    [
+      "qualified source and H closure VT47",
+      true
+    ],
+    [
+      "primary bindings VT47",
+      true
+    ],
+    [
+      "four distinct directional views VT47",
+      true
+    ],
+    [
+      "active scenario VT47 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT47 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT47 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT47 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT48",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT48",
+      true
+    ],
+    [
+      "qualified source and H closure VT48",
+      true
+    ],
+    [
+      "primary bindings VT48",
+      true
+    ],
+    [
+      "four distinct directional views VT48",
+      true
+    ],
+    [
+      "active scenario VT48 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT48 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT48 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT48 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT49",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT49",
+      true
+    ],
+    [
+      "qualified source and H closure VT49",
+      true
+    ],
+    [
+      "primary bindings VT49",
+      true
+    ],
+    [
+      "four distinct directional views VT49",
+      true
+    ],
+    [
+      "active scenario VT49 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT49 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT49 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT49 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT50",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT50",
+      true
+    ],
+    [
+      "qualified source and H closure VT50",
+      true
+    ],
+    [
+      "primary bindings VT50",
+      true
+    ],
+    [
+      "four distinct directional views VT50",
+      true
+    ],
+    [
+      "active scenario VT50 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT50 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT50 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT50 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT51",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT51",
+      true
+    ],
+    [
+      "qualified source and H closure VT51",
+      true
+    ],
+    [
+      "primary bindings VT51",
+      true
+    ],
+    [
+      "four distinct directional views VT51",
+      true
+    ],
+    [
+      "active scenario VT51 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT51 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT51 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT51 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT52",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT52",
+      true
+    ],
+    [
+      "qualified source and H closure VT52",
+      true
+    ],
+    [
+      "primary bindings VT52",
+      true
+    ],
+    [
+      "four distinct directional views VT52",
+      true
+    ],
+    [
+      "active scenario VT52 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT52 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT52 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT52 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT53",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT53",
+      true
+    ],
+    [
+      "qualified source and H closure VT53",
+      true
+    ],
+    [
+      "primary bindings VT53",
+      true
+    ],
+    [
+      "four distinct directional views VT53",
+      true
+    ],
+    [
+      "active scenario VT53 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT53 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT53 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT53 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT54",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT54",
+      true
+    ],
+    [
+      "qualified source and H closure VT54",
+      true
+    ],
+    [
+      "primary bindings VT54",
+      true
+    ],
+    [
+      "four distinct directional views VT54",
+      true
+    ],
+    [
+      "active scenario VT54 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT54 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT54 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT54 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT55",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT55",
+      true
+    ],
+    [
+      "qualified source and H closure VT55",
+      true
+    ],
+    [
+      "primary bindings VT55",
+      true
+    ],
+    [
+      "four distinct directional views VT55",
+      true
+    ],
+    [
+      "active scenario VT55 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT55 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT55 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT55 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT56",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT56",
+      true
+    ],
+    [
+      "qualified source and H closure VT56",
+      true
+    ],
+    [
+      "primary bindings VT56",
+      true
+    ],
+    [
+      "four distinct directional views VT56",
+      true
+    ],
+    [
+      "active scenario VT56 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT56 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT56 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT56 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "exact row/locator VT57",
+      true
+    ],
+    [
+      "exact claim/direct CQ VT57",
+      true
+    ],
+    [
+      "qualified source and H closure VT57",
+      true
+    ],
+    [
+      "primary bindings VT57",
+      true
+    ],
+    [
+      "four distinct directional views VT57",
+      true
+    ],
+    [
+      "active scenario VT57 FORWARD POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT57 FORWARD NEGATIVE",
+      true
+    ],
+    [
+      "active scenario VT57 REVERSE POSITIVE",
+      true
+    ],
+    [
+      "active scenario VT57 REVERSE NEGATIVE",
+      true
+    ],
+    [
+      "direct-only CQ01",
+      true
+    ],
+    [
+      "direct-only CQ02",
+      true
+    ],
+    [
+      "direct-only CQ03",
+      true
+    ],
+    [
+      "direct-only CQ04",
+      true
+    ],
+    [
+      "direct-only CQ05",
+      true
+    ],
+    [
+      "direct-only CQ06",
+      true
+    ],
+    [
+      "direct-only CQ07",
+      true
+    ],
+    [
+      "direct-only CQ08",
+      true
+    ],
+    [
+      "direct-only CQ09",
+      true
+    ],
+    [
+      "direct-only CQ10",
+      true
+    ],
+    [
+      "direct-only CQ11",
+      true
+    ],
+    [
+      "direct-only CQ12",
+      true
+    ],
+    [
+      "direct-only CQ13",
+      true
+    ],
+    [
+      "direct-only CQ14",
+      true
+    ],
+    [
+      "direct-only CQ15",
+      true
+    ],
+    [
+      "direct-only CQ16",
+      true
+    ],
+    [
+      "direct-only CQ17",
+      true
+    ],
+    [
+      "direct-only CQ18",
+      true
+    ],
+    [
+      "direct-only CQ19",
+      true
+    ],
+    [
+      "direct-only CQ20",
+      true
+    ],
+    [
+      "direct-only CQ21",
+      true
+    ],
+    [
+      "direct-only CQ22",
+      true
+    ],
+    [
+      "direct-only CQ23",
+      true
+    ],
+    [
+      "direct-only CQ24",
+      true
+    ],
+    [
+      "direct-only CQ25",
+      true
+    ],
+    [
+      "direct-only CQ26",
+      true
+    ],
+    [
+      "legacy split routes",
+      true
+    ],
+    [
+      "exact capability cells",
+      true
+    ],
+    [
+      "source registry and canonical reuse",
+      true
+    ],
+    [
+      "qualified hard dependency obligations",
+      true
+    ],
+    [
+      "exact integrated closure bytes",
+      true
+    ],
+    [
+      "all domain workflow targets resolved",
+      true
+    ],
+    [
+      "KC-V06 phase truth scores separated",
+      true
+    ],
+    [
+      "KC-V06 no improvement in delayed vs baseline",
+      true
+    ],
+    [
+      "VT08/11/37 independent estimate error",
+      true
+    ],
+    [
+      "KC-V06 analysis-only correction not improved singing",
+      true
+    ],
+    [
+      "missing independent reference preserves estimated target only",
+      true
+    ],
+    [
+      "invalid window not imputed",
+      true
+    ],
+    [
+      "VT39 credible ID reorder and true mismatch",
+      true
+    ],
+    [
+      "VT39 reject duplicate ID",
+      true
+    ],
+    [
+      "VT39 reject wrong clock",
+      true
+    ],
+    [
+      "VT39 reject wrong window",
+      true
+    ],
+    [
+      "VT39 reject wrong connection",
+      true
+    ],
+    [
+      "VT39 reject untrusted",
+      true
+    ],
+    [
+      "KC-V06 only feedback timing revised",
+      true
+    ],
+    [
+      "KC-V06 protected target",
+      true
+    ],
+    [
+      "KC-V06 protected syllable",
+      true
+    ],
+    [
+      "KC-V06 protected timing",
+      true
+    ],
+    [
+      "KC-V06 protected rubric",
+      true
+    ],
+    [
+      "KC-V06 protected threshold",
+      true
+    ],
+    [
+      "KC-V06 protected mask",
+      true
+    ],
+    [
+      "KC-V06 one syllable spans two notes",
+      true
+    ],
+    [
+      "risk dominance emergency symptom pause",
+      true
+    ],
+    [
+      "dynamic consent withdraw and stale epoch",
+      true
+    ],
+    [
+      "old plan token fails after timing update",
+      true
+    ],
+    [
+      "active plan identity rejects substituted modality or timing",
+      true
+    ],
+    [
+      "live consent not visual or recording permission",
+      true
+    ],
+    [
+      "phase/target protection",
+      true
+    ],
+    [
+      "VT16/44 independent goal and listening",
+      true
+    ],
+    [
+      "RV01 replay and relabel rejected",
+      true
+    ],
+    [
+      "R3 malformed series entries fail closed without throwing",
+      true
+    ],
+    [
+      "R3 emergency precedence survives malformed series",
+      true
+    ],
+    [
+      "RV01 relabeled observation bytes rejected",
+      true
+    ],
+    [
+      "RV01 current epoch cannot relabel historical receipt",
+      true
+    ],
+    [
+      "RV01 epoch-only relabel rejected",
+      true
+    ],
+    [
+      "RV01 distinct qualified new plan observation",
+      true
+    ],
+    [
+      "RV01 qualified reorder and genuine mismatch",
+      true
+    ],
+    [
+      "RV01 unknown or unauthorized observation fails",
+      true
+    ],
+    [
+      "RV02 hearing scope, identity and conditions required",
+      true
+    ],
+    [
+      "VT18/19/46 vibrato duration rate and extent",
+      true
+    ],
+    [
+      "VT14/42/48 timing and relative dynamics",
+      true
+    ]
+  ]
+}

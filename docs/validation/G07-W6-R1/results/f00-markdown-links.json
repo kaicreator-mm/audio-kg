@@ -1,0 +1,43 @@
+{
+  "suite": "F00_MARKDOWN_LINKS",
+  "checks": 9,
+  "passed": 9,
+  "results": [
+    [
+      "S564 RIN balanced parentheses are preserved",
+      true
+    ],
+    [
+      "S565 ERN balanced parentheses are preserved",
+      true
+    ],
+    [
+      "percent-encoded parentheses remain exact",
+      true
+    ],
+    [
+      "multiple links in one frozen row are extracted in order",
+      true
+    ],
+    [
+      "escaped parentheses are unescaped as Markdown requires",
+      true
+    ],
+    [
+      "angle-bracket destinations with title are preserved",
+      true
+    ],
+    [
+      "nested balanced parentheses are preserved",
+      true
+    ],
+    [
+      "ordinary parenthetical prose is not treated as a URL",
+      true
+    ],
+    [
+      "unclosed link is ignored rather than emitting a truncated URL",
+      true
+    ]
+  ]
+}
