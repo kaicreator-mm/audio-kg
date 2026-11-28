@@ -1,0 +1,499 @@
+{
+  "base": "7d4068980b750af2beaa97665219e2d950b3cc9e",
+  "tree": "cda3bac9c7b3ee9070dc7cfa610e7ce8f6b58338",
+  "observedAt": "2026-11-28T18:37:49.005626+00:00",
+  "nativePredecessors": [
+    {
+      "issue": 87,
+      "state": "closed"
+    },
+    {
+      "issue": 88,
+      "state": "closed"
+    },
+    {
+      "issue": 89,
+      "state": "closed"
+    },
+    {
+      "issue": 90,
+      "state": "closed"
+    },
+    {
+      "issue": 91,
+      "state": "closed"
+    },
+    {
+      "issue": 92,
+      "state": "closed"
+    },
+    {
+      "issue": 93,
+      "state": "closed"
+    },
+    {
+      "issue": 94,
+      "state": "closed"
+    },
+    {
+      "issue": 95,
+      "state": "closed"
+    },
+    {
+      "issue": 96,
+      "state": "closed"
+    },
+    {
+      "issue": 97,
+      "state": "closed"
+    },
+    {
+      "issue": 98,
+      "state": "closed"
+    },
+    {
+      "issue": 99,
+      "state": "closed"
+    },
+    {
+      "issue": 100,
+      "state": "closed"
+    },
+    {
+      "issue": 101,
+      "state": "closed"
+    },
+    {
+      "issue": 102,
+      "state": "closed"
+    },
+    {
+      "issue": 103,
+      "state": "closed"
+    },
+    {
+      "issue": 104,
+      "state": "closed"
+    },
+    {
+      "issue": 105,
+      "state": "closed"
+    },
+    {
+      "issue": 139,
+      "state": "closed"
+    },
+    {
+      "issue": 140,
+      "state": "closed"
+    },
+    {
+      "issue": 141,
+      "state": "closed"
+    },
+    {
+      "issue": 142,
+      "state": "closed"
+    },
+    {
+      "issue": 145,
+      "state": "closed"
+    }
+  ],
+  "foundationalAndNativeClosureEvidence": [
+    {
+      "issue": 86,
+      "title": "v0.1.0 G07-F00 资格隔离修复与正式知识最小验证入口",
+      "state": "closed",
+      "closureCommentId": 7215549287,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/86#issuecomment-7215549287",
+      "body": "<!-- ads:github -->\n```yaml\n{\n  \"schema\": \"ads/github/v3\",\n  \"kind\": \"event\",\n  \"data\": {\n    \"schema\": \"ai-dev/event-v2\",\n    \"actor_role\": \"scheduler\",\n    \"operator_kind\": \"chatgpt-web\",\n    \"operator_id\": \"chatgpt-web:audio-kg-g07-planner\",\n    \"session_ref\": \"audio-kg-g07-20261127\",\n    \"transport_actor\": \"github:kaicreator-mm\",\n    \"task\": \"#86\",\n    \"pr\": \"#108\",\n    \"sha\": \"6b6a121e3d039e16e0473ea973057ac8d0242948\",\n    \"event\": \"DISPATCH_STATE_CHANGED\",\n    \"dispatch_id\": \"audio-kg-v010-F00-reviewer-g2\",\n    \"dispatch_state\": \"COMPLETED\",\n    \"status\": \"PASS\"\n  }\n}\n```\nIndependent R2 ACCEPT_SCOPED, issue 7215508815 PR 7215509808; exact merged f5fbc3b9fc6118e073c3701ae8da2d8928629ce4, compared reviewed head to actual merge: zero files. RV01/02 and prior RV04 CLOSED_SCOPED; 189/189 +83/83 +14/14 independent probes. Controller reconciliation; no formal knowledge admission yet. #86 complete, F00 bounded validation foundation only."
+    },
+    {
+      "issue": 87,
+      "title": "v0.1.0 G07-K01 乐理正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7219055722,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/87#issuecomment-7219055722",
+      "body": "<!-- ads:github -->\n```yaml\n{\n  \"schema\": \"ads/github/v3\",\n  \"kind\": \"event\",\n  \"data\": {\n    \"schema\": \"ai-dev/event-v2\",\n    \"event\": \"DISPATCH_STATE_CHANGED\",\n    \"actor_role\": \"scheduler\",\n    \"operator_kind\": \"chatgpt-web\",\n    \"operator_id\": \"chatgpt-web:audio-kg-g07-k01-closeout\",\n    \"session_ref\": \"audio-kg-k01-closeout-20261127\",\n    \"transport_actor\": \"github:kaicreator-mm\",\n    \"task\": \"#87\",\n    \"pr\": \"#114\",\n    \"sha\": \"6535462705c2639c304663dbfec885857abe85e1\",\n    \"dispatch_id\": \"audio-kg-v010-K01-reviewer-g3\",\n    \"dispatch_state\": \"COMPLETED\",\n    \"status\": \"PASS\"\n  }\n}\n```\nExact scoped PASS #87 7219001217 / PR114 7219002404; merged 09e480edff0ea45f0b4e6bab2dd4dc28db792b44, zero-file compare, actual job_01M8EHRNZ90015YW6CNTC4ERG3. P2 RV05 nonblocking: track separately, batch with later review. No automatic acceptedClaims."
+    },
+    {
+      "issue": 88,
+      "title": "v0.1.0 G07-K07 声学与听觉正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7217340789,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/88#issuecomment-7217340789",
+      "body": "K07 exact R2 independently PASS merged 9d2ed7eb13170b9fec6f29a8c822fb9c9f4d4bfd; actual PR readback merged and compare reviewed→merge zero files job_01M8ECVS7K006KRASJP7C0AFRN. Nonblocking RV03 delegated to documentation-only follow-up https://github.com/kaicreator-mm/audio-kg/issues/110, preserve exact original review; no accepted-claim overlay or runtime release. Controller closes professional module gate, T07 must independently verify follow-up delta and integrated sidecar consumption."
+    },
+    {
+      "issue": 89,
+      "title": "v0.1.0 G07-K05 声乐科学正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7221889641,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/89#issuecomment-7221889641",
+      "body": "<!-- ads:github -->\n```yaml\n{\n  \"schema\": \"ads/github/v3\",\n  \"kind\": \"event\",\n  \"data\": {\n    \"schema\": \"ai-dev/event-v2\",\n    \"event\": \"DISPATCH_STATE_CHANGED\",\n    \"actor_role\": \"scheduler\",\n    \"operator_kind\": \"chatgpt-web\",\n    \"operator_id\": \"chatgpt-web:audio-kg-g07-batch-controller\",\n    \"session_ref\": \"audio-kg-g07-next-r2-20261127\",\n    \"transport_actor\": \"github:kaicreator-mm\",\n    \"task\": \"#89\",\n    \"pr\": \"#120\",\n    \"sha\": \"6d6af163b4292f14517b96aff8a3d27f96fcf488\",\n    \"dispatch_id\": \"audio-kg-v010-K05-reviewer-g2\",\n    \"dispatch_state\": \"COMPLETED\",\n    \"status\": \"PASS\"\n  }\n}\n```\nIndependent scoped PASS 7221232401/7221233735; exact merge 93d7a290da37e25010947a45395dbe999889e325; tree d2b083375c458c40379728cb252e8bea9d7149d8. 2 nonblocking P2 remain OPEN, to be tracked in a single supplemental batch; historical #38/#46 not automatically closed."
+    },
+    {
+      "issue": 90,
+      "title": "v0.1.0 G07-K08 数字音频正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7221893842,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/90#issuecomment-7221893842",
+      "body": "<!-- ads:github -->\n```yaml\n{\n  \"schema\": \"ads/github/v3\",\n  \"kind\": \"event\",\n  \"data\": {\n    \"schema\": \"ai-dev/event-v2\",\n    \"event\": \"DISPATCH_STATE_CHANGED\",\n    \"actor_role\": \"scheduler\",\n    \"operator_kind\": \"chatgpt-web\",\n    \"operator_id\": \"chatgpt-web:audio-kg-g07-batch-controller\",\n    \"session_ref\": \"audio-kg-g07-next-r2-20261127\",\n    \"transport_actor\": \"github:kaicreator-mm\",\n    \"task\": \"#90\",\n    \"pr\": \"#121\",\n    \"sha\": \"b302750d00c4a219af2a97ea71abdcb7c10c76f2\",\n    \"dispatch_id\": \"audio-kg-v010-K08-reviewer-g2\",\n    \"dispatch_state\": \"COMPLETED\",\n    \"status\": \"PASS\"\n  }\n}\n```\nIndependent scoped PASS 7221235082/7221236368; exact merge 2a627cd8c0f3bb301a5693de787537c5982a6fd2; tree 2fe0f492dd687f9a9c0b74878ae88bfd4a17fe48. 3 nonblocking P2 remain OPEN, to be tracked in a single supplemental batch; historical #38/#46 not automatically closed."
+    },
+    {
+      "issue": 91,
+      "title": "v0.1.0 G07-K02 作曲创作正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7222672227,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/91#issuecomment-7222672227",
+      "body": "<!-- ads:github -->\n```yaml\n{\n  \"schema\": \"ads/github/v3\",\n  \"kind\": \"event\",\n  \"data\": {\n    \"schema\": \"ai-dev/event-v2\",\n    \"event\": \"DISPATCH_STATE_CHANGED\",\n    \"actor_role\": \"scheduler\",\n    \"operator_kind\": \"chatgpt-web\",\n    \"operator_id\": \"chatgpt-web:audio-kg-g07-batch-controller\",\n    \"session_ref\": \"audio-kg-g07-next-r2-20261127\",\n    \"transport_actor\": \"github:kaicreator-mm\",\n    \"task\": \"#91\",\n    \"pr\": \"#122\",\n    \"sha\": \"6bcea2c25a31815d7286a0192b4b4d65bdbe1224\",\n    \"dispatch_id\": \"audio-kg-v010-K02-reviewer-g2\",\n    \"dispatch_state\": \"COMPLETED\",\n    \"status\": \"PASS\"\n  }\n}\n```\nIndependent scoped PASS 7222303153/7222304298; exact merge ff7e2eb2e439e4f2d9b26d173530db4fc2cea79b; tree 956973cd6fd5f6168e7fad519be5895232ade29d. One residual nonblocking P2 explicitly open; track in a combined supplemental task. Historical issues not automatically closed."
+    },
+    {
+      "issue": 92,
+      "title": "v0.1.0 G07-K03 编曲配器正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7223415101,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/92#issuecomment-7223415101",
+      "body": "## Independent review writeback — ACCEPT_SCOPED / PASS\\n\\nExact reviewed HEAD and independent review result are recorded in the preceding REVIEW_RESULT comment #7223256525; PR mirror #7223257570. Exact merge commit: 325d4205e609db0ecca09ebb051a03e5f7f487ee.\\n\\nK03 complete module is accepted scoped: 60 propositions, 58 formal claims and navigation-only side records retained as reviewed. One new P2 K03-RV01 remains: reject nonfinite/out-of-range pitch arithmetic and nonfinite derived retune gaps. No actual performance or host validation is claimed.\\n\\nOnly the reviewed bounded scope is accepted. The residual P2 is transferred to supplemental task #129; it does not reopen accepted professional content. Historical findings remain open unless separately closed by their own acceptance evidence."
+    },
+    {
+      "issue": 93,
+      "title": "v0.1.0 G07-K04 演奏表现正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7220150517,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/93#issuecomment-7220150517",
+      "body": "<!-- ads:github -->\n```yaml\n{\n  \"schema\": \"ads/github/v3\",\n  \"kind\": \"event\",\n  \"data\": {\n    \"schema\": \"ai-dev/event-v2\",\n    \"event\": \"DISPATCH_STATE_CHANGED\",\n    \"actor_role\": \"scheduler\",\n    \"operator_kind\": \"chatgpt-web\",\n    \"operator_id\": \"chatgpt-web:audio-kg-g07-batch-controller\",\n    \"session_ref\": \"audio-kg-batch-r2-closeout-20261127\",\n    \"transport_actor\": \"github:kaicreator-mm\",\n    \"task\": \"#93\",\n    \"pr\": \"#118\",\n    \"sha\": \"66d3ebcc7ffccc4ee5c153f8b1003f26e71ad347\",\n    \"dispatch_id\": \"audio-kg-v010-K04-reviewer-g2\",\n    \"dispatch_state\": \"COMPLETED\",\n    \"status\": \"PASS\"\n  }\n}\n```\nExact independent PASS 7220116444 / 7220117443; integrated 5efb0690447373b32bde2e5925cd9241f3695ece; actual merge tree equals precomputed clean merge tree 3af39348cbfeaef4fdcf7b8e11b50ea776802b6e."
+    },
+    {
+      "issue": 94,
+      "title": "v0.1.0 G07-K06 声乐训练正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7223411388,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/94#issuecomment-7223411388",
+      "body": "## Independent review writeback — ACCEPT_SCOPED / PASS\\n\\nExact reviewed HEAD and independent review result are recorded in the preceding REVIEW_RESULT comment #7223252295; PR mirror #7223253213. Exact merge commit: d01a7edf9c4b322c916b5fbd8f13434cb48619ec.\\n\\nK06-RV01 and RV02 are closed in the bounded synthetic observation scope. One new P2 K06-R2-P2-01 remains: compareSeries must reject null/undefined series entries before dereferencing, preserving emergency referral precedence. No actual listening or human operation was performed.\\n\\nOnly the reviewed bounded scope is accepted. The residual P2 is transferred to supplemental task #129; it does not reopen accepted professional content. Historical findings remain open unless separately closed by their own acceptance evidence."
+    },
+    {
+      "issue": 95,
+      "title": "v0.1.0 G07-K14 音乐教育正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7227220847,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/95#issuecomment-7227220847",
+      "body": "K14 G07 closeout: combined R5 PR #136 was independently ACCEPT_SCOPED (Issue #135 comment 7227050226; PR #136 comment 7227050884) and merged into version/v0.1.0 as 796b245f5edc9af7d8221fd39d63496ff2c74000. This combined exact-head review accepted the complete K14 corpus and preserved historical Finding #63 OPEN_GATE_NOT_CLOSED_BY_AUTHOR and all candidate/rights/external-execution boundaries. R5 #135 was added as a native blocker to #95 and is now integrated. Closing this module task as complete; no historical finding or rights gate is being closed."
+    },
+    {
+      "issue": 96,
+      "title": "v0.1.0 G07-K09 音乐制作正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7227221562,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/96#issuecomment-7227221562",
+      "body": "K09 G07 closeout: combined R5 PR #136 was independently ACCEPT_SCOPED (Issue #135 comment 7227050226; PR #136 comment 7227050884) and merged into version/v0.1.0 as 796b245f5edc9af7d8221fd39d63496ff2c74000. This combined exact-head review accepted the complete K09 corpus and preserved historical Finding #49 and seven split-open items. R5 #135 was already a native blocker to #96 and is now integrated. Closing this module task as complete; historical findings/splits, candidate status, rights and external execution boundaries remain unchanged."
+    },
+    {
+      "issue": 97,
+      "title": "v0.1.0 G07-K10 音乐理解与评价正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7229635731,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/97#issuecomment-7229635731",
+      "body": "G07 W5 closeout: PR #138 merged into `version/v0.1.0` as `9a5745be6f99de274d530025716b3beda5fe945a`. Independent exact-head verdict ACCEPT_SCOPED at `1410311afad725ea637bf1e074d4aad142280dca`; 18/18 suites, 7,766/7,766 assertions; P0/P1/P2/P3=0/0/1/0. This task is complete and closed. The sole nonblocking P2-W5-01 is preserved as open follow-up #139; it does not change the accepted scope or promote any claim. K10/K15 claims remain CANDIDATE, acceptedClaims=0; rights UNKNOWN_NO_IMPORT; external execution UNKNOWN_NOT_EXECUTED."
+    },
+    {
+      "issue": 98,
+      "title": "v0.1.0 G07-K15 制作治理与权利正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7229636285,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/98#issuecomment-7229636285",
+      "body": "G07 W5 closeout: PR #138 merged into `version/v0.1.0` as `9a5745be6f99de274d530025716b3beda5fe945a`. Independent exact-head verdict ACCEPT_SCOPED at `1410311afad725ea637bf1e074d4aad142280dca`; 18/18 suites, 7,766/7,766 assertions; P0/P1/P2/P3=0/0/1/0. This task is complete and closed. The sole nonblocking P2-W5-01 is preserved as open follow-up #139; it does not change the accepted scope or promote any claim. K10/K15 claims remain CANDIDATE, acceptedClaims=0; rights UNKNOWN_NO_IMPORT; external execution UNKNOWN_NOT_EXECUTED."
+    },
+    {
+      "issue": 99,
+      "title": "v0.1.0 G07-K11 AI音乐模型正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7241202662,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/99#issuecomment-7241202662",
+      "body": "W6 cumulative ACCEPT_SCOPED adopted from independent review 7241128961; PR #143 exact reviewed HEAD 7205ef99b737c2e31f091f9c602ef7bc913be36c, merge a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b with identical tree fec783908cc9e08158279ce96390d81ef7d03cd3. All 8065 checks independent PASS, P0/P1/P2/P3 0/0/0/0. Candidate assets only, acceptedClaims=0; historical issues remain open."
+    },
+    {
+      "issue": 100,
+      "title": "v0.1.0 G07-K12 工具与编排正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7241973846,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/100#issuecomment-7241973846",
+      "body": "K12 W7 R1 independent ACCEPT_SCOPED adopted from 7241955681. Exact reviewed HEAD=c0d66e253372c0869609ee2aeb70e9e7fbdb44a9, integrated merge=e6aec15ce9b1cd738a846aa5586477d940bcc2b4 TREE=b3d42676d35dfd9c5ab810e19038310c716792c1; 8220/8220 cumulative and 385/385 additional independent assertions, P0/P1/P2/P3=0/0/0/0. Candidate-only, acceptedClaims=0. Modules 16/19, original tasks 17/22. K13/K18/K19 ready for joint W8; no historical closures."
+    },
+    {
+      "issue": 101,
+      "title": "v0.1.0 G07-K16 音乐学与民族音乐学正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7241203288,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/101#issuecomment-7241203288",
+      "body": "W6 cumulative ACCEPT_SCOPED adopted from independent review 7241128961; PR #143 exact reviewed HEAD 7205ef99b737c2e31f091f9c602ef7bc913be36c, merge a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b with identical tree fec783908cc9e08158279ce96390d81ef7d03cd3. All 8065 checks independent PASS, P0/P1/P2/P3 0/0/0/0. Candidate assets only, acceptedClaims=0; historical issues remain open."
+    },
+    {
+      "issue": 102,
+      "title": "v0.1.0 G07-K17 音乐心理与认知正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7241203873,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/102#issuecomment-7241203873",
+      "body": "W6 cumulative ACCEPT_SCOPED adopted from independent review 7241128961; PR #143 exact reviewed HEAD 7205ef99b737c2e31f091f9c602ef7bc913be36c, merge a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b with identical tree fec783908cc9e08158279ce96390d81ef7d03cd3. All 8065 checks independent PASS, P0/P1/P2/P3 0/0/0/0. Candidate assets only, acceptedClaims=0; historical issues remain open."
+    },
+    {
+      "issue": 103,
+      "title": "v0.1.0 G07-K13 语言与本地化正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7243851880,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/103#issuecomment-7243851880",
+      "body": "W8 R1 independent ACCEPT_SCOPED adopted from 7243515414; exact reviewed head 76e141e40dbce1f51635862bc363797e0e7f81c4 integrated merge 7d4068980b750af2beaa97665219e2d950b3cc9e TREE cda3bac9c7b3ee9070dc7cfa610e7ce8f6b58338. 8616/8616 checks, all three findings resolved; P0/P1/P2/P3=0/0/0/0; K18 and F00-R4 preserved. 19/19 formal candidate modules integrated; original tasks 20/22. Candidate-only acceptedClaims=0, historical residuals unchanged. T07 native predecessors to be checked."
+    },
+    {
+      "issue": 104,
+      "title": "v0.1.0 G07-K18 电子音乐与音色设计正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7243852489,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/104#issuecomment-7243852489",
+      "body": "W8 R1 independent ACCEPT_SCOPED adopted from 7243515414; exact reviewed head 76e141e40dbce1f51635862bc363797e0e7f81c4 integrated merge 7d4068980b750af2beaa97665219e2d950b3cc9e TREE cda3bac9c7b3ee9070dc7cfa610e7ce8f6b58338. 8616/8616 checks, all three findings resolved; P0/P1/P2/P3=0/0/0/0; K18 and F00-R4 preserved. 19/19 formal candidate modules integrated; original tasks 20/22. Candidate-only acceptedClaims=0, historical residuals unchanged. T07 native predecessors to be checked."
+    },
+    {
+      "issue": 105,
+      "title": "v0.1.0 G07-K19 现场音频与扩声正式知识资产",
+      "state": "closed",
+      "closureCommentId": 7243853066,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/105#issuecomment-7243853066",
+      "body": "W8 R1 independent ACCEPT_SCOPED adopted from 7243515414; exact reviewed head 76e141e40dbce1f51635862bc363797e0e7f81c4 integrated merge 7d4068980b750af2beaa97665219e2d950b3cc9e TREE cda3bac9c7b3ee9070dc7cfa610e7ce8f6b58338. 8616/8616 checks, all three findings resolved; P0/P1/P2/P3=0/0/0/0; K18 and F00-R4 preserved. 19/19 formal candidate modules integrated; original tasks 20/22. Candidate-only acceptedClaims=0, historical residuals unchanged. T07 native predecessors to be checked."
+    },
+    {
+      "issue": 139,
+      "title": "G07 P2-W5-01 — preserve balanced parentheses in DDEX source URLs",
+      "state": "closed",
+      "closureCommentId": 7241204373,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/139#issuecomment-7241204373",
+      "body": "W6 cumulative ACCEPT_SCOPED adopted from independent review 7241128961; PR #143 exact reviewed HEAD 7205ef99b737c2e31f091f9c602ef7bc913be36c, merge a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b with identical tree fec783908cc9e08158279ce96390d81ef7d03cd3. All 8065 checks independent PASS, P0/P1/P2/P3 0/0/0/0. Candidate assets only, acceptedClaims=0; historical issues remain open."
+    },
+    {
+      "issue": 140,
+      "title": "v0.1.0 G07-F00-R2 — preserve direct/support/optional CQ roles for K11/K16/K17",
+      "state": "closed",
+      "closureCommentId": 7241204937,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/140#issuecomment-7241204937",
+      "body": "W6 cumulative ACCEPT_SCOPED adopted from independent review 7241128961; PR #143 exact reviewed HEAD 7205ef99b737c2e31f091f9c602ef7bc913be36c, merge a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b with identical tree fec783908cc9e08158279ce96390d81ef7d03cd3. All 8065 checks independent PASS, P0/P1/P2/P3 0/0/0/0. Candidate assets only, acceptedClaims=0; historical issues remain open."
+    },
+    {
+      "issue": 141,
+      "title": "v0.1.0 G07-F00-R3 — qualify exact embedded K11 source rows without relaxing source anchors",
+      "state": "closed",
+      "closureCommentId": 7241205720,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/141#issuecomment-7241205720",
+      "body": "W6 cumulative ACCEPT_SCOPED adopted from independent review 7241128961; PR #143 exact reviewed HEAD 7205ef99b737c2e31f091f9c602ef7bc913be36c, merge a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b with identical tree fec783908cc9e08158279ce96390d81ef7d03cd3. All 8065 checks independent PASS, P0/P1/P2/P3 0/0/0/0. Candidate assets only, acceptedClaims=0; historical issues remain open."
+    },
+    {
+      "issue": 142,
+      "title": "G07 P2-W6-01 — preserve S340 balanced-parenthesis source locator and dependent identity pins",
+      "state": "closed",
+      "closureCommentId": 7241206303,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/142#issuecomment-7241206303",
+      "body": "W6 cumulative ACCEPT_SCOPED adopted from independent review 7241128961; PR #143 exact reviewed HEAD 7205ef99b737c2e31f091f9c602ef7bc913be36c, merge a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b with identical tree fec783908cc9e08158279ce96390d81ef7d03cd3. All 8065 checks independent PASS, P0/P1/P2/P3 0/0/0/0. Candidate assets only, acceptedClaims=0; historical issues remain open."
+    },
+    {
+      "issue": 145,
+      "title": "G07 F00-R4: exact frozen CQ roles for K12/K13/K18/K19",
+      "state": "closed",
+      "closureCommentId": 7243853660,
+      "closureCommentUrl": "https://github.com/kaicreator-mm/audio-kg/issues/145#issuecomment-7243853660",
+      "body": "W8 R1 independent ACCEPT_SCOPED adopted from 7243515414; exact reviewed head 76e141e40dbce1f51635862bc363797e0e7f81c4 integrated merge 7d4068980b750af2beaa97665219e2d950b3cc9e TREE cda3bac9c7b3ee9070dc7cfa610e7ce8f6b58338. 8616/8616 checks, all three findings resolved; P0/P1/P2/P3=0/0/0/0; K18 and F00-R4 preserved. 19/19 formal candidate modules integrated; original tasks 20/22. Candidate-only acceptedClaims=0, historical residuals unchanged. T07 native predecessors to be checked."
+    }
+  ],
+  "historicalOpenIssues": [
+    {
+      "issue": 28,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/28"
+    },
+    {
+      "issue": 32,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/32"
+    },
+    {
+      "issue": 35,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/35"
+    },
+    {
+      "issue": 38,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/38"
+    },
+    {
+      "issue": 41,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/41"
+    },
+    {
+      "issue": 46,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/46"
+    },
+    {
+      "issue": 49,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/49"
+    },
+    {
+      "issue": 52,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/52"
+    },
+    {
+      "issue": 55,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/55"
+    },
+    {
+      "issue": 60,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/60"
+    },
+    {
+      "issue": 63,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/63"
+    },
+    {
+      "issue": 68,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/68"
+    },
+    {
+      "issue": 71,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/71"
+    },
+    {
+      "issue": 74,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/74"
+    },
+    {
+      "issue": 77,
+      "state": "open",
+      "url": "https://github.com/kaicreator-mm/audio-kg/issues/77"
+    }
+  ],
+  "latestOwningPaths": [
+    {
+      "owner": "K01",
+      "latestOwningPathsCommit": "5a510ca64874efb81c075191b0790c48d4d24747",
+      "packBlob": "4be5d1a1a930cddab96b33f3dac801ca38324509",
+      "manifestBlob": "3c494ff57787199ad9741415754e457994bfabf6"
+    },
+    {
+      "owner": "K02",
+      "latestOwningPathsCommit": "7a2444f2d3a74bdc6635deaf05fd79fafc0184af",
+      "packBlob": "574f3d398afb4bd2ea177cd63314e7cd171195df",
+      "manifestBlob": "c6d2cae393e8e529dc2cfcfeacf560f89bb1665b"
+    },
+    {
+      "owner": "K03",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "5a26d36ef1d00a6a454734abfd605b93241b43e7",
+      "manifestBlob": "9951063806052052a9b8245638bc31e7c7553b65"
+    },
+    {
+      "owner": "K04",
+      "latestOwningPathsCommit": "5efb0690447373b32bde2e5925cd9241f3695ece",
+      "packBlob": "c66bf3bb2d6250bd842c37726f8e9b75381e163a",
+      "manifestBlob": "845d6c5e3b8a38a230768985c64929015cfb3879"
+    },
+    {
+      "owner": "K05",
+      "latestOwningPathsCommit": "a32be2b230070aa755c9195bc74d16dcdec7b291",
+      "packBlob": "8ed6ac2e848478309341dbdf4fe0816a061743a7",
+      "manifestBlob": "ff5f2b05925b2b5b1a1d54c929e977c74e64d35c"
+    },
+    {
+      "owner": "K06",
+      "latestOwningPathsCommit": "166eedccf1175c02453dfb1bf36e8c6d3737bf8f",
+      "packBlob": "8235e1bb4f89a7e013d4dd8714e1396044329fd6",
+      "manifestBlob": "c3f936a30db5c5a94614342cd74a59c7392eab0a"
+    },
+    {
+      "owner": "K07",
+      "latestOwningPathsCommit": "337367f48dc3c5c454828cf064f7442f21894481",
+      "packBlob": "e991903d604fbd31753acdf086f1769473daec6b",
+      "manifestBlob": "0de101c9195b5b5c39f29c746ed981540936fef4"
+    },
+    {
+      "owner": "K08",
+      "latestOwningPathsCommit": "166eedccf1175c02453dfb1bf36e8c6d3737bf8f",
+      "packBlob": "b763ed14a0c243d1db08b4650791a5901a409ee0",
+      "manifestBlob": "fc4f8a3455eae593a9ab9ecf756704a291d8ef16"
+    },
+    {
+      "owner": "K09",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "80296de0395f3419e682f7147995e11a65f5f107",
+      "manifestBlob": "5c55cd40ca1ede49fb185eaf45c22a8737244a49"
+    },
+    {
+      "owner": "K10",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "ecda82beb2bd792f7de4c4105fd81419a4e2f954",
+      "manifestBlob": "b1e8b678c23301ec044a2c60a6aaa70e95ac9564"
+    },
+    {
+      "owner": "K11",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "5835a93010f7f4c3db0fb0f5d188f86b75804ac9",
+      "manifestBlob": "d026e69e78b62dc362f4bbda4962ead6d6b1cee8"
+    },
+    {
+      "owner": "K12",
+      "latestOwningPathsCommit": "e6aec15ce9b1cd738a846aa5586477d940bcc2b4",
+      "packBlob": "4e5a60daa6f0072998e3c2a9114d5c9f633ba561",
+      "manifestBlob": "98a9663634de8e83a92f7cf75358d01cf213342b"
+    },
+    {
+      "owner": "K13",
+      "latestOwningPathsCommit": "7d4068980b750af2beaa97665219e2d950b3cc9e",
+      "packBlob": "534bda5753dae3412e0d7108c294472ffad3f467",
+      "manifestBlob": "e2cdd025a39929f46f7732859f35bd28a39ae436"
+    },
+    {
+      "owner": "K14",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "279778ad6e4d835f6f4b6bdaa12f36b4e7fce978",
+      "manifestBlob": "ee596ce95fb7b7535b2759f7b06debb0be9ed470"
+    },
+    {
+      "owner": "K15",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "0a82f4cde19c7f8ed18a2bad05210ef4c32e2488",
+      "manifestBlob": "c809f6bf48184444f9e1edf19fea7d622e4dda7d"
+    },
+    {
+      "owner": "K16",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "e50ee4139be670e88d505bc983c5a46bd5d5024b",
+      "manifestBlob": "720a9451dae421ac520247ea925ccd9b0b6db895"
+    },
+    {
+      "owner": "K17",
+      "latestOwningPathsCommit": "a0a5bf5aaa913e8b6d1b65e8500a43b57d61226b",
+      "packBlob": "c167fc7efbd45a598747d663f8642cdb3716f748",
+      "manifestBlob": "2e7a273e6293f91d80e4b538d50d9ff2558690ab"
+    },
+    {
+      "owner": "K18",
+      "latestOwningPathsCommit": "7d4068980b750af2beaa97665219e2d950b3cc9e",
+      "packBlob": "75389933ceba87e70feb1be12662baf27ec31c1c",
+      "manifestBlob": "5600574efc863dce88939408095cf0e9a5d316e0"
+    },
+    {
+      "owner": "K19",
+      "latestOwningPathsCommit": "7d4068980b750af2beaa97665219e2d950b3cc9e",
+      "packBlob": "196dea024e69cfa13e52b978900d2749642f876b",
+      "manifestBlob": "4c77bf92fa485a0730d78b18932eb5de48fad677"
+    }
+  ],
+  "scope": "Live closure comments and historical status readback, not by itself independent exact-head applicability verdict; followup scope reconciliation required."
+}
